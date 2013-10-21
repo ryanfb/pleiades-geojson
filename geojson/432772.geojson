@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "title": "Castrum Novum",
+  "id": "432772",
+  "description": "An ancient place, cited: BAtlas 44 A1 Castrum Novum",
+  "bbox": [
+    11.8333333,
+    42.0333333,
+    11.8333333,
+    42.0333333
+  ],
+  "reprPoint": [
+    11.8333333,
+    42.0333333
+  ],
+  "names": [
+    "Castrum Novum"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5,
+              42.0
+            ],
+            [
+              11.5,
+              42.5
+            ],
+            [
+              12.0,
+              42.5
+            ],
+            [
+              12.0,
+              42.0
+            ],
+            [
+              11.5,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/432772/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8333333,
+          42.0333333
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, village precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/432772/dare-location"
+      }
+    }
+  ]
+}
