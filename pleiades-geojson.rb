@@ -58,7 +58,7 @@ CSV.foreach(locations_csv, :headers => true) do |row|
 end
 
 places.each_key do |id|
-	File.open("#{id}.geojson","w") do |f|
+	File.open("geojson/#{id}.geojson","w") do |f|
 		f.write(JSON.pretty_generate(place_to_geojson(places[id])))
 	end
 end
