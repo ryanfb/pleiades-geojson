@@ -6,3 +6,4 @@ Script and data for generating [GeoJSON](http://www.geojson.org/geojson-spec.htm
     ./pleiades-geojson.rb pleiades-places-latest.csv pleiades-names-latest.csv pleiades-locations-latest.csv
 
 Will write out a `.geojson` file for each place id, in the `geojson/` directory.
+The script will also write out a `name_index.json` file, used for [Pleiades Static Search](https://github.com/ryanfb/pleiades-static-search).

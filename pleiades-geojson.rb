@@ -57,8 +57,19 @@ CSV.foreach(locations_csv, :headers => true) do |row|
 	end
 end
 
+names = []
 places.each_key do |id|
 	File.open("geojson/#{id}.geojson","w") do |f|
 		f.write(JSON.pretty_generate(place_to_geojson(places[id])))
 	end
+
+	unless places[id]["names"].nil?
+		places[id]["names"].each do |name|
+			names << [name["title"], id]
+		end
+	end
+end
+
+File.open("name_index.json", "w") do |f|
+	f.write(JSON.generate(names))
 end
