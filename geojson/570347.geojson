@@ -2,16 +2,19 @@
   "type": "FeatureCollection",
   "title": "Kenchreai",
   "id": "570347",
-  "description": "An ancient place, cited: BAtlas 58 D2 Kenchreai (1)",
+  "description": "The ancient Saronic Gulf port of Corinth (near modern Kechries in Greece)",
   "bbox": [
-    22.992532,
+    22.9875,
     37.88239,
     22.992532,
-    37.88239
+    37.885008
+  ],
+  "connectsWith": [
+    "570654"
   ],
   "reprPoint": [
-    22.992532,
-    37.88239
+    22.9908282,
+    37.8829328
   ],
   "names": [
     "Kenchreai"
@@ -32,6 +35,40 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/570347/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.989045,
+          37.882486
+        ]
+      },
+      "id": "darmc-location-4116",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 4116",
+        "link": "http://pleiades.stoa.org/places/570347/darmc-location-4116"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9875,
+          37.885008
+        ]
+      },
+      "id": "darmc-location-24060",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 24060",
+        "link": "http://pleiades.stoa.org/places/570347/darmc-location-24060"
       }
     }
   ]
