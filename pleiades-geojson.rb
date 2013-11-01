@@ -64,8 +64,8 @@ places.each_key do |id|
 	end
 
 	unless places[id]["names"].nil?
-		places[id]["names"].each do |name|
-			names << [name["title"], id]
+		places[id]["names"].map{|n| n["title"]}.uniq.each do |name|
+			names << [name, id]
 		end
 	end
 end
