@@ -1,17 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Maniolai? Inss.",
+  "title": "Maniolai (islands)",
   "id": "50118",
-  "description": "An ancient place, cited: BAtlas 5 G4 Maniolai? Inss.",
+  "description": "Islands mentioned in Ptolemy. They may correspond to the modern Andaman islands in the Bay of Bengal.",
   "bbox": [
-    90.0,
-    10.0,
-    95.0,
-    15.0
+    92.4849669,
+    10.7065413,
+    92.9203985,
+    13.2296072
+  ],
+  "connectsWith": [
+    "39352"
   ],
   "reprPoint": [
-    92.5,
-    12.5
+    92.73468135,
+    12.109964625
   ],
   "names": [
     "Maniolai"
@@ -19,39 +22,53 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              90.0,
-              10.0
-            ],
-            [
-              90.0,
-              15.0
-            ],
-            [
-              95.0,
-              15.0
-            ],
-            [
-              95.0,
-              10.0
-            ],
-            [
-              90.0,
-              10.0
-            ]
-          ]
+          92.9203985,
+          13.2296072
         ]
       },
-      "id": "batlas-location",
+      "id": "north-andaman-island",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50118/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "North Andaman Island",
+        "link": "http://pleiades.stoa.org/places/50118/north-andaman-island"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4849669,
+          10.7065413
+        ]
+      },
+      "id": "little-andaman-island",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Little Andaman Island",
+        "link": "http://pleiades.stoa.org/places/50118/little-andaman-island"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.83336,
+          12.50371
+        ]
+      },
+      "id": "middle-andaman-island",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Middle Andaman Island",
+        "link": "http://pleiades.stoa.org/places/50118/middle-andaman-island"
       }
     }
   ]

@@ -4,14 +4,14 @@
   "id": "550698",
   "description": "An ancient place, cited: BAtlas 56 C3 Leukai Inss.",
   "bbox": [
-    26.0,
-    39.0,
-    26.5,
-    39.5
+    26.433319,
+    39.304273,
+    26.448796,
+    39.311795
   ],
   "reprPoint": [
-    26.25,
-    39.25
+    26.4410575,
+    39.308034
   ],
   "names": [
     "Leukai"
@@ -19,39 +19,36 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              26.0,
-              39.0
-            ],
-            [
-              26.0,
-              39.5
-            ],
-            [
-              26.5,
-              39.5
-            ],
-            [
-              26.5,
-              39.0
-            ],
-            [
-              26.0,
-              39.0
-            ]
-          ]
+          26.448796,
+          39.311795
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-panagia",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550698/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Panagia",
+        "link": "http://pleiades.stoa.org/places/550698/location-of-panagia"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.433319,
+          39.304273
+        ]
+      },
+      "id": "location-of-barbalias",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Barbalias",
+        "link": "http://pleiades.stoa.org/places/550698/location-of-barbalias"
       }
     }
   ]
