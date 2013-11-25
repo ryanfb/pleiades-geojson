@@ -23,39 +23,53 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              90.0,
-              5.0
-            ],
-            [
-              90.0,
-              10.0
-            ],
-            [
-              95.0,
-              10.0
-            ],
-            [
-              95.0,
-              5.0
-            ],
-            [
-              90.0,
-              5.0
-            ]
-          ]
+          92.7745986,
+          9.1765923
         ]
       },
-      "id": "batlas-location",
+      "id": "car-nicobar-island",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49903/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Car Nicobar Island",
+        "link": "http://pleiades.stoa.org/places/49903/car-nicobar-island"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.114344,
+          8.2658973
+        ]
+      },
+      "id": "teressa-island",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Teressa Island",
+        "link": "http://pleiades.stoa.org/places/49903/teressa-island"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.8149758,
+          7.0233107
+        ]
+      },
+      "id": "great-nicobar-island",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Great Nicobar Island",
+        "link": "http://pleiades.stoa.org/places/49903/great-nicobar-island"
       }
     }
   ]

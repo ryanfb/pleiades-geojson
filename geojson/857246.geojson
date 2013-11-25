@@ -1,17 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Nesis? fl.",
+  "title": "Nesis? (river)",
   "id": "857246",
-  "description": "An ancient place, cited: BAtlas 87 F1 Nesis? fl.",
+  "description": "Nesis? fl., a river of the western Caucasus flowing into the Black Sea.",
   "bbox": [
     39.9240115521,
     43.4157128755,
-    39.9240115521,
-    43.4157128755
+    39.9501425,
+    43.4354538
+  ],
+  "connectsWith": [
+    "1224"
   ],
   "reprPoint": [
-    39.9240115521,
-    43.4157128755
+    39.9370770261,
+    43.4255833377
   ],
   "names": [
     "Nesis"
@@ -19,39 +22,36 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              40.0,
-              43.0
-            ],
-            [
-              40.0,
-              44.0
-            ],
-            [
-              41.0,
-              44.0
-            ],
-            [
-              41.0,
-              43.0
-            ],
-            [
-              40.0,
-              43.0
-            ]
-          ]
+          39.9501425,
+          43.4354538
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-mzymta-river",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid F1, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857246/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Mzymta (river)",
+        "link": "http://pleiades.stoa.org/places/857246/location-of-mzymta-river"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9240115521069,
+          43.4157128754657
+        ]
+      },
+      "id": "awmc-representative-position-for-nesis-fl",
+      "type": "Feature",
+      "properties": {
+        "description": "AWMC representative point for the mouth of Nesis? fl. at 1 : 1 million scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for Nesis? fl.",
+        "link": "http://pleiades.stoa.org/places/857246/awmc-representative-position-for-nesis-fl"
       }
     }
   ]
