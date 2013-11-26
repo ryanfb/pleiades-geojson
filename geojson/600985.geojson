@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Unnamed bridge",
   "id": "600985",
-  "description": "An ancient place, cited: BAtlas 61 H2 unnamed bridge (at Antiochia ad Maeandrum)",
+  "description": "An ancient bridge located near Antiochia ad Maeandrum.",
   "bbox": [
     28.57441,
     37.90436,
@@ -16,39 +16,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              28.5,
-              37.5
-            ],
-            [
-              28.5,
-              38.0
-            ],
-            [
-              29.0,
-              38.0
-            ],
-            [
-              29.0,
-              37.5
-            ],
-            [
-              28.5,
-              37.5
-            ]
-          ]
+          28.57441,
+          37.90436
         ]
       },
-      "id": "undetermined",
+      "id": "awmc-representative-position",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/600985/undetermined"
+        "description": "AWMC representative point for the bridge at 1 : 500,000 scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position",
+        "link": "http://pleiades.stoa.org/places/600985/awmc-representative-position"
       }
     }
   ]

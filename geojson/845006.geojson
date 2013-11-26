@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "title": "Lykos fl.",
+  "title": "Lykos (river)",
   "id": "845006",
   "description": "An ancient place, cited: BAtlas 86 B2 Lykos fl.",
   "bbox": [
@@ -8,6 +8,9 @@
     41.24817,
     31.40575,
     41.24817
+  ],
+  "connectsWith": [
+    "1224"
   ],
   "reprPoint": [
     31.40575,
@@ -19,39 +22,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.0,
-              41.0
-            ],
-            [
-              31.0,
-              42.0
-            ],
-            [
-              32.0,
-              42.0
-            ],
-            [
-              32.0,
-              41.0
-            ],
-            [
-              31.0,
-              41.0
-            ]
-          ]
+          31.40575,
+          41.24817
         ]
       },
-      "id": "undetermined",
+      "id": "awmc-representative-position-for-lykos-fl",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/845006/undetermined"
+        "description": "AWMC representative position for the mouth of Lykos fl. at 1 : 1 million scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for Lykos (river)",
+        "link": "http://pleiades.stoa.org/places/845006/awmc-representative-position-for-lykos-fl"
       }
     }
   ]

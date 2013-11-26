@@ -22,39 +22,53 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.5,
-              38.5
-            ],
-            [
-              20.5,
-              39.0
-            ],
-            [
-              21.0,
-              39.0
-            ],
-            [
-              21.0,
-              38.5
-            ],
-            [
-              20.5,
-              38.5
-            ]
-          ]
+          20.9067516,
+          38.5600538
         ]
       },
-      "id": "batlas-location",
+      "id": "kastos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531113/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Kastos",
+        "link": "http://pleiades.stoa.org/places/531113/kastos"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8818604,
+          38.6179715
+        ]
+      },
+      "id": "kalamos",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Kalamos",
+        "link": "http://pleiades.stoa.org/places/531113/kalamos"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.768601,
+          38.6472447
+        ]
+      },
+      "id": "meganisi",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Meganisi",
+        "link": "http://pleiades.stoa.org/places/531113/meganisi"
       }
     }
   ]
