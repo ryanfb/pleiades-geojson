@@ -2,16 +2,16 @@
   "type": "FeatureCollection",
   "title": "Lougeon Helos",
   "id": "197359",
-  "description": "An ancient place, cited: BAtlas 20 B4 Lougeon Helos",
+  "description": "Lake Cerknica is a an intermittent lake in southwestern Slovenia.",
   "bbox": [
-    14.3881,
-    45.7565,
+    14.3769636,
+    45.7410738,
     14.3881,
     45.7565
   ],
   "reprPoint": [
-    14.3881,
-    45.7565
+    14.3825318,
+    45.7487869
   ],
   "names": [
     "Lougeon Helos"
@@ -19,39 +19,36 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              14.0,
-              45.0
-            ],
-            [
-              14.0,
-              46.0
-            ],
-            [
-              15.0,
-              46.0
-            ],
-            [
-              15.0,
-              45.0
-            ],
-            [
-              14.0,
-              45.0
-            ]
-          ]
+          14.3769636,
+          45.7410738
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-cerknisko-jezero",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197359/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Cerkniško jezero",
+        "link": "http://pleiades.stoa.org/places/197359/location-of-cerknisko-jezero"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3881,
+          45.7565
+        ]
+      },
+      "id": "awmc-representative-position-for-lougeon-helos",
+      "type": "Feature",
+      "properties": {
+        "description": "AWMC representative point for Lougeon Helos at 1 : 5,000,000 sclae",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for Lougeon Helos",
+        "link": "http://pleiades.stoa.org/places/197359/awmc-representative-position-for-lougeon-helos"
       }
     }
   ]

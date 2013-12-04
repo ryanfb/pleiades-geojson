@@ -4,14 +4,14 @@
   "id": "59801",
   "description": "An ancient place, cited: BAtlas 6 C5 Eirinon",
   "bbox": [
-    70.0,
-    20.0,
-    75.0,
-    25.0
+    70.943,
+    23.99,
+    70.943,
+    23.99
   ],
   "reprPoint": [
-    72.5,
-    22.5
+    70.943,
+    23.99
   ],
   "names": [
     "Eirinon"
@@ -19,39 +19,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              70.0,
-              20.0
-            ],
-            [
-              70.0,
-              25.0
-            ],
-            [
-              75.0,
-              25.0
-            ],
-            [
-              75.0,
-              20.0
-            ],
-            [
-              70.0,
-              20.0
-            ]
-          ]
+          70.943,
+          23.99
         ]
       },
-      "id": "batlas-location",
+      "id": "awmc-representative-position",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59801/batlas-location"
+        "description": "Representative point from the AWMC for Eirinon marsh at 1:5,000,000 scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for Eirinon",
+        "link": "http://pleiades.stoa.org/places/59801/awmc-representative-position"
       }
     }
   ]

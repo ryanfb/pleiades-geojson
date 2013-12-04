@@ -2,12 +2,15 @@
   "type": "FeatureCollection",
   "title": "Saos M.",
   "id": "501600",
-  "description": "An ancient place, cited: BAtlas 51 F4 Saos M.",
+  "description": "Saos M., a mountain on the island of Samothrace rising to 1,611 m. above sea level.",
   "bbox": [
     25.5874978,
     40.4616628,
     25.5874978,
     40.4616628
+  ],
+  "connectsWith": [
+    "501597"
   ],
   "reprPoint": [
     25.5874978,
@@ -19,39 +22,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              25.5,
-              40.0
-            ],
-            [
-              25.5,
-              40.5
-            ],
-            [
-              26.0,
-              40.5
-            ],
-            [
-              26.0,
-              40.0
-            ],
-            [
-              25.5,
-              40.0
-            ]
-          ]
+          25.5874978,
+          40.4616628
         ]
       },
-      "id": "batlas-location",
+      "id": "saos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501600/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Saos",
+        "link": "http://pleiades.stoa.org/places/501600/saos"
       }
     }
   ]
