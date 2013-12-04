@@ -4,14 +4,14 @@
   "id": "857116",
   "description": "An ancient place, cited: BAtlas 87 F1 Epagerritae",
   "bbox": [
-    40.0,
-    43.0,
-    41.0,
-    44.0
+    40.8334604669,
+    43.5280711472,
+    40.8334604669,
+    43.5280711472
   ],
   "reprPoint": [
-    40.5,
-    43.5
+    40.8334604669,
+    43.5280711472
   ],
   "names": [
     "Epagerritae"
@@ -19,39 +19,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              40.0,
-              43.0
-            ],
-            [
-              40.0,
-              44.0
-            ],
-            [
-              41.0,
-              44.0
-            ],
-            [
-              41.0,
-              43.0
-            ],
-            [
-              40.0,
-              43.0
-            ]
-          ]
+          40.8334604669258,
+          43.5280711471706
         ]
       },
-      "id": "batlas-location",
+      "id": "awmc-representative-position-for-epagerritae",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid F1, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857116/batlas-location"
+        "description": "AWMC representative point for the label of the Epagerritae in the BAtlas at 1 : 1 million scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for Epagerritae",
+        "link": "http://pleiades.stoa.org/places/857116/awmc-representative-position-for-epagerritae"
       }
     }
   ]
