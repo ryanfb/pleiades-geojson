@@ -2,12 +2,12 @@
   "type": "FeatureCollection",
   "title": "Byzacena",
   "id": "991345",
-  "description": "An ancient place, cited: BAtlas 101 H5 Byzacena",
+  "description": "Byzacena was a Roman province in what is now Tunisia.",
   "bbox": [
-    5.0,
-    30.0,
-    10.0,
-    35.0
+    7.5,
+    32.5,
+    7.5,
+    32.5
   ],
   "reprPoint": [
     7.5,
@@ -19,37 +19,17 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              5.0,
-              30.0
-            ],
-            [
-              5.0,
-              35.0
-            ],
-            [
-              10.0,
-              35.0
-            ],
-            [
-              10.0,
-              30.0
-            ],
-            [
-              5.0,
-              30.0
-            ]
-          ]
+          7.5,
+          32.5
         ]
       },
       "id": "batlas-location",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
+        "location_precision": "precise",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/991345/batlas-location"
       }
