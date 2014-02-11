@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "title": "Nisyros Ins.",
+  "title": "Nisyros (island)",
   "id": "599830",
   "description": "An ancient place, cited: BAtlas 61 E4 Nisyros Ins.",
   "bbox": [
@@ -8,6 +8,9 @@
     36.583333,
     27.166667,
     36.583333
+  ],
+  "connectsWith": [
+    "560221"
   ],
   "reprPoint": [
     27.166667,
@@ -19,39 +22,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              27.0,
-              36.5
-            ],
-            [
-              27.0,
-              37.0
-            ],
-            [
-              27.5,
-              37.0
-            ],
-            [
-              27.5,
-              36.5
-            ],
-            [
-              27.0,
-              36.5
-            ]
-          ]
+          27.166667,
+          36.583333
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-nisyros-ins",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599830/undetermined"
+        "description": "Coordinates after GeoHack, verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "location of Nisyros (island)",
+        "link": "http://pleiades.stoa.org/places/599830/location-of-nisyros-ins"
       }
     }
   ]
