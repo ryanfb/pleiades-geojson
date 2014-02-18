@@ -2,23 +2,37 @@
   "type": "FeatureCollection",
   "title": "Castrum Invi",
   "id": "438710",
-  "description": "An ancient place, cited: BAtlas 44 unlocated Castrum Invi",
+  "description": "An Italic site located at the mouth of the Incastro river and in the territory of Ardea.",
+  "bbox": [
+    12.5113,
+    41.5803,
+    12.5113,
+    41.5803
+  ],
   "reprPoint": [
-    14.75,
-    40.75
+    12.5113,
+    41.5803
   ],
   "names": [
+    "Foce del Fosso dell’incastro",
     "Castrum Invi"
   ],
   "features": [
     {
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5113,
+          41.5803
+        ]
+      },
+      "id": "location-of-castrum-inui",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438710/batlas-location"
+        "description": "position determined via Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "location of Castrum Inui",
+        "link": "http://pleiades.stoa.org/places/438710/location-of-castrum-inui"
       }
     }
   ]
