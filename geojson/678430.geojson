@@ -5,16 +5,16 @@
   "description": "The Sea of Galilee, the largest freshwater lake in Israel.",
   "bbox": [
     35.583333,
-    32.833333,
-    35.583333,
+    32.8138046,
+    35.590564,
     32.833333
   ],
   "connectsWith": [
     "687932"
   ],
   "reprPoint": [
-    35.583333,
-    32.833333
+    35.5869485,
+    32.8235688
   ],
   "names": [
     "Tiberiadis Mare",
@@ -23,39 +23,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              35.5,
-              32.5
-            ],
-            [
-              35.5,
-              33.0
-            ],
-            [
-              36.0,
-              33.0
-            ],
-            [
-              36.0,
-              32.5
-            ],
-            [
-              35.5,
-              32.5
-            ]
-          ]
+          35.590564,
+          32.8138046
         ]
       },
-      "id": "undetermined",
+      "id": "sea-of-galilee",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678430/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Sea of Galilee",
+        "link": "http://pleiades.stoa.org/places/678430/sea-of-galilee"
       }
     }
   ]
