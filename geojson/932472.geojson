@@ -19,13 +19,20 @@
   ],
   "features": [
     {
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2,
+          25.8
+        ]
+      },
+      "id": "location-of-mykoi-macae",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932472/batlas-location"
+        "description": "Representative point location, based on Barrington Atlas position.",
+        "location_precision": "precise",
+        "title": "Location of the Mykoi/Macae",
+        "link": "http://pleiades.stoa.org/places/932472/location-of-mykoi-macae"
       }
     }
   ]
