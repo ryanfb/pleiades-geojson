@@ -1,22 +1,42 @@
 {
   "type": "FeatureCollection",
-  "title": "Chalke Ins.",
+  "title": "Chalke (island)",
   "id": "589742",
-  "description": "An ancient place, cited: BAtlas 60 F3 Chalke Ins.",
+  "description": "An island west of Rhodes (modern Halki).",
   "bbox": [
-    27.625099,
+    27.574826,
     36.226496,
     27.625099,
-    36.226496
+    36.228735
+  ],
+  "connectsWith": [
+    "560221"
   ],
   "reprPoint": [
-    27.625099,
-    36.226496
+    27.5999625,
+    36.2276155
   ],
   "names": [
     "Chalke"
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.574826,
+          36.228735
+        ]
+      },
+      "id": "chalcia",
+      "type": "Feature",
+      "properties": {
+        "description": "position derived from Google Earth observation, confirmed via OSM.",
+        "location_precision": "precise",
+        "title": "Chalcia",
+        "link": "http://pleiades.stoa.org/places/589742/chalcia"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
