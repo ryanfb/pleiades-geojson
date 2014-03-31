@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Roman Bridge at Moulin de Boisseron",
   "id": "149494",
-  "description": "An ancient place, cited: BAtlas 15 C2 unnamed bridge (Moulin de Boisseron)",
+  "description": "Ancient name unknown. Located in modern Boisseron, France.",
   "bbox": [
     4.0814378,
     43.7615566,
@@ -16,39 +16,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              4.0,
-              43.5
-            ],
-            [
-              4.0,
-              44.0
-            ],
-            [
-              4.5,
-              44.0
-            ],
-            [
-              4.5,
-              43.5
-            ],
-            [
-              4.0,
-              43.5
-            ]
-          ]
+          4.0814378,
+          43.7615566
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/149494/undetermined"
+        "description": "Representative polygon geometry derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/149494/osm-location"
       }
     }
   ]

@@ -1,57 +1,44 @@
 {
   "type": "FeatureCollection",
-  "title": "Cervaria Pr.",
+  "title": "Cervaria",
   "id": "246328",
-  "description": "An ancient place, cited: BAtlas 25 I3 Cervaria Pr.",
+  "description": "A promontory on the Mediterranean coast of modern France, at the Spanish border. It was described by Pomponius Mela as marking \"the boundary of Gallia\" in Roman times. Modern Cap Cerbère.",
   "bbox": [
     3.1766232,
     42.4395125,
     3.1766232,
     42.4395125
   ],
+  "connectsWith": [
+    "993",
+    "981537",
+    "981551"
+  ],
   "reprPoint": [
     3.1766232,
     42.4395125
   ],
   "names": [
-    "Cervaria Pr."
+    "Cervaria",
+    "Cap Cerbère",
+    "Cervera"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              3.0,
-              42.0
-            ],
-            [
-              3.0,
-              43.0
-            ],
-            [
-              4.0,
-              43.0
-            ],
-            [
-              4.0,
-              42.0
-            ],
-            [
-              3.0,
-              42.0
-            ]
-          ]
+          3.1766232,
+          42.4395125
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246328/batlas-location"
+        "description": "Representative point location for the modern Cap Cerbère, derived from an OpenStreetMap node.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/246328/osm-location"
       }
     }
   ]

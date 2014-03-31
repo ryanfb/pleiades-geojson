@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "title": "Lounarion Akron",
   "id": "246474",
-  "description": "An ancient place, cited: BAtlas 25 I4 Lounarion Akron",
+  "description": "An ancient promontory listed in Ptolemy's Geography. Thought to be the modern Cap Begur on the so-called Costa Brava: a section of the  Mediterranean coast of modern Spain (Catalunya).",
   "bbox": [
     3.2318419,
     41.9501869,
@@ -14,44 +14,25 @@
     41.9501869
   ],
   "names": [
-    "Lounarion Akron"
+    "Lounarion Akron",
+    "Cap Begur"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              3.0,
-              41.0
-            ],
-            [
-              3.0,
-              42.0
-            ],
-            [
-              4.0,
-              42.0
-            ],
-            [
-              4.0,
-              41.0
-            ],
-            [
-              3.0,
-              41.0
-            ]
-          ]
+          3.2318419,
+          41.9501869
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246474/batlas-location"
+        "description": "Representative polygonal geometry for the modern Cap Begur in eastern Spain, derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/246474/osm-location"
       }
     }
   ]

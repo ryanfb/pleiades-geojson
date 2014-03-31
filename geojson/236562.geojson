@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
-  "title": "Nebis fl.",
+  "title": "Nebis River",
   "id": "236562",
-  "description": "An ancient place, cited: BAtlas 24 C3 Nebis fl.",
+  "description": "The modern Rio Neiva in Portugal.",
   "bbox": [
     -8.8077202,
     41.6115824,
@@ -14,44 +14,25 @@
     41.6115824
   ],
   "names": [
+    "Rio Neiva",
     "Nebis"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -9.0,
-              41.0
-            ],
-            [
-              -9.0,
-              42.0
-            ],
-            [
-              -8.0,
-              42.0
-            ],
-            [
-              -8.0,
-              41.0
-            ],
-            [
-              -9.0,
-              41.0
-            ]
-          ]
+          -8.8077202,
+          41.6115824
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236562/batlas-location"
+        "description": "Representative polyline for the modern course of the river, derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location of the Modern Rio Nevia",
+        "link": "http://pleiades.stoa.org/places/236562/osm-location"
       }
     }
   ]
