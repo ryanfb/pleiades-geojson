@@ -1,22 +1,42 @@
 {
   "type": "FeatureCollection",
-  "title": "Kythnos Ins.",
+  "title": "Kythnos (island)",
   "id": "570403",
   "description": "An ancient place, cited: BAtlas 58 G3 Kythnos Ins.",
   "bbox": [
-    24.0,
-    37.0,
-    24.5,
-    37.5
+    24.3890287,
+    37.3847165,
+    24.3890287,
+    37.3847165
+  ],
+  "connectsWith": [
+    "560353"
   ],
   "reprPoint": [
-    24.25,
-    37.25
+    24.3890287,
+    37.3847165
   ],
   "names": [
     "Kythnos"
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3890287,
+          37.3847165
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/570403/osm-location"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
