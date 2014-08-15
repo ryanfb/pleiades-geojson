@@ -19,39 +19,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              9.5,
-              44.0
-            ],
-            [
-              9.5,
-              44.5
-            ],
-            [
-              10.0,
-              44.5
-            ],
-            [
-              10.0,
-              44.0
-            ],
-            [
-              9.5,
-              44.0
-            ]
-          ]
+          9.8425065,
+          44.0482156
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/403178/batlas-location"
+        "description": "Representative point derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/403178/osm-location"
       }
     }
   ]
