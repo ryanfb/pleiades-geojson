@@ -71,8 +71,9 @@ places.each_key do |id|
 			names << [name, id]
 		end
 	end
+	names << [places[id]["title"], id] unless places[id]["title"].nil?
 end
 
 File.open("name_index.json", "w") do |f|
-	f.write(JSON.generate(names))
+	f.write(JSON.generate(names.uniq))
 end
