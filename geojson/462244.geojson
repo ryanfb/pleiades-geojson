@@ -2,12 +2,15 @@
   "type": "FeatureCollection",
   "title": "Himera",
   "id": "462244",
-  "description": "An ancient place, cited: BAtlas 47 D3 Himera",
+  "description": "A colony on the north shore of Sicily founded in 649/8 BC by the Myletidai.",
   "bbox": [
     13.822496,
     37.970797,
     13.822496,
     37.970797
+  ],
+  "connectsWith": [
+    "462492"
   ],
   "reprPoint": [
     13.822496,
@@ -17,43 +20,6 @@
     "Himera"
   ],
   "features": [
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.5,
-              37.5
-            ],
-            [
-              13.5,
-              38.0
-            ],
-            [
-              14.0,
-              38.0
-            ],
-            [
-              14.0,
-              37.5
-            ],
-            [
-              13.5,
-              37.5
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462244/batlas-location"
-      }
-    },
     {
       "geometry": {
         "type": "Point",
