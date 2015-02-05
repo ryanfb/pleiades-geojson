@@ -23,39 +23,36 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              47.0,
-              46.0
-            ],
-            [
-              47.0,
-              47.0
-            ],
-            [
-              48.0,
-              47.0
-            ],
-            [
-              48.0,
-              46.0
-            ],
-            [
-              47.0,
-              46.0
-            ]
-          ]
+          47.9993457,
+          46.5494165
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-downstream-channel",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/834296/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Volga River (downstream channel)",
+        "link": "http://pleiades.stoa.org/places/834296/osm-location-of-downstream-channel"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8658301,
+          57.6632801
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Volga River (upstream channel)",
+        "link": "http://pleiades.stoa.org/places/834296/osm-location"
       }
     }
   ]
