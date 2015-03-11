@@ -3,20 +3,33 @@
   "title": "Calacticus Sinus",
   "id": "261234",
   "description": "An ancient place, cited: BAtlas 26 unlocated Calacticus Sinus",
+  "bbox": [
+    20.0,
+    35.0,
+    20.0,
+    35.0
+  ],
   "reprPoint": [
-    -4.6397956,
-    36.5073781
+    20.0,
+    35.0
   ],
   "names": [
     "Calacticus Sinus"
   ],
   "features": [
     {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0,
+          35.0
+        ]
+      },
       "id": "batlas-location",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "unlocated",
+        "location_precision": "precise",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/261234/batlas-location"
       }
