@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "title": "Beris fl.",
+  "title": "Beris (river)",
   "id": "857062",
   "description": "An ancient place, cited: BAtlas 87 B3 Beris fl.",
   "bbox": [
@@ -14,9 +14,27 @@
     41.15
   ],
   "names": [
-    "Beris"
+    "Beris",
+    "Miliçsuyu"
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.11667,
+          41.15
+        ]
+      },
+      "id": "milicsuyu",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on GeoNames",
+        "location_precision": "precise",
+        "title": "Miliçsuyu",
+        "link": "http://pleiades.stoa.org/places/857062/milicsuyu"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
