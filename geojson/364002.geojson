@@ -2,40 +2,56 @@
   "type": "FeatureCollection",
   "title": "Pontia Ins.",
   "id": "364002",
-  "description": "The largest of the Pontine Islands, Pontia lies 33 km south of Cape Circeo on the Italian mainland.",
+  "description": "Three islands located off the coast of the Greater Syrtis",
   "bbox": [
     12.953184,
     40.907937,
     12.953184,
     40.907937
   ],
-  "connectsWith": [
-    "433042"
-  ],
   "reprPoint": [
     12.953184,
     40.907937
   ],
   "names": [
-    "Pontia",
-    "Ponza"
+    "Pontia"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.953184,
-          40.907937
+          [
+            [
+              19.0,
+              30.0
+            ],
+            [
+              19.0,
+              31.0
+            ],
+            [
+              20.0,
+              31.0
+            ],
+            [
+              20.0,
+              30.0
+            ],
+            [
+              19.0,
+              30.0
+            ]
+          ]
         ]
       },
-      "id": "location-of-pontia-ins",
+      "id": "undetermined",
       "type": "Feature",
       "properties": {
-        "description": "Coordinates after GeoHack, verified in Google Earth 2013.",
-        "location_precision": "precise",
-        "title": "location of Ponza (island)",
-        "link": "http://pleiades.stoa.org/places/364002/location-of-pontia-ins"
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/places/364002/undetermined"
       }
     }
   ]
