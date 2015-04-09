@@ -1,19 +1,39 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Unnamed bridge",
   "id": "551910",
-  "description": "An ancient place, cited: BAtlas 56 F4 unnamed bridge (over R. Hermus, NW Sardis)",
+  "description": "The remains of a bridge of Byzantine or Turkish construction located northwest of Sardis.",
   "bbox": [
-    27.97155,
+    27.967339,
     38.526291,
     27.97155,
-    38.526291
+    38.552097
+  ],
+  "connectsWith": [
+    "550575"
   ],
   "reprPoint": [
-    27.97155,
-    38.526291
+    27.9694445,
+    38.539194
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.967339,
+          38.552097
+        ]
+      },
+      "id": "bridge-ruins",
+      "type": "Feature",
+      "properties": {
+        "description": "\"2km west of Kendirlik\" (Roosevelt 2007:145)",
+        "location_precision": "precise",
+        "title": "location of bridge ruins",
+        "link": "http://pleiades.stoa.org/places/551910/bridge-ruins"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -1,19 +1,36 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Sardis-Thyateira Road",
   "id": "552679",
-  "description": "Unnamed route or road",
+  "description": "An ancient road connecting Sardis and Thyateira.",
   "bbox": [
-    25.0,
-    38.0,
-    29.0,
-    40.5
+    27.938,
+    38.622,
+    27.938,
+    38.622
   ],
   "reprPoint": [
-    27.0,
-    39.25
+    27.938,
+    38.622
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.938,
+          38.622
+        ]
+      },
+      "id": "kan-bogaz-milestone",
+      "type": "Feature",
+      "properties": {
+        "description": "The reported find spot of a Roman milestone.",
+        "location_precision": "precise",
+        "title": "Kan Boğaz Milestone",
+        "link": "http://pleiades.stoa.org/places/552679/kan-bogaz-milestone"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
