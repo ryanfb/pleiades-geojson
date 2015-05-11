@@ -1,19 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "*Nakrason?",
+  "title": "Nakrason (or Nakrasos)",
   "id": "550767",
-  "description": "An ancient place, cited: BAtlas 56 F3 *Nakrason?",
+  "description": "An ancient settlement whose precise location is unknown. Modern scholars place it variously at Bakir, Maltepe, or İlyaslar in modern Turkey.",
   "bbox": [
-    27.705557,
+    27.7034114,
     39.044142,
     27.815692,
-    39.059088
+    39.083892
   ],
   "reprPoint": [
-    27.7606245,
-    39.051615
+    27.74843188,
+    39.07002848
   ],
   "names": [
+    "Maltepe",
     "Nakrason"
   ],
   "features": [
@@ -21,34 +22,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.705557,
-          39.059088
+          27.723685,
+          39.083892
         ]
       },
-      "id": "darmc-location-5101",
+      "id": "maltepe",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Prehistoric settlement Höyük, associated by Ramsay with Nakrason.",
         "location_precision": "precise",
-        "title": "DARMC location 5101",
-        "link": "http://pleiades.stoa.org/places/550767/darmc-location-5101"
+        "title": "Maltepe: Imagery Location",
+        "link": "http://pleiades.stoa.org/places/550767/maltepe"
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.815692,
-          39.044142
+          27.7034114,
+          39.0799664
         ]
       },
-      "id": "darmc-location-5102",
+      "id": "bak131r-osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Possible location of Nakrason/Nakrasos. Location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 5102",
-        "link": "http://pleiades.stoa.org/places/550767/darmc-location-5102"
+        "title": "Bakır: OSM Location",
+        "link": "http://pleiades.stoa.org/places/550767/bak131r-osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.793814,
+          39.083054
+        ]
+      },
+      "id": "ilyaslar-osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Possible location of Nakrason/Nakrasos. Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "İlyaslar: OSM Location",
+        "link": "http://pleiades.stoa.org/places/550767/ilyaslar-osm-location"
       }
     }
   ]
