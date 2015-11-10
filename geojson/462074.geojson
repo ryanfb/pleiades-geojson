@@ -2,12 +2,15 @@
   "type": "FeatureCollection",
   "title": "Adranon",
   "id": "462074",
-  "description": "An ancient place, cited: BAtlas 47 F3 Adranon",
+  "description": "Adranon was a settlement founded ca. 400 B.C. on the western slopes of mount Aetna.",
   "bbox": [
     14.835642,
     37.662847,
     14.835642,
     37.662847
+  ],
+  "connectsWith": [
+    "462492"
   ],
   "reprPoint": [
     14.835642,
@@ -15,7 +18,10 @@
   ],
   "names": [
     "Adranon",
-    "Hadranum"
+    "Hadranum",
+    "Adrano",
+    "Aderno",
+    "Hadranon"
   ],
   "features": [
     {
@@ -33,6 +39,23 @@
         "location_precision": "precise",
         "title": "DARMC location 6926",
         "link": "http://pleiades.stoa.org/places/462074/darmc-location-6926"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8333672,
+          37.661966
+        ]
+      },
+      "id": "adrano",
+      "type": "Feature",
+      "properties": {
+        "description": "Location of the modern town of Adrano, thought to be near the ancient settlement of Adranon, based on a representative point derived from an OpenStreetMap node",
+        "location_precision": "precise",
+        "title": "OSM location of Adrano",
+        "link": "http://pleiades.stoa.org/places/462074/adrano"
       }
     }
   ]
