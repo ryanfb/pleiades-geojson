@@ -2,19 +2,24 @@
   "type": "FeatureCollection",
   "title": "Capitium",
   "id": "462130",
-  "description": "An ancient place, cited: BAtlas 47 E3 Capitium",
+  "description": "Capitium was an ancient settlement in the Monti Nebrodi of Sicily.",
   "bbox": [
     14.478172,
     37.847854,
     14.47909,
     37.848971
   ],
+  "connectsWith": [
+    "462492"
+  ],
   "reprPoint": [
     14.478631,
     37.8484125
   ],
   "names": [
-    "Capitium"
+    "Capitium",
+    "Capútion",
+    "Capizzi"
   ],
   "features": [
     {
@@ -32,6 +37,23 @@
         "location_precision": "precise",
         "title": "DARMC location 18294",
         "link": "http://pleiades.stoa.org/places/462130/darmc-location-18294"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.478172,
+          37.847854
+        ]
+      },
+      "id": "capizzi",
+      "type": "Feature",
+      "properties": {
+        "description": "Location of the modern village of Capizzi, thought to be in the area of the ancient settlement of Capitium, based on a representative point derived from an OpenStreetMap node.",
+        "location_precision": "precise",
+        "title": "OSM location of Capizzi",
+        "link": "http://pleiades.stoa.org/places/462130/capizzi"
       }
     }
   ]
