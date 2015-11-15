@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "title": "Calacte",
   "id": "462123",
-  "description": "An ancient place, cited: BAtlas 47 E2 Calacte",
+  "description": "An ancient Sicilian city located on the northern coast of the island, founded by Ducetius in 446 B.C.",
   "bbox": [
     14.4405839,
     38.024241,
@@ -17,7 +17,9 @@
     38.024474
   ],
   "names": [
-    "Calacte"
+    "Calacte",
+    "Caronia",
+    "Kale Akte"
   ],
   "features": [
     {
@@ -35,6 +37,23 @@
         "location_precision": "precise",
         "title": "DARMC location 19294",
         "link": "http://pleiades.stoa.org/places/462123/darmc-location-19294"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4405839,
+          38.024707
+        ]
+      },
+      "id": "caronia",
+      "type": "Feature",
+      "properties": {
+        "description": "Location of the modern Sicilian town of Caronia, thought to be in the area of the ancient settlement of Calacte, based on a representative point derived from an OpenStreetMap node",
+        "location_precision": "precise",
+        "title": "OSM location of Caronia",
+        "link": "http://pleiades.stoa.org/places/462123/caronia"
       }
     }
   ]
