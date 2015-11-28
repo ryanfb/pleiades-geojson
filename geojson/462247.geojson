@@ -2,19 +2,25 @@
   "type": "FeatureCollection",
   "title": "Hippana",
   "id": "462247",
-  "description": "An ancient place, cited: BAtlas 47 C3 Hippana",
+  "description": "Ancient settlement in the western part of Sicily, probably founded in the seventh century B.C.",
   "bbox": [
     13.432761,
     37.7018481,
     13.4357804,
     37.722097
   ],
+  "connectsWith": [
+    "462492"
+  ],
   "reprPoint": [
     13.4342707,
     37.71197255
   ],
   "names": [
-    "Hippana"
+    "Hippana",
+    "Hippana",
+    "Sittana",
+    "Monte dei Cavalli"
   ],
   "features": [
     {
@@ -32,6 +38,23 @@
         "location_precision": "precise",
         "title": "DARMC location 18035",
         "link": "http://pleiades.stoa.org/places/462247/darmc-location-18035"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4357804,
+          37.7018481
+        ]
+      },
+      "id": "monte-dei-cavalli-hippana",
+      "type": "Feature",
+      "properties": {
+        "description": "Location of the area of Monte dei Cavalli (near Prizzi), that has been associated with the ancient settlement of Hippana, based on a representative point derived from an OpenStreetMap node.",
+        "location_precision": "precise",
+        "title": "OSM location of Monte dei Cavalli",
+        "link": "http://pleiades.stoa.org/places/462247/monte-dei-cavalli-hippana"
       }
     }
   ]
