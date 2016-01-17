@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "title": "Lilybaeum",
   "id": "462281",
-  "description": "Lilybaeum (modern Marsala) is located at the extreme westernmost point of Sicily. Lilybaeum was a Punic settlement that was conquered by the Romans in 241 BC.",
+  "description": "Lilybaeum (modern Marsala) is located at the extreme westernmost point of Sicily. Lilybaeum was a Punic settlement that was conquered by the Romans in 241 B.C.",
   "bbox": [
     12.434233,
     37.7990835,
@@ -17,7 +17,11 @@
     37.7990835
   ],
   "names": [
-    "Lilybaeum"
+    "Lilybaeum",
+    "Marsala",
+    "Lilybaion",
+    "Lilybeum",
+    "Lilibeo"
   ],
   "features": [
     {
@@ -52,6 +56,23 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/462281/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.427398,
+          37.803185
+        ]
+      },
+      "id": "location-of-archaeological-area",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on a way derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of archaeological area",
+        "link": "http://pleiades.stoa.org/places/462281/location-of-archaeological-area"
       }
     }
   ]
