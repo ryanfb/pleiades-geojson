@@ -1,17 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Namades/Lamnaios fl.",
+  "title": "Namades/Lamnaios (river)",
   "id": "50156",
-  "description": "An ancient place, cited: BAtlas 5 C2 Namades/Lamnaios fl.",
+  "description": "The modern Narmada river in Gujarat, India. It originates in the Vindhya mountain range and flows west to empty into the Gulf of Khambhat.",
   "bbox": [
-    81.5323306,
-    22.7452561,
+    73.9979365,
+    21.8971072,
     81.5323306,
     22.7452561
   ],
   "reprPoint": [
-    81.5323306,
-    22.7452561
+    77.76513355,
+    22.32118165
   ],
   "names": [
     "Namades",
@@ -20,39 +20,36 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              70.0,
-              20.0
-            ],
-            [
-              70.0,
-              25.0
-            ],
-            [
-              75.0,
-              25.0
-            ],
-            [
-              75.0,
-              20.0
-            ],
-            [
-              70.0,
-              20.0
-            ]
-          ]
+          81.5323306,
+          22.7452561
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50156/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Narmada river course",
+        "link": "http://pleiades.stoa.org/places/50156/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9979365,
+          21.8971072
+        ]
+      },
+      "id": "osm-location-of-narmada-river-mouth",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Narmada river mouth",
+        "link": "http://pleiades.stoa.org/places/50156/osm-location-of-narmada-river-mouth"
       }
     }
   ]
