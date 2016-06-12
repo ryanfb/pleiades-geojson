@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
-  "title": "Thyrides Pr.",
+  "title": "Thyrides",
   "id": "570737",
-  "description": "An ancient place, cited: BAtlas 58 C5 Thyrides Pr.",
+  "description": "A promontory on the west side of the central southern peninsula of the Peloponnese in Greece.",
   "bbox": [
     22.37,
     36.5,
@@ -14,44 +14,26 @@
     36.5
   ],
   "names": [
-    "Thyrides Pr."
+    "Thyrides akra",
+    "Thyrides Pr.",
+    "Ákra Poúnda"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              36.0
-            ],
-            [
-              22.0,
-              36.5
-            ],
-            [
-              22.5,
-              36.5
-            ],
-            [
-              22.5,
-              36.0
-            ],
-            [
-              22.0,
-              36.0
-            ]
-          ]
+          22.37,
+          36.5
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-thyrides",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570737/batlas-location"
+        "description": "Representative point location at the rough centerpoint of the cape,  verified in Google Earth 2013 based on Barrington Atlas position.",
+        "location_precision": "precise",
+        "title": "Imagery location of Thyrides",
+        "link": "http://pleiades.stoa.org/places/570737/location-of-thyrides"
       }
     }
   ]
