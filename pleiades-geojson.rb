@@ -41,7 +41,7 @@ places_csv, names_csv, locations_csv = ARGV
 places = {}
 $stderr.puts "Parsing places..."
 CSV.foreach(places_csv, :headers => true) do |row|
-	places[row["id"]] = row.to_hash
+	places[row["path"]] = row.to_hash
 end
 
 $stderr.puts "Parsing names..."
@@ -62,16 +62,17 @@ end
 
 names = []
 places.each_key do |id|
-	File.open("geojson/#{id}.geojson","w") do |f|
+	place_id = places[id]['id']
+	File.open("geojson/#{place_id}.geojson","w") do |f|
 		f.write(JSON.pretty_generate(place_to_geojson(places[id])))
 	end
 
 	unless places[id]["names"].nil?
 		places[id]["names"].map{|n| n["title"]}.uniq.each do |name|
-			names << [name, id]
+			names << [name, place_id]
 		end
 	end
-	names << [places[id]["title"], id] unless places[id]["title"].nil?
+	names << [places[id]["title"], place_id] unless places[id]["title"].nil?
 end
 
 File.open("name_index.json", "w") do |f|
