@@ -12,5 +12,64 @@
   "reprPoint": [
     35.4111,
     41.677747
+  ],
+  "names": [
+    "Zagora"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              41.0
+            ],
+            [
+              35.0,
+              42.0
+            ],
+            [
+              36.0,
+              42.0
+            ],
+            [
+              36.0,
+              41.0
+            ],
+            [
+              35.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid A3, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857379/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4111,
+          41.677747
+        ]
+      },
+      "id": "darmc-location-16456",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 16456",
+        "link": "http://pleiades.stoa.org/places/857379/darmc-location-16456"
+      }
+    }
   ]
 }

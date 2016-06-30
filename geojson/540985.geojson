@@ -12,5 +12,64 @@
   "reprPoint": [
     22.1000955,
     39.3376407
+  ],
+  "names": [
+    "Onochonos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.5,
+              39.0
+            ],
+            [
+              21.5,
+              39.5
+            ],
+            [
+              22.0,
+              39.5
+            ],
+            [
+              22.0,
+              39.0
+            ],
+            [
+              21.5,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/540985/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1000955,
+          39.3376407
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/540985/osm-location"
+      }
+    }
   ]
 }

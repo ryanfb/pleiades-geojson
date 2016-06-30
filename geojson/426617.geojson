@@ -12,5 +12,61 @@
   "reprPoint": [
     12.8976195,
     41.8341512
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.75,
+              41.75
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              13.0,
+              42.0
+            ],
+            [
+              13.0,
+              41.75
+            ],
+            [
+              12.75,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/426617/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8976195,
+          41.8341512
+        ]
+      },
+      "id": "location-of-roman-villa",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "location of Ponte dell'Ospedalato",
+        "link": "http://pleiades.stoa.org/places/426617/location-of-roman-villa"
+      }
+    }
   ]
 }

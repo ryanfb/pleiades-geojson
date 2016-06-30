@@ -15,5 +15,83 @@
   "reprPoint": [
     27.1383,
     38.41905
+  ],
+  "names": [
+    "Smyrna",
+    "Eurydikeia",
+    "Zmyrna"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.0,
+              38.0
+            ],
+            [
+              27.0,
+              38.5
+            ],
+            [
+              27.5,
+              38.5
+            ],
+            [
+              27.5,
+              38.0
+            ],
+            [
+              27.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "undetermined",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/places/550893/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1383,
+          38.41905
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/550893/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.144474,
+          38.4153421
+        ]
+      },
+      "id": "izmir",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap; Modern name for Smyrna",
+        "location_precision": "precise",
+        "title": "İzmir",
+        "link": "http://pleiades.stoa.org/places/550893/izmir"
+      }
+    }
   ]
 }

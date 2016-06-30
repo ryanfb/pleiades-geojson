@@ -12,5 +12,81 @@
   "reprPoint": [
     14.9386214,
     41.166408
+  ],
+  "names": [
+    "Forum Novum"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              41.0
+            ],
+            [
+              14.5,
+              41.5
+            ],
+            [
+              15.0,
+              41.5
+            ],
+            [
+              15.0,
+              41.0
+            ],
+            [
+              14.5,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/442585/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9386214,
+          41.166408
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, village precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/442585/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9389174,
+          41.1655266
+        ]
+      },
+      "id": "santarcangelo-trimonte",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Sant'Arcangelo Trimonte",
+        "link": "http://pleiades.stoa.org/places/442585/santarcangelo-trimonte"
+      }
+    }
   ]
 }

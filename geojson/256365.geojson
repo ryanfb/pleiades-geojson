@@ -12,5 +12,95 @@
   "reprPoint": [
     -7.94898,
     37.997409
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.0,
+              37.0
+            ],
+            [
+              -8.0,
+              38.0
+            ],
+            [
+              -7.0,
+              38.0
+            ],
+            [
+              -7.0,
+              37.0
+            ],
+            [
+              -8.0,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/256365/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.932181,
+          37.973008
+        ]
+      },
+      "id": "darmc-location-21035",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 21035",
+        "link": "http://pleiades.stoa.org/places/256365/darmc-location-21035"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.94898,
+          37.997409
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/256365/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9487562,
+          37.997559
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/256365/osm-location"
+      }
+    }
   ]
 }

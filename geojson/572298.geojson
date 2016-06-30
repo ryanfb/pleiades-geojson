@@ -12,5 +12,61 @@
   "reprPoint": [
     22.54,
     36.88
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.5,
+              36.5
+            ],
+            [
+              22.5,
+              37.0
+            ],
+            [
+              23.0,
+              37.0
+            ],
+            [
+              23.0,
+              36.5
+            ],
+            [
+              22.5,
+              36.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/572298/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.54,
+          36.88
+        ]
+      },
+      "id": "location-of-quarry",
+      "type": "Feature",
+      "properties": {
+        "description": "Coordinates after Oxford Roman Economy Project",
+        "location_precision": "precise",
+        "title": "location of quarry",
+        "link": "http://pleiades.stoa.org/places/572298/location-of-quarry"
+      }
+    }
   ]
 }

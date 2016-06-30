@@ -12,5 +12,64 @@
   "reprPoint": [
     27.4440128,
     39.9705093
+  ],
+  "names": [
+    "Aisepos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.0,
+              39.5
+            ],
+            [
+              27.0,
+              40.0
+            ],
+            [
+              27.5,
+              40.0
+            ],
+            [
+              27.5,
+              39.5
+            ],
+            [
+              27.0,
+              39.5
+            ]
+          ]
+        ]
+      },
+      "id": "undetermined",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/errata/550420/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4440128,
+          39.9705093
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/errata/550420/osm-location"
+      }
+    }
   ]
 }

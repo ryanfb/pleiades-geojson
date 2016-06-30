@@ -12,5 +12,83 @@
   "reprPoint": [
     14.4272226,
     40.8225223
+  ],
+  "names": [
+    "Vesuvius M.",
+    "Monte Vesuvio",
+    "Ouesouvios"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              40.5
+            ],
+            [
+              14.0,
+              41.0
+            ],
+            [
+              14.5,
+              41.0
+            ],
+            [
+              14.5,
+              40.5
+            ],
+            [
+              14.0,
+              40.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/433189/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4272226,
+          40.8225223
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/433189/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4289332,
+          40.8232067
+        ]
+      },
+      "id": "osm-location-of-mount-vesuvius",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Mount Vesuvius ",
+        "link": "http://pleiades.stoa.org/places/433189/osm-location-of-mount-vesuvius"
+      }
+    }
   ]
 }

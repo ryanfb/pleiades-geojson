@@ -15,5 +15,66 @@
   "reprPoint": [
     12.453318,
     41.902465
+  ],
+  "names": [
+    "S. Petrus",
+    "Basilica Papale di San Pietro in Vaticano",
+    "Saint Peter's Basilica"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.25,
+              41.75
+            ],
+            [
+              12.25,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.5,
+              41.75
+            ],
+            [
+              12.25,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/423053/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453318,
+          41.902465
+        ]
+      },
+      "id": "darmc-location-18091",
+      "type": "Feature",
+      "properties": {
+        "description": "150K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18091",
+        "link": "http://pleiades.stoa.org/places/423053/darmc-location-18091"
+      }
+    }
   ]
 }

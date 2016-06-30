@@ -12,5 +12,66 @@
   "reprPoint": [
     46.6841881,
     32.0255981
+  ],
+  "names": [
+    "Sella",
+    "Silhu",
+    "Seleia"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.0,
+              32.0
+            ],
+            [
+              46.0,
+              33.0
+            ],
+            [
+              47.0,
+              33.0
+            ],
+            [
+              47.0,
+              32.0
+            ],
+            [
+              46.0,
+              32.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/912932/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6841881,
+          32.0255981
+        ]
+      },
+      "id": "osm-location-of-shatt-ad-dujaila",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Shatt ad Dujaila",
+        "link": "http://pleiades.stoa.org/places/912932/osm-location-of-shatt-ad-dujaila"
+      }
+    }
   ]
 }

@@ -12,5 +12,64 @@
   "reprPoint": [
     9.8309463,
     45.7900406
+  ],
+  "names": [
+    "Sarius"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.5,
+              45.5
+            ],
+            [
+              9.5,
+              46.0
+            ],
+            [
+              10.0,
+              46.0
+            ],
+            [
+              10.0,
+              45.5
+            ],
+            [
+              9.5,
+              45.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/383768/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8309463,
+          45.7900406
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/383768/osm-location"
+      }
+    }
   ]
 }

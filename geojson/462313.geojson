@@ -12,5 +12,78 @@
   "reprPoint": [
     14.81986875,
     37.6809421
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              37.5
+            ],
+            [
+              14.5,
+              38.0
+            ],
+            [
+              15.0,
+              38.0
+            ],
+            [
+              15.0,
+              37.5
+            ],
+            [
+              14.5,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/462313/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.835631,
+          37.662803
+        ]
+      },
+      "id": "darmc-location-18613",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18613",
+        "link": "http://pleiades.stoa.org/places/462313/darmc-location-18613"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8041065,
+          37.6990812
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative Location based on OpenStreetMap Way that circumscribes the archaeological area.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/462313/osm-location"
+      }
+    }
   ]
 }

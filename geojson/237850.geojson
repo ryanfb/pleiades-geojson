@@ -12,5 +12,61 @@
   "reprPoint": [
     -5.9986782,
     41.1154545
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              41.0
+            ],
+            [
+              -6.0,
+              42.0
+            ],
+            [
+              -5.0,
+              42.0
+            ],
+            [
+              -5.0,
+              41.0
+            ],
+            [
+              -6.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/237850/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9986782,
+          41.1154545
+        ]
+      },
+      "id": "location-of-puente-mocho",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Puente Mocho",
+        "link": "http://pleiades.stoa.org/places/237850/location-of-puente-mocho"
+      }
+    }
   ]
 }

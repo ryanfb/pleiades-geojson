@@ -15,5 +15,66 @@
   "reprPoint": [
     28.9651646,
     41.0096334
+  ],
+  "names": [
+    "Constantinopolis",
+    "Constantinople",
+    "Istanbul"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.75,
+              41.0
+            ],
+            [
+              28.75,
+              41.25
+            ],
+            [
+              29.0,
+              41.25
+            ],
+            [
+              29.0,
+              41.0
+            ],
+            [
+              28.75,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/520998/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9651646,
+          41.0096334
+        ]
+      },
+      "id": "location-of-istanbul",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Istanbul",
+        "link": "http://pleiades.stoa.org/places/520998/location-of-istanbul"
+      }
+    }
   ]
 }

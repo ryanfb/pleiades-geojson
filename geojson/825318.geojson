@@ -12,5 +12,66 @@
   "reprPoint": [
     37.0,
     46.0
+  ],
+  "names": [
+    "Maeotis",
+    "Temarunda",
+    "Sea of Azov"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.0,
+              46.0
+            ],
+            [
+              36.0,
+              47.0
+            ],
+            [
+              37.0,
+              47.0
+            ],
+            [
+              37.0,
+              46.0
+            ],
+            [
+              36.0,
+              46.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/825318/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0,
+          46.0
+        ]
+      },
+      "id": "location-of-maeotis",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "location of Maeotis",
+        "link": "http://pleiades.stoa.org/places/825318/location-of-maeotis"
+      }
+    }
   ]
 }

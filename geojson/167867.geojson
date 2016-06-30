@@ -12,5 +12,78 @@
   "reprPoint": [
     5.361883,
     45.2698845
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              45.0
+            ],
+            [
+              5.0,
+              45.5
+            ],
+            [
+              5.5,
+              45.5
+            ],
+            [
+              5.5,
+              45.0
+            ],
+            [
+              5.0,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/167867/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.366966,
+          45.387769
+        ]
+      },
+      "id": "darmc-location-17500",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 17500",
+        "link": "http://pleiades.stoa.org/places/167867/darmc-location-17500"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3568,
+          45.152
+        ]
+      },
+      "id": "imagery-location-for-area-of-excavation",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point determined through analysis of Google Earth imagery following Fig. 2 in De Klijn 1994. Dates after De Klijn.",
+        "location_precision": "precise",
+        "title": "Imagery location for area of excavation",
+        "link": "http://pleiades.stoa.org/places/167867/imagery-location-for-area-of-excavation"
+      }
+    }
   ]
 }

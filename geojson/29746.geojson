@@ -12,5 +12,64 @@
   "reprPoint": [
     60.5517596,
     37.3532553
+  ],
+  "names": [
+    "Sarnios"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.0,
+              35.0
+            ],
+            [
+              60.0,
+              40.0
+            ],
+            [
+              65.0,
+              40.0
+            ],
+            [
+              65.0,
+              35.0
+            ],
+            [
+              60.0,
+              35.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/29746/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5517596,
+          37.3532553
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/29746/osm-location"
+      }
+    }
   ]
 }

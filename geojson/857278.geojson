@@ -12,5 +12,64 @@
   "reprPoint": [
     38.984957,
     41.034353
+  ],
+  "names": [
+    "Philokaleia"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.0,
+              41.0
+            ],
+            [
+              38.0,
+              42.0
+            ],
+            [
+              39.0,
+              42.0
+            ],
+            [
+              39.0,
+              41.0
+            ],
+            [
+              38.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid D3, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857278/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.984957,
+          41.034353
+        ]
+      },
+      "id": "darmc-location-24247",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 24247",
+        "link": "http://pleiades.stoa.org/places/857278/darmc-location-24247"
+      }
+    }
   ]
 }

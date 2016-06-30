@@ -15,5 +15,65 @@
   "reprPoint": [
     37.508737,
     40.9933309
+  ],
+  "names": [
+    "Sidenos",
+    "Sidenus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.0,
+              40.0
+            ],
+            [
+              37.0,
+              41.0
+            ],
+            [
+              38.0,
+              41.0
+            ],
+            [
+              38.0,
+              40.0
+            ],
+            [
+              37.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid C4, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857317/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.508737,
+          40.9933309
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Bolaman Irmağı",
+        "link": "http://pleiades.stoa.org/places/857317/osm-location"
+      }
+    }
   ]
 }

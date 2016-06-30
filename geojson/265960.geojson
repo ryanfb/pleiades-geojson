@@ -15,5 +15,81 @@
   "reprPoint": [
     4.26442255,
     39.88945725
+  ],
+  "names": [
+    "Mago"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0,
+              39.0
+            ],
+            [
+              2.0,
+              41.0
+            ],
+            [
+              5.0,
+              41.0
+            ],
+            [
+              5.0,
+              39.0
+            ],
+            [
+              2.0,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/265960/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.264116,
+          39.889482
+        ]
+      },
+      "id": "darmc-location-30460",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 30460",
+        "link": "http://pleiades.stoa.org/places/265960/darmc-location-30460"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2647291,
+          39.8894325
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/265960/osm-location"
+      }
+    }
   ]
 }

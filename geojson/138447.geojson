@@ -12,5 +12,81 @@
   "reprPoint": [
     2.399225,
     45.452599
+  ],
+  "names": [
+    "Margerides"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0,
+              45.0
+            ],
+            [
+              2.0,
+              46.0
+            ],
+            [
+              3.0,
+              46.0
+            ],
+            [
+              3.0,
+              45.0
+            ],
+            [
+              2.0,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/138447/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.399225,
+          45.452599
+        ]
+      },
+      "id": "darmc-location-16071",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 16071",
+        "link": "http://pleiades.stoa.org/places/138447/darmc-location-16071"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4264071,
+          45.4509451
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/138447/osm-location"
+      }
+    }
   ]
 }

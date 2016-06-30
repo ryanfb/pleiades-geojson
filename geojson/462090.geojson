@@ -15,5 +15,61 @@
   "reprPoint": [
     13.7075572,
     37.7760341
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              37.5
+            ],
+            [
+              13.5,
+              38.0
+            ],
+            [
+              14.0,
+              38.0
+            ],
+            [
+              14.0,
+              37.5
+            ],
+            [
+              13.5,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/462090/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7075572,
+          37.7760341
+        ]
+      },
+      "id": "location-of-villa",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/462090/location-of-villa"
+      }
+    }
   ]
 }

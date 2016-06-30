@@ -12,5 +12,67 @@
   "reprPoint": [
     41.403117,
     42.75581
+  ],
+  "names": [
+    "Gyenos",
+    "Cygnus",
+    "Pyenis",
+    "Tyenis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41.0,
+              42.0
+            ],
+            [
+              41.0,
+              43.0
+            ],
+            [
+              42.0,
+              43.0
+            ],
+            [
+              42.0,
+              42.0
+            ],
+            [
+              41.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid G2, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857143/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.403117,
+          42.75581
+        ]
+      },
+      "id": "darmc-location-22634",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 22634",
+        "link": "http://pleiades.stoa.org/places/857143/darmc-location-22634"
+      }
+    }
   ]
 }

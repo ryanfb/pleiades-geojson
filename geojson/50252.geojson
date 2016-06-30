@@ -12,5 +12,64 @@
   "reprPoint": [
     93.6353035,
     18.7969257
+  ],
+  "names": [
+    "Saline"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.0,
+              15.0
+            ],
+            [
+              90.0,
+              20.0
+            ],
+            [
+              95.0,
+              20.0
+            ],
+            [
+              95.0,
+              15.0
+            ],
+            [
+              90.0,
+              15.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/50252/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.6353035,
+          18.7969257
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Cheduba (island)",
+        "link": "http://pleiades.stoa.org/places/50252/osm-location"
+      }
+    }
   ]
 }

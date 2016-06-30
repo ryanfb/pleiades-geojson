@@ -12,5 +12,81 @@
   "reprPoint": [
     0.065677,
     44.855598
+  ],
+  "names": [
+    "Montcaret"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              44.0
+            ],
+            [
+              0.0,
+              45.0
+            ],
+            [
+              1.0,
+              45.0
+            ],
+            [
+              1.0,
+              44.0
+            ],
+            [
+              0.0,
+              44.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/140548/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.065677,
+          44.855598
+        ]
+      },
+      "id": "center-of-batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "A positive identification of the sub-commune location noted in the Barrington Atlas directory",
+        "location_precision": "precise",
+        "title": "Center point of location",
+        "link": "http://pleiades.stoa.org/places/140548/center-of-batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0638882,
+          44.8581597
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/140548/osm-location"
+      }
+    }
   ]
 }

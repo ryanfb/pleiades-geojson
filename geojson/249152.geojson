@@ -15,5 +15,67 @@
   "reprPoint": [
     -1.89564936518,
     42.6087207826
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0,
+              42.0
+            ],
+            [
+              -2.0,
+              43.0
+            ],
+            [
+              -1.0,
+              43.0
+            ],
+            [
+              -1.0,
+              42.0
+            ],
+            [
+              -2.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/249152/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.89583396524039,
+            42.60904746066334
+          ],
+          [
+            -1.895464765120364,
+            42.60839410449321
+          ]
+        ]
+      },
+      "id": "transect-along-visible-ancient-remains",
+      "type": "Feature",
+      "properties": {
+        "description": "The major rock and concrete structure is approximately 80 meters in length",
+        "location_precision": "precise",
+        "title": "Transect along visible ancient remains",
+        "link": "http://pleiades.stoa.org/places/249152/transect-along-visible-ancient-remains"
+      }
+    }
   ]
 }

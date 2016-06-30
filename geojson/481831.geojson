@@ -12,5 +12,64 @@
   "reprPoint": [
     19.8605754,
     40.8134068
+  ],
+  "names": [
+    "Eordaikos potamos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.0,
+              40.0
+            ],
+            [
+              20.0,
+              41.0
+            ],
+            [
+              21.0,
+              41.0
+            ],
+            [
+              21.0,
+              40.0
+            ],
+            [
+              20.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/481831/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8605754,
+          40.8134068
+        ]
+      },
+      "id": "osm-location-of-devoll-river",
+      "type": "Feature",
+      "properties": {
+        "description": "Modern representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Devoll river",
+        "link": "http://pleiades.stoa.org/places/481831/osm-location-of-devoll-river"
+      }
+    }
   ]
 }

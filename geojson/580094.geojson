@@ -15,5 +15,65 @@
   "reprPoint": [
     23.590094,
     37.9396977
+  ],
+  "names": [
+    "Psyttaleia",
+    "Psyttalea"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.5,
+              37.75
+            ],
+            [
+              23.5,
+              38.0
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.75,
+              37.75
+            ],
+            [
+              23.5,
+              37.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/580094/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.590094,
+          37.9396977
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/580094/osm-location"
+      }
+    }
   ]
 }

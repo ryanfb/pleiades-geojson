@@ -12,5 +12,78 @@
   "reprPoint": [
     25.465235,
     41.714943
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.0,
+              41.5
+            ],
+            [
+              25.0,
+              42.0
+            ],
+            [
+              25.5,
+              42.0
+            ],
+            [
+              25.5,
+              41.5
+            ],
+            [
+              25.0,
+              41.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/501557/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.476829,
+          41.715067
+        ]
+      },
+      "id": "darmc-location-14195",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 14195",
+        "link": "http://pleiades.stoa.org/places/501557/darmc-location-14195"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.465235,
+          41.714943
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/501557/dare-location"
+      }
+    }
   ]
 }

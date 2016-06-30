@@ -12,5 +12,64 @@
   "reprPoint": [
     31.3343727,
     47.5349319
+  ],
+  "names": [
+    "Hypanis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.0,
+              47.0
+            ],
+            [
+              31.0,
+              48.0
+            ],
+            [
+              32.0,
+              48.0
+            ],
+            [
+              32.0,
+              47.0
+            ],
+            [
+              31.0,
+              47.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/226630/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3343727,
+          47.5349319
+        ]
+      },
+      "id": "osm-location-of-bug-river",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Bug River",
+        "link": "http://pleiades.stoa.org/places/226630/osm-location-of-bug-river"
+      }
+    }
   ]
 }

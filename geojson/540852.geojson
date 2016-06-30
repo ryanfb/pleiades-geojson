@@ -12,5 +12,64 @@
   "reprPoint": [
     24.5868885,
     38.1587935
+  ],
+  "names": [
+    "Kaphereus Pr."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.5,
+              38.0
+            ],
+            [
+              24.5,
+              38.5
+            ],
+            [
+              25.0,
+              38.5
+            ],
+            [
+              25.0,
+              38.0
+            ],
+            [
+              24.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/540852/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5868885,
+          38.1587935
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/540852/osm-location"
+      }
+    }
   ]
 }

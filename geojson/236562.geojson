@@ -12,5 +12,65 @@
   "reprPoint": [
     -8.8077202,
     41.6115824
+  ],
+  "names": [
+    "Rio Neiva",
+    "Nebis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.0,
+              41.0
+            ],
+            [
+              -9.0,
+              42.0
+            ],
+            [
+              -8.0,
+              42.0
+            ],
+            [
+              -8.0,
+              41.0
+            ],
+            [
+              -9.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/236562/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8077202,
+          41.6115824
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative polyline for the modern course of the river, derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location of the Modern Rio Nevia",
+        "link": "http://pleiades.stoa.org/places/236562/osm-location"
+      }
+    }
   ]
 }

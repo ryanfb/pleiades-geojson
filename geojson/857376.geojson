@@ -12,5 +12,61 @@
   "reprPoint": [
     39.667463,
     40.28464
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.0,
+              40.0
+            ],
+            [
+              39.0,
+              41.0
+            ],
+            [
+              40.0,
+              41.0
+            ],
+            [
+              40.0,
+              40.0
+            ],
+            [
+              39.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid E4, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857376/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.667463,
+          40.28464
+        ]
+      },
+      "id": "darmc-location-18456",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18456",
+        "link": "http://pleiades.stoa.org/places/857376/darmc-location-18456"
+      }
+    }
   ]
 }

@@ -12,5 +12,78 @@
   "reprPoint": [
     9.57225015,
     45.3917659
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.5,
+              45.0
+            ],
+            [
+              9.5,
+              45.5
+            ],
+            [
+              10.0,
+              45.5
+            ],
+            [
+              10.0,
+              45.0
+            ],
+            [
+              9.5,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/383735/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.570566,
+          45.391115
+        ]
+      },
+      "id": "darmc-location-17549",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 17549",
+        "link": "http://pleiades.stoa.org/places/383735/darmc-location-17549"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5739343,
+          45.3924168
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location of archaeological area based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Palazzo Pignano - Zona Archeologica",
+        "link": "http://pleiades.stoa.org/places/383735/osm-location"
+      }
+    }
   ]
 }

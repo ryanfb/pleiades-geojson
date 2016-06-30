@@ -12,5 +12,64 @@
   "reprPoint": [
     8.3999098,
     45.7963526
+  ],
+  "names": [
+    "[S. Iulianus]"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.0,
+              45.5
+            ],
+            [
+              8.0,
+              46.0
+            ],
+            [
+              8.5,
+              46.0
+            ],
+            [
+              8.5,
+              45.5
+            ],
+            [
+              8.0,
+              45.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/383767/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3999098,
+          45.7963526
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/383767/osm-location"
+      }
+    }
   ]
 }

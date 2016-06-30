@@ -12,5 +12,61 @@
   "reprPoint": [
     0.497235,
     45.653017
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              45.0
+            ],
+            [
+              0.0,
+              46.0
+            ],
+            [
+              1.0,
+              46.0
+            ],
+            [
+              1.0,
+              45.0
+            ],
+            [
+              0.0,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/140503/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.497235,
+          45.653017
+        ]
+      },
+      "id": "center-of-batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "A positive identification of the sub-commune location noted in the Barrington Atlas directory",
+        "location_precision": "precise",
+        "title": "Center point of location",
+        "link": "http://pleiades.stoa.org/places/140503/center-of-batlas-location"
+      }
+    }
   ]
 }

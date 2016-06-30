@@ -12,5 +12,64 @@
   "reprPoint": [
     24.305,
     40.11
+  ],
+  "names": [
+    "Nymphaion Pr."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.305,
+          40.11
+        ]
+      },
+      "id": "cape-nymphaion",
+      "type": "Feature",
+      "properties": {
+        "description": "General location after BAtlas, verified in Google Earth at an eye altitude of 6km.",
+        "location_precision": "precise",
+        "title": "Cape Nymphaion",
+        "link": "http://pleiades.stoa.org/places/501530/cape-nymphaion"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.0,
+              40.0
+            ],
+            [
+              24.0,
+              40.5
+            ],
+            [
+              24.5,
+              40.5
+            ],
+            [
+              24.5,
+              40.0
+            ],
+            [
+              24.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/501530/batlas-location"
+      }
+    }
   ]
 }

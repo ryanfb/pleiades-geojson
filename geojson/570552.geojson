@@ -12,5 +12,64 @@
   "reprPoint": [
     21.8708816,
     38.1966398
+  ],
+  "names": [
+    "Panachaikon M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.5,
+              38.0
+            ],
+            [
+              21.5,
+              38.5
+            ],
+            [
+              22.0,
+              38.5
+            ],
+            [
+              22.0,
+              38.0
+            ],
+            [
+              21.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570552/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8708816,
+          38.1966398
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/570552/osm-location"
+      }
+    }
   ]
 }

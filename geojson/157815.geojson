@@ -12,5 +12,64 @@
   "reprPoint": [
     6.6598134,
     43.4506932
+  ],
+  "names": [
+    "Argenteus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              43.0
+            ],
+            [
+              6.0,
+              43.5
+            ],
+            [
+              6.5,
+              43.5
+            ],
+            [
+              6.5,
+              43.0
+            ],
+            [
+              6.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/157815/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6598134,
+          43.4506932
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/157815/osm-location"
+      }
+    }
   ]
 }

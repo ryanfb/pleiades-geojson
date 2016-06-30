@@ -12,5 +12,64 @@
   "reprPoint": [
     12.742811,
     42.023477
+  ],
+  "names": [
+    "Corniculum"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.5,
+              42.25
+            ],
+            [
+              12.75,
+              42.25
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/422910/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.742811,
+          42.023477
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, village precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/422910/dare-location"
+      }
+    }
   ]
 }

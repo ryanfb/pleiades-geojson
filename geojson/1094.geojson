@@ -15,5 +15,65 @@
   "reprPoint": [
     12.6,
     35.5
+  ],
+  "names": [
+    "Lopadusa",
+    "Lampedusa"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              35.0
+            ],
+            [
+              10.0,
+              40.0
+            ],
+            [
+              15.0,
+              40.0
+            ],
+            [
+              15.0,
+              35.0
+            ],
+            [
+              10.0,
+              35.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/1094/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6,
+          35.5
+        ]
+      },
+      "id": "location-of-lampedusa",
+      "type": "Feature",
+      "properties": {
+        "description": "verified in Google Earth 2013",
+        "location_precision": "precise",
+        "title": "location of Lampedusa",
+        "link": "http://pleiades.stoa.org/places/1094/location-of-lampedusa"
+      }
+    }
   ]
 }

@@ -12,5 +12,65 @@
   "reprPoint": [
     9.2608628,
     41.3084659
+  ],
+  "names": [
+    "Gallicum",
+    "Taphros Fretum"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.0,
+              41.0
+            ],
+            [
+              9.0,
+              42.0
+            ],
+            [
+              10.0,
+              42.0
+            ],
+            [
+              10.0,
+              41.0
+            ],
+            [
+              9.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/471933/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2608628,
+          41.3084659
+        ]
+      },
+      "id": "strait-of-bonifacio",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "Strait of Bonifacio",
+        "link": "http://pleiades.stoa.org/places/471933/strait-of-bonifacio"
+      }
+    }
   ]
 }

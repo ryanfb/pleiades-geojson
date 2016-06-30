@@ -12,5 +12,65 @@
   "reprPoint": [
     -8.1205273,
     33.1675377
+  ],
+  "names": [
+    "Anatis",
+    "Asana"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.0,
+              30.0
+            ],
+            [
+              -10.0,
+              35.0
+            ],
+            [
+              -5.0,
+              35.0
+            ],
+            [
+              -5.0,
+              30.0
+            ],
+            [
+              -10.0,
+              30.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/798/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1205273,
+          33.1675377
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/798/osm-location"
+      }
+    }
   ]
 }

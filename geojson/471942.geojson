@@ -12,5 +12,64 @@
   "reprPoint": [
     8.8005823,
     38.8864561
+  ],
+  "names": [
+    "Herakleous Limen"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.0,
+              38.0
+            ],
+            [
+              8.0,
+              39.0
+            ],
+            [
+              9.0,
+              39.0
+            ],
+            [
+              9.0,
+              38.0
+            ],
+            [
+              8.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/471942/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8005823,
+          38.8864561
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/471942/osm-location"
+      }
+    }
   ]
 }

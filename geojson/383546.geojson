@@ -12,5 +12,65 @@
   "reprPoint": [
     10.605721,
     45.4690768
+  ],
+  "names": [
+    "Ad Flexum",
+    "Sermione Mansio"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.5,
+              45.0
+            ],
+            [
+              10.5,
+              45.5
+            ],
+            [
+              11.0,
+              45.5
+            ],
+            [
+              11.0,
+              45.0
+            ],
+            [
+              10.5,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/383546/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.605721,
+          45.4690768
+        ]
+      },
+      "id": "location-of-sirmione",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Sirmione",
+        "link": "http://pleiades.stoa.org/places/383546/location-of-sirmione"
+      }
+    }
   ]
 }

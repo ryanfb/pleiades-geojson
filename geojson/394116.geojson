@@ -16,5 +16,61 @@
   "reprPoint": [
     12.06,
     44.11
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              44.0
+            ],
+            [
+              12.0,
+              44.5
+            ],
+            [
+              12.5,
+              44.5
+            ],
+            [
+              12.5,
+              44.0
+            ],
+            [
+              12.0,
+              44.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/394116/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.06,
+          44.11
+        ]
+      },
+      "id": "source",
+      "type": "Feature",
+      "properties": {
+        "description": "On the Bedesis fl. in the foothills of the Apennine Mountains. This location captured from Barrington Atlas and is approximate.",
+        "location_precision": "precise",
+        "title": "Source",
+        "link": "http://pleiades.stoa.org/places/394116/source"
+      }
+    }
   ]
 }

@@ -12,5 +12,65 @@
   "reprPoint": [
     29.123,
     41.242
+  ],
+  "names": [
+    "Symplegades",
+    "Kyaneai"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.0,
+              41.0
+            ],
+            [
+              29.0,
+              41.25
+            ],
+            [
+              29.25,
+              41.25
+            ],
+            [
+              29.25,
+              41.0
+            ],
+            [
+              29.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/521160/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.123,
+          41.242
+        ]
+      },
+      "id": "representative-point-for-symplegades-kyaneai-inss",
+      "type": "Feature",
+      "properties": {
+        "description": "based on Barrington Atlas position",
+        "location_precision": "precise",
+        "title": "representative point for Symplegades/Kyaneai Inss.",
+        "link": "http://pleiades.stoa.org/places/521160/representative-point-for-symplegades-kyaneai-inss"
+      }
+    }
   ]
 }

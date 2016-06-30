@@ -12,5 +12,64 @@
   "reprPoint": [
     44.7295465,
     41.8839127
+  ],
+  "names": [
+    "Aragos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.0,
+              42.0
+            ],
+            [
+              44.0,
+              43.0
+            ],
+            [
+              45.0,
+              43.0
+            ],
+            [
+              45.0,
+              42.0
+            ],
+            [
+              44.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/863741/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7295465,
+          41.8839127
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/863741/osm-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,65 @@
   "reprPoint": [
     40.6141308146,
     43.1780631622
+  ],
+  "names": [
+    "Sanigai",
+    "Saginai"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.0,
+              43.0
+            ],
+            [
+              40.0,
+              44.0
+            ],
+            [
+              41.0,
+              44.0
+            ],
+            [
+              41.0,
+              43.0
+            ],
+            [
+              40.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid F1, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857302/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.6141308145728,
+          43.1780631622007
+        ]
+      },
+      "id": "awmc-representative-position-for-the-sanigai",
+      "type": "Feature",
+      "properties": {
+        "description": "AWMC representative point for label of the Sanigai in the BAtlas at 1 : 1 million scale",
+        "location_precision": "precise",
+        "title": "AWMC Representative Position for the Sanigai",
+        "link": "http://pleiades.stoa.org/places/857302/awmc-representative-position-for-the-sanigai"
+      }
+    }
   ]
 }

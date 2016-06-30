@@ -15,5 +15,78 @@
   "reprPoint": [
     12.4562283,
     41.95629495
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.25,
+              41.75
+            ],
+            [
+              12.25,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.5,
+              41.75
+            ],
+            [
+              12.25,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/422964/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.457349,
+          41.956119
+        ]
+      },
+      "id": "darmc-location-20980",
+      "type": "Feature",
+      "properties": {
+        "description": "150K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 20980",
+        "link": "http://pleiades.stoa.org/places/422964/darmc-location-20980"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4551076,
+          41.9564709
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Villa di Lucio Vero",
+        "link": "http://pleiades.stoa.org/places/422964/osm-location"
+      }
+    }
   ]
 }

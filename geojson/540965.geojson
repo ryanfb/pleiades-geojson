@@ -12,5 +12,64 @@
   "reprPoint": [
     24.4677778,
     38.0608333
+  ],
+  "names": [
+    "Oche M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.0,
+              38.0
+            ],
+            [
+              24.0,
+              38.5
+            ],
+            [
+              24.5,
+              38.5
+            ],
+            [
+              24.5,
+              38.0
+            ],
+            [
+              24.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/540965/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4677778,
+          38.0608333
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/540965/osm-location"
+      }
+    }
   ]
 }

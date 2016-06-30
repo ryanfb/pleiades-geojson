@@ -12,5 +12,64 @@
   "reprPoint": [
     13.0601041,
     43.3316177
+  ],
+  "names": [
+    "Cingulus M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              43.5
+            ],
+            [
+              13.5,
+              43.5
+            ],
+            [
+              13.5,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/413083/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0601041,
+          43.3316177
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Monte San Vicino",
+        "link": "http://pleiades.stoa.org/places/413083/osm-location"
+      }
+    }
   ]
 }

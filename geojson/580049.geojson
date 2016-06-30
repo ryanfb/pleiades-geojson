@@ -12,5 +12,61 @@
   "reprPoint": [
     26.2541749,
     35.1975776
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.5,
+              38.0
+            ],
+            [
+              23.5,
+              38.25
+            ],
+            [
+              23.75,
+              38.25
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/580049/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2541749,
+          35.1975776
+        ]
+      },
+      "id": "location-of-palekastro",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Palekastro",
+        "link": "http://pleiades.stoa.org/places/580049/location-of-palekastro"
+      }
+    }
   ]
 }

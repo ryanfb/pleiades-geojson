@@ -12,5 +12,65 @@
   "reprPoint": [
     37.9354324,
     40.9032511
+  ],
+  "names": [
+    "Melanthios",
+    "Melanthius"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.0,
+              40.0
+            ],
+            [
+              37.0,
+              41.0
+            ],
+            [
+              38.0,
+              41.0
+            ],
+            [
+              38.0,
+              40.0
+            ],
+            [
+              37.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid C4, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857232/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9354324,
+          40.9032511
+        ]
+      },
+      "id": "osm-location-of-melet-cay131",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on a way derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Melet Çayı",
+        "link": "http://pleiades.stoa.org/places/857232/osm-location-of-melet-cay131"
+      }
+    }
   ]
 }

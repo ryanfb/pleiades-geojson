@@ -12,5 +12,64 @@
   "reprPoint": [
     16.3336121,
     38.8874003
+  ],
+  "names": [
+    "Tannus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.0,
+              38.5
+            ],
+            [
+              16.0,
+              39.0
+            ],
+            [
+              16.5,
+              39.0
+            ],
+            [
+              16.5,
+              38.5
+            ],
+            [
+              16.0,
+              38.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/452465/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3336121,
+          38.8874003
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/452465/osm-location"
+      }
+    }
   ]
 }

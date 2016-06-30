@@ -12,5 +12,61 @@
   "reprPoint": [
     2.6894543,
     41.6275068
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0,
+              41.0
+            ],
+            [
+              2.0,
+              42.0
+            ],
+            [
+              3.0,
+              42.0
+            ],
+            [
+              3.0,
+              41.0
+            ],
+            [
+              2.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/246894/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6894543,
+          41.6275068
+        ]
+      },
+      "id": "dare-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, village precision",
+        "location_precision": "precise",
+        "title": "DARE Location",
+        "link": "http://pleiades.stoa.org/places/246894/dare-location"
+      }
+    }
   ]
 }

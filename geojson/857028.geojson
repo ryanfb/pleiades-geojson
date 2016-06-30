@@ -12,5 +12,66 @@
   "reprPoint": [
     35.462095,
     41.153629
+  ],
+  "names": [
+    "Andrapa",
+    "Neapolis",
+    "Neoklaudiopolis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              41.0
+            ],
+            [
+              35.0,
+              42.0
+            ],
+            [
+              36.0,
+              42.0
+            ],
+            [
+              36.0,
+              41.0
+            ],
+            [
+              35.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid A3, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857028/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.462095,
+          41.153629
+        ]
+      },
+      "id": "darmc-location-13131",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 13131",
+        "link": "http://pleiades.stoa.org/places/857028/darmc-location-13131"
+      }
+    }
   ]
 }

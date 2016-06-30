@@ -16,5 +16,65 @@
   "reprPoint": [
     10.316667,
     42.333333
+  ],
+  "names": [
+    "Oglasa",
+    "Montecristo"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              42.0
+            ],
+            [
+              10.0,
+              42.5
+            ],
+            [
+              10.5,
+              42.5
+            ],
+            [
+              10.5,
+              42.0
+            ],
+            [
+              10.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/403247/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.316667,
+          42.333333
+        ]
+      },
+      "id": "location-of-montecristo",
+      "type": "Feature",
+      "properties": {
+        "description": "verified in Google Earth 2013",
+        "location_precision": "precise",
+        "title": "location of Montecristo",
+        "link": "http://pleiades.stoa.org/places/403247/location-of-montecristo"
+      }
+    }
   ]
 }

@@ -15,5 +15,66 @@
   "reprPoint": [
     89.9999999,
     15.0000001
+  ],
+  "names": [
+    "Orientale Mare",
+    "Gangeticus Sinus",
+    "Eous Oceanus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.0,
+              15.0
+            ],
+            [
+              85.0,
+              20.0
+            ],
+            [
+              90.0,
+              20.0
+            ],
+            [
+              90.0,
+              15.0
+            ],
+            [
+              85.0,
+              15.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/50178/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.9999999,
+          15.0000001
+        ]
+      },
+      "id": "location-of-bay-of-bengal",
+      "type": "Feature",
+      "properties": {
+        "description": "The Bay of Bengal is the largest bay in the world and forms the northeastern part of the Indian Ocean. Location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "location of Bay of Bengal",
+        "link": "http://pleiades.stoa.org/places/50178/location-of-bay-of-bengal"
+      }
+    }
   ]
 }

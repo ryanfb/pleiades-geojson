@@ -12,5 +12,64 @@
   "reprPoint": [
     5.5979941,
     44.5496337
+  ],
+  "names": [
+    "Gaura M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.5,
+              44.5
+            ],
+            [
+              5.5,
+              45.0
+            ],
+            [
+              6.0,
+              45.0
+            ],
+            [
+              6.0,
+              44.5
+            ],
+            [
+              5.5,
+              44.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/167780/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5979941,
+          44.5496337
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/167780/osm-location"
+      }
+    }
   ]
 }

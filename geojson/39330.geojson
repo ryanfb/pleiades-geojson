@@ -15,5 +15,64 @@
   "reprPoint": [
     42.166667,
     15.05
+  ],
+  "names": [
+    "Chelonitis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.0,
+              15.0
+            ],
+            [
+              40.0,
+              20.0
+            ],
+            [
+              45.0,
+              20.0
+            ],
+            [
+              45.0,
+              15.0
+            ],
+            [
+              40.0,
+              15.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/39330/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.166667,
+          15.05
+        ]
+      },
+      "id": "location-of-jabal-zebayir",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Jabal Zebayir",
+        "link": "http://pleiades.stoa.org/places/39330/location-of-jabal-zebayir"
+      }
+    }
   ]
 }

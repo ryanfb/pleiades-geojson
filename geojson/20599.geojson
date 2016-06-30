@@ -12,5 +12,61 @@
   "reprPoint": [
     10.100638,
     56.988693
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              55.0
+            ],
+            [
+              10.0,
+              60.0
+            ],
+            [
+              15.0,
+              60.0
+            ],
+            [
+              15.0,
+              55.0
+            ],
+            [
+              10.0,
+              55.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/20599/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.100638,
+          56.988693
+        ]
+      },
+      "id": "darmc-location-23861",
+      "type": "Feature",
+      "properties": {
+        "description": "Point location",
+        "location_precision": "precise",
+        "title": "DARMC location 23861",
+        "link": "http://pleiades.stoa.org/places/20599/darmc-location-23861"
+      }
+    }
   ]
 }

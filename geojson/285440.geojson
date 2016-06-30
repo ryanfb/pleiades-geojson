@@ -12,5 +12,81 @@
   "reprPoint": [
     10.33,
     37.18
+  ],
+  "names": [
+    "Error"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.0,
+              35.0
+            ],
+            [
+              -1.0,
+              36.0
+            ],
+            [
+              0.0,
+              36.0
+            ],
+            [
+              0.0,
+              35.0
+            ],
+            [
+              -1.0,
+              35.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/285440/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.33,
+          37.18
+        ]
+      },
+      "id": "wikipedia-location",
+      "type": "Feature",
+      "properties": {
+        "description": "1:100,000 scale location",
+        "location_precision": "precise",
+        "title": "Wikipedia location",
+        "link": "http://pleiades.stoa.org/places/285440/wikipedia-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3257769,
+          37.1813894
+        ]
+      },
+      "id": "location-of-ile-plane",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Île Plane",
+        "link": "http://pleiades.stoa.org/places/285440/location-of-ile-plane"
+      }
+    }
   ]
 }

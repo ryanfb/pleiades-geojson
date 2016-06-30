@@ -12,5 +12,82 @@
   "reprPoint": [
     40.78859425,
     43.0995179
+  ],
+  "names": [
+    "Tracheia",
+    "Anakopia"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.0,
+              43.0
+            ],
+            [
+              40.0,
+              44.0
+            ],
+            [
+              41.0,
+              44.0
+            ],
+            [
+              41.0,
+              43.0
+            ],
+            [
+              40.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid F1, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857358/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.76904,
+          43.104476
+        ]
+      },
+      "id": "darmc-location-18383",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18383",
+        "link": "http://pleiades.stoa.org/places/857358/darmc-location-18383"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8081485,
+          43.0945598
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/857358/osm-location"
+      }
+    }
   ]
 }

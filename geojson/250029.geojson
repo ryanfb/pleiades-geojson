@@ -12,5 +12,61 @@
   "reprPoint": [
     -1.2592608,
     42.2755671
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0,
+              42.0
+            ],
+            [
+              -2.0,
+              43.0
+            ],
+            [
+              -1.0,
+              43.0
+            ],
+            [
+              -1.0,
+              42.0
+            ],
+            [
+              -2.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/250029/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2592608,
+          42.2755671
+        ]
+      },
+      "id": "osm-location-of-mausoleum",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location of the center of the visible archaeological remains of the monument, derived from an OpenStreetMap. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM Location of Mausoleum",
+        "link": "http://pleiades.stoa.org/places/250029/osm-location-of-mausoleum"
+      }
+    }
   ]
 }

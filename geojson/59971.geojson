@@ -12,5 +12,64 @@
   "reprPoint": [
     88.9855836,
     22.4785404
+  ],
+  "names": [
+    "Oxymatis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.0,
+              20.0
+            ],
+            [
+              85.0,
+              25.0
+            ],
+            [
+              90.0,
+              25.0
+            ],
+            [
+              90.0,
+              20.0
+            ],
+            [
+              85.0,
+              20.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/59971/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.9855836,
+          22.4785404
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/59971/osm-location"
+      }
+    }
   ]
 }

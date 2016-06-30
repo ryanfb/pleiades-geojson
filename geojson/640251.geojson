@@ -12,5 +12,61 @@
   "reprPoint": [
     31.18,
     36.9355
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.0,
+              36.5
+            ],
+            [
+              31.0,
+              37.0
+            ],
+            [
+              31.5,
+              37.0
+            ],
+            [
+              31.5,
+              36.5
+            ],
+            [
+              31.0,
+              36.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/640251/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.18,
+          36.9355
+        ]
+      },
+      "id": "point-location",
+      "type": "Feature",
+      "properties": {
+        "description": "From the 1:500,000 scale Barrington Map sheet 65. Time periods from the Barrington.",
+        "location_precision": "precise",
+        "title": "Point location",
+        "link": "http://pleiades.stoa.org/places/640251/point-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,64 @@
   "reprPoint": [
     30.7268567,
     37.7545388
+  ],
+  "names": [
+    "Ouiaros M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.5,
+              37.5
+            ],
+            [
+              30.5,
+              38.0
+            ],
+            [
+              31.0,
+              38.0
+            ],
+            [
+              31.0,
+              37.5
+            ],
+            [
+              30.5,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/639030/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7268567,
+          37.7545388
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/639030/osm-location"
+      }
+    }
   ]
 }

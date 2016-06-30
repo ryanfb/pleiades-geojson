@@ -15,5 +15,66 @@
   "reprPoint": [
     49.0149633,
     33.4390705
+  ],
+  "names": [
+    "Hithite",
+    "Hudhud",
+    "Koprates"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.0,
+              31.0
+            ],
+            [
+              48.0,
+              32.0
+            ],
+            [
+              49.0,
+              32.0
+            ],
+            [
+              49.0,
+              31.0
+            ],
+            [
+              48.0,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/912835/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0149633,
+          33.4390705
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/912835/osm-location"
+      }
+    }
   ]
 }

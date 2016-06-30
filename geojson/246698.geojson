@@ -12,5 +12,78 @@
   "reprPoint": [
     1.8390156,
     41.7016051
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.0,
+              41.0
+            ],
+            [
+              1.0,
+              42.0
+            ],
+            [
+              2.0,
+              42.0
+            ],
+            [
+              2.0,
+              41.0
+            ],
+            [
+              1.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/246698/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.823304,
+          41.725134
+        ]
+      },
+      "id": "darmc-location-20666",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 20666",
+        "link": "http://pleiades.stoa.org/places/246698/darmc-location-20666"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8547272,
+          41.6780762
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygonal geometry corresponding to the perimeter of the extant remains of the monument. Derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/246698/osm-location"
+      }
+    }
   ]
 }

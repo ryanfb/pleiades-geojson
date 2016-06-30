@@ -12,5 +12,64 @@
   "reprPoint": [
     10.1579029,
     44.0486447
+  ],
+  "names": [
+    "Frigidus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              44.0
+            ],
+            [
+              10.0,
+              44.5
+            ],
+            [
+              10.5,
+              44.5
+            ],
+            [
+              10.5,
+              44.0
+            ],
+            [
+              10.0,
+              44.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/403209/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1579029,
+          44.0486447
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/403209/osm-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,66 @@
   "reprPoint": [
     74.6092788,
     34.384615
+  ],
+  "names": [
+    "Hydaspes",
+    "Bidaspes",
+    "Idaspes"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.0,
+              30.0
+            ],
+            [
+              70.0,
+              35.0
+            ],
+            [
+              75.0,
+              35.0
+            ],
+            [
+              75.0,
+              30.0
+            ],
+            [
+              70.0,
+              30.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/59837/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6092788,
+          34.384615
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/59837/osm-location"
+      }
+    }
   ]
 }

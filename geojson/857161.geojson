@@ -12,5 +12,66 @@
   "reprPoint": [
     39.53098,
     41.06474
+  ],
+  "names": [
+    "Hieron Oros",
+    "Fener Burnu",
+    "Yoros Burnu"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.0,
+              41.0
+            ],
+            [
+              39.0,
+              42.0
+            ],
+            [
+              40.0,
+              42.0
+            ],
+            [
+              40.0,
+              41.0
+            ],
+            [
+              39.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid E3, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857161/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.53098,
+          41.06474
+        ]
+      },
+      "id": "fener-burnu",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of Fener Burnu",
+        "link": "http://pleiades.stoa.org/places/857161/fener-burnu"
+      }
+    }
   ]
 }

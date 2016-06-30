@@ -12,5 +12,64 @@
   "reprPoint": [
     12.8907289,
     45.6305812
+  ],
+  "names": [
+    "Reatinum"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              45.5
+            ],
+            [
+              12.5,
+              46.0
+            ],
+            [
+              13.0,
+              46.0
+            ],
+            [
+              13.0,
+              45.5
+            ],
+            [
+              12.5,
+              45.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/393481/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8907289,
+          45.6305812
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/393481/osm-location"
+      }
+    }
   ]
 }

@@ -15,5 +15,61 @@
   "reprPoint": [
     80.510826,
     5.952062
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.0,
+              5.0
+            ],
+            [
+              75.0,
+              15.0
+            ],
+            [
+              85.0,
+              15.0
+            ],
+            [
+              85.0,
+              5.0
+            ],
+            [
+              75.0,
+              5.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/50124/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.510826,
+          5.952062
+        ]
+      },
+      "id": "darmc-location-30478",
+      "type": "Feature",
+      "properties": {
+        "description": "Modern location associated with presumed ancient site. 5M scale point location digitized from the Barrington Atlas and adjusted with reference to Google Earth imagery.",
+        "location_precision": "precise",
+        "title": "DARMC location of modern Matara (30478)",
+        "link": "http://pleiades.stoa.org/places/50124/darmc-location-30478"
+      }
+    }
   ]
 }

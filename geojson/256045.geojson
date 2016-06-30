@@ -18,5 +18,65 @@
   "reprPoint": [
     -5.343056,
     36.125833
+  ],
+  "names": [
+    "Calpe M.",
+    "Rock of Gibraltar"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              36.0
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -5.0,
+              37.0
+            ],
+            [
+              -5.0,
+              36.0
+            ],
+            [
+              -6.0,
+              36.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/256045/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.343056,
+          36.125833
+        ]
+      },
+      "id": "location-of-calpe-m",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "location of Calpe M.",
+        "link": "http://pleiades.stoa.org/places/256045/location-of-calpe-m"
+      }
+    }
   ]
 }

@@ -12,5 +12,65 @@
   "reprPoint": [
     23.07,
     38.12
+  ],
+  "names": [
+    "Halkyonis Sinus",
+    "Alkyonis Sinus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.0,
+              38.0
+            ],
+            [
+              23.0,
+              38.5
+            ],
+            [
+              23.5,
+              38.5
+            ],
+            [
+              23.5,
+              38.0
+            ],
+            [
+              23.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570276/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.07,
+          38.12
+        ]
+      },
+      "id": "point-location-of-h-alkyonis-sinus",
+      "type": "Feature",
+      "properties": {
+        "description": "verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "point location of (H)Alkyonis Sinus",
+        "link": "http://pleiades.stoa.org/places/570276/point-location-of-h-alkyonis-sinus"
+      }
+    }
   ]
 }

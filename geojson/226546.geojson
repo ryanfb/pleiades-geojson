@@ -12,5 +12,67 @@
   "reprPoint": [
     31.901597,
     46.691895
+  ],
+  "names": [
+    "Borysthenes",
+    "Olbia",
+    "Miletopolis",
+    "Olbiopolis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.0,
+              46.0
+            ],
+            [
+              31.0,
+              47.0
+            ],
+            [
+              32.0,
+              47.0
+            ],
+            [
+              32.0,
+              46.0
+            ],
+            [
+              31.0,
+              46.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/226546/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.901597,
+          46.691895
+        ]
+      },
+      "id": "darmc-location-24599",
+      "type": "Feature",
+      "properties": {
+        "description": "1M scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 24599",
+        "link": "http://pleiades.stoa.org/places/226546/darmc-location-24599"
+      }
+    }
   ]
 }

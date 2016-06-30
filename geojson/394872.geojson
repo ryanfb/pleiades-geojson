@@ -12,5 +12,61 @@
   "reprPoint": [
     12.6592251,
     45.6745664
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              45.5
+            ],
+            [
+              12.5,
+              46.0
+            ],
+            [
+              13.0,
+              46.0
+            ],
+            [
+              13.0,
+              45.5
+            ],
+            [
+              12.5,
+              45.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/394872/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6592251,
+          45.6745664
+        ]
+      },
+      "id": "location-of-roman-bridge",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Roman bridge",
+        "link": "http://pleiades.stoa.org/places/394872/location-of-roman-bridge"
+      }
+    }
   ]
 }

@@ -17,5 +17,82 @@
   "reprPoint": [
     -3.5569907,
     33.9528712
+  ],
+  "names": [
+    "Mulucha",
+    "Malva"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.0,
+              34.0
+            ],
+            [
+              -3.0,
+              35.0
+            ],
+            [
+              -2.0,
+              35.0
+            ],
+            [
+              -2.0,
+              34.0
+            ],
+            [
+              -3.0,
+              34.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/285491/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.345498,
+          35.1142583
+        ]
+      },
+      "id": "osm-location-mouth",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM location: river mouth",
+        "link": "http://pleiades.stoa.org/places/285491/osm-location-mouth"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7684834,
+          32.7914841
+        ]
+      },
+      "id": "osm-location-upstream",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM location: upstream section",
+        "link": "http://pleiades.stoa.org/places/285491/osm-location-upstream"
+      }
+    }
   ]
 }

@@ -12,5 +12,65 @@
   "reprPoint": [
     23.606153,
     40.115943
+  ],
+  "names": [
+    "Toronaikos Kolpos",
+    "Kólpos Kassándras"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.5,
+              40.0
+            ],
+            [
+              23.5,
+              40.5
+            ],
+            [
+              24.0,
+              40.5
+            ],
+            [
+              24.0,
+              40.0
+            ],
+            [
+              23.5,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/501647/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.606153,
+          40.115943
+        ]
+      },
+      "id": "location-of-toronaikos-kolpos",
+      "type": "Feature",
+      "properties": {
+        "description": "verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "location of Toronaikos Kolpos",
+        "link": "http://pleiades.stoa.org/places/501647/location-of-toronaikos-kolpos"
+      }
+    }
   ]
 }

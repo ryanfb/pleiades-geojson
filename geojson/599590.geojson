@@ -12,5 +12,64 @@
   "reprPoint": [
     25.9021818,
     36.8896626
+  ],
+  "names": [
+    "Dia"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.5,
+              36.5
+            ],
+            [
+              25.5,
+              37.0
+            ],
+            [
+              26.0,
+              37.0
+            ],
+            [
+              26.0,
+              36.5
+            ],
+            [
+              25.5,
+              36.5
+            ]
+          ]
+        ]
+      },
+      "id": "undetermined",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/places/599590/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9021818,
+          36.8896626
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/599590/osm-location"
+      }
+    }
   ]
 }

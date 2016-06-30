@@ -12,5 +12,78 @@
   "reprPoint": [
     15.45244425,
     40.54087475
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              40.5
+            ],
+            [
+              15.0,
+              41.0
+            ],
+            [
+              15.5,
+              41.0
+            ],
+            [
+              15.5,
+              40.5
+            ],
+            [
+              15.0,
+              40.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/442713/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.449897,
+          40.54473
+        ]
+      },
+      "id": "darmc-location-18740",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18740",
+        "link": "http://pleiades.stoa.org/places/442713/darmc-location-18740"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4549915,
+          40.5370195
+        ]
+      },
+      "id": "osm-location-of-grotte-di-pertosa",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Grotte di Pertosa",
+        "link": "http://pleiades.stoa.org/places/442713/osm-location-of-grotte-di-pertosa"
+      }
+    }
   ]
 }

@@ -12,5 +12,64 @@
   "reprPoint": [
     -0.5229921,
     43.8940132
+  ],
+  "names": [
+    "Medulla"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.0,
+              43.0
+            ],
+            [
+              -1.0,
+              44.0
+            ],
+            [
+              0.0,
+              44.0
+            ],
+            [
+              0.0,
+              43.0
+            ],
+            [
+              -1.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/246497/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5229921,
+          43.8940132
+        ]
+      },
+      "id": "osm-location-of-la-midouze",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on OpenStreetMap..",
+        "location_precision": "precise",
+        "title": "OSM location of La Midouze",
+        "link": "http://pleiades.stoa.org/places/246497/osm-location-of-la-midouze"
+      }
+    }
   ]
 }

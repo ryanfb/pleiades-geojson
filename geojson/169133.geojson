@@ -12,5 +12,78 @@
   "reprPoint": [
     5.8654694,
     46.0855846
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.5,
+              46.0
+            ],
+            [
+              5.5,
+              46.5
+            ],
+            [
+              6.0,
+              46.5
+            ],
+            [
+              6.0,
+              46.0
+            ],
+            [
+              5.5,
+              46.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/169133/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.869942,
+          46.086404
+        ]
+      },
+      "id": "darmc-location-14356",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 14356",
+        "link": "http://pleiades.stoa.org/places/169133/darmc-location-14356"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8609968,
+          46.0847652
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Pont de Grésin",
+        "link": "http://pleiades.stoa.org/places/169133/osm-location"
+      }
+    }
   ]
 }

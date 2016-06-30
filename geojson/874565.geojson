@@ -12,5 +12,78 @@
   "reprPoint": [
     41.8174545,
     36.3768629
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.0,
+              37.0
+            ],
+            [
+              42.0,
+              38.0
+            ],
+            [
+              43.0,
+              38.0
+            ],
+            [
+              43.0,
+              37.0
+            ],
+            [
+              42.0,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/874565/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1917057,
+          37.591129
+        ]
+      },
+      "id": "location-of-khabur-river",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Khabur (river)",
+        "link": "http://pleiades.stoa.org/places/874565/location-of-khabur-river"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4432033,
+          35.1625968
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/874565/osm-location"
+      }
+    }
   ]
 }

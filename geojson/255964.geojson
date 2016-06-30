@@ -12,5 +12,64 @@
   "reprPoint": [
     -5.4338183,
     36.1068946
+  ],
+  "names": [
+    "Albus Portus"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              36.0
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -5.0,
+              37.0
+            ],
+            [
+              -5.0,
+              36.0
+            ],
+            [
+              -6.0,
+              36.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/255964/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.4338183,
+          36.1068946
+        ]
+      },
+      "id": "location-of-san-garcia",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of San García",
+        "link": "http://pleiades.stoa.org/places/255964/location-of-san-garcia"
+      }
+    }
   ]
 }

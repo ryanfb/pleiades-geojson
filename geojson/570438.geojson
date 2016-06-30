@@ -12,5 +12,81 @@
   "reprPoint": [
     22.11441505,
     37.9704248
+  ],
+  "names": [
+    "Lousoi"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.0,
+              37.5
+            ],
+            [
+              22.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
+            ],
+            [
+              22.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570438/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.116811,
+          37.969024
+        ]
+      },
+      "id": "darmc-location-16065",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 16065",
+        "link": "http://pleiades.stoa.org/places/570438/darmc-location-16065"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1120191,
+          37.9718256
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/570438/osm-location"
+      }
+    }
   ]
 }

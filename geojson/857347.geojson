@@ -12,5 +12,64 @@
   "reprPoint": [
     42.293547,
     42.089734
+  ],
+  "names": [
+    "Telephis"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.0,
+              42.0
+            ],
+            [
+              42.0,
+              43.0
+            ],
+            [
+              43.0,
+              43.0
+            ],
+            [
+              43.0,
+              42.0
+            ],
+            [
+              42.0,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location is within the footprint of BAtlas map 87 grid H2, but otherwise undetermined",
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/857347/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.293547,
+          42.089734
+        ]
+      },
+      "id": "darmc-location-32770",
+      "type": "Feature",
+      "properties": {
+        "description": "  scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 32770",
+        "link": "http://pleiades.stoa.org/places/857347/darmc-location-32770"
+      }
+    }
   ]
 }

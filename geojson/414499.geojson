@@ -15,5 +15,61 @@
   "reprPoint": [
     11.6767668,
     43.5019405
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5,
+              43.5
+            ],
+            [
+              11.5,
+              44.0
+            ],
+            [
+              12.0,
+              44.0
+            ],
+            [
+              12.0,
+              43.5
+            ],
+            [
+              11.5,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/414499/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6767668,
+          43.5019405
+        ]
+      },
+      "id": "osm-location-of-ponte-del-romito",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte del Romito",
+        "link": "http://pleiades.stoa.org/places/414499/osm-location-of-ponte-del-romito"
+      }
+    }
   ]
 }

@@ -15,5 +15,64 @@
   "reprPoint": [
     12.5393485,
     41.8709452
+  ],
+  "names": [
+    "Aqua Marcia"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              41.75
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              12.75,
+              41.75
+            ],
+            [
+              12.5,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/423565/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5393485,
+          41.8709452
+        ]
+      },
+      "id": "location-of-aqueduct",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of aqueduct",
+        "link": "http://pleiades.stoa.org/places/423565/location-of-aqueduct"
+      }
+    }
   ]
 }

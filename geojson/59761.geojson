@@ -12,5 +12,64 @@
   "reprPoint": [
     72.7082224,
     24.5924268
+  ],
+  "names": [
+    "Capitalia M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.0,
+              20.0
+            ],
+            [
+              70.0,
+              25.0
+            ],
+            [
+              75.0,
+              25.0
+            ],
+            [
+              75.0,
+              20.0
+            ],
+            [
+              70.0,
+              20.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/59761/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7082224,
+          24.5924268
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/59761/osm-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,66 @@
   "reprPoint": [
     22.166667,
     36.75
+  ],
+  "names": [
+    "Asinaeus",
+    "Coronaeus Sinus",
+    "Messeniakos Kolpos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.0,
+              36.5
+            ],
+            [
+              22.0,
+              37.0
+            ],
+            [
+              22.5,
+              37.0
+            ],
+            [
+              22.5,
+              36.5
+            ],
+            [
+              22.0,
+              36.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570123/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.166667,
+          36.75
+        ]
+      },
+      "id": "location-of-messenian-gulf",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoHack.",
+        "location_precision": "precise",
+        "title": "location of Messenian Gulf",
+        "link": "http://pleiades.stoa.org/places/570123/location-of-messenian-gulf"
+      }
+    }
   ]
 }

@@ -12,5 +12,64 @@
   "reprPoint": [
     12.5429237,
     41.7070537
+  ],
+  "names": [
+    "Albunea"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              41.5
+            ],
+            [
+              12.5,
+              41.75
+            ],
+            [
+              12.75,
+              41.75
+            ],
+            [
+              12.75,
+              41.5
+            ],
+            [
+              12.5,
+              41.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/422828/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5429237,
+          41.7070537
+        ]
+      },
+      "id": "location-of-solforata",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Solforata",
+        "link": "http://pleiades.stoa.org/places/422828/location-of-solforata"
+      }
+    }
   ]
 }

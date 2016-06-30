@@ -12,5 +12,81 @@
   "reprPoint": [
     13.312548,
     43.311591
+  ],
+  "names": [
+    "Trea"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              43.5
+            ],
+            [
+              13.5,
+              43.5
+            ],
+            [
+              13.5,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/413348/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.312548,
+          43.311591
+        ]
+      },
+      "id": "darmc-location-18959",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 18959",
+        "link": "http://pleiades.stoa.org/places/413348/darmc-location-18959"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2913795,
+          43.3190082
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/413348/osm-location"
+      }
+    }
   ]
 }

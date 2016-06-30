@@ -12,5 +12,64 @@
   "reprPoint": [
     23.4939921,
     39.1230762
+  ],
+  "names": [
+    "Polyaigos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.5,
+              39.0
+            ],
+            [
+              23.5,
+              39.5
+            ],
+            [
+              24.0,
+              39.5
+            ],
+            [
+              24.0,
+              39.0
+            ],
+            [
+              23.5,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/541066/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4939921,
+          39.1230762
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/541066/osm-location"
+      }
+    }
   ]
 }

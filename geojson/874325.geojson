@@ -12,5 +12,84 @@
   "reprPoint": [
     39.4166666667,
     39.6666666667
+  ],
+  "names": [
+    "Antitaurus M."
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.0,
+              39.0
+            ],
+            [
+              39.0,
+              40.0
+            ],
+            [
+              40.0,
+              40.0
+            ],
+            [
+              40.0,
+              39.0
+            ],
+            [
+              39.0,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/errata/874325/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.0,
+              39.25
+            ],
+            [
+              39.0,
+              39.75
+            ],
+            [
+              39.75,
+              40.0
+            ],
+            [
+              40.0,
+              39.75
+            ],
+            [
+              39.0,
+              39.25
+            ]
+          ]
+        ]
+      },
+      "id": "bounding-polygon-for-antitaurus-mountains",
+      "type": "Feature",
+      "properties": {
+        "description": "This bounding polygon is based on the label placement -- plus a small buffer rounded to the quarters of a degree -- used in Barrington Atlas Map 89 by S.E. Kroll, et al.",
+        "location_precision": "precise",
+        "title": "Bounding polygon for Antitaurus mountains",
+        "link": "http://pleiades.stoa.org/errata/874325/bounding-polygon-for-antitaurus-mountains"
+      }
+    }
   ]
 }

@@ -12,5 +12,67 @@
   "reprPoint": [
     22.9489948,
     38.0301892
+  ],
+  "names": [
+    "Peiraion",
+    "Piraian",
+    "Peraia",
+    "Piraion"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.5,
+              38.0
+            ],
+            [
+              22.5,
+              38.5
+            ],
+            [
+              23.0,
+              38.5
+            ],
+            [
+              23.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570571/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9489948,
+          38.0301892
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/570571/osm-location"
+      }
+    }
   ]
 }

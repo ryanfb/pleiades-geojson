@@ -16,5 +16,61 @@
   "reprPoint": [
     12.7047066,
     42.5536692
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.5,
+              42.5
+            ],
+            [
+              12.5,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              42.5
+            ],
+            [
+              12.5,
+              42.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/414507/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7047066,
+          42.5536692
+        ]
+      },
+      "id": "osm-location-of-ponte-del-toro",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte del Toro",
+        "link": "http://pleiades.stoa.org/places/414507/osm-location-of-ponte-del-toro"
+      }
+    }
   ]
 }

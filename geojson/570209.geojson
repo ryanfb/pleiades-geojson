@@ -12,5 +12,67 @@
   "reprPoint": [
     21.927988,
     37.398271
+  ],
+  "names": [
+    "Eira",
+    "Hira",
+    "Ira",
+    "Ire"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.5,
+              37.0
+            ],
+            [
+              21.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
+            ],
+            [
+              22.0,
+              37.0
+            ],
+            [
+              21.5,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/570209/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.927988,
+          37.398271
+        ]
+      },
+      "id": "darmc-location-12306",
+      "type": "Feature",
+      "properties": {
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 12306",
+        "link": "http://pleiades.stoa.org/places/570209/darmc-location-12306"
+      }
+    }
   ]
 }

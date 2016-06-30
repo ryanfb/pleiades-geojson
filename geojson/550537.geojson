@@ -12,5 +12,64 @@
   "reprPoint": [
     27.0185006,
     39.5161319
+  ],
+  "names": [
+    "Euenos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.0,
+              39.5
+            ],
+            [
+              27.0,
+              40.0
+            ],
+            [
+              27.5,
+              40.0
+            ],
+            [
+              27.5,
+              39.5
+            ],
+            [
+              27.0,
+              39.5
+            ]
+          ]
+        ]
+      },
+      "id": "undetermined",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/places/550537/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0185006,
+          39.5161319
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/550537/osm-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,61 @@
   "reprPoint": [
     12.8537876,
     41.8193115
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.75,
+              41.75
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              13.0,
+              42.0
+            ],
+            [
+              13.0,
+              41.75
+            ],
+            [
+              12.75,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/426616/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8537876,
+          41.8193115
+        ]
+      },
+      "id": "location-of-colle-rasto",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Colle Rasto",
+        "link": "http://pleiades.stoa.org/places/426616/location-of-colle-rasto"
+      }
+    }
   ]
 }

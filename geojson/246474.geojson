@@ -12,5 +12,65 @@
   "reprPoint": [
     3.2318419,
     41.9501869
+  ],
+  "names": [
+    "Lounarion Akron",
+    "Cap Begur"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.0,
+              41.0
+            ],
+            [
+              3.0,
+              42.0
+            ],
+            [
+              4.0,
+              42.0
+            ],
+            [
+              4.0,
+              41.0
+            ],
+            [
+              3.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/246474/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2318419,
+          41.9501869
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative polygonal geometry for the modern Cap Begur in eastern Spain, derived from an OpenStreetMap way.",
+        "location_precision": "precise",
+        "title": "OSM Location",
+        "link": "http://pleiades.stoa.org/places/246474/osm-location"
+      }
+    }
   ]
 }

@@ -12,5 +12,64 @@
   "reprPoint": [
     11.5278533,
     45.5341618
+  ],
+  "names": [
+    "Retron"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0,
+              45.5
+            ],
+            [
+              11.0,
+              46.0
+            ],
+            [
+              11.5,
+              46.0
+            ],
+            [
+              11.5,
+              45.5
+            ],
+            [
+              11.0,
+              45.5
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/393482/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5278533,
+          45.5341618
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/393482/osm-location"
+      }
+    }
   ]
 }

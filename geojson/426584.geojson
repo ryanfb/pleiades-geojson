@@ -12,5 +12,61 @@
   "reprPoint": [
     12.4844546,
     41.9572777
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.25,
+              41.75
+            ],
+            [
+              12.25,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.5,
+              41.75
+            ],
+            [
+              12.25,
+              41.75
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/426584/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4844546,
+          41.9572777
+        ]
+      },
+      "id": "location-of-grottarossa-tombs",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Grottarossa tombs",
+        "link": "http://pleiades.stoa.org/places/426584/location-of-grottarossa-tombs"
+      }
+    }
   ]
 }

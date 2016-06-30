@@ -12,5 +12,64 @@
   "reprPoint": [
     13.1499814,
     43.3129699
+  ],
+  "names": [
+    "Misco"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              43.5
+            ],
+            [
+              13.5,
+              43.5
+            ],
+            [
+              13.5,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas location",
+        "link": "http://pleiades.stoa.org/places/413203/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1499814,
+          43.3129699
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/413203/osm-location"
+      }
+    }
   ]
 }

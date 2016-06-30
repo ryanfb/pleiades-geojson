@@ -15,5 +15,64 @@
   "reprPoint": [
     4.0,
     43.0
+  ],
+  "names": [
+    "Gallicum Mare"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.5,
+              43.0
+            ],
+            [
+              3.5,
+              43.5
+            ],
+            [
+              5.5,
+              43.5
+            ],
+            [
+              5.5,
+              43.0
+            ],
+            [
+              3.5,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Barrington Atlas grid location",
+        "link": "http://pleiades.stoa.org/places/148089/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0,
+          43.0
+        ]
+      },
+      "id": "location-of-gallicum-mare",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Gallicum Mare",
+        "link": "http://pleiades.stoa.org/places/148089/location-of-gallicum-mare"
+      }
+    }
   ]
 }

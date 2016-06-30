@@ -12,5 +12,64 @@
   "reprPoint": [
     27.1849031,
     39.1195739
+  ],
+  "names": [
+    "Selinos"
+  ],
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.0,
+              39.0
+            ],
+            [
+              27.0,
+              39.5
+            ],
+            [
+              27.5,
+              39.5
+            ],
+            [
+              27.5,
+              39.0
+            ],
+            [
+              27.0,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "id": "undetermined",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "rough",
+        "title": "Undetermined location",
+        "link": "http://pleiades.stoa.org/places/550874/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1849031,
+          39.1195739
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/550874/osm-location"
+      }
+    }
   ]
 }
