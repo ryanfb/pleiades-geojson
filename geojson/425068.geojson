@@ -24,23 +24,6 @@
   "features": [
     {
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.4794,
-          41.8893
-        ]
-      },
-      "id": "location-of-pons-aemilius",
-      "type": "Feature",
-      "properties": {
-        "description": "verified in Google Earth 2013.",
-        "location_precision": "precise",
-        "title": "location of Pons Aemilius",
-        "link": "http://pleiades.stoa.org/places/425068/location-of-pons-aemilius"
-      }
-    },
-    {
-      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -74,6 +57,23 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/425068/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4794,
+          41.8893
+        ]
+      },
+      "id": "imagery-location-of-pons-aemilius",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location, coordinates derived through analysis of imagery in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "Imagery Location of Pons Aemilius",
+        "link": "http://pleiades.stoa.org/places/425068/imagery-location-of-pons-aemilius"
       }
     }
   ]
