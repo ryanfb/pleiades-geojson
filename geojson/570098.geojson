@@ -1,22 +1,63 @@
 {
   "type": "FeatureCollection",
-  "title": "Arachnaion M.",
+  "title": "Arachnaion (mountain)",
   "id": "570098",
-  "description": "An ancient place, cited: BAtlas 58 D2 Arachnaion M.",
+  "description": "A mountain of the Argolid with a higher western peak (Profitis Ilias, 1199 masl) and a lower eastern peak (Mavrovouni or Arna, 1139 masl). Material from the Mycenaean, Archaic, and Classical periods has been found on the western peak and identified with altars of Zeus and Hera described by Pausanias. Aeschylus mentions its use as a signal station.",
   "bbox": [
-    22.9740017,
-    37.7078459,
-    22.9770916,
+    22.969195,
+    37.6404,
+    23.0295,
     37.714636
   ],
+  "connectsWith": [
+    "570104"
+  ],
   "reprPoint": [
-    22.97554665,
-    37.71124095
+    22.987447075,
+    37.675952225
   ],
   "names": [
+    "Arachnaion",
+    "Arachneo",
+    "Arachnaion",
+    "Profitis Ilias",
     "Arachnaion M."
   ],
   "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.969195,
+          37.640927
+        ]
+      },
+      "id": "profitis-ilias-summit-of-mt.-arachnaion",
+      "type": "Feature",
+      "properties": {
+        "description": "The highest peak of Mt. Arachnaion, called 'Profitis Ilias', 1199 masl.",
+        "location_precision": "precise",
+        "title": "Imagery location of Profitis Ilias summit of Mt. Arachnaion",
+        "link": "http://pleiades.stoa.org/places/570098/profitis-ilias-summit-of-mt.-arachnaion"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0295,
+          37.6404
+        ]
+      },
+      "id": "arna-summit-of-mt.-arachnaion",
+      "type": "Feature",
+      "properties": {
+        "description": "The eastern summit of Mt. Arachnaion, called Arna or Mavrovouni, 1139 masl.",
+        "location_precision": "precise",
+        "title": "Imagery location of Arna summit of Mt. Arachnaion",
+        "link": "http://pleiades.stoa.org/places/570098/arna-summit-of-mt.-arachnaion"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
