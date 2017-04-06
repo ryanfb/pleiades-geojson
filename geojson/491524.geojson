@@ -2,38 +2,21 @@
   "type": "FeatureCollection",
   "title": "Antigoneia?",
   "id": "491524",
-  "description": "An ancient place, cited: BAtlas 50 B2 Antigoneia?",
+  "description": "An ancient settlement that was likely located in the vicinity of modern Tremnik and Negotino in Macedonia.",
   "bbox": [
     22.096149,
-    41.379374,
-    22.254249,
+    41.4395976,
+    22.153487,
     41.489581
   ],
   "reprPoint": [
-    22.175199,
-    41.4344775
+    22.124818,
+    41.4645893
   ],
   "names": [
     "Antigoneia"
   ],
   "features": [
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.254249,
-          41.379374
-        ]
-      },
-      "id": "darmc-location-3137",
-      "type": "Feature",
-      "properties": {
-        "description": "1M scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 3137",
-        "link": "http://pleiades.stoa.org/places/491524/darmc-location-3137"
-      }
-    },
     {
       "geometry": {
         "type": "Point",
@@ -47,8 +30,25 @@
       "properties": {
         "description": "Representative point location, village precision",
         "location_precision": "precise",
-        "title": "DARE Location",
+        "title": "DARE Location of modern Negotino",
         "link": "http://pleiades.stoa.org/places/491524/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.153487,
+          41.4395976
+        ]
+      },
+      "id": "osm-location-of-modern-tremnik",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location based on an OpenStreetMap node for the modern village of Tremnik, which is a proposed location for ancient Antigoneia.",
+        "location_precision": "precise",
+        "title": "OSM Location of modern  Tremnik",
+        "link": "http://pleiades.stoa.org/places/491524/osm-location-of-modern-tremnik"
       }
     }
   ]
