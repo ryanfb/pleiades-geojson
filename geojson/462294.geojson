@@ -2,19 +2,19 @@
   "type": "FeatureCollection",
   "title": "Makron Akron",
   "id": "462294",
-  "description": "An ancient place, cited: BAtlas 47 G5 Makron Akron",
+  "description": "A promontory/peninsula on the eastern end of Sicily.",
   "bbox": [
-    15.0,
-    36.5,
-    15.5,
-    37.0
+    15.2626402,
+    36.975143,
+    15.2626402,
+    36.975143
   ],
   "connectsWith": [
     "462492"
   ],
   "reprPoint": [
-    15.25,
-    36.75
+    15.2626402,
+    36.975143
   ],
   "names": [
     "Makron Akron"
@@ -22,39 +22,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              15.0,
-              36.5
-            ],
-            [
-              15.0,
-              37.0
-            ],
-            [
-              15.5,
-              37.0
-            ],
-            [
-              15.5,
-              36.5
-            ],
-            [
-              15.0,
-              36.5
-            ]
-          ]
+          15.2626402,
+          36.975143
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-capo-ognina",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462294/batlas-location"
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Capo Ognina",
+        "link": "http://pleiades.stoa.org/places/462294/osm-location-of-capo-ognina"
       }
     }
   ]
