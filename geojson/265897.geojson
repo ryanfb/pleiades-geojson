@@ -1,58 +1,38 @@
 {
   "type": "FeatureCollection",
-  "title": "Ferrarium/Tenebrium Pr.",
+  "title": "Ferrarium/Tenebrium (promontory)",
   "id": "265897",
-  "description": "An ancient place, cited: BAtlas 27 F3 Ferrarium/Tenebrium Pr.",
+  "description": "A promontory on the east coast of the Iberian peninsula, modern Cabo de la Nao in Spain.",
   "bbox": [
-    0.0,
-    38.0,
-    1.0,
-    39.0
+    0.2303287,
+    38.7335902,
+    0.2303287,
+    38.7335902
   ],
   "reprPoint": [
-    0.5,
-    38.5
+    0.2303287,
+    38.7335902
   ],
   "names": [
     "Ferrarium",
-    "Tenebrium Pr."
+    "Tenebrium"
   ],
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              0.0,
-              38.0
-            ],
-            [
-              0.0,
-              39.0
-            ],
-            [
-              1.0,
-              39.0
-            ],
-            [
-              1.0,
-              38.0
-            ],
-            [
-              0.0,
-              38.0
-            ]
-          ]
+          0.2303287,
+          38.7335902
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/265897/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/265897/osm-location"
       }
     }
   ]
