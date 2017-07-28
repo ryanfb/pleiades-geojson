@@ -4,14 +4,14 @@
   "id": "226603",
   "description": "The Molochna River is a river of south Ukraine that flows from Zaporizhia Oblast, Ukraine, to the Azov Sea.",
   "bbox": [
-    35.0,
-    47.0,
-    36.0,
-    48.0
+    35.2954763,
+    46.4351987,
+    35.5953716,
+    47.2305991
   ],
   "reprPoint": [
-    35.5,
-    47.5
+    35.4444853872,
+    46.8769955969
   ],
   "names": [
     "Gerros"
@@ -19,39 +19,88 @@
   "features": [
     {
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4599974,
+          46.8876627
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Molochna River",
+        "link": "http://pleiades.stoa.org/places/226603/osm-location"
+      }
+    },
+    {
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              35.0,
-              47.0
+              35.4448212,
+              46.4351987
             ],
             [
-              35.0,
-              48.0
+              35.3616517,
+              46.4620625
             ],
             [
-              36.0,
-              48.0
+              35.3371042,
+              46.5137117
             ],
             [
-              36.0,
-              47.0
+              35.2954763,
+              46.6920958
             ],
             [
-              35.0,
-              47.0
+              35.4330274,
+              46.9999589
+            ],
+            [
+              35.452937,
+              47.0441993
+            ],
+            [
+              35.4536093,
+              47.0452937
+            ],
+            [
+              35.5417023,
+              47.1860685
+            ],
+            [
+              35.542179,
+              47.1866225
+            ],
+            [
+              35.5736424,
+              47.212893
+            ],
+            [
+              35.5949279,
+              47.2305991
+            ],
+            [
+              35.5953716,
+              47.2243185
+            ],
+            [
+              35.4448212,
+              46.4351987
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-main-stream-of-molochna-river",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226603/batlas-location"
+        "description": "Representative location of the modern river channel based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of main stream of  Molochna (river)",
+        "link": "http://pleiades.stoa.org/places/226603/osm-location-of-main-stream-of-molochna-river"
       }
     }
   ]
