@@ -1,17 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Sythas fl.",
+  "title": "Sythas (river)",
   "id": "570700",
-  "description": "An ancient place, cited: BAtlas 58 D1 Sythas fl.",
+  "description": "An ancient river of the northern Peloponnese (modern Trikaliotikos) that was considered to constitute the eastern border of the region of Achaia.",
   "bbox": [
-    22.5,
-    38.0,
-    23.0,
-    38.5
+    22.62377,
+    38.08036,
+    22.62377,
+    38.08036
+  ],
+  "connectsWith": [
+    "570028"
   ],
   "reprPoint": [
-    22.75,
-    38.25
+    22.62377,
+    38.08036
   ],
   "names": [
     "Sythas",
@@ -20,39 +23,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              38.0
-            ],
-            [
-              22.5,
-              38.5
-            ],
-            [
-              23.0,
-              38.5
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
-              22.5,
-              38.0
-            ]
-          ]
+          22.62377,
+          38.08036
         ]
       },
-      "id": "batlas-location",
+      "id": "geonames-location-of-the-modern-trikalitikos-potamos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570700/batlas-location"
+        "description": "Representative point for the modern river mouth, derived from GeoNames.",
+        "location_precision": "precise",
+        "title": "Geonames Location of the Modern Trikalítikos Potamós",
+        "link": "http://pleiades.stoa.org/places/570700/geonames-location-of-the-modern-trikalitikos-potamos"
       }
     }
   ]
