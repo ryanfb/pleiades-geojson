@@ -4,14 +4,14 @@
   "id": "44626252",
   "description": "An ancient city of Sumer listed in the TAVO Index.",
   "bbox": [
-    45.0,
-    31.0,
-    46.0,
-    32.0
+    45.932591,
+    31.622262,
+    45.932591,
+    31.622262
   ],
   "reprPoint": [
-    45.5,
-    31.5
+    45.932591,
+    31.622262
   ],
   "names": [
     "Umma",
@@ -24,39 +24,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              45.0,
-              31.0
-            ],
-            [
-              45.0,
-              32.0
-            ],
-            [
-              46.0,
-              32.0
-            ],
-            [
-              46.0,
-              31.0
-            ],
-            [
-              45.0,
-              31.0
-            ]
-          ]
+          45.932591,
+          31.622262
         ]
       },
-      "id": "gane-location-22013",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "Approximate location from the TAVO index",
-        "location_precision": "rough",
-        "title": "GANE Location 22013",
-        "link": "http://pleiades.stoa.org/places/44626252/gane-location-22013"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Tall Umm al Ajayib",
+        "link": "http://pleiades.stoa.org/places/44626252/osm-location"
       }
     }
   ]
