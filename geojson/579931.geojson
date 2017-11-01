@@ -4,17 +4,17 @@
   "id": "579931",
   "description": "The Gulf of Euboea is an arm of the Aegean Sea.",
   "bbox": [
-    23.5,
-    38.25,
-    23.75,
-    38.5
+    23.43,
+    38.56,
+    23.43,
+    38.56
   ],
   "connectsWith": [
     "560221"
   ],
   "reprPoint": [
-    23.625,
-    38.375
+    23.43,
+    38.56
   ],
   "names": [
     "Euboicus Sinus"
@@ -22,39 +22,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.5,
-              38.25
-            ],
-            [
-              23.5,
-              38.5
-            ],
-            [
-              23.75,
-              38.5
-            ],
-            [
-              23.75,
-              38.25
-            ],
-            [
-              23.5,
-              38.25
-            ]
-          ]
+          23.43,
+          38.56
         ]
       },
-      "id": "batlas-location",
+      "id": "point-location-of-euboicus-sinus",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/579931/batlas-location"
+        "description": "Representative location based on GeoHack.",
+        "location_precision": "precise",
+        "title": "GeoHack location of the Gulf of Euboea",
+        "link": "http://pleiades.stoa.org/places/579931/point-location-of-euboicus-sinus"
       }
     }
   ]
