@@ -2,12 +2,12 @@
   "type": "FeatureCollection",
   "title": "Phatnitikon Stoma",
   "id": "727198",
-  "description": "One of the mouths of the Nile river and a part of the Nile Delta.",
+  "description": "The middle mouth of the Nile river in antiquity and a part of the Nile Delta.",
   "bbox": [
-    29.331389,
-    -2.282222,
-    31.2705999,
-    30.166667
+    31.844,
+    31.523,
+    31.844,
+    31.523
   ],
   "connectsWith": [
     "727172",
@@ -15,8 +15,8 @@
     "1043"
   ],
   "reprPoint": [
-    30.5673296333,
-    19.2114087667
+    31.844,
+    31.523
   ],
   "names": [
     "Phatnitikon Stoma",
@@ -27,39 +27,19 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.5,
-              31.5
-            ],
-            [
-              31.5,
-              32.0
-            ],
-            [
-              32.0,
-              32.0
-            ],
-            [
-              32.0,
-              31.5
-            ],
-            [
-              31.5,
-              31.5
-            ]
-          ]
+          31.844,
+          31.523
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-phatnitikon-stoma",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727198/undetermined"
+        "description": "Point geometry derived through analysis of Google Earth Imagery in 2013.",
+        "location_precision": "precise",
+        "title": "Imagery location of the modern Damietta mouth of the Nile",
+        "link": "http://pleiades.stoa.org/places/727198/location-of-phatnitikon-stoma"
       }
     }
   ]
