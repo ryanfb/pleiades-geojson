@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 43",
   "id": "967060368",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.465095,
     54.995203,
     -2.464829,
     54.99534
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.46496216426,
-    54.9952717272
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.46496216426,
+          54.9952717272
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

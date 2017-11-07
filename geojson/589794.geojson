@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gennadi",
   "id": "589794",
-  "description": "An ancient place, cited: BAtlas 60 F3 Gennadi",
   "bbox": [
     26.0,
     34.5,
     26.5,
     35.0
   ],
-  "reprPoint": [
-    26.25,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 F3 Gennadi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

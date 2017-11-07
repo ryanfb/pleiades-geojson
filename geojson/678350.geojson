@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Qazrin",
   "id": "678350",
-  "description": "An ancient place, cited: BAtlas 69 C4 Qazrin",
   "bbox": [
     35.689426,
     32.991709,
     35.689426,
     32.991709
   ],
-  "reprPoint": [
-    35.689426,
-    32.991709
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C4 Qazrin",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.689426,
+          32.991709
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

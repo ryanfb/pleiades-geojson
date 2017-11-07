@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Romulea",
   "id": "438820",
-  "description": "Now unlocated, Romulea was captured by the Romans during the Third Samnite War.",
   "bbox": [
     14.5,
     41.0,
     15.0,
     41.5
   ],
+  "description": "Now unlocated, Romulea was captured by the Romans during the Third Samnite War.",
   "connectsWith": [
     "442614"
-  ],
-  "reprPoint": [
-    14.75,
-    41.25
   ],
   "names": [
     "Romulea"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

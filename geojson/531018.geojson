@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Omphales",
   "id": "531018",
-  "description": "An ancient place, cited: BAtlas 54 B1 Omphales",
   "bbox": [
     20.0,
     40.0,
     20.5,
     40.5
   ],
-  "reprPoint": [
-    20.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 B1 Omphales",
   "names": [
     "Omphales"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

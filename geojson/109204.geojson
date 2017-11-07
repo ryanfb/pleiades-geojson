@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nicer (river)",
   "id": "109204",
-  "description": "Nicer fl. (Neckar river)",
   "bbox": [
     9.0756429,
     49.3825556,
     9.0756429,
     49.3825556
   ],
-  "reprPoint": [
-    9.0756429,
-    49.3825556
-  ],
+  "description": "Nicer fl. (Neckar river)",
   "names": [
     "Nicer",
     "Neckar"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0756429,
+          49.3825556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

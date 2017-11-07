@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dharphal",
   "id": "49962",
-  "description": "An ancient place, cited: BAtlas 5 C3 Dharphal",
   "bbox": [
     70.0,
     15.0,
     75.0,
     20.0
   ],
-  "reprPoint": [
-    72.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C3 Dharphal",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

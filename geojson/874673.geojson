@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Salmas",
   "id": "874673",
-  "description": "An ancient place, cited: BAtlas 89 G2 Salmas (1)",
   "bbox": [
     44.0,
     38.0,
     45.0,
     39.0
   ],
-  "reprPoint": [
-    44.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 G2 Salmas (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

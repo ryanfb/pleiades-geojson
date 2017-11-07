@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Spartarius? Campus",
   "id": "266050",
-  "description": "A region near Carthago Nova in Hispania Tarraconensis.",
   "bbox": [
     -2.0,
     37.0,
     -1.0,
     38.0
   ],
-  "reprPoint": [
-    -1.5,
-    37.5
-  ],
+  "description": "A region near Carthago Nova in Hispania Tarraconensis.",
   "names": [
     "Spartarius Campus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

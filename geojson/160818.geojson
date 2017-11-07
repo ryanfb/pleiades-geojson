@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "160818",
-  "description": "An ancient place, cited: BAtlas 16 F1 unnamed monastery (on Gallinaria Ins.)",
   "bbox": [
     8.226365,
     44.025599,
     8.226365,
     44.025599
   ],
+  "description": "An ancient place, cited: BAtlas 16 F1 unnamed monastery (on Gallinaria Ins.)",
   "connectsWith": [
     "157858"
   ],
-  "reprPoint": [
-    8.226365,
-    44.025599
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.226365,
+          44.025599
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

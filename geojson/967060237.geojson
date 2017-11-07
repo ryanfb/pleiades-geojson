@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 55 (Low Wall)",
   "id": "967060237",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.726448,
     54.971824,
     -2.726448,
     54.971824
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.726448,
-    54.971824
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.726448,
+          54.971824
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

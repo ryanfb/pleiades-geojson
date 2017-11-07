@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "346548",
-  "description": "An ancient place, cited: BAtlas 35 C1 unnamed wall (E Bir Mahalla at Zraia)",
   "bbox": [
     10.0,
     33.0,
     11.0,
     34.0
   ],
-  "reprPoint": [
-    10.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C1 unnamed wall (E Bir Mahalla at Zraia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

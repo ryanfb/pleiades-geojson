@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Porta Maggiore",
   "id": "697163696",
-  "description": "The Porta Maggiore is the ancient Porta Praenestina, an early Imperial gate preserved in the later third century walls built by Aurelian.",
   "bbox": [
     12.5150823,
     41.8912688,
     12.5150823,
     41.8912688
   ],
+  "description": "The Porta Maggiore is the ancient Porta Praenestina, an early Imperial gate preserved in the later third century walls built by Aurelian.",
   "connectsWith": [
     "423559",
     "423562",
@@ -17,15 +17,24 @@
     "622606468",
     "423025"
   ],
-  "reprPoint": [
-    12.5150823,
-    41.8912688
-  ],
   "names": [
     "Porta Praenestina",
     "Porta Maggiore"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5150823,
+          41.8912688
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

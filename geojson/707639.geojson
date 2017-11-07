@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Trogodos M.",
   "id": "707639",
-  "description": "The greater mountain range of Cyprus. Its highest point is 1952 meters.",
   "bbox": [
     32.5,
     34.5,
     33.5,
     35.0
   ],
+  "description": "The greater mountain range of Cyprus. Its highest point is 1952 meters.",
   "connectsWith": [
     "707498"
-  ],
-  "reprPoint": [
-    33.0,
-    34.75
   ],
   "names": [
     "Trogodos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

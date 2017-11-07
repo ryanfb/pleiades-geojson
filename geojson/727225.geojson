@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sebennytikos (river)",
   "id": "727225",
-  "description": "An ancient place, cited: BAtlas 74 E3 Sebennytikos fl.",
   "bbox": [
     31.0,
     30.5,
     31.5,
     31.5
   ],
-  "reprPoint": [
-    31.25,
-    31.0
-  ],
+  "description": "An ancient place, cited: BAtlas 74 E3 Sebennytikos fl.",
   "names": [
     "Sebennytikos",
     "Sebennytischer Arm"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          31.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

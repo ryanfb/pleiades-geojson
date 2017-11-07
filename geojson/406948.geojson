@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "406948",
-  "description": "An ancient place, cited: BAtlas 41 B3 unnamed monastery (Urgo)",
   "bbox": [
     9.9,
     43.433333,
     9.9,
     43.433333
   ],
+  "description": "An ancient place, cited: BAtlas 41 B3 unnamed monastery (Urgo)",
   "connectsWith": [
     "403286"
   ],
-  "reprPoint": [
-    9.9,
-    43.433333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9,
+          43.433333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

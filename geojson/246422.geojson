@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Iac(c)a",
   "id": "246422",
-  "description": "Iac(c)a was a town of the Vascones in Hispania Tarraconensis.",
   "bbox": [
     -1.0,
     42.0,
     0.0,
     43.0
   ],
+  "description": "Iac(c)a was a town of the Vascones in Hispania Tarraconensis.",
   "connectsWith": [
     "246730"
-  ],
-  "reprPoint": [
-    -0.5,
-    42.5
   ],
   "names": [
     "Iacca",
     "Iaca"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Calabria",
   "id": "442518",
-  "description": "Ancient Calabria comprised the southern part of Apulia and the Salento peninsula.",
   "bbox": [
     17.5,
     40.5,
     18.0,
     41.0
   ],
-  "reprPoint": [
-    17.75,
-    40.75
-  ],
+  "description": "Ancient Calabria comprised the southern part of Apulia and the Salento peninsula.",
   "names": [
     "Calabria",
     "Calabri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

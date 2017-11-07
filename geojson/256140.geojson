@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Las Cucharas",
   "id": "256140",
-  "description": "An ancient place, cited: BAtlas 26 E3 Las Cucharas",
   "bbox": [
     -5.724482,
     38.750722,
     -5.724482,
     38.750722
   ],
-  "reprPoint": [
-    -5.724482,
-    38.750722
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E3 Las Cucharas",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.724482,
+          38.750722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

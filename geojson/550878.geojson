@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sigeion Pr.",
   "id": "550878",
-  "description": "A key promontory in the Troad that forms the northwestern extremity of Asia Minor, at the entrance of the Hellespont.",
   "bbox": [
     26.0,
     40.0,
     26.5,
     40.5
   ],
-  "reprPoint": [
-    26.25,
-    40.25
-  ],
+  "description": "A key promontory in the Troad that forms the northwestern extremity of Asia Minor, at the entrance of the Hellespont.",
   "names": [
     "Sigeion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

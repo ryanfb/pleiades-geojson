@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kerouinoi",
   "id": "472082",
-  "description": "An ancient place, cited: BAtlas 48 C2 Kerouinoi",
   "bbox": [
     8.0,
     42.0,
     9.0,
     43.0
   ],
-  "reprPoint": [
-    8.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 C2 Kerouinoi",
   "names": [
     "Kerouinoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

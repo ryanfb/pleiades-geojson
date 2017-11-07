@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Necropolis of Porta Vesuvio",
   "id": "419672522",
-  "description": "A necropolis of Pompeii located outside the so-called \"Porta Vesuvio\".",
   "bbox": [
     14.4840775,
     40.7537462,
     14.4840775,
     40.7537462
   ],
+  "description": "A necropolis of Pompeii located outside the so-called \"Porta Vesuvio\".",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4840775,
-    40.7537462
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4840775,
+          40.7537462
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

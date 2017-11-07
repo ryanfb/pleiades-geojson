@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Baniurae?",
   "id": "275600",
-  "description": "An ancient place, cited: BAtlas 28 C4 Baniurae?",
   "bbox": [
     -6.0,
     34.5,
     -5.5,
     35.0
   ],
-  "reprPoint": [
-    -5.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 28 C4 Baniurae?",
   "names": [
     "Baniurae",
     "Banioubai",
     "Boniuricis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

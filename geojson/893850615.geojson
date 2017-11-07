@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Worlebury Camp",
   "id": "893850615",
-  "description": "Worlebury Camp is the site of an Iron Age hill fort in Somerset, England.",
   "bbox": [
     -2.985153,
     51.357425,
     -2.985153,
     51.357425
   ],
-  "reprPoint": [
-    -2.985153,
-    51.357425
-  ],
+  "description": "Worlebury Camp is the site of an Iron Age hill fort in Somerset, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.985153,
+          51.357425
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

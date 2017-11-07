@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "335224",
-  "description": "An ancient place, cited: BAtlas 34 D2 unnamed aqueduct (Lamasba)",
   "bbox": [
     5.0,
     35.0,
     6.0,
     36.0
   ],
-  "reprPoint": [
-    5.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 34 D2 unnamed aqueduct (Lamasba)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

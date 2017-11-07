@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Petrovo",
   "id": "491693",
-  "description": "An ancient place, cited: BAtlas 50 B2 Petrovo",
   "bbox": [
     22.0,
     41.0,
     22.5,
     41.5
   ],
-  "reprPoint": [
-    22.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 B2 Petrovo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

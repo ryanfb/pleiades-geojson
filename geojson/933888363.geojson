@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wari-Bateshwar",
   "id": "933888363",
-  "description": "An ancient settlement site located in what is now Bangladesh.",
   "bbox": [
     90.6981963,
     23.9156451,
     90.6981963,
     23.9156451
   ],
-  "reprPoint": [
-    90.6981963,
-    23.9156451
-  ],
+  "description": "An ancient settlement site located in what is now Bangladesh.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.6981963,
+          23.9156451
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Artabris Sinus/Megas Limen",
   "id": "236344",
-  "description": "An ancient place, cited: BAtlas 24 C1 Artabris Sinus/Megas Limen",
   "bbox": [
     -9.0,
     43.0,
     -8.0,
     44.0
   ],
-  "reprPoint": [
-    -8.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C1 Artabris Sinus/Megas Limen",
   "names": [
     "Artabris Sinus",
     "Megas Limen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

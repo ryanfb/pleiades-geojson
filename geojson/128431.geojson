@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kostolná pri Dunaji",
   "id": "128431",
-  "description": "An ancient place, cited: BAtlas 13 C4 Kostolná pri Dunaji",
   "bbox": [
     17.0,
     48.0,
     18.0,
     49.0
   ],
-  "reprPoint": [
-    17.5,
-    48.5
-  ],
+  "description": "An ancient place, cited: BAtlas 13 C4 Kostolná pri Dunaji",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

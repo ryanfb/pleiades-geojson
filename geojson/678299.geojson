@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nazareth",
   "id": "678299",
-  "description": "An ancient place, cited: BAtlas 69 B4 Nazareth",
   "bbox": [
     35.300148,
     32.701029,
     35.300148,
     32.701029
   ],
-  "reprPoint": [
-    35.300148,
-    32.701029
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Nazareth",
   "names": [
     "Nazareth"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.300148,
+          32.701029
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

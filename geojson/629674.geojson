@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "629674",
-  "description": "An ancient place, cited: BAtlas 64 F2 no. 3 (NW Arane at Koç Köprüsü)",
   "bbox": [
     37.5,
     39.0,
     38.0,
     39.5
   ],
-  "reprPoint": [
-    37.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 F2 no. 3 (NW Arane at Koç Köprüsü)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

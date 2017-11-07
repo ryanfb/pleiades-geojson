@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Dubis (river)",
   "id": "177508",
-  "description": "The ancient Dubis is the modern Doubs river.",
   "bbox": [
     6.7657236,
     47.3769766,
     6.7657236,
     47.3769766
   ],
+  "description": "The ancient Dubis is the modern Doubs river.",
   "connectsWith": [
     "167652"
-  ],
-  "reprPoint": [
-    6.7657236,
-    47.3769766
   ],
   "names": [
     "Dubis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7657236,
+          47.3769766
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

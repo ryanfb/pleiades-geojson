@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Augusta",
   "id": "167659",
-  "description": "An ancient place, cited: BAtlas 17 F2 Augusta",
   "bbox": [
     5.5,
     45.5,
     6.0,
     46.0
   ],
-  "reprPoint": [
-    5.75,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 F2 Augusta",
   "names": [
     "Augusta"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

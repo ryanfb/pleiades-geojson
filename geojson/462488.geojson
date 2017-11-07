@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Selinous/Lanaricus (river)",
   "id": "462488",
-  "description": "An ancient place, cited: BAtlas 47 B3 Selinous/Lanaricus fl.",
   "bbox": [
     12.5,
     37.5,
     13.0,
     38.0
   ],
-  "reprPoint": [
-    12.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 B3 Selinous/Lanaricus fl.",
   "names": [
     "Selinous",
     "Lanaricus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

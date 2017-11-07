@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bethlehem",
   "id": "687856",
-  "description": "An ancient place, cited: BAtlas 70 G2 Bethlehem",
   "bbox": [
     35.202123,
     31.712291,
     35.202123,
     31.712291
   ],
-  "reprPoint": [
-    35.202123,
-    31.712291
-  ],
+  "description": "An ancient place, cited: BAtlas 70 G2 Bethlehem",
   "names": [
     "Bethlehem"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.202123,
+          31.712291
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

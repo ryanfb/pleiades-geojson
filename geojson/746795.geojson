@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phoinikon Chora",
   "id": "746795",
-  "description": "An ancient place, cited: BAtlas 76 D5 Phoinikon Chora",
   "bbox": [
     33.5,
     28.0,
     34.0,
     28.5
   ],
-  "reprPoint": [
-    33.75,
-    28.25
-  ],
+  "description": "An ancient place, cited: BAtlas 76 D5 Phoinikon Chora",
   "names": [
     "Phoinikon Chora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          28.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

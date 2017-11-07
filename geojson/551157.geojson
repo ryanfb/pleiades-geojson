@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "551157",
-  "description": "An ancient place, cited: BAtlas 56 E3 unnamed aqueduct group (Pergamum)",
   "bbox": [
     27.0,
     39.0,
     27.5,
     39.5
   ],
-  "reprPoint": [
-    27.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 E3 unnamed aqueduct group (Pergamum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

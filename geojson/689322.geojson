@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "689322",
-  "description": "An unnamed bridge located near Moza, over the river Soreq, between Jerusalem and Emmaus.",
   "bbox": [
     35.0,
     31.5,
     35.5,
     32.0
   ],
-  "reprPoint": [
-    35.25,
-    31.75
-  ],
+  "description": "An unnamed bridge located near Moza, over the river Soreq, between Jerusalem and Emmaus.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          31.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

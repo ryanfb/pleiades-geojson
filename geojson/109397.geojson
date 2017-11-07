@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tungri",
   "id": "109397",
-  "description": "An ancient place, cited: BAtlas 11 F2 Tungri",
   "bbox": [
     5.0,
     50.0,
     6.0,
     51.0
   ],
-  "reprPoint": [
-    5.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 F2 Tungri",
   "names": [
     "Tungri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

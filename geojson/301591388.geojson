@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Yeavering Bell",
   "id": "301591388",
-  "description": "The Yeavering Bell is a twin-peaked hill in Northumberland, England, that forms part of the Cheviot Hills.",
   "bbox": [
     -2.1153717,
     55.5572712,
     -2.1153717,
     55.5572712
   ],
-  "reprPoint": [
-    -2.1153717,
-    55.5572712
-  ],
+  "description": "The Yeavering Bell is a twin-peaked hill in Northumberland, England, that forms part of the Cheviot Hills.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1153717,
+          55.5572712
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

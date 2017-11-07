@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sys (river)",
   "id": "491735",
-  "description": "An ancient place, cited: BAtlas 50 C4 Sys fl.",
   "bbox": [
     22.5,
     40.0,
     23.0,
     40.5
   ],
-  "reprPoint": [
-    22.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C4 Sys fl.",
   "names": [
     "Sys"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

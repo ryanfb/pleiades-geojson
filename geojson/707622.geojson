@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Skales",
   "id": "707622",
-  "description": "An ancient place, cited: BAtlas 72 B3 Skales",
   "bbox": [
     32.590521,
     34.68818,
     32.590521,
     34.68818
   ],
+  "description": "An ancient place, cited: BAtlas 72 B3 Skales",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.590521,
-    34.68818
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.590521,
+          34.68818
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

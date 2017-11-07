@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Merula",
   "id": "162337",
-  "description": "An ancient place, cited: BAtlas 16 unlocated Merula fl.",
   "bbox": [
     8.21493,
     44.0484,
     8.21493,
     44.0484
   ],
+  "description": "An ancient place, cited: BAtlas 16 unlocated Merula fl.",
   "connectsWith": [
     "157803"
-  ],
-  "reprPoint": [
-    8.21493,
-    44.0484
   ],
   "names": [
     "Merula"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.21493,
+          44.0484
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

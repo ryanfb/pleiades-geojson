@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Platani",
   "id": "707613",
-  "description": "An ancient place, cited: BAtlas 72 D2 Platani",
   "bbox": [
     33.762331,
     35.320651,
     33.762331,
     35.320651
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Platani",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.762331,
-    35.320651
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.762331,
+          35.320651
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

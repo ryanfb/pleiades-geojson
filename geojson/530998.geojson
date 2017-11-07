@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Medion",
   "id": "530998",
-  "description": "An ancient place, cited: BAtlas 54 D4 Medion",
   "bbox": [
     21.125024,
     38.782497,
     21.125024,
     38.782497
   ],
-  "reprPoint": [
-    21.125024,
-    38.782497
-  ],
+  "description": "An ancient place, cited: BAtlas 54 D4 Medion",
   "names": [
     "Medion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.125024,
+          38.782497
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

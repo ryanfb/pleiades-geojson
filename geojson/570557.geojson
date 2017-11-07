@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Panormos",
   "id": "570557",
-  "description": "An ancient place, cited: BAtlas 58 E1 Panormos",
   "bbox": [
     23.0,
     38.0,
     23.5,
     38.5
   ],
-  "reprPoint": [
-    23.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E1 Panormos",
   "names": [
     "Panormos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

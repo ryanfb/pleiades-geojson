@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman Villa at Lago di Nemi",
   "id": "426622",
-  "description": "A Roman Villa on the shores of Lago di Nemi.",
   "bbox": [
     12.6977522,
     41.7166154,
     12.6977522,
     41.7166154
   ],
+  "description": "A Roman Villa on the shores of Lago di Nemi.",
   "connectsWith": [
     "422984"
   ],
-  "reprPoint": [
-    12.6977522,
-    41.7166154
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6977522,
+          41.7166154
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

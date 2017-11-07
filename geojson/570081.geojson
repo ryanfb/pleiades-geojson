@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Angathia",
   "id": "570081",
-  "description": "An ancient place, cited: BAtlas 58 G4 Angathia",
   "bbox": [
     24.357182,
     36.725318,
     24.357182,
     36.725318
   ],
+  "description": "An ancient place, cited: BAtlas 58 G4 Angathia",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.357182,
-    36.725318
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.357182,
+          36.725318
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

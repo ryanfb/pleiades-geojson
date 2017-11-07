@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chrysaoras (river)",
   "id": "599573",
-  "description": "An ancient place, cited: BAtlas 61 G2 Chrysaoras fl.",
   "bbox": [
     28.0,
     37.5,
     28.5,
     38.0
   ],
-  "reprPoint": [
-    28.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 G2 Chrysaoras fl.",
   "names": [
     "Chrysaoras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

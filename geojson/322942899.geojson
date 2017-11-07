@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thermae Antoninianae",
   "id": "322942899",
-  "description": "The Thermae Antoninianae, commonly known as the Baths of Caracalla, were built in Rome between AD 212 and 216.",
   "bbox": [
     12.4923457,
     41.8790337,
     12.4923457,
     41.8790337
   ],
+  "description": "The Thermae Antoninianae, commonly known as the Baths of Caracalla, were built in Rome between AD 212 and 216.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4923457,
-    41.8790337
   ],
   "names": [
     "Terme di Caracalla"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4923457,
+          41.8790337
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

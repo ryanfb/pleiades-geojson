@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "220476",
-  "description": "Map 21 → Vicus Trullensium → Melta → Nicopolis ad Istrum → Marcianopolis → Odessus",
   "bbox": [
     23.0,
     41.0,
     30.0,
     48.0
   ],
-  "reprPoint": [
-    26.5,
-    44.5
-  ],
+  "description": "Map 21 → Vicus Trullensium → Melta → Nicopolis ad Istrum → Marcianopolis → Odessus",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

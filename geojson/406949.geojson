@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "406949",
-  "description": "An ancient place, cited: BAtlas 41 C5 unnamed monastery (Oglasa)",
   "bbox": [
     10.316667,
     42.333333,
     10.316667,
     42.333333
   ],
+  "description": "An ancient place, cited: BAtlas 41 C5 unnamed monastery (Oglasa)",
   "connectsWith": [
     "403247"
   ],
-  "reprPoint": [
-    10.316667,
-    42.333333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.316667,
+          42.333333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

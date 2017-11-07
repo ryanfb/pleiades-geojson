@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mostene",
   "id": "550752",
-  "description": "An ancient place, cited: BAtlas 56 F5 Mostene",
   "bbox": [
     27.5,
     38.0,
     28.0,
     38.5
   ],
-  "reprPoint": [
-    27.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 F5 Mostene",
   "names": [
     "Mostene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

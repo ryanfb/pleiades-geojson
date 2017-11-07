@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Padusa",
   "id": "393470",
-  "description": "A marshy region on the river Eridanus.",
   "bbox": [
     12.196604,
     44.38024,
     12.233178,
     44.415718
   ],
-  "reprPoint": [
-    12.214891,
-    44.397979
-  ],
+  "description": "A marshy region on the river Eridanus.",
   "names": [
     "Padusa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.214891,
+          44.397979
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

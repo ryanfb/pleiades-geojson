@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kheleifeh",
   "id": "746755",
-  "description": "An ancient place, cited: BAtlas 76 F2 Kheleifeh (1)",
   "bbox": [
     34.5,
     29.5,
     35.0,
     30.0
   ],
-  "reprPoint": [
-    34.75,
-    29.75
-  ],
+  "description": "An ancient place, cited: BAtlas 76 F2 Kheleifeh (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          29.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Uffington White Horse",
   "id": "858265770",
-  "description": "The Uffington White Horse is stylized prehistoric hill figure dating to the later prehistoric period in England.",
   "bbox": [
     -1.56661,
     51.578208,
     -1.56661,
     51.578208
   ],
-  "reprPoint": [
-    -1.56661,
-    51.578208
-  ],
+  "description": "The Uffington White Horse is stylized prehistoric hill figure dating to the later prehistoric period in England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56661,
+          51.578208
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

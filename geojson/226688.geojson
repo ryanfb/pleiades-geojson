@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mikhaylovka",
   "id": "226688",
-  "description": "An ancient place, cited: BAtlas 23 G1 Mikhaylovka",
   "bbox": [
     33.840922,
     47.210685,
     33.840922,
     47.210685
   ],
-  "reprPoint": [
-    33.840922,
-    47.210685
-  ],
+  "description": "An ancient place, cited: BAtlas 23 G1 Mikhaylovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.840922,
+          47.210685
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

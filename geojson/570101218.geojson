@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Villa Fuente Álamo",
   "id": "570101218",
-  "description": "A Roman villa at Puente Genil in the province of Córdoba in Spain.",
   "bbox": [
     -4.7261792,
     37.416192,
     -4.7242748,
     37.4184331
   ],
-  "reprPoint": [
-    -4.72522555214,
-    37.4173251186
-  ],
+  "description": "A Roman villa at Puente Genil in the province of Córdoba in Spain.",
   "names": [
     "Villa Fuente Álamo"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.72522555214,
+          37.4173251186
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

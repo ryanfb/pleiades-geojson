@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nasoi",
   "id": "570500",
-  "description": "An ancient place, cited: BAtlas 58 C2 Nasoi",
   "bbox": [
     22.0,
     37.5,
     22.5,
     38.0
   ],
-  "reprPoint": [
-    22.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C2 Nasoi",
   "names": [
     "Nasoi",
     "Nesoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

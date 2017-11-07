@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pons Neronianus",
   "id": "100447491",
-  "description": "A bridge across the Tiber river built either by Caius or Nero in order to connect the western part of the Campus Martius with the Campus Vaticanus.",
   "bbox": [
     12.4641,
     41.901,
     12.4641,
     41.901
   ],
+  "description": "A bridge across the Tiber river built either by Caius or Nero in order to connect the western part of the Campus Martius with the Campus Vaticanus.",
   "connectsWith": [
     "423080",
     "423025"
   ],
-  "reprPoint": [
-    12.4641,
-    41.901
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4641,
+          41.901
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

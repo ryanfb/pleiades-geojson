@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "266524",
-  "description": "An ancient place, cited: BAtlas 27 E2 unnamed aqueduct (3 miles S Villareal, over R. Sec)",
   "bbox": [
     -1.0,
     39.0,
     0.0,
     40.0
   ],
-  "reprPoint": [
-    -0.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E2 unnamed aqueduct (3 miles S Villareal, over R. Sec)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

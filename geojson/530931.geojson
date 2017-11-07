@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kastro",
   "id": "530931",
-  "description": "An ancient place, cited: BAtlas 54 C3 Kastro",
   "bbox": [
     20.772018,
     39.284573,
     20.772018,
     39.284573
   ],
-  "reprPoint": [
-    20.772018,
-    39.284573
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C3 Kastro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.772018,
+          39.284573
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

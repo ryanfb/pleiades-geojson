@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Maroundai",
   "id": "59919",
-  "description": "An ancient place, cited: BAtlas 6 F4 Maroundai",
   "bbox": [
     85.0,
     25.0,
     90.0,
     30.0
   ],
-  "reprPoint": [
-    87.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 F4 Maroundai",
   "names": [
     "Maroundai",
     "Molindae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

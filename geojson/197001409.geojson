@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bougon",
   "id": "197001409",
-  "description": "Bougon is the site of five Neolithic barrows located in Poitou-Charentes, France. The earliest dates ca. 4800 BC.",
   "bbox": [
     -0.0674304,
     46.3732742,
     -0.0652503,
     46.3736382
   ],
-  "reprPoint": [
-    -0.06638102,
-    46.37344286
-  ],
+  "description": "Bougon is the site of five Neolithic barrows located in Poitou-Charentes, France. The earliest dates ca. 4800 BC.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06638102,
+          46.37344286
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Karun/Pasitigris? (river)",
   "id": "912879",
-  "description": "The Karun river flows from the Zard-Kuh mountains to the Persian Gulf.",
   "bbox": [
     50.9999999,
     27.0000001,
     50.9999999,
     27.0000001
   ],
+  "description": "The Karun river flows from the Zard-Kuh mountains to the Persian Gulf.",
   "connectsWith": [
     "29713"
-  ],
-  "reprPoint": [
-    50.9999999,
-    27.0000001
   ],
   "names": [
     "Pasitigris",
     "[Dudjayl]"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9999999,
+          27.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

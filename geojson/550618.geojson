@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Kane/Autokane",
   "id": "550618",
-  "description": "An ancient place, cited: BAtlas 56 D3 Kane/Autokane",
   "bbox": [
     26.5,
     39.0,
     27.0,
     39.5
   ],
-  "reprPoint": [
-    26.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Kane/Autokane",
   "names": [
     "Kane",
     "Autokane",
     "Kanai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

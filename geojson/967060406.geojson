@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 13A (Rudchester East)",
   "id": "967060406",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.819657,
     55.00154,
     -1.819657,
     55.00154
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.819657,
-    55.00154
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.819657,
+          55.00154
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

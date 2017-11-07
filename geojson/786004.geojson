@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Cataracta Prima",
   "id": "786004",
-  "description": "The First Cataract of the Nile is located at Aswan.",
   "bbox": [
     32.877716,
     24.078336,
     32.877716,
     24.078336
   ],
+  "description": "The First Cataract of the Nile is located at Aswan.",
   "connectsWith": [
     "727172"
-  ],
-  "reprPoint": [
-    32.877716,
-    24.078336
   ],
   "names": [
     "Cataracta Prima",
     "Katadoupoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.877716,
+          24.078336
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

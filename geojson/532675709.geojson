@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lago dell'Accesa (lake)",
   "id": "532675709",
-  "description": "Lago dell'Accesa is a lake located in the Colline Metallifere.",
   "bbox": [
     10.8917214,
     42.9863511,
     10.8985126,
     42.9900374
   ],
-  "reprPoint": [
-    10.8952010404,
-    42.9882483613
-  ],
+  "description": "Lago dell'Accesa is a lake located in the Colline Metallifere.",
   "names": [
     "Lago dell’Accesa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8952010404,
+          42.9882483613
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

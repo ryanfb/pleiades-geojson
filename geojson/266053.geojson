@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sucro (river)",
   "id": "266053",
-  "description": "The Júcar river flows 509 km from its source at Ojuelos de Valdeminguete to the Gulf of Valencia.",
   "bbox": [
     -2.1338651,
     40.1254751,
     -2.1338651,
     40.1254751
   ],
+  "description": "The Júcar river flows 509 km from its source at Ojuelos de Valdeminguete to the Gulf of Valencia.",
   "connectsWith": [
     "266054"
-  ],
-  "reprPoint": [
-    -2.1338651,
-    40.1254751
   ],
   "names": [
     "Sucro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1338651,
+          40.1254751
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

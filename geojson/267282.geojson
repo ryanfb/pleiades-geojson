@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "267282",
-  "description": "An ancient place, cited: BAtlas 27 C2 unnamed bridge (S. Clemente on R. Rus, SW Valeria)",
   "bbox": [
     -3.0,
     39.0,
     -2.0,
     40.0
   ],
-  "reprPoint": [
-    -2.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 C2 unnamed bridge (S. Clemente on R. Rus, SW Valeria)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

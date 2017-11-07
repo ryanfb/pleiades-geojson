@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alexandria",
   "id": "29457",
-  "description": "An ancient place, cited: BAtlas 3 H3 Alexandria",
   "bbox": [
     61.837118,
     34.309952,
     62.191888,
     37.616639
   ],
-  "reprPoint": [
-    62.0461946,
-    35.6398832
-  ],
+  "description": "An ancient place, cited: BAtlas 3 H3 Alexandria",
   "names": [
     "Alexandria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.0461946,
+          35.6398832
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

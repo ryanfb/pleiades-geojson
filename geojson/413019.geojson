@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "*Aprutium",
   "id": "413019",
-  "description": "An ancient region of eastern Italy (modern Abruzzo).",
   "bbox": [
     13.842185,
     42.123814,
     13.842185,
     42.123814
   ],
+  "description": "An ancient region of eastern Italy (modern Abruzzo).",
   "connectsWith": [
     "413105"
-  ],
-  "reprPoint": [
-    13.842185,
-    42.123814
   ],
   "names": [
     "Aprutium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.842185,
+          42.123814
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

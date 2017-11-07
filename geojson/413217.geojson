@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Musarna",
   "id": "413217",
-  "description": "Musarna is an ancient Etruscan settlement discovered in 1849 just west of Viterbo, Italy. The École française de Rome has been conducting excavations at the site since 1983.",
   "bbox": [
     11.9765756,
     42.4122179,
     11.9765756,
     42.4122179
   ],
-  "reprPoint": [
-    11.9765756,
-    42.4122179
-  ],
+  "description": "Musarna is an ancient Etruscan settlement discovered in 1849 just west of Viterbo, Italy. The École française de Rome has been conducting excavations at the site since 1983.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9765756,
+          42.4122179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

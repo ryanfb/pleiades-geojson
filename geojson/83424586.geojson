@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ivor / Xion (river)",
   "id": "83424586",
-  "description": "The modern Oued Ksob of western Morocco.",
   "bbox": [
     -9.7128891,
     31.459809,
     -9.7128891,
     31.459809
   ],
+  "description": "The modern Oued Ksob of western Morocco.",
   "connectsWith": [
     "845"
   ],
-  "reprPoint": [
-    -9.7128891,
-    31.459809
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.7128891,
+          31.459809
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

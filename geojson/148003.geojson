@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Avatici",
   "id": "148003",
-  "description": "An ancient place, cited: BAtlas 15 E3 Avatici",
   "bbox": [
     5.0,
     43.0,
     5.5,
     43.5
   ],
-  "reprPoint": [
-    5.25,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 15 E3 Avatici",
   "names": [
     "Avatici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

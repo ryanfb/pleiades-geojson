@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lago di Paola",
   "id": "432895",
-  "description": "A villa of the emperor Domitian located in the area of Circeii.",
   "bbox": [
     13.0386036,
     41.2684151,
     13.0386036,
     41.2684151
   ],
-  "reprPoint": [
-    13.0386036,
-    41.2684151
-  ],
+  "description": "A villa of the emperor Domitian located in the area of Circeii.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0386036,
+          41.2684151
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

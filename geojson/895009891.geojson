@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "Tisia",
   "id": "895009891",
-  "description": "An ancient place in Bruttium mentioned by Appian. Its precise location is unknown today.",
   "bbox": [
     15.5,
     38.0,
     16.0,
     38.5
   ],
+  "description": "An ancient place in Bruttium mentioned by Appian. Its precise location is unknown today.",
   "connectsWith": [
     "452366"
   ],
-  "reprPoint": [
-    15.75,
-    38.25
-  ],
   "names": [
     "Tisia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Salebro?",
   "id": "403269",
-  "description": "An ancient coastal town with Etruscan origins near Lacus Prelius.",
   "bbox": [
     10.882348,
     42.765854,
     10.882348,
     42.765854
   ],
+  "description": "An ancient coastal town with Etruscan origins near Lacus Prelius.",
   "connectsWith": [
     "403263"
-  ],
-  "reprPoint": [
-    10.882348,
-    42.765854
   ],
   "names": [
     "Salebro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.882348,
+          42.765854
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

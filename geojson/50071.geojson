@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Koniakoi",
   "id": "50071",
-  "description": "An ancient place, cited: BAtlas 5 D5 Koniakoi",
   "bbox": [
     75.0,
     5.0,
     80.0,
     10.0
   ],
-  "reprPoint": [
-    77.5,
-    7.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D5 Koniakoi",
   "names": [
     "Koniakoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          7.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

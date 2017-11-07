@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "671199",
-  "description": "An ancient place, cited: BAtlas 68 C4 unnamed centuriation (NE (H)Emesa)",
   "bbox": [
     36.5,
     34.5,
     37.0,
     35.0
   ],
-  "reprPoint": [
-    36.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 68 C4 unnamed centuriation (NE (H)Emesa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

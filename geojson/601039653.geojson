@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Caer Llugwy",
   "id": "601039653",
-  "description": "A Roman fort located in a bend of the Afon Llugwy near Capel Curig in Conwy, Wales. ",
   "bbox": [
     -3.8742,
     53.0976,
     -3.8742,
     53.0976
   ],
-  "reprPoint": [
-    -3.8742,
-    53.0976
-  ],
+  "description": "A Roman fort located in a bend of the Afon Llugwy near Capel Curig in Conwy, Wales. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8742,
+          53.0976
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

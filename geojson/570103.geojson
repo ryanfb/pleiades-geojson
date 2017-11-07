@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Argolicus Sinus",
   "id": "570103",
-  "description": "A gulf on the east of the Peloponnese that opens into the Aegean Sea.",
   "bbox": [
     22.728648,
     37.500864,
     22.728648,
     37.500864
   ],
+  "description": "A gulf on the east of the Peloponnese that opens into the Aegean Sea.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    22.728648,
-    37.500864
   ],
   "names": [
     "Argolicus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.728648,
+          37.500864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

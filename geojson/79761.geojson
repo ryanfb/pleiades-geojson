@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Whitton",
   "id": "79761",
-  "description": "An ancient place, cited: BAtlas 8 I2 Whitton",
   "bbox": [
     1.0,
     52.0,
     2.0,
     53.0
   ],
-  "reprPoint": [
-    1.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 I2 Whitton",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

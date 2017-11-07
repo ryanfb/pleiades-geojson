@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Elephantine",
   "id": "786021",
-  "description": "An ancient place, cited: BAtlas 80 inset Elephantine",
   "bbox": [
     32.889,
     24.09,
     32.889,
     24.09
   ],
-  "reprPoint": [
-    32.889,
-    24.09
-  ],
+  "description": "An ancient place, cited: BAtlas 80 inset Elephantine",
   "names": [
     "Elephantine",
     "Abu",
@@ -27,6 +23,19 @@
     "Ǧazīrat Aswān"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889,
+          24.09
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

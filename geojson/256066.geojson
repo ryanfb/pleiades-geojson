@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Casa Branca",
   "id": "256066",
-  "description": "An ancient place, cited: BAtlas 26 B3 Casa Branca",
   "bbox": [
     -8.1083642,
     38.1544849,
     -8.1083642,
     38.1544849
   ],
-  "reprPoint": [
-    -8.1083642,
-    38.1544849
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B3 Casa Branca",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1083642,
+          38.1544849
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

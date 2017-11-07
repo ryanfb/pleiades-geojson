@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Savo (river)",
   "id": "433108",
-  "description": "An ancient place, cited: BAtlas 44 E3 Savo fl.",
   "bbox": [
     13.5,
     41.0,
     14.0,
     41.5
   ],
-  "reprPoint": [
-    13.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E3 Savo fl.",
   "names": [
     "Savo"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

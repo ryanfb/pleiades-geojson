@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sesites (river)",
   "id": "383777",
-  "description": "A river of northwestern Italy and a tributary of the Po river.",
   "bbox": [
     8.5,
     45.0,
     9.0,
     45.5
   ],
+  "description": "A river of northwestern Italy and a tributary of the Po river.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    8.75,
-    45.25
   ],
   "names": [
     "Sesites"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

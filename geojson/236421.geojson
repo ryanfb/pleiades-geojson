@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Celadus (river)",
   "id": "236421",
-  "description": "An ancient place, cited: BAtlas 24 C3 Celadus fl.",
   "bbox": [
     -9.0,
     41.0,
     -8.0,
     42.0
   ],
-  "reprPoint": [
-    -8.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C3 Celadus fl.",
   "names": [
     "Celadus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

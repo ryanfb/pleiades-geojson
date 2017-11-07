@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Atlas Mon(te)s",
   "id": "846",
-  "description": "A major mountain range, located in northwest Africa (primarily modern Morocco).",
   "bbox": [
     -8.1,
     31.0,
     -4.1,
     33.7
   ],
-  "reprPoint": [
-    -6.03359778082,
-    32.2523214979
-  ],
+  "description": "A major mountain range, located in northwest Africa (primarily modern Morocco).",
   "names": [
     "Atlas M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.03359778082,
+          32.2523214979
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

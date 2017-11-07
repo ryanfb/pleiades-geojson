@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Palmensis Ager",
   "id": "413244",
-  "description": "Pliny the Elder discusses the Palmensis Ager in connection with his description of the Praetutii.",
   "bbox": [
     13.5,
     43.0,
     14.0,
     43.5
   ],
+  "description": "Pliny the Elder discusses the Palmensis Ager in connection with his description of the Praetutii.",
   "connectsWith": [
     "413273"
-  ],
-  "reprPoint": [
-    13.75,
-    43.25
   ],
   "names": [
     "Palmensis Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

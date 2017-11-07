@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Hymos? (island)",
   "id": "599660",
-  "description": "An ancient place, cited: BAtlas 61 F4 Hymos? Ins.",
   "bbox": [
     27.5,
     36.5,
     28.0,
     37.0
   ],
-  "reprPoint": [
-    27.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 F4 Hymos? Ins.",
   "names": [
     "Hymos",
     "Eirmos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

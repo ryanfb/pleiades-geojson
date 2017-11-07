@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Taronitis",
   "id": "874717",
-  "description": "An ancient place, cited: BAtlas 89 E3 Taronitis",
   "bbox": [
     42.0,
     37.0,
     43.0,
     38.0
   ],
-  "reprPoint": [
-    42.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 E3 Taronitis",
   "names": [
     "Taronitis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

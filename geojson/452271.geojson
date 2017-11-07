@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Belvedere",
   "id": "452271",
-  "description": "An ancient place, cited: BAtlas 46 E3 Belvedere",
   "bbox": [
     16.888016,
     39.213498,
     16.888016,
     39.213498
   ],
-  "reprPoint": [
-    16.888016,
-    39.213498
-  ],
+  "description": "An ancient place, cited: BAtlas 46 E3 Belvedere",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.888016,
+          39.213498
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

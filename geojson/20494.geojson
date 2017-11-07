@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iouernoi",
   "id": "20494",
-  "description": "An ancient place, cited: BAtlas 2 B3 Iouernoi",
   "bbox": [
     -10.0,
     50.0,
     -5.0,
     55.0
   ],
-  "reprPoint": [
-    -7.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 B3 Iouernoi",
   "names": [
     "Iouernoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

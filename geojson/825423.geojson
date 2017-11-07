@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vysochino",
   "id": "825423",
-  "description": "An ancient place, cited: BAtlas 84 E1 Vysochino",
   "bbox": [
     39.335613,
     47.113221,
     39.335613,
     47.113221
   ],
-  "reprPoint": [
-    39.335613,
-    47.113221
-  ],
+  "description": "An ancient place, cited: BAtlas 84 E1 Vysochino",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.335613,
+          47.113221
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Euboicus Sinus",
   "id": "579931",
-  "description": "The Gulf of Euboea is an arm of the Aegean Sea.",
   "bbox": [
     23.43,
     38.56,
     23.43,
     38.56
   ],
+  "description": "The Gulf of Euboea is an arm of the Aegean Sea.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    23.43,
-    38.56
   ],
   "names": [
     "Euboicus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.43,
+          38.56
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

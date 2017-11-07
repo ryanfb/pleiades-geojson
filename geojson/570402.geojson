@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kythnos",
   "id": "570402",
-  "description": "An ancient place, cited: BAtlas 58 G3 Kythnos",
   "bbox": [
     24.429784,
     37.412293,
     24.429784,
     37.412293
   ],
+  "description": "An ancient place, cited: BAtlas 58 G3 Kythnos",
   "connectsWith": [
     "570403"
-  ],
-  "reprPoint": [
-    24.429784,
-    37.412293
   ],
   "names": [
     "Kythnos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.429784,
+          37.412293
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

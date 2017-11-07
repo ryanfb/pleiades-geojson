@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Lindos",
   "id": "589913",
-  "description": "Lindos is an ancient city located on the island of Rhodes.",
   "bbox": [
     28.0881777,
     36.0911173,
     28.0882281,
     36.0913239
   ],
+  "description": "Lindos is an ancient city located on the island of Rhodes.",
   "connectsWith": [
     "590031"
-  ],
-  "reprPoint": [
-    28.0882029,
-    36.0912206
   ],
   "names": [
     "Lindos",
     "Lindia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0882029,
+          36.0912206
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

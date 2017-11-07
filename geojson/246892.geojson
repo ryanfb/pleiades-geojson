@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "246892",
-  "description": "An ancient place, cited: BAtlas 25 F4 unnamed aqueduct (Torrente de Cinca (Fraga), W Keresos)",
   "bbox": [
     0.0,
     41.0,
     1.0,
     42.0
   ],
-  "reprPoint": [
-    0.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F4 unnamed aqueduct (Torrente de Cinca (Fraga), W Keresos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

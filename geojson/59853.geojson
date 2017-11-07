@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Issedones",
   "id": "59853",
-  "description": "The Issedones were an ancient people of central Asia.",
   "bbox": [
     90.0,
     35.0,
     95.0,
     40.0
   ],
-  "reprPoint": [
-    92.5,
-    37.5
-  ],
+  "description": "The Issedones were an ancient people of central Asia.",
   "names": [
     "Issedones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

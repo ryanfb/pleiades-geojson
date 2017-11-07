@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Sannace",
   "id": "442674",
-  "description": "An ancient place, cited: BAtlas 45 E3 Monte Sannace",
   "bbox": [
     16.9606571,
     40.8340503,
     16.9606571,
     40.8340503
   ],
-  "reprPoint": [
-    16.9606571,
-    40.8340503
-  ],
+  "description": "An ancient place, cited: BAtlas 45 E3 Monte Sannace",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9606571,
+          40.8340503
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "81542",
-  "description": "An ancient place, cited: BAtlas 8 I3 unnamed lighthouse group (Portus Dubris)",
   "bbox": [
     1.307512,
     51.123013,
     1.307512,
     51.123013
   ],
+  "description": "An ancient place, cited: BAtlas 8 I3 unnamed lighthouse group (Portus Dubris)",
   "connectsWith": [
     "79646"
   ],
-  "reprPoint": [
-    1.307512,
-    51.123013
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.307512,
+          51.123013
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

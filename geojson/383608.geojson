@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Camunni",
   "id": "383608",
-  "description": "An ancient tribe located in Val Camonica during the Iron Age.",
   "bbox": [
     10.0,
     45.5,
     10.5,
     46.0
   ],
-  "reprPoint": [
-    10.25,
-    45.75
-  ],
+  "description": "An ancient tribe located in Val Camonica during the Iron Age.",
   "names": [
     "Camunni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Osi",
   "id": "128481",
-  "description": "An ancient place, cited: BAtlas 13 E4 Osi",
   "bbox": [
     19.0,
     48.0,
     20.0,
     49.0
   ],
-  "reprPoint": [
-    19.5,
-    48.5
-  ],
+  "description": "An ancient place, cited: BAtlas 13 E4 Osi",
   "names": [
     "Osi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

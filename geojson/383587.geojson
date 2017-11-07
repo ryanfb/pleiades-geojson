@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Benacus L.",
   "id": "383587",
-  "description": "Benacus L. (Lake Garda) is the largest lake in Italy.",
   "bbox": [
     10.60805,
     45.492485,
     10.60805,
     45.492485
   ],
-  "reprPoint": [
-    10.60805,
-    45.492485
-  ],
+  "description": "Benacus L. (Lake Garda) is the largest lake in Italy.",
   "names": [
     "Benacus L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.60805,
+          45.492485
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

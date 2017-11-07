@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "168369",
-  "description": "An ancient place, cited: BAtlas 17 D4 unnamed aqueduct (Akousion)",
   "bbox": [
     4.5,
     44.5,
     5.0,
     45.0
   ],
-  "reprPoint": [
-    4.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 D4 unnamed aqueduct (Akousion)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

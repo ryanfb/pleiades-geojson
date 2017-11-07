@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed rock relief",
   "id": "612329",
-  "description": "An unnamed Persian rock relief located near Sundurlu.",
   "bbox": [
     29.5,
     38.0,
     30.0,
     38.5
   ],
-  "reprPoint": [
-    29.75,
-    38.25
-  ],
+  "description": "An unnamed Persian rock relief located near Sundurlu.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

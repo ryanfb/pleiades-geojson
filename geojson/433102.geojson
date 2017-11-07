@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sarnus (river)",
   "id": "433102",
-  "description": "An ancient place, cited: BAtlas 44 G4 Sarnus fl.",
   "bbox": [
     14.4708346,
     40.7285981,
     14.4708346,
     40.7285981
   ],
+  "description": "An ancient place, cited: BAtlas 44 G4 Sarnus fl.",
   "connectsWith": [
     "433059"
-  ],
-  "reprPoint": [
-    14.4708346,
-    40.7285981
   ],
   "names": [
     "Sarnus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4708346,
+          40.7285981
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

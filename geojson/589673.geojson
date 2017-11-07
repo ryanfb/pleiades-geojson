@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Agneion Sinus",
   "id": "589673",
-  "description": "An ancient place, cited: BAtlas 60 A1 Agneion Sinus",
   "bbox": [
     23.5,
     35.5,
     24.0,
     36.0
   ],
-  "reprPoint": [
-    23.75,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 A1 Agneion Sinus",
   "names": [
     "Agneion Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

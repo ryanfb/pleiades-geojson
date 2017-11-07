@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "415256",
-  "description": "An ancient place, cited: BAtlas 42 E1 unnamed centuriation (Fanum Fortunae)",
   "bbox": [
     13.0,
     43.5,
     13.5,
     44.0
   ],
-  "reprPoint": [
-    13.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 42 E1 unnamed centuriation (Fanum Fortunae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

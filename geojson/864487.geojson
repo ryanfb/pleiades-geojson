@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "864487",
-  "description": "An ancient place, cited: BAtlas 88 D2 no. 11 (Kachu)",
   "bbox": [
     45.0,
     42.0,
     46.0,
     43.0
   ],
-  "reprPoint": [
-    45.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D2 no. 11 (Kachu)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

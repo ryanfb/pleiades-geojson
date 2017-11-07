@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Speluncae",
   "id": "433127",
-  "description": "An ancient grotto, associated with the nearby Villa Tiberii, at the modern Italian town of Sperlonga.",
   "bbox": [
     13.449925,
     41.250289,
     13.449925,
     41.250289
   ],
+  "description": "An ancient grotto, associated with the nearby Villa Tiberii, at the modern Italian town of Sperlonga.",
   "connectsWith": [
     "433204"
-  ],
-  "reprPoint": [
-    13.449925,
-    41.250289
   ],
   "names": [
     "Speluncae",
     "Antro di Tiberio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.449925,
+          41.250289
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

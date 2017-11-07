@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tres Arroyos",
   "id": "256483",
-  "description": "An ancient place, cited: BAtlas 26 C2 Tres Arroyos",
   "bbox": [
     -6.888142,
     38.84452,
     -6.888142,
     38.84452
   ],
-  "reprPoint": [
-    -6.888142,
-    38.84452
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C2 Tres Arroyos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.888142,
+          38.84452
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

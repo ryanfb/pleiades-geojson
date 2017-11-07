@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Marmara",
   "id": "540935",
-  "description": "An ancient place, cited: BAtlas 55 D2 Marmara",
   "bbox": [
     22.5,
     39.0,
     23.0,
     39.5
   ],
-  "reprPoint": [
-    22.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 D2 Marmara",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

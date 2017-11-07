@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sard-Kerman",
   "id": "29744",
-  "description": "An ancient place, cited: BAtlas 3 G4 Sard-Kerman",
   "bbox": [
     55.0,
     25.0,
     60.0,
     30.0
   ],
-  "reprPoint": [
-    57.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 3 G4 Sard-Kerman",
   "names": [
     "Sard-Kerman"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

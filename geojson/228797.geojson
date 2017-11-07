@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "228797",
-  "description": "An ancient place, cited: BAtlas 23 E2 no. 31 (Petukhovka, Adzhigol', Solonchaki)",
   "bbox": [
     31.0,
     46.0,
     32.0,
     47.0
   ],
-  "reprPoint": [
-    31.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 E2 no. 31 (Petukhovka, Adzhigol', Solonchaki)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Mareotis L.",
   "id": "727154",
-  "description": "A brackish lake of Lower Egypt (now Lake Mariout).",
   "bbox": [
     29.898889,
     31.1575,
     29.898889,
     31.1575
   ],
-  "reprPoint": [
-    29.898889,
-    31.1575
-  ],
+  "description": "A brackish lake of Lower Egypt (now Lake Mariout).",
   "names": [
     "Mareotis L.",
     "Mareotis Limne",
@@ -24,6 +20,19 @@
     "Maryut-See"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.898889,
+          31.1575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

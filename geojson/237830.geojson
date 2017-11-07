@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "237830",
-  "description": "An ancient place, cited: BAtlas 24 D2 no. 4 (*Forum Gigurrorum, over R. Sil)",
   "bbox": [
     -8.0,
     42.0,
     -7.0,
     43.0
   ],
-  "reprPoint": [
-    -7.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D2 no. 4 (*Forum Gigurrorum, over R. Sil)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

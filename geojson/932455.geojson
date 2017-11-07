@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gerraicus? Sinus",
   "id": "932455",
-  "description": "A portion of the Persian Gulf mentioned by Pliny who places it between the Sinus Capeus on the north and the Regio Attene to the south.",
   "bbox": [
     49.0,
     27.0,
     50.0,
     28.0
   ],
-  "reprPoint": [
-    49.5,
-    27.5
-  ],
+  "description": "A portion of the Persian Gulf mentioned by Pliny who places it between the Sinus Capeus on the north and the Regio Attene to the south.",
   "names": [
     "Gerraicus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

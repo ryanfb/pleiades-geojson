@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Verbeia (river)",
   "id": "89310",
-  "description": "The River Wharfe, located in northern England, flows from the Yorkshire Dales to join the River Ouse near Cawood. ",
   "bbox": [
     -2.0,
     53.0,
     -1.0,
     54.0
   ],
-  "reprPoint": [
-    -1.5,
-    53.5
-  ],
+  "description": "The River Wharfe, located in northern England, flows from the Yorkshire Dales to join the River Ouse near Cawood. ",
   "names": [
     "Verbeia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

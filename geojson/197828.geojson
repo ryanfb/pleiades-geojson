@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueduct",
   "id": "197828",
-  "description": "An ancient place, cited: BAtlas 20 D5 unnamed aqueduct (Burnum)",
   "bbox": [
     16.025622,
     44.018914,
     16.025622,
     44.018914
   ],
+  "description": "An ancient place, cited: BAtlas 20 D5 unnamed aqueduct (Burnum)",
   "connectsWith": [
     "197184"
   ],
-  "reprPoint": [
-    16.025622,
-    44.018914
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.025622,
+          44.018914
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

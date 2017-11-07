@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "7",
   "id": "856178",
-  "description": "An ancient place, cited: BAtlas 87 I2 no. 7 (Kholmogorka UKR)",
   "bbox": [
     35.0,
     45.0,
     35.5,
     45.5
   ],
-  "reprPoint": [
-    35.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 I2 no. 7 (Kholmogorka UKR)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bolkar Dağları",
   "id": "890432544",
-  "description": "A place from the TAVO Index",
   "bbox": [
     34.0,
     37.0,
     34.5,
     37.5
   ],
-  "reprPoint": [
-    34.25,
-    37.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Bolkar Dağları"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

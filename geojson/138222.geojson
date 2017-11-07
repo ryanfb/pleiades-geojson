@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Besné",
   "id": "138222",
-  "description": "An ancient place, cited: BAtlas 14 C1 Besné",
   "bbox": [
     -3.0,
     47.0,
     -2.0,
     48.0
   ],
-  "reprPoint": [
-    -2.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 C1 Besné",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

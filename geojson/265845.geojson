@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Carolina",
   "id": "265845",
-  "description": "An ancient place, cited: BAtlas 27 B3 La Carolina",
   "bbox": [
     -3.615445,
     38.274753,
     -3.615445,
     38.274753
   ],
-  "reprPoint": [
-    -3.615445,
-    38.274753
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B3 La Carolina",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.615445,
+          38.274753
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

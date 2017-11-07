@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mandros (river)",
   "id": "884177",
-  "description": "An ancient place, cited: BAtlas 90 H4 Mandros fl.",
   "bbox": [
     52.0,
     36.0,
     53.0,
     37.0
   ],
-  "reprPoint": [
-    52.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 H4 Mandros fl.",
   "names": [
     "Mandros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

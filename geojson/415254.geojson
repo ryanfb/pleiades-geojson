@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "415254",
-  "description": "An ancient place, cited: BAtlas 42 A4 unnamed centuriation (Cosa)",
   "bbox": [
     11.0,
     42.0,
     11.5,
     42.5
   ],
-  "reprPoint": [
-    11.25,
-    42.25
-  ],
+  "description": "An ancient place, cited: BAtlas 42 A4 unnamed centuriation (Cosa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

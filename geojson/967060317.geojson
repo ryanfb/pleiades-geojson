@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 4B",
   "id": "967060317",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.62274,
     54.970491,
     -1.62274,
     54.970491
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.62274,
-    54.970491
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.62274,
+          54.970491
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

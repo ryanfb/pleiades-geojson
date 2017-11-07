@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Les Jumeaux",
   "id": "138403",
-  "description": "An ancient place, cited: BAtlas 14 F2 Les Jumeaux",
   "bbox": [
     0.101301,
     46.854485,
     0.101301,
     46.854485
   ],
-  "reprPoint": [
-    0.101301,
-    46.854485
-  ],
+  "description": "An ancient place, cited: BAtlas 14 F2 Les Jumeaux",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.101301,
+          46.854485
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

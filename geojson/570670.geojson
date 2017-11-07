@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sidero",
   "id": "570670",
-  "description": "An ancient place, cited: BAtlas 58 G2 Sidero",
   "bbox": [
     24.406618,
     37.651268,
     24.406618,
     37.651268
   ],
+  "description": "An ancient place, cited: BAtlas 58 G2 Sidero",
   "connectsWith": [
     "570348"
   ],
-  "reprPoint": [
-    24.406618,
-    37.651268
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.406618,
+          37.651268
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

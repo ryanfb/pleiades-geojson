@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pamisos (river)",
   "id": "541005",
-  "description": "An ancient place, cited: BAtlas 55 B2 Pamisos fl.",
   "bbox": [
     21.5,
     39.0,
     22.0,
     39.5
   ],
-  "reprPoint": [
-    21.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 B2 Pamisos fl.",
   "names": [
     "Pamisos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

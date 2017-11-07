@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Tiberiadis Mare/Gennesar Lacus",
   "id": "678430",
-  "description": "The Sea of Galilee, also known as the Sea of Tiberias, is the largest freshwater lake in Israel.",
   "bbox": [
     35.590564,
     32.8138046,
     35.590564,
     32.8138046
   ],
+  "description": "The Sea of Galilee, also known as the Sea of Tiberias, is the largest freshwater lake in Israel.",
   "connectsWith": [
     "687932"
-  ],
-  "reprPoint": [
-    35.590564,
-    32.8138046
   ],
   "names": [
     "Tiberiadis Mare",
@@ -23,6 +19,19 @@
     "He Thalassa tes Galilaias"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.590564,
+          32.8138046
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

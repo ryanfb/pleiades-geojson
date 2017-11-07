@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Baetica",
   "id": "981510",
-  "description": "Baetica was one of three Roman Imperial provinces in the Iberian peninsula.",
   "bbox": [
     -10.0,
     35.0,
     -5.0,
     40.0
   ],
-  "reprPoint": [
-    -7.5,
-    37.5
-  ],
+  "description": "Baetica was one of three Roman Imperial provinces in the Iberian peninsula.",
   "names": [
     "Baetica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

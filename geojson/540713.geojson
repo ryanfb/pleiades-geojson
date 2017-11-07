@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Cicynethus (island)",
   "id": "540713",
-  "description": "An ancient place, cited: BAtlas 55 E2 Cicynethus Ins.",
   "bbox": [
     23.0,
     39.0,
     23.5,
     39.5
   ],
+  "description": "An ancient place, cited: BAtlas 55 E2 Cicynethus Ins.",
   "connectsWith": [
     "540997"
-  ],
-  "reprPoint": [
-    23.25,
-    39.25
   ],
   "names": [
     "Cicynethus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kinousa",
   "id": "707533",
-  "description": "An ancient place, cited: BAtlas 72 B2 Kinousa",
   "bbox": [
     32.508911,
     35.02998,
     32.508911,
     35.02998
   ],
+  "description": "An ancient place, cited: BAtlas 72 B2 Kinousa",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.508911,
-    35.02998
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.508911,
+          35.02998
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

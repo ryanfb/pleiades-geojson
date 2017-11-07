@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ilercaones",
   "id": "246430",
-  "description": "The Ilercaones were an ancient people of Hispania Tarraconensis.",
   "bbox": [
     -1.0,
     40.0,
     0.0,
     41.0
   ],
-  "reprPoint": [
-    -0.5,
-    40.5
-  ],
+  "description": "The Ilercaones were an ancient people of Hispania Tarraconensis.",
   "names": [
     "Ilercaones",
     "Illurgavonenses",
     "Ilurgavonenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

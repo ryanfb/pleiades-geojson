@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Paisos (river)",
   "id": "501545",
-  "description": "An ancient place, cited: BAtlas 51 H4 Paisos fl.",
   "bbox": [
     26.5,
     40.0,
     27.0,
     40.5
   ],
-  "reprPoint": [
-    26.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 H4 Paisos fl.",
   "names": [
     "Paisos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tricorii",
   "id": "167940",
-  "description": "An ancient place, cited: BAtlas 17 F4 Tricorii",
   "bbox": [
     5.5,
     44.5,
     6.0,
     45.0
   ],
-  "reprPoint": [
-    5.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 F4 Tricorii",
   "names": [
     "Tricorii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

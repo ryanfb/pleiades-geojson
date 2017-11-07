@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Sinai",
   "id": "746813",
-  "description": "The Sinai Peninsula is bounded by the Mediterranean Sea to the north and the Red Sea to the south.",
   "bbox": [
     34.0,
     29.5,
     34.0,
     29.5
   ],
+  "description": "The Sinai Peninsula is bounded by the Mediterranean Sea to the north and the Red Sea to the south.",
   "connectsWith": [
     "1043",
     "39290"
-  ],
-  "reprPoint": [
-    34.0,
-    29.5
   ],
   "names": [
     "Sinai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

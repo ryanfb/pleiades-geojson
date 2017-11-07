@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "E-kara/Icarus Ins.",
   "id": "912841",
-  "description": "Failaka Island in the Persian Gulf.",
   "bbox": [
     48.274487,
     27.0000001,
     50.9999999,
     29.438761
   ],
+  "description": "Failaka Island in the Persian Gulf.",
   "connectsWith": [
     "29713"
-  ],
-  "reprPoint": [
-    49.2060556333,
-    28.6241530333
   ],
   "names": [
     "E-kara",
     "Icarus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2060556333,
+          28.6241530333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

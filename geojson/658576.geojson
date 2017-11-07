@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyramos (river)",
   "id": "658576",
-  "description": "The modern Ceyhan river in southern Turkey. Its modern mouth is well to the east of its ancient location, which was to the west of Magarsa and much inland from the modern coast.",
   "bbox": [
     36.3994047,
     37.3529835,
     36.3994047,
     37.3529835
   ],
-  "reprPoint": [
-    36.3994047,
-    37.3529835
-  ],
+  "description": "The modern Ceyhan river in southern Turkey. Its modern mouth is well to the east of its ancient location, which was to the west of Magarsa and much inland from the modern coast.",
   "names": [
     "Pyramos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3994047,
+          37.3529835
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

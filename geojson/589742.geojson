@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Chalke Island",
   "id": "589742",
-  "description": "An island west of Rhodes (modern Halki).",
   "bbox": [
     27.574826,
     36.228735,
     27.574826,
     36.228735
   ],
+  "description": "An island west of Rhodes (modern Halki).",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    27.574826,
-    36.228735
   ],
   "names": [
     "Chalke",
@@ -24,6 +20,19 @@
     "Chalkeia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.574826,
+          36.228735
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

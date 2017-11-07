@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "C(h)armei",
   "id": "39329",
-  "description": "An ancient place, cited: BAtlas 4 B2 C(h)armei",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 C(h)armei",
   "names": [
     "Charmei",
     "Carmei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

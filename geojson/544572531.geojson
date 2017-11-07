@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Combe Down",
   "id": "544572531",
-  "description": "Site of a Romano-British villa of courtyard type.",
   "bbox": [
     -2.343983,
     51.358316,
     -2.343983,
     51.358316
   ],
-  "reprPoint": [
-    -2.343983,
-    51.358316
-  ],
+  "description": "Site of a Romano-British villa of courtyard type.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.343983,
+          51.358316
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

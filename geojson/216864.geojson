@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Koralloi",
   "id": "216864",
-  "description": "An ancient place, cited: BAtlas 22 E6 Koralloi",
   "bbox": [
     27.0,
     42.0,
     28.0,
     43.0
   ],
-  "reprPoint": [
-    27.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 E6 Koralloi",
   "names": [
     "Koralloi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

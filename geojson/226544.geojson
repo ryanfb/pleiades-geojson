@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Borysthenes (river)",
   "id": "226544",
-  "description": "The Dnieper River.",
   "bbox": [
     30.0241836,
     46.5,
     33.683333,
     55.866667
   ],
-  "reprPoint": [
-    32.0136165333,
-    51.8027156667
-  ],
+  "description": "The Dnieper River.",
   "names": [
     "Borysthenes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0136165333,
+          51.8027156667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

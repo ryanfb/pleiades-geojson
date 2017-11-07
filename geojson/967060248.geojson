@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 23A (Stanley Plantation)",
   "id": "967060248",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.04791,
     55.016041,
     -2.04791,
     55.016041
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.04791,
-    55.016041
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.04791,
+          55.016041
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

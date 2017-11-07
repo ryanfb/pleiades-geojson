@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villa near Wadi Ghirza",
   "id": "3445460",
-  "description": "An ancient villa near the Wadi Ghirza",
   "bbox": [
     14.428144,
     30.809863,
     14.428144,
     30.809863
   ],
-  "reprPoint": [
-    14.428144,
-    30.809863
-  ],
+  "description": "An ancient villa near the Wadi Ghirza",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.428144,
+          30.809863
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

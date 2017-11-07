@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Klimax Tyrion",
   "id": "678255",
-  "description": "An ancient place, cited: BAtlas 69 B3 Klimax Tyrion",
   "bbox": [
     35.0,
     33.0,
     35.5,
     33.5
   ],
-  "reprPoint": [
-    35.25,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B3 Klimax Tyrion",
   "names": [
     "Klimax Tyrion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

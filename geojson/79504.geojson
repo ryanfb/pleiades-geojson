@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hayling Island",
   "id": "79504",
-  "description": "Hayling Island is the site of a multi-phase sanctuary: the Iron Age shrine dates ca. 50 B.C. and the Roman temple dates ca. A.D. 55-60.",
   "bbox": [
     -0.989776,
     50.809533,
     -0.989776,
     50.809533
   ],
-  "reprPoint": [
-    -0.989776,
-    50.809533
-  ],
+  "description": "Hayling Island is the site of a multi-phase sanctuary: the Iron Age shrine dates ca. 50 B.C. and the Roman temple dates ca. A.D. 55-60.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.989776,
+          50.809533
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

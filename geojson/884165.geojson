@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kadousioi",
   "id": "884165",
-  "description": "Kadousioi, an Iranian tribe settled between the Caspian and the Black seas.",
   "bbox": [
     48.0,
     38.0,
     49.0,
     39.0
   ],
-  "reprPoint": [
-    48.5,
-    38.5
-  ],
+  "description": "Kadousioi, an Iranian tribe settled between the Caspian and the Black seas.",
   "names": [
     "Kadousioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

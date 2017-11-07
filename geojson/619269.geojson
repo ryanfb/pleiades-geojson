@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tectosages",
   "id": "619269",
-  "description": "An ancient place, cited: BAtlas 63 B1 Tectosages",
   "bbox": [
     32.5,
     39.5,
     33.0,
     40.0
   ],
-  "reprPoint": [
-    32.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 63 B1 Tectosages",
   "names": [
     "Tectosages"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

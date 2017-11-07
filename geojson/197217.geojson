@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Colapis (river)",
   "id": "197217",
-  "description": "An ancient place, cited: BAtlas 20 C4 Colapis fl.",
   "bbox": [
     15.0,
     45.0,
     16.0,
     46.0
   ],
-  "reprPoint": [
-    15.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C4 Colapis fl.",
   "names": [
     "Colapis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

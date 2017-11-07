@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Arkonnesos (island)",
   "id": "599518",
-  "description": "An island, known today as Kara Ada, that lies between ancient Halicarnassus (Bodrum, Turkey) and the Greek island of Kos. ",
   "bbox": [
     27.4238804,
     36.9579118,
     27.4928668,
     36.9968306
   ],
-  "reprPoint": [
-    27.4583640778,
-    36.9765382604
-  ],
+  "description": "An island, known today as Kara Ada, that lies between ancient Halicarnassus (Bodrum, Turkey) and the Greek island of Kos. ",
   "names": [
     "Arkonnesos",
     "Kara Ada"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4583640778,
+          36.9765382604
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

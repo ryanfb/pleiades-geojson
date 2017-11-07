@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Orgenomesci",
   "id": "236581",
-  "description": "A tribe of the Cantabri.",
   "bbox": [
     -5.0,
     43.0,
     -4.0,
     44.0
   ],
-  "reprPoint": [
-    -4.5,
-    43.5
-  ],
+  "description": "A tribe of the Cantabri.",
   "names": [
     "Orgenomesci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

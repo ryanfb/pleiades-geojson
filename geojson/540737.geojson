@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dolopia",
   "id": "540737",
-  "description": "A region of Greece inhabited by the Dolopes.",
   "bbox": [
     21.5,
     39.0,
     22.0,
     39.5
   ],
-  "reprPoint": [
-    21.75,
-    39.25
-  ],
+  "description": "A region of Greece inhabited by the Dolopes.",
   "names": [
     "Dolopia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Limiko",
   "id": "580014",
-  "description": "An ancient place, cited: BAtlas 59 B2 Limiko",
   "bbox": [
     23.69338,
     38.199727,
     23.69338,
     38.199727
   ],
-  "reprPoint": [
-    23.69338,
-    38.199727
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B2 Limiko",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.69338,
+          38.199727
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

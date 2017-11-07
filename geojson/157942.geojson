@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Varus (river)",
   "id": "157942",
-  "description": "The Var river.",
   "bbox": [
     7.2126343,
     43.7733763,
     7.2126343,
     43.7733763
   ],
+  "description": "The Var river.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    7.2126343,
-    43.7733763
   ],
   "names": [
     "Varus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2126343,
+          43.7733763
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

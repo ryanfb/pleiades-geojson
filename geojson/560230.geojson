@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Aigila/Ogylos (island)",
   "id": "560230",
-  "description": "Aigila/Ogylos Ins. (Antikythera) is an island in the Aegean Sea located between Crete and the Peloponnese.",
   "bbox": [
     23.30814,
     35.8648,
     23.30814,
     35.8648
   ],
+  "description": "Aigila/Ogylos Ins. (Antikythera) is an island in the Aegean Sea located between Crete and the Peloponnese.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    23.30814,
-    35.8648
   ],
   "names": [
     "Aigila",
     "Ṓgylos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.30814,
+          35.8648
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

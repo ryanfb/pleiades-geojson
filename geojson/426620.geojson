@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426620",
-  "description": "An ancient place, cited: BAtlas 43 C2 no. 44 (villa at Vigna Spinabella)",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 no. 44 (villa at Vigna Spinabella)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

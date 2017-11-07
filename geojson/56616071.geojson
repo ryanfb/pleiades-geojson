@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pen-y-crug",
   "id": "56616071",
-  "description": "Pen-y-crug is the location of an Iron Age hill fort in south Wales.",
   "bbox": [
     -3.4151171,
     51.9642927,
     -3.4151171,
     51.9642927
   ],
-  "reprPoint": [
-    -3.4151171,
-    51.9642927
-  ],
+  "description": "Pen-y-crug is the location of an Iron Age hill fort in south Wales.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4151171,
+          51.9642927
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

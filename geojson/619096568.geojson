@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Suhail",
   "id": "619096568",
-  "description": "A place from the TAVO Index",
   "bbox": [
     32.5,
     24.0,
     33.0,
     24.5
   ],
-  "reprPoint": [
-    32.75,
-    24.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Suhail",
     "Felskapelle Amenophis' II."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75,
+          24.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

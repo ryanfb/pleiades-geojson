@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cueva del Agua",
   "id": "256142",
-  "description": "An ancient place, cited: BAtlas 26 D3 Cueva del Agua",
   "bbox": [
     -6.53533,
     38.003688,
     -6.53533,
     38.003688
   ],
-  "reprPoint": [
-    -6.53533,
-    38.003688
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D3 Cueva del Agua",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.53533,
+          38.003688
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

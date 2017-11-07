@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ticis? (river)",
   "id": "246691",
-  "description": "The Muga river of Catalonia.",
   "bbox": [
     2.9395425,
     42.3085422,
     2.9395425,
     42.3085422
   ],
-  "reprPoint": [
-    2.9395425,
-    42.3085422
-  ],
+  "description": "The Muga river of Catalonia.",
   "names": [
     "Ticis",
     "Ticer"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9395425,
+          42.3085422
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

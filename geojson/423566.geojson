@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Tepula",
   "id": "423566",
-  "description": "The Aqua Tepula was an aqueduct built in 126 BC by the censors G. Servilius Caepio and L. Cassius Longinus.",
   "bbox": [
     12.486137,
     41.8917,
     12.4862,
     41.891775
   ],
+  "description": "The Aqua Tepula was an aqueduct built in 126 BC by the censors G. Servilius Caepio and L. Cassius Longinus.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4861685,
-    41.8917375
   ],
   "names": [
     "Aqua Tepula"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4861685,
+          41.8917375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

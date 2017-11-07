@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Syrtis Minor",
   "id": "344492",
-  "description": "The Gulf of Gabès.",
   "bbox": [
     10.416667,
     34.0,
     10.416667,
     34.0
   ],
-  "reprPoint": [
-    10.416667,
-    34.0
-  ],
+  "description": "The Gulf of Gabès.",
   "names": [
     "Syrtis Minor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.416667,
+          34.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

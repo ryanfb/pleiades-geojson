@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Casius Mons",
   "id": "687872",
-  "description": "Mount Kasion or Kasion Oros as described by Herodotus.",
   "bbox": [
     33.0779,
     31.2116,
     33.0779,
     31.2116
   ],
-  "reprPoint": [
-    33.0779,
-    31.2116
-  ],
+  "description": "Mount Kasion or Kasion Oros as described by Herodotus.",
   "names": [
     "Casius Mons"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0779,
+          31.2116
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

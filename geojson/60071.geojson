@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Śuńgas",
   "id": "60071",
-  "description": "An ancient place, cited: BAtlas 6 D5 Śuńgas",
   "bbox": [
     75.0,
     20.0,
     80.0,
     25.0
   ],
-  "reprPoint": [
-    77.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 D5 Śuńgas",
   "names": [
     "Śuńgas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

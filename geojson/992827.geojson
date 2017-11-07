@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Narbonensis II",
   "id": "992827",
-  "description": "An ancient place, cited: BAtlas 101 H3 no. 1 (Narbonensis II)",
   "bbox": [
     5.0,
     40.0,
     10.0,
     45.0
   ],
-  "reprPoint": [
-    7.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 H3 no. 1 (Narbonensis II)",
   "names": [
     "Narbonensis II"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

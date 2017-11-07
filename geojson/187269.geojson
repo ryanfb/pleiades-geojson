@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Alpes Carnicae",
   "id": "187269",
-  "description": "The Carnic Alps, a part of the Julian Alps.",
   "bbox": [
     13.75,
     46.33,
     13.75,
     46.33
   ],
+  "description": "The Carnic Alps, a part of the Julian Alps.",
   "connectsWith": [
     "197108"
-  ],
-  "reprPoint": [
-    13.75,
-    46.33
   ],
   "names": [
     "Alpes Carnicae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          46.33
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

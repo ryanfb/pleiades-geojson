@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hermel",
   "id": "668264",
-  "description": "An ancient place, cited: BAtlas 68 B5 Hermel",
   "bbox": [
     36.422188,
     34.379903,
     36.422188,
     34.379903
   ],
-  "reprPoint": [
-    36.422188,
-    34.379903
-  ],
+  "description": "An ancient place, cited: BAtlas 68 B5 Hermel",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.422188,
+          34.379903
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

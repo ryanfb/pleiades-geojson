@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nestor's Palace",
   "id": "156116232",
-  "description": "A Mycenaean palace complex excavated by the American School of Classical Studies, linked with the Homeric Pylos of Nestor.",
   "bbox": [
     21.695,
     37.028,
     21.695,
     37.028
   ],
-  "reprPoint": [
-    21.695,
-    37.028
-  ],
+  "description": "A Mycenaean palace complex excavated by the American School of Classical Studies, linked with the Homeric Pylos of Nestor.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.695,
+          37.028
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

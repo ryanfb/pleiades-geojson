@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gallo-Roman Villa at Saint-Paul-lès-Romans",
   "id": "163388144",
-  "description": "The site of a Roman villa in Gallia Narbonensis.",
   "bbox": [
     5.1324053,
     45.0672206,
     5.1324053,
     45.0672206
   ],
-  "reprPoint": [
-    5.1324053,
-    45.0672206
-  ],
+  "description": "The site of a Roman villa in Gallia Narbonensis.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1324053,
+          45.0672206
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

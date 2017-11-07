@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Carbonaria Silva",
   "id": "108858",
-  "description": "A dense, old-growth forest that formed a natural boundary across what is now Belgium during the Late Iron Age through Roman times and into the Early Middle Ages",
   "bbox": [
     4.0,
     50.0,
     5.0,
     51.0
   ],
-  "reprPoint": [
-    4.5,
-    50.5
-  ],
+  "description": "A dense, old-growth forest that formed a natural boundary across what is now Belgium during the Late Iron Age through Roman times and into the Early Middle Ages",
   "names": [
     "Carbonaria Silva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

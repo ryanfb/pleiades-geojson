@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "375994",
-  "description": "Berenice via Corniclanum",
   "bbox": [
     19.0,
     29.0,
     24.0,
     33.0
   ],
-  "reprPoint": [
-    21.5,
-    31.0
-  ],
+  "description": "Berenice via Corniclanum",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          31.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

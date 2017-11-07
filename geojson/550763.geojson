@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Mytilene",
   "id": "550763",
-  "description": "An ancient place, cited: BAtlas 56 D3 Mytilene",
   "bbox": [
     26.547048,
     39.110475,
     26.547048,
     39.110475
   ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Mytilene",
   "connectsWith": [
     "550696"
-  ],
-  "reprPoint": [
-    26.547048,
-    39.110475
   ],
   "names": [
     "Mytilene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.547048,
+          39.110475
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

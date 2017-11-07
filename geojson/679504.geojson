@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "679504",
-  "description": "An ancient place, cited: BAtlas 69 B2 unnamed bridge (Wadi ez-Zaini, N Sidon)",
   "bbox": [
     35.0,
     33.5,
     35.5,
     34.0
   ],
-  "reprPoint": [
-    35.25,
-    33.75
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B2 unnamed bridge (Wadi ez-Zaini, N Sidon)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          33.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240096",
-  "description": "Bracara Augusta → Ad Duos Pontes → Glandimirum → (Flavium) Brigantium → Lucus Augusti",
   "bbox": [
     -8.654909,
     41.55001,
     -7.555831,
     43.012084
   ],
-  "reprPoint": [
-    -8.2122975,
-    42.4290235
-  ],
+  "description": "Bracara Augusta → Ad Duos Pontes → Glandimirum → (Flavium) Brigantium → Lucus Augusti",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2122975,
+          42.4290235
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

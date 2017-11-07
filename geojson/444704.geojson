@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "444704",
-  "description": "An ancient place, cited: BAtlas 45 B4 unnamed centuriation (Poseidonia)",
   "bbox": [
     15.0,
     40.0,
     15.5,
     40.5
   ],
-  "reprPoint": [
-    15.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B4 unnamed centuriation (Poseidonia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

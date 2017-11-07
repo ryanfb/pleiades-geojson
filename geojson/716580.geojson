@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Khamiseh",
   "id": "716580",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.420537,
     29.325244,
     25.420537,
     29.325244
   ],
-  "reprPoint": [
-    25.420537,
-    29.325244
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.420537,
+          29.325244
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

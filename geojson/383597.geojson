@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bodincus (river)",
   "id": "383597",
-  "description": "An ancient place, cited: BAtlas 39 C3 Bodincus fl.",
   "bbox": [
     8.0,
     45.0,
     8.5,
     45.5
   ],
-  "reprPoint": [
-    8.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 C3 Bodincus fl.",
   "names": [
     "Bodincus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

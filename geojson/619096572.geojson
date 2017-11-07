@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tall Nimrūd",
   "id": "619096572",
-  "description": "A place from the TAVO Index",
   "bbox": [
     44.0,
     32.0,
     45.0,
     33.0
   ],
-  "reprPoint": [
-    44.5,
-    32.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Tall Nimrūd"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

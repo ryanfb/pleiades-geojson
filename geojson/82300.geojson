@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Great Orme Mines",
   "id": "82300",
-  "description": "An ancient place, cited: BAtlas 8 D1 unnamed quarry (N Kanovium, at Great Orme, Llandudno)",
   "bbox": [
     -3.8475225,
     53.3301501,
     -3.8475225,
     53.3301501
   ],
-  "reprPoint": [
-    -3.8475225,
-    53.3301501
-  ],
+  "description": "An ancient place, cited: BAtlas 8 D1 unnamed quarry (N Kanovium, at Great Orme, Llandudno)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8475225,
+          53.3301501
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

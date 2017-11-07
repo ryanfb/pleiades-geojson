@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "855424",
-  "description": "An ancient place, cited: BAtlas 87 M2 unnamed dike group (Sindike: east of Stanitsa Blagoveshchenskaya)",
   "bbox": [
     37.0,
     45.0,
     37.5,
     45.5
   ],
-  "reprPoint": [
-    37.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 M2 unnamed dike group (Sindike: east of Stanitsa Blagoveshchenskaya)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

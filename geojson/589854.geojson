@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Katharo",
   "id": "589854",
-  "description": "An ancient place, cited: BAtlas 60 E2 Katharo",
   "bbox": [
     25.579513,
     35.14556,
     25.579513,
     35.14556
   ],
-  "reprPoint": [
-    25.579513,
-    35.14556
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Katharo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.579513,
+          35.14556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

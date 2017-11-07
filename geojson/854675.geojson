@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Cimmerius Bosp(h)orus",
   "id": "854675",
-  "description": "A strait between the modern Black Sea and Sea of Azov.",
   "bbox": [
     36.65,
     45.35,
     36.65,
     45.35
   ],
+  "description": "A strait between the modern Black Sea and Sea of Azov.",
   "connectsWith": [
     "1224",
     "825318"
-  ],
-  "reprPoint": [
-    36.65,
-    45.35
   ],
   "names": [
     "Cimmerius Bosphorus",
@@ -23,6 +19,19 @@
     "Kimmerikos Bosporos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.65,
+          45.35
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

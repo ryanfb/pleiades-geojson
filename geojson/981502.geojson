@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Achaia (province)",
   "id": "981502",
-  "description": "A Roman province of the early empire, comprising the Peloponnese, central Greece, Euboea, most of the Ionian islands and adjacent areas. ",
   "bbox": [
     20.0,
     35.0,
     25.0,
     40.0
   ],
-  "reprPoint": [
-    22.5,
-    37.5
-  ],
+  "description": "A Roman province of the early empire, comprising the Peloponnese, central Greece, Euboea, most of the Ionian islands and adjacent areas. ",
   "names": [
     "Achaia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

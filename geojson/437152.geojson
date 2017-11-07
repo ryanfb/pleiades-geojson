@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "437152",
-  "description": "An ancient place, cited: BAtlas 44 G4 unnamed coastal change (Silarus valley)",
   "bbox": [
     14.5,
     40.5,
     15.0,
     41.0
   ],
-  "reprPoint": [
-    14.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 44 G4 unnamed coastal change (Silarus valley)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

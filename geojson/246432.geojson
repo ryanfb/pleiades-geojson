@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Ilergetes",
   "id": "246432",
-  "description": "An ancient place, cited: BAtlas 25 F4 Ilergetes",
   "bbox": [
     0.0,
     41.0,
     1.0,
     42.0
   ],
-  "reprPoint": [
-    0.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F4 Ilergetes",
   "names": [
     "Ilergetes",
     "Ilourgetes",
@@ -21,6 +17,19 @@
     "Regio Ilergetum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

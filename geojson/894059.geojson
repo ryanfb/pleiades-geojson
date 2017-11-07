@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pallaconta? (river)",
   "id": "894059",
-  "description": "An ancient place, cited: BAtlas 91 F5 Pallaconta? fl.",
   "bbox": [
     44.0,
     32.0,
     45.0,
     33.0
   ],
-  "reprPoint": [
-    44.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 F5 Pallaconta? fl.",
   "names": [
     "Pallaconta",
     "Pallukattu"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

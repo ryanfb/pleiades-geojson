@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Aquae Populoniae",
   "id": "409214",
-  "description": "An ancient place, cited: BAtlas 41 unlocated Aquae Populoniae",
   "bbox": [
     10.6805098,
     42.9653884,
     10.6805098,
     42.9653884
   ],
+  "description": "An ancient place, cited: BAtlas 41 unlocated Aquae Populoniae",
   "connectsWith": [
     "174900201"
-  ],
-  "reprPoint": [
-    10.6805098,
-    42.9653884
   ],
   "names": [
     "Aquae Populoniae"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6805098,
+          42.9653884
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

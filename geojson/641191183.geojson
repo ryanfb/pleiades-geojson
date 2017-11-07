@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ḫinis",
   "id": "641191183",
-  "description": "A place from the TAVO Index",
   "bbox": [
     43.0,
     36.0,
     44.0,
     37.0
   ],
-  "reprPoint": [
-    43.5,
-    36.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Ḫinis",
     "Ḫunusa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

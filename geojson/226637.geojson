@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Istrianos (river)",
   "id": "226637",
-  "description": "An ancient place, cited: BAtlas 23 I4 Istrianos fl.",
   "bbox": [
     35.0,
     44.0,
     36.0,
     45.0
   ],
-  "reprPoint": [
-    35.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 I4 Istrianos fl.",
   "names": [
     "Istrianos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

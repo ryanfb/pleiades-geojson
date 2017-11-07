@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Glaukos/Dokonos?/Kyaneos? (river)",
   "id": "857139",
-  "description": "An ancient place, cited: BAtlas 87 H2 Glaukos/Dokonos?/Kyaneos? fl.",
   "bbox": [
     42.0306265,
     42.1830989,
     42.1869857,
     42.3241598
   ],
-  "reprPoint": [
-    42.1042823471,
-    42.2484976909
-  ],
+  "description": "An ancient place, cited: BAtlas 87 H2 Glaukos/Dokonos?/Kyaneos? fl.",
   "names": [
     "Glaukos",
     "Dokonos",
     "Kyaneos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1042823471,
+          42.2484976909
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

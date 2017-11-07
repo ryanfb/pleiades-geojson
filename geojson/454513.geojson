@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "454513",
-  "description": "An ancient place, cited: BAtlas 46 D3 unnamed quarry (Temesa)",
   "bbox": [
     16.0,
     39.0,
     16.5,
     39.5
   ],
-  "reprPoint": [
-    16.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 D3 unnamed quarry (Temesa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

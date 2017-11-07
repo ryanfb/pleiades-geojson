@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Temple of Jupiter Optimus Maximus",
   "id": "871801169",
-  "description": "The poliadic temple of the city of Rome located on the Capitoline hill.",
   "bbox": [
     12.481667,
     41.892222,
     12.481667,
     41.892222
   ],
+  "description": "The poliadic temple of the city of Rome located on the Capitoline hill.",
   "connectsWith": [
     "423025",
     "347036492"
   ],
-  "reprPoint": [
-    12.481667,
-    41.892222
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481667,
+          41.892222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

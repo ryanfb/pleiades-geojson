@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman bridge at Buonfornello",
   "id": "463573",
-  "description": "An unnamed ancient bridge, located in modern Buonfornello, Sicily.",
   "bbox": [
     13.5,
     37.5,
     14.0,
     38.0
   ],
+  "description": "An unnamed ancient bridge, located in modern Buonfornello, Sicily.",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.75,
-    37.75
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

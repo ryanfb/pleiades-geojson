@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Arocas (river)",
   "id": "452265",
-  "description": "An ancient place, cited: BAtlas 46 E4 Arocas fl.",
   "bbox": [
     16.813611,
     38.697222,
     16.813611,
     38.697222
   ],
+  "description": "An ancient place, cited: BAtlas 46 E4 Arocas fl.",
   "connectsWith": [
     "452437"
-  ],
-  "reprPoint": [
-    16.813611,
-    38.697222
   ],
   "names": [
     "Arocas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.813611,
+          38.697222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

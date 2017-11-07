@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Phabra (island)",
   "id": "580069",
-  "description": "The island of Fleves in the Saronic Gulf.",
   "bbox": [
     23.761805,
     37.772397,
     23.761805,
     37.772397
   ],
+  "description": "The island of Fleves in the Saronic Gulf.",
   "connectsWith": [
     "570654"
-  ],
-  "reprPoint": [
-    23.761805,
-    37.772397
   ],
   "names": [
     "Phabra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.761805,
+          37.772397
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

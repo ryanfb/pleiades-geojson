@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Oxyrhynchus/Pemje",
   "id": "736983",
-  "description": "A city of Upper Egypt, Oxyrhynchus/Pemje is particularly well known as an archaeological site that has produced important papyrus manuscripts of ancient texts.",
   "bbox": [
     30.65172,
     28.542574,
     30.65172,
     28.542574
   ],
-  "reprPoint": [
-    30.65172,
-    28.542574
-  ],
+  "description": "A city of Upper Egypt, Oxyrhynchus/Pemje is particularly well known as an archaeological site that has produced important papyrus manuscripts of ancient texts.",
   "names": [
     "Oxyrhynchus",
     "Pemje"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.65172,
+          28.542574
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

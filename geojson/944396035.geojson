@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bey Dağları",
   "id": "944396035",
-  "description": "A place from the TAVO Index",
   "bbox": [
     30.0,
     37.0,
     30.5,
     37.5
   ],
-  "reprPoint": [
-    30.25,
-    37.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Bey Dağları"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eleutherna Bridge",
   "id": "591168",
-  "description": "An ancient place, cited: BAtlas 60 C2 unnamed bridge (Eleutherna)",
   "bbox": [
     24.6704025,
     35.3380334,
     24.6704025,
     35.3380334
   ],
+  "description": "An ancient place, cited: BAtlas 60 C2 unnamed bridge (Eleutherna)",
   "connectsWith": [
     "589748"
   ],
-  "reprPoint": [
-    24.6704025,
-    35.3380334
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6704025,
+          35.3380334
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

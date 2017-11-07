@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marciana Marina",
   "id": "403239",
-  "description": "An ancient place, cited: BAtlas 41 C4 Marciana Marina",
   "bbox": [
     10.197354,
     42.803757,
     10.197354,
     42.803757
   ],
+  "description": "An ancient place, cited: BAtlas 41 C4 Marciana Marina",
   "connectsWith": [
     "403222"
   ],
-  "reprPoint": [
-    10.197354,
-    42.803757
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.197354,
+          42.803757
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

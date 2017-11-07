@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Zarshoy",
   "id": "961975",
-  "description": "An ancient place, cited: BAtlas 98 F3 Zarshoy",
   "bbox": [
     65.105964,
     35.906095,
     65.105964,
     35.906095
   ],
-  "reprPoint": [
-    65.105964,
-    35.906095
-  ],
+  "description": "An ancient place, cited: BAtlas 98 F3 Zarshoy",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.105964,
+          35.906095
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

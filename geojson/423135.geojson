@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villamagna",
   "id": "423135",
-  "description": "A large imperial Roman villa known from letters of Marcus Aurelius.",
   "bbox": [
     13.111941,
     41.683288,
     13.111941,
     41.683288
   ],
-  "reprPoint": [
-    13.111941,
-    41.683288
-  ],
+  "description": "A large imperial Roman villa known from letters of Marcus Aurelius.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.111941,
+          41.683288
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Tbilisi",
   "id": "863903",
-  "description": "Tbilisi, the modern capital of Georgia, was the ancient Tiflīs and was founded in A.D. 455 or 458 when the capital of Georgia was transferred from Mtsk̲h̲eta.",
   "bbox": [
     44.78057,
     41.717722,
     44.78057,
     41.717722
   ],
-  "reprPoint": [
-    44.78057,
-    41.717722
-  ],
+  "description": "Tbilisi, the modern capital of Georgia, was the ancient Tiflīs and was founded in A.D. 455 or 458 when the capital of Georgia was transferred from Mtsk̲h̲eta.",
   "names": [
     "Ṭbilisi",
     "Tiflis",
@@ -42,6 +38,19 @@
     "Tbilisi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.78057,
+          41.717722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

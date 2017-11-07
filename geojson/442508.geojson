@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Bradanus (river)",
   "id": "442508",
-  "description": "A river of Lucania which flows into the Gulf of Tarentum.",
   "bbox": [
     15.7398572,
     40.7638609,
     15.7398572,
     40.7638609
   ],
+  "description": "A river of Lucania which flows into the Gulf of Tarentum.",
   "connectsWith": [
     "442621"
-  ],
-  "reprPoint": [
-    15.7398572,
-    40.7638609
   ],
   "names": [
     "Bradanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7398572,
+          40.7638609
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

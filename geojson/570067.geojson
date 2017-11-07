@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Alphe(i)os (river)",
   "id": "570067",
-  "description": "The longest river of the Peloponnesus.",
   "bbox": [
     21.451667,
     37.6125,
     21.451667,
     37.6125
   ],
+  "description": "The longest river of the Peloponnesus.",
   "connectsWith": [
     "570577",
     "1046"
-  ],
-  "reprPoint": [
-    21.451667,
-    37.6125
   ],
   "names": [
     "Alpheios",
@@ -23,6 +19,19 @@
     "Alpheus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.451667,
+          37.6125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

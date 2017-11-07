@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "384300",
-  "description": "An ancient place, cited: BAtlas 39 B4 unnamed aqueduct (Pollentia)",
   "bbox": [
     7.5,
     44.5,
     8.0,
     45.0
   ],
-  "reprPoint": [
-    7.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 B4 unnamed aqueduct (Pollentia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Salah",
   "id": "766342",
-  "description": "An ancient place, cited: BAtlas 78 B4 Bir Salah",
   "bbox": [
     32.979733,
     26.824,
     32.979733,
     26.824
   ],
-  "reprPoint": [
-    32.979733,
-    26.824
-  ],
+  "description": "An ancient place, cited: BAtlas 78 B4 Bir Salah",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.979733,
+          26.824
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

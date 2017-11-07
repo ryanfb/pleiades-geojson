@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Canauna",
   "id": "39320",
-  "description": "An ancient place, cited: BAtlas 4 B2 Canauna",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 Canauna",
   "names": [
     "Canauna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lycaonia",
   "id": "648698",
-  "description": "An ancient place, cited: BAtlas 66 B2 Lycaonia",
   "bbox": [
     32.5,
     37.0,
     33.0,
     37.5
   ],
-  "reprPoint": [
-    32.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 66 B2 Lycaonia",
   "names": [
     "Lycaonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

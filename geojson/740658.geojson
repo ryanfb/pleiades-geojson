@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "740658",
-  "description": "An ancient place, cited: BAtlas 75 E2 unnamed wall (Boubastos)",
   "bbox": [
     31.0,
     29.0,
     31.5,
     29.5
   ],
-  "reprPoint": [
-    31.25,
-    29.25
-  ],
+  "description": "An ancient place, cited: BAtlas 75 E2 unnamed wall (Boubastos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          29.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

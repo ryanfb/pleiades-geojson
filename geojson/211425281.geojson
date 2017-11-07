@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Kanopische Mündung",
   "id": "211425281",
-  "description": "A place from the TAVO Index",
   "bbox": [
     29.5,
     31.0,
     30.0,
     31.5
   ],
-  "reprPoint": [
-    29.75,
-    31.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Kanopische Mündung",
     "Kanopische Mündung [2]",
@@ -22,6 +18,19 @@
     "Kanōbikon Stoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

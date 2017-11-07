@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dreamer’s Bay",
   "id": "707502",
-  "description": "An ancient place, cited: BAtlas 72 B3 Dreamer’s Bay",
   "bbox": [
     32.962229,
     34.573989,
     32.962229,
     34.573989
   ],
+  "description": "An ancient place, cited: BAtlas 72 B3 Dreamer’s Bay",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.962229,
-    34.573989
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.962229,
+          34.573989
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

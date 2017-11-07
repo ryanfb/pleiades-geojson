@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Phoinikon",
   "id": "716621",
-  "description": "An ancient place.",
   "bbox": [
     27.884731,
     31.137006,
     27.884731,
     31.137006
   ],
-  "reprPoint": [
-    27.884731,
-    31.137006
-  ],
+  "description": "An ancient place.",
   "names": [
     "Phoinikon",
     "Phenikountos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.884731,
+          31.137006
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

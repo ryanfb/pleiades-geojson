@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Cottiae",
   "id": "992830",
-  "description": "An ancient place, cited: BAtlas 101 H3 no. 4 (Alpes Cottiae)",
   "bbox": [
     5.0,
     40.0,
     10.0,
     45.0
   ],
-  "reprPoint": [
-    7.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 H3 no. 4 (Alpes Cottiae)",
   "names": [
     "Alpes Cottiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

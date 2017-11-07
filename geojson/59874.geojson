@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kekeoi",
   "id": "59874",
-  "description": "An ancient place, cited: BAtlas 6 C3 Kekeoi",
   "bbox": [
     70.0,
     30.0,
     75.0,
     35.0
   ],
-  "reprPoint": [
-    72.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C3 Kekeoi",
   "names": [
     "Kekeoi",
     "Ceae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

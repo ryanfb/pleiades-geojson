@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "297476",
-  "description": "An ancient place, cited: BAtlas 30 D3 no. 5 (SE Sidi-Ghilès)",
   "bbox": [
     2.0,
     36.5,
     2.5,
     37.0
   ],
-  "reprPoint": [
-    2.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 30 D3 no. 5 (SE Sidi-Ghilès)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

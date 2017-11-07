@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Praibalis",
   "id": "1001903",
-  "description": "An ancient place, cited: BAtlas 102 C3 no. 17 (Praibalis)",
   "bbox": [
     15.0,
     40.0,
     20.0,
     45.0
   ],
-  "reprPoint": [
-    17.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 C3 no. 17 (Praibalis)",
   "names": [
     "Praibalis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

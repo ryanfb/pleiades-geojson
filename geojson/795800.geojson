@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dimri",
   "id": "795800",
-  "description": "An ancient place, cited: BAtlas 81 C2 Dimri",
   "bbox": [
     32.876967,
     23.846298,
     32.876967,
     23.846298
   ],
-  "reprPoint": [
-    32.876967,
-    23.846298
-  ],
+  "description": "An ancient place, cited: BAtlas 81 C2 Dimri",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.876967,
+          23.846298
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

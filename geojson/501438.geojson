@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Imbros (settlement)",
   "id": "501438",
-  "description": "An ancient settlement (modern Kaleköy on the Turkish island of Gökçeada).",
   "bbox": [
     25.8985823,
     40.233058,
     25.903047,
     40.2335474
   ],
+  "description": "An ancient settlement (modern Kaleköy on the Turkish island of Gökçeada).",
   "connectsWith": [
     "501439"
-  ],
-  "reprPoint": [
-    25.90081465,
-    40.2333027
   ],
   "names": [
     "Imbros",
@@ -22,6 +18,19 @@
     "Kalekoy"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.90081465,
+          40.2333027
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

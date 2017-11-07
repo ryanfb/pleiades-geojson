@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lagos",
   "id": "256255",
-  "description": "An ancient place, cited: BAtlas 26 B4 Lagos",
   "bbox": [
     -8.673235,
     37.101908,
     -8.673235,
     37.101908
   ],
-  "reprPoint": [
-    -8.673235,
-    37.101908
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B4 Lagos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.673235,
+          37.101908
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

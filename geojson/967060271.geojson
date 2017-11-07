@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 34 (Grindon)",
   "id": "967060271",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.287738,
     55.028649,
     -2.287738,
     55.028649
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.287738,
-    55.028649
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.287738,
+          55.028649
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

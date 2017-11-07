@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "925632",
-  "description": "An ancient place, cited: BAtlas 94 C4 unnamed canal (N Band-i Amir - Anjari)",
   "bbox": [
     52.0,
     29.0,
     53.0,
     30.0
   ],
-  "reprPoint": [
-    52.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 C4 unnamed canal (N Band-i Amir - Anjari)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

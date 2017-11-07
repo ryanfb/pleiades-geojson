@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "963385",
-  "description": "An ancient place, cited: BAtlas 98 G1 unnamed wall (N Maidan kurgan UZB)",
   "bbox": [
     66.0,
     37.0,
     67.0,
     38.0
   ],
-  "reprPoint": [
-    66.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 98 G1 unnamed wall (N Maidan kurgan UZB)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

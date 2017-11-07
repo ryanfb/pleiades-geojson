@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kiraios Sinus",
   "id": "530948",
-  "description": "An ancient place, cited: BAtlas 54 B2 Kiraios Sinus",
   "bbox": [
     20.0,
     39.5,
     20.5,
     40.0
   ],
-  "reprPoint": [
-    20.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 54 B2 Kiraios Sinus",
   "names": [
     "Kiraios Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

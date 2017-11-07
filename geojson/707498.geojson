@@ -2,24 +2,35 @@
   "type": "FeatureCollection",
   "title": "Cyprus (island)",
   "id": "707498",
-  "description": "Third largest island in the Mediterranean Sea.",
   "bbox": [
     32.276555,
     34.5705294,
     34.586367,
     35.692703
   ],
+  "description": "Third largest island in the Mediterranean Sea.",
   "connectsWith": [
     "648602",
     "1043",
     "668339"
   ],
-  "reprPoint": [
-    33.2753371642,
-    35.0408835298
-  ],
   "names": [
     "Cyprus",
     "Insula Cypros"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2753371642,
+          35.0408835298
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Achaea/Achaia (region)",
   "id": "570028",
-  "description": "An ancient Greek region on the northern coast of the Peloponnese. ",
   "bbox": [
     21.3975142,
     38.043207,
     22.62377,
     38.154879
   ],
+  "description": "An ancient Greek region on the northern coast of the Peloponnese. ",
   "connectsWith": [
     "570577"
-  ],
-  "reprPoint": [
-    22.2245859114,
-    38.1021214728
   ],
   "names": [
     "Achaea",
@@ -23,5 +19,20 @@
     "Achaia",
     "Aigialeia",
     "Achaioi"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2245859114,
+          38.1021214728
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

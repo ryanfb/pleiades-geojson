@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Baba tepe",
   "id": "961885",
-  "description": "An ancient place, cited: BAtlas 98 H1 Baba tepe",
   "bbox": [
     67.044168,
     37.834776,
     67.044168,
     37.834776
   ],
-  "reprPoint": [
-    67.044168,
-    37.834776
-  ],
+  "description": "An ancient place, cited: BAtlas 98 H1 Baba tepe",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.044168,
+          37.834776
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

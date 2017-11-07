@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Astakos",
   "id": "916165989",
-  "description": "A place from the TAVO Index",
   "bbox": [
     29.0,
     40.0,
     29.5,
     40.5
   ],
-  "reprPoint": [
-    29.25,
-    40.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Astakos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

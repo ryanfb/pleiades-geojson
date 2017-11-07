@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marcomanni",
   "id": "118831",
-  "description": "The Marcomanni were a German tribe.",
   "bbox": [
     13.0,
     50.0,
     14.0,
     51.0
   ],
-  "reprPoint": [
-    13.5,
-    50.5
-  ],
+  "description": "The Marcomanni were a German tribe.",
   "names": [
     "Marcomanni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

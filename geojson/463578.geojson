@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "463578",
-  "description": "An unnamed bridge located west of Hybla Gereatis at Pietralunga di Paternò, over the river Simeto.",
   "bbox": [
     14.5,
     37.5,
     15.0,
     38.0
   ],
+  "description": "An unnamed bridge located west of Hybla Gereatis at Pietralunga di Paternò, over the river Simeto.",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    14.75,
-    37.75
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

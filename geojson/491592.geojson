@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Erigon (river)",
   "id": "491592",
-  "description": "An ancient place, cited: BAtlas 50 A2 Erigon fl.",
   "bbox": [
     14.6683229,
     46.2629504,
     14.6683229,
     46.2629504
   ],
+  "description": "An ancient place, cited: BAtlas 50 A2 Erigon fl.",
   "connectsWith": [
     "491534"
-  ],
-  "reprPoint": [
-    14.6683229,
-    46.2629504
   ],
   "names": [
     "Erigon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6683229,
+          46.2629504
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

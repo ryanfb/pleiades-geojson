@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Sparza",
   "id": "639120",
-  "description": "An ancient place, cited: BAtlas 65 B3 *Sparza",
   "bbox": [
     29.0,
     37.0,
     29.5,
     37.5
   ],
-  "reprPoint": [
-    29.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 B3 *Sparza",
   "names": [
     "Sparza"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

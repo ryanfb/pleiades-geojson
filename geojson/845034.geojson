@@ -2,18 +2,29 @@
   "type": "FeatureCollection",
   "title": "Paphlagonia (region)",
   "id": "845034",
-  "description": "The ancient region as defined in the Barrington Atlas (BAtlas 86 C2 Paphlagonia)",
   "bbox": [
     32.385648,
     40.6013428,
     33.769688,
     41.976879
   ],
-  "reprPoint": [
-    33.2385502167,
-    41.4484629667
-  ],
+  "description": "The ancient region as defined in the Barrington Atlas (BAtlas 86 C2 Paphlagonia)",
   "names": [
     "Paphlagonia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2385502167,
+          41.4484629667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

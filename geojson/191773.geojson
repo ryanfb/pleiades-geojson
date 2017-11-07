@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Septimer Pass",
   "id": "191773",
-  "description": "An ancient place, cited: BAtlas 19 B3 no. 2 (Septimer Pass)",
   "bbox": [
     9.6373825,
     46.4191756,
     9.6373825,
     46.4191756
   ],
-  "reprPoint": [
-    9.6373825,
-    46.4191756
-  ],
+  "description": "An ancient place, cited: BAtlas 19 B3 no. 2 (Septimer Pass)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6373825,
+          46.4191756
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

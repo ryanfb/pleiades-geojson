@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Helisson (river)",
   "id": "570284",
-  "description": "An ancient place, cited: BAtlas 58 D2 Helisson fl.",
   "bbox": [
     22.5,
     37.5,
     23.0,
     38.0
   ],
-  "reprPoint": [
-    22.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D2 Helisson fl.",
   "names": [
     "Helisson"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

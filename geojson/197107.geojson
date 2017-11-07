@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Ferreae",
   "id": "197107",
-  "description": "A mountain range of central Croatia.",
   "bbox": [
     16.0,
     45.0,
     17.0,
     46.0
   ],
-  "reprPoint": [
-    16.5,
-    45.5
-  ],
+  "description": "A mountain range of central Croatia.",
   "names": [
     "Alpes Ferreae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

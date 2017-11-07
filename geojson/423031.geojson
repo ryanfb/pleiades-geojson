@@ -2,26 +2,36 @@
   "type": "FeatureCollection",
   "title": "Salinae",
   "id": "423031",
-  "description": "An ancient place, cited: BAtlas 43 B2/B3 Salinae",
   "bbox": [
     12.287656,
     41.748883,
     12.547643,
     42.072946
   ],
+  "description": "An ancient place, cited: BAtlas 43 B2/B3 Salinae",
   "connectsWith": [
     "423080",
     "422995"
-  ],
-  "reprPoint": [
-    12.4184524167,
-    41.9131220167
   ],
   "names": [
     "Salinae"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4184524167,
+          41.9131220167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

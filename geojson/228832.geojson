@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "228832",
-  "description": "An ancient place, cited: BAtlas 23 F3 no. 66 (Mar'ino)",
   "bbox": [
     32.0,
     45.0,
     33.0,
     46.0
   ],
-  "reprPoint": [
-    32.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 F3 no. 66 (Mar'ino)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

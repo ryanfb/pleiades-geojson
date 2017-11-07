@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Tabrīz",
   "id": "430344981",
-  "description": "A place from the TAVO Index",
   "bbox": [
     46.0,
     38.0,
     47.0,
     39.0
   ],
-  "reprPoint": [
-    46.5,
-    38.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Tabrīz",
     "Tabrezē",
@@ -24,6 +20,19 @@
     "Ṭawrēš"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Raml",
   "id": "344558",
-  "description": "An ancient place, cited: BAtlas 35 F4 Wadi Raml",
   "bbox": [
     13.0,
     30.0,
     14.0,
     31.0
   ],
-  "reprPoint": [
-    13.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 F4 Wadi Raml",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

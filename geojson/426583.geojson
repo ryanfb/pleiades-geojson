@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426583",
-  "description": "An ancient place, cited: BAtlas 43 C2 no. 7 (villa N Fidenae)",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 no. 7 (villa N Fidenae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

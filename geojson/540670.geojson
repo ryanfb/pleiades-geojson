@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Askra",
   "id": "540670",
-  "description": "An ancient town of Boeotia known as the birthplace of Hesiod.",
   "bbox": [
     23.075384,
     38.328222,
     23.075384,
     38.328222
   ],
-  "reprPoint": [
-    23.075384,
-    38.328222
-  ],
+  "description": "An ancient town of Boeotia known as the birthplace of Hesiod.",
   "names": [
     "Askra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.075384,
+          38.328222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

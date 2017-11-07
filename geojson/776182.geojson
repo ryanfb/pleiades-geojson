@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hibites Nomos",
   "id": "776182",
-  "description": "An ancient place, cited: BAtlas 79 C4 Hibites Nomos",
   "bbox": [
     30.0,
     24.5,
     30.5,
     25.0
   ],
-  "reprPoint": [
-    30.25,
-    24.75
-  ],
+  "description": "An ancient place, cited: BAtlas 79 C4 Hibites Nomos",
   "names": [
     "Hibites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          24.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

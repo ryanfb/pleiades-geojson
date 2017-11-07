@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Lucrinus L.",
   "id": "432915",
-  "description": "A small lake near to Lake Avernus.",
   "bbox": [
     14.139,
     40.827,
     14.139,
     40.827
   ],
+  "description": "A small lake near to Lake Avernus.",
   "connectsWith": [
     "432744"
-  ],
-  "reprPoint": [
-    14.139,
-    40.827
   ],
   "names": [
     "Lucrinus L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.139,
+          40.827
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kruishoutem",
   "id": "109093",
-  "description": "An ancient settlement (name unknown) located at modern Kruishoutem in Belgium.",
   "bbox": [
     3.528018,
     50.904532,
     3.528018,
     50.904532
   ],
-  "reprPoint": [
-    3.528018,
-    50.904532
-  ],
+  "description": "An ancient settlement (name unknown) located at modern Kruishoutem in Belgium.",
   "names": [
     "Kruishoutem"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.528018,
+          50.904532
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

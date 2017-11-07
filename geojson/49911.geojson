@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bazakata? (island)",
   "id": "49911",
-  "description": "An ancient place, cited: BAtlas 5 G3 Bazakata? Ins.",
   "bbox": [
     90.0,
     15.0,
     95.0,
     20.0
   ],
-  "reprPoint": [
-    92.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 G3 Bazakata? Ins.",
   "names": [
     "Bazakata"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

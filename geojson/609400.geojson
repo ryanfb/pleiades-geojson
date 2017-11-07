@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Heptakometai",
   "id": "609400",
-  "description": "An ancient place, cited: BAtlas 62 F2 Heptakometai",
   "bbox": [
     31.0,
     39.5,
     31.5,
     40.0
   ],
-  "reprPoint": [
-    31.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 F2 Heptakometai",
   "names": [
     "Heptakometai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

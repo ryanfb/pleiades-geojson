@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Calacticus Sinus",
   "id": "261234",
-  "description": "An ancient place, cited: BAtlas 26 unlocated Calacticus Sinus",
   "bbox": [
     20.0,
     35.0,
     20.0,
     35.0
   ],
-  "reprPoint": [
-    20.0,
-    35.0
-  ],
+  "description": "An ancient place, cited: BAtlas 26 unlocated Calacticus Sinus",
   "names": [
     "Calacticus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0,
+          35.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

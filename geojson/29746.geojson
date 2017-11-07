@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarnios (river)",
   "id": "29746",
-  "description": "An ancient place, cited: BAtlas 3 H2 Sarnios fl.",
   "bbox": [
     60.0,
     35.0,
     65.0,
     40.0
   ],
-  "reprPoint": [
-    62.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 3 H2 Sarnios fl.",
   "names": [
     "Sarnios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

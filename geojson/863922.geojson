@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Yerevan",
   "id": "863922",
-  "description": "An ancient place, cited: BAtlas 88 C4 Yerevan",
   "bbox": [
     44.51676,
     40.185208,
     44.51676,
     40.185208
   ],
-  "reprPoint": [
-    44.51676,
-    40.185208
-  ],
+  "description": "An ancient place, cited: BAtlas 88 C4 Yerevan",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.51676,
+          40.185208
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

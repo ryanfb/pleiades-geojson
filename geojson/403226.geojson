@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Isola del Tinetto",
   "id": "403226",
-  "description": "An island in the Ligurian Sea.",
   "bbox": [
     9.851087,
     44.023606,
     9.851087,
     44.023606
   ],
+  "description": "An island in the Ligurian Sea.",
   "connectsWith": [
     "157878"
   ],
-  "reprPoint": [
-    9.851087,
-    44.023606
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.851087,
+          44.023606
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

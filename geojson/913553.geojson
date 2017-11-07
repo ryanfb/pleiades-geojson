@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "913553",
-  "description": "An ancient place, cited: BAtlas 93 G3 unnamed bridge (W Khayrabad Bala)",
   "bbox": [
     50.0,
     30.0,
     51.0,
     31.0
   ],
-  "reprPoint": [
-    50.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 93 G3 unnamed bridge (W Khayrabad Bala)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

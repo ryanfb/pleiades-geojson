@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Scultenna (river)",
   "id": "393492",
-  "description": "The Scultenna, the modern Panaro river, is a tributary of the Po river in northern Italy.",
   "bbox": [
     11.41367,
     44.91579,
     11.41367,
     44.91579
   ],
+  "description": "The Scultenna, the modern Panaro river, is a tributary of the Po river in northern Italy.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    11.41367,
-    44.91579
   ],
   "names": [
     "Scultenna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41367,
+          44.91579
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

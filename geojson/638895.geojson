@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kapros? (river)",
   "id": "638895",
-  "description": "An ancient place, cited: BAtlas 65 B2 Kapros? fl.",
   "bbox": [
     29.0,
     37.5,
     29.5,
     38.0
   ],
-  "reprPoint": [
-    29.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 B2 Kapros? fl.",
   "names": [
     "Kapros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

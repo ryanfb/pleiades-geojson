@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pizzica",
   "id": "442723",
-  "description": "An ancient place, cited: BAtlas 45 E4 Pizzica",
   "bbox": [
     16.807421,
     40.374005,
     16.807421,
     40.374005
   ],
-  "reprPoint": [
-    16.807421,
-    40.374005
-  ],
+  "description": "An ancient place, cited: BAtlas 45 E4 Pizzica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.807421,
+          40.374005
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

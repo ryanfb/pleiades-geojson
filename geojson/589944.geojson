@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Mylai (islands)",
   "id": "589944",
-  "description": "An ancient place, cited: BAtlas 60 A1 Mylai Inss.",
   "bbox": [
     23.5,
     35.5,
     24.0,
     36.0
   ],
+  "description": "An ancient place, cited: BAtlas 60 A1 Mylai Inss.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    23.75,
-    35.75
   ],
   "names": [
     "Mylai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

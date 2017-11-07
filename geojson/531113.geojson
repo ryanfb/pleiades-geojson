@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Taphiae? (islands)",
   "id": "531113",
-  "description": "A group of small islands in the Ionian Sea.",
   "bbox": [
     20.768601,
     38.5600538,
     20.9067516,
     38.6472447
   ],
+  "description": "A group of small islands in the Ionian Sea.",
   "connectsWith": [
     "1046"
-  ],
-  "reprPoint": [
-    20.8524043333,
-    38.6084233333
   ],
   "names": [
     "Taphiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8524043333,
+          38.6084233333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

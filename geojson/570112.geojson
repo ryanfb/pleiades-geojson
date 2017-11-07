@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aroania M.",
   "id": "570112",
-  "description": "Aroania M. is the third highest mountain of the Peloponnese (2,355 m asl).",
   "bbox": [
     22.0,
     37.5,
     22.5,
     38.0
   ],
+  "description": "Aroania M. is the third highest mountain of the Peloponnese (2,355 m asl).",
   "connectsWith": [
     "570102"
-  ],
-  "reprPoint": [
-    22.25,
-    37.75
   ],
   "names": [
     "Aroania M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

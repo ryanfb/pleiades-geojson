@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Munda (river)",
   "id": "256315",
-  "description": "An ancient place, cited: BAtlas 26 F4 Munda fl.",
   "bbox": [
     -5.0,
     37.0,
     -4.0,
     38.0
   ],
+  "description": "An ancient place, cited: BAtlas 26 F4 Munda fl.",
   "connectsWith": [
     "256418"
-  ],
-  "reprPoint": [
-    -4.5,
-    37.5
   ],
   "names": [
     "Munda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

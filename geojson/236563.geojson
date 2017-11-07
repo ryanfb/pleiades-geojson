@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Nelo/Nabios (river)",
   "id": "236563",
-  "description": "An ancient place, cited: BAtlas 24 D1 Nelo/Nabios fl.",
   "bbox": [
     -8.0,
     43.0,
     -7.0,
     44.0
   ],
+  "description": "An ancient place, cited: BAtlas 24 D1 Nelo/Nabios fl.",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -7.5,
-    43.5
   ],
   "names": [
     "Nelo",
@@ -22,6 +18,19 @@
     "Nabum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

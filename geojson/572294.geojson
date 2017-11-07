@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "572294",
-  "description": "An ancient place, cited: BAtlas 58 C4 unnamed quarry (Aigila?)",
   "bbox": [
     22.0,
     36.5,
     22.5,
     37.0
   ],
-  "reprPoint": [
-    22.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C4 unnamed quarry (Aigila?)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

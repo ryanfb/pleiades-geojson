@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "443190",
-  "description": "An ancient place, cited: BAtlas 45 F4 unnamed aqueduct (Tarentum from springs near Satyrion (aqua nymphalis))",
   "bbox": [
     17.0,
     40.0,
     17.5,
     40.5
   ],
-  "reprPoint": [
-    17.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 F4 unnamed aqueduct (Tarentum from springs near Satyrion (aqua nymphalis))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

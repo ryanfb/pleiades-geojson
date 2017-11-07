@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tres Tabernae",
   "id": "423106",
-  "description": "A statio at the point where the Via Appia crosses the Via Ninfina.",
   "bbox": [
     12.87111,
     41.56472,
     12.87111,
     41.56472
   ],
+  "description": "A statio at the point where the Via Appia crosses the Via Ninfina.",
   "connectsWith": [
     "356966898"
-  ],
-  "reprPoint": [
-    12.87111,
-    41.56472
   ],
   "names": [
     "Tres Tabernae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.87111,
+          41.56472
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

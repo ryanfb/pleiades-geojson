@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Psil(l)is (river)",
   "id": "511388",
-  "description": "An ancient place, cited: BAtlas 52 F2 Psil(l)is fl.",
   "bbox": [
     29.5,
     41.0,
     30.0,
     41.5
   ],
-  "reprPoint": [
-    29.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F2 Psil(l)is fl.",
   "names": [
     " Psillis",
     " Psilis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

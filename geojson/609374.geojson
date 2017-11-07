@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Epikteteis",
   "id": "609374",
-  "description": "An ancient place, cited: BAtlas 62 C3 Epikteteis",
   "bbox": [
     29.5,
     39.0,
     30.0,
     39.5
   ],
-  "reprPoint": [
-    29.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 C3 Epikteteis",
   "names": [
     "Epikteteis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Tigris/Diglitus (river)",
   "id": "912964",
-  "description": "The Tigris river, one of the two great rivers that define Mesopotamia, flows 1,850 km from the Taurus Mountains to the Persian Gulf. ",
   "bbox": [
     41.7758449,
     27.0000001,
     50.9999999,
     38.0861989
   ],
+  "description": "The Tigris river, one of the two great rivers that define Mesopotamia, flows 1,850 km from the Taurus Mountains to the Persian Gulf. ",
   "connectsWith": [
     "648792",
     "29713"
-  ],
-  "reprPoint": [
-    44.7946782967,
-    34.52908255
   ],
   "names": [
     "Tigris",
@@ -39,6 +35,19 @@
     "ad-Diǧla"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7946782967,
+          34.52908255
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

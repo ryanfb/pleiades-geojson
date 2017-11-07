@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 40 (Winshields)",
   "id": "967060399",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.399252,
     55.002024,
     -2.398949,
     55.002229
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.39910561955,
-    55.002124014
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.39910561955,
+          55.002124014
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

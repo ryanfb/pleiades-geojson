@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Libya Superior",
   "id": "991375",
-  "description": "A late Roman province, dating to the days of Diocletian and Constantine I",
   "bbox": [
     18.4151122843,
     25.434952111,
     25.4415437806,
     33.0940247392
   ],
-  "reprPoint": [
-    22.0840920328,
-    28.9188417513
-  ],
+  "description": "A late Roman province, dating to the days of Diocletian and Constantine I",
   "names": [
     "Libya Superior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0840920328,
+          28.9188417513
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

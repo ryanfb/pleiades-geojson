@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Condamine",
   "id": "167721",
-  "description": "An ancient place, cited: BAtlas 17 E4 La Condamine",
   "bbox": [
     5.29229,
     44.756522,
     5.29229,
     44.756522
   ],
-  "reprPoint": [
-    5.29229,
-    44.756522
-  ],
+  "description": "An ancient place, cited: BAtlas 17 E4 La Condamine",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.29229,
+          44.756522
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

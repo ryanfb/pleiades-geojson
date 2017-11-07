@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hales (river)",
   "id": "442609",
-  "description": "An ancient place, cited: BAtlas 45 B4 Hales fl.",
   "bbox": [
     15.0,
     40.0,
     15.5,
     40.5
   ],
-  "reprPoint": [
-    15.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B4 Hales fl.",
   "names": [
     "Hales"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "122312",
-  "description": "An ancient place, cited: BAtlas 12 A2 unnamed wall (along Rhenus fl.)",
   "bbox": [
     7.0,
     50.0,
     8.0,
     51.0
   ],
-  "reprPoint": [
-    7.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 A2 unnamed wall (along Rhenus fl.)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

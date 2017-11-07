@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villa di Formello",
   "id": "322920273",
-  "description": "A Roman villa dating ca. 50 B.C. located near Monte Gennaro. ",
   "bbox": [
     12.7767848,
     42.0546304,
     12.7767848,
     42.0546304
   ],
-  "reprPoint": [
-    12.7767848,
-    42.0546304
-  ],
+  "description": "A Roman villa dating ca. 50 B.C. located near Monte Gennaro. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7767848,
+          42.0546304
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

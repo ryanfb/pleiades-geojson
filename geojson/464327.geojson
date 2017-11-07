@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Motya causeway",
   "id": "464327",
-  "description": "Remains of a causeway that once connected Motya to the Sicilian mainland.",
   "bbox": [
     12.471073,
     37.876922,
     12.471073,
     37.876922
   ],
+  "description": "Remains of a causeway that once connected Motya to the Sicilian mainland.",
   "connectsWith": [
     "462373"
   ],
-  "reprPoint": [
-    12.471073,
-    37.876922
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.471073,
+          37.876922
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

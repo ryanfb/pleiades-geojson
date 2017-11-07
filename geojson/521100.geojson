@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oxeia M.",
   "id": "521100",
-  "description": "An ancient place, cited: BAtlas 53 B3 Oxeia M.",
   "bbox": [
     29.0,
     40.75,
     29.25,
     41.0
   ],
-  "reprPoint": [
-    29.125,
-    40.875
-  ],
+  "description": "An ancient place, cited: BAtlas 53 B3 Oxeia M.",
   "names": [
     "Oxeia M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.125,
+          40.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

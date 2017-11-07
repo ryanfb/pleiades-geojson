@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sagra(s) (river)",
   "id": "452425",
-  "description": "An ancient place, cited: BAtlas 46 D5 Sagra(s) fl.",
   "bbox": [
     16.0,
     38.0,
     16.5,
     38.5
   ],
-  "reprPoint": [
-    16.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 D5 Sagra(s) fl.",
   "names": [
     "Sagras",
     "Sagra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

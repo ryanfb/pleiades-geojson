@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Taurini",
   "id": "383794",
-  "description": "An ancient place, cited: BAtlas 39 B3 Taurini",
   "bbox": [
     7.5,
     45.0,
     8.0,
     45.5
   ],
-  "reprPoint": [
-    7.75,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 B3 Taurini",
   "names": [
     "Taurini"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

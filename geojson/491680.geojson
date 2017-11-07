@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Paionia",
   "id": "491680",
-  "description": "An ancient place, cited: BAtlas 50 A1 Paionia",
   "bbox": [
     21.5,
     41.5,
     22.0,
     42.0
   ],
-  "reprPoint": [
-    21.75,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 50 A1 Paionia",
   "names": [
     "Paionia",
     "Paiones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

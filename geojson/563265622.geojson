@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mount Nebo",
   "id": "563265622",
-  "description": "A mountain in Jordan rising to ca. 817 meters (2680 feet) above sea level, Mount Nebo is connected with the Hebrew prophet Moses and a Christian site (4th century AD) stands on its summit.",
   "bbox": [
     35.725,
     31.766667,
     35.725,
     31.766667
   ],
-  "reprPoint": [
-    35.725,
-    31.766667
-  ],
+  "description": "A mountain in Jordan rising to ca. 817 meters (2680 feet) above sea level, Mount Nebo is connected with the Hebrew prophet Moses and a Christian site (4th century AD) stands on its summit.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.725,
+          31.766667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

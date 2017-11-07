@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Moura",
   "id": "256312",
-  "description": "An ancient place, cited: BAtlas 26 C3 Moura",
   "bbox": [
     -7.449427,
     38.144138,
     -7.449427,
     38.144138
   ],
-  "reprPoint": [
-    -7.449427,
-    38.144138
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C3 Moura",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.449427,
+          38.144138
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

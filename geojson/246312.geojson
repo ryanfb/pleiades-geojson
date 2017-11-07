@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Los Castillos",
   "id": "246312",
-  "description": "An ancient place, cited: BAtlas 25 C3 Los Castillos",
   "bbox": [
     -2.746945,
     42.73491,
     -2.746945,
     42.73491
   ],
-  "reprPoint": [
-    -2.746945,
-    42.73491
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C3 Los Castillos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.746945,
+          42.73491
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

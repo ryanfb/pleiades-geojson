@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Puente Romano (Talamanca del Jarama)",
   "id": "247643",
-  "description": "A five span stone bridge (Talamanca over R. Jarama, W Arriaca).",
   "bbox": [
     -3.52016,
     40.75137,
     -3.52016,
     40.75137
   ],
-  "reprPoint": [
-    -3.52016,
-    40.75137
-  ],
+  "description": "A five span stone bridge (Talamanca over R. Jarama, W Arriaca).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.52016,
+          40.75137
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Basiz",
   "id": "971714",
-  "description": "An ancient place, cited: BAtlas 99 C2 Basiz",
   "bbox": [
     68.776539,
     37.151309,
     68.776539,
     37.151309
   ],
-  "reprPoint": [
-    68.776539,
-    37.151309
-  ],
+  "description": "An ancient place, cited: BAtlas 99 C2 Basiz",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.776539,
+          37.151309
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

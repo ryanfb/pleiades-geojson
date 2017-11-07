@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "169131",
-  "description": "An ancient place, cited: BAtlas 17 E5 unnamed bridge (Vasio)",
   "bbox": [
     5.0,
     44.0,
     5.5,
     44.5
   ],
-  "reprPoint": [
-    5.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 E5 unnamed bridge (Vasio)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

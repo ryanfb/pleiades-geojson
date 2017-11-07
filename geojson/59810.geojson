@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Erymandros (river)",
   "id": "59810",
-  "description": "The Helmand River flows some 1,150 km (710 mi) from the Hindu Kush mountains to the Sistan basin.",
   "bbox": [
     60.0,
     30.0,
     65.0,
     35.0
   ],
-  "reprPoint": [
-    62.5,
-    32.5
-  ],
+  "description": "The Helmand River flows some 1,150 km (710 mi) from the Hindu Kush mountains to the Sistan basin.",
   "names": [
     "Erymandros",
     "Cymander",
@@ -21,6 +17,19 @@
     "Ethymantus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

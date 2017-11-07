@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trachon(itis)",
   "id": "678434",
-  "description": "An ancient place, cited: BAtlas 69 D3 Trachon(itis)",
   "bbox": [
     36.0,
     33.0,
     36.5,
     33.5
   ],
-  "reprPoint": [
-    36.25,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 D3 Trachon(itis)",
   "names": [
     " Trachonitis",
     " Trachon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Taurus/Volcarum Stagna",
   "id": "148211",
-  "description": "The coastal lagoons of Languedoc",
   "bbox": [
     3.8443125,
     43.0,
     4.0,
     43.7180443
   ],
+  "description": "The coastal lagoons of Languedoc",
   "connectsWith": [
     "148089"
-  ],
-  "reprPoint": [
-    3.91652766667,
-    43.4283127667
   ],
   "names": [
     "Taurus",
     "Volcarum Stagna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.91652766667,
+          43.4283127667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

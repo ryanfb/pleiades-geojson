@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gothi",
   "id": "128402",
-  "description": "The Gothi were an East Germanic people with multiple branches.",
   "bbox": [
     22.0,
     51.0,
     23.0,
     52.0
   ],
-  "reprPoint": [
-    22.5,
-    51.5
-  ],
+  "description": "The Gothi were an East Germanic people with multiple branches.",
   "names": [
     "Gothi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

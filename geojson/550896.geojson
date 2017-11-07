@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sta Oikia",
   "id": "550896",
-  "description": "An ancient place, cited: BAtlas 56 B3 Sta Oikia",
   "bbox": [
     25.901401,
     39.219774,
     25.901401,
     39.219774
   ],
-  "reprPoint": [
-    25.901401,
-    39.219774
-  ],
+  "description": "An ancient place, cited: BAtlas 56 B3 Sta Oikia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.901401,
+          39.219774
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

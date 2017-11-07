@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Achaia (province, late)",
   "id": "991372",
-  "description": "A late Roman imperial province, having been diminished in extent during the second century CE and reorganized by Diocletian within the diocese of Moesia. ",
   "bbox": [
     20.0,
     35.0,
     25.0,
     40.0
   ],
-  "reprPoint": [
-    22.5,
-    37.5
-  ],
+  "description": "A late Roman imperial province, having been diminished in extent during the second century CE and reorganized by Diocletian within the diocese of Moesia. ",
   "names": [
     "Achaia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

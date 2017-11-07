@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Agrianes",
   "id": "481704",
-  "description": "An ancient place, cited: BAtlas 49 E1 Agrianes",
   "bbox": [
     22.0,
     42.0,
     23.0,
     43.0
   ],
-  "reprPoint": [
-    22.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 E1 Agrianes",
   "names": [
     "Agrianes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Achaia (region)",
   "id": "825220",
-  "description": "A region and eponymous people of the northwest Caucasus, inland from the modern Russian Black Sea port city of Tuapse.",
   "bbox": [
     39.0,
     44.0,
     40.0,
     45.0
   ],
-  "reprPoint": [
-    39.5,
-    44.5
-  ],
+  "description": "A region and eponymous people of the northwest Caucasus, inland from the modern Russian Black Sea port city of Tuapse.",
   "names": [
     "Achaia",
     "Achaioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Raetia",
   "id": "187523",
-  "description": "An ancient region comprising the central Alps during Roman times, spanning parts of the modern countries of Austria, Germany, Italy, Slovenia, and Switzerland with Liechtenstein. NB the Roman administrative province of Raetia, which has its own place resource in Pleiades.",
   "bbox": [
     10.326578,
     47.727498,
     10.894765,
     48.365463
   ],
-  "reprPoint": [
-    10.6106715,
-    48.0464805
-  ],
+  "description": "An ancient region comprising the central Alps during Roman times, spanning parts of the modern countries of Austria, Germany, Italy, Slovenia, and Switzerland with Liechtenstein. NB the Roman administrative province of Raetia, which has its own place resource in Pleiades.",
   "names": [
     "Raetia",
     "Raetii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6106715,
+          48.0464805
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

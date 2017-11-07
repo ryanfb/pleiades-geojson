@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Acesinus? (river)",
   "id": "226505",
-  "description": "The Inhulets River is a right tributary of the Dnieper River that flows through the Ukraine.",
   "bbox": [
     32.5778028,
     48.8201149,
     32.5778028,
     48.8201149
   ],
+  "description": "The Inhulets River is a right tributary of the Dnieper River that flows through the Ukraine.",
   "connectsWith": [
     "226544"
-  ],
-  "reprPoint": [
-    32.5778028,
-    48.8201149
   ],
   "names": [
     "Acesinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5778028,
+          48.8201149
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

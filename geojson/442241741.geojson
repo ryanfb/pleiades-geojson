@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Aral Sea",
   "id": "442241741",
-  "description": "The Aral Sea, a large lake of Asia, is a remnant of the ancient Paratethys Sea. It was once one of the largest lakes in the world.",
   "bbox": [
     60.0,
     45.0,
     60.0,
     45.0
   ],
-  "reprPoint": [
-    60.0,
-    45.0
-  ],
+  "description": "The Aral Sea, a large lake of Asia, is a remnant of the ancient Paratethys Sea. It was once one of the largest lakes in the world.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.0,
+          45.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

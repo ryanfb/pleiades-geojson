@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "89848",
-  "description": "An ancient place, cited: BAtlas 9 E5 unnamed aqueduct ((A)Esica)",
   "bbox": [
     -3.0,
     55.0,
     -2.0,
     56.0
   ],
-  "reprPoint": [
-    -2.5,
-    55.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 E5 unnamed aqueduct ((A)Esica)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 51 (Wall Bowers)",
   "id": "967060283",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.637655,
     54.982262,
     -2.637222,
     54.982513
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.63744018848,
-    54.9823889277
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.63744018848,
+          54.9823889277
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

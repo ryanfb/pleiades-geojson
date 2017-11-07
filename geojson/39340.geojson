@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Elephas Pr.",
   "id": "39340",
-  "description": "An ancient place, cited: BAtlas 4 D3 Elephas Pr.",
   "bbox": [
     50.0,
     10.0,
     55.0,
     15.0
   ],
-  "reprPoint": [
-    52.5,
-    12.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 D3 Elephas Pr.",
   "names": [
     "Elephas Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

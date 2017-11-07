@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Orinaioi",
   "id": "834290",
-  "description": "An ancient place, cited: BAtlas 85 D2 Orinaioi",
   "bbox": [
     46.0,
     45.0,
     47.0,
     46.0
   ],
-  "reprPoint": [
-    46.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 85 D2 Orinaioi",
   "names": [
     "Orinaioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

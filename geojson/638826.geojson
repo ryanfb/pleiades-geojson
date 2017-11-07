@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Dolichiste (island)",
   "id": "638826",
-  "description": "Dolichiste Ins. (Kekova) is a small island of Ionia.",
   "bbox": [
     29.8739003,
     36.1797425,
     29.8739003,
     36.1797425
   ],
-  "reprPoint": [
-    29.8739003,
-    36.1797425
-  ],
+  "description": "Dolichiste Ins. (Kekova) is a small island of Ionia.",
   "names": [
     "Dolichiste",
     "Kekova"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8739003,
+          36.1797425
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Charadra (river)",
   "id": "579900",
-  "description": "An ancient place, cited: BAtlas 59 C2 Charadra fl.",
   "bbox": [
     23.75,
     38.0,
     24.0,
     38.25
   ],
-  "reprPoint": [
-    23.875,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C2 Charadra fl.",
   "names": [
     "Charadra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Tyndaris",
   "id": "462527",
-  "description": "An ancient city on the north coast of Sicily. Modern Tindari.",
   "bbox": [
     15.0423874,
     38.1416999,
     15.0449738,
     38.14375
   ],
+  "description": "An ancient city on the north coast of Sicily. Modern Tindari.",
   "connectsWith": [
     "462492",
     "462492"
-  ],
-  "reprPoint": [
-    15.0438364,
-    38.1429694
   ],
   "names": [
     "Tyndaris",
@@ -27,6 +23,19 @@
     "Tyndareum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0438364,
+          38.1429694
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

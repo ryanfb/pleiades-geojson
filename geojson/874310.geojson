@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Akilisene",
   "id": "874310",
-  "description": "An ancient place, cited: BAtlas 89 A1 Akilisene",
   "bbox": [
     38.0,
     39.0,
     39.0,
     40.0
   ],
-  "reprPoint": [
-    38.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 A1 Akilisene",
   "names": [
     "Akilisene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

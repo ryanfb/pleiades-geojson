@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sary-tepe",
   "id": "863888",
-  "description": "An ancient place, cited: BAtlas 88 D3 Sary-tepe",
   "bbox": [
     45.0483,
     41.31251,
     45.0483,
     41.31251
   ],
-  "reprPoint": [
-    45.0483,
-    41.31251
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D3 Sary-tepe",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0483,
+          41.31251
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

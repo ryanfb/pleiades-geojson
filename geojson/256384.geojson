@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Potosí",
   "id": "256384",
-  "description": "An ancient place, cited: BAtlas 26 E3 Potosí",
   "bbox": [
     -5.757843,
     38.042444,
     -5.757843,
     38.042444
   ],
-  "reprPoint": [
-    -5.757843,
-    38.042444
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E3 Potosí",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.757843,
+          38.042444
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

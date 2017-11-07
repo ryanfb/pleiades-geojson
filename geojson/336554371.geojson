@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Qal’at Sem’an/Church of Saint Simeon Stylites",
   "id": "336554371",
-  "description": "An ancient church, located in modern Syria. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
   "bbox": [
     36.8441666667,
     36.3341666667,
     36.8441666667,
     36.3341666667
   ],
-  "reprPoint": [
-    36.8441666667,
-    36.3341666667
-  ],
+  "description": "An ancient church, located in modern Syria. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8441666667,
+          36.3341666667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

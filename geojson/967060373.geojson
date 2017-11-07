@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 9 (Chapel House)",
   "id": "967060373",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.722341,
     54.990753,
     -1.722341,
     54.990753
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.722341,
-    54.990753
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.722341,
+          54.990753
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

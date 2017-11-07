@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Daskon Akron",
   "id": "462183",
-  "description": "An ancient place, cited: BAtlas 47 G4 Daskon Akron",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G4 Daskon Akron",
   "names": [
     "Daskon Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

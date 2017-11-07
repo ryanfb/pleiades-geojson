@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Metropolis",
   "id": "609471",
-  "description": "An ancient place, cited: BAtlas 62 E5 Metropolis",
   "bbox": [
     30.490599,
     38.241194,
     30.490599,
     38.241194
   ],
-  "reprPoint": [
-    30.490599,
-    38.241194
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E5 Metropolis",
   "names": [
     "Metropolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.490599,
+          38.241194
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

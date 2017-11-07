@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Tavia (river)",
   "id": "157935",
-  "description": "A river flowing from Alpes Maritimae and emptying in the Ligusticum Mare near Costa Bellene.",
   "bbox": [
     7.715921,
     43.832484,
     7.863035,
     44.060699
   ],
+  "description": "A river flowing from Alpes Maritimae and emptying in the Ligusticum Mare near Costa Bellene.",
   "connectsWith": [
     "157878"
-  ],
-  "reprPoint": [
-    7.789478,
-    43.9465915
   ],
   "names": [
     "Torrente Argentina",
@@ -22,6 +18,19 @@
     "Tavia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.789478,
+          43.9465915
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

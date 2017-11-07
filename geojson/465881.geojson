@@ -2,23 +2,33 @@
   "type": "FeatureCollection",
   "title": "Ciefesta Hephaesta/Ciefesta",
   "id": "465881",
-  "description": "An ancient place, cited: BAtlas 47 unlocated Ciefesta (?Hephaesta) Ins.",
   "bbox": [
     14.3263008,
     36.0179695,
     14.3263008,
     36.0179695
   ],
-  "reprPoint": [
-    14.3263008,
-    36.0179695
-  ],
+  "description": "An ancient place, cited: BAtlas 47 unlocated Ciefesta (?Hephaesta) Ins.",
   "names": [
     "Ciefesta Hephaesta",
     "Ciefesta"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3263008,
+          36.0179695
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

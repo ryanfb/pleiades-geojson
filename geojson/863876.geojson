@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sabeiroi",
   "id": "863876",
-  "description": "An ancient place, cited: BAtlas 88 D1 Sabeiroi",
   "bbox": [
     45.0,
     43.0,
     46.0,
     44.0
   ],
-  "reprPoint": [
-    45.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D1 Sabeiroi",
   "names": [
     "Sabeiroi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

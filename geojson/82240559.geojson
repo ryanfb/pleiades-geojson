@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Maiden Castle, Cheshire",
   "id": "82240559",
-  "description": "Maiden Castle, Cheshire, is an Iron Age hillfort.",
   "bbox": [
     -2.7515352,
     53.0708848,
     -2.7515352,
     53.0708848
   ],
-  "reprPoint": [
-    -2.7515352,
-    53.0708848
-  ],
+  "description": "Maiden Castle, Cheshire, is an Iron Age hillfort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7515352,
+          53.0708848
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Monte Castello",
   "id": "403243",
-  "description": "A fortified Etruscan settlement on Ilva.",
   "bbox": [
     10.237092,
     42.77742,
     10.237092,
     42.77742
   ],
+  "description": "A fortified Etruscan settlement on Ilva.",
   "connectsWith": [
     "403222"
-  ],
-  "reprPoint": [
-    10.237092,
-    42.77742
   ],
   "names": [
     "Monte Castello di Procchio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.237092,
+          42.77742
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

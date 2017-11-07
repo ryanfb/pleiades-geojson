@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(Epi)Delion",
   "id": "570230",
-  "description": "An ancient place, cited: BAtlas 58 E4 (Epi)Delion",
   "bbox": [
     23.0,
     36.5,
     23.5,
     37.0
   ],
-  "reprPoint": [
-    23.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E4 (Epi)Delion",
   "names": [
     "Epidelion",
     "Delion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

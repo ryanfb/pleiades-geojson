@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tomb of T. Claudius Secundus",
   "id": "806179538",
-  "description": "A Roman tomb along the Via Appia.",
   "bbox": [
     12.5371381,
     41.8372678,
     12.5371381,
     41.8372678
   ],
+  "description": "A Roman tomb along the Via Appia.",
   "connectsWith": [
     "356966898"
   ],
-  "reprPoint": [
-    12.5371381,
-    41.8372678
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5371381,
+          41.8372678
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

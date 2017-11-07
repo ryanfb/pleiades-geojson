@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Manlianus Saltus",
   "id": "246484",
-  "description": "An ancient place, cited: BAtlas 25 D4 Manlianus Saltus",
   "bbox": [
     -2.0,
     41.0,
     -1.0,
     42.0
   ],
-  "reprPoint": [
-    -1.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D4 Manlianus Saltus",
   "names": [
     "Manlianus Saltus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

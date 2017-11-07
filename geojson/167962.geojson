@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Veragri",
   "id": "167962",
-  "description": "An ancient place, cited: BAtlas 17 H1 Veragri",
   "bbox": [
     6.5,
     46.0,
     7.0,
     46.5
   ],
-  "reprPoint": [
-    6.75,
-    46.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 H1 Veragri",
   "names": [
     "Veragri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          46.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

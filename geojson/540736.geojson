@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Dirphys M.",
   "id": "540736",
-  "description": "Highest point (1745 meters) on the island of Euboea",
   "bbox": [
     23.8427778,
     38.6275,
     23.8427778,
     38.6275
   ],
+  "description": "Highest point (1745 meters) on the island of Euboea",
   "connectsWith": [
     "540775"
-  ],
-  "reprPoint": [
-    23.8427778,
-    38.6275
   ],
   "names": [
     "Dirphys M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8427778,
+          38.6275
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

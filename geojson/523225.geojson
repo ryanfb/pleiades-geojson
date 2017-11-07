@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Melias Sinus",
   "id": "523225",
-  "description": "An ancient place, cited: BAtlas 53 A2 Melias Sinus",
   "bbox": [
     28.75,
     41.0,
     29.0,
     41.25
   ],
-  "reprPoint": [
-    28.875,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 A2 Melias Sinus",
   "names": [
     "Melias Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

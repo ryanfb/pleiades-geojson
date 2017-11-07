@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ag. Eirene",
   "id": "570034",
-  "description": "An ancient place, cited: BAtlas 58 G3 Ag. Eirene",
   "bbox": [
     24.0,
     37.0,
     24.5,
     37.5
   ],
-  "reprPoint": [
-    24.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 G3 Ag. Eirene",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

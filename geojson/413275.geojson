@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Prolaqueum",
   "id": "413275",
-  "description": "A statio on the road from Nuceria to Ancona.",
   "bbox": [
     13.003812,
     43.177777,
     13.003812,
     43.177777
   ],
-  "reprPoint": [
-    13.003812,
-    43.177777
-  ],
+  "description": "A statio on the road from Nuceria to Ancona.",
   "names": [
     "Prolaqueum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.003812,
+          43.177777
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

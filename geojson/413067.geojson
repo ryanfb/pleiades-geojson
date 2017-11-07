@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Castellina",
   "id": "413067",
-  "description": "An ancient place, cited: BAtlas 42 A2 Castellina",
   "bbox": [
     11.285425,
     43.471456,
     11.285425,
     43.471456
   ],
-  "reprPoint": [
-    11.285425,
-    43.471456
-  ],
+  "description": "An ancient place, cited: BAtlas 42 A2 Castellina",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.285425,
+          43.471456
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

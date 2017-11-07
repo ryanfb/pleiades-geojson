@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Borek",
   "id": "776144",
-  "description": "An ancient place, cited: BAtlas 79 D4 Ain Borek",
   "bbox": [
     30.771849,
     24.601213,
     30.771849,
     24.601213
   ],
-  "reprPoint": [
-    30.771849,
-    24.601213
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D4 Ain Borek",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.771849,
+          24.601213
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

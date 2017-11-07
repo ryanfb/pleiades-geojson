@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Simoeis (river)",
   "id": "550883",
-  "description": "A tributary of the Scamander in the Troad.",
   "bbox": [
     26.0,
     39.5,
     26.5,
     40.0
   ],
+  "description": "A tributary of the Scamander in the Troad.",
   "connectsWith": [
     "550871"
-  ],
-  "reprPoint": [
-    26.25,
-    39.75
   ],
   "names": [
     "Simoeis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

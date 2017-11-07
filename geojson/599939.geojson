@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Skanderion Pr.",
   "id": "599939",
-  "description": "Cape Skandari is the northernmost point of the island of Kos.",
   "bbox": [
     27.2799,
     36.9147,
     27.2799,
     36.9147
   ],
+  "description": "Cape Skandari is the northernmost point of the island of Kos.",
   "connectsWith": [
     "599581"
-  ],
-  "reprPoint": [
-    27.2799,
-    36.9147
   ],
   "names": [
     "Skanderion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2799,
+          36.9147
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

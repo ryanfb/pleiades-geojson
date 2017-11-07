@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250024",
-  "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Baños (Chiprana))",
   "bbox": [
     -1.0,
     41.0,
     0.0,
     42.0
   ],
-  "reprPoint": [
-    -0.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E4 no. 118 (Dehesa de Baños (Chiprana))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

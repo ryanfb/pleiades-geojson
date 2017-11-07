@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aenus (river)",
   "id": "118547",
-  "description": "The Inn river is a right tributary of the Danube.",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.573506
   ],
+  "description": "The Inn river is a right tributary of the Danube.",
   "connectsWith": [
     "226577"
-  ],
-  "reprPoint": [
-    14.2705761167,
-    47.8442445167
   ],
   "names": [
     "Aenus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2705761167,
+          47.8442445167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

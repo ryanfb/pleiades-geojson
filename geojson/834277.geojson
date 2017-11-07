@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Abzoae",
   "id": "834277",
-  "description": "An ancient place, cited: BAtlas 85 F1 Abzoae",
   "bbox": [
     48.0,
     46.0,
     49.0,
     47.0
   ],
-  "reprPoint": [
-    48.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 85 F1 Abzoae",
   "names": [
     "Abzoae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

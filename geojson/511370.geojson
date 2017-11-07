@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Poseideion/Triton Pr.",
   "id": "511370",
-  "description": "An ancient place, cited: BAtlas 52 D3 Poseideion/Triton Pr.",
   "bbox": [
     28.5,
     40.5,
     29.0,
     41.0
   ],
-  "reprPoint": [
-    28.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 D3 Poseideion/Triton Pr.",
   "names": [
     "Poseideion",
     "Triton Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cemetery of Gordianus, Epimachus, Apronianus",
   "id": "426596",
-  "description": "A burial ground for the the Christian martyrs Gordianus, Epimachus, and Apronianus at the seventh mile of the Via Latina.",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
+  "description": "A burial ground for the the Christian martyrs Gordianus, Epimachus, and Apronianus at the seventh mile of the Via Latina.",
   "connectsWith": [
     "93042695"
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

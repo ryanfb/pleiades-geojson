@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "İşhan",
   "id": "241187292",
-  "description": "A village in Turkey, the site of a late antique Georgian church constructed in the 7th century. ",
   "bbox": [
     41.7446612,
     40.7844046,
     41.7507856,
     40.7899592
   ],
-  "reprPoint": [
-    41.7478390073,
-    40.7875139859
-  ],
+  "description": "A village in Turkey, the site of a late antique Georgian church constructed in the 7th century. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.7478390073,
+          40.7875139859
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

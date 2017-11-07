@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Cumanus Sinus",
   "id": "432809",
-  "description": "An ancient place, cited: BAtlas 44 E4 Cumanus Sinus",
   "bbox": [
     13.5,
     40.5,
     14.0,
     41.0
   ],
-  "reprPoint": [
-    13.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E4 Cumanus Sinus",
   "names": [
     "Cumanus Sinus",
     "Kymaios Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

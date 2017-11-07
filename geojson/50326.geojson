@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vellalore",
   "id": "50326",
-  "description": "An ancient place, cited: BAtlas 5 D4 Vellalore",
   "bbox": [
     77.055401,
     10.806522,
     77.055401,
     10.806522
   ],
-  "reprPoint": [
-    77.055401,
-    10.806522
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D4 Vellalore",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.055401,
+          10.806522
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

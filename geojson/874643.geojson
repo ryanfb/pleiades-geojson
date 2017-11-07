@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Phasiane/Bassiane",
   "id": "874643",
-  "description": "An ancient place, cited: BAtlas 89 D1 Phasiane/Bassiane",
   "bbox": [
     41.0,
     39.0,
     42.0,
     40.0
   ],
-  "reprPoint": [
-    41.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 D1 Phasiane/Bassiane",
   "names": [
     "Phasiane",
     "Bassiane"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

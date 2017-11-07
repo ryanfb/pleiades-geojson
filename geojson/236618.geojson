@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Praestamarci",
   "id": "236618",
-  "description": "An ancient place, cited: BAtlas 24 C2 Praestamarci",
   "bbox": [
     -9.0,
     42.0,
     -8.0,
     43.0
   ],
-  "reprPoint": [
-    -8.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C2 Praestamarci",
   "names": [
     "Praestamarci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "120805",
-  "description": "An ancient place, cited: BAtlas 12 G1 unnamed quarry (S Tornow)",
   "bbox": [
     13.0,
     51.0,
     14.0,
     52.0
   ],
-  "reprPoint": [
-    13.5,
-    51.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 G1 unnamed quarry (S Tornow)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

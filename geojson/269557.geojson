@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "269557",
-  "description": "Saetabis → Ad Aras → Carthago Nova",
   "bbox": [
     -5.0,
     36.0,
     3.0,
     41.0
   ],
-  "reprPoint": [
-    -1.0,
-    38.5
-  ],
+  "description": "Saetabis → Ad Aras → Carthago Nova",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

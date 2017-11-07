@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "1",
   "id": "856172",
-  "description": "An ancient place, cited: BAtlas 87 I2 no. 1 (Blizhneye Boyevoye UKR)",
   "bbox": [
     35.0,
     45.0,
     35.5,
     45.5
   ],
-  "reprPoint": [
-    35.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 I2 no. 1 (Blizhneye Boyevoye UKR)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

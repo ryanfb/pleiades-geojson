@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gardaneh Gavlimash",
   "id": "922648",
-  "description": "An ancient place, cited: BAtlas 94 D5 Gardaneh Gavlimash",
   "bbox": [
     53.0,
     28.0,
     54.0,
     29.0
   ],
-  "reprPoint": [
-    53.5,
-    28.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 D5 Gardaneh Gavlimash",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5,
+          28.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

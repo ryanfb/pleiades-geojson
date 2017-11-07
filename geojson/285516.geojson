@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sidi bou Zid",
   "id": "285516",
-  "description": "An ancient place, cited: BAtlas 29 G1 Sidi bou Zid",
   "bbox": [
     1.0,
     35.0,
     2.0,
     36.0
   ],
-  "reprPoint": [
-    1.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 29 G1 Sidi bou Zid",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 24 (Wall Fell)",
   "id": "967060246",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.063123,
     55.017736,
     -2.062844,
     55.01791
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.06298543288,
-    55.0178217179
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.06298543288,
+          55.0178217179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

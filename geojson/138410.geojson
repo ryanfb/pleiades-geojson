@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lamnum",
   "id": "138410",
-  "description": "A road station in Gallia Aquitania, cited in the Tabula Peutingeriana",
   "bbox": [
     -0.551010470461,
     45.5824197001,
     -0.55101,
     45.58242
   ],
-  "reprPoint": [
-    -0.55101023523,
-    45.5824198501
-  ],
+  "description": "A road station in Gallia Aquitania, cited in the Tabula Peutingeriana",
   "names": [
     "Lamnum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55101023523,
+          45.5824198501
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

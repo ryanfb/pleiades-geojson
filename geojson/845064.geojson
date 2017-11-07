@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Skopas (river)",
   "id": "845064",
-  "description": "An ancient place, cited: BAtlas 86 B3 Skopas fl.",
   "bbox": [
     31.0,
     40.0,
     32.0,
     41.0
   ],
-  "reprPoint": [
-    31.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 B3 Skopas fl.",
   "names": [
     "Skopas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tróia",
   "id": "256485",
-  "description": "The site of a large Roman town located on the Troia peninsula on the left bank of the Sado river.",
   "bbox": [
     -8.8847364,
     38.486299,
     -8.8847364,
     38.486299
   ],
+  "description": "The site of a large Roman town located on the Troia peninsula on the left bank of the Sado river.",
   "connectsWith": [
     "256242"
   ],
-  "reprPoint": [
-    -8.8847364,
-    38.486299
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8847364,
+          38.486299
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Argennon Akron",
   "id": "462102",
-  "description": "An ancient place, cited: BAtlas 47 G3 Argennon Akron",
   "bbox": [
     15.0,
     37.5,
     15.5,
     38.0
   ],
-  "reprPoint": [
-    15.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G3 Argennon Akron",
   "names": [
     "Argennon Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

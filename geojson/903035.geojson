@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Godin tepe",
   "id": "903035",
-  "description": "Godin tepe is an archaeological site located in western Iran.",
   "bbox": [
     48.091718,
     34.530021,
     48.091718,
     34.530021
   ],
-  "reprPoint": [
-    48.091718,
-    34.530021
-  ],
+  "description": "Godin tepe is an archaeological site located in western Iran.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.091718,
+          34.530021
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

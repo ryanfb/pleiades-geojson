@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "(P)Saros/Sinarus/Koiranos (river)",
   "id": "648748",
-  "description": "(P)Saros/Sinarus/Koiranos fl. (Seyhan River)",
   "bbox": [
     35.5849343,
     37.6056811,
     35.5849343,
     37.6056811
   ],
+  "description": "(P)Saros/Sinarus/Koiranos fl. (Seyhan River)",
   "connectsWith": [
     "1043",
     "35475912"
-  ],
-  "reprPoint": [
-    35.5849343,
-    37.6056811
   ],
   "names": [
     "Psaros",
@@ -24,6 +20,19 @@
     "Koiranos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5849343,
+          37.6056811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

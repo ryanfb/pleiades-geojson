@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Toxiandria",
   "id": "109385",
-  "description": "Toxiandria was the territory of the Toxandri.",
   "bbox": [
     5.0,
     51.0,
     6.0,
     52.0
   ],
-  "reprPoint": [
-    5.5,
-    51.5
-  ],
+  "description": "Toxiandria was the territory of the Toxandri.",
   "names": [
     "Toxiandria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

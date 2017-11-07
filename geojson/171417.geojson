@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "171417",
-  "description": "Condate → Portes",
   "bbox": [
     3.0,
     44.0,
     7.5,
     46.5
   ],
-  "reprPoint": [
-    5.25,
-    45.25
-  ],
+  "description": "Condate → Portes",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

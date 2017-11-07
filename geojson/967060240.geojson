@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 54 (Randylands)",
   "id": "967060240",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.703498,
     54.972588,
     -2.703498,
     54.972588
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.703498,
-    54.972588
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.703498,
+          54.972588
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

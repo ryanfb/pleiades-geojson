@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Çadır Höyük",
   "id": "512530799",
-  "description": "An archaeological site in Yozgat province, Turkey, tentatively identified as the Hittite town Zippalanda (Uşaklı Höyük is another candidate for the location of Zippalanda). ",
   "bbox": [
     35.1423613,
     39.6759921,
     35.144359,
     39.6774496
   ],
-  "reprPoint": [
-    35.1433255502,
-    39.676692853
-  ],
+  "description": "An archaeological site in Yozgat province, Turkey, tentatively identified as the Hittite town Zippalanda (Uşaklı Höyük is another candidate for the location of Zippalanda). ",
   "names": [
     "Zippalanda",
     "Çadır Höyük"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1433255502,
+          39.676692853
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mittleres Sakarya-Tal\t\tt",
   "id": "769548552",
-  "description": "A place from the TAVO Index",
   "bbox": [
     30.0,
     40.0,
     30.5,
     40.5
   ],
-  "reprPoint": [
-    30.25,
-    40.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Mittleres Sakarya-Tal\t\tt"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "895436",
-  "description": "An ancient place, cited: BAtlas 91 F4 unnamed canal (Nahrawan)",
   "bbox": [
     44.0,
     33.0,
     45.0,
     34.0
   ],
-  "reprPoint": [
-    44.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 F4 unnamed canal (Nahrawan)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sidenoi",
   "id": "814733",
-  "description": "An ancient place, cited: BAtlas 83 B4 Sidenoi",
   "bbox": [
     36.0,
     27.0,
     37.0,
     28.0
   ],
-  "reprPoint": [
-    36.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 83 B4 Sidenoi",
   "names": [
     "Sidenoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

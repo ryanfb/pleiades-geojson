@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Serae",
   "id": "60042",
-  "description": "An ancient place, cited: BAtlas 6 G2 Serae",
   "bbox": [
     90.0,
     35.0,
     95.0,
     40.0
   ],
-  "reprPoint": [
-    92.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 G2 Serae",
   "names": [
     "Serae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

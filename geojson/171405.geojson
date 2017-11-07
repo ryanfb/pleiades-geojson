@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "171405",
-  "description": "La Queyrie → Cularo",
   "bbox": [
     5.506813,
     44.83663,
     5.732072,
     45.19261
   ],
-  "reprPoint": [
-    5.619257,
-    45.014579
-  ],
+  "description": "La Queyrie → Cularo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.619257,
+          45.014579
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dacharenoi",
   "id": "39333",
-  "description": "An ancient place, cited: BAtlas 4 B2 Dacharenoi",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 Dacharenoi",
   "names": [
     "Dacharenoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

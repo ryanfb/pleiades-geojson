@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Andosinoi",
   "id": "246164",
-  "description": "An ancient place, cited: BAtlas 25 G3 Andosinoi",
   "bbox": [
     1.0,
     42.0,
     2.0,
     43.0
   ],
-  "reprPoint": [
-    1.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 G3 Andosinoi",
   "names": [
     "Andosinoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

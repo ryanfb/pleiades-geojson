@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Kornaouioi",
   "id": "89219",
-  "description": "An ancient place, cited: BAtlas 9 D2 Kornaouioi",
   "bbox": [
     -4.0,
     58.0,
     -3.0,
     59.0
   ],
-  "reprPoint": [
-    -3.5,
-    58.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 D2 Kornaouioi",
   "names": [
     "Kornaouioi",
     "Kornabioi",
     "Kornouboi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          58.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Potamoi",
   "id": "845045",
-  "description": "An ancient place, cited: BAtlas 86 E2 Potamoi",
   "bbox": [
     34.0,
     41.0,
     35.0,
     42.0
   ],
-  "reprPoint": [
-    34.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 E2 Potamoi",
   "names": [
     "Potamoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

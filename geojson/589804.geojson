@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hermas? (river)",
   "id": "589804",
-  "description": "An ancient place, cited: BAtlas 60 E2 Hermas? fl.",
   "bbox": [
     25.5,
     35.0,
     26.0,
     35.5
   ],
-  "reprPoint": [
-    25.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Hermas? fl.",
   "names": [
     "Hermas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

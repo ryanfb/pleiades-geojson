@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Avens (river)",
   "id": "413047",
-  "description": "A river of the Sabine territory.",
   "bbox": [
     12.547643,
     42.072946,
     12.547643,
     42.072946
   ],
+  "description": "A river of the Sabine territory.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    12.547643,
-    42.072946
   ],
   "names": [
     "Avens"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.547643,
+          42.072946
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

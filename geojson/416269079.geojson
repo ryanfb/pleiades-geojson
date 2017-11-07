@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "White Castle hillfort",
   "id": "416269079",
-  "description": "White Castle hillfort is an Iron Age fort located in Scotland.",
   "bbox": [
     -2.6197784,
     55.9094773,
     -2.6197784,
     55.9094773
   ],
-  "reprPoint": [
-    -2.6197784,
-    55.9094773
-  ],
+  "description": "White Castle hillfort is an Iron Age fort located in Scotland.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6197784,
+          55.9094773
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

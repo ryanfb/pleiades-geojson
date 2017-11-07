@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "621378",
-  "description": "Roads E Mazaka and Taouion",
   "bbox": [
     32.0,
     38.0,
     36.0,
     40.0
   ],
-  "reprPoint": [
-    34.0,
-    39.0
-  ],
+  "description": "Roads E Mazaka and Taouion",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0,
+          39.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

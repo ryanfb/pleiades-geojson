@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Maeander (river)",
   "id": "599777",
-  "description": "The Maeander (modern Büyük Menderes River) is a river of Caria in southwestern Asia Minor.",
   "bbox": [
     27.4713446,
     37.6220196,
     27.4713446,
     37.6220196
   ],
-  "reprPoint": [
-    27.4713446,
-    37.6220196
-  ],
+  "description": "The Maeander (modern Büyük Menderes River) is a river of Caria in southwestern Asia Minor.",
   "names": [
     "Maeander"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4713446,
+          37.6220196
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

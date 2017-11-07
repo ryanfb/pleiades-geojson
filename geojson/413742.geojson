@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "413742",
-  "description": "An ancient place, cited: BAtlas 42 A1 unnamed aqueduct (Florentia)",
   "bbox": [
     11.0,
     43.5,
     11.5,
     44.0
   ],
-  "reprPoint": [
-    11.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 42 A1 unnamed aqueduct (Florentia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

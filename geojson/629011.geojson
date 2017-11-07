@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kızıl Şehir",
   "id": "629011",
-  "description": "An ancient place, cited: BAtlas 64 C2 Kızıl Şehir",
   "bbox": [
     36.319601,
     39.29295,
     36.319601,
     39.29295
   ],
-  "reprPoint": [
-    36.319601,
-    39.29295
-  ],
+  "description": "An ancient place, cited: BAtlas 64 C2 Kızıl Şehir",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.319601,
+          39.29295
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

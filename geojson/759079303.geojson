@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Via Tiberina",
   "id": "759079303",
-  "description": "An ancient Roman road.",
   "bbox": [
     12.488517,
     42.052019,
     12.596872,
     42.129831
   ],
-  "reprPoint": [
-    12.542868,
-    42.09259775
+  "description": "An ancient Roman road.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.542868,
+          42.09259775
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

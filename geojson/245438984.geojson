@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Göbekli Tepe",
   "id": "245438984",
-  "description": "Neolithic hilltop sanctuary atop a mountain ridge in southeastern Anatolia",
   "bbox": [
     38.9224,
     37.2233,
     38.9224,
     37.2233
   ],
-  "reprPoint": [
-    38.9224,
-    37.2233
-  ],
+  "description": "Neolithic hilltop sanctuary atop a mountain ridge in southeastern Anatolia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.9224,
+          37.2233
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

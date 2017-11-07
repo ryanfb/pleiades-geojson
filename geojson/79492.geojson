@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Great Witcombe",
   "id": "79492",
-  "description": "A Roman-style villa in Britain in use from the first to the fifth centuries AD.",
   "bbox": [
     -2.1474,
     51.8267,
     -2.126329,
     51.833365
   ],
-  "reprPoint": [
-    -2.1368645,
-    51.8300325
-  ],
+  "description": "A Roman-style villa in Britain in use from the first to the fifth centuries AD.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1368645,
+          51.8300325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

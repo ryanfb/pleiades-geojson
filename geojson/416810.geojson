@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Flosis (river)",
   "id": "416810",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Flosis fl.",
   "bbox": [
     13.422732,
     42.7752864,
     15.885196,
     43.326764
   ],
+  "description": "An ancient place, cited: BAtlas 42 unlocated Flosis fl.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    14.653964,
-    43.0510252
   ],
   "names": [
     "Flosis"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.653964,
+          43.0510252
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

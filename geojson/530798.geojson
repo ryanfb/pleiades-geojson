@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Anactorium",
   "id": "530798",
-  "description": "A city founded by Corinth in the seventh century B.C. on the gulf of Ambracia.",
   "bbox": [
     20.843498,
     38.920935,
     20.843498,
     38.920935
   ],
-  "reprPoint": [
-    20.843498,
-    38.920935
-  ],
+  "description": "A city founded by Corinth in the seventh century B.C. on the gulf of Ambracia.",
   "names": [
     "Anactorium",
     "Anaktórion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.843498,
+          38.920935
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

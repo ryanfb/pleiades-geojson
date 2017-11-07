@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Castrum Novum",
   "id": "432772",
-  "description": "Castrum Novum was a colonia maritima established on the coast of Etruria.",
   "bbox": [
     11.8333333,
     42.0333333,
     11.8333333,
     42.0333333
   ],
-  "reprPoint": [
-    11.8333333,
-    42.0333333
-  ],
+  "description": "Castrum Novum was a colonia maritima established on the coast of Etruria.",
   "names": [
     "Castrum Novum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8333333,
+          42.0333333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torretta",
   "id": "442828",
-  "description": "An ancient place, cited: BAtlas 45 C3 Torretta",
   "bbox": [
     15.784083,
     40.784564,
     15.784083,
     40.784564
   ],
-  "reprPoint": [
-    15.784083,
-    40.784564
-  ],
+  "description": "An ancient place, cited: BAtlas 45 C3 Torretta",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.784083,
+          40.784564
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

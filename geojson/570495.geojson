@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Myrtoion Mare",
   "id": "570495",
-  "description": "Myrtoion Mare (Myrtoan Sea) is a part of the Mediterranean Sea lying between the Cyclades and the Peloponnese.",
   "bbox": [
     24.0,
     37.0,
     24.0,
     37.0
   ],
+  "description": "Myrtoion Mare (Myrtoan Sea) is a part of the Mediterranean Sea lying between the Cyclades and the Peloponnese.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    24.0,
-    37.0
   ],
   "names": [
     "Myrtoion Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0,
+          37.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

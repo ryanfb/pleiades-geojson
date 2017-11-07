@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Qattar",
   "id": "766395",
-  "description": "An ancient place, cited: BAtlas 78 C3 Qattar",
   "bbox": [
     33.227566,
     27.088866,
     33.227566,
     27.088866
   ],
-  "reprPoint": [
-    33.227566,
-    27.088866
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C3 Qattar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.227566,
+          27.088866
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

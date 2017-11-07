@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sialk",
   "id": "464208937",
-  "description": "A place from the TAVO Index",
   "bbox": [
     50.0,
     40.0,
     55.0,
     45.0
   ],
-  "reprPoint": [
-    52.5,
-    42.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Sialk",
     "Sialk",
@@ -21,6 +17,19 @@
     "Tappe Sialk"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

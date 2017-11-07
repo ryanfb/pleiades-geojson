@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thaditai",
   "id": "814738",
-  "description": "An ancient place, cited: BAtlas 83 B2 Thaditai",
   "bbox": [
     36.0,
     29.0,
     37.0,
     30.0
   ],
-  "reprPoint": [
-    36.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 83 B2 Thaditai",
   "names": [
     "Thaditai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

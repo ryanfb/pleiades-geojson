@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tempe",
   "id": "541131",
-  "description": "A gorge in Thessaly, Greece, located south of Mt. Olympus and north of Mt. Ossa. The Peneios river flows through the gorge.",
   "bbox": [
     22.7175,
     39.934167,
     22.7175,
     39.934167
   ],
-  "reprPoint": [
-    22.7175,
-    39.934167
-  ],
+  "description": "A gorge in Thessaly, Greece, located south of Mt. Olympus and north of Mt. Ossa. The Peneios river flows through the gorge.",
   "names": [
     "Tempe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7175,
+          39.934167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

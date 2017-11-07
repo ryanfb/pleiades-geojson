@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "[*Praedium Plancianum]",
   "id": "639069",
-  "description": "An ancient place, cited: BAtlas 65 D3 [*Praedium Plancianum]",
   "bbox": [
     30.0,
     37.0,
     30.5,
     37.5
   ],
-  "reprPoint": [
-    30.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 D3 [*Praedium Plancianum]",
   "names": [
     "Praedium Plancianum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

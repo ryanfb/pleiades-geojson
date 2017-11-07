@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Bousiris",
   "id": "736900",
-  "description": "An ancient place, cited: BAtlas 75 E2 Bousiris",
   "bbox": [
     31.086541,
     29.250259,
     31.086541,
     29.250259
   ],
-  "reprPoint": [
-    31.086541,
-    29.250259
-  ],
+  "description": "An ancient place, cited: BAtlas 75 E2 Bousiris",
   "names": [
     "Bousiris",
     "Herakleous polis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.086541,
+          29.250259
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

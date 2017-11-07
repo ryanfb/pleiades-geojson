@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Venetia",
   "id": "138643",
-  "description": "An ancient place, cited: BAtlas 14 B1 Venetia",
   "bbox": [
     -4.0,
     47.0,
     -3.0,
     48.0
   ],
-  "reprPoint": [
-    -3.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 B1 Venetia",
   "names": [
     "Venetia",
     "Veneti"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

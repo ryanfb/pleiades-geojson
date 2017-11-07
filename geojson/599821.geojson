@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Naxos",
   "id": "599821",
-  "description": "An ancient place, cited: BAtlas 61 A3 Naxos",
   "bbox": [
     25.377595,
     37.103871,
     25.377595,
     37.103871
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Naxos",
   "connectsWith": [
     "599822"
-  ],
-  "reprPoint": [
-    25.377595,
-    37.103871
   ],
   "names": [
     "Naxos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.377595,
+          37.103871
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

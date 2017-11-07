@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Galaesus (river)",
   "id": "442592",
-  "description": "Galaesus fl. (Galeso) was a small river of ancient Calabria that flowed into the Gulf of Tarentum.",
   "bbox": [
     17.0,
     40.5,
     17.5,
     41.0
   ],
-  "reprPoint": [
-    17.25,
-    40.75
-  ],
+  "description": "Galaesus fl. (Galeso) was a small river of ancient Calabria that flowed into the Gulf of Tarentum.",
   "names": [
     "Galaesus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

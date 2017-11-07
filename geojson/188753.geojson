@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "188753",
-  "description": "An ancient place, cited: BAtlas 19 A2 unnamed bridge (Turicum)",
   "bbox": [
     8.0,
     47.0,
     9.0,
     48.0
   ],
-  "reprPoint": [
-    8.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 A2 unnamed bridge (Turicum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

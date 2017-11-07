@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 20 (Halton Shields)",
   "id": "967060224",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.972066,
     55.012722,
     -1.972066,
     55.012722
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.972066,
-    55.012722
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.972066,
+          55.012722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

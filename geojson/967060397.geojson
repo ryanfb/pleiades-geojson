@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Peel Gap Tower",
   "id": "967060397",
-  "description": "A tower situated on Hadrian's Wall.",
   "bbox": [
     -2.387263,
     55.001303,
     -2.387145,
     55.001357
   ],
+  "description": "A tower situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.38720384784,
-    55.0013295268
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.38720384784,
+          55.0013295268
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

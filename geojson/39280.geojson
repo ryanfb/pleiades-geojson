@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Akme",
   "id": "39280",
-  "description": "An ancient place, cited: BAtlas 4 B2 Akme",
   "bbox": [
     42.841909,
     16.468331,
     42.841909,
     16.468331
   ],
-  "reprPoint": [
-    42.841909,
-    16.468331
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 Akme",
   "names": [
     "Akme",
     "Ambe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.841909,
+          16.468331
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

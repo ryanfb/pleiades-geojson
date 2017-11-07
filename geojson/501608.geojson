@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sestias Pr.",
   "id": "501608",
-  "description": "An ancient place, cited: BAtlas 51 G4 Sestias Pr.",
   "bbox": [
     26.0,
     40.0,
     26.5,
     40.5
   ],
-  "reprPoint": [
-    26.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 G4 Sestias Pr.",
   "names": [
     "Sestias Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

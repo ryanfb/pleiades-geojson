@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ouiriballon Akron",
   "id": "472105",
-  "description": "An ancient place, cited: BAtlas 48 C2 Ouiriballon Akron",
   "bbox": [
     8.0,
     42.0,
     9.0,
     43.0
   ],
-  "reprPoint": [
-    8.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 C2 Ouiriballon Akron",
   "names": [
     "Ouiriballon Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

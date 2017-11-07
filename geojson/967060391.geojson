@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 40B (Melkridge)",
   "id": "967060391",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.415394,
     54.998985,
     -2.415394,
     54.998985
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.415394,
-    54.998985
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.415394,
+          54.998985
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

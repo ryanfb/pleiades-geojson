@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "247653",
-  "description": "An ancient place, cited: BAtlas 25 D4 unnamed bridge (Ponlarrones over R. Huerva, on road between Sermonae and Carae)",
   "bbox": [
     -2.0,
     41.0,
     -1.0,
     42.0
   ],
-  "reprPoint": [
-    -1.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D4 unnamed bridge (Ponlarrones over R. Huerva, on road between Sermonae and Carae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

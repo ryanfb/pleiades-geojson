@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hemsworth",
   "id": "79506",
-  "description": "An ancient place, cited: BAtlas 8 E4 Hemsworth",
   "bbox": [
     -2.064961,
     50.881536,
     -2.064961,
     50.881536
   ],
-  "reprPoint": [
-    -2.064961,
-    50.881536
-  ],
+  "description": "An ancient place, cited: BAtlas 8 E4 Hemsworth",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.064961,
+          50.881536
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

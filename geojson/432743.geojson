@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Campanus Ager",
   "id": "432743",
-  "description": "The Campanus Ager was the region around Capua that the Romans confiscated in 211 B.C. during the Second Punic War.",
   "bbox": [
     14.0,
     40.5,
     14.5,
     41.0
   ],
-  "reprPoint": [
-    14.25,
-    40.75
-  ],
+  "description": "The Campanus Ager was the region around Capua that the Romans confiscated in 211 B.C. during the Second Punic War.",
   "names": [
     "Campanus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

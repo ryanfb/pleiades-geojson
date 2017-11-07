@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "82297",
-  "description": "An ancient place, cited: BAtlas 8 C1 unnamed quarry (N Seguntium)",
   "bbox": [
     -5.0,
     53.0,
     -4.0,
     54.0
   ],
-  "reprPoint": [
-    -4.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 C1 unnamed quarry (N Seguntium)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

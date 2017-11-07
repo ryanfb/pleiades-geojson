@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Genusus (river)",
   "id": "481842",
-  "description": "An ancient place, cited: BAtlas 49 B2 Genusus fl.",
   "bbox": [
     19.0,
     41.0,
     20.0,
     42.0
   ],
-  "reprPoint": [
-    19.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 B2 Genusus fl.",
   "names": [
     "Genusus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

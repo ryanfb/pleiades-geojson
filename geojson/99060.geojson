@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Visurgis (river)",
   "id": "99060",
-  "description": "The Weser river in northwestern Germany.",
   "bbox": [
     8.3688948,
     51.4215319,
     9.6478918,
     53.6755254
   ],
-  "reprPoint": [
-    9.09547053576,
-    52.4768817845
-  ],
+  "description": "The Weser river in northwestern Germany.",
   "names": [
     "Visurgis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.09547053576,
+          52.4768817845
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

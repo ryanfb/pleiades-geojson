@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Getae",
   "id": "216817",
-  "description": "The Greek name given to Thracian tribes dwelling south of the Danube river.",
   "bbox": [
     25.0,
     44.0,
     26.0,
     45.0
   ],
-  "reprPoint": [
-    25.5,
-    44.5
-  ],
+  "description": "The Greek name given to Thracian tribes dwelling south of the Danube river.",
   "names": [
     "Getae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kestrine/Kammania",
   "id": "530942",
-  "description": "A district of Epirus.",
   "bbox": [
     20.0,
     39.5,
     20.5,
     40.0
   ],
-  "reprPoint": [
-    20.25,
-    39.75
-  ],
+  "description": "A district of Epirus.",
   "names": [
     "Kestrine",
     "Kammania"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

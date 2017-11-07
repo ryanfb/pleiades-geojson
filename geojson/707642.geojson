@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vouni",
   "id": "707642",
-  "description": "An ancient place, cited: BAtlas 72 B2 Vouni",
   "bbox": [
     32.772985,
     35.156326,
     32.772985,
     35.156326
   ],
+  "description": "An ancient place, cited: BAtlas 72 B2 Vouni",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.772985,
-    35.156326
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.772985,
+          35.156326
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

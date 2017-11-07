@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "141216",
-  "description": "*Ratiatum → Mediolanum",
   "bbox": [
     -5.0,
     44.0,
     4.0,
     48.0
   ],
-  "reprPoint": [
-    -0.5,
-    46.0
-  ],
+  "description": "*Ratiatum → Mediolanum",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          46.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

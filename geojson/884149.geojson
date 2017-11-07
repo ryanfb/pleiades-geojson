@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gargar (river)",
   "id": "884149",
-  "description": "An ancient place, cited: BAtlas 90 C1 Gargar fl.",
   "bbox": [
     47.0,
     39.0,
     48.0,
     40.0
   ],
-  "reprPoint": [
-    47.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 C1 Gargar fl.",
   "names": [
     "Gargar"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

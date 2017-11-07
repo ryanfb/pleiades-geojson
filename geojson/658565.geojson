@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pagrika Ore",
   "id": "658565",
-  "description": "An ancient place, cited: BAtlas 67 C4 Pagrika Ore",
   "bbox": [
     36.0,
     36.0,
     36.5,
     36.5
   ],
-  "reprPoint": [
-    36.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 C4 Pagrika Ore",
   "names": [
     "Pagrika Ore"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

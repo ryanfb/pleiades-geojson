@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Sirbakis",
   "id": "766343",
-  "description": "An ancient place, cited: BAtlas 78 C5 Bir Sirbakis",
   "bbox": [
     33.453016,
     26.42605,
     33.453016,
     26.42605
   ],
-  "reprPoint": [
-    33.453016,
-    26.42605
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C5 Bir Sirbakis",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.453016,
+          26.42605
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

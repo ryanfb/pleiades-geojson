@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "tribus Palatina",
   "id": "741137357",
-  "description": "An urban tribe of Rome created under the reign of Servius Tullius.",
   "bbox": [
     12.486137,
     41.8917,
     12.4862,
     41.891775
   ],
+  "description": "An urban tribe of Rome created under the reign of Servius Tullius.",
   "connectsWith": [
     "423025"
   ],
-  "reprPoint": [
-    12.4861685,
-    41.8917375
-  ],
   "names": [
     "Palatina"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4861685,
+          41.8917375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

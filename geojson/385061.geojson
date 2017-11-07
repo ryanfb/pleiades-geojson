@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman bridge at Clastidium",
   "id": "385061",
-  "description": "An ancient place, cited: BAtlas 39 E3 unnamed bridge (at Clastidium)",
   "bbox": [
     9.123457,
     45.011113,
     9.123457,
     45.011113
   ],
+  "description": "An ancient place, cited: BAtlas 39 E3 unnamed bridge (at Clastidium)",
   "connectsWith": [
     "383618"
   ],
-  "reprPoint": [
-    9.123457,
-    45.011113
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.123457,
+          45.011113
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

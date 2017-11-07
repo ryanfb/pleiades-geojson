@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed roads in the area of Vorgium",
   "id": "70978",
-  "description": "Vorgium area",
   "bbox": [
     -6.0,
     48.0,
     1.0,
     51.0
   ],
-  "reprPoint": [
-    -2.5,
-    49.5
-  ],
+  "description": "Vorgium area",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          49.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

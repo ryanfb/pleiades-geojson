@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pelagonia Chora?",
   "id": "462415",
-  "description": "An ancient place, cited: BAtlas 47 F4 Pelagonia Chora?",
   "bbox": [
     14.5,
     37.0,
     15.0,
     37.5
   ],
-  "reprPoint": [
-    14.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 F4 Pelagonia Chora?",
   "names": [
     "Pelagonia Chora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

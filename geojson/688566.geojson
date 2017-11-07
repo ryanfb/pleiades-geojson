@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "688566",
-  "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Hierichous area)",
   "bbox": [
     35.0,
     31.5,
     35.5,
     32.0
   ],
-  "reprPoint": [
-    35.25,
-    31.75
-  ],
+  "description": "An ancient place, cited: BAtlas 70 G2 unnamed aqueduct (Hierichous area)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          31.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

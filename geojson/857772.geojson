@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "857772",
-  "description": "An ancient place, cited: BAtlas 87 E4 unnamed bridge (Bağdar Köprüsu, W Longini Fossatum)",
   "bbox": [
     39.0,
     40.0,
     40.0,
     41.0
   ],
-  "reprPoint": [
-    39.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 E4 unnamed bridge (Bağdar Köprüsu, W Longini Fossatum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

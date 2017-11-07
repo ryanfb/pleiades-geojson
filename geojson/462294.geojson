@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Makron Akron",
   "id": "462294",
-  "description": "A promontory/peninsula on the eastern end of Sicily.",
   "bbox": [
     15.2626402,
     36.975143,
     15.2626402,
     36.975143
   ],
+  "description": "A promontory/peninsula on the eastern end of Sicily.",
   "connectsWith": [
     "462492"
-  ],
-  "reprPoint": [
-    15.2626402,
-    36.975143
   ],
   "names": [
     "Makron Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2626402,
+          36.975143
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "590415",
-  "description": "An ancient place, cited: BAtlas 60 D2 unnamed aqueduct (Lyktos)",
   "bbox": [
     25.0,
     35.0,
     25.5,
     35.5
   ],
-  "reprPoint": [
-    25.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 D2 unnamed aqueduct (Lyktos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

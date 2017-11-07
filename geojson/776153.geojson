@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Anhydra Ore",
   "id": "776153",
-  "description": "An ancient place, cited: BAtlas 79 B3 Anhydra Ore",
   "bbox": [
     29.5,
     25.0,
     30.0,
     25.5
   ],
-  "reprPoint": [
-    29.75,
-    25.25
-  ],
+  "description": "An ancient place, cited: BAtlas 79 B3 Anhydra Ore",
   "names": [
     "Anhydra Ore"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          25.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

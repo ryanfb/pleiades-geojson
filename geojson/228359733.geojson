@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Uronarti",
   "id": "228359733",
-  "description": "Ancient Egyptian settlement",
   "bbox": [
     30.990278,
     21.525833,
     30.990278,
     21.525833
   ],
-  "reprPoint": [
-    30.990278,
-    21.525833
-  ],
+  "description": "Ancient Egyptian settlement",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.990278,
+          21.525833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

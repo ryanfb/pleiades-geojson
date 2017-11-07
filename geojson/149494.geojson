@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Roman Bridge at Moulin de Boisseron",
   "id": "149494",
-  "description": "Ancient name unknown. Located in modern Boisseron, France. ",
   "bbox": [
     4.0814378,
     43.7615566,
     4.0814378,
     43.7615566
   ],
-  "reprPoint": [
-    4.0814378,
-    43.7615566
-  ],
+  "description": "Ancient name unknown. Located in modern Boisseron, France. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0814378,
+          43.7615566
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

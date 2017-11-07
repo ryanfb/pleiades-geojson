@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Syene",
   "id": "786123",
-  "description": "The ancient city of Swenett in Egypt, called Syene by the Greeks.",
   "bbox": [
     32.89804,
     24.081158,
     32.904942,
     24.095991
   ],
+  "description": "The ancient city of Swenett in Egypt, called Syene by the Greeks.",
   "connectsWith": [
     "727172"
-  ],
-  "reprPoint": [
-    32.901491,
-    24.0885745
   ],
   "names": [
     "Syene",
@@ -29,6 +25,19 @@
     "Assuan"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.901491,
+          24.0885745
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Île-des-Eaux",
   "id": "138394",
-  "description": "An ancient place, cited: BAtlas 14 C1 Île-des-Eaux",
   "bbox": [
     -3.0,
     47.0,
     -2.0,
     48.0
   ],
-  "reprPoint": [
-    -2.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 C1 Île-des-Eaux",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

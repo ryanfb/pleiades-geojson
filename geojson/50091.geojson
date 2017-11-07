@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leuke (island)",
   "id": "50091",
-  "description": "An ancient place, cited: BAtlas 5 C4 Leuke Ins.",
   "bbox": [
     70.0,
     10.0,
     75.0,
     15.0
   ],
-  "reprPoint": [
-    72.5,
-    12.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C4 Leuke Ins.",
   "names": [
     "Leuke"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

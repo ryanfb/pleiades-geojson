@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bousiris",
   "id": "756543",
-  "description": "An ancient place, cited: BAtlas 77 D1 Bousiris",
   "bbox": [
     30.5,
     27.5,
     31.0,
     28.0
   ],
-  "reprPoint": [
-    30.75,
-    27.75
-  ],
+  "description": "An ancient place, cited: BAtlas 77 D1 Bousiris",
   "names": [
     "Bousiris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          27.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

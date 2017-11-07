@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abu Mansur",
   "id": "716500",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.0,
     29.0,
     26.0,
     30.0
   ],
-  "reprPoint": [
-    25.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

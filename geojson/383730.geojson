@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pagus Arusnatium",
   "id": "383730",
-  "description": "The Pagus Arusnatium corresponds roughly to the modern Valpolicella district of northern Italy.",
   "bbox": [
     10.5,
     45.5,
     11.0,
     46.0
   ],
-  "reprPoint": [
-    10.75,
-    45.75
-  ],
+  "description": "The Pagus Arusnatium corresponds roughly to the modern Valpolicella district of northern Italy.",
   "names": [
     "Pagus Arusnatium",
     "Arusnates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

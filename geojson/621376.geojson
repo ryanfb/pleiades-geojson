@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "621376",
-  "description": "Andabilis → Mazaka",
   "bbox": [
     32.0,
     38.0,
     36.0,
     40.0
   ],
-  "reprPoint": [
-    34.0,
-    39.0
-  ],
+  "description": "Andabilis → Mazaka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0,
+          39.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

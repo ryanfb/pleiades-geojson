@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Melpes (river)",
   "id": "452377",
-  "description": "A river of Lucani that flows into the Tyrrhenian Sea.",
   "bbox": [
     15.3093617,
     40.0318318,
     15.3093617,
     40.0318318
   ],
+  "description": "A river of Lucani that flows into the Tyrrhenian Sea.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    15.3093617,
-    40.0318318
   ],
   "names": [
     "Melpes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3093617,
+          40.0318318
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

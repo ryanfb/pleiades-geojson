@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Mainalion Pedion",
   "id": "570450",
-  "description": "The Mainalion Pedion was a plain located in central Greece.",
   "bbox": [
     22.0,
     37.0,
     22.5,
     37.5
   ],
+  "description": "The Mainalion Pedion was a plain located in central Greece.",
   "connectsWith": [
     "570102"
-  ],
-  "reprPoint": [
-    22.25,
-    37.25
   ],
   "names": [
     "Mainalion Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

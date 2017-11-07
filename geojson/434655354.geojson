@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Damietta Branch",
   "id": "434655354",
-  "description": "A place from the TAVO Index",
   "bbox": [
     31.0,
     31.0,
     31.5,
     31.5
   ],
-  "reprPoint": [
-    31.25,
-    31.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Damietta Branch",
     "Damiette-Arm",
@@ -22,6 +18,19 @@
     "Farʿ Dumyāṭ"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ellinospilios",
   "id": "707508",
-  "description": "An ancient place, cited: BAtlas 72 A3 Ellinospilios",
   "bbox": [
     32.442856,
     34.786843,
     32.442856,
     34.786843
   ],
+  "description": "An ancient place, cited: BAtlas 72 A3 Ellinospilios",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.442856,
-    34.786843
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.442856,
+          34.786843
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

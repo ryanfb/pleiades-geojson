@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "709705",
-  "description": "Salamis → Karpasia",
   "bbox": [
     33.902516,
     35.175101,
     34.369934,
     35.626206
   ],
+  "description": "Salamis → Karpasia",
   "connectsWith": [
     "707617",
     "707526"
   ],
-  "reprPoint": [
-    34.13649325,
-    35.40307825
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13649325,
+          35.40307825
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Segovia aqueduct",
   "id": "237072",
-  "description": "Supplied Segovia with water from mountains to the southeast",
   "bbox": [
     -4.11767,
     40.94777,
     -4.11767,
     40.94777
   ],
+  "description": "Supplied Segovia with water from mountains to the southeast",
   "connectsWith": [
     "236658"
   ],
-  "reprPoint": [
-    -4.11767,
-    40.94777
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.11767,
+          40.94777
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

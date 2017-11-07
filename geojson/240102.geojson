@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240102",
-  "description": "Legio VII Gemina → Palantia",
   "bbox": [
     -11.0,
     40.0,
     -3.0,
     44.0
   ],
-  "reprPoint": [
-    -7.0,
-    42.0
-  ],
+  "description": "Legio VII Gemina → Palantia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0,
+          42.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

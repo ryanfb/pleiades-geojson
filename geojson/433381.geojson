@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "433381",
-  "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Minturnae)",
   "bbox": [
     13.5,
     41.0,
     14.0,
     41.5
   ],
-  "reprPoint": [
-    13.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Minturnae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

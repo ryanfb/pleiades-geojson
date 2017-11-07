@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Thronoi Pr./Akrotirion Pylai?",
   "id": "707632",
-  "description": "An ancient place, cited: BAtlas 72 D3 Thronoi Pr./Akrotirion Pylai?",
   "bbox": [
     33.5,
     34.5,
     34.0,
     35.0
   ],
+  "description": "An ancient place, cited: BAtlas 72 D3 Thronoi Pr./Akrotirion Pylai?",
   "connectsWith": [
     "707498"
-  ],
-  "reprPoint": [
-    33.75,
-    34.75
   ],
   "names": [
     "Thronoi Pr.",
@@ -22,6 +18,19 @@
     "Dades Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Villa Tiberii",
   "id": "433204",
-  "description": "A coastal villa associated with the Roman emperor Tiberius.",
   "bbox": [
     13.449838,
     41.250938,
     13.449838,
     41.250938
   ],
-  "reprPoint": [
-    13.449838,
-    41.250938
-  ],
+  "description": "A coastal villa associated with the Roman emperor Tiberius.",
   "names": [
     "Villa Tiberii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.449838,
+          41.250938
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aviones",
   "id": "98919",
-  "description": "An ancient place, cited: BAtlas 10 E1 Aviones",
   "bbox": [
     8.0,
     55.0,
     9.0,
     56.0
   ],
-  "reprPoint": [
-    8.5,
-    55.5
-  ],
+  "description": "An ancient place, cited: BAtlas 10 E1 Aviones",
   "names": [
     "Aviones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 65 (Tarraby)",
   "id": "967060434",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.92411,
     54.912609,
     -2.92411,
     54.912609
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.92411,
-    54.912609
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92411,
+          54.912609
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

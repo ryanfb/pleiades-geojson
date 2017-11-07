@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kaikinos? (river)",
   "id": "452348",
-  "description": "An ancient place, cited: BAtlas 46 C5 Kaikinos? fl.",
   "bbox": [
     15.5,
     38.0,
     16.0,
     38.5
   ],
-  "reprPoint": [
-    15.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 C5 Kaikinos? fl.",
   "names": [
     "Kaikinos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

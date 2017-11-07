@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Vicus Alexandri",
   "id": "423120",
-  "description": "A settlement at the third milestone of the Via Ostiensis.",
   "bbox": [
     12.478589,
     41.846316,
     12.478589,
     41.846316
   ],
+  "description": "A settlement at the third milestone of the Via Ostiensis.",
   "connectsWith": [
     "390205932"
-  ],
-  "reprPoint": [
-    12.478589,
-    41.846316
   ],
   "names": [
     "Vicus Alexandri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478589,
+          41.846316
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

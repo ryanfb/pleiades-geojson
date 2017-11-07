@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "629680",
-  "description": "An ancient place, cited: BAtlas 64 F4 no. 9 (5 miles NW Arca)",
   "bbox": [
     37.5,
     38.0,
     38.0,
     38.5
   ],
-  "reprPoint": [
-    37.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 F4 no. 9 (5 miles NW Arca)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

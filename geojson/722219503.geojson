@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ponte Cardona",
   "id": "722219503",
-  "description": "An aqueduct bridge near Nequinum dating ca. A.D. 24 - 33.",
   "bbox": [
     12.5385205,
     42.5069802,
     12.5385205,
     42.5069802
   ],
-  "reprPoint": [
-    12.5385205,
-    42.5069802
-  ],
+  "description": "An aqueduct bridge near Nequinum dating ca. A.D. 24 - 33.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5385205,
+          42.5069802
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

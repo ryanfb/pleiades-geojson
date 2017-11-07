@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Forum Iulii Concupiensium",
   "id": "416812",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Forum Iulii Concupiensium",
   "bbox": [
     12.5,
     43.5,
     13.0,
     44.0
   ],
+  "description": "An ancient place, cited: BAtlas 42 unlocated Forum Iulii Concupiensium",
   "connectsWith": [
     "413360"
-  ],
-  "reprPoint": [
-    12.75,
-    43.75
   ],
   "names": [
     "Forum Iulii Concupiensium"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

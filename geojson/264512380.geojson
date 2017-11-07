@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bouqras",
   "id": "264512380",
-  "description": "A Neolithic tell site in eastern Syria, inhabited from ca. 7400-6200 BCE.",
   "bbox": [
     40.3955031,
     35.0839823,
     40.398267,
     35.086784
   ],
-  "reprPoint": [
-    40.3969431061,
-    35.0854115232
-  ],
+  "description": "A Neolithic tell site in eastern Syria, inhabited from ca. 7400-6200 BCE.",
   "names": [
     "Tell Bouqras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.3969431061,
+          35.0854115232
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Civita",
   "id": "413084",
-  "description": "An ancient place, cited: BAtlas 42 C3 Civita",
   "bbox": [
     12.105488,
     42.625895,
     12.105488,
     42.625895
   ],
-  "reprPoint": [
-    12.105488,
-    42.625895
-  ],
+  "description": "An ancient place, cited: BAtlas 42 C3 Civita",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.105488,
+          42.625895
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

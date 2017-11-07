@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Hiulca Palus/Mursianus L.",
   "id": "197305",
-  "description": "Hiulca Palus/Mursianus L. is a lake and/or marsh area discussed by Iordanes, although its precise location cannot be identified today.",
   "bbox": [
     18.0,
     45.0,
     19.0,
     46.0
   ],
-  "reprPoint": [
-    18.5,
-    45.5
-  ],
+  "description": "Hiulca Palus/Mursianus L. is a lake and/or marsh area discussed by Iordanes, although its precise location cannot be identified today.",
   "names": [
     "Hiulca Palus",
     "Mursianus L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

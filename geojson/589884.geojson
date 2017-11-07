@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kriou Metopon Pr.",
   "id": "589884",
-  "description": "Kriou Metopon Pr. (Akra Krios)",
   "bbox": [
     23.5,
     35.0,
     24.0,
     35.5
   ],
+  "description": "Kriou Metopon Pr. (Akra Krios)",
   "connectsWith": [
     "589748"
-  ],
-  "reprPoint": [
-    23.75,
-    35.25
   ],
   "names": [
     "Kriou Metopon Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

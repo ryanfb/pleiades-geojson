@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Herdade da Chaminé",
   "id": "256203",
-  "description": "An ancient place, cited: BAtlas 26 C3 Herdade da Chaminé (1)",
   "bbox": [
     -8.0,
     38.0,
     -7.0,
     39.0
   ],
-  "reprPoint": [
-    -7.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C3 Herdade da Chaminé (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

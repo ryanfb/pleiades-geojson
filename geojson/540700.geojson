@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cephisus (river)",
   "id": "540700",
-  "description": "An ancient place, cited: BAtlas 55 D3 Cephisus fl.",
   "bbox": [
     22.5,
     38.5,
     23.0,
     39.0
   ],
-  "reprPoint": [
-    22.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 D3 Cephisus fl.",
   "names": [
     "Cephisus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

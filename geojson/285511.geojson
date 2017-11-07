@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Rusaddi(r) Pr.",
   "id": "285511",
-  "description": "The Cape of the Three Forks is a headland on the Mediterranean Sea coast of Morocco. ",
   "bbox": [
     -3.0,
     35.0,
     -2.0,
     36.0
   ],
-  "reprPoint": [
-    -2.5,
-    35.5
-  ],
+  "description": "The Cape of the Three Forks is a headland on the Mediterranean Sea coast of Morocco. ",
   "names": [
     "Rusaddir Pr.",
     "Rusaddi Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

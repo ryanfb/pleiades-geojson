@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Veranes",
   "id": "581136584",
-  "description": "A Roman villa.",
   "bbox": [
     -5.7538655,
     43.4837821,
     -5.7538655,
     43.4837821
   ],
-  "reprPoint": [
-    -5.7538655,
-    43.4837821
-  ],
+  "description": "A Roman villa.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7538655,
+          43.4837821
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

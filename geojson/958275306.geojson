@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Agora of Corinth",
   "id": "958275306",
-  "description": "The Agora of ancient Corinth.",
   "bbox": [
     22.8793472,
     37.9049161,
     22.8793472,
     37.9049161
   ],
+  "description": "The Agora of ancient Corinth.",
   "connectsWith": [
     "570182"
   ],
-  "reprPoint": [
-    22.8793472,
-    37.9049161
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8793472,
+          37.9049161
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

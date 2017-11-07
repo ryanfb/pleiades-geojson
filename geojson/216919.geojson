@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Panysos (river)",
   "id": "216919",
-  "description": "An ancient place, cited: BAtlas 22 E5 Panysos fl.",
   "bbox": [
     27.0,
     43.0,
     28.0,
     44.0
   ],
-  "reprPoint": [
-    27.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 E5 Panysos fl.",
   "names": [
     "Panysos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

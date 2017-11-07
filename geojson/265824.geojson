@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Bastida",
   "id": "265824",
-  "description": "An ancient place, cited: BAtlas 27 E3 La Bastida",
   "bbox": [
     -0.753157,
     38.875818,
     -0.753157,
     38.875818
   ],
-  "reprPoint": [
-    -0.753157,
-    38.875818
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E3 La Bastida",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.753157,
+          38.875818
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

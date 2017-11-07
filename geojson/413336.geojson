@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tetricus M.",
   "id": "413336",
-  "description": "Tetricus M.,  a mountain group in Italy, part of the central Apennines.",
   "bbox": [
     13.0,
     42.5,
     13.5,
     43.0
   ],
-  "reprPoint": [
-    13.25,
-    42.75
-  ],
+  "description": "Tetricus M.,  a mountain group in Italy, part of the central Apennines.",
   "names": [
     "Tetricus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

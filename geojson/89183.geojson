@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Feigh Mountain",
   "id": "89183",
-  "description": "An ancient place, cited: BAtlas 9 A5 Feigh Mountain",
   "bbox": [
     -6.434613,
     55.226632,
     -6.434613,
     55.226632
   ],
-  "reprPoint": [
-    -6.434613,
-    55.226632
-  ],
+  "description": "An ancient place, cited: BAtlas 9 A5 Feigh Mountain",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.434613,
+          55.226632
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

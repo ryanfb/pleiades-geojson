@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bodiontici",
   "id": "157822",
-  "description": "An ancient place, cited: BAtlas 16 B1 Bodiontici",
   "bbox": [
     6.0,
     44.0,
     6.5,
     44.5
   ],
-  "reprPoint": [
-    6.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B1 Bodiontici",
   "names": [
     "Bodiontici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

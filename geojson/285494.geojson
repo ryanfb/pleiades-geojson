@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nigritae",
   "id": "285494",
-  "description": "An ancient place, cited: BAtlas 29 E3 Nigritae",
   "bbox": [
     -1.0,
     33.0,
     0.0,
     34.0
   ],
-  "reprPoint": [
-    -0.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 29 E3 Nigritae",
   "names": [
     "Nigritae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

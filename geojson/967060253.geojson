@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 21B (Fence Burn)",
   "id": "967060253",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.01022,
     55.011197,
     -2.01022,
     55.011197
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.01022,
-    55.011197
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.01022,
+          55.011197
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

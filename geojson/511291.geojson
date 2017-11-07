@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kios/Askanios (river)",
   "id": "511291",
-  "description": "An ancient place, cited: BAtlas 52 E4 Kios/Askanios fl.",
   "bbox": [
     29.0,
     40.0,
     29.5,
     40.5
   ],
-  "reprPoint": [
-    29.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 E4 Kios/Askanios fl.",
   "names": [
     "Kios",
     "Askanios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

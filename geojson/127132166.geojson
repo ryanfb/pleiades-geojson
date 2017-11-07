@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bullsdown Camp",
   "id": "127132166",
-  "description": "Bullsdown Camp is the site of an Iron Age hill fort in Hampshire, England. The site is now heavily wooded.",
   "bbox": [
     -1.0381399,
     51.3217437,
     -1.0381399,
     51.3217437
   ],
-  "reprPoint": [
-    -1.0381399,
-    51.3217437
-  ],
+  "description": "Bullsdown Camp is the site of an Iron Age hill fort in Hampshire, England. The site is now heavily wooded.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0381399,
+          51.3217437
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

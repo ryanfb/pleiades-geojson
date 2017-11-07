@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Coux",
   "id": "140466",
-  "description": "A Gallo-Roman villa.",
   "bbox": [
     2.50785,
     46.04008,
     2.50785,
     46.04008
   ],
-  "reprPoint": [
-    2.50785,
-    46.04008
-  ],
+  "description": "A Gallo-Roman villa.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.50785,
+          46.04008
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

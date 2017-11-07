@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Peiraieus/Piraeus",
   "id": "580062",
-  "description": "The ancient, fortified port settlement (and deme) of ancient Athens.",
   "bbox": [
     23.644609,
     37.937222,
     23.645456,
     37.938183
   ],
+  "description": "The ancient, fortified port settlement (and deme) of ancient Athens.",
   "connectsWith": [
     "579966",
     "579988",
@@ -20,10 +20,6 @@
     "580029",
     "580136"
   ],
-  "reprPoint": [
-    23.6449013333,
-    37.937561
-  ],
   "names": [
     "Peiraieus",
     "Piraeus",
@@ -32,6 +28,19 @@
     "Peiraeus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6449013333,
+          37.937561
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Riom",
   "id": "187530",
-  "description": "An ancient place, cited: BAtlas 19 B3 Riom",
   "bbox": [
     9.581967,
     46.609377,
     9.581967,
     46.609377
   ],
-  "reprPoint": [
-    9.581967,
-    46.609377
-  ],
+  "description": "An ancient place, cited: BAtlas 19 B3 Riom",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.581967,
+          46.609377
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

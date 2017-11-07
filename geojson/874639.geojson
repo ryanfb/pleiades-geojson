@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Parthenias/Nymphios (river)",
   "id": "874639",
-  "description": "An ancient place, cited: BAtlas 89 D3 Parthenias/Nymphios fl.",
   "bbox": [
     41.0,
     37.0,
     42.0,
     38.0
   ],
-  "reprPoint": [
-    41.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 D3 Parthenias/Nymphios fl.",
   "names": [
     "Parthenias",
     "Nymphios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

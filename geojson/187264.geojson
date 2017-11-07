@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Aesontius (river)",
   "id": "187264",
-  "description": "The Aesontius, known now as either the Soča or Isonzo river, flows from the Trenta Valley in the Julian Alps to the Adriatic Sea.",
   "bbox": [
     13.6399274,
     45.9719131,
     13.6399274,
     45.9719131
   ],
+  "description": "The Aesontius, known now as either the Soča or Isonzo river, flows from the Trenta Valley in the Julian Alps to the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    13.6399274,
-    45.9719131
   ],
   "names": [
     "Aesontius",
     "Isontius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6399274,
+          45.9719131
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

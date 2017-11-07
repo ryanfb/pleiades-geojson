@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chûn Quoit",
   "id": "847951890",
-  "description": "Chûn Quoit is a dolmen-type tomb located in Cornwall. The quoit was likely originally covered by a barrow.",
   "bbox": [
     -5.6377411,
     50.1485947,
     -5.6377411,
     50.1485947
   ],
-  "reprPoint": [
-    -5.6377411,
-    50.1485947
-  ],
+  "description": "Chûn Quoit is a dolmen-type tomb located in Cornwall. The quoit was likely originally covered by a barrow.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6377411,
+          50.1485947
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

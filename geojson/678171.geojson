@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hammara",
   "id": "678171",
-  "description": "An ancient place, cited: BAtlas 69 C2 Hammara",
   "bbox": [
     35.921018,
     33.673461,
     35.921018,
     33.673461
   ],
-  "reprPoint": [
-    35.921018,
-    33.673461
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C2 Hammara",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.921018,
+          33.673461
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

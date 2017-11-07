@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Karamagara Bridge",
   "id": "629685",
-  "description": "A Roman-era bridge spanning the Arabkir Çay south of Hastek Kale in Turkey. Now submerged and inaccessible.",
   "bbox": [
     38.658486,
     38.924961,
     38.658486,
     38.924961
   ],
-  "reprPoint": [
-    38.658486,
-    38.924961
-  ],
+  "description": "A Roman-era bridge spanning the Arabkir Çay south of Hastek Kale in Turkey. Now submerged and inaccessible.",
   "names": [
     "Karamagara Koprusu",
     "Kara Magara Kopru"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.658486,
+          38.924961
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

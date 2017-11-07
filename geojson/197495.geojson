@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sardeates",
   "id": "197495",
-  "description": "An ancient place, cited: BAtlas 20 D5 Sardeates",
   "bbox": [
     16.0,
     44.0,
     17.0,
     45.0
   ],
-  "reprPoint": [
-    16.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 D5 Sardeates",
   "names": [
     "Sardeates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

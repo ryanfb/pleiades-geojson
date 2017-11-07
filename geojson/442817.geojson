@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Termitito",
   "id": "442817",
-  "description": "An ancient city of Lucania.",
   "bbox": [
     16.669239,
     40.220362,
     16.669239,
     40.220362
   ],
+  "description": "An ancient city of Lucania.",
   "connectsWith": [
     "452371"
   ],
-  "reprPoint": [
-    16.669239,
-    40.220362
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.669239,
+          40.220362
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

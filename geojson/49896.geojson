@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bangalore",
   "id": "49896",
-  "description": "An ancient place, cited: BAtlas 5 D4 Bangalore",
   "bbox": [
     77.590624,
     12.968424,
     77.590624,
     12.968424
   ],
-  "reprPoint": [
-    77.590624,
-    12.968424
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D4 Bangalore",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590624,
+          12.968424
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monteriggioni",
   "id": "303732808",
-  "description": "A Medieval settlement where numerous important Etruscan tombs have been excavated.",
   "bbox": [
     11.2230684,
     43.3901051,
     11.2230684,
     43.3901051
   ],
-  "reprPoint": [
-    11.2230684,
-    43.3901051
-  ],
+  "description": "A Medieval settlement where numerous important Etruscan tombs have been excavated.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2230684,
+          43.3901051
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

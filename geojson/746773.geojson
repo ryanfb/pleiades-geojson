@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Koubri",
   "id": "746773",
-  "description": "An ancient place, cited: BAtlas 76 B1 Koubri",
   "bbox": [
     32.569535,
     30.020898,
     32.569535,
     30.020898
   ],
-  "reprPoint": [
-    32.569535,
-    30.020898
-  ],
+  "description": "An ancient place, cited: BAtlas 76 B1 Koubri",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.569535,
+          30.020898
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

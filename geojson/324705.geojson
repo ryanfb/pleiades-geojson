@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Frexes",
   "id": "324705",
-  "description": "An ancient place, cited: BAtlas 33 B2 Frexes",
   "bbox": [
     8.0,
     35.0,
     8.5,
     35.5
   ],
-  "reprPoint": [
-    8.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 33 B2 Frexes",
   "names": [
     "Frexes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

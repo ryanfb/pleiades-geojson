@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "443948",
-  "description": "An ancient place, cited: BAtlas 45 B3 unnamed bridge (over R. Tanagro, at Ad Tana(g)rem)",
   "bbox": [
     15.0,
     40.5,
     15.5,
     41.0
   ],
-  "reprPoint": [
-    15.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B3 unnamed bridge (over R. Tanagro, at Ad Tana(g)rem)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

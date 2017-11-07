@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "315607",
-  "description": "An ancient place, cited: BAtlas 32 G3 unnamed aqueduct (near Curubis)",
   "bbox": [
     10.5,
     36.5,
     11.0,
     37.0
   ],
-  "reprPoint": [
-    10.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 G3 unnamed aqueduct (near Curubis)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

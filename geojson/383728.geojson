@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pagus Agaminus",
   "id": "383728",
-  "description": "An ancient place, cited: BAtlas 39 C2 Pagus Agaminus",
   "bbox": [
     8.0,
     45.5,
     8.5,
     46.0
   ],
-  "reprPoint": [
-    8.25,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 C2 Pagus Agaminus",
   "names": [
     "Pagus Agaminus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

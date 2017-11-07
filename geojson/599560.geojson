@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Brouzi",
   "id": "599560",
-  "description": "An ancient place, cited: BAtlas 61 D3 Brouzi",
   "bbox": [
     26.855871,
     37.155921,
     26.855871,
     37.155921
   ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Brouzi",
   "connectsWith": [
     "599764"
   ],
-  "reprPoint": [
-    26.855871,
-    37.155921
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.855871,
+          37.155921
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

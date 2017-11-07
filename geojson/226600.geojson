@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gavrilovskoye",
   "id": "226600",
-  "description": "An ancient place, cited: BAtlas 23 G1 Gavrilovskoye",
   "bbox": [
     33.847269,
     47.269567,
     33.847269,
     47.269567
   ],
-  "reprPoint": [
-    33.847269,
-    47.269567
-  ],
+  "description": "An ancient place, cited: BAtlas 23 G1 Gavrilovskoye",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.847269,
+          47.269567
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

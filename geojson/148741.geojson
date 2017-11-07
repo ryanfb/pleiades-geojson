@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "148741",
-  "description": "An ancient place, cited: BAtlas 15 E2 unnamed aqueduct (Fontaine de Vaucluse)",
   "bbox": [
     5.0,
     43.5,
     5.5,
     44.0
   ],
-  "reprPoint": [
-    5.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 E2 unnamed aqueduct (Fontaine de Vaucluse)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

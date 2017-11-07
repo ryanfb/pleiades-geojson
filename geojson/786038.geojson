@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hilal",
   "id": "786038",
-  "description": "An ancient place, cited: BAtlas 80 F4 Hilal",
   "bbox": [
     34.600801,
     24.581325,
     34.600801,
     24.581325
   ],
-  "reprPoint": [
-    34.600801,
-    24.581325
-  ],
+  "description": "An ancient place, cited: BAtlas 80 F4 Hilal",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.600801,
+          24.581325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

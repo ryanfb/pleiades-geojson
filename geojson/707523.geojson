@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalogiannis",
   "id": "707523",
-  "description": "An ancient place, cited: BAtlas 72 E3 Kalogiannis",
   "bbox": [
     34.065518,
     34.962774,
     34.065518,
     34.962774
   ],
+  "description": "An ancient place, cited: BAtlas 72 E3 Kalogiannis",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    34.065518,
-    34.962774
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.065518,
+          34.962774
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

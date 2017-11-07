@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Oreine Ins.",
   "id": "39404",
-  "description": "Oreine Ins. (Dissei) is an island in the Red Sea.",
   "bbox": [
     39.7582797,
     15.4307209,
     39.7582797,
     15.4307209
   ],
+  "description": "Oreine Ins. (Dissei) is an island in the Red Sea.",
   "connectsWith": [
     "39272"
-  ],
-  "reprPoint": [
-    39.7582797,
-    15.4307209
   ],
   "names": [
     "Oreine"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7582797,
+          15.4307209
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

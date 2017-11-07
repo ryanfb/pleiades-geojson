@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 41A (Caw Gap)",
   "id": "967060365",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.430555,
     54.995759,
     -2.430465,
     54.995817
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.4305097619,
-    54.9957884286
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4305097619,
+          54.9957884286
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

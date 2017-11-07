@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kynosoura",
   "id": "580001",
-  "description": "An ancient place, cited: BAtlas 59 D2 Kynosoura",
   "bbox": [
     24.05444,
     38.144304,
     24.05444,
     38.144304
   ],
-  "reprPoint": [
-    24.05444,
-    38.144304
-  ],
+  "description": "An ancient place, cited: BAtlas 59 D2 Kynosoura",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.05444,
+          38.144304
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

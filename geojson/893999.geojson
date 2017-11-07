@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Garmakan/Beth Garmai",
   "id": "893999",
-  "description": "A historical region around the city of Kirkuk in northern Iraq.",
   "bbox": [
     44.0,
     35.0,
     45.0,
     36.0
   ],
-  "reprPoint": [
-    44.5,
-    35.5
-  ],
+  "description": "A historical region around the city of Kirkuk in northern Iraq.",
   "names": [
     "Garmakan",
     "Beth Garmai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

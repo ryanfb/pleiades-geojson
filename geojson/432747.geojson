@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Campus Stellas",
   "id": "432747",
-  "description": "The name for a region of Campania that adjoined the Ager Falernus.",
   "bbox": [
     14.0,
     41.0,
     14.5,
     41.5
   ],
-  "reprPoint": [
-    14.25,
-    41.25
-  ],
+  "description": "The name for a region of Campania that adjoined the Ager Falernus.",
   "names": [
     "Campus Stellas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

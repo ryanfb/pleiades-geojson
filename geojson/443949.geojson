@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Roman bridge",
   "id": "443949",
-  "description": "A Roman bridge over the river Platano, east of Volcei known alternately as Ponte del Diavolo/Ponte di Annibale.",
   "bbox": [
     15.0,
     40.5,
     15.5,
     41.0
   ],
-  "reprPoint": [
-    15.25,
-    40.75
-  ],
+  "description": "A Roman bridge over the river Platano, east of Volcei known alternately as Ponte del Diavolo/Ponte di Annibale.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

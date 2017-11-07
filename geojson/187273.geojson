@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Tridentinae",
   "id": "187273",
-  "description": "The mountains of the southern Tyrol.",
   "bbox": [
     11.0,
     46.0,
     12.0,
     47.0
   ],
-  "reprPoint": [
-    11.5,
-    46.5
-  ],
+  "description": "The mountains of the southern Tyrol.",
   "names": [
     "Alpes Tridentinae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

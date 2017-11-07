@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Divae",
   "id": "49965",
-  "description": "An ancient place, cited: BAtlas 5 C4 Divae",
   "bbox": [
     70.0,
     10.0,
     75.0,
     15.0
   ],
+  "description": "An ancient place, cited: BAtlas 5 C4 Divae",
   "connectsWith": [
     "642557317"
-  ],
-  "reprPoint": [
-    72.5,
-    12.5
   ],
   "names": [
     "Divae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tel Hefer",
   "id": "678411",
-  "description": "An ancient place, cited: BAtlas 69 A5 Tel Hefer",
   "bbox": [
     34.909242,
     32.370512,
     34.909242,
     32.370512
   ],
-  "reprPoint": [
-    34.909242,
-    32.370512
-  ],
+  "description": "An ancient place, cited: BAtlas 69 A5 Tel Hefer",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.909242,
+          32.370512
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

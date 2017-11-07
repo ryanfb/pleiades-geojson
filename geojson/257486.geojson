@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257486",
-  "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (S Corduba at Puente Viejo, over R. Guadajoz)",
   "bbox": [
     -5.0,
     37.0,
     -4.0,
     38.0
   ],
-  "reprPoint": [
-    -4.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 F4 unnamed bridge (S Corduba at Puente Viejo, over R. Guadajoz)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

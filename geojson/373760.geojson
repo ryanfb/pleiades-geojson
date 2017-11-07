@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Boreion Pr.",
   "id": "373760",
-  "description": "An ancient place, cited: BAtlas 38 A2 Boreion Pr.",
   "bbox": [
     19.0,
     31.0,
     20.0,
     32.0
   ],
-  "reprPoint": [
-    19.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 38 A2 Boreion Pr.",
   "names": [
     "Boreion Pr.",
     "Bryon Aigialos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

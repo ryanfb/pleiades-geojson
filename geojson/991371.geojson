@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thracia",
   "id": "991371",
-  "description": "The Late Roman diocese as defined Barrington Atlas (BAtlas 101 L3 Thracia)",
   "bbox": [
     20.0,
     40.0,
     25.0,
     45.0
   ],
-  "reprPoint": [
-    22.5,
-    42.5
-  ],
+  "description": "The Late Roman diocese as defined Barrington Atlas (BAtlas 101 L3 Thracia)",
   "names": [
     "Thracia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Markh",
   "id": "766425",
-  "description": "An ancient place, cited: BAtlas 78 D5 Wadi Markh",
   "bbox": [
     33.519242,
     26.430924,
     33.519242,
     26.430924
   ],
-  "reprPoint": [
-    33.519242,
-    26.430924
-  ],
+  "description": "An ancient place, cited: BAtlas 78 D5 Wadi Markh",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.519242,
+          26.430924
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

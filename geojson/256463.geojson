@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Tagus (river)",
   "id": "256463",
-  "description": "The Tagus river is the longest river on the Iberian Peninsula.",
   "bbox": [
     -7.5403752,
     39.6640148,
     -7.5403752,
     39.6640148
   ],
+  "description": "The Tagus river is the longest river on the Iberian Peninsula.",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -7.5403752,
-    39.6640148
   ],
   "names": [
     "Tagus",
     "Tajo"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5403752,
+          39.6640148
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

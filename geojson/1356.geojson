@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tyrrhenum/Inferum Mare",
   "id": "1356",
-  "description": "The Tyrrhenian Sea is part of the Mediterranean Sea off the western coast of Italy. It takes its name from the Tyrrhenian people, another name for the Etruscans.",
   "bbox": [
     9.1473968,
     37.850713,
     15.3093617,
     44.2895346
   ],
+  "description": "The Tyrrhenian Sea is part of the Mediterranean Sea off the western coast of Italy. It takes its name from the Tyrrhenian people, another name for the Etruscans.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    12.0547318553,
-    41.6641981539
   ],
   "names": [
     "Tyrrhenum mare",
     "Inferum Mare"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0547318553,
+          41.6641981539
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

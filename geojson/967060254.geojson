@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 24B (Tithe Barn)",
   "id": "967060254",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.078254,
     55.01917,
     -2.078254,
     55.01917
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.078254,
-    55.01917
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.078254,
+          55.01917
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

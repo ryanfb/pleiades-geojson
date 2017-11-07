@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pithekas? (river)",
   "id": "511364",
-  "description": "An ancient place, cited: BAtlas 52 G4 Pithekas? fl.",
   "bbox": [
     30.0,
     40.0,
     30.5,
     40.5
   ],
-  "reprPoint": [
-    30.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 G4 Pithekas? fl.",
   "names": [
     "Pithekas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

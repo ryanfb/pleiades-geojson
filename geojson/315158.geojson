@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sidi Aissa",
   "id": "315158",
-  "description": "An ancient place, cited: BAtlas 32 G3 Sidi Aissa",
   "bbox": [
     10.5,
     36.5,
     11.0,
     37.0
   ],
-  "reprPoint": [
-    10.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 G3 Sidi Aissa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Palaestina",
   "id": "687995",
-  "description": "An ancient place, cited: BAtlas 70 F3 Palaestina",
   "bbox": [
     34.5,
     31.0,
     35.0,
     31.5
   ],
-  "reprPoint": [
-    34.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 70 F3 Palaestina",
   "names": [
     "Palaestina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "al-Kuwait",
   "id": "300354631",
-  "description": "A place from the TAVO Index",
   "bbox": [
     47.0,
     29.0,
     48.0,
     30.0
   ],
-  "reprPoint": [
-    47.5,
-    29.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "al-Kuwait",
     "Kuweit",
@@ -20,6 +16,19 @@
     "al-Kuwait"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

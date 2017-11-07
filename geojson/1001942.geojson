@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arabia",
   "id": "1001942",
-  "description": "An ancient place, cited: BAtlas 102 G5 no. 56 (Arabia)",
   "bbox": [
     35.0,
     30.0,
     40.0,
     35.0
   ],
-  "reprPoint": [
-    37.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 G5 no. 56 (Arabia)",
   "names": [
     "Arabia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

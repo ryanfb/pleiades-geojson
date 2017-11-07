@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Salo (river)",
   "id": "246610",
-  "description": "An ancient place, cited: BAtlas 25 C4 Salo fl.",
   "bbox": [
     -3.0,
     41.0,
     -2.0,
     42.0
   ],
-  "reprPoint": [
-    -2.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C4 Salo fl.",
   "names": [
     "Salo"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

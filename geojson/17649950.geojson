@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "London Mithraeum",
   "id": "17649950",
-  "description": "A temple sacred to Mithras in Londinium that was discovered in 1954. The visible remains of the temple do not sit on the original site, but have been reassembled at Temple Court, Queen Victoria Street, London.",
   "bbox": [
     -0.0917497,
     51.512332,
     -0.090588,
     51.5127292
   ],
+  "description": "A temple sacred to Mithras in Londinium that was discovered in 1954. The visible remains of the temple do not sit on the original site, but have been reassembled at Temple Court, Queen Victoria Street, London.",
   "connectsWith": [
     "79574"
   ],
-  "reprPoint": [
-    -0.0911185135511,
-    51.5124889486
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0911185135511,
+          51.5124889486
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

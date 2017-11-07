@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kenchrios (river)",
   "id": "599703",
-  "description": "An ancient place, cited: BAtlas 61 E2 Kenchrios fl.",
   "bbox": [
     27.0,
     37.5,
     27.5,
     38.0
   ],
-  "reprPoint": [
-    27.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E2 Kenchrios fl.",
   "names": [
     "Kenchrios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

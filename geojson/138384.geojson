@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Herios (river)",
   "id": "138384",
-  "description": "Herios fl. (Vilaine river)",
   "bbox": [
     -1.2309704,
     48.1183622,
     -1.2309704,
     48.1183622
   ],
+  "description": "Herios fl. (Vilaine river)",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -1.2309704,
-    48.1183622
   ],
   "names": [
     "Herios",
     "Vicinonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2309704,
+          48.1183622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

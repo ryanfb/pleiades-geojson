@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Aigaion",
   "id": "589676",
-  "description": "A mountain range in eastern Crete, known today as Dikti (Dicte).",
   "bbox": [
     25.4711474,
     35.0928011,
     25.5204486,
     35.1181145
   ],
+  "description": "A mountain range in eastern Crete, known today as Dikti (Dicte).",
   "connectsWith": [
     "589748"
-  ],
-  "reprPoint": [
-    25.4962815333,
-    35.1089886667
   ],
   "names": [
     "Aigaion M.",
@@ -22,6 +18,19 @@
     "Dikti"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4962815333,
+          35.1089886667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

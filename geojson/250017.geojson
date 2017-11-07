@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Centcelles Roman villa",
   "id": "250017",
-  "description": "An ancient place, cited: BAtlas 25 G4 no. 111 (Centcelles (Constantí))",
   "bbox": [
     1.226133,
     41.1557687,
     1.226133,
     41.1557687
   ],
-  "reprPoint": [
-    1.226133,
-    41.1557687
-  ],
+  "description": "An ancient place, cited: BAtlas 25 G4 no. 111 (Centcelles (Constantí))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.226133,
+          41.1557687
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

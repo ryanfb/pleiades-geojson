@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tell Taya",
   "id": "574198887",
-  "description": "Tell Taya is an archaeological site located in Iraq's Nineveh Province. The site was occupied from the third to the first millennia B.C.",
   "bbox": [
     42.4936855,
     36.3327096,
     42.4936855,
     36.3327096
   ],
-  "reprPoint": [
-    42.4936855,
-    36.3327096
-  ],
+  "description": "Tell Taya is an archaeological site located in Iraq's Nineveh Province. The site was occupied from the third to the first millennia B.C.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.4936855,
+          36.3327096
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

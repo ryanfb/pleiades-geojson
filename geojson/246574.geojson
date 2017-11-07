@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "El Poyo",
   "id": "246574",
-  "description": "An ancient place, cited: BAtlas 25 D5 El Poyo",
   "bbox": [
     -1.332718,
     40.88282,
     -1.332718,
     40.88282
   ],
-  "reprPoint": [
-    -1.332718,
-    40.88282
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D5 El Poyo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.332718,
+          40.88282
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

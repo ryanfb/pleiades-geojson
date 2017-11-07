@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ponte da Sancha",
   "id": "256374",
-  "description": "An ancient place, cited: BAtlas 26 B1 Ponte da Sancha",
   "bbox": [
     -8.493909,
     40.099889,
     -8.493909,
     40.099889
   ],
-  "reprPoint": [
-    -8.493909,
-    40.099889
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B1 Ponte da Sancha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.493909,
+          40.099889
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

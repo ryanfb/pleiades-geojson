@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Martenses",
   "id": "471969",
-  "description": "An ancient place, cited: BAtlas 48 B3 Martenses",
   "bbox": [
     9.0,
     39.0,
     10.0,
     40.0
   ],
+  "description": "An ancient place, cited: BAtlas 48 B3 Martenses",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    9.5,
-    39.5
   ],
   "names": [
     "Martenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

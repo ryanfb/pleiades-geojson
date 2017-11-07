@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Amphilochia",
   "id": "530797",
-  "description": "An ancient place, cited: BAtlas 54 D3 Amphilochia",
   "bbox": [
     21.0,
     39.0,
     21.5,
     39.5
   ],
+  "description": "An ancient place, cited: BAtlas 54 D3 Amphilochia",
   "connectsWith": [
     "530767"
-  ],
-  "reprPoint": [
-    21.25,
-    39.25
   ],
   "names": [
     "Amphilochia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

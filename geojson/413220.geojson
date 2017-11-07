@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Nar (river)",
   "id": "413220",
-  "description": "The Nera river, a tributary of the Tiber.",
   "bbox": [
     12.547643,
     42.072946,
     12.7047066,
     42.5536692
   ],
+  "description": "The Nera river, a tributary of the Tiber.",
   "connectsWith": [
     "423080",
     "358077243"
-  ],
-  "reprPoint": [
-    12.6261748,
-    42.3133076
   ],
   "names": [
     "Nar"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6261748,
+          42.3133076
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

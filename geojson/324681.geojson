@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Byzacium",
   "id": "324681",
-  "description": "The historical region of coastal Tunisia south of Carthage",
   "bbox": [
     10.0,
     35.0,
     11.5,
     36.0
   ],
-  "reprPoint": [
-    10.75,
-    35.5
-  ],
+  "description": "The historical region of coastal Tunisia south of Carthage",
   "names": [
     "Byzacium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

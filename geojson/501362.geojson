@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Arriana",
   "id": "501362",
-  "description": "An ancient place, cited: BAtlas 51 F2 Arriana",
   "bbox": [
     25.5,
     41.0,
     26.0,
     41.5
   ],
-  "reprPoint": [
-    25.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 F2 Arriana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

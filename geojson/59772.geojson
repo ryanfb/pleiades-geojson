@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Chirotosagi/Kirradai",
   "id": "59772",
-  "description": "An ancient place, cited: BAtlas 6 F4 Chirotosagi/Kirradai",
   "bbox": [
     85.0,
     25.0,
     90.0,
     30.0
   ],
-  "reprPoint": [
-    87.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 F4 Chirotosagi/Kirradai",
   "names": [
     "Chirotosagi",
     "Kirradai",
@@ -24,6 +20,19 @@
     "Thalutae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

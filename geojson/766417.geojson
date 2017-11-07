@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Umm Sidra",
   "id": "766417",
-  "description": "An ancient place, cited: BAtlas 78 C3 Umm Sidra",
   "bbox": [
     33.301357,
     27.286051,
     33.301357,
     27.286051
   ],
-  "reprPoint": [
-    33.301357,
-    27.286051
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C3 Umm Sidra",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.301357,
+          27.286051
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

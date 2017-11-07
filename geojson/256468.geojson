@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Tartessos",
   "id": "256468",
-  "description": "Tartessos was a harbor city and surrounding region located on the southern coast of the Iberian peninsula at the mouth of the Guadalquivir River.",
   "bbox": [
     -7.0,
     37.0,
     -6.0,
     38.0
   ],
-  "reprPoint": [
-    -6.5,
-    37.5
-  ],
+  "description": "Tartessos was a harbor city and surrounding region located on the southern coast of the Iberian peninsula at the mouth of the Guadalquivir River.",
   "names": [
     "Tartessos",
     "Tartessii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

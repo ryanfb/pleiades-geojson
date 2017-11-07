@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pydna/Kitron",
   "id": "491704",
-  "description": "An ancient place, cited: BAtlas 50 C4 Pydna/Kitron",
   "bbox": [
     22.5,
     40.0,
     23.0,
     40.5
   ],
-  "reprPoint": [
-    22.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C4 Pydna/Kitron",
   "names": [
     "Pydna",
     "Kitron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

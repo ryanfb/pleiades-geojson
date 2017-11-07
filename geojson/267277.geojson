@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Puente de Cañete.",
   "id": "267277",
-  "description": "The remains of a Roman bridge known locally as Puente Viejo or Puente de Cañete lying one mile west west of Obulco on the Arroyo Salado.",
   "bbox": [
     -5.0,
     37.0,
     -4.0,
     38.0
   ],
-  "reprPoint": [
-    -4.5,
-    37.5
-  ],
+  "description": "The remains of a Roman bridge known locally as Puente Viejo or Puente de Cañete lying one mile west west of Obulco on the Arroyo Salado.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

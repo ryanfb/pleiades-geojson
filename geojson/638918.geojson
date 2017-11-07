@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kibyratis",
   "id": "638918",
-  "description": "An ancient place, cited: BAtlas 65 C4 Kibyratis",
   "bbox": [
     29.5,
     36.5,
     30.0,
     37.0
   ],
-  "reprPoint": [
-    29.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 C4 Kibyratis",
   "names": [
     "Kibyratis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

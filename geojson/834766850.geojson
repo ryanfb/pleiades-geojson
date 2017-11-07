@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Avebury",
   "id": "834766850",
-  "description": "Avebury is a Neolithic henge monument comprised of three stone circles dating to the third millennium BC.",
   "bbox": [
     -1.8531245,
     51.4279192,
     -1.8531245,
     51.4279192
   ],
-  "reprPoint": [
-    -1.8531245,
-    51.4279192
-  ],
+  "description": "Avebury is a Neolithic henge monument comprised of three stone circles dating to the third millennium BC.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8531245,
+          51.4279192
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

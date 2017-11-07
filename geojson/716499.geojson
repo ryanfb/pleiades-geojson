@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abul Awlaf",
   "id": "716499",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.781559,
     29.270302,
     25.781559,
     29.270302
   ],
-  "reprPoint": [
-    25.781559,
-    29.270302
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.781559,
+          29.270302
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

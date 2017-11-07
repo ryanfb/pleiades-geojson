@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Horma",
   "id": "844948",
-  "description": "An ancient place, cited: BAtlas 86 D2 Horma",
   "bbox": [
     33.121155,
     41.631164,
     33.121155,
     41.631164
   ],
-  "reprPoint": [
-    33.121155,
-    41.631164
-  ],
+  "description": "An ancient place, cited: BAtlas 86 D2 Horma",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.121155,
+          41.631164
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

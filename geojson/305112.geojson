@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Musoni",
   "id": "305112",
-  "description": "An ancient place, cited: BAtlas 31 C4 Musoni",
   "bbox": [
     5.0,
     36.0,
     5.5,
     36.5
   ],
-  "reprPoint": [
-    5.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 31 C4 Musoni",
   "names": [
     "Musoni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

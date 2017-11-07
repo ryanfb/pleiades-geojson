@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Uffington Castle",
   "id": "549429628",
-  "description": "Uffington Castle is an early Iron Age hillfort in Oxfordshire, England. Earlier Bronze Age remains are also present.",
   "bbox": [
     -1.5694665,
     51.5750315,
     -1.5694665,
     51.5750315
   ],
-  "reprPoint": [
-    -1.5694665,
-    51.5750315
-  ],
+  "description": "Uffington Castle is an early Iron Age hillfort in Oxfordshire, England. Earlier Bronze Age remains are also present.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5694665,
+          51.5750315
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

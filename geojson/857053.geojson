@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Babanomon",
   "id": "857053",
-  "description": "An ancient place, cited: BAtlas 87 A4 Babanomon",
   "bbox": [
     35.0,
     40.0,
     36.0,
     41.0
   ],
-  "reprPoint": [
-    35.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 A4 Babanomon",
   "names": [
     "Babanomon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

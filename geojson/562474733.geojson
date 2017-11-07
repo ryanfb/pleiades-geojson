@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Solsbury Hill",
   "id": "562474733",
-  "description": "Solsbury Hill is a flat-topped hill in Somerset, England, that is the site of an Iron Age hill fort.",
   "bbox": [
     -2.3342785,
     51.4100777,
     -2.3339828,
     51.4112088
   ],
-  "reprPoint": [
-    -2.33413065,
-    51.41064325
-  ],
+  "description": "Solsbury Hill is a flat-topped hill in Somerset, England, that is the site of an Iron Age hill fort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.33413065,
+          51.41064325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

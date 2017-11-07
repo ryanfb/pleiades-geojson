@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "689320",
-  "description": "An ancient place, cited: BAtlas 70 F2 unnamed bridge (Jisr el Rubin, on coast road over R. Soreq, near Iamneia Paralios)",
   "bbox": [
     34.5,
     31.5,
     35.0,
     32.0
   ],
-  "reprPoint": [
-    34.75,
-    31.75
-  ],
+  "description": "An ancient place, cited: BAtlas 70 F2 unnamed bridge (Jisr el Rubin, on coast road over R. Soreq, near Iamneia Paralios)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          31.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

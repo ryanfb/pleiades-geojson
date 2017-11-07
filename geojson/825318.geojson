@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Maeotis",
   "id": "825318",
-  "description": "Maeotis, known in antiquity as a lake, is the modern Sea of Azov and is the shallowest of the world's seas.",
   "bbox": [
     35.075172,
     45.35,
     36.65,
     46.278834
   ],
-  "reprPoint": [
-    35.862586,
-    45.814417
-  ],
+  "description": "Maeotis, known in antiquity as a lake, is the modern Sea of Azov and is the shallowest of the world's seas.",
   "names": [
     "Maeotis",
     "Temarunda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.862586,
+          45.814417
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

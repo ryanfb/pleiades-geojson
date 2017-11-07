@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Pedraja",
   "id": "246558",
-  "description": "An ancient place, cited: BAtlas 25 B3 La Pedraja",
   "bbox": [
     -3.309356,
     42.386513,
     -3.309356,
     42.386513
   ],
-  "reprPoint": [
-    -3.309356,
-    42.386513
-  ],
+  "description": "An ancient place, cited: BAtlas 25 B3 La Pedraja",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.309356,
+          42.386513
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

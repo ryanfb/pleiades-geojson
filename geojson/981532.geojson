@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mauretania Caesariensis (Roman province)",
   "id": "981532",
-  "description": "A Roman imperial province.",
   "bbox": [
     0.0,
     35.0,
     5.0,
     40.0
   ],
-  "reprPoint": [
-    2.5,
-    37.5
-  ],
+  "description": "A Roman imperial province.",
   "names": [
     "Mauretania Caesariensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

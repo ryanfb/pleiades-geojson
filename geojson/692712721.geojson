@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Kars",
   "id": "692712721",
-  "description": "A place from the TAVO Index",
   "bbox": [
     43.0700554,
     40.5783866,
     43.1365091,
     40.6235268
   ],
-  "reprPoint": [
-    43.1040302701,
-    40.6013491238
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Kars",
     "Kars",
@@ -27,6 +23,19 @@
     "Karse"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1040302701,
+          40.6013491238
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

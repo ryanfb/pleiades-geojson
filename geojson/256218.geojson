@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Iberos/Luxia (river)",
   "id": "256218",
-  "description": "The Rio Tinto river flows from the Sierra Morena mountains to the Gulf of Cádiz at Huelva.",
   "bbox": [
     -6.8230165,
     37.3103478,
     -6.8230165,
     37.3103478
   ],
-  "reprPoint": [
-    -6.8230165,
-    37.3103478
-  ],
+  "description": "The Rio Tinto river flows from the Sierra Morena mountains to the Gulf of Cádiz at Huelva.",
   "names": [
     "Iberos",
     "Luxia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8230165,
+          37.3103478
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

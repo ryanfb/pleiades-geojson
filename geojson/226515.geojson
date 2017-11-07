@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Alekseyevka",
   "id": "226515",
-  "description": "An ancient place, cited: BAtlas 23 H1 Alekseyevka",
   "bbox": [
     34.183459,
     47.549825,
     34.183459,
     47.549825
   ],
-  "reprPoint": [
-    34.183459,
-    47.549825
-  ],
+  "description": "An ancient place, cited: BAtlas 23 H1 Alekseyevka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.183459,
+          47.549825
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

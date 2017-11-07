@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Cares (river)",
   "id": "138270",
-  "description": "An ancient place, cited: BAtlas 14 G1 Cares fl.",
   "bbox": [
     -2.2086,
     45.6203426,
     4.2283744,
     47.317512
   ],
+  "description": "An ancient place, cited: BAtlas 14 G1 Cares fl.",
   "connectsWith": [
     "138420"
-  ],
-  "reprPoint": [
-    1.1494416,
-    46.88399165
   ],
   "names": [
     "Cares"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1494416,
+          46.88399165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

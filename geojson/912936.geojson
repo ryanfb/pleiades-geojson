@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Susa/Seleucia ad Eulaeum",
   "id": "912936",
-  "description": "An ancient city of the Elamite, Persian, and Parthian empires of Iran. Located at modern Shush, Susa was inscribed on the UNESCO World Heritage List in 2015.",
   "bbox": [
     48.2537285,
     32.1887935,
     48.2537285,
     32.1887935
   ],
-  "reprPoint": [
-    48.2537285,
-    32.1887935
-  ],
+  "description": "An ancient city of the Elamite, Persian, and Parthian empires of Iran. Located at modern Shush, Susa was inscribed on the UNESCO World Heritage List in 2015.",
   "names": [
     "Shushan",
     "Shusha",
@@ -42,6 +38,19 @@
     "Šūš"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2537285,
+          32.1887935
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

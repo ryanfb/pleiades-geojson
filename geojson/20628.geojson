@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tuna",
   "id": "20628",
-  "description": "An ancient place, cited: BAtlas 2 G2 Tuna",
   "bbox": [
     16.527934,
     59.626101,
     16.527934,
     59.626101
   ],
-  "reprPoint": [
-    16.527934,
-    59.626101
-  ],
+  "description": "An ancient place, cited: BAtlas 2 G2 Tuna",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.527934,
+          59.626101
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

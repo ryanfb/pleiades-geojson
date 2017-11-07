@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lefkandi",
   "id": "540909",
-  "description": "A coastal village on the island of Euboea known especially for rich Bronze Age and Iron Age material.",
   "bbox": [
     23.682171,
     38.411782,
     23.682171,
     38.411782
   ],
+  "description": "A coastal village on the island of Euboea known especially for rich Bronze Age and Iron Age material.",
   "connectsWith": [
     "540775"
   ],
-  "reprPoint": [
-    23.682171,
-    38.411782
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.682171,
+          38.411782
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

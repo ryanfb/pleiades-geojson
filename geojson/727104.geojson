@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Deir Abou Makar",
   "id": "727104",
-  "description": "A Coptic Orthodox monastery located in the Wadi El Natrun northwest of Cairo.",
   "bbox": [
     30.475868,
     30.291768,
     30.47861,
     30.292473
   ],
-  "reprPoint": [
-    30.477239,
-    30.2921205
-  ],
+  "description": "A Coptic Orthodox monastery located in the Wadi El Natrun northwest of Cairo.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.477239,
+          30.2921205
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

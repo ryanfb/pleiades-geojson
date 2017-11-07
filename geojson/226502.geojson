@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abrikosovka",
   "id": "226502",
-  "description": "An ancient place, cited: BAtlas 23 I3 Abrikosovka",
   "bbox": [
     35.101541,
     45.108517,
     35.101541,
     45.108517
   ],
-  "reprPoint": [
-    35.101541,
-    45.108517
-  ],
+  "description": "An ancient place, cited: BAtlas 23 I3 Abrikosovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.101541,
+          45.108517
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

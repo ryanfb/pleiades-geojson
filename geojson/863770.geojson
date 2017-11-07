@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Colchis/Lazike",
   "id": "863770",
-  "description": "Colchis/Lazike was an ancient region located to the east of the Black Sea. ",
   "bbox": [
     42.0,
     42.0,
     43.0,
     43.0
   ],
-  "reprPoint": [
-    42.5,
-    42.5
-  ],
+  "description": "Colchis/Lazike was an ancient region located to the east of the Black Sea. ",
   "names": [
     "Colchis",
     "Lazike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

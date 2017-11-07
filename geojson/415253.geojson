@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "415253",
-  "description": "An ancient place, cited: BAtlas 42 A3 unnamed centuriation (Heba)",
   "bbox": [
     11.0,
     42.5,
     11.5,
     43.0
   ],
-  "reprPoint": [
-    11.25,
-    42.75
-  ],
+  "description": "An ancient place, cited: BAtlas 42 A3 unnamed centuriation (Heba)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

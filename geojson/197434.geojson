@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pharus Ins.",
   "id": "197434",
-  "description": "Pharus Ins. (Hvar, Croatia) is an island in the Adriatic Sea.",
   "bbox": [
     16.3896291,
     43.186752,
     16.3896291,
     43.186752
   ],
+  "description": "Pharus Ins. (Hvar, Croatia) is an island in the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    16.3896291,
-    43.186752
   ],
   "names": [
     "Pharus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3896291,
+          43.186752
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

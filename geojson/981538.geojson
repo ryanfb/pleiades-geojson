@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Noricum",
   "id": "981538",
-  "description": "An ancient place, cited: BAtlas 100 J2 Noricum",
   "bbox": [
     10.0,
     45.0,
     15.0,
     50.0
   ],
-  "reprPoint": [
-    12.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 100 J2 Noricum",
   "names": [
     "Noricum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

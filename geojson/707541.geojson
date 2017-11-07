@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Komi",
   "id": "707541",
-  "description": "An ancient place, cited: BAtlas 72 E2 Komi",
   "bbox": [
     33.997992,
     35.42662,
     33.997992,
     35.42662
   ],
+  "description": "An ancient place, cited: BAtlas 72 E2 Komi",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.997992,
-    35.42662
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.997992,
+          35.42662
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

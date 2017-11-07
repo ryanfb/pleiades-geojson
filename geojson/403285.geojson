@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Umbro (river)",
   "id": "403285",
-  "description": "A river of Etruria that flows from Castelnuovo Berardenga to the Tyrrhenian Sea.",
   "bbox": [
     11.013056,
     42.658611,
     11.5041267,
     43.3746783
   ],
+  "description": "A river of Etruria that flows from Castelnuovo Berardenga to the Tyrrhenian Sea.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    11.25859135,
-    43.01664465
   ],
   "names": [
     "Umbro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25859135,
+          43.01664465
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "At(h)esis (river)",
   "id": "393383",
-  "description": "The Adige River is the second longest river in Italy. It flows from the Alps to the Adriatic Sea.",
   "bbox": [
     10.514722,
     45.149722,
     12.320278,
     46.834444
   ],
+  "description": "The Adige River is the second longest river in Italy. It flows from the Alps to the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    11.2765705333,
-    45.8035401
   ],
   "names": [
     "Athesis",
     "Atesis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2765705333,
+          45.8035401
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

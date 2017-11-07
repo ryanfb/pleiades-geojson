@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bastarnae",
   "id": "216728",
-  "description": "An ancient place, cited: BAtlas 22 F3 Bastarnae",
   "bbox": [
     28.0,
     45.0,
     29.0,
     46.0
   ],
-  "reprPoint": [
-    28.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 F3 Bastarnae",
   "names": [
     "Bastarnae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

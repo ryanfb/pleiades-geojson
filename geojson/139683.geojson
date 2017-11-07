@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "139683",
-  "description": "An ancient place, cited: BAtlas 14 H4 unnamed bridge (N Uxellodunum)",
   "bbox": [
     2.0,
     44.0,
     3.0,
     45.0
   ],
-  "reprPoint": [
-    2.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 H4 unnamed bridge (N Uxellodunum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lake Farm Roman fort",
   "id": "600065939",
-  "description": "A Roman vexillation fort.",
   "bbox": [
     -2.0008954,
     50.7898299,
     -2.0008954,
     50.7898299
   ],
-  "reprPoint": [
-    -2.0008954,
-    50.7898299
-  ],
+  "description": "A Roman vexillation fort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0008954,
+          50.7898299
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

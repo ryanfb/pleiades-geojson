@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Issa (island)",
   "id": "197329",
-  "description": "An island in the Adriatic, known today as Vis (Croatian) and Lissa (Italian).",
   "bbox": [
     16.0487874,
     43.0051191,
     16.2581582,
     43.0816728
   ],
+  "description": "An island in the Adriatic, known today as Vis (Croatian) and Lissa (Italian).",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    16.1573423462,
-    43.0469391734
   ],
   "names": [
     "Issa",
@@ -22,6 +18,19 @@
     "Lissa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1573423462,
+          43.0469391734
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Trileukoi (islands)",
   "id": "236689",
-  "description": "Small, rocky islets in Galicia located adjacent to Cabo Ortegal.",
   "bbox": [
     -8.0,
     43.0,
     -7.0,
     44.0
   ],
-  "reprPoint": [
-    -7.5,
-    43.5
-  ],
+  "description": "Small, rocky islets in Galicia located adjacent to Cabo Ortegal.",
   "names": [
     "Trileukoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

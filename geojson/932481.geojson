@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Taboca",
   "id": "932481",
-  "description": "An ancient place, cited: BAtlas 95 D4 Taboca",
   "bbox": [
     51.0,
     25.0,
     52.0,
     26.0
   ],
-  "reprPoint": [
-    51.5,
-    25.5
-  ],
+  "description": "An ancient place, cited: BAtlas 95 D4 Taboca",
   "names": [
     "Taboca"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

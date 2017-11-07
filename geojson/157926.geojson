@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sentii",
   "id": "157926",
-  "description": "An ancient place, cited: BAtlas 16 B2 Sentii",
   "bbox": [
     6.0,
     43.5,
     6.5,
     44.0
   ],
-  "reprPoint": [
-    6.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B2 Sentii",
   "names": [
     "Sentii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

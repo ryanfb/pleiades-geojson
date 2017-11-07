@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Panos Pr.",
   "id": "589975",
-  "description": "An ancient place, cited: BAtlas 60 G3 Panos Pr.",
   "bbox": [
     26.5,
     34.5,
     27.0,
     35.0
   ],
-  "reprPoint": [
-    26.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 G3 Panos Pr.",
   "names": [
     "Panos Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

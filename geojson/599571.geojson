@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chersonesos",
   "id": "599571",
-  "description": "An ancient place, cited: BAtlas 61 G4 Chersonesos",
   "bbox": [
     28.0,
     36.5,
     28.5,
     37.0
   ],
-  "reprPoint": [
-    28.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 G4 Chersonesos",
   "names": [
     "Chersonesos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

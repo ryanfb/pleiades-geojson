@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Roche-Maurice",
   "id": "69558",
-  "description": "An ancient place, cited: BAtlas 7 B3 La Roche-Maurice",
   "bbox": [
     -4.202029,
     48.471279,
     -4.202029,
     48.471279
   ],
-  "reprPoint": [
-    -4.202029,
-    48.471279
-  ],
+  "description": "An ancient place, cited: BAtlas 7 B3 La Roche-Maurice",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.202029,
+          48.471279
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

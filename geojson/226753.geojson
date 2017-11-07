@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarmatica",
   "id": "226753",
-  "description": "An ancient place, cited: BAtlas 23 C3 Sarmatica",
   "bbox": [
     29.0,
     45.0,
     30.0,
     46.0
   ],
-  "reprPoint": [
-    29.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 C3 Sarmatica",
   "names": [
     "Sarmatica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

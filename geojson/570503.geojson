@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nedon (river)",
   "id": "570503",
-  "description": "An ancient place, cited: BAtlas 58 C3 Nedon fl.",
   "bbox": [
     22.0,
     37.0,
     22.5,
     37.5
   ],
-  "reprPoint": [
-    22.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C3 Nedon fl.",
   "names": [
     "Nedon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

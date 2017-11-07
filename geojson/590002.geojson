@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Polyaigos (island)",
   "id": "590002",
-  "description": "An ancient place, cited: BAtlas 60 C5 Polyaigos Ins.",
   "bbox": [
     24.64,
     36.76,
     24.64,
     36.76
   ],
+  "description": "An ancient place, cited: BAtlas 60 C5 Polyaigos Ins.",
   "connectsWith": [
     "560221",
     "560353"
-  ],
-  "reprPoint": [
-    24.64,
-    36.76
   ],
   "names": [
     "Polyaigos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.64,
+          36.76
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

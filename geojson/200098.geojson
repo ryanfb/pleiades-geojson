@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200098",
-  "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry group (N Pultovia)",
   "bbox": [
     15.557024,
     46.465715,
     15.557024,
     46.465715
   ],
-  "reprPoint": [
-    15.557024,
-    46.465715
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry group (N Pultovia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.557024,
+          46.465715
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

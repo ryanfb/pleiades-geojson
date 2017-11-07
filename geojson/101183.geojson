@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Cimbri",
   "id": "101183",
-  "description": "A Germanic tribe that made war against the Roman Republic between 113 and 101 BC.",
   "bbox": [
     5.0,
     45.0,
     10.0,
     50.0
   ],
+  "description": "A Germanic tribe that made war against the Roman Republic between 113 and 101 BC.",
   "connectsWith": [
     "1000"
-  ],
-  "reprPoint": [
-    7.5,
-    47.5
   ],
   "names": [
     "Cimbri"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "undetermined",
       "type": "Feature",
       "properties": {

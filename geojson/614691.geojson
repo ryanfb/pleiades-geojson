@@ -2,26 +2,36 @@
   "type": "FeatureCollection",
   "title": "Kastollos",
   "id": "614691",
-  "description": "An ancient place, cited: BAtlas 62 unlocated Kastollos",
   "bbox": [
     28.5,
     38.5,
     29.0,
     39.0
   ],
+  "description": "An ancient place, cited: BAtlas 62 unlocated Kastollos",
   "connectsWith": [
     "609426",
     "614706"
-  ],
-  "reprPoint": [
-    28.75,
-    38.75
   ],
   "names": [
     "Kastollos"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "undetermined",
       "type": "Feature",
       "properties": {

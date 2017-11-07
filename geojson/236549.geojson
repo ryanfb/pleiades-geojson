@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Mozinho",
   "id": "236549",
-  "description": "An ancient place, cited: BAtlas 24 C3 Monte Mozinho",
   "bbox": [
     -8.3117268,
     41.146493,
     -8.29381,
     41.1477
   ],
-  "reprPoint": [
-    -8.3027684,
-    41.1470965
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C3 Monte Mozinho",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3027684,
+          41.1470965
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

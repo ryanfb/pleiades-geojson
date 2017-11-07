@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Kophen/Koa (river)",
   "id": "59886",
-  "description": "The Kabul River follows a course of ca. 700 km from the Hindu Kush Mountains to the Indus River near Attock, Pakistan.",
   "bbox": [
     72.232222,
     33.916667,
     72.232222,
     33.916667
   ],
+  "description": "The Kabul River follows a course of ca. 700 km from the Hindu Kush Mountains to the Indus River near Attock, Pakistan.",
   "connectsWith": [
     "59851"
-  ],
-  "reprPoint": [
-    72.232222,
-    33.916667
   ],
   "names": [
     "Kophen",
@@ -22,6 +18,19 @@
     "Cephen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.232222,
+          33.916667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

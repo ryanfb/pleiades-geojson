@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ramat Yishay",
   "id": "678358",
-  "description": "An ancient place, cited: BAtlas 69 B4 Ramat Yishay",
   "bbox": [
     35.175681,
     32.703652,
     35.175681,
     32.703652
   ],
-  "reprPoint": [
-    35.175681,
-    32.703652
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Ramat Yishay",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.175681,
+          32.703652
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

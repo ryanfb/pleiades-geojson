@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Temos (river)",
   "id": "472030",
-  "description": "The Temo river.",
   "bbox": [
     8.5340551,
     40.3325798,
     8.5340551,
     40.3325798
   ],
+  "description": "The Temo river.",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    8.5340551,
-    40.3325798
   ],
   "names": [
     "Temos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5340551,
+          40.3325798
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

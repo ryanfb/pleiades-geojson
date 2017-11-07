@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Aroanios (river)",
   "id": "570114",
-  "description": "An ancient place, cited: BAtlas 58 C2 Aroanios fl.",
   "bbox": [
     22.0,
     37.5,
     22.5,
     38.0
   ],
-  "reprPoint": [
-    22.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C2 Aroanios fl.",
   "names": [
     "Aroanios",
     "Olbios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

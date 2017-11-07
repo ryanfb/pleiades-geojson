@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "2",
   "id": "612308",
-  "description": "An ancient place, cited: BAtlas 62 E2 no. 2 (sanctuary near Yazıdere)",
   "bbox": [
     30.5,
     39.5,
     31.0,
     40.0
   ],
-  "reprPoint": [
-    30.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E2 no. 2 (sanctuary near Yazıdere)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

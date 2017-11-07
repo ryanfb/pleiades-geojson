@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Viniolae",
   "id": "472045",
-  "description": "An ancient place, cited: BAtlas 48 B2 Viniolae",
   "bbox": [
     9.0,
     40.0,
     10.0,
     41.0
   ],
+  "description": "An ancient place, cited: BAtlas 48 B2 Viniolae",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    9.5,
-    40.5
   ],
   "names": [
     "Viniolae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

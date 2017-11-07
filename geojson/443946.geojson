@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ponte di Santo Spirito",
   "id": "443946",
-  "description": "A Roman bridge over Torrente della Ginestra near Aequum Tuticum along the Via Traiana.",
   "bbox": [
     15.0,
     41.0,
     15.5,
     41.5
   ],
-  "reprPoint": [
-    15.25,
-    41.25
-  ],
+  "description": "A Roman bridge over Torrente della Ginestra near Aequum Tuticum along the Via Traiana.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

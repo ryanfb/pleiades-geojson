@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dacia",
   "id": "207065",
-  "description": "Dacia was a regions inhabited by the Dacians or Getae. A Dacian kingdom existed from ca. the early first century BC until the Roman conquest under Trajan in AD 106.",
   "bbox": [
     22.0,
     45.0,
     23.0,
     46.0
   ],
-  "reprPoint": [
-    22.5,
-    45.5
-  ],
+  "description": "Dacia was a regions inhabited by the Dacians or Getae. A Dacian kingdom existed from ca. the early first century BC until the Roman conquest under Trajan in AD 106.",
   "names": [
     "Dacia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kalota",
   "id": "658492",
-  "description": "An ancient place, cited: BAtlas 67 D4 Kalota",
   "bbox": [
     36.936019,
     36.352635,
     36.936019,
     36.352635
   ],
-  "reprPoint": [
-    36.936019,
-    36.352635
-  ],
+  "description": "An ancient place, cited: BAtlas 67 D4 Kalota",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.936019,
+          36.352635
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

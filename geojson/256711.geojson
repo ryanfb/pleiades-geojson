@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "256711",
-  "description": "An ancient place, cited: BAtlas 26 D5 unnamed aqueduct (near Ad Pontem at Tres Caminos)",
   "bbox": [
     -7.0,
     36.0,
     -6.0,
     37.0
   ],
-  "reprPoint": [
-    -6.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D5 unnamed aqueduct (near Ad Pontem at Tres Caminos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

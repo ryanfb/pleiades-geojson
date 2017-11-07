@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Munda (river)",
   "id": "256316",
-  "description": "Munda fl. (Mondego River) is a river of Lusitania.",
   "bbox": [
     -8.344792,
     40.213169,
     -8.344792,
     40.213169
   ],
+  "description": "Munda fl. (Mondego River) is a river of Lusitania.",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -8.344792,
-    40.213169
   ],
   "names": [
     "Munda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.344792,
+          40.213169
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

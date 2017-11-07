@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "315598",
-  "description": "unnamed aqueduct group (Ain Damous near Candidum Pr.)",
   "bbox": [
     9.5,
     37.0,
     10.0,
     37.5
   ],
-  "reprPoint": [
-    9.75,
-    37.25
-  ],
+  "description": "unnamed aqueduct group (Ain Damous near Candidum Pr.)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

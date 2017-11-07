@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Heliopolis",
   "id": "727117",
-  "description": "An ancient place, cited: BAtlas 74 E4 Heliopolis",
   "bbox": [
     31.284786,
     30.131757,
     31.284786,
     30.131757
   ],
-  "reprPoint": [
-    31.284786,
-    30.131757
-  ],
+  "description": "An ancient place, cited: BAtlas 74 E4 Heliopolis",
   "names": [
     "Heliopolis",
     "al-Matarīya",
@@ -40,6 +36,19 @@
     "Tall al-Ḥiṣn"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.284786,
+          30.131757
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

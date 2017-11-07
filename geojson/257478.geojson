@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257478",
-  "description": "An ancient place, cited: BAtlas 26 E2 unnamed bridge (SW Turgalium, over Gibralzo Arroyo)",
   "bbox": [
     -6.0,
     39.0,
     -5.0,
     40.0
   ],
-  "reprPoint": [
-    -5.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E2 unnamed bridge (SW Turgalium, over Gibralzo Arroyo)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

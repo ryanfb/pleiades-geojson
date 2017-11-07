@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "864477",
-  "description": "An ancient place, cited: BAtlas 88 A1 no. 1 (Nakra)",
   "bbox": [
     42.0,
     43.0,
     43.0,
     44.0
   ],
-  "reprPoint": [
-    42.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 A1 no. 1 (Nakra)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

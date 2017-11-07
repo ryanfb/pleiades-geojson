@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Keos (island)",
   "id": "570348",
-  "description": "One of the islands of the Cyclades.",
   "bbox": [
     24.333333,
     37.616667,
     24.333333,
     37.616667
   ],
+  "description": "One of the islands of the Cyclades.",
   "connectsWith": [
     "560353"
-  ],
-  "reprPoint": [
-    24.333333,
-    37.616667
   ],
   "names": [
     "Keos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.333333,
+          37.616667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Komaros Limen",
   "id": "306176341",
-  "description": "A harbor near Actium.",
   "bbox": [
     20.705611,
     39.003828,
     20.705611,
     39.003828
   ],
-  "reprPoint": [
-    20.705611,
-    39.003828
-  ],
+  "description": "A harbor near Actium.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.705611,
+          39.003828
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 23 (Stanley)",
   "id": "967060249",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.040402,
     55.014965,
     -2.040402,
     55.014965
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.040402,
-    55.014965
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.040402,
+          55.014965
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

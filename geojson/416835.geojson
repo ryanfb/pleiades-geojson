@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Novana",
   "id": "416835",
-  "description": "Novana, now unlocated, was a town of Picenum that is only known via Pliny's Natural History. The textual description places the site near Asculum and Cupra.",
   "bbox": [
     13.0,
     43.0,
     13.5,
     43.5
   ],
+  "description": "Novana, now unlocated, was a town of Picenum that is only known via Pliny's Natural History. The textual description places the site near Asculum and Cupra.",
   "connectsWith": [
     "413253"
-  ],
-  "reprPoint": [
-    13.25,
-    43.25
   ],
   "names": [
     "Novana"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

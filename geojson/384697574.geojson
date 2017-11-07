@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Valley of the Kings",
   "id": "384697574",
-  "description": "A valley in Egypt where Pharaonic burials took place from the sixteenth to the eleventh centuries B.C. (Eighteenth to the Twentieth Dynasties).",
   "bbox": [
     32.6007001,
     25.7378571,
     32.603779,
     25.7403861
   ],
-  "reprPoint": [
-    32.60156076,
-    25.7390994
-  ],
+  "description": "A valley in Egypt where Pharaonic burials took place from the sixteenth to the eleventh centuries B.C. (Eighteenth to the Twentieth Dynasties).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.60156076,
+          25.7390994
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

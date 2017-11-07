@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mand/Sitakos? (river)",
   "id": "922675",
-  "description": "An ancient place, cited: BAtlas 94 B5 Mand/Sitakos? fl.",
   "bbox": [
     51.0,
     28.0,
     52.0,
     29.0
   ],
-  "reprPoint": [
-    51.5,
-    28.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 B5 Mand/Sitakos? fl.",
   "names": [
     "Sitakos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          28.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

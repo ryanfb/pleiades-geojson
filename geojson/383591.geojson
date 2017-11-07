@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Binbelli?",
   "id": "383591",
-  "description": "An ancient place, cited: BAtlas 39 A4 Binbelli?",
   "bbox": [
     7.0,
     44.5,
     7.5,
     45.0
   ],
-  "reprPoint": [
-    7.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 A4 Binbelli?",
   "names": [
     "Binbelli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

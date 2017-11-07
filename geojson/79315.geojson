@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Barnsley Park",
   "id": "79315",
-  "description": "A Roman villa occupied between ca. A.D. 140 and the fifth century. It was discovered in 1950.",
   "bbox": [
     -1.890545,
     51.74418,
     -1.890545,
     51.74418
   ],
-  "reprPoint": [
-    -1.890545,
-    51.74418
-  ],
+  "description": "A Roman villa occupied between ca. A.D. 140 and the fifth century. It was discovered in 1950.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.890545,
+          51.74418
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

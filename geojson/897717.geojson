@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Arderikka",
   "id": "897717",
-  "description": "A now unlocated site in Assyria located on the Euphrates river upstream from Babylon.",
   "bbox": [
     44.0,
     31.0,
     45.0,
     32.0
   ],
+  "description": "A now unlocated site in Assyria located on the Euphrates river upstream from Babylon.",
   "connectsWith": [
     "912849"
-  ],
-  "reprPoint": [
-    44.5,
-    31.5
   ],
   "names": [
     "Arderikka"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karpathion Mare",
   "id": "599691",
-  "description": "An ancient place, cited: BAtlas 61 E5 Karpathion Mare",
   "bbox": [
     27.371637,
     36.686188,
     27.37404,
     36.690171
   ],
-  "reprPoint": [
-    27.3728385,
-    36.6881795
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E5 Karpathion Mare",
   "names": [
     "Karpathion Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3728385,
+          36.6881795
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pidasos (river)",
   "id": "550829",
-  "description": "An ancient place, cited: BAtlas 56 F4 Pidasos fl.",
   "bbox": [
     27.5929514,
     38.7033516,
     27.5929514,
     38.7033516
   ],
+  "description": "An ancient place, cited: BAtlas 56 F4 Pidasos fl.",
   "connectsWith": [
     "550827"
-  ],
-  "reprPoint": [
-    27.5929514,
-    38.7033516
   ],
   "names": [
     "Pidasos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5929514,
+          38.7033516
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

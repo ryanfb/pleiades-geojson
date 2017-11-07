@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Rha/Attila (river)",
   "id": "834296",
-  "description": "The modern Volga river is the longest river in Europe.",
   "bbox": [
     39.8658301,
     46.5494165,
     47.9993457,
     57.6632801
   ],
+  "description": "The modern Volga river is the longest river in Europe.",
   "connectsWith": [
     "884130"
-  ],
-  "reprPoint": [
-    43.9325879,
-    52.1063483
   ],
   "names": [
     "Rha",
     "Attila"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9325879,
+          52.1063483
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

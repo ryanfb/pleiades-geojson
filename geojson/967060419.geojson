@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 74 (Burgh Marsh)",
   "id": "967060419",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -3.101239,
     54.926949,
     -3.101239,
     54.926949
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -3.101239,
-    54.926949
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.101239,
+          54.926949
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

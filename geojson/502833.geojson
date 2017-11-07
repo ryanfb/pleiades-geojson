@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "502833",
-  "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (S Skopia, near Lefkopetra)",
   "bbox": [
     23.5,
     41.0,
     24.0,
     41.5
   ],
-  "reprPoint": [
-    23.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B2 unnamed bridge (S Skopia, near Lefkopetra)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

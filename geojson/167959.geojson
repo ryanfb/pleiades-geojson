@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Veneni",
   "id": "167959",
-  "description": "An ancient place, cited: BAtlas 17 I4 Veneni",
   "bbox": [
     7.0,
     44.5,
     7.5,
     45.0
   ],
-  "reprPoint": [
-    7.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 I4 Veneni",
   "names": [
     "Veneni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

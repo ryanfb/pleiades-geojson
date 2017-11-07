@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 44 (Allolee)",
   "id": "967060361",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.487892,
     54.99611,
     -2.487892,
     54.99611
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.487892,
-    54.99611
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.487892,
+          54.99611
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Igilium (island)",
   "id": "403221",
-  "description": "An island in the Tyrrhenian Sea with Etruscan and Roman occupation.",
   "bbox": [
     10.9,
     42.35,
     10.9,
     42.35
   ],
+  "description": "An island in the Tyrrhenian Sea with Etruscan and Roman occupation.",
   "connectsWith": [
     "490307091",
     "1356"
-  ],
-  "reprPoint": [
-    10.9,
-    42.35
   ],
   "names": [
     "Igilium",
     "Isola del Giglio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9,
+          42.35
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

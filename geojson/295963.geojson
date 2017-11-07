@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "295963",
-  "description": "An ancient place, cited: BAtlas 30 C3 unnamed aqueduct (Oued Mélah, at Gunugu)",
   "bbox": [
     1.5,
     36.5,
     2.0,
     37.0
   ],
-  "reprPoint": [
-    1.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 30 C3 unnamed aqueduct (Oued Mélah, at Gunugu)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

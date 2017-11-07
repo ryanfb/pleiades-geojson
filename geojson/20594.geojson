@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarmaticus Oceanus",
   "id": "20594",
-  "description": "Sarmaticus Oceanus (The Baltic Sea)",
   "bbox": [
     18.0,
     56.0,
     18.0,
     56.0
   ],
-  "reprPoint": [
-    18.0,
-    56.0
-  ],
+  "description": "Sarmaticus Oceanus (The Baltic Sea)",
   "names": [
     "Sarmaticus Oceanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0,
+          56.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

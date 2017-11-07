@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Coin",
   "id": "256110",
-  "description": "An ancient place, cited: BAtlas 26 F5 Coin",
   "bbox": [
     -4.760354,
     36.658679,
     -4.760354,
     36.658679
   ],
-  "reprPoint": [
-    -4.760354,
-    36.658679
-  ],
+  "description": "An ancient place, cited: BAtlas 26 F5 Coin",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.760354,
+          36.658679
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

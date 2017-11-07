@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gallitae?",
   "id": "157859",
-  "description": "An ancient place, cited: BAtlas 16 B1 Gallitae?",
   "bbox": [
     6.0,
     44.0,
     6.5,
     44.5
   ],
-  "reprPoint": [
-    6.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B1 Gallitae?",
   "names": [
     "Gallitae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

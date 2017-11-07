@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kerkichi",
   "id": "961923",
-  "description": "An ancient place, cited: BAtlas 98 F1 Kerkichi",
   "bbox": [
     65.243572,
     37.846709,
     65.243572,
     37.846709
   ],
-  "reprPoint": [
-    65.243572,
-    37.846709
-  ],
+  "description": "An ancient place, cited: BAtlas 98 F1 Kerkichi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.243572,
+          37.846709
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

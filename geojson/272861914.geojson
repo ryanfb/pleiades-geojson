@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Borg",
   "id": "272861914",
-  "description": "A large Roman courtyard villa covering ca. 7.5 ha.",
   "bbox": [
     6.4591322,
     49.4970574,
     6.4591322,
     49.4970574
   ],
-  "reprPoint": [
-    6.4591322,
-    49.4970574
-  ],
+  "description": "A large Roman courtyard villa covering ca. 7.5 ha.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4591322,
+          49.4970574
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

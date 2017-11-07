@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Chat(t)anoi",
   "id": "716542",
-  "description": "An ancient place, cited: None",
   "bbox": [
     26.0,
     31.0,
     27.0,
     32.0
   ],
-  "reprPoint": [
-    26.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: None",
   "names": [
     " Chattanoi",
     " Chatanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

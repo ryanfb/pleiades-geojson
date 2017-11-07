@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Prata Aureliana",
   "id": "109262",
-  "description": "An ancient place, cited: BAtlas 11 H2 Prata Aureliana",
   "bbox": [
     7.0,
     50.0,
     8.0,
     51.0
   ],
-  "reprPoint": [
-    7.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 H2 Prata Aureliana",
   "names": [
     "Prata Aureliana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

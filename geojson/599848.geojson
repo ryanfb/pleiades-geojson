@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Palaiokastro",
   "id": "599848",
-  "description": "An ancient place, cited: BAtlas 61 A3 Palaiokastro",
   "bbox": [
     25.390864,
     37.452996,
     25.390864,
     37.452996
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Palaiokastro",
   "connectsWith": [
     "599808"
   ],
-  "reprPoint": [
-    25.390864,
-    37.452996
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.390864,
+          37.452996
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

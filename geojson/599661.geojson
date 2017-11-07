@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hyria",
   "id": "599661",
-  "description": "A sixth century B.C. sanctuary located on the island of Naxos.",
   "bbox": [
     25.384936,
     37.081141,
     25.384936,
     37.081141
   ],
+  "description": "A sixth century B.C. sanctuary located on the island of Naxos.",
   "connectsWith": [
     "599822"
   ],
-  "reprPoint": [
-    25.384936,
-    37.081141
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.384936,
+          37.081141
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

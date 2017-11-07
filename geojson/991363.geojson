@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Praevalitana",
   "id": "991363",
-  "description": "An ancient place, cited: BAtlas 101 K3 Praevalitana",
   "bbox": [
     15.0,
     40.0,
     20.0,
     45.0
   ],
-  "reprPoint": [
-    17.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 K3 Praevalitana",
   "names": [
     "Praevalitana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

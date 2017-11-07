@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Creta",
   "id": "991373",
-  "description": "An ancient place, cited: BAtlas 101 L4 Creta",
   "bbox": [
     20.0,
     35.0,
     25.0,
     40.0
   ],
-  "reprPoint": [
-    22.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 L4 Creta",
   "names": [
     "Creta"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

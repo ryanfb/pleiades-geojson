@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Phalarium",
   "id": "333222070",
-  "description": "A fortress named after  Phalaris, a tyrant of Acragas and located near the Himera River.",
   "bbox": [
     13.9471878,
     37.1005387,
     13.9471878,
     37.1005387
   ],
+  "description": "A fortress named after  Phalaris, a tyrant of Acragas and located near the Himera River.",
   "connectsWith": [
     "462492",
     "462246"
   ],
-  "reprPoint": [
-    13.9471878,
-    37.1005387
-  ],
   "names": [
     "Phalarium"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9471878,
+          37.1005387
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

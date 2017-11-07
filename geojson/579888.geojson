@@ -2,19 +2,30 @@
   "type": "FeatureCollection",
   "title": "Attica",
   "id": "579888",
-  "description": "Historical region of Greece, centered on the Attic peninsula.",
   "bbox": [
     23.374906,
     37.82377,
     24.028009,
     38.223418
   ],
-  "reprPoint": [
-    23.8189911,
-    38.0519988333
-  ],
+  "description": "Historical region of Greece, centered on the Attic peninsula.",
   "names": [
     "Attica",
     "Attikḗ"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8189911,
+          38.0519988333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

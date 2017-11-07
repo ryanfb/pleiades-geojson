@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Anigraia",
   "id": "570083",
-  "description": "An ancient place, cited: BAtlas 58 D3 Anigraia",
   "bbox": [
     22.5,
     37.0,
     23.0,
     37.5
   ],
-  "reprPoint": [
-    22.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D3 Anigraia",
   "names": [
     "Anigraia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sestu",
   "id": "472017",
-  "description": "An ancient place, cited: BAtlas 48 B3 Sestu",
   "bbox": [
     9.094067,
     39.295471,
     9.094067,
     39.295471
   ],
+  "description": "An ancient place, cited: BAtlas 48 B3 Sestu",
   "connectsWith": [
     "472014"
   ],
-  "reprPoint": [
-    9.094067,
-    39.295471
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.094067,
+          39.295471
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

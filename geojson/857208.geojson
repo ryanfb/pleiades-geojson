@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Laodikeia",
   "id": "857208",
-  "description": "An ancient place, cited: BAtlas 87 A4 Laodikeia",
   "bbox": [
     35.0,
     40.0,
     36.0,
     41.0
   ],
-  "reprPoint": [
-    35.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 A4 Laodikeia",
   "names": [
     "Laodikeia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Heronbridge",
   "id": "79509",
-  "description": "Site of Romano-British settlement or small town",
   "bbox": [
     -2.885821,
     53.164452,
     -2.880177,
     53.170901
   ],
-  "reprPoint": [
-    -2.88331858794,
-    53.1689641004
-  ],
+  "description": "Site of Romano-British settlement or small town",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.88331858794,
+          53.1689641004
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

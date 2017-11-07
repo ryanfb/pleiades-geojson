@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre Mordillo",
   "id": "452480",
-  "description": "Site of a late Bronze Age village in Calabria.",
   "bbox": [
     16.3155824,
     39.7151976,
     16.3155824,
     39.7151976
   ],
-  "reprPoint": [
-    16.3155824,
-    39.7151976
-  ],
+  "description": "Site of a late Bronze Age village in Calabria.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3155824,
+          39.7151976
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

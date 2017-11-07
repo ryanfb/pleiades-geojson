@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kennatis",
   "id": "648666",
-  "description": "An ancient place, cited: BAtlas 66 D3 Kennatis",
   "bbox": [
     33.5,
     36.5,
     34.0,
     37.0
   ],
-  "reprPoint": [
-    33.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 66 D3 Kennatis",
   "names": [
     "Kennatis",
     "Kennateis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

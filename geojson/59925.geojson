@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mega Stoma",
   "id": "59925",
-  "description": "An ancient place, cited: BAtlas 6 F5 Mega Stoma",
   "bbox": [
     85.0,
     20.0,
     90.0,
     25.0
   ],
-  "reprPoint": [
-    87.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 F5 Mega Stoma",
   "names": [
     "Mega Stoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

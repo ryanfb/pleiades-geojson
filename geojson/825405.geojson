@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Theophanios (river)",
   "id": "825405",
-  "description": "An ancient place, cited: BAtlas 84 E2 Theophanios fl.",
   "bbox": [
     39.0,
     46.0,
     40.0,
     47.0
   ],
-  "reprPoint": [
-    39.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 E2 Theophanios fl.",
   "names": [
     "Theophanios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

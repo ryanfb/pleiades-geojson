@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Oescus (river)",
   "id": "216908",
-  "description": "The Oescus river (modern Iskar) is a river of Bulgaria and tributary of the Danube.",
   "bbox": [
     23.5370147,
     42.5159742,
     23.5370147,
     42.5159742
   ],
+  "description": "The Oescus river (modern Iskar) is a river of Bulgaria and tributary of the Danube.",
   "connectsWith": [
     "226577"
-  ],
-  "reprPoint": [
-    23.5370147,
-    42.5159742
   ],
   "names": [
     "Oescus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5370147,
+          42.5159742
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

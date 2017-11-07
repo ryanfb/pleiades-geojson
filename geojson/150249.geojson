@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "150249",
-  "description": "An ancient place, cited: BAtlas 15 B2 unnamed centuriation (around Sextantio (Nîmes II/Sextantio))",
   "bbox": [
     3.5,
     43.5,
     4.0,
     44.0
   ],
-  "reprPoint": [
-    3.75,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 B2 unnamed centuriation (around Sextantio (Nîmes II/Sextantio))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

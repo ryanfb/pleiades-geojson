@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monterano",
   "id": "413213",
-  "description": "An ancient place, cited: BAtlas 42 C4 Monterano",
   "bbox": [
     12.103211,
     42.137641,
     12.103211,
     42.137641
   ],
-  "reprPoint": [
-    12.103211,
-    42.137641
-  ],
+  "description": "An ancient place, cited: BAtlas 42 C4 Monterano",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.103211,
+          42.137641
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

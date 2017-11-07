@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed villa",
   "id": "963101343",
-  "description": "An unnamed villa of Tripolitana",
   "bbox": [
     10.677023,
     33.622034,
     10.677023,
     33.622034
   ],
-  "reprPoint": [
-    10.677023,
-    33.622034
-  ],
+  "description": "An unnamed villa of Tripolitana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.677023,
+          33.622034
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

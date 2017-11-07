@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sagaris/Rhode (river)",
   "id": "226747",
-  "description": "An ancient place, cited: BAtlas 23 E1 Sagaris/Rhode fl.",
   "bbox": [
     31.0,
     47.0,
     32.0,
     48.0
   ],
-  "reprPoint": [
-    31.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 E1 Sagaris/Rhode fl.",
   "names": [
     "Sagaris",
     "Rhode"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

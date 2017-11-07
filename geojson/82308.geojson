@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "82308",
-  "description": "An ancient place, cited: BAtlas 8 F1 unnamed quarry (NE Carsington)",
   "bbox": [
     -2.0,
     53.0,
     -1.0,
     54.0
   ],
-  "reprPoint": [
-    -1.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 F1 unnamed quarry (NE Carsington)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

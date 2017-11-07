@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lucani",
   "id": "452371",
-  "description": "An ancient Oscan-speaking population of south Italy.",
   "bbox": [
     16.669239,
     40.220362,
     16.669239,
     40.220362
   ],
-  "reprPoint": [
-    16.669239,
-    40.220362
-  ],
+  "description": "An ancient Oscan-speaking population of south Italy.",
   "names": [
     "Lucani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.669239,
+          40.220362
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

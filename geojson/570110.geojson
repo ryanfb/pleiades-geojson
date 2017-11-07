@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Arkadikos (river)",
   "id": "570110",
-  "description": "An ancient place, cited: BAtlas 58 B3 Arkadikos fl.",
   "bbox": [
     21.5,
     37.0,
     22.0,
     37.5
   ],
-  "reprPoint": [
-    21.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 B3 Arkadikos fl.",
   "names": [
     "Arkadikos",
     "Amathos",
@@ -20,6 +16,19 @@
     "Pamisos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

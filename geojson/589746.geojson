@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chrysea (island)",
   "id": "589746",
-  "description": "An ancient place, cited: BAtlas 60 E3 Chrysea Ins.",
   "bbox": [
     25.5,
     34.5,
     26.0,
     35.0
   ],
-  "reprPoint": [
-    25.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E3 Chrysea Ins.",
   "names": [
     "Chrysea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

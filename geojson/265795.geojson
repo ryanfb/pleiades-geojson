@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alonis Ins.",
   "id": "265795",
-  "description": "An ancient place, cited: BAtlas 27 E3 Alonis Ins.",
   "bbox": [
     -1.0,
     38.0,
     0.0,
     39.0
   ],
-  "reprPoint": [
-    -0.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E3 Alonis Ins.",
   "names": [
     "Alonis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

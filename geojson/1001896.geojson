@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Hellas",
   "id": "1001896",
-  "description": "An ancient place, cited: BAtlas 102 D4 no. 10 (Hellas)",
   "bbox": [
     20.0,
     35.0,
     25.0,
     40.0
   ],
-  "reprPoint": [
-    22.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 D4 no. 10 (Hellas)",
   "names": [
     "Hellas",
     "Hellas",
     "Elláda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

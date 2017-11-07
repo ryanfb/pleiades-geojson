@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Chaarene/Arana",
   "id": "59766",
-  "description": "An ancient place, cited: BAtlas 6 A4 Chaarene/Arana",
   "bbox": [
     60.0,
     25.0,
     65.0,
     30.0
   ],
-  "reprPoint": [
-    62.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 A4 Chaarene/Arana",
   "names": [
     "Chaarene",
     "Arana",
     "Rhana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

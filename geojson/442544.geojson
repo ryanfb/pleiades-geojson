@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chones",
   "id": "442544",
-  "description": "Chones, an ancient Lucanian tribe.",
   "bbox": [
     16.0,
     40.0,
     16.5,
     40.5
   ],
-  "reprPoint": [
-    16.25,
-    40.25
-  ],
+  "description": "Chones, an ancient Lucanian tribe.",
   "names": [
     "Chones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

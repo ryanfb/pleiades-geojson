@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyrenaeus Saltus",
   "id": "246584",
-  "description": "An ancient place, cited: BAtlas 25 F3 Pyrenaeus Saltus",
   "bbox": [
     0.0,
     42.0,
     1.0,
     43.0
   ],
-  "reprPoint": [
-    0.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F3 Pyrenaeus Saltus",
   "names": [
     "Pyrenaeus Saltus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

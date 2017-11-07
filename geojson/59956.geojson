@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Oreitae/Nearti",
   "id": "59956",
-  "description": "An ancient people dwelling on the coast of Gedrosia and encountered by Alexander during his march from the Indus river to Persia.",
   "bbox": [
     65.0,
     25.0,
     70.0,
     30.0
   ],
-  "reprPoint": [
-    67.5,
-    27.5
-  ],
+  "description": "An ancient people dwelling on the coast of Gedrosia and encountered by Alexander during his march from the Indus river to Persia.",
   "names": [
     "Oreitae",
     "Nearti",
@@ -23,6 +19,19 @@
     "Oroi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

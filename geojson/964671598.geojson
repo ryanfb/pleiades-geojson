@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sapinuwa",
   "id": "964671598",
-  "description": "Bronze Age Hittite city at the location of modern Ortaköy, Turkey",
   "bbox": [
     35.25,
     40.266667,
     35.25,
     40.266667
   ],
-  "reprPoint": [
-    35.25,
-    40.266667
-  ],
+  "description": "Bronze Age Hittite city at the location of modern Ortaköy, Turkey",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          40.266667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

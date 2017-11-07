@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cuevas de Soria",
   "id": "246361",
-  "description": "A classic peristyle villa located 23 km southwest of Numancia.",
   "bbox": [
     -2.631531,
     41.679268,
     -2.631531,
     41.679268
   ],
-  "reprPoint": [
-    -2.631531,
-    41.679268
-  ],
+  "description": "A classic peristyle villa located 23 km southwest of Numancia.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.631531,
+          41.679268
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

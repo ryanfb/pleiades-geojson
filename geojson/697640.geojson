@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Basta",
   "id": "697640",
-  "description": "An ancient place, cited: BAtlas 71 B5 Basta",
   "bbox": [
     35.5,
     30.0,
     36.0,
     30.5
   ],
-  "reprPoint": [
-    35.75,
-    30.25
-  ],
+  "description": "An ancient place, cited: BAtlas 71 B5 Basta",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          30.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

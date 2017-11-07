@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Firka",
   "id": "795807",
-  "description": "An ancient place, cited: BAtlas 81 A5 Firka",
   "bbox": [
     30.591101,
     20.894209,
     30.591101,
     20.894209
   ],
-  "reprPoint": [
-    30.591101,
-    20.894209
-  ],
+  "description": "An ancient place, cited: BAtlas 81 A5 Firka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.591101,
+          20.894209
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

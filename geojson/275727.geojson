@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sububus (river)",
   "id": "275727",
-  "description": "An ancient place, cited: BAtlas 28 A5 Sububus fl.",
   "bbox": [
     -7.0,
     34.0,
     -6.5,
     34.5
   ],
-  "reprPoint": [
-    -6.75,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 A5 Sububus fl.",
   "names": [
     "Sububus",
     "Sububa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.75,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

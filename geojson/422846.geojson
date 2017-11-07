@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Astura (river)",
   "id": "422846",
-  "description": "An ancient place, cited: BAtlas 43 D4 Astura fl.",
   "bbox": [
     12.7504171,
     41.5180973,
     12.7504171,
     41.5180973
   ],
+  "description": "An ancient place, cited: BAtlas 43 D4 Astura fl.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    12.7504171,
-    41.5180973
   ],
   "names": [
     "Astura"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7504171,
+          41.5180973
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

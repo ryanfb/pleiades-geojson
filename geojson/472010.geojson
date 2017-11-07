@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Saipros (river)",
   "id": "472010",
-  "description": "Flumendosa river.",
   "bbox": [
     9.4282641,
     39.9518039,
     9.4282641,
     39.9518039
   ],
+  "description": "Flumendosa river.",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    9.4282641,
-    39.9518039
   ],
   "names": [
     "Saipros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4282641,
+          39.9518039
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

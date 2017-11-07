@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Lathon/Leton (river)",
   "id": "373839",
-  "description": "An ancient place, cited: BAtlas 38 B1 Lathon/Leton fl.",
   "bbox": [
     20.0,
     32.0,
     21.0,
     33.0
   ],
-  "reprPoint": [
-    20.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 38 B1 Lathon/Leton fl.",
   "names": [
     "Lathon",
     "Leton",
     "Lethe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

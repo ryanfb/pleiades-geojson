@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Numisiae",
   "id": "471980",
-  "description": "An ancient place, cited: BAtlas 48 A2 Numisiae",
   "bbox": [
     8.0,
     40.0,
     9.0,
     41.0
   ],
-  "reprPoint": [
-    8.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 A2 Numisiae",
   "names": [
     "Numisiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

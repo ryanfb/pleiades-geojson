@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Boii?",
   "id": "138233",
-  "description": "An ancient place, cited: BAtlas 14 I2 Boii?",
   "bbox": [
     3.0,
     46.0,
     4.0,
     47.0
   ],
-  "reprPoint": [
-    3.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 I2 Boii?",
   "names": [
     "Boii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Salsum (river)",
   "id": "256418",
-  "description": "The Guadajoz river.",
   "bbox": [
     -5.0,
     37.0,
     -4.0,
     38.0
   ],
-  "reprPoint": [
-    -4.5,
-    37.5
-  ],
+  "description": "The Guadajoz river.",
   "names": [
     "Salsum",
     "Guadaxox (Ribera del Guadaxox)",
     "Río Guadajoz"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

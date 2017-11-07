@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aquae Albulae",
   "id": "422841",
-  "description": "A group of springs located west of Tibur (modern Tivoli). The main spring, known as Lago della Regina, preserves traces of an ancient Roman bath.",
   "bbox": [
     12.716667,
     41.95,
     12.716667,
     41.95
   ],
-  "reprPoint": [
-    12.716667,
-    41.95
-  ],
+  "description": "A group of springs located west of Tibur (modern Tivoli). The main spring, known as Lago della Regina, preserves traces of an ancient Roman bath.",
   "names": [
     "Aquae Albulae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.716667,
+          41.95
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

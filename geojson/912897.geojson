@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Larsa",
   "id": "912897",
-  "description": "Larsa was an important city of ancient Sumeria. It was a center of the cult of Utu, the sun god.",
   "bbox": [
     45.853611,
     31.285833,
     45.853611,
     31.285833
   ],
-  "reprPoint": [
-    45.853611,
-    31.285833
-  ],
+  "description": "Larsa was an important city of ancient Sumeria. It was a center of the cult of Utu, the sun god.",
   "names": [
     "Larsa",
     "Senkere",
@@ -23,6 +19,19 @@
     "as-Sankara"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.853611,
+          31.285833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

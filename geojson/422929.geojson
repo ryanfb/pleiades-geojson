@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Frascati",
   "id": "422929",
-  "description": "An ancient place, cited: BAtlas 43 C2 Frascati",
   "bbox": [
     12.680437,
     41.806236,
     12.680437,
     41.806236
   ],
-  "reprPoint": [
-    12.680437,
-    41.806236
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 Frascati",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.680437,
+          41.806236
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

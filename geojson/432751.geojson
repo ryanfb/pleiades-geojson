@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Capreae",
   "id": "432751",
-  "description": "Settlement on the island of Capreae.",
   "bbox": [
     14.242922,
     40.549303,
     14.243534,
     40.550917
   ],
+  "description": "Settlement on the island of Capreae.",
   "connectsWith": [
     "432752"
-  ],
-  "reprPoint": [
-    14.243228,
-    40.55011
   ],
   "names": [
     "Capreae",
     "Capri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.243228,
+          40.55011
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

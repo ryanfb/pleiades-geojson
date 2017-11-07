@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ariake/Larike",
   "id": "59700",
-  "description": "An ancient place, cited: BAtlas 6 C5 Ariake/Larike",
   "bbox": [
     70.0,
     20.0,
     75.0,
     25.0
   ],
-  "reprPoint": [
-    72.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C5 Ariake/Larike",
   "names": [
     "Ariake",
     "Larike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

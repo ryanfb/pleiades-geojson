@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Atlanticus Oceanus",
   "id": "845",
-  "description": "Atlanticus Oceanus (The Atlantic Ocean) likely derives its name from Atlas, one of the Titans of Greek mythology. The Atlantic Ocean covers ca. 20% of the surface of the Earth.",
   "bbox": [
     -16.909722,
     27.966667,
     4.2283744,
     60.3962008
   ],
+  "description": "Atlanticus Oceanus (The Atlantic Ocean) likely derives its name from Atlas, one of the Titans of Greek mythology. The Atlantic Ocean covers ca. 20% of the surface of the Earth.",
   "connectsWith": [
     "993"
-  ],
-  "reprPoint": [
-    -7.07283387281,
-    42.9766527474
   ],
   "names": [
     "Atlanticus Oceanus",
@@ -24,6 +20,19 @@
     "Occidentalis Oceanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.07283387281,
+          42.9766527474
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

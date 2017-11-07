@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "698381",
-  "description": "An ancient place, cited: BAtlas 71 B4 unnamed bridge (over Zered fl. (W) at Wadi el-Hesa)",
   "bbox": [
     35.5,
     30.5,
     36.0,
     31.0
   ],
-  "reprPoint": [
-    35.75,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 71 B4 unnamed bridge (over Zered fl. (W) at Wadi el-Hesa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Neapolis",
   "id": "501522",
-  "description": "An ancient place, cited: BAtlas 51 B4 Neapolis",
   "bbox": [
     23.529229,
     40.017316,
     23.529229,
     40.017316
   ],
-  "reprPoint": [
-    23.529229,
-    40.017316
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B4 Neapolis",
   "names": [
     "Neapolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.529229,
+          40.017316
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tbilisskaya",
   "id": "825400",
-  "description": "An ancient place, cited: BAtlas 84 F3 Tbilisskaya",
   "bbox": [
     40.182948,
     45.362909,
     40.182948,
     45.362909
   ],
-  "reprPoint": [
-    40.182948,
-    45.362909
-  ],
+  "description": "An ancient place, cited: BAtlas 84 F3 Tbilisskaya",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.182948,
+          45.362909
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

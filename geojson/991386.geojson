@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phrygia I",
   "id": "991386",
-  "description": "An ancient place, cited: BAtlas 101 M4 Phrygia I",
   "bbox": [
     25.0,
     35.0,
     30.0,
     40.0
   ],
-  "reprPoint": [
-    27.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 M4 Phrygia I",
   "names": [
     "Phrygia I"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

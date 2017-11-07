@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tripolis",
   "id": "501651",
-  "description": "An ancient place, cited: BAtlas 51 C2 Tripolis",
   "bbox": [
     24.148897,
     41.144676,
     24.148897,
     41.144676
   ],
-  "reprPoint": [
-    24.148897,
-    41.144676
-  ],
+  "description": "An ancient place, cited: BAtlas 51 C2 Tripolis",
   "names": [
     "Tripolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.148897,
+          41.144676
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

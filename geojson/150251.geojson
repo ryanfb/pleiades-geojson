@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "150251",
-  "description": "An ancient place, cited: BAtlas 15 C2 unnamed centuriation (around Rhodanousia (St-Gilles))",
   "bbox": [
     4.0,
     43.5,
     4.5,
     44.0
   ],
-  "reprPoint": [
-    4.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 C2 unnamed centuriation (around Rhodanousia (St-Gilles))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Forum Iulium",
   "id": "445545537",
-  "description": "The Forum Iulium (or Forum of Caesar, Forum Caesaris) is a forum built by Iulius Caesar and dedicated ca. 46 B.C. The main cult of the forum is that of Venus Genetrix.",
   "bbox": [
     12.4847317,
     41.8940361,
     12.4848152,
     41.8941045
   ],
+  "description": "The Forum Iulium (or Forum of Caesar, Forum Caesaris) is a forum built by Iulius Caesar and dedicated ca. 46 B.C. The main cult of the forum is that of Venus Genetrix.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4847839342,
-    41.8940555535
   ],
   "names": [
     "Forum Iulium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4847839342,
+          41.8940555535
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

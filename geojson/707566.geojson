@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lysi",
   "id": "707566",
-  "description": "An ancient place, cited: BAtlas 72 D2 Lysi",
   "bbox": [
     33.669178,
     35.1068,
     33.669178,
     35.1068
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Lysi",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.669178,
-    35.1068
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.669178,
+          35.1068
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Centroni",
   "id": "422888",
-  "description": "An ancient place, cited: BAtlas 43 C2 Centroni",
   "bbox": [
     12.630363,
     41.809525,
     12.630363,
     41.809525
   ],
-  "reprPoint": [
-    12.630363,
-    41.809525
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 Centroni",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.630363,
+          41.809525
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

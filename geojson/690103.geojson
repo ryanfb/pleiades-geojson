@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "690103",
-  "description": "Unnamed route or road",
   "bbox": [
     34.790451,
     31.212093,
     35.348111,
     31.250369
   ],
+  "description": "Unnamed route or road",
   "connectsWith": [
     "687846",
     "687892"
   ],
-  "reprPoint": [
-    35.08186625,
-    31.22991125
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.08186625,
+          31.22991125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 48A (Willowford East)",
   "id": "967060301",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.580442,
     54.989831,
     -2.580321,
     54.989895
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.58038157166,
-    54.9898632164
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.58038157166,
+          54.9898632164
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Apatouros Kolpos",
   "id": "854666",
-  "description": "Apatouros Kolpos (Taman Bay) is a shallow bay or gulf on the east coast of the Strait of Kerch.",
   "bbox": [
     34.7425505,
     43.0786852,
     34.7425505,
     43.0786852
   ],
+  "description": "Apatouros Kolpos (Taman Bay) is a shallow bay or gulf on the east coast of the Strait of Kerch.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    34.7425505,
-    43.0786852
   ],
   "names": [
     "Apatouros Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7425505,
+          43.0786852
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

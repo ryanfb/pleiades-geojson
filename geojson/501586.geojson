@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pyrgos",
   "id": "501586",
-  "description": "An ancient place, cited: BAtlas 51 D3 Pyrgos",
   "bbox": [
     24.778583,
     40.741032,
     24.778583,
     40.741032
   ],
-  "reprPoint": [
-    24.778583,
-    40.741032
-  ],
+  "description": "An ancient place, cited: BAtlas 51 D3 Pyrgos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.778583,
+          40.741032
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

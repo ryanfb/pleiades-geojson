@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Moxoena",
   "id": "874610",
-  "description": "An ancient place, cited: BAtlas 89 E2 Moxoena",
   "bbox": [
     42.0,
     38.0,
     43.0,
     39.0
   ],
-  "reprPoint": [
-    42.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 E2 Moxoena",
   "names": [
     "Moxoena"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

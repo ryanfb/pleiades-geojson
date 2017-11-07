@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mastraciani",
   "id": "324779",
-  "description": "An ancient place, cited: BAtlas 33 B3 Mastraciani",
   "bbox": [
     8.0,
     34.5,
     8.5,
     35.0
   ],
-  "reprPoint": [
-    8.25,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 B3 Mastraciani",
   "names": [
     "Mastraciani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

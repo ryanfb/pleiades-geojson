@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ani",
   "id": "874322",
-  "description": "An ancient place, cited: BAtlas 89 B1 Ani",
   "bbox": [
     39.035555,
     39.602777,
     39.035555,
     39.602777
   ],
-  "reprPoint": [
-    39.035555,
-    39.602777
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B1 Ani",
   "names": [
     "Ani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.035555,
+          39.602777
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

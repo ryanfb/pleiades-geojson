@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Hibis",
   "id": "776181",
-  "description": "An ancient place, cited: BAtlas 79 D3 Hibis",
   "bbox": [
     30.553476,
     25.438054,
     30.553476,
     25.438054
   ],
-  "reprPoint": [
-    30.553476,
-    25.438054
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D3 Hibis",
   "names": [
     "Hibis",
     "Hibiton polis",
     "El-Hiba"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.553476,
+          25.438054
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

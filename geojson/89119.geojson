@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bodotria (river)",
   "id": "89119",
-  "description": "An ancient place, cited: BAtlas 9 C4 Bodotria fl.",
   "bbox": [
     -5.0,
     56.0,
     -4.0,
     57.0
   ],
-  "reprPoint": [
-    -4.5,
-    56.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 C4 Bodotria fl.",
   "names": [
     "Bodotria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          56.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Astura (river)",
   "id": "236348",
-  "description": "Astura fl. (Esla river)",
   "bbox": [
     -5.0214296,
     42.9741022,
     -5.0214296,
     42.9741022
   ],
+  "description": "Astura fl. (Esla river)",
   "connectsWith": [
     "236455"
-  ],
-  "reprPoint": [
-    -5.0214296,
-    42.9741022
   ],
   "names": [
     "Astura"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0214296,
+          42.9741022
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

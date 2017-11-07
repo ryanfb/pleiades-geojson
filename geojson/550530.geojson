@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Emporio",
   "id": "550530",
-  "description": "An ancient place, cited: BAtlas 56 C5 Emporio",
   "bbox": [
     26.018668,
     38.191913,
     26.021824,
     38.201429
   ],
+  "description": "An ancient place, cited: BAtlas 56 C5 Emporio",
   "connectsWith": [
     "550497"
   ],
-  "reprPoint": [
-    26.020246,
-    38.196671
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.020246,
+          38.196671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

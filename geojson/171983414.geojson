@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nuraghe Loelle",
   "id": "171983414",
-  "description": "A nuragic site near Caput Tyrsi.",
   "bbox": [
     9.316006,
     40.568547,
     9.316006,
     40.568547
   ],
+  "description": "A nuragic site near Caput Tyrsi.",
   "connectsWith": [
     "472014",
     "471898"
   ],
-  "reprPoint": [
-    9.316006,
-    40.568547
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.316006,
+          40.568547
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

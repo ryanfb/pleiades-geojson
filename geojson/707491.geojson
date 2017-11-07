@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Barbaros?/[Aoos]? (river)",
   "id": "707491",
-  "description": "An ancient place, cited: BAtlas 72 C2 Barbaros?/[Aoos]? fl.",
   "bbox": [
     33.0,
     35.0,
     33.5,
     35.5
   ],
-  "reprPoint": [
-    33.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 72 C2 Barbaros?/[Aoos]? fl.",
   "names": [
     "Barbaros",
     "[Aoos]"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Malichou islands",
   "id": "39376",
-  "description": "A group of 10 major volcanic islands located in the Red Sea.",
   "bbox": [
     42.1182418,
     15.0787299,
     42.1503457,
     15.1705981
   ],
+  "description": "A group of 10 major volcanic islands located in the Red Sea.",
   "connectsWith": [
     "39290"
-  ],
-  "reprPoint": [
-    42.13429375,
-    15.124664
   ],
   "names": [
     "Malichou"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.13429375,
+          15.124664
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

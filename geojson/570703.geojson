@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Tainaron Pr.",
   "id": "570703",
-  "description": "Tainaron Pr. (Cape Matapan) is the southernmost point of mainland Greece.",
   "bbox": [
     22.482064,
     36.387567,
     22.71,
     36.66
   ],
+  "description": "Tainaron Pr. (Cape Matapan) is the southernmost point of mainland Greece.",
   "connectsWith": [
     "570407",
     "570123",
     "570577"
   ],
-  "reprPoint": [
-    22.596032,
-    36.5237835
-  ],
   "names": [
     "Tainaron Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.596032,
+          36.5237835
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

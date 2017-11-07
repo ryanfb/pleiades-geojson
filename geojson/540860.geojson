@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kephissos (river)",
   "id": "540860",
-  "description": "An ancient place, cited: BAtlas 55 H3 Kephissos fl.",
   "bbox": [
     24.56,
     38.85,
     24.56,
     38.85
   ],
+  "description": "An ancient place, cited: BAtlas 55 H3 Kephissos fl.",
   "connectsWith": [
     "541093"
-  ],
-  "reprPoint": [
-    24.56,
-    38.85
   ],
   "names": [
     "Kephissos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.56,
+          38.85
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

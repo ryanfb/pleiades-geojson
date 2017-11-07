@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Calpe M.",
   "id": "256045",
-  "description": "The Rock of Gibraltar.",
   "bbox": [
     -5.485833,
     35.971667,
     -5.485833,
     35.971667
   ],
+  "description": "The Rock of Gibraltar.",
   "connectsWith": [
     "256198",
     "275614",
     "845",
     "1043"
   ],
-  "reprPoint": [
-    -5.485833,
-    35.971667
-  ],
   "names": [
     "Calpe M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.485833,
+          35.971667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

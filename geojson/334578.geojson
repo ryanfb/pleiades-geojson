@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Limes Gemellensis",
   "id": "334578",
-  "description": "An ancient place, cited: BAtlas 34 D3 Limes Gemellensis",
   "bbox": [
     5.0,
     34.0,
     6.0,
     35.0
   ],
-  "reprPoint": [
-    5.5,
-    34.5
-  ],
+  "description": "An ancient place, cited: BAtlas 34 D3 Limes Gemellensis",
   "names": [
     "Limes Gemellensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

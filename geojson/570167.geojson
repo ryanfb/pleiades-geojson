@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bouraikos (river)",
   "id": "570167",
-  "description": "An ancient place, cited: BAtlas 58 C1 Bouraikos fl.",
   "bbox": [
     22.0,
     38.0,
     22.5,
     38.5
   ],
-  "reprPoint": [
-    22.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C1 Bouraikos fl.",
   "names": [
     "Bouraikos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

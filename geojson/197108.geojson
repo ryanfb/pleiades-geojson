@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Alpes Iuliae",
   "id": "197108",
-  "description": "The Julian Alps",
   "bbox": [
     13.75,
     46.33,
     13.75,
     46.33
   ],
-  "reprPoint": [
-    13.75,
-    46.33
-  ],
+  "description": "The Julian Alps",
   "names": [
     "Alpes Iuliae",
     "Alpes Venetae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          46.33
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

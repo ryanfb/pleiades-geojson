@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Memphis",
   "id": "736963",
-  "description": "A city and capital of Ancient Egypt that remained an important center for most of Egyptian history (BAtlas 75 E1 Memphis).",
   "bbox": [
     31.255061,
     29.849491,
     31.255061,
     29.849491
   ],
-  "reprPoint": [
-    31.255061,
-    29.849491
-  ],
+  "description": "A city and capital of Ancient Egypt that remained an important center for most of Egyptian history (BAtlas 75 E1 Memphis).",
   "names": [
     "Memphis",
     "Nof",
@@ -33,6 +29,19 @@
     "Mīt Rahīna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.255061,
+          29.849491
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

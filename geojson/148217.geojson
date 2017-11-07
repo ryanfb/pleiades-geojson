@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Theline/Col. Arelate/Constantina",
   "id": "148217",
-  "description": "An ancient settlement located at modern Arles in France.",
   "bbox": [
     4.630799,
     43.677616,
     4.630799,
     43.677616
   ],
+  "description": "An ancient settlement located at modern Arles in France.",
   "connectsWith": [
     "148168",
     "507729266"
-  ],
-  "reprPoint": [
-    4.630799,
-    43.677616
   ],
   "names": [
     "Theline",
@@ -25,6 +21,19 @@
     "Arles"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.630799,
+          43.677616
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

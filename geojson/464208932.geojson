@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Zabatos",
   "id": "464208932",
-  "description": "A place from the TAVO Index",
   "bbox": [
     40.0,
     40.0,
     45.0,
     45.0
   ],
-  "reprPoint": [
-    42.5,
-    42.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Zabatos",
     "Zabatos",
@@ -23,6 +19,19 @@
     "Zabum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

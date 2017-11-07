@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Campus Serenus",
   "id": "511202",
-  "description": "An ancient place, cited: BAtlas 52 B2 Campus Serenus",
   "bbox": [
     27.5,
     41.0,
     28.0,
     41.5
   ],
-  "reprPoint": [
-    27.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 B2 Campus Serenus",
   "names": [
     "Campus Serenus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

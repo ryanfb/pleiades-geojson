@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Pholegandros (settlement)",
   "id": "589995",
-  "description": "An ancient place, cited: BAtlas 60 C5 Pholegandros",
   "bbox": [
     24.9,
     36.616667,
     24.9,
     36.616667
   ],
+  "description": "An ancient place, cited: BAtlas 60 C5 Pholegandros",
   "connectsWith": [
     "589996"
-  ],
-  "reprPoint": [
-    24.9,
-    36.616667
   ],
   "names": [
     "Pholegandros"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9,
+          36.616667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

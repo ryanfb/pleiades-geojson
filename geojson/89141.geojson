@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Castlehill",
   "id": "89141",
-  "description": "An ancient place, cited: BAtlas 9 C5 Castlehill",
   "bbox": [
     -4.372384,
     55.923122,
     -4.372384,
     55.923122
   ],
+  "description": "An ancient place, cited: BAtlas 9 C5 Castlehill",
   "connectsWith": [
     "91357"
   ],
-  "reprPoint": [
-    -4.372384,
-    55.923122
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.372384,
+          55.923122
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Taurus M.",
   "id": "648792",
-  "description": "An ancient place, cited: BAtlas 66 E2 Taurus M.",
   "bbox": [
     30.0,
     30.0,
     38.0,
     38.5
   ],
-  "reprPoint": [
-    35.0,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 66 E2 Taurus M.",
   "names": [
     "Taurus M.",
     "Taurus",
@@ -23,6 +19,19 @@
     "Toros Daǧları"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

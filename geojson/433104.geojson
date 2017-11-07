@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarrastes",
   "id": "433104",
-  "description": "An ancient place, cited: BAtlas 44 G4 Sarrastes",
   "bbox": [
     14.5,
     40.5,
     15.0,
     41.0
   ],
-  "reprPoint": [
-    14.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 44 G4 Sarrastes",
   "names": [
     "Sarrastes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

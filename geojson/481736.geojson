@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Argestaeus Campus",
   "id": "481736",
-  "description": "An ancient place, cited: BAtlas 49 D3 Argestaeus Campus",
   "bbox": [
     21.0,
     40.0,
     22.0,
     41.0
   ],
-  "reprPoint": [
-    21.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 D3 Argestaeus Campus",
   "names": [
     "Argestaeus Campus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aegae",
   "id": "550404",
-  "description": "An ancient place, cited: BAtlas 56 E4 Aegae",
   "bbox": [
     27.19367,
     38.83379,
     27.19367,
     38.83379
   ],
+  "description": "An ancient place, cited: BAtlas 56 E4 Aegae",
   "connectsWith": [
     "550406"
-  ],
-  "reprPoint": [
-    27.19367,
-    38.83379
   ],
   "names": [
     "Aegae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.19367,
+          38.83379
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

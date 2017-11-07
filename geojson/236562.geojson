@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nebis River",
   "id": "236562",
-  "description": "The modern Rio Neiva in Portugal.",
   "bbox": [
     -8.8077202,
     41.6115824,
     -8.8077202,
     41.6115824
   ],
-  "reprPoint": [
-    -8.8077202,
-    41.6115824
-  ],
+  "description": "The modern Rio Neiva in Portugal.",
   "names": [
     "Rio Neiva",
     "Nebis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8077202,
+          41.6115824
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

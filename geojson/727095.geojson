@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bouto",
   "id": "727095",
-  "description": "An ancient place, cited: BAtlas 74 F3 Bouto",
   "bbox": [
     31.5,
     30.5,
     32.0,
     31.0
   ],
-  "reprPoint": [
-    31.75,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 74 F3 Bouto",
   "names": [
     "Bouto"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

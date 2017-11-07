@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Grannona",
   "id": "138377",
-  "description": "An ancient place, cited: BAtlas 14 C1 Grannona",
   "bbox": [
     -3.0,
     47.0,
     -2.0,
     48.0
   ],
-  "reprPoint": [
-    -2.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 C1 Grannona",
   "names": [
     "Grannona"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

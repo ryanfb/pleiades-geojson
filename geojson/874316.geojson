@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Altıntepe",
   "id": "874316",
-  "description": "A Urartian settlement on a hill overlooking the Euphrates River",
   "bbox": [
     39.646625,
     39.696542,
     39.6479773,
     39.6978948
   ],
+  "description": "A Urartian settlement on a hill overlooking the Euphrates River",
   "connectsWith": [
     "874325"
   ],
-  "reprPoint": [
-    39.64730115,
-    39.6972184
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.64730115,
+          39.6972184
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

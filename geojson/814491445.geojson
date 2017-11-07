@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Los Vilars",
   "id": "814491445",
-  "description": "A fortified Iberian site in use from ca. 750 B.C. to 325 B.C.",
   "bbox": [
     0.9548823,
     41.5688874,
     0.9548823,
     41.5688874
   ],
-  "reprPoint": [
-    0.9548823,
-    41.5688874
-  ],
+  "description": "A fortified Iberian site in use from ca. 750 B.C. to 325 B.C.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9548823,
+          41.5688874
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

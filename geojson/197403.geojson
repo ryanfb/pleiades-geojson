@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Neapolis",
   "id": "197403",
-  "description": "An ancient place, cited: BAtlas 20 A4 Neapolis",
   "bbox": [
     13.562104,
     45.315245,
     13.562104,
     45.315245
   ],
-  "reprPoint": [
-    13.562104,
-    45.315245
-  ],
+  "description": "An ancient place, cited: BAtlas 20 A4 Neapolis",
   "names": [
     "Neapolis",
     "Emoniia",
     "Emonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.562104,
+          45.315245
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

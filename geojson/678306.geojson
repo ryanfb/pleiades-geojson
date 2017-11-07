@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nemara",
   "id": "678306",
-  "description": "An ancient place, cited: BAtlas 69 F4 Nemara",
   "bbox": [
     37.252847,
     32.867127,
     37.252847,
     32.867127
   ],
-  "reprPoint": [
-    37.252847,
-    32.867127
-  ],
+  "description": "An ancient place, cited: BAtlas 69 F4 Nemara",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.252847,
+          32.867127
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sontheim",
   "id": "118967",
-  "description": "An ancient place, cited: BAtlas 12 D4 Sontheim (1)",
   "bbox": [
     10.2904036,
     48.5543715,
     10.2904036,
     48.5543715
   ],
-  "reprPoint": [
-    10.2904036,
-    48.5543715
-  ],
+  "description": "An ancient place, cited: BAtlas 12 D4 Sontheim (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2904036,
+          48.5543715
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

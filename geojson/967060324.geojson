@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 77 (Raven Bank)",
   "id": "967060324",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -3.161714,
     54.935283,
     -3.161714,
     54.935283
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -3.161714,
-    54.935283
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.161714,
+          54.935283
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

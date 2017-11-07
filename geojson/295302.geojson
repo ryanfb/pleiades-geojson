@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Macurebi",
   "id": "295302",
-  "description": "An ancient place, cited: BAtlas 30 E4 Macurebi",
   "bbox": [
     2.5,
     36.0,
     3.0,
     36.5
   ],
-  "reprPoint": [
-    2.75,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 30 E4 Macurebi",
   "names": [
     "Macurebi",
     "Maccui"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.75,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

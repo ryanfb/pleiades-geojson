@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mine on Euboea",
   "id": "638269272",
-  "description": "One of a group of mines on Euboea Ins.",
   "bbox": [
     24.480739,
     38.012794,
     24.480739,
     38.012794
   ],
+  "description": "One of a group of mines on Euboea Ins.",
   "connectsWith": [
     "540775"
   ],
-  "reprPoint": [
-    24.480739,
-    38.012794
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.480739,
+          38.012794
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

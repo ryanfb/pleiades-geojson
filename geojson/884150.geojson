@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Garrah (river)",
   "id": "884150",
-  "description": "An ancient place, cited: BAtlas 90 C1 Garrah fl.",
   "bbox": [
     47.0,
     39.0,
     48.0,
     40.0
   ],
-  "reprPoint": [
-    47.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 C1 Garrah fl.",
   "names": [
     "Garrah"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

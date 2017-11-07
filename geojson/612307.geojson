@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "1",
   "id": "612307",
-  "description": "An ancient place, cited: BAtlas 62 C2 no. 1 (near Kotiaeion, at Küçükköy)",
   "bbox": [
     29.5,
     39.5,
     30.0,
     40.0
   ],
-  "reprPoint": [
-    29.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 C2 no. 1 (near Kotiaeion, at Küçükköy)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

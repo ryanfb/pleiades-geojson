@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Niğde",
   "id": "300354624",
-  "description": "A place from the TAVO Index",
   "bbox": [
     34.0,
     37.5,
     34.5,
     38.0
   ],
-  "reprPoint": [
-    34.25,
-    37.75
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Niğde",
     "Nagida",
@@ -25,6 +21,19 @@
     "Niǧde"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

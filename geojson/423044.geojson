@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "S. Gennaro",
   "id": "423044",
-  "description": "A minor settlement",
   "bbox": [
     12.72048,
     41.683455,
     12.72048,
     41.683455
   ],
-  "reprPoint": [
-    12.72048,
-    41.683455
-  ],
+  "description": "A minor settlement",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.72048,
+          41.683455
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

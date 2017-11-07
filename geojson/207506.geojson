@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Topolnica",
   "id": "207506",
-  "description": "An ancient place, cited: BAtlas 21 E5 Topolnica",
   "bbox": [
     22.146818,
     44.356855,
     22.146818,
     44.356855
   ],
-  "reprPoint": [
-    22.146818,
-    44.356855
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E5 Topolnica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.146818,
+          44.356855
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

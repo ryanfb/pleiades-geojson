@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Larisos (river)",
   "id": "570415",
-  "description": "An ancient river of the northern Peloponnese that was considered to constitute the western border of the region of Achaia. ",
   "bbox": [
     21.3975142,
     38.1046527,
     21.4199086,
     38.15159
   ],
+  "description": "An ancient river of the northern Peloponnese that was considered to constitute the western border of the region of Achaia. ",
   "connectsWith": [
     "570028"
-  ],
-  "reprPoint": [
-    21.4136492275,
-    38.1305728734
   ],
   "names": [
     "Larisos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4136492275,
+          38.1305728734
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

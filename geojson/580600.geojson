@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "580600",
-  "description": "An ancient place, cited: BAtlas 59 C2 unnamed aqueduct (Athens from NE)",
   "bbox": [
     23.75,
     38.0,
     24.0,
     38.25
   ],
-  "reprPoint": [
-    23.875,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C2 unnamed aqueduct (Athens from NE)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

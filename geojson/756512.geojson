@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Abydos/Ebot",
   "id": "756512",
-  "description": "Ancient Egyptian city and burial place of its first kings. Primary cult place of the god Osiris.",
   "bbox": [
     31.9084936,
     26.1840536,
     31.9183799,
     26.1888854
   ],
-  "reprPoint": [
-    31.91627145,
-    26.1859907667
-  ],
+  "description": "Ancient Egyptian city and burial place of its first kings. Primary cult place of the god Osiris.",
   "names": [
     "Abydos",
     "Ebot"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.91627145,
+          26.1859907667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

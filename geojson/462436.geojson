@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pietra Rossa",
   "id": "462436",
-  "description": "An ancient place, cited: BAtlas 47 D4 Pietra Rossa",
   "bbox": [
     13.491809,
     37.380402,
     13.491809,
     37.380402
   ],
+  "description": "An ancient place, cited: BAtlas 47 D4 Pietra Rossa",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.491809,
-    37.380402
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.491809,
+          37.380402
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

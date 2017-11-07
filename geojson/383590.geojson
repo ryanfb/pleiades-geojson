@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Betuctelum? (river)",
   "id": "383590",
-  "description": "An ancient place, cited: BAtlas 39 B2 Betuctelum? fl.",
   "bbox": [
     7.5,
     45.5,
     8.0,
     46.0
   ],
-  "reprPoint": [
-    7.75,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 B2 Betuctelum? fl.",
   "names": [
     "Betuctelum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

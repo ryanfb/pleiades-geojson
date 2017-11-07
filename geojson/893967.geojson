@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bustan",
   "id": "893967",
-  "description": "An ancient place, cited: BAtlas 91 F4 Bustan",
   "bbox": [
     44.582764,
     33.070192,
     44.582764,
     33.070192
   ],
-  "reprPoint": [
-    44.582764,
-    33.070192
-  ],
+  "description": "An ancient place, cited: BAtlas 91 F4 Bustan",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.582764,
+          33.070192
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

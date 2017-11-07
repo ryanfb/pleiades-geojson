@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Hellespontus",
   "id": "501434",
-  "description": "A narrow strait of northwestern Turkey that connect the Aegean Sea to Propontis (Sea of Marmara).",
   "bbox": [
     26.4,
     40.2,
     26.4,
     40.2
   ],
+  "description": "A narrow strait of northwestern Turkey that connect the Aegean Sea to Propontis (Sea of Marmara).",
   "connectsWith": [
     "560221",
     "511381"
-  ],
-  "reprPoint": [
-    26.4,
-    40.2
   ],
   "names": [
     "Hellespontus",
     "Heptastadion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4,
+          40.2
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

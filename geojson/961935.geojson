@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Margus (river)",
   "id": "961935",
-  "description": "An ancient place, cited: BAtlas 98 C1 Margus fl.",
   "bbox": [
     62.0,
     37.0,
     63.0,
     38.0
   ],
-  "reprPoint": [
-    62.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 98 C1 Margus fl.",
   "names": [
     "Margus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

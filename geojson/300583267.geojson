@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Theatrum Marcelli",
   "id": "300583267",
-  "description": "Theatrum Marcelli (Theater of Marcellus) is an ancient Roman theater in the Circus Flaminius. Augustus completed its construction and dedicated it in 12 BC.",
   "bbox": [
     12.4798227,
     41.8917083,
     12.4798227,
     41.8917083
   ],
+  "description": "Theatrum Marcelli (Theater of Marcellus) is an ancient Roman theater in the Circus Flaminius. Augustus completed its construction and dedicated it in 12 BC.",
   "connectsWith": [
     "423025",
     "158081395"
-  ],
-  "reprPoint": [
-    12.4798227,
-    41.8917083
   ],
   "names": [
     "Teatro di Marcello",
@@ -23,6 +19,19 @@
     "Theater of Marcellus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4798227,
+          41.8917083
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

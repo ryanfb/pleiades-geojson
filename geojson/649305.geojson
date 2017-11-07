@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "649305",
-  "description": "An ancient place, cited: BAtlas 66 D3 unnamed aqueduct (Diocaesarea)",
   "bbox": [
     33.5,
     36.5,
     34.0,
     37.0
   ],
-  "reprPoint": [
-    33.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 66 D3 unnamed aqueduct (Diocaesarea)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

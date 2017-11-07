@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Prisat",
   "id": "481966",
-  "description": "An ancient place, cited: BAtlas 49 D2 Prisat",
   "bbox": [
     21.600576,
     41.428597,
     21.600576,
     41.428597
   ],
-  "reprPoint": [
-    21.600576,
-    41.428597
-  ],
+  "description": "An ancient place, cited: BAtlas 49 D2 Prisat",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.600576,
+          41.428597
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "572293",
-  "description": "An ancient place, cited: BAtlas 58 C3 unnamed quarry (SE Manthouria)",
   "bbox": [
     22.0,
     37.0,
     22.5,
     37.5
   ],
-  "reprPoint": [
-    22.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C3 unnamed quarry (SE Manthouria)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

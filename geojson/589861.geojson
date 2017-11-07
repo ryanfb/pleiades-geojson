@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kekoia",
   "id": "589861",
-  "description": "An ancient place, cited: BAtlas 60 F3 Kekoia",
   "bbox": [
     26.0,
     34.5,
     26.5,
     35.0
   ],
-  "reprPoint": [
-    26.25,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 F3 Kekoia",
   "names": [
     "Kekoia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

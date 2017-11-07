@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Britannicum Mare",
   "id": "20420",
-  "description": "Britannicum Mare (The English Channel) is an extension of the Atlantic Ocean that separates England from northern France, and also joins the North Sea to the Atlantic.",
   "bbox": [
     -2.0,
     50.0,
     -2.0,
     50.0
   ],
+  "description": "Britannicum Mare (The English Channel) is an extension of the Atlantic Ocean that separates England from northern France, and also joins the North Sea to the Atlantic.",
   "connectsWith": [
     "845",
     "20469"
-  ],
-  "reprPoint": [
-    -2.0,
-    50.0
   ],
   "names": [
     "Britannicum Mare",
@@ -23,6 +19,19 @@
     "la Manche"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0,
+          50.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

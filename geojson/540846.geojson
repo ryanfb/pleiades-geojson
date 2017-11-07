@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kallas (river)",
   "id": "540846",
-  "description": "An ancient place, cited: BAtlas 55 E3 Kallas fl.",
   "bbox": [
     23.0,
     38.5,
     23.5,
     39.0
   ],
-  "reprPoint": [
-    23.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 E3 Kallas fl.",
   "names": [
     "Kallas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

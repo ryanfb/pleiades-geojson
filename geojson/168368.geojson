@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "168368",
-  "description": "unnamed aqueduct group (Col. Vienna)",
   "bbox": [
     4.5,
     45.5,
     5.0,
     46.0
   ],
-  "reprPoint": [
-    4.75,
-    45.75
-  ],
+  "description": "unnamed aqueduct group (Col. Vienna)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

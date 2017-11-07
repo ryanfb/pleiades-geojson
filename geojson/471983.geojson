@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nurritani",
   "id": "471983",
-  "description": "An ancient place, cited: BAtlas 48 B2 Nurritani",
   "bbox": [
     9.0,
     40.0,
     10.0,
     41.0
   ],
-  "reprPoint": [
-    9.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 B2 Nurritani",
   "names": [
     "Nurritani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

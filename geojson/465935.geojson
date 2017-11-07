@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Krastos",
   "id": "465935",
-  "description": "An ancient place, cited: BAtlas 47 unlocated Krastos",
   "bbox": [
     13.603455,
     37.678945,
     13.603455,
     37.678945
   ],
+  "description": "An ancient place, cited: BAtlas 47 unlocated Krastos",
   "connectsWith": [
     "462492"
-  ],
-  "reprPoint": [
-    13.603455,
-    37.678945
   ],
   "names": [
     "Krastos",
@@ -23,6 +19,20 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.603455,
+          37.678945
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

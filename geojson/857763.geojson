@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "857763",
-  "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (SE Eupatoria)",
   "bbox": [
     36.0,
     40.0,
     37.0,
     41.0
   ],
-  "reprPoint": [
-    36.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (SE Eupatoria)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

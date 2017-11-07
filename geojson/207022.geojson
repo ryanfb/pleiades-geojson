@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Celegeri",
   "id": "207022",
-  "description": "An ancient place, cited: BAtlas 21 C6 Celegeri",
   "bbox": [
     20.0,
     43.0,
     21.0,
     44.0
   ],
-  "reprPoint": [
-    20.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 C6 Celegeri",
   "names": [
     "Celegeri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

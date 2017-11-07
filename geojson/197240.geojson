@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dalmatia",
   "id": "197240",
-  "description": "Dalmatia is an historical region of present-day Croatia, located to the east of the Adriatic Sea.",
   "bbox": [
     16.4804508,
     43.5358659,
     16.4841672,
     43.5421187
   ],
-  "reprPoint": [
-    16.4824028667,
-    43.5392743667
-  ],
+  "description": "Dalmatia is an historical region of present-day Croatia, located to the east of the Adriatic Sea.",
   "names": [
     "Dalmatia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4824028667,
+          43.5392743667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

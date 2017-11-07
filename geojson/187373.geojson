@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Estiones",
   "id": "187373",
-  "description": "An ancient place, cited: BAtlas 19 C2 Estiones",
   "bbox": [
     10.0,
     47.0,
     11.0,
     48.0
   ],
-  "reprPoint": [
-    10.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 C2 Estiones",
   "names": [
     "Estiones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

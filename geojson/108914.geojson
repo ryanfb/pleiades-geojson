@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cugerni",
   "id": "108914",
-  "description": "An ancient place, cited: BAtlas 11 G1 Cugerni",
   "bbox": [
     6.0,
     51.0,
     7.0,
     52.0
   ],
-  "reprPoint": [
-    6.5,
-    51.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 G1 Cugerni",
   "names": [
     "Cugerni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

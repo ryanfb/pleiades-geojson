@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Brèche",
   "id": "148022",
-  "description": "An ancient place, cited: BAtlas 15 D1 La Brèche",
   "bbox": [
     4.5,
     44.0,
     5.0,
     44.5
   ],
-  "reprPoint": [
-    4.75,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 15 D1 La Brèche",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

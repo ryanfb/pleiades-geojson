@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Atalla",
   "id": "785979",
-  "description": "An ancient place, cited: BAtlas 80 D1 Atalla",
   "bbox": [
     33.556262,
     26.127497,
     33.556262,
     26.127497
   ],
-  "reprPoint": [
-    33.556262,
-    26.127497
-  ],
+  "description": "An ancient place, cited: BAtlas 80 D1 Atalla",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.556262,
+          26.127497
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

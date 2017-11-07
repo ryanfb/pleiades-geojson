@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bashendi",
   "id": "776160",
-  "description": "An ancient place, cited: BAtlas 79 inset Bashendi",
   "bbox": [
     29.34036,
     25.585449,
     29.34036,
     25.585449
   ],
+  "description": "An ancient place, cited: BAtlas 79 inset Bashendi",
   "connectsWith": [
     "776172"
   ],
-  "reprPoint": [
-    29.34036,
-    25.585449
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.34036,
+          25.585449
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kato Komia",
   "id": "570339",
-  "description": "An ancient place, cited: BAtlas 58 H4 Kato Komia",
   "bbox": [
     24.534637,
     36.718199,
     24.534637,
     36.718199
   ],
+  "description": "An ancient place, cited: BAtlas 58 H4 Kato Komia",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.534637,
-    36.718199
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.534637,
+          36.718199
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Armua?/Armoniacum (river)",
   "id": "314890",
-  "description": "An ancient place, cited: BAtlas 32 A3 Armua?/Armoniacum fl.",
   "bbox": [
     7.5,
     36.5,
     8.0,
     37.0
   ],
-  "reprPoint": [
-    7.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 A3 Armua?/Armoniacum fl.",
   "names": [
     "Armua",
     "Armoniacum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

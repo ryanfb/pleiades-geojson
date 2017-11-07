@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Lepsia (island)",
   "id": "599761",
-  "description": "An ancient place, cited: BAtlas 61 D3 Lepsia Ins.",
   "bbox": [
     26.7096412,
     37.274716,
     26.7930564,
     37.3285195
   ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Lepsia Ins.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.7535601588,
-    37.3008593687
   ],
   "names": [
     "Lepsia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7535601588,
+          37.3008593687
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

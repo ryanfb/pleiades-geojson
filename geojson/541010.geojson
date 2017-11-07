@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Panormos",
   "id": "541010",
-  "description": "An ancient place, cited: BAtlas 55 F2 Panormos",
   "bbox": [
     23.5,
     39.0,
     24.0,
     39.5
   ],
-  "reprPoint": [
-    23.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 F2 Panormos",
   "names": [
     "Panormos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

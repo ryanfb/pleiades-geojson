@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Helleniko",
   "id": "501433",
-  "description": "An ancient place, cited: BAtlas 51 D3 Helleniko",
   "bbox": [
     24.65,
     40.683333,
     24.65,
     40.683333
   ],
+  "description": "An ancient place, cited: BAtlas 51 D3 Helleniko",
   "connectsWith": [
     "501635"
   ],
-  "reprPoint": [
-    24.65,
-    40.683333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.65,
+          40.683333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyramid of Pepi I at Saqqarah",
   "id": "800113525",
-  "description": "One of the pyramids at Saqqarah in Egypt. Pepi I was a pharaoh of the Sixth Dynasty and reigned from ca. 2332–2287 B.C.",
   "bbox": [
     31.2186043,
     29.8547523,
     31.2186043,
     29.8547523
   ],
+  "description": "One of the pyramids at Saqqarah in Egypt. Pepi I was a pharaoh of the Sixth Dynasty and reigned from ca. 2332–2287 B.C.",
   "connectsWith": [
     "796289136"
   ],
-  "reprPoint": [
-    31.2186043,
-    29.8547523
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2186043,
+          29.8547523
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

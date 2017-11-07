@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Akunk",
   "id": "863728",
-  "description": "An ancient place, cited: BAtlas 88 D4 Akunk",
   "bbox": [
     45.855208,
     40.162621,
     45.855208,
     40.162621
   ],
-  "reprPoint": [
-    45.855208,
-    40.162621
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D4 Akunk",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.855208,
+          40.162621
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Rhodos",
   "id": "590030",
-  "description": "A settlement on the island of Rhodes.",
   "bbox": [
     28.21066,
     36.438944,
     28.227611,
     36.443113
   ],
+  "description": "A settlement on the island of Rhodes.",
   "connectsWith": [
     "590031"
-  ],
-  "reprPoint": [
-    28.2167226667,
-    36.440683
   ],
   "names": [
     "Rhodos",
@@ -25,6 +21,19 @@
     "Ródos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2167226667,
+          36.440683
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

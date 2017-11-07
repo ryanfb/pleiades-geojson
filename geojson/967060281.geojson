@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 50B (Appletree)",
   "id": "967060281",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.630774,
     54.984542,
     -2.630774,
     54.984542
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.630774,
-    54.984542
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.630774,
+          54.984542
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

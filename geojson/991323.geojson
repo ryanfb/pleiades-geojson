@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aquitania II",
   "id": "991323",
-  "description": "An ancient place, cited: BAtlas 101 F2 Aquitania II",
   "bbox": [
     -5.0,
     45.0,
     0.0,
     50.0
   ],
-  "reprPoint": [
-    -2.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 F2 Aquitania II",
   "names": [
     "Aquitania II"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thriare",
   "id": "863906",
-  "description": "An ancient place, cited: BAtlas 88 B3 Thriare",
   "bbox": [
     43.0,
     41.0,
     44.0,
     42.0
   ],
-  "reprPoint": [
-    43.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 B3 Thriare",
   "names": [
     "Thriare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

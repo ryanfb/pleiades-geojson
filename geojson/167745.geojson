@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Druna (river)",
   "id": "167745",
-  "description": "The Drôme river, a tributary of the Rhône.",
   "bbox": [
     4.845556,
     43.330833,
     8.376333,
     46.572
   ],
+  "description": "The Drôme river, a tributary of the Rhône.",
   "connectsWith": [
     "148168"
-  ],
-  "reprPoint": [
-    5.78508716667,
-    44.8178018333
   ],
   "names": [
     "Druna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.78508716667,
+          44.8178018333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

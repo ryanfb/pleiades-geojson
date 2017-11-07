@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dhahran",
   "id": "932449",
-  "description": "An ancient place, cited: BAtlas 95 C3 Dhahran",
   "bbox": [
     50.132719,
     26.300875,
     50.132719,
     26.300875
   ],
-  "reprPoint": [
-    50.132719,
-    26.300875
-  ],
+  "description": "An ancient place, cited: BAtlas 95 C3 Dhahran",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.132719,
+          26.300875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

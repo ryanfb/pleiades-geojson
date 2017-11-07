@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kastri",
   "id": "550627",
-  "description": "An ancient place, cited: BAtlas 56 C3 Kastri",
   "bbox": [
     26.0,
     39.0,
     26.5,
     39.5
   ],
-  "reprPoint": [
-    26.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 C3 Kastri",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

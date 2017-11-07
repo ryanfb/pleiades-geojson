@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ferrarium/Tenebrium (promontory)",
   "id": "265897",
-  "description": "A promontory on the east coast of the Iberian peninsula, modern Cabo de la Nao in Spain.",
   "bbox": [
     0.2303287,
     38.7335902,
     0.2303287,
     38.7335902
   ],
-  "reprPoint": [
-    0.2303287,
-    38.7335902
-  ],
+  "description": "A promontory on the east coast of the Iberian peninsula, modern Cabo de la Nao in Spain.",
   "names": [
     "Ferrarium",
     "Tenebrium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2303287,
+          38.7335902
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

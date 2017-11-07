@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pityoussa Ins.",
   "id": "570615",
-  "description": "An ancient place, cited: BAtlas 58 E3 Pityoussa Ins.",
   "bbox": [
     23.0,
     37.0,
     23.5,
     37.5
   ],
-  "reprPoint": [
-    23.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E3 Pityoussa Ins.",
   "names": [
     "Pityoussa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

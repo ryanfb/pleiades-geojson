@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Farfarus (river)",
   "id": "413131",
-  "description": "An ancient place, cited: BAtlas 42 D4 Farfarus fl.",
   "bbox": [
     12.5,
     42.0,
     13.0,
     42.5
   ],
-  "reprPoint": [
-    12.75,
-    42.25
-  ],
+  "description": "An ancient place, cited: BAtlas 42 D4 Farfarus fl.",
   "names": [
     "Farfarus",
     "Fabaris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

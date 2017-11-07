@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ag. Georgios",
   "id": "589662",
-  "description": "An ancient place, cited: BAtlas 60 A2 Ag. Georgios",
   "bbox": [
     23.5,
     35.0,
     24.0,
     35.5
   ],
-  "reprPoint": [
-    23.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 A2 Ag. Georgios",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

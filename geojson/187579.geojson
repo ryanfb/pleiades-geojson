@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tergestinus Sinus",
   "id": "187579",
-  "description": "The Gulf of Trieste is a shallow bay located in the extreme northern part of the Adriatic Sea.",
   "bbox": [
     12.0,
     45.0,
     13.0,
     46.0
   ],
-  "reprPoint": [
-    12.5,
-    45.5
-  ],
+  "description": "The Gulf of Trieste is a shallow bay located in the extreme northern part of the Adriatic Sea.",
   "names": [
     "Tergestinus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

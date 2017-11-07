@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Gaziantep",
   "id": "534964140",
-  "description": "A place from the TAVO Index",
   "bbox": [
     37.0,
     37.0,
     37.5,
     37.5
   ],
-  "reprPoint": [
-    37.25,
-    37.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Gaziantep",
     "Ayntap",
@@ -28,6 +24,19 @@
     "ʿAyntab"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

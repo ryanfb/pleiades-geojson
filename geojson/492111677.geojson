@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cherré",
   "id": "492111677",
-  "description": "An archaeological site near Aubigné-Racan in western France.",
   "bbox": [
     0.2340337,
     47.6621772,
     0.2360132,
     47.6636838
   ],
-  "reprPoint": [
-    0.23502345,
-    47.6629305
-  ],
+  "description": "An archaeological site near Aubigné-Racan in western France.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23502345,
+          47.6629305
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

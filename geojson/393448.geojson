@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Marzabotto",
   "id": "393448",
-  "description": "An Etruscan town in the plain of the Po river  founded in the early fifth century B.C.",
   "bbox": [
     11.203075,
     44.335331,
     11.203075,
     44.335331
   ],
-  "reprPoint": [
-    11.203075,
-    44.335331
-  ],
+  "description": "An Etruscan town in the plain of the Po river  founded in the early fifth century B.C.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.203075,
+          44.335331
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kythera",
   "id": "570400",
-  "description": "An ancient place, cited: BAtlas 58 inset Kythera",
   "bbox": [
     22.978222,
     36.262287,
     22.978222,
     36.262287
   ],
-  "reprPoint": [
-    22.978222,
-    36.262287
-  ],
+  "description": "An ancient place, cited: BAtlas 58 inset Kythera",
   "names": [
     "Kythera"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.978222,
+          36.262287
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

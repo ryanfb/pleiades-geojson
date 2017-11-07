@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Enkomi",
   "id": "13818291",
-  "description": "Enkomi is the site of an important Middle Bronze Age settlement in eastern Cyprus.",
   "bbox": [
     33.8702488,
     35.1659327,
     33.8702488,
     35.1659327
   ],
+  "description": "Enkomi is the site of an important Middle Bronze Age settlement in eastern Cyprus.",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.8702488,
-    35.1659327
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8702488,
+          35.1659327
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

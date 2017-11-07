@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Neresnica",
   "id": "207307",
-  "description": "An ancient place, cited: BAtlas 21 D5 Neresnica",
   "bbox": [
     21.716485,
     44.44345,
     21.716485,
     44.44345
   ],
+  "description": "An ancient place, cited: BAtlas 21 D5 Neresnica",
   "connectsWith": [
     "210701"
   ],
-  "reprPoint": [
-    21.716485,
-    44.44345
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.716485,
+          44.44345
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

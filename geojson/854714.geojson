@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Novo-Otradnoye",
   "id": "854714",
-  "description": "An ancient place, cited: BAtlas 87 K2 Novo-Otradnoye",
   "bbox": [
     36.0,
     45.0,
     36.5,
     45.5
   ],
-  "reprPoint": [
-    36.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 K2 Novo-Otradnoye",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

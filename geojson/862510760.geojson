@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Guadaíra (river)",
   "id": "862510760",
-  "description": "A tributary of the Guadalquivir river that rises in Pozo Amargo in the province of Cadiz.",
   "bbox": [
     -5.84008,
     37.0572436,
     -5.4391082,
     37.3272428
   ],
+  "description": "A tributary of the Guadalquivir river that rises in Pozo Amargo in the province of Cadiz.",
   "connectsWith": [
     "256010"
-  ],
-  "reprPoint": [
-    -5.62689443172,
-    37.208349783
   ],
   "names": [
     "Guadayra",
     "Guadaira"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.62689443172,
+          37.208349783
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

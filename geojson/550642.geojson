@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kilbos (river)",
   "id": "550642",
-  "description": "An ancient place, cited: BAtlas 56 G5 Kilbos fl.",
   "bbox": [
     28.0,
     38.0,
     28.5,
     38.5
   ],
-  "reprPoint": [
-    28.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 G5 Kilbos fl.",
   "names": [
     "Kilbos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

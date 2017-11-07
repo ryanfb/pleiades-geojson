@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Denton",
   "id": "79418",
-  "description": "A Roman villa in Lincolnshire with a series of buildings, belonging mainly to the fourth century A.D.",
   "bbox": [
     -0.714418,
     52.884513,
     -0.714417,
     52.884569
   ],
-  "reprPoint": [
-    -0.7144175,
-    52.884541
-  ],
+  "description": "A Roman villa in Lincolnshire with a series of buildings, belonging mainly to the fourth century A.D.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7144175,
+          52.884541
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

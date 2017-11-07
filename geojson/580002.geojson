@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kynosoura Pr.",
   "id": "580002",
-  "description": "An ancient place, cited: BAtlas 59 B3 Kynosoura Pr.",
   "bbox": [
     23.5,
     37.75,
     23.75,
     38.0
   ],
-  "reprPoint": [
-    23.625,
-    37.875
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B3 Kynosoura Pr.",
   "names": [
     "Kynosoura Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          37.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

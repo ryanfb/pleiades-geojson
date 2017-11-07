@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "385831",
-  "description": "An ancient place, cited: BAtlas 39 E3 unnamed centuriation (Ticinum (N))",
   "bbox": [
     9.0,
     45.0,
     9.5,
     45.5
   ],
-  "reprPoint": [
-    9.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 E3 unnamed centuriation (Ticinum (N))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

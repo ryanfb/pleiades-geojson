@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "141210",
-  "description": "Civitas Namnetum → Augustoritum and Iculisma",
   "bbox": [
     -5.0,
     44.0,
     4.0,
     48.0
   ],
-  "reprPoint": [
-    -0.5,
-    46.0
-  ],
+  "description": "Civitas Namnetum → Augustoritum and Iculisma",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          46.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

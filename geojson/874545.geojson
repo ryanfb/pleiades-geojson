@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Kentrites/Tigris/Zirmas",
   "id": "874545",
-  "description": "The modern Botan river in Turkey. It is a tributary of the Tigris.",
   "bbox": [
     41.7758449,
     37.7257532,
     42.3518098,
     38.0861989
   ],
+  "description": "The modern Botan river in Turkey. It is a tributary of the Tigris.",
   "connectsWith": [
     "912964"
-  ],
-  "reprPoint": [
-    41.9743787667,
-    37.8488001
   ],
   "names": [
     "Tigris",
@@ -27,6 +23,19 @@
     "Kentrites"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.9743787667,
+          37.8488001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

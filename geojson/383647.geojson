@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Fertor (river)",
   "id": "383647",
-  "description": "An ancient place, cited: BAtlas 39 D5 Fertor fl.",
   "bbox": [
     8.5,
     44.0,
     9.0,
     44.5
   ],
-  "reprPoint": [
-    8.75,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 D5 Fertor fl.",
   "names": [
     "Fertor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

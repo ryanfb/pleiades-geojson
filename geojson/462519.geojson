@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Torre del Filosofo",
   "id": "462519",
-  "description": "An ancient place, cited: BAtlas 47 G3 Torre del Filosofo",
   "bbox": [
     15.000422,
     37.737937,
     15.000422,
     37.737937
   ],
+  "description": "An ancient place, cited: BAtlas 47 G3 Torre del Filosofo",
   "connectsWith": [
     "462077"
   ],
-  "reprPoint": [
-    15.000422,
-    37.737937
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.000422,
+          37.737937
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Staryy Krym",
   "id": "226769",
-  "description": "An ancient place, cited: BAtlas 23 I3 Staryy Krym",
   "bbox": [
     35.088723,
     45.029113,
     35.088723,
     45.029113
   ],
-  "reprPoint": [
-    35.088723,
-    45.029113
-  ],
+  "description": "An ancient place, cited: BAtlas 23 I3 Staryy Krym",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.088723,
+          45.029113
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

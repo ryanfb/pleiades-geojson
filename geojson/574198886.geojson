@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tell al-Fakhar",
   "id": "574198886",
-  "description": "Tell al-Fakhar is located in northeastern Iraq. Excavations between 1967 and 1969 two occupation phases dating to the Mitanni/Kassite and Neo-Assyrian periods.",
   "bbox": [
     43.9772329,
     35.3799503,
     43.9806876,
     35.3828719
   ],
-  "reprPoint": [
-    43.97880402,
-    35.3813932322
-  ],
+  "description": "Tell al-Fakhar is located in northeastern Iraq. Excavations between 1967 and 1969 two occupation phases dating to the Mitanni/Kassite and Neo-Assyrian periods.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97880402,
+          35.3813932322
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vardbach",
   "id": "863919",
-  "description": "An ancient place, cited: BAtlas 88 B4 Vardbach",
   "bbox": [
     43.80467,
     40.740273,
     43.80467,
     40.740273
   ],
-  "reprPoint": [
-    43.80467,
-    40.740273
-  ],
+  "description": "An ancient place, cited: BAtlas 88 B4 Vardbach",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80467,
+          40.740273
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

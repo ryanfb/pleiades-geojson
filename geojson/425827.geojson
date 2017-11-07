@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed canals",
   "id": "425827",
-  "description": "unnamed canal group (NW Pomptinae Paludes)",
   "bbox": [
     13.0,
     41.25,
     13.25,
     41.5
   ],
-  "reprPoint": [
-    13.125,
-    41.375
-  ],
+  "description": "unnamed canal group (NW Pomptinae Paludes)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.125,
+          41.375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

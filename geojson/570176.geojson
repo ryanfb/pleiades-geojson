@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chersonesos Pr.",
   "id": "570176",
-  "description": "An ancient place, cited: BAtlas 58 E2 Chersonesos Pr.",
   "bbox": [
     23.0,
     37.5,
     23.5,
     38.0
   ],
-  "reprPoint": [
-    23.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E2 Chersonesos Pr.",
   "names": [
     "Chersonesos Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

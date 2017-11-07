@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueduct supplying Augusta Emerita",
   "id": "256708",
-  "description": "The so-called \"Acueducto de los Milagros\" (miraculous aqueduct) that supplied Augusta Emerita from the Lago de Proserpina north of the city. A small portion of the impressive aqueduct bridge still stands in Mérida.",
   "bbox": [
     -6.348053,
     38.923072,
     -6.347721,
     38.924797
   ],
+  "description": "The so-called \"Acueducto de los Milagros\" (miraculous aqueduct) that supplied Augusta Emerita from the Lago de Proserpina north of the city. A small portion of the impressive aqueduct bridge still stands in Mérida.",
   "connectsWith": [
     "256155"
   ],
-  "reprPoint": [
-    -6.347887,
-    38.9239345
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.347887,
+          38.9239345
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "LineString",

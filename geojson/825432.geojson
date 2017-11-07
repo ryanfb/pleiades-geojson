@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Zichoi",
   "id": "825432",
-  "description": "An ancient place, cited: BAtlas 84 E4 Zichoi",
   "bbox": [
     39.0,
     44.0,
     40.0,
     45.0
   ],
-  "reprPoint": [
-    39.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 E4 Zichoi",
   "names": [
     "Zichoi",
     "Zilchoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

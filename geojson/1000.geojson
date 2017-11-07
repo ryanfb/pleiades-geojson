@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Germania Superior",
   "id": "1000",
-  "description": "Germania Superior was a province of the Roman empire.",
   "bbox": [
     5.0,
     45.0,
     10.0,
     50.0
   ],
-  "reprPoint": [
-    7.5,
-    47.5
-  ],
+  "description": "Germania Superior was a province of the Roman empire.",
   "names": [
     "Germania Superior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rhodopha",
   "id": "60019",
-  "description": "An ancient place, cited: BAtlas 6 D4 Rhodopha",
   "bbox": [
     75.0,
     25.0,
     80.0,
     30.0
   ],
-  "reprPoint": [
-    77.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 D4 Rhodopha",
   "names": [
     "Rhodopha"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

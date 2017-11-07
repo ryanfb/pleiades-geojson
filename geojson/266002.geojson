@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Planesia? Ins.",
   "id": "266002",
-  "description": "An ancient place, cited: BAtlas 27 F3 Planesia? Ins.",
   "bbox": [
     0.0,
     38.0,
     1.0,
     39.0
   ],
-  "reprPoint": [
-    0.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 F3 Planesia? Ins.",
   "names": [
     "Planesia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

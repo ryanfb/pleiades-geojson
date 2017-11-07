@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villa di Monte delle Colonnacce",
   "id": "50864837",
-  "description": "A Roman villa located near Castel di Guido.",
   "bbox": [
     12.3003082,
     41.8890946,
     12.3003082,
     41.8890946
   ],
-  "reprPoint": [
-    12.3003082,
-    41.8890946
-  ],
+  "description": "A Roman villa located near Castel di Guido.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3003082,
+          41.8890946
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

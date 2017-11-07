@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Denizli",
   "id": "755967974",
-  "description": "A place from the TAVO Index",
   "bbox": [
     25.0,
     30.0,
     30.0,
     35.0
   ],
-  "reprPoint": [
-    27.5,
-    32.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Denizli",
     "Denizli",
@@ -22,6 +18,19 @@
     "Ladiḳ"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

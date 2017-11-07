@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pannonia Superior",
   "id": "991356",
-  "description": "An ancient place, cited: BAtlas 101 K2 Pannonia Superior",
   "bbox": [
     15.0,
     45.0,
     20.0,
     50.0
   ],
-  "reprPoint": [
-    17.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 K2 Pannonia Superior",
   "names": [
     "Pannonia Superior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,26 +2,36 @@
   "type": "FeatureCollection",
   "title": "Ernesto",
   "id": "446241",
-  "description": "An ancient place, cited: BAtlas 45 unlocated Ernesto",
   "bbox": [
     16.870331,
     40.888326,
     17.391887,
     41.129222
   ],
+  "description": "An ancient place, cited: BAtlas 45 unlocated Ernesto",
   "connectsWith": [
     "442500",
     "442573"
-  ],
-  "reprPoint": [
-    17.131109,
-    41.008774
   ],
   "names": [
     "Ernesto"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.131109,
+          41.008774
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

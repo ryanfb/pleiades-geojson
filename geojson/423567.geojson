@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Traiana",
   "id": "423567",
-  "description": "The Aqua Traiana was an aqueduct built by Trajan and inaugurated in AD 109.",
   "bbox": [
     12.486137,
     41.8917,
     12.4862,
     41.891775
   ],
+  "description": "The Aqua Traiana was an aqueduct built by Trajan and inaugurated in AD 109.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4861685,
-    41.8917375
   ],
   "names": [
     "Aqua Traiana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4861685,
+          41.8917375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

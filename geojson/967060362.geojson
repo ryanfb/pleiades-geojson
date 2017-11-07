@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 42A (Burn Head)",
   "id": "967060362",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.449506,
     54.99325,
     -2.449506,
     54.99325
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.449506,
-    54.99325
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.449506,
+          54.99325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

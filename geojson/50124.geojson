@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Matara",
   "id": "50124",
-  "description": "A modern city of Sri Lanka whence a hoard of ancient coins (now in the British museum) that included locally minted, late Roman imitations.",
   "bbox": [
     80.510826,
     5.952062,
     80.510826,
     5.952062
   ],
+  "description": "A modern city of Sri Lanka whence a hoard of ancient coins (now in the British museum) that included locally minted, late Roman imitations.",
   "connectsWith": [
     "50298"
   ],
-  "reprPoint": [
-    80.510826,
-    5.952062
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.510826,
+          5.952062
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

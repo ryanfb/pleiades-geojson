@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cobos Roman bridge",
   "id": "613488678",
-  "description": "A bridge with Roman origins across the río Adaja.",
   "bbox": [
     -4.8989371,
     40.5716404,
     -4.8989371,
     40.5716404
   ],
-  "reprPoint": [
-    -4.8989371,
-    40.5716404
-  ],
+  "description": "A bridge with Roman origins across the río Adaja.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8989371,
+          40.5716404
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

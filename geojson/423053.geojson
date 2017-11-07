@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "S. Petrus",
   "id": "423053",
-  "description": "The Basilica of St. Peter in Vatican City; currently a Renaissance edifice standing on the site of Old St. Peter's Basilica, a church built by Constantine I between AD 319 and 333. The holy site is located on the Mons Vaticanus in connection with the purported site of the burial of the Christian Saint Peter. (cited: BAtlas 43 B2 S. Petrus)",
   "bbox": [
     12.453318,
     41.902465,
     12.453318,
     41.902465
   ],
+  "description": "The Basilica of St. Peter in Vatican City; currently a Renaissance edifice standing on the site of Old St. Peter's Basilica, a church built by Constantine I between AD 319 and 333. The holy site is located on the Mons Vaticanus in connection with the purported site of the burial of the Christian Saint Peter. (cited: BAtlas 43 B2 S. Petrus)",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.453318,
-    41.902465
   ],
   "names": [
     "S. Petrus",
@@ -22,6 +18,19 @@
     "Saint Peter's Basilica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453318,
+          41.902465
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

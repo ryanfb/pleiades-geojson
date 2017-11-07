@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Puente Mayor del Tormes",
   "id": "237851",
-  "description": "A Roman bridge over Rio Tormes in Salamanca, Spain.",
   "bbox": [
     -5.67,
     40.958,
     -5.67,
     40.958
   ],
-  "reprPoint": [
-    -5.67,
-    40.958
-  ],
+  "description": "A Roman bridge over Rio Tormes in Salamanca, Spain.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.67,
+          40.958
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

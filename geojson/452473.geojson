@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Teuranus Ager",
   "id": "452473",
-  "description": "An area of Bruttium known from its epigraphical mention in the Senatus Consultum de Bacchanalibus (186 BC).",
   "bbox": [
     16.0,
     38.5,
     16.5,
     39.0
   ],
-  "reprPoint": [
-    16.25,
-    38.75
-  ],
+  "description": "An area of Bruttium known from its epigraphical mention in the Senatus Consultum de Bacchanalibus (186 BC).",
   "names": [
     "Teuranus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

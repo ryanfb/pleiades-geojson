@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Porta Nocera",
   "id": "11924821",
-  "description": "A city gate of Pompeii located at the southern terminus of Strada di Porta Nocera.",
   "bbox": [
     14.4933852,
     40.7495276,
     14.4933852,
     40.7495276
   ],
+  "description": "A city gate of Pompeii located at the southern terminus of Strada di Porta Nocera.",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4933852,
-    40.7495276
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4933852,
+          40.7495276
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

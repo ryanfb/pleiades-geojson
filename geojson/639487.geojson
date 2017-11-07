@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "639487",
-  "description": "An ancient place, cited: BAtlas 65 A2 unnamed aqueduct (Aphrodisias)",
   "bbox": [
     28.5,
     37.5,
     29.0,
     38.0
   ],
-  "reprPoint": [
-    28.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 A2 unnamed aqueduct (Aphrodisias)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

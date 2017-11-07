@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Korone",
   "id": "530960",
-  "description": "An ancient place, cited: BAtlas 54 C3 Korone",
   "bbox": [
     20.564339,
     39.285862,
     20.564339,
     39.285862
   ],
-  "reprPoint": [
-    20.564339,
-    39.285862
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C3 Korone",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.564339,
+          39.285862
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

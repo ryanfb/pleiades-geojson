@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pass of the Alpes Graiae",
   "id": "264120821",
-  "description": "A pass west of Segusio",
   "bbox": [
     6.922855,
     45.16636,
     6.922855,
     45.16636
   ],
+  "description": "A pass west of Segusio",
   "connectsWith": [
     "167637"
   ],
-  "reprPoint": [
-    6.922855,
-    45.16636
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.922855,
+          45.16636
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

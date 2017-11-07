@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Tit(i)us/Katarbates (river)",
   "id": "197553",
-  "description": "An ancient place, cited: BAtlas 20 C6 Tit(i)us/Katarbates fl.",
   "bbox": [
     15.0,
     43.0,
     16.0,
     44.0
   ],
-  "reprPoint": [
-    15.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C6 Tit(i)us/Katarbates fl.",
   "names": [
     "Titius",
     "Titus",
     "Katarbates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

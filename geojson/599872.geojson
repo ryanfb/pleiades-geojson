@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Patmos (island)",
   "id": "599872",
-  "description": "Patmos is the smallest and northernmost island of the Sporades.",
   "bbox": [
     26.5578532,
     37.3157746,
     26.5578532,
     37.3157746
   ],
+  "description": "Patmos is the smallest and northernmost island of the Sporades.",
   "connectsWith": [
     "599944",
     "599668"
-  ],
-  "reprPoint": [
-    26.5578532,
-    37.3157746
   ],
   "names": [
     "Patmos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5578532,
+          37.3157746
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

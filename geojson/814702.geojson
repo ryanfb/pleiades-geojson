@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Maisaimaneis",
   "id": "814702",
-  "description": "The Maisaimaneis were an ancient people of northwestern Arabia.",
   "bbox": [
     38.0,
     26.0,
     39.0,
     27.0
   ],
-  "reprPoint": [
-    38.5,
-    26.5
-  ],
+  "description": "The Maisaimaneis were an ancient people of northwestern Arabia.",
   "names": [
     "Maisaimaneis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5,
+          26.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

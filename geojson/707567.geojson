@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lyso",
   "id": "707567",
-  "description": "An ancient place, cited: BAtlas 72 B2 Lyso",
   "bbox": [
     32.521767,
     35.010847,
     32.521767,
     35.010847
   ],
+  "description": "An ancient place, cited: BAtlas 72 B2 Lyso",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.521767,
-    35.010847
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.521767,
+          35.010847
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

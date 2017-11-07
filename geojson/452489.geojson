@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vibonensis Sinus",
   "id": "452489",
-  "description": "An ancient place, cited: BAtlas 46 C4 Vibonensis Sinus",
   "bbox": [
     15.5,
     38.5,
     16.0,
     39.0
   ],
-  "reprPoint": [
-    15.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 46 C4 Vibonensis Sinus",
   "names": [
     "Vibonensis Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

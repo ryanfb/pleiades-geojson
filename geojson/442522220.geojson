@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Villa of the Papyri",
   "id": "442522220",
-  "description": "A suburban villa located northwest of Herculaneum that was originally owned by Lucius Calpurnius Piso Caesoninus.",
   "bbox": [
     14.3445,
     40.8078,
     14.3445,
     40.8078
   ],
+  "description": "A suburban villa located northwest of Herculaneum that was originally owned by Lucius Calpurnius Piso Caesoninus.",
   "connectsWith": [
     "432873"
   ],
-  "reprPoint": [
-    14.3445,
-    40.8078
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3445,
+          40.8078
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

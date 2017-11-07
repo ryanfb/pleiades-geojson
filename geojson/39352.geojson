@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Indicum Mare",
   "id": "39352",
-  "description": "The Indian Ocean.",
   "bbox": [
     80.0,
     -20.0,
     80.0,
     -20.0
   ],
-  "reprPoint": [
-    80.0,
-    -20.0
-  ],
+  "description": "The Indian Ocean.",
   "names": [
     "Indicum Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0,
+          -20.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

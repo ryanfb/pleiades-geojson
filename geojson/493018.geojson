@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "493018",
-  "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (Laki)",
   "bbox": [
     22.5,
     41.5,
     23.0,
     42.0
   ],
-  "reprPoint": [
-    22.75,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C1 unnamed quarry (Laki)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

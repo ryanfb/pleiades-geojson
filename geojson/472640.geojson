@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed Roman bridge",
   "id": "472640",
-  "description": "An ancient place, cited: BAtlas 48 B3 unnamed bridge (NW Ussana)",
   "bbox": [
     9.0,
     39.0,
     10.0,
     40.0
   ],
+  "description": "An ancient place, cited: BAtlas 48 B3 unnamed bridge (NW Ussana)",
   "connectsWith": [
     "472014"
   ],
-  "reprPoint": [
-    9.5,
-    39.5
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

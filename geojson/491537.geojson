@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bansko",
   "id": "491537",
-  "description": "An ancient place, cited: BAtlas 50 D1 Bansko",
   "bbox": [
     23.498736,
     41.836423,
     23.498736,
     41.836423
   ],
-  "reprPoint": [
-    23.498736,
-    41.836423
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D1 Bansko",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.498736,
+          41.836423
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kana?",
   "id": "678220",
-  "description": "An ancient place, cited: BAtlas 69 B4 Kana?",
   "bbox": [
     35.0,
     32.5,
     35.5,
     33.0
   ],
-  "reprPoint": [
-    35.25,
-    32.75
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Kana?",
   "names": [
     "Kana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          32.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

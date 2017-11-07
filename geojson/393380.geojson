@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Ariminus (river)",
   "id": "393380",
-  "description": "A river of eastern Italy that flows from the Monte dei Frati to the Adriatic Sea.",
   "bbox": [
     15.885196,
     42.7752864,
     15.885196,
     42.7752864
   ],
+  "description": "A river of eastern Italy that flows from the Monte dei Frati to the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.885196,
-    42.7752864
   ],
   "names": [
     "Ariminus",
     "Maricla"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.885196,
+          42.7752864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

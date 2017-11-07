@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Arabicus Sinus/Erythr(ae)um/Rubrum Mare",
   "id": "39290",
-  "description": "Arabicus Sinus/Erythr(ae)um/Rubrum Mare (The Red Sea) is an inlet of the Indian Ocean located between Africa and Asia.",
   "bbox": [
     39.5,
     19.0,
     39.5,
     19.0
   ],
+  "description": "Arabicus Sinus/Erythr(ae)um/Rubrum Mare (The Red Sea) is an inlet of the Indian Ocean located between Africa and Asia.",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    39.5,
-    19.0
   ],
   "names": [
     "Arabicus Sinus",
@@ -25,6 +21,19 @@
     "Red Sea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          19.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

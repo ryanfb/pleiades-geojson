@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thyrsos (river)",
   "id": "472033",
-  "description": "The Tirso river, one of the most important rivers of Sardinia, flows from the Punta Pianedda to the Gulf of Oristano.",
   "bbox": [
     8.7362377,
     39.9673855,
     8.7362377,
     39.9673855
   ],
+  "description": "The Tirso river, one of the most important rivers of Sardinia, flows from the Punta Pianedda to the Gulf of Oristano.",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    8.7362377,
-    39.9673855
   ],
   "names": [
     "Thyrsos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7362377,
+          39.9673855
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

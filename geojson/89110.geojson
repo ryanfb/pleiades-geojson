@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bar Hill",
   "id": "89110",
-  "description": "The site of a Roman fort on the Antonine Wall.",
   "bbox": [
     -4.083657,
     55.956526,
     -4.083657,
     55.956526
   ],
+  "description": "The site of a Roman fort on the Antonine Wall.",
   "connectsWith": [
     "91357"
   ],
-  "reprPoint": [
-    -4.083657,
-    55.956526
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.083657,
+          55.956526
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

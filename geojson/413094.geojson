@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Cluentus (river)",
   "id": "413094",
-  "description": "The Chienti river.",
   "bbox": [
     13.0,
     43.0,
     13.5,
     43.5
   ],
-  "reprPoint": [
-    13.25,
-    43.25
-  ],
+  "description": "The Chienti river.",
   "names": [
     "Cluentus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,19 +2,30 @@
   "type": "FeatureCollection",
   "title": "Poikile Petra",
   "id": "233666074",
-  "description": "Poikile Petra is the name of a road connecting Seleucia ad Calycadnum and Corycus.",
   "bbox": [
     33.915353,
     36.376809,
     34.154167,
     36.467249
   ],
+  "description": "Poikile Petra is the name of a road connecting Seleucia ad Calycadnum and Corycus.",
   "connectsWith": [
     "648771",
     "648612"
   ],
-  "reprPoint": [
-    34.03642925,
-    36.42276875
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03642925,
+          36.42276875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

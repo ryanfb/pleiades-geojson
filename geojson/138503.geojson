@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Orbaniacum",
   "id": "138503",
-  "description": "An ancient place, cited: BAtlas 14 G1 Orbaniacum",
   "bbox": [
     1.234234,
     47.209,
     1.234234,
     47.209
   ],
-  "reprPoint": [
-    1.234234,
-    47.209
-  ],
+  "description": "An ancient place, cited: BAtlas 14 G1 Orbaniacum",
   "names": [
     "Orbaniacum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.234234,
+          47.209
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

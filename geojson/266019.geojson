@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Saetabis? (river)",
   "id": "266019",
-  "description": "An ancient place, cited: BAtlas 27 E3 Saetabis? fl.",
   "bbox": [
     -1.0,
     38.0,
     0.0,
     39.0
   ],
-  "reprPoint": [
-    -0.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E3 Saetabis? fl.",
   "names": [
     "Saetabis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

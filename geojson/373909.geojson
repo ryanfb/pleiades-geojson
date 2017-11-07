@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Senab",
   "id": "373909",
-  "description": "An ancient place, cited: BAtlas 38 C1 Wadi Senab",
   "bbox": [
     21.76592,
     32.747049,
     21.791397,
     32.753346
   ],
-  "reprPoint": [
-    21.7786585,
-    32.7501975
-  ],
+  "description": "An ancient place, cited: BAtlas 38 C1 Wadi Senab",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7786585,
+          32.7501975
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

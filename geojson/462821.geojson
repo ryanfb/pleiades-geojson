@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "462821",
-  "description": "An ancient place, cited: BAtlas 47 G4 unnamed aqueduct group (Syracusae)",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
+  "description": "An ancient place, cited: BAtlas 47 G4 unnamed aqueduct group (Syracusae)",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

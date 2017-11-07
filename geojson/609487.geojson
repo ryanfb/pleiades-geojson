@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Olympene",
   "id": "609487",
-  "description": "An ancient place, cited: BAtlas 62 A2 Olympene",
   "bbox": [
     28.5,
     39.5,
     29.0,
     40.0
   ],
-  "reprPoint": [
-    28.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 A2 Olympene",
   "names": [
     "Olympene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

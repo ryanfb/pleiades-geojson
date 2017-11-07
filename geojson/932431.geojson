@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "al-Khobar",
   "id": "932431",
-  "description": "An ancient place, cited: BAtlas 95 C3 al-Khobar",
   "bbox": [
     50.213287,
     26.289367,
     50.213287,
     26.289367
   ],
-  "reprPoint": [
-    50.213287,
-    26.289367
-  ],
+  "description": "An ancient place, cited: BAtlas 95 C3 al-Khobar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.213287,
+          26.289367
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

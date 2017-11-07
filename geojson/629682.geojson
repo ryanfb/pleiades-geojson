@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "629682",
-  "description": "An ancient place, cited: BAtlas 64 G4 no. 11 (N Melitene at Kırk Göz Köprü on Tohma Su (Melas fl.))",
   "bbox": [
     38.0,
     38.0,
     38.5,
     38.5
   ],
-  "reprPoint": [
-    38.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 G4 no. 11 (N Melitene at Kırk Göz Köprü on Tohma Su (Melas fl.))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

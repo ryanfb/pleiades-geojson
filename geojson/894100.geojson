@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "al-Tar",
   "id": "894100",
-  "description": "An ancient place, cited: BAtlas 91 E5 al-Tar",
   "bbox": [
     43.810504,
     32.397379,
     43.810504,
     32.397379
   ],
-  "reprPoint": [
-    43.810504,
-    32.397379
-  ],
+  "description": "An ancient place, cited: BAtlas 91 E5 al-Tar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.810504,
+          32.397379
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

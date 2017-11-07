@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cavares",
   "id": "167702",
-  "description": "An ancient place, cited: BAtlas 17 D5 Cavares",
   "bbox": [
     4.5,
     44.0,
     5.0,
     44.5
   ],
-  "reprPoint": [
-    4.75,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 D5 Cavares",
   "names": [
     "Cavares"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

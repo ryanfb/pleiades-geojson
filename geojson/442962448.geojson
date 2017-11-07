@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Giza",
   "id": "442962448",
-  "description": "The site of Giza encompasses the Giza Necropolis, a large archaeological site famous for its pyramid complexes and monumental sculpture. ",
   "bbox": [
     31.1282137,
     29.9717436,
     31.1380828,
     29.9801725
   ],
+  "description": "The site of Giza encompasses the Giza Necropolis, a large archaeological site famous for its pyramid complexes and monumental sculpture. ",
   "connectsWith": [
     "736963"
-  ],
-  "reprPoint": [
-    31.1343486917,
-    29.9758087083
   ],
   "names": [
     "Giza"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1343486917,
+          29.9758087083
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

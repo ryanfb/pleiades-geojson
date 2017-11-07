@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Athyras (river)",
   "id": "511173",
-  "description": "An ancient place, cited: BAtlas 52 C2 Athyras fl.",
   "bbox": [
     28.0,
     41.0,
     28.5,
     41.5
   ],
-  "reprPoint": [
-    28.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 C2 Athyras fl.",
   "names": [
     "Athyras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

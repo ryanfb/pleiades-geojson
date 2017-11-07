@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pagus Ambitrebius",
   "id": "383729",
-  "description": "An ancient place, cited: BAtlas 39 E4 Pagus Ambitrebius",
   "bbox": [
     9.0,
     44.5,
     9.5,
     45.0
   ],
-  "reprPoint": [
-    9.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 E4 Pagus Ambitrebius",
   "names": [
     "Pagus Ambitrebius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

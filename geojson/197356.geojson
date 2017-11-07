@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Lissa (island)",
   "id": "197356",
-  "description": "An island in the Adriatic, known today as Ugljan/Ugliano.",
   "bbox": [
     15.0603966,
     44.0094073,
     15.2602809,
     44.15872
   ],
+  "description": "An island in the Adriatic, known today as Ugljan/Ugliano.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.1647037696,
-    44.0821431067
   ],
   "names": [
     "Lissa",
@@ -22,6 +18,19 @@
     "Ugliano"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1647037696,
+          44.0821431067
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

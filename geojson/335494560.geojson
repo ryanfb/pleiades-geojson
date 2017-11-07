@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Central Baths",
   "id": "335494560",
-  "description": "A bath complex  (IX, 4, 5-18) located at the intersection of the Via Stabiana and Via di Nola that was built following the earthquake of AD 62.",
   "bbox": [
     14.4866934,
     40.7515258,
     14.4866934,
     40.7515258
   ],
+  "description": "A bath complex  (IX, 4, 5-18) located at the intersection of the Via Stabiana and Via di Nola that was built following the earthquake of AD 62.",
   "connectsWith": [
     "433032"
-  ],
-  "reprPoint": [
-    14.4866934,
-    40.7515258
   ],
   "names": [
     "Terme centrali",
@@ -27,6 +23,19 @@
     "IX.4.5"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4866934,
+          40.7515258
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

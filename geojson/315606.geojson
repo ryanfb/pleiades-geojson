@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Aqueduct east of Djebel Zid",
   "id": "315606",
-  "description": "An aqueduct connected to areas of centuriation north of Segermes",
   "bbox": [
     10.357599,
     36.44303,
     10.357599,
     36.44303
   ],
-  "reprPoint": [
-    10.357599,
-    36.44303
-  ],
+  "description": "An aqueduct connected to areas of centuriation north of Segermes",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.357599,
+          36.44303
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

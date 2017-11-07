@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iska (river)",
   "id": "79535",
-  "description": "An ancient place, cited: BAtlas 8 D4 Iska fl.",
   "bbox": [
     -4.0,
     50.0,
     -3.0,
     51.0
   ],
-  "reprPoint": [
-    -3.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 D4 Iska fl.",
   "names": [
     "Iska"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

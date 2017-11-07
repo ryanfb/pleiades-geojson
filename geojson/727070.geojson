@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Alexandria",
   "id": "727070",
-  "description": "The ancient port city in Egypt's Nile Delta, founded by Alexander the Great in 332/331 BCE (BAtlas 74 B2 Alexandria).",
   "bbox": [
     29.896944,
     31.181944,
     29.917027,
     31.211358
   ],
-  "reprPoint": [
-    29.9079146667,
-    31.1982456667
-  ],
+  "description": "The ancient port city in Egypt's Nile Delta, founded by Alexander the Great in 332/331 BCE (BAtlas 74 B2 Alexandria).",
   "names": [
     "Alexandria",
     "Alexandria",
@@ -26,6 +22,19 @@
     "Alexandreia ad Aegyptum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9079146667,
+          31.1982456667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

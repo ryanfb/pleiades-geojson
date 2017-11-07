@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cyrenaica",
   "id": "373777",
-  "description": "An ancient region (the environs of the city of Cyrene) that lies in the eastern part of modern Libya.",
   "bbox": [
     20.1202435324,
     32.0005500586,
     23.261002412,
     32.9985495265
   ],
-  "reprPoint": [
-    21.6178163432,
-    32.5492926759
-  ],
+  "description": "An ancient region (the environs of the city of Cyrene) that lies in the eastern part of modern Libya.",
   "names": [
     "Cyrenaica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6178163432,
+          32.5492926759
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

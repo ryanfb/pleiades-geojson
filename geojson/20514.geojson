@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Krosno, Połowite, Weklice",
   "id": "20514",
-  "description": "An ancient place, cited: BAtlas 2 G3 Krosno, Połowite, Weklice",
   "bbox": [
     15.0,
     50.0,
     20.0,
     55.0
   ],
-  "reprPoint": [
-    17.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 G3 Krosno, Połowite, Weklice",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

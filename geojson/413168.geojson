@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Helvinus? (river)",
   "id": "413168",
-  "description": "An ancient place, cited: BAtlas 42 F2 Helvinus? fl.",
   "bbox": [
     15.885196,
     42.7752864,
     15.885196,
     42.7752864
   ],
+  "description": "An ancient place, cited: BAtlas 42 F2 Helvinus? fl.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.885196,
-    42.7752864
   ],
   "names": [
     "Helvinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.885196,
+          42.7752864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

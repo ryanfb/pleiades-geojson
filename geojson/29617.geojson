@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Jumeirah",
   "id": "29617",
-  "description": "An ancient place, cited: BAtlas 3 G4 Jumeirah",
   "bbox": [
     55.250773,
     25.208098,
     55.250773,
     25.208098
   ],
-  "reprPoint": [
-    55.250773,
-    25.208098
-  ],
+  "description": "An ancient place, cited: BAtlas 3 G4 Jumeirah",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.250773,
+          25.208098
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

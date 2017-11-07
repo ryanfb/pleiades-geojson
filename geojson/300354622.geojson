@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Kilīd ūl-Baḥreyn",
   "id": "300354622",
-  "description": "A place from the TAVO Index",
   "bbox": [
     25.0,
     40.0,
     25.5,
     40.5
   ],
-  "reprPoint": [
-    25.25,
-    40.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Kilīd ūl-Baḥreyn",
     "Kilitbahir",
@@ -22,6 +18,19 @@
     "Kilīd ūl-Baḥreyn"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

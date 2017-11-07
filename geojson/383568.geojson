@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Amalune (river)",
   "id": "383568",
-  "description": "An ancient place, cited: BAtlas 39 B3 Amalune fl.",
   "bbox": [
     7.5,
     45.0,
     8.0,
     45.5
   ],
+  "description": "An ancient place, cited: BAtlas 39 B3 Amalune fl.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    7.75,
-    45.25
   ],
   "names": [
     "Amalune"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "22",
   "id": "612328",
-  "description": "An ancient place, cited: BAtlas 62 B5 no. 22 (W *Thiounta)",
   "bbox": [
     29.0,
     38.0,
     29.5,
     38.5
   ],
-  "reprPoint": [
-    29.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 B5 no. 22 (W *Thiounta)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

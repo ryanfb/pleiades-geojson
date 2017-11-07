@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "268787",
-  "description": "An ancient place, cited: BAtlas 27 B2 unnamed dam (La Mesa de Valhermoso, 7 miles WSW Orgaz on Arroyo Valhermoso)",
   "bbox": [
     -4.0,
     39.0,
     -3.0,
     40.0
   ],
-  "reprPoint": [
-    -3.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B2 unnamed dam (La Mesa de Valhermoso, 7 miles WSW Orgaz on Arroyo Valhermoso)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

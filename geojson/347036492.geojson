@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Capitolinus Mons",
   "id": "347036492",
-  "description": "The smallest of Rome's hills and one of its most important, the Capitoline served as the citadel (arx) of the city and as the site of its poliadic temple.",
   "bbox": [
     12.4822154,
     41.8925778,
     12.4822154,
     41.8925778
   ],
-  "reprPoint": [
-    12.4822154,
-    41.8925778
-  ],
+  "description": "The smallest of Rome's hills and one of its most important, the Capitoline served as the citadel (arx) of the city and as the site of its poliadic temple.",
   "names": [
     "mons Tarpeius",
     "Monte Capitolino",
@@ -20,6 +16,19 @@
     "mons Capitolinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4822154,
+          41.8925778
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

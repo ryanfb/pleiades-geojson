@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Aswan Quarry Landscape",
   "id": "568902179",
-  "description": "Quarry region around the town of Aswan in Upper Egypt.",
   "bbox": [
     32.84,
     24.02,
     32.94,
     24.16
   ],
+  "description": "Quarry region around the town of Aswan in Upper Egypt.",
   "connectsWith": [
     "786123",
     "786021"
   ],
-  "reprPoint": [
-    32.89281815,
-    24.08349815
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89281815,
+          24.08349815
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

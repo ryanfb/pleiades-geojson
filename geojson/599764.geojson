@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Leros (island)",
   "id": "599764",
-  "description": "One of the Sporades, ca. 40 km from the coast of Caria.",
   "bbox": [
     26.8224439,
     37.1953268,
     26.8224439,
     37.1953268
   ],
+  "description": "One of the Sporades, ca. 40 km from the coast of Caria.",
   "connectsWith": [
     "560221",
     "599944"
-  ],
-  "reprPoint": [
-    26.8224439,
-    37.1953268
   ],
   "names": [
     "Leros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8224439,
+          37.1953268
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

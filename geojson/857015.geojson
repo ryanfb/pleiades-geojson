@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Akampsis (river)",
   "id": "857015",
-  "description": "Akampsis fl. (Çoruh River)",
   "bbox": [
     41.7156362,
     40.8877953,
     41.7156362,
     40.8877953
   ],
+  "description": "Akampsis fl. (Çoruh River)",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    41.7156362,
-    40.8877953
   ],
   "names": [
     "Akampsis",
     "Acampseon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.7156362,
+          40.8877953
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

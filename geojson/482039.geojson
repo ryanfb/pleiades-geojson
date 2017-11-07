@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Železna Reka",
   "id": "482039",
-  "description": "An ancient place, cited: BAtlas 49 D2 Železna Reka",
   "bbox": [
     20.999469,
     41.702223,
     20.999469,
     41.702223
   ],
-  "reprPoint": [
-    20.999469,
-    41.702223
-  ],
+  "description": "An ancient place, cited: BAtlas 49 D2 Železna Reka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.999469,
+          41.702223
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

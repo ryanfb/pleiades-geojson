@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Libyssos (river)",
   "id": "511306",
-  "description": "An ancient place, cited: BAtlas 52 F3 Libyssos fl.",
   "bbox": [
     29.5,
     40.5,
     30.0,
     41.0
   ],
-  "reprPoint": [
-    29.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F3 Libyssos fl.",
   "names": [
     "Libyssos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 8A (West Denton)",
   "id": "967060375",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.707671,
     54.987933,
     -1.707671,
     54.987933
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.707671,
-    54.987933
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.707671,
+          54.987933
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

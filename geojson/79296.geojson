@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Antiouestaion/Bolerion Akron",
   "id": "79296",
-  "description": "An ancient place, cited: BAtlas 8 B4 Antiouestaion/Bolerion Akron",
   "bbox": [
     -6.0,
     50.0,
     -5.0,
     51.0
   ],
-  "reprPoint": [
-    -5.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 B4 Antiouestaion/Bolerion Akron",
   "names": [
     "Antiouestaion",
     "Bolerion Akron",
     "Belerion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

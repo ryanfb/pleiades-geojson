@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "739149",
-  "description": "An ancient place, cited: BAtlas 75 D3 unnamed levee (near Taampeti)",
   "bbox": [
     30.5,
     28.5,
     31.0,
     29.0
   ],
-  "reprPoint": [
-    30.75,
-    28.75
-  ],
+  "description": "An ancient place, cited: BAtlas 75 D3 unnamed levee (near Taampeti)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          28.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Clitumnus (river)",
   "id": "413091",
-  "description": "A small river of Umbria.",
   "bbox": [
     12.547643,
     42.072946,
     12.767471,
     42.842222
   ],
+  "description": "A small river of Umbria.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    12.65492525,
-    42.45544925
   ],
   "names": [
     "Clitumnus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.65492525,
+          42.45544925
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

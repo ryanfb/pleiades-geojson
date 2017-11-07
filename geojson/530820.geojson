@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bestia",
   "id": "530820",
-  "description": "An ancient place, cited: BAtlas 54 C3 Bestia",
   "bbox": [
     20.683251,
     39.454896,
     20.683251,
     39.454896
   ],
-  "reprPoint": [
-    20.683251,
-    39.454896
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C3 Bestia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.683251,
+          39.454896
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Theater at Delphi",
   "id": "333036424",
-  "description": "The theater at Delphi near the Temple of Apollo.",
   "bbox": [
     22.500727295,
     38.4824497476,
     22.500727295,
     38.4824497476
   ],
+  "description": "The theater at Delphi near the Temple of Apollo.",
   "connectsWith": [
     "540726"
   ],
-  "reprPoint": [
-    22.500727295,
-    38.4824497476
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.500727295,
+          38.4824497476
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

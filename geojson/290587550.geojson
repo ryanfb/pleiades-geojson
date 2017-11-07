@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sanafir Island",
   "id": "290587550",
-  "description": "An island in the Red Sea to the east of Tiran island.",
   "bbox": [
     34.708056,
     27.933611,
     34.708056,
     27.933611
   ],
+  "description": "An island in the Red Sea to the east of Tiran island.",
   "connectsWith": [
     "39290",
     "746701"
   ],
-  "reprPoint": [
-    34.708056,
-    27.933611
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.708056,
+          27.933611
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

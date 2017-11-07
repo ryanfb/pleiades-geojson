@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Album Pr.",
   "id": "678012",
-  "description": "An ancient place, cited: BAtlas 69 B3 Album Pr.",
   "bbox": [
     35.0,
     33.0,
     35.5,
     33.5
   ],
-  "reprPoint": [
-    35.25,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B3 Album Pr.",
   "names": [
     "Album Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

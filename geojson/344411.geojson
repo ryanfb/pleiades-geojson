@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kassala",
   "id": "344411",
-  "description": "An ancient place, cited: BAtlas 35 F2 Kassala",
   "bbox": [
     13.428269,
     32.840717,
     13.428269,
     32.840717
   ],
-  "reprPoint": [
-    13.428269,
-    32.840717
-  ],
+  "description": "An ancient place, cited: BAtlas 35 F2 Kassala",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.428269,
+          32.840717
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

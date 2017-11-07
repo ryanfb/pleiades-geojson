@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Paphlagonia",
   "id": "1001919",
-  "description": "The 5th/6th century AD Roman province as defined in the Barrington Atlas (BAtlas 102 F3 no. 33 [Paphlagonia])",
   "bbox": [
     30.0,
     40.0,
     35.0,
     45.0
   ],
-  "reprPoint": [
-    32.5,
-    42.5
-  ],
+  "description": "The 5th/6th century AD Roman province as defined in the Barrington Atlas (BAtlas 102 F3 no. 33 [Paphlagonia])",
   "names": [
     "Paphlagonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

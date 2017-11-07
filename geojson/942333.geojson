@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Varkana/Hyrcania/Gurgan",
   "id": "942333",
-  "description": "An important region of ancient Iran located between the Caspian Sea and the Harborz Mons.",
   "bbox": [
     56.0,
     37.1,
     56.6,
     37.1
   ],
+  "description": "An important region of ancient Iran located between the Caspian Sea and the Harborz Mons.",
   "connectsWith": [
     "942296",
     "884130"
-  ],
-  "reprPoint": [
-    56.3,
-    37.1
   ],
   "names": [
     "Varkana",
@@ -23,6 +19,19 @@
     "Gurgan"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3,
+          37.1
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

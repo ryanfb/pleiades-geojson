@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain el-Hayz",
   "id": "716510",
-  "description": "An ancient place, cited: None",
   "bbox": [
     28.650122,
     28.033849,
     28.650122,
     28.033849
   ],
-  "reprPoint": [
-    28.650122,
-    28.033849
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.650122,
+          28.033849
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Alekseyevskoye",
   "id": "825222",
-  "description": "An ancient place, cited: BAtlas 84 C4 Alekseyevskoye",
   "bbox": [
     37.340751,
     44.903936,
     37.340751,
     44.903936
   ],
-  "reprPoint": [
-    37.340751,
-    44.903936
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C4 Alekseyevskoye",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.340751,
+          44.903936
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

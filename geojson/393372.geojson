@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aemilia",
   "id": "393372",
-  "description": "Aemilia was a region (Regio VIII) of northern Italy.",
   "bbox": [
     11.0,
     44.5,
     11.5,
     45.0
   ],
-  "reprPoint": [
-    11.25,
-    44.75
-  ],
+  "description": "Aemilia was a region (Regio VIII) of northern Italy.",
   "names": [
     "Aemilia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

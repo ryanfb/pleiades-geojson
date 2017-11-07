@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250035",
-  "description": "An ancient place, cited: BAtlas 25 B4 no. 129 (Los Villares (Fuentearmegil))",
   "bbox": [
     -4.0,
     41.0,
     -3.0,
     42.0
   ],
-  "reprPoint": [
-    -3.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 B4 no. 129 (Los Villares (Fuentearmegil))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

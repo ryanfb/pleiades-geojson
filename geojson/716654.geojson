@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Zeszes/Oasis Parva",
   "id": "716654",
-  "description": "An ancient place, cited: None",
   "bbox": [
     28.0,
     28.0,
     29.0,
     29.0
   ],
-  "reprPoint": [
-    28.5,
-    28.5
-  ],
+  "description": "An ancient place, cited: None",
   "names": [
     "Zeszes",
     "Oasis Parva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          28.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

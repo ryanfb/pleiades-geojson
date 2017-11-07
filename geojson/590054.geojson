@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Somantera-Katholike",
   "id": "590054",
-  "description": "An ancient place, cited: BAtlas 60 G3 Somantera-Katholike",
   "bbox": [
     27.964125,
     36.195597,
     27.964125,
     36.195597
   ],
+  "description": "An ancient place, cited: BAtlas 60 G3 Somantera-Katholike",
   "connectsWith": [
     "590031"
   ],
-  "reprPoint": [
-    27.964125,
-    36.195597
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.964125,
+          36.195597
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

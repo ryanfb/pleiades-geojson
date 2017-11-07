@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 57A (Beck)",
   "id": "967060259",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.775314,
     54.962176,
     -2.775314,
     54.962176
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.775314,
-    54.962176
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.775314,
+          54.962176
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 29 (Tower Tye)",
   "id": "967060332",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.175656,
     55.034188,
     -2.175347,
     55.034378
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.17550016679,
-    55.0342831434
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.17550016679,
+          55.0342831434
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kyathos? (river)",
   "id": "530968",
-  "description": "An ancient place, cited: BAtlas 54 D4 Kyathos? fl.",
   "bbox": [
     21.0,
     38.5,
     21.5,
     39.0
   ],
-  "reprPoint": [
-    21.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 54 D4 Kyathos? fl.",
   "names": [
     "Kyathos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Ionia (region)",
   "id": "550597",
-  "description": "The coast of Asia Minor between Aeolis and Caria.",
   "bbox": [
     26.785014,
     38.004725,
     28.1112899,
     38.5178164
   ],
+  "description": "The coast of Asia Minor between Aeolis and Caria.",
   "connectsWith": [
     "550406",
     "599564",
     "550701"
-  ],
-  "reprPoint": [
-    27.3660121333,
-    38.2585728556
   ],
   "names": [
     "Ionia",
     "Iōnía"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3660121333,
+          38.2585728556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

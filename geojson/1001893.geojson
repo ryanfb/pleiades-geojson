@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Makedonia I",
   "id": "1001893",
-  "description": "An ancient place, cited: BAtlas 102 D3 no. 7 (Makedonia I)",
   "bbox": [
     20.0,
     40.0,
     25.0,
     45.0
   ],
-  "reprPoint": [
-    22.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 D3 no. 7 (Makedonia I)",
   "names": [
     "Makedonia I"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

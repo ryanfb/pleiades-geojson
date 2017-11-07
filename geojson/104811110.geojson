@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Ṣanʿāʾ",
   "id": "104811110",
-  "description": "Ṣanʿāʾ is the largest city in Yemen. Its \"Old City\" was listed as a UNESCO World Heritage Site in 1986.",
   "bbox": [
     44.2005197,
     15.342101,
     44.2005197,
     15.342101
   ],
-  "reprPoint": [
-    44.2005197,
-    15.342101
-  ],
+  "description": "Ṣanʿāʾ is the largest city in Yemen. Its \"Old City\" was listed as a UNESCO World Heritage Site in 1986.",
   "names": [
     "Ṣanʿāʾ",
     "Sanʿāʾ",
@@ -20,6 +16,19 @@
     "Sanʿaʾ"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2005197,
+          15.342101
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

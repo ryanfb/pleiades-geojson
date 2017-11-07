@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Chauci",
   "id": "98937",
-  "description": "The Chauci were a German tribe occupying the territory between the Ems and Elbe rivers.",
   "bbox": [
     10.6432536,
     53.3698671,
     10.6432536,
     53.3698671
   ],
+  "description": "The Chauci were a German tribe occupying the territory between the Ems and Elbe rivers.",
   "connectsWith": [
     "98909"
-  ],
-  "reprPoint": [
-    10.6432536,
-    53.3698671
   ],
   "names": [
     "Chauci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6432536,
+          53.3698671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

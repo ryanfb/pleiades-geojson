@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Well",
   "id": "89320",
-  "description": "An ancient place, cited: BAtlas 9 F6 Well",
   "bbox": [
     -1.592433,
     54.232303,
     -1.592433,
     54.232303
   ],
-  "reprPoint": [
-    -1.592433,
-    54.232303
-  ],
+  "description": "An ancient place, cited: BAtlas 9 F6 Well",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.592433,
+          54.232303
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

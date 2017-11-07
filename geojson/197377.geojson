@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mentorides (islands)",
   "id": "197377",
-  "description": "An ancient place, cited: BAtlas 20 B5 Mentorides Inss.",
   "bbox": [
     14.0,
     44.0,
     15.0,
     45.0
   ],
-  "reprPoint": [
-    14.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B5 Mentorides Inss.",
   "names": [
     "Mentorides"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed Well",
   "id": "345438602",
-  "description": "NW Sinai",
   "bbox": [
     32.796584,
     29.761179,
     32.796584,
     29.761179
   ],
-  "reprPoint": [
-    32.796584,
-    29.761179
-  ],
+  "description": "NW Sinai",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.796584,
+          29.761179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

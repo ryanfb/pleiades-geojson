@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "659874",
-  "description": "An ancient place, cited: BAtlas 67 B2 unnamed bridge (E Anazarbos)",
   "bbox": [
     35.5,
     37.0,
     36.0,
     37.5
   ],
-  "reprPoint": [
-    35.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 B2 unnamed bridge (E Anazarbos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

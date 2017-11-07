@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Arabis (river)",
   "id": "59690",
-  "description": "An ancient place, cited: BAtlas 6 B4 Arabis fl.",
   "bbox": [
     65.0,
     25.0,
     70.0,
     30.0
   ],
-  "reprPoint": [
-    67.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B4 Arabis fl.",
   "names": [
     "Arabis",
     "Arbius",
@@ -21,6 +17,19 @@
     "Chariphou"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

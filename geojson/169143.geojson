@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "169143",
-  "description": "An ancient place, cited: BAtlas 17 I1 unnamed bridge (Octodurus)",
   "bbox": [
     7.0,
     46.0,
     7.5,
     46.5
   ],
-  "reprPoint": [
-    7.25,
-    46.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 I1 unnamed bridge (Octodurus)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          46.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

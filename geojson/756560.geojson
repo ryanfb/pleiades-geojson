@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Deir el-Muttin",
   "id": "756560",
-  "description": "An ancient place, cited: BAtlas 77 E2 Deir el-Muttin",
   "bbox": [
     31.172172,
     27.172798,
     31.172172,
     27.172798
   ],
-  "reprPoint": [
-    31.172172,
-    27.172798
-  ],
+  "description": "An ancient place, cited: BAtlas 77 E2 Deir el-Muttin",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.172172,
+          27.172798
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

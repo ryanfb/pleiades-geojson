@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abu Saybi",
   "id": "932427",
-  "description": "An ancient place, cited: BAtlas 95 C3 Abu Saybi",
   "bbox": [
     50.504143,
     26.217045,
     50.504143,
     26.217045
   ],
-  "reprPoint": [
-    50.504143,
-    26.217045
-  ],
+  "description": "An ancient place, cited: BAtlas 95 C3 Abu Saybi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.504143,
+          26.217045
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

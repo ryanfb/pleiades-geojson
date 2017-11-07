@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lago di Castiglione",
   "id": "132860152",
-  "description": "An ancient caldera lake near Gabii (ancient name unknown) that has been drained and filled in modern times.",
   "bbox": [
     12.711438,
     41.892331,
     12.711438,
     41.892331
   ],
+  "description": "An ancient caldera lake near Gabii (ancient name unknown) that has been drained and filled in modern times.",
   "connectsWith": [
     "422932"
   ],
-  "reprPoint": [
-    12.711438,
-    41.892331
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.711438,
+          41.892331
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

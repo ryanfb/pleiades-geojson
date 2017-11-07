@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Isara (river)",
   "id": "167793",
-  "description": "The Isère river flows into the river Rhône at Pont-de-l'Isère.",
   "bbox": [
     6.9537315,
     45.4711874,
     6.9537315,
     45.4711874
   ],
+  "description": "The Isère river flows into the river Rhône at Pont-de-l'Isère.",
   "connectsWith": [
     "148168"
-  ],
-  "reprPoint": [
-    6.9537315,
-    45.4711874
   ],
   "names": [
     "Isara"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9537315,
+          45.4711874
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

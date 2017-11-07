@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "414505",
-  "description": "An ancient place, cited: BAtlas 42 C4 unnamed bridge (on Via Clodia, at Blera)",
   "bbox": [
     12.0,
     42.0,
     12.5,
     42.5
   ],
+  "description": "An ancient place, cited: BAtlas 42 C4 unnamed bridge (on Via Clodia, at Blera)",
   "connectsWith": [
     "737328394"
   ],
-  "reprPoint": [
-    12.25,
-    42.25
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

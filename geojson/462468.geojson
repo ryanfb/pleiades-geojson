@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rocca Argenteria",
   "id": "462468",
-  "description": "An ancient place, cited: BAtlas 47 C3 Rocca Argenteria",
   "bbox": [
     13.314658,
     37.864868,
     13.314658,
     37.864868
   ],
+  "description": "An ancient place, cited: BAtlas 47 C3 Rocca Argenteria",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.314658,
-    37.864868
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.314658,
+          37.864868
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

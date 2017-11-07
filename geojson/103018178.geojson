@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arx of Cosa",
   "id": "103018178",
-  "description": "The citadel of the ancient city and location of its Capitolium.",
   "bbox": [
     11.286111,
     42.410833,
     11.286111,
     42.410833
   ],
+  "description": "The citadel of the ancient city and location of its Capitolium.",
   "connectsWith": [
     "413107"
   ],
-  "reprPoint": [
-    11.286111,
-    42.410833
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.286111,
+          42.410833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

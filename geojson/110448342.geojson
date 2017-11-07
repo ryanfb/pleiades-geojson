@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bosham Harbour",
   "id": "110448342",
-  "description": "A natural harborage used by Claudian forces during the invasion of Britain and described by Ptolemy.",
   "bbox": [
     -0.8554654,
     50.8321903,
     -0.8554654,
     50.8321903
   ],
-  "reprPoint": [
-    -0.8554654,
-    50.8321903
-  ],
+  "description": "A natural harborage used by Claudian forces during the invasion of Britain and described by Ptolemy.",
   "names": [
     "Bosham"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8554654,
+          50.8321903
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

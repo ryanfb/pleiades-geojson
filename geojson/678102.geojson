@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Corra (river)",
   "id": "678102",
-  "description": "An ancient place, cited: BAtlas 69 B5 Corra fl.",
   "bbox": [
     35.0,
     32.0,
     35.5,
     32.5
   ],
-  "reprPoint": [
-    35.25,
-    32.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B5 Corra fl.",
   "names": [
     "Corra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          32.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Parimouthos (river)",
   "id": "511353",
-  "description": "An ancient place, cited: BAtlas 52 F3 Parimouthos fl.",
   "bbox": [
     29.5,
     40.5,
     30.0,
     41.0
   ],
-  "reprPoint": [
-    29.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F3 Parimouthos fl.",
   "names": [
     "Parimouthos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

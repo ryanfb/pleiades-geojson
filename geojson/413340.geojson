@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tinea (river)",
   "id": "413340",
-  "description": "The Topino river in Umbria.",
   "bbox": [
     12.547643,
     42.072946,
     12.547643,
     42.072946
   ],
+  "description": "The Topino river in Umbria.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    12.547643,
-    42.072946
   ],
   "names": [
     "Tinea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.547643,
+          42.072946
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

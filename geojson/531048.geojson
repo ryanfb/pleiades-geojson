@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Paxoi (islands)",
   "id": "531048",
-  "description": "Paxoi Inss., the smallest group of Ionian islands.",
   "bbox": [
     20.1550175,
     39.1591833,
     20.2276316,
     39.192672
   ],
+  "description": "Paxoi Inss., the smallest group of Ionian islands.",
   "connectsWith": [
     "1046"
-  ],
-  "reprPoint": [
-    20.19132455,
-    39.17592765
   ],
   "names": [
     "Paxoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.19132455,
+          39.17592765
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

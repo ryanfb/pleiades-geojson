@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Settlement near Magrusa",
   "id": "3444300",
-  "description": "An ancient settlement near modern site of Magrusa",
   "bbox": [
     14.197815,
     30.944599,
     14.197815,
     30.944599
   ],
-  "reprPoint": [
-    14.197815,
-    30.944599
-  ],
+  "description": "An ancient settlement near modern site of Magrusa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.197815,
+          30.944599
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pothereus? (river)",
   "id": "590009",
-  "description": "An ancient place, cited: BAtlas 60 D2 Pothereus? fl.",
   "bbox": [
     25.0,
     35.0,
     25.5,
     35.5
   ],
-  "reprPoint": [
-    25.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 D2 Pothereus? fl.",
   "names": [
     "Pothereus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

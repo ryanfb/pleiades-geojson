@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Stoloi",
   "id": "570692",
-  "description": "An ancient place, cited: BAtlas 58 G4 Stoloi",
   "bbox": [
     24.479912,
     36.672252,
     24.479912,
     36.672252
   ],
+  "description": "An ancient place, cited: BAtlas 58 G4 Stoloi",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.479912,
-    36.672252
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.479912,
+          36.672252
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

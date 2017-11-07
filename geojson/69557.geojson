@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Riduna (island)",
   "id": "69557",
-  "description": "The northernmost of the Channel Islands.",
   "bbox": [
     -3.0,
     49.0,
     -2.0,
     50.0
   ],
-  "reprPoint": [
-    -2.5,
-    49.5
-  ],
+  "description": "The northernmost of the Channel Islands.",
   "names": [
     "Riduna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          49.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

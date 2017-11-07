@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 42 (Cawfields)",
   "id": "967060363",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.446006,
     54.993872,
     -2.445556,
     54.994106
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.44578372809,
-    54.9939895004
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.44578372809,
+          54.9939895004
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

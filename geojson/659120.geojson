@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "659120",
-  "description": "An ancient place, cited: BAtlas 67 B3 unnamed aqueduct (Katabolos)",
   "bbox": [
     35.5,
     36.5,
     36.0,
     37.0
   ],
-  "reprPoint": [
-    35.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 67 B3 unnamed aqueduct (Katabolos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

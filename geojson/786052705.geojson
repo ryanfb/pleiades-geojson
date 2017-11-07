@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Theater of Stratos",
   "id": "786052705",
-  "description": "The Theater of Stratos dates to the late fourth century B.C.",
   "bbox": [
     21.319299,
     38.6716942,
     21.3198714,
     38.6720372
   ],
+  "description": "The Theater of Stratos dates to the late fourth century B.C.",
   "connectsWith": [
     "531104"
   ],
-  "reprPoint": [
-    21.3195758742,
-    38.6718538256
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3195758742,
+          38.6718538256
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridges",
   "id": "169123",
-  "description": "unnamed bridge group (Col. Lugdunum)",
   "bbox": [
     4.5,
     45.5,
     5.0,
     46.0
   ],
-  "reprPoint": [
-    4.75,
-    45.75
-  ],
+  "description": "unnamed bridge group (Col. Lugdunum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

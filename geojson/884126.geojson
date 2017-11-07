@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Balarath? (river)",
   "id": "884126",
-  "description": "An ancient place, cited: BAtlas 90 B4 Balarath? fl.",
   "bbox": [
     46.0,
     36.0,
     47.0,
     37.0
   ],
-  "reprPoint": [
-    46.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 B4 Balarath? fl.",
   "names": [
     "Balarath",
     "Barasrot"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

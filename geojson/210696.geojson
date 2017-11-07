@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "210696",
-  "description": "Singidunum → *Aureus Mons → Margum→ Viminacium",
   "bbox": [
     20.789624,
     44.630668,
     20.789624,
     44.630668
   ],
-  "reprPoint": [
-    20.789624,
-    44.630668
-  ],
+  "description": "Singidunum → *Aureus Mons → Margum→ Viminacium",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.789624,
+          44.630668
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

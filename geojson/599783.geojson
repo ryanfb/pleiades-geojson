@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Manolates",
   "id": "599783",
-  "description": "An ancient place, cited: BAtlas 61 D2 Manolates",
   "bbox": [
     26.5,
     37.5,
     27.0,
     38.0
   ],
-  "reprPoint": [
-    26.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 D2 Manolates",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

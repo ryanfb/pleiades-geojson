@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "336741",
-  "description": "An ancient place, cited: BAtlas 34 D3 unnamed feature group (forts along Nigris fl.)",
   "bbox": [
     5.0,
     34.0,
     6.0,
     35.0
   ],
+  "description": "An ancient place, cited: BAtlas 34 D3 unnamed feature group (forts along Nigris fl.)",
   "connectsWith": [
     "334602"
   ],
-  "reprPoint": [
-    5.5,
-    34.5
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

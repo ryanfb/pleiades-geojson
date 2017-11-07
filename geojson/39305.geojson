@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Aualites Sinus",
   "id": "39305",
-  "description": "Aualites Sinus (The Gulf of Aden).",
   "bbox": [
     47.9999999,
     12.0000001,
     47.9999999,
     12.0000001
   ],
+  "description": "Aualites Sinus (The Gulf of Aden).",
   "connectsWith": [
     "39290",
     "39352"
-  ],
-  "reprPoint": [
-    47.9999999,
-    12.0000001
   ],
   "names": [
     "Aualites Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9999999,
+          12.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

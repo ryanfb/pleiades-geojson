@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Zawa",
   "id": "716649",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.409122,
     29.299766,
     25.409122,
     29.299766
   ],
-  "reprPoint": [
-    25.409122,
-    29.299766
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.409122,
+          29.299766
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

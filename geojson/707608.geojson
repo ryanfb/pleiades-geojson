@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Petrera",
   "id": "707608",
-  "description": "An ancient place, cited: BAtlas 72 C3 Petrera",
   "bbox": [
     33.362253,
     34.747153,
     33.362253,
     34.747153
   ],
+  "description": "An ancient place, cited: BAtlas 72 C3 Petrera",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.362253,
-    34.747153
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.362253,
+          34.747153
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

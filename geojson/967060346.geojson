@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 44B (Mucklebank)",
   "id": "967060346",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.49962,
     54.993853,
     -2.499497,
     54.993916
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.49955908163,
-    54.993884619
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.49955908163,
+          54.993884619
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

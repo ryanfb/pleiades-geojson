@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Igilium",
   "id": "403220",
-  "description": "An ancient place, cited: BAtlas 41 D5 Igilium",
   "bbox": [
     10.918268,
     42.361781,
     10.918268,
     42.361781
   ],
+  "description": "An ancient place, cited: BAtlas 41 D5 Igilium",
   "connectsWith": [
     "403221"
-  ],
-  "reprPoint": [
-    10.918268,
-    42.361781
   ],
   "names": [
     "Igilium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.918268,
+          42.361781
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

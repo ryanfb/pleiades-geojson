@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Sirra",
   "id": "501616",
-  "description": "An ancient place, cited: BAtlas 51 B2 Sirra",
   "bbox": [
     23.542453,
     41.087975,
     23.542453,
     41.087975
   ],
-  "reprPoint": [
-    23.542453,
-    41.087975
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B2 Sirra",
   "names": [
     "Sirra",
     "Serrai",
     "Siris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.542453,
+          41.087975
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

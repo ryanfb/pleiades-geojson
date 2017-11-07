@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Bracara Augusta",
   "id": "236377",
-  "description": "With settlement from the Neolithic onwards, Bracara Augusta was established as a civitas in 20 B.C. In the third century A.D. Diocletian advanced the settlement to the capital of the administrative area known as Conventus Bracarensis, forming part of the Roman province of Gallaecia.",
   "bbox": [
     -8.427013,
     41.55001,
     -8.422933,
     41.55174
   ],
+  "description": "With settlement from the Neolithic onwards, Bracara Augusta was established as a civitas in 20 B.C. In the third century A.D. Diocletian advanced the settlement to the capital of the administrative area known as Conventus Bracarensis, forming part of the Roman province of Gallaecia.",
   "connectsWith": [
     "236400",
     "240092",
@@ -17,15 +17,24 @@
     "240095",
     "240096"
   ],
-  "reprPoint": [
-    -8.424973,
-    41.550875
-  ],
   "names": [
     "Bracara Augusta",
     "Bracari"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.424973,
+          41.550875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

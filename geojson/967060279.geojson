@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pike Hill",
   "id": "967060279",
-  "description": "A signal tower situated on Hadrian's Wall.",
   "bbox": [
     -2.663065,
     54.975943,
     -2.66294,
     54.976013
   ],
+  "description": "A signal tower situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.66300144013,
-    54.9759780162
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.66300144013,
+          54.9759780162
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

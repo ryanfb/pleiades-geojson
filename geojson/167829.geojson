@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Medulli",
   "id": "167829",
-  "description": "An ancient place, cited: BAtlas 17 H3 Medulli",
   "bbox": [
     6.5,
     45.0,
     7.0,
     45.5
   ],
-  "reprPoint": [
-    6.75,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 H3 Medulli",
   "names": [
     "Medulli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

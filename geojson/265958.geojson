@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Maenuba (river)",
   "id": "265958",
-  "description": "An ancient place, cited: BAtlas 27 A5 Maenuba fl.",
   "bbox": [
     -5.0,
     36.0,
     -4.0,
     37.0
   ],
-  "reprPoint": [
-    -4.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 A5 Maenuba fl.",
   "names": [
     "Maenuba",
     "Mainake"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

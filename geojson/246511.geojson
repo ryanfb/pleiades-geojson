@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Muela",
   "id": "246511",
-  "description": "An ancient place, cited: BAtlas 25 E5 La Muela",
   "bbox": [
     -0.785907,
     40.691264,
     -0.785907,
     40.691264
   ],
-  "reprPoint": [
-    -0.785907,
-    40.691264
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E5 La Muela",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.785907,
+          40.691264
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

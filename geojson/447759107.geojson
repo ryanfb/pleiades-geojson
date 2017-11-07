@@ -2,18 +2,29 @@
   "type": "FeatureCollection",
   "title": "Via Cassia",
   "id": "447759107",
-  "description": "An ancient Roman road branching off from the Via Flaminia and continuing to Luna where it joined the Via Aurelia.",
   "bbox": [
     10.016856,
     41.891775,
     12.486137,
     44.066075
   ],
+  "description": "An ancient Roman road branching off from the Via Flaminia and continuing to Luna where it joined the Via Aurelia.",
   "connectsWith": [
     "174900201"
   ],
-  "reprPoint": [
-    11.8133822852,
-    42.7959638656
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8133822852,
+          42.7959638656
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

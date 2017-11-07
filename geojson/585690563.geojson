@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman amphitheater of Beneventum",
   "id": "585690563",
-  "description": "The Roman amphitheater of Beneventum dates to the reign of the emperor Nero.",
   "bbox": [
     14.7670823,
     41.1321789,
     14.7676229,
     41.1325965
   ],
+  "description": "The Roman amphitheater of Beneventum dates to the reign of the emperor Nero.",
   "connectsWith": [
     "432721"
   ],
-  "reprPoint": [
-    14.7673933042,
-    41.132424877
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7673933042,
+          41.132424877
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

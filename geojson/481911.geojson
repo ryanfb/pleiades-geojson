@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Meropus M.",
   "id": "481911",
-  "description": "An ancient place, cited: BAtlas 49 C3 Meropus M.",
   "bbox": [
     20.0,
     40.0,
     21.0,
     41.0
   ],
-  "reprPoint": [
-    20.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 C3 Meropus M.",
   "names": [
     "Meropus M.",
     "Aeropus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

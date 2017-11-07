@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Olympia",
   "id": "570531",
-  "description": "Ancient sanctuary of Zeus and home of the ancient Olympic games.",
   "bbox": [
     21.628625,
     37.637807,
     21.630049,
     37.6385
   ],
-  "reprPoint": [
-    21.629337,
-    37.6381535
-  ],
+  "description": "Ancient sanctuary of Zeus and home of the ancient Olympic games.",
   "names": [
     "Olympia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.629337,
+          37.6381535
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kynos Kephale? Pr.",
   "id": "530970",
-  "description": "An ancient place, cited: BAtlas 54 B3 Kynos Kephale? Pr.",
   "bbox": [
     20.0,
     39.0,
     20.5,
     39.5
   ],
-  "reprPoint": [
-    20.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 B3 Kynos Kephale? Pr.",
   "names": [
     "Kynos Kephale Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

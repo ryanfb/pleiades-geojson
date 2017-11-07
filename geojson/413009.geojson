@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Allumiere",
   "id": "413009",
-  "description": "An ancient place, cited: BAtlas 42 B4 Allumiere",
   "bbox": [
     11.90501,
     42.157369,
     11.90501,
     42.157369
   ],
-  "reprPoint": [
-    11.90501,
-    42.157369
-  ],
+  "description": "An ancient place, cited: BAtlas 42 B4 Allumiere",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.90501,
+          42.157369
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

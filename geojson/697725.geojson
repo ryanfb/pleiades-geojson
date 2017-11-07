@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Petra",
   "id": "697725",
-  "description": "Capital city of the Nabataeans located on the slope of Mount Hor.",
   "bbox": [
     35.441944,
     30.328611,
     35.441944,
     30.328611
   ],
+  "description": "Capital city of the Nabataeans located on the slope of Mount Hor.",
   "connectsWith": [
     "746711"
-  ],
-  "reprPoint": [
-    35.441944,
-    30.328611
   ],
   "names": [
     "Petra",
@@ -35,6 +31,19 @@
     "Petra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.441944,
+          30.328611
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

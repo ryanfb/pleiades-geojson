@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Punta Eolo",
   "id": "433057",
-  "description": "An ancient place, cited: BAtlas 44 D4 Punta Eolo",
   "bbox": [
     13.434503,
     40.796441,
     13.434503,
     40.796441
   ],
+  "description": "An ancient place, cited: BAtlas 44 D4 Punta Eolo",
   "connectsWith": [
     "433011"
   ],
-  "reprPoint": [
-    13.434503,
-    40.796441
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434503,
+          40.796441
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Stabian Gate",
   "id": "260329425",
-  "description": "A Roman city gate at the southern terminus of Strada Stabiana in Pompeii.",
   "bbox": [
     14.4899262,
     40.7483501,
     14.4899262,
     40.7483501
   ],
+  "description": "A Roman city gate at the southern terminus of Strada Stabiana in Pompeii.",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4899262,
-    40.7483501
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4899262,
+          40.7483501
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

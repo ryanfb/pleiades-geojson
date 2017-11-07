@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi ed-Sedd",
   "id": "716646",
-  "description": "An ancient place, cited: None",
   "bbox": [
     23.331158,
     32.150291,
     23.331158,
     32.150291
   ],
-  "reprPoint": [
-    23.331158,
-    32.150291
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.331158,
+          32.150291
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

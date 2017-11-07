@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Misynos/Skopelites Ins.",
   "id": "363997",
-  "description": "An ancient place, cited: BAtlas 37 E2 Misynos/Skopelites Ins.",
   "bbox": [
     19.0,
     30.0,
     20.0,
     31.0
   ],
-  "reprPoint": [
-    19.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 37 E2 Misynos/Skopelites Ins.",
   "names": [
     "Misynos",
     "Skopelites"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

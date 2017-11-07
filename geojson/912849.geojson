@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Euphrates",
   "id": "912849",
-  "description": "The longest river of Western Asia, the Euphrates flows from the Kara Su and the Murat Su to the confluence with the Tigris fl.",
   "bbox": [
     38.011987,
     30.817254,
     45.996022,
     36.829505
   ],
+  "description": "The longest river of Western Asia, the Euphrates flows from the Kara Su and the Murat Su to the confluence with the Tigris fl.",
   "connectsWith": [
     "912964"
-  ],
-  "reprPoint": [
-    42.2780920167,
-    33.8217336333
   ],
   "names": [
     "Euphrates",
@@ -40,6 +36,19 @@
     "Purattum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.2780920167,
+          33.8217336333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

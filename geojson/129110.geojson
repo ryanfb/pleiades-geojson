@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "129110",
-  "description": "Vindobona → Map 21",
   "bbox": [
     15.0,
     47.0,
     25.0,
     52.0
   ],
-  "reprPoint": [
-    20.0,
-    49.5
-  ],
+  "description": "Vindobona → Map 21",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0,
+          49.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

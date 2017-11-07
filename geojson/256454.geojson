@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Singilis (river)",
   "id": "256454",
-  "description": "Singilis fl. (Genil river) is a tributary of the Baetis/Certis fl. (modern Guadalquivir).",
   "bbox": [
     -2.910335,
     37.969207,
     -2.910335,
     37.969207
   ],
+  "description": "Singilis fl. (Genil river) is a tributary of the Baetis/Certis fl. (modern Guadalquivir).",
   "connectsWith": [
     "256010"
-  ],
-  "reprPoint": [
-    -2.910335,
-    37.969207
   ],
   "names": [
     "Singilis",
     "Silicense"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.910335,
+          37.969207
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

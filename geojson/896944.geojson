@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "896944",
-  "description": "An ancient place, cited: BAtlas 91 E4 unnamed wall (Umm Rus)",
   "bbox": [
     43.0,
     33.0,
     44.0,
     34.0
   ],
-  "reprPoint": [
-    43.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 E4 unnamed wall (Umm Rus)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

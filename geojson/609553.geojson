@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tetrapolis",
   "id": "609553",
-  "description": "An ancient place, cited: BAtlas 62 F5 Tetrapolis",
   "bbox": [
     31.0,
     38.0,
     31.5,
     38.5
   ],
-  "reprPoint": [
-    31.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 F5 Tetrapolis",
   "names": [
     "Tetrapolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

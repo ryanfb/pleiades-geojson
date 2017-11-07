@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arethousa",
   "id": "599513",
-  "description": "An ancient place, cited: BAtlas 61 C2 Arethousa",
   "bbox": [
     26.213485,
     37.611568,
     26.213485,
     37.611568
   ],
+  "description": "An ancient place, cited: BAtlas 61 C2 Arethousa",
   "connectsWith": [
     "599667"
   ],
-  "reprPoint": [
-    26.213485,
-    37.611568
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.213485,
+          37.611568
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

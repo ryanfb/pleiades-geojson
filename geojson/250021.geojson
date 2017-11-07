@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villa Fortunatus",
   "id": "250021",
-  "description": "A Roman villa rustica located on the river Cinca that is richly adorned with mosaic pavements.",
   "bbox": [
     0.3186847,
     41.5564906,
     0.3186847,
     41.5564906
   ],
-  "reprPoint": [
-    0.3186847,
-    41.5564906
-  ],
+  "description": "A Roman villa rustica located on the river Cinca that is richly adorned with mosaic pavements.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3186847,
+          41.5564906
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

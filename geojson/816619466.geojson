@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Eridu Ur Survey",
   "id": "816619466",
-  "description": "A place from the TAVO Index",
   "bbox": [
     46.0,
     30.0,
     47.0,
     31.0
   ],
-  "reprPoint": [
-    46.5,
-    30.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Eridu Ur Survey",
     "EUS"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

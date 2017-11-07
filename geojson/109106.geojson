@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leuci",
   "id": "109106",
-  "description": "An ancient place, cited: BAtlas 11 F4 Leuci",
   "bbox": [
     5.0,
     48.0,
     6.0,
     49.0
   ],
-  "reprPoint": [
-    5.5,
-    48.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 F4 Leuci",
   "names": [
     "Leuci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

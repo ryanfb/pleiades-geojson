@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "786713",
-  "description": "An ancient place, cited: BAtlas 80 D3 unnamed quarry (NW Compasi)",
   "bbox": [
     33.5,
     25.0,
     34.0,
     25.5
   ],
-  "reprPoint": [
-    33.75,
-    25.25
-  ],
+  "description": "An ancient place, cited: BAtlas 80 D3 unnamed quarry (NW Compasi)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          25.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

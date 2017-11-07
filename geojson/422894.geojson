@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Cimitero Maggiore",
   "id": "422894",
-  "description": "A major Roman necropolis and catacomb along the Via Nomentana.",
   "bbox": [
     12.515972,
     41.923233,
     12.515972,
     41.923233
   ],
+  "description": "A major Roman necropolis and catacomb along the Via Nomentana.",
   "connectsWith": [
     "699256589",
     "423025"
   ],
-  "reprPoint": [
-    12.515972,
-    41.923233
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.515972,
+          41.923233
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

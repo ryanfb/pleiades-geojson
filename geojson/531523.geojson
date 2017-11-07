@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "531523",
-  "description": "An ancient place, cited: BAtlas 54 C3 unnamed aqueduct (Nicopolis)",
   "bbox": [
     20.5,
     39.0,
     21.0,
     39.5
   ],
-  "reprPoint": [
-    20.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C3 unnamed aqueduct (Nicopolis)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

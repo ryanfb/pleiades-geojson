@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed iron mine",
   "id": "307289",
-  "description": "Located to the west of Hippo Regius (modern Annaba in Algeria).",
   "bbox": [
     7.446431,
     36.886538,
     7.446431,
     36.886538
   ],
-  "reprPoint": [
-    7.446431,
-    36.886538
-  ],
+  "description": "Located to the west of Hippo Regius (modern Annaba in Algeria).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.446431,
+          36.886538
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

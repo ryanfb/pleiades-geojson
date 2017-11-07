@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Khashm el-Eish",
   "id": "716581",
-  "description": "An ancient place, cited: None",
   "bbox": [
     29.183289,
     30.749886,
     29.183289,
     30.749886
   ],
-  "reprPoint": [
-    29.183289,
-    30.749886
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.183289,
+          30.749886
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

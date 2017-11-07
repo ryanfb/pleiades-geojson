@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Salenses",
   "id": "275698",
-  "description": "An ancient place, cited: BAtlas 28 A5 Salenses",
   "bbox": [
     -7.0,
     34.0,
     -6.5,
     34.5
   ],
-  "reprPoint": [
-    -6.75,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 A5 Salenses",
   "names": [
     "Salenses",
     "Salinsai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.75,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

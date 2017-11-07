@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tower in R. Nestos Valley",
   "id": "963101033",
-  "description": "One of many towers or forts",
   "bbox": [
     24.630499,
     41.265181,
     24.630499,
     41.265181
   ],
-  "reprPoint": [
-    24.630499,
-    41.265181
-  ],
+  "description": "One of many towers or forts",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.630499,
+          41.265181
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

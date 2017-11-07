@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Rhenus (river)",
   "id": "109277",
-  "description": "The Rhine River is the twelfth longest river in Europe, flowing 1,233 km (766 mi) from Switzerland to the North Sea.",
   "bbox": [
     4.080556,
     46.6325,
     8.672222,
     51.981667
   ],
+  "description": "The Rhine River is the twelfth longest river in Europe, flowing 1,233 km (766 mi) from Switzerland to the North Sea.",
   "connectsWith": [
     "20469",
     "993"
-  ],
-  "reprPoint": [
-    6.7871561,
-    49.6601992333
   ],
   "names": [
     "Rhenus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7871561,
+          49.6601992333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 47 (Chapel House)",
   "id": "967060341",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.549992,
     54.988027,
     -2.549992,
     54.988027
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.549992,
-    54.988027
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.549992,
+          54.988027
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

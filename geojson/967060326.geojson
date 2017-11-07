@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 31 (Carrowburgh)",
   "id": "967060326",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.223023,
     55.034293,
     -2.220955,
     55.035701
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.22199838462,
-    55.0349971039
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.22199838462,
+          55.0349971039
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

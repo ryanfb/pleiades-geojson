@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aleion Pedion",
   "id": "648554",
-  "description": "Aleion Pedion (the Aleian Plain) in Cilicia.",
   "bbox": [
     35.0,
     36.5,
     35.5,
     37.0
   ],
+  "description": "Aleion Pedion (the Aleian Plain) in Cilicia.",
   "connectsWith": [
     "648600"
-  ],
-  "reprPoint": [
-    35.25,
-    36.75
   ],
   "names": [
     "Aleion Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

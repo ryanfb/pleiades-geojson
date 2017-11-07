@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pagus Salutaris",
   "id": "383734",
-  "description": "An ancient place, cited: BAtlas 39 F4 Pagus Salutaris",
   "bbox": [
     9.5,
     44.5,
     10.0,
     45.0
   ],
-  "reprPoint": [
-    9.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 F4 Pagus Salutaris",
   "names": [
     "Pagus Salutaris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

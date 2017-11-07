@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "385839",
-  "description": "An ancient place, cited: BAtlas 39 G4 unnamed centuriation (between Brixellum and Tannetum)",
   "bbox": [
     10.0,
     44.5,
     10.5,
     45.0
   ],
-  "reprPoint": [
-    10.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 G4 unnamed centuriation (between Brixellum and Tannetum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

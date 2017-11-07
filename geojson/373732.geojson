@@ -2,23 +2,34 @@
   "type": "FeatureCollection",
   "title": "Apollonia/Sozousa",
   "id": "373732",
-  "description": "Apollonia was an ancient city in the Cyrenaica and a port of Cyrene. The city was one of the five cities of the Libyan Pentapolis in Cyrenaica.",
   "bbox": [
     21.848114,
     32.8157491,
     21.9748417,
     32.9026892
   ],
+  "description": "Apollonia was an ancient city in the Cyrenaica and a port of Cyrene. The city was one of the five cities of the Libyan Pentapolis in Cyrenaica.",
   "connectsWith": [
     "373778"
-  ],
-  "reprPoint": [
-    21.9550015388,
-    32.8920297703
   ],
   "names": [
     "Apollonia",
     "Sozousa",
     "Portus Cyrenorum"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9550015388,
+          32.8920297703
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Metalli Dardanici",
   "id": "963101098",
-  "description": "A mine of the Metalli Dardanici group",
   "bbox": [
     20.560571,
     43.383486,
     20.560571,
     43.383486
   ],
-  "reprPoint": [
-    20.560571,
-    43.383486
-  ],
+  "description": "A mine of the Metalli Dardanici group",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.560571,
+          43.383486
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

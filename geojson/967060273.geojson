@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 33A",
   "id": "967060273",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.273513,
     55.03012,
     -2.273513,
     55.03012
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.273513,
-    55.03012
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.273513,
+          55.03012
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

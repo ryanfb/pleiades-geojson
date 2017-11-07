@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Melnica",
   "id": "491662",
-  "description": "An ancient place, cited: BAtlas 50 A2 Melnica",
   "bbox": [
     21.765869,
     41.146503,
     21.765869,
     41.146503
   ],
-  "reprPoint": [
-    21.765869,
-    41.146503
-  ],
+  "description": "An ancient place, cited: BAtlas 50 A2 Melnica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.765869,
+          41.146503
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

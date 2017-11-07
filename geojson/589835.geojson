@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kamilari",
   "id": "589835",
-  "description": "An ancient settlement on the island of Crete whose ancient name is not known (BAtlas 60 C2 Kamilari)",
   "bbox": [
     24.793826,
     35.022837,
     24.793826,
     35.022837
   ],
-  "reprPoint": [
-    24.793826,
-    35.022837
-  ],
+  "description": "An ancient settlement on the island of Crete whose ancient name is not known (BAtlas 60 C2 Kamilari)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.793826,
+          35.022837
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

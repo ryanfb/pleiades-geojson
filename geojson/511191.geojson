@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Boane/Sunonensis L.",
   "id": "511191",
-  "description": "A lake in Bithynia located between the Ascania Lacus and the river Sangarius.",
   "bbox": [
     30.1471804,
     40.7133071,
     30.1471804,
     40.7133071
   ],
-  "reprPoint": [
-    30.1471804,
-    40.7133071
-  ],
+  "description": "A lake in Bithynia located between the Ascania Lacus and the river Sangarius.",
   "names": [
     "Boane",
     "Sunonensis L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1471804,
+          40.7133071
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

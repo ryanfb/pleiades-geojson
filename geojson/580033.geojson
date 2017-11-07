@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nape",
   "id": "580033",
-  "description": "An ancient place, cited: BAtlas 59 D4 Nape",
   "bbox": [
     24.0,
     37.5,
     24.25,
     37.75
   ],
-  "reprPoint": [
-    24.125,
-    37.625
-  ],
+  "description": "An ancient place, cited: BAtlas 59 D4 Nape",
   "names": [
     "Nape"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.125,
+          37.625
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

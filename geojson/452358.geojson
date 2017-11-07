@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lametikos Kolpos",
   "id": "452358",
-  "description": "An ancient place, cited: BAtlas 46 D4 Lametikos Kolpos",
   "bbox": [
     16.0,
     38.5,
     16.5,
     39.0
   ],
-  "reprPoint": [
-    16.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 46 D4 Lametikos Kolpos",
   "names": [
     "Lametikos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

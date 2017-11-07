@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Copper and Gold Mine at Kantanos",
   "id": "409810773",
-  "description": "Southeast of the ancient settlement of Kantanos on Crete (BAtlas 60 A2)",
   "bbox": [
     23.738349,
     35.330337,
     23.738349,
     35.330337
   ],
+  "description": "Southeast of the ancient settlement of Kantanos on Crete (BAtlas 60 A2)",
   "connectsWith": [
     "589838"
   ],
-  "reprPoint": [
-    23.738349,
-    35.330337
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.738349,
+          35.330337
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

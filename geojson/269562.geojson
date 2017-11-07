@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "269562",
-  "description": "Titulcia → NW to Segovia (Map 24)",
   "bbox": [
     -5.0,
     36.0,
     3.0,
     41.0
   ],
-  "reprPoint": [
-    -1.0,
-    38.5
-  ],
+  "description": "Titulcia → NW to Segovia (Map 24)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Arbela",
   "id": "678028",
-  "description": "An ancient place, cited: BAtlas 69 C4 Arbela",
   "bbox": [
     35.848706,
     32.556411,
     35.848706,
     32.556411
   ],
-  "reprPoint": [
-    35.848706,
-    32.556411
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C4 Arbela",
   "names": [
     "Arbela",
     "Arbēla",
     "Irbid"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.848706,
+          32.556411
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "436400",
-  "description": "An ancient place, cited: BAtlas 44 E2 unnamed centuriation (Fabrateria Nova)",
   "bbox": [
     13.5,
     41.5,
     14.0,
     42.0
   ],
-  "reprPoint": [
-    13.75,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E2 unnamed centuriation (Fabrateria Nova)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

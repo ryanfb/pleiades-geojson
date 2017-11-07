@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hermaeum?",
   "id": "315035",
-  "description": "An ancient place, cited: BAtlas 32 H2 Hermaeum?",
   "bbox": [
     11.0,
     37.0,
     11.5,
     37.5
   ],
-  "reprPoint": [
-    11.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 32 H2 Hermaeum?",
   "names": [
     "Hermaeum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

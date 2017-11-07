@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "188000",
-  "description": "An ancient place, cited: BAtlas 19 F4 unnamed aqueduct (Tergeste)",
   "bbox": [
     13.0,
     45.0,
     14.0,
     46.0
   ],
-  "reprPoint": [
-    13.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 F4 unnamed aqueduct (Tergeste)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "327674",
-  "description": "An ancient place, cited: BAtlas 33 C1 unnamed unlabeled ((5 monuments, 2 cemeteries))",
   "bbox": [
     8.5,
     35.5,
     9.0,
     36.0
   ],
-  "reprPoint": [
-    8.75,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 C1 unnamed unlabeled ((5 monuments, 2 cemeteries))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

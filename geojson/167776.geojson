@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gabali",
   "id": "167776",
-  "description": "An ancient place, cited: BAtlas 17 A5 Gabali",
   "bbox": [
     3.0,
     44.0,
     3.5,
     44.5
   ],
-  "reprPoint": [
-    3.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 A5 Gabali",
   "names": [
     "Gabali"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

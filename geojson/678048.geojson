@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bar'am",
   "id": "678048",
-  "description": "An ancient place, cited: BAtlas 69 B3 Bar'am",
   "bbox": [
     35.414807,
     33.045138,
     35.414807,
     33.045138
   ],
-  "reprPoint": [
-    35.414807,
-    33.045138
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B3 Bar'am",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.414807,
+          33.045138
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

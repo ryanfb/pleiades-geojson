@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thapsus Pr.",
   "id": "462512",
-  "description": "The Magnisi peninsula of Sicily.",
   "bbox": [
     15.231061,
     37.148823,
     15.240119,
     37.157428
   ],
+  "description": "The Magnisi peninsula of Sicily.",
   "connectsWith": [
     "462492"
-  ],
-  "reprPoint": [
-    15.23559,
-    37.1531255
   ],
   "names": [
     "Thapsus Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.23559,
+          37.1531255
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dessau",
   "id": "118641",
-  "description": "An ancient place, cited: BAtlas 12 F1 Dessau",
   "bbox": [
     12.245169,
     51.838875,
     12.245169,
     51.838875
   ],
-  "reprPoint": [
-    12.245169,
-    51.838875
-  ],
+  "description": "An ancient place, cited: BAtlas 12 F1 Dessau",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.245169,
+          51.838875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

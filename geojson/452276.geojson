@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Bruttius Sinus",
   "id": "452276",
-  "description": "An ancient place, cited: BAtlas 46 D5 Bruttius Sinus",
   "bbox": [
     16.0,
     38.0,
     16.5,
     38.5
   ],
-  "reprPoint": [
-    16.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 D5 Bruttius Sinus",
   "names": [
     "Bruttius Sinus",
     "Locrensis Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

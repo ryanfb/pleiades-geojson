@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lykos (river)",
   "id": "678269",
-  "description": "An ancient place, cited: BAtlas 69 C2 Lykos fl.",
   "bbox": [
     35.5,
     33.5,
     36.0,
     34.0
   ],
-  "reprPoint": [
-    35.75,
-    33.75
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C2 Lykos fl.",
   "names": [
     "Lykos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          33.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Narakon Stoma",
   "id": "226694",
-  "description": "Narakon Stoma, one of the mouths of the Danube river.",
   "bbox": [
     29.0,
     45.0,
     30.0,
     46.0
   ],
-  "reprPoint": [
-    29.5,
-    45.5
-  ],
+  "description": "Narakon Stoma, one of the mouths of the Danube river.",
   "names": [
     "Narakon Stoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

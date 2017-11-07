@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gvandra",
   "id": "857142",
-  "description": "An ancient place, cited: BAtlas 87 F1 Gvandra",
   "bbox": [
     40.859971,
     43.077379,
     40.859971,
     43.077379
   ],
-  "reprPoint": [
-    40.859971,
-    43.077379
-  ],
+  "description": "An ancient place, cited: BAtlas 87 F1 Gvandra",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.859971,
+          43.077379
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

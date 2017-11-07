@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "191018",
-  "description": "An ancient place, cited: BAtlas 19 F2 unnamed quarry (N Hallstatt)",
   "bbox": [
     13.0,
     47.0,
     14.0,
     48.0
   ],
-  "reprPoint": [
-    13.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 F2 unnamed quarry (N Hallstatt)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oulatha",
   "id": "678319",
-  "description": "An ancient place, cited: BAtlas 69 C3 Oulatha",
   "bbox": [
     35.5,
     33.0,
     36.0,
     33.5
   ],
-  "reprPoint": [
-    35.75,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C3 Oulatha",
   "names": [
     "Oulatha"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

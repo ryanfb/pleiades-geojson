@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Boisse",
   "id": "167681",
-  "description": "An ancient place, cited: BAtlas 17 E2 La Boisse",
   "bbox": [
     5.03555,
     45.841566,
     5.03555,
     45.841566
   ],
-  "reprPoint": [
-    5.03555,
-    45.841566
-  ],
+  "description": "An ancient place, cited: BAtlas 17 E2 La Boisse",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.03555,
+          45.841566
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

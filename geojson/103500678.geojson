@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Scratchbury Camp ",
   "id": "103500678",
-  "description": "Scratchbury Camp, Wiltshire, England, is the site of a 15 hectare hill fort.",
   "bbox": [
     -2.1246378,
     51.1974014,
     -2.1246378,
     51.1974014
   ],
-  "reprPoint": [
-    -2.1246378,
-    51.1974014
-  ],
+  "description": "Scratchbury Camp, Wiltshire, England, is the site of a 15 hectare hill fort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1246378,
+          51.1974014
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

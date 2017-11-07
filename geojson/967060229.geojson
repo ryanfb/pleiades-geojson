@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 37A (Rapishaw Gap)",
   "id": "967060229",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.344691,
     55.011607,
     -2.344691,
     55.011607
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.344691,
-    55.011607
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.344691,
+          55.011607
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

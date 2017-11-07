@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "396387",
-  "description": "An ancient place, cited: BAtlas 40 C1 unnamed centuriation (N Altinum)",
   "bbox": [
     12.0,
     45.5,
     12.5,
     46.0
   ],
-  "reprPoint": [
-    12.25,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 40 C1 unnamed centuriation (N Altinum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

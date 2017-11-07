@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "199327",
-  "description": "An ancient place, cited: BAtlas 20 E7 unnamed centuriation (around Stagnum)",
   "bbox": [
     17.0,
     42.0,
     18.0,
     43.0
   ],
-  "reprPoint": [
-    17.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 E7 unnamed centuriation (around Stagnum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

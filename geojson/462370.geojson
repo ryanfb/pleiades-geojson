@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Montevago",
   "id": "462370",
-  "description": "An ancient place, cited: BAtlas 47 C3 Montevago",
   "bbox": [
     12.989483,
     37.702234,
     12.989483,
     37.702234
   ],
+  "description": "An ancient place, cited: BAtlas 47 C3 Montevago",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    12.989483,
-    37.702234
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.989483,
+          37.702234
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Thaj/Gerra?/Carra?",
   "id": "932483",
-  "description": "An ancient city of Arabia, located west of the Persian Gulf.",
   "bbox": [
     48.726603,
     26.877823,
     48.726603,
     26.877823
   ],
-  "reprPoint": [
-    48.726603,
-    26.877823
-  ],
+  "description": "An ancient city of Arabia, located west of the Persian Gulf.",
   "names": [
     "Gerra",
     "Carra",
@@ -20,6 +16,19 @@
     "Carrei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.726603,
+          26.877823
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

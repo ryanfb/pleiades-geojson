@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Saint-Aunès milestone",
   "id": "588459219",
-  "description": "A Roman milestone of the Via Aurelia.",
   "bbox": [
     3.9658718,
     43.6365403,
     3.9658718,
     43.6365403
   ],
-  "reprPoint": [
-    3.9658718,
-    43.6365403
-  ],
+  "description": "A Roman milestone of the Via Aurelia.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9658718,
+          43.6365403
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Borysthenes (island)",
   "id": "226545",
-  "description": "An ancient place, cited: BAtlas 23 E2 Borysthenes Ins.",
   "bbox": [
     31.4125394,
     46.5941693,
     31.4125394,
     46.5941693
   ],
-  "reprPoint": [
-    31.4125394,
-    46.5941693
-  ],
+  "description": "An ancient place, cited: BAtlas 23 E2 Borysthenes Ins.",
   "names": [
     "Borysthenes",
     "Thyora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4125394,
+          46.5941693
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

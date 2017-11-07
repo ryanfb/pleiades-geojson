@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kenan Tepe",
   "id": "381896576",
-  "description": "Ancient site on the Tigris river in Turkey",
   "bbox": [
     40.813222,
     37.830588,
     40.813222,
     37.830588
   ],
-  "reprPoint": [
-    40.813222,
-    37.830588
-  ],
+  "description": "Ancient site on the Tigris river in Turkey",
   "names": [
     "Kenan Tepe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.813222,
+          37.830588
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

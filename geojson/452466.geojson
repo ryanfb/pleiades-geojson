@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Taurianum",
   "id": "452466",
-  "description": "A city of Bruttium, located south of the Mataurus river at the border with Rhegium.",
   "bbox": [
     15.871422,
     38.394393,
     15.871422,
     38.394393
   ],
-  "reprPoint": [
-    15.871422,
-    38.394393
-  ],
+  "description": "A city of Bruttium, located south of the Mataurus river at the border with Rhegium.",
   "names": [
     "Taurianum",
     "Tauriana",
     "Tauroentum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.871422,
+          38.394393
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

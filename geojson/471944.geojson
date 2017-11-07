@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Hermaia? (island)",
   "id": "471944",
-  "description": "A small island located just off the northeast coast of Sardinia.",
   "bbox": [
     9.7133,
     40.9062,
     9.7133,
     40.9062
   ],
-  "reprPoint": [
-    9.7133,
-    40.9062
-  ],
+  "description": "A small island located just off the northeast coast of Sardinia.",
   "names": [
     "Hermaia",
     "Tavolara",
     "Hermaia nesos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7133,
+          40.9062
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

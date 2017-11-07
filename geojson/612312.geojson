@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "6",
   "id": "612312",
-  "description": "An ancient place, cited: BAtlas 62 D3 no. 6 (SE Altıntaş town)",
   "bbox": [
     30.0,
     39.0,
     30.5,
     39.5
   ],
-  "reprPoint": [
-    30.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 D3 no. 6 (SE Altıntaş town)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

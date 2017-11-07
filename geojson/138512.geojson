@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Petit-Mars",
   "id": "138512",
-  "description": "An ancient place, cited: BAtlas 14 D1 Petit-Mars",
   "bbox": [
     -1.468331,
     47.390631,
     -1.454756,
     47.395215
   ],
-  "reprPoint": [
-    -1.4615435,
-    47.392923
-  ],
+  "description": "An ancient place, cited: BAtlas 14 D1 Petit-Mars",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4615435,
+          47.392923
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

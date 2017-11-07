@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Caerau Hillfort",
   "id": "747167617",
-  "description": "Caerau Hillfort is a multivallate Iron Age in the western suburbs of Cardiff, Wales. The fort covers an area of ca.  51,000 m². ",
   "bbox": [
     -3.2489552,
     51.4673777,
     -3.2489552,
     51.4673777
   ],
-  "reprPoint": [
-    -3.2489552,
-    51.4673777
-  ],
+  "description": "Caerau Hillfort is a multivallate Iron Age in the western suburbs of Cardiff, Wales. The fort covers an area of ca.  51,000 m². ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2489552,
+          51.4673777
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Melandryna",
   "id": "707580",
-  "description": "An ancient place, cited: BAtlas 72 D2 Melandryna",
   "bbox": [
     33.778672,
     35.408861,
     33.778672,
     35.408861
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Melandryna",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.778672,
-    35.408861
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.778672,
+          35.408861
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

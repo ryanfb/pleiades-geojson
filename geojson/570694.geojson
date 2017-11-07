@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Strouthos? Pr.",
   "id": "570694",
-  "description": "An ancient place, cited: BAtlas 58 E3 Strouthos? Pr.",
   "bbox": [
     23.0,
     37.0,
     23.5,
     37.5
   ],
-  "reprPoint": [
-    23.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E3 Strouthos? Pr.",
   "names": [
     "Strouthos Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

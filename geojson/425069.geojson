@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "425069",
-  "description": "An ancient place, cited: BAtlas 43 C2 unnamed bridge (near Muraccio dell’Omo)",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 unnamed bridge (near Muraccio dell’Omo)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

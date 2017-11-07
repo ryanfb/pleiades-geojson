@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Asinaeus/Coronaeus Sinus",
   "id": "570123",
-  "description": "Asinaeus/Coronaeus Sinus (the Messenian Gulf).",
   "bbox": [
     22.0,
     36.5,
     22.5,
     37.0
   ],
-  "reprPoint": [
-    22.25,
-    36.75
-  ],
+  "description": "Asinaeus/Coronaeus Sinus (the Messenian Gulf).",
   "names": [
     "Asinaeus",
     "Coronaeus Sinus",
     "Messeniakos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

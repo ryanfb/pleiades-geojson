@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Senones",
   "id": "109337",
-  "description": "An ancient place, cited: BAtlas 11 C4 Senones",
   "bbox": [
     2.0,
     48.0,
     3.0,
     49.0
   ],
-  "reprPoint": [
-    2.5,
-    48.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 C4 Senones",
   "names": [
     "Senones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

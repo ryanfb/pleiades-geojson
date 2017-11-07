@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Frigidus (river)",
   "id": "403209",
-  "description": "An ancient place, cited: BAtlas 41 C1 Frigidus fl.",
   "bbox": [
     10.0,
     44.0,
     10.5,
     44.5
   ],
-  "reprPoint": [
-    10.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 41 C1 Frigidus fl.",
   "names": [
     "Frigidus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Locus Maponi?",
   "id": "89227",
-  "description": "An ancient place, cited: BAtlas 9 D5 *Locus Maponi?",
   "bbox": [
     -4.0,
     55.0,
     -3.0,
     56.0
   ],
-  "reprPoint": [
-    -3.5,
-    55.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 D5 *Locus Maponi?",
   "names": [
     "Locus Maponi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

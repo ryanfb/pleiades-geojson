@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Kenios (river)",
   "id": "599704",
-  "description": "An ancient place, cited: BAtlas 61 F3 *Kenios fl.",
   "bbox": [
     27.5,
     37.0,
     28.0,
     37.5
   ],
-  "reprPoint": [
-    27.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 F3 *Kenios fl.",
   "names": [
     "Kenios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

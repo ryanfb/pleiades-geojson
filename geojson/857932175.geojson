@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dothan",
   "id": "857932175",
-  "description": "An ancient site, connected with the biblical figures Joseph and Jacob.",
   "bbox": [
     35.239861,
     32.413528,
     35.239861,
     32.413528
   ],
-  "reprPoint": [
-    35.239861,
-    32.413528
-  ],
+  "description": "An ancient site, connected with the biblical figures Joseph and Jacob.",
   "names": [
     "Dothaein"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.239861,
+          32.413528
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

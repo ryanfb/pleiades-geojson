@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman bath at Volaterrae",
   "id": "53735136",
-  "description": "A bath complex located adjacent to the theater of Volaterrae.",
   "bbox": [
     10.8597944,
     43.4036397,
     10.8601446,
     43.4040258
   ],
+  "description": "A bath complex located adjacent to the theater of Volaterrae.",
   "connectsWith": [
     "403292"
   ],
-  "reprPoint": [
-    10.8599320106,
-    43.4038308234
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8599320106,
+          43.4038308234
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

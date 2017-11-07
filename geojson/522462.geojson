@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "522462",
-  "description": "An ancient place, cited: BAtlas 53 A2 unnamed coastal change (around Constantinople)",
   "bbox": [
     28.75,
     41.0,
     29.0,
     41.25
   ],
-  "reprPoint": [
-    28.875,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 A2 unnamed coastal change (around Constantinople)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

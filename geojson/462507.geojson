@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tauros Akron",
   "id": "462507",
-  "description": "An ancient place, cited: BAtlas 47 G4 Tauros Akron",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G4 Tauros Akron",
   "names": [
     "Tauros Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

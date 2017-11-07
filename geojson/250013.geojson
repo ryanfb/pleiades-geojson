@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Can Llauder",
   "id": "250013",
-  "description": "An ancient place, cited: BAtlas 25 H4 no. 107 (Torre Llauder (Mataró))",
   "bbox": [
     2.0,
     41.0,
     3.0,
     42.0
   ],
-  "reprPoint": [
-    2.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 H4 no. 107 (Torre Llauder (Mataró))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

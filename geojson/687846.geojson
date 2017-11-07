@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Beer Sheva/Berosaba",
   "id": "687846",
-  "description": "Tel Be'er Sheva is an archeological site in southern Israel that is believed to be the location of the remains of the biblical town of Beersheba.",
   "bbox": [
     34.790451,
     31.24509,
     34.840792,
     31.250369
   ],
-  "reprPoint": [
-    34.8156215,
-    31.2477295
-  ],
+  "description": "Tel Be'er Sheva is an archeological site in southern Israel that is believed to be the location of the remains of the biblical town of Beersheba.",
   "names": [
     "Beer Sheva",
     "Berosaba",
@@ -20,6 +16,19 @@
     "Be'er Sheva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8156215,
+          31.2477295
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Lykos (river)",
   "id": "845006",
-  "description": "An ancient place, cited: BAtlas 86 B2 Lykos fl.",
   "bbox": [
     31.40575,
     41.24817,
     31.40575,
     41.24817
   ],
+  "description": "An ancient place, cited: BAtlas 86 B2 Lykos fl.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    31.40575,
-    41.24817
   ],
   "names": [
     "Lykos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.40575,
+          41.24817
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

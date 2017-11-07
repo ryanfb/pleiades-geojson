@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sikoulensioi",
   "id": "472019",
-  "description": "An ancient place, cited: BAtlas 48 B3 Sikoulensioi",
   "bbox": [
     9.0,
     39.0,
     10.0,
     40.0
   ],
+  "description": "An ancient place, cited: BAtlas 48 B3 Sikoulensioi",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    9.5,
-    39.5
   ],
   "names": [
     "Sikoulensioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

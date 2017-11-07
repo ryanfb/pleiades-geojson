@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Srebrenica",
   "id": "207462",
-  "description": "An ancient place, cited: BAtlas 21 B5 Srebrenica",
   "bbox": [
     19.299313,
     44.102667,
     19.299313,
     44.102667
   ],
-  "reprPoint": [
-    19.299313,
-    44.102667
-  ],
+  "description": "An ancient place, cited: BAtlas 21 B5 Srebrenica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.299313,
+          44.102667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

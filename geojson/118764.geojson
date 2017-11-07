@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Isaras (river)",
   "id": "118764",
-  "description": "An ancient place, cited: BAtlas 12 E4 *Isaras fl.",
   "bbox": [
     11.0,
     48.0,
     12.0,
     49.0
   ],
-  "reprPoint": [
-    11.5,
-    48.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 E4 *Isaras fl.",
   "names": [
     "Isaras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

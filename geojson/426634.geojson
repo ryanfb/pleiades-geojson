@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ponte Tre Ponti",
   "id": "426634",
-  "description": "An ancient place, cited: BAtlas 43 D3 no. 58 (bridge (Ponte tre Ponti))",
   "bbox": [
     12.75,
     41.5,
     13.0,
     41.75
   ],
+  "description": "An ancient place, cited: BAtlas 43 D3 no. 58 (bridge (Ponte tre Ponti))",
   "connectsWith": [
     "690508612"
   ],
-  "reprPoint": [
-    12.875,
-    41.625
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.875,
+          41.625
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

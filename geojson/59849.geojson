@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Indoi",
   "id": "59849",
-  "description": "An ancient place, cited: BAtlas 6 B4 Indoi",
   "bbox": [
     65.0,
     25.0,
     70.0,
     30.0
   ],
-  "reprPoint": [
-    67.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B4 Indoi",
   "names": [
     "Indoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

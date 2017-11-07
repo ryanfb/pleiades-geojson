@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Temple of Nabu at Palmyra",
   "id": "267069707",
-  "description": "Location based on OpenStreetMap",
   "bbox": [
     38.2703688,
     34.549205,
     38.2703688,
     34.549205
   ],
+  "description": "Location based on OpenStreetMap",
   "connectsWith": [
     "668331"
   ],
-  "reprPoint": [
-    38.2703688,
-    34.549205
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2703688,
+          34.549205
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

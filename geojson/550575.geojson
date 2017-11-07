@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Hermus (river)",
   "id": "550575",
-  "description": "The Gediz River, the second largest of Anatolia's rivers, flows into the Aegean Sea.",
   "bbox": [
     28.1112899,
     38.5178164,
     28.1112899,
     38.5178164
   ],
+  "description": "The Gediz River, the second largest of Anatolia's rivers, flows into the Aegean Sea.",
   "connectsWith": [
     "560221",
     "550597"
-  ],
-  "reprPoint": [
-    28.1112899,
-    38.5178164
   ],
   "names": [
     "Hermus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1112899,
+          38.5178164
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

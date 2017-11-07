@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Olympus (mountain)",
   "id": "511343",
-  "description": "An ancient place, cited: BAtlas 52 E4 Olympus M.",
   "bbox": [
     29.21667,
     40.06667,
     29.21667,
     40.06667
   ],
-  "reprPoint": [
-    29.21667,
-    40.06667
-  ],
+  "description": "An ancient place, cited: BAtlas 52 E4 Olympus M.",
   "names": [
     "Olympus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.21667,
+          40.06667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

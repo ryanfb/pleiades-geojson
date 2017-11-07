@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ko(u)ralios (river)",
   "id": "540872",
-  "description": "An ancient place, cited: BAtlas 55 C2 Ko(u)ralios fl.",
   "bbox": [
     22.0,
     39.0,
     22.5,
     39.5
   ],
-  "reprPoint": [
-    22.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 C2 Ko(u)ralios fl.",
   "names": [
     "Kouralios",
     "Koralios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

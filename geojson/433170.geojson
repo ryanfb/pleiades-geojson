@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Trinius (river)",
   "id": "433170",
-  "description": "The Trigno river in Molise.",
   "bbox": [
     14.2422076,
     41.6648855,
     14.7971475,
     42.063203
   ],
-  "reprPoint": [
-    14.5086165994,
-    41.8125131815
-  ],
+  "description": "The Trigno river in Molise.",
   "names": [
     "Trinius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5086165994,
+          41.8125131815
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

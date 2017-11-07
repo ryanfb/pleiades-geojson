@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Palaiokastro",
   "id": "155598151",
-  "description": "Settlement/fortress descibed by Stählin (1924, 224-225); Béquignon (1937, 322-324; Fig. 16).",
   "bbox": [
     21.902645,
     38.976201,
     21.903895,
     38.976545
   ],
-  "reprPoint": [
-    21.9033734507,
-    38.9763907115
-  ],
+  "description": "Settlement/fortress descibed by Stählin (1924, 224-225); Béquignon (1937, 322-324; Fig. 16).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9033734507,
+          38.9763907115
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

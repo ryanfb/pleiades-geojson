@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thebais Engista",
   "id": "1001947",
-  "description": "An ancient place, cited: BAtlas 102 F6 no. 61 (Thebais Engista)",
   "bbox": [
     30.0,
     25.0,
     35.0,
     30.0
   ],
-  "reprPoint": [
-    32.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 F6 no. 61 (Thebais Engista)",
   "names": [
     "Thebais Engista"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

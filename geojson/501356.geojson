@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Apsinthis",
   "id": "501356",
-  "description": "An ancient place, cited: BAtlas 51 G3 Apsinthis",
   "bbox": [
     26.0,
     40.5,
     26.5,
     41.0
   ],
-  "reprPoint": [
-    26.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 G3 Apsinthis",
   "names": [
     "Apsinthis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Adapazarı Ovası",
   "id": "510671524",
-  "description": "A place from the TAVO Index",
   "bbox": [
     30.0,
     40.5,
     30.5,
     41.0
   ],
-  "reprPoint": [
-    30.25,
-    40.75
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Adapazarı Ovası"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

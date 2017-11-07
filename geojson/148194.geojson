@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Salyes",
   "id": "148194",
-  "description": "An ancient place, cited: BAtlas 15 E2 Salyes",
   "bbox": [
     5.0,
     43.5,
     5.5,
     44.0
   ],
-  "reprPoint": [
-    5.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 E2 Salyes",
   "names": [
     "Salyes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

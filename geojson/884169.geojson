@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Kaspiane/Paytakaran",
   "id": "884169",
-  "description": "Kaspiane/Paytakaran was the easternmost province of the Kingdom of Armenia.",
   "bbox": [
     47.0,
     39.0,
     48.0,
     40.0
   ],
-  "reprPoint": [
-    47.5,
-    39.5
-  ],
+  "description": "Kaspiane/Paytakaran was the easternmost province of the Kingdom of Armenia.",
   "names": [
     "Kaspiane",
     "Paytakaran",
     "Kaspioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

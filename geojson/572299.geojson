@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "572299",
-  "description": "An ancient place, cited: BAtlas 58 D4 unnamed quarry (W Boia(i))",
   "bbox": [
     22.5,
     36.5,
     23.0,
     37.0
   ],
-  "reprPoint": [
-    22.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D4 unnamed quarry (W Boia(i))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

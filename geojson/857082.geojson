@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Chaldia/Tzanike",
   "id": "857082",
-  "description": "Chaldia/Tzanike was an historical region located along the Black Sea coast.",
   "bbox": [
     39.0,
     40.0,
     40.0,
     41.0
   ],
-  "reprPoint": [
-    39.5,
-    40.5
-  ],
+  "description": "Chaldia/Tzanike was an historical region located along the Black Sea coast.",
   "names": [
     "Chaldia",
     "Tzanike",
@@ -20,6 +16,19 @@
     "Tzanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

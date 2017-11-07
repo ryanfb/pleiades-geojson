@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Prinas (river)",
   "id": "60008",
-  "description": "An ancient place, cited: BAtlas 6 E5 Prinas fl.",
   "bbox": [
     78.916667,
     22.083333,
     90.833333,
     30.983333
   ],
+  "description": "An ancient place, cited: BAtlas 6 E5 Prinas fl.",
   "connectsWith": [
     "59822"
-  ],
-  "reprPoint": [
-    86.5115563333,
-    25.621435
   ],
   "names": [
     "Prinas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.5115563333,
+          25.621435
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

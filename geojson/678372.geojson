@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sandala",
   "id": "678372",
-  "description": "An ancient place, cited: BAtlas 69 B4 Sandala",
   "bbox": [
     35.323017,
     32.523226,
     35.323017,
     32.523226
   ],
-  "reprPoint": [
-    35.323017,
-    32.523226
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Sandala",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.323017,
+          32.523226
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "895434",
-  "description": "An ancient place, cited: BAtlas 91 E4 unnamed canal (Patti-Enlil?)",
   "bbox": [
     43.0,
     33.0,
     44.0,
     34.0
   ],
-  "reprPoint": [
-    43.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 E4 unnamed canal (Patti-Enlil?)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

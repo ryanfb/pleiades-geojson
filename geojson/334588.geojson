@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Massyli",
   "id": "334588",
-  "description": "An ancient place, cited: BAtlas 34 E2 Massyli",
   "bbox": [
     6.0,
     35.0,
     7.0,
     36.0
   ],
-  "reprPoint": [
-    6.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 34 E2 Massyli",
   "names": [
     "Massyli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

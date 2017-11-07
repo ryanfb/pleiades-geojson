@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tsarskaya",
   "id": "825409",
-  "description": "An ancient place, cited: BAtlas 84 F4 Tsarskaya",
   "bbox": [
     40.411775,
     44.355947,
     40.411775,
     44.355947
   ],
-  "reprPoint": [
-    40.411775,
-    44.355947
-  ],
+  "description": "An ancient place, cited: BAtlas 84 F4 Tsarskaya",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.411775,
+          44.355947
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

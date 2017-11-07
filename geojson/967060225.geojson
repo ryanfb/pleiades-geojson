@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 20A (Carr Hill)",
   "id": "967060225",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.980369,
     55.013054,
     -1.980369,
     55.013054
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.980369,
-    55.013054
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.980369,
+          55.013054
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "306532",
-  "description": "An ancient place, cited: BAtlas 31 F3 unnamed bridge (S Rusicade)",
   "bbox": [
     6.5,
     36.5,
     7.0,
     37.0
   ],
-  "reprPoint": [
-    6.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 31 F3 unnamed bridge (S Rusicade)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "925631",
-  "description": "An ancient place, cited: BAtlas 94 C3 unnamed canal (Sang-i Dokhtar)",
   "bbox": [
     52.0,
     30.0,
     53.0,
     31.0
   ],
-  "reprPoint": [
-    52.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 C3 unnamed canal (Sang-i Dokhtar)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

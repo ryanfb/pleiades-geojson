@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "757267",
-  "description": "An ancient place, cited: BAtlas 77 D1 unnamed quarry (NE Antinoopolis)",
   "bbox": [
     30.5,
     27.5,
     31.0,
     28.0
   ],
-  "reprPoint": [
-    30.75,
-    27.75
-  ],
+  "description": "An ancient place, cited: BAtlas 77 D1 unnamed quarry (NE Antinoopolis)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          27.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

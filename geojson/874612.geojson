@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Mouzoura",
   "id": "874612",
-  "description": "An ancient place, cited: BAtlas 89 B1 *Mouzoura",
   "bbox": [
     39.0,
     39.0,
     40.0,
     40.0
   ],
-  "reprPoint": [
-    39.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B1 *Mouzoura",
   "names": [
     "Mouzoura"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

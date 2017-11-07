@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Hermos/Bathys (river)",
   "id": "609401",
-  "description": "An ancient place, cited: BAtlas 62 D2 Hermos/Bathys fl.",
   "bbox": [
     30.0,
     39.5,
     30.5,
     40.0
   ],
-  "reprPoint": [
-    30.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 D2 Hermos/Bathys fl.",
   "names": [
     "Hermos",
     "Bathys"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

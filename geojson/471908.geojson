@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Corsi",
   "id": "471908",
-  "description": "The Corsi were an ancient tribe occupying a region of ancient Sardinia that is now known as Gallura.",
   "bbox": [
     9.500426,
     40.923,
     9.500426,
     40.923
   ],
+  "description": "The Corsi were an ancient tribe occupying a region of ancient Sardinia that is now known as Gallura.",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    9.500426,
-    40.923
   ],
   "names": [
     "Corsi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.500426,
+          40.923
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

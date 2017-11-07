@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Rudston",
   "id": "89283",
-  "description": "A Romano-British villa in the East Riding of Yorkshire.",
   "bbox": [
     -0.326053,
     54.094981,
     -0.326053,
     54.094981
   ],
-  "reprPoint": [
-    -0.326053,
-    54.094981
-  ],
+  "description": "A Romano-British villa in the East Riding of Yorkshire.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.326053,
+          54.094981
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

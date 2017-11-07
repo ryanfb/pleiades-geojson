@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed Well",
   "id": "345438603",
-  "description": "NW of Ras Abu el Daraq",
   "bbox": [
     32.374724,
     29.36327,
     32.374724,
     29.36327
   ],
-  "reprPoint": [
-    32.374724,
-    29.36327
-  ],
+  "description": "NW of Ras Abu el Daraq",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.374724,
+          29.36327
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

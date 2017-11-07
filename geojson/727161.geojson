@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Menelaites Nomos",
   "id": "727161",
-  "description": "An ancient place, cited: BAtlas 74 C2 Menelaites Nomos",
   "bbox": [
     30.0,
     31.0,
     30.5,
     31.5
   ],
-  "reprPoint": [
-    30.25,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 C2 Menelaites Nomos",
   "names": [
     "Menelaites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

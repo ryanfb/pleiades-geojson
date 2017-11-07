@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ponte del Toro",
   "id": "208942845",
-  "description": "A Roman arched bridge on the Via Flaminia near modern Terni.",
   "bbox": [
     12.704738,
     42.549514,
     12.704738,
     42.549514
   ],
+  "description": "A Roman arched bridge on the Via Flaminia near modern Terni.",
   "connectsWith": [
     "856514595"
   ],
-  "reprPoint": [
-    12.704738,
-    42.549514
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.704738,
+          42.549514
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

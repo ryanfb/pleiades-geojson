@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Oidanes/Diardines (river)",
   "id": "59953",
-  "description": "An ancient place, cited: BAtlas 6 G4 Oidanes/Diardines fl.",
   "bbox": [
     90.0,
     25.0,
     95.0,
     30.0
   ],
-  "reprPoint": [
-    92.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 G4 Oidanes/Diardines fl.",
   "names": [
     "Oidanes",
     "Diardines"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

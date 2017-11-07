@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Stoechades (islands)",
   "id": "157929",
-  "description": "A group of four islands off Hyères, France, in the Mediterranean Sea.",
   "bbox": [
     6.2066435,
     42.9826094,
     6.4705527,
     43.0334547
   ],
-  "reprPoint": [
-    6.3633469,
-    43.009435425
-  ],
+  "description": "A group of four islands off Hyères, France, in the Mediterranean Sea.",
   "names": [
     "Stoechades"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3633469,
+          43.009435425
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

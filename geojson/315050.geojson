@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kerkouane",
   "id": "315050",
-  "description": "A Punic city of northeastern Tunisia, near Cape Bon, abandoned ca. 250 BC (cited: BAtlas 32 H3 Kerkouane)",
   "bbox": [
     11.098827,
     36.946453,
     11.098863,
     36.947009
   ],
-  "reprPoint": [
-    11.098845,
-    36.946731
-  ],
+  "description": "A Punic city of northeastern Tunisia, near Cape Bon, abandoned ca. 250 BC (cited: BAtlas 32 H3 Kerkouane)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.098845,
+          36.946731
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

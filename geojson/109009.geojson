@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Giessen",
   "id": "109009",
-  "description": "An ancient place, cited: BAtlas 11 I2 Giessen",
   "bbox": [
     8.678255,
     50.584003,
     8.678255,
     50.584003
   ],
-  "reprPoint": [
-    8.678255,
-    50.584003
-  ],
+  "description": "An ancient place, cited: BAtlas 11 I2 Giessen",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.678255,
+          50.584003
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

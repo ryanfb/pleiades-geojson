@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Puente Mocho",
   "id": "237850",
-  "description": "A Roman bridge, known as the 'Puente Mocho', crossing the ribera de Cañedo.",
   "bbox": [
     -6.0,
     41.0,
     -5.0,
     42.0
   ],
-  "reprPoint": [
-    -5.5,
-    41.5
-  ],
+  "description": "A Roman bridge, known as the 'Puente Mocho', crossing the ribera de Cañedo.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

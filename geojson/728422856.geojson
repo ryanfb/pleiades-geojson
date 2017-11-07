@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman Road in Sutton Park",
   "id": "728422856",
-  "description": "An urban park in Birmingham, England, containing a stretch of preserved Roman road.",
   "bbox": [
     -1.8773488,
     52.5670085,
     -1.8773488,
     52.5670085
   ],
+  "description": "An urban park in Birmingham, England, containing a stretch of preserved Roman road.",
   "connectsWith": [
     "973041325"
   ],
-  "reprPoint": [
-    -1.8773488,
-    52.5670085
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8773488,
+          52.5670085
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

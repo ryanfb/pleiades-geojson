@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thaumaston Oros",
   "id": "658618",
-  "description": "An ancient place, cited: BAtlas 67 C4 Thaumaston Oros",
   "bbox": [
     36.0,
     36.0,
     36.5,
     36.5
   ],
-  "reprPoint": [
-    36.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 C4 Thaumaston Oros",
   "names": [
     "Thaumaston Oros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 62 (Walby East)",
   "id": "967060389",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.870799,
     54.936008,
     -2.870799,
     54.936008
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.870799,
-    54.936008
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.870799,
+          54.936008
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

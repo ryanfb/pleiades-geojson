@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "*Umbro (river)",
   "id": "413362",
-  "description": "The Ambra flows from the foot of Monte Luco to the Arno river.",
   "bbox": [
     10.283333,
     43.465813,
     11.8250492,
     43.683333
   ],
+  "description": "The Ambra flows from the foot of Monte Luco to the Arno river.",
   "connectsWith": [
     "403181"
-  ],
-  "reprPoint": [
-    11.33459205,
-    43.572864125
   ],
   "names": [
     "Umbro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.33459205,
+          43.572864125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

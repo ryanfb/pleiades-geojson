@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Kareim",
   "id": "785998",
-  "description": "An ancient place, cited: BAtlas 80 E2 Bir Kareim",
   "bbox": [
     34.072776,
     25.909439,
     34.072776,
     25.909439
   ],
-  "reprPoint": [
-    34.072776,
-    25.909439
-  ],
+  "description": "An ancient place, cited: BAtlas 80 E2 Bir Kareim",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.072776,
+          25.909439
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

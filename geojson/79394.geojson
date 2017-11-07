@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Col. Glevum",
   "id": "79394",
-  "description": "Site of a Roman legionary fortress (ca. 67 A.D.) and later colonia (founded ca. 97-98 A.D.) at modern day Gloucester.",
   "bbox": [
     -2.250526,
     51.862311,
     -2.242179,
     51.867588
   ],
-  "reprPoint": [
-    -2.2463302159,
-    51.864956461
-  ],
+  "description": "Site of a Roman legionary fortress (ca. 67 A.D.) and later colonia (founded ca. 97-98 A.D.) at modern day Gloucester.",
   "names": [
     "Col. Glevum",
     "Clavinio",
     "Gloucester"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2463302159,
+          51.864956461
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

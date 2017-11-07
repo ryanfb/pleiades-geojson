@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "San Pawl Milqi Roman Villa",
   "id": "462480",
-  "description": "Ruins of a Roman-era villa/estate (ancient name unknown) at modern Burmarrad, Malta. ",
   "bbox": [
     14.4116,
     35.933331,
     14.4116,
     35.933331
   ],
+  "description": "Ruins of a Roman-era villa/estate (ancient name unknown) at modern Burmarrad, Malta. ",
   "connectsWith": [
     "462311"
   ],
-  "reprPoint": [
-    14.4116,
-    35.933331
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4116,
+          35.933331
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
@@ -35,6 +44,7 @@
       }
     },
     {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

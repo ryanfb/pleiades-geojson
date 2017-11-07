@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257465",
-  "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (near Raposera de Abajo, over R. Aljucén)",
   "bbox": [
     -7.0,
     39.0,
     -6.0,
     40.0
   ],
-  "reprPoint": [
-    -6.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (near Raposera de Abajo, over R. Aljucén)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lintorf",
   "id": "99000",
-  "description": "An ancient place, cited: BAtlas 10 E4 Lintorf",
   "bbox": [
     8.431214,
     52.307214,
     8.431214,
     52.307214
   ],
-  "reprPoint": [
-    8.431214,
-    52.307214
-  ],
+  "description": "An ancient place, cited: BAtlas 10 E4 Lintorf",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.431214,
+          52.307214
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

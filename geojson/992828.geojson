@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Graiae et Poeninae",
   "id": "992828",
-  "description": "An ancient place, cited: BAtlas 101 H2 no. 2 (Alpes Graiae et Poeninae)",
   "bbox": [
     5.0,
     45.0,
     10.0,
     50.0
   ],
-  "reprPoint": [
-    7.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 H2 no. 2 (Alpes Graiae et Poeninae)",
   "names": [
     "Alpes Graiae et Poeninae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

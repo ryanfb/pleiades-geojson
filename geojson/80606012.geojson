@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Skara Brae",
   "id": "80606012",
-  "description": "Skara Brae is a stone-built Neolithic settlement located on the west coast of Mainland, the largest island in the Orkney archipelago. Comprised of eight clustered houses, the village was occupied from roughly 3180 to 2500 BC.",
   "bbox": [
     -3.3416455,
     59.0487515,
     -3.3416455,
     59.0487515
   ],
+  "description": "Skara Brae is a stone-built Neolithic settlement located on the west coast of Mainland, the largest island in the Orkney archipelago. Comprised of eight clustered houses, the village was occupied from roughly 3180 to 2500 BC.",
   "connectsWith": [
     "89261"
   ],
-  "reprPoint": [
-    -3.3416455,
-    59.0487515
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3416455,
+          59.0487515
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

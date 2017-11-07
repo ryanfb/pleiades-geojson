@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Arkhampolis",
   "id": "540661",
-  "description": "An ancient place, cited: BAtlas 55 G4 Arkhampolis",
   "bbox": [
     24.557284,
     38.085613,
     24.557284,
     38.085613
   ],
-  "reprPoint": [
-    24.557284,
-    38.085613
-  ],
+  "description": "An ancient place, cited: BAtlas 55 G4 Arkhampolis",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.557284,
+          38.085613
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

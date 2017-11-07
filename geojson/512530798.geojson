@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Uşaklı Höyük",
   "id": "512530798",
-  "description": "A Bronze and Iron Age site in Yozgat province, Turkey, tentatively identified as the Hittite town of Zippalanda (Çadır Höyük is another candidate for the location of Zippalanda).",
   "bbox": [
     35.0516638,
     39.8123974,
     35.0532642,
     39.8137597
   ],
-  "reprPoint": [
-    35.0524763477,
-    39.8130499392
-  ],
+  "description": "A Bronze and Iron Age site in Yozgat province, Turkey, tentatively identified as the Hittite town of Zippalanda (Çadır Höyük is another candidate for the location of Zippalanda).",
   "names": [
     "Uşaklı Höyük",
     "Kushakli Hüyük",
@@ -20,6 +16,19 @@
     "Kuschakly-Hüjük"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0524763477,
+          39.8130499392
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

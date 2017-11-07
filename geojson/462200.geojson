@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Erineos (river)",
   "id": "462200",
-  "description": "An ancient place, cited: BAtlas 47 G5 Erineos fl.",
   "bbox": [
     15.0,
     36.5,
     15.5,
     37.0
   ],
-  "reprPoint": [
-    15.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G5 Erineos fl.",
   "names": [
     "Erineos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

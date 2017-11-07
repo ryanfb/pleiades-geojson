@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Pisingara",
   "id": "631240",
-  "description": "An ancient place, cited: BAtlas 64 unlocated Pisingara",
   "bbox": [
     38.0,
     39.0,
     38.5,
     39.5
   ],
+  "description": "An ancient place, cited: BAtlas 64 unlocated Pisingara",
   "connectsWith": [
     "628936"
-  ],
-  "reprPoint": [
-    38.25,
-    39.25
   ],
   "names": [
     "Pisingara"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "undetermined",
       "type": "Feature",
       "properties": {

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Ebla",
   "id": "869702586",
-  "description": "An important Bronze Age city and the capital of the three Eblaite Kingdoms.",
   "bbox": [
     36.7942428,
     35.7945039,
     36.802408,
     35.8036917
   ],
-  "reprPoint": [
-    36.7983658027,
-    35.7990446787
-  ],
+  "description": "An important Bronze Age city and the capital of the three Eblaite Kingdoms.",
   "names": [
     "Ebla",
     "Tall Mardīẖ",
@@ -20,6 +16,19 @@
     "Sharat Tall Mardikh"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7983658027,
+          35.7990446787
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

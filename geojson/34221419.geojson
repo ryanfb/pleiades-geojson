@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Poggio Colla",
   "id": "34221419",
-  "description": "An Etruscan settlement located in the Mugello valley.",
   "bbox": [
     11.48,
     43.924167,
     11.48,
     43.924167
   ],
-  "reprPoint": [
-    11.48,
-    43.924167
-  ],
+  "description": "An Etruscan settlement located in the Mugello valley.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.48,
+          43.924167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

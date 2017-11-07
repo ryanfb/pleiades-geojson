@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Villa Iovis",
   "id": "433202",
-  "description": "A 7,000 m² palatial villa built atop the island of Capreae by the Roman emperor Tiberius.",
   "bbox": [
     14.262161,
     40.558442,
     14.262161,
     40.558442
   ],
+  "description": "A 7,000 m² palatial villa built atop the island of Capreae by the Roman emperor Tiberius.",
   "connectsWith": [
     "432751",
     "432752"
-  ],
-  "reprPoint": [
-    14.262161,
-    40.558442
   ],
   "names": [
     "Villa Iovis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.262161,
+          40.558442
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

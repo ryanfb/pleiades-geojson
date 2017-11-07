@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 28B",
   "id": "967060329",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.16777,
     55.032648,
     -2.16777,
     55.032648
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.16777,
-    55.032648
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.16777,
+          55.032648
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

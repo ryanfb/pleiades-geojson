@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Halmyros (river)",
   "id": "844939",
-  "description": "An ancient place, cited: BAtlas 86 D3 Halmyros fl.",
   "bbox": [
     33.0,
     40.0,
     34.0,
     41.0
   ],
-  "reprPoint": [
-    33.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 D3 Halmyros fl.",
   "names": [
     "Halmyros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

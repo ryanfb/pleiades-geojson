@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mikron Helos",
   "id": "580028",
-  "description": "An ancient place, cited: BAtlas 59 C2 Mikron Helos",
   "bbox": [
     23.75,
     38.0,
     24.0,
     38.25
   ],
-  "reprPoint": [
-    23.875,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C2 Mikron Helos",
   "names": [
     "Mikron Helos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

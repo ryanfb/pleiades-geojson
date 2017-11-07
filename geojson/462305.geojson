@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Mazara",
   "id": "462305",
-  "description": "An ancient settlement located on the western coast of Sicily.",
   "bbox": [
     12.590812,
     37.650881,
     12.590812,
     37.650881
   ],
+  "description": "An ancient settlement located on the western coast of Sicily.",
   "connectsWith": [
     "462492"
-  ],
-  "reprPoint": [
-    12.590812,
-    37.650881
   ],
   "names": [
     "Mazara",
@@ -22,6 +18,19 @@
     "Mazara del Vallo"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.590812,
+          37.650881
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

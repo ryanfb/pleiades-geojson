@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed Fort",
   "id": "183817903",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     8.213184,
     34.287093,
     8.213184,
     34.287093
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "324704"
   ],
-  "reprPoint": [
-    8.213184,
-    34.287093
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.213184,
+          34.287093
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

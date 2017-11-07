@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mesopotamia",
   "id": "874602",
-  "description": "An ancient place, cited: BAtlas 89 B3 Mesopotamia",
   "bbox": [
     39.0,
     37.0,
     40.0,
     38.0
   ],
-  "reprPoint": [
-    39.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B3 Mesopotamia",
   "names": [
     "Mesopotamia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

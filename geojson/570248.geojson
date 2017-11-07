@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Eurotas (river)",
   "id": "570248",
-  "description": "Eurotas fl. (Evrotas) is the principal river of Laconia.",
   "bbox": [
     22.3334931,
     37.1615197,
     22.3334931,
     37.1615197
   ],
+  "description": "Eurotas fl. (Evrotas) is the principal river of Laconia.",
   "connectsWith": [
     "570406"
-  ],
-  "reprPoint": [
-    22.3334931,
-    37.1615197
   ],
   "names": [
     "Eurotas",
     "Eurotas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3334931,
+          37.1615197
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bori",
   "id": "863761",
-  "description": "An ancient place, cited: BAtlas 88 B2 Bori",
   "bbox": [
     43.116674,
     42.050134,
     43.116674,
     42.050134
   ],
-  "reprPoint": [
-    43.116674,
-    42.050134
-  ],
+  "description": "An ancient place, cited: BAtlas 88 B2 Bori",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.116674,
+          42.050134
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

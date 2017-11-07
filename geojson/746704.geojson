@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain el-Qattar",
   "id": "746704",
-  "description": "An ancient place, cited: BAtlas 76 G2 Ain el-Qattar",
   "bbox": [
     35.388834,
     29.514547,
     35.388834,
     29.514547
   ],
-  "reprPoint": [
-    35.388834,
-    29.514547
-  ],
+  "description": "An ancient place, cited: BAtlas 76 G2 Ain el-Qattar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.388834,
+          29.514547
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lebedi",
   "id": "825314",
-  "description": "An ancient place, cited: BAtlas 84 D3 Lebedi",
   "bbox": [
     38.195123,
     45.643857,
     38.195123,
     45.643857
   ],
-  "reprPoint": [
-    38.195123,
-    45.643857
-  ],
+  "description": "An ancient place, cited: BAtlas 84 D3 Lebedi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.195123,
+          45.643857
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

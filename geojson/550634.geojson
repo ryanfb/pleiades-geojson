@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kebren? (river)",
   "id": "550634",
-  "description": "An ancient place, cited: BAtlas 56 D2 Kebren? fl.",
   "bbox": [
     26.5,
     39.5,
     27.0,
     40.0
   ],
-  "reprPoint": [
-    26.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D2 Kebren? fl.",
   "names": [
     "Kebren"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "847118",
-  "description": "Sinope → Salar",
   "bbox": [
     30.0,
     39.0,
     36.0,
     43.0
   ],
-  "reprPoint": [
-    33.0,
-    41.0
-  ],
+  "description": "Sinope → Salar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0,
+          41.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

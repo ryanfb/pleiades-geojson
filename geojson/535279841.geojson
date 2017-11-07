@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bridge",
   "id": "535279841",
-  "description": "Within the Villa Neronis",
   "bbox": [
     13.110216,
     41.9172,
     13.110216,
     41.9172
   ],
+  "description": "Within the Villa Neronis",
   "connectsWith": [
     "423131"
   ],
-  "reprPoint": [
-    13.110216,
-    41.9172
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.110216,
+          41.9172
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

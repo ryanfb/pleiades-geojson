@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Gallinaria Silva",
   "id": "432859",
-  "description": "An evergreen thicket of the area around Cumae.",
   "bbox": [
     14.139,
     40.827,
     14.139,
     40.827
   ],
+  "description": "An evergreen thicket of the area around Cumae.",
   "connectsWith": [
     "432744"
-  ],
-  "reprPoint": [
-    14.139,
-    40.827
   ],
   "names": [
     "Gallinaria Silva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.139,
+          40.827
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

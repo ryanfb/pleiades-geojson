@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sukkari",
   "id": "786122",
-  "description": "An ancient place, cited: BAtlas 80 F4 Sukkari",
   "bbox": [
     34.719635,
     24.936695,
     34.719635,
     24.936695
   ],
-  "reprPoint": [
-    34.719635,
-    24.936695
-  ],
+  "description": "An ancient place, cited: BAtlas 80 F4 Sukkari",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.719635,
+          24.936695
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

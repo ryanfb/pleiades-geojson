@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 4?",
   "id": "967060315",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.608682,
     54.970447,
     -1.608682,
     54.970447
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.608682,
-    54.970447
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.608682,
+          54.970447
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "436411",
-  "description": "An ancient place, cited: BAtlas 44 F3 unnamed centuriation (Volturnus valley)",
   "bbox": [
     14.0,
     41.0,
     14.5,
     41.5
   ],
-  "reprPoint": [
-    14.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 44 F3 unnamed centuriation (Volturnus valley)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

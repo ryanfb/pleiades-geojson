@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Fossa Regia",
   "id": "317102",
-  "description": "Fossa Regia was a defensive ditch dug by the Romans following the conclusion of the Third Punic War as part of the Limes Africanus.",
   "bbox": [
     9.0,
     36.0,
     9.5,
     36.5
   ],
-  "reprPoint": [
-    9.25,
-    36.25
-  ],
+  "description": "Fossa Regia was a defensive ditch dug by the Romans following the conclusion of the Third Punic War as part of the Limes Africanus.",
   "names": [
     "Fossa Regia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

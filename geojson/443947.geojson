@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ponte San Cono, Buccino",
   "id": "443947",
-  "description": "An ancient place, cited: BAtlas 45 B3 unnamed bridge (over R. Bianco, near Volcei)",
   "bbox": [
     15.0,
     40.5,
     15.5,
     41.0
   ],
-  "reprPoint": [
-    15.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B3 unnamed bridge (over R. Bianco, near Volcei)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

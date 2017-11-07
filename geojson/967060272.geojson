@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 33 (Shield-on-the-Wall)",
   "id": "967060272",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.266282,
     55.030814,
     -2.265984,
     55.031023
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.26613358038,
-    55.0309186145
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26613358038,
+          55.0309186145
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cilicia",
   "id": "628957",
-  "description": "An ancient place, cited: BAtlas 64 B4 Cilicia",
   "bbox": [
     35.5,
     38.0,
     36.0,
     38.5
   ],
-  "reprPoint": [
-    35.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 B4 Cilicia",
   "names": [
     "Cilicia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

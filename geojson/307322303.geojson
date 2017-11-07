@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mount Fumaiolo",
   "id": "307322303",
-  "description": "A mountain of the northern Apennines (elevation 1,408 m; 4,619 ft) from which the Tiber River originates.",
   "bbox": [
     12.071667,
     43.789167,
     12.071667,
     43.789167
   ],
+  "description": "A mountain of the northern Apennines (elevation 1,408 m; 4,619 ft) from which the Tiber River originates.",
   "connectsWith": [
     "423080"
   ],
-  "reprPoint": [
-    12.071667,
-    43.789167
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.071667,
+          43.789167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tagroi",
   "id": "226773",
-  "description": "An ancient place, cited: BAtlas 23 C2 Tagroi",
   "bbox": [
     29.0,
     46.0,
     30.0,
     47.0
   ],
-  "reprPoint": [
-    29.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 C2 Tagroi",
   "names": [
     "Tagroi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

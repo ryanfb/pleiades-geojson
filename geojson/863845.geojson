@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monastiri",
   "id": "863845",
-  "description": "An ancient place, cited: BAtlas 88 B2 Monastiri",
   "bbox": [
     43.894928,
     42.375752,
     43.894928,
     42.375752
   ],
-  "reprPoint": [
-    43.894928,
-    42.375752
-  ],
+  "description": "An ancient place, cited: BAtlas 88 B2 Monastiri",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.894928,
+          42.375752
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

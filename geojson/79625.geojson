@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oboka? (river)",
   "id": "79625",
-  "description": "An ancient place, cited: BAtlas 8 A1 Oboka? fl.",
   "bbox": [
     -7.0,
     53.0,
     -6.0,
     54.0
   ],
-  "reprPoint": [
-    -6.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 A1 Oboka? fl.",
   "names": [
     "Oboka"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

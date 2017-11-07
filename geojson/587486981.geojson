@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Crac des Chevaliers",
   "id": "587486981",
-  "description": "An ancient castle, located in modern Syria. Inscribed as a UNESCO World Heritage Site in 2006 as part of the \"Crac des Chevaliers and Qal’at Salah El-Din\" listing.",
   "bbox": [
     36.294731,
     34.756897,
     36.294731,
     34.756897
   ],
-  "reprPoint": [
-    36.294731,
-    34.756897
-  ],
+  "description": "An ancient castle, located in modern Syria. Inscribed as a UNESCO World Heritage Site in 2006 as part of the \"Crac des Chevaliers and Qal’at Salah El-Din\" listing.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.294731,
+          34.756897
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

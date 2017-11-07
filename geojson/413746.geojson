@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "413746",
-  "description": "An ancient place, cited: BAtlas 42 E4 unnamed aqueduct (near Amiternum)",
   "bbox": [
     13.0,
     42.0,
     13.5,
     42.5
   ],
-  "reprPoint": [
-    13.25,
-    42.25
-  ],
+  "description": "An ancient place, cited: BAtlas 42 E4 unnamed aqueduct (near Amiternum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

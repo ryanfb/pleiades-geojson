@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Attene/Chattenia",
   "id": "932438",
-  "description": "An ancient place, cited: BAtlas 95 B4 Attene/Chattenia",
   "bbox": [
     49.0,
     25.0,
     50.0,
     26.0
   ],
-  "reprPoint": [
-    49.5,
-    25.5
-  ],
+  "description": "An ancient place, cited: BAtlas 95 B4 Attene/Chattenia",
   "names": [
     "Attene",
     "Chattenia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

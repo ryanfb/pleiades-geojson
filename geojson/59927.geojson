@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Meros (mountain)",
   "id": "59927",
-  "description": "Tirich Mir is the highest mountain of the Hindu Kush mountain range.",
   "bbox": [
     71.8406,
     36.2553,
     71.8406,
     36.2553
   ],
+  "description": "Tirich Mir is the highest mountain of the Hindu Kush mountain range.",
   "connectsWith": [
     "59983"
-  ],
-  "reprPoint": [
-    71.8406,
-    36.2553
   ],
   "names": [
     "Meros M.",
@@ -22,6 +18,19 @@
     "Nysus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8406,
+          36.2553
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

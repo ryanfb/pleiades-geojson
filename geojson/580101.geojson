@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Salamis (island)",
   "id": "580101",
-  "description": "Salamis is the largest island of the Saronic Gulf. ",
   "bbox": [
     23.51,
     37.93,
     23.51,
     37.93
   ],
+  "description": "Salamis is the largest island of the Saronic Gulf. ",
   "connectsWith": [
     "570654"
-  ],
-  "reprPoint": [
-    23.51,
-    37.93
   ],
   "names": [
     "Salamis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.51,
+          37.93
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

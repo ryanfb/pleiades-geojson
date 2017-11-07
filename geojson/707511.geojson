@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Geronisos",
   "id": "707511",
-  "description": "An ancient place, cited: BAtlas 72 A3 Geronisos",
   "bbox": [
     32.311513,
     34.899649,
     32.311513,
     34.899649
   ],
+  "description": "An ancient place, cited: BAtlas 72 A3 Geronisos",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.311513,
-    34.899649
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.311513,
+          34.899649
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

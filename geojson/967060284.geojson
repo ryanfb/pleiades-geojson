@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 0A",
   "id": "967060284",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.536633,
     54.987238,
     -1.528819,
     54.987268
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.532726,
-    54.987253
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.532726,
+          54.987253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

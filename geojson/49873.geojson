@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Argyra Chora",
   "id": "49873",
-  "description": "An ancient place, cited: BAtlas 5 G2 Argyra Chora",
   "bbox": [
     90.0,
     20.0,
     95.0,
     25.0
   ],
-  "reprPoint": [
-    92.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 G2 Argyra Chora",
   "names": [
     "Argyra Chora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

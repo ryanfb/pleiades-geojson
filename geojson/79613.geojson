@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Newport",
   "id": "79613",
-  "description": "An ancient place, cited: BAtlas 8 F4 Newport",
   "bbox": [
     -1.293183,
     50.699404,
     -1.293183,
     50.699404
   ],
+  "description": "An ancient place, cited: BAtlas 8 F4 Newport",
   "connectsWith": [
     "79731"
   ],
-  "reprPoint": [
-    -1.293183,
-    50.699404
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.293183,
+          50.699404
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

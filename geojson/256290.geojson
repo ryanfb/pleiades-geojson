@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Las Mazmoras",
   "id": "256290",
-  "description": "An ancient place, cited: BAtlas 26 C4 Las Mazmoras",
   "bbox": [
     -7.044327,
     37.953915,
     -7.044327,
     37.953915
   ],
-  "reprPoint": [
-    -7.044327,
-    37.953915
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C4 Las Mazmoras",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.044327,
+          37.953915
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Parion Oros",
   "id": "658566",
-  "description": "An ancient place, cited: BAtlas 67 B3 Parion Oros",
   "bbox": [
     35.5,
     36.5,
     36.0,
     37.0
   ],
-  "reprPoint": [
-    35.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 67 B3 Parion Oros",
   "names": [
     "Parion Oros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Rhoiteion",
   "id": "550856",
-  "description": "An ancient city located in the northern part of the Troad.",
   "bbox": [
     26.307891,
     40.011104,
     26.307891,
     40.011104
   ],
+  "description": "An ancient city located in the northern part of the Troad.",
   "connectsWith": [
     "550944"
-  ],
-  "reprPoint": [
-    26.307891,
-    40.011104
   ],
   "names": [
     "Rhoiteion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.307891,
+          40.011104
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

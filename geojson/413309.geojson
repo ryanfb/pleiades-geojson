@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sena (river)",
   "id": "413309",
-  "description": "The Nevola river.",
   "bbox": [
     13.0099369,
     43.5981797,
     13.0099369,
     43.5981797
   ],
+  "description": "The Nevola river.",
   "connectsWith": [
     "413204"
-  ],
-  "reprPoint": [
-    13.0099369,
-    43.5981797
   ],
   "names": [
     "Sena"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0099369,
+          43.5981797
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

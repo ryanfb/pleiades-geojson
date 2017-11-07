@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "247657",
-  "description": "An ancient place, cited: BAtlas 25 E3 unnamed bridge (Puente de la Reina (Santa Engracia) over R. Aragón and R. Aragón Subordán, W Iac(c)a)",
   "bbox": [
     -1.0,
     42.0,
     0.0,
     43.0
   ],
-  "reprPoint": [
-    -0.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E3 unnamed bridge (Puente de la Reina (Santa Engracia) over R. Aragón and R. Aragón Subordán, W Iac(c)a)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

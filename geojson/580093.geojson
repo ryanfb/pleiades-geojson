@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Psaphis",
   "id": "580093",
-  "description": "An ancient place, cited: BAtlas 59 C1 Psaphis",
   "bbox": [
     23.75,
     38.25,
     24.0,
     38.5
   ],
-  "reprPoint": [
-    23.875,
-    38.375
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C1 Psaphis",
   "names": [
     "Psaphis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

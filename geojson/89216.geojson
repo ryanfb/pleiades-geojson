@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karnonakai",
   "id": "89216",
-  "description": "An Iron Age tribe of Britain describe by Ptolemy.",
   "bbox": [
     -6.0,
     57.0,
     -5.0,
     58.0
   ],
-  "reprPoint": [
-    -5.5,
-    57.5
-  ],
+  "description": "An Iron Age tribe of Britain describe by Ptolemy.",
   "names": [
     "Karnonakai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          57.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

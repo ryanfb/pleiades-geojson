@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "82306",
-  "description": "An ancient place, cited: BAtlas 8 E3 unnamed quarry (SE ‘Burrio’, in Forest of Dean)",
   "bbox": [
     -3.0,
     51.0,
     -2.0,
     52.0
   ],
-  "reprPoint": [
-    -2.5,
-    51.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 E3 unnamed quarry (SE ‘Burrio’, in Forest of Dean)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

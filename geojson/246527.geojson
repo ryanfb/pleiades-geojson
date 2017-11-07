@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Oiasso Akron",
   "id": "246527",
-  "description": "An ancient place, cited: BAtlas 25 D2 Oiasso Akron",
   "bbox": [
     -2.0,
     43.0,
     -1.0,
     44.0
   ],
-  "reprPoint": [
-    -1.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D2 Oiasso Akron",
   "names": [
     "Oiasso Akron",
     "Pyrenaei Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

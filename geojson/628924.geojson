@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Antitaurus Mons",
   "id": "628924",
-  "description": "A mountain range of SE Turkey, extending N of the Taurus mountains.",
   "bbox": [
     34.16499,
     38.12686,
     39.76667,
     39.8
   ],
-  "reprPoint": [
-    36.4602035667,
-    38.8196045333
-  ],
+  "description": "A mountain range of SE Turkey, extending N of the Taurus mountains.",
   "names": [
     "Antitaurus M.",
     "Antitaurus",
     "Antitauros",
     "Ala Dağları",
     "Aladağlar"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4602035667,
+          38.8196045333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

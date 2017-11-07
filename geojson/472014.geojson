@@ -2,26 +2,37 @@
   "type": "FeatureCollection",
   "title": "Sardinia (island)",
   "id": "472014",
-  "description": "The second largest island in the Mediterranean Sea",
   "bbox": [
     8.196389,
     38.902691,
     9.747191,
     41.240569
   ],
+  "description": "The second largest island in the Mediterranean Sea",
   "connectsWith": [
     "981548",
     "472127",
     "1356"
-  ],
-  "reprPoint": [
-    8.89595116687,
-    40.0680246226
   ],
   "names": [
     "Sardinia",
     "Sardo",
     "Ichnoussa",
     "Sardegna"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.89595116687,
+          40.0680246226
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

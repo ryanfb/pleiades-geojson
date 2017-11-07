@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "600227",
-  "description": "An ancient place, cited: BAtlas 61 E2 unnamed aqueduct (Aqua Iulia?)",
   "bbox": [
     27.0,
     37.5,
     27.5,
     38.0
   ],
-  "reprPoint": [
-    27.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E2 unnamed aqueduct (Aqua Iulia?)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

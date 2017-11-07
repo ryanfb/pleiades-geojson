@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Haggag",
   "id": "746833",
-  "description": "An ancient place, cited: BAtlas 76 E4 Wadi Haggag",
   "bbox": [
     34.424131,
     28.890721,
     34.424131,
     28.890721
   ],
-  "reprPoint": [
-    34.424131,
-    28.890721
-  ],
+  "description": "An ancient place, cited: BAtlas 76 E4 Wadi Haggag",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.424131,
+          28.890721
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

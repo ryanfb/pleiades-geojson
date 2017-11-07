@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 38 (Hotbank)",
   "id": "967060234",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.356932,
     55.007118,
     -2.356602,
     55.007334
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.35676661552,
-    55.0072271165
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.35676661552,
+          55.0072271165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

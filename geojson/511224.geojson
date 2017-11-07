@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Daskylitis Limne",
   "id": "511224",
-  "description": "Also called \"Aphnitis Limne\" in antiquity, according to Strabo. Modern Lake Kuş/Lake Manyas in Turkey.",
   "bbox": [
     27.966667,
     40.183333,
     27.966667,
     40.183333
   ],
-  "reprPoint": [
-    27.966667,
-    40.183333
-  ],
+  "description": "Also called \"Aphnitis Limne\" in antiquity, according to Strabo. Modern Lake Kuş/Lake Manyas in Turkey.",
   "names": [
     "Lake Kuş",
     "Kuş Gölü",
@@ -21,6 +17,19 @@
     "Aphnitis Limne"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.966667,
+          40.183333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

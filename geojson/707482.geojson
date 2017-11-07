@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ardana",
   "id": "707482",
-  "description": "An ancient place, cited: BAtlas 72 D2 Ardana",
   "bbox": [
     33.904939,
     35.321989,
     33.904939,
     35.321989
   ],
-  "reprPoint": [
-    33.904939,
-    35.321989
-  ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Ardana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.904939,
+          35.321989
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

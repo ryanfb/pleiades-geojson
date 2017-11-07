@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leuke",
   "id": "570429",
-  "description": "An ancient place, cited: BAtlas 58 D4 Leuke",
   "bbox": [
     22.5,
     36.5,
     23.0,
     37.0
   ],
-  "reprPoint": [
-    22.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D4 Leuke",
   "names": [
     "Leuke"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leston? (river)",
   "id": "857211",
-  "description": "An ancient place, cited: BAtlas 87 H4 Leston? fl.",
   "bbox": [
     42.0,
     40.0,
     43.0,
     41.0
   ],
-  "reprPoint": [
-    42.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 H4 Leston? fl.",
   "names": [
     "Leston"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

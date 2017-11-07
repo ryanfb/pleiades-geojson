@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thera",
   "id": "599971",
-  "description": "An ancient settlement located atop the modern Messavouno mountain on the island that shared its name in antiquity (modern Thira/Santorini).",
   "bbox": [
     25.477816,
     36.363374,
     25.477816,
     36.363374
   ],
+  "description": "An ancient settlement located atop the modern Messavouno mountain on the island that shared its name in antiquity (modern Thira/Santorini).",
   "connectsWith": [
     "599973"
-  ],
-  "reprPoint": [
-    25.477816,
-    36.363374
   ],
   "names": [
     "Thera"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.477816,
+          36.363374
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Macra (river)",
   "id": "403237",
-  "description": "The Magra river of northern Italy.",
   "bbox": [
     9.9444628,
     44.2895346,
     9.9444628,
     44.2895346
   ],
+  "description": "The Magra river of northern Italy.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    9.9444628,
-    44.2895346
   ],
   "names": [
     "Macra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9444628,
+          44.2895346
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

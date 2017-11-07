@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Marble quarry near Simitthus",
   "id": "318615",
-  "description": "An unnamed marble quarry near Simitthus (modern Chemtou, Tunisia). The marble variety is “Giallo antico”.",
   "bbox": [
     8.5770556,
     36.4927626,
     8.5770556,
     36.4927626
   ],
-  "reprPoint": [
-    8.5770556,
-    36.4927626
-  ],
+  "description": "An unnamed marble quarry near Simitthus (modern Chemtou, Tunisia). The marble variety is “Giallo antico”.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5770556,
+          36.4927626
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

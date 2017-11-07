@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kostol",
   "id": "207220",
-  "description": "An ancient place, cited: BAtlas 21 E6 Kostol",
   "bbox": [
     22.27456,
     43.912477,
     22.27456,
     43.912477
   ],
-  "reprPoint": [
-    22.27456,
-    43.912477
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E6 Kostol",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.27456,
+          43.912477
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

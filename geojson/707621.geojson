@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sia",
   "id": "707621",
-  "description": "An ancient place, cited: BAtlas 72 C3 Sia",
   "bbox": [
     33.367495,
     34.95255,
     33.367495,
     34.95255
   ],
+  "description": "An ancient place, cited: BAtlas 72 C3 Sia",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.367495,
-    34.95255
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.367495,
+          34.95255
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

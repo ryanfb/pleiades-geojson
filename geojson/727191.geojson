@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Pelousiakon Stoma",
   "id": "727191",
-  "description": "The easternmost ancient mouth of the Nile River.",
   "bbox": [
     29.331389,
     -2.282222,
     31.2705999,
     30.166667
   ],
+  "description": "The easternmost ancient mouth of the Nile River.",
   "connectsWith": [
     "727172",
     "1043"
-  ],
-  "reprPoint": [
-    30.5673296333,
-    19.2114087667
   ],
   "names": [
     "Pelousiakon Stoma",
@@ -25,6 +21,19 @@
     "Pelusinische Mündung"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5673296333,
+          19.2114087667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman Villa at Għajn Tuffieħa, Malta",
   "id": "462218",
-  "description": "Ruins at this ancient site include a Roman-era bath complex and extensive mosaics. Its ancient name is unknown.",
   "bbox": [
     14.357491,
     35.926949,
     14.357491,
     35.926949
   ],
+  "description": "Ruins at this ancient site include a Roman-era bath complex and extensive mosaics. Its ancient name is unknown.",
   "connectsWith": [
     "462311"
   ],
-  "reprPoint": [
-    14.357491,
-    35.926949
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.357491,
+          35.926949
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
@@ -35,6 +44,7 @@
       }
     },
     {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

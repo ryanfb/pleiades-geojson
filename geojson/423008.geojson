@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Pons Mulvius",
   "id": "423008",
-  "description": "Pons Mulvius (the Milvian Bridge) is a Roman bridge over the Tiber river. The original phase of the bridge dates to the consulship of Gaius Claudius Nero in 206 B.C. The bridge is most famous as the site of a decisive battle between Maxentius and Constantine I fought in A.D. 312.",
   "bbox": [
     12.4666225,
     41.9347682,
     12.4672821,
     41.936223
   ],
+  "description": "Pons Mulvius (the Milvian Bridge) is a Roman bridge over the Tiber river. The original phase of the bridge dates to the consulship of Gaius Claudius Nero in 206 B.C. The bridge is most famous as the site of a decisive battle between Maxentius and Constantine I fought in A.D. 312.",
   "connectsWith": [
     "423080",
     "423025"
-  ],
-  "reprPoint": [
-    12.466894852,
-    41.9356314174
   ],
   "names": [
     "Pons Mulvius",
     "Pons Milvius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466894852,
+          41.9356314174
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

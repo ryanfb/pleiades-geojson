@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "237838",
-  "description": "An ancient place, cited: BAtlas 24 E2 no. 12 (Páramo del Sil, over R. Sil)",
   "bbox": [
     -7.0,
     42.0,
     -6.0,
     43.0
   ],
-  "reprPoint": [
-    -6.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 E2 no. 12 (Páramo del Sil, over R. Sil)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

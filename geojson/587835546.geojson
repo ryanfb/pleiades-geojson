@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Via Ardeatina",
   "id": "587835546",
-  "description": "The Via Ardeatina connected Rome and Ardea.",
   "bbox": [
     12.486137,
     41.609389,
     12.547028,
     41.891775
   ],
-  "reprPoint": [
-    12.51659825,
-    41.75056325
+  "description": "The Via Ardeatina connected Rome and Ardea.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51659825,
+          41.75056325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "S. Giovanni",
   "id": "403271",
-  "description": "An ancient place, cited: BAtlas 41 C4 S. Giovanni",
   "bbox": [
     10.323734,
     42.795334,
     10.323734,
     42.795334
   ],
+  "description": "An ancient place, cited: BAtlas 41 C4 S. Giovanni",
   "connectsWith": [
     "403222"
   ],
-  "reprPoint": [
-    10.323734,
-    42.795334
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.323734,
+          42.795334
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

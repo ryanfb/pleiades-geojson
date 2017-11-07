@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Andecavi",
   "id": "138179",
-  "description": "An ancient place, cited: BAtlas 14 E1 Andecavi",
   "bbox": [
     -1.0,
     47.0,
     0.0,
     48.0
   ],
-  "reprPoint": [
-    -0.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 E1 Andecavi",
   "names": [
     "Andecavi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

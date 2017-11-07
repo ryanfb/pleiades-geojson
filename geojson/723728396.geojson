@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Torre di Mercurio",
   "id": "723728396",
-  "description": "A tower associated with Pompeii's fortification wall.",
   "bbox": [
     14.4828821,
     40.7527074,
     14.4828821,
     40.7527074
   ],
+  "description": "A tower associated with Pompeii's fortification wall.",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4828821,
-    40.7527074
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4828821,
+          40.7527074
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

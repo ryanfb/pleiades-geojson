@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "150253",
-  "description": "An ancient place, cited: BAtlas 15 D2 unnamed centuriation (around Ugernum, Cabellio, Avennio (Orange A))",
   "bbox": [
     4.5,
     43.5,
     5.0,
     44.0
   ],
-  "reprPoint": [
-    4.75,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 D2 unnamed centuriation (around Ugernum, Cabellio, Avennio (Orange A))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Jebel Seis",
   "id": "678211",
-  "description": "An ancient place, cited: BAtlas 69 F3 Jebel Seis",
   "bbox": [
     37.328953,
     33.30587,
     37.328953,
     33.30587
   ],
-  "reprPoint": [
-    37.328953,
-    33.30587
-  ],
+  "description": "An ancient place, cited: BAtlas 69 F3 Jebel Seis",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.328953,
+          33.30587
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

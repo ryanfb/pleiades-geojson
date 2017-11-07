@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gosławice",
   "id": "128401",
-  "description": "An ancient place, cited: BAtlas 13 C2 Gosławice",
   "bbox": [
     17.0,
     50.0,
     18.0,
     51.0
   ],
-  "reprPoint": [
-    17.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 13 C2 Gosławice",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

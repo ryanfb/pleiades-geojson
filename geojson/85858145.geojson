@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Raedykes camp",
   "id": "85858145",
-  "description": "Temporary Roman marching camp",
   "bbox": [
     -2.262478,
     57.002713,
     -2.262478,
     57.002713
   ],
-  "reprPoint": [
-    -2.262478,
-    57.002713
-  ],
+  "description": "Temporary Roman marching camp",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.262478,
+          57.002713
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

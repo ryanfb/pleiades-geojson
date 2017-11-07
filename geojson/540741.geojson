@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dotion Pedion",
   "id": "540741",
-  "description": "The Dotion Pedion (Dotium) is the northern part of the eastern Thessalian plain.",
   "bbox": [
     22.5,
     39.5,
     23.0,
     40.0
   ],
-  "reprPoint": [
-    22.75,
-    39.75
-  ],
+  "description": "The Dotion Pedion (Dotium) is the northern part of the eastern Thessalian plain.",
   "names": [
     "Dotion Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Toritto",
   "id": "442822",
-  "description": "An ancient place, cited: BAtlas 45 E3 Toritto",
   "bbox": [
     16.680612,
     40.999245,
     16.680612,
     40.999245
   ],
-  "reprPoint": [
-    16.680612,
-    40.999245
-  ],
+  "description": "An ancient place, cited: BAtlas 45 E3 Toritto",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.680612,
+          40.999245
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hradec Králové",
   "id": "128412",
-  "description": "An ancient place, cited: BAtlas 13 A2 Hradec Králové",
   "bbox": [
     15.832594,
     50.209337,
     15.832594,
     50.209337
   ],
-  "reprPoint": [
-    15.832594,
-    50.209337
-  ],
+  "description": "An ancient place, cited: BAtlas 13 A2 Hradec Králové",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.832594,
+          50.209337
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

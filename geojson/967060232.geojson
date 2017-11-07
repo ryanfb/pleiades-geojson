@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 36 (King's Hill)",
   "id": "967060232",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.318727,
     55.017846,
     -2.318507,
     55.017999
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.31861697981,
-    55.0179240656
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.31861697981,
+          55.0179240656
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

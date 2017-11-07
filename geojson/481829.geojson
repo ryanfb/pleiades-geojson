@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Encheleioi",
   "id": "481829",
-  "description": "An ancient place, cited: BAtlas 49 C2 Encheleioi",
   "bbox": [
     20.0,
     41.0,
     21.0,
     42.0
   ],
-  "reprPoint": [
-    20.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 C2 Encheleioi",
   "names": [
     "Encheleioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

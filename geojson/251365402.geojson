@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bat's Castle",
   "id": "251365402",
-  "description": "Bat's Castle is an Iron Age hill fort in Somerset, England.",
   "bbox": [
     -3.4491248,
     51.170256,
     -3.4491248,
     51.170256
   ],
-  "reprPoint": [
-    -3.4491248,
-    51.170256
-  ],
+  "description": "Bat's Castle is an Iron Age hill fort in Somerset, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4491248,
+          51.170256
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

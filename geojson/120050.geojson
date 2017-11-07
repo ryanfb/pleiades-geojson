@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "120050",
-  "description": "An ancient place, cited: BAtlas 12 B2 unnamed bridge (over Moenus fl., near Hanau-Kesselstadt)",
   "bbox": [
     8.0,
     50.0,
     9.0,
     51.0
   ],
-  "reprPoint": [
-    8.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 B2 unnamed bridge (over Moenus fl., near Hanau-Kesselstadt)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

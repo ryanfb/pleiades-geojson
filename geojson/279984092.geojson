@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Emar",
   "id": "279984092",
-  "description": "An important Bronze Age trading center in northern Syria. The site is known today as Tell Meskene.",
   "bbox": [
     38.1079405,
     35.9857178,
     38.1137987,
     35.9884763
   ],
+  "description": "An important Bronze Age trading center in northern Syria. The site is known today as Tell Meskene.",
   "connectsWith": [
     "668208"
-  ],
-  "reprPoint": [
-    38.1109976469,
-    35.9870203108
   ],
   "names": [
     "Tell Meskene",
@@ -22,6 +18,19 @@
     "Imar"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1109976469,
+          35.9870203108
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

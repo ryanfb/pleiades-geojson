@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Udini/Oudai",
   "id": "834302",
-  "description": "An ancient place, cited: BAtlas 85 D3 Udini/Oudai",
   "bbox": [
     46.0,
     44.0,
     47.0,
     45.0
   ],
-  "reprPoint": [
-    46.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 85 D3 Udini/Oudai",
   "names": [
     "Udini",
     "Oudai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

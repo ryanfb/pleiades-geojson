@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Montana",
   "id": "207293",
-  "description": "An ancient place, cited: BAtlas 21 F6 Montana",
   "bbox": [
     23.226095,
     43.408743,
     23.226095,
     43.408743
   ],
-  "reprPoint": [
-    23.226095,
-    43.408743
-  ],
+  "description": "An ancient place, cited: BAtlas 21 F6 Montana",
   "names": [
     "Montana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.226095,
+          43.408743
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

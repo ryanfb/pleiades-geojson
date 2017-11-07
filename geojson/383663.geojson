@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gennanates",
   "id": "383663",
-  "description": "An ancient place, cited: BAtlas 39 G2 Gennanates",
   "bbox": [
     10.0,
     45.5,
     10.5,
     46.0
   ],
-  "reprPoint": [
-    10.25,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 G2 Gennanates",
   "names": [
     "Gennanates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

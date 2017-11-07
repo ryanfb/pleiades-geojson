@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Junnar",
   "id": "50012",
-  "description": "An ancient place, cited: BAtlas 5 C3 Junnar",
   "bbox": [
     73.88351,
     19.20886,
     73.88351,
     19.20886
   ],
-  "reprPoint": [
-    73.88351,
-    19.20886
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C3 Junnar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.88351,
+          19.20886
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Agathou Daimonos",
   "id": "50592",
-  "description": "An ancient place, cited: BAtlas 5 unlocated Agathou Daimonos Ins.",
   "bbox": [
     80.0,
     -20.0,
     80.0,
     -20.0
   ],
+  "description": "An ancient place, cited: BAtlas 5 unlocated Agathou Daimonos Ins.",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    80.0,
-    -20.0
   ],
   "names": [
     "Agathou Daimonos"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0,
+          -20.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

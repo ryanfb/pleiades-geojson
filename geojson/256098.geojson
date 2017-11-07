@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cerro do Rocio",
   "id": "256098",
-  "description": "An ancient place, cited: BAtlas 26 B4 Cerro do Rocio",
   "bbox": [
     -8.675996,
     37.397999,
     -8.675996,
     37.397999
   ],
-  "reprPoint": [
-    -8.675996,
-    37.397999
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B4 Cerro do Rocio",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.675996,
+          37.397999
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

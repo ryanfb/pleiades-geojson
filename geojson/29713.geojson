@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Persicus Sinus/Erythr(ae)um Mare",
   "id": "29713",
-  "description": "The Persian Gulf is located in Western Asia between Persia and the Arabian Peninsula.",
   "bbox": [
     50.9999999,
     27.0000001,
     50.9999999,
     27.0000001
   ],
+  "description": "The Persian Gulf is located in Western Asia between Persia and the Arabian Peninsula.",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    50.9999999,
-    27.0000001
   ],
   "names": [
     "Persicus Sinus",
@@ -24,6 +20,19 @@
     "Persian Gulf"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9999999,
+          27.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

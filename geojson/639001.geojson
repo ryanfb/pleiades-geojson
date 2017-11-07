@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Morka",
   "id": "639001",
-  "description": "An ancient place, cited: BAtlas 65 E3 Morka",
   "bbox": [
     30.79518,
     37.11455,
     30.79518,
     37.11455
   ],
-  "reprPoint": [
-    30.79518,
-    37.11455
-  ],
+  "description": "An ancient place, cited: BAtlas 65 E3 Morka",
   "names": [
     "Morka"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.79518,
+          37.11455
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

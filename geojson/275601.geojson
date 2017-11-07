@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Baquates",
   "id": "275601",
-  "description": "An ancient place, cited: BAtlas 28 D6 Baquates",
   "bbox": [
     -5.5,
     33.5,
     -5.0,
     34.0
   ],
-  "reprPoint": [
-    -5.25,
-    33.75
-  ],
+  "description": "An ancient place, cited: BAtlas 28 D6 Baquates",
   "names": [
     "Baquates",
     "Bakouatai",
     "Ouakouatai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.25,
+          33.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

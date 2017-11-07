@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Bardili Turduli",
   "id": "260506",
-  "description": "An ancient people of southwest Portugal.",
   "bbox": [
     -8.893066,
     38.371152,
     -8.519503,
     38.524512
   ],
-  "reprPoint": [
-    -8.7062845,
-    38.447832
-  ],
+  "description": "An ancient people of southwest Portugal.",
   "names": [
     "Bardili Turduli"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.7062845,
+          38.447832
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

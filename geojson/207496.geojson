@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tibiskos (river)",
   "id": "207496",
-  "description": "An ancient place, cited: BAtlas 21 D4 Tibiskos fl.",
   "bbox": [
     21.0,
     45.0,
     22.0,
     46.0
   ],
-  "reprPoint": [
-    21.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 D4 Tibiskos fl.",
   "names": [
     "Tibiskos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

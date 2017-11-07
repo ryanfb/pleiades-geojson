@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "The Ridgeway",
   "id": "548806092",
-  "description": "The Ridgeway is an ancient trackway that runs from Wiltshire along the chalk ridge of the Berkshire Downs to the River Thames in England.",
   "bbox": [
     -1.3929306,
     51.555968,
     -1.3929306,
     51.555968
   ],
-  "reprPoint": [
-    -1.3929306,
-    51.555968
-  ],
+  "description": "The Ridgeway is an ancient trackway that runs from Wiltshire along the chalk ridge of the Berkshire Downs to the River Thames in England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3929306,
+          51.555968
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

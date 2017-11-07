@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ilva (island)",
   "id": "471952",
-  "description": "The island known as \"La Maddalena\" is grouped in an archipelago of the same name.",
   "bbox": [
     9.3954243,
     41.2105434,
     9.3954243,
     41.2105434
   ],
-  "reprPoint": [
-    9.3954243,
-    41.2105434
-  ],
+  "description": "The island known as \"La Maddalena\" is grouped in an archipelago of the same name.",
   "names": [
     "Ilva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3954243,
+          41.2105434
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

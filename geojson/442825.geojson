@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre Mare",
   "id": "442825",
-  "description": "An ancient place, cited: BAtlas 45 E2 Torre Mare",
   "bbox": [
     16.997615,
     41.087312,
     16.997615,
     41.087312
   ],
-  "reprPoint": [
-    16.997615,
-    41.087312
-  ],
+  "description": "An ancient place, cited: BAtlas 45 E2 Torre Mare",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.997615,
+          41.087312
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

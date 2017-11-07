@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nanstallon",
   "id": "47824565",
-  "description": "A small Roman fort.",
   "bbox": [
     -4.772275,
     50.469167,
     -4.770679,
     50.470267
   ],
-  "reprPoint": [
-    -4.77147677867,
-    50.4697164909
-  ],
+  "description": "A small Roman fort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.77147677867,
+          50.4697164909
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

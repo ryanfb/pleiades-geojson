@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kassope",
   "id": "530922",
-  "description": "A city with an extensive circuit wall, temple, theater, and agora.",
   "bbox": [
     20.675916,
     39.140534,
     20.687268,
     39.145016
   ],
-  "reprPoint": [
-    20.681592,
-    39.142775
-  ],
+  "description": "A city with an extensive circuit wall, temple, theater, and agora.",
   "names": [
     "Kassope"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.681592,
+          39.142775
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

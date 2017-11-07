@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Bastetania",
   "id": "265822",
-  "description": "An ancient place, cited: BAtlas 27 C4 Bastetania",
   "bbox": [
     -3.0,
     37.0,
     -2.0,
     38.0
   ],
-  "reprPoint": [
-    -2.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 C4 Bastetania",
   "names": [
     "Bastetania",
     "Bastetani",
     "Bastuli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

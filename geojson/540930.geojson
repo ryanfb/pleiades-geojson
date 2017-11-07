@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Malis",
   "id": "540930",
-  "description": "An ancient place, cited: BAtlas 55 C3 Malis",
   "bbox": [
     22.0,
     38.5,
     22.5,
     39.0
   ],
-  "reprPoint": [
-    22.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 C3 Malis",
   "names": [
     "Malis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

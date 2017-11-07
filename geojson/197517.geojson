@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sisciani",
   "id": "197517",
-  "description": "An ancient place, cited: BAtlas 20 D4 Sisciani",
   "bbox": [
     16.0,
     45.0,
     17.0,
     46.0
   ],
-  "reprPoint": [
-    16.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 D4 Sisciani",
   "names": [
     "Sisciani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

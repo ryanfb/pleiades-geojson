@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Meneiga",
   "id": "795789",
-  "description": "An ancient place, cited: BAtlas 81 F3 Bir Meneiga",
   "bbox": [
     35.2,
     22.78333,
     35.2,
     22.78333
   ],
-  "reprPoint": [
-    35.2,
-    22.78333
-  ],
+  "description": "An ancient place, cited: BAtlas 81 F3 Bir Meneiga",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          22.78333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Elimi",
   "id": "530861",
-  "description": "An ancient place, cited: BAtlas 54 B3 Elimi",
   "bbox": [
     20.0,
     39.0,
     20.5,
     39.5
   ],
-  "reprPoint": [
-    20.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 B3 Elimi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

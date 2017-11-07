@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Propontis",
   "id": "511381",
-  "description": "The Sea of Marmara.",
   "bbox": [
     28.2499999,
     40.6666672,
     28.2499999,
     40.6666672
   ],
+  "description": "The Sea of Marmara.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    28.2499999,
-    40.6666672
   ],
   "names": [
     "Propontis",
     "Sea of Marmara"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2499999,
+          40.6666672
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

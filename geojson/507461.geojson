@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Serreion",
   "id": "507461",
-  "description": "An ancient place, cited: BAtlas 51 unlocated Serreion",
   "bbox": [
     25.5,
     41.5,
     26.0,
     42.0
   ],
+  "description": "An ancient place, cited: BAtlas 51 unlocated Serreion",
   "connectsWith": [
     "501638"
-  ],
-  "reprPoint": [
-    25.75,
-    41.75
   ],
   "names": [
     "Serreion"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

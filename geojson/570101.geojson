@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Araxos Pr.",
   "id": "570101",
-  "description": "Cape Araxos separates the Gulf of Patras from the Ionian Sea.",
   "bbox": [
     21.377,
     38.212,
     21.377,
     38.212
   ],
+  "description": "Cape Araxos separates the Gulf of Patras from the Ionian Sea.",
   "connectsWith": [
     "570577"
-  ],
-  "reprPoint": [
-    21.377,
-    38.212
   ],
   "names": [
     "Araxos Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.377,
+          38.212
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

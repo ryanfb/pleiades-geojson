@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Suebi",
   "id": "99040",
-  "description": "The Suebi were an ancient tribe in Germany, first mentioned by Iulius Caesar ca. 58 BC.",
   "bbox": [
     11.0,
     53.0,
     12.0,
     54.0
   ],
-  "reprPoint": [
-    11.5,
-    53.5
-  ],
+  "description": "The Suebi were an ancient tribe in Germany, first mentioned by Iulius Caesar ca. 58 BC.",
   "names": [
     "Suebi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

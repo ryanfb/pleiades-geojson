@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sidi-bel-Kassem",
   "id": "324812",
-  "description": "An ancient place, cited: BAtlas 33 G2 Sidi-bel-Kassem",
   "bbox": [
     10.5,
     35.0,
     11.0,
     35.5
   ],
-  "reprPoint": [
-    10.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 33 G2 Sidi-bel-Kassem",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

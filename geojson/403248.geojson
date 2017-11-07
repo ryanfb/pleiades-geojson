@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Orbetello",
   "id": "403248",
-  "description": "A city of Tyrrhenian Etruria that came under Roman control in 280 B.C.; the Latin colony of Cosa was established nearby in 273 B.C.",
   "bbox": [
     11.220672,
     42.442267,
     11.220672,
     42.442267
   ],
-  "reprPoint": [
-    11.220672,
-    42.442267
-  ],
+  "description": "A city of Tyrrhenian Etruria that came under Roman control in 280 B.C.; the Latin colony of Cosa was established nearby in 273 B.C.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.220672,
+          42.442267
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

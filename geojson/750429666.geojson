@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tineida",
   "id": "750429666",
-  "description": "The ancient village of Tineida, in Egypt's Dakhleh Oasis.",
   "bbox": [
     29.333603,
     25.501066,
     29.333603,
     25.501066
   ],
+  "description": "The ancient village of Tineida, in Egypt's Dakhleh Oasis.",
   "connectsWith": [
     "776172"
   ],
-  "reprPoint": [
-    29.333603,
-    25.501066
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.333603,
+          25.501066
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

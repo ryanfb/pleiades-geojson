@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Abbeyknockmoy abbey",
   "id": "475264756",
-  "description": "A ruined Medieval Cistercian abbey founded in 1190.",
   "bbox": [
     -8.7423042,
     53.4406221,
     -8.7423042,
     53.4406221
   ],
+  "description": "A ruined Medieval Cistercian abbey founded in 1190.",
   "connectsWith": [
     "20487"
   ],
-  "reprPoint": [
-    -8.7423042,
-    53.4406221
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.7423042,
+          53.4406221
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

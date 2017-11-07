@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gavur Qal'eh",
   "id": "884154",
-  "description": "An ancient place, cited: BAtlas 90 A2 Gavur Qal'eh",
   "bbox": [
     45.0,
     38.0,
     46.0,
     39.0
   ],
-  "reprPoint": [
-    45.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 A2 Gavur Qal'eh",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

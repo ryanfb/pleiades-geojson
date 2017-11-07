@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426603",
-  "description": "An ancient place, cited: BAtlas 43 C2 no. 27 (bridge on Via Labicana)",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
+  "description": "An ancient place, cited: BAtlas 43 C2 no. 27 (bridge on Via Labicana)",
   "connectsWith": [
     "74935822"
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

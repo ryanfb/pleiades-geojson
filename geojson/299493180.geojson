@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Limantepe",
   "id": "299493180",
-  "description": "The site of a Bronze Age port settlement near Urla, Turkey.",
   "bbox": [
     26.775417,
     38.3622756,
     26.7760241,
     38.3630938
   ],
-  "reprPoint": [
-    26.7757515675,
-    38.3626877424
-  ],
+  "description": "The site of a Bronze Age port settlement near Urla, Turkey.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7757515675,
+          38.3626877424
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

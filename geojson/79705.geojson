@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tamesis (river)",
   "id": "79705",
-  "description": "The River Thames.",
   "bbox": [
     -0.1498439,
     51.48456,
     0.6087,
     51.4989
   ],
-  "reprPoint": [
-    0.22942805,
-    51.49173
-  ],
+  "description": "The River Thames.",
   "names": [
     "Tamesis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.22942805,
+          51.49173
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

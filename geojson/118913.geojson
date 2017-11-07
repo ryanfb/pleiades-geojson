@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Praha",
   "id": "118913",
-  "description": "An ancient place, cited: BAtlas 12 H2 Praha",
   "bbox": [
     14.420614,
     50.087986,
     14.420614,
     50.087986
   ],
-  "reprPoint": [
-    14.420614,
-    50.087986
-  ],
+  "description": "An ancient place, cited: BAtlas 12 H2 Praha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.420614,
+          50.087986
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

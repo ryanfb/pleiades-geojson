@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "El Palomar",
   "id": "246553",
-  "description": "An ancient place, cited: BAtlas 25 E5 El Palomar",
   "bbox": [
     -0.67444,
     40.998055,
     -0.67444,
     40.998055
   ],
-  "reprPoint": [
-    -0.67444,
-    40.998055
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E5 El Palomar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.67444,
+          40.998055
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

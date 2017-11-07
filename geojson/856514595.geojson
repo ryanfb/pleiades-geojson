@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "Via Flaminia",
   "id": "856514595",
-  "description": "A major Roman road connecting Rome and Ariminum, by way of Narnia and Nuceria. The road was begun under the censorship of Caius Flaminius Nepos in 220 B.C.",
   "bbox": [
     12.476652,
     41.891775,
     13.016921,
     44.0605151
   ],
+  "description": "A major Roman road connecting Rome and Ariminum, by way of Narnia and Nuceria. The road was begun under the censorship of Caius Flaminius Nepos in 220 B.C.",
   "connectsWith": [
     "447759107"
   ],
-  "reprPoint": [
-    12.6411364423,
-    42.9381397336
-  ],
   "names": [
     "Via Flaminia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6411364423,
+          42.9381397336
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

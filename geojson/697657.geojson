@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "ed-Deir",
   "id": "697657",
-  "description": "An ancient place, cited: BAtlas 71 B3 ed-Deir",
   "bbox": [
     35.5,
     31.0,
     36.0,
     31.5
   ],
-  "reprPoint": [
-    35.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 71 B3 ed-Deir",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Omma (river)",
   "id": "629048",
-  "description": "An ancient place, cited: BAtlas 64 H4 Omma fl.",
   "bbox": [
     38.5,
     38.0,
     39.0,
     38.5
   ],
-  "reprPoint": [
-    38.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 H4 Omma fl.",
   "names": [
     "Omma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

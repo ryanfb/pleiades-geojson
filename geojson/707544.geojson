@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kopetra",
   "id": "707544",
-  "description": "An ancient place, cited: BAtlas 72 C3 Kopetra",
   "bbox": [
     33.312153,
     34.748793,
     33.312153,
     34.748793
   ],
+  "description": "An ancient place, cited: BAtlas 72 C3 Kopetra",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.312153,
-    34.748793
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.312153,
+          34.748793
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

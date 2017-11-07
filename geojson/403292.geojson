@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Velathri/Volaterrae",
   "id": "403292",
-  "description": "A major Etruscan city of North Etruria.",
   "bbox": [
     10.859019,
     43.401431,
     10.861106,
     43.401777
   ],
+  "description": "A major Etruscan city of North Etruria.",
   "connectsWith": [
     "413122"
-  ],
-  "reprPoint": [
-    10.8600625,
-    43.401604
   ],
   "names": [
     "Velathri",
@@ -23,6 +19,19 @@
     "Volterra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8600625,
+          43.401604
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

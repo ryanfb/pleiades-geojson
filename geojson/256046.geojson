@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Campanario",
   "id": "256046",
-  "description": "An ancient place, cited: BAtlas 26 D4 Campanario",
   "bbox": [
     -6.811738,
     37.556029,
     -6.811738,
     37.556029
   ],
-  "reprPoint": [
-    -6.811738,
-    37.556029
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D4 Campanario",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.811738,
+          37.556029
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

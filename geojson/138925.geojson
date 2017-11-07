@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "138925",
-  "description": "An ancient place, cited: BAtlas 14 F1 unnamed aqueduct (E Caesarodunum)",
   "bbox": [
     0.0,
     47.0,
     1.0,
     48.0
   ],
-  "reprPoint": [
-    0.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 F1 unnamed aqueduct (E Caesarodunum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

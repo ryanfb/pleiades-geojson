@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Piscina Torta",
   "id": "423002",
-  "description": "An ancient place, cited: BAtlas 43 B3 Piscina Torta",
   "bbox": [
     12.350258,
     41.715173,
     12.350258,
     41.715173
   ],
-  "reprPoint": [
-    12.350258,
-    41.715173
-  ],
+  "description": "An ancient place, cited: BAtlas 43 B3 Piscina Torta",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.350258,
+          41.715173
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

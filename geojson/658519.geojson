@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lepte Akra",
   "id": "658519",
-  "description": "An ancient place, cited: BAtlas 67 B4 Lepte Akra",
   "bbox": [
     35.5,
     36.0,
     36.0,
     36.5
   ],
-  "reprPoint": [
-    35.75,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 B4 Lepte Akra",
   "names": [
     "Lepte Akra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

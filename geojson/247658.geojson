@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "247658",
-  "description": "An ancient place, cited: BAtlas 25 E3 unnamed bridge (Puente de Quicena over R. Flumen, SE Osca)",
   "bbox": [
     -1.0,
     42.0,
     0.0,
     43.0
   ],
-  "reprPoint": [
-    -0.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E3 unnamed bridge (Puente de Quicena over R. Flumen, SE Osca)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

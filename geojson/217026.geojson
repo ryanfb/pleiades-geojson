@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trog(l)odytae",
   "id": "217026",
-  "description": "An ancient place, cited: BAtlas 22 F3 Trog(l)odytae",
   "bbox": [
     28.0,
     45.0,
     29.0,
     46.0
   ],
-  "reprPoint": [
-    28.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 F3 Trog(l)odytae",
   "names": [
     "Troglodytae",
     "Trogodytae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

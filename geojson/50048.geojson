@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Karur",
   "id": "50048",
-  "description": "An ancient place, cited: BAtlas 5 D4 Karur",
   "bbox": [
     78.079902,
     10.951893,
     78.079902,
     10.951893
   ],
-  "reprPoint": [
-    78.079902,
-    10.951893
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D4 Karur",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.079902,
+          10.951893
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

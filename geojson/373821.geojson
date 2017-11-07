@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Gnade?",
   "id": "373821",
-  "description": "An ancient place, cited: BAtlas 38 A2 Gnade?",
   "bbox": [
     19.0,
     31.0,
     20.0,
     32.0
   ],
-  "reprPoint": [
-    19.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 38 A2 Gnade?",
   "names": [
     "Gnade",
     "Gindanes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

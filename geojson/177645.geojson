@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Uberi",
   "id": "177645",
-  "description": "An ancient place, cited: BAtlas 18 E3 Uberi",
   "bbox": [
     7.0,
     46.0,
     8.0,
     47.0
   ],
-  "reprPoint": [
-    7.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 18 E3 Uberi",
   "names": [
     "Uberi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cerro dos Namorados",
   "id": "256099",
-  "description": "An ancient place, cited: BAtlas 26 B4 Cerro dos Namorados",
   "bbox": [
     -8.081876,
     37.697662,
     -8.081876,
     37.697662
   ],
-  "reprPoint": [
-    -8.081876,
-    37.697662
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B4 Cerro dos Namorados",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.081876,
+          37.697662
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

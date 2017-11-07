@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dymos? (river)",
   "id": "59798",
-  "description": "An ancient place, cited: BAtlas 6 B1 Dymos? fl.",
   "bbox": [
     65.0,
     40.0,
     70.0,
     45.0
   ],
-  "reprPoint": [
-    67.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B1 Dymos? fl.",
   "names": [
     "Dymos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

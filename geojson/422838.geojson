@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Antonini",
   "id": "422838",
-  "description": "The so-called 'Villa of the Antonines', located near Genzano di Roma in the Alban Hills.",
   "bbox": [
     12.693611,
     41.692459,
     12.693611,
     41.692459
   ],
-  "reprPoint": [
-    12.693611,
-    41.692459
-  ],
+  "description": "The so-called 'Villa of the Antonines', located near Genzano di Roma in the Alban Hills.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.693611,
+          41.692459
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

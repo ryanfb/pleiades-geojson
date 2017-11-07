@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Laneia",
   "id": "707554",
-  "description": "An ancient place, cited: BAtlas 72 B3 Laneia",
   "bbox": [
     32.989172,
     34.581789,
     32.989172,
     34.581789
   ],
+  "description": "An ancient place, cited: BAtlas 72 B3 Laneia",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.989172,
-    34.581789
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.989172,
+          34.581789
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

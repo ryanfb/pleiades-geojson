@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Septem Maria (Po River Delta)",
   "id": "393494",
-  "description": "The Po (Padus) river delta.",
   "bbox": [
     12.108186,
     42.7752864,
     15.885196,
     45.024199
   ],
+  "description": "The Po (Padus) river delta.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    13.4070703333,
-    44.1656868
   ],
   "names": [
     "Septem Maria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4070703333,
+          44.1656868
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

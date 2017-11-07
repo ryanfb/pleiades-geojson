@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Bac (river)",
   "id": "118583",
-  "description": "An ancient place, cited: BAtlas 12 F3 Bac fl.",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.095556
   ],
+  "description": "An ancient place, cited: BAtlas 12 F3 Bac fl.",
   "connectsWith": [
     "226577"
-  ],
-  "reprPoint": [
-    15.0772312333,
-    47.1149830333
   ],
   "names": [
     "Bac"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0772312333,
+          47.1149830333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

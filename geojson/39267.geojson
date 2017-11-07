@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Actaei",
   "id": "39267",
-  "description": "An ancient place, cited: BAtlas 4 C2 Actaei",
   "bbox": [
     45.0,
     15.0,
     50.0,
     20.0
   ],
-  "reprPoint": [
-    47.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 C2 Actaei",
   "names": [
     "Actaei",
     "Acthei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

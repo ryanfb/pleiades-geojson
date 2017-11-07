@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Capadox (river)",
   "id": "658422",
-  "description": "An ancient place, cited: BAtlas 67 F1 Capadox fl.",
   "bbox": [
     37.5,
     37.5,
     38.0,
     38.0
   ],
-  "reprPoint": [
-    37.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 67 F1 Capadox fl.",
   "names": [
     "Capadox"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Baeturia Turdulorum",
   "id": "256012",
-  "description": "An ancient place, cited: BAtlas 26 E3 Baeturia Turdulorum",
   "bbox": [
     -6.0,
     38.0,
     -5.0,
     39.0
   ],
-  "reprPoint": [
-    -5.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E3 Baeturia Turdulorum",
   "names": [
     "Baeturia Turdulorum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

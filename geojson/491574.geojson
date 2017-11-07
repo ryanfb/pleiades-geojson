@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Doberos (river)",
   "id": "491574",
-  "description": "An ancient place, cited: BAtlas 50 D2 Doberos fl.",
   "bbox": [
     23.0,
     41.0,
     23.5,
     41.5
   ],
-  "reprPoint": [
-    23.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D2 Doberos fl.",
   "names": [
     "Doberos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

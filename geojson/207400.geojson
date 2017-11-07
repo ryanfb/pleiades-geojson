@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Rudnik",
   "id": "207400",
-  "description": "An ancient place, cited: BAtlas 21 C7 Rudnik",
   "bbox": [
     20.668595,
     42.789588,
     20.668595,
     42.789588
   ],
-  "reprPoint": [
-    20.668595,
-    42.789588
-  ],
+  "description": "An ancient place, cited: BAtlas 21 C7 Rudnik",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.668595,
+          42.789588
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

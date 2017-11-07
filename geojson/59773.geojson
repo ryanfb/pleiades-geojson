@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Choaspes (river)",
   "id": "59773",
-  "description": "The Choaspes flows from the Hindu Kush mountains to the Indus river in what is now Afghanistan.",
   "bbox": [
     67.59,
     24.07,
     72.6661687,
     34.0484606
   ],
+  "description": "The Choaspes flows from the Hindu Kush mountains to the Indus river in what is now Afghanistan.",
   "connectsWith": [
     "59851"
-  ],
-  "reprPoint": [
-    70.12808435,
-    29.0592303
   ],
   "names": [
     "Choaspes",
@@ -23,6 +19,19 @@
     "Parospus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.12808435,
+          29.0592303
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Corinthiacus Sinus",
   "id": "570181",
-  "description": "The Gulf of Corinth.",
   "bbox": [
     21.831267,
     37.9510881,
     22.9602226,
     38.399726
   ],
-  "reprPoint": [
-    22.3957448,
-    38.17540705
-  ],
+  "description": "The Gulf of Corinth.",
   "names": [
     "Corinthiacus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3957448,
+          38.17540705
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

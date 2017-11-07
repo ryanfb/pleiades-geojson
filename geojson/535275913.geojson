@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cheddar Gorge",
   "id": "535275913",
-  "description": "The Cheddar Gorge is a limestone gorge in the Mendip Hills, near Somerset, England. The gorge and its many caves are the site of human activity dating back to the Upper Paleolithic.",
   "bbox": [
     -2.7543895,
     51.2857067,
     -2.7543895,
     51.2857067
   ],
-  "reprPoint": [
-    -2.7543895,
-    51.2857067
-  ],
+  "description": "The Cheddar Gorge is a limestone gorge in the Mendip Hills, near Somerset, England. The gorge and its many caves are the site of human activity dating back to the Upper Paleolithic.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7543895,
+          51.2857067
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

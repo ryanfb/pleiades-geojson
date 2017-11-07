@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "534548",
-  "description": "Limnaia → S",
   "bbox": [
     19.5,
     38.0,
     21.5,
     40.5
   ],
-  "reprPoint": [
-    20.5,
-    39.25
-  ],
+  "description": "Limnaia → S",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

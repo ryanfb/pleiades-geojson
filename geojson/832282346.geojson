@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nuraghe Santa Barbara",
   "id": "832282346",
-  "description": "A nuragic site located on Monte Manai in Sardinia.",
   "bbox": [
     8.659055,
     40.267214,
     8.659055,
     40.267214
   ],
+  "description": "A nuragic site located on Monte Manai in Sardinia.",
   "connectsWith": [
     "472014",
     "471967"
   ],
-  "reprPoint": [
-    8.659055,
-    40.267214
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.659055,
+          40.267214
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

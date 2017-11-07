@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Carmel M.",
   "id": "678084",
-  "description": "A coastal mountain range in northern Israel.",
   "bbox": [
     35.0,
     32.5,
     35.5,
     33.0
   ],
-  "reprPoint": [
-    35.25,
-    32.75
-  ],
+  "description": "A coastal mountain range in northern Israel.",
   "names": [
     "Carmel M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          32.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

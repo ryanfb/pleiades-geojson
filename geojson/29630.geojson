@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kish",
   "id": "29630",
-  "description": "Kish is an island in the Persian Gulf. ",
   "bbox": [
     50.9999999,
     27.0000001,
     50.9999999,
     27.0000001
   ],
+  "description": "Kish is an island in the Persian Gulf. ",
   "connectsWith": [
     "29713"
-  ],
-  "reprPoint": [
-    50.9999999,
-    27.0000001
   ],
   "names": [
     "Kish"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9999999,
+          27.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

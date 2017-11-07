@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kataphydion",
   "id": "599699",
-  "description": "An ancient place, cited: BAtlas 61 C2 Kataphydion",
   "bbox": [
     26.305941,
     37.651659,
     26.305941,
     37.651659
   ],
+  "description": "An ancient place, cited: BAtlas 61 C2 Kataphydion",
   "connectsWith": [
     "599667"
   ],
-  "reprPoint": [
-    26.305941,
-    37.651659
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.305941,
+          37.651659
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

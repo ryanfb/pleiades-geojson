@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iovis? M.",
   "id": "246445",
-  "description": "An ancient place, cited: BAtlas 25 I3 Iovis? M.",
   "bbox": [
     3.0,
     42.0,
     4.0,
     43.0
   ],
-  "reprPoint": [
-    3.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 I3 Iovis? M.",
   "names": [
     "Iovis M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

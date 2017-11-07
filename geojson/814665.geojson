@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Banoubaroi",
   "id": "814665",
-  "description": "The Banoubaroi were an ancient people of the west coast of Arabia.",
   "bbox": [
     36.0,
     25.0,
     37.0,
     26.0
   ],
-  "reprPoint": [
-    36.5,
-    25.5
-  ],
+  "description": "The Banoubaroi were an ancient people of the west coast of Arabia.",
   "names": [
     "Banoubaroi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

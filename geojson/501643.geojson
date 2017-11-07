@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thyssos",
   "id": "501643",
-  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "bbox": [
     24.158674,
     40.288017,
     24.158674,
     40.288017
   ],
+  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "connectsWith": [
     "501365"
-  ],
-  "reprPoint": [
-    24.158674,
-    40.288017
   ],
   "names": [
     "Thyssos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.158674,
+          40.288017
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

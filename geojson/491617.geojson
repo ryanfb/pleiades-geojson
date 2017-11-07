@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Herakleion",
   "id": "491617",
-  "description": "An ancient place, cited: BAtlas 50 C4 Herakleion",
   "bbox": [
     22.5,
     40.0,
     23.0,
     40.5
   ],
-  "reprPoint": [
-    22.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C4 Herakleion",
   "names": [
     "Herakleion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

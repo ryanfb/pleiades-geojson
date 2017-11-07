@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "158553",
-  "description": "unnamed aqueduct group (Antipolis)",
   "bbox": [
     7.0,
     43.5,
     7.5,
     44.0
   ],
-  "reprPoint": [
-    7.25,
-    43.75
-  ],
+  "description": "unnamed aqueduct group (Antipolis)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

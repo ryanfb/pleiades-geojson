@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 8 (West Denton)",
   "id": "967060349",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.700649,
     54.986479,
     -1.700649,
     54.986479
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.700649,
-    54.986479
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.700649,
+          54.986479
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

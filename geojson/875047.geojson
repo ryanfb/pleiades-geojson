@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "875047",
-  "description": "An ancient place, cited: BAtlas 89 B1 unnamed bridge (E Ani)",
   "bbox": [
     39.0,
     39.0,
     40.0,
     40.0
   ],
-  "reprPoint": [
-    39.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B1 unnamed bridge (E Ani)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

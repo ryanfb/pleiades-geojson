@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Athenae",
   "id": "579885",
-  "description": "A major Greek city-state and the principal city of Attika. Modern Athens in Greece.",
   "bbox": [
     23.619913,
     37.967525,
     23.849968,
     38.019497
   ],
+  "description": "A major Greek city-state and the principal city of Attika. Modern Athens in Greece.",
   "connectsWith": [
     "579888"
-  ],
-  "reprPoint": [
-    23.7255156587,
-    37.9765256666
   ],
   "names": [
     "Athenae",
@@ -22,5 +18,20 @@
     "Athina",
     "Athēnai",
     "Athen"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7255156587,
+          37.9765256666
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

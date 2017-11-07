@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240093",
-  "description": "Bracara Augusta → Aquae Flaviae → Asturica Augusta",
   "bbox": [
     -8.427013,
     41.55001,
     -8.422933,
     41.55174
   ],
-  "reprPoint": [
-    -8.424973,
-    41.550875
-  ],
+  "description": "Bracara Augusta → Aquae Flaviae → Asturica Augusta",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.424973,
+          41.550875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

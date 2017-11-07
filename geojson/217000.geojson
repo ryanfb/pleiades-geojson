@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Succorum Angustiae",
   "id": "217000",
-  "description": "An ancient place, cited: BAtlas 22 A6 Succorum Angustiae",
   "bbox": [
     23.0,
     42.0,
     24.0,
     43.0
   ],
-  "reprPoint": [
-    23.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 A6 Succorum Angustiae",
   "names": [
     "Succorum Angustiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

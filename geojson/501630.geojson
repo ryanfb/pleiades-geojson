@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Strymonikos Kolpos",
   "id": "501630",
-  "description": "Strymonikos Kolpos (the Strymonian Gulf)",
   "bbox": [
     23.833333,
     40.666667,
     23.833333,
     40.666667
   ],
-  "reprPoint": [
-    23.833333,
-    40.666667
-  ],
+  "description": "Strymonikos Kolpos (the Strymonian Gulf)",
   "names": [
     "Strymonikos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.833333,
+          40.666667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

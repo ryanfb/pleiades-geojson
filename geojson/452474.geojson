@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Thagines (river)",
   "id": "452474",
-  "description": "An ancient place, cited: BAtlas 46 E3 Thagines fl.",
   "bbox": [
     16.5,
     39.0,
     17.0,
     39.5
   ],
-  "reprPoint": [
-    16.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 E3 Thagines fl.",
   "names": [
     "Thagines",
     "Tacina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

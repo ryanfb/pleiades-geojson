@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Patalene",
   "id": "59988",
-  "description": "An ancient place, cited: BAtlas 6 B5 Patalene",
   "bbox": [
     65.0,
     20.0,
     70.0,
     25.0
   ],
-  "reprPoint": [
-    67.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B5 Patalene",
   "names": [
     "Patalene",
     "Patala",
@@ -20,6 +16,19 @@
     "Patalii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

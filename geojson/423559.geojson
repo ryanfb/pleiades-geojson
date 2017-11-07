@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Anio Novus",
   "id": "423559",
-  "description": "Aqua Anio Novus is an ancient aqueduct supplying the city of Rome. Begun by Caius in AD 38, it was completed and dedicated by Claudius in AD 52. ",
   "bbox": [
     12.8298747,
     41.9025807,
     12.8298747,
     41.9025807
   ],
+  "description": "Aqua Anio Novus is an ancient aqueduct supplying the city of Rome. Begun by Caius in AD 38, it was completed and dedicated by Claudius in AD 52. ",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.8298747,
-    41.9025807
   ],
   "names": [
     "Aqua Anio Novus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8298747,
+          41.9025807
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

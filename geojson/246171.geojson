@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Aquae Onesiorum",
   "id": "246171",
-  "description": "Aquae Onesiorum (modern Bagnères-de-Luchon, France)",
   "bbox": [
     0.591189,
     42.791204,
     0.591189,
     42.791204
   ],
-  "reprPoint": [
-    0.591189,
-    42.791204
-  ],
+  "description": "Aquae Onesiorum (modern Bagnères-de-Luchon, France)",
   "names": [
     "Aquae Onesiorum",
     "Onesiae",
     "Onesion therma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.591189,
+          42.791204
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

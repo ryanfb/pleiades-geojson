@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Metropolis",
   "id": "609470",
-  "description": "An ancient place, cited: BAtlas 62 E3 Metropolis",
   "bbox": [
     30.6281549,
     39.171334,
     30.6281549,
     39.171334
   ],
-  "reprPoint": [
-    30.6281549,
-    39.171334
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E3 Metropolis",
   "names": [
     "Metropolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6281549,
+          39.171334
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

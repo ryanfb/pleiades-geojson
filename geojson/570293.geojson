@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Hierakia (island)",
   "id": "570293",
-  "description": "An ancient place, cited: BAtlas 58 F4 Hierakia Ins.",
   "bbox": [
     23.8821576,
     36.842179,
     23.8821576,
     36.842179
   ],
+  "description": "An ancient place, cited: BAtlas 58 F4 Hierakia Ins.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    23.8821576,
-    36.842179
   ],
   "names": [
     "Hierakia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8821576,
+          36.842179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

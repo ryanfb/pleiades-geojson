@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hatnub",
   "id": "837133566",
-  "description": "An Ancient Egyptian alabaster quarry used intermittently from the Fourth Dynasty through the Roman period.",
   "bbox": [
     31.0,
     27.55,
     31.0,
     27.55
   ],
-  "reprPoint": [
-    31.0,
-    27.55
-  ],
+  "description": "An Ancient Egyptian alabaster quarry used intermittently from the Fourth Dynasty through the Roman period.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0,
+          27.55
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

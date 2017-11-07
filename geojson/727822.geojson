@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "727822",
-  "description": "An ancient place, cited: BAtlas 74 B2 unnamed canal (from Schedia to Alexandria)",
   "bbox": [
     29.5,
     31.0,
     30.0,
     31.5
   ],
-  "reprPoint": [
-    29.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 B2 unnamed canal (from Schedia to Alexandria)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

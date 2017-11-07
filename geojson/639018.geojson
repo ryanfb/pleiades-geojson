@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Olympus/Phoinikous M.",
   "id": "639018",
-  "description": "An ancient place, cited: BAtlas 65 D4 Olympus/Phoinikous M.",
   "bbox": [
     30.0,
     36.5,
     30.5,
     37.0
   ],
-  "reprPoint": [
-    30.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 D4 Olympus/Phoinikous M.",
   "names": [
     "Olympus",
     "Phoinikous M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

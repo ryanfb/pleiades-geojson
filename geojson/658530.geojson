@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Melas",
   "id": "658530",
-  "description": "The ancient name for the Manavgat River (Manavgat Nehri) in Turkey.",
   "bbox": [
     36.0,
     36.0,
     36.5,
     36.5
   ],
-  "reprPoint": [
-    36.25,
-    36.25
-  ],
+  "description": "The ancient name for the Manavgat River (Manavgat Nehri) in Turkey.",
   "names": [
     "Melas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

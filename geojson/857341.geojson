@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Syspiritis",
   "id": "857341",
-  "description": "An ancient place, cited: BAtlas 87 F4 Syspiritis",
   "bbox": [
     40.0,
     40.0,
     41.0,
     41.0
   ],
-  "reprPoint": [
-    40.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 F4 Syspiritis",
   "names": [
     "Syspiritis",
     "Ispir"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

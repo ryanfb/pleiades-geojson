@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sapaike",
   "id": "501601",
-  "description": "An ancient place, cited: BAtlas 51 D2 Sapaike",
   "bbox": [
     24.5,
     41.0,
     25.0,
     41.5
   ],
-  "reprPoint": [
-    24.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 D2 Sapaike",
   "names": [
     "Sapaike",
     "Sapaioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

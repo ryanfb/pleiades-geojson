@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 13 (Rudchester Burn)",
   "id": "967060405",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.812578,
     55.000219,
     -1.812232,
     55.000392
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.81240434013,
-    55.0003060755
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.81240434013,
+          55.0003060755
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

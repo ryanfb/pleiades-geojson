@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ipnoi",
   "id": "540838",
-  "description": "An ancient place, cited: BAtlas 55 E1 Ipnoi",
   "bbox": [
     23.0,
     39.5,
     23.5,
     40.0
   ],
-  "reprPoint": [
-    23.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 E1 Ipnoi",
   "names": [
     "Ipnoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "337519",
-  "description": "Mascula Tiberia → Vazaivi → (...)lense → Municipium Tisibensium",
   "bbox": [
     2.0,
     32.0,
     10.0,
     37.0
   ],
-  "reprPoint": [
-    6.0,
-    34.5
-  ],
+  "description": "Mascula Tiberia → Vazaivi → (...)lense → Municipium Tisibensium",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Orontes (river)",
   "id": "658560",
-  "description": "The Orontes River is one of the chief rivers of the Levant.",
   "bbox": [
     36.4825754,
     35.2728339,
     36.4825754,
     35.2728339
   ],
+  "description": "The Orontes River is one of the chief rivers of the Levant.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    36.4825754,
-    35.2728339
   ],
   "names": [
     "Orontes",
@@ -25,6 +21,19 @@
     "Belus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4825754,
+          35.2728339
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

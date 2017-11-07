@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "138929",
-  "description": "An ancient place, cited: BAtlas 14 G4 unnamed aqueduct (Divona)",
   "bbox": [
     1.0,
     44.0,
     2.0,
     45.0
   ],
-  "reprPoint": [
-    1.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 G4 unnamed aqueduct (Divona)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

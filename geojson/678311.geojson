@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nurith",
   "id": "678311",
-  "description": "An ancient place, cited: BAtlas 69 B4 Nurith",
   "bbox": [
     35.366164,
     32.534939,
     35.366164,
     32.534939
   ],
-  "reprPoint": [
-    35.366164,
-    32.534939
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Nurith",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.366164,
+          32.534939
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

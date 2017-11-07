@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ouagon Akron",
   "id": "472103",
-  "description": "An ancient place, cited: BAtlas 48 D2 Ouagon Akron",
   "bbox": [
     9.0,
     42.0,
     10.0,
     43.0
   ],
-  "reprPoint": [
-    9.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 D2 Ouagon Akron",
   "names": [
     "Ouagon Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

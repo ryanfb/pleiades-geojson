@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Thermae Selinuntinae/Aquae Larodes",
   "id": "462514",
-  "description": "The site of thermal spings, founded as a sub-colony of Selinus in the seventh century B.C. Thought to be in the area of modern Sciacca.",
   "bbox": [
     13.091992,
     37.504887,
     13.091992,
     37.504887
   ],
+  "description": "The site of thermal spings, founded as a sub-colony of Selinus in the seventh century B.C. Thought to be in the area of modern Sciacca.",
   "connectsWith": [
     "462492",
     "462489"
-  ],
-  "reprPoint": [
-    13.091992,
-    37.504887
   ],
   "names": [
     "Thermae Selinuntinae",
@@ -23,6 +19,19 @@
     "Aquae Labodes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.091992,
+          37.504887
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

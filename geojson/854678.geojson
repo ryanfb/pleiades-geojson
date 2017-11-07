@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Duboviy Mys",
   "id": "854678",
-  "description": "An ancient place, cited: BAtlas 87 M2 Duboviy Mys",
   "bbox": [
     37.12323,
     45.280037,
     37.12323,
     45.280037
   ],
-  "reprPoint": [
-    37.12323,
-    45.280037
-  ],
+  "description": "An ancient place, cited: BAtlas 87 M2 Duboviy Mys",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.12323,
+          45.280037
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

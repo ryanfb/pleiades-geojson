@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "679510",
-  "description": "An ancient place, cited: BAtlas 69 C2 unnamed bridge (Nahr el-Kelb, SW Palaibyblos)",
   "bbox": [
     35.5,
     33.5,
     36.0,
     34.0
   ],
-  "reprPoint": [
-    35.75,
-    33.75
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C2 unnamed bridge (Nahr el-Kelb, SW Palaibyblos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          33.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

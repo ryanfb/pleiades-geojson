@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pikrai Limnai",
   "id": "727204",
-  "description": "The Great Bitter Lake is a salt water lake in the Sinai.",
   "bbox": [
     32.0,
     30.0,
     32.5,
     30.5
   ],
-  "reprPoint": [
-    32.25,
-    30.25
-  ],
+  "description": "The Great Bitter Lake is a salt water lake in the Sinai.",
   "names": [
     "Pikrai Limnai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          30.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 34A (Grindon West)",
   "id": "967060274",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.294472,
     55.028084,
     -2.294351,
     55.028137
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.29441267104,
-    55.0281105847
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.29441267104,
+          55.0281105847
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

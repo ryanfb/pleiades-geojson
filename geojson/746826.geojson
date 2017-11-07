@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tou Batou",
   "id": "746826",
-  "description": "A monastery built by order of Emperor Justinian I",
   "bbox": [
     33.975917,
     28.541115,
     33.977634,
     28.555651
   ],
-  "reprPoint": [
-    33.9767755,
-    28.548383
-  ],
+  "description": "A monastery built by order of Emperor Justinian I",
   "names": [
     "Tou Batou"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9767755,
+          28.548383
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

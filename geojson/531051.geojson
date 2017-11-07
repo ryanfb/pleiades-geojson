@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pelodes Limen",
   "id": "531051",
-  "description": "A lake near Buthrotum that served as a port.",
   "bbox": [
     20.0,
     39.5,
     20.5,
     40.0
   ],
-  "reprPoint": [
-    20.25,
-    39.75
-  ],
+  "description": "A lake near Buthrotum that served as a port.",
   "names": [
     "Pēlṓdēs limḗn"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

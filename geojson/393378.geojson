@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aprusa (river)",
   "id": "393378",
-  "description": "Aprusa fl. (Ausa River)",
   "bbox": [
     15.885196,
     42.7752864,
     15.885196,
     42.7752864
   ],
+  "description": "Aprusa fl. (Ausa River)",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.885196,
-    42.7752864
   ],
   "names": [
     "Aprusa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.885196,
+          42.7752864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

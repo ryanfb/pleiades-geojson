@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karkine",
   "id": "226652",
-  "description": "An ancient settlement, located on the Kalanchak estuary, Ukraine.",
   "bbox": [
     33.290274,
     46.25451,
     33.290274,
     46.25451
   ],
-  "reprPoint": [
-    33.290274,
-    46.25451
-  ],
+  "description": "An ancient settlement, located on the Kalanchak estuary, Ukraine.",
   "names": [
     "Karkine"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.290274,
+          46.25451
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

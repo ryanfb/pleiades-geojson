@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Via Clodia",
   "id": "737328394",
-  "description": "An ancient Roman road.",
   "bbox": [
     11.256929,
     41.891775,
     12.486137,
     43.768755
   ],
-  "reprPoint": [
-    11.9912157463,
-    42.3668863102
+  "description": "An ancient Roman road.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9912157463,
+          42.3668863102
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

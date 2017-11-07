@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Monte Polizzo",
   "id": "462358",
-  "description": "An ancient hilltop settlement of Sicily dated ca. ninth to fourth centuries B.C.",
   "bbox": [
     12.788059,
     37.86363,
     12.789089,
     37.864646
   ],
+  "description": "An ancient hilltop settlement of Sicily dated ca. ninth to fourth centuries B.C.",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    12.788574,
-    37.864138
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.788574,
+          37.864138
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

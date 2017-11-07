@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "639488",
-  "description": "An ancient place, cited: BAtlas 65 B2 unnamed aqueduct (Laodicea ad Lycum)",
   "bbox": [
     29.0,
     37.5,
     29.5,
     38.0
   ],
-  "reprPoint": [
-    29.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 B2 unnamed aqueduct (Laodicea ad Lycum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Filo Musiaco",
   "id": "181211",
-  "description": "An ancient place, cited: BAtlas 18 unlocated Filo Musiaco",
   "bbox": [
     6.339442,
     47.094804,
     6.339442,
     47.094804
   ],
-  "reprPoint": [
-    6.339442,
-    47.094804
-  ],
+  "description": "An ancient place, cited: BAtlas 18 unlocated Filo Musiaco",
   "names": [
     "Filo Musiaco"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.339442,
+          47.094804
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

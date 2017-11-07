@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Erebidai?",
   "id": "344351",
-  "description": "An ancient place, cited: BAtlas 35 C1 Erebidai?",
   "bbox": [
     10.0,
     33.0,
     11.0,
     34.0
   ],
-  "reprPoint": [
-    10.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C1 Erebidai?",
   "names": [
     "Erebidai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

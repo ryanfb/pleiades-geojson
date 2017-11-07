@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aventinus mons",
   "id": "865014139",
-  "description": "One of the seven hills of Rome. Until the reign of the emperor Claudius, the hill lay outside the pomerium of the city.",
   "bbox": [
     12.483333,
     41.883333,
     12.483333,
     41.883333
   ],
+  "description": "One of the seven hills of Rome. Until the reign of the emperor Claudius, the hill lay outside the pomerium of the city.",
   "connectsWith": [
     "423025"
   ],
-  "reprPoint": [
-    12.483333,
-    41.883333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.883333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

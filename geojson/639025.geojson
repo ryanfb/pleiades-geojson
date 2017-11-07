@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Orondeis",
   "id": "639025",
-  "description": "An ancient place, cited: BAtlas 65 G2 Orondeis",
   "bbox": [
     31.5,
     37.5,
     32.0,
     38.0
   ],
-  "reprPoint": [
-    31.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 G2 Orondeis",
   "names": [
     "Orondeis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

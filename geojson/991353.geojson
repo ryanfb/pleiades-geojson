@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sicilia (late Roman province - deprecated)",
   "id": "991353",
-  "description": "The Late Roman Province of Sicily as defined by BAtlas 101 J4 Sicilia. Deprecated in favor of place 981549.",
   "bbox": [
     14.262968,
     37.99808,
     14.262968,
     37.99808
   ],
-  "reprPoint": [
-    14.262968,
-    37.99808
-  ],
+  "description": "The Late Roman Province of Sicily as defined by BAtlas 101 J4 Sicilia. Deprecated in favor of place 981549.",
   "names": [
     "Sicilia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.262968,
+          37.99808
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

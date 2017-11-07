@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Le Terrail",
   "id": "167936",
-  "description": "An ancient place, cited: BAtlas 17 C2 Le Terrail",
   "bbox": [
     4.0,
     45.5,
     4.5,
     46.0
   ],
-  "reprPoint": [
-    4.25,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 C2 Le Terrail",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

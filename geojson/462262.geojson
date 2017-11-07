@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Isbouros/Triocala (river)",
   "id": "462262",
-  "description": "An ancient place, cited: BAtlas 47 C3 Isbouros/Triocala fl.",
   "bbox": [
     13.0,
     37.5,
     13.5,
     38.0
   ],
-  "reprPoint": [
-    13.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 C3 Isbouros/Triocala fl.",
   "names": [
     "Isbouros",
     "Triocala"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

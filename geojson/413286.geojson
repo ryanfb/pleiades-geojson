@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rosia Campus",
   "id": "413286",
-  "description": "A plain in the territory of the Sabines near Reate, reputed to have the most fertile soils in Italy.",
   "bbox": [
     12.5,
     42.0,
     13.0,
     42.5
   ],
-  "reprPoint": [
-    12.75,
-    42.25
-  ],
+  "description": "A plain in the territory of the Sabines near Reate, reputed to have the most fertile soils in Italy.",
   "names": [
     "Rosia Campus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

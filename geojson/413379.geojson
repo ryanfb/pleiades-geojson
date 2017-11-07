@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vicarello",
   "id": "413379",
-  "description": "A large, Roman imperial estate covering ca. 2,000 ha on the shores of Lake Bracciano. The name may derive from Vicus Aurelius, suggesting a connection with Marcus Aurelius.",
   "bbox": [
     12.207393,
     42.158483,
     12.207393,
     42.158483
   ],
+  "description": "A large, Roman imperial estate covering ca. 2,000 ha on the shores of Lake Bracciano. The name may derive from Vicus Aurelius, suggesting a connection with Marcus Aurelius.",
   "connectsWith": [
     "413290"
   ],
-  "reprPoint": [
-    12.207393,
-    42.158483
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.207393,
+          42.158483
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

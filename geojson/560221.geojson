@@ -2,25 +2,36 @@
   "type": "FeatureCollection",
   "title": "Aegaeum Mare",
   "id": "560221",
-  "description": "The Aegean Sea is the largest body of water between Greece and Asia Minor and an embayment of the Mediterranean Sea.",
   "bbox": [
     22.6337672,
     35.2755765,
     28.1112899,
     40.785833
   ],
+  "description": "The Aegean Sea is the largest body of water between Greece and Asia Minor and an embayment of the Mediterranean Sea.",
   "connectsWith": [
     "579888",
     "1043"
-  ],
-  "reprPoint": [
-    25.8829628236,
-    37.4224562877
   ],
   "names": [
     "Aegaeum Mare",
     "Aegean Sea",
     "to Aigaion pelagos",
     "Aegaeum pelagus"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8829628236,
+          37.4224562877
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

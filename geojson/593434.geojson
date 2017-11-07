@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "593434",
-  "description": "An ancient place, cited: BAtlas 60 E2 unnamed quarry (W Minoa)",
   "bbox": [
     25.5,
     35.0,
     26.0,
     35.5
   ],
-  "reprPoint": [
-    25.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 unnamed quarry (W Minoa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

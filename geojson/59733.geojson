@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Barakes Kolpos",
   "id": "59733",
-  "description": "Barakes Kolpos (Gulf of Kachchh)",
   "bbox": [
     69.1058314,
     -20.0,
     80.0,
     22.4629381
   ],
+  "description": "Barakes Kolpos (Gulf of Kachchh)",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    74.5529157,
-    1.23146905
   ],
   "names": [
     "Barakes Kolpos",
     "Kanthikos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5529157,
+          1.23146905
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

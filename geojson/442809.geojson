@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tanager (river)",
   "id": "442809",
-  "description": "An ancient place, cited: BAtlas 45 C4 Tanager fl.",
   "bbox": [
     15.5,
     40.0,
     16.0,
     40.5
   ],
-  "reprPoint": [
-    15.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 C4 Tanager fl.",
   "names": [
     "Tanager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

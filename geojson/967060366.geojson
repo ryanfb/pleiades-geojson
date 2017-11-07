@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 43B (Allolee East)",
   "id": "967060366",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.480535,
     54.995241,
     -2.480535,
     54.995241
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.480535,
-    54.995241
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.480535,
+          54.995241
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

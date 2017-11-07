@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "‘Noviciani’",
   "id": "207313",
-  "description": "An ancient place, cited: BAtlas 21 C5 ‘Noviciani’",
   "bbox": [
     20.0,
     44.0,
     21.0,
     45.0
   ],
-  "reprPoint": [
-    20.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 C5 ‘Noviciani’",
   "names": [
     "Noviciani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

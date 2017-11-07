@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Porto do Sabugueiro",
   "id": "256381",
-  "description": "An ancient place, cited: BAtlas 26 B2 Porto do Sabugueiro",
   "bbox": [
     -8.686604,
     39.129038,
     -8.686604,
     39.129038
   ],
-  "reprPoint": [
-    -8.686604,
-    39.129038
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B2 Porto do Sabugueiro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.686604,
+          39.129038
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "220485",
-  "description": "Viamata → Diocletianopolis → Douvanli",
   "bbox": [
     23.0,
     41.0,
     30.0,
     48.0
   ],
-  "reprPoint": [
-    26.5,
-    44.5
-  ],
+  "description": "Viamata → Diocletianopolis → Douvanli",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

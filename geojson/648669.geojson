@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "K(i)etis",
   "id": "648669",
-  "description": "An ancient place, cited: BAtlas 66 B3 K(i)etis",
   "bbox": [
     32.5,
     36.5,
     33.0,
     37.0
   ],
-  "reprPoint": [
-    32.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 66 B3 K(i)etis",
   "names": [
     "Kietis",
     "Ketis",
     "Cietae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

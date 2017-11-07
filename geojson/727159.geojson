@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mendesios Nomos",
   "id": "727159",
-  "description": "An ancient place, cited: BAtlas 74 F2 Mendesios Nomos",
   "bbox": [
     31.5,
     31.0,
     32.0,
     31.5
   ],
-  "reprPoint": [
-    31.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 F2 Mendesios Nomos",
   "names": [
     "Mendesios Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

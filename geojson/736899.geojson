@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Boubastos",
   "id": "736899",
-  "description": "An ancient place, cited: BAtlas 75 E2 Boubastos",
   "bbox": [
     31.0,
     29.0,
     31.5,
     29.5
   ],
-  "reprPoint": [
-    31.25,
-    29.25
-  ],
+  "description": "An ancient place, cited: BAtlas 75 E2 Boubastos",
   "names": [
     "Boubastos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          29.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

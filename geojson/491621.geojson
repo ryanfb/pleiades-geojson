@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ilovica",
   "id": "491621",
-  "description": "An ancient place, cited: BAtlas 50 C2 Ilovica",
   "bbox": [
     22.830265,
     41.454267,
     22.830265,
     41.454267
   ],
-  "reprPoint": [
-    22.830265,
-    41.454267
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C2 Ilovica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.830265,
+          41.454267
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

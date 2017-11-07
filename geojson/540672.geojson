@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Asopos (river)",
   "id": "540672",
-  "description": "A river of Boeotia and northern Attica that marked the border between the cities of Thebes and Plataea.",
   "bbox": [
     23.572906,
     38.295671,
     23.586234,
     38.304317
   ],
-  "reprPoint": [
-    23.581173,
-    38.3001983333
-  ],
+  "description": "A river of Boeotia and northern Attica that marked the border between the cities of Thebes and Plataea.",
   "names": [
     "Asopos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.581173,
+          38.3001983333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sadd-i Eskandar/Sadd-i Anushirvan/Qizil Alan",
   "id": "942998",
-  "description": "The Great Wall of Gorgan, \"Alexander Wall\", or \"Red Snake\".",
   "bbox": [
     54.181021,
     37.096402,
     55.348705,
     37.400458
   ],
+  "description": "The Great Wall of Gorgan, \"Alexander Wall\", or \"Red Snake\".",
   "connectsWith": [
     "942333"
   ],
-  "reprPoint": [
-    54.8523714286,
-    37.2109688571
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.8523714286,
+          37.2109688571
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

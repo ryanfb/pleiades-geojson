@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Laud (river)",
   "id": "275665",
-  "description": "An ancient place, cited: BAtlas 28 D3 Laud fl.",
   "bbox": [
     -5.5,
     35.0,
     -5.0,
     35.5
   ],
-  "reprPoint": [
-    -5.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 D3 Laud fl.",
   "names": [
     "Laud"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

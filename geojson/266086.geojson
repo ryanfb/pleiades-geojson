@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Urcitanus Sinus",
   "id": "266086",
-  "description": "An ancient place, cited: BAtlas 27 C5 Urcitanus Sinus",
   "bbox": [
     -3.0,
     36.0,
     -2.0,
     37.0
   ],
-  "reprPoint": [
-    -2.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 C5 Urcitanus Sinus",
   "names": [
     "Urcitanus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Enoria Hibeos",
   "id": "776171",
-  "description": "An ancient place, cited: BAtlas 79 C3 Enoria Hibeos",
   "bbox": [
     30.0,
     25.0,
     30.5,
     25.5
   ],
-  "reprPoint": [
-    30.25,
-    25.25
-  ],
+  "description": "An ancient place, cited: BAtlas 79 C3 Enoria Hibeos",
   "names": [
     "Enoria Hibeos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          25.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

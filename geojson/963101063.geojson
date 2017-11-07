@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Fort at Great Wall of Gorgan",
   "id": "963101063",
-  "description": "One of the integral forts spaced along the wall",
   "bbox": [
     54.492513,
     37.102098,
     54.492513,
     37.102098
   ],
-  "reprPoint": [
-    54.492513,
-    37.102098
-  ],
+  "description": "One of the integral forts spaced along the wall",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.492513,
+          37.102098
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Henchir-el-Ksiba",
   "id": "324733",
-  "description": "An ancient place, cited: BAtlas 33 D1 Henchir-el-Ksiba",
   "bbox": [
     9.0,
     35.5,
     9.5,
     36.0
   ],
-  "reprPoint": [
-    9.25,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 D1 Henchir-el-Ksiba",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

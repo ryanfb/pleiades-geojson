@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Velini L.",
   "id": "413372",
-  "description": "A lake formed by three rivers (Avens, Himella and Tolenus) in the territory of the Sabines.",
   "bbox": [
     12.5,
     42.0,
     13.0,
     42.5
   ],
-  "reprPoint": [
-    12.75,
-    42.25
-  ],
+  "description": "A lake formed by three rivers (Avens, Himella and Tolenus) in the territory of the Sabines.",
   "names": [
     "Velini L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Haimimontos",
   "id": "1001890",
-  "description": "An ancient place, cited: BAtlas 102 E3 no. 4 (Haimimontos)",
   "bbox": [
     25.0,
     40.0,
     30.0,
     45.0
   ],
-  "reprPoint": [
-    27.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 E3 no. 4 (Haimimontos)",
   "names": [
     "Haimimontos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

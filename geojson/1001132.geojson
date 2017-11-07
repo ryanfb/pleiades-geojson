@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thrakike",
   "id": "1001132",
-  "description": "An ancient place, cited: BAtlas 102 D3 Thrakike",
   "bbox": [
     20.0,
     40.0,
     25.0,
     45.0
   ],
-  "reprPoint": [
-    22.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 D3 Thrakike",
   "names": [
     "Thrakike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

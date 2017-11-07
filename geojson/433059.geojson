@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Puteolanus Sinus/Crater",
   "id": "433059",
-  "description": "Also called the Bay of Naples, the Puteolanus Sinus is a gulf located on the southwestern coast of Italy. It opens west to the Mediterranean Sea and is bordered on the east by Mt. Vesuvius and the south by the Sorrentine Peninsula.",
   "bbox": [
     14.016667,
     40.624604,
     14.4708346,
     40.8232067
   ],
+  "description": "Also called the Bay of Naples, the Puteolanus Sinus is a gulf located on the southwestern coast of Italy. It opens west to the Mediterranean Sea and is bordered on the east by Mt. Vesuvius and the south by the Sorrentine Peninsula.",
   "connectsWith": [
     "433139",
     "1043",
     "433189"
-  ],
-  "reprPoint": [
-    14.3498821,
-    40.73294072
   ],
   "names": [
     "Puteolanus Sinus",
     "Crater"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3498821,
+          40.73294072
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

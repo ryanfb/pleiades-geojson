@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "435639",
-  "description": "An ancient place, cited: BAtlas 44 D3 unnamed canal (in Pomptinae Paludes)",
   "bbox": [
     13.0,
     41.0,
     13.5,
     41.5
   ],
+  "description": "An ancient place, cited: BAtlas 44 D3 unnamed canal (in Pomptinae Paludes)",
   "connectsWith": [
     "433033"
   ],
-  "reprPoint": [
-    13.25,
-    41.25
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

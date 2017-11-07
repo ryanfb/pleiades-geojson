@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ponte Latrone",
   "id": "434134",
-  "description": "A Roman bridge on the Volturno river located near Capriati.",
   "bbox": [
     14.124737,
     41.508821,
     14.124737,
     41.508821
   ],
+  "description": "A Roman bridge on the Volturno river located near Capriati.",
   "connectsWith": [
     "433211"
   ],
-  "reprPoint": [
-    14.124737,
-    41.508821
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.124737,
+          41.508821
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

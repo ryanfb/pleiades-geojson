@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Briantike",
   "id": "501382",
-  "description": "An ancient place, cited: BAtlas 51 E3 Briantike",
   "bbox": [
     25.0,
     40.5,
     25.5,
     41.0
   ],
-  "reprPoint": [
-    25.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 E3 Briantike",
   "names": [
     "Briantike",
     "Briantae",
@@ -20,6 +16,19 @@
     "Priantae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

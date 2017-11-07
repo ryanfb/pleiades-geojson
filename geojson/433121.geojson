@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sinonia (island)",
   "id": "433121",
-  "description": "A small island that is part of the Pontine Islands.",
   "bbox": [
     13.05,
     40.966667,
     13.05,
     40.966667
   ],
+  "description": "A small island that is part of the Pontine Islands.",
   "connectsWith": [
     "433042"
-  ],
-  "reprPoint": [
-    13.05,
-    40.966667
   ],
   "names": [
     "Sinonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.05,
+          40.966667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

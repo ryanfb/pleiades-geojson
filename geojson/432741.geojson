@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Calor (river)",
   "id": "432741",
-  "description": "A river of Samnium and a major tributary of the Volturno river.",
   "bbox": [
     14.1884169,
     41.054975,
     14.944686,
     41.4354002
   ],
+  "description": "A river of Samnium and a major tributary of the Volturno river.",
   "connectsWith": [
     "433211"
-  ],
-  "reprPoint": [
-    14.5738097667,
-    41.2909220667
   ],
   "names": [
     "Calor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5738097667,
+          41.2909220667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

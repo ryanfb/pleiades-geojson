@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Friniates",
   "id": "403210",
-  "description": "The Friniates were an ancient tribe of Liguria.",
   "bbox": [
     10.0,
     44.0,
     10.5,
     44.5
   ],
-  "reprPoint": [
-    10.25,
-    44.25
-  ],
+  "description": "The Friniates were an ancient tribe of Liguria.",
   "names": [
     "Friniates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

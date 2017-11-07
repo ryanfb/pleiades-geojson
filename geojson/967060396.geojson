@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 39A (Peel Crag)",
   "id": "967060396",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.38262,
     55.002641,
     -2.382537,
     55.00268
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.3825785,
-    55.0026605
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3825785,
+          55.0026605
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

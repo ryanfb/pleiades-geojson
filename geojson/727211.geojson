@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ptheneotes Nomos",
   "id": "727211",
-  "description": "An ancient place, cited: BAtlas 74 D2 Ptheneotes Nomos",
   "bbox": [
     30.5,
     31.0,
     31.0,
     31.5
   ],
-  "reprPoint": [
-    30.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 D2 Ptheneotes Nomos",
   "names": [
     "Ptheneotes Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

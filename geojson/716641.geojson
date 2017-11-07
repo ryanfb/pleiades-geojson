@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tracheia Akron",
   "id": "716641",
-  "description": "An ancient place, cited: None",
   "bbox": [
     28.0,
     31.0,
     29.0,
     32.0
   ],
-  "reprPoint": [
-    28.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: None",
   "names": [
     "Tracheia Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

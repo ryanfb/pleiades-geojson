@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Heraklion",
   "id": "589802",
-  "description": "Heraklion was the harbor city of ancient Knossos, and was later re-founded by the Arab conquerors.",
   "bbox": [
     25.133333,
     35.333333,
     25.133333,
     35.333333
   ],
+  "description": "Heraklion was the harbor city of ancient Knossos, and was later re-founded by the Arab conquerors.",
   "connectsWith": [
     "589748"
-  ],
-  "reprPoint": [
-    25.133333,
-    35.333333
   ],
   "names": [
     "Herakleion",
@@ -22,6 +18,19 @@
     "Candia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.133333,
+          35.333333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

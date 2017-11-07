@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "218953",
-  "description": "An ancient place, cited: BAtlas 22 C5 unnamed earthworks (Brazda lui Novac de Sud)",
   "bbox": [
     25.0,
     43.0,
     26.0,
     44.0
   ],
-  "reprPoint": [
-    25.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 C5 unnamed earthworks (Brazda lui Novac de Sud)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Thateis",
   "id": "825404",
-  "description": "An ancient place, cited: BAtlas 84 D2 Thateis",
   "bbox": [
     38.0,
     46.0,
     39.0,
     47.0
   ],
-  "reprPoint": [
-    38.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 D2 Thateis",
   "names": [
     "Thateis",
     "Thatae",
     "Toreatai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

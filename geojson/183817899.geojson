@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Spring at Ain-el-Hamera",
   "id": "183817899",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     10.226845,
     36.14484,
     10.226845,
     36.14484
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "314864"
   ],
-  "reprPoint": [
-    10.226845,
-    36.14484
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.226845,
+          36.14484
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

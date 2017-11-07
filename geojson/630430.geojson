@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed road",
   "id": "630430",
-  "description": "An unnamed road leading eastward from Melitene to Dascusa to Zimara and beyond.",
   "bbox": [
     38.314627,
     38.34767,
     38.751085,
     39.419126
   ],
-  "reprPoint": [
-    38.4823771667,
-    38.9052033333
-  ],
+  "description": "An unnamed road leading eastward from Melitene to Dascusa to Zimara and beyond.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.4823771667,
+          38.9052033333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

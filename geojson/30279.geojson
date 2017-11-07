@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Zetis",
   "id": "30279",
-  "description": "Zetis was an ancient city of Carmania, although its location can no longer be determined.",
   "bbox": [
     55.0,
     25.0,
     60.0,
     30.0
   ],
+  "description": "Zetis was an ancient city of Carmania, although its location can no longer be determined.",
   "connectsWith": [
     "29517"
-  ],
-  "reprPoint": [
-    57.5,
-    27.5
   ],
   "names": [
     "Zetis"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

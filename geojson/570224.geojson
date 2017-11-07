@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Emborio",
   "id": "570224",
-  "description": "An ancient place, cited: BAtlas 58 G4 Emborio",
   "bbox": [
     24.393796,
     36.709481,
     24.393796,
     36.709481
   ],
+  "description": "An ancient place, cited: BAtlas 58 G4 Emborio",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.393796,
-    36.709481
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.393796,
+          36.709481
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

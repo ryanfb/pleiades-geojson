@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Londinium/Augusta",
   "id": "79574",
-  "description": "Roman London was established ca. A.D. 43.",
   "bbox": [
     -0.088949,
     51.513335,
     -0.088949,
     51.513335
   ],
+  "description": "Roman London was established ca. A.D. 43.",
   "connectsWith": [
     "79705",
     "20419",
@@ -17,10 +17,6 @@
     "491855883",
     "83055"
   ],
-  "reprPoint": [
-    -0.088949,
-    51.513335
-  ],
   "names": [
     "Londinium",
     "Augusta",
@@ -28,6 +24,19 @@
     "Londra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.088949,
+          51.513335
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

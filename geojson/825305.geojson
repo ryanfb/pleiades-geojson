@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Krasnoarmeyskaya",
   "id": "825305",
-  "description": "An ancient place, cited: BAtlas 84 D3 Krasnoarmeyskaya",
   "bbox": [
     38.255054,
     45.416657,
     38.255054,
     45.416657
   ],
-  "reprPoint": [
-    38.255054,
-    45.416657
-  ],
+  "description": "An ancient place, cited: BAtlas 84 D3 Krasnoarmeyskaya",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.255054,
+          45.416657
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

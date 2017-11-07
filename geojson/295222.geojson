@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Aves?/Sauos? (river)",
   "id": "295222",
-  "description": "An ancient place, cited: BAtlas 30 F3 Aves?/Sauos? fl.",
   "bbox": [
     3.0,
     36.5,
     3.5,
     37.0
   ],
-  "reprPoint": [
-    3.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 30 F3 Aves?/Sauos? fl.",
   "names": [
     "Aves",
     "Sauos",
     "Aucus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

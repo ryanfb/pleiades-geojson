@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Edenates",
   "id": "167752",
-  "description": "An Alpine tribe included on the Tropaeum Alpium inscription. ",
   "bbox": [
     6.0,
     44.0,
     6.5,
     44.5
   ],
-  "reprPoint": [
-    6.25,
-    44.25
-  ],
+  "description": "An Alpine tribe included on the Tropaeum Alpium inscription. ",
   "names": [
     "Edenates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

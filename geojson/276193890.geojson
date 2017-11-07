@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Maesbury Castle",
   "id": "276193890",
-  "description": "Maesbury Castle is a small ring hillfort in the Mendip Hills in Somerset, England.",
   "bbox": [
     -2.5595222,
     51.2225302,
     -2.5595222,
     51.2225302
   ],
-  "reprPoint": [
-    -2.5595222,
-    51.2225302
-  ],
+  "description": "Maesbury Castle is a small ring hillfort in the Mendip Hills in Somerset, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5595222,
+          51.2225302
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

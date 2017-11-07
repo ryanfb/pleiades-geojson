@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ravenna Aqueduct",
   "id": "394116",
-  "description": "Supplied Ravenna with water from the Bedesis fl.",
   "bbox": [
     12.06,
     44.11,
     12.06,
     44.11
   ],
+  "description": "Supplied Ravenna with water from the Bedesis fl.",
   "connectsWith": [
     "393480",
     "393389"
   ],
-  "reprPoint": [
-    12.06,
-    44.11
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.06,
+          44.11
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

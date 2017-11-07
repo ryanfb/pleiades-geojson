@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Abbotsbury Castle",
   "id": "708926627",
-  "description": "Abbotsbury Castle is an Iron Age hill fort located on Wears Hill in Dorset, England.",
   "bbox": [
     -2.6344533,
     50.6771206,
     -2.6344533,
     50.6771206
   ],
+  "description": "Abbotsbury Castle is an Iron Age hill fort located on Wears Hill in Dorset, England.",
   "connectsWith": [
     "79438"
-  ],
-  "reprPoint": [
-    -2.6344533,
-    50.6771206
   ],
   "names": [
     "Abbotsbury Castle"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6344533,
+          50.6771206
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

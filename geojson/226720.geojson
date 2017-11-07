@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Peukes/Hieron Stoma",
   "id": "226720",
-  "description": "The southernmost mouth of the Danube river, described by Strabo as \"hieron stoma\" or the \"holy mouth\". ",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.095556
   ],
-  "reprPoint": [
-    15.0772312333,
-    47.1149830333
-  ],
+  "description": "The southernmost mouth of the Danube river, described by Strabo as \"hieron stoma\" or the \"holy mouth\". ",
   "names": [
     "Peukes",
     "Hieron Stoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0772312333,
+          47.1149830333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

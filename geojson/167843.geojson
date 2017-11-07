@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mont Salève",
   "id": "167843",
-  "description": "An ancient place, cited: BAtlas 17 G1 Mont Salève",
   "bbox": [
     6.166541,
     46.116245,
     6.166541,
     46.116245
   ],
-  "reprPoint": [
-    6.166541,
-    46.116245
-  ],
+  "description": "An ancient place, cited: BAtlas 17 G1 Mont Salève",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.166541,
+          46.116245
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Laos (river)",
   "id": "452362",
-  "description": "An ancient place, cited: BAtlas 46 C2 Laos fl.",
   "bbox": [
     15.5,
     39.5,
     16.0,
     40.0
   ],
-  "reprPoint": [
-    15.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 46 C2 Laos fl.",
   "names": [
     "Laos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

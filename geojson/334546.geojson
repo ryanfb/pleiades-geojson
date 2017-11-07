@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Fossatum Africae",
   "id": "334546",
-  "description": "A Roman imperial defensive system of northern Africa extending over 750 km.",
   "bbox": [
     5.0,
     34.0,
     8.0,
     36.0
   ],
-  "reprPoint": [
-    6.5,
-    35.0
-  ],
+  "description": "A Roman imperial defensive system of northern Africa extending over 750 km.",
   "names": [
     "Fossatum Africae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          35.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

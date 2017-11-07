@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ptolemaios/Traianos Potamos",
   "id": "727212",
-  "description": "An ancient place, cited: BAtlas 74 E4 Ptolemaios/Traianos Potamos",
   "bbox": [
     31.0,
     30.0,
     31.5,
     30.5
   ],
-  "reprPoint": [
-    31.25,
-    30.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 E4 Ptolemaios/Traianos Potamos",
   "names": [
     "Ptolemaios",
     "Traianos Potamos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

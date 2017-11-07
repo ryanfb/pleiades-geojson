@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyxous (river)",
   "id": "452412",
-  "description": "An ancient river of southern Italy, the modern Bussento.",
   "bbox": [
     15.553937,
     40.1965275,
     15.553937,
     40.1965275
   ],
-  "reprPoint": [
-    15.553937,
-    40.1965275
-  ],
+  "description": "An ancient river of southern Italy, the modern Bussento.",
   "names": [
     "Pyxous"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.553937,
+          40.1965275
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

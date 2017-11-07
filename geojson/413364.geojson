@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Urbs Salvia",
   "id": "413364",
-  "description": "An ancient city of Regio V (Picenum) where a Roman colony was founded in the second century B.C.",
   "bbox": [
     13.373905,
     43.192341,
     13.3868508,
     43.201027
   ],
+  "description": "An ancient city of Regio V (Picenum) where a Roman colony was founded in the second century B.C.",
   "connectsWith": [
     "413253"
-  ],
-  "reprPoint": [
-    13.3818187333,
-    43.1970139333
   ],
   "names": [
     "Urbs Salvia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3818187333,
+          43.1970139333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

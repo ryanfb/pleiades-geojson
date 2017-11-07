@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Smyrnophoros Chora",
   "id": "39427",
-  "description": "An ancient place, cited: BAtlas 4 B3 Smyrnophoros Chora",
   "bbox": [
     40.0,
     10.0,
     45.0,
     15.0
   ],
-  "reprPoint": [
-    42.5,
-    12.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B3 Smyrnophoros Chora",
   "names": [
     "Smyrnophoros Chora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

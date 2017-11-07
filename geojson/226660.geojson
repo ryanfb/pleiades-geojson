@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kherson",
   "id": "226660",
-  "description": "An ancient place, cited: BAtlas 23 F2 Kherson",
   "bbox": [
     32.583335,
     46.633331,
     32.583335,
     46.633331
   ],
-  "reprPoint": [
-    32.583335,
-    46.633331
-  ],
+  "description": "An ancient place, cited: BAtlas 23 F2 Kherson",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.583335,
+          46.633331
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

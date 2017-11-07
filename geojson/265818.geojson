@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Baliaricum Mare",
   "id": "265818",
-  "description": "The Balearic Sea or Iberian Sea: coastal waters to the south and east of the Iberian Peninsula.",
   "bbox": [
     1.5,
     40.0,
     1.5,
     40.0
   ],
+  "description": "The Balearic Sea or Iberian Sea: coastal waters to the south and east of the Iberian Peninsula.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    1.5,
-    40.0
   ],
   "names": [
     "Baliaricum Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          40.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

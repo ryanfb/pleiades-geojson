@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Argolis",
   "id": "570104",
-  "description": "Argolis (also known as 'the Argolid') occupied the eastern part of the Peloponnese; comprising primarily the Argolid peninsula and the coastal region lying to the east of Arcadia, and north of Laconia.",
   "bbox": [
     22.705327,
     37.496395,
     23.362444,
     37.82965
   ],
+  "description": "Argolis (also known as 'the Argolid') occupied the eastern part of the Peloponnese; comprising primarily the Argolid peninsula and the coastal region lying to the east of Arcadia, and north of Laconia.",
   "connectsWith": [
     "570103",
     "570577",
     "570654"
-  ],
-  "reprPoint": [
-    22.9205927218,
-    37.6566371145
   ],
   "names": [
     "Argolis",
     "Argea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9205927218,
+          37.6566371145
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

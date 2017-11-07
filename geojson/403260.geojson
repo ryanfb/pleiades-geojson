@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Portus Herculis",
   "id": "403260",
-  "description": "An ancient place, cited: BAtlas 41 E5 Portus Herculis",
   "bbox": [
     11.203561,
     42.394692,
     11.204401,
     42.39508
   ],
+  "description": "An ancient place, cited: BAtlas 41 E5 Portus Herculis",
   "connectsWith": [
     "403179"
-  ],
-  "reprPoint": [
-    11.203981,
-    42.394886
   ],
   "names": [
     "Portus Herculis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.203981,
+          42.394886
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

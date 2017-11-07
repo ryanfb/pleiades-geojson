@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Temple of Apollo at Corinth",
   "id": "570500582",
-  "description": "The second temple of Apollo at Corinth whose reconstructed remains are visible on the site today. The structure dates ca. 540 B.C.",
   "bbox": [
     22.879189,
     37.906033,
     22.879189,
     37.906033
   ],
+  "description": "The second temple of Apollo at Corinth whose reconstructed remains are visible on the site today. The structure dates ca. 540 B.C.",
   "connectsWith": [
     "570182"
   ],
-  "reprPoint": [
-    22.879189,
-    37.906033
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.879189,
+          37.906033
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

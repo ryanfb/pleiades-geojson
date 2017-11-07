@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "267280",
-  "description": "An ancient place, cited: BAtlas 27 B4 unnamed bridge (NW Calecula)",
   "bbox": [
     -4.0,
     37.0,
     -3.0,
     38.0
   ],
-  "reprPoint": [
-    -3.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B4 unnamed bridge (NW Calecula)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

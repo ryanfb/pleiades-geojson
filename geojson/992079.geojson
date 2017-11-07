@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Asiana",
   "id": "992079",
-  "description": "An ancient place, cited: BAtlas 101 M4 Asiana",
   "bbox": [
     25.0,
     35.0,
     30.0,
     40.0
   ],
-  "reprPoint": [
-    27.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 M4 Asiana",
   "names": [
     "Asiana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

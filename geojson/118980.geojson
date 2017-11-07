@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Stuttgart",
   "id": "118980",
-  "description": "An ancient place, cited: BAtlas 12 C4 Stuttgart",
   "bbox": [
     9.210833,
     48.813333,
     9.210833,
     48.813333
   ],
-  "reprPoint": [
-    9.210833,
-    48.813333
-  ],
+  "description": "An ancient place, cited: BAtlas 12 C4 Stuttgart",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.210833,
+          48.813333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

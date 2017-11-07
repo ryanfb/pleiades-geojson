@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Karambis",
   "id": "844971",
-  "description": "A coastal promontory located northwest of Doğanyurt, Turkey. Modern Kerembe burnu.",
   "bbox": [
     33.3447,
     42.01957,
     33.3447,
     42.01957
   ],
-  "reprPoint": [
-    33.3447,
-    42.01957
-  ],
+  "description": "A coastal promontory located northwest of Doğanyurt, Turkey. Modern Kerembe burnu.",
   "names": [
     "Karambis Pr.",
     "Kerembe burnu"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3447,
+          42.01957
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

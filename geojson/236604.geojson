@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Playa",
   "id": "236604",
-  "description": "An ancient place, cited: BAtlas 24 C2 Playa",
   "bbox": [
     -8.823552,
     42.145302,
     -8.823552,
     42.145302
   ],
-  "reprPoint": [
-    -8.823552,
-    42.145302
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C2 Playa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.823552,
+          42.145302
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

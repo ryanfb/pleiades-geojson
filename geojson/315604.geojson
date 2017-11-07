@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "315604",
-  "description": "unnamed aqueduct group (near Cilibia)",
   "bbox": [
     10.0,
     36.5,
     10.5,
     37.0
   ],
-  "reprPoint": [
-    10.25,
-    36.75
-  ],
+  "description": "unnamed aqueduct group (near Cilibia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

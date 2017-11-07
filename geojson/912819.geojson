@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Banu Lakhm",
   "id": "912819",
-  "description": "An ancient place, cited: BAtlas 93 A2 Banu Lakhm",
   "bbox": [
     44.0,
     31.0,
     45.0,
     32.0
   ],
-  "reprPoint": [
-    44.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 93 A2 Banu Lakhm",
   "names": [
     "Banu Lakhm"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Brixia",
   "id": "383603",
-  "description": "An ancient settlement. Modern Brescia in Italy.",
   "bbox": [
     10.223135,
     45.539722,
     10.228056,
     45.5401195
   ],
-  "reprPoint": [
-    10.225738925,
-    45.5399014
-  ],
+  "description": "An ancient settlement. Modern Brescia in Italy.",
   "names": [
     "Brixia",
     "Brescia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.225738925,
+          45.5399014
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

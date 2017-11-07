@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "80035",
-  "description": "An ancient place, cited: BAtlas 8 G1 unnamed aqueduct (Col. Lindum)",
   "bbox": [
     -1.0,
     53.0,
     0.0,
     54.0
   ],
-  "reprPoint": [
-    -0.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 G1 unnamed aqueduct (Col. Lindum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

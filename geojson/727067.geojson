@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aegyptium Mare",
   "id": "727067",
-  "description": "An ancient place, cited: BAtlas 74 D1 Aegyptium Mare",
   "bbox": [
     32.68554,
     31.15802,
     32.68554,
     31.15802
   ],
-  "reprPoint": [
-    32.68554,
-    31.15802
-  ],
+  "description": "An ancient place, cited: BAtlas 74 D1 Aegyptium Mare",
   "names": [
     "Aegyptium Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.68554,
+          31.15802
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

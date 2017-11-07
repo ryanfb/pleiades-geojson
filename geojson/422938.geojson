@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Grotta di Paris",
   "id": "422938",
-  "description": "An ancient place, cited: BAtlas 43 D2 Grotta di Paris",
   "bbox": [
     12.773526,
     41.923733,
     12.773526,
     41.923733
   ],
-  "reprPoint": [
-    12.773526,
-    41.923733
-  ],
+  "description": "An ancient place, cited: BAtlas 43 D2 Grotta di Paris",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.773526,
+          41.923733
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thasie",
   "id": "863905",
-  "description": "An ancient place, cited: BAtlas 88 C3 Thasie",
   "bbox": [
     44.0,
     41.0,
     45.0,
     42.0
   ],
-  "reprPoint": [
-    44.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 C3 Thasie",
   "names": [
     "Thasie"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

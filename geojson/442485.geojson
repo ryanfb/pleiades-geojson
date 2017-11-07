@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Aufidus (river)",
   "id": "442485",
-  "description": "The Aufidus is the longest of the rivers in Apulia.",
   "bbox": [
     15.3267276,
     40.877631,
     15.3267276,
     40.877631
   ],
+  "description": "The Aufidus is the longest of the rivers in Apulia.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.3267276,
-    40.877631
   ],
   "names": [
     "Aufidus",
     "Canna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3267276,
+          40.877631
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

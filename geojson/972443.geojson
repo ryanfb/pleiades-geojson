@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "972443",
-  "description": "An ancient place, cited: BAtlas 99 B2 unnamed bridge (E Tarmita)",
   "bbox": [
     67.0,
     37.0,
     68.0,
     38.0
   ],
-  "reprPoint": [
-    67.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 99 B2 unnamed bridge (E Tarmita)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

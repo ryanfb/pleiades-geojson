@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Janussan",
   "id": "932463",
-  "description": "An ancient place, cited: BAtlas 95 C3 Janussan",
   "bbox": [
     50.495369,
     26.225662,
     50.495369,
     26.225662
   ],
-  "reprPoint": [
-    50.495369,
-    26.225662
-  ],
+  "description": "An ancient place, cited: BAtlas 95 C3 Janussan",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.495369,
+          26.225662
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

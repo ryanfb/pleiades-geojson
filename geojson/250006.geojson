@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250006",
-  "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d’Aulus-les-Bains)",
   "bbox": [
     1.0,
     42.0,
     2.0,
     43.0
   ],
-  "reprPoint": [
-    1.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 G3 no. 100 (Castelminier, Cm. d’Aulus-les-Bains)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

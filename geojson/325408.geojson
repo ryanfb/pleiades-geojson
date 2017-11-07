@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "325408",
-  "description": "unnamed aqueduct group (Ksar-el-Guellal)",
   "bbox": [
     8.5,
     35.0,
     9.0,
     35.5
   ],
-  "reprPoint": [
-    8.75,
-    35.25
-  ],
+  "description": "unnamed aqueduct group (Ksar-el-Guellal)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

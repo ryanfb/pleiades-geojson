@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Pola",
   "id": "197448",
-  "description": "A port city on the Adriatic Sea (modern Pula in Croatia).",
   "bbox": [
     13.841124,
     44.868333,
     13.8498543,
     44.8737007
   ],
+  "description": "A port city on the Adriatic Sea (modern Pula in Croatia).",
   "connectsWith": [
     "1004",
     "855236251"
-  ],
-  "reprPoint": [
-    13.8460667667,
-    44.8705335667
   ],
   "names": [
     "Pola",
@@ -24,6 +20,19 @@
     "Pula"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8460667667,
+          44.8705335667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

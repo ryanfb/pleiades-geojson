@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Seyhrig",
   "id": "786108",
-  "description": "An ancient place, cited: BAtlas 80 E4 Seyhrig",
   "bbox": [
     34.3163103,
     24.7631798,
     34.3163103,
     24.7631798
   ],
-  "reprPoint": [
-    34.3163103,
-    24.7631798
-  ],
+  "description": "An ancient place, cited: BAtlas 80 E4 Seyhrig",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3163103,
+          24.7631798
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

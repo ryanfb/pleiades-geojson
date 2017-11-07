@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Clusiolum",
   "id": "416792",
-  "description": "Clusiolum is an unlocated site in Umbria. Pliny the Elder discusses it in connection with the Felginates who at one point held Clusiolum. Its location is described as being above Interamna.",
   "bbox": [
     12.5,
     43.5,
     13.0,
     44.0
   ],
+  "description": "Clusiolum is an unlocated site in Umbria. Pliny the Elder discusses it in connection with the Felginates who at one point held Clusiolum. Its location is described as being above Interamna.",
   "connectsWith": [
     "413360"
-  ],
-  "reprPoint": [
-    12.75,
-    43.75
   ],
   "names": [
     "Clusiolum"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

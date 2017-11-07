@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426585",
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 9 (villas (2) and tomb near Pons Mulvius)",
   "bbox": [
     12.25,
     41.75,
     12.5,
     42.0
   ],
-  "reprPoint": [
-    12.375,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 B2 no. 9 (villas (2) and tomb near Pons Mulvius)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

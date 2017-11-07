@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sokossioi",
   "id": "275723",
-  "description": "An ancient place, cited: BAtlas 28 D3 Sokossioi",
   "bbox": [
     -5.5,
     35.0,
     -5.0,
     35.5
   ],
-  "reprPoint": [
-    -5.25,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 D3 Sokossioi",
   "names": [
     "Sokossioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

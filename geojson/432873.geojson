@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Herculaneum",
   "id": "432873",
-  "description": "An ancient Roman town of Campania destroyed by the eruption of Mt. Vesuvius in A.D. 79. Named as a UNESCO World Heritage Site in 1997.",
   "bbox": [
     14.348058,
     40.805843,
     14.348058,
     40.805843
   ],
-  "reprPoint": [
-    14.348058,
-    40.805843
-  ],
+  "description": "An ancient Roman town of Campania destroyed by the eruption of Mt. Vesuvius in A.D. 79. Named as a UNESCO World Heritage Site in 1997.",
   "names": [
     "Herculaneum",
     "Ercolano",
@@ -20,6 +16,19 @@
     "Herakleion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.348058,
+          40.805843
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

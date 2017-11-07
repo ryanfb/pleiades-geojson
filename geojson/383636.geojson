@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Duria (river)",
   "id": "383636",
-  "description": "One of two tributaries of the Po river named Duria, the modern Dora Riparia.",
   "bbox": [
     6.833184,
     45.0331363,
     6.833184,
     45.0331363
   ],
+  "description": "One of two tributaries of the Po river named Duria, the modern Dora Riparia.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    6.833184,
-    45.0331363
   ],
   "names": [
     "Duria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.833184,
+          45.0331363
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

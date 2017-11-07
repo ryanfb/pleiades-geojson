@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pyramid of Amenemhat III",
   "id": "389338583",
-  "description": "Pyramid and tomb of Pharaoh Amenemhat III of the Twelfth Dynasty.",
   "bbox": [
     30.8984609,
     29.2738549,
     30.8984609,
     29.2738549
   ],
-  "reprPoint": [
-    30.8984609,
-    29.2738549
-  ],
+  "description": "Pyramid and tomb of Pharaoh Amenemhat III of the Twelfth Dynasty.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8984609,
+          29.2738549
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

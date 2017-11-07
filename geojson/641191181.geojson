@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "ʿĂfulȧ",
   "id": "641191181",
-  "description": "A place from the TAVO Index",
   "bbox": [
     35.0,
     32.0,
     35.5,
     32.5
   ],
-  "reprPoint": [
-    35.25,
-    32.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "ʿĂfulȧ",
     "al-ʿAffūla",
@@ -26,6 +22,19 @@
     "al-Fūla"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          32.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Delphi",
   "id": "540726",
-  "description": "The ancient pan-Hellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo.",
   "bbox": [
     22.501169,
     38.482289,
     22.501169,
     38.482289
   ],
-  "reprPoint": [
-    22.501169,
-    38.482289
-  ],
+  "description": "The ancient pan-Hellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo.",
   "names": [
     "Delphi",
     "Delphoi",
@@ -21,6 +17,19 @@
     "Delfi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.501169,
+          38.482289
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

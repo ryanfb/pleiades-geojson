@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Elaia",
   "id": "523978",
-  "description": "An ancient place, cited: BAtlas 53 A2 Elaia",
   "bbox": [
     28.75,
     41.0,
     29.0,
     41.25
   ],
-  "reprPoint": [
-    28.875,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 A2 Elaia",
   "names": [
     "Elaia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

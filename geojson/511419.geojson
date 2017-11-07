@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Skylake",
   "id": "511419",
-  "description": "An ancient place, cited: BAtlas 52 C4 Skylake",
   "bbox": [
     28.388808,
     40.387037,
     28.388808,
     40.387037
   ],
-  "reprPoint": [
-    28.388808,
-    40.387037
-  ],
+  "description": "An ancient place, cited: BAtlas 52 C4 Skylake",
   "names": [
     "Skylake"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.388808,
+          40.387037
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

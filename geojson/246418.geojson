@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(H)Iberus (river)",
   "id": "246418",
-  "description": "The Ebro river in Spain.",
   "bbox": [
     -2.536455,
     42.497317,
     -2.536455,
     42.497317
   ],
-  "reprPoint": [
-    -2.536455,
-    42.497317
-  ],
+  "description": "The Ebro river in Spain.",
   "names": [
     "Hiberus",
     "Iberus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.536455,
+          42.497317
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

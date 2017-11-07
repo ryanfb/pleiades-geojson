@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Amardos (river)",
   "id": "884115",
-  "description": "The Sefīd-Rūd river flows into the Caspian Sea at Rasht.",
   "bbox": [
     47.0,
     36.0,
     48.0,
     37.0
   ],
+  "description": "The Sefīd-Rūd river flows into the Caspian Sea at Rasht.",
   "connectsWith": [
     "884130"
-  ],
-  "reprPoint": [
-    47.5,
-    36.5
   ],
   "names": [
     "Amardos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

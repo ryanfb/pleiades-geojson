@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Perthes",
   "id": "109246",
-  "description": "An ancient place, cited: BAtlas 11 E4 Perthes",
   "bbox": [
     4.822514,
     48.656774,
     4.822514,
     48.656774
   ],
-  "reprPoint": [
-    4.822514,
-    48.656774
-  ],
+  "description": "An ancient place, cited: BAtlas 11 E4 Perthes",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.822514,
+          48.656774
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

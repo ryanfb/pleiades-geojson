@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250010",
-  "description": "An ancient place, cited: BAtlas 25 H3 no. 104 (Pla de l’ Horta (Sarrià de Ter))",
   "bbox": [
     2.0,
     42.0,
     3.0,
     43.0
   ],
-  "reprPoint": [
-    2.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 H3 no. 104 (Pla de l’ Horta (Sarrià de Ter))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

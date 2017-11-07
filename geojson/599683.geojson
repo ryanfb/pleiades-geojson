@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalydnioi (islands)",
   "id": "599683",
-  "description": "An ancient place, cited: BAtlas 61 D3 Kalydnioi Inss.",
   "bbox": [
     26.5,
     37.0,
     27.0,
     37.5
   ],
-  "reprPoint": [
-    26.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Kalydnioi Inss.",
   "names": [
     "Kalydnioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

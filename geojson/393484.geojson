@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Rubico (river)",
   "id": "393484",
-  "description": "A shallow river in northeastern Italy",
   "bbox": [
     12.3478713,
     44.0444374,
     12.3478713,
     44.0444374
   ],
-  "reprPoint": [
-    12.3478713,
-    44.0444374
-  ],
+  "description": "A shallow river in northeastern Italy",
   "names": [
     "Rubico",
     "Rubicon",
     "Rubicone"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3478713,
+          44.0444374
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

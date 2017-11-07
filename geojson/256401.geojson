@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Río Corumbel",
   "id": "256401",
-  "description": "An ancient place, cited: BAtlas 26 D4 Río Corumbel",
   "bbox": [
     -6.459551,
     37.458651,
     -6.459551,
     37.458651
   ],
-  "reprPoint": [
-    -6.459551,
-    37.458651
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D4 Río Corumbel",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.459551,
+          37.458651
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

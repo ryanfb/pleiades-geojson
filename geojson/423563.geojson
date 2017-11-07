@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Claudia",
   "id": "423563",
-  "description": "An ancient place, cited: BAtlas 43 C2 Aqua Claudia",
   "bbox": [
     12.5139657,
     41.8910054,
     12.5139657,
     41.8910054
   ],
+  "description": "An ancient place, cited: BAtlas 43 C2 Aqua Claudia",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.5139657,
-    41.8910054
   ],
   "names": [
     "Aqua Claudia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5139657,
+          41.8910054
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

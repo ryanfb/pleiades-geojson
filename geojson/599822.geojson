@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Naxos (island)",
   "id": "599822",
-  "description": "Naxos is the largest of the Cycladic islands and was the center of the Cycladic civilization.",
   "bbox": [
     25.49,
     37.05,
     25.49,
     37.05
   ],
+  "description": "Naxos is the largest of the Cycladic islands and was the center of the Cycladic civilization.",
   "connectsWith": [
     "560221",
     "560353"
-  ],
-  "reprPoint": [
-    25.49,
-    37.05
   ],
   "names": [
     "Naxos",
@@ -24,6 +20,19 @@
     "Nísos Náxos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.49,
+          37.05
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

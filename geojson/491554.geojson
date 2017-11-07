@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bottike",
   "id": "491554",
-  "description": "An ancient place, cited: BAtlas 50 D4 Bottike",
   "bbox": [
     23.0,
     40.0,
     23.5,
     40.5
   ],
-  "reprPoint": [
-    23.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D4 Bottike",
   "names": [
     "Bottike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

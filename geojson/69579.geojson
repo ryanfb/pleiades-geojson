@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Uxantis (island)",
   "id": "69579",
-  "description": "Uxantis Ins. (Ushant island).",
   "bbox": [
     -5.0956,
     48.4581,
     -5.0956,
     48.4581
   ],
+  "description": "Uxantis Ins. (Ushant island).",
   "connectsWith": [
     "20420"
-  ],
-  "reprPoint": [
-    -5.0956,
-    48.4581
   ],
   "names": [
     "Uxantis",
     "Axanthos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0956,
+          48.4581
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

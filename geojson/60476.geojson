@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Cartana/Karnasa/Tetrogonis",
   "id": "60476",
-  "description": "An ancient place, cited: BAtlas 6 unlocated Cartana/Karnasa/Tetrogonis",
   "bbox": [
     67.0,
     34.0,
     68.0,
     36.0
   ],
-  "reprPoint": [
-    67.5,
-    34.6428571429
-  ],
+  "description": "An ancient place, cited: BAtlas 6 unlocated Cartana/Karnasa/Tetrogonis",
   "names": [
     "Cartana",
     "Karnasa",
@@ -27,6 +23,20 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          34.6428571429
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed iron mine",
   "id": "612316",
-  "description": "An ancient place, cited: BAtlas 62 A3 no. 10 (NE Ankyra, at Maden Köy)",
   "bbox": [
     28.5,
     39.0,
     29.0,
     39.5
   ],
-  "reprPoint": [
-    28.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 A3 no. 10 (NE Ankyra, at Maden Köy)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

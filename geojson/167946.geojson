@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ucennii",
   "id": "167946",
-  "description": "An ancient place, cited: BAtlas 17 G3 Ucennii",
   "bbox": [
     6.0,
     45.0,
     6.5,
     45.5
   ],
-  "reprPoint": [
-    6.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 G3 Ucennii",
   "names": [
     "Ucennii",
     "Ikonioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

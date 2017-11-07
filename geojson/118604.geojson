@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Boihaemum",
   "id": "118604",
-  "description": "An ancient place, cited: BAtlas 12 G2 Boihaemum",
   "bbox": [
     13.0,
     50.0,
     14.0,
     51.0
   ],
-  "reprPoint": [
-    13.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 G2 Boihaemum",
   "names": [
     "Boihaemum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

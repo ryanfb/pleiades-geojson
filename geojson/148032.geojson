@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Campi Lapidei",
   "id": "148032",
-  "description": "Campi Lapidei describes the alluvial plain located at the confluence of the Durance and Rhône rivers.",
   "bbox": [
     4.5,
     43.5,
     5.0,
     44.0
   ],
-  "reprPoint": [
-    4.75,
-    43.75
-  ],
+  "description": "Campi Lapidei describes the alluvial plain located at the confluence of the Durance and Rhône rivers.",
   "names": [
     "Campi Lapidei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

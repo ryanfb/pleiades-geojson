@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Litus Saxonicum",
   "id": "138423",
-  "description": "An ancient place, cited: BAtlas 14 B1 Litus Saxonicum",
   "bbox": [
     -4.0,
     47.0,
     -3.0,
     48.0
   ],
-  "reprPoint": [
-    -3.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 B1 Litus Saxonicum",
   "names": [
     "Litus Saxonicum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

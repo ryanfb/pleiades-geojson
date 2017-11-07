@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mons Claudius",
   "id": "203115",
-  "description": "A mountain range; BAtlas 20 lists it as unlocated but near either Moslavačka gora or Ivančica, Croatia. ",
   "bbox": [
     16.105957,
     45.65944,
     16.71083,
     46.175551
   ],
-  "reprPoint": [
-    16.4083935,
-    45.9174955
-  ],
+  "description": "A mountain range; BAtlas 20 lists it as unlocated but near either Moslavačka gora or Ivančica, Croatia. ",
   "names": [
     "mons Claudius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4083935,
+          45.9174955
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

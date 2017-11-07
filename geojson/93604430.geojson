@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Adro Vello",
   "id": "93604430",
-  "description": "The remains of a Roman villa and necropolis.",
   "bbox": [
     -8.9313708,
     42.4775873,
     -8.9313708,
     42.4775873
   ],
-  "reprPoint": [
-    -8.9313708,
-    42.4775873
-  ],
+  "description": "The remains of a Roman villa and necropolis.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.9313708,
+          42.4775873
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

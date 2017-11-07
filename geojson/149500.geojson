@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pont Julien",
   "id": "149500",
-  "description": "A bridge that spans the river known as the Cavalon (French), once part of the Via Domitia",
   "bbox": [
     5.30651251506,
     43.8626065394,
     5.30651251506,
     43.8626065394
   ],
+  "description": "A bridge that spans the river known as the Cavalon (French), once part of the Via Domitia",
   "connectsWith": [
     "54430875"
   ],
-  "reprPoint": [
-    5.30651251506,
-    43.8626065394
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.30651251506,
+          43.8626065394
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

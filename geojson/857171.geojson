@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Iris (river)",
   "id": "857171",
-  "description": "Iris fl. (Yeşilırmak River) is a river of Asia Minor that flows into the Black Sea.",
   "bbox": [
     36.7190803,
     41.1802622,
     36.7190803,
     41.1802622
   ],
+  "description": "Iris fl. (Yeşilırmak River) is a river of Asia Minor that flows into the Black Sea.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    36.7190803,
-    41.1802622
   ],
   "names": [
     "Iris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7190803,
+          41.1802622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Cularo/Gratianopolis",
   "id": "167734",
-  "description": "Cularo/Gratianopolis was a city of Gallia Narbonensis in the territory of the Allobroges on the Isère river.",
   "bbox": [
     5.73133,
     45.192446,
     5.732072,
     45.19261
   ],
+  "description": "Cularo/Gratianopolis was a city of Gallia Narbonensis in the territory of the Allobroges on the Isère river.",
   "connectsWith": [
     "171389",
     "167793",
@@ -16,16 +16,25 @@
     "171435",
     "171405"
   ],
-  "reprPoint": [
-    5.731701,
-    45.192528
-  ],
   "names": [
     "Cularo",
     "Gratianopolis",
     "Grenoble"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.731701,
+          45.192528
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

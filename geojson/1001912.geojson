@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phrygia Saloutaria",
   "id": "1001912",
-  "description": "An ancient place, cited: BAtlas 102 F4 no. 26 (Phrygia Saloutaria)",
   "bbox": [
     30.0,
     35.0,
     35.0,
     40.0
   ],
-  "reprPoint": [
-    32.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 F4 no. 26 (Phrygia Saloutaria)",
   "names": [
     "Phrygia Saloutaria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

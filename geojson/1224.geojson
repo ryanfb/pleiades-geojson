@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pontus Euxinus",
   "id": "1224",
-  "description": "The Black Sea.",
   "bbox": [
     34.7425505,
     43.0786852,
     34.7425505,
     43.0786852
   ],
-  "reprPoint": [
-    34.7425505,
-    43.0786852
-  ],
+  "description": "The Black Sea.",
   "names": [
     "Pontus Euxinus",
     "Black Sea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7425505,
+          43.0786852
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

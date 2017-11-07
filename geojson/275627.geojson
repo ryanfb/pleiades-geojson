@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ferme Priou",
   "id": "275627",
-  "description": "An ancient place, cited: BAtlas 28 C5 Ferme Priou",
   "bbox": [
     -5.928089,
     34.259999,
     -5.928089,
     34.259999
   ],
-  "reprPoint": [
-    -5.928089,
-    34.259999
-  ],
+  "description": "An ancient place, cited: BAtlas 28 C5 Ferme Priou",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.928089,
+          34.259999
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

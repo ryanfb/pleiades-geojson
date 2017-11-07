@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Phalakrai",
   "id": "550818",
-  "description": "Phalakrai, Summit of Ida Mons, cited: BAtlas 56 D2",
   "bbox": [
     26.83333,
     39.7,
     26.83333,
     39.7
   ],
+  "description": "Phalakrai, Summit of Ida Mons, cited: BAtlas 56 D2",
   "connectsWith": [
     "550592"
-  ],
-  "reprPoint": [
-    26.83333,
-    39.7
   ],
   "names": [
     "Phalakrai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.83333,
+          39.7
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

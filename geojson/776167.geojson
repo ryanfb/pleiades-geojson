@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "el-Deir",
   "id": "776167",
-  "description": "el-Deir (also known as Deir el-Munīra) is the site of a Roman fort and necropolis in Egypt's Kharga Oasis.",
   "bbox": [
     30.7300716,
     25.5964149,
     30.7308897,
     25.597114
   ],
+  "description": "el-Deir (also known as Deir el-Munīra) is the site of a Roman fort and necropolis in Egypt's Kharga Oasis.",
   "connectsWith": [
     "776210"
-  ],
-  "reprPoint": [
-    30.7304634591,
-    25.5967488622
   ],
   "names": [
     "Deir el-Munīra",
     "ed-Deir"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7304634591,
+          25.5967488622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

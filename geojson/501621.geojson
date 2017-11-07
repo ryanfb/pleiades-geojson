@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Skopia",
   "id": "501621",
-  "description": "An ancient place, cited: BAtlas 51 B2 Skopia",
   "bbox": [
     23.89551,
     41.098593,
     23.89551,
     41.098593
   ],
-  "reprPoint": [
-    23.89551,
-    41.098593
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B2 Skopia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.89551,
+          41.098593
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

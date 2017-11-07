@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caucasus (mountain range)",
   "id": "863766",
-  "description": "The Caucasus Mountains, located between the Black Sea and the Caspian Sea.",
   "bbox": [
     43.0,
     42.0,
     44.0,
     43.0
   ],
-  "reprPoint": [
-    43.5,
-    42.5
-  ],
+  "description": "The Caucasus Mountains, located between the Black Sea and the Caspian Sea.",
   "names": [
     "Caucasus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

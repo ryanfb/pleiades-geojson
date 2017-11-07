@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Iomanes/Iobares (river)",
   "id": "59852",
-  "description": "An ancient place, cited: BAtlas 6 D4 Iomanes/Iobares fl.",
   "bbox": [
     75.0,
     25.0,
     80.0,
     30.0
   ],
-  "reprPoint": [
-    77.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 D4 Iomanes/Iobares fl.",
   "names": [
     "Iomanes",
     "Iobares",
     "Diamounas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

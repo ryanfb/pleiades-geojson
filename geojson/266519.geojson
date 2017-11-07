@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "266519",
-  "description": "An ancient place, cited: BAtlas 27 B4 unnamed aqueduct (NW Iliberri)",
   "bbox": [
     -4.0,
     37.0,
     -3.0,
     38.0
   ],
-  "reprPoint": [
-    -3.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B4 unnamed aqueduct (NW Iliberri)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

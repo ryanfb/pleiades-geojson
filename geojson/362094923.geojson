@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Panjakent",
   "id": "362094923",
-  "description": "The easternmost city of Sogdiana, inhabited from the fifth-ninth centuries CE.",
   "bbox": [
     67.6156799,
     39.4841385,
     67.6229969,
     39.4884403
   ],
+  "description": "The easternmost city of Sogdiana, inhabited from the fifth-ninth centuries CE.",
   "connectsWith": [
     "60058"
-  ],
-  "reprPoint": [
-    67.6195694655,
-    39.4868376847
   ],
   "names": [
     "Pendzhikent",
@@ -22,6 +18,19 @@
     "Panjakent"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.6195694655,
+          39.4868376847
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pont du Gard",
   "id": "149496",
-  "description": "Aqueduct bridge at Estel",
   "bbox": [
     4.534049,
     43.945863,
     4.538627,
     43.9480324
   ],
+  "description": "Aqueduct bridge at Estel",
   "connectsWith": [
     "253855601"
   ],
-  "reprPoint": [
-    4.536960275,
-    43.946559075
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.536960275,
+          43.946559075
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

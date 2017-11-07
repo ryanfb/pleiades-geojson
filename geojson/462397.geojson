@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Odysseia Akra",
   "id": "462397",
-  "description": "An ancient place, cited: BAtlas 47 G4 Odysseia Akra",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G4 Odysseia Akra",
   "names": [
     "Odysseia Akra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

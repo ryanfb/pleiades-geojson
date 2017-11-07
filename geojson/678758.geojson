@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "678758",
-  "description": "An ancient place, cited: BAtlas 69 C3 unnamed aqueduct (Paneas)",
   "bbox": [
     35.5,
     33.0,
     36.0,
     33.5
   ],
-  "reprPoint": [
-    35.75,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C3 unnamed aqueduct (Paneas)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

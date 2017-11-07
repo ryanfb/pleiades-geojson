@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed villa",
   "id": "140533",
-  "description": "A Roman villa located near Touron, Cm. Monségur.",
   "bbox": [
     0.858282,
     44.501227,
     0.858282,
     44.501227
   ],
-  "reprPoint": [
-    0.858282,
-    44.501227
-  ],
+  "description": "A Roman villa located near Touron, Cm. Monségur.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.858282,
+          44.501227
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

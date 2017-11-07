@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dushanbe",
   "id": "971748",
-  "description": "Dushanbe is the capital and largest city of Tajikistan. In antiquity the settlement was part of the Graeco-Bactrian kingdom.",
   "bbox": [
     68.753915,
     38.558749,
     68.772512,
     38.570819
   ],
-  "reprPoint": [
-    68.7632135,
-    38.564784
-  ],
+  "description": "Dushanbe is the capital and largest city of Tajikistan. In antiquity the settlement was part of the Graeco-Bactrian kingdom.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.7632135,
+          38.564784
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250015",
-  "description": "An ancient place, cited: BAtlas 25 H4 no. 109 (Can Bosch de Basea (Terrassa))",
   "bbox": [
     2.0,
     41.0,
     3.0,
     42.0
   ],
-  "reprPoint": [
-    2.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 H4 no. 109 (Can Bosch de Basea (Terrassa))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Moio della Civitella",
   "id": "442661",
-  "description": "A fortified outpost (phrourion) of the city of Velia/Elea.",
   "bbox": [
     15.268779,
     40.246422,
     15.268779,
     40.246422
   ],
-  "reprPoint": [
-    15.268779,
-    40.246422
-  ],
+  "description": "A fortified outpost (phrourion) of the city of Velia/Elea.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.268779,
+          40.246422
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Abigas (river)",
   "id": "334469",
-  "description": "A river descending from the Aurès Mountains, as cited by Procopius.",
   "bbox": [
     7.0,
     35.0,
     8.0,
     36.0
   ],
-  "reprPoint": [
-    7.5,
-    35.5
-  ],
+  "description": "A river descending from the Aurès Mountains, as cited by Procopius.",
   "names": [
     "Abigas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

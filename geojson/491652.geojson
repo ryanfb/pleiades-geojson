@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lezovo",
   "id": "491652",
-  "description": "An ancient place, cited: BAtlas 50 B1 Lezovo",
   "bbox": [
     22.20034,
     41.94082,
     22.20034,
     41.94082
   ],
-  "reprPoint": [
-    22.20034,
-    41.94082
-  ],
+  "description": "An ancient place, cited: BAtlas 50 B1 Lezovo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.20034,
+          41.94082
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Fossa Augusta",
   "id": "395622",
-  "description": "A canal connecting the Po river to the harbor of Ravenna.",
   "bbox": [
     12.0,
     44.5,
     12.5,
     45.0
   ],
-  "reprPoint": [
-    12.25,
-    44.75
-  ],
+  "description": "A canal connecting the Po river to the harbor of Ravenna.",
   "names": [
     "Fossa Augusta"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

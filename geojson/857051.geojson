@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Athenon Akron",
   "id": "857051",
-  "description": "An ancient place, cited: BAtlas 87 F3 Athenon Akron",
   "bbox": [
     40.0,
     41.0,
     41.0,
     42.0
   ],
-  "reprPoint": [
-    40.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 F3 Athenon Akron",
   "names": [
     "Athenon Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

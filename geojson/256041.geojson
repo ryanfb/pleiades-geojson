@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cala",
   "id": "256041",
-  "description": "An ancient place, cited: BAtlas 26 D4 Cala",
   "bbox": [
     -6.229622,
     37.906563,
     -6.229622,
     37.906563
   ],
-  "reprPoint": [
-    -6.229622,
-    37.906563
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D4 Cala",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.229622,
+          37.906563
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

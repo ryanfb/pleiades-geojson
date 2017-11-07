@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Hemodos/Imaus/Caucasus M.",
   "id": "59834",
-  "description": "The Himalayas (=Himalaya) is a mountain range of Asia that separates the Indian subcontinent from the Tibetan Plateau.",
   "bbox": [
     75.0,
     30.0,
     80.0,
     35.0
   ],
-  "reprPoint": [
-    77.5,
-    32.5
-  ],
+  "description": "The Himalayas (=Himalaya) is a mountain range of Asia that separates the Indian subcontinent from the Tibetan Plateau.",
   "names": [
     "Hemodos",
     "Imaus",
@@ -25,6 +21,19 @@
     "Tauros M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

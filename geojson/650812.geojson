@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "650812",
-  "description": "An ancient place, cited: BAtlas 66 F3 unnamed canal (on Cydnus NE Tarsus)",
   "bbox": [
     34.5,
     36.5,
     35.0,
     37.0
   ],
-  "reprPoint": [
-    34.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 66 F3 unnamed canal (on Cydnus NE Tarsus)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

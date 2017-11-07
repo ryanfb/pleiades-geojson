@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Keras",
   "id": "521057",
-  "description": "Keras is an inlet of the Bosphorus dividing the city of Istanbul.",
   "bbox": [
     28.75,
     41.0,
     29.0,
     41.25
   ],
-  "reprPoint": [
-    28.875,
-    41.125
-  ],
+  "description": "Keras is an inlet of the Bosphorus dividing the city of Istanbul.",
   "names": [
     "Keras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aperopia (island)",
   "id": "570089",
-  "description": "An ancient place, cited: BAtlas 58 E3 Aperopia Ins.",
   "bbox": [
     23.0,
     37.0,
     23.5,
     37.5
   ],
-  "reprPoint": [
-    23.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E3 Aperopia Ins.",
   "names": [
     "Aperopia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

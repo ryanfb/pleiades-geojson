@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "661388",
-  "description": "Antiochia → Imma → Cyrrus → Ciliza → Doliche → Samosata",
   "bbox": [
     36.15818,
     36.200663,
     38.530357,
     37.564519
   ],
-  "reprPoint": [
-    37.1097745833,
-    36.7662403333
-  ],
+  "description": "Antiochia → Imma → Cyrrus → Ciliza → Doliche → Samosata",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1097745833,
+          36.7662403333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

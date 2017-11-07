@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Gortynios (river)",
   "id": "570266",
-  "description": "An ancient place, cited: BAtlas 58 C2 Gortynios fl.",
   "bbox": [
     22.0,
     37.5,
     22.5,
     38.0
   ],
-  "reprPoint": [
-    22.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C2 Gortynios fl.",
   "names": [
     "Gortynios",
     "Lousios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

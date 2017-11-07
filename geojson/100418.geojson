@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "100418",
-  "description": "Aurelium Cananefatium → (Ulpia) Noviomagus",
   "bbox": [
     4.0,
     51.0,
     14.0,
     56.0
   ],
-  "reprPoint": [
-    9.0,
-    53.5
-  ],
+  "description": "Aurelium Cananefatium → (Ulpia) Noviomagus",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

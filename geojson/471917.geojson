@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Enosis (island)",
   "id": "471917",
-  "description": "An ancient place, cited: BAtlas 48 A3 Enosis Ins.",
   "bbox": [
     8.305833,
     39.145556,
     8.305833,
     39.145556
   ],
-  "reprPoint": [
-    8.305833,
-    39.145556
-  ],
+  "description": "An ancient place, cited: BAtlas 48 A3 Enosis Ins.",
   "names": [
     "Enosis",
     "Hierakon Nesos",
     "Isola di San Pietro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.305833,
+          39.145556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

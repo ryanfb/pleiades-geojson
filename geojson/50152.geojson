@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nagara",
   "id": "50152",
-  "description": "An ancient place, cited: BAtlas 5 C2 Nagara",
   "bbox": [
     70.613902,
     21.603402,
     70.613902,
     21.603402
   ],
-  "reprPoint": [
-    70.613902,
-    21.603402
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C2 Nagara",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.613902,
+          21.603402
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

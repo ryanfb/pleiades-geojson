@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Eion",
   "id": "501410",
-  "description": "An Eretrian colony located at the mouth of the Strymon river.",
   "bbox": [
     23.855317,
     40.788411,
     23.890379,
     40.790236
   ],
+  "description": "An Eretrian colony located at the mouth of the Strymon river.",
   "connectsWith": [
     "501629"
-  ],
-  "reprPoint": [
-    23.872848,
-    40.7893235
   ],
   "names": [
     "Eion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.872848,
+          40.7893235
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

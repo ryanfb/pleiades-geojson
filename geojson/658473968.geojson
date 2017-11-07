@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Balikh River",
   "id": "658473968",
-  "description": "The Balikh River that flows from 'Ayn al-'Arus in Syria to the Euphrates river.",
   "bbox": [
     38.9404141,
     36.6703353,
     38.9404141,
     36.6703353
   ],
+  "description": "The Balikh River that flows from 'Ayn al-'Arus in Syria to the Euphrates river.",
   "connectsWith": [
     "912849"
   ],
-  "reprPoint": [
-    38.9404141,
-    36.6703353
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.9404141,
+          36.6703353
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

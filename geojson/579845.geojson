@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ag. Paraskevi",
   "id": "579845",
-  "description": "An ancient place, cited: BAtlas 59 C1 Ag. Paraskevi",
   "bbox": [
     23.75,
     38.25,
     24.0,
     38.5
   ],
-  "reprPoint": [
-    23.875,
-    38.375
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C1 Ag. Paraskevi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ghargart",
   "id": "716561",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.37403,
     29.34394,
     25.37403,
     29.34394
   ],
-  "reprPoint": [
-    25.37403,
-    29.34394
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.37403,
+          29.34394
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

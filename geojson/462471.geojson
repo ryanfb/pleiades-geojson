@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rometta",
   "id": "462471",
-  "description": "An ancient place, cited: BAtlas 47 G2 Rometta",
   "bbox": [
     15.413438,
     38.170558,
     15.413438,
     38.170558
   ],
+  "description": "An ancient place, cited: BAtlas 47 G2 Rometta",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    15.413438,
-    38.170558
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.413438,
+          38.170558
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

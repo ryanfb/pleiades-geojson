@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "289177",
-  "description": "Tect(...) → Aquae Sirenses → Guetna → Castra Nova",
   "bbox": [
     -5.0,
     32.0,
     3.0,
     36.0
   ],
-  "reprPoint": [
-    -1.0,
-    34.0
-  ],
+  "description": "Tect(...) → Aquae Sirenses → Guetna → Castra Nova",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0,
+          34.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "630433",
-  "description": "Sebastopolis → Serm(o)usa? → Map 63",
   "bbox": [
     35.0,
     38.0,
     39.5,
     40.0
   ],
-  "reprPoint": [
-    37.25,
-    39.0
-  ],
+  "description": "Sebastopolis → Serm(o)usa? → Map 63",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.25,
+          39.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

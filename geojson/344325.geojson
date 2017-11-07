@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Mahalla",
   "id": "344325",
-  "description": "An ancient place, cited: BAtlas 35 C1 Bir Mahalla",
   "bbox": [
     9.983547,
     32.982774,
     9.983547,
     32.982774
   ],
-  "reprPoint": [
-    9.983547,
-    32.982774
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C1 Bir Mahalla",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983547,
+          32.982774
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

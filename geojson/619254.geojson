@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Saraouene",
   "id": "619254",
-  "description": "An ancient place, cited: BAtlas 63 E2 Saraouene",
   "bbox": [
     34.0,
     39.0,
     34.5,
     39.5
   ],
-  "reprPoint": [
-    34.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 63 E2 Saraouene",
   "names": [
     "Saraouene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

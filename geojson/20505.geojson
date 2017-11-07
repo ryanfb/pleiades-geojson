@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karbones",
   "id": "20505",
-  "description": "An ancient place, cited: BAtlas 2 H2 Karbones",
   "bbox": [
     20.0,
     55.0,
     25.0,
     60.0
   ],
-  "reprPoint": [
-    22.5,
-    57.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 H2 Karbones",
   "names": [
     "Karbones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          57.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

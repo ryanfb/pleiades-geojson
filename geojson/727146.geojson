@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leontopolis",
   "id": "727146",
-  "description": "An ancient place, cited: BAtlas 74 E3 Leontopolis",
   "bbox": [
     31.0,
     30.5,
     31.5,
     31.0
   ],
-  "reprPoint": [
-    31.25,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 74 E3 Leontopolis",
   "names": [
     "Leontopolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

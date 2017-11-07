@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "678749",
-  "description": "An ancient place, cited: BAtlas 69 B3 unnamed aqueduct (Palaityros)",
   "bbox": [
     35.0,
     33.0,
     35.5,
     33.5
   ],
-  "reprPoint": [
-    35.25,
-    33.25
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B3 unnamed aqueduct (Palaityros)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          33.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

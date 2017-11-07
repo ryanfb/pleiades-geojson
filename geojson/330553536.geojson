@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chysauster Ancient Village",
   "id": "330553536",
-  "description": "Chysauster Ancient Village is an Iron Age settlement comprised of stone-walled homesteads known as 'courtyard houses'.",
   "bbox": [
     -5.5403922,
     50.1611182,
     -5.5403922,
     50.1611182
   ],
-  "reprPoint": [
-    -5.5403922,
-    50.1611182
-  ],
+  "description": "Chysauster Ancient Village is an Iron Age settlement comprised of stone-walled homesteads known as 'courtyard houses'.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5403922,
+          50.1611182
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

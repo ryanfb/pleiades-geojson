@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Tauroskythai",
   "id": "226780",
-  "description": "An ancient place, cited: BAtlas 23 G4 Tauroskythai",
   "bbox": [
     33.0,
     44.0,
     34.0,
     45.0
   ],
-  "reprPoint": [
-    33.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 G4 Tauroskythai",
   "names": [
     "Tauroskythai",
     "Skythotauroi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

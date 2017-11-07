@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Fouman",
   "id": "641191179",
-  "description": "A place from the TAVO Index",
   "bbox": [
     49.0,
     37.0,
     50.0,
     38.0
   ],
-  "reprPoint": [
-    49.5,
-    37.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Fouman",
     "Foumān",
@@ -20,6 +16,19 @@
     "Fuman"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

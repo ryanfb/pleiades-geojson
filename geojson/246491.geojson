@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Les Martys",
   "id": "246491",
-  "description": "A center of mining and ore processing.",
   "bbox": [
     2.307147,
     43.416525,
     2.307147,
     43.416525
   ],
-  "reprPoint": [
-    2.307147,
-    43.416525
-  ],
+  "description": "A center of mining and ore processing.",
   "names": [
     "Les Martys"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.307147,
+          43.416525
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

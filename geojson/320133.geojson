@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "320133",
-  "description": "An ancient place, cited: BAtlas 32 H3 unnamed unlabeled ((1 monument, 3 cemeteries))",
   "bbox": [
     11.0,
     36.5,
     11.5,
     37.0
   ],
-  "reprPoint": [
-    11.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 H3 unnamed unlabeled ((1 monument, 3 cemeteries))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

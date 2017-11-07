@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lake Matese",
   "id": "689737510",
-  "description": "Lake Matese is a glacial lake located in the Matese mountains at the foot of Monte Miletto and Monte Gallinola.",
   "bbox": [
     14.3976931,
     41.4079542,
     14.3976931,
     41.4079542
   ],
-  "reprPoint": [
-    14.3976931,
-    41.4079542
-  ],
+  "description": "Lake Matese is a glacial lake located in the Matese mountains at the foot of Monte Miletto and Monte Gallinola.",
   "names": [
     "Lago del Matese"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3976931,
+          41.4079542
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

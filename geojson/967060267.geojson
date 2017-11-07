@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 32B (Brown Moor)",
   "id": "967060267",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.258841,
     55.031486,
     -2.258841,
     55.031486
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.258841,
-    55.031486
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.258841,
+          55.031486
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

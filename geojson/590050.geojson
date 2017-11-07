@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sisaioi",
   "id": "590050",
-  "description": "An ancient place, cited: BAtlas 60 C2 Sisaioi",
   "bbox": [
     24.5,
     35.0,
     25.0,
     35.5
   ],
-  "reprPoint": [
-    24.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 C2 Sisaioi",
   "names": [
     "Sisaioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

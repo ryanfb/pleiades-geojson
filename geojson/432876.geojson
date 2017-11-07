@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Herculis Petra",
   "id": "432876",
-  "description": "An islet in the Gulf of Naples.",
   "bbox": [
     14.463056,
     40.729444,
     14.463056,
     40.729444
   ],
+  "description": "An islet in the Gulf of Naples.",
   "connectsWith": [
     "433059"
-  ],
-  "reprPoint": [
-    14.463056,
-    40.729444
   ],
   "names": [
     "Herculis Petra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.463056,
+          40.729444
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

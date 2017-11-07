@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lemannonios Kolpos",
   "id": "89225",
-  "description": "An ancient place, cited: BAtlas 9 B5 Lemannonios Kolpos",
   "bbox": [
     -6.0,
     55.0,
     -5.0,
     56.0
   ],
-  "reprPoint": [
-    -5.5,
-    55.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 B5 Lemannonios Kolpos",
   "names": [
     "Lemannonios Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

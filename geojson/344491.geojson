@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Syrtis Maior",
   "id": "344491",
-  "description": "The Gulf of Sidra.",
   "bbox": [
     18.0,
     31.5,
     18.0,
     31.5
   ],
-  "reprPoint": [
-    18.0,
-    31.5
-  ],
+  "description": "The Gulf of Sidra.",
   "names": [
     "Syrtis Maior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

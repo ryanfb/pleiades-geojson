@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Skellig Michael",
   "id": "298351810",
-  "description": "An island in the Atlantic Ocean located just west of the coast of Ireland.",
   "bbox": [
     -10.5424313,
     51.7712848,
     -10.5424313,
     51.7712848
   ],
+  "description": "An island in the Atlantic Ocean located just west of the coast of Ireland.",
   "connectsWith": [
     "845"
   ],
-  "reprPoint": [
-    -10.5424313,
-    51.7712848
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.5424313,
+          51.7712848
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

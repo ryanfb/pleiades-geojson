@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Palaiokastro",
   "id": "531029",
-  "description": "An ancient place, cited: BAtlas 54 B2 Palaiokastro",
   "bbox": [
     20.379996,
     39.92961,
     20.379996,
     39.92961
   ],
-  "reprPoint": [
-    20.379996,
-    39.92961
-  ],
+  "description": "An ancient place, cited: BAtlas 54 B2 Palaiokastro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.379996,
+          39.92961
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

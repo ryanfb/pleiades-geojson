@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Patsonteos (Oreine)",
   "id": "736994",
-  "description": "An ancient place, cited: BAtlas 75 E1 Patsonteos (Oreine)",
   "bbox": [
     31.0,
     29.5,
     31.5,
     30.0
   ],
-  "reprPoint": [
-    31.25,
-    29.75
-  ],
+  "description": "An ancient place, cited: BAtlas 75 E1 Patsonteos (Oreine)",
   "names": [
     " Patsonteos Oreine",
     " Patsonteos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          29.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

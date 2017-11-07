@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Ebusus (island)",
   "id": "265884",
-  "description": "Ebusus Ins. (modern Ibiza) is an island in the western Mediterranean Sea.",
   "bbox": [
     1.43,
     38.98,
     1.43,
     38.98
   ],
+  "description": "Ebusus Ins. (modern Ibiza) is an island in the western Mediterranean Sea.",
   "connectsWith": [
     "266001"
-  ],
-  "reprPoint": [
-    1.43,
-    38.98
   ],
   "names": [
     "Ebusus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.43,
+          38.98
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Paesici",
   "id": "236586",
-  "description": "An ancient place, cited: BAtlas 24 E1 Paesici",
   "bbox": [
     -7.0,
     43.0,
     -6.0,
     44.0
   ],
-  "reprPoint": [
-    -6.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 E1 Paesici",
   "names": [
     "Paesici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

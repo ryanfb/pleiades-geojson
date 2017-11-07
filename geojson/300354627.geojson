@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Areni",
   "id": "300354627",
-  "description": "A place from the TAVO Index",
   "bbox": [
     45.0,
     39.0,
     46.0,
     40.0
   ],
-  "reprPoint": [
-    45.5,
-    39.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Areni",
     "Arpa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

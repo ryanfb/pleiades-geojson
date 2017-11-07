@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pannonia Inferior",
   "id": "991355",
-  "description": "An ancient place, cited: BAtlas 101 K2 Pannonia Inferior",
   "bbox": [
     15.0,
     45.0,
     20.0,
     50.0
   ],
-  "reprPoint": [
-    17.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 K2 Pannonia Inferior",
   "names": [
     "Pannonia Inferior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

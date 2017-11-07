@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "82302",
-  "description": "An ancient place, cited: BAtlas 8 E2 unnamed quarry (SW *Viroconium, at Linley)",
   "bbox": [
     -3.0,
     52.0,
     -2.0,
     53.0
   ],
-  "reprPoint": [
-    -2.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 E2 unnamed quarry (SW *Viroconium, at Linley)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

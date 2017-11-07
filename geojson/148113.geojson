@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Libica Ora",
   "id": "148113",
-  "description": "An ancient place, cited: BAtlas 15 C3 Libica Ora",
   "bbox": [
     4.0,
     43.0,
     4.5,
     43.5
   ],
-  "reprPoint": [
-    4.25,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 15 C3 Libica Ora",
   "names": [
     "Libica Ora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

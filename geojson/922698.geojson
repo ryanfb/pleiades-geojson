@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Persis/Pars",
   "id": "922698",
-  "description": "An ancient place, cited: BAtlas 94 B3 Persis/Pars",
   "bbox": [
     51.0,
     30.0,
     52.0,
     31.0
   ],
-  "reprPoint": [
-    51.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 B3 Persis/Pars",
   "names": [
     "Persis",
     "Pars"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",

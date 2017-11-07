@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Douarnenez",
   "id": "69500",
-  "description": "An ancient place, cited: BAtlas 7 B3 Douarnenez",
   "bbox": [
     -4.330543,
     48.088512,
     -4.330543,
     48.088512
   ],
-  "reprPoint": [
-    -4.330543,
-    48.088512
-  ],
+  "description": "An ancient place, cited: BAtlas 7 B3 Douarnenez",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.330543,
+          48.088512
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

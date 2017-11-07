@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Armenia Minor",
   "id": "628936",
-  "description": "An ancient place, cited: BAtlas 64 G2 Armenia Minor",
   "bbox": [
     38.0,
     39.0,
     38.5,
     39.5
   ],
-  "reprPoint": [
-    38.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 64 G2 Armenia Minor",
   "names": [
     "Armenia Minor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
