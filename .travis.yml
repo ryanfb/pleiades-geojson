@@ -7,4 +7,4 @@ branches:
 before_script:
   - npm install -g ndgeojson-lint
 script:
-	- find geojson -name '*.geojson' -exec cat {} \; | jq -c . | ndgeojson-lint
+  - find geojson -name '*.geojson' -exec cat {} \; | jq -c . | ndgeojson-lint
