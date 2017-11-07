@@ -14,6 +14,9 @@ def locations_to_features(locations)
       feature["geometry"] = nil
     else
       feature["geometry"] = JSON.parse(location["geometry"])
+      if feature["geometry"]["type"] == "Polygon"
+        feature["geometry"]["coordinates"].map!{|coords| coords.reverse}
+      end
     end
     feature["id"] = location["id"]
     feature["type"] = "Feature"
