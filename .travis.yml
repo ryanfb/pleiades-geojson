@@ -1,0 +1,10 @@
+language: node_js
+sudo: false
+branches:
+  only:
+    - gh-pages # test gh-pages
+    - /(.*)/   # test all branches
+before_script:
+  - npm install -g ndgeojson-lint
+script:
+	- find geojson -name '*.geojson' -exec cat {} \; | jq -c . | ndgeojson-lint
