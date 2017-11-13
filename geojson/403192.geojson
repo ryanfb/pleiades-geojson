@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cala Maestra",
   "id": "403192",
-  "description": "An ancient place, cited: BAtlas 41 E5 Cala Maestra",
   "bbox": [
     11.0963158,
     42.2549239,
     11.096751,
     42.2574049
   ],
+  "description": "An ancient place, cited: BAtlas 41 E5 Cala Maestra",
   "connectsWith": [
     "403182"
   ],
-  "reprPoint": [
-    11.0965069,
-    42.2565259333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0965069,
+          42.2565259333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

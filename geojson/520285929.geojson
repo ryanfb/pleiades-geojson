@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pyramid of Djedefre",
   "id": "520285929",
-  "description": "The Pyramid of Djedefre, a Fourth Dynasty pharaoh, at Abu Rawash.",
   "bbox": [
     31.0742458,
     30.0327194,
     31.0742458,
     30.0327194
   ],
-  "reprPoint": [
-    31.0742458,
-    30.0327194
-  ],
+  "description": "The Pyramid of Djedefre, a Fourth Dynasty pharaoh, at Abu Rawash.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0742458,
+          30.0327194
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

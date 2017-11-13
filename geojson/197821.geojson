@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueduct supplying Neviodunum",
   "id": "197821",
-  "description": "This ancient aqueduct supplied Neviodunum from the south.",
   "bbox": [
     15.48395,
     45.917445,
     15.488811,
     45.917659
   ],
+  "description": "This ancient aqueduct supplied Neviodunum from the south.",
   "connectsWith": [
     "197408"
   ],
-  "reprPoint": [
-    15.4863805,
-    45.917552
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4863805,
+          45.917552
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              15.0,
-              46.0
-            ],
-            [
-              16.0,
-              46.0
-            ],
-            [
               16.0,
               45.0
+            ],
+            [
+              16.0,
+              46.0
+            ],
+            [
+              15.0,
+              46.0
             ],
             [
               15.0,

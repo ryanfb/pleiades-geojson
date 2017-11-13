@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Picentino (river)",
   "id": "544710173",
-  "description": "A river of Campania that is connected to the now-lost settlement of Picentia and the Picentinus Ager.",
   "bbox": [
     14.8564808,
     40.6332345,
     14.8564808,
     40.6332345
   ],
+  "description": "A river of Campania that is connected to the now-lost settlement of Picentia and the Picentinus Ager.",
   "connectsWith": [
     "1356"
   ],
-  "reprPoint": [
-    14.8564808,
-    40.6332345
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8564808,
+          40.6332345
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Noricum Ripense",
   "id": "991347",
-  "description": "An ancient place, cited: BAtlas 101 J2 Noricum Ripense",
   "bbox": [
     10.0,
     45.0,
     15.0,
     50.0
   ],
-  "reprPoint": [
-    12.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 J2 Noricum Ripense",
   "names": [
     "Noricum Ripense"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              10.0,
-              50.0
-            ],
-            [
-              15.0,
-              50.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              50.0
+            ],
+            [
+              10.0,
+              50.0
             ],
             [
               10.0,

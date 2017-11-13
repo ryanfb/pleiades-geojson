@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thesprotia",
   "id": "531117",
-  "description": "One of the three main ancient tribes of Epirus.",
   "bbox": [
     20.0,
     39.5,
     20.5,
     40.0
   ],
-  "reprPoint": [
-    20.25,
-    39.75
-  ],
+  "description": "One of the three main ancient tribes of Epirus.",
   "names": [
     "Thesprōtía"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              20.0,
-              40.0
-            ],
-            [
-              20.5,
-              40.0
-            ],
-            [
               20.5,
               39.5
+            ],
+            [
+              20.5,
+              40.0
+            ],
+            [
+              20.0,
+              40.0
             ],
             [
               20.0,

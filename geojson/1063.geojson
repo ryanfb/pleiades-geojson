@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Karpates Oros",
   "id": "1063",
-  "description": "An ancient place, cited: BAtlas 1 H1 Karpates Oros",
   "bbox": [
     20.0,
     45.0,
     25.0,
     50.0
   ],
-  "reprPoint": [
-    22.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 1 H1 Karpates Oros",
   "names": [
     "Karpates Oros",
     "Carpathian Mountains"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              20.0,
-              50.0
-            ],
-            [
-              25.0,
-              50.0
-            ],
-            [
               25.0,
               45.0
+            ],
+            [
+              25.0,
+              50.0
+            ],
+            [
+              20.0,
+              50.0
             ],
             [
               20.0,

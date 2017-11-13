@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "591923",
-  "description": "An ancient place, cited: BAtlas 60 F3 unnamed cemetery (by Kamiros on Rhodos)",
   "bbox": [
     27.921195,
     36.195597,
     27.964125,
     36.336185
   ],
+  "description": "An ancient place, cited: BAtlas 60 F3 unnamed cemetery (by Kamiros on Rhodos)",
   "connectsWith": [
     "589836",
     "590031"
   ],
-  "reprPoint": [
-    27.94266,
-    36.265891
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.94266,
+          36.265891
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.5
             ],
             [
-              26.0,
-              35.0
-            ],
-            [
-              26.5,
-              35.0
-            ],
-            [
               26.5,
               34.5
+            ],
+            [
+              26.5,
+              35.0
+            ],
+            [
+              26.0,
+              35.0
             ],
             [
               26.0,

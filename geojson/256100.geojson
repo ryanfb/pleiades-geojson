@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cerro Macareño",
   "id": "256100",
-  "description": "An ancient place, cited: BAtlas 26 E4 Cerro Macareño",
   "bbox": [
     -5.979346,
     37.487775,
     -5.979346,
     37.487775
   ],
-  "reprPoint": [
-    -5.979346,
-    37.487775
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E4 Cerro Macareño",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979346,
+          37.487775
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

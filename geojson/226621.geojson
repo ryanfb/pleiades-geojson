@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hieron (river)",
   "id": "226621",
-  "description": "An ancient place, cited: BAtlas 23 C4 Hieron fl.",
   "bbox": [
     29.0,
     44.0,
     30.0,
     45.0
   ],
-  "reprPoint": [
-    29.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 C4 Hieron fl.",
   "names": [
     "Hieron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              29.0,
-              45.0
-            ],
-            [
-              30.0,
-              45.0
-            ],
-            [
               30.0,
               44.0
+            ],
+            [
+              30.0,
+              45.0
+            ],
+            [
+              29.0,
+              45.0
             ],
             [
               29.0,

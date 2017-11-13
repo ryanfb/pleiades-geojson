@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Paqu'a",
   "id": "678325",
-  "description": "An ancient place, cited: BAtlas 69 B5 Paqu'a",
   "bbox": [
     35.40025,
     32.490491,
     35.40025,
     32.490491
   ],
-  "reprPoint": [
-    35.40025,
-    32.490491
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B5 Paqu'a",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.40025,
+          32.490491
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

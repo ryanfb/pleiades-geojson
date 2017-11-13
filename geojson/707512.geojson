@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Golgoi",
   "id": "707512",
-  "description": "An ancient place, cited: BAtlas 72 D2 Golgoi",
   "bbox": [
     33.546609,
     35.065649,
     33.546609,
     35.065649
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Golgoi",
   "connectsWith": [
     "707498"
-  ],
-  "reprPoint": [
-    33.546609,
-    35.065649
   ],
   "names": [
     "Golgoi",
     "Golgous"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.546609,
+          35.065649
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

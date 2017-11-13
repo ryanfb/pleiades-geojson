@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Belaci?",
   "id": "167673",
-  "description": "An ancient place, cited: BAtlas 17 H3 Belaci?",
   "bbox": [
     6.5,
     45.0,
     7.0,
     45.5
   ],
-  "reprPoint": [
-    6.75,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 H3 Belaci?",
   "names": [
     "Belaci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              6.5,
-              45.5
-            ],
-            [
-              7.0,
-              45.5
-            ],
-            [
               7.0,
               45.0
+            ],
+            [
+              7.0,
+              45.5
+            ],
+            [
+              6.5,
+              45.5
             ],
             [
               6.5,

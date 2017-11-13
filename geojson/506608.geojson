@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "506608",
-  "description": "An ancient place, cited: BAtlas 51 H3 unnamed wall (NE Chersonesus Wall TKY)",
   "bbox": [
     26.5,
     40.5,
     27.0,
     41.0
   ],
-  "reprPoint": [
-    26.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 H3 unnamed wall (NE Chersonesus Wall TKY)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.5
             ],
             [
-              26.5,
-              41.0
-            ],
-            [
-              27.0,
-              41.0
-            ],
-            [
               27.0,
               40.5
+            ],
+            [
+              27.0,
+              41.0
+            ],
+            [
+              26.5,
+              41.0
             ],
             [
               26.5,

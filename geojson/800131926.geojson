@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Inveravon",
   "id": "800131926",
-  "description": "Site of small Roman fort on the Antonine Wall",
   "bbox": [
     -3.68344,
     55.998474,
     -3.682837,
     55.998802
   ],
+  "description": "Site of small Roman fort on the Antonine Wall",
   "connectsWith": [
     "91357"
   ],
-  "reprPoint": [
-    -3.68313811883,
-    55.9986374955
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68313811883,
+          55.9986374955
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.998474
             ],
             [
-              -3.68344,
-              55.998665
+              -3.682837,
+              55.998608
             ],
             [
               -3.683067,
               55.998802
             ],
             [
-              -3.682837,
-              55.998608
+              -3.68344,
+              55.998665
             ],
             [
               -3.683209,

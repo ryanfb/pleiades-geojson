@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Semien Mountains",
   "id": "336410435",
-  "description": "A mountain range of northern Ethiopia first mentioned in the Monumentum Adulitanum and now a UNESCO World Heritage Site.",
   "bbox": [
     38.2182159,
     13.1012677,
     38.3726615,
     13.2445989
   ],
-  "reprPoint": [
-    38.3027306333,
-    13.1942647333
-  ],
+  "description": "A mountain range of northern Ethiopia first mentioned in the Monumentum Adulitanum and now a UNESCO World Heritage Site.",
   "names": [
     "Semen",
     "Simen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.3027306333,
+          13.1942647333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

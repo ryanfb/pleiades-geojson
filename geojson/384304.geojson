@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "384304",
-  "description": "An ancient place, cited: BAtlas 39 D4 unnamed aqueduct (Dertona)",
   "bbox": [
     8.5,
     44.5,
     9.0,
     45.0
   ],
-  "reprPoint": [
-    8.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 D4 unnamed aqueduct (Dertona)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.5
             ],
             [
-              8.5,
-              45.0
-            ],
-            [
-              9.0,
-              45.0
-            ],
-            [
               9.0,
               44.5
+            ],
+            [
+              9.0,
+              45.0
+            ],
+            [
+              8.5,
+              45.0
             ],
             [
               8.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 30A (Carrowburgh East)",
   "id": "967060336",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.204715,
     55.037264,
     -2.204715,
     55.037264
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.204715,
-    55.037264
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.204715,
+          55.037264
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

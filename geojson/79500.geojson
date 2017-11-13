@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hambleden",
   "id": "79500",
-  "description": "At Hambleden the ruins of a Roman villa just north of the river Thames were excavated in 1912.",
   "bbox": [
     -0.87101,
     51.570862,
     -0.87101,
     51.570862
   ],
-  "reprPoint": [
-    -0.87101,
-    51.570862
-  ],
+  "description": "At Hambleden the ruins of a Roman villa just north of the river Thames were excavated in 1912.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.87101,
+          51.570862
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

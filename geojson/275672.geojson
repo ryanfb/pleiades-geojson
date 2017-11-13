@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Masikes",
   "id": "275672",
-  "description": "An ancient place, cited: BAtlas 28 C3 Masikes",
   "bbox": [
     -6.0,
     35.0,
     -5.5,
     35.5
   ],
-  "reprPoint": [
-    -5.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 C3 Masikes",
   "names": [
     "Masikes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              -6.0,
-              35.5
-            ],
-            [
-              -5.5,
-              35.5
-            ],
-            [
               -5.5,
               35.0
+            ],
+            [
+              -5.5,
+              35.5
+            ],
+            [
+              -6.0,
+              35.5
             ],
             [
               -6.0,

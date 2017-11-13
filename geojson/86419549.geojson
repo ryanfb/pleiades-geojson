@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Temple of Claudius",
   "id": "86419549",
-  "description": "A large classical-style Roman temple built shortly after the conquest of Britannia in AD 43 by the emperor Claudius. Its remains lie beneath Colchester Castle.",
   "bbox": [
     0.903104,
     51.890594,
     0.903104,
     51.890594
   ],
+  "description": "A large classical-style Roman temple built shortly after the conquest of Britannia in AD 43 by the emperor Claudius. Its remains lie beneath Colchester Castle.",
   "connectsWith": [
     "79393"
-  ],
-  "reprPoint": [
-    0.903104,
-    51.890594
   ],
   "names": [
     "Templum Claudii",
     "Templum divi Claudii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.903104,
+          51.890594
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

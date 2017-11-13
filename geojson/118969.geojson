@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Soudeta Ore",
   "id": "118969",
-  "description": "An ancient place, cited: BAtlas 12 F2 Soudeta Ore",
   "bbox": [
     12.0,
     50.0,
     13.0,
     51.0
   ],
-  "reprPoint": [
-    12.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 F2 Soudeta Ore",
   "names": [
     "Soudeta Ore"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              12.0,
-              51.0
-            ],
-            [
-              13.0,
-              51.0
-            ],
-            [
               13.0,
               50.0
+            ],
+            [
+              13.0,
+              51.0
+            ],
+            [
+              12.0,
+              51.0
             ],
             [
               12.0,

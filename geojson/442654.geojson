@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Merinum",
   "id": "442654",
-  "description": "An ancient city placed in the Gargano and discussed by Pliny the Elder.",
   "bbox": [
     16.111125,
     41.915823,
     16.111125,
     41.915823
   ],
-  "reprPoint": [
-    16.111125,
-    41.915823
-  ],
+  "description": "An ancient city placed in the Gargano and discussed by Pliny the Elder.",
   "names": [
     "Merinum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.111125,
+          41.915823
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

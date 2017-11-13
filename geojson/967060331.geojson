@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 29A (Black Carts)",
   "id": "967060331",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.182602,
     55.035946,
     -2.18248,
     55.036021
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.18254043655,
-    55.0359838071
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.18254043655,
+          55.0359838071
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.182602,
-              55.035969,
+              -2.18248,
+              55.036,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.18248,
-              55.036,
+              -2.182602,
+              55.035969,
               0.0
             ],
             [

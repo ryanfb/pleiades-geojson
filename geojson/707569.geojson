@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Magounda",
   "id": "707569",
-  "description": "An ancient place, cited: BAtlas 72 A2 Magounda",
   "bbox": [
     32.493548,
     35.055105,
     32.493548,
     35.055105
   ],
+  "description": "An ancient place, cited: BAtlas 72 A2 Magounda",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.493548,
-    35.055105
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.493548,
+          35.055105
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

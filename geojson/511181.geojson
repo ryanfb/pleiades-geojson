@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bathynias (river)",
   "id": "511181",
-  "description": "An ancient place, cited: BAtlas 52 D2 Bathynias fl.",
   "bbox": [
     28.5,
     41.0,
     29.0,
     41.5
   ],
-  "reprPoint": [
-    28.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 D2 Bathynias fl.",
   "names": [
     "Bathynias"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              28.5,
-              41.5
-            ],
-            [
-              29.0,
-              41.5
-            ],
-            [
               29.0,
               41.0
+            ],
+            [
+              29.0,
+              41.5
+            ],
+            [
+              28.5,
+              41.5
             ],
             [
               28.5,

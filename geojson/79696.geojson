@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Stonea",
   "id": "79696",
-  "description": "An ancient place, cited: BAtlas 8 H2 Stonea",
   "bbox": [
     0.130381,
     52.503581,
     0.130381,
     52.503581
   ],
-  "reprPoint": [
-    0.130381,
-    52.503581
-  ],
+  "description": "An ancient place, cited: BAtlas 8 H2 Stonea",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.130381,
+          52.503581
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

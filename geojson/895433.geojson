@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "895433",
-  "description": "An ancient place, cited: BAtlas 91 B2 unnamed canal (Dawrin Canal SYR)",
   "bbox": [
     40.0,
     35.0,
     41.0,
     36.0
   ],
-  "reprPoint": [
-    40.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 B2 unnamed canal (Dawrin Canal SYR)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               35.0
             ],
             [
-              40.0,
-              36.0
-            ],
-            [
-              41.0,
-              36.0
-            ],
-            [
               41.0,
               35.0
+            ],
+            [
+              41.0,
+              36.0
+            ],
+            [
+              40.0,
+              36.0
             ],
             [
               40.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Calavon (river)",
   "id": "54430875",
-  "description": "Tributary of the Druentia fl. (Durance)",
   "bbox": [
     5.2016739,
     43.7390439,
     5.30651251506,
     43.8626065394
   ],
+  "description": "Tributary of the Druentia fl. (Durance)",
   "connectsWith": [
     "148069"
   ],
-  "reprPoint": [
-    5.25409320753,
-    43.8008252197
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25409320753,
+          43.8008252197
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              4.5,
-              44.0
-            ],
-            [
-              5.0,
-              44.0
-            ],
-            [
               5.0,
               43.5
+            ],
+            [
+              5.0,
+              44.0
+            ],
+            [
+              4.5,
+              44.0
             ],
             [
               4.5,

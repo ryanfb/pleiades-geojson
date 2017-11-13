@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Bagneux Megalith",
   "id": "319068505",
-  "description": "A megalithic dolmen located in Saumur, France. This is one of the largest dolmens in France.",
   "bbox": [
     -0.0945134,
     47.2431632,
     -0.0945134,
     47.2431632
   ],
-  "reprPoint": [
-    -0.0945134,
-    47.2431632
-  ],
+  "description": "A megalithic dolmen located in Saumur, France. This is one of the largest dolmens in France.",
   "names": [
     "Bagneaux Megalith",
     "Dolmen de Bagneux"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0945134,
+          47.2431632
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

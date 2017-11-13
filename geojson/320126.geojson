@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "320126",
-  "description": "An ancient place, cited: BAtlas 32 D4 unnamed unlabeled ((7 monuments, 1 cemetery, 2 walls))",
   "bbox": [
     9.283819,
     36.121072,
     9.283819,
     36.121072
   ],
-  "reprPoint": [
-    9.283819,
-    36.121072
-  ],
+  "description": "An ancient place, cited: BAtlas 32 D4 unnamed unlabeled ((7 monuments, 1 cemetery, 2 walls))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.283819,
+          36.121072
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              9.0,
-              36.5
-            ],
-            [
-              9.5,
-              36.5
-            ],
-            [
               9.5,
               36.0
+            ],
+            [
+              9.5,
+              36.5
+            ],
+            [
+              9.0,
+              36.5
             ],
             [
               9.0,

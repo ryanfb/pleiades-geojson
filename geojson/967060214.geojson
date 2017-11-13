@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 51B (Lea Hill)",
   "id": "967060214",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.651816,
     54.978839,
     -2.651702,
     54.978904
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.6517587119,
-    54.9788713421
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6517587119,
+          54.9788713421
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.651816,
-              54.978882,
+              -2.651702,
+              54.97886,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.651702,
-              54.97886,
+              -2.651816,
+              54.978882,
               0.0
             ],
             [

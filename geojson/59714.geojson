@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Assakanoi",
   "id": "59714",
-  "description": "An ancient place, cited: BAtlas 6 C3 Assakanoi",
   "bbox": [
     70.0,
     30.0,
     75.0,
     35.0
   ],
-  "reprPoint": [
-    72.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C3 Assakanoi",
   "names": [
     "Assakanoi",
     "Asmagi",
@@ -20,6 +16,19 @@
     "Assakia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               30.0
             ],
             [
-              70.0,
-              35.0
-            ],
-            [
-              75.0,
-              35.0
-            ],
-            [
               75.0,
               30.0
+            ],
+            [
+              75.0,
+              35.0
+            ],
+            [
+              70.0,
+              35.0
             ],
             [
               70.0,

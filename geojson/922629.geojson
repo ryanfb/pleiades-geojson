@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chahar Deh",
   "id": "922629",
-  "description": "An ancient place, cited: BAtlas 94 A3 Chahar Deh",
   "bbox": [
     50.907919,
     30.31731,
     50.907919,
     30.31731
   ],
-  "reprPoint": [
-    50.907919,
-    30.31731
-  ],
+  "description": "An ancient place, cited: BAtlas 94 A3 Chahar Deh",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.907919,
+          30.31731
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

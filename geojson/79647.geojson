@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Portus Lemanis",
   "id": "79647",
-  "description": "An ancient place, cited: BAtlas 8 I3 Portus Lemanis",
   "bbox": [
     1.019602,
     51.067083,
     1.023064,
     51.06949
   ],
-  "reprPoint": [
-    1.02117852005,
-    51.0686172743
-  ],
+  "description": "An ancient place, cited: BAtlas 8 I3 Portus Lemanis",
   "names": [
     "Portus Lemanis",
     "Lympne"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.02117852005,
+          51.0686172743
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,20 +37,20 @@
               51.067083
             ],
             [
-              1.019602,
-              51.068636
-            ],
-            [
-              1.020843,
-              51.06949
+              1.023064,
+              51.067442
             ],
             [
               1.022225,
               51.06933
             ],
             [
-              1.023064,
-              51.067442
+              1.020843,
+              51.06949
+            ],
+            [
+              1.019602,
+              51.068636
             ],
             [
               1.02032,

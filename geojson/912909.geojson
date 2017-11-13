@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nina",
   "id": "912909",
-  "description": "An ancient place, cited: BAtlas 93 C2 Nina",
   "bbox": [
     46.714373,
     31.403458,
     46.714373,
     31.403458
   ],
-  "reprPoint": [
-    46.714373,
-    31.403458
-  ],
+  "description": "An ancient place, cited: BAtlas 93 C2 Nina",
   "names": [
     "Nina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.714373,
+          31.403458
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "973199",
-  "description": "An ancient place, cited: BAtlas 99 C2 unnamed canal (near Takht-i Sangin)",
   "bbox": [
     68.0,
     37.0,
     69.0,
     38.0
   ],
-  "reprPoint": [
-    68.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 99 C2 unnamed canal (near Takht-i Sangin)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.0
             ],
             [
-              68.0,
-              38.0
-            ],
-            [
-              69.0,
-              38.0
-            ],
-            [
               69.0,
               37.0
+            ],
+            [
+              69.0,
+              38.0
+            ],
+            [
+              68.0,
+              38.0
             ],
             [
               68.0,

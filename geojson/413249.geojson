@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pescara",
   "id": "413249",
-  "description": "An ancient place, cited: BAtlas 42 F4 Pescara",
   "bbox": [
     13.805723,
     42.169726,
     13.805723,
     42.169726
   ],
-  "reprPoint": [
-    13.805723,
-    42.169726
-  ],
+  "description": "An ancient place, cited: BAtlas 42 F4 Pescara",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.805723,
+          42.169726
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

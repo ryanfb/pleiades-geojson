@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Africa Proconsularis (Roman province)",
   "id": "981504",
-  "description": "The late Republican and early Roman imperial province, initially known as \"Africa vetus\".",
   "bbox": [
     10.0,
     30.0,
     15.0,
     35.0
   ],
-  "reprPoint": [
-    12.5,
-    32.5
-  ],
+  "description": "The late Republican and early Roman imperial province, initially known as \"Africa vetus\".",
   "names": [
     "Africa Proconsularis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.0
             ],
             [
-              10.0,
-              35.0
-            ],
-            [
-              15.0,
-              35.0
-            ],
-            [
               15.0,
               30.0
+            ],
+            [
+              15.0,
+              35.0
+            ],
+            [
+              10.0,
+              35.0
             ],
             [
               10.0,

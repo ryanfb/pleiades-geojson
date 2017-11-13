@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Denthaliates (Ager)",
   "id": "570194",
-  "description": "An ancient place, cited: BAtlas 58 C3 Denthaliates (Ager)",
   "bbox": [
     22.0,
     37.0,
     22.5,
     37.5
   ],
-  "reprPoint": [
-    22.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C3 Denthaliates (Ager)",
   "names": [
     "Denthaliates Ager",
     "Denthaliates",
     "Denthalioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               37.0
             ],
             [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
               22.5,
               37.0
+            ],
+            [
+              22.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
             ],
             [
               22.0,

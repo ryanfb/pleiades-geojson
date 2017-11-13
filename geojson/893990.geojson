@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "D(o)ura/Europos",
   "id": "893990",
-  "description": "An ancient settlement on the Euphrates river in modern Syria.",
   "bbox": [
     40.730117,
     34.74722,
     40.730117,
     34.74722
   ],
+  "description": "An ancient settlement on the Euphrates river in modern Syria.",
   "connectsWith": [
     "912849"
-  ],
-  "reprPoint": [
-    40.730117,
-    34.74722
   ],
   "names": [
     "Dura",
@@ -23,6 +19,19 @@
     "Europos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.730117,
+          34.74722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

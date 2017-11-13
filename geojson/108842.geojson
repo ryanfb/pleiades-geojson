@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caerosi",
   "id": "108842",
-  "description": "Caerosi, a tribe of Gallia Belgica.",
   "bbox": [
     6.0,
     50.0,
     7.0,
     51.0
   ],
-  "reprPoint": [
-    6.5,
-    50.5
-  ],
+  "description": "Caerosi, a tribe of Gallia Belgica.",
   "names": [
     "Caerosi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              6.0,
-              51.0
-            ],
-            [
-              7.0,
-              51.0
-            ],
-            [
               7.0,
               50.0
+            ],
+            [
+              7.0,
+              51.0
+            ],
+            [
+              6.0,
+              51.0
             ],
             [
               6.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kakavoula",
   "id": "530909",
-  "description": "An ancient place, cited: BAtlas 54 C4 Kakavoula",
   "bbox": [
     20.888008,
     38.796196,
     20.888008,
     38.796196
   ],
-  "reprPoint": [
-    20.888008,
-    38.796196
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C4 Kakavoula",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.888008,
+          38.796196
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

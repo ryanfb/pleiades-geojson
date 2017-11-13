@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Sane/Ouranopolis",
   "id": "501599",
-  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "bbox": [
     23.934807,
     40.363569,
     23.934807,
     40.363569
   ],
+  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "connectsWith": [
     "501365"
-  ],
-  "reprPoint": [
-    23.934807,
-    40.363569
   ],
   "names": [
     "Sane",
     "Ouranopolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.934807,
+          40.363569
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Amphitheatrum Flavium",
   "id": "285857974",
-  "description": "The Flavian amphitheater at Rome (the so-called \"Colosseum\").",
   "bbox": [
     12.492269,
     41.890169,
     12.492269,
     41.890169
   ],
+  "description": "The Flavian amphitheater at Rome (the so-called \"Colosseum\").",
   "connectsWith": [
     "423025"
   ],
-  "reprPoint": [
-    12.492269,
-    41.890169
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.492269,
+          41.890169
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed place",
   "id": "963101000",
-  "description": "An unnamed monument, settlement, or villa of Syrtica",
   "bbox": [
     15.937762,
     31.289471,
     15.937762,
     31.289471
   ],
-  "reprPoint": [
-    15.937762,
-    31.289471
-  ],
+  "description": "An unnamed monument, settlement, or villa of Syrtica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.937762,
+          31.289471
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

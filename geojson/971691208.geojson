@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Palatinus Mons",
   "id": "971691208",
-  "description": "The central hill of Rome, Italy. Legend held that Romulus founded the city of Rome on the Palatine.",
   "bbox": [
     12.4871093,
     41.8893064,
     12.4871093,
     41.8893064
   ],
+  "description": "The central hill of Rome, Italy. Legend held that Romulus founded the city of Rome on the Palatine.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4871093,
-    41.8893064
   ],
   "names": [
     "Monte Palatino"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4871093,
+          41.8893064
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

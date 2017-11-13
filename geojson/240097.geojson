@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240097",
-  "description": "Talabriga → Alpedrinha",
   "bbox": [
     -11.0,
     40.0,
     -3.0,
     44.0
   ],
-  "reprPoint": [
-    -7.0,
-    42.0
-  ],
+  "description": "Talabriga → Alpedrinha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0,
+          42.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              -11.0,
-              44.0
-            ],
-            [
-              -3.0,
-              44.0
-            ],
-            [
               -3.0,
               40.0
+            ],
+            [
+              -3.0,
+              44.0
+            ],
+            [
+              -11.0,
+              44.0
             ],
             [
               -11.0,

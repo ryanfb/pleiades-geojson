@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Halys (river)",
   "id": "857148",
-  "description": "The Kızılırmak river, the ancient Halys River, is a major river of Asia Minor that flows into the Black Sea.",
   "bbox": [
     35.9295291,
     41.6767598,
     35.9295291,
     41.6767598
   ],
+  "description": "The Kızılırmak river, the ancient Halys River, is a major river of Asia Minor that flows into the Black Sea.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    35.9295291,
-    41.6767598
   ],
   "names": [
     "Halys",
@@ -27,6 +23,19 @@
     "Kızılırmak"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9295291,
+          41.6767598
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

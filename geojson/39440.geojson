@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Zamareni?",
   "id": "39440",
-  "description": "An ancient place, cited: BAtlas 4 B2 Zamareni?",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 Zamareni?",
   "names": [
     "Zamareni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               15.0
             ],
             [
-              40.0,
-              20.0
-            ],
-            [
-              45.0,
-              20.0
-            ],
-            [
               45.0,
               15.0
+            ],
+            [
+              45.0,
+              20.0
+            ],
+            [
+              40.0,
+              20.0
             ],
             [
               40.0,

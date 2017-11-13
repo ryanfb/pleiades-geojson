@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cavares",
   "id": "148042",
-  "description": "The Cavares were a Gallic tribe of the lower Rhone valley.",
   "bbox": [
     4.5,
     43.5,
     5.0,
     44.0
   ],
-  "reprPoint": [
-    4.75,
-    43.75
-  ],
+  "description": "The Cavares were a Gallic tribe of the lower Rhone valley.",
   "names": [
     "Cavares"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              4.5,
-              44.0
-            ],
-            [
-              5.0,
-              44.0
-            ],
-            [
               5.0,
               43.5
+            ],
+            [
+              5.0,
+              44.0
+            ],
+            [
+              4.5,
+              44.0
             ],
             [
               4.5,

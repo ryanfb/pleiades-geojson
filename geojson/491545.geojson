@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Berovo",
   "id": "491545",
-  "description": "An ancient place, cited: BAtlas 50 C1 Berovo",
   "bbox": [
     22.85948,
     41.705235,
     22.85948,
     41.705235
   ],
-  "reprPoint": [
-    22.85948,
-    41.705235
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C1 Berovo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.85948,
+          41.705235
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

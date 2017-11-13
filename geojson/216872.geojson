@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "‘Locidae Regi’",
   "id": "216872",
-  "description": "An ancient place, cited: BAtlas 22 E5 ‘Locidae Regi’",
   "bbox": [
     27.0,
     43.0,
     28.0,
     44.0
   ],
-  "reprPoint": [
-    27.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 E5 ‘Locidae Regi’",
   "names": [
     "Locidae Regi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              27.0,
-              44.0
-            ],
-            [
-              28.0,
-              44.0
-            ],
-            [
               28.0,
               43.0
+            ],
+            [
+              28.0,
+              44.0
+            ],
+            [
+              27.0,
+              44.0
             ],
             [
               27.0,

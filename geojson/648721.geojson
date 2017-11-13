@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nesiazousa Pr.",
   "id": "648721",
-  "description": "An ancient place, cited: BAtlas 66 A4 Nesiazousa Pr.",
   "bbox": [
     32.0,
     36.0,
     32.5,
     36.5
   ],
-  "reprPoint": [
-    32.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 66 A4 Nesiazousa Pr.",
   "names": [
     "Nesiazousa Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              32.0,
-              36.5
-            ],
-            [
-              32.5,
-              36.5
-            ],
-            [
               32.5,
               36.0
+            ],
+            [
+              32.5,
+              36.5
+            ],
+            [
+              32.0,
+              36.5
             ],
             [
               32.0,

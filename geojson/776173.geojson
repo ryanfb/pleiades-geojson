@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Exotero (Oasis)",
   "id": "776173",
-  "description": "An ancient place, cited: BAtlas 79 D2 Exotero (Oasis)",
   "bbox": [
     30.594006,
     24.524831,
     30.601166,
     24.696005
   ],
-  "reprPoint": [
-    30.597586,
-    24.610418
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D2 Exotero (Oasis)",
   "names": [
     " Exotero Oasis",
     " Exotero",
     "El-Kharga"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.597586,
+          24.610418
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               25.5
             ],
             [
-              30.5,
-              26.0
-            ],
-            [
-              31.0,
-              26.0
-            ],
-            [
               31.0,
               25.5
+            ],
+            [
+              31.0,
+              26.0
+            ],
+            [
+              30.5,
+              26.0
             ],
             [
               30.5,

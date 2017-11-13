@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Khirbet el-Thalajeh",
   "id": "746766",
-  "description": "An ancient place, cited: BAtlas 76 H2 Khirbet el-Thalajeh",
   "bbox": [
     35.5,
     29.5,
     36.0,
     30.0
   ],
-  "reprPoint": [
-    35.75,
-    29.75
-  ],
+  "description": "An ancient place, cited: BAtlas 76 H2 Khirbet el-Thalajeh",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          29.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               29.5
             ],
             [
-              35.5,
-              30.0
-            ],
-            [
-              36.0,
-              30.0
-            ],
-            [
               36.0,
               29.5
+            ],
+            [
+              36.0,
+              30.0
+            ],
+            [
+              35.5,
+              30.0
             ],
             [
               35.5,

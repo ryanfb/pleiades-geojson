@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Mykonos",
   "id": "599807",
-  "description": "An ancient place, cited: BAtlas 61 A3 Mykonos",
   "bbox": [
     25.328619,
     37.445959,
     25.328619,
     37.445959
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Mykonos",
   "connectsWith": [
     "599808"
-  ],
-  "reprPoint": [
-    25.328619,
-    37.445959
   ],
   "names": [
     "Mykonos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.328619,
+          37.445959
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

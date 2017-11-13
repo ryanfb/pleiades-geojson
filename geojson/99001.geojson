@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lohe",
   "id": "99001",
-  "description": "An ancient place, cited: BAtlas 10 D4 Lohe",
   "bbox": [
     7.520654,
     52.481179,
     7.520654,
     52.481179
   ],
-  "reprPoint": [
-    7.520654,
-    52.481179
-  ],
+  "description": "An ancient place, cited: BAtlas 10 D4 Lohe",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.520654,
+          52.481179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

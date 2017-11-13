@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gallos? (river)",
   "id": "609385",
-  "description": "An ancient place, cited: BAtlas 62 F5 Gallos? fl.",
   "bbox": [
     31.0,
     38.0,
     31.5,
     38.5
   ],
-  "reprPoint": [
-    31.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 F5 Gallos? fl.",
   "names": [
     "Gallos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              31.0,
-              38.5
-            ],
-            [
-              31.5,
-              38.5
-            ],
-            [
               31.5,
               38.0
+            ],
+            [
+              31.5,
+              38.5
+            ],
+            [
+              31.0,
+              38.5
             ],
             [
               31.0,

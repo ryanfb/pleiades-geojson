@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Poggio La Croce",
   "id": "817583144",
-  "description": "A fortified Etruscan settlement.",
   "bbox": [
     11.3612423,
     43.4810163,
     11.3612423,
     43.4810163
   ],
-  "reprPoint": [
-    11.3612423,
-    43.4810163
-  ],
+  "description": "A fortified Etruscan settlement.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3612423,
+          43.4810163
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

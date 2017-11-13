@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Laedavus (river)",
   "id": "128438",
-  "description": "The Leitha river.",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.095556
   ],
+  "description": "The Leitha river.",
   "connectsWith": [
     "226577"
-  ],
-  "reprPoint": [
-    15.0772312333,
-    47.1149830333
   ],
   "names": [
     "Laedavus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0772312333,
+          47.1149830333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               48.0
             ],
             [
-              17.0,
-              49.0
-            ],
-            [
-              18.0,
-              49.0
-            ],
-            [
               18.0,
               48.0
+            ],
+            [
+              18.0,
+              49.0
+            ],
+            [
+              17.0,
+              49.0
             ],
             [
               17.0,

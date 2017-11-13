@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phoinikon",
   "id": "786091",
-  "description": "An ancient place, cited: BAtlas 80 C2 Phoinikon",
   "bbox": [
     33.0,
     25.5,
     33.5,
     26.0
   ],
-  "reprPoint": [
-    33.25,
-    25.75
-  ],
+  "description": "An ancient place, cited: BAtlas 80 C2 Phoinikon",
   "names": [
     "Phoinikon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          25.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.5
             ],
             [
-              33.0,
-              26.0
-            ],
-            [
-              33.5,
-              26.0
-            ],
-            [
               33.5,
               25.5
+            ],
+            [
+              33.5,
+              26.0
+            ],
+            [
+              33.0,
+              26.0
             ],
             [
               33.0,

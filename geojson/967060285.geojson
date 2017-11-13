@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 0B (St. Francis)",
   "id": "967060285",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.543453,
     54.985272,
     -1.543453,
     54.985272
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.543453,
-    54.985272
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.543453,
+          54.985272
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

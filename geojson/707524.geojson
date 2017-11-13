@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kapsalaes",
   "id": "707524",
-  "description": "An ancient place, cited: BAtlas 72 C3 Kapsalaes",
   "bbox": [
     33.262499,
     34.841422,
     33.262499,
     34.841422
   ],
+  "description": "An ancient place, cited: BAtlas 72 C3 Kapsalaes",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.262499,
-    34.841422
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.262499,
+          34.841422
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

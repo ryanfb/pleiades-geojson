@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Hyp(h)asis/Bibasis (river)",
   "id": "59839",
-  "description": "The Beas River is a river of northern India that flows 470 km from the Himalayas to the Sutlej River.",
   "bbox": [
     75.5556504,
     32.0416714,
     75.5556504,
     32.0416714
   ],
-  "reprPoint": [
-    75.5556504,
-    32.0416714
-  ],
+  "description": "The Beas River is a river of northern India that flows 470 km from the Himalayas to the Sutlej River.",
   "names": [
     "Hyphasis",
     "Hypasis",
@@ -20,6 +16,19 @@
     "Hypanis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5556504,
+          32.0416714
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

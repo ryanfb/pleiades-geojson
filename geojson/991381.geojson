@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caria",
   "id": "991381",
-  "description": "An ancient place, cited: BAtlas 101 M4 Caria",
   "bbox": [
     27.420201,
     36.825909,
     28.7301256478,
     37.7129170161
   ],
-  "reprPoint": [
-    28.0889969027,
-    37.2131638336
-  ],
+  "description": "An ancient place, cited: BAtlas 101 M4 Caria",
   "names": [
     "Caria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0889969027,
+          37.2131638336
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              25.0,
-              40.0
-            ],
-            [
-              30.0,
-              40.0
-            ],
-            [
               30.0,
               35.0
+            ],
+            [
+              30.0,
+              40.0
+            ],
+            [
+              25.0,
+              40.0
             ],
             [
               25.0,

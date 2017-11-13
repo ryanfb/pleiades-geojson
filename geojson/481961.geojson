@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pirustae",
   "id": "481961",
-  "description": "Pirustae were a Pannonian Illyrian tribe that lived in modern Montenegro.",
   "bbox": [
     19.0,
     42.0,
     20.0,
     43.0
   ],
-  "reprPoint": [
-    19.5,
-    42.5
-  ],
+  "description": "Pirustae were a Pannonian Illyrian tribe that lived in modern Montenegro.",
   "names": [
     "Pirustae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              19.0,
-              43.0
-            ],
-            [
-              20.0,
-              43.0
-            ],
-            [
               20.0,
               42.0
+            ],
+            [
+              20.0,
+              43.0
+            ],
+            [
+              19.0,
+              43.0
             ],
             [
               19.0,

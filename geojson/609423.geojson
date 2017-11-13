@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karmeios? (river)",
   "id": "609423",
-  "description": "An ancient place, cited: BAtlas 62 G5 Karmeios? fl.",
   "bbox": [
     31.5,
     38.0,
     32.0,
     38.5
   ],
-  "reprPoint": [
-    31.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 G5 Karmeios? fl.",
   "names": [
     "Karmeios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              31.5,
-              38.5
-            ],
-            [
-              32.0,
-              38.5
-            ],
-            [
               32.0,
               38.0
+            ],
+            [
+              32.0,
+              38.5
+            ],
+            [
+              31.5,
+              38.5
             ],
             [
               31.5,

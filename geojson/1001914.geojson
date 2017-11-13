@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Lykia",
   "id": "1001914",
-  "description": "The late-antique province of Lykia (BAtlas 102 E4 no. 28)",
   "bbox": [
     25.0,
     35.0,
     30.0,
     40.0
   ],
+  "description": "The late-antique province of Lykia (BAtlas 102 E4 no. 28)",
   "connectsWith": [
     "991384",
     "981530"
-  ],
-  "reprPoint": [
-    27.5,
-    37.5
   ],
   "names": [
     "Lykia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               35.0
             ],
             [
-              25.0,
-              40.0
-            ],
-            [
-              30.0,
-              40.0
-            ],
-            [
               30.0,
               35.0
+            ],
+            [
+              30.0,
+              40.0
+            ],
+            [
+              25.0,
+              40.0
             ],
             [
               25.0,

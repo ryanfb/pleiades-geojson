@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Samonion Pedion",
   "id": "550861",
-  "description": "An ancient place, cited: BAtlas 56 C2 Samonion Pedion",
   "bbox": [
     26.0,
     39.5,
     26.5,
     40.0
   ],
-  "reprPoint": [
-    26.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 56 C2 Samonion Pedion",
   "names": [
     "Samonion Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              26.0,
-              40.0
-            ],
-            [
-              26.5,
-              40.0
-            ],
-            [
               26.5,
               39.5
+            ],
+            [
+              26.5,
+              40.0
+            ],
+            [
+              26.0,
+              40.0
             ],
             [
               26.0,

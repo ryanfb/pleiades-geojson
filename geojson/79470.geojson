@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Frilford",
   "id": "79470",
-  "description": "The site of a 12-room Roman villa excavated in 1884.",
   "bbox": [
     -1.362389,
     51.670757,
     -1.362389,
     51.670757
   ],
-  "reprPoint": [
-    -1.362389,
-    51.670757
-  ],
+  "description": "The site of a 12-room Roman villa excavated in 1884.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.362389,
+          51.670757
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

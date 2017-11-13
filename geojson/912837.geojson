@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Dilmun",
   "id": "912837",
-  "description": "An ancient place, cited: BAtlas 93 E4 Dilmun",
   "bbox": [
     47.915846,
     29.35497,
     47.920252,
     29.391507
   ],
-  "reprPoint": [
-    47.918049,
-    29.3732385
-  ],
+  "description": "An ancient place, cited: BAtlas 93 E4 Dilmun",
   "names": [
     "Dilmun",
     "Telmun"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.918049,
+          29.3732385
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               29.0
             ],
             [
-              48.0,
-              30.0
-            ],
-            [
-              49.0,
-              30.0
-            ],
-            [
               49.0,
               29.0
+            ],
+            [
+              49.0,
+              30.0
+            ],
+            [
+              48.0,
+              30.0
             ],
             [
               48.0,

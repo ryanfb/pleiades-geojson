@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "396379",
-  "description": "An ancient place, cited: BAtlas 40 A2 unnamed centuriation (N Castello del Tartaro (Verona))",
   "bbox": [
     11.0,
     45.0,
     11.5,
     45.5
   ],
-  "reprPoint": [
-    11.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 40 A2 unnamed centuriation (N Castello del Tartaro (Verona))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               45.0
             ],
             [
-              11.0,
-              45.5
-            ],
-            [
-              11.5,
-              45.5
-            ],
-            [
               11.5,
               45.0
+            ],
+            [
+              11.5,
+              45.5
+            ],
+            [
+              11.0,
+              45.5
             ],
             [
               11.0,

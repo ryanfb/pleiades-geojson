@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Radani (river)",
   "id": "894078",
-  "description": "An ancient place, cited: BAtlas 91 F3 Radani fl.",
   "bbox": [
     44.0,
     34.0,
     45.0,
     35.0
   ],
-  "reprPoint": [
-    44.5,
-    34.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 F3 Radani fl.",
   "names": [
     "Radani",
     "Rhamma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.0
             ],
             [
-              44.0,
-              35.0
-            ],
-            [
-              45.0,
-              35.0
-            ],
-            [
               45.0,
               34.0
+            ],
+            [
+              45.0,
+              35.0
+            ],
+            [
+              44.0,
+              35.0
             ],
             [
               44.0,

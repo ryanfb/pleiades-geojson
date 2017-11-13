@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Acharnai (S)",
   "id": "579843",
-  "description": "An ancient place, cited: BAtlas 59 B2 Acharnai (S)",
   "bbox": [
     23.5,
     38.0,
     23.75,
     38.25
   ],
-  "reprPoint": [
-    23.625,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B2 Acharnai (S)",
   "names": [
     "Acharnai S",
     "Acharnai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              23.5,
-              38.25
-            ],
-            [
-              23.75,
-              38.25
-            ],
-            [
               23.75,
               38.0
+            ],
+            [
+              23.75,
+              38.25
+            ],
+            [
+              23.5,
+              38.25
             ],
             [
               23.5,

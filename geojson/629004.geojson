@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kataonia",
   "id": "629004",
-  "description": "Kataonia was a regional subdivision of Cappadocia.",
   "bbox": [
     36.0,
     38.0,
     36.5,
     38.5
   ],
-  "reprPoint": [
-    36.25,
-    38.25
-  ],
+  "description": "Kataonia was a regional subdivision of Cappadocia.",
   "names": [
     "Kataonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              36.0,
-              38.5
-            ],
-            [
-              36.5,
-              38.5
-            ],
-            [
               36.5,
               38.0
+            ],
+            [
+              36.5,
+              38.5
+            ],
+            [
+              36.0,
+              38.5
             ],
             [
               36.0,

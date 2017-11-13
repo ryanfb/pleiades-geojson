@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Majorca (island)",
   "id": "632227173",
-  "description": "Majorca is the largest island in the Balearic Islands archipelago in the western Mediterranean Sea.",
   "bbox": [
     2.7487608,
     39.5019494,
     2.7487608,
     39.5019494
   ],
+  "description": "Majorca is the largest island in the Balearic Islands archipelago in the western Mediterranean Sea.",
   "connectsWith": [
     "265817"
   ],
-  "reprPoint": [
-    2.7487608,
-    39.5019494
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7487608,
+          39.5019494
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

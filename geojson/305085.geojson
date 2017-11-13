@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Giddaba? M.",
   "id": "305085",
-  "description": "An ancient place, cited: BAtlas 31 G2 Giddaba? M.",
   "bbox": [
     7.0,
     37.0,
     7.5,
     37.5
   ],
-  "reprPoint": [
-    7.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 31 G2 Giddaba? M.",
   "names": [
     "Giddaba M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              7.0,
-              37.5
-            ],
-            [
-              7.5,
-              37.5
-            ],
-            [
               7.5,
               37.0
+            ],
+            [
+              7.5,
+              37.5
+            ],
+            [
+              7.0,
+              37.5
             ],
             [
               7.0,

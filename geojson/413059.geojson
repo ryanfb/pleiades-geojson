@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caletranus Ager",
   "id": "413059",
-  "description": "The Caletranus Ager was the territory surrounding the Etruscan city of Caletra.",
   "bbox": [
     11.0,
     42.5,
     11.5,
     43.0
   ],
-  "reprPoint": [
-    11.25,
-    42.75
-  ],
+  "description": "The Caletranus Ager was the territory surrounding the Etruscan city of Caletra.",
   "names": [
     "Caletranus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.5
             ],
             [
-              11.0,
-              43.0
-            ],
-            [
-              11.5,
-              43.0
-            ],
-            [
               11.5,
               42.5
+            ],
+            [
+              11.5,
+              43.0
+            ],
+            [
+              11.0,
+              43.0
             ],
             [
               11.0,

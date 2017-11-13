@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Apollonopolites Nomos",
   "id": "756535",
-  "description": "An ancient place, cited: BAtlas 77 E2 Apollonopolites Nomos",
   "bbox": [
     31.0,
     27.0,
     31.5,
     27.5
   ],
-  "reprPoint": [
-    31.25,
-    27.25
-  ],
+  "description": "An ancient place, cited: BAtlas 77 E2 Apollonopolites Nomos",
   "names": [
     "Apollonopolites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          27.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               27.0
             ],
             [
-              31.0,
-              27.5
-            ],
-            [
-              31.5,
-              27.5
-            ],
-            [
               31.5,
               27.0
+            ],
+            [
+              31.5,
+              27.5
+            ],
+            [
+              31.0,
+              27.5
             ],
             [
               31.0,

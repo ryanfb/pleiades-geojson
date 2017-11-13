@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "385067",
-  "description": "An unnamed ancient bridge over the Incia fl., near S. Ilario d’Enza.",
   "bbox": [
     10.0,
     44.5,
     10.5,
     45.0
   ],
+  "description": "An unnamed ancient bridge over the Incia fl., near S. Ilario d’Enza.",
   "connectsWith": [
     "383676"
   ],
-  "reprPoint": [
-    10.25,
-    44.75
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              10.0,
-              45.0
-            ],
-            [
-              10.5,
-              45.0
-            ],
-            [
               10.5,
               44.5
+            ],
+            [
+              10.5,
+              45.0
+            ],
+            [
+              10.0,
+              45.0
             ],
             [
               10.0,

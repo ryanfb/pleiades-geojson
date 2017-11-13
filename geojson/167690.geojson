@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Brigantio",
   "id": "167690",
-  "description": "An ancient place, cited: BAtlas 17 G2 Brigantio",
   "bbox": [
     6.473626,
     45.532064,
     6.473626,
     45.532064
   ],
-  "reprPoint": [
-    6.473626,
-    45.532064
-  ],
+  "description": "An ancient place, cited: BAtlas 17 G2 Brigantio",
   "names": [
     "Brigantio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.473626,
+          45.532064
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              6.0,
-              46.0
-            ],
-            [
-              6.5,
-              46.0
-            ],
-            [
               6.5,
               45.5
+            ],
+            [
+              6.5,
+              46.0
+            ],
+            [
+              6.0,
+              46.0
             ],
             [
               6.0,

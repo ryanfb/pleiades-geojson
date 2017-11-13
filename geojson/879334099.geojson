@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dunning camp",
   "id": "879334099",
-  "description": "Temporary Roman camp of Flavian date",
   "bbox": [
     -3.577949,
     56.317368,
     -3.577949,
     56.317368
   ],
-  "reprPoint": [
-    -3.577949,
-    56.317368
-  ],
+  "description": "Temporary Roman camp of Flavian date",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.577949,
+          56.317368
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

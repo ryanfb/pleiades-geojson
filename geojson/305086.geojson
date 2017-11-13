@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Giddibenses?",
   "id": "305086",
-  "description": "An ancient place, cited: BAtlas 31 G3 Giddibenses?",
   "bbox": [
     7.0,
     36.5,
     7.5,
     37.0
   ],
-  "reprPoint": [
-    7.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 31 G3 Giddibenses?",
   "names": [
     "Giddibenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              7.0,
-              37.0
-            ],
-            [
-              7.5,
-              37.0
-            ],
-            [
               7.5,
               36.5
+            ],
+            [
+              7.5,
+              37.0
+            ],
+            [
+              7.0,
+              37.0
             ],
             [
               7.0,

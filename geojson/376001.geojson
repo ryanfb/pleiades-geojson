@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cyrene - Apollonia Road",
   "id": "376001",
-  "description": "Cyrene → Apollonia",
   "bbox": [
     21.848114,
     32.8157491,
     21.8647057,
     32.8258497
   ],
-  "reprPoint": [
-    21.85641561,
-    32.8214231627
-  ],
+  "description": "Cyrene → Apollonia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.85641561,
+          32.8214231627
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               29.0
             ],
             [
-              19.0,
-              33.0
-            ],
-            [
-              24.0,
-              33.0
-            ],
-            [
               24.0,
               29.0
+            ],
+            [
+              24.0,
+              33.0
+            ],
+            [
+              19.0,
+              33.0
             ],
             [
               19.0,

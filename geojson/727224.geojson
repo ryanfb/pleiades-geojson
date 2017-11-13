@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Sebennytikon Stoma",
   "id": "727224",
-  "description": "The third western-most ancient mouth of the Nile river.",
   "bbox": [
     29.331389,
     -2.282222,
     31.2705999,
     30.166667
   ],
+  "description": "The third western-most ancient mouth of the Nile river.",
   "connectsWith": [
     "727172",
     "1043"
-  ],
-  "reprPoint": [
-    30.5673296333,
-    19.2114087667
   ],
   "names": [
     "Sebennytikon Stoma",
@@ -24,6 +20,19 @@
     "Sebennytikon Stoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5673296333,
+          19.2114087667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -34,16 +43,16 @@
               31.5
             ],
             [
-              31.0,
-              32.0
-            ],
-            [
-              31.5,
-              32.0
-            ],
-            [
               31.5,
               31.5
+            ],
+            [
+              31.5,
+              32.0
+            ],
+            [
+              31.0,
+              32.0
             ],
             [
               31.0,

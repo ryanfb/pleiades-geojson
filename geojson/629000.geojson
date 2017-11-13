@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Karakuyu",
   "id": "629000",
-  "description": "An ancient place, cited: BAtlas 64 D3 Karakuyu",
   "bbox": [
     36.728796,
     38.924869,
     36.728796,
     38.924869
   ],
-  "reprPoint": [
-    36.728796,
-    38.924869
-  ],
+  "description": "An ancient place, cited: BAtlas 64 D3 Karakuyu",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.728796,
+          38.924869
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

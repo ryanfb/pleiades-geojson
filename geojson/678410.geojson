@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tel Anafa",
   "id": "678410",
-  "description": "An ancient place, cited: BAtlas 69 C3 Tel Anafa",
   "bbox": [
     35.636429,
     33.174125,
     35.636429,
     33.174125
   ],
-  "reprPoint": [
-    35.636429,
-    33.174125
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C3 Tel Anafa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.636429,
+          33.174125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

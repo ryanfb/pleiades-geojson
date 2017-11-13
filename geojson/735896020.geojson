@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Īwān Kisrā",
   "id": "735896020",
-  "description": "A place from the TAVO Index",
   "bbox": [
     48.0,
     34.0,
     49.0,
     35.0
   ],
-  "reprPoint": [
-    48.5,
-    34.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Īwān Kisrā",
     "Iwān Kisrā"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.0
             ],
             [
-              48.0,
-              35.0
-            ],
-            [
-              49.0,
-              35.0
-            ],
-            [
               49.0,
               34.0
+            ],
+            [
+              49.0,
+              35.0
+            ],
+            [
+              48.0,
+              35.0
             ],
             [
               48.0,

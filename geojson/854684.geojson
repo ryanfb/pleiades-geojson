@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Geroyevka",
   "id": "854684",
-  "description": "An ancient place, cited: BAtlas 87 K2 Geroyevka",
   "bbox": [
     36.406819,
     45.215651,
     36.406819,
     45.215651
   ],
-  "reprPoint": [
-    36.406819,
-    45.215651
-  ],
+  "description": "An ancient place, cited: BAtlas 87 K2 Geroyevka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.406819,
+          45.215651
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

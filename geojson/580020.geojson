@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mandra",
   "id": "580020",
-  "description": "An ancient place, cited: BAtlas 59 B2 Mandra",
   "bbox": [
     23.49717,
     38.074741,
     23.49717,
     38.074741
   ],
-  "reprPoint": [
-    23.49717,
-    38.074741
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B2 Mandra",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.49717,
+          38.074741
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

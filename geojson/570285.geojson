@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hellenika",
   "id": "570285",
-  "description": "An ancient place, cited: BAtlas 58 G2 Hellenika",
   "bbox": [
     24.346935,
     37.605456,
     24.346935,
     37.605456
   ],
-  "reprPoint": [
-    24.346935,
-    37.605456
-  ],
+  "description": "An ancient place, cited: BAtlas 58 G2 Hellenika",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.346935,
+          37.605456
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

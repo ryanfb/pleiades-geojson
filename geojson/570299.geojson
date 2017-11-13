@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Hydroussa/Hydrea (island)",
   "id": "570299",
-  "description": "An island of the Aegean Sea between the Saronic and Argolic gulfs. ",
   "bbox": [
     23.484,
     37.339,
     23.484,
     37.339
   ],
+  "description": "An island of the Aegean Sea between the Saronic and Argolic gulfs. ",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    23.484,
-    37.339
   ],
   "names": [
     "Hydroussa",
     "Hydrea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.484,
+          37.339
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

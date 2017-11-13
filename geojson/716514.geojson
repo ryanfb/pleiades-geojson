@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Koreishat",
   "id": "716514",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.725809,
     29.313218,
     25.725809,
     29.313218
   ],
-  "reprPoint": [
-    25.725809,
-    29.313218
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.725809,
+          29.313218
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

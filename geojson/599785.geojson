@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Marathion",
   "id": "599785",
-  "description": "An ancient place, cited: BAtlas 61 A3 Marathion",
   "bbox": [
     25.0,
     37.0,
     25.5,
     37.5
   ],
-  "reprPoint": [
-    25.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Marathion",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.0
             ],
             [
-              25.0,
-              37.5
-            ],
-            [
-              25.5,
-              37.5
-            ],
-            [
               25.5,
               37.0
+            ],
+            [
+              25.5,
+              37.5
+            ],
+            [
+              25.0,
+              37.5
             ],
             [
               25.0,

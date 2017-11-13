@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Amnisos",
   "id": "524143100",
-  "description": "A Bronze Age site on the north shore of Crete that may have served as a port for Knossos.",
   "bbox": [
     25.2,
     35.32,
     25.2071398,
     35.3312741
   ],
+  "description": "A Bronze Age site on the north shore of Crete that may have served as a port for Knossos.",
   "connectsWith": [
     "589748",
     "589872"
   ],
-  "reprPoint": [
-    25.2035699,
-    35.32563705
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2035699,
+          35.32563705
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

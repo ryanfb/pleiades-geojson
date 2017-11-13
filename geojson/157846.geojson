@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ecdinii",
   "id": "157846",
-  "description": "The Ecdinii were an Alpine tribe. They are mentioned both on the inscription of the Tropaeum Augusti and on the Arch of Augustus at Susa.",
   "bbox": [
     7.0,
     44.0,
     7.5,
     44.5
   ],
-  "reprPoint": [
-    7.25,
-    44.25
-  ],
+  "description": "The Ecdinii were an Alpine tribe. They are mentioned both on the inscription of the Tropaeum Augusti and on the Arch of Augustus at Susa.",
   "names": [
     "Ecdinii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              7.0,
-              44.5
-            ],
-            [
-              7.5,
-              44.5
-            ],
-            [
               7.5,
               44.0
+            ],
+            [
+              7.5,
+              44.5
+            ],
+            [
+              7.0,
+              44.5
             ],
             [
               7.0,

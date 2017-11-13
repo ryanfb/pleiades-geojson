@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Albarracín-Cella Roman aqueduct",
   "id": "246891",
-  "description": "An ancient place, cited: BAtlas 25 D5 unnamed aqueduct (Albarracín-Cella, NE S. Cristo)",
   "bbox": [
     -2.0,
     40.0,
     -1.0,
     41.0
   ],
-  "reprPoint": [
-    -1.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D5 unnamed aqueduct (Albarracín-Cella, NE S. Cristo)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              -2.0,
-              41.0
-            ],
-            [
-              -1.0,
-              41.0
-            ],
-            [
               -1.0,
               40.0
+            ],
+            [
+              -1.0,
+              41.0
+            ],
+            [
+              -2.0,
+              41.0
             ],
             [
               -2.0,

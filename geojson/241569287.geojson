@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Saint-Pierre de Vence",
   "id": "241569287",
-  "description": "A Gallo-Roman villa.",
   "bbox": [
     5.0047148,
     43.7141536,
     5.0047148,
     43.7141536
   ],
-  "reprPoint": [
-    5.0047148,
-    43.7141536
-  ],
+  "description": "A Gallo-Roman villa.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0047148,
+          43.7141536
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

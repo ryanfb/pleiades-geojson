@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aga Mons",
   "id": "874303",
-  "description": "A 3,246 meter mountain at the NE end of the Antitaurus range.",
   "bbox": [
     39.76667,
     39.8,
     39.76667,
     39.8
   ],
+  "description": "A 3,246 meter mountain at the NE end of the Antitaurus range.",
   "connectsWith": [
     "628924"
-  ],
-  "reprPoint": [
-    39.76667,
-    39.8
   ],
   "names": [
     "Aga M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.76667,
+          39.8
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               39.0
             ],
             [
-              39.0,
-              40.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
               40.0,
               39.0
+            ],
+            [
+              40.0,
+              40.0
+            ],
+            [
+              39.0,
+              40.0
             ],
             [
               39.0,

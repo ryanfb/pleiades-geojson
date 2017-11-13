@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Thymbrios (river)",
   "id": "550930",
-  "description": "A small river of the Troad and tributary of the Scamander.",
   "bbox": [
     26.0,
     39.5,
     26.5,
     40.0
   ],
+  "description": "A small river of the Troad and tributary of the Scamander.",
   "connectsWith": [
     "550871"
-  ],
-  "reprPoint": [
-    26.25,
-    39.75
   ],
   "names": [
     "Thymbrios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               39.5
             ],
             [
-              26.0,
-              40.0
-            ],
-            [
-              26.5,
-              40.0
-            ],
-            [
               26.5,
               39.5
+            ],
+            [
+              26.5,
+              40.0
+            ],
+            [
+              26.0,
+              40.0
             ],
             [
               26.0,

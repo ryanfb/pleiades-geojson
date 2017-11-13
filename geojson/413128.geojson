@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Falisci",
   "id": "413128",
-  "description": "The name for a group of Italic people who occupied the Ager Faliscus within Etruria.",
   "bbox": [
     12.0,
     42.0,
     12.5,
     42.5
   ],
-  "reprPoint": [
-    12.25,
-    42.25
-  ],
+  "description": "The name for a group of Italic people who occupied the Ager Faliscus within Etruria.",
   "names": [
     "Falisci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              12.0,
-              42.5
-            ],
-            [
-              12.5,
-              42.5
-            ],
-            [
               12.5,
               42.0
+            ],
+            [
+              12.5,
+              42.5
+            ],
+            [
+              12.0,
+              42.5
             ],
             [
               12.0,

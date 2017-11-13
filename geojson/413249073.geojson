@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Porta Solestà",
   "id": "413249073",
-  "description": "The Porta Solestà is one of the gates of Ascoli Piceno.",
   "bbox": [
     13.5720027,
     42.8582867,
     13.5720027,
     42.8582867
   ],
+  "description": "The Porta Solestà is one of the gates of Ascoli Piceno.",
   "connectsWith": [
     "413036"
   ],
-  "reprPoint": [
-    13.5720027,
-    42.8582867
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5720027,
+          42.8582867
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

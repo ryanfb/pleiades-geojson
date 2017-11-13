@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Korpilike",
   "id": "501477",
-  "description": "An ancient place, cited: BAtlas 51 F2 Korpilike",
   "bbox": [
     25.5,
     41.0,
     26.0,
     41.5
   ],
-  "reprPoint": [
-    25.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 F2 Korpilike",
   "names": [
     "Korpilike",
     "Korpiloi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              25.5,
-              41.5
-            ],
-            [
-              26.0,
-              41.5
-            ],
-            [
               26.0,
               41.0
+            ],
+            [
+              26.0,
+              41.5
+            ],
+            [
+              25.5,
+              41.5
             ],
             [
               25.5,

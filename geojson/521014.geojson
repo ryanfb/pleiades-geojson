@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Eleutheriou/Kaisariou Limen/Theodosiacus Portus",
   "id": "521014",
-  "description": "An ancient place, cited: BAtlas 53 A3 Eleutheriou/Kaisariou Limen/Theodosiacus Portus",
   "bbox": [
     28.75,
     40.75,
     29.0,
     41.0
   ],
-  "reprPoint": [
-    28.875,
-    40.875
-  ],
+  "description": "An ancient place, cited: BAtlas 53 A3 Eleutheriou/Kaisariou Limen/Theodosiacus Portus",
   "names": [
     "Eleutheriou",
     "Kaisariou Limen",
     "Theodosiacus Portus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          40.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               40.75
             ],
             [
-              28.75,
-              41.0
-            ],
-            [
-              29.0,
-              41.0
-            ],
-            [
               29.0,
               40.75
+            ],
+            [
+              29.0,
+              41.0
+            ],
+            [
+              28.75,
+              41.0
             ],
             [
               28.75,

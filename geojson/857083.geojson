@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Chalybes",
   "id": "857083",
-  "description": "The Chalybes or Chaldoi were an ancient people inhabiting Pontus and Cappadocia in Asia Minor.",
   "bbox": [
     36.0,
     41.0,
     37.0,
     42.0
   ],
-  "reprPoint": [
-    36.5,
-    41.5
-  ],
+  "description": "The Chalybes or Chaldoi were an ancient people inhabiting Pontus and Cappadocia in Asia Minor.",
   "names": [
     "Chalybes",
     "Chálybes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              36.0,
-              42.0
-            ],
-            [
-              37.0,
-              42.0
-            ],
-            [
               37.0,
               41.0
+            ],
+            [
+              37.0,
+              42.0
+            ],
+            [
+              36.0,
+              42.0
             ],
             [
               36.0,

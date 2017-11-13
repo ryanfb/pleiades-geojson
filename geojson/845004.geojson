@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Lepte/Syrias Pr.",
   "id": "845004",
-  "description": "An ancient place, cited: BAtlas 86 E1 Lepte/Syrias Pr.",
   "bbox": [
     34.0,
     42.0,
     35.0,
     43.0
   ],
-  "reprPoint": [
-    34.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 E1 Lepte/Syrias Pr.",
   "names": [
     "Lepte",
     "Syrias Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               42.0
             ],
             [
-              34.0,
-              43.0
-            ],
-            [
-              35.0,
-              43.0
-            ],
-            [
               35.0,
               42.0
+            ],
+            [
+              35.0,
+              43.0
+            ],
+            [
+              34.0,
+              43.0
             ],
             [
               34.0,

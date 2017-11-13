@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "641010",
-  "description": "Kibyra → Isinda → Perge",
   "bbox": [
     28.5,
     36.0,
     32.5,
     38.5
   ],
-  "reprPoint": [
-    30.5,
-    37.25
-  ],
+  "description": "Kibyra → Isinda → Perge",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              28.5,
-              38.5
-            ],
-            [
-              32.5,
-              38.5
-            ],
-            [
               32.5,
               36.0
+            ],
+            [
+              32.5,
+              38.5
+            ],
+            [
+              28.5,
+              38.5
             ],
             [
               28.5,

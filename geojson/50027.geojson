@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalmunai",
   "id": "50027",
-  "description": "An ancient place, cited: BAtlas 5 inset Kalmunai",
   "bbox": [
     81.835714,
     7.396337,
     81.835714,
     7.396337
   ],
+  "description": "An ancient place, cited: BAtlas 5 inset Kalmunai",
   "connectsWith": [
     "50298"
   ],
-  "reprPoint": [
-    81.835714,
-    7.396337
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.835714,
+          7.396337
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

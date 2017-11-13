@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Shamiram",
   "id": "863890",
-  "description": "An ancient place, cited: BAtlas 88 C4 Shamiram",
   "bbox": [
     44.100838,
     40.276124,
     44.100838,
     40.276124
   ],
-  "reprPoint": [
-    44.100838,
-    40.276124
-  ],
+  "description": "An ancient place, cited: BAtlas 88 C4 Shamiram",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.100838,
+          40.276124
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

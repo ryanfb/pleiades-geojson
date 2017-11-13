@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Valencia de Alcàntara aqueduct",
   "id": "256703",
-  "description": "An ancient place, cited: BAtlas 26 C2 unnamed aqueduct (Valencia de Alcántara)",
   "bbox": [
     -8.0,
     39.0,
     -7.0,
     40.0
   ],
-  "reprPoint": [
-    -7.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C2 unnamed aqueduct (Valencia de Alcántara)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              -8.0,
-              40.0
-            ],
-            [
-              -7.0,
-              40.0
-            ],
-            [
               -7.0,
               39.0
+            ],
+            [
+              -7.0,
+              40.0
+            ],
+            [
+              -8.0,
+              40.0
             ],
             [
               -8.0,

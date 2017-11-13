@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kadiston M.",
   "id": "589830",
-  "description": "An ancient place, cited: BAtlas 60 E2 Kadiston M.",
   "bbox": [
     25.5,
     35.0,
     26.0,
     35.5
   ],
-  "reprPoint": [
-    25.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Kadiston M.",
   "names": [
     "Kadiston M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              25.5,
-              35.5
-            ],
-            [
-              26.0,
-              35.5
-            ],
-            [
               26.0,
               35.0
+            ],
+            [
+              26.0,
+              35.5
+            ],
+            [
+              25.5,
+              35.5
             ],
             [
               25.5,

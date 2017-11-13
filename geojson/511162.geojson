@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Artanes (river)",
   "id": "511162",
-  "description": "A small river of Bithynia, placed by Arrian to the east of Cape Melaena.",
   "bbox": [
     29.5,
     41.0,
     30.0,
     41.5
   ],
-  "reprPoint": [
-    29.75,
-    41.25
-  ],
+  "description": "A small river of Bithynia, placed by Arrian to the east of Cape Melaena.",
   "names": [
     "Artanes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              29.5,
-              41.5
-            ],
-            [
-              30.0,
-              41.5
-            ],
-            [
               30.0,
               41.0
+            ],
+            [
+              30.0,
+              41.5
+            ],
+            [
+              29.5,
+              41.5
             ],
             [
               29.5,

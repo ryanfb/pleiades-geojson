@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Le Vignacce",
   "id": "423122",
-  "description": "A Roman villa located on via Lemonia in Rome's suburbium attributed to Quintus Servilius Pudens.",
   "bbox": [
     12.5766364,
     41.8390773,
     12.5766364,
     41.8390773
   ],
-  "reprPoint": [
-    12.5766364,
-    41.8390773
-  ],
+  "description": "A Roman villa located on via Lemonia in Rome's suburbium attributed to Quintus Servilius Pudens.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5766364,
+          41.8390773
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

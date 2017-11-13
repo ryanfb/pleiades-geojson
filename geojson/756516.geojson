@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Antaiopolites Nomos",
   "id": "756516",
-  "description": "An ancient place, cited: BAtlas 77 F2 Antaiopolites Nomos",
   "bbox": [
     31.5,
     27.0,
     32.0,
     27.5
   ],
-  "reprPoint": [
-    31.75,
-    27.25
-  ],
+  "description": "An ancient place, cited: BAtlas 77 F2 Antaiopolites Nomos",
   "names": [
     "Antaiopolites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          27.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               27.0
             ],
             [
-              31.5,
-              27.5
-            ],
-            [
-              32.0,
-              27.5
-            ],
-            [
               32.0,
               27.0
+            ],
+            [
+              32.0,
+              27.5
+            ],
+            [
+              31.5,
+              27.5
             ],
             [
               31.5,

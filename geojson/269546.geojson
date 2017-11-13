@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "269546",
-  "description": "E Segobriga → N to Segontia (Map 25)",
   "bbox": [
     -2.8141956,
     39.885321,
     -2.8104137,
     39.8910763
   ],
-  "reprPoint": [
-    -2.81267426411,
-    39.8882167139
-  ],
+  "description": "E Segobriga → N to Segontia (Map 25)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.81267426411,
+          39.8882167139
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              -5.0,
-              41.0
-            ],
-            [
-              3.0,
-              41.0
-            ],
-            [
               3.0,
               36.0
+            ],
+            [
+              3.0,
+              41.0
+            ],
+            [
+              -5.0,
+              41.0
             ],
             [
               -5.0,

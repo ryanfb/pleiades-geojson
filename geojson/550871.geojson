@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Scamander (river)",
   "id": "550871",
-  "description": "A river of the Troad (modern Karamenderes River).",
   "bbox": [
     26.0,
     39.5,
     26.5,
     40.0
   ],
-  "reprPoint": [
-    26.25,
-    39.75
-  ],
+  "description": "A river of the Troad (modern Karamenderes River).",
   "names": [
     "Scamander",
     "Skámandros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.5
             ],
             [
-              26.0,
-              40.0
-            ],
-            [
-              26.5,
-              40.0
-            ],
-            [
               26.5,
               39.5
+            ],
+            [
+              26.5,
+              40.0
+            ],
+            [
+              26.0,
+              40.0
             ],
             [
               26.0,

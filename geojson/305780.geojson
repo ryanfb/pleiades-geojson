@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "305780",
-  "description": "An ancient place, cited: BAtlas 31 F4 unnamed aqueduct (from Ain bou Merzoug to Cirta)",
   "bbox": [
     6.645043,
     36.161741,
     6.645043,
     36.161741
   ],
-  "reprPoint": [
-    6.645043,
-    36.161741
-  ],
+  "description": "An ancient place, cited: BAtlas 31 F4 unnamed aqueduct (from Ain bou Merzoug to Cirta)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.645043,
+          36.161741
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              6.5,
-              36.5
-            ],
-            [
-              7.0,
-              36.5
-            ],
-            [
               7.0,
               36.0
+            ],
+            [
+              7.0,
+              36.5
+            ],
+            [
+              6.5,
+              36.5
             ],
             [
               6.5,

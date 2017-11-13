@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250037",
-  "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (Ríoseco de Soria))",
   "bbox": [
     -3.0,
     41.0,
     -2.0,
     42.0
   ],
-  "reprPoint": [
-    -2.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C4 no. 131 (Las Quintanas (Ríoseco de Soria))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              -3.0,
-              42.0
-            ],
-            [
-              -2.0,
-              42.0
-            ],
-            [
               -2.0,
               41.0
+            ],
+            [
+              -2.0,
+              42.0
+            ],
+            [
+              -3.0,
+              42.0
             ],
             [
               -3.0,

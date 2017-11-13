@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Saimarreh/Eulaeus?/Ula(ya)? (river)",
   "id": "903109",
-  "description": "An ancient place, cited: BAtlas 92 B3 Saimarreh/Eulaeus?/Ula(ya)? fl.",
   "bbox": [
     46.0,
     33.0,
     47.0,
     34.0
   ],
-  "reprPoint": [
-    46.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 92 B3 Saimarreh/Eulaeus?/Ula(ya)? fl.",
   "names": [
     "Eulaeus",
     "Ulaya",
     "Ula"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               33.0
             ],
             [
-              46.0,
-              34.0
-            ],
-            [
-              47.0,
-              34.0
-            ],
-            [
               47.0,
               33.0
+            ],
+            [
+              47.0,
+              34.0
+            ],
+            [
+              46.0,
+              34.0
             ],
             [
               46.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sagrus (river)",
   "id": "413294",
-  "description": "A river of eastern Italy (modern Sangro).",
   "bbox": [
     14.533333,
     42.233333,
     14.533333,
     42.233333
   ],
-  "reprPoint": [
-    14.533333,
-    42.233333
-  ],
+  "description": "A river of eastern Italy (modern Sangro).",
   "names": [
     "Sagrus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.533333,
+          42.233333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

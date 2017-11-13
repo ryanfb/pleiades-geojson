@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre del Monumento",
   "id": "423096",
-  "description": "An ancient place, cited: BAtlas 43 C4 Torre del Monumento",
   "bbox": [
     12.652904,
     41.489014,
     12.652904,
     41.489014
   ],
-  "reprPoint": [
-    12.652904,
-    41.489014
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C4 Torre del Monumento",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.652904,
+          41.489014
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

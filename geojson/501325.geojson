@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Abydos",
   "id": "501325",
-  "description": "A city of Mysia located on the Hellespont.",
   "bbox": [
     26.406964,
     40.194214,
     26.411298,
     40.196017
   ],
-  "reprPoint": [
-    26.409131,
-    40.1951155
-  ],
+  "description": "A city of Mysia located on the Hellespont.",
   "names": [
     "Abydos",
     "Yapıldak",
@@ -21,6 +17,19 @@
     "Abydos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.409131,
+          40.1951155
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

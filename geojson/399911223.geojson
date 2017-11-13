@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Welwyn",
   "id": "399911223",
-  "description": "The remains of Roman baths are preserved at Welwyn, where a Romano-British roadside settlement was located near a crossing of the river Mimram.",
   "bbox": [
     -0.2081,
     51.8277,
     -0.2081,
     51.8277
   ],
-  "reprPoint": [
-    -0.2081,
-    51.8277
-  ],
+  "description": "The remains of Roman baths are preserved at Welwyn, where a Romano-British roadside settlement was located near a crossing of the river Mimram.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2081,
+          51.8277
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

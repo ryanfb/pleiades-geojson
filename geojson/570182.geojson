@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Corinthus/Korinthos",
   "id": "570182",
-  "description": "The ancient Greek and Roman city of Corinth, located in the Peloponnese, Greece. Also known today as Archaia Korinthos and not to be confused with the nearby modern town.",
   "bbox": [
     22.8696835,
     37.88239,
     22.992532,
     37.9096749
   ],
+  "description": "The ancient Greek and Roman city of Corinth, located in the Peloponnese, Greece. Also known today as Archaia Korinthos and not to be confused with the nearby modern town.",
   "connectsWith": [
     "570577",
     "570347"
-  ],
-  "reprPoint": [
-    22.9025459422,
-    37.8989533798
   ],
   "names": [
     "Corinthus",
@@ -25,5 +21,20 @@
     "Corinth",
     "Korinthos",
     "Ancient Corinth"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9025459422,
+          37.8989533798
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Boumelos? (river)",
   "id": "874406",
-  "description": "An ancient place, cited: BAtlas 89 F4 Boumelos? fl.",
   "bbox": [
     43.0,
     36.0,
     44.0,
     37.0
   ],
-  "reprPoint": [
-    43.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 F4 Boumelos? fl.",
   "names": [
     "Boumelos",
     "Bumodus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.0
             ],
             [
-              43.0,
-              37.0
-            ],
-            [
-              44.0,
-              37.0
-            ],
-            [
               44.0,
               36.0
+            ],
+            [
+              44.0,
+              37.0
+            ],
+            [
+              43.0,
+              37.0
             ],
             [
               43.0,

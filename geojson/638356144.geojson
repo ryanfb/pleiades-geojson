@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Acropolis of Athens",
   "id": "638356144",
-  "description": "The acropolis of the ancient city of Athens in Greece.",
   "bbox": [
     23.726166,
     37.971421,
     23.726166,
     37.971421
   ],
+  "description": "The acropolis of the ancient city of Athens in Greece.",
   "connectsWith": [
     "579885"
   ],
-  "reprPoint": [
-    23.726166,
-    37.971421
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.726166,
+          37.971421
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

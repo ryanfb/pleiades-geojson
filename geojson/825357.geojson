@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Poritos (river)",
   "id": "825357",
-  "description": "The Mius River flows into the Sea of Azov.",
   "bbox": [
     38.0,
     47.0,
     39.0,
     48.0
   ],
+  "description": "The Mius River flows into the Sea of Azov.",
   "connectsWith": [
     "825318"
-  ],
-  "reprPoint": [
-    38.5,
-    47.5
   ],
   "names": [
     "Poritos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               47.0
             ],
             [
-              38.0,
-              48.0
-            ],
-            [
-              39.0,
-              48.0
-            ],
-            [
               39.0,
               47.0
+            ],
+            [
+              39.0,
+              48.0
+            ],
+            [
+              38.0,
+              48.0
             ],
             [
               38.0,

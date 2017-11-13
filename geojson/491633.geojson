@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kavadarci",
   "id": "491633",
-  "description": "An ancient place, cited: BAtlas 50 B2 Kavadarci",
   "bbox": [
     22.03056,
     41.440203,
     22.03056,
     41.440203
   ],
-  "reprPoint": [
-    22.03056,
-    41.440203
-  ],
+  "description": "An ancient place, cited: BAtlas 50 B2 Kavadarci",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.03056,
+          41.440203
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

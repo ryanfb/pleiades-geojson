@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Nebi Safa",
   "id": "678302",
-  "description": "An ancient place, cited: BAtlas 69 C2 Nebi Safa",
   "bbox": [
     35.753721,
     33.501236,
     35.753721,
     33.501236
   ],
-  "reprPoint": [
-    35.753721,
-    33.501236
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C2 Nebi Safa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.753721,
+          33.501236
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

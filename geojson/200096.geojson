@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200096",
-  "description": "An ancient place, cited: BAtlas 20 C2 unnamed quarry (SW Poidikon)",
   "bbox": [
     15.0,
     47.0,
     16.0,
     48.0
   ],
-  "reprPoint": [
-    15.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C2 unnamed quarry (SW Poidikon)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              15.0,
-              48.0
-            ],
-            [
-              16.0,
-              48.0
-            ],
-            [
               16.0,
               47.0
+            ],
+            [
+              16.0,
+              48.0
+            ],
+            [
+              15.0,
+              48.0
             ],
             [
               15.0,

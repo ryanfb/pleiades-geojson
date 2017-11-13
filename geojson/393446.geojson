@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Liquentia (river)",
   "id": "393446",
-  "description": "The Livenza river is a river of northern Italy that flows into the Adriatic Sea.",
   "bbox": [
     12.4750896,
     46.0214139,
     12.4750896,
     46.0214139
   ],
+  "description": "The Livenza river is a river of northern Italy that flows into the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    12.4750896,
-    46.0214139
   ],
   "names": [
     "Liquentia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4750896,
+          46.0214139
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "113274",
-  "description": "Castellum Menapiorum → Minariacum? → Nemetacum → Bagacum → Atuatuca",
   "bbox": [
     2.486896,
     50.292573,
     3.79316,
     50.799218
   ],
+  "description": "Castellum Menapiorum → Minariacum? → Nemetacum → Bagacum → Atuatuca",
   "connectsWith": [
     "109194",
     "108788",
     "108865",
     "109165"
   ],
-  "reprPoint": [
-    2.944857,
-    50.50858575
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.944857,
+          50.50858575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               47.0
             ],
             [
-              0.0,
-              52.0
-            ],
-            [
-              9.0,
-              52.0
-            ],
-            [
               9.0,
               47.0
+            ],
+            [
+              9.0,
+              52.0
+            ],
+            [
+              0.0,
+              52.0
             ],
             [
               0.0,

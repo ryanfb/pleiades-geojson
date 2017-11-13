@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "El Palao",
   "id": "246550",
-  "description": "An ancient place, cited: BAtlas 25 E4 El Palao",
   "bbox": [
     -0.183192,
     41.025075,
     -0.183192,
     41.025075
   ],
-  "reprPoint": [
-    -0.183192,
-    41.025075
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E4 El Palao",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.183192,
+          41.025075
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

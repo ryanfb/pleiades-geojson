@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Abū Ẓabī",
   "id": "641191180",
-  "description": "A place from the TAVO Index",
   "bbox": [
     50.0,
     20.0,
     55.0,
     25.0
   ],
-  "reprPoint": [
-    52.5,
-    22.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Abū Ẓabī",
     "Abu Dhabi",
@@ -20,6 +16,19 @@
     "Abū Ẓaby"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               20.0
             ],
             [
-              50.0,
-              25.0
-            ],
-            [
-              55.0,
-              25.0
-            ],
-            [
               55.0,
               20.0
+            ],
+            [
+              55.0,
+              25.0
+            ],
+            [
+              50.0,
+              25.0
             ],
             [
               50.0,

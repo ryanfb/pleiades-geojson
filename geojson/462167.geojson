@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Cossyra",
   "id": "462167",
-  "description": "An ancient place, cited: BAtlas 47 inset Cossyra",
   "bbox": [
     11.99955,
     36.78784,
     11.99955,
     36.78784
   ],
+  "description": "An ancient place, cited: BAtlas 47 inset Cossyra",
   "connectsWith": [
     "462168"
-  ],
-  "reprPoint": [
-    11.99955,
-    36.78784
   ],
   "names": [
     "Cossyra"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.99955,
+          36.78784
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

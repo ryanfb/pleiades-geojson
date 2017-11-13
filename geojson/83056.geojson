@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "83056",
-  "description": "East Anglia: Branodunum → Venta →Col. Camulodunum → Londinium",
   "bbox": [
     -0.088949,
     51.513335,
     0.9078,
     51.89286
   ],
-  "reprPoint": [
-    0.405964262674,
-    51.7018155264
-  ],
+  "description": "East Anglia: Branodunum → Venta →Col. Camulodunum → Londinium",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.405964262674,
+          51.7018155264
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               49.0
             ],
             [
-              -7.0,
-              54.0
-            ],
-            [
-              3.0,
-              54.0
-            ],
-            [
               3.0,
               49.0
+            ],
+            [
+              3.0,
+              54.0
+            ],
+            [
+              -7.0,
+              54.0
             ],
             [
               -7.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Khirbet Jedora",
   "id": "678246",
-  "description": "An ancient place, cited: BAtlas 69 B4 Khirbet Jedora",
   "bbox": [
     35.268975,
     32.512,
     35.268975,
     32.512
   ],
-  "reprPoint": [
-    35.268975,
-    32.512
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Khirbet Jedora",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.268975,
+          32.512
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

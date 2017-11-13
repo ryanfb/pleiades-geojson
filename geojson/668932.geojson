@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "668932",
-  "description": "An ancient place, cited: BAtlas 68 E5 unnamed aqueduct (W Harbaqa)",
   "bbox": [
     37.5,
     34.0,
     38.0,
     34.5
   ],
-  "reprPoint": [
-    37.75,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 68 E5 unnamed aqueduct (W Harbaqa)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.0
             ],
             [
-              37.5,
-              34.5
-            ],
-            [
-              38.0,
-              34.5
-            ],
-            [
               38.0,
               34.0
+            ],
+            [
+              38.0,
+              34.5
+            ],
+            [
+              37.5,
+              34.5
             ],
             [
               37.5,

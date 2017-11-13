@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Meduacus Minor (river)",
   "id": "393452",
-  "description": "An ancient place, cited: BAtlas 40 C2 Meduacus Minor fl.",
   "bbox": [
     12.0,
     45.0,
     12.5,
     45.5
   ],
-  "reprPoint": [
-    12.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 40 C2 Meduacus Minor fl.",
   "names": [
     "Meduacus Minor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              12.0,
-              45.5
-            ],
-            [
-              12.5,
-              45.5
-            ],
-            [
               12.5,
               45.0
+            ],
+            [
+              12.5,
+              45.5
+            ],
+            [
+              12.0,
+              45.5
             ],
             [
               12.0,

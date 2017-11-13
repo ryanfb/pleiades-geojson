@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Onesi",
   "id": "246533",
-  "description": "An ancient place, cited: BAtlas 25 F3 Onesi",
   "bbox": [
     0.0,
     42.0,
     1.0,
     43.0
   ],
-  "reprPoint": [
-    0.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F3 Onesi",
   "names": [
     "Onesi",
     "Monesi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               42.0
             ],
             [
-              0.0,
-              43.0
-            ],
-            [
-              1.0,
-              43.0
-            ],
-            [
               1.0,
               42.0
+            ],
+            [
+              1.0,
+              43.0
+            ],
+            [
+              0.0,
+              43.0
             ],
             [
               0.0,

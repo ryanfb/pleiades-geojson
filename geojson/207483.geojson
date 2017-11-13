@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tabakovac",
   "id": "207483",
-  "description": "An ancient place, cited: BAtlas 21 E5 Tabakovac",
   "bbox": [
     22.4091,
     44.05958,
     22.4091,
     44.05958
   ],
-  "reprPoint": [
-    22.4091,
-    44.05958
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E5 Tabakovac",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4091,
+          44.05958
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

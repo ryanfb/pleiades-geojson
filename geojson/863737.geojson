@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Alontas (river)",
   "id": "863737",
-  "description": "An ancient place, cited: BAtlas 88 C2 Alontas fl.",
   "bbox": [
     44.0,
     42.0,
     45.0,
     43.0
   ],
+  "description": "An ancient place, cited: BAtlas 88 C2 Alontas fl.",
   "connectsWith": [
     "884130"
-  ],
-  "reprPoint": [
-    44.5,
-    42.5
   ],
   "names": [
     "Alontas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               42.0
             ],
             [
-              44.0,
-              43.0
-            ],
-            [
-              45.0,
-              43.0
-            ],
-            [
               45.0,
               42.0
+            ],
+            [
+              45.0,
+              43.0
+            ],
+            [
+              44.0,
+              43.0
             ],
             [
               44.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Delos (settlement)",
   "id": "599587",
-  "description": "The ancient settlement of Delos, located on the Aegean island of the same name.",
   "bbox": [
     25.266997,
     37.397274,
     25.268194,
     37.402376
   ],
+  "description": "The ancient settlement of Delos, located on the Aegean island of the same name.",
   "connectsWith": [
     "599588"
-  ],
-  "reprPoint": [
-    25.267471,
-    37.400439
   ],
   "names": [
     "Delos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.267471,
+          37.400439
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

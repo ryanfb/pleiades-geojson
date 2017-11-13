@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Edones",
   "id": "501409",
-  "description": "A Thracian people dwelling in the lower basin of the Strymon river.",
   "bbox": [
     23.848889,
     40.785833,
     23.848889,
     40.785833
   ],
+  "description": "A Thracian people dwelling in the lower basin of the Strymon river.",
   "connectsWith": [
     "501629"
-  ],
-  "reprPoint": [
-    23.848889,
-    40.785833
   ],
   "names": [
     "Edones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.848889,
+          40.785833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               40.5
             ],
             [
-              23.5,
-              41.0
-            ],
-            [
-              24.0,
-              41.0
-            ],
-            [
               24.0,
               40.5
+            ],
+            [
+              24.0,
+              41.0
+            ],
+            [
+              23.5,
+              41.0
             ],
             [
               23.5,

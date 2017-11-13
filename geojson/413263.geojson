@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Planina",
   "id": "413263",
-  "description": "An ancient place, cited: BAtlas 42 E2 Planina",
   "bbox": [
     13.161432,
     43.485376,
     13.161432,
     43.485376
   ],
-  "reprPoint": [
-    13.161432,
-    43.485376
-  ],
+  "description": "An ancient place, cited: BAtlas 42 E2 Planina",
   "names": [
     "Planina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.161432,
+          43.485376
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

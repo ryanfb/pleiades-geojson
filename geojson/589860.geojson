@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kavousi Kastro",
   "id": "589860",
-  "description": "An archaeological site (ancient name unknown) overlooking the Gulf of Mirabello in eastern Crete, not far from the modern town of Kavousi and the ancient site now known as Azoria (q.v.). BAtlas 60 E2 Kavousi (sic).",
   "bbox": [
     25.867679,
     35.111016,
     25.867679,
     35.111016
   ],
+  "description": "An archaeological site (ancient name unknown) overlooking the Gulf of Mirabello in eastern Crete, not far from the modern town of Kavousi and the ancient site now known as Azoria (q.v.). BAtlas 60 E2 Kavousi (sic).",
   "connectsWith": [
     "589748"
   ],
-  "reprPoint": [
-    25.867679,
-    35.111016
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.867679,
+          35.111016
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

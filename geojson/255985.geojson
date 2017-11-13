@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Aroeira",
   "id": "255985",
-  "description": "An ancient place, cited: BAtlas 26 C4 Aroeira",
   "bbox": [
     -7.472752,
     37.47104,
     -7.472752,
     37.47104
   ],
-  "reprPoint": [
-    -7.472752,
-    37.47104
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C4 Aroeira",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.472752,
+          37.47104
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

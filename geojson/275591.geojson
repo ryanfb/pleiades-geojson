@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aquila Maior Pr.",
   "id": "275591",
-  "description": "An ancient place, cited: BAtlas 28 D2 Aquila Maior Pr.",
   "bbox": [
     -5.5,
     35.5,
     -5.0,
     36.0
   ],
-  "reprPoint": [
-    -5.25,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 28 D2 Aquila Maior Pr.",
   "names": [
     "Aquila Maior Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.25,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.5
             ],
             [
-              -5.5,
-              36.0
-            ],
-            [
-              -5.0,
-              36.0
-            ],
-            [
               -5.0,
               35.5
+            ],
+            [
+              -5.0,
+              36.0
+            ],
+            [
+              -5.5,
+              36.0
             ],
             [
               -5.5,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Albis (river)",
   "id": "98909",
-  "description": "Albis fl. (Elbe river) flows 1,094 km from the Krkonoše Mountains to the North Sea.",
   "bbox": [
     10.6432536,
     53.3698671,
     10.6432536,
     53.3698671
   ],
+  "description": "Albis fl. (Elbe river) flows 1,094 km from the Krkonoše Mountains to the North Sea.",
   "connectsWith": [
     "20469"
-  ],
-  "reprPoint": [
-    10.6432536,
-    53.3698671
   ],
   "names": [
     "Albis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6432536,
+          53.3698671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

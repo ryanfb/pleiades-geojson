@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Samaria",
   "id": "678369",
-  "description": "The ancient region of Samaria.",
   "bbox": [
     35.190652,
     32.276414,
     35.26652,
     32.38642
   ],
-  "reprPoint": [
-    35.228586,
-    32.331417
-  ],
+  "description": "The ancient region of Samaria.",
   "names": [
     "Samaria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.228586,
+          32.331417
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

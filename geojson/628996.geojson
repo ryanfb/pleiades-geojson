@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kale",
   "id": "628996",
-  "description": "An ancient place, cited: BAtlas 64 H4 Kale",
   "bbox": [
     38.733046,
     38.390697,
     38.733046,
     38.390697
   ],
-  "reprPoint": [
-    38.733046,
-    38.390697
-  ],
+  "description": "An ancient place, cited: BAtlas 64 H4 Kale",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.733046,
+          38.390697
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

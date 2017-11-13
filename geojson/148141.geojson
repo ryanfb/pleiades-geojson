@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Narbonensis",
   "id": "148141",
-  "description": "An ancient place, cited: BAtlas 15 C2 Narbonensis",
   "bbox": [
     4.0,
     43.5,
     4.5,
     44.0
   ],
-  "reprPoint": [
-    4.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 C2 Narbonensis",
   "names": [
     "Narbonensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              4.0,
-              44.0
-            ],
-            [
-              4.5,
-              44.0
-            ],
-            [
               4.5,
               43.5
+            ],
+            [
+              4.5,
+              44.0
+            ],
+            [
+              4.0,
+              44.0
             ],
             [
               4.0,

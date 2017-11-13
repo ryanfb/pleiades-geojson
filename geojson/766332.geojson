@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abu Sha'ar",
   "id": "766332",
-  "description": "An ancient place, cited: BAtlas 78 D3 Abu Sha'ar",
   "bbox": [
     33.679368,
     27.355677,
     33.679368,
     27.355677
   ],
-  "reprPoint": [
-    33.679368,
-    27.355677
-  ],
+  "description": "An ancient place, cited: BAtlas 78 D3 Abu Sha'ar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.679368,
+          27.355677
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

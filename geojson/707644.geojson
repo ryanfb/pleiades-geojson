@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Zephyrion Pr.",
   "id": "707644",
-  "description": "An ancient place, cited: BAtlas 72 A3 Zephyrion Pr.",
   "bbox": [
     32.0,
     34.5,
     32.5,
     35.0
   ],
+  "description": "An ancient place, cited: BAtlas 72 A3 Zephyrion Pr.",
   "connectsWith": [
     "707498"
-  ],
-  "reprPoint": [
-    32.25,
-    34.75
   ],
   "names": [
     "Zephyrion Pr.",
     "Zephyrion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               34.5
             ],
             [
-              32.0,
-              35.0
-            ],
-            [
-              32.5,
-              35.0
-            ],
-            [
               32.5,
               34.5
+            ],
+            [
+              32.5,
+              35.0
+            ],
+            [
+              32.0,
+              35.0
             ],
             [
               32.0,

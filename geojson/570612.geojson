@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pisa",
   "id": "570612",
-  "description": "An ancient place, cited: BAtlas 58 B2 Pisa",
   "bbox": [
     21.653041,
     37.639535,
     21.653041,
     37.639535
   ],
-  "reprPoint": [
-    21.653041,
-    37.639535
-  ],
+  "description": "An ancient place, cited: BAtlas 58 B2 Pisa",
   "names": [
     "Pisa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.653041,
+          37.639535
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

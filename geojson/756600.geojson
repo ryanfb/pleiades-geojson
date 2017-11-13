@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Micholis",
   "id": "756600",
-  "description": "An ancient place, cited: BAtlas 77 D1 Micholis",
   "bbox": [
     30.75139,
     27.593048,
     30.75139,
     27.593048
   ],
-  "reprPoint": [
-    30.75139,
-    27.593048
-  ],
+  "description": "An ancient place, cited: BAtlas 77 D1 Micholis",
   "names": [
     "Micholis",
     "Amshul"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75139,
+          27.593048
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Namades/Lamnaios (river)",
   "id": "50156",
-  "description": "The modern Narmada river in Gujarat, India. It originates in the Vindhya mountain range and flows west to empty into the Gulf of Khambhat.",
   "bbox": [
     73.9979365,
     21.8971072,
     81.5323306,
     22.7452561
   ],
-  "reprPoint": [
-    77.76513355,
-    22.32118165
-  ],
+  "description": "The modern Narmada river in Gujarat, India. It originates in the Vindhya mountain range and flows west to empty into the Gulf of Khambhat.",
   "names": [
     "Namades",
     "Lamnaios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.76513355,
+          22.32118165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

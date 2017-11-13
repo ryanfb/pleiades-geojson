@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Cydnus (river)",
   "id": "648615",
-  "description": "A river of ancient Cilicia.",
   "bbox": [
     34.7055168,
     36.72,
     34.91,
     37.1814372
   ],
+  "description": "A river of ancient Cilicia.",
   "connectsWith": [
     "648600"
-  ],
-  "reprPoint": [
-    34.8077584,
-    36.9507186
   ],
   "names": [
     "Cydnus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8077584,
+          36.9507186
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

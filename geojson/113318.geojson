@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "113318",
-  "description": "Bingium → Divodurum",
   "bbox": [
     7.8918921,
     49.9668161,
     7.895659,
     49.968995
   ],
-  "reprPoint": [
-    7.89377555,
-    49.96790555
-  ],
+  "description": "Bingium → Divodurum",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.89377555,
+          49.96790555
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              0.0,
-              52.0
-            ],
-            [
-              9.0,
-              52.0
-            ],
-            [
               9.0,
               47.0
+            ],
+            [
+              9.0,
+              52.0
+            ],
+            [
+              0.0,
+              52.0
             ],
             [
               0.0,

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Syros (island)",
   "id": "590067",
-  "description": "An ancient place, cited: BAtlas 60 A5 Syros Ins.",
   "bbox": [
     24.92,
     37.43,
     24.92,
     37.43
   ],
+  "description": "An ancient place, cited: BAtlas 60 A5 Syros Ins.",
   "connectsWith": [
     "560221",
     "560353"
-  ],
-  "reprPoint": [
-    24.92,
-    37.43
   ],
   "names": [
     "Syros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.92,
+          37.43
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

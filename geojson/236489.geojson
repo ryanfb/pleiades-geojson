@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Interannienses?",
   "id": "236489",
-  "description": "An ancient place, cited: BAtlas 24 D4 Interannienses?",
   "bbox": [
     -8.0,
     40.0,
     -7.0,
     41.0
   ],
-  "reprPoint": [
-    -7.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D4 Interannienses?",
   "names": [
     "Interannienses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -8.0,
-              41.0
-            ],
-            [
-              -7.0,
-              41.0
-            ],
-            [
               -7.0,
               40.0
+            ],
+            [
+              -7.0,
+              41.0
+            ],
+            [
+              -8.0,
+              41.0
             ],
             [
               -8.0,

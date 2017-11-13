@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Peuke Nesos",
   "id": "226719",
-  "description": "Peuke Nesos is the name of an island located in the delta region of the Danube river.",
   "bbox": [
     29.0,
     45.0,
     30.0,
     46.0
   ],
-  "reprPoint": [
-    29.5,
-    45.5
-  ],
+  "description": "Peuke Nesos is the name of an island located in the delta region of the Danube river.",
   "names": [
     "Peuke Nesos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              29.0,
-              46.0
-            ],
-            [
-              30.0,
-              46.0
-            ],
-            [
               30.0,
               45.0
+            ],
+            [
+              30.0,
+              46.0
+            ],
+            [
+              29.0,
+              46.0
             ],
             [
               29.0,

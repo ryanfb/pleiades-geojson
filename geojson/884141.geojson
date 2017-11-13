@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dish",
   "id": "884141",
-  "description": "An ancient place, cited: BAtlas 90 C2 Dish",
   "bbox": [
     47.043834,
     38.783119,
     47.043834,
     38.783119
   ],
-  "reprPoint": [
-    47.043834,
-    38.783119
-  ],
+  "description": "An ancient place, cited: BAtlas 90 C2 Dish",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.043834,
+          38.783119
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

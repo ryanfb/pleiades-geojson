@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalaiou Nesoi",
   "id": "29620",
-  "description": "Kalaiou Nesoi, a group of nine islands in the Gulf of Oman.",
   "bbox": [
     58.093319,
     23.8573127,
     58.093319,
     23.8573127
   ],
-  "reprPoint": [
-    58.093319,
-    23.8573127
-  ],
+  "description": "Kalaiou Nesoi, a group of nine islands in the Gulf of Oman.",
   "names": [
     "Kalaiou Nesoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.093319,
+          23.8573127
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               20.0
             ],
             [
-              55.0,
-              25.0
-            ],
-            [
-              60.0,
-              25.0
-            ],
-            [
               60.0,
               20.0
+            ],
+            [
+              60.0,
+              25.0
+            ],
+            [
+              55.0,
+              25.0
             ],
             [
               55.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Angites (river)",
   "id": "501350",
-  "description": "An ancient place, cited: BAtlas 51 B3 Angites fl.",
   "bbox": [
     23.5,
     40.5,
     24.0,
     41.0
   ],
-  "reprPoint": [
-    23.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B3 Angites fl.",
   "names": [
     "Angites"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              23.5,
-              41.0
-            ],
-            [
-              24.0,
-              41.0
-            ],
-            [
               24.0,
               40.5
+            ],
+            [
+              24.0,
+              41.0
+            ],
+            [
+              23.5,
+              41.0
             ],
             [
               23.5,

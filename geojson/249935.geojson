@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed villa",
   "id": "249935",
-  "description": "Located at the modern site of Bon Encontre in France.",
   "bbox": [
     0.668438,
     44.186116,
     0.668438,
     44.186116
   ],
-  "reprPoint": [
-    0.668438,
-    44.186116
-  ],
+  "description": "Located at the modern site of Bon Encontre in France.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.668438,
+          44.186116
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

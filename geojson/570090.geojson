@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Apesas (mountain)",
   "id": "570090",
-  "description": "Mount Aphesas, now Mount Phoukas, separated the terriroty of Kleonai from the Corinthia. It is connected with the myth of the Nemean lion and was the site of an ash altar sacred to Zeus in use from the Geometric period to the fourth century B.C.",
   "bbox": [
     22.5,
     37.5,
     23.0,
     38.0
   ],
-  "reprPoint": [
-    22.75,
-    37.75
-  ],
+  "description": "Mount Aphesas, now Mount Phoukas, separated the terriroty of Kleonai from the Corinthia. It is connected with the myth of the Nemean lion and was the site of an ash altar sacred to Zeus in use from the Geometric period to the fourth century B.C.",
   "names": [
     "Apesas M.",
     "oros Apesas",
     "Foukás"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               37.5
             ],
             [
-              22.5,
-              38.0
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
               23.0,
               37.5
+            ],
+            [
+              23.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
             ],
             [
               22.5,

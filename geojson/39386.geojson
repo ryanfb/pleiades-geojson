@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Minaei",
   "id": "39386",
-  "description": "The Minaei were an ancient people of Yemen, numbered by Strabo as one of the four great nations of the southern Arabian peninsula.",
   "bbox": [
     45.0,
     15.0,
     50.0,
     20.0
   ],
-  "reprPoint": [
-    47.5,
-    17.5
-  ],
+  "description": "The Minaei were an ancient people of Yemen, numbered by Strabo as one of the four great nations of the southern Arabian peninsula.",
   "names": [
     "Minaei",
     "Minaioi",
     "Minoes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               15.0
             ],
             [
-              45.0,
-              20.0
-            ],
-            [
-              50.0,
-              20.0
-            ],
-            [
               50.0,
               15.0
+            ],
+            [
+              50.0,
+              20.0
+            ],
+            [
+              45.0,
+              20.0
             ],
             [
               45.0,

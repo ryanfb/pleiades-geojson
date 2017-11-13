@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman amphitheater of Carthage",
   "id": "634585138",
-  "description": "A Roman amphitheater built at Carthage.",
   "bbox": [
     10.314578,
     36.8562215,
     10.314578,
     36.8562215
   ],
+  "description": "A Roman amphitheater built at Carthage.",
   "connectsWith": [
     "314921"
   ],
-  "reprPoint": [
-    10.314578,
-    36.8562215
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.314578,
+          36.8562215
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

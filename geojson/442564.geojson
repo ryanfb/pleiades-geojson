@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Daunii",
   "id": "442564",
-  "description": "An ancient place, cited: BAtlas 45 B2 Daunii",
   "bbox": [
     14.9159226,
     41.207142,
     16.066004,
     41.807133
   ],
-  "reprPoint": [
-    15.4377363268,
-    41.4209592099
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B2 Daunii",
   "names": [
     "Daunii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4377363268,
+          41.4209592099
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              15.0,
-              41.5
-            ],
-            [
-              15.5,
-              41.5
-            ],
-            [
               15.5,
               41.0
+            ],
+            [
+              15.5,
+              41.5
+            ],
+            [
+              15.0,
+              41.5
             ],
             [
               15.0,

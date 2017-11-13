@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marsi",
   "id": "413191",
-  "description": "The Marsi were an ancient Italic tribe. Their chief center was located at Marruvium.",
   "bbox": [
     13.469873,
     41.886242,
     13.622701,
     42.017191
   ],
-  "reprPoint": [
-    13.54208325,
-    41.949476
-  ],
+  "description": "The Marsi were an ancient Italic tribe. Their chief center was located at Marruvium.",
   "names": [
     "Marsi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.54208325,
+          41.949476
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              13.5,
-              42.5
-            ],
-            [
-              14.0,
-              42.5
-            ],
-            [
               14.0,
               42.0
+            ],
+            [
+              14.0,
+              42.5
+            ],
+            [
+              13.5,
+              42.5
             ],
             [
               13.5,

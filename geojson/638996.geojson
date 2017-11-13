@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Milyas",
   "id": "638996",
-  "description": "An ancient place, cited: BAtlas 65 C4 Milyas",
   "bbox": [
     29.5,
     36.5,
     30.0,
     37.0
   ],
+  "description": "An ancient place, cited: BAtlas 65 C4 Milyas",
   "connectsWith": [
     "35475912"
-  ],
-  "reprPoint": [
-    29.75,
-    36.75
   ],
   "names": [
     "Milyas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.5
             ],
             [
-              29.5,
-              37.0
-            ],
-            [
-              30.0,
-              37.0
-            ],
-            [
               30.0,
               36.5
+            ],
+            [
+              30.0,
+              37.0
+            ],
+            [
+              29.5,
+              37.0
             ],
             [
               29.5,

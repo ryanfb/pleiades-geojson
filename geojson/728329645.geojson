@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Temple of Apollo at Thermos",
   "id": "728329645",
-  "description": "A temple to the Apollo built in the late seventh century B.C. atop the ruins of the previous megaron in Thermos.",
   "bbox": [
     21.6680468,
     38.5595602,
     21.6682613,
     38.5599461
   ],
+  "description": "A temple to the Apollo built in the late seventh century B.C. atop the ruins of the previous megaron in Thermos.",
   "connectsWith": [
     "541139"
-  ],
-  "reprPoint": [
-    21.6681559842,
-    38.5597661279
   ],
   "names": [
     "Temple of Apollo at Thermos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6681559842,
+          38.5597661279
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.5595602
             ],
             [
-              21.6680468,
-              38.5596651
+              21.6682613,
+              38.5599189
             ],
             [
               21.6681178,
               38.5599461
             ],
             [
-              21.6682613,
-              38.5599189
+              21.6680468,
+              38.5596651
             ],
             [
               21.6681795,

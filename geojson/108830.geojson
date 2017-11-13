@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Brugge",
   "id": "108830",
-  "description": "An ancient place, cited: BAtlas 11 D1 Brugge",
   "bbox": [
     3.22502,
     51.209253,
     3.22502,
     51.209253
   ],
-  "reprPoint": [
-    3.22502,
-    51.209253
-  ],
+  "description": "An ancient place, cited: BAtlas 11 D1 Brugge",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.22502,
+          51.209253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

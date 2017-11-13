@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Horomedon M.",
   "id": "599649",
-  "description": "An ancient place, cited: BAtlas 61 E4 Horomedon M.",
   "bbox": [
     27.0,
     36.5,
     27.5,
     37.0
   ],
-  "reprPoint": [
-    27.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E4 Horomedon M.",
   "names": [
     "Horomedon M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              27.0,
-              37.0
-            ],
-            [
-              27.5,
-              37.0
-            ],
-            [
               27.5,
               36.5
+            ],
+            [
+              27.5,
+              37.0
+            ],
+            [
+              27.0,
+              37.0
             ],
             [
               27.0,

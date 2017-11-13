@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 21A (Red House)",
   "id": "967060216",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.003496,
     55.010838,
     -2.003496,
     55.010838
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.003496,
-    55.010838
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.003496,
+          55.010838
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

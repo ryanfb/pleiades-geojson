@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Henchir-Moussa",
   "id": "315012",
-  "description": "An ancient place, cited: BAtlas 32 B3 Henchir-Moussa",
   "bbox": [
     8.0,
     36.5,
     8.5,
     37.0
   ],
-  "reprPoint": [
-    8.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 B3 Henchir-Moussa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              8.0,
-              37.0
-            ],
-            [
-              8.5,
-              37.0
-            ],
-            [
               8.5,
               36.5
+            ],
+            [
+              8.5,
+              37.0
+            ],
+            [
+              8.0,
+              37.0
             ],
             [
               8.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Portus Sigensis",
   "id": "285504",
-  "description": "An ancient place, cited: BAtlas 29 D1 Portus Sigensis",
   "bbox": [
     -1.46751,
     35.29689,
     -1.46751,
     35.29689
   ],
+  "description": "An ancient place, cited: BAtlas 29 D1 Portus Sigensis",
   "connectsWith": [
     "285522"
-  ],
-  "reprPoint": [
-    -1.46751,
-    35.29689
   ],
   "names": [
     "Portus Sigensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.46751,
+          35.29689
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

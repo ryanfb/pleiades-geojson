@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tourin",
   "id": "658625",
-  "description": "An ancient place, cited: BAtlas 67 C4 Tourin",
   "bbox": [
     36.473587,
     36.075001,
     36.473587,
     36.075001
   ],
-  "reprPoint": [
-    36.473587,
-    36.075001
-  ],
+  "description": "An ancient place, cited: BAtlas 67 C4 Tourin",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.473587,
+          36.075001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

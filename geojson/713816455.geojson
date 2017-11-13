@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman Theater of Baelo",
   "id": "713816455",
-  "description": "A Roman theater in Baelo.",
   "bbox": [
     -5.7759514,
     36.0909571,
     -5.7759514,
     36.0909571
   ],
+  "description": "A Roman theater in Baelo.",
   "connectsWith": [
     "256005"
   ],
-  "reprPoint": [
-    -5.7759514,
-    36.0909571
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7759514,
+          36.0909571
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

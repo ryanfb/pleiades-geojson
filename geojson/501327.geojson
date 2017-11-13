@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aeolium Pr.",
   "id": "501327",
-  "description": "An ancient place, cited: BAtlas 51 G4 Aeolium Pr.",
   "bbox": [
     26.0,
     40.0,
     26.5,
     40.5
   ],
-  "reprPoint": [
-    26.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 G4 Aeolium Pr.",
   "names": [
     "Aeolium Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              26.0,
-              40.5
-            ],
-            [
-              26.5,
-              40.5
-            ],
-            [
               26.5,
               40.0
+            ],
+            [
+              26.5,
+              40.5
+            ],
+            [
+              26.0,
+              40.5
             ],
             [
               26.0,

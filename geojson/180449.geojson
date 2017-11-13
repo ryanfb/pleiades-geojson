@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "180449",
-  "description": "Lousonna → Ariorica → Eburodunum → Col. Aventicum → Salodurum → Col. Augusta Raurica",
   "bbox": [
     6.359114,
     46.516506,
     7.7269318,
     47.5341907
   ],
-  "reprPoint": [
-    6.9860435673,
-    46.9706044963
-  ],
+  "description": "Lousonna → Ariorica → Eburodunum → Col. Aventicum → Salodurum → Col. Augusta Raurica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9860435673,
+          46.9706044963
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               45.0
             ],
             [
-              3.0,
-              49.0
-            ],
-            [
-              9.0,
-              49.0
-            ],
-            [
               9.0,
               45.0
+            ],
+            [
+              9.0,
+              49.0
+            ],
+            [
+              3.0,
+              49.0
             ],
             [
               3.0,

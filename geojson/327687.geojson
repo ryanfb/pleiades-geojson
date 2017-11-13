@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "327687",
-  "description": "An ancient place, cited: BAtlas 33 F4 unnamed unlabeled ((1 monastery))",
   "bbox": [
     10.272979,
     34.332522,
     10.272979,
     34.332522
   ],
-  "reprPoint": [
-    10.272979,
-    34.332522
-  ],
+  "description": "An ancient place, cited: BAtlas 33 F4 unnamed unlabeled ((1 monastery))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.272979,
+          34.332522
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.0
             ],
             [
-              10.0,
-              34.5
-            ],
-            [
-              10.5,
-              34.5
-            ],
-            [
               10.5,
               34.0
+            ],
+            [
+              10.5,
+              34.5
+            ],
+            [
+              10.0,
+              34.5
             ],
             [
               10.0,

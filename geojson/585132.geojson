@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Dema wall",
   "id": "585132",
-  "description": "The so-called Dema wall was a built fortification of ancient Attica that was intended to a close a gap between between Aigaleos and Parnes. The wall's course originally ran more than 4 km.",
   "bbox": [
     23.5,
     38.0,
     23.75,
     38.25
   ],
-  "reprPoint": [
-    23.625,
-    38.125
-  ],
+  "description": "The so-called Dema wall was a built fortification of ancient Attica that was intended to a close a gap between between Aigaleos and Parnes. The wall's course originally ran more than 4 km.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              23.5,
-              38.25
-            ],
-            [
-              23.75,
-              38.25
-            ],
-            [
               23.75,
               38.0
+            ],
+            [
+              23.75,
+              38.25
+            ],
+            [
+              23.5,
+              38.25
             ],
             [
               23.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kasalos Kolpos",
   "id": "472079",
-  "description": "An ancient place, cited: BAtlas 48 C2 Kasalos Kolpos",
   "bbox": [
     8.6514,
     42.42611,
     8.6514,
     42.42611
   ],
-  "reprPoint": [
-    8.6514,
-    42.42611
-  ],
+  "description": "An ancient place, cited: BAtlas 48 C2 Kasalos Kolpos",
   "names": [
     "Kasalos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6514,
+          42.42611
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              8.0,
-              43.0
-            ],
-            [
-              9.0,
-              43.0
-            ],
-            [
               9.0,
               42.0
+            ],
+            [
+              9.0,
+              43.0
+            ],
+            [
+              8.0,
+              43.0
             ],
             [
               8.0,

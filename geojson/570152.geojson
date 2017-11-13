@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Belminatis",
   "id": "570152",
-  "description": "An ancient place, cited: BAtlas 58 C3 Belminatis",
   "bbox": [
     22.0,
     37.0,
     22.5,
     37.5
   ],
-  "reprPoint": [
-    22.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C3 Belminatis",
   "names": [
     "Belminatis",
     "Belminates Ager",
@@ -23,6 +19,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -32,16 +41,16 @@
               37.0
             ],
             [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
               22.5,
               37.0
+            ],
+            [
+              22.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
             ],
             [
               22.0,

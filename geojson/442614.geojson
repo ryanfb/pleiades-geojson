@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hirpini",
   "id": "442614",
-  "description": "The Hirpini were an ancient Samnite people of central Italy.",
   "bbox": [
     14.790368,
     40.869305,
     15.475346,
     41.152484
   ],
-  "reprPoint": [
-    15.1522033333,
-    41.0092775833
-  ],
+  "description": "The Hirpini were an ancient Samnite people of central Italy.",
   "names": [
     "Hirpini"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1522033333,
+          41.0092775833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              14.5,
-              41.5
-            ],
-            [
-              15.0,
-              41.5
-            ],
-            [
               15.0,
               41.0
+            ],
+            [
+              15.0,
+              41.5
+            ],
+            [
+              14.5,
+              41.5
             ],
             [
               14.5,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Media Atropatene",
   "id": "874597",
-  "description": "An ancient place, cited: BAtlas 89 H2 Media Atropatene",
   "bbox": [
     45.0,
     38.0,
     46.0,
     39.0
   ],
-  "reprPoint": [
-    45.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 H2 Media Atropatene",
   "names": [
     "Media Atropatene",
     "Media Minor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              45.0,
-              39.0
-            ],
-            [
-              46.0,
-              39.0
-            ],
-            [
               46.0,
               38.0
+            ],
+            [
+              46.0,
+              39.0
+            ],
+            [
+              45.0,
+              39.0
             ],
             [
               45.0,

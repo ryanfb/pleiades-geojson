@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "847115",
-  "description": "Dableis → Modra → Bithynion → Gökçesu → Tieion",
   "bbox": [
     30.0,
     39.0,
     36.0,
     43.0
   ],
-  "reprPoint": [
-    33.0,
-    41.0
-  ],
+  "description": "Dableis → Modra → Bithynion → Gökçesu → Tieion",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0,
+          41.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              30.0,
-              43.0
-            ],
-            [
-              36.0,
-              43.0
-            ],
-            [
               36.0,
               39.0
+            ],
+            [
+              36.0,
+              43.0
+            ],
+            [
+              30.0,
+              43.0
             ],
             [
               30.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cadbury Castle",
   "id": "859366031",
-  "description": "Cadbury Castle is a hill fort located in South Cadbury, Somerset, England. ",
   "bbox": [
     -2.531285,
     51.0243429,
     -2.531285,
     51.0243429
   ],
-  "reprPoint": [
-    -2.531285,
-    51.0243429
-  ],
+  "description": "Cadbury Castle is a hill fort located in South Cadbury, Somerset, England. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.531285,
+          51.0243429
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

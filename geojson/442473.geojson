@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Arcora",
   "id": "442473",
-  "description": "An ancient place, cited: BAtlas 45 B1 Arcora",
   "bbox": [
     15.056818,
     41.933003,
     15.056818,
     41.933003
   ],
-  "reprPoint": [
-    15.056818,
-    41.933003
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B1 Arcora",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.056818,
+          41.933003
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

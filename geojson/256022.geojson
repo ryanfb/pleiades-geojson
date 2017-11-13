@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Belleia? M.",
   "id": "256022",
-  "description": "An ancient place, cited: BAtlas 26 E5 Belleia? M.",
   "bbox": [
     -6.0,
     36.0,
     -5.0,
     37.0
   ],
-  "reprPoint": [
-    -5.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E5 Belleia? M.",
   "names": [
     "Belleia M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              -6.0,
-              37.0
-            ],
-            [
-              -5.0,
-              37.0
-            ],
-            [
               -5.0,
               36.0
+            ],
+            [
+              -5.0,
+              37.0
+            ],
+            [
+              -6.0,
+              37.0
             ],
             [
               -6.0,

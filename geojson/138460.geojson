@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Meduana? (river)",
   "id": "138460",
-  "description": "An ancient place, cited: BAtlas 14 E1 Meduana? fl.",
   "bbox": [
     -0.7803763,
     48.1062524,
     -0.7803763,
     48.1062524
   ],
-  "reprPoint": [
-    -0.7803763,
-    48.1062524
-  ],
+  "description": "An ancient place, cited: BAtlas 14 E1 Meduana? fl.",
   "names": [
     "Meduana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7803763,
+          48.1062524
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              -1.0,
-              48.0
-            ],
-            [
-              0.0,
-              48.0
-            ],
-            [
               0.0,
               47.0
+            ],
+            [
+              0.0,
+              48.0
+            ],
+            [
+              -1.0,
+              48.0
             ],
             [
               -1.0,

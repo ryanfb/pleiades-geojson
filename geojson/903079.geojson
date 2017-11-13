@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Masabadan/Massabatene",
   "id": "903079",
-  "description": "An ancient place, cited: BAtlas 92 B3 Masabadan/Massabatene",
   "bbox": [
     46.0,
     33.0,
     47.0,
     34.0
   ],
-  "reprPoint": [
-    46.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 92 B3 Masabadan/Massabatene",
   "names": [
     "Masabadan",
     "Massabatene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               33.0
             ],
             [
-              46.0,
-              34.0
-            ],
-            [
-              47.0,
-              34.0
-            ],
-            [
               47.0,
               33.0
+            ],
+            [
+              47.0,
+              34.0
+            ],
+            [
+              46.0,
+              34.0
             ],
             [
               46.0,

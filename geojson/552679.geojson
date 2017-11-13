@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sardis-Thyateira Road",
   "id": "552679",
-  "description": "An ancient road connecting Sardis and Thyateira.",
   "bbox": [
     27.938,
     38.622,
     27.938,
     38.622
   ],
-  "reprPoint": [
-    27.938,
-    38.622
-  ],
+  "description": "An ancient road connecting Sardis and Thyateira.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.938,
+          38.622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
@@ -41,16 +50,16 @@
               38.0
             ],
             [
-              25.0,
-              40.5
-            ],
-            [
-              29.0,
-              40.5
-            ],
-            [
               29.0,
               38.0
+            ],
+            [
+              29.0,
+              40.5
+            ],
+            [
+              25.0,
+              40.5
             ],
             [
               25.0,

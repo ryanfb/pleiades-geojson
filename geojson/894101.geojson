@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "[Tartaru] (river)",
   "id": "894101",
-  "description": "An ancient place, cited: BAtlas 91 E3 [Tartaru] fl.",
   "bbox": [
     43.0,
     34.0,
     44.0,
     35.0
   ],
-  "reprPoint": [
-    43.5,
-    34.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 E3 [Tartaru] fl.",
   "names": [
     "[Tartaru]"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               34.0
             ],
             [
-              43.0,
-              35.0
-            ],
-            [
-              44.0,
-              35.0
-            ],
-            [
               44.0,
               34.0
+            ],
+            [
+              44.0,
+              35.0
+            ],
+            [
+              43.0,
+              35.0
             ],
             [
               43.0,

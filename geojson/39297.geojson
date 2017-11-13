@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Askitai",
   "id": "39297",
-  "description": "An ancient place, cited: BAtlas 4 E2 Askitai",
   "bbox": [
     55.0,
     15.0,
     60.0,
     20.0
   ],
-  "reprPoint": [
-    57.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 E2 Askitai",
   "names": [
     "Askitai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               15.0
             ],
             [
-              55.0,
-              20.0
-            ],
-            [
-              60.0,
-              20.0
-            ],
-            [
               60.0,
               15.0
+            ],
+            [
+              60.0,
+              20.0
+            ],
+            [
+              55.0,
+              20.0
             ],
             [
               55.0,

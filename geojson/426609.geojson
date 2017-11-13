@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed forts near Aefula",
   "id": "426609",
-  "description": "An ancient place, cited: BAtlas 43 D2 no. 33 (forts near Aefula)",
   "bbox": [
     12.75,
     41.75,
     13.0,
     42.0
   ],
-  "reprPoint": [
-    12.875,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 D2 no. 33 (forts near Aefula)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.875,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.75
             ],
             [
-              12.75,
-              42.0
-            ],
-            [
-              13.0,
-              42.0
-            ],
-            [
               13.0,
               41.75
+            ],
+            [
+              13.0,
+              42.0
+            ],
+            [
+              12.75,
+              42.0
             ],
             [
               12.75,

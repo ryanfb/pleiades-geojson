@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "aṭ-Ṭāʾif",
   "id": "869702585",
-  "description": "A place from the TAVO Index",
   "bbox": [
     40.0,
     20.0,
     45.0,
     25.0
   ],
-  "reprPoint": [
-    42.5,
-    22.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "aṭ-Ṭāʾif",
     "at-Tāʾif",
@@ -21,6 +17,19 @@
     "aṭ-Tāʾif"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               20.0
             ],
             [
-              40.0,
-              25.0
-            ],
-            [
-              45.0,
-              25.0
-            ],
-            [
               45.0,
               20.0
+            ],
+            [
+              45.0,
+              25.0
+            ],
+            [
+              40.0,
+              25.0
             ],
             [
               40.0,

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ad Portum/Gaditanus Portus",
   "id": "255955",
-  "description": "An ancient place, cited: BAtlas 26 D5 Ad Portum/Gaditanus Portus",
   "bbox": [
     -6.2275256,
     36.596953,
     -6.2275256,
     36.596953
   ],
-  "reprPoint": [
-    -6.2275256,
-    36.596953
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D5 Ad Portum/Gaditanus Portus",
   "names": [
     "Ad Portum",
     "Gaditanus Portus",
     "Menestheos Limen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2275256,
+          36.596953
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               36.0
             ],
             [
-              -7.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
               -6.0,
               36.0
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -7.0,
+              37.0
             ],
             [
               -7.0,

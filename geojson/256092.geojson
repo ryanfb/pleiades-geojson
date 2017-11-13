@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cerro da Vila",
   "id": "256092",
-  "description": "Cerro da Vila, the ruins of a Roman villa in the Algarve region of southern Portugal.",
   "bbox": [
     -8.120885,
     37.0798998,
     -8.1206038,
     37.08035
   ],
-  "reprPoint": [
-    -8.1207444,
-    37.0801249
-  ],
+  "description": "Cerro da Vila, the ruins of a Roman villa in the Algarve region of southern Portugal.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1207444,
+          37.0801249
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

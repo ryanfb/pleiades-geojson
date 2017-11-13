@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Zagatis (river)",
   "id": "857378",
-  "description": "An ancient place, cited: BAtlas 87 F3 Zagatis fl.",
   "bbox": [
     40.0,
     41.0,
     41.0,
     42.0
   ],
-  "reprPoint": [
-    40.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 F3 Zagatis fl.",
   "names": [
     "Zagatis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              40.0,
-              42.0
-            ],
-            [
-              41.0,
-              42.0
-            ],
-            [
               41.0,
               41.0
+            ],
+            [
+              41.0,
+              42.0
+            ],
+            [
+              40.0,
+              42.0
             ],
             [
               40.0,

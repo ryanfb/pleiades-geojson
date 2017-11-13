@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Baris?",
   "id": "776159",
-  "description": "An ancient place, cited: BAtlas 79 D4 Baris?",
   "bbox": [
     30.5,
     24.5,
     31.0,
     25.0
   ],
-  "reprPoint": [
-    30.75,
-    24.75
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D4 Baris?",
   "names": [
     "Baris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          24.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               24.5
             ],
             [
-              30.5,
-              25.0
-            ],
-            [
-              31.0,
-              25.0
-            ],
-            [
               31.0,
               24.5
+            ],
+            [
+              31.0,
+              25.0
+            ],
+            [
+              30.5,
+              25.0
             ],
             [
               30.5,

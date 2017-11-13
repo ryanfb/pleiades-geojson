@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Road network south of Hadrian's Wall",
   "id": "90602",
-  "description": null,
   "bbox": [
     -7.0,
     53.0,
     1.0,
     60.0
   ],
-  "reprPoint": [
-    -3.0,
-    56.5
-  ],
+  "description": null,
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0,
+          56.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               53.0
             ],
             [
-              -7.0,
-              60.0
-            ],
-            [
-              1.0,
-              60.0
-            ],
-            [
               1.0,
               53.0
+            ],
+            [
+              1.0,
+              60.0
+            ],
+            [
+              -7.0,
+              60.0
             ],
             [
               -7.0,

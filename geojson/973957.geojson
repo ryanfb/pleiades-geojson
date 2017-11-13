@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "973957",
-  "description": "An ancient place, cited: BAtlas 99 D1 unnamed mine (Hissar-Alai range TAJ) (1)",
   "bbox": [
     69.0,
     38.0,
     70.0,
     39.0
   ],
-  "reprPoint": [
-    69.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 99 D1 unnamed mine (Hissar-Alai range TAJ) (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              69.0,
-              39.0
-            ],
-            [
-              70.0,
-              39.0
-            ],
-            [
               70.0,
               38.0
+            ],
+            [
+              70.0,
+              39.0
+            ],
+            [
+              69.0,
+              39.0
             ],
             [
               69.0,

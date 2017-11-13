@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Tyras/Ophioussa",
   "id": "226800",
-  "description": "A Black Sea colony founded by Miletus.",
   "bbox": [
     30.349729,
     46.200563,
     30.350539,
     46.200948
   ],
-  "reprPoint": [
-    30.350134,
-    46.2007555
-  ],
+  "description": "A Black Sea colony founded by Miletus.",
   "names": [
     "Tyras",
     "Ophioussa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.350134,
+          46.2007555
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

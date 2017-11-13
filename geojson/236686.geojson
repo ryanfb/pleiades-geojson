@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre de Hércules",
   "id": "236686",
-  "description": "A lighthouse that has served as a marker for the  La Coruña harbor since the late first century AD.",
   "bbox": [
     -8.406686,
     43.385907,
     -8.406686,
     43.385907
   ],
-  "reprPoint": [
-    -8.406686,
-    43.385907
-  ],
+  "description": "A lighthouse that has served as a marker for the  La Coruña harbor since the late first century AD.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.406686,
+          43.385907
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

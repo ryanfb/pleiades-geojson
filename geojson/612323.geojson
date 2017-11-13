@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed quarry",
   "id": "612323",
-  "description": "An ancient place, cited: BAtlas 62 C4 no. 17 (Eldeniz)",
   "bbox": [
     29.739103,
     38.548115,
     29.739103,
     38.548115
   ],
-  "reprPoint": [
-    29.739103,
-    38.548115
-  ],
+  "description": "An ancient place, cited: BAtlas 62 C4 no. 17 (Eldeniz)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.739103,
+          38.548115
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

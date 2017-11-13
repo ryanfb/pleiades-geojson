@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ribari",
   "id": "570648",
-  "description": "An ancient place, cited: BAtlas 58 G4 Ribari",
   "bbox": [
     24.404935,
     36.702306,
     24.404935,
     36.702306
   ],
+  "description": "An ancient place, cited: BAtlas 58 G4 Ribari",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.404935,
-    36.702306
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.404935,
+          36.702306
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

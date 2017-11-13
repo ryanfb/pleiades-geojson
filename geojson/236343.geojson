@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Artabri/Arrotrebae",
   "id": "236343",
-  "description": "An ancient place, cited: BAtlas 24 C1 Artabri/Arrotrebae",
   "bbox": [
     -9.0,
     43.0,
     -8.0,
     44.0
   ],
-  "reprPoint": [
-    -8.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C1 Artabri/Arrotrebae",
   "names": [
     "Artabri",
     "Arrotrebae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               43.0
             ],
             [
-              -9.0,
-              44.0
-            ],
-            [
-              -8.0,
-              44.0
-            ],
-            [
               -8.0,
               43.0
+            ],
+            [
+              -8.0,
+              44.0
+            ],
+            [
+              -9.0,
+              44.0
             ],
             [
               -9.0,

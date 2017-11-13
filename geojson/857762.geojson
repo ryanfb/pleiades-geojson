@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "857762",
-  "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (Eupatoria, over Iris)",
   "bbox": [
     36.7190803,
     41.1802622,
     36.7190803,
     41.1802622
   ],
+  "description": "An ancient place, cited: BAtlas 87 B4 unnamed bridge (Eupatoria, over Iris)",
   "connectsWith": [
     "857171"
   ],
-  "reprPoint": [
-    36.7190803,
-    41.1802622
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7190803,
+          41.1802622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              36.0,
-              41.0
-            ],
-            [
-              37.0,
-              41.0
-            ],
-            [
               37.0,
               40.0
+            ],
+            [
+              37.0,
+              41.0
+            ],
+            [
+              36.0,
+              41.0
             ],
             [
               36.0,

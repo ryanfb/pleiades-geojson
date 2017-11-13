@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kianos Sinus",
   "id": "511289",
-  "description": "An ancient place, cited: BAtlas 52 D4 Kianos Sinus",
   "bbox": [
     28.5,
     40.0,
     29.0,
     40.5
   ],
-  "reprPoint": [
-    28.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 D4 Kianos Sinus",
   "names": [
     "Kianos Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              28.5,
-              40.5
-            ],
-            [
-              29.0,
-              40.5
-            ],
-            [
               29.0,
               40.0
+            ],
+            [
+              29.0,
+              40.5
+            ],
+            [
+              28.5,
+              40.5
             ],
             [
               28.5,

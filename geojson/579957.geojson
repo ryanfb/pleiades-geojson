@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iapis (river)",
   "id": "579957",
-  "description": "An ancient place, cited: BAtlas 59 A2 Iapis fl.",
   "bbox": [
     23.25,
     38.0,
     23.5,
     38.25
   ],
-  "reprPoint": [
-    23.375,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 A2 Iapis fl.",
   "names": [
     "Iapis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.375,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              23.25,
-              38.25
-            ],
-            [
-              23.5,
-              38.25
-            ],
-            [
               23.5,
               38.0
+            ],
+            [
+              23.5,
+              38.25
+            ],
+            [
+              23.25,
+              38.25
             ],
             [
               23.25,

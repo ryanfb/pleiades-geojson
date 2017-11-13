@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Plaza de Armas",
   "id": "266003",
-  "description": "An ancient place, cited: BAtlas 27 A4 Plaza de Armas",
   "bbox": [
     -4.471493,
     37.56834,
     -4.471493,
     37.56834
   ],
-  "reprPoint": [
-    -4.471493,
-    37.56834
-  ],
+  "description": "An ancient place, cited: BAtlas 27 A4 Plaza de Armas",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.471493,
+          37.56834
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

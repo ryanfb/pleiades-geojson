@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pomptinae Paludes",
   "id": "433033",
-  "description": "The Pomptinae Paludes (Pontine Marshes) is an area of former marshland in Latium.",
   "bbox": [
     12.5,
     41.5,
     13.0,
     42.0
   ],
-  "reprPoint": [
-    12.75,
-    41.75
-  ],
+  "description": "The Pomptinae Paludes (Pontine Marshes) is an area of former marshland in Latium.",
   "names": [
     "Pomptinae Paludes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.5
             ],
             [
-              12.5,
-              42.0
-            ],
-            [
-              13.0,
-              42.0
-            ],
-            [
               13.0,
               41.5
+            ],
+            [
+              13.0,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
             ],
             [
               12.5,

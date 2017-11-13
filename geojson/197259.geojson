@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Emona/Nauportus (river)",
   "id": "197259",
-  "description": "An ancient place, cited: BAtlas 20 B4 Emona/Nauportus fl.",
   "bbox": [
     14.0,
     45.0,
     15.0,
     46.0
   ],
-  "reprPoint": [
-    14.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B4 Emona/Nauportus fl.",
   "names": [
     "Emona",
     "Nauportus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              14.0,
-              46.0
-            ],
-            [
-              15.0,
-              46.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              46.0
+            ],
+            [
+              14.0,
+              46.0
             ],
             [
               14.0,

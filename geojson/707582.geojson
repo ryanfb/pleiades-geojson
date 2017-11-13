@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mitsero",
   "id": "707582",
-  "description": "An ancient place, cited: BAtlas 72 C2 Mitsero",
   "bbox": [
     33.09996,
     35.041655,
     33.09996,
     35.041655
   ],
+  "description": "An ancient place, cited: BAtlas 72 C2 Mitsero",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.09996,
-    35.041655
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.09996,
+          35.041655
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

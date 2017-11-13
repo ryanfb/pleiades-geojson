@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "150250",
-  "description": "An ancient place, cited: BAtlas 15 C2 unnamed centuriation (around Ambrussum and SE Nemausus (Nîmes I))",
   "bbox": [
     4.0,
     43.5,
     4.5,
     44.0
   ],
-  "reprPoint": [
-    4.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 15 C2 unnamed centuriation (around Ambrussum and SE Nemausus (Nîmes I))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.5
             ],
             [
-              4.0,
-              44.0
-            ],
-            [
-              4.5,
-              44.0
-            ],
-            [
               4.5,
               43.5
+            ],
+            [
+              4.5,
+              44.0
+            ],
+            [
+              4.0,
+              44.0
             ],
             [
               4.0,

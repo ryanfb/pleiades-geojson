@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Atinas Campus",
   "id": "442482",
-  "description": "An ancient place, cited: BAtlas 45 B4 Atinas Campus",
   "bbox": [
     15.0,
     40.0,
     15.5,
     40.5
   ],
-  "reprPoint": [
-    15.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B4 Atinas Campus",
   "names": [
     "Atinas Campus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              15.0,
-              40.5
-            ],
-            [
-              15.5,
-              40.5
-            ],
-            [
               15.5,
               40.0
+            ],
+            [
+              15.5,
+              40.5
+            ],
+            [
+              15.0,
+              40.5
             ],
             [
               15.0,

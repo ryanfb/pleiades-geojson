@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Melas (river)",
   "id": "638993",
-  "description": "An ancient place, cited: BAtlas 65 F4 Melas fl.",
   "bbox": [
     31.635364,
     37.030342,
     31.635364,
     37.030342
   ],
-  "reprPoint": [
-    31.635364,
-    37.030342
-  ],
+  "description": "An ancient place, cited: BAtlas 65 F4 Melas fl.",
   "names": [
     "Melas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.635364,
+          37.030342
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              31.0,
-              37.0
-            ],
-            [
-              31.5,
-              37.0
-            ],
-            [
               31.5,
               36.5
+            ],
+            [
+              31.5,
+              37.0
+            ],
+            [
+              31.0,
+              37.0
             ],
             [
               31.0,

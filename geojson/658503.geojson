@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karmalas? (river)",
   "id": "658503",
-  "description": "An ancient place, cited: BAtlas 67 B1 Karmalas? fl.",
   "bbox": [
     36.220454,
     38.668869,
     36.220454,
     38.668869
   ],
-  "reprPoint": [
-    36.220454,
-    38.668869
-  ],
+  "description": "An ancient place, cited: BAtlas 67 B1 Karmalas? fl.",
   "names": [
     "Karmalas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.220454,
+          38.668869
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              35.5,
-              38.0
-            ],
-            [
-              36.0,
-              38.0
-            ],
-            [
               36.0,
               37.5
+            ],
+            [
+              36.0,
+              38.0
+            ],
+            [
+              35.5,
+              38.0
             ],
             [
               35.5,

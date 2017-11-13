@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Illyricum",
   "id": "481865",
-  "description": "Illyricum was a Roman province that existed from 167 BC until AD 10.",
   "bbox": [
     16.4804508,
     41.3123828,
     19.449834,
     43.5421187
   ],
-  "reprPoint": [
-    17.9645164667,
-    42.4271484833
-  ],
+  "description": "Illyricum was a Roman province that existed from 167 BC until AD 10.",
   "names": [
     "Illyricum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9645164667,
+          42.4271484833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              19.0,
-              41.0
-            ],
-            [
-              20.0,
-              41.0
-            ],
-            [
               20.0,
               40.0
+            ],
+            [
+              20.0,
+              41.0
+            ],
+            [
+              19.0,
+              41.0
             ],
             [
               19.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torrecuevas aqueduct",
   "id": "266520",
-  "description": "An unnamed aqueduct located near the source of the Rio Verde, north of Sexi.",
   "bbox": [
     -4.0,
     36.0,
     -3.0,
     37.0
   ],
-  "reprPoint": [
-    -3.5,
-    36.5
-  ],
+  "description": "An unnamed aqueduct located near the source of the Rio Verde, north of Sexi.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              -4.0,
-              37.0
-            ],
-            [
-              -3.0,
-              37.0
-            ],
-            [
               -3.0,
               36.0
+            ],
+            [
+              -3.0,
+              37.0
+            ],
+            [
+              -4.0,
+              37.0
             ],
             [
               -4.0,

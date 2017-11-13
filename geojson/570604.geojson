@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phoibaia",
   "id": "570604",
-  "description": "An ancient place, cited: BAtlas 58 E2 Phoibaia",
   "bbox": [
     23.0,
     37.5,
     23.5,
     38.0
   ],
-  "reprPoint": [
-    23.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E2 Phoibaia",
   "names": [
     "Phoibaia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              23.0,
-              38.0
-            ],
-            [
-              23.5,
-              38.0
-            ],
-            [
               23.5,
               37.5
+            ],
+            [
+              23.5,
+              38.0
+            ],
+            [
+              23.0,
+              38.0
             ],
             [
               23.0,

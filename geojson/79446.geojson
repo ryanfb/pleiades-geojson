@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Eblanoi",
   "id": "79446",
-  "description": "An ancient place, cited: BAtlas 8 A1 Eblanoi",
   "bbox": [
     -7.0,
     53.0,
     -6.0,
     54.0
   ],
-  "reprPoint": [
-    -6.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 A1 Eblanoi",
   "names": [
     "Eblanoi",
     "Ebdanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               53.0
             ],
             [
-              -7.0,
-              54.0
-            ],
-            [
-              -6.0,
-              54.0
-            ],
-            [
               -6.0,
               53.0
+            ],
+            [
+              -6.0,
+              54.0
+            ],
+            [
+              -7.0,
+              54.0
             ],
             [
               -7.0,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sipylos/Manisa Dağı",
   "id": "550884",
-  "description": "A mountain peak in modern Turkey, also known as Mount Sipylus, Mount Spil (or, in Turkish: Spil Dağı).",
   "bbox": [
     27.456,
     38.567,
     27.456,
     38.567
   ],
-  "reprPoint": [
-    27.456,
-    38.567
-  ],
+  "description": "A mountain peak in modern Turkey, also known as Mount Sipylus, Mount Spil (or, in Turkish: Spil Dağı).",
   "names": [
     "Sipylus",
     "Sipylos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.456,
+          38.567
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

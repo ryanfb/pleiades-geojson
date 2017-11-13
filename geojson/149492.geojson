@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Pont d'Ambroix",
   "id": "149492",
-  "description": "A bridge over the Vidourle and road station on the Via Domitia.",
   "bbox": [
     4.151941,
     43.717227,
     4.151941,
     43.717227
   ],
+  "description": "A bridge over the Vidourle and road station on the Via Domitia.",
   "connectsWith": [
     "147990",
     "834876934"
   ],
-  "reprPoint": [
-    4.151941,
-    43.717227
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.151941,
+          43.717227
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

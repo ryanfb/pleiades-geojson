@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Iustiniani/S. Callinici Pons",
   "id": "521047",
-  "description": "An ancient place, cited: BAtlas 53 A2 Iustiniani/S. Callinici Pons",
   "bbox": [
     28.75,
     41.0,
     29.0,
     41.25
   ],
-  "reprPoint": [
-    28.875,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 A2 Iustiniani/S. Callinici Pons",
   "names": [
     "Iustiniani",
     "S. Callinici Pons"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              28.75,
-              41.25
-            ],
-            [
-              29.0,
-              41.25
-            ],
-            [
               29.0,
               41.0
+            ],
+            [
+              29.0,
+              41.25
+            ],
+            [
+              28.75,
+              41.25
             ],
             [
               28.75,

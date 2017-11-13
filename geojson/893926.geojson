@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "A262",
   "id": "893926",
-  "description": "An ancient place, cited: BAtlas 91 G5 A262",
   "bbox": [
     45.0,
     32.0,
     46.0,
     33.0
   ],
-  "reprPoint": [
-    45.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 G5 A262",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               32.0
             ],
             [
-              45.0,
-              33.0
-            ],
-            [
-              46.0,
-              33.0
-            ],
-            [
               46.0,
               32.0
+            ],
+            [
+              46.0,
+              33.0
+            ],
+            [
+              45.0,
+              33.0
             ],
             [
               45.0,

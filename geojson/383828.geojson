@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Votodrones",
   "id": "383828",
-  "description": "An ancient place, cited: BAtlas 39 D2 Votodrones",
   "bbox": [
     8.5,
     45.5,
     9.0,
     46.0
   ],
-  "reprPoint": [
-    8.75,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 D2 Votodrones",
   "names": [
     "Votodrones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              8.5,
-              46.0
-            ],
-            [
-              9.0,
-              46.0
-            ],
-            [
               9.0,
               45.5
+            ],
+            [
+              9.0,
+              46.0
+            ],
+            [
+              8.5,
+              46.0
             ],
             [
               8.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Susiya",
   "id": "688035",
-  "description": "An ancient place, cited: BAtlas 70 G3 Susiya",
   "bbox": [
     35.102467,
     31.406065,
     35.102467,
     31.406065
   ],
-  "reprPoint": [
-    35.102467,
-    31.406065
-  ],
+  "description": "An ancient place, cited: BAtlas 70 G3 Susiya",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.102467,
+          31.406065
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

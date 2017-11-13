@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "120051",
-  "description": "An ancient place, cited: BAtlas 12 B2 unnamed bridge (over Moenus fl., near Grosskrotzenburg)",
   "bbox": [
     8.0,
     50.0,
     9.0,
     51.0
   ],
-  "reprPoint": [
-    8.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 B2 unnamed bridge (over Moenus fl., near Grosskrotzenburg)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               50.0
             ],
             [
-              8.0,
-              51.0
-            ],
-            [
-              9.0,
-              51.0
-            ],
-            [
               9.0,
               50.0
+            ],
+            [
+              9.0,
+              51.0
+            ],
+            [
+              8.0,
+              51.0
             ],
             [
               8.0,

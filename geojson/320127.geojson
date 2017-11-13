@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "320127",
-  "description": "An ancient place, cited: BAtlas 32 E2 unnamed unlabeled ((4 cemeteries))",
   "bbox": [
     9.894521,
     37.145838,
     9.894521,
     37.145838
   ],
-  "reprPoint": [
-    9.894521,
-    37.145838
-  ],
+  "description": "An ancient place, cited: BAtlas 32 E2 unnamed unlabeled ((4 cemeteries))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.894521,
+          37.145838
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.0
             ],
             [
-              9.5,
-              37.5
-            ],
-            [
-              10.0,
-              37.5
-            ],
-            [
               10.0,
               37.0
+            ],
+            [
+              10.0,
+              37.5
+            ],
+            [
+              9.5,
+              37.5
             ],
             [
               9.5,

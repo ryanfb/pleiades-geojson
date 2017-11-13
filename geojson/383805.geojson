@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trump(i)lini",
   "id": "383805",
-  "description": "An alpine people dwelling in the area of Brixia; the name is connected to the Val Trompia.",
   "bbox": [
     10.0,
     45.5,
     10.5,
     46.0
   ],
-  "reprPoint": [
-    10.25,
-    45.75
-  ],
+  "description": "An alpine people dwelling in the area of Brixia; the name is connected to the Val Trompia.",
   "names": [
     "Trumpilini",
     "Trumplini"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.5
             ],
             [
-              10.0,
-              46.0
-            ],
-            [
-              10.5,
-              46.0
-            ],
-            [
               10.5,
               45.5
+            ],
+            [
+              10.5,
+              46.0
+            ],
+            [
+              10.0,
+              46.0
             ],
             [
               10.0,

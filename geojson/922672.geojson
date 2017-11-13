@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kur/Araxes? (river)",
   "id": "922672",
-  "description": "An ancient place, cited: BAtlas 94 C4 Kur/Araxes? fl.",
   "bbox": [
     52.0,
     29.0,
     53.0,
     30.0
   ],
-  "reprPoint": [
-    52.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 C4 Kur/Araxes? fl.",
   "names": [
     "Araxes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               29.0
             ],
             [
-              52.0,
-              30.0
-            ],
-            [
-              53.0,
-              30.0
-            ],
-            [
               53.0,
               29.0
+            ],
+            [
+              53.0,
+              30.0
+            ],
+            [
+              52.0,
+              30.0
             ],
             [
               52.0,

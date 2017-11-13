@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ruteni",
   "id": "138546",
-  "description": "An ancient place, cited: BAtlas 14 H4 Ruteni",
   "bbox": [
     2.573559,
     44.096622,
     3.092825,
     44.350785
   ],
-  "reprPoint": [
-    2.8333355,
-    44.2235595
-  ],
+  "description": "An ancient place, cited: BAtlas 14 H4 Ruteni",
   "names": [
     "Ruteni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8333355,
+          44.2235595
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              2.0,
-              45.0
-            ],
-            [
-              3.0,
-              45.0
-            ],
-            [
               3.0,
               44.0
+            ],
+            [
+              3.0,
+              45.0
+            ],
+            [
+              2.0,
+              45.0
             ],
             [
               2.0,

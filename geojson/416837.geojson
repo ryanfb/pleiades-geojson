@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Novem Pagi",
   "id": "416837",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Novem Pagi",
   "bbox": [
     11.5,
     43.5,
     12.0,
     44.0
   ],
+  "description": "An ancient place, cited: BAtlas 42 unlocated Novem Pagi",
   "connectsWith": [
     "413122"
-  ],
-  "reprPoint": [
-    11.75,
-    43.75
   ],
   "names": [
     "Novem Pagi"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

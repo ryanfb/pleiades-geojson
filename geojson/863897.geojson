@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sodi",
   "id": "863897",
-  "description": "An ancient place, cited: BAtlas 88 D2 Sodi",
   "bbox": [
     45.0,
     42.0,
     46.0,
     43.0
   ],
-  "reprPoint": [
-    45.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D2 Sodi",
   "names": [
     "Sodi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              45.0,
-              43.0
-            ],
-            [
-              46.0,
-              43.0
-            ],
-            [
               46.0,
               42.0
+            ],
+            [
+              46.0,
+              43.0
+            ],
+            [
+              45.0,
+              43.0
             ],
             [
               45.0,

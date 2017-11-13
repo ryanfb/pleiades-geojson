@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Portus",
   "id": "423012",
-  "description": "The great ancient maritime port of Rome, located on the right-hand bank of the Tiber river.",
   "bbox": [
     12.2548623,
     41.7755622,
     12.26258,
     41.7799527
   ],
+  "description": "The great ancient maritime port of Rome, located on the right-hand bank of the Tiber river.",
   "connectsWith": [
     "231839930",
     "303999556",
     "423080",
     "1356"
   ],
-  "reprPoint": [
-    12.258466,
-    41.778790975
-  ],
   "names": [
     "Portus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.258466,
+          41.778790975
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Kamiros",
   "id": "589836",
-  "description": "An ancient city of Rhodes, with evidence for Mycenaean occupation. From the eighth century BC a Greek settlement flourished, with a temple dedicated to the goddess Athena on its acropolis. The Hellenistic phase of the site followed the tenets of Hippodamian planning. The city was twice destroyed by earthquakes (226 and 142 BC).",
   "bbox": [
     27.921195,
     36.336185,
     27.921195,
     36.336185
   ],
+  "description": "An ancient city of Rhodes, with evidence for Mycenaean occupation. From the eighth century BC a Greek settlement flourished, with a temple dedicated to the goddess Athena on its acropolis. The Hellenistic phase of the site followed the tenets of Hippodamian planning. The city was twice destroyed by earthquakes (226 and 142 BC).",
   "connectsWith": [
     "590031"
-  ],
-  "reprPoint": [
-    27.921195,
-    36.336185
   ],
   "names": [
     "Kamiros",
     "Kamiris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.921195,
+          36.336185
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               34.5
             ],
             [
-              26.0,
-              35.0
-            ],
-            [
-              26.5,
-              35.0
-            ],
-            [
               26.5,
               34.5
+            ],
+            [
+              26.5,
+              35.0
+            ],
+            [
+              26.0,
+              35.0
             ],
             [
               26.0,

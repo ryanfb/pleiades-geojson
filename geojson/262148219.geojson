@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Piana di Monte Verna",
   "id": "262148219",
-  "description": "An ancient Oscan center delimited by a megalithic fortification wall.",
   "bbox": [
     14.333333,
     41.166667,
     14.333333,
     41.166667
   ],
-  "reprPoint": [
-    14.333333,
-    41.166667
-  ],
+  "description": "An ancient Oscan center delimited by a megalithic fortification wall.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.333333,
+          41.166667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

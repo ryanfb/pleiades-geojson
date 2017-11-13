@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Orientale Mare/Gangeticus Sinus/Eous Oceanus",
   "id": "50178",
-  "description": "The Bay of Bengal forms the northeastern portion of the Indian Ocean.",
   "bbox": [
     89.9999999,
     15.0000001,
     89.9999999,
     15.0000001
   ],
+  "description": "The Bay of Bengal forms the northeastern portion of the Indian Ocean.",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    89.9999999,
-    15.0000001
   ],
   "names": [
     "Orientale Mare",
@@ -22,6 +18,19 @@
     "Eous Oceanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.9999999,
+          15.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

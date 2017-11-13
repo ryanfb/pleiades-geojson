@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Axos? (river)",
   "id": "550480",
-  "description": "An ancient place, cited: BAtlas 56 C5 Axos? fl.",
   "bbox": [
     26.0,
     38.0,
     26.5,
     38.5
   ],
-  "reprPoint": [
-    26.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 C5 Axos? fl.",
   "names": [
     "Axos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              26.0,
-              38.5
-            ],
-            [
-              26.5,
-              38.5
-            ],
-            [
               26.5,
               38.0
+            ],
+            [
+              26.5,
+              38.5
+            ],
+            [
+              26.0,
+              38.5
             ],
             [
               26.0,

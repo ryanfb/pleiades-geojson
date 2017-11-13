@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Petnic",
   "id": "207339",
-  "description": "An ancient place, cited: BAtlas 21 E5 Petnic",
   "bbox": [
     22.288055,
     44.97793,
     22.288055,
     44.97793
   ],
-  "reprPoint": [
-    22.288055,
-    44.97793
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E5 Petnic",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.288055,
+          44.97793
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

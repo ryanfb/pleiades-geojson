@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pseudostoma",
   "id": "727210",
-  "description": "An ancient place, cited: BAtlas 74 F2 Pseudostoma",
   "bbox": [
     31.5,
     31.0,
     32.0,
     31.5
   ],
-  "reprPoint": [
-    31.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 F2 Pseudostoma",
   "names": [
     "Pseudostoma"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              31.5,
-              31.5
-            ],
-            [
-              32.0,
-              31.5
-            ],
-            [
               32.0,
               31.0
+            ],
+            [
+              32.0,
+              31.5
+            ],
+            [
+              31.5,
+              31.5
             ],
             [
               31.5,

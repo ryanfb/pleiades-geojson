@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "'Ain Ghazal",
   "id": "357303540",
-  "description": "A Neolithic settlement inhabited from ca. 7250 BC to 5000 BC; located in the northwest of Jordan.",
   "bbox": [
     35.9764962,
     31.9883253,
     35.9764962,
     31.9883253
   ],
-  "reprPoint": [
-    35.9764962,
-    31.9883253
-  ],
+  "description": "A Neolithic settlement inhabited from ca. 7250 BC to 5000 BC; located in the northwest of Jordan.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9764962,
+          31.9883253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tarraconensis",
   "id": "981551",
-  "description": "The Roman imperial province of Hispania Tarraconensis.",
   "bbox": [
     3.1766232,
     42.4395125,
     3.1766232,
     42.4395125
   ],
-  "reprPoint": [
-    3.1766232,
-    42.4395125
-  ],
+  "description": "The Roman imperial province of Hispania Tarraconensis.",
   "names": [
     "Tarraconensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1766232,
+          42.4395125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -5.0,
-              45.0
-            ],
-            [
-              0.0,
-              45.0
-            ],
-            [
               0.0,
               40.0
+            ],
+            [
+              0.0,
+              45.0
+            ],
+            [
+              -5.0,
+              45.0
             ],
             [
               -5.0,

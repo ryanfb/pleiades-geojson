@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Anio (river)",
   "id": "422834",
-  "description": "The Anio river (modern Aniene) is a river of northern Latium.",
   "bbox": [
     12.5007,
     41.9401252,
     12.5088698,
     41.9423
   ],
+  "description": "The Anio river (modern Aniene) is a river of northern Latium.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    12.5047849,
-    41.9412126
   ],
   "names": [
     "Anio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5047849,
+          41.9412126
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Bombilla",
   "id": "265828",
-  "description": "An ancient place, cited: BAtlas 27 E2 La Bombilla",
   "bbox": [
     -0.594723,
     39.624645,
     -0.594723,
     39.624645
   ],
-  "reprPoint": [
-    -0.594723,
-    39.624645
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E2 La Bombilla",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.594723,
+          39.624645
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

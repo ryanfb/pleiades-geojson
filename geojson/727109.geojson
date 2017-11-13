@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Didymai? (islands)",
   "id": "727109",
-  "description": "An ancient place, cited: BAtlas 74 B2 Didymai? Inss.",
   "bbox": [
     29.5,
     31.0,
     30.0,
     31.5
   ],
-  "reprPoint": [
-    29.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 B2 Didymai? Inss.",
   "names": [
     "Didymai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              29.5,
-              31.5
-            ],
-            [
-              30.0,
-              31.5
-            ],
-            [
               30.0,
               31.0
+            ],
+            [
+              30.0,
+              31.5
+            ],
+            [
+              29.5,
+              31.5
             ],
             [
               29.5,

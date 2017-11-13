@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Bracheia/Prasodes Thalassa",
   "id": "39315",
-  "description": "Bracheia/Prasodes Thalassa was a part of the Indian Ocean described by Ptolemy lying off the coast of east Africa ",
   "bbox": [
     64.9999999,
     -20.0,
     80.0,
     20.0000001
   ],
+  "description": "Bracheia/Prasodes Thalassa was a part of the Indian Ocean described by Ptolemy lying off the coast of east Africa ",
   "connectsWith": [
     "39308",
     "39352"
-  ],
-  "reprPoint": [
-    72.49999995,
-    5.00000005843e-08
   ],
   "names": [
     "Bracheia",
     "Prasodes Thalassa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.49999995,
+          5.00000005843e-08
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               -10.0
             ],
             [
-              35.0,
-              -5.0
-            ],
-            [
-              40.0,
-              -5.0
-            ],
-            [
               40.0,
               -10.0
+            ],
+            [
+              40.0,
+              -5.0
+            ],
+            [
+              35.0,
+              -5.0
             ],
             [
               35.0,

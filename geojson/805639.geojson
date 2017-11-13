@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nubaei?",
   "id": "805639",
-  "description": "An ancient place, cited: BAtlas 82 B4 Nubaei?",
   "bbox": [
     31.0,
     17.0,
     32.0,
     18.0
   ],
-  "reprPoint": [
-    31.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 82 B4 Nubaei?",
   "names": [
     "Nubaei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               17.0
             ],
             [
-              31.0,
-              18.0
-            ],
-            [
-              32.0,
-              18.0
-            ],
-            [
               32.0,
               17.0
+            ],
+            [
+              32.0,
+              18.0
+            ],
+            [
+              31.0,
+              18.0
             ],
             [
               31.0,

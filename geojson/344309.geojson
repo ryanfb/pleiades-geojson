@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Be (river)",
   "id": "344309",
-  "description": "An ancient place, cited: BAtlas 35 H4 Be fl.",
   "bbox": [
     15.0,
     30.0,
     16.0,
     31.0
   ],
-  "reprPoint": [
-    15.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 H4 Be fl.",
   "names": [
     "Be"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.0
             ],
             [
-              15.0,
-              31.0
-            ],
-            [
-              16.0,
-              31.0
-            ],
-            [
               16.0,
               30.0
+            ],
+            [
+              16.0,
+              31.0
+            ],
+            [
+              15.0,
+              31.0
             ],
             [
               15.0,

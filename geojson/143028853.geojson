@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Incastro River",
   "id": "143028853",
-  "description": "The Incastro is a river of Latium that drains the waters originating from the Lago di Nemi. Its ancient name is unknown.",
   "bbox": [
     12.5091802,
     41.5797163,
     12.5091802,
     41.5797163
   ],
+  "description": "The Incastro is a river of Latium that drains the waters originating from the Lago di Nemi. Its ancient name is unknown.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    12.5091802,
-    41.5797163
   ],
   "names": [
     "Incastro",
     "Fosso dell'Incastro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5091802,
+          41.5797163
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

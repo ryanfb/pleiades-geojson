@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Ris",
   "id": "716516",
-  "description": "An ancient place, cited: None",
   "bbox": [
     28.691312,
     28.030442,
     28.691312,
     28.030442
   ],
-  "reprPoint": [
-    28.691312,
-    28.030442
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.691312,
+          28.030442
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

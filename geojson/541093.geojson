@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Scyrus (island)",
   "id": "541093",
-  "description": "The island of Skyros in the Aegean Sea.",
   "bbox": [
     24.56,
     38.85,
     24.56,
     38.85
   ],
+  "description": "The island of Skyros in the Aegean Sea.",
   "connectsWith": [
     "599944"
-  ],
-  "reprPoint": [
-    24.56,
-    38.85
   ],
   "names": [
     "Scyrus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.56,
+          38.85
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

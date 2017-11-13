@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Galounia",
   "id": "707510",
-  "description": "An ancient place, cited: BAtlas 72 D2 Galounia",
   "bbox": [
     33.953123,
     35.443104,
     33.953123,
     35.443104
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Galounia",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.953123,
-    35.443104
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.953123,
+          35.443104
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

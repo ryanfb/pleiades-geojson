@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Corinium",
   "id": "197225",
-  "description": "An ancient place, cited: BAtlas 20 C5 Corinium",
   "bbox": [
     15.633504,
     44.104527,
     15.633504,
     44.104527
   ],
-  "reprPoint": [
-    15.633504,
-    44.104527
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C5 Corinium",
   "names": [
     "Corinium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.633504,
+          44.104527
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

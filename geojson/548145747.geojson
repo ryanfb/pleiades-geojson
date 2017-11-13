@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Basiluzzo",
   "id": "548145747",
-  "description": "An islet that is part of the Aeolian Islands.",
   "bbox": [
     15.113889,
     38.663333,
     15.113889,
     38.663333
   ],
+  "description": "An islet that is part of the Aeolian Islands.",
   "connectsWith": [
     "462076"
   ],
-  "reprPoint": [
-    15.113889,
-    38.663333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.113889,
+          38.663333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

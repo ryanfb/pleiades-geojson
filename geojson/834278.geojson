@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alanoi",
   "id": "834278",
-  "description": "Alanoi, a group of Sarmatian tribes and nomadic pastoralists of the first millennium AD.",
   "bbox": [
     44.0,
     44.0,
     45.0,
     45.0
   ],
-  "reprPoint": [
-    44.5,
-    44.5
-  ],
+  "description": "Alanoi, a group of Sarmatian tribes and nomadic pastoralists of the first millennium AD.",
   "names": [
     "Alanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              44.0,
-              45.0
-            ],
-            [
-              45.0,
-              45.0
-            ],
-            [
               45.0,
               44.0
+            ],
+            [
+              45.0,
+              45.0
+            ],
+            [
+              44.0,
+              45.0
             ],
             [
               44.0,

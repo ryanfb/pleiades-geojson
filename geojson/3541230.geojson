@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cemetery of the Garamantes",
   "id": "3541230",
-  "description": "Unnamed cemetery in the el-Agial escarpment",
   "bbox": [
     13.895829,
     26.718433,
     13.895829,
     26.718433
   ],
+  "description": "Unnamed cemetery in the el-Agial escarpment",
   "connectsWith": [
     "354112"
   ],
-  "reprPoint": [
-    13.895829,
-    26.718433
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.895829,
+          26.718433
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               26.0
             ],
             [
-              13.0,
-              27.0
-            ],
-            [
-              14.0,
-              27.0
-            ],
-            [
               14.0,
               26.0
+            ],
+            [
+              14.0,
+              27.0
+            ],
+            [
+              13.0,
+              27.0
             ],
             [
               13.0,

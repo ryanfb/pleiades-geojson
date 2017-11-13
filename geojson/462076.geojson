@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Aeoliae (islands)",
   "id": "462076",
-  "description": "A volcanic archipelago in the Tyrrhenian Sea composed of eight islands.",
   "bbox": [
     14.35,
     38.4042,
     15.213,
     38.789
   ],
+  "description": "A volcanic archipelago in the Tyrrhenian Sea composed of eight islands.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    14.8824195,
-    38.57980975
   ],
   "names": [
     "Aeoliae",
@@ -25,5 +21,20 @@
     "Isole Eolie",
     "Volcaniae",
     "Hephaistiades"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8824195,
+          38.57980975
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

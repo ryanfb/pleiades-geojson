@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Stonehenge",
   "id": "509089189",
-  "description": "An ancient formation of stones set in a field near Salisbury (Wiltshire County, England). ",
   "bbox": [
     -1.826268,
     51.178854,
     -1.826268,
     51.178854
   ],
-  "reprPoint": [
-    -1.826268,
-    51.178854
-  ],
+  "description": "An ancient formation of stones set in a field near Salisbury (Wiltshire County, England). ",
   "names": [
     "Stonehenge"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.826268,
+          51.178854
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

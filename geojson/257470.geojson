@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257470",
-  "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (N Phornakis at Palomas, over R. Palomillas)",
   "bbox": [
     -7.0,
     38.0,
     -6.0,
     39.0
   ],
-  "reprPoint": [
-    -6.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D3 unnamed bridge (N Phornakis at Palomas, over R. Palomillas)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              -7.0,
-              39.0
-            ],
-            [
-              -6.0,
-              39.0
-            ],
-            [
               -6.0,
               38.0
+            ],
+            [
+              -6.0,
+              39.0
+            ],
+            [
+              -7.0,
+              39.0
             ],
             [
               -7.0,

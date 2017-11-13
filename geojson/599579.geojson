@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Columbus",
   "id": "599579",
-  "description": "An ancient place, cited: BAtlas 61 A5 Columbus",
   "bbox": [
     25.417748,
     36.47416,
     25.417748,
     36.47416
   ],
-  "reprPoint": [
-    25.417748,
-    36.47416
-  ],
+  "description": "An ancient place, cited: BAtlas 61 A5 Columbus",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.417748,
+          36.47416
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

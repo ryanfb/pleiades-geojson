@@ -2,23 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tiona/Titana",
   "id": "897862",
-  "description": "An ancient place, cited: BAtlas 91 unlocated Tiona/Titana fl.",
   "bbox": [
     44.5295019,
     33.2518531,
     44.5295019,
     33.2518531
   ],
-  "reprPoint": [
-    44.5295019,
-    33.2518531
-  ],
+  "description": "An ancient place, cited: BAtlas 91 unlocated Tiona/Titana fl.",
   "names": [
     "Tiona",
     "Titana"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5295019,
+          33.2518531
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Corinthia",
   "id": "570180",
-  "description": "Corinthia was a region of ancient Greece associated with the city-state Corinth.",
   "bbox": [
     22.834379,
     37.798572,
     22.834379,
     37.798572
   ],
-  "reprPoint": [
-    22.834379,
-    37.798572
-  ],
+  "description": "Corinthia was a region of ancient Greece associated with the city-state Corinth.",
   "names": [
     "Corinthia",
     "Col. Laus Iulia Corinthiensis",
     "Ephyre"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.834379,
+          37.798572
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               37.5
             ],
             [
-              22.5,
-              38.0
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
               23.0,
               37.5
+            ],
+            [
+              23.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
             ],
             [
               22.5,

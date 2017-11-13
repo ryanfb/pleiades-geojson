@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Letojanni",
   "id": "462280",
-  "description": "An ancient place, cited: BAtlas 47 G3 Letojanni",
   "bbox": [
     15.305584,
     37.879504,
     15.305584,
     37.879504
   ],
+  "description": "An ancient place, cited: BAtlas 47 G3 Letojanni",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    15.305584,
-    37.879504
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.305584,
+          37.879504
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

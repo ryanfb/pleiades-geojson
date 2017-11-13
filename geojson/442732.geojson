@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Poseideion Akron",
   "id": "442732",
-  "description": "An ancient place, cited: BAtlas 45 A4 Poseideion Akron",
   "bbox": [
     14.5,
     40.0,
     15.0,
     40.5
   ],
-  "reprPoint": [
-    14.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 A4 Poseideion Akron",
   "names": [
     "Poseideion Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              14.5,
-              40.5
-            ],
-            [
-              15.0,
-              40.5
-            ],
-            [
               15.0,
               40.0
+            ],
+            [
+              15.0,
+              40.5
+            ],
+            [
+              14.5,
+              40.5
             ],
             [
               14.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Eastbourne",
   "id": "79444",
-  "description": "An ancient place, cited: BAtlas 8 H4 Eastbourne",
   "bbox": [
     0.284746,
     50.766847,
     0.284746,
     50.766847
   ],
-  "reprPoint": [
-    0.284746,
-    50.766847
-  ],
+  "description": "An ancient place, cited: BAtlas 8 H4 Eastbourne",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.284746,
+          50.766847
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 49B (Turf Wall)",
   "id": "967060308",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.608748,
     54.987747,
     -2.608748,
     54.987747
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.608748,
-    54.987747
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.608748,
+          54.987747
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

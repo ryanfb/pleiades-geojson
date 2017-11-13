@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cythera Ins.",
   "id": "570186",
-  "description": "An ancient place, cited: BAtlas 58 inset Cythera Ins.",
   "bbox": [
     22.9770456,
     36.1503953,
     22.9770456,
     36.1503953
   ],
-  "reprPoint": [
-    22.9770456,
-    36.1503953
-  ],
+  "description": "An ancient place, cited: BAtlas 58 inset Cythera Ins.",
   "names": [
     "Cythera"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9770456,
+          36.1503953
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              22.5,
-              36.5
-            ],
-            [
-              23.5,
-              36.5
-            ],
-            [
               23.5,
               36.0
+            ],
+            [
+              23.5,
+              36.5
+            ],
+            [
+              22.5,
+              36.5
             ],
             [
               22.5,

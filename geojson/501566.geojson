@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Territory of the Pieres",
   "id": "501566",
-  "description": "The land where the Pieres, a Thracian tribe, resettled after being driven from Pieria in the 7th century BC",
   "bbox": [
     24.0,
     40.5,
     24.5,
     41.0
   ],
+  "description": "The land where the Pieres, a Thracian tribe, resettled after being driven from Pieria in the 7th century BC",
   "connectsWith": [
     "501631"
-  ],
-  "reprPoint": [
-    24.25,
-    40.75
   ],
   "names": [
     "Pieres"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               40.5
             ],
             [
-              24.0,
-              41.0
-            ],
-            [
-              24.5,
-              41.0
-            ],
-            [
               24.5,
               40.5
+            ],
+            [
+              24.5,
+              41.0
+            ],
+            [
+              24.0,
+              41.0
             ],
             [
               24.0,

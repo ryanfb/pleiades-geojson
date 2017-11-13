@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tarnis (river)",
   "id": "138607",
-  "description": "The Tarn river.",
   "bbox": [
     1.3361223,
     44.0189802,
     1.3361223,
     44.0189802
   ],
+  "description": "The Tarn river.",
   "connectsWith": [
     "138369"
-  ],
-  "reprPoint": [
-    1.3361223,
-    44.0189802
   ],
   "names": [
     "Tarnis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3361223,
+          44.0189802
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               44.0
             ],
             [
-              3.0,
-              45.0
-            ],
-            [
-              4.0,
-              45.0
-            ],
-            [
               4.0,
               44.0
+            ],
+            [
+              4.0,
+              45.0
+            ],
+            [
+              3.0,
+              45.0
             ],
             [
               3.0,

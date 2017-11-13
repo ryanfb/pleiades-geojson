@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Van Fortress",
   "id": "964673805",
-  "description": "Van Fortress is an ancient citadel of Urartu built during the ninth through seventh centuries BC.",
   "bbox": [
     43.3353794,
     38.5037865,
     43.3353794,
     38.5037865
   ],
+  "description": "Van Fortress is an ancient citadel of Urartu built during the ninth through seventh centuries BC.",
   "connectsWith": [
     "214160492"
   ],
-  "reprPoint": [
-    43.3353794,
-    38.5037865
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3353794,
+          38.5037865
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

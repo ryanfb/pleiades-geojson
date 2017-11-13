@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Athribites Nomos",
   "id": "727079",
-  "description": "An ancient place, cited: BAtlas 74 E3 Athribites Nomos",
   "bbox": [
     31.0,
     30.5,
     31.5,
     31.0
   ],
-  "reprPoint": [
-    31.25,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 74 E3 Athribites Nomos",
   "names": [
     "Athribites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.5
             ],
             [
-              31.0,
-              31.0
-            ],
-            [
-              31.5,
-              31.0
-            ],
-            [
               31.5,
               30.5
+            ],
+            [
+              31.5,
+              31.0
+            ],
+            [
+              31.0,
+              31.0
             ],
             [
               31.0,

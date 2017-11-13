@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 51A (Piper Syke)",
   "id": "967060337",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.644858,
     54.980624,
     -2.644745,
     54.980688
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.64480206622,
-    54.9806559079
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64480206622,
+          54.9806559079
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.644858,
-              54.980668,
+              -2.644745,
+              54.980644,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.644745,
-              54.980644,
+              -2.644858,
+              54.980668,
               0.0
             ],
             [

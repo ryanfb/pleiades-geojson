@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Copais L.",
   "id": "540715",
-  "description": "Copais L. (Lake Copais) was a lake of northern Boeotia. The lake was drained in the nineteenth century.",
   "bbox": [
     23.068726,
     38.447092,
     23.068726,
     38.447092
   ],
-  "reprPoint": [
-    23.068726,
-    38.447092
-  ],
+  "description": "Copais L. (Lake Copais) was a lake of northern Boeotia. The lake was drained in the nineteenth century.",
   "names": [
     "Copais L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.068726,
+          38.447092
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              23.0,
-              38.5
-            ],
-            [
-              23.5,
-              38.5
-            ],
-            [
               23.5,
               38.0
+            ],
+            [
+              23.5,
+              38.5
+            ],
+            [
+              23.0,
+              38.5
             ],
             [
               23.0,

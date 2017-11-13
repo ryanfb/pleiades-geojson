@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Arch of Constantine",
   "id": "874299107",
-  "description": "The Arch of Constantine at Rome, a triumphal arch dedicated in A.D. 315.",
   "bbox": [
     12.4904941,
     41.889892,
     12.4904941,
     41.889892
   ],
+  "description": "The Arch of Constantine at Rome, a triumphal arch dedicated in A.D. 315.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4904941,
-    41.889892
   ],
   "names": [
     "Arch of Constantine"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4904941,
+          41.889892
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

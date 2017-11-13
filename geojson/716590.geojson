@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Libycum Mare",
   "id": "716590",
-  "description": "A portion of the Mediterranean Sea lying along the coast of Libya and extending eastward as far as the island of Crete.",
   "bbox": [
     25.0,
     31.0,
     26.0,
     32.0
   ],
-  "reprPoint": [
-    25.5,
-    31.5
-  ],
+  "description": "A portion of the Mediterranean Sea lying along the coast of Libya and extending eastward as far as the island of Crete.",
   "names": [
     "Libycum Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              25.0,
-              32.0
-            ],
-            [
-              26.0,
-              32.0
-            ],
-            [
               26.0,
               31.0
+            ],
+            [
+              26.0,
+              32.0
+            ],
+            [
+              25.0,
+              32.0
             ],
             [
               25.0,

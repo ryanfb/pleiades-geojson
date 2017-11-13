@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dounon Kolpos",
   "id": "89169",
-  "description": "An ancient place, cited: BAtlas 9 F6 Dounon Kolpos",
   "bbox": [
     -2.0,
     54.0,
     -1.0,
     55.0
   ],
-  "reprPoint": [
-    -1.5,
-    54.5
-  ],
+  "description": "An ancient place, cited: BAtlas 9 F6 Dounon Kolpos",
   "names": [
     "Dounon Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          54.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               54.0
             ],
             [
-              -2.0,
-              55.0
-            ],
-            [
-              -1.0,
-              55.0
-            ],
-            [
               -1.0,
               54.0
+            ],
+            [
+              -1.0,
+              55.0
+            ],
+            [
+              -2.0,
+              55.0
             ],
             [
               -2.0,

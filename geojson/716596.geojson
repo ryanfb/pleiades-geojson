@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marmaridai",
   "id": "716596",
-  "description": "An ancient people of Libya.",
   "bbox": [
     23.0,
     31.0,
     24.0,
     32.0
   ],
-  "reprPoint": [
-    23.5,
-    31.5
-  ],
+  "description": "An ancient people of Libya.",
   "names": [
     "Marmaridai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              23.0,
-              32.0
-            ],
-            [
-              24.0,
-              32.0
-            ],
-            [
               24.0,
               31.0
+            ],
+            [
+              24.0,
+              32.0
+            ],
+            [
+              23.0,
+              32.0
             ],
             [
               23.0,

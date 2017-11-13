@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Venetia et Histria",
   "id": "991349",
-  "description": "Venetia et Histria was the tenth Augustan region (regio X) of Italy.",
   "bbox": [
     10.0,
     45.0,
     15.0,
     50.0
   ],
-  "reprPoint": [
-    12.5,
-    47.5
-  ],
+  "description": "Venetia et Histria was the tenth Augustan region (regio X) of Italy.",
   "names": [
     "Venetia et Histria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              10.0,
-              50.0
-            ],
-            [
-              15.0,
-              50.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              50.0
+            ],
+            [
+              10.0,
+              50.0
             ],
             [
               10.0,

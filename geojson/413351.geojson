@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tres Tabernae",
   "id": "413351",
-  "description": "An ancient place, cited: BAtlas 42 D3 Tres Tabernae",
   "bbox": [
     12.5,
     42.5,
     13.0,
     43.0
   ],
+  "description": "An ancient place, cited: BAtlas 42 D3 Tres Tabernae",
   "connectsWith": [
     "856514595"
-  ],
-  "reprPoint": [
-    12.75,
-    42.75
   ],
   "names": [
     "Tres Tabernae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               42.5
             ],
             [
-              12.5,
-              43.0
-            ],
-            [
-              13.0,
-              43.0
-            ],
-            [
               13.0,
               42.5
+            ],
+            [
+              13.0,
+              43.0
+            ],
+            [
+              12.5,
+              43.0
             ],
             [
               12.5,

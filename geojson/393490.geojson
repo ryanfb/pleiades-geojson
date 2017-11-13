@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sapis (river)",
   "id": "393490",
-  "description": "Sapis fl. (Savio river)",
   "bbox": [
     12.2285179,
     44.119168,
     12.2285179,
     44.119168
   ],
+  "description": "Sapis fl. (Savio river)",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    12.2285179,
-    44.119168
   ],
   "names": [
     "Sapis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2285179,
+          44.119168
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

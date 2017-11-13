@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Zeitun",
   "id": "716517",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.806348,
     29.253491,
     25.806348,
     29.253491
   ],
-  "reprPoint": [
-    25.806348,
-    29.253491
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.806348,
+          29.253491
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Toumpa",
   "id": "707634",
-  "description": "An ancient place, cited: BAtlas 72 D2 Toumpa",
   "bbox": [
     33.900893,
     35.159374,
     33.900893,
     35.159374
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Toumpa",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.900893,
-    35.159374
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.900893,
+          35.159374
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

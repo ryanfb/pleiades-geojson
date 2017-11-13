@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Megabar(r)i?",
   "id": "805629",
-  "description": "An ancient place, cited: BAtlas 82 C3 Megabar(r)i?",
   "bbox": [
     32.0,
     18.0,
     33.0,
     19.0
   ],
-  "reprPoint": [
-    32.5,
-    18.5
-  ],
+  "description": "An ancient place, cited: BAtlas 82 C3 Megabar(r)i?",
   "names": [
     " Megabarri",
     " Megabari"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          18.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               18.0
             ],
             [
-              32.0,
-              19.0
-            ],
-            [
-              33.0,
-              19.0
-            ],
-            [
               33.0,
               18.0
+            ],
+            [
+              33.0,
+              19.0
+            ],
+            [
+              32.0,
+              19.0
             ],
             [
               32.0,

@@ -2,23 +2,34 @@
   "type": "FeatureCollection",
   "title": "Creta (island)",
   "id": "589748",
-  "description": "The island of Crete is the largest of the Greek islands and the fifth-largest island in the Mediterranean Sea.",
   "bbox": [
     23.657098,
     34.933931,
     26.27598,
     35.663585
   ],
+  "description": "The island of Crete is the largest of the Greek islands and the fifth-largest island in the Mediterranean Sea.",
   "connectsWith": [
     "1043",
     "589749"
   ],
-  "reprPoint": [
-    24.9957699715,
-    35.2198443917
-  ],
   "names": [
     "Creta",
     "Kríti"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9957699715,
+          35.2198443917
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

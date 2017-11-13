@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Via Augusta",
   "id": "803793619",
-  "description": "A Roman road stretching some 1,500 km from Cádiz to the Coll de Panissars.",
   "bbox": [
     -6.346438,
     36.528381,
     3.004308,
     43.183648
   ],
-  "reprPoint": [
-    -0.555506289839,
-    39.8702418867
+  "description": "A Roman road stretching some 1,500 km from Cádiz to the Coll de Panissars.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.555506289839,
+          39.8702418867
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

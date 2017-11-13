@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "396382",
-  "description": "An ancient place, cited: BAtlas 40 A3 unnamed centuriation (near Forum Gallorum (Mutina))",
   "bbox": [
     11.0,
     44.5,
     11.5,
     45.0
   ],
-  "reprPoint": [
-    11.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 40 A3 unnamed centuriation (near Forum Gallorum (Mutina))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.5
             ],
             [
-              11.0,
-              45.0
-            ],
-            [
-              11.5,
-              45.0
-            ],
-            [
               11.5,
               44.5
+            ],
+            [
+              11.5,
+              45.0
+            ],
+            [
+              11.0,
+              45.0
             ],
             [
               11.0,

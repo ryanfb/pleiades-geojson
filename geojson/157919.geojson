@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "St-Michel",
   "id": "157919",
-  "description": "An ancient place, cited: BAtlas 16 B3 St-Michel",
   "bbox": [
     6.038716,
     43.182771,
     6.038716,
     43.182771
   ],
-  "reprPoint": [
-    6.038716,
-    43.182771
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B3 St-Michel",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.038716,
+          43.182771
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

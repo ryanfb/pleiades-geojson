@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Styx (river)",
   "id": "570698",
-  "description": "An ancient place, cited: BAtlas 58 C1 Styx fl.",
   "bbox": [
     22.0,
     38.0,
     22.5,
     38.5
   ],
-  "reprPoint": [
-    22.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C1 Styx fl.",
   "names": [
     "Styx"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              22.0,
-              38.5
-            ],
-            [
-              22.5,
-              38.5
-            ],
-            [
               22.5,
               38.0
+            ],
+            [
+              22.5,
+              38.5
+            ],
+            [
+              22.0,
+              38.5
             ],
             [
               22.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 52A (Banks East)",
   "id": "967060289",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.666043,
     54.975266,
     -2.665919,
     54.975336
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.66598041404,
-    54.9753011135
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.66598041404,
+          54.9753011135
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.666043,
-              54.975318,
+              -2.665919,
+              54.975284,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.665919,
-              54.975284,
+              -2.666043,
+              54.975318,
               0.0
             ],
             [

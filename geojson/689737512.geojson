@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bindon Hill",
   "id": "689737512",
-  "description": "Bindon Hill is the site of extensive Iron Age earthworks on a coastal hill area in Dorset, England.",
   "bbox": [
     -2.23461,
     50.62217,
     -2.23461,
     50.62217
   ],
-  "reprPoint": [
-    -2.23461,
-    50.62217
-  ],
+  "description": "Bindon Hill is the site of extensive Iron Age earthworks on a coastal hill area in Dorset, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.23461,
+          50.62217
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

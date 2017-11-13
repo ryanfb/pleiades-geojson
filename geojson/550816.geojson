@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Petra",
   "id": "550816",
-  "description": "An ancient coastal settlement on the island of Lesbos, situated around and atop a volcanic neck.",
   "bbox": [
     26.1761751,
     39.327613,
     26.1761751,
     39.327613
   ],
+  "description": "An ancient coastal settlement on the island of Lesbos, situated around and atop a volcanic neck.",
   "connectsWith": [
     "550696"
   ],
-  "reprPoint": [
-    26.1761751,
-    39.327613
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1761751,
+          39.327613
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

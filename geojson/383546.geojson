@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ad Flexum/Sermione Mansio",
   "id": "383546",
-  "description": "An ancient place, cited: BAtlas 39 H3 Ad Flexum/Sermione Mansio",
   "bbox": [
     10.605721,
     45.4690768,
     10.605721,
     45.4690768
   ],
-  "reprPoint": [
-    10.605721,
-    45.4690768
-  ],
+  "description": "An ancient place, cited: BAtlas 39 H3 Ad Flexum/Sermione Mansio",
   "names": [
     "Ad Flexum",
     "Sermione Mansio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.605721,
+          45.4690768
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              10.5,
-              45.5
-            ],
-            [
-              11.0,
-              45.5
-            ],
-            [
               11.0,
               45.0
+            ],
+            [
+              11.0,
+              45.5
+            ],
+            [
+              10.5,
+              45.5
             ],
             [
               10.5,

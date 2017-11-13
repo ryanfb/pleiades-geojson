@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyrraios Sinus",
   "id": "550853",
-  "description": "An ancient place, cited: BAtlas 56 C3 Pyrraios Sinus",
   "bbox": [
     26.0,
     39.0,
     26.5,
     39.5
   ],
-  "reprPoint": [
-    26.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 C3 Pyrraios Sinus",
   "names": [
     "Pyrraios Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              26.0,
-              39.5
-            ],
-            [
-              26.5,
-              39.5
-            ],
-            [
               26.5,
               39.0
+            ],
+            [
+              26.5,
+              39.5
+            ],
+            [
+              26.0,
+              39.5
             ],
             [
               26.0,

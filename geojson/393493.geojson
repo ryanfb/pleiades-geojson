@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Septem Maria (Station)",
   "id": "393493",
-  "description": "A station on the Via Popillia in the Po river delta (also known as Septem Maria)",
   "bbox": [
     12.227829,
     45.024199,
     12.227829,
     45.024199
   ],
+  "description": "A station on the Via Popillia in the Po river delta (also known as Septem Maria)",
   "connectsWith": [
     "393494"
-  ],
-  "reprPoint": [
-    12.227829,
-    45.024199
   ],
   "names": [
     "Septem Maria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.227829,
+          45.024199
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

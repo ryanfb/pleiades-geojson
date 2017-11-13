@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "El Castillo",
   "id": "246310",
-  "description": "An ancient place, cited: BAtlas 25 F4 El Castillo",
   "bbox": [
     0.164258,
     41.663304,
     0.164258,
     41.663304
   ],
-  "reprPoint": [
-    0.164258,
-    41.663304
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F4 El Castillo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.164258,
+          41.663304
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "345792",
-  "description": "An ancient place, cited: BAtlas 35 C1 unnamed causeway (between Meninge and Ad Pontem)",
   "bbox": [
     10.0,
     33.0,
     11.0,
     34.0
   ],
-  "reprPoint": [
-    10.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C1 unnamed causeway (between Meninge and Ad Pontem)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               33.0
             ],
             [
-              10.0,
-              34.0
-            ],
-            [
-              11.0,
-              34.0
-            ],
-            [
               11.0,
               33.0
+            ],
+            [
+              11.0,
+              34.0
+            ],
+            [
+              10.0,
+              34.0
             ],
             [
               10.0,

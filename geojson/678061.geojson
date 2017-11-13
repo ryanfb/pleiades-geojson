@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Beth Alpha",
   "id": "678061",
-  "description": "An ancient place, cited: BAtlas 69 B4 Beth Alpha",
   "bbox": [
     35.42498,
     32.515777,
     35.42498,
     32.515777
   ],
-  "reprPoint": [
-    35.42498,
-    32.515777
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Beth Alpha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42498,
+          32.515777
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

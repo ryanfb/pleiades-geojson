@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain al-Qerd",
   "id": "874305",
-  "description": "An ancient place, cited: BAtlas 89 C3 Ain al-Qerd",
   "bbox": [
     40.762558,
     37.080556,
     40.762558,
     37.080556
   ],
-  "reprPoint": [
-    40.762558,
-    37.080556
-  ],
+  "description": "An ancient place, cited: BAtlas 89 C3 Ain al-Qerd",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.762558,
+          37.080556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Via Claudia Nova",
   "id": "926033983",
-  "description": "A Roman road built in AD 47 in order to connect the Via Caecilia with the Via Claudia Valeria.",
   "bbox": [
     13.279132,
     42.002986,
     14.012773,
     42.400556
   ],
-  "reprPoint": [
-    13.549695375,
-    42.275624375
+  "description": "A Roman road built in AD 47 in order to connect the Via Caecilia with the Via Claudia Valeria.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.549695375,
+          42.275624375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

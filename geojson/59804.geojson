@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Emodon/Kasia (mountain)",
   "id": "59804",
-  "description": "An ancient place, cited: BAtlas 6 E2 Emodon/Kasia M.",
   "bbox": [
     80.0,
     35.0,
     85.0,
     40.0
   ],
-  "reprPoint": [
-    82.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 E2 Emodon/Kasia M.",
   "names": [
     "Emodon",
     "Kasia M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               35.0
             ],
             [
-              80.0,
-              40.0
-            ],
-            [
-              85.0,
-              40.0
-            ],
-            [
               85.0,
               35.0
+            ],
+            [
+              85.0,
+              40.0
+            ],
+            [
+              80.0,
+              40.0
             ],
             [
               80.0,

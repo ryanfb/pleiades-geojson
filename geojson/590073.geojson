@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Tenos",
   "id": "590073",
-  "description": "An ancient place, cited: BAtlas 60 B4 Tenos",
   "bbox": [
     25.114,
     37.607,
     25.114,
     37.607
   ],
+  "description": "An ancient place, cited: BAtlas 60 B4 Tenos",
   "connectsWith": [
     "590074"
-  ],
-  "reprPoint": [
-    25.114,
-    37.607
   ],
   "names": [
     "Tenos"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.114,
+          37.607
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

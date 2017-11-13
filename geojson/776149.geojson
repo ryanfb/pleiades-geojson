@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Marraga",
   "id": "776149",
-  "description": "An ancient place, cited: BAtlas 79 D3 Ain Marraga",
   "bbox": [
     30.50529,
     25.355471,
     30.50529,
     25.355471
   ],
-  "reprPoint": [
-    30.50529,
-    25.355471
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D3 Ain Marraga",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.50529,
+          25.355471
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Settecamini",
   "id": "423071",
-  "description": "An ancient place, cited: BAtlas 43 C2 Settecamini",
   "bbox": [
     12.6212931,
     41.9381095,
     12.6226594,
     41.9386179
   ],
+  "description": "An ancient place, cited: BAtlas 43 C2 Settecamini",
   "connectsWith": [
     "272213281"
   ],
-  "reprPoint": [
-    12.6220163126,
-    41.938317727
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6220163126,
+          41.938317727
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,20 +36,20 @@
               41.9381095
             ],
             [
-              12.6212931,
-              41.9381872
-            ],
-            [
-              12.6213374,
-              41.9382258
+              12.6226594,
+              41.9382867
             ],
             [
               12.6225832,
               41.9386179
             ],
             [
-              12.6226594,
-              41.9382867
+              12.6213374,
+              41.9382258
+            ],
+            [
+              12.6212931,
+              41.9381872
             ],
             [
               12.6213263,

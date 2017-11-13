@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Mendesios (river)",
   "id": "727158",
-  "description": "An ancient place, cited: BAtlas 74 F2 Mendesios fl.",
   "bbox": [
     31.0,
     31.0,
     32.0,
     31.5
   ],
-  "reprPoint": [
-    31.5,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 F2 Mendesios fl.",
   "names": [
     "Mendesios",
     "Mendesischer Arm"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               31.0
             ],
             [
-              31.5,
-              31.5
-            ],
-            [
-              32.0,
-              31.5
-            ],
-            [
               32.0,
               31.0
+            ],
+            [
+              32.0,
+              31.5
+            ],
+            [
+              31.5,
+              31.5
             ],
             [
               31.5,
@@ -65,16 +74,16 @@
               31.0
             ],
             [
-              31.0,
-              31.5
-            ],
-            [
-              31.5,
-              31.5
-            ],
-            [
               31.5,
               31.0
+            ],
+            [
+              31.5,
+              31.5
+            ],
+            [
+              31.0,
+              31.5
             ],
             [
               31.0,

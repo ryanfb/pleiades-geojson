@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Delos (island)",
   "id": "599588",
-  "description": "The Aegean island of Delos, part of the Cyclades island group.",
   "bbox": [
     25.271111,
     37.393333,
     25.271111,
     37.393333
   ],
+  "description": "The Aegean island of Delos, part of the Cyclades island group.",
   "connectsWith": [
     "560353",
     "560221"
-  ],
-  "reprPoint": [
-    25.271111,
-    37.393333
   ],
   "names": [
     "Delos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.271111,
+          37.393333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

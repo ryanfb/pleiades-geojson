@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyrra Pr.",
   "id": "550850",
-  "description": "An ancient place, cited: BAtlas 56 D3 Pyrra Pr.",
   "bbox": [
     26.816585,
     39.433013,
     26.816585,
     39.433013
   ],
-  "reprPoint": [
-    26.816585,
-    39.433013
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Pyrra Pr.",
   "names": [
     "Pyrra Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.816585,
+          39.433013
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              26.5,
-              39.5
-            ],
-            [
-              27.0,
-              39.5
-            ],
-            [
               27.0,
               39.0
+            ],
+            [
+              27.0,
+              39.5
+            ],
+            [
+              26.5,
+              39.5
             ],
             [
               26.5,

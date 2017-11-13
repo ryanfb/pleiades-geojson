@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Argentariae Dalmaticae et Pannonicae",
   "id": "209137",
-  "description": "A Dalmatian and Pannonian silver and lead mining region located in the eastern part of what is now Bosnia.",
   "bbox": [
     19.292015,
     44.087577,
     19.445241,
     44.152234
   ],
-  "reprPoint": [
-    19.365022,
-    44.11556525
-  ],
+  "description": "A Dalmatian and Pannonian silver and lead mining region located in the eastern part of what is now Bosnia.",
   "names": [
     "Argentariae Dalmaticae et Pannonicae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.365022,
+          44.11556525
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              18.0,
-              45.0
-            ],
-            [
-              19.0,
-              45.0
-            ],
-            [
               19.0,
               44.0
+            ],
+            [
+              19.0,
+              45.0
+            ],
+            [
+              18.0,
+              45.0
             ],
             [
               18.0,

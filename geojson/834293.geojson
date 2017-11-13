@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Oudon/Kophen (river)",
   "id": "834293",
-  "description": "An ancient place, cited: BAtlas 85 B3 Oudon/Kophen fl.",
   "bbox": [
     44.0,
     44.0,
     45.0,
     45.0
   ],
-  "reprPoint": [
-    44.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 85 B3 Oudon/Kophen fl.",
   "names": [
     "Oudon",
     "Kophen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               44.0
             ],
             [
-              44.0,
-              45.0
-            ],
-            [
-              45.0,
-              45.0
-            ],
-            [
               45.0,
               44.0
+            ],
+            [
+              45.0,
+              45.0
+            ],
+            [
+              44.0,
+              45.0
             ],
             [
               44.0,

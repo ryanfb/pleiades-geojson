@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sorai",
   "id": "285524",
-  "description": "An ancient place, cited: BAtlas 29 E1 Sorai",
   "bbox": [
     -1.0,
     35.0,
     0.0,
     36.0
   ],
-  "reprPoint": [
-    -0.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 29 E1 Sorai",
   "names": [
     "Sorai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              -1.0,
-              36.0
-            ],
-            [
-              0.0,
-              36.0
-            ],
-            [
               0.0,
               35.0
+            ],
+            [
+              0.0,
+              36.0
+            ],
+            [
+              -1.0,
+              36.0
             ],
             [
               -1.0,

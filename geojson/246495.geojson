@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Medina de Pomar",
   "id": "246495",
-  "description": "An ancient place, cited: BAtlas 25 B3 Medina de Pomar",
   "bbox": [
     -3.487752,
     42.927639,
     -3.487752,
     42.927639
   ],
-  "reprPoint": [
-    -3.487752,
-    42.927639
-  ],
+  "description": "An ancient place, cited: BAtlas 25 B3 Medina de Pomar",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.487752,
+          42.927639
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "141201",
-  "description": "Burdigala → Lugdunum (Map 17)",
   "bbox": [
     -0.583166,
     44.837205,
     4.8307431,
     45.7704303
   ],
-  "reprPoint": [
-    2.1217425792,
-    45.3027570381
-  ],
+  "description": "Burdigala → Lugdunum (Map 17)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1217425792,
+          45.3027570381
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              -5.0,
-              48.0
-            ],
-            [
-              4.0,
-              48.0
-            ],
-            [
               4.0,
               44.0
+            ],
+            [
+              4.0,
+              48.0
+            ],
+            [
+              -5.0,
+              48.0
             ],
             [
               -5.0,

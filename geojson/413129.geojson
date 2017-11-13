@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Fanum Fortunae",
   "id": "413129",
-  "description": "Fanum Fortunae, the site of a shrine to Fortuna, is first mentioned in the ancient sources in 49 B.C. when Iulius Caesar held the town. An Augustan colony was established at the site and the Romans prevailed in the Battle of Fano in A.D. 271. The town was eventually destroyed by the Ostrogoths.",
   "bbox": [
     13.0144392,
     43.8431286,
     13.016921,
     43.844902
   ],
+  "description": "Fanum Fortunae, the site of a shrine to Fortuna, is first mentioned in the ancient sources in 49 B.C. when Iulius Caesar held the town. An Augustan colony was established at the site and the Romans prevailed in the Battle of Fano in A.D. 271. The town was eventually destroyed by the Ostrogoths.",
   "connectsWith": [
     "856514595",
     "1004"
-  ],
-  "reprPoint": [
-    13.0156801,
-    43.8440153
   ],
   "names": [
     "Fanum Fortunae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0156801,
+          43.8440153
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
@@ -51,7 +60,7 @@
       "properties": {
         "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of Arch of Augustus",
+        "title": "OSM location of Arch of Augustus",
         "link": "http://pleiades.stoa.org/places/413129/location-of-arch-of-augustus"
       }
     }

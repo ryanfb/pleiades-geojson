@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Signia",
   "id": "423072",
-  "description": "A city of Latium Adjectum established as a Latin colony ca. 494 B.C.",
   "bbox": [
     13.022225,
     41.691453,
     13.024731,
     41.696925
   ],
-  "reprPoint": [
-    13.023478,
-    41.694189
-  ],
+  "description": "A city of Latium Adjectum established as a Latin colony ca. 494 B.C.",
   "names": [
     "Signia",
     "Segni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.023478,
+          41.694189
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",
@@ -46,9 +55,9 @@
       "id": "temple-of-iuno-moneta",
       "type": "Feature",
       "properties": {
-        "description": "temple of Iuno Moneta at Signia",
+        "description": "Imagery location of the visible archaeological remains of the podium of the Temple of Iuno Moneta.",
         "location_precision": "precise",
-        "title": "Temple of Iuno Moneta",
+        "title": "Imagery location of Temple of Iuno Moneta",
         "link": "http://pleiades.stoa.org/places/423072/temple-of-iuno-moneta"
       }
     }

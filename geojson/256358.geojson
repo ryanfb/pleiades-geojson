@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Pax Iulia/Pax Augusta/Col. Pacensis",
   "id": "256358",
-  "description": "An ancient Roman city of Lustiania.",
   "bbox": [
     -7.865225,
     38.015604,
     -7.865225,
     38.015604
   ],
-  "reprPoint": [
-    -7.865225,
-    38.015604
-  ],
+  "description": "An ancient Roman city of Lustiania.",
   "names": [
     "Pax Iulia",
     "Pax Augusta",
     "Col. Pacensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.865225,
+          38.015604
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

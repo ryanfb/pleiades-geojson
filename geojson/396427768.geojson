@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Villa of the Mysteries",
   "id": "396427768",
-  "description": "A Roman villa located northwest of Pompeii.",
   "bbox": [
     14.477444,
     40.753694,
     14.477444,
     40.753694
   ],
+  "description": "A Roman villa located northwest of Pompeii.",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.477444,
-    40.753694
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.477444,
+          40.753694
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

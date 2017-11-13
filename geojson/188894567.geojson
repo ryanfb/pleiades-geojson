@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mortuary Temple of Amenhotep III",
   "id": "188894567",
-  "description": "Temple constructed in the Theban Necropolis during the 18th Dynasty.",
   "bbox": [
     32.6059197,
     25.7200392,
     32.611139,
     25.7230412
   ],
-  "reprPoint": [
-    32.6085302358,
-    25.721538733
-  ],
+  "description": "Temple constructed in the Theban Necropolis during the 18th Dynasty.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6085302358,
+          25.721538733
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               25.7200392
             ],
             [
-              32.6059197,
-              25.722246
+              32.611139,
+              25.7208229
             ],
             [
               32.6064183,
               25.7230412
             ],
             [
-              32.611139,
-              25.7208229
+              32.6059197,
+              25.722246
             ],
             [
               32.6106608,

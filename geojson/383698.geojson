@@ -2,18 +2,29 @@
   "type": "FeatureCollection",
   "title": "Liguria",
   "id": "383698",
-  "description": "Liguria is a coastal region of northwest Italy.",
   "bbox": [
     7.829491,
     44.0628757,
     10.031476,
     44.559379
   ],
-  "reprPoint": [
-    9.23570772667,
-    44.2265654943
-  ],
+  "description": "Liguria is a coastal region of northwest Italy.",
   "names": [
     "Liguria"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.23570772667,
+          44.2265654943
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

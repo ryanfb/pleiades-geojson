@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Grimes Graves",
   "id": "567638603",
-  "description": "Grimes Graves is the site of a Neolithic flint mining complex near Brandon in England that was in use from ca. 3000 to 1900 BC.",
   "bbox": [
     0.6740389,
     52.4766361,
     0.6740389,
     52.4766361
   ],
-  "reprPoint": [
-    0.6740389,
-    52.4766361
-  ],
+  "description": "Grimes Graves is the site of a Neolithic flint mining complex near Brandon in England that was in use from ca. 3000 to 1900 BC.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6740389,
+          52.4766361
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

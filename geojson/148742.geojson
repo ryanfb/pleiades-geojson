@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueducts",
   "id": "148742",
-  "description": "unnamed aqueduct group (Aquae Sextiae)",
   "bbox": [
     5.0,
     43.5,
     5.5,
     44.0
   ],
-  "reprPoint": [
-    5.25,
-    43.75
-  ],
+  "description": "unnamed aqueduct group (Aquae Sextiae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.5
             ],
             [
-              5.0,
-              44.0
-            ],
-            [
-              5.5,
-              44.0
-            ],
-            [
               5.5,
               43.5
+            ],
+            [
+              5.5,
+              44.0
+            ],
+            [
+              5.0,
+              44.0
             ],
             [
               5.0,

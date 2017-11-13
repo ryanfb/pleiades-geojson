@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Castellaccio Europarco",
   "id": "201409250",
-  "description": "A villa and a number of burials located along the Via Laurentina, dating from the fourth century BC to the second century AD.",
   "bbox": [
     12.472699,
     41.80281,
     12.472699,
     41.80281
   ],
+  "description": "A villa and a number of burials located along the Via Laurentina, dating from the fourth century BC to the second century AD.",
   "connectsWith": [
     "988280578"
   ],
-  "reprPoint": [
-    12.472699,
-    41.80281
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.472699,
+          41.80281
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

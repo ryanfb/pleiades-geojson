@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "268790",
-  "description": "An ancient place, cited: BAtlas 27 E2 unnamed dam (NW Sebelaci, on R. Millárs (Mijares))",
   "bbox": [
     -1.0,
     39.0,
     0.0,
     40.0
   ],
-  "reprPoint": [
-    -0.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E2 unnamed dam (NW Sebelaci, on R. Millárs (Mijares))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              -1.0,
-              40.0
-            ],
-            [
-              0.0,
-              40.0
-            ],
-            [
               0.0,
               39.0
+            ],
+            [
+              0.0,
+              40.0
+            ],
+            [
+              -1.0,
+              40.0
             ],
             [
               -1.0,

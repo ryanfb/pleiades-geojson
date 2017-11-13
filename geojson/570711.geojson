@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tenea",
   "id": "570711",
-  "description": "Tenea is an ancient city of the Corinthia famous for its sanctuary of Apollo.",
   "bbox": [
     22.834379,
     37.798572,
     22.834379,
     37.798572
   ],
+  "description": "Tenea is an ancient city of the Corinthia famous for its sanctuary of Apollo.",
   "connectsWith": [
     "570180"
-  ],
-  "reprPoint": [
-    22.834379,
-    37.798572
   ],
   "names": [
     "Tenea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.834379,
+          37.798572
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

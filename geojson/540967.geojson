@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oeroe (river)",
   "id": "540967",
-  "description": "An ancient place, cited: BAtlas 55 E4 Oeroe fl.",
   "bbox": [
     23.0,
     38.0,
     23.5,
     38.5
   ],
-  "reprPoint": [
-    23.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 E4 Oeroe fl.",
   "names": [
     "Oeroe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              23.0,
-              38.5
-            ],
-            [
-              23.5,
-              38.5
-            ],
-            [
               23.5,
               38.0
+            ],
+            [
+              23.5,
+              38.5
+            ],
+            [
+              23.0,
+              38.5
             ],
             [
               23.0,

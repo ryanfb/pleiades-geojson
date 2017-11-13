@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Maiandros M.",
   "id": "59904",
-  "description": "An ancient place, cited: BAtlas 6 G5 Maiandros M.",
   "bbox": [
     90.0,
     20.0,
     95.0,
     25.0
   ],
-  "reprPoint": [
-    92.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 G5 Maiandros M.",
   "names": [
     "Maiandros M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               20.0
             ],
             [
-              90.0,
-              25.0
-            ],
-            [
-              95.0,
-              25.0
-            ],
-            [
               95.0,
               20.0
+            ],
+            [
+              95.0,
+              25.0
+            ],
+            [
+              90.0,
+              25.0
             ],
             [
               90.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 38B (Highshield Crag)",
   "id": "967060394",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.370748,
     55.004656,
     -2.370622,
     55.004701
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.37068435449,
-    55.0046787315
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.37068435449,
+          55.0046787315
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.370748,
-              55.004683,
+              -2.370622,
+              55.004675,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.370622,
-              55.004675,
+              -2.370748,
+              55.004683,
               0.0
             ],
             [

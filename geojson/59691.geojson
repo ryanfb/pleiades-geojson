@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Arabitai",
   "id": "59691",
-  "description": "An ancient place, cited: BAtlas 6 B4 Arabitai",
   "bbox": [
     65.0,
     25.0,
     70.0,
     30.0
   ],
-  "reprPoint": [
-    67.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B4 Arabitai",
   "names": [
     "Arabitai",
     "Aribae",
@@ -23,6 +19,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -32,16 +41,16 @@
               25.0
             ],
             [
-              65.0,
-              30.0
-            ],
-            [
-              70.0,
-              30.0
-            ],
-            [
               70.0,
               25.0
+            ],
+            [
+              70.0,
+              30.0
+            ],
+            [
+              65.0,
+              30.0
             ],
             [
               65.0,

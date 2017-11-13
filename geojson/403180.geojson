@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "‘Argoos Limen’",
   "id": "403180",
-  "description": "A port on the island of Ilva (modern Elba), so named based on the resting place of the Argonauts, according to Strabo.",
   "bbox": [
     10.328097,
     42.816796,
     10.3281,
     42.816805
   ],
+  "description": "A port on the island of Ilva (modern Elba), so named based on the resting place of the Argonauts, according to Strabo.",
   "connectsWith": [
     "403222"
-  ],
-  "reprPoint": [
-    10.3280985,
-    42.8168005
   ],
   "names": [
     "Argoos Limen",
@@ -22,6 +18,19 @@
     "limḕn Argôios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3280985,
+          42.8168005
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

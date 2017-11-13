@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Salluvii",
   "id": "157921",
-  "description": "An ancient place, cited: BAtlas 16 A3 Salluvii",
   "bbox": [
     5.5,
     43.0,
     6.0,
     43.5
   ],
-  "reprPoint": [
-    5.75,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 A3 Salluvii",
   "names": [
     "Salluvii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.75,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              5.5,
-              43.5
-            ],
-            [
-              6.0,
-              43.5
-            ],
-            [
               6.0,
               43.0
+            ],
+            [
+              6.0,
+              43.5
+            ],
+            [
+              5.5,
+              43.5
             ],
             [
               5.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lukmanier Pass",
   "id": "191772",
-  "description": "An ancient place, cited: BAtlas 19 A3 no. 1 (Lukmanier Pass)",
   "bbox": [
     8.0,
     46.0,
     9.0,
     47.0
   ],
-  "reprPoint": [
-    8.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 A3 no. 1 (Lukmanier Pass)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               46.0
             ],
             [
-              8.0,
-              47.0
-            ],
-            [
-              9.0,
-              47.0
-            ],
-            [
               9.0,
               46.0
+            ],
+            [
+              9.0,
+              47.0
+            ],
+            [
+              8.0,
+              47.0
             ],
             [
               8.0,

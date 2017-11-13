@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Krasnaya Skala",
   "id": "825304",
-  "description": "An ancient place, cited: BAtlas 84 C3 Krasnaya Skala",
   "bbox": [
     37.366489,
     45.033165,
     37.366489,
     45.033165
   ],
-  "reprPoint": [
-    37.366489,
-    45.033165
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C3 Krasnaya Skala",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.366489,
+          45.033165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

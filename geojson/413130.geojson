@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Fanum Fugitivi",
   "id": "413130",
-  "description": "A road station on the Via Flaminia, located between Interamna and Spoletium.",
   "bbox": [
     12.723449,
     42.680127,
     12.723449,
     42.680127
   ],
+  "description": "A road station on the Via Flaminia, located between Interamna and Spoletium.",
   "connectsWith": [
     "856514595"
-  ],
-  "reprPoint": [
-    12.723449,
-    42.680127
   ],
   "names": [
     "Fanum Fugitivi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.723449,
+          42.680127
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

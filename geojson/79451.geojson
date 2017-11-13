@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ely Roman Villa",
   "id": "79451",
-  "description": "An extensive villa site of Roman imperial date, excavated in the late 19th and early 20th centuries. Located in the current \"Trelai Park\", Ely Village, Cardiff, Wales.",
   "bbox": [
     -3.2303296,
     51.4780527,
     -3.2303296,
     51.4780527
   ],
-  "reprPoint": [
-    -3.2303296,
-    51.4780527
-  ],
+  "description": "An extensive villa site of Roman imperial date, excavated in the late 19th and early 20th centuries. Located in the current \"Trelai Park\", Ely Village, Cardiff, Wales.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2303296,
+          51.4780527
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

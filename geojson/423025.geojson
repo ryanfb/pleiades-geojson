@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Roma",
   "id": "423025",
-  "description": "The capital of the Roman Republic and Empire.",
   "bbox": [
     12.486137,
     41.891775,
     12.486137,
     41.891775
   ],
+  "description": "The capital of the Roman Republic and Empire.",
   "connectsWith": [
     "303999556",
     "502042016",
@@ -34,16 +34,25 @@
     "136661131",
     "988280578"
   ],
-  "reprPoint": [
-    12.486137,
-    41.891775
-  ],
   "names": [
     "Roma",
     "Rome",
     "Rhṓmē"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

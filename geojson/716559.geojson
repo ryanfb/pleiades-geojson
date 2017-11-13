@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gebel Mota",
   "id": "716559",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.523166,
     29.236201,
     25.523166,
     29.236201
   ],
-  "reprPoint": [
-    25.523166,
-    29.236201
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.523166,
+          29.236201
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

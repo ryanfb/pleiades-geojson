@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Porphyrites M.",
   "id": "766391",
-  "description": "Porphyrites M. was the site of important quarries that supplied the Roman empire with porphyry.",
   "bbox": [
     33.0,
     27.0,
     33.5,
     27.5
   ],
-  "reprPoint": [
-    33.25,
-    27.25
-  ],
+  "description": "Porphyrites M. was the site of important quarries that supplied the Roman empire with porphyry.",
   "names": [
     "Porphyrites M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          27.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               27.0
             ],
             [
-              33.0,
-              27.5
-            ],
-            [
-              33.5,
-              27.5
-            ],
-            [
               33.5,
               27.0
+            ],
+            [
+              33.5,
+              27.5
+            ],
+            [
+              33.0,
+              27.5
             ],
             [
               33.0,

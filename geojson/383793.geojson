@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tarus (river)",
   "id": "383793",
-  "description": "Tarus fl. (Taro river) is a tributary of the Po river in northern Italy.",
   "bbox": [
     10.2558,
     45.0022,
     10.2558,
     45.0022
   ],
+  "description": "Tarus fl. (Taro river) is a tributary of the Po river in northern Italy.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    10.2558,
-    45.0022
   ],
   "names": [
     "Tarus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2558,
+          45.0022
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

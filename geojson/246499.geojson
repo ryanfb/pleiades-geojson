@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Mesa",
   "id": "246499",
-  "description": "An ancient place, cited: BAtlas 25 B3 La Mesa",
   "bbox": [
     -3.203588,
     42.400744,
     -3.203588,
     42.400744
   ],
-  "reprPoint": [
-    -3.203588,
-    42.400744
-  ],
+  "description": "An ancient place, cited: BAtlas 25 B3 La Mesa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.203588,
+          42.400744
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

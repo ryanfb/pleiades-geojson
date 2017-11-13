@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mitrou",
   "id": "645204824",
-  "description": "Mitrou is an archaeological site in east Lokris. Archaeological evidence suggests Bronze Age and Iron Age occupation.",
   "bbox": [
     23.1245074,
     38.6366677,
     23.1245074,
     38.6366677
   ],
-  "reprPoint": [
-    23.1245074,
-    38.6366677
-  ],
+  "description": "Mitrou is an archaeological site in east Lokris. Archaeological evidence suggests Bronze Age and Iron Age occupation.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1245074,
+          38.6366677
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

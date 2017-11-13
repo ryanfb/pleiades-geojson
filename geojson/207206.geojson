@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kamenovo",
   "id": "207206",
-  "description": "An ancient place, cited: BAtlas 21 D5 Kamenovo",
   "bbox": [
     21.406948,
     44.398676,
     21.406948,
     44.398676
   ],
-  "reprPoint": [
-    21.406948,
-    44.398676
-  ],
+  "description": "An ancient place, cited: BAtlas 21 D5 Kamenovo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.406948,
+          44.398676
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

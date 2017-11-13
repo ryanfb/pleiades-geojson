@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "414497",
-  "description": "An unnamed ancient bridge located on the Via Aurelia over the Osa river at Telamon.",
   "bbox": [
     11.0,
     42.5,
     11.5,
     43.0
   ],
+  "description": "An unnamed ancient bridge located on the Via Aurelia over the Osa river at Telamon.",
   "connectsWith": [
     "413235"
   ],
-  "reprPoint": [
-    11.25,
-    42.75
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.5
             ],
             [
-              11.0,
-              43.0
-            ],
-            [
-              11.5,
-              43.0
-            ],
-            [
               11.5,
               42.5
+            ],
+            [
+              11.5,
+              43.0
+            ],
+            [
+              11.0,
+              43.0
             ],
             [
               11.0,

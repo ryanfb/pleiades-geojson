@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Piktonion? Akron",
   "id": "138517",
-  "description": "An ancient place, cited: BAtlas 14 C2 Piktonion? Akron",
   "bbox": [
     -3.0,
     46.0,
     -2.0,
     47.0
   ],
-  "reprPoint": [
-    -2.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 14 C2 Piktonion? Akron",
   "names": [
     "Piktonion Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              -3.0,
-              47.0
-            ],
-            [
-              -2.0,
-              47.0
-            ],
-            [
               -2.0,
               46.0
+            ],
+            [
+              -2.0,
+              47.0
+            ],
+            [
+              -3.0,
+              47.0
             ],
             [
               -3.0,

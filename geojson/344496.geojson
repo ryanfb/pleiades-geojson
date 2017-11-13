@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Tacape",
   "id": "344496",
-  "description": "Tacape (modern Gabès) was a commercial city located on the Lesser Syrtis.",
   "bbox": [
     10.109445,
     33.88643,
     10.109445,
     33.88643
   ],
+  "description": "Tacape (modern Gabès) was a commercial city located on the Lesser Syrtis.",
   "connectsWith": [
     "344492"
-  ],
-  "reprPoint": [
-    10.109445,
-    33.88643
   ],
   "names": [
     "Tacape",
     "Tacapas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.109445,
+          33.88643
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

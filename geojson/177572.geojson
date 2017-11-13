@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mandubii",
   "id": "177572",
-  "description": "A conferation of Gallic tribes",
   "bbox": [
     4.503884,
     47.536622,
     4.503884,
     47.536622
   ],
-  "reprPoint": [
-    4.503884,
-    47.536622
-  ],
+  "description": "A conferation of Gallic tribes",
   "names": [
     "Mandubii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.503884,
+          47.536622
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              4.0,
-              48.0
-            ],
-            [
-              5.0,
-              48.0
-            ],
-            [
               5.0,
               47.0
+            ],
+            [
+              5.0,
+              48.0
+            ],
+            [
+              4.0,
+              48.0
             ],
             [
               4.0,

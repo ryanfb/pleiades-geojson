@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Capo Cimiti",
   "id": "452283",
-  "description": "An ancient place, cited: BAtlas 46 F4 Capo Cimiti",
   "bbox": [
     17.159975,
     38.951449,
     17.159975,
     38.951449
   ],
-  "reprPoint": [
-    17.159975,
-    38.951449
-  ],
+  "description": "An ancient place, cited: BAtlas 46 F4 Capo Cimiti",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.159975,
+          38.951449
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

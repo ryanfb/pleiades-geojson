@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Scheggia Pass",
   "id": "450863545",
-  "description": "The Scheggia Pass marks the division between the Central and Northern Apennines in northern Umbria. Its elevation is 632 meters above sea level.",
   "bbox": [
     12.658333,
     43.405556,
     12.658333,
     43.405556
   ],
+  "description": "The Scheggia Pass marks the division between the Central and Northern Apennines in northern Umbria. Its elevation is 632 meters above sea level.",
   "connectsWith": [
     "815"
   ],
-  "reprPoint": [
-    12.658333,
-    43.405556
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.658333,
+          43.405556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

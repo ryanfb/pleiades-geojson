@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "571537",
-  "description": "An ancient place, cited: BAtlas 58 D2 unnamed wall (Corinthus-Lechaion)",
   "bbox": [
     22.5,
     37.5,
     23.0,
     38.0
   ],
-  "reprPoint": [
-    22.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D2 unnamed wall (Corinthus-Lechaion)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.5
             ],
             [
-              22.5,
-              38.0
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
               23.0,
               37.5
+            ],
+            [
+              23.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
             ],
             [
               22.5,

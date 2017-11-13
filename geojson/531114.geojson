@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Taphos (island)",
   "id": "531114",
-  "description": "An ancient place, cited: BAtlas 54 C4 Taphos Ins.",
   "bbox": [
     20.77,
     38.652,
     20.77,
     38.652
   ],
-  "reprPoint": [
-    20.77,
-    38.652
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C4 Taphos Ins.",
   "names": [
     "Taphos",
     "Taphias",
     "Taphiusa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.77,
+          38.652
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

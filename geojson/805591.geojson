@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Araba",
   "id": "805591",
-  "description": "An ancient place, cited: BAtlas 82 D5 Araba",
   "bbox": [
     33.190286,
     16.570227,
     33.190286,
     16.570227
   ],
-  "reprPoint": [
-    33.190286,
-    16.570227
-  ],
+  "description": "An ancient place, cited: BAtlas 82 D5 Araba",
   "names": [
     "Araba"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.190286,
+          16.570227
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Baghira",
   "id": "354101",
-  "description": "An ancient place, cited: BAtlas 36 B6 Bir Baghira",
   "bbox": [
     12.900578,
     25.922553,
     12.900578,
     25.922553
   ],
-  "reprPoint": [
-    12.900578,
-    25.922553
-  ],
+  "description": "An ancient place, cited: BAtlas 36 B6 Bir Baghira",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.900578,
+          25.922553
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

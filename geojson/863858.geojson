@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Orchistene",
   "id": "863858",
-  "description": "An ancient place, cited: BAtlas 88 E4 Orchistene",
   "bbox": [
     46.0,
     40.0,
     47.0,
     41.0
   ],
-  "reprPoint": [
-    46.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 E4 Orchistene",
   "names": [
     "Orchistene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              46.0,
-              41.0
-            ],
-            [
-              47.0,
-              41.0
-            ],
-            [
               47.0,
               40.0
+            ],
+            [
+              47.0,
+              41.0
+            ],
+            [
+              46.0,
+              41.0
             ],
             [
               46.0,

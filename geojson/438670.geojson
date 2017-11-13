@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Allia (river)",
   "id": "438670",
-  "description": "The Allia river was a tributary of the Tiber, but is now unlocated. It joined the Tiber some 18 km (11 miles) north of Rome and was most famous as the site of a battle in which the Romans were defeated by Brennus and the Gauls ca. 387 B.C.",
   "bbox": [
     12.547643,
     42.072946,
     12.547643,
     42.072946
   ],
+  "description": "The Allia river was a tributary of the Tiber, but is now unlocated. It joined the Tiber some 18 km (11 miles) north of Rome and was most famous as the site of a battle in which the Romans were defeated by Brennus and the Gauls ca. 387 B.C.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    12.547643,
-    42.072946
   ],
   "names": [
     "Allia"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.547643,
+          42.072946
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

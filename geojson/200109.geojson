@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200109",
-  "description": "An ancient place, cited: BAtlas 20 E5 unnamed quarry (E Bistua Nova) (2)",
   "bbox": [
     17.0,
     44.0,
     18.0,
     45.0
   ],
-  "reprPoint": [
-    17.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 E5 unnamed quarry (E Bistua Nova) (2)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              17.0,
-              45.0
-            ],
-            [
-              18.0,
-              45.0
-            ],
-            [
               18.0,
               44.0
+            ],
+            [
+              18.0,
+              45.0
+            ],
+            [
+              17.0,
+              45.0
             ],
             [
               17.0,

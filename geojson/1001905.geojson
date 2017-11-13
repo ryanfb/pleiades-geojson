@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pannonia",
   "id": "1001905",
-  "description": "An ancient place, cited: BAtlas 102 C2 no. 19 (Pannonia)",
   "bbox": [
     15.0,
     45.0,
     20.0,
     50.0
   ],
-  "reprPoint": [
-    17.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 C2 no. 19 (Pannonia)",
   "names": [
     "Pannonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              15.0,
-              50.0
-            ],
-            [
-              20.0,
-              50.0
-            ],
-            [
               20.0,
               45.0
+            ],
+            [
+              20.0,
+              50.0
+            ],
+            [
+              15.0,
+              50.0
             ],
             [
               15.0,

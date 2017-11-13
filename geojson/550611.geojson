@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Kalydnai/Lagusae Inss.",
   "id": "550611",
-  "description": "Kalydnai/Lagusae Inss., a small island group of the northern Aegean Sea.",
   "bbox": [
     26.0686476,
     39.9315942,
     26.0686476,
     39.9315942
   ],
+  "description": "Kalydnai/Lagusae Inss., a small island group of the northern Aegean Sea.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.0686476,
-    39.9315942
   ],
   "names": [
     "Kalydnai",
     "Lagusae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0686476,
+          39.9315942
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               39.5
             ],
             [
-              26.0,
-              40.0
-            ],
-            [
-              26.5,
-              40.0
-            ],
-            [
               26.5,
               39.5
+            ],
+            [
+              26.5,
+              40.0
+            ],
+            [
+              26.0,
+              40.0
             ],
             [
               26.0,

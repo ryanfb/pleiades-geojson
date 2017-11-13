@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sitra",
   "id": "716636",
-  "description": "An ancient place, cited: None",
   "bbox": [
     27.052842,
     28.788587,
     27.052842,
     28.788587
   ],
-  "reprPoint": [
-    27.052842,
-    28.788587
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.052842,
+          28.788587
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

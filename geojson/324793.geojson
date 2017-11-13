@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nunti(i)",
   "id": "324793",
-  "description": "An ancient place, cited: BAtlas 33 F4 Nunti(i)",
   "bbox": [
     10.0,
     34.0,
     10.5,
     34.5
   ],
-  "reprPoint": [
-    10.25,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 33 F4 Nunti(i)",
   "names": [
     "Nuntii",
     "Nunti"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.0
             ],
             [
-              10.0,
-              34.5
-            ],
-            [
-              10.5,
-              34.5
-            ],
-            [
               10.5,
               34.0
+            ],
+            [
+              10.5,
+              34.5
+            ],
+            [
+              10.0,
+              34.5
             ],
             [
               10.0,

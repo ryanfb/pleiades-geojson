@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed Mine",
   "id": "963101130",
-  "description": "An unnamed mine in the Midlands",
   "bbox": [
     -0.399739,
     52.703602,
     -0.399739,
     52.703602
   ],
-  "reprPoint": [
-    -0.399739,
-    52.703602
-  ],
+  "description": "An unnamed mine in the Midlands",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.399739,
+          52.703602
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

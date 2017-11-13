@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sogdiana",
   "id": "60058",
-  "description": "Sogdiana was a wide region of the Achaemenid Empire lying between the Oxus (Araxes) and Iaxartes rivers. ",
   "bbox": [
     66.947223,
     39.656498,
     66.947223,
     39.656498
   ],
-  "reprPoint": [
-    66.947223,
-    39.656498
-  ],
+  "description": "Sogdiana was a wide region of the Achaemenid Empire lying between the Oxus (Araxes) and Iaxartes rivers. ",
   "names": [
     "Sogdiana",
     "Sogdiani",
@@ -21,6 +17,19 @@
     "Sogdianḗ"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.947223,
+          39.656498
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               35.0
             ],
             [
-              65.0,
-              40.0
-            ],
-            [
-              70.0,
-              40.0
-            ],
-            [
               70.0,
               35.0
+            ],
+            [
+              70.0,
+              40.0
+            ],
+            [
+              65.0,
+              40.0
             ],
             [
               65.0,

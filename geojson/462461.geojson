@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Racalmuto",
   "id": "462461",
-  "description": "An ancient place, cited: BAtlas 47 D4 Racalmuto",
   "bbox": [
     13.5,
     37.0,
     14.0,
     37.5
   ],
+  "description": "An ancient place, cited: BAtlas 47 D4 Racalmuto",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.75,
-    37.25
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              13.5,
-              37.5
-            ],
-            [
-              14.0,
-              37.5
-            ],
-            [
               14.0,
               37.0
+            ],
+            [
+              14.0,
+              37.5
+            ],
+            [
+              13.5,
+              37.5
             ],
             [
               13.5,

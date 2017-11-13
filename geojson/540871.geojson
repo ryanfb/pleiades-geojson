@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Knemis M.",
   "id": "540871",
-  "description": "An ancient place, cited: BAtlas 55 D3 Knemis M.",
   "bbox": [
     22.5,
     38.5,
     23.0,
     39.0
   ],
-  "reprPoint": [
-    22.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 D3 Knemis M.",
   "names": [
     "Knemis M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              22.5,
-              39.0
-            ],
-            [
-              23.0,
-              39.0
-            ],
-            [
               23.0,
               38.5
+            ],
+            [
+              23.0,
+              39.0
+            ],
+            [
+              22.5,
+              39.0
             ],
             [
               22.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vrysoula",
   "id": "531149",
-  "description": "An ancient place, cited: BAtlas 54 C3 Vrysoula",
   "bbox": [
     20.5,
     39.0,
     21.0,
     39.5
   ],
-  "reprPoint": [
-    20.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 C3 Vrysoula",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              20.5,
-              39.5
-            ],
-            [
-              21.0,
-              39.5
-            ],
-            [
               21.0,
               39.0
+            ],
+            [
+              21.0,
+              39.5
+            ],
+            [
+              20.5,
+              39.5
             ],
             [
               20.5,

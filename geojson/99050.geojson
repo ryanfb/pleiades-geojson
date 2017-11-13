@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(Ulme)Rugii",
   "id": "99050",
-  "description": "An ancient place, cited: BAtlas 10 I2 (Ulme)Rugii",
   "bbox": [
     12.0,
     54.0,
     13.0,
     55.0
   ],
-  "reprPoint": [
-    12.5,
-    54.5
-  ],
+  "description": "An ancient place, cited: BAtlas 10 I2 (Ulme)Rugii",
   "names": [
     "Ulmerugii",
     "Rugii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          54.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               54.0
             ],
             [
-              12.0,
-              55.0
-            ],
-            [
-              13.0,
-              55.0
-            ],
-            [
               13.0,
               54.0
+            ],
+            [
+              13.0,
+              55.0
+            ],
+            [
+              12.0,
+              55.0
             ],
             [
               12.0,

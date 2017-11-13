@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sos Höyük",
   "id": "355216649",
-  "description": "An ancient settlement mound located within the boundaries of modern Yiğittaşı, Turkey, in eastern Anatolia.",
   "bbox": [
     41.52222,
     39.993717,
     41.52222,
     39.993717
   ],
-  "reprPoint": [
-    41.52222,
-    39.993717
-  ],
+  "description": "An ancient settlement mound located within the boundaries of modern Yiğittaşı, Turkey, in eastern Anatolia.",
   "names": [
     "Sos Höyük",
     "Yiğittaşı"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.52222,
+          39.993717
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

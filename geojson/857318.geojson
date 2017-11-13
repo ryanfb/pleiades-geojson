@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sigames/Sicanabis (river)",
   "id": "857318",
-  "description": "An ancient place, cited: BAtlas 87 G2 Sigames/Sicanabis fl.",
   "bbox": [
     41.0,
     42.0,
     42.0,
     43.0
   ],
-  "reprPoint": [
-    41.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 G2 Sigames/Sicanabis fl.",
   "names": [
     "Sigames",
     "Sicanabis",
@@ -20,6 +16,19 @@
     "Sigania"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               42.0
             ],
             [
-              41.0,
-              43.0
-            ],
-            [
-              42.0,
-              43.0
-            ],
-            [
               42.0,
               42.0
+            ],
+            [
+              42.0,
+              43.0
+            ],
+            [
+              41.0,
+              43.0
             ],
             [
               41.0,

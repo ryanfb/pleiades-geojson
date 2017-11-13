@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Zagrus M.",
   "id": "29816",
-  "description": "The Zagros Mountains.",
   "bbox": [
     44.7915335,
     35.8572581,
     44.7915335,
     35.8572581
   ],
-  "reprPoint": [
-    44.7915335,
-    35.8572581
-  ],
+  "description": "The Zagros Mountains.",
   "names": [
     "Zagrus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7915335,
+          35.8572581
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              40.0,
-              40.0
-            ],
-            [
-              45.0,
-              40.0
-            ],
-            [
               45.0,
               35.0
+            ],
+            [
+              45.0,
+              40.0
+            ],
+            [
+              40.0,
+              40.0
             ],
             [
               40.0,

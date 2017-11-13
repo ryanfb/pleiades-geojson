@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "210694",
-  "description": "*Aureus Mons → Rakinac → Horreum Margi",
   "bbox": [
     20.789624,
     43.927174,
     21.3836,
     44.630668
   ],
-  "reprPoint": [
-    21.076222,
-    44.2705326667
-  ],
+  "description": "*Aureus Mons → Rakinac → Horreum Margi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.076222,
+          44.2705326667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              18.0,
-              49.0
-            ],
-            [
-              25.0,
-              49.0
-            ],
-            [
               25.0,
               42.0
+            ],
+            [
+              25.0,
+              49.0
+            ],
+            [
+              18.0,
+              49.0
             ],
             [
               18.0,

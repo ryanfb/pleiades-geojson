@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Liris/Clanis (river)",
   "id": "432910",
-  "description": "The Liris river (modern Liri) is one of the principal rivers of central Italy.",
   "bbox": [
     13.893085,
     41.3140277,
     13.893085,
     41.3140277
   ],
+  "description": "The Liris river (modern Liri) is one of the principal rivers of central Italy.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    13.893085,
-    41.3140277
   ],
   "names": [
     "Liris",
     "Clanis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.893085,
+          41.3140277
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

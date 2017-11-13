@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Achriane",
   "id": "952059",
-  "description": "An ancient region in eastern Hyrkania (in modern Iran).",
   "bbox": [
     56.0,
     37.1,
     56.6,
     37.1
   ],
+  "description": "An ancient region in eastern Hyrkania (in modern Iran).",
   "connectsWith": [
     "942333"
-  ],
-  "reprPoint": [
-    56.3,
-    37.1
   ],
   "names": [
     "Achriane",
     "Achrianos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3,
+          37.1
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               37.0
             ],
             [
-              56.0,
-              38.0
-            ],
-            [
-              57.0,
-              38.0
-            ],
-            [
               57.0,
               37.0
+            ],
+            [
+              57.0,
+              38.0
+            ],
+            [
+              56.0,
+              38.0
             ],
             [
               56.0,

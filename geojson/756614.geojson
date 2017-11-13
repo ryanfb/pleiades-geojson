@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Panopolites Nomos",
   "id": "756614",
-  "description": "An ancient place, cited: BAtlas 77 F3 Panopolites Nomos",
   "bbox": [
     31.5,
     26.5,
     32.0,
     27.0
   ],
-  "reprPoint": [
-    31.75,
-    26.75
-  ],
+  "description": "An ancient place, cited: BAtlas 77 F3 Panopolites Nomos",
   "names": [
     "Panopolites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          26.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               26.5
             ],
             [
-              31.5,
-              27.0
-            ],
-            [
-              32.0,
-              27.0
-            ],
-            [
               32.0,
               26.5
+            ],
+            [
+              32.0,
+              27.0
+            ],
+            [
+              31.5,
+              27.0
             ],
             [
               31.5,

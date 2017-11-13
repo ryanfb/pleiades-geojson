@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Morgus",
   "id": "373908",
-  "description": "An ancient place, cited: BAtlas 38 D1 Wadi Morgus",
   "bbox": [
     22.266849,
     32.854753,
     22.266849,
     32.854753
   ],
-  "reprPoint": [
-    22.266849,
-    32.854753
-  ],
+  "description": "An ancient place, cited: BAtlas 38 D1 Wadi Morgus",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.266849,
+          32.854753
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

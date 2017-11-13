@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "Cyclades Islands",
   "id": "560353",
-  "description": "An island group in the Aegean Sea composed of over 200 islands.",
   "bbox": [
     24.333333,
     36.3820354,
     26.2723353,
     37.85
   ],
+  "description": "An island group in the Aegean Sea composed of over 200 islands.",
   "connectsWith": [
     "560221"
   ],
-  "reprPoint": [
-    25.1395123769,
-    37.0415464154
-  ],
   "names": [
     "Cyclades"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1395123769,
+          37.0415464154
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

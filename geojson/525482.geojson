@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Wall of Constantine",
   "id": "525482",
-  "description": "The Wall of Constantine (Murus Constantini) was built during the AD 320s as Constantine organized his eponymous city. The course of the Wall of Constantine cannot be determined with precision today.",
   "bbox": [
     28.75,
     40.75,
     29.0,
     41.0
   ],
+  "description": "The Wall of Constantine (Murus Constantini) was built during the AD 320s as Constantine organized his eponymous city. The course of the Wall of Constantine cannot be determined with precision today.",
   "connectsWith": [
     "520998"
   ],
-  "reprPoint": [
-    28.875,
-    40.875
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.875,
+          40.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.75
             ],
             [
-              28.75,
-              41.0
-            ],
-            [
-              29.0,
-              41.0
-            ],
-            [
               29.0,
               40.75
+            ],
+            [
+              29.0,
+              41.0
+            ],
+            [
+              28.75,
+              41.0
             ],
             [
               28.75,

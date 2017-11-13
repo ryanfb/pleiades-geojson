@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Aleksandrovka",
   "id": "226514",
-  "description": "An ancient place, cited: BAtlas 23 F2 Aleksandrovka",
   "bbox": [
     32.111238,
     46.615115,
     32.111238,
     46.615115
   ],
-  "reprPoint": [
-    32.111238,
-    46.615115
-  ],
+  "description": "An ancient place, cited: BAtlas 23 F2 Aleksandrovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.111238,
+          46.615115
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

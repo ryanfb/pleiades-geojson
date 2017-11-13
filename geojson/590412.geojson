@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "590412",
-  "description": "An ancient place, cited: BAtlas 60 C2 unnamed aqueduct (Gortyn(a))",
   "bbox": [
     24.5,
     35.0,
     25.0,
     35.5
   ],
-  "reprPoint": [
-    24.75,
-    35.25
-  ],
+  "description": "An ancient place, cited: BAtlas 60 C2 unnamed aqueduct (Gortyn(a))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               35.0
             ],
             [
-              24.5,
-              35.5
-            ],
-            [
-              25.0,
-              35.5
-            ],
-            [
               25.0,
               35.0
+            ],
+            [
+              25.0,
+              35.5
+            ],
+            [
+              24.5,
+              35.5
             ],
             [
               24.5,

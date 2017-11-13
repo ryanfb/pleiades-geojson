@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Sena (island)",
   "id": "69569",
-  "description": "Sena Ins. (modern Île de Sein).",
   "bbox": [
     -4.8518,
     48.0363,
     -4.8518,
     48.0363
   ],
+  "description": "Sena Ins. (modern Île de Sein).",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -4.8518,
-    48.0363
   ],
   "names": [
     "Sena",
@@ -22,6 +18,19 @@
     "Ile de Sein"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8518,
+          48.0363
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

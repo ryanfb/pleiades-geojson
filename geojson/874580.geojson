@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mar Bassos, Shushan",
   "id": "874580",
-  "description": "An ancient place, cited: BAtlas 89 D3 Mar Bassos, Shushan",
   "bbox": [
     41.0,
     37.0,
     42.0,
     38.0
   ],
-  "reprPoint": [
-    41.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 D3 Mar Bassos, Shushan",
   "names": [
     "Mar Bassos, Shushan"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              41.0,
-              38.0
-            ],
-            [
-              42.0,
-              38.0
-            ],
-            [
               42.0,
               37.0
+            ],
+            [
+              42.0,
+              38.0
+            ],
+            [
+              41.0,
+              38.0
             ],
             [
               41.0,

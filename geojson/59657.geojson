@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Adrestae",
   "id": "59657",
-  "description": "An ancient place, cited: BAtlas 6 C3 Adrestae",
   "bbox": [
     70.0,
     30.0,
     75.0,
     35.0
   ],
-  "reprPoint": [
-    72.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C3 Adrestae",
   "names": [
     "Adrestae",
     "Andri",
     "Adri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               30.0
             ],
             [
-              70.0,
-              35.0
-            ],
-            [
-              75.0,
-              35.0
-            ],
-            [
               75.0,
               30.0
+            ],
+            [
+              75.0,
+              35.0
+            ],
+            [
+              70.0,
+              35.0
             ],
             [
               70.0,

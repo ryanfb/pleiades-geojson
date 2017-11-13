@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Poseidon, Amphitrite, T.",
   "id": "590006",
-  "description": "An ancient place, cited: BAtlas 60 B4 Poseidon, Amphitrite, T.",
   "bbox": [
     25.114,
     37.607,
     25.114,
     37.607
   ],
+  "description": "An ancient place, cited: BAtlas 60 B4 Poseidon, Amphitrite, T.",
   "connectsWith": [
     "590074"
-  ],
-  "reprPoint": [
-    25.114,
-    37.607
   ],
   "names": [
     "Poseidon, Amphitrite, T."
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.114,
+          37.607
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pen-y-Gaer Roman fort",
   "id": "776990479",
-  "description": "A Roman auxiliary fort in Powys, situated midway along the Roman road linking the forts at Brecon Gaer (Cicutio) and Abergavenny (Gobannio).",
   "bbox": [
     -3.209545,
     51.889761,
     -3.209545,
     51.889761
   ],
-  "reprPoint": [
-    -3.209545,
-    51.889761
-  ],
+  "description": "A Roman auxiliary fort in Powys, situated midway along the Roman road linking the forts at Brecon Gaer (Cicutio) and Abergavenny (Gobannio).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.209545,
+          51.889761
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

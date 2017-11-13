@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ciminius L.",
   "id": "413080",
-  "description": "A caldera lake of northern Latium.",
   "bbox": [
     12.166667,
     42.316667,
     12.166667,
     42.316667
   ],
-  "reprPoint": [
-    12.166667,
-    42.316667
-  ],
+  "description": "A caldera lake of northern Latium.",
   "names": [
     "Ciminius L.",
     "Lago di Vico"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.166667,
+          42.316667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

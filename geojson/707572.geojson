@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mandres",
   "id": "707572",
-  "description": "An ancient place, cited: BAtlas 72 D2 Mandres",
   "bbox": [
     33.785235,
     35.33861,
     33.785235,
     35.33861
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Mandres",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.785235,
-    35.33861
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.785235,
+          35.33861
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "594187",
-  "description": "Diktynnaion → S",
   "bbox": [
     23.5,
     34.5,
     27.0,
     36.0
   ],
-  "reprPoint": [
-    25.25,
-    35.25
-  ],
+  "description": "Diktynnaion → S",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.5
             ],
             [
-              23.5,
-              36.0
-            ],
-            [
-              27.0,
-              36.0
-            ],
-            [
               27.0,
               34.5
+            ],
+            [
+              27.0,
+              36.0
+            ],
+            [
+              23.5,
+              36.0
             ],
             [
               23.5,

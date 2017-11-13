@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Natanz",
   "id": "903086",
-  "description": "An ancient place, cited: BAtlas 92 G3 Natanz",
   "bbox": [
     51.913611,
     33.506944,
     51.913611,
     33.506944
   ],
-  "reprPoint": [
-    51.913611,
-    33.506944
-  ],
+  "description": "An ancient place, cited: BAtlas 92 G3 Natanz",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.913611,
+          33.506944
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

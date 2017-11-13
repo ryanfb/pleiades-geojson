@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tritonis? Palus",
   "id": "373906",
-  "description": "An ancient place, cited: BAtlas 38 B1 Tritonis? Palus",
   "bbox": [
     20.0,
     32.0,
     21.0,
     33.0
   ],
-  "reprPoint": [
-    20.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 38 B1 Tritonis? Palus",
   "names": [
     "Tritonis Palus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               32.0
             ],
             [
-              20.0,
-              33.0
-            ],
-            [
-              21.0,
-              33.0
-            ],
-            [
               21.0,
               32.0
+            ],
+            [
+              21.0,
+              33.0
+            ],
+            [
+              20.0,
+              33.0
             ],
             [
               20.0,

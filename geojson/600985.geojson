@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "600985",
-  "description": "An ancient bridge located near Antiochia ad Maeandrum.",
   "bbox": [
     28.57441,
     37.90436,
     28.57441,
     37.90436
   ],
-  "reprPoint": [
-    28.57441,
-    37.90436
-  ],
+  "description": "An ancient bridge located near Antiochia ad Maeandrum.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.57441,
+          37.90436
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

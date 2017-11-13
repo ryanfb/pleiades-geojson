@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Dara",
   "id": "658369",
-  "description": "Ain Dara, located northwest of Aleppo, Syria, is noted for the remains of an Iron Age Syro-Hittite temple.",
   "bbox": [
     36.854664,
     36.460278,
     36.854664,
     36.460278
   ],
-  "reprPoint": [
-    36.854664,
-    36.460278
-  ],
+  "description": "Ain Dara, located northwest of Aleppo, Syria, is noted for the remains of an Iron Age Syro-Hittite temple.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.854664,
+          36.460278
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

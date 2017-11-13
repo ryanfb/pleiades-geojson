@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Turmog(id)i/Mourbogoi",
   "id": "246715",
-  "description": "The Turmog(id)i/Mourbogoi were a tribe of Hispania Tarraconensis whose territory bordered that of the Cantabri to the south.",
   "bbox": [
     -4.0,
     42.0,
     -3.0,
     43.0
   ],
-  "reprPoint": [
-    -3.5,
-    42.5
-  ],
+  "description": "The Turmog(id)i/Mourbogoi were a tribe of Hispania Tarraconensis whose territory bordered that of the Cantabri to the south.",
   "names": [
     "Turmogidi",
     "Turmogi",
     "Mourbogoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               42.0
             ],
             [
-              -4.0,
-              43.0
-            ],
-            [
-              -3.0,
-              43.0
-            ],
-            [
               -3.0,
               42.0
+            ],
+            [
+              -3.0,
+              43.0
+            ],
+            [
+              -4.0,
+              43.0
             ],
             [
               -4.0,

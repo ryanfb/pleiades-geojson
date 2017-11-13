@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Dimastos? (island)",
   "id": "589761",
-  "description": "An ancient place, cited: BAtlas 60 F3 Dimastos? Ins.",
   "bbox": [
     27.6515147,
     36.2529582,
     27.6515147,
     36.2529582
   ],
+  "description": "An ancient place, cited: BAtlas 60 F3 Dimastos? Ins.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    27.6515147,
-    36.2529582
   ],
   "names": [
     "Dimastos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6515147,
+          36.2529582
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               34.5
             ],
             [
-              26.0,
-              35.0
-            ],
-            [
-              26.5,
-              35.0
-            ],
-            [
               26.5,
               34.5
+            ],
+            [
+              26.5,
+              35.0
+            ],
+            [
+              26.0,
+              35.0
             ],
             [
               26.0,

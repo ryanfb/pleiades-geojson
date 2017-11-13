@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426592",
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 16 (bridge (Ponte Ladrone))",
   "bbox": [
     12.25,
     41.75,
     12.5,
     42.0
   ],
-  "reprPoint": [
-    12.375,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 B2 no. 16 (bridge (Ponte Ladrone))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.75
             ],
             [
-              12.25,
-              42.0
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
               12.5,
               41.75
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.25,
+              42.0
             ],
             [
               12.25,

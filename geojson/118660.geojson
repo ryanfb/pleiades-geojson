@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Eggolsheim",
   "id": "118660",
-  "description": "An ancient place, cited: BAtlas 12 E3 Eggolsheim",
   "bbox": [
     11.054501,
     49.770619,
     11.054501,
     49.770619
   ],
-  "reprPoint": [
-    11.054501,
-    49.770619
-  ],
+  "description": "An ancient place, cited: BAtlas 12 E3 Eggolsheim",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.054501,
+          49.770619
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

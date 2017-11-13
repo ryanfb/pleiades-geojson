@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200104",
-  "description": "An ancient place, cited: BAtlas 20 D6 unnamed quarry (on Brattia Ins.)",
   "bbox": [
     16.6355857,
     43.3270879,
     16.6355857,
     43.3270879
   ],
+  "description": "An ancient place, cited: BAtlas 20 D6 unnamed quarry (on Brattia Ins.)",
   "connectsWith": [
     "197178"
   ],
-  "reprPoint": [
-    16.6355857,
-    43.3270879
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6355857,
+          43.3270879
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              16.0,
-              44.0
-            ],
-            [
-              17.0,
-              44.0
-            ],
-            [
               17.0,
               43.0
+            ],
+            [
+              17.0,
+              44.0
+            ],
+            [
+              16.0,
+              44.0
             ],
             [
               16.0,

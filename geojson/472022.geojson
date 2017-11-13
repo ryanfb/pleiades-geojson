@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sorso",
   "id": "472022",
-  "description": "An ancient place, cited: BAtlas 48 A2 Sorso",
   "bbox": [
     8.575021,
     40.796724,
     8.575021,
     40.796724
   ],
+  "description": "An ancient place, cited: BAtlas 48 A2 Sorso",
   "connectsWith": [
     "472014"
   ],
-  "reprPoint": [
-    8.575021,
-    40.796724
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.575021,
+          40.796724
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

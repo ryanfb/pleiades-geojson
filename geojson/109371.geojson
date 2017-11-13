@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tencteri",
   "id": "109371",
-  "description": "An ancient place, cited: BAtlas 11 G1 Tencteri",
   "bbox": [
     6.0,
     51.0,
     7.0,
     52.0
   ],
-  "reprPoint": [
-    6.5,
-    51.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 G1 Tencteri",
   "names": [
     "Tencteri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               51.0
             ],
             [
-              6.0,
-              52.0
-            ],
-            [
-              7.0,
-              52.0
-            ],
-            [
               7.0,
               51.0
+            ],
+            [
+              7.0,
+              52.0
+            ],
+            [
+              6.0,
+              52.0
             ],
             [
               6.0,

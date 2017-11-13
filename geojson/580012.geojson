@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leros Ins.",
   "id": "580012",
-  "description": "An ancient place, cited: BAtlas 59 B3 Leros Ins.",
   "bbox": [
     23.5389128,
     37.9933789,
     23.5389128,
     37.9933789
   ],
-  "reprPoint": [
-    23.5389128,
-    37.9933789
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B3 Leros Ins.",
   "names": [
     "Leros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5389128,
+          37.9933789
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.75
             ],
             [
-              23.5,
-              38.0
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
               23.75,
               37.75
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.5,
+              38.0
             ],
             [
               23.5,

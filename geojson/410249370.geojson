@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mystras",
   "id": "410249370",
-  "description": "A fortified town in Laconia, Peloponnese, Greece, named as a UNESCO World Heritage Site in 1989.",
   "bbox": [
     22.375808,
     37.068681,
     22.375808,
     37.068681
   ],
-  "reprPoint": [
-    22.375808,
-    37.068681
-  ],
+  "description": "A fortified town in Laconia, Peloponnese, Greece, named as a UNESCO World Heritage Site in 1989.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.375808,
+          37.068681
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

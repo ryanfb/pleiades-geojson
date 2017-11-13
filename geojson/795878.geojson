@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Um Garriat",
   "id": "795878",
-  "description": "An ancient place, cited: BAtlas 81 D3 Um Garriat",
   "bbox": [
     33.538448,
     22.511049,
     33.538448,
     22.511049
   ],
-  "reprPoint": [
-    33.538448,
-    22.511049
-  ],
+  "description": "An ancient place, cited: BAtlas 81 D3 Um Garriat",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.538448,
+          22.511049
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

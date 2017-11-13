@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Forum Novum",
   "id": "383656",
-  "description": "An ancient place, cited: BAtlas 39 G4 Forum Novum",
   "bbox": [
     10.097415,
     44.691301,
     10.097415,
     44.691301
   ],
-  "reprPoint": [
-    10.097415,
-    44.691301
-  ],
+  "description": "An ancient place, cited: BAtlas 39 G4 Forum Novum",
   "names": [
     "Forum Novum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.097415,
+          44.691301
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              10.0,
-              45.0
-            ],
-            [
-              10.5,
-              45.0
-            ],
-            [
               10.5,
               44.5
+            ],
+            [
+              10.5,
+              45.0
+            ],
+            [
+              10.0,
+              45.0
             ],
             [
               10.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Odrysae",
   "id": "216906",
-  "description": "An ancient place, cited: BAtlas 22 D6 Odrysae",
   "bbox": [
     25.3107991,
     42.612271,
     25.362928,
     42.6272729
   ],
-  "reprPoint": [
-    25.33686355,
-    42.61977195
-  ],
+  "description": "An ancient place, cited: BAtlas 22 D6 Odrysae",
   "names": [
     "Odrysae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.33686355,
+          42.61977195
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              26.0,
-              43.0
-            ],
-            [
-              27.0,
-              43.0
-            ],
-            [
               27.0,
               42.0
+            ],
+            [
+              27.0,
+              43.0
+            ],
+            [
+              26.0,
+              43.0
             ],
             [
               26.0,

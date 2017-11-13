@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karios M.",
   "id": "550623",
-  "description": "An ancient place, cited: BAtlas 56 F5 Karios M.",
   "bbox": [
     27.5,
     38.0,
     28.0,
     38.5
   ],
-  "reprPoint": [
-    27.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 F5 Karios M.",
   "names": [
     "Karios M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              27.5,
-              38.5
-            ],
-            [
-              28.0,
-              38.5
-            ],
-            [
               28.0,
               38.0
+            ],
+            [
+              28.0,
+              38.5
+            ],
+            [
+              27.5,
+              38.5
             ],
             [
               27.5,

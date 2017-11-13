@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hermopolites Nomos",
   "id": "736922",
-  "description": "An ancient place, cited: BAtlas 75 D4 Hermopolites Nomos",
   "bbox": [
     30.5,
     28.0,
     31.0,
     28.5
   ],
-  "reprPoint": [
-    30.75,
-    28.25
-  ],
+  "description": "An ancient place, cited: BAtlas 75 D4 Hermopolites Nomos",
   "names": [
     "Hermopolites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          28.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               28.0
             ],
             [
-              30.5,
-              28.5
-            ],
-            [
-              31.0,
-              28.5
-            ],
-            [
               31.0,
               28.0
+            ],
+            [
+              31.0,
+              28.5
+            ],
+            [
+              30.5,
+              28.5
             ],
             [
               30.5,

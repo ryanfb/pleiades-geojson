@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ponte de Lisboa",
   "id": "256376",
-  "description": "An ancient place, cited: BAtlas 26 C3 Ponte de Lisboa",
   "bbox": [
     -7.860209,
     38.018913,
     -7.860209,
     38.018913
   ],
-  "reprPoint": [
-    -7.860209,
-    38.018913
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C3 Ponte de Lisboa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.860209,
+          38.018913
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

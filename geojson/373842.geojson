@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Libyarchai",
   "id": "373842",
-  "description": "An ancient place, cited: BAtlas 38 D1 Libyarchai",
   "bbox": [
     22.0,
     32.0,
     23.0,
     33.0
   ],
-  "reprPoint": [
-    22.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 38 D1 Libyarchai",
   "names": [
     "Libyarchai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               32.0
             ],
             [
-              22.0,
-              33.0
-            ],
-            [
-              23.0,
-              33.0
-            ],
-            [
               23.0,
               32.0
+            ],
+            [
+              23.0,
+              33.0
+            ],
+            [
+              22.0,
+              33.0
             ],
             [
               22.0,

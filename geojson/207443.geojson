@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Singidunum",
   "id": "207443",
-  "description": "An ancient settlement and Roman fort on the site of modern Belgrade in Serbia. ",
   "bbox": [
     20.4503,
     44.802382,
     20.465593,
     44.8236
   ],
+  "description": "An ancient settlement and Roman fort on the site of modern Belgrade in Serbia. ",
   "connectsWith": [
     "207429"
-  ],
-  "reprPoint": [
-    20.4579465,
-    44.812991
   ],
   "names": [
     "Singidunum",
     "Beograd"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4579465,
+          44.812991
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

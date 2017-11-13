@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Gallicum Mare",
   "id": "148089",
-  "description": "The Gulf of Lion, or Sinus Gallicus.",
   "bbox": [
     4.0,
     43.0,
     4.0,
     43.0
   ],
+  "description": "The Gulf of Lion, or Sinus Gallicus.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    4.0,
-    43.0
   ],
   "names": [
     "Gallicum Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0,
+          43.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

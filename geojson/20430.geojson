@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chesinos (river)",
   "id": "20430",
-  "description": "An ancient place, cited: BAtlas 2 H2 Chesinos fl.",
   "bbox": [
     24.2559671,
     56.8635004,
     24.2559671,
     56.8635004
   ],
-  "reprPoint": [
-    24.2559671,
-    56.8635004
-  ],
+  "description": "An ancient place, cited: BAtlas 2 H2 Chesinos fl.",
   "names": [
     "Chesinos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2559671,
+          56.8635004
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.0
             ],
             [
-              20.0,
-              60.0
-            ],
-            [
-              25.0,
-              60.0
-            ],
-            [
               25.0,
               55.0
+            ],
+            [
+              25.0,
+              60.0
+            ],
+            [
+              20.0,
+              60.0
             ],
             [
               20.0,

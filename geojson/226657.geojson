@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kephalonesos",
   "id": "226657",
-  "description": "An ancient place, cited: BAtlas 23 F2 Kephalonesos",
   "bbox": [
     32.0,
     46.0,
     33.0,
     47.0
   ],
-  "reprPoint": [
-    32.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 F2 Kephalonesos",
   "names": [
     "Kephalonesos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              32.0,
-              47.0
-            ],
-            [
-              33.0,
-              47.0
-            ],
-            [
               33.0,
               46.0
+            ],
+            [
+              33.0,
+              47.0
+            ],
+            [
+              32.0,
+              47.0
             ],
             [
               32.0,

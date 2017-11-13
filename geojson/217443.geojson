@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "217443",
-  "description": "An ancient place, cited: BAtlas 22 C5 unnamed aqueduct group (Nicopolis ad Istrum)",
   "bbox": [
     25.0,
     43.0,
     26.0,
     44.0
   ],
-  "reprPoint": [
-    25.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 C5 unnamed aqueduct group (Nicopolis ad Istrum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.0
             ],
             [
-              25.0,
-              44.0
-            ],
-            [
-              26.0,
-              44.0
-            ],
-            [
               26.0,
               43.0
+            ],
+            [
+              26.0,
+              44.0
+            ],
+            [
+              25.0,
+              44.0
             ],
             [
               25.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Deir el-Kahf",
   "id": "678111",
-  "description": "An ancient place, cited: BAtlas 69 E5 Deir el-Kahf",
   "bbox": [
     36.804491,
     32.285629,
     36.804491,
     32.285629
   ],
-  "reprPoint": [
-    36.804491,
-    32.285629
-  ],
+  "description": "An ancient place, cited: BAtlas 69 E5 Deir el-Kahf",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.804491,
+          32.285629
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

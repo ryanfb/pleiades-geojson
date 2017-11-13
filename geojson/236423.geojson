@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Centro",
   "id": "236423",
-  "description": "An ancient place, cited: BAtlas 24 F4 Centro",
   "bbox": [
     -5.486967,
     40.945672,
     -5.486967,
     40.945672
   ],
-  "reprPoint": [
-    -5.486967,
-    40.945672
-  ],
+  "description": "An ancient place, cited: BAtlas 24 F4 Centro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.486967,
+          40.945672
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

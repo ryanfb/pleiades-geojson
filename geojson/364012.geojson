@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Seli",
   "id": "364012",
-  "description": "Seli, A Libyan People, cited: BAtlas 37 C1",
   "bbox": [
     17.0,
     31.0,
     18.0,
     32.0
   ],
-  "reprPoint": [
-    17.5,
-    31.5
-  ],
+  "description": "Seli, A Libyan People, cited: BAtlas 37 C1",
   "names": [
     "Seli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              17.0,
-              32.0
-            ],
-            [
-              18.0,
-              32.0
-            ],
-            [
               18.0,
               31.0
+            ],
+            [
+              18.0,
+              32.0
+            ],
+            [
+              17.0,
+              32.0
             ],
             [
               17.0,

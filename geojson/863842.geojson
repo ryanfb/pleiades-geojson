@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Mocheresis",
   "id": "863842",
-  "description": "An ancient place, cited: BAtlas 88 A2 Mocheresis",
   "bbox": [
     42.0,
     42.0,
     43.0,
     43.0
   ],
-  "reprPoint": [
-    42.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 A2 Mocheresis",
   "names": [
     "Mocheresis",
     "Mechlesos",
@@ -20,6 +16,19 @@
     "Mourisios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               42.0
             ],
             [
-              42.0,
-              43.0
-            ],
-            [
-              43.0,
-              43.0
-            ],
-            [
               43.0,
               42.0
+            ],
+            [
+              43.0,
+              43.0
+            ],
+            [
+              42.0,
+              43.0
             ],
             [
               42.0,

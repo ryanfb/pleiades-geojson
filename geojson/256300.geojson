@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mina de Ruy Gomes",
   "id": "256300",
-  "description": "An ancient place, cited: BAtlas 26 C3 Mina de Ruy Gomes",
   "bbox": [
     -8.0,
     38.0,
     -7.0,
     39.0
   ],
-  "reprPoint": [
-    -7.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C3 Mina de Ruy Gomes",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              -8.0,
-              39.0
-            ],
-            [
-              -7.0,
-              39.0
-            ],
-            [
               -7.0,
               38.0
+            ],
+            [
+              -7.0,
+              39.0
+            ],
+            [
+              -8.0,
+              39.0
             ],
             [
               -8.0,

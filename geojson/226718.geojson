@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Petrovka",
   "id": "226718",
-  "description": "An ancient place, cited: BAtlas 23 I3 Petrovka",
   "bbox": [
     35.260039,
     45.135613,
     35.260039,
     45.135613
   ],
-  "reprPoint": [
-    35.260039,
-    45.135613
-  ],
+  "description": "An ancient place, cited: BAtlas 23 I3 Petrovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.260039,
+          45.135613
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

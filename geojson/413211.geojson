@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Montefortino",
   "id": "413211",
-  "description": "An ancient place, cited: BAtlas 42 D2 Montefortino",
   "bbox": [
     12.5,
     43.0,
     13.0,
     43.5
   ],
-  "reprPoint": [
-    12.75,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 42 D2 Montefortino",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.0
             ],
             [
-              12.5,
-              43.5
-            ],
-            [
-              13.0,
-              43.5
-            ],
-            [
               13.0,
               43.0
+            ],
+            [
+              13.0,
+              43.5
+            ],
+            [
+              12.5,
+              43.5
             ],
             [
               12.5,

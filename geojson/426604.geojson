@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426604",
-  "description": "An ancient place, cited: BAtlas 43 C2 no. 28 (villa del Torraccio, at Torrenova)",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 C2 no. 28 (villa del Torraccio, at Torrenova)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.75
             ],
             [
-              12.5,
-              42.0
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
               12.75,
               41.75
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
             ],
             [
               12.5,

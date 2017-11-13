@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "327681",
-  "description": "An ancient place, cited: BAtlas 33 E1 unnamed unlabeled ((1 wall, 4 monuments, 3 aqueducts))",
   "bbox": [
     9.746149,
     35.943354,
     9.746149,
     35.943354
   ],
-  "reprPoint": [
-    9.746149,
-    35.943354
-  ],
+  "description": "An ancient place, cited: BAtlas 33 E1 unnamed unlabeled ((1 wall, 4 monuments, 3 aqueducts))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.746149,
+          35.943354
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               35.5
             ],
             [
-              9.5,
-              36.0
-            ],
-            [
-              10.0,
-              36.0
-            ],
-            [
               10.0,
               35.5
+            ],
+            [
+              10.0,
+              36.0
+            ],
+            [
+              9.5,
+              36.0
             ],
             [
               9.5,

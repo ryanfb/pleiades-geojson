@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vignanello",
   "id": "413383",
-  "description": "An ancient place, cited: BAtlas 42 C4 Vignanello",
   "bbox": [
     12.27716,
     42.383575,
     12.27716,
     42.383575
   ],
-  "reprPoint": [
-    12.27716,
-    42.383575
-  ],
+  "description": "An ancient place, cited: BAtlas 42 C4 Vignanello",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.27716,
+          42.383575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

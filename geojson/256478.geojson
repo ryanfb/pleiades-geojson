@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre de Palma",
   "id": "256478",
-  "description": "A large Roman villa inhabited from ca. the second century A.D. to the Visigothic period.",
   "bbox": [
     -7.488473,
     39.062264,
     -7.488473,
     39.062264
   ],
-  "reprPoint": [
-    -7.488473,
-    39.062264
-  ],
+  "description": "A large Roman villa inhabited from ca. the second century A.D. to the Visigothic period.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.488473,
+          39.062264
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

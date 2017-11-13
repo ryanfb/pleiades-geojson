@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "P(h)ygela",
   "id": "599887",
-  "description": "An ancient place, cited: BAtlas 61 E2 P(h)ygela",
   "bbox": [
     27.263729,
     37.862209,
     27.263729,
     37.862209
   ],
+  "description": "An ancient place, cited: BAtlas 61 E2 P(h)ygela",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    27.263729,
-    37.862209
   ],
   "names": [
     " Phygela",
     " Pygela"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.263729,
+          37.862209
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               37.5
             ],
             [
-              27.0,
-              38.0
-            ],
-            [
-              27.5,
-              38.0
-            ],
-            [
               27.5,
               37.5
+            ],
+            [
+              27.5,
+              38.0
+            ],
+            [
+              27.0,
+              38.0
             ],
             [
               27.0,

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Bethsaida",
   "id": "678065",
-  "description": "An ancient place, cited: BAtlas 69 C4 Bethsaida?/Iulias?",
   "bbox": [
     35.619825,
     32.895613,
     35.619825,
     32.895613
   ],
-  "reprPoint": [
-    35.619825,
-    32.895613
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C4 Bethsaida?/Iulias?",
   "names": [
     "Iulias",
     "at-Tall",
@@ -25,6 +21,19 @@
     "Ioulias"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.619825,
+          32.895613
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

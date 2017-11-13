@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Poço das Freitas",
   "id": "236606",
-  "description": "An ancient place, cited: BAtlas 24 D3 Poço das Freitas",
   "bbox": [
     -7.665115,
     41.688742,
     -7.665115,
     41.688742
   ],
-  "reprPoint": [
-    -7.665115,
-    41.688742
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D3 Poço das Freitas",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.665115,
+          41.688742
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalavasos-Tenta",
   "id": "807160605",
-  "description": "Kalavasos-Tenta is a neolithic settlement in Cyprus.",
   "bbox": [
     33.3030631,
     34.7522658,
     33.3030631,
     34.7522658
   ],
+  "description": "Kalavasos-Tenta is a neolithic settlement in Cyprus.",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.3030631,
-    34.7522658
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3030631,
+          34.7522658
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

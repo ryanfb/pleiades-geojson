@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Bolbitinon Stoma",
   "id": "727086",
-  "description": "The second western-most ancient mouth of the Nile river, located in the western Delta, near Rosetta.",
   "bbox": [
     29.331389,
     -2.282222,
     31.2705999,
     30.1709431
   ],
+  "description": "The second western-most ancient mouth of the Nile river, located in the western Delta, near Rosetta.",
   "connectsWith": [
     "727172"
-  ],
-  "reprPoint": [
-    30.8548635667,
-    24.6911759333
   ],
   "names": [
     "Bolbitinon Stoma",
@@ -23,6 +19,19 @@
     "Bolbitinische Mündung"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8548635667,
+          24.6911759333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -33,16 +42,16 @@
               31.0
             ],
             [
-              30.0,
-              31.5
-            ],
-            [
-              30.5,
-              31.5
-            ],
-            [
               30.5,
               31.0
+            ],
+            [
+              30.5,
+              31.5
+            ],
+            [
+              30.0,
+              31.5
             ],
             [
               30.0,

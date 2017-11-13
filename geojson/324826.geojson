@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thala",
   "id": "324826",
-  "description": "An ancient place, cited: BAtlas 33 C1 Thala",
   "bbox": [
     8.66687,
     35.578179,
     8.66687,
     35.578179
   ],
-  "reprPoint": [
-    8.66687,
-    35.578179
-  ],
+  "description": "An ancient place, cited: BAtlas 33 C1 Thala",
   "names": [
     "Thala"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66687,
+          35.578179
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.5
             ],
             [
-              8.5,
-              36.0
-            ],
-            [
-              9.0,
-              36.0
-            ],
-            [
               9.0,
               35.5
+            ],
+            [
+              9.0,
+              36.0
+            ],
+            [
+              8.5,
+              36.0
             ],
             [
               8.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "237845",
-  "description": "An ancient place, cited: BAtlas 24 D3 no. 19 (‘Ponte de Pedra’ at Torre de Dona Chama POR, over R. Tuela)",
   "bbox": [
     -8.0,
     41.0,
     -7.0,
     42.0
   ],
-  "reprPoint": [
-    -7.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D3 no. 19 (‘Ponte de Pedra’ at Torre de Dona Chama POR, over R. Tuela)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              -8.0,
-              42.0
-            ],
-            [
-              -7.0,
-              42.0
-            ],
-            [
               -7.0,
               41.0
+            ],
+            [
+              -7.0,
+              42.0
+            ],
+            [
+              -8.0,
+              42.0
             ],
             [
               -8.0,

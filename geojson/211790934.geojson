@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "al-Lāḏiqīya",
   "id": "211790934",
-  "description": "A place from the TAVO Index",
   "bbox": [
     35.5,
     35.0,
     36.0,
     35.5
   ],
-  "reprPoint": [
-    35.75,
-    35.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "al-Lāḏiqīya",
     "Laodicea",
@@ -27,6 +23,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          35.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -36,16 +45,16 @@
               35.0
             ],
             [
-              35.5,
-              35.5
-            ],
-            [
-              36.0,
-              35.5
-            ],
-            [
               36.0,
               35.0
+            ],
+            [
+              36.0,
+              35.5
+            ],
+            [
+              35.5,
+              35.5
             ],
             [
               35.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Naqsh-i Rustam",
   "id": "922685",
-  "description": "An ancient necropolis located northwest of Persepolis.",
   "bbox": [
     52.874722,
     29.9774,
     52.935221,
     29.988889
   ],
-  "reprPoint": [
-    52.9049715,
-    29.9831445
-  ],
+  "description": "An ancient necropolis located northwest of Persepolis.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.9049715,
+          29.9831445
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

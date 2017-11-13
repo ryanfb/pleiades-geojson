@@ -2,20 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nîmes aqueduct",
   "id": "148738",
-  "description": "Supplied Nemausus with water from the mid-first to sixth centuries AD.",
   "bbox": [
     4.438235,
     43.945863,
     4.538627,
     44.017844
   ],
+  "description": "Supplied Nemausus with water from the mid-first to sixth centuries AD.",
   "connectsWith": [
     "148224",
     "149496",
     "148142"
   ],
-  "reprPoint": [
-    4.48731985,
-    43.98231755
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.48731985,
+          43.98231755
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 1 (Stott's Pow)",
   "id": "967060287",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.550505,
     54.983501,
     -1.550505,
     54.983501
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.550505,
-    54.983501
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.550505,
+          54.983501
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

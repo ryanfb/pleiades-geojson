@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Baetica",
   "id": "862",
-  "description": "An ancient place, cited: BAtlas 1 C3 Baetica",
   "bbox": [
     -5.342495,
     36.74937,
     -4.779171,
     37.884683
   ],
-  "reprPoint": [
-    -5.060833,
-    37.3170265
-  ],
+  "description": "An ancient place, cited: BAtlas 1 C3 Baetica",
   "names": [
     "Baetica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.060833,
+          37.3170265
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              -5.0,
-              40.0
-            ],
-            [
-              0.0,
-              40.0
-            ],
-            [
               0.0,
               35.0
+            ],
+            [
+              0.0,
+              40.0
+            ],
+            [
+              -5.0,
+              40.0
             ],
             [
               -5.0,

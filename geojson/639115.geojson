@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Solymeis",
   "id": "639115",
-  "description": "An ancient place, cited: BAtlas 65 D4 Solymeis",
   "bbox": [
     30.0,
     36.5,
     30.5,
     37.0
   ],
-  "reprPoint": [
-    30.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 D4 Solymeis",
   "names": [
     "Solymeis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              30.0,
-              37.0
-            ],
-            [
-              30.5,
-              37.0
-            ],
-            [
               30.5,
               36.5
+            ],
+            [
+              30.5,
+              37.0
+            ],
+            [
+              30.0,
+              37.0
             ],
             [
               30.0,

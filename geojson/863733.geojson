@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Albanoi",
   "id": "863733",
-  "description": "An ancient place, cited: BAtlas 88 D1 Albanoi",
   "bbox": [
     45.0,
     43.0,
     46.0,
     44.0
   ],
-  "reprPoint": [
-    45.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 D1 Albanoi",
   "names": [
     "Albanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              45.0,
-              44.0
-            ],
-            [
-              46.0,
-              44.0
-            ],
-            [
               46.0,
               43.0
+            ],
+            [
+              46.0,
+              44.0
+            ],
+            [
+              45.0,
+              44.0
             ],
             [
               45.0,

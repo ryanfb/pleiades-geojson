@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wheathampstead",
   "id": "266705016",
-  "description": "A Belgic oppidum in England, founded sometime after 50 BC.",
   "bbox": [
     -0.2843078,
     51.8069509,
     -0.2813885,
     51.8088277
   ],
-  "reprPoint": [
-    -0.28284815,
-    51.8078893
-  ],
+  "description": "A Belgic oppidum in England, founded sometime after 50 BC.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28284815,
+          51.8078893
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Reii",
   "id": "157912",
-  "description": "A Celtic-Ligurian tribe of Gallia Narbonensis.",
   "bbox": [
     6.090718,
     43.818614,
     6.090718,
     43.818614
   ],
-  "reprPoint": [
-    6.090718,
-    43.818614
-  ],
+  "description": "A Celtic-Ligurian tribe of Gallia Narbonensis.",
   "names": [
     "Reii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.090718,
+          43.818614
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              5.5,
-              44.0
-            ],
-            [
-              6.0,
-              44.0
-            ],
-            [
               6.0,
               43.5
+            ],
+            [
+              6.0,
+              44.0
+            ],
+            [
+              5.5,
+              44.0
             ],
             [
               5.5,

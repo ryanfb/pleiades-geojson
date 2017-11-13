@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Olympos M.",
   "id": "580042",
-  "description": "An ancient place, cited: BAtlas 59 C3 Olympos M.",
   "bbox": [
     23.75,
     37.75,
     24.0,
     38.0
   ],
-  "reprPoint": [
-    23.875,
-    37.875
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C3 Olympos M.",
   "names": [
     "Olympos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          37.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.75
             ],
             [
-              23.75,
-              38.0
-            ],
-            [
-              24.0,
-              38.0
-            ],
-            [
               24.0,
               37.75
+            ],
+            [
+              24.0,
+              38.0
+            ],
+            [
+              23.75,
+              38.0
             ],
             [
               23.75,

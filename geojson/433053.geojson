@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Prochyta (island)",
   "id": "433053",
-  "description": "Procida is one of the Flegrean Islands located between Cape Miseno and the island of Ischia.",
   "bbox": [
     14.016667,
     40.758333,
     14.016667,
     40.758333
   ],
+  "description": "Procida is one of the Flegrean Islands located between Cape Miseno and the island of Ischia.",
   "connectsWith": [
     "433059"
-  ],
-  "reprPoint": [
-    14.016667,
-    40.758333
   ],
   "names": [
     "Prochyta"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.016667,
+          40.758333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

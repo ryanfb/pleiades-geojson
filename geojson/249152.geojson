@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iturranduz Dam",
   "id": "249152",
-  "description": "Unlabeled on the Barrington Atlas, this dam is popularly known as the \"Devil's Bridge.\"",
   "bbox": [
     -1.89583396524,
     42.6083941045,
     -1.89546476512,
     42.6090474607
   ],
+  "description": "Unlabeled on the Barrington Atlas, this dam is popularly known as the \"Devil's Bridge.\"",
   "connectsWith": [
     "246890"
   ],
-  "reprPoint": [
-    -1.89564936518,
-    42.6087207826
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.89564936518,
+          42.6087207826
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "LineString",

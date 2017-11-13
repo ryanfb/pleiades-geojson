@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250023",
-  "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Baños)",
   "bbox": [
     -1.0,
     41.0,
     0.0,
     42.0
   ],
-  "reprPoint": [
-    -0.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E4 no. 117 (Dehesa de Baños)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              -1.0,
-              42.0
-            ],
-            [
-              0.0,
-              42.0
-            ],
-            [
               0.0,
               41.0
+            ],
+            [
+              0.0,
+              42.0
+            ],
+            [
+              -1.0,
+              42.0
             ],
             [
               -1.0,

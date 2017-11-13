@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Gallos/Terias (river)",
   "id": "609384",
-  "description": "An ancient place, cited: BAtlas 62 G3 Gallos/Terias fl.",
   "bbox": [
     31.5,
     39.0,
     32.0,
     39.5
   ],
-  "reprPoint": [
-    31.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 G3 Gallos/Terias fl.",
   "names": [
     "Gallos",
     "Terias"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.0
             ],
             [
-              31.5,
-              39.5
-            ],
-            [
-              32.0,
-              39.5
-            ],
-            [
               32.0,
               39.0
+            ],
+            [
+              32.0,
+              39.5
+            ],
+            [
+              31.5,
+              39.5
             ],
             [
               31.5,

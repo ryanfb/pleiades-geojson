@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Ouedra/Adron (river)",
   "id": "89265",
-  "description": "Ouedra/Adron fl. flows eastward from the Pennines to the North Sea.",
   "bbox": [
     3.0,
     56.0,
     3.0,
     56.0
   ],
+  "description": "Ouedra/Adron fl. flows eastward from the Pennines to the North Sea.",
   "connectsWith": [
     "20469"
-  ],
-  "reprPoint": [
-    3.0,
-    56.0
   ],
   "names": [
     "Ouedra",
     "Adron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0,
+          56.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               54.0
             ],
             [
-              -2.0,
-              55.0
-            ],
-            [
-              -1.0,
-              55.0
-            ],
-            [
               -1.0,
               54.0
+            ],
+            [
+              -1.0,
+              55.0
+            ],
+            [
+              -2.0,
+              55.0
             ],
             [
               -2.0,

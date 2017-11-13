@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "650062",
-  "description": "An ancient place, cited: BAtlas 66 G3 unnamed bridge (over (P)Saros fl. at Adana)",
   "bbox": [
     35.5849343,
     37.6056811,
     35.5849343,
     37.6056811
   ],
+  "description": "An ancient place, cited: BAtlas 66 G3 unnamed bridge (over (P)Saros fl. at Adana)",
   "connectsWith": [
     "648748"
   ],
-  "reprPoint": [
-    35.5849343,
-    37.6056811
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5849343,
+          37.6056811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              35.0,
-              37.0
-            ],
-            [
-              35.5,
-              37.0
-            ],
-            [
               35.5,
               36.5
+            ],
+            [
+              35.5,
+              37.0
+            ],
+            [
+              35.0,
+              37.0
             ],
             [
               35.0,

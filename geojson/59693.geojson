@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Arachosia (river)",
   "id": "59693",
-  "description": "An ancient place, cited: BAtlas 6 A3 Arachosia fl.",
   "bbox": [
     60.0,
     30.0,
     65.0,
     35.0
   ],
-  "reprPoint": [
-    62.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 A3 Arachosia fl.",
   "names": [
     "Arachosia",
     "Arachotos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               30.0
             ],
             [
-              60.0,
-              35.0
-            ],
-            [
-              65.0,
-              35.0
-            ],
-            [
               65.0,
               30.0
+            ],
+            [
+              65.0,
+              35.0
+            ],
+            [
+              60.0,
+              35.0
             ],
             [
               60.0,

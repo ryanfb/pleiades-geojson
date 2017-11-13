@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Midenoi",
   "id": "315079",
-  "description": "An ancient place, cited: BAtlas 32 C3 Midenoi",
   "bbox": [
     8.5,
     36.5,
     9.0,
     37.0
   ],
-  "reprPoint": [
-    8.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 C3 Midenoi",
   "names": [
     "Midenoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              8.5,
-              37.0
-            ],
-            [
-              9.0,
-              37.0
-            ],
-            [
               9.0,
               36.5
+            ],
+            [
+              9.0,
+              37.0
+            ],
+            [
+              8.5,
+              37.0
             ],
             [
               8.5,

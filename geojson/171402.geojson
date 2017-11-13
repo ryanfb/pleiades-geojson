@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "171402",
-  "description": "Lucus Augusti → Noiomagos",
   "bbox": [
     -7.55819,
     43.009145,
     -7.555831,
     43.012084
   ],
-  "reprPoint": [
-    -7.5570105,
-    43.0106145
-  ],
+  "description": "Lucus Augusti → Noiomagos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5570105,
+          43.0106145
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              3.0,
-              46.5
-            ],
-            [
-              7.5,
-              46.5
-            ],
-            [
               7.5,
               44.0
+            ],
+            [
+              7.5,
+              46.5
+            ],
+            [
+              3.0,
+              46.5
             ],
             [
               3.0,

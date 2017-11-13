@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Mediolanum",
   "id": "138459",
-  "description": "An ancient settlement, located in the modern French commune of Châteaumeillant.",
   "bbox": [
     2.201875,
     46.562103,
     2.201875,
     46.562103
   ],
-  "reprPoint": [
-    2.201875,
-    46.562103
-  ],
+  "description": "An ancient settlement, located in the modern French commune of Châteaumeillant.",
   "names": [
     "Mediolanum",
     "Stampensis",
     "Châteaumeillant"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.201875,
+          46.562103
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alticienses",
   "id": "471881",
-  "description": "An ancient place, cited: BAtlas 48 B3 Alticienses",
   "bbox": [
     9.0,
     39.0,
     10.0,
     40.0
   ],
-  "reprPoint": [
-    9.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 B3 Alticienses",
   "names": [
     "Alticienses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              9.0,
-              40.0
-            ],
-            [
-              10.0,
-              40.0
-            ],
-            [
               10.0,
               39.0
+            ],
+            [
+              10.0,
+              40.0
+            ],
+            [
+              9.0,
+              40.0
             ],
             [
               9.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pagus Thuscae",
   "id": "324800",
-  "description": "An ancient place, cited: BAtlas 33 D1 Pagus Thuscae",
   "bbox": [
     9.0,
     35.5,
     9.5,
     36.0
   ],
-  "reprPoint": [
-    9.25,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 D1 Pagus Thuscae",
   "names": [
     "Pagus Thuscae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.5
             ],
             [
-              9.0,
-              36.0
-            ],
-            [
-              9.5,
-              36.0
-            ],
-            [
               9.5,
               35.5
+            ],
+            [
+              9.5,
+              36.0
+            ],
+            [
+              9.0,
+              36.0
             ],
             [
               9.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "444716",
-  "description": "An ancient place, cited: BAtlas 45 H4 unnamed centuriation (Lupia(e) - Hydruntum - Veretum area)",
   "bbox": [
     18.0,
     40.0,
     18.5,
     40.5
   ],
-  "reprPoint": [
-    18.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 H4 unnamed centuriation (Lupia(e) - Hydruntum - Veretum area)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              18.0,
-              40.5
-            ],
-            [
-              18.5,
-              40.5
-            ],
-            [
               18.5,
               40.0
+            ],
+            [
+              18.5,
+              40.5
+            ],
+            [
+              18.0,
+              40.5
             ],
             [
               18.0,

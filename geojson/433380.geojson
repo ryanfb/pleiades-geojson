@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "433380",
-  "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Casinum)",
   "bbox": [
     13.821628,
     41.4825511,
     13.830583,
     41.492907
   ],
+  "description": "An ancient place, cited: BAtlas 44 E3 unnamed aqueduct (Casinum)",
   "connectsWith": [
     "432764"
   ],
-  "reprPoint": [
-    13.8252693333,
-    41.4863253
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8252693333,
+          41.4863253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

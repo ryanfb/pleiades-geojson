@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Rhodos (island)",
   "id": "590031",
-  "description": "The island of Rhodes has an area of some 1,400 square km and sits 18 km from the coast of Asia Minor. The island has been inhabited by humans since the Neolithic period.",
   "bbox": [
     27.964125,
     36.195597,
     27.964125,
     36.195597
   ],
+  "description": "The island of Rhodes has an area of some 1,400 square km and sits 18 km from the coast of Asia Minor. The island has been inhabited by humans since the Neolithic period.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    27.964125,
-    36.195597
   ],
   "names": [
     "Rhodos",
@@ -22,6 +18,19 @@
     "Rhodes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.964125,
+          36.195597
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

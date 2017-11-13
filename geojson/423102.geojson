@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Il Torrino",
   "id": "423102",
-  "description": "An Iron Age settlement in Latium.",
   "bbox": [
     12.44113,
     41.812936,
     12.44113,
     41.812936
   ],
-  "reprPoint": [
-    12.44113,
-    41.812936
-  ],
+  "description": "An Iron Age settlement in Latium.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.44113,
+          41.812936
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

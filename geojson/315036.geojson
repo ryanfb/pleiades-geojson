@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Hermaia Akra/Mercurii Pr./Kalon Akroterion?",
   "id": "315036",
-  "description": "Cap Bon",
   "bbox": [
     11.0,
     37.0,
     11.5,
     37.5
   ],
+  "description": "Cap Bon",
   "connectsWith": [
     "315249"
-  ],
-  "reprPoint": [
-    11.25,
-    37.25
   ],
   "names": [
     "Hermaia Akra",
@@ -22,6 +18,19 @@
     "Kalon Akroterion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               37.0
             ],
             [
-              11.0,
-              37.5
-            ],
-            [
-              11.5,
-              37.5
-            ],
-            [
               11.5,
               37.0
+            ],
+            [
+              11.5,
+              37.5
+            ],
+            [
+              11.0,
+              37.5
             ],
             [
               11.0,

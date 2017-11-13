@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kaminia",
   "id": "550613",
-  "description": "An ancient place, cited: BAtlas 56 A2 Kaminia",
   "bbox": [
     25.328425,
     39.848584,
     25.328425,
     39.848584
   ],
-  "reprPoint": [
-    25.328425,
-    39.848584
-  ],
+  "description": "An ancient place, cited: BAtlas 56 A2 Kaminia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.328425,
+          39.848584
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

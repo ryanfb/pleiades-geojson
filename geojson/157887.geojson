@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Colma",
   "id": "157887",
-  "description": "An ancient settlement at Monte Colma in Italy, ancient name unknown (BAtlas 16 E2 Monte Colma).",
   "bbox": [
     7.79613,
     43.857059,
     7.79613,
     43.857059
   ],
-  "reprPoint": [
-    7.79613,
-    43.857059
-  ],
+  "description": "An ancient settlement at Monte Colma in Italy, ancient name unknown (BAtlas 16 E2 Monte Colma).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.79613,
+          43.857059
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.5
             ],
             [
-              7.5,
-              44.0
-            ],
-            [
-              8.0,
-              44.0
-            ],
-            [
               8.0,
               43.5
+            ],
+            [
+              8.0,
+              44.0
+            ],
+            [
+              7.5,
+              44.0
             ],
             [
               7.5,

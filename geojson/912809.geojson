@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arabia",
   "id": "912809",
-  "description": "An ancient place, cited: BAtlas 93 B4 Arabia",
   "bbox": [
     45.0,
     29.0,
     46.0,
     30.0
   ],
-  "reprPoint": [
-    45.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 93 B4 Arabia",
   "names": [
     "Arabia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               29.0
             ],
             [
-              45.0,
-              30.0
-            ],
-            [
-              46.0,
-              30.0
-            ],
-            [
               46.0,
               29.0
+            ],
+            [
+              46.0,
+              30.0
+            ],
+            [
+              45.0,
+              30.0
             ],
             [
               45.0,

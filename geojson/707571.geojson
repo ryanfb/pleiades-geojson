@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Malloura",
   "id": "707571",
-  "description": "An ancient place, cited: BAtlas 72 D2 Malloura",
   "bbox": [
     33.507185,
     35.026096,
     33.507185,
     35.026096
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Malloura",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.507185,
-    35.026096
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.507185,
+          35.026096
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

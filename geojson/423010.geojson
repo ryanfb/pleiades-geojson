@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ponte Mammolo",
   "id": "423010",
-  "description": "An ancient place, cited: BAtlas 43 C2 Ponte Mammolo",
   "bbox": [
     12.571165,
     41.924651,
     12.571165,
     41.924651
   ],
+  "description": "An ancient place, cited: BAtlas 43 C2 Ponte Mammolo",
   "connectsWith": [
     "422834",
     "272213281",
     "423025"
   ],
-  "reprPoint": [
-    12.571165,
-    41.924651
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.571165,
+          41.924651
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

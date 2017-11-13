@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Los Barros",
   "id": "256018",
-  "description": "An ancient place, cited: BAtlas 26 D3 Los Barros",
   "bbox": [
     -6.685157,
     38.490749,
     -6.685157,
     38.490749
   ],
-  "reprPoint": [
-    -6.685157,
-    38.490749
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D3 Los Barros",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.685157,
+          38.490749
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

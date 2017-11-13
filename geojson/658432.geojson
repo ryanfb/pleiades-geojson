@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chalybonitis",
   "id": "658432",
-  "description": "An ancient place, cited: BAtlas 67 F4 Chalybonitis",
   "bbox": [
     37.5,
     36.0,
     38.0,
     36.5
   ],
-  "reprPoint": [
-    37.75,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 F4 Chalybonitis",
   "names": [
     "Chalybonitis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              37.5,
-              36.5
-            ],
-            [
-              38.0,
-              36.5
-            ],
-            [
               38.0,
               36.0
+            ],
+            [
+              38.0,
+              36.5
+            ],
+            [
+              37.5,
+              36.5
             ],
             [
               37.5,

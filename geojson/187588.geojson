@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Timavus (river)",
   "id": "187588",
-  "description": "Timavus fl. (the Timavo river).",
   "bbox": [
     13.58889,
     42.7752864,
     15.885196,
     45.789092
   ],
+  "description": "Timavus fl. (the Timavo river).",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    14.7380235,
-    44.2819532
   ],
   "names": [
     "Timavus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7380235,
+          44.2819532
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               45.0
             ],
             [
-              13.0,
-              46.0
-            ],
-            [
-              14.0,
-              46.0
-            ],
-            [
               14.0,
               45.0
+            ],
+            [
+              14.0,
+              46.0
+            ],
+            [
+              13.0,
+              46.0
             ],
             [
               13.0,

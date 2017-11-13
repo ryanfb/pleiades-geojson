@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tholos",
   "id": "570731",
-  "description": "An ancient place, cited: BAtlas 58 G2 Tholos",
   "bbox": [
     24.304287,
     37.550359,
     24.304287,
     37.550359
   ],
+  "description": "An ancient place, cited: BAtlas 58 G2 Tholos",
   "connectsWith": [
     "570348"
   ],
-  "reprPoint": [
-    24.304287,
-    37.550359
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.304287,
+          37.550359
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Flanaticus Sinus",
   "id": "197271",
-  "description": "An ancient place, cited: BAtlas 20 B4 Flanaticus Sinus",
   "bbox": [
     14.172682,
     45.137355,
     14.180215,
     45.138214
   ],
-  "reprPoint": [
-    14.1764485,
-    45.1377845
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B4 Flanaticus Sinus",
   "names": [
     "Flanaticus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1764485,
+          45.1377845
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              14.0,
-              46.0
-            ],
-            [
-              15.0,
-              46.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              46.0
+            ],
+            [
+              14.0,
+              46.0
             ],
             [
               14.0,

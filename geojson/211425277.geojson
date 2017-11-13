@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ḥiṭṭīn",
   "id": "211425277",
-  "description": "A place from the TAVO Index",
   "bbox": [
     35.0,
     32.5,
     35.5,
     33.0
   ],
-  "reprPoint": [
-    35.25,
-    32.75
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Ḥiṭṭīn",
     "ha-Ṣiddim",
     "Kǝfar Ḥiṭṭayyȧ"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25,
+          32.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               32.5
             ],
             [
-              35.0,
-              33.0
-            ],
-            [
-              35.5,
-              33.0
-            ],
-            [
               35.5,
               32.5
+            ],
+            [
+              35.5,
+              33.0
+            ],
+            [
+              35.0,
+              33.0
             ],
             [
               35.0,

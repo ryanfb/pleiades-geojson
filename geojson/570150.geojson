@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Belbina (island)",
   "id": "570150",
-  "description": "A small island in the Saronic Gulf, some 10 miles from the promontory of Sounion.",
   "bbox": [
     23.92397,
     37.476608,
     23.92397,
     37.476608
   ],
+  "description": "A small island in the Saronic Gulf, some 10 miles from the promontory of Sounion.",
   "connectsWith": [
     "570654"
-  ],
-  "reprPoint": [
-    23.92397,
-    37.476608
   ],
   "names": [
     "Belbina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.92397,
+          37.476608
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

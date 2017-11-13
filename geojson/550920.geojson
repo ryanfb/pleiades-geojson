@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thebes Pedion",
   "id": "550920",
-  "description": "A fertile plain of Mysia, located south of Mount Placius.",
   "bbox": [
     26.5,
     39.5,
     27.0,
     40.0
   ],
-  "reprPoint": [
-    26.75,
-    39.75
-  ],
+  "description": "A fertile plain of Mysia, located south of Mount Placius.",
   "names": [
     "Thebes Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              26.5,
-              40.0
-            ],
-            [
-              27.0,
-              40.0
-            ],
-            [
               27.0,
               39.5
+            ],
+            [
+              27.0,
+              40.0
+            ],
+            [
+              26.5,
+              40.0
             ],
             [
               26.5,

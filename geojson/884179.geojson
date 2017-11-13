@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Matiane",
   "id": "884179",
-  "description": "Matiene was the name of an ancient kingdom in northwestern Iran.",
   "bbox": [
     46.0,
     36.0,
     47.0,
     37.0
   ],
-  "reprPoint": [
-    46.5,
-    36.5
-  ],
+  "description": "Matiene was the name of an ancient kingdom in northwestern Iran.",
   "names": [
     "Matiane",
     "Mantiane",
     "Matienoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               36.0
             ],
             [
-              46.0,
-              37.0
-            ],
-            [
-              47.0,
-              37.0
-            ],
-            [
               47.0,
               36.0
+            ],
+            [
+              47.0,
+              37.0
+            ],
+            [
+              46.0,
+              37.0
             ],
             [
               46.0,

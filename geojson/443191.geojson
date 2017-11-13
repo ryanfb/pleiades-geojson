@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "443191",
-  "description": "An ancient place, cited: BAtlas 45 G3 unnamed aqueduct (Brundisium from spring of Pozzo S. Vito near S. Vito dei Normanni)",
   "bbox": [
     17.5,
     40.5,
     18.0,
     41.0
   ],
-  "reprPoint": [
-    17.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 45 G3 unnamed aqueduct (Brundisium from spring of Pozzo S. Vito near S. Vito dei Normanni)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.5
             ],
             [
-              17.5,
-              41.0
-            ],
-            [
-              18.0,
-              41.0
-            ],
-            [
               18.0,
               40.5
+            ],
+            [
+              18.0,
+              41.0
+            ],
+            [
+              17.5,
+              41.0
             ],
             [
               17.5,

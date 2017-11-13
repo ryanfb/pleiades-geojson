@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sacrum Pr.",
   "id": "256410",
-  "description": "An ancient place, cited: BAtlas 26 B4 Sacrum Pr.",
   "bbox": [
     -9.0,
     37.0,
     -8.0,
     38.0
   ],
-  "reprPoint": [
-    -8.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B4 Sacrum Pr.",
   "names": [
     "Sacrum Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              -9.0,
-              38.0
-            ],
-            [
-              -8.0,
-              38.0
-            ],
-            [
               -8.0,
               37.0
+            ],
+            [
+              -8.0,
+              38.0
+            ],
+            [
+              -9.0,
+              38.0
             ],
             [
               -9.0,

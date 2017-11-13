@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Zephyrion Akron",
   "id": "716652",
-  "description": "An ancient place, cited: None",
   "bbox": [
     27.0,
     31.0,
     28.0,
     32.0
   ],
-  "reprPoint": [
-    27.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: None",
   "names": [
     "Zephyrion Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              27.0,
-              32.0
-            ],
-            [
-              28.0,
-              32.0
-            ],
-            [
               28.0,
               31.0
+            ],
+            [
+              28.0,
+              32.0
+            ],
+            [
+              27.0,
+              32.0
             ],
             [
               27.0,

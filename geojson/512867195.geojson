@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Barcombe Hill Roman Signal Station",
   "id": "512867195",
-  "description": "A Roman signal station on Barcombe Hill, overlooking the Stanegate and Vindolanda.",
   "bbox": [
     -2.340697,
     54.995465,
     -2.340697,
     54.995465
   ],
+  "description": "A Roman signal station on Barcombe Hill, overlooking the Stanegate and Vindolanda.",
   "connectsWith": [
     "506349985",
     "89313",
     "455597764"
   ],
-  "reprPoint": [
-    -2.340697,
-    54.995465
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.340697,
+          54.995465
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

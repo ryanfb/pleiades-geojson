@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Castelo da Lousa",
   "id": "256074",
-  "description": "An ancient place, cited: BAtlas 26 C3 Castelo da Lousa",
   "bbox": [
     -7.401866,
     38.337523,
     -7.401866,
     38.337523
   ],
-  "reprPoint": [
-    -7.401866,
-    38.337523
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C3 Castelo da Lousa",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.401866,
+          38.337523
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

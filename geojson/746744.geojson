@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Heroopoliticus Sinus",
   "id": "746744",
-  "description": "Heroopoliticus Sinus (The Gulf of Suez)",
   "bbox": [
     33.45,
     28.166667,
     33.45,
     28.166667
   ],
+  "description": "Heroopoliticus Sinus (The Gulf of Suez)",
   "connectsWith": [
     "39290"
-  ],
-  "reprPoint": [
-    33.45,
-    28.166667
   ],
   "names": [
     "Heroopoliticus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.45,
+          28.166667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

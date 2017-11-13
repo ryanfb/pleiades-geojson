@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "415252",
-  "description": "An ancient place, cited: BAtlas 42 A1 unnamed centuriation (Florentia)",
   "bbox": [
     11.0,
     43.5,
     11.5,
     44.0
   ],
+  "description": "An ancient place, cited: BAtlas 42 A1 unnamed centuriation (Florentia)",
   "connectsWith": [
     "413138"
   ],
-  "reprPoint": [
-    11.25,
-    43.75
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              11.0,
-              44.0
-            ],
-            [
-              11.5,
-              44.0
-            ],
-            [
               11.5,
               43.5
+            ],
+            [
+              11.5,
+              44.0
+            ],
+            [
+              11.0,
+              44.0
             ],
             [
               11.0,

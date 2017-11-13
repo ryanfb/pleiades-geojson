@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "‘Eltavori’ (river)",
   "id": "79450",
-  "description": "An ancient place, cited: BAtlas 8 F2 ‘Eltavori’ fl.",
   "bbox": [
     -2.0,
     52.0,
     -1.0,
     53.0
   ],
-  "reprPoint": [
-    -1.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 F2 ‘Eltavori’ fl.",
   "names": [
     "Eltavori",
     "Tamus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               52.0
             ],
             [
-              -2.0,
-              53.0
-            ],
-            [
-              -1.0,
-              53.0
-            ],
-            [
               -1.0,
               52.0
+            ],
+            [
+              -1.0,
+              53.0
+            ],
+            [
+              -2.0,
+              53.0
             ],
             [
               -2.0,

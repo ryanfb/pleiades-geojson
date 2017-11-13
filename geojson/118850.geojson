@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Moos",
   "id": "118850",
-  "description": "An ancient place, cited: BAtlas 12 F4 Moos",
   "bbox": [
     12.961064,
     48.751505,
     12.961064,
     48.751505
   ],
-  "reprPoint": [
-    12.961064,
-    48.751505
-  ],
+  "description": "An ancient place, cited: BAtlas 12 F4 Moos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.961064,
+          48.751505
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

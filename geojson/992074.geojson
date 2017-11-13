@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Viennensis",
   "id": "992074",
-  "description": "The Late Roman diocese as defined in the Barrington Atlas (BAtlas 101 F3 Viennensis)",
   "bbox": [
     -5.0,
     40.0,
     0.0,
     45.0
   ],
-  "reprPoint": [
-    -2.5,
-    42.5
-  ],
+  "description": "The Late Roman diocese as defined in the Barrington Atlas (BAtlas 101 F3 Viennensis)",
   "names": [
     "Viennensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -5.0,
-              45.0
-            ],
-            [
-              0.0,
-              45.0
-            ],
-            [
               0.0,
               40.0
+            ],
+            [
+              0.0,
+              45.0
+            ],
+            [
+              -5.0,
+              45.0
             ],
             [
               -5.0,

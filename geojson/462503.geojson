@@ -2,21 +2,17 @@
   "type": "FeatureCollection",
   "title": "Syracusae/Syrakousai",
   "id": "462503",
-  "description": "An important ancient city on the island of Sicily.",
   "bbox": [
     15.2043351,
     37.063921,
     15.292995,
     37.0920592
   ],
+  "description": "An important ancient city on the island of Sicily.",
   "connectsWith": [
     "462492",
     "991353",
     "981549"
-  ],
-  "reprPoint": [
-    15.2718869278,
-    37.0738645
   ],
   "names": [
     "Syracusae",
@@ -24,5 +20,20 @@
     "Syracuse",
     "Syrakus",
     "Siracusa"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2718869278,
+          37.0738645
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

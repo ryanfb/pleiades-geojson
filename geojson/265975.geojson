@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Morana",
   "id": "265975",
-  "description": "An ancient place, cited: BAtlas 27 A4 Morana",
   "bbox": [
     -4.601944,
     37.350654,
     -4.601944,
     37.350654
   ],
-  "reprPoint": [
-    -4.601944,
-    37.350654
-  ],
+  "description": "An ancient place, cited: BAtlas 27 A4 Morana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.601944,
+          37.350654
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

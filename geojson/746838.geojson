@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Qelkha",
   "id": "746838",
-  "description": "An ancient place, cited: BAtlas 76 G2 Wadi Qelkha",
   "bbox": [
     35.255668,
     29.939119,
     35.255668,
     29.939119
   ],
-  "reprPoint": [
-    35.255668,
-    29.939119
-  ],
+  "description": "An ancient place, cited: BAtlas 76 G2 Wadi Qelkha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.255668,
+          29.939119
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

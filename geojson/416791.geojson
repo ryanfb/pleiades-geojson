@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Cingilia",
   "id": "416791",
-  "description": "A settlement of the Vestini, now unlocated, that, according to Livy, Iunius Brutus captured in 325 B.C.",
   "bbox": [
     13.5,
     42.0,
     14.0,
     42.5
   ],
+  "description": "A settlement of the Vestini, now unlocated, that, according to Livy, Iunius Brutus captured in 325 B.C.",
   "connectsWith": [
     "413376"
-  ],
-  "reprPoint": [
-    13.75,
-    42.25
   ],
   "names": [
     "Cingilia"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          42.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

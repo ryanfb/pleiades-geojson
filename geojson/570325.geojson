@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Kalaureia (island)",
   "id": "570325",
-  "description": "An island near the coast of Troezen in the Peloponnesus.",
   "bbox": [
     23.483333,
     37.516667,
     23.483333,
     37.516667
   ],
+  "description": "An island near the coast of Troezen in the Peloponnesus.",
   "connectsWith": [
     "570654"
-  ],
-  "reprPoint": [
-    23.483333,
-    37.516667
   ],
   "names": [
     "Kalaureia",
     "Kalauria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.483333,
+          37.516667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

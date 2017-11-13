@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Quartu S. Elena",
   "id": "472001",
-  "description": "An ancient place, cited: BAtlas 48 B3 Quartu S. Elena",
   "bbox": [
     9.183435,
     39.241531,
     9.183435,
     39.241531
   ],
+  "description": "An ancient place, cited: BAtlas 48 B3 Quartu S. Elena",
   "connectsWith": [
     "472014"
   ],
-  "reprPoint": [
-    9.183435,
-    39.241531
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183435,
+          39.241531
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

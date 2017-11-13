@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Buscemi",
   "id": "462120",
-  "description": "An ancient place, cited: BAtlas 47 F4 Buscemi",
   "bbox": [
     14.8842007,
     37.0790016,
     14.8863106,
     37.0854713
   ],
+  "description": "An ancient place, cited: BAtlas 47 F4 Buscemi",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    14.88525565,
-    37.08223645
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.88525565,
+          37.08223645
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

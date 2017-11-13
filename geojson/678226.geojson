@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Karmiel",
   "id": "678226",
-  "description": "An ancient place, cited: BAtlas 69 B4 Karmiel",
   "bbox": [
     35.301835,
     32.907834,
     35.301835,
     32.907834
   ],
-  "reprPoint": [
-    35.301835,
-    32.907834
-  ],
+  "description": "An ancient place, cited: BAtlas 69 B4 Karmiel",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.301835,
+          32.907834
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Medulla? (river)",
   "id": "246497",
-  "description": "An ancient place, cited: BAtlas 25 E2 Medulla? fl.",
   "bbox": [
     -0.5229921,
     43.8940132,
     -0.5229921,
     43.8940132
   ],
-  "reprPoint": [
-    -0.5229921,
-    43.8940132
-  ],
+  "description": "An ancient place, cited: BAtlas 25 E2 Medulla? fl.",
   "names": [
     "Medulla"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5229921,
+          43.8940132
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              -1.0,
-              44.0
-            ],
-            [
-              0.0,
-              44.0
-            ],
-            [
               0.0,
               43.0
+            ],
+            [
+              0.0,
+              44.0
+            ],
+            [
+              -1.0,
+              44.0
             ],
             [
               -1.0,

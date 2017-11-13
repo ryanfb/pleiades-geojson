@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cramond",
   "id": "89153",
-  "description": "Site of Roman fort occupied during the Antonine period, located 4.5 miles NNW of Castle Rock, Edinburgh.",
   "bbox": [
     -3.301601,
     55.976761,
     -3.298664,
     55.978554
   ],
-  "reprPoint": [
-    -3.30013595719,
-    55.9776615208
-  ],
+  "description": "Site of Roman fort occupied during the Antonine period, located 4.5 miles NNW of Castle Rock, Edinburgh.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.30013595719,
+          55.9776615208
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               55.976761
             ],
             [
-              -3.301601,
-              55.977119
+              -3.298664,
+              55.97821
             ],
             [
               -3.300898,
               55.978554
             ],
             [
-              -3.298664,
-              55.97821
+              -3.301601,
+              55.977119
             ],
             [
               -3.299391,

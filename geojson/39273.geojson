@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Adramiton Chora",
   "id": "39273",
-  "description": "An ancient place, cited: BAtlas 4 C2 Adramiton Chora",
   "bbox": [
     45.0,
     15.0,
     50.0,
     20.0
   ],
-  "reprPoint": [
-    47.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 C2 Adramiton Chora",
   "names": [
     "Adramiton Chora",
     "Adramyta",
@@ -20,6 +16,19 @@
     "Astramitis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               15.0
             ],
             [
-              45.0,
-              20.0
-            ],
-            [
-              50.0,
-              20.0
-            ],
-            [
               50.0,
               15.0
+            ],
+            [
+              50.0,
+              20.0
+            ],
+            [
+              45.0,
+              20.0
             ],
             [
               45.0,

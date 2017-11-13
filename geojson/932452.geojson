@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eualenoi",
   "id": "932452",
-  "description": "An ancient place, cited: BAtlas 95 C4 Eualenoi",
   "bbox": [
     50.0,
     25.0,
     51.0,
     26.0
   ],
-  "reprPoint": [
-    50.5,
-    25.5
-  ],
+  "description": "An ancient place, cited: BAtlas 95 C4 Eualenoi",
   "names": [
     "Eualenoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              50.0,
-              26.0
-            ],
-            [
-              51.0,
-              26.0
-            ],
-            [
               51.0,
               25.0
+            ],
+            [
+              51.0,
+              26.0
+            ],
+            [
+              50.0,
+              26.0
             ],
             [
               50.0,

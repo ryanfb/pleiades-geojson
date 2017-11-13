@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Minoa",
   "id": "589934",
-  "description": "Minoa, an ancient settlement, was located on the Gulf of Mirabello.",
   "bbox": [
     25.806709,
     35.110609,
     25.806709,
     35.110609
   ],
+  "description": "Minoa, an ancient settlement, was located on the Gulf of Mirabello.",
   "connectsWith": [
     "589748"
-  ],
-  "reprPoint": [
-    25.806709,
-    35.110609
   ],
   "names": [
     "Minoa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.806709,
+          35.110609
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

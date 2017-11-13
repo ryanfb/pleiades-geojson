@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Faroe Islands",
   "id": "136699833",
-  "description": "An archipelago made up of 18 islands situated between the Norwegian Sea and the North Atlantic Ocean.",
   "bbox": [
     -7.1676305,
     61.539444,
     -6.3031368,
     62.3361965
   ],
-  "reprPoint": [
-    -6.77152265,
-    61.980293275
-  ],
+  "description": "An archipelago made up of 18 islands situated between the Norwegian Sea and the North Atlantic Ocean.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.77152265,
+          61.980293275
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

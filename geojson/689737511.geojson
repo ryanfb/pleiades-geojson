@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bathampton Down",
   "id": "689737511",
-  "description": "Bathampton Down is a limestone plateau near Bath, England, with evidence for human settlement dating from the Mesolithic Period.",
   "bbox": [
     -2.3251221,
     51.3875964,
     -2.3251221,
     51.3875964
   ],
-  "reprPoint": [
-    -2.3251221,
-    51.3875964
-  ],
+  "description": "Bathampton Down is a limestone plateau near Bath, England, with evidence for human settlement dating from the Mesolithic Period.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3251221,
+          51.3875964
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

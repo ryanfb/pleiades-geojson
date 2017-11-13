@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Myra",
   "id": "639005",
-  "description": "An ancient Lycian town",
   "bbox": [
     29.9829,
     36.250801,
     29.993638,
     36.259692
   ],
-  "reprPoint": [
-    29.9873656667,
-    36.2562953333
-  ],
+  "description": "An ancient Lycian town",
   "names": [
     "Myra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9873656667,
+          36.2562953333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

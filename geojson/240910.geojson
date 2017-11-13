@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Cohors Gallica",
   "id": "240910",
-  "description": "An ancient place, cited: BAtlas 24 unlocated Cohors Gallica",
   "bbox": [
     -9.0,
     42.0,
     -8.0,
     43.0
   ],
+  "description": "An ancient place, cited: BAtlas 24 unlocated Cohors Gallica",
   "connectsWith": [
     "236400"
-  ],
-  "reprPoint": [
-    -8.5,
-    42.5
   ],
   "names": [
     "Cohors Gallica"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

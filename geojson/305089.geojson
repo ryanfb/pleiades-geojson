@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hippo? Akra",
   "id": "305089",
-  "description": "Hippo? Akra (modern Cap de Garde, Algeria)",
   "bbox": [
     7.5,
     36.5,
     8.0,
     37.0
   ],
-  "reprPoint": [
-    7.75,
-    36.75
-  ],
+  "description": "Hippo? Akra (modern Cap de Garde, Algeria)",
   "names": [
     "Hippo Akra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              7.5,
-              37.0
-            ],
-            [
-              8.0,
-              37.0
-            ],
-            [
               8.0,
               36.5
+            ],
+            [
+              8.0,
+              37.0
+            ],
+            [
+              7.5,
+              37.0
             ],
             [
               7.5,

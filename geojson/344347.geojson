@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dolopes?",
   "id": "344347",
-  "description": "An ancient place, cited: BAtlas 35 C2 Dolopes?",
   "bbox": [
     10.0,
     32.0,
     11.0,
     33.0
   ],
-  "reprPoint": [
-    10.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C2 Dolopes?",
   "names": [
     "Dolopes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               32.0
             ],
             [
-              10.0,
-              33.0
-            ],
-            [
-              11.0,
-              33.0
-            ],
-            [
               11.0,
               32.0
+            ],
+            [
+              11.0,
+              33.0
+            ],
+            [
+              10.0,
+              33.0
             ],
             [
               10.0,

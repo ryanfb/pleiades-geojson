@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Belgica",
   "id": "981511",
-  "description": "The Roman province also called Gallia Belgica.",
   "bbox": [
     3.79167,
     50.296979,
     3.79316,
     50.298592
   ],
+  "description": "The Roman province also called Gallia Belgica.",
   "connectsWith": [
     "993"
-  ],
-  "reprPoint": [
-    3.792415,
-    50.2977855
   ],
   "names": [
     "Belgica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.792415,
+          50.2977855
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               45.0
             ],
             [
-              0.0,
-              50.0
-            ],
-            [
-              5.0,
-              50.0
-            ],
-            [
               5.0,
               45.0
+            ],
+            [
+              5.0,
+              50.0
+            ],
+            [
+              0.0,
+              50.0
             ],
             [
               0.0,

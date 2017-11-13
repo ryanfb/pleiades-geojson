@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "So-Called Tomb of Clodius",
   "id": "426623",
-  "description": "The so-called Tomb of Clodius along the Via Appia near Castel Gandolfo.",
   "bbox": [
     12.6464493,
     41.7399648,
     12.6464493,
     41.7399648
   ],
-  "reprPoint": [
-    12.6464493,
-    41.7399648
-  ],
+  "description": "The so-called Tomb of Clodius along the Via Appia near Castel Gandolfo.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6464493,
+          41.7399648
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

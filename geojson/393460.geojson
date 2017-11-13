@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ostium Caprasiae",
   "id": "393460",
-  "description": "Ostium Caprasiae, one of the mouths of the Po river.",
   "bbox": [
     12.0,
     44.5,
     12.5,
     45.0
   ],
-  "reprPoint": [
-    12.25,
-    44.75
-  ],
+  "description": "Ostium Caprasiae, one of the mouths of the Po river.",
   "names": [
     "Ostium Caprasiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              12.0,
-              45.0
-            ],
-            [
-              12.5,
-              45.0
-            ],
-            [
               12.5,
               44.5
+            ],
+            [
+              12.5,
+              45.0
+            ],
+            [
+              12.0,
+              45.0
             ],
             [
               12.0,

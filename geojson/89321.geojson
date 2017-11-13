@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Westerwood",
   "id": "89321",
-  "description": "The site of a Roman fort on the Antonine Wall.",
   "bbox": [
     -3.995408,
     55.967243,
     -3.986219,
     55.973724
   ],
+  "description": "The site of a Roman fort on the Antonine Wall.",
   "connectsWith": [
     "91357"
   ],
-  "reprPoint": [
-    -3.99136312128,
-    55.9701758284
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.99136312128,
+          55.9701758284
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.972485
             ],
             [
-              -3.988423,
-              55.973511
+              -3.986219,
+              55.972713
             ],
             [
               -3.986642,
               55.973724
             ],
             [
-              -3.986219,
-              55.972713
+              -3.988423,
+              55.973511
             ],
             [
               -3.987978,

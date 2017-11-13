@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Veneris Iugum",
   "id": "241606",
-  "description": "An ancient place, cited: BAtlas 24 unlocated Veneris Iugum",
   "bbox": [
     -9.2719601,
     42.882364,
     -9.2719601,
     42.882364
   ],
-  "reprPoint": [
-    -9.2719601,
-    42.882364
-  ],
+  "description": "An ancient place, cited: BAtlas 24 unlocated Veneris Iugum",
   "names": [
     "Veneris Iugum"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.2719601,
+          42.882364
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

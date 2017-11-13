@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tarraconensis",
   "id": "991326",
-  "description": "An ancient place, cited: BAtlas 101 F3 Tarraconensis",
   "bbox": [
     -5.0,
     40.0,
     0.0,
     45.0
   ],
-  "reprPoint": [
-    -2.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 F3 Tarraconensis",
   "names": [
     "Tarraconensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -5.0,
-              45.0
-            ],
-            [
-              0.0,
-              45.0
-            ],
-            [
               0.0,
               40.0
+            ],
+            [
+              0.0,
+              45.0
+            ],
+            [
+              -5.0,
+              45.0
             ],
             [
               -5.0,

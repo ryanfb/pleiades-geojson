@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Suebicum Mare",
   "id": "20618",
-  "description": "The Baltic Sea.",
   "bbox": [
     20.0,
     58.0,
     20.0,
     58.0
   ],
-  "reprPoint": [
-    20.0,
-    58.0
-  ],
+  "description": "The Baltic Sea.",
   "names": [
     "Suebicum Mare",
     "Baltic Sea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0,
+          58.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

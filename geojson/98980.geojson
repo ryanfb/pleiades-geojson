@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Heruli?",
   "id": "98980",
-  "description": "The Heruli? were an East Germanic tribe who migrated from Scandinavia to the Black Sea during the third century AD.",
   "bbox": [
     12.0,
     55.0,
     13.0,
     56.0
   ],
-  "reprPoint": [
-    12.5,
-    55.5
-  ],
+  "description": "The Heruli? were an East Germanic tribe who migrated from Scandinavia to the Black Sea during the third century AD.",
   "names": [
     "Heruli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.0
             ],
             [
-              12.0,
-              56.0
-            ],
-            [
-              13.0,
-              56.0
-            ],
-            [
               13.0,
               55.0
+            ],
+            [
+              13.0,
+              56.0
+            ],
+            [
+              12.0,
+              56.0
             ],
             [
               12.0,

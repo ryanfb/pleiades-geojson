@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kokkynos Pr.",
   "id": "462271",
-  "description": "An ancient place, cited: BAtlas 47 G3 Kokkynos Pr.",
   "bbox": [
     15.0,
     37.5,
     15.5,
     38.0
   ],
-  "reprPoint": [
-    15.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G3 Kokkynos Pr.",
   "names": [
     "Kokkynos Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              15.0,
-              38.0
-            ],
-            [
-              15.5,
-              38.0
-            ],
-            [
               15.5,
               37.5
+            ],
+            [
+              15.5,
+              38.0
+            ],
+            [
+              15.0,
+              38.0
             ],
             [
               15.0,

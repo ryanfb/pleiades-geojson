@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Brangstrup",
   "id": "98928",
-  "description": "An ancient place, cited: BAtlas 10 G1 Brangstrup",
   "bbox": [
     10.501326,
     55.22545,
     10.501326,
     55.22545
   ],
-  "reprPoint": [
-    10.501326,
-    55.22545
-  ],
+  "description": "An ancient place, cited: BAtlas 10 G1 Brangstrup",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.501326,
+          55.22545
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

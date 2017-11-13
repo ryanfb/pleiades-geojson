@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "963101134",
-  "description": "An mine or quarry from a group on Pentelikon M.",
   "bbox": [
     23.870608,
     38.080671,
     23.870608,
     38.080671
   ],
-  "reprPoint": [
-    23.870608,
-    38.080671
-  ],
+  "description": "An mine or quarry from a group on Pentelikon M.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.870608,
+          38.080671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Roquefort",
   "id": "246589",
-  "description": "An ancient place, cited: BAtlas 25 F2 Roquefort",
   "bbox": [
     0.936303,
     43.174504,
     0.936303,
     43.174504
   ],
-  "reprPoint": [
-    0.936303,
-    43.174504
-  ],
+  "description": "An ancient place, cited: BAtlas 25 F2 Roquefort",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.936303,
+          43.174504
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mariupol'",
   "id": "825322",
-  "description": "An ancient place, cited: BAtlas 84 C1 Mariupol'",
   "bbox": [
     37.550001,
     47.116665,
     37.550001,
     47.116665
   ],
-  "reprPoint": [
-    37.550001,
-    47.116665
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C1 Mariupol'",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.550001,
+          47.116665
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

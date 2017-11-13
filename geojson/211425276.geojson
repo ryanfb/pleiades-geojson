@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Būr Saʿīd",
   "id": "211425276",
-  "description": "A place from the TAVO Index",
   "bbox": [
     32.0,
     31.0,
     32.5,
     31.5
   ],
-  "reprPoint": [
-    32.25,
-    31.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Būr Saʿīd",
     "Port Said",
@@ -21,6 +17,19 @@
     "Būr-Saʿīd"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               31.0
             ],
             [
-              32.0,
-              31.5
-            ],
-            [
-              32.5,
-              31.5
-            ],
-            [
               32.5,
               31.0
+            ],
+            [
+              32.5,
+              31.5
+            ],
+            [
+              32.0,
+              31.5
             ],
             [
               32.0,

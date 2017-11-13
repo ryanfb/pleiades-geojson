@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Belih",
   "id": "766424",
-  "description": "An ancient place, cited: BAtlas 78 C3 Wadi Belih",
   "bbox": [
     33.37719,
     27.230174,
     33.37719,
     27.230174
   ],
-  "reprPoint": [
-    33.37719,
-    27.230174
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C3 Wadi Belih",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.37719,
+          27.230174
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

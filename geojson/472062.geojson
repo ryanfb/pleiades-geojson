@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Chrysoun Oros",
   "id": "472062",
-  "description": "Chrysoun Oros is the highest mountain on the island of Corsica.",
   "bbox": [
     8.9456884,
     42.3797057,
     8.9456884,
     42.3797057
   ],
+  "description": "Chrysoun Oros is the highest mountain on the island of Corsica.",
   "connectsWith": [
     "472063"
-  ],
-  "reprPoint": [
-    8.9456884,
-    42.3797057
   ],
   "names": [
     "Chrysoun Oros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9456884,
+          42.3797057
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

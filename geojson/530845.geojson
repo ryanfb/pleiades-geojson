@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dolicha? Ins.",
   "id": "530845",
-  "description": "An ancient place, cited: BAtlas 54 D5 Dolicha? Ins.",
   "bbox": [
     21.0,
     38.0,
     21.5,
     38.5
   ],
-  "reprPoint": [
-    21.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 D5 Dolicha? Ins.",
   "names": [
     "Dolicha"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              21.0,
-              38.5
-            ],
-            [
-              21.5,
-              38.5
-            ],
-            [
               21.5,
               38.0
+            ],
+            [
+              21.5,
+              38.5
+            ],
+            [
+              21.0,
+              38.5
             ],
             [
               21.0,

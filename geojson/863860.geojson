@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Oshakan",
   "id": "863860",
-  "description": "An ancient place, cited: BAtlas 88 C4 Oshakan",
   "bbox": [
     44.0,
     40.0,
     45.0,
     41.0
   ],
-  "reprPoint": [
-    44.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 C4 Oshakan",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              44.0,
-              41.0
-            ],
-            [
-              45.0,
-              41.0
-            ],
-            [
               45.0,
               40.0
+            ],
+            [
+              45.0,
+              41.0
+            ],
+            [
+              44.0,
+              41.0
             ],
             [
               44.0,

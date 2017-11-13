@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Syrastrene",
   "id": "50291",
-  "description": "An ancient place, cited: BAtlas 5 B2 Syrastrene",
   "bbox": [
     65.0,
     20.0,
     70.0,
     25.0
   ],
-  "reprPoint": [
-    67.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 B2 Syrastrene",
   "names": [
     "Syrastrene",
     "Saraostos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               20.0
             ],
             [
-              65.0,
-              25.0
-            ],
-            [
-              70.0,
-              25.0
-            ],
-            [
               70.0,
               20.0
+            ],
+            [
+              70.0,
+              25.0
+            ],
+            [
+              65.0,
+              25.0
             ],
             [
               65.0,

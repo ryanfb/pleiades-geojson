@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "So-called House of Hesychios",
   "id": "529754544",
-  "description": "A Roman peristyle house located in Cyrene.",
   "bbox": [
     21.8562436,
     32.818583,
     21.8567025,
     32.8189662
   ],
+  "description": "A Roman peristyle house located in Cyrene.",
   "connectsWith": [
     "373778"
-  ],
-  "reprPoint": [
-    21.8565130842,
-    32.8187653168
   ],
   "names": [
     "House of Hesychios",
     "Casa di Esichio"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8565130842,
+          32.8187653168
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               32.818583
             ],
             [
-              21.8562436,
-              32.8187333
+              21.8567025,
+              32.818841
             ],
             [
               21.856327,
               32.8189662
             ],
             [
-              21.8567025,
-              32.818841
+              21.8562436,
+              32.8187333
             ],
             [
               21.8565803,

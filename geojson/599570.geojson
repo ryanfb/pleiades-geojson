@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chelone Pr.",
   "id": "599570",
-  "description": "An ancient place, cited: BAtlas 61 E4 Chelone Pr.",
   "bbox": [
     27.0,
     36.5,
     27.5,
     37.0
   ],
-  "reprPoint": [
-    27.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E4 Chelone Pr.",
   "names": [
     "Chelone Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              27.0,
-              37.0
-            ],
-            [
-              27.5,
-              37.0
-            ],
-            [
               27.5,
               36.5
+            ],
+            [
+              27.5,
+              37.0
+            ],
+            [
+              27.0,
+              37.0
             ],
             [
               27.0,

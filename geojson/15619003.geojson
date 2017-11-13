@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Sakarya-Ebene",
   "id": "15619003",
-  "description": "A place from the TAVO Index",
   "bbox": [
     31.0,
     39.0,
     31.5,
     39.5
   ],
-  "reprPoint": [
-    31.25,
-    39.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Sakarya-Ebene",
     "Yukarı Sakarya Ovaları",
     "Yukası Sakarya Ovaları"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               39.0
             ],
             [
-              31.0,
-              39.5
-            ],
-            [
-              31.5,
-              39.5
-            ],
-            [
               31.5,
               39.0
+            ],
+            [
+              31.5,
+              39.5
+            ],
+            [
+              31.0,
+              39.5
             ],
             [
               31.0,

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Baetis/Certis (river)",
   "id": "256010",
-  "description": "The Guadalquivir river is the fifth longest of the Iberian peninsula. ",
   "bbox": [
     -2.910335,
     37.969207,
     -2.910335,
     37.969207
   ],
+  "description": "The Guadalquivir river is the fifth longest of the Iberian peninsula. ",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -2.910335,
-    37.969207
   ],
   "names": [
     "Baetis",
@@ -22,6 +18,19 @@
     "Perkes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.910335,
+          37.969207
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               37.0
             ],
             [
-              -6.0,
-              38.0
-            ],
-            [
-              -5.0,
-              38.0
-            ],
-            [
               -5.0,
               37.0
+            ],
+            [
+              -5.0,
+              38.0
+            ],
+            [
+              -6.0,
+              38.0
             ],
             [
               -6.0,

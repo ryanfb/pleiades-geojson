@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Abaskos? (river)",
   "id": "857007",
-  "description": "An ancient place, cited: BAtlas 87 F1 Abaskos? fl.",
   "bbox": [
     40.0854074105,
     43.374597399,
     40.0854074105,
     43.374597399
   ],
-  "reprPoint": [
-    40.0854074105,
-    43.374597399
-  ],
+  "description": "An ancient place, cited: BAtlas 87 F1 Abaskos? fl.",
   "names": [
     "Abaskos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0854074105,
+          43.374597399
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              40.0,
-              44.0
-            ],
-            [
-              41.0,
-              44.0
-            ],
-            [
               41.0,
               43.0
+            ],
+            [
+              41.0,
+              44.0
+            ],
+            [
+              40.0,
+              44.0
             ],
             [
               40.0,

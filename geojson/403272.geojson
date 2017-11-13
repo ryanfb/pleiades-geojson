@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "S. Liberata",
   "id": "403272",
-  "description": "An ancient place, cited: BAtlas 41 E5 S. Liberata",
   "bbox": [
     11.149615,
     42.436517,
     11.149615,
     42.436517
   ],
+  "description": "An ancient place, cited: BAtlas 41 E5 S. Liberata",
   "connectsWith": [
     "403179"
   ],
-  "reprPoint": [
-    11.149615,
-    42.436517
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.149615,
+          42.436517
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

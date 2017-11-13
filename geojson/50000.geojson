@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Hippuri Pr.",
   "id": "50000",
-  "description": "An ancient place, cited: BAtlas 5 inset Hippuri Pr.",
   "bbox": [
     75.0,
     5.0,
     85.0,
     15.0
   ],
+  "description": "An ancient place, cited: BAtlas 5 inset Hippuri Pr.",
   "connectsWith": [
     "50298"
-  ],
-  "reprPoint": [
-    80.0,
-    10.0
   ],
   "names": [
     "Hippuri Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0,
+          10.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               5.0
             ],
             [
-              75.0,
-              15.0
-            ],
-            [
-              85.0,
-              15.0
-            ],
-            [
               85.0,
               5.0
+            ],
+            [
+              85.0,
+              15.0
+            ],
+            [
+              75.0,
+              15.0
             ],
             [
               75.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oseriates",
   "id": "197422",
-  "description": "Oseriates, a civitas of Roman Pannonia.",
   "bbox": [
     16.0,
     45.0,
     17.0,
     46.0
   ],
-  "reprPoint": [
-    16.5,
-    45.5
-  ],
+  "description": "Oseriates, a civitas of Roman Pannonia.",
   "names": [
     "Oseriates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              16.0,
-              46.0
-            ],
-            [
-              17.0,
-              46.0
-            ],
-            [
               17.0,
               45.0
+            ],
+            [
+              17.0,
+              46.0
+            ],
+            [
+              16.0,
+              46.0
             ],
             [
               16.0,

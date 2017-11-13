@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Brigantinus L.",
   "id": "187324",
-  "description": "Lake Constance is a a lake on the Rhine consisting of three bodies of water: the Obersee, the Untersee, and the Seerhein.",
   "bbox": [
     9.0,
     47.0,
     10.0,
     48.0
   ],
-  "reprPoint": [
-    9.5,
-    47.5
-  ],
+  "description": "Lake Constance is a a lake on the Rhine consisting of three bodies of water: the Obersee, the Untersee, and the Seerhein.",
   "names": [
     "Brigantinus L.",
     "Vennonetus L.",
     "Venetus L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               47.0
             ],
             [
-              9.0,
-              48.0
-            ],
-            [
-              10.0,
-              48.0
-            ],
-            [
               10.0,
               47.0
+            ],
+            [
+              10.0,
+              48.0
+            ],
+            [
+              9.0,
+              48.0
             ],
             [
               9.0,

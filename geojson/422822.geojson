@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aequi",
   "id": "422822",
-  "description": "The Aequi were an ancient Italic tribe of northeast Latium in the first millennium BC.",
   "bbox": [
     13.067291,
     41.872322,
     13.262649,
     42.170865
   ],
+  "description": "The Aequi were an ancient Italic tribe of northeast Latium in the first millennium BC.",
   "connectsWith": [
     "432900"
-  ],
-  "reprPoint": [
-    13.16497,
-    42.0215935
   ],
   "names": [
     "Aequi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.16497,
+          42.0215935
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               42.0
             ],
             [
-              12.75,
-              42.25
-            ],
-            [
-              13.0,
-              42.25
-            ],
-            [
               13.0,
               42.0
+            ],
+            [
+              13.0,
+              42.25
+            ],
+            [
+              12.75,
+              42.25
             ],
             [
               12.75,

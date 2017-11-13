@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Samtavro",
   "id": "863882",
-  "description": "An ancient place, cited: BAtlas 88 C3 Samtavro",
   "bbox": [
     44.718119,
     41.846178,
     44.718119,
     41.846178
   ],
-  "reprPoint": [
-    44.718119,
-    41.846178
-  ],
+  "description": "An ancient place, cited: BAtlas 88 C3 Samtavro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.718119,
+          41.846178
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

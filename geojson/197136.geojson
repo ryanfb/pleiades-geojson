@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ardiaei",
   "id": "197136",
-  "description": "The Ardiaei were an ancient tribe of Illyria.",
   "bbox": [
     17.0,
     43.0,
     18.0,
     44.0
   ],
-  "reprPoint": [
-    17.5,
-    43.5
-  ],
+  "description": "The Ardiaei were an ancient tribe of Illyria.",
   "names": [
     "Ardiaei",
     "Vardaei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               43.0
             ],
             [
-              17.0,
-              44.0
-            ],
-            [
-              18.0,
-              44.0
-            ],
-            [
               18.0,
               43.0
+            ],
+            [
+              18.0,
+              44.0
+            ],
+            [
+              17.0,
+              44.0
             ],
             [
               17.0,

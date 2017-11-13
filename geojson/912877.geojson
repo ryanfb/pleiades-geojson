@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Karkheh/Eulaeus?/Ula(ya)? (river)",
   "id": "912877",
-  "description": "An ancient place, cited: BAtlas 93 E2 Karkheh/Eulaeus?/Ula(ya)? fl.",
   "bbox": [
     48.0,
     31.0,
     49.0,
     32.0
   ],
-  "reprPoint": [
-    48.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 93 E2 Karkheh/Eulaeus?/Ula(ya)? fl.",
   "names": [
     "Eulaeus",
     "Ulaya",
     "Ula"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               31.0
             ],
             [
-              48.0,
-              32.0
-            ],
-            [
-              49.0,
-              32.0
-            ],
-            [
               49.0,
               31.0
+            ],
+            [
+              49.0,
+              32.0
+            ],
+            [
+              48.0,
+              32.0
             ],
             [
               48.0,

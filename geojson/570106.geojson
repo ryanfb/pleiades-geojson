@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Argos",
   "id": "570106",
-  "description": "Argos was a city of ancient Greece that reached its cultural highpoint under Pheidon in the seventh century BC.",
   "bbox": [
     22.719464,
     37.631561,
     22.719464,
     37.631561
   ],
+  "description": "Argos was a city of ancient Greece that reached its cultural highpoint under Pheidon in the seventh century BC.",
   "connectsWith": [
     "570104"
-  ],
-  "reprPoint": [
-    22.719464,
-    37.631561
   ],
   "names": [
     "Argos",
@@ -22,6 +18,19 @@
     "Árgos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.719464,
+          37.631561
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

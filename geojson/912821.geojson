@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "[Basra]",
   "id": "912821",
-  "description": "An Arabian city of lower Mesopotamia, located some 420 km south-east of Baghdad.",
   "bbox": [
     47.820635,
     30.503217,
     47.820635,
     30.503217
   ],
-  "reprPoint": [
-    47.820635,
-    30.503217
-  ],
+  "description": "An Arabian city of lower Mesopotamia, located some 420 km south-east of Baghdad.",
   "names": [
     "Basra",
     "Bassorah",
@@ -24,6 +20,19 @@
     "Basra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.820635,
+          30.503217
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

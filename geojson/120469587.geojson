@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Munzur Dağları",
   "id": "120469587",
-  "description": "A place from the TAVO Index",
   "bbox": [
     38.0,
     38.0,
     38.5,
     38.5
   ],
-  "reprPoint": [
-    38.25,
-    38.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Munzur Dağları",
     "Monzur Dağları"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              38.0,
-              38.5
-            ],
-            [
-              38.5,
-              38.5
-            ],
-            [
               38.5,
               38.0
+            ],
+            [
+              38.5,
+              38.5
+            ],
+            [
+              38.0,
+              38.5
             ],
             [
               38.0,

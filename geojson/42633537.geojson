@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Caer Gai",
   "id": "42633537",
-  "description": "The site of a Roman fort in Wales occupied during the late first and early second centuries A.D.",
   "bbox": [
     -3.67022,
     52.868291,
     -3.667694,
     52.8698087
   ],
-  "reprPoint": [
-    -3.66896609137,
-    52.8690474183
-  ],
+  "description": "The site of a Roman fort in Wales occupied during the late first and early second centuries A.D.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66896609137,
+          52.8690474183
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               52.868291
             ],
             [
-              -3.67022,
-              52.8690013
+              -3.667694,
+              52.8690821
             ],
             [
               -3.6690071,
               52.8698087
             ],
             [
-              -3.667694,
-              52.8690821
+              -3.67022,
+              52.8690013
             ],
             [
               -3.6689609,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Latobici",
   "id": "197344",
-  "description": "An ancient place, cited: BAtlas 20 B4 Latobici",
   "bbox": [
     14.0,
     45.0,
     15.0,
     46.0
   ],
-  "reprPoint": [
-    14.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B4 Latobici",
   "names": [
     "Latobici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              14.0,
-              46.0
-            ],
-            [
-              15.0,
-              46.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              46.0
+            ],
+            [
+              14.0,
+              46.0
             ],
             [
               14.0,

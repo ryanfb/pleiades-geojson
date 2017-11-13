@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "845603",
-  "description": "An ancient place, cited: BAtlas 86 B3 unnamed aqueduct (Prusias ad Hypium)",
   "bbox": [
     31.0,
     40.0,
     32.0,
     41.0
   ],
-  "reprPoint": [
-    31.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 B3 unnamed aqueduct (Prusias ad Hypium)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              31.0,
-              41.0
-            ],
-            [
-              32.0,
-              41.0
-            ],
-            [
               32.0,
               40.0
+            ],
+            [
+              32.0,
+              41.0
+            ],
+            [
+              31.0,
+              41.0
             ],
             [
               31.0,

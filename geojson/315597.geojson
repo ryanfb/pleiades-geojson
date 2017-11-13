@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "315597",
-  "description": "An ancient place, cited: BAtlas 32 D4 unnamed aqueduct (SW Agbia, near Douar el Kseiba)",
   "bbox": [
     9.0,
     36.0,
     9.5,
     36.5
   ],
-  "reprPoint": [
-    9.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 32 D4 unnamed aqueduct (SW Agbia, near Douar el Kseiba)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              9.0,
-              36.5
-            ],
-            [
-              9.5,
-              36.5
-            ],
-            [
               9.5,
               36.0
+            ],
+            [
+              9.5,
+              36.5
+            ],
+            [
+              9.0,
+              36.5
             ],
             [
               9.0,

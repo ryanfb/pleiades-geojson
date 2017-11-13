@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "113270",
-  "description": "Camaracum to SE",
   "bbox": [
     3.234282,
     50.175165,
     3.234282,
     50.175165
   ],
-  "reprPoint": [
-    3.234282,
-    50.175165
-  ],
+  "description": "Camaracum to SE",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.234282,
+          50.175165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              0.0,
-              52.0
-            ],
-            [
-              9.0,
-              52.0
-            ],
-            [
               9.0,
               47.0
+            ],
+            [
+              9.0,
+              52.0
+            ],
+            [
+              0.0,
+              52.0
             ],
             [
               0.0,

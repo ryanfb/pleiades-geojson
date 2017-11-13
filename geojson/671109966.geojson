@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ramat Raḥel",
   "id": "671109966",
-  "description": "An archaeological site identified by Yohanan Aharoni as a possible location of Beit HaKerem.",
   "bbox": [
     35.218992,
     31.739992,
     35.218992,
     31.739992
   ],
-  "reprPoint": [
-    35.218992,
-    31.739992
-  ],
+  "description": "An archaeological site identified by Yohanan Aharoni as a possible location of Beit HaKerem.",
   "names": [
     "Ramat Raḥel",
     "Khirbet es-Sallah"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.218992,
+          31.739992
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

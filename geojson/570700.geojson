@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Sythas (river)",
   "id": "570700",
-  "description": "An ancient river of the northern Peloponnese (modern Trikaliotikos) that was considered to constitute the eastern border of the region of Achaia.",
   "bbox": [
     22.62377,
     38.08036,
     22.62377,
     38.08036
   ],
+  "description": "An ancient river of the northern Peloponnese (modern Trikaliotikos) that was considered to constitute the eastern border of the region of Achaia.",
   "connectsWith": [
     "570028"
-  ],
-  "reprPoint": [
-    22.62377,
-    38.08036
   ],
   "names": [
     "Sythas",
     "Syos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.62377,
+          38.08036
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

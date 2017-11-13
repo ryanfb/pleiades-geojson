@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tower of Seneca",
   "id": "276094797",
-  "description": "The Tower of Seneca is a sixteenth century castle in Corsica built atop the remains of a Roman watchtower.",
   "bbox": [
     9.3726278,
     42.9051111,
     9.3726278,
     42.9051111
   ],
+  "description": "The Tower of Seneca is a sixteenth century castle in Corsica built atop the remains of a Roman watchtower.",
   "connectsWith": [
     "472063"
   ],
-  "reprPoint": [
-    9.3726278,
-    42.9051111
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3726278,
+          42.9051111
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

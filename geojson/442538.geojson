@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cavallino",
   "id": "442538",
-  "description": "Cavallino was an ancient center of the Messapii.",
   "bbox": [
     18.202308,
     40.31217,
     18.202308,
     40.31217
   ],
+  "description": "Cavallino was an ancient center of the Messapii.",
   "connectsWith": [
     "442657"
   ],
-  "reprPoint": [
-    18.202308,
-    40.31217
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.202308,
+          40.31217
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

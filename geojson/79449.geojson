@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "‘Eltabo’ (river)",
   "id": "79449",
-  "description": "An ancient place, cited: BAtlas 8 D4 ‘Eltabo’ fl.",
   "bbox": [
     -4.0,
     50.0,
     -3.0,
     51.0
   ],
-  "reprPoint": [
-    -3.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 D4 ‘Eltabo’ fl.",
   "names": [
     "Eltabo",
     "Tavus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               50.0
             ],
             [
-              -4.0,
-              51.0
-            ],
-            [
-              -3.0,
-              51.0
-            ],
-            [
               -3.0,
               50.0
+            ],
+            [
+              -3.0,
+              51.0
+            ],
+            [
+              -4.0,
+              51.0
             ],
             [
               -4.0,

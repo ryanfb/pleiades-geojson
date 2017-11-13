@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 32 (Carraw)",
   "id": "967060269",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.243099,
     55.03315,
     -2.242734,
     55.033364
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.2429156063,
-    55.0332583421
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2429156063,
+          55.0332583421
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.243099,
-              55.033324,
+              -2.242734,
+              55.033195,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.242734,
-              55.033195,
+              -2.243099,
+              55.033324,
               0.0
             ],
             [

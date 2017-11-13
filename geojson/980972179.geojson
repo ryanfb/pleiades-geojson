@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mont Vully oppidum",
   "id": "980972179",
-  "description": "An Iron Age oppidum covering more than 50 hectares atop the hill known as Mont Vully.",
   "bbox": [
     7.0939421,
     46.9640126,
     7.0939421,
     46.9640126
   ],
-  "reprPoint": [
-    7.0939421,
-    46.9640126
-  ],
+  "description": "An Iron Age oppidum covering more than 50 hectares atop the hill known as Mont Vully.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0939421,
+          46.9640126
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

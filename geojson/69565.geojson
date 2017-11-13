@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "St-Lô",
   "id": "69565",
-  "description": "An ancient place, cited: BAtlas 7 E2 St-Lô",
   "bbox": [
     -1.090132,
     49.115253,
     -1.090132,
     49.115253
   ],
-  "reprPoint": [
-    -1.090132,
-    49.115253
-  ],
+  "description": "An ancient place, cited: BAtlas 7 E2 St-Lô",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.090132,
+          49.115253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

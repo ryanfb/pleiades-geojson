@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kolokythia",
   "id": "589874",
-  "description": "An ancient place, cited: BAtlas 60 E2 Kolokythia",
   "bbox": [
     25.750284,
     35.259521,
     25.750284,
     35.259521
   ],
-  "reprPoint": [
-    25.750284,
-    35.259521
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Kolokythia",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.750284,
+          35.259521
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

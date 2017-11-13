@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Girre",
   "id": "922649",
-  "description": "An ancient place, cited: BAtlas 94 B4 Girre",
   "bbox": [
     51.0,
     29.0,
     52.0,
     30.0
   ],
-  "reprPoint": [
-    51.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 B4 Girre",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               29.0
             ],
             [
-              51.0,
-              30.0
-            ],
-            [
-              52.0,
-              30.0
-            ],
-            [
               52.0,
               29.0
+            ],
+            [
+              52.0,
+              30.0
+            ],
+            [
+              51.0,
+              30.0
             ],
             [
               51.0,

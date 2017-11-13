@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hufrat az-Zawiyah",
   "id": "814686",
-  "description": "An ancient place, cited: BAtlas 83 B4 Hufrat az-Zawiyah",
   "bbox": [
     36.0,
     27.0,
     37.0,
     28.0
   ],
-  "reprPoint": [
-    36.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 83 B4 Hufrat az-Zawiyah",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               27.0
             ],
             [
-              36.0,
-              28.0
-            ],
-            [
-              37.0,
-              28.0
-            ],
-            [
               37.0,
               27.0
+            ],
+            [
+              37.0,
+              28.0
+            ],
+            [
+              36.0,
+              28.0
             ],
             [
               36.0,

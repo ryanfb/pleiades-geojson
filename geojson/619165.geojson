@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Garsauria",
   "id": "619165",
-  "description": "An ancient place, cited: BAtlas 63 D4 Garsauria",
   "bbox": [
     33.5,
     38.0,
     34.0,
     38.5
   ],
-  "reprPoint": [
-    33.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 63 D4 Garsauria",
   "names": [
     "Garsauria",
     "Garsauritis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              33.5,
-              38.5
-            ],
-            [
-              34.0,
-              38.5
-            ],
-            [
               34.0,
               38.0
+            ],
+            [
+              34.0,
+              38.5
+            ],
+            [
+              33.5,
+              38.5
             ],
             [
               33.5,

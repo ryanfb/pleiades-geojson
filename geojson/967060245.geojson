@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 55B (Townhead Croft)",
   "id": "967060245",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.740968,
     54.971377,
     -2.740968,
     54.971377
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.740968,
-    54.971377
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.740968,
+          54.971377
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

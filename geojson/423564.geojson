@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aqua Iulia",
   "id": "423564",
-  "description": "A Roman aqueduct built by Marcus Agrippa in 33 BC and expanded by Augustus between 11 and 4 BC. ",
   "bbox": [
     12.5,
     41.75,
     12.75,
     42.0
   ],
-  "reprPoint": [
-    12.625,
-    41.875
-  ],
+  "description": "A Roman aqueduct built by Marcus Agrippa in 33 BC and expanded by Augustus between 11 and 4 BC. ",
   "names": [
     "Aqua Iulia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.75
             ],
             [
-              12.5,
-              42.0
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
               12.75,
               41.75
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
             ],
             [
               12.5,

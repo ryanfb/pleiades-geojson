@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "221217",
-  "description": "An ancient place, cited: BAtlas 22 B4 unnamed wall (Limes Transalutanus, Flămînda to Albota)",
   "bbox": [
     24.0,
     44.0,
     25.0,
     45.0
   ],
-  "reprPoint": [
-    24.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 B4 unnamed wall (Limes Transalutanus, Flămînda to Albota)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              24.0,
-              45.0
-            ],
-            [
-              25.0,
-              45.0
-            ],
-            [
               25.0,
               44.0
+            ],
+            [
+              25.0,
+              45.0
+            ],
+            [
+              24.0,
+              45.0
             ],
             [
               24.0,

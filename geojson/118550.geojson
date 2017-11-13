@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alamanni",
   "id": "118550",
-  "description": "An ancient Germanic people, whose name in modern works is sometimes also spelled Alemanni or Allemanni.",
   "bbox": [
     8.0,
     48.0,
     9.0,
     49.0
   ],
-  "reprPoint": [
-    8.5,
-    48.5
-  ],
+  "description": "An ancient Germanic people, whose name in modern works is sometimes also spelled Alemanni or Allemanni.",
   "names": [
     "Alamanni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          48.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               48.0
             ],
             [
-              8.0,
-              49.0
-            ],
-            [
-              9.0,
-              49.0
-            ],
-            [
               9.0,
               48.0
+            ],
+            [
+              9.0,
+              49.0
+            ],
+            [
+              8.0,
+              49.0
             ],
             [
               8.0,

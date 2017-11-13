@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Skyros",
   "id": "541108",
-  "description": "An ancient place, cited: BAtlas 55 H3 Skyros",
   "bbox": [
     24.565356,
     38.902984,
     24.565356,
     38.902984
   ],
+  "description": "An ancient place, cited: BAtlas 55 H3 Skyros",
   "connectsWith": [
     "541093"
-  ],
-  "reprPoint": [
-    24.565356,
-    38.902984
   ],
   "names": [
     "Skyros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.565356,
+          38.902984
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Plavis (river)",
   "id": "393475",
-  "description": "A river of northern Italy that flows from the Alps to the Adriatic Sea.",
   "bbox": [
     11.9788244,
     45.8760375,
     11.9788244,
     45.8760375
   ],
+  "description": "A river of northern Italy that flows from the Alps to the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    11.9788244,
-    45.8760375
   ],
   "names": [
     "Plavis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9788244,
+          45.8760375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Schkour",
   "id": "275586",
-  "description": "An ancient place, cited: BAtlas 28 C5 Ain Schkour",
   "bbox": [
     -5.507561,
     34.111025,
     -5.507561,
     34.111025
   ],
-  "reprPoint": [
-    -5.507561,
-    34.111025
-  ],
+  "description": "An ancient place, cited: BAtlas 28 C5 Ain Schkour",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.507561,
+          34.111025
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

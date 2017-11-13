@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Rhenus (river)",
   "id": "393483",
-  "description": "The Reno river in northern Italy",
   "bbox": [
     11.1138724,
     44.286416,
     11.1138724,
     44.286416
   ],
+  "description": "The Reno river in northern Italy",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    11.1138724,
-    44.286416
   ],
   "names": [
     "Rhenus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1138724,
+          44.286416
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

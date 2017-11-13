@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Serra dos Monges",
   "id": "256447",
-  "description": "An ancient place, cited: BAtlas 26 B3 Serra dos Monges",
   "bbox": [
     -8.165593,
     38.539957,
     -8.165593,
     38.539957
   ],
-  "reprPoint": [
-    -8.165593,
-    38.539957
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B3 Serra dos Monges",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.165593,
+          38.539957
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

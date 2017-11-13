@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Platanistes",
   "id": "648740",
-  "description": "An ancient place, cited: BAtlas 66 B4 Platanistes",
   "bbox": [
     32.563421,
     36.023314,
     32.832707,
     36.109886
   ],
+  "description": "An ancient place, cited: BAtlas 66 B4 Platanistes",
   "connectsWith": [
     "648557",
     "648597",
     "648601"
   ],
-  "reprPoint": [
-    32.6899278333,
-    36.0741673333
-  ],
   "names": [
     "Platanistes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6899278333,
+          36.0741673333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               36.0
             ],
             [
-              32.5,
-              36.5
-            ],
-            [
-              33.0,
-              36.5
-            ],
-            [
               33.0,
               36.0
+            ],
+            [
+              33.0,
+              36.5
+            ],
+            [
+              32.5,
+              36.5
             ],
             [
               32.5,

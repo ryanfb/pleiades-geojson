@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Rhodanus (river)",
   "id": "148168",
-  "description": "The river now known as the Rhône is the second longest river in Gaul.",
   "bbox": [
     4.845556,
     43.330833,
     8.376333,
     46.572
   ],
+  "description": "The river now known as the Rhône is the second longest river in Gaul.",
   "connectsWith": [
     "148089"
-  ],
-  "reprPoint": [
-    6.6109445,
-    44.9514165
   ],
   "names": [
     "Rhodanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6109445,
+          44.9514165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

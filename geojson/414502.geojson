@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Ponte dell'Abbadia",
   "id": "414502",
-  "description": "An ancient bridge over the Fiora river (ancient Armenta) near Vulci. Ancient name unknown.",
   "bbox": [
     11.631389,
     42.429722,
     11.631389,
     42.429722
   ],
+  "description": "An ancient bridge over the Fiora river (ancient Armenta) near Vulci. Ancient name unknown.",
   "connectsWith": [
     "413029",
     "413393"
   ],
-  "reprPoint": [
-    11.631389,
-    42.429722
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.631389,
+          42.429722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

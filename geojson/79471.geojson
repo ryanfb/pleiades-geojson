@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Frocester",
   "id": "79471",
-  "description": "Frocester is a Roman villa site south of Gloucester that was occupied until the late fifth century AD.",
   "bbox": [
     -2.311905,
     51.726937,
     -2.311905,
     51.726937
   ],
-  "reprPoint": [
-    -2.311905,
-    51.726937
-  ],
+  "description": "Frocester is a Roman villa site south of Gloucester that was occupied until the late fifth century AD.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.311905,
+          51.726937
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

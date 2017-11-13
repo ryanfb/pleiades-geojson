@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Via Popilia",
   "id": "438878",
-  "description": "An ancient place, cited: BAtlas 44 unlocated Via Popilia",
   "bbox": [
     14.765922,
     40.677988,
     14.765922,
     40.677988
   ],
-  "reprPoint": [
-    14.765922,
-    40.677988
-  ],
+  "description": "An ancient place, cited: BAtlas 44 unlocated Via Popilia",
   "names": [
     "Via Popilia"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.765922,
+          40.677988
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

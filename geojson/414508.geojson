@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "414508",
-  "description": "An ancient place, cited: BAtlas 42 D1-C4 unnamed bridge (on Via Flaminia (20))",
   "bbox": [
     12.569918,
     42.883902,
     12.569918,
     42.883902
   ],
+  "description": "An ancient place, cited: BAtlas 42 D1-C4 unnamed bridge (on Via Flaminia (20))",
   "connectsWith": [
     "856514595"
   ],
-  "reprPoint": [
-    12.569918,
-    42.883902
-  ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.569918,
+          42.883902
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

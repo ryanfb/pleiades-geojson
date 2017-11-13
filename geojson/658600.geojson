@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Singas (river)",
   "id": "658600",
-  "description": "An ancient place, cited: BAtlas 67 G1 Singas fl.",
   "bbox": [
     38.0,
     37.5,
     38.5,
     38.0
   ],
-  "reprPoint": [
-    38.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 67 G1 Singas fl.",
   "names": [
     "Singas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              38.0,
-              38.0
-            ],
-            [
-              38.5,
-              38.0
-            ],
-            [
               38.5,
               37.5
+            ],
+            [
+              38.5,
+              38.0
+            ],
+            [
+              38.0,
+              38.0
             ],
             [
               38.0,

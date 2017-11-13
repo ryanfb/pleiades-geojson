@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pontiae (islands)",
   "id": "433042",
-  "description": "An archipelago in the Tyrrhenian Sea off the west coast of Italy.",
   "bbox": [
     12.858,
     40.8,
     13.433333,
     40.966667
   ],
+  "description": "An archipelago in the Tyrrhenian Sea off the west coast of Italy.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    13.0802217,
-    40.8875798
   ],
   "names": [
     "Pontiae",
     "Pontine Islands"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0802217,
+          40.8875798
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

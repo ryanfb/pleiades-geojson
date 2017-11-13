@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Akrotiri",
   "id": "599478",
-  "description": "Akrotiri is the modern name of an archaeological site located on the island of Thera (modern Santorini) where a Minoan Bronze Age settlement flourished before being destroyed by a volcanic eruption ca. 1627 B.C. The site has been under scientific excavation since 1967.",
   "bbox": [
     25.403744,
     36.351534,
     25.403744,
     36.351534
   ],
+  "description": "Akrotiri is the modern name of an archaeological site located on the island of Thera (modern Santorini) where a Minoan Bronze Age settlement flourished before being destroyed by a volcanic eruption ca. 1627 B.C. The site has been under scientific excavation since 1967.",
   "connectsWith": [
     "599973"
   ],
-  "reprPoint": [
-    25.403744,
-    36.351534
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.403744,
+          36.351534
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

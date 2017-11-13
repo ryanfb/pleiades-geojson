@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cocynthum Pr.",
   "id": "452306",
-  "description": "An ancient place, cited: BAtlas 46 E5 Cocynthum Pr.",
   "bbox": [
     16.5,
     38.0,
     17.0,
     38.5
   ],
-  "reprPoint": [
-    16.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 E5 Cocynthum Pr.",
   "names": [
     "Cocynthum Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              16.5,
-              38.5
-            ],
-            [
-              17.0,
-              38.5
-            ],
-            [
               17.0,
               38.0
+            ],
+            [
+              17.0,
+              38.5
+            ],
+            [
+              16.5,
+              38.5
             ],
             [
               16.5,

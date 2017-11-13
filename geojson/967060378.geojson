@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 10 (Walbottle Dene)",
   "id": "967060378",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.744036,
     54.995204,
     -1.744036,
     54.995204
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.744036,
-    54.995204
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.744036,
+          54.995204
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

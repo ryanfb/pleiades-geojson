@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Morini",
   "id": "109177",
-  "description": "An ancient place, cited: BAtlas 11 B2 Morini",
   "bbox": [
     1.0,
     50.0,
     2.0,
     51.0
   ],
-  "reprPoint": [
-    1.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 B2 Morini",
   "names": [
     "Morini"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              1.0,
-              51.0
-            ],
-            [
-              2.0,
-              51.0
-            ],
-            [
               2.0,
               50.0
+            ],
+            [
+              2.0,
+              51.0
+            ],
+            [
+              1.0,
+              51.0
             ],
             [
               1.0,

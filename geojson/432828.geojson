@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Falernus Ager",
   "id": "432828",
-  "description": "The Ager Falernus comprised the northern portion of Campania from the Massican hills to the Vulturnus river. The area was celebrated for its fertility and, in particular, for its wines.",
   "bbox": [
     13.923,
     41.171,
     13.966869,
     41.17202
   ],
+  "description": "The Ager Falernus comprised the northern portion of Campania from the Massican hills to the Vulturnus river. The area was celebrated for its fertility and, in particular, for its wines.",
   "connectsWith": [
     "432742",
     "432931"
-  ],
-  "reprPoint": [
-    13.9449345,
-    41.17151
   ],
   "names": [
     "Falernus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9449345,
+          41.17151
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

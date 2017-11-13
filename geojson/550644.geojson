@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Killaion M.",
   "id": "550644",
-  "description": "An ancient place, cited: BAtlas 56 D4 Killaion M.",
   "bbox": [
     26.1342123,
     39.2074811,
     26.1342123,
     39.2074811
   ],
+  "description": "An ancient place, cited: BAtlas 56 D4 Killaion M.",
   "connectsWith": [
     "550696"
-  ],
-  "reprPoint": [
-    26.1342123,
-    39.2074811
   ],
   "names": [
     "Killaion M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1342123,
+          39.2074811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.5
             ],
             [
-              26.5,
-              39.0
-            ],
-            [
-              27.0,
-              39.0
-            ],
-            [
               27.0,
               38.5
+            ],
+            [
+              27.0,
+              39.0
+            ],
+            [
+              26.5,
+              39.0
             ],
             [
               26.5,

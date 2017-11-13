@@ -2,28 +2,37 @@
   "type": "FeatureCollection",
   "title": "Padus/Eridanus (river)",
   "id": "393469",
-  "description": "The Po river of northern Italy flows from the Cottian Alps (Alpes Cottiae) to the Adriatic Sea. It is the longest of Italy's rivers.",
   "bbox": [
     6.833184,
     42.7752864,
     15.885196,
     45.8592703
   ],
+  "description": "The Po river of northern Italy flows from the Cottian Alps (Alpes Cottiae) to the Adriatic Sea. It is the longest of Italy's rivers.",
   "connectsWith": [
     "167636",
     "1004",
     "393494",
     "167966"
   ],
-  "reprPoint": [
-    9.63231009123,
-    44.9401803132
-  ],
   "names": [
     "Padus",
     "Eridanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.63231009123,
+          44.9401803132
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -34,16 +43,16 @@
               45.0
             ],
             [
-              11.0,
-              45.5
-            ],
-            [
-              11.5,
-              45.5
-            ],
-            [
               11.5,
               45.0
+            ],
+            [
+              11.5,
+              45.5
+            ],
+            [
+              11.0,
+              45.5
             ],
             [
               11.0,

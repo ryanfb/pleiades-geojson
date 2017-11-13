@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Lidar",
   "id": "658520",
-  "description": "An ancient place, cited: BAtlas 67 H1 Lidar",
   "bbox": [
     38.600333,
     37.562283,
     38.600333,
     37.562283
   ],
-  "reprPoint": [
-    38.600333,
-    37.562283
-  ],
+  "description": "An ancient place, cited: BAtlas 67 H1 Lidar",
   "names": [
     "Ḫaḫḫum",
     "Lidar Höyüğü",
@@ -20,6 +16,19 @@
     "Lidar Hüyük"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.600333,
+          37.562283
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

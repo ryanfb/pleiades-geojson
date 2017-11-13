@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Palazzo a Mare",
   "id": "433006",
-  "description": "The site of one of the twelve villas of Tiberius, and perhaps the largest, on the island of Capreae.",
   "bbox": [
     14.23371,
     40.557568,
     14.234892,
     40.5584
   ],
+  "description": "The site of one of the twelve villas of Tiberius, and perhaps the largest, on the island of Capreae.",
   "connectsWith": [
     "432752"
   ],
-  "reprPoint": [
-    14.234301,
-    40.557984
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.234301,
+          40.557984
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

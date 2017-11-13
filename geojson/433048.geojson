@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Positano",
   "id": "433048",
-  "description": "An ancient place, cited: BAtlas 44 F4 Positano",
   "bbox": [
     14.486272,
     40.629869,
     14.486272,
     40.629869
   ],
-  "reprPoint": [
-    14.486272,
-    40.629869
-  ],
+  "description": "An ancient place, cited: BAtlas 44 F4 Positano",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.486272,
+          40.629869
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Osroene",
   "id": "1001935",
-  "description": "An ancient place, cited: BAtlas 102 G4 no. 49 (Osroene)",
   "bbox": [
     35.0,
     35.0,
     40.0,
     40.0
   ],
-  "reprPoint": [
-    37.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 102 G4 no. 49 (Osroene)",
   "names": [
     "Osroene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              35.0,
-              40.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
               40.0,
               35.0
+            ],
+            [
+              40.0,
+              40.0
+            ],
+            [
+              35.0,
+              40.0
             ],
             [
               35.0,

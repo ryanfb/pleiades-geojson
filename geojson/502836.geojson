@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "502836",
-  "description": "An ancient place, cited: BAtlas 51 C2 unnamed bridge group (SW Ad Duodecimum, near Symvoli)",
   "bbox": [
     24.037255,
     41.01855,
     24.037255,
     41.01855
   ],
-  "reprPoint": [
-    24.037255,
-    41.01855
-  ],
+  "description": "An ancient place, cited: BAtlas 51 C2 unnamed bridge group (SW Ad Duodecimum, near Symvoli)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.037255,
+          41.01855
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              24.0,
-              41.5
-            ],
-            [
-              24.5,
-              41.5
-            ],
-            [
               24.5,
               41.0
+            ],
+            [
+              24.5,
+              41.5
+            ],
+            [
+              24.0,
+              41.5
             ],
             [
               24.0,

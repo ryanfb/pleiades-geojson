@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bergalei",
   "id": "187314",
-  "description": "An ancient place, cited: BAtlas 19 B3 Bergalei",
   "bbox": [
     9.0,
     46.0,
     10.0,
     47.0
   ],
-  "reprPoint": [
-    9.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 B3 Bergalei",
   "names": [
     "Bergalei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              9.0,
-              47.0
-            ],
-            [
-              10.0,
-              47.0
-            ],
-            [
               10.0,
               46.0
+            ],
+            [
+              10.0,
+              47.0
+            ],
+            [
+              9.0,
+              47.0
             ],
             [
               9.0,

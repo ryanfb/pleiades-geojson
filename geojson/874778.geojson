@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tili",
   "id": "874778",
-  "description": "An ancient place, cited: BAtlas 89 D3 Tili",
   "bbox": [
     41.7786195,
     37.7301516,
     41.7786195,
     37.7301516
   ],
+  "description": "An ancient place, cited: BAtlas 89 D3 Tili",
   "connectsWith": [
     "874545"
   ],
-  "reprPoint": [
-    41.7786195,
-    37.7301516
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.7786195,
+          37.7301516
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

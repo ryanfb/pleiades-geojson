@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pont del Diable (aqueduct)",
   "id": "246893",
-  "description": "A Roman aqueduct built to supply the city of Tarraco.",
   "bbox": [
     1.2438,
     41.146,
     1.2438,
     41.146
   ],
+  "description": "A Roman aqueduct built to supply the city of Tarraco.",
   "connectsWith": [
     "246349"
   ],
-  "reprPoint": [
-    1.2438,
-    41.146
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2438,
+          41.146
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

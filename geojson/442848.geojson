@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Veretum/Baris",
   "id": "442848",
-  "description": "Veretum/Baris was a town of Calabria, in the territory of the Sallentines.",
   "bbox": [
     18.0,
     40.0,
     18.5,
     40.5
   ],
+  "description": "Veretum/Baris was a town of Calabria, in the territory of the Sallentines.",
   "connectsWith": [
     "442762"
-  ],
-  "reprPoint": [
-    18.25,
-    40.25
   ],
   "names": [
     "Veretum",
@@ -23,6 +19,20 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

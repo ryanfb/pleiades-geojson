@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Taposiris Megale",
   "id": "727241",
-  "description": "A Ptolemaic city and temple built by Ptolemy II between 280 and 270 BC.",
   "bbox": [
     29.518872,
     30.946035,
     29.5234429,
     30.9479952
   ],
-  "reprPoint": [
-    29.5205569667,
-    30.9467494
-  ],
+  "description": "A Ptolemaic city and temple built by Ptolemy II between 280 and 270 BC.",
   "names": [
     "Taposiris Megale"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5205569667,
+          30.9467494
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oratae",
   "id": "59955",
-  "description": "An ancient place, cited: BAtlas 6 C4 Oratae",
   "bbox": [
     70.0,
     25.0,
     75.0,
     30.0
   ],
-  "reprPoint": [
-    72.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C4 Oratae",
   "names": [
     "Oratae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              70.0,
-              30.0
-            ],
-            [
-              75.0,
-              30.0
-            ],
-            [
               75.0,
               25.0
+            ],
+            [
+              75.0,
+              30.0
+            ],
+            [
+              70.0,
+              30.0
             ],
             [
               70.0,

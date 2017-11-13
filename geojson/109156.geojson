@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Menapii",
   "id": "109156",
-  "description": "A Belgic tribe of northern Gaul.",
   "bbox": [
     3.0,
     50.0,
     4.0,
     51.0
   ],
-  "reprPoint": [
-    3.5,
-    50.5
-  ],
+  "description": "A Belgic tribe of northern Gaul.",
   "names": [
     "Menapii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              3.0,
-              51.0
-            ],
-            [
-              4.0,
-              51.0
-            ],
-            [
               4.0,
               50.0
+            ],
+            [
+              4.0,
+              51.0
+            ],
+            [
+              3.0,
+              51.0
             ],
             [
               3.0,

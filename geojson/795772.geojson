@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abri",
   "id": "795772",
-  "description": "An ancient place, cited: BAtlas 81 A5 Abri",
   "bbox": [
     30.333333,
     20.8,
     30.333333,
     20.8
   ],
-  "reprPoint": [
-    30.333333,
-    20.8
-  ],
+  "description": "An ancient place, cited: BAtlas 81 A5 Abri",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.333333,
+          20.8
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

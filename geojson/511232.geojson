@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Delkos/Derkos/Phileatine",
   "id": "511232",
-  "description": "A lake located to the north of Byzantium, now called Derkoz Gölü (Turkey). ",
   "bbox": [
     28.5925,
     41.3475,
     28.5925,
     41.3475
   ],
-  "reprPoint": [
-    28.5925,
-    41.3475
-  ],
+  "description": "A lake located to the north of Byzantium, now called Derkoz Gölü (Turkey). ",
   "names": [
     "Delkos",
     "Phileatine L.",
     "Derkos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5925,
+          41.3475
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

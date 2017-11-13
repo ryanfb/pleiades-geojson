@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pitanos (river)",
   "id": "472114",
-  "description": "An ancient place, cited: BAtlas 48 D3 Pitanos fl.",
   "bbox": [
     9.0,
     41.0,
     10.0,
     42.0
   ],
-  "reprPoint": [
-    9.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 D3 Pitanos fl.",
   "names": [
     "Pitanos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              9.0,
-              42.0
-            ],
-            [
-              10.0,
-              42.0
-            ],
-            [
               10.0,
               41.0
+            ],
+            [
+              10.0,
+              42.0
+            ],
+            [
+              9.0,
+              42.0
             ],
             [
               9.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "610797",
-  "description": "An ancient place, cited: BAtlas 62 A4 unnamed bridge (over Hermos fl., N *Dima, *Kerbia)",
   "bbox": [
     28.5,
     38.5,
     29.0,
     39.0
   ],
-  "reprPoint": [
-    28.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 A4 unnamed bridge (over Hermos fl., N *Dima, *Kerbia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.5
             ],
             [
-              28.5,
-              39.0
-            ],
-            [
-              29.0,
-              39.0
-            ],
-            [
               29.0,
               38.5
+            ],
+            [
+              29.0,
+              39.0
+            ],
+            [
+              28.5,
+              39.0
             ],
             [
               28.5,

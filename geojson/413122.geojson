@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Etruria/Tuscia",
   "id": "413122",
-  "description": "Etruria/Tuscia was an ancient region of Central Italy inhabited by the Etruscans.",
   "bbox": [
     10.859019,
     42.0023935,
     12.390519,
     43.401777
   ],
-  "reprPoint": [
-    11.7527441248,
-    42.4210287479
-  ],
+  "description": "Etruria/Tuscia was an ancient region of Central Italy inhabited by the Etruscans.",
   "names": [
     "Etruria",
     "Tuscia",
     "Rasna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7527441248,
+          42.4210287479
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               43.5
             ],
             [
-              11.5,
-              44.0
-            ],
-            [
-              12.0,
-              44.0
-            ],
-            [
               12.0,
               43.5
+            ],
+            [
+              12.0,
+              44.0
+            ],
+            [
+              11.5,
+              44.0
             ],
             [
               11.5,

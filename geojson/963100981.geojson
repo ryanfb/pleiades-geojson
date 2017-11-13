@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed villa",
   "id": "963100981",
-  "description": "An unnamed villa from the Boreum region",
   "bbox": [
     19.723926,
     30.433596,
     19.723926,
     30.433596
   ],
-  "reprPoint": [
-    19.723926,
-    30.433596
-  ],
+  "description": "An unnamed villa from the Boreum region",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.723926,
+          30.433596
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Germa Necropoleis",
   "id": "354123",
-  "description": "Necropolis south of Garama Metropolis",
   "bbox": [
     12.949973,
     26.55852,
     12.949973,
     26.55852
   ],
-  "reprPoint": [
-    12.949973,
-    26.55852
-  ],
+  "description": "Necropolis south of Garama Metropolis",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.949973,
+          26.55852
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

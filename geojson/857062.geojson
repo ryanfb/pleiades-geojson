@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Beris (river)",
   "id": "857062",
-  "description": "An ancient place, cited: BAtlas 87 B3 Beris fl.",
   "bbox": [
     37.11667,
     41.15,
     37.11667,
     41.15
   ],
-  "reprPoint": [
-    37.11667,
-    41.15
-  ],
+  "description": "An ancient place, cited: BAtlas 87 B3 Beris fl.",
   "names": [
     "Beris",
     "Miliçsuyu"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.11667,
+          41.15
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              36.0,
-              42.0
-            ],
-            [
-              37.0,
-              42.0
-            ],
-            [
               37.0,
               41.0
+            ],
+            [
+              37.0,
+              42.0
+            ],
+            [
+              36.0,
+              42.0
             ],
             [
               36.0,

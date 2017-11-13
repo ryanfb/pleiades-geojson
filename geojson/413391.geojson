@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Volusii",
   "id": "413391",
-  "description": "A villa associated with the Volusii Saturnini built ca. 50 BC.",
   "bbox": [
     12.600633,
     42.133219,
     12.600633,
     42.133219
   ],
+  "description": "A villa associated with the Volusii Saturnini built ca. 50 B.C.",
   "connectsWith": [
     "413184"
-  ],
-  "reprPoint": [
-    12.600633,
-    42.133219
   ],
   "names": [
     "Volusii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.600633,
+          42.133219
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

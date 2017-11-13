@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Mortuum Mare/Asphaltitis L.",
   "id": "697709",
-  "description": "The modern \"Dead Sea\", which is bordered by Israel, Jordan, and the West Bank.",
   "bbox": [
     35.3,
     30.9,
     35.68,
     31.85
   ],
-  "reprPoint": [
-    35.5239431131,
-    31.5778503495
-  ],
+  "description": "The modern \"Dead Sea\", which is bordered by Israel, Jordan, and the West Bank.",
   "names": [
     "Dead Sea",
     "Salt Sea",
@@ -21,6 +17,19 @@
     "Asphaltitis L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5239431131,
+          31.5778503495
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               30.9
             ],
             [
-              35.3,
-              31.85
+              35.58,
+              30.9
             ],
             [
               35.68,
               31.85
             ],
             [
-              35.58,
-              30.9
+              35.3,
+              31.85
             ],
             [
               35.3,

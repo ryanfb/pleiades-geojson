@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "220482",
-  "description": "Novae → Nicopolis ad Istrum → Kabyle → S",
   "bbox": [
     23.0,
     41.0,
     30.0,
     48.0
   ],
-  "reprPoint": [
-    26.5,
-    44.5
-  ],
+  "description": "Novae → Nicopolis ad Istrum → Kabyle → S",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              23.0,
-              48.0
-            ],
-            [
-              30.0,
-              48.0
-            ],
-            [
               30.0,
               41.0
+            ],
+            [
+              30.0,
+              48.0
+            ],
+            [
+              23.0,
+              48.0
             ],
             [
               23.0,

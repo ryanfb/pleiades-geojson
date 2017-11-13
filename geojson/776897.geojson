@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "776897",
-  "description": "An ancient place, cited: BAtlas 79 D2 unnamed quarry (S Gebel Teir)",
   "bbox": [
     30.5,
     25.5,
     31.0,
     26.0
   ],
-  "reprPoint": [
-    30.75,
-    25.75
-  ],
+  "description": "An ancient place, cited: BAtlas 79 D2 unnamed quarry (S Gebel Teir)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          25.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               25.5
             ],
             [
-              30.5,
-              26.0
-            ],
-            [
-              31.0,
-              26.0
-            ],
-            [
               31.0,
               25.5
+            ],
+            [
+              31.0,
+              26.0
+            ],
+            [
+              30.5,
+              26.0
             ],
             [
               30.5,

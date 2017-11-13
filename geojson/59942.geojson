@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Nagara/Dionysopolis",
   "id": "59942",
-  "description": "Ptolemy records the city of Nagara, also known as Dionysopolis. Cohen posits that Nagar is likely located near Jalalabad, perhaps at modern Nagarahara.",
   "bbox": [
     70.0,
     30.0,
     75.0,
     35.0
   ],
-  "reprPoint": [
-    72.5,
-    32.5
-  ],
+  "description": "Ptolemy records the city of Nagara, also known as Dionysopolis. Cohen posits that Nagar is likely located near Jalalabad, perhaps at modern Nagarahara.",
   "names": [
     "Nagara",
     "Dionysopolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               30.0
             ],
             [
-              70.0,
-              35.0
-            ],
-            [
-              75.0,
-              35.0
-            ],
-            [
               75.0,
               30.0
+            ],
+            [
+              75.0,
+              35.0
+            ],
+            [
+              70.0,
+              35.0
             ],
             [
               70.0,

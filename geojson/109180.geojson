@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mosa (river)",
   "id": "109180",
-  "description": "The Meuse or Maas river.",
   "bbox": [
     5.981143,
     51.6407459,
     5.981143,
     51.6407459
   ],
-  "reprPoint": [
-    5.981143,
-    51.6407459
-  ],
+  "description": "The Meuse or Maas river.",
   "names": [
     "Mosa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.981143,
+          51.6407459
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Hadra (river)",
   "id": "383668",
-  "description": "The Arda is a right tributary of the Po River in northern Italy.",
   "bbox": [
     9.5,
     44.5,
     10.0,
     45.0
   ],
+  "description": "The Arda is a right tributary of the Po River in northern Italy.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    9.75,
-    44.75
   ],
   "names": [
     "Hadra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               44.5
             ],
             [
-              9.5,
-              45.0
-            ],
-            [
-              10.0,
-              45.0
-            ],
-            [
               10.0,
               44.5
+            ],
+            [
+              10.0,
+              45.0
+            ],
+            [
+              9.5,
+              45.0
             ],
             [
               9.5,

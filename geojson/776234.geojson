@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Toparchia Kyseos",
   "id": "776234",
-  "description": "An ancient place, cited: BAtlas 79 C4 Toparchia Kyseos",
   "bbox": [
     30.0,
     24.5,
     30.5,
     25.0
   ],
-  "reprPoint": [
-    30.25,
-    24.75
-  ],
+  "description": "An ancient place, cited: BAtlas 79 C4 Toparchia Kyseos",
   "names": [
     "Toparchia Kyseos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          24.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               24.5
             ],
             [
-              30.0,
-              25.0
-            ],
-            [
-              30.5,
-              25.0
-            ],
-            [
               30.5,
               24.5
+            ],
+            [
+              30.5,
+              25.0
+            ],
+            [
+              30.0,
+              25.0
             ],
             [
               30.0,

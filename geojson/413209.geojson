@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte S. Angelo",
   "id": "413209",
-  "description": "An ancient place, cited: BAtlas 42 C4 Monte S. Angelo",
   "bbox": [
     12.33109,
     42.116048,
     12.33109,
     42.116048
   ],
-  "reprPoint": [
-    12.33109,
-    42.116048
-  ],
+  "description": "An ancient place, cited: BAtlas 42 C4 Monte S. Angelo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.33109,
+          42.116048
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

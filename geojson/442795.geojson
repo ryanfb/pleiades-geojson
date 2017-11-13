@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Silarus (river)",
   "id": "442795",
-  "description": "The Sele river.",
   "bbox": [
     15.0311303,
     40.5365504,
     15.0311303,
     40.5365504
   ],
+  "description": "The Sele river.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    15.0311303,
-    40.5365504
   ],
   "names": [
     "Silarus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0311303,
+          40.5365504
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

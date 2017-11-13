@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Iouernikos Okeanos",
   "id": "20493",
-  "description": "The Irish Sea separates the islands of Ireland and Great Britain.",
   "bbox": [
     -5.0000001,
     53.6666671,
     -5.0000001,
     53.6666671
   ],
+  "description": "The Irish Sea separates the islands of Ireland and Great Britain.",
   "connectsWith": [
     "845",
     "79632"
-  ],
-  "reprPoint": [
-    -5.0000001,
-    53.6666671
   ],
   "names": [
     "Iouernikos Okeanos",
@@ -23,6 +19,19 @@
     "Irish Sea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0000001,
+          53.6666671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

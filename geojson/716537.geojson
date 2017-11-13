@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bilad er-Rum",
   "id": "716537",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.393799,
     29.322537,
     25.393799,
     29.322537
   ],
-  "reprPoint": [
-    25.393799,
-    29.322537
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.393799,
+          29.322537
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

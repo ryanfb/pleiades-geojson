@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "197824",
-  "description": "An ancient place, cited: BAtlas 20 C5 unnamed aqueduct (Iader)",
   "bbox": [
     15.0,
     44.0,
     16.0,
     45.0
   ],
-  "reprPoint": [
-    15.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C5 unnamed aqueduct (Iader)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              15.0,
-              45.0
-            ],
-            [
-              16.0,
-              45.0
-            ],
-            [
               16.0,
               44.0
+            ],
+            [
+              16.0,
+              45.0
+            ],
+            [
+              15.0,
+              45.0
             ],
             [
               15.0,

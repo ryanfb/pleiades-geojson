@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caecubus Ager",
   "id": "432729",
-  "description": "A tract of Latium that bordered the Gulf of Amyclae, lying in the territory of Fundi.",
   "bbox": [
     13.0,
     41.0,
     13.5,
     41.5
   ],
-  "reprPoint": [
-    13.25,
-    41.25
-  ],
+  "description": "A tract of Latium that bordered the Gulf of Amyclae, lying in the territory of Fundi.",
   "names": [
     "Caecubus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              13.0,
-              41.5
-            ],
-            [
-              13.5,
-              41.5
-            ],
-            [
               13.5,
               41.0
+            ],
+            [
+              13.5,
+              41.5
+            ],
+            [
+              13.0,
+              41.5
             ],
             [
               13.0,

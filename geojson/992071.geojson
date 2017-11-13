@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Britanniae",
   "id": "992071",
-  "description": "An ancient place, cited: BAtlas 101 F1 Britanniae",
   "bbox": [
     -5.0,
     50.0,
     0.0,
     55.0
   ],
-  "reprPoint": [
-    -2.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 F1 Britanniae",
   "names": [
     "Britanniae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              -5.0,
-              55.0
-            ],
-            [
-              0.0,
-              55.0
-            ],
-            [
               0.0,
               50.0
+            ],
+            [
+              0.0,
+              55.0
+            ],
+            [
+              -5.0,
+              55.0
             ],
             [
               -5.0,

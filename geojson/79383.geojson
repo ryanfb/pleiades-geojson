@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chedworth",
   "id": "79383",
-  "description": "A large Roman-style villa in Britain, dating from the second to fourth centuries A.D.",
   "bbox": [
     -1.9245,
     51.8201,
     -1.9245,
     51.8201
   ],
-  "reprPoint": [
-    -1.9245,
-    51.8201
-  ],
+  "description": "A large Roman-style villa in Britain, dating from the second to fourth centuries A.D.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9245,
+          51.8201
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

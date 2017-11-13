@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Spring near Murus Anastasii/Makron Teichos ",
   "id": "384808486",
-  "description": "A spring near a fort on the Murus Anastasii/Makron Teichos",
   "bbox": [
     28.328232,
     41.277259,
     28.328232,
     41.277259
   ],
-  "reprPoint": [
-    28.328232,
-    41.277259
-  ],
+  "description": "A spring near a fort on the Murus Anastasii/Makron Teichos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.328232,
+          41.277259
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              28.0,
-              41.5
-            ],
-            [
-              28.5,
-              41.5
-            ],
-            [
               28.5,
               41.0
+            ],
+            [
+              28.5,
+              41.5
+            ],
+            [
+              28.0,
+              41.5
             ],
             [
               28.0,

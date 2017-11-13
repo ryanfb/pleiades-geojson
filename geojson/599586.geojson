@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Delion",
   "id": "599586",
-  "description": "An ancient place, cited: BAtlas 61 A3 Delion",
   "bbox": [
     25.154819,
     37.1034708,
     25.154819,
     37.1034708
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Delion",
   "connectsWith": [
     "599868"
-  ],
-  "reprPoint": [
-    25.154819,
-    37.1034708
   ],
   "names": [
     "Delion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.154819,
+          37.1034708
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.0
             ],
             [
-              25.0,
-              37.5
-            ],
-            [
-              25.5,
-              37.5
-            ],
-            [
               25.5,
               37.0
+            ],
+            [
+              25.5,
+              37.5
+            ],
+            [
+              25.0,
+              37.5
             ],
             [
               25.0,

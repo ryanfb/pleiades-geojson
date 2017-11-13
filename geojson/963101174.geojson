@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mine of Laureion",
   "id": "963101174",
-  "description": "An Athenian lead or silver mine",
   "bbox": [
     24.025332,
     37.705901,
     24.025332,
     37.705901
   ],
-  "reprPoint": [
-    24.025332,
-    37.705901
-  ],
+  "description": "An Athenian lead or silver mine",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.025332,
+          37.705901
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

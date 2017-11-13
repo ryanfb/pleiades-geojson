@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Parco delle Tombe di via Latina",
   "id": "426597",
-  "description": "A cluster of Roman Imperial tombs along the Via Latina excavated in the nineteenth century.",
   "bbox": [
     12.5369963,
     41.8602996,
     12.5369963,
     41.8602996
   ],
+  "description": "A cluster of Roman Imperial tombs along the Via Latina excavated in the nineteenth century.",
   "connectsWith": [
     "93042695",
     "423025"
   ],
-  "reprPoint": [
-    12.5369963,
-    41.8602996
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5369963,
+          41.8602996
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

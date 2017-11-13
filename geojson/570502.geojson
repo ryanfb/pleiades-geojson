@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Neda (river)",
   "id": "570502",
-  "description": "A river of Greece, rising on the slopes of Mt. Lykaion and flowing west to empty into the Gulf of Kyparissia just south of the modern village of Giannitsochori.",
   "bbox": [
     21.6919123,
     37.3853097,
     21.6919123,
     37.3853097
   ],
+  "description": "A river of Greece, rising on the slopes of Mt. Lykaion and flowing west to empty into the Gulf of Kyparissia just south of the modern village of Giannitsochori.",
   "connectsWith": [
     "570185"
-  ],
-  "reprPoint": [
-    21.6919123,
-    37.3853097
   ],
   "names": [
     "Neda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6919123,
+          37.3853097
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

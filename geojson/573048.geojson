@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Achaia (spring)",
   "id": "573048",
-  "description": "An ancient spring said by Pausanias to be near Dorion in Messenia, its precise location is unknown.",
   "bbox": [
     21.880939,
     37.254095,
     21.880939,
     37.254095
   ],
+  "description": "An ancient spring said by Pausanias to be near Dorion in Messenia, its precise location is unknown.",
   "connectsWith": [
     "570202",
     "570480"
   ],
-  "reprPoint": [
-    21.880939,
-    37.254095
-  ],
   "names": [
     "Achaia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.880939,
+          37.254095
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

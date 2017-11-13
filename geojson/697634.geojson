@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arnon (river)",
   "id": "697634",
-  "description": "An ancient place, cited: BAtlas 71 B3 Arnon fl.",
   "bbox": [
     35.5,
     31.0,
     36.0,
     31.5
   ],
-  "reprPoint": [
-    35.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 71 B3 Arnon fl.",
   "names": [
     "Arnon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              35.5,
-              31.5
-            ],
-            [
-              36.0,
-              31.5
-            ],
-            [
               36.0,
               31.0
+            ],
+            [
+              36.0,
+              31.5
+            ],
+            [
+              35.5,
+              31.5
             ],
             [
               35.5,

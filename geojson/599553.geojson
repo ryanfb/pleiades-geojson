@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bathos",
   "id": "599553",
-  "description": "An ancient place, cited: BAtlas 61 E4 Bathos",
   "bbox": [
     27.025915,
     36.975502,
     27.025915,
     36.975502
   ],
-  "reprPoint": [
-    27.025915,
-    36.975502
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E4 Bathos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.025915,
+          36.975502
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

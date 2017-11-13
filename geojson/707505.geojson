@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Drousha",
   "id": "707505",
-  "description": "An ancient place, cited: BAtlas 72 A2 Drousha",
   "bbox": [
     32.276555,
     35.033114,
     32.276555,
     35.033114
   ],
+  "description": "An ancient place, cited: BAtlas 72 A2 Drousha",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.276555,
-    35.033114
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.276555,
+          35.033114
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

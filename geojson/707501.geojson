@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Davlos",
   "id": "707501",
-  "description": "An ancient place, cited: BAtlas 72 D2 Davlos",
   "bbox": [
     33.894478,
     35.420485,
     33.894478,
     35.420485
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Davlos",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.894478,
-    35.420485
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.894478,
+          35.420485
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

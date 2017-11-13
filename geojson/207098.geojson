@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Drekon (river)",
   "id": "207098",
-  "description": "An ancient place, cited: BAtlas 21 E4 Drekon fl.",
   "bbox": [
     22.0,
     45.0,
     23.0,
     46.0
   ],
-  "reprPoint": [
-    22.5,
-    45.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E4 Drekon fl.",
   "names": [
     "Drekon",
     "Dricca",
     "Drica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               45.0
             ],
             [
-              22.0,
-              46.0
-            ],
-            [
-              23.0,
-              46.0
-            ],
-            [
               23.0,
               45.0
+            ],
+            [
+              23.0,
+              46.0
+            ],
+            [
+              22.0,
+              46.0
             ],
             [
               22.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Colarni?",
   "id": "236439",
-  "description": "An ancient place, cited: BAtlas 24 D3 Colarni?",
   "bbox": [
     -8.0,
     41.0,
     -7.0,
     42.0
   ],
-  "reprPoint": [
-    -7.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D3 Colarni?",
   "names": [
     "Colarni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              -8.0,
-              42.0
-            ],
-            [
-              -7.0,
-              42.0
-            ],
-            [
               -7.0,
               41.0
+            ],
+            [
+              -7.0,
+              42.0
+            ],
+            [
+              -8.0,
+              42.0
             ],
             [
               -8.0,

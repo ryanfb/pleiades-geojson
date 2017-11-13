@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alveria",
   "id": "197111",
-  "description": "An ancient place, cited: BAtlas 20 C5 Alveria",
   "bbox": [
     15.823191,
     44.045357,
     15.823191,
     44.045357
   ],
-  "reprPoint": [
-    15.823191,
-    44.045357
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C5 Alveria",
   "names": [
     "Alveria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.823191,
+          44.045357
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

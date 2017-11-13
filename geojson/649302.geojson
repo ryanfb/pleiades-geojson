@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "649302",
-  "description": "An ancient place, cited: BAtlas 66 A4 unnamed aqueduct (Selinous)",
   "bbox": [
     32.0,
     36.0,
     32.5,
     36.5
   ],
-  "reprPoint": [
-    32.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 66 A4 unnamed aqueduct (Selinous)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              32.0,
-              36.5
-            ],
-            [
-              32.5,
-              36.5
-            ],
-            [
               32.5,
               36.0
+            ],
+            [
+              32.5,
+              36.5
+            ],
+            [
+              32.0,
+              36.5
             ],
             [
               32.0,

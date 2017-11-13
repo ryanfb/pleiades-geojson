@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Koila",
   "id": "550655",
-  "description": "An ancient place, cited: BAtlas 56 C4 Koila",
   "bbox": [
     26.089078,
     38.49903,
     26.089078,
     38.49903
   ],
+  "description": "An ancient place, cited: BAtlas 56 C4 Koila",
   "connectsWith": [
     "550497"
   ],
-  "reprPoint": [
-    26.089078,
-    38.49903
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.089078,
+          38.49903
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

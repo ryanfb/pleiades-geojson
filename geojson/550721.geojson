@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marathoussa? (island)",
   "id": "550721",
-  "description": "The modern Yassıca Ada.",
   "bbox": [
     26.5,
     38.0,
     27.0,
     38.5
   ],
-  "reprPoint": [
-    26.75,
-    38.25
-  ],
+  "description": "The modern Yassıca Ada.",
   "names": [
     "Marathoussa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              26.5,
-              38.5
-            ],
-            [
-              27.0,
-              38.5
-            ],
-            [
               27.0,
               38.0
+            ],
+            [
+              27.0,
+              38.5
+            ],
+            [
+              26.5,
+              38.5
             ],
             [
               26.5,

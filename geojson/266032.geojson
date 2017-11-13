@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Scombraria (island)",
   "id": "266032",
-  "description": "An ancient place, cited: BAtlas 27 E4 Scombraria Ins.",
   "bbox": [
     -1.0,
     37.0,
     0.0,
     38.0
   ],
-  "reprPoint": [
-    -0.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 E4 Scombraria Ins.",
   "names": [
     "Scombraria",
     "Hercules"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               37.0
             ],
             [
-              -1.0,
-              38.0
-            ],
-            [
-              0.0,
-              38.0
-            ],
-            [
               0.0,
               37.0
+            ],
+            [
+              0.0,
+              38.0
+            ],
+            [
+              -1.0,
+              38.0
             ],
             [
               -1.0,

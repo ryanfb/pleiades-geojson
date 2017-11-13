@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Helleni",
   "id": "236479",
-  "description": "An ancient place, cited: BAtlas 24 C2 Helleni",
   "bbox": [
     -9.0,
     42.0,
     -8.0,
     43.0
   ],
-  "reprPoint": [
-    -8.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 C2 Helleni",
   "names": [
     "Helleni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              -9.0,
-              43.0
-            ],
-            [
-              -8.0,
-              43.0
-            ],
-            [
               -8.0,
               42.0
+            ],
+            [
+              -8.0,
+              43.0
+            ],
+            [
+              -9.0,
+              43.0
             ],
             [
               -9.0,

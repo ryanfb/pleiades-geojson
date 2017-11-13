@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tria Pigadia",
   "id": "570748",
-  "description": "An ancient place, cited: BAtlas 58 H4 Tria Pigadia",
   "bbox": [
     24.530983,
     36.725851,
     24.530983,
     36.725851
   ],
+  "description": "An ancient place, cited: BAtlas 58 H4 Tria Pigadia",
   "connectsWith": [
     "570475"
   ],
-  "reprPoint": [
-    24.530983,
-    36.725851
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.530983,
+          36.725851
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

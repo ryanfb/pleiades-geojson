@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240092",
-  "description": "Conimbriga → Bracara Augusta",
   "bbox": [
     -8.4950275,
     40.0983012,
     -8.422933,
     41.55174
   ],
-  "reprPoint": [
-    -8.45968953333,
-    40.8249463167
-  ],
+  "description": "Conimbriga → Bracara Augusta",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.45968953333,
+          40.8249463167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              -11.0,
-              44.0
-            ],
-            [
-              -3.0,
-              44.0
-            ],
-            [
               -3.0,
               40.0
+            ],
+            [
+              -3.0,
+              44.0
+            ],
+            [
+              -11.0,
+              44.0
             ],
             [
               -11.0,

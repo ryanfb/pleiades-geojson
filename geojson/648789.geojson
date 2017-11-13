@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Tarsus/Antiochia ad Cydnum",
   "id": "648789",
-  "description": "An important city and river port on the Cydnus river located in Cilicia Pedias.",
   "bbox": [
     34.891918,
     36.911709,
     34.902649,
     36.920059
   ],
+  "description": "An important city and river port on the Cydnus river located in Cilicia Pedias.",
   "connectsWith": [
     "648615",
     "648600"
-  ],
-  "reprPoint": [
-    34.898228,
-    36.914956
   ],
   "names": [
     "Tarsus",
@@ -39,6 +35,19 @@
     "Antiocheia in Persis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.898228,
+          36.914956
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

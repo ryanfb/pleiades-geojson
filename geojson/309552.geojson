@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed tunnel on the aqueduct supplying Saldae",
   "id": "309552",
-  "description": "An aqueduct tunnel, near Saldae, sometimes referred to as the Nonius Datus tunnel.",
   "bbox": [
     5.0,
     36.5,
     5.5,
     37.0
   ],
-  "reprPoint": [
-    5.25,
-    36.75
-  ],
+  "description": "An aqueduct tunnel, near Saldae, sometimes referred to as the Nonius Datus tunnel.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              5.0,
-              37.0
-            ],
-            [
-              5.5,
-              37.0
-            ],
-            [
               5.5,
               36.5
+            ],
+            [
+              5.5,
+              37.0
+            ],
+            [
+              5.0,
+              37.0
             ],
             [
               5.0,

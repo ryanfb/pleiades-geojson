@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Euryelos",
   "id": "462204",
-  "description": "A fortress built by Dionysius the Elder 9 km west of Syracuse.",
   "bbox": [
     15.2043351,
     37.091253,
     15.222988,
     37.0920592
   ],
+  "description": "A fortress built by Dionysius the Elder 9 km west of Syracuse.",
   "connectsWith": [
     "462492",
     "462503"
-  ],
-  "reprPoint": [
-    15.21366155,
-    37.0916561
   ],
   "names": [
     "Euryelos",
     "Euryalus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.21366155,
+          37.0916561
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Villa Torlonia",
   "id": "423133",
-  "description": "A Jewish catacomb discovered in 1919 on the grounds of the Villa Torlonia in Rome.",
   "bbox": [
     12.512,
     41.914,
     12.512,
     41.914
   ],
+  "description": "A Jewish catacomb discovered in 1919 on the grounds of the Villa Torlonia in Rome.",
   "connectsWith": [
     "423025"
   ],
-  "reprPoint": [
-    12.512,
-    41.914
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.512,
+          41.914
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

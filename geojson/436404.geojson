@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "436404",
-  "description": "An ancient place, cited: BAtlas 44 E3 unnamed centuriation (Suessa Aurunca)",
   "bbox": [
     13.5,
     41.0,
     14.0,
     41.5
   ],
-  "reprPoint": [
-    13.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E3 unnamed centuriation (Suessa Aurunca)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

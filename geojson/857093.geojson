@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chrysorrhoas? (river)",
   "id": "857093",
-  "description": "An ancient place, cited: BAtlas 87 G1 Chrysorrhoas? fl.",
   "bbox": [
     41.0,
     43.0,
     42.0,
     44.0
   ],
-  "reprPoint": [
-    41.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 G1 Chrysorrhoas? fl.",
   "names": [
     "Chrysorrhoas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              41.0,
-              44.0
-            ],
-            [
-              42.0,
-              44.0
-            ],
-            [
               42.0,
               43.0
+            ],
+            [
+              42.0,
+              44.0
+            ],
+            [
+              41.0,
+              44.0
             ],
             [
               41.0,

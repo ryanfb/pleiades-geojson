@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Musones",
   "id": "295311",
-  "description": "An ancient place, cited: BAtlas 30 B4 Musones",
   "bbox": [
     1.0,
     36.0,
     1.5,
     36.5
   ],
-  "reprPoint": [
-    1.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 30 B4 Musones",
   "names": [
     "Musones",
     "Mykenoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.0
             ],
             [
-              1.0,
-              36.5
-            ],
-            [
-              1.5,
-              36.5
-            ],
-            [
               1.5,
               36.0
+            ],
+            [
+              1.5,
+              36.5
+            ],
+            [
+              1.0,
+              36.5
             ],
             [
               1.0,

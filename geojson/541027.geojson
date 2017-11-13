@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Perraibia",
   "id": "541027",
-  "description": "An ancient place, cited: BAtlas 55 B1 Perraibia",
   "bbox": [
     21.5,
     39.5,
     22.0,
     40.0
   ],
-  "reprPoint": [
-    21.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 B1 Perraibia",
   "names": [
     "Perraibia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              21.5,
-              40.0
-            ],
-            [
-              22.0,
-              40.0
-            ],
-            [
               22.0,
               39.5
+            ],
+            [
+              22.0,
+              40.0
+            ],
+            [
+              21.5,
+              40.0
             ],
             [
               21.5,

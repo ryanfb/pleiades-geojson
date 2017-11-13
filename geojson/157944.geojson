@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vediantii",
   "id": "157944",
-  "description": "An ancient place, cited: BAtlas 16 D2 Vediantii",
   "bbox": [
     7.0,
     43.5,
     7.5,
     44.0
   ],
-  "reprPoint": [
-    7.25,
-    43.75
-  ],
+  "description": "An ancient place, cited: BAtlas 16 D2 Vediantii",
   "names": [
     "Vediantii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              7.0,
-              44.0
-            ],
-            [
-              7.5,
-              44.0
-            ],
-            [
               7.5,
               43.5
+            ],
+            [
+              7.5,
+              44.0
+            ],
+            [
+              7.0,
+              44.0
             ],
             [
               7.0,

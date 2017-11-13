@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rocca Stefano",
   "id": "462470",
-  "description": "An ancient place, cited: BAtlas 47 D4 Rocca Stefano",
   "bbox": [
     13.681019,
     37.309976,
     13.681019,
     37.309976
   ],
+  "description": "An ancient place, cited: BAtlas 47 D4 Rocca Stefano",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.681019,
-    37.309976
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.681019,
+          37.309976
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

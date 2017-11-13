@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mineral'nyye Vody",
   "id": "825327",
-  "description": "An ancient place, cited: BAtlas 84 I4 Mineral'nyye Vody",
   "bbox": [
     43.0871,
     44.200107,
     43.0871,
     44.200107
   ],
-  "reprPoint": [
-    43.0871,
-    44.200107
-  ],
+  "description": "An ancient place, cited: BAtlas 84 I4 Mineral'nyye Vody",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0871,
+          44.200107
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

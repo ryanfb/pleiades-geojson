@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "180478",
-  "description": "Andematunnum → Vittel",
   "bbox": [
     3.0,
     45.0,
     9.0,
     49.0
   ],
-  "reprPoint": [
-    6.0,
-    47.0
-  ],
+  "description": "Andematunnum → Vittel",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0,
+          47.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               45.0
             ],
             [
-              3.0,
-              49.0
-            ],
-            [
-              9.0,
-              49.0
-            ],
-            [
               9.0,
               45.0
+            ],
+            [
+              9.0,
+              49.0
+            ],
+            [
+              3.0,
+              49.0
             ],
             [
               3.0,

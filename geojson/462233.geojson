@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Helorion Pedion",
   "id": "462233",
-  "description": "An ancient place, cited: BAtlas 47 G5 Helorion Pedion",
   "bbox": [
     15.0,
     36.5,
     15.5,
     37.0
   ],
-  "reprPoint": [
-    15.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G5 Helorion Pedion",
   "names": [
     "Helorion Pedion",
     "Heloria Tempe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.5
             ],
             [
-              15.0,
-              37.0
-            ],
-            [
-              15.5,
-              37.0
-            ],
-            [
               15.5,
               36.5
+            ],
+            [
+              15.5,
+              37.0
+            ],
+            [
+              15.0,
+              37.0
             ],
             [
               15.0,

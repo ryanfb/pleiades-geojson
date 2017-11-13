@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kastri",
   "id": "589850",
-  "description": "An ancient place, cited: BAtlas 60 D2 Kastri",
   "bbox": [
     25.3704653,
     34.9992705,
     25.3704653,
     34.9992705
   ],
+  "description": "An ancient place, cited: BAtlas 60 D2 Kastri",
   "connectsWith": [
     "589748"
   ],
-  "reprPoint": [
-    25.3704653,
-    34.9992705
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3704653,
+          34.9992705
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

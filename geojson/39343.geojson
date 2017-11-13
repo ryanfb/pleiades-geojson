@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ethraui",
   "id": "39343",
-  "description": "An ancient place, cited: BAtlas 4 B2 Ethraui",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B2 Ethraui",
   "names": [
     "Ethraui",
     "et Thauri",
     "Thauri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               15.0
             ],
             [
-              40.0,
-              20.0
-            ],
-            [
-              45.0,
-              20.0
-            ],
-            [
               45.0,
               15.0
+            ],
+            [
+              45.0,
+              20.0
+            ],
+            [
+              40.0,
+              20.0
             ],
             [
               40.0,

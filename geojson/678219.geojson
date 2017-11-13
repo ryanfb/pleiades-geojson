@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kana",
   "id": "678219",
-  "description": "Kana is a site of Christian pilgrimage located in southern Lebanon.",
   "bbox": [
     35.2994444,
     33.2088889,
     35.2994444,
     33.2088889
   ],
-  "reprPoint": [
-    35.2994444,
-    33.2088889
-  ],
+  "description": "Kana is a site of Christian pilgrimage located in southern Lebanon.",
   "names": [
     "Kana",
     "Qana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2994444,
+          33.2088889
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

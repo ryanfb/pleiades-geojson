@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Bridge on Via Cassia near *Volsinii Veteres",
   "id": "414503",
-  "description": "An ancient place, cited: BAtlas 42 C3",
   "bbox": [
     12.098483,
     42.745205,
     12.098483,
     42.745205
   ],
+  "description": "An ancient place, cited: BAtlas 42 C3",
   "connectsWith": [
     "447759107",
     "413373"
   ],
-  "reprPoint": [
-    12.098483,
-    42.745205
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.098483,
+          42.745205
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

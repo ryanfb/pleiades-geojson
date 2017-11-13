@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sabatinus L.",
   "id": "413290",
-  "description": "A volcanic lake in Latium north of Rome.",
   "bbox": [
     12.231944,
     42.121111,
     12.231944,
     42.121111
   ],
-  "reprPoint": [
-    12.231944,
-    42.121111
-  ],
+  "description": "A volcanic lake in Latium north of Rome.",
   "names": [
     "Sabatinus L.",
     "Lago di Bracciano"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231944,
+          42.121111
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

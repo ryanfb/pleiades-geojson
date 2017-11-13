@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Paestanus Sinus",
   "id": "442704",
-  "description": "A gulf of the Tyrrhenian Sea.",
   "bbox": [
     14.5,
     40.0,
     15.0,
     40.5
   ],
+  "description": "A gulf of the Tyrrhenian Sea.",
   "connectsWith": [
     "1356"
-  ],
-  "reprPoint": [
-    14.75,
-    40.25
   ],
   "names": [
     "Paestanus Sinus",
@@ -22,6 +18,19 @@
     "Golfo di Salerno"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               40.0
             ],
             [
-              14.5,
-              40.5
-            ],
-            [
-              15.0,
-              40.5
-            ],
-            [
               15.0,
               40.0
+            ],
+            [
+              15.0,
+              40.5
+            ],
+            [
+              14.5,
+              40.5
             ],
             [
               14.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "188756",
-  "description": "An ancient place, cited: BAtlas 19 C2 unnamed bridge (Cambodunum, over Virdo? fl.)",
   "bbox": [
     10.0,
     47.0,
     11.0,
     48.0
   ],
-  "reprPoint": [
-    10.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 C2 unnamed bridge (Cambodunum, over Virdo? fl.)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              10.0,
-              48.0
-            ],
-            [
-              11.0,
-              48.0
-            ],
-            [
               11.0,
               47.0
+            ],
+            [
+              11.0,
+              48.0
+            ],
+            [
+              10.0,
+              48.0
             ],
             [
               10.0,

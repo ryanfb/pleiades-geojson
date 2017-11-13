@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 63 (Walby West)",
   "id": "967060432",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.888672,
     54.929004,
     -2.888672,
     54.929004
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.888672,
-    54.929004
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.888672,
+          54.929004
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

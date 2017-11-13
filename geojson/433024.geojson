@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Picentinus Ager",
   "id": "433024",
-  "description": "An ancient place, cited: BAtlas 44 G4 Picentinus Ager",
   "bbox": [
     14.72808,
     40.6332345,
     14.8564808,
     40.672914
   ],
+  "description": "An ancient place, cited: BAtlas 44 G4 Picentinus Ager",
   "connectsWith": [
     "544710173"
-  ],
-  "reprPoint": [
-    14.7922804,
-    40.65307425
   ],
   "names": [
     "Picentinus Ager"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7922804,
+          40.65307425
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               40.5
             ],
             [
-              14.5,
-              41.0
-            ],
-            [
-              15.0,
-              41.0
-            ],
-            [
               15.0,
               40.5
+            ],
+            [
+              15.0,
+              41.0
+            ],
+            [
+              14.5,
+              41.0
             ],
             [
               14.5,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Diomedis Campi",
   "id": "442568",
-  "description": "The name assigned by some writers, including Livy, to the plain of Canusium, in which the battle of Cannae was fought in August of 216 BC.",
   "bbox": [
     16.0651528,
     41.2203553,
     16.066004,
     41.2225
   ],
+  "description": "The name assigned by some writers, including Livy, to the plain of Canusium, in which the battle of Cannae was fought in August of 216 BC.",
   "connectsWith": [
     "442525"
-  ],
-  "reprPoint": [
-    16.0655784,
-    41.22142765
   ],
   "names": [
     "Diomedis Campi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0655784,
+          41.22142765
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.0
             ],
             [
-              16.0,
-              41.5
-            ],
-            [
-              16.5,
-              41.5
-            ],
-            [
               16.5,
               41.0
+            ],
+            [
+              16.5,
+              41.5
+            ],
+            [
+              16.0,
+              41.5
             ],
             [
               16.0,

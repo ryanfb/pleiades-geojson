@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Kalamon M.",
   "id": "648659",
-  "description": "An ancient place, cited: BAtlas 66 D4 Kalamon M.",
   "bbox": [
     33.5,
     36.0,
     34.0,
     36.5
   ],
-  "reprPoint": [
-    33.75,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 66 D4 Kalamon M.",
   "names": [
     "Kalamon M.",
     "Rhodion M.",
     "Myrsinon M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               36.0
             ],
             [
-              33.5,
-              36.5
-            ],
-            [
-              34.0,
-              36.5
-            ],
-            [
               34.0,
               36.0
+            ],
+            [
+              34.0,
+              36.5
+            ],
+            [
+              33.5,
+              36.5
             ],
             [
               33.5,

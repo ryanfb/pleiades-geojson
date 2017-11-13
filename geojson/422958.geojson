@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Latium Vetus",
   "id": "422958",
-  "description": "Latium Vetus is an historical region of Italy. Latium Vetus begins south of the Tiber river and extends as far as Circeo, at which point the boundary of Latium Adiectum is reached.",
   "bbox": [
     12.547643,
     42.072946,
     12.547643,
     42.072946
   ],
+  "description": "Latium Vetus is an historical region of Italy. Latium Vetus begins south of the Tiber river and extends as far as Circeo, at which point the boundary of Latium Adiectum is reached.",
   "connectsWith": [
     "1356",
     "423080"
-  ],
-  "reprPoint": [
-    12.547643,
-    42.072946
   ],
   "names": [
     "Latium Vetus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.547643,
+          42.072946
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               41.75
             ],
             [
-              12.25,
-              42.0
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
               12.5,
               41.75
+            ],
+            [
+              12.5,
+              42.0
+            ],
+            [
+              12.25,
+              42.0
             ],
             [
               12.25,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "413745",
-  "description": "An ancient place, cited: BAtlas 42 D3 unnamed aqueduct (Spoletium)",
   "bbox": [
     12.5,
     42.5,
     13.0,
     43.0
   ],
-  "reprPoint": [
-    12.75,
-    42.75
-  ],
+  "description": "An ancient place, cited: BAtlas 42 D3 unnamed aqueduct (Spoletium)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.5
             ],
             [
-              12.5,
-              43.0
-            ],
-            [
-              13.0,
-              43.0
-            ],
-            [
               13.0,
               42.5
+            ],
+            [
+              13.0,
+              43.0
+            ],
+            [
+              12.5,
+              43.0
             ],
             [
               12.5,

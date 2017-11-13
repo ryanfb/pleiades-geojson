@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Planasia Ins.",
   "id": "403255",
-  "description": "Planasia (modern Pianosa) is an island of the Tuscan archipelago to which Agrippa Postumus was exiled by Augustus in AD 6 or 7.",
   "bbox": [
     10.0462258,
     42.5857433,
     10.0462258,
     42.5857433
   ],
+  "description": "Planasia (modern Pianosa) is an island of the Tuscan archipelago to which Agrippa Postumus was exiled by Augustus in AD 6 or 7.",
   "connectsWith": [
     "490307091"
-  ],
-  "reprPoint": [
-    10.0462258,
-    42.5857433
   ],
   "names": [
     "Planasia",
     "Pianosa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0462258,
+          42.5857433
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               42.5
             ],
             [
-              10.0,
-              43.0
-            ],
-            [
-              10.5,
-              43.0
-            ],
-            [
               10.5,
               42.5
+            ],
+            [
+              10.5,
+              43.0
+            ],
+            [
+              10.0,
+              43.0
             ],
             [
               10.0,

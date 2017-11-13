@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 40A (Winshields)",
   "id": "967060400",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.40776,
     55.001527,
     -2.40776,
     55.001527
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.40776,
-    55.001527
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.40776,
+          55.001527
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

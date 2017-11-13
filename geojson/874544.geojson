@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kaukab M.",
   "id": "874544",
-  "description": "An ancient place, cited: BAtlas 89 C4 Kaukab M.",
   "bbox": [
     40.0,
     36.0,
     41.0,
     37.0
   ],
-  "reprPoint": [
-    40.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 C4 Kaukab M.",
   "names": [
     "Kaukab M.",
     "Kakkabu M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.0
             ],
             [
-              40.0,
-              37.0
-            ],
-            [
-              41.0,
-              37.0
-            ],
-            [
               41.0,
               36.0
+            ],
+            [
+              41.0,
+              37.0
+            ],
+            [
+              40.0,
+              37.0
             ],
             [
               40.0,

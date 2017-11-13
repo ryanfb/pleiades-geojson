@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Tabuniya",
   "id": "344562",
-  "description": "Site of an isolated obelisk tomb.",
   "bbox": [
     13.35256,
     30.430352,
     13.35256,
     30.430352
   ],
-  "reprPoint": [
-    13.35256,
-    30.430352
-  ],
+  "description": "Site of an isolated obelisk tomb.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.35256,
+          30.430352
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

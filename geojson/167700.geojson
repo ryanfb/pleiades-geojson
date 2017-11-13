@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Caturiges",
   "id": "167700",
-  "description": "An ancient place, cited: BAtlas 17 G4 Caturiges",
   "bbox": [
     6.495055,
     44.562348,
     6.496364,
     44.565627
   ],
-  "reprPoint": [
-    6.4957095,
-    44.5639875
-  ],
+  "description": "An ancient place, cited: BAtlas 17 G4 Caturiges",
   "names": [
     "Caturiges"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4957095,
+          44.5639875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              6.0,
-              45.0
-            ],
-            [
-              6.5,
-              45.0
-            ],
-            [
               6.5,
               44.5
+            ],
+            [
+              6.5,
+              45.0
+            ],
+            [
+              6.0,
+              45.0
             ],
             [
               6.0,

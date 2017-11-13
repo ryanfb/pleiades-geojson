@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bryn Celli Ddu",
   "id": "735015378",
-  "description": "A Neolithic mound site on the island of Anglesey.",
   "bbox": [
     -4.2361083,
     53.2077542,
     -4.2361083,
     53.2077542
   ],
+  "description": "A Neolithic mound site on the island of Anglesey.",
   "connectsWith": [
     "79601"
   ],
-  "reprPoint": [
-    -4.2361083,
-    53.2077542
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2361083,
+          53.2077542
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

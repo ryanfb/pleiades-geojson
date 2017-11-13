@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "875803",
-  "description": "Satala → Eriza → Ani",
   "bbox": [
     38.0,
     36.0,
     47.0,
     40.0
   ],
-  "reprPoint": [
-    42.5,
-    38.0
-  ],
+  "description": "Satala → Eriza → Ani",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          38.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              38.0,
-              40.0
-            ],
-            [
-              47.0,
-              40.0
-            ],
-            [
               47.0,
               36.0
+            ],
+            [
+              47.0,
+              40.0
+            ],
+            [
+              38.0,
+              40.0
             ],
             [
               38.0,

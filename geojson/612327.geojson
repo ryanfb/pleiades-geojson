@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed hot spring",
   "id": "612327",
-  "description": "An ancient place, cited: BAtlas 62 E4 no. 21 (hot spring at Heybeli, formerly Kızıl Kilise)",
   "bbox": [
     30.81424,
     38.652073,
     30.81424,
     38.652073
   ],
-  "reprPoint": [
-    30.81424,
-    38.652073
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E4 no. 21 (hot spring at Heybeli, formerly Kızıl Kilise)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.81424,
+          38.652073
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

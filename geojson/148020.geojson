@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Blasco Ins.",
   "id": "148020",
-  "description": "Blasco Ins. is a small, volcanic island located close to the Cap d'Agde.",
   "bbox": [
     3.501517,
     43.263317,
     3.501517,
     43.263317
   ],
+  "description": "Blasco Ins. is a small, volcanic island located close to the Cap d'Agde.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    3.501517,
-    43.263317
   ],
   "names": [
     "Blasco",
     "Ile de Brescou"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.501517,
+          43.263317
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

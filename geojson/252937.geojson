@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Barskunes/Baskunes",
   "id": "252937",
-  "description": "An ancient place, cited: BAtlas 25 unlocated Ba(r)skunes",
   "bbox": [
     -2.0,
     42.0,
     -1.0,
     43.0
   ],
+  "description": "An ancient place, cited: BAtlas 25 unlocated Ba(r)skunes",
   "connectsWith": [
     "246730"
-  ],
-  "reprPoint": [
-    -1.5,
-    42.5
   ],
   "names": [
     "Barskunes",
@@ -22,6 +18,20 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

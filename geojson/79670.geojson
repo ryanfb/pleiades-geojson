@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sandy",
   "id": "79670",
-  "description": "An ancient place, cited: BAtlas 8 G2 Sandy",
   "bbox": [
     -0.289982,
     52.129775,
     -0.289982,
     52.129775
   ],
-  "reprPoint": [
-    -0.289982,
-    52.129775
-  ],
+  "description": "An ancient place, cited: BAtlas 8 G2 Sandy",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.289982,
+          52.129775
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Messapii",
   "id": "442657",
-  "description": "The Messapii were an ancient Indo-European people occupying the Salento peninsula in southeast Italy.",
   "bbox": [
     17.391887,
     39.926319,
     18.202308,
     40.888326
   ],
-  "reprPoint": [
-    17.8815116154,
-    40.4122588462
-  ],
+  "description": "The Messapii were an ancient Indo-European people occupying the Salento peninsula in southeast Italy.",
   "names": [
     "Messapii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8815116154,
+          40.4122588462
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              17.5,
-              40.5
-            ],
-            [
-              18.0,
-              40.5
-            ],
-            [
               18.0,
               40.0
+            ],
+            [
+              18.0,
+              40.5
+            ],
+            [
+              17.5,
+              40.5
             ],
             [
               17.5,

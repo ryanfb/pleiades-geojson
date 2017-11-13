@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Tachoroi",
   "id": "60077",
-  "description": "An ancient place, cited: BAtlas 6 B2 Tachoroi",
   "bbox": [
     65.0,
     35.0,
     70.0,
     40.0
   ],
-  "reprPoint": [
-    67.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 B2 Tachoroi",
   "names": [
     "Tachoroi",
     "Takoraioi",
     "Tazora"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               35.0
             ],
             [
-              65.0,
-              40.0
-            ],
-            [
-              70.0,
-              40.0
-            ],
-            [
               70.0,
               35.0
+            ],
+            [
+              70.0,
+              40.0
+            ],
+            [
+              65.0,
+              40.0
             ],
             [
               65.0,

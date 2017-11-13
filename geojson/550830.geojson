@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pindasos M.",
   "id": "550830",
-  "description": "An ancient place, cited: BAtlas 56 E3 Pindasos M.",
   "bbox": [
     27.0,
     39.0,
     27.5,
     39.5
   ],
-  "reprPoint": [
-    27.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 E3 Pindasos M.",
   "names": [
     "Pindasos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              27.0,
-              39.5
-            ],
-            [
-              27.5,
-              39.5
-            ],
-            [
               27.5,
               39.0
+            ],
+            [
+              27.5,
+              39.5
+            ],
+            [
+              27.0,
+              39.5
             ],
             [
               27.0,

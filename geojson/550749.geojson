@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Moria",
   "id": "550749",
-  "description": "An ancient place, cited: BAtlas 56 D3 Moria",
   "bbox": [
     26.516266,
     39.13257,
     26.517072,
     39.132634
   ],
-  "reprPoint": [
-    26.516669,
-    39.132602
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Moria",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.516669,
+          39.132602
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

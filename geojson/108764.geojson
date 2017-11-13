@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Atrebates",
   "id": "108764",
-  "description": "The Atrebates were a Belgic tribe of Gaul and Britain prior to the Roman conquest. In Gallia Belgica, they inhabited the Artois region.",
   "bbox": [
     2.0,
     50.0,
     3.0,
     51.0
   ],
-  "reprPoint": [
-    2.5,
-    50.5
-  ],
+  "description": "The Atrebates were a Belgic tribe of Gaul and Britain prior to the Roman conquest. In Gallia Belgica, they inhabited the Artois region.",
   "names": [
     "Atrebates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              2.0,
-              51.0
-            ],
-            [
-              3.0,
-              51.0
-            ],
-            [
               3.0,
               50.0
+            ],
+            [
+              3.0,
+              51.0
+            ],
+            [
+              2.0,
+              51.0
             ],
             [
               2.0,

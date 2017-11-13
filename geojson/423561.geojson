@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Antoniniana",
   "id": "423561",
-  "description": "The Aqua Antoniniana was a branch of the Aqua Marcia that carried water to the Baths of Caracalla.",
   "bbox": [
     12.486137,
     41.8917,
     12.4862,
     41.891775
   ],
+  "description": "The Aqua Antoniniana was a branch of the Aqua Marcia that carried water to the Baths of Caracalla.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4861685,
-    41.8917375
   ],
   "names": [
     "Aqua Antoniniana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4861685,
+          41.8917375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.75
             ],
             [
-              12.5,
-              42.0
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
               12.75,
               41.75
+            ],
+            [
+              12.75,
+              42.0
+            ],
+            [
+              12.5,
+              42.0
             ],
             [
               12.5,

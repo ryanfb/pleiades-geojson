@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Ouergionios Okeanos",
   "id": "79632",
-  "description": "The Celtic Sea is a region of the Atlantic Ocean off the south coast of Ireland.",
   "bbox": [
     -9.0,
     50.0,
     -9.0,
     50.0
   ],
+  "description": "The Celtic Sea is a region of the Atlantic Ocean off the south coast of Ireland.",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -9.0,
-    50.0
   ],
   "names": [
     "Ouergionios Okeanos",
     "Celtic Sea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.0,
+          50.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

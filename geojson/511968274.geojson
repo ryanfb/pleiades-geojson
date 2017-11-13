@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Badbury Rings",
   "id": "511968274",
-  "description": "Badbury Rings is an Iron Age hill fort in Dorset, England.",
   "bbox": [
     -2.0556885,
     50.8270818,
     -2.0556885,
     50.8270818
   ],
+  "description": "Badbury Rings is an Iron Age hill fort in Dorset, England.",
   "connectsWith": [
     "79438"
   ],
-  "reprPoint": [
-    -2.0556885,
-    50.8270818
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0556885,
+          50.8270818
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

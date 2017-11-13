@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Plemmyrium Pr.",
   "id": "462452",
-  "description": "Plemmyrium Pr., the northern cape of the peninsula of Maddalena located to the south of Syracusae, today known as Punta della Maddalena.",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
+  "description": "Plemmyrium Pr., the northern cape of the peninsula of Maddalena located to the south of Syracusae, today known as Punta della Maddalena.",
   "names": [
     "Plemmyrium Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              15.0,
-              37.5
-            ],
-            [
-              15.5,
-              37.5
-            ],
-            [
               15.5,
               37.0
+            ],
+            [
+              15.5,
+              37.5
+            ],
+            [
+              15.0,
+              37.5
             ],
             [
               15.0,

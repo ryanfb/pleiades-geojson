@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Megalos Lakkos",
   "id": "550725",
-  "description": "An ancient place, cited: BAtlas 56 B3 Megalos Lakkos",
   "bbox": [
     25.952496,
     39.20414,
     25.952496,
     39.20414
   ],
+  "description": "An ancient place, cited: BAtlas 56 B3 Megalos Lakkos",
   "connectsWith": [
     "550696"
   ],
-  "reprPoint": [
-    25.952496,
-    39.20414
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.952496,
+          39.20414
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

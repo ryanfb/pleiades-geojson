@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Erannoboas/Sonus (river)",
   "id": "59808",
-  "description": "A river which flowed into the Ganges river at  Patna, mentioned by both Arrian and Pliny.",
   "bbox": [
     80.0,
     20.0,
     85.0,
     25.0
   ],
-  "reprPoint": [
-    82.5,
-    22.5
-  ],
+  "description": "A river which flowed into the Ganges river at  Patna, mentioned by both Arrian and Pliny.",
   "names": [
     "Erannoboas",
     "Sonus",
@@ -20,6 +16,19 @@
     "So"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               20.0
             ],
             [
-              80.0,
-              25.0
-            ],
-            [
-              85.0,
-              25.0
-            ],
-            [
               85.0,
               20.0
+            ],
+            [
+              85.0,
+              25.0
+            ],
+            [
+              80.0,
+              25.0
             ],
             [
               80.0,

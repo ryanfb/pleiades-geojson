@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Andelos aqueduct",
   "id": "246890",
-  "description": "Unlabeled on the Barrington Atlas, this aqueduct supplied ancient Andelos",
   "bbox": [
     -1.8673,
     42.5996,
     -1.8673,
     42.5996
   ],
+  "description": "Unlabeled on the Barrington Atlas, this aqueduct supplied ancient Andelos",
   "connectsWith": [
     "246163"
   ],
-  "reprPoint": [
-    -1.8673,
-    42.5996
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8673,
+          42.5996
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

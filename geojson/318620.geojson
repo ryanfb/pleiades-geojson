@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "318620",
-  "description": "An ancient place, cited: BAtlas 32 G3 unnamed quarry group (near Siminina? and Tegla)",
   "bbox": [
     10.844502,
     36.946399,
     10.844502,
     36.946399
   ],
-  "reprPoint": [
-    10.844502,
-    36.946399
-  ],
+  "description": "An ancient place, cited: BAtlas 32 G3 unnamed quarry group (near Siminina? and Tegla)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.844502,
+          36.946399
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              10.5,
-              37.0
-            ],
-            [
-              11.0,
-              37.0
-            ],
-            [
               11.0,
               36.5
+            ],
+            [
+              11.0,
+              37.0
+            ],
+            [
+              10.5,
+              37.0
             ],
             [
               10.5,

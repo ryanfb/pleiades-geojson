@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sippar-Amnanum",
   "id": "392373882",
-  "description": "Sippar-Amnanum, located at modern Tell ed-Der, was an ancient city of the Old Babylonian period and the sister city of Sippar.",
   "bbox": [
     44.29,
     33.1,
     44.29,
     33.1
   ],
-  "reprPoint": [
-    44.29,
-    33.1
-  ],
+  "description": "Sippar-Amnanum, located at modern Tell ed-Der, was an ancient city of the Old Babylonian period and the sister city of Sippar.",
   "names": [
     "Tell ed-Dēr"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.29,
+          33.1
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

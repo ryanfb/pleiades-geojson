@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thamascaltin",
   "id": "344507",
-  "description": "An ancient place, cited: BAtlas 35 D3 Thamascaltin",
   "bbox": [
     11.0,
     31.0,
     12.0,
     32.0
   ],
-  "reprPoint": [
-    11.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 D3 Thamascaltin",
   "names": [
     "Thamascaltin"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              11.0,
-              32.0
-            ],
-            [
-              12.0,
-              32.0
-            ],
-            [
               12.0,
               31.0
+            ],
+            [
+              12.0,
+              32.0
+            ],
+            [
+              11.0,
+              32.0
             ],
             [
               11.0,

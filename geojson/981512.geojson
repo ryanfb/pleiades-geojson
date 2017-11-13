@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bithynia et Pontus",
   "id": "981512",
-  "description": "A province of the Roman Empire on the Black Sea coast that was formed when the former kingdoms of Bithynia (annexed by Rome in 74 B.C.) and Pontus (annexed in 63 B.C.) were joined together.",
   "bbox": [
     32.13452,
     40.798795,
     32.195317,
     40.825409
   ],
-  "reprPoint": [
-    32.1649185,
-    40.812102
-  ],
+  "description": "A province of the Roman Empire on the Black Sea coast that was formed when the former kingdoms of Bithynia (annexed by Rome in 74 B.C.) and Pontus (annexed in 63 B.C.) were joined together.",
   "names": [
     "Bithynia et Pontus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1649185,
+          40.812102
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              25.0,
-              45.0
-            ],
-            [
-              30.0,
-              45.0
-            ],
-            [
               30.0,
               40.0
+            ],
+            [
+              30.0,
+              45.0
+            ],
+            [
+              25.0,
+              45.0
             ],
             [
               25.0,

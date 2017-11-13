@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "524727",
-  "description": "Constantinopolis → Hebdomon → Dekaton → W",
   "bbox": [
     28.75,
     40.75,
     29.5,
     41.5
   ],
-  "reprPoint": [
-    29.125,
-    41.125
-  ],
+  "description": "Constantinopolis → Hebdomon → Dekaton → W",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.125,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.75
             ],
             [
-              28.75,
-              41.5
-            ],
-            [
-              29.5,
-              41.5
-            ],
-            [
               29.5,
               40.75
+            ],
+            [
+              29.5,
+              41.5
+            ],
+            [
+              28.75,
+              41.5
             ],
             [
               28.75,

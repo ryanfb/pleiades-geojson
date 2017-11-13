@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Helvetii",
   "id": "177534",
-  "description": "The Helvetii were a confederation of Gallic tribes occupying the Swiss plateau and they came into contact with the Roman Republic during the first century BC. Iulius Caesar states that the Helvetti were divided into four pagi.",
   "bbox": [
     6.0,
     46.0,
     7.0,
     47.0
   ],
-  "reprPoint": [
-    6.5,
-    46.5
-  ],
+  "description": "The Helvetii were a confederation of Gallic tribes occupying the Swiss plateau and they came into contact with the Roman Republic during the first century BC. Iulius Caesar states that the Helvetti were divided into four pagi.",
   "names": [
     "Helvetii",
     "Helvitii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               46.0
             ],
             [
-              6.0,
-              47.0
-            ],
-            [
-              7.0,
-              47.0
-            ],
-            [
               7.0,
               46.0
+            ],
+            [
+              7.0,
+              47.0
+            ],
+            [
+              6.0,
+              47.0
             ],
             [
               6.0,

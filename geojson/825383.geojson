@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Slavyansk",
   "id": "825383",
-  "description": "An ancient place, cited: BAtlas 84 D3 Slavyansk",
   "bbox": [
     38.111955,
     45.280083,
     38.111955,
     45.280083
   ],
-  "reprPoint": [
-    38.111955,
-    45.280083
-  ],
+  "description": "An ancient place, cited: BAtlas 84 D3 Slavyansk",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.111955,
+          45.280083
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

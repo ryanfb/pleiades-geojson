@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "P(e)ion/Prion M./Lepre Akte",
   "id": "599875",
-  "description": "An ancient place, cited: BAtlas 61 E2 P(e)ion/Prion M./Lepre Akte",
   "bbox": [
     27.0,
     37.5,
     27.5,
     38.0
   ],
-  "reprPoint": [
-    27.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E2 P(e)ion/Prion M./Lepre Akte",
   "names": [
     " Peion",
     " Pion",
@@ -20,6 +16,19 @@
     "Lepre Akte"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.5
             ],
             [
-              27.0,
-              38.0
-            ],
-            [
-              27.5,
-              38.0
-            ],
-            [
               27.5,
               37.5
+            ],
+            [
+              27.5,
+              38.0
+            ],
+            [
+              27.0,
+              38.0
             ],
             [
               27.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alazones",
   "id": "226513",
-  "description": "An ancient place, cited: BAtlas 23 E1 Alazones",
   "bbox": [
     31.0,
     47.0,
     32.0,
     48.0
   ],
-  "reprPoint": [
-    31.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 E1 Alazones",
   "names": [
     "Alazones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              31.0,
-              48.0
-            ],
-            [
-              32.0,
-              48.0
-            ],
-            [
               32.0,
               47.0
+            ],
+            [
+              32.0,
+              48.0
+            ],
+            [
+              31.0,
+              48.0
             ],
             [
               31.0,

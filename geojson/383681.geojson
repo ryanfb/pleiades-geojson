@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Ir(i)a (river)",
   "id": "383681",
-  "description": "The Scrivia river is a tributary of the Po river.",
   "bbox": [
     9.0529522,
     44.5162468,
     9.0529522,
     44.5162468
   ],
+  "description": "The Scrivia river is a tributary of the Po river.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    9.0529522,
-    44.5162468
   ],
   "names": [
     "Iria",
     "Ira"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0529522,
+          44.5162468
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               44.5
             ],
             [
-              8.5,
-              45.0
-            ],
-            [
-              9.0,
-              45.0
-            ],
-            [
               9.0,
               44.5
+            ],
+            [
+              9.0,
+              45.0
+            ],
+            [
+              8.5,
+              45.0
             ],
             [
               8.5,

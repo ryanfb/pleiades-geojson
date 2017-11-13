@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Lemnos (island)",
   "id": "550693",
-  "description": "An ancient place, cited: BAtlas 56 A2 Lemnos Ins.",
   "bbox": [
     25.25,
     39.916667,
     25.25,
     39.916667
   ],
+  "description": "An ancient place, cited: BAtlas 56 A2 Lemnos Ins.",
   "connectsWith": [
     "599944"
-  ],
-  "reprPoint": [
-    25.25,
-    39.916667
   ],
   "names": [
     "Lemnos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          39.916667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Borsippa/Burs",
   "id": "893964",
-  "description": "An ancient city of Sumer southwest of Babylon on the east bank of the Euphrates.",
   "bbox": [
     44.34719,
     32.389256,
     44.34719,
     32.389256
   ],
-  "reprPoint": [
-    44.34719,
-    32.389256
-  ],
+  "description": "An ancient city of Sumer southwest of Babylon on the east bank of the Euphrates.",
   "names": [
     "Borsippa",
     "Burs",
@@ -26,6 +22,19 @@
     "Barsipa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.34719,
+          32.389256
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

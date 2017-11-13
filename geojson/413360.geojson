@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Umbria",
   "id": "413360",
-  "description": "The eponymous region of the Umbri, an ancient Italic people who spoke the Umbrian language. The physical geography of the landlocked region is hilly and dominated by the Appennine Mountains.",
   "bbox": [
     12.111566,
     42.5176022,
     13.243375,
     43.522416
   ],
-  "reprPoint": [
-    12.5768282098,
-    42.8970275445
-  ],
+  "description": "The eponymous region of the Umbri, an ancient Italic people who spoke the Umbrian language. The physical geography of the landlocked region is hilly and dominated by the Appennine Mountains.",
   "names": [
     "Umbria",
     "Umbri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5768282098,
+          42.8970275445
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               43.5
             ],
             [
-              12.5,
-              44.0
-            ],
-            [
-              13.0,
-              44.0
-            ],
-            [
               13.0,
               43.5
+            ],
+            [
+              13.0,
+              44.0
+            ],
+            [
+              12.5,
+              44.0
             ],
             [
               12.5,

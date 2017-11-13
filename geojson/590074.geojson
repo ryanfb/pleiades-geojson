@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Tenos (island)",
   "id": "590074",
-  "description": "Tenos Ins. (Tinos) is an island in the Aegean Sea and part of the Cyclades archipelago.",
   "bbox": [
     25.114,
     37.607,
     25.114,
     37.607
   ],
+  "description": "Tenos Ins. (Tinos) is an island in the Aegean Sea and part of the Cyclades archipelago.",
   "connectsWith": [
     "560221",
     "560353"
-  ],
-  "reprPoint": [
-    25.114,
-    37.607
   ],
   "names": [
     "Tenos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.114,
+          37.607
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Oinoe",
   "id": "599836",
-  "description": "An ancient place, cited: BAtlas 61 C2 Oinoe",
   "bbox": [
     26.0732143,
     37.6305806,
     26.0732143,
     37.6305806
   ],
+  "description": "An ancient place, cited: BAtlas 61 C2 Oinoe",
   "connectsWith": [
     "599667"
-  ],
-  "reprPoint": [
-    26.0732143,
-    37.6305806
   ],
   "names": [
     "Oinoe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0732143,
+          37.6305806
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.5
             ],
             [
-              26.0,
-              38.0
-            ],
-            [
-              26.5,
-              38.0
-            ],
-            [
               26.5,
               37.5
+            ],
+            [
+              26.5,
+              38.0
+            ],
+            [
+              26.0,
+              38.0
             ],
             [
               26.0,

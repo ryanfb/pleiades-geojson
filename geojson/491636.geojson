@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kissos M.",
   "id": "491636",
-  "description": "An ancient place, cited: BAtlas 50 D3 Kissos M.",
   "bbox": [
     23.1183114,
     40.5822177,
     23.1183114,
     40.5822177
   ],
-  "reprPoint": [
-    23.1183114,
-    40.5822177
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D3 Kissos M.",
   "names": [
     "Kissos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1183114,
+          40.5822177
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              23.0,
-              41.0
-            ],
-            [
-              23.5,
-              41.0
-            ],
-            [
               23.5,
               40.5
+            ],
+            [
+              23.5,
+              41.0
+            ],
+            [
+              23.0,
+              41.0
             ],
             [
               23.0,

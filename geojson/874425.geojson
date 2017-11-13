@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Chorz(i)ane(ne)",
   "id": "874425",
-  "description": "An ancient place, cited: BAtlas 89 C1 Chorz(i)ane(ne)",
   "bbox": [
     40.0,
     39.0,
     41.0,
     40.0
   ],
-  "reprPoint": [
-    40.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 C1 Chorz(i)ane(ne)",
   "names": [
     "Chorziane",
     "Chorzanene",
@@ -20,6 +16,19 @@
     "Chorzane"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               39.0
             ],
             [
-              40.0,
-              40.0
-            ],
-            [
-              41.0,
-              40.0
-            ],
-            [
               41.0,
               39.0
+            ],
+            [
+              41.0,
+              40.0
+            ],
+            [
+              40.0,
+              40.0
             ],
             [
               40.0,

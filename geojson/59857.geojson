@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kalama Kolpos",
   "id": "59857",
-  "description": "An ancient place, cited: BAtlas 6 A4 Kalama Kolpos",
   "bbox": [
     60.0,
     25.0,
     65.0,
     30.0
   ],
-  "reprPoint": [
-    62.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 A4 Kalama Kolpos",
   "names": [
     "Kalama Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              60.0,
-              30.0
-            ],
-            [
-              65.0,
-              30.0
-            ],
-            [
               65.0,
               25.0
+            ],
+            [
+              65.0,
+              30.0
+            ],
+            [
+              60.0,
+              30.0
             ],
             [
               60.0,

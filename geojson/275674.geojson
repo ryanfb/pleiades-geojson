@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Maurusii",
   "id": "275674",
-  "description": "An ancient place, cited: BAtlas 28 D4 Maurusii",
   "bbox": [
     -5.5,
     34.5,
     -5.0,
     35.0
   ],
-  "reprPoint": [
-    -5.25,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 28 D4 Maurusii",
   "names": [
     "Maurusii",
     "Mauri",
     "Maurensioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               34.5
             ],
             [
-              -5.5,
-              35.0
-            ],
-            [
-              -5.0,
-              35.0
-            ],
-            [
               -5.0,
               34.5
+            ],
+            [
+              -5.0,
+              35.0
+            ],
+            [
+              -5.5,
+              35.0
             ],
             [
               -5.5,

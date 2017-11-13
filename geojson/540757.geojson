@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Elipeus (river)",
   "id": "540757",
-  "description": "An ancient place, cited: BAtlas 55 C2 Elipeus fl.",
   "bbox": [
     22.0,
     39.0,
     22.5,
     39.5
   ],
-  "reprPoint": [
-    22.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 C2 Elipeus fl.",
   "names": [
     "Elipeus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              22.0,
-              39.5
-            ],
-            [
-              22.5,
-              39.5
-            ],
-            [
               22.5,
               39.0
+            ],
+            [
+              22.5,
+              39.5
+            ],
+            [
+              22.0,
+              39.5
             ],
             [
               22.0,

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Athos (mountain)",
   "id": "501366",
-  "description": "The Greek \"holy mountain\" of Athos.",
   "bbox": [
     24.326389,
     40.157222,
     24.326389,
     40.157222
   ],
+  "description": "The Greek \"holy mountain\" of Athos.",
   "connectsWith": [
     "501365"
-  ],
-  "reprPoint": [
-    24.326389,
-    40.157222
   ],
   "names": [
     "Áyion Óros",
     "Athos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.326389,
+          40.157222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

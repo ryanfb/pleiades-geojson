@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pallia (river)",
   "id": "413243",
-  "description": "The Pallia is a tributary of the Tiber river.",
   "bbox": [
     11.730824,
     42.8824276,
     11.730824,
     42.8824276
   ],
+  "description": "The Pallia is a tributary of the Tiber river.",
   "connectsWith": [
     "423080"
-  ],
-  "reprPoint": [
-    11.730824,
-    42.8824276
   ],
   "names": [
     "Pallia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.730824,
+          42.8824276
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

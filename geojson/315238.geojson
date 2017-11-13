@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tusca (river)",
   "id": "315238",
-  "description": "An ancient place, cited: BAtlas 32 C3 Tusca fl.",
   "bbox": [
     8.748512,
     36.956243,
     8.750981,
     36.957314
   ],
-  "reprPoint": [
-    8.7497465,
-    36.9567785
-  ],
+  "description": "An ancient place, cited: BAtlas 32 C3 Tusca fl.",
   "names": [
     "Tusca"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7497465,
+          36.9567785
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              8.5,
-              37.0
-            ],
-            [
-              9.0,
-              37.0
-            ],
-            [
               9.0,
               36.5
+            ],
+            [
+              9.0,
+              37.0
+            ],
+            [
+              8.5,
+              37.0
             ],
             [
               8.5,

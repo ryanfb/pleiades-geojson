@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Statonia",
   "id": "413321",
-  "description": "An ancient city of south Etruria.",
   "bbox": [
     12.26835,
     42.509942,
     12.26835,
     42.509942
   ],
-  "reprPoint": [
-    12.26835,
-    42.509942
-  ],
+  "description": "An ancient city of south Etruria.",
   "names": [
     "Statonia",
     "Statonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.26835,
+          42.509942
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

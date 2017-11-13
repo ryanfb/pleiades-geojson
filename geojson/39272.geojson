@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Adoulitikos Kolpos",
   "id": "39272",
-  "description": "Adoulitikos Kolpos (The Gulf of Zula)",
   "bbox": [
     39.7108842,
     15.3619056,
     39.7108842,
     15.3619056
   ],
+  "description": "Adoulitikos Kolpos (The Gulf of Zula)",
   "connectsWith": [
     "39290"
-  ],
-  "reprPoint": [
-    39.7108842,
-    15.3619056
   ],
   "names": [
     "Adoulitikos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7108842,
+          15.3619056
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

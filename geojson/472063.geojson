@@ -2,25 +2,36 @@
   "type": "FeatureCollection",
   "title": "Corsica/Kyrnos (island)",
   "id": "472063",
-  "description": "The island of Corsica, in the Mediterranean Sea.",
   "bbox": [
     8.736872,
     41.3916,
     9.512143,
     42.98429
   ],
+  "description": "The island of Corsica, in the Mediterranean Sea.",
   "connectsWith": [
     "1043",
     "472127",
     "1356",
     "981548"
   ],
-  "reprPoint": [
-    9.20007744,
-    42.1033316156
-  ],
   "names": [
     "Corsica",
     "Kyrnos"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.20007744,
+          42.1033316156
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

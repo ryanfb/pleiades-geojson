@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "426617",
-  "description": "An ancient place, cited: BAtlas 43 D2 no. 41 (villa near Praeneste)",
   "bbox": [
     12.75,
     41.75,
     13.0,
     42.0
   ],
-  "reprPoint": [
-    12.875,
-    41.875
-  ],
+  "description": "An ancient place, cited: BAtlas 43 D2 no. 41 (villa near Praeneste)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.875,
+          41.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.75
             ],
             [
-              12.75,
-              42.0
-            ],
-            [
-              13.0,
-              42.0
-            ],
-            [
               13.0,
               41.75
+            ],
+            [
+              13.0,
+              42.0
+            ],
+            [
+              12.75,
+              42.0
             ],
             [
               12.75,

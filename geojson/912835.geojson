@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Dez/Hithite/Hudhud/Koprates? (river)",
   "id": "912835",
-  "description": "An ancient place, cited: BAtlas 93 E2 Dez/Hithite/Hudhud/Koprates? fl.",
   "bbox": [
     48.398189,
     32.382993,
     48.398189,
     32.382993
   ],
+  "description": "An ancient place, cited: BAtlas 93 E2 Dez/Hithite/Hudhud/Koprates? fl.",
   "connectsWith": [
     "912879"
-  ],
-  "reprPoint": [
-    48.398189,
-    32.382993
   ],
   "names": [
     "Hithite",
@@ -22,6 +18,19 @@
     "Koprates"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.398189,
+          32.382993
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               31.0
             ],
             [
-              48.0,
-              32.0
-            ],
-            [
-              49.0,
-              32.0
-            ],
-            [
               49.0,
               31.0
+            ],
+            [
+              49.0,
+              32.0
+            ],
+            [
+              48.0,
+              32.0
             ],
             [
               48.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Podere Cosciano",
   "id": "879707568",
-  "description": "Etrusco-Roman farm site",
   "bbox": [
     10.798056,
     43.320278,
     10.798056,
     43.320278
   ],
-  "reprPoint": [
-    10.798056,
-    43.320278
-  ],
+  "description": "Etrusco-Roman farm site",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.798056,
+          43.320278
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

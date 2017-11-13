@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed road station",
   "id": "612317",
-  "description": "An unnamed road station located west of Ankyra, near Bahtıllı in modern Turkey.",
   "bbox": [
     28.5,
     39.0,
     29.0,
     39.5
   ],
-  "reprPoint": [
-    28.75,
-    39.25
-  ],
+  "description": "An unnamed road station located west of Ankyra, near Bahtıllı in modern Turkey.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              28.5,
-              39.5
-            ],
-            [
-              29.0,
-              39.5
-            ],
-            [
               29.0,
               39.0
+            ],
+            [
+              29.0,
+              39.5
+            ],
+            [
+              28.5,
+              39.5
             ],
             [
               28.5,

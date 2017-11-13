@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "‘Diabas’/Turnat (river)",
   "id": "893984",
-  "description": "An ancient place, cited: BAtlas 91 F4 ‘Diabas’/Turnat fl.",
   "bbox": [
     44.0,
     33.0,
     45.0,
     34.0
   ],
-  "reprPoint": [
-    44.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 91 F4 ‘Diabas’/Turnat fl.",
   "names": [
     "Diabas",
     "Turnat",
     "Tornadotus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               33.0
             ],
             [
-              44.0,
-              34.0
-            ],
-            [
-              45.0,
-              34.0
-            ],
-            [
               45.0,
               33.0
+            ],
+            [
+              45.0,
+              34.0
+            ],
+            [
+              44.0,
+              34.0
             ],
             [
               44.0,

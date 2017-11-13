@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Eudousia",
   "id": "854681",
-  "description": "An ancient place, cited: BAtlas 87 M2 Eudousia",
   "bbox": [
     37.0,
     45.0,
     37.5,
     45.5
   ],
-  "reprPoint": [
-    37.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 M2 Eudousia",
   "names": [
     "Eudousia",
     "Eudousianoi",
     "Eulysia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               45.0
             ],
             [
-              37.0,
-              45.5
-            ],
-            [
-              37.5,
-              45.5
-            ],
-            [
               37.5,
               45.0
+            ],
+            [
+              37.5,
+              45.5
+            ],
+            [
+              37.0,
+              45.5
             ],
             [
               37.0,

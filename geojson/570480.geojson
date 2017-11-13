@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Messenia",
   "id": "570480",
-  "description": "Messenia was the southwestern district of the Peloponnesus. It was bounded on the east by Laconia, on the north by Elis and Arcadia, and on the south and west by the sea.",
   "bbox": [
     21.914167,
     37.00222,
     22.008168,
     37.183107
   ],
-  "reprPoint": [
-    21.9323415,
-    37.0694553333
-  ],
+  "description": "Messenia was the southwestern district of the Peloponnesus. It was bounded on the east by Laconia, on the north by Elis and Arcadia, and on the south and west by the sea.",
   "names": [
     "Messenia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9323415,
+          37.0694553333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              21.5,
-              37.5
-            ],
-            [
-              22.0,
-              37.5
-            ],
-            [
               22.0,
               37.0
+            ],
+            [
+              22.0,
+              37.5
+            ],
+            [
+              21.5,
+              37.5
             ],
             [
               21.5,

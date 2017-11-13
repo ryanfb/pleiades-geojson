@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Klabene",
   "id": "648674",
-  "description": "An ancient place, cited: BAtlas 66 B3 Klabene",
   "bbox": [
     32.5,
     36.5,
     33.0,
     37.0
   ],
-  "reprPoint": [
-    32.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 66 B3 Klabene",
   "names": [
     "Klabene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              32.5,
-              37.0
-            ],
-            [
-              33.0,
-              37.0
-            ],
-            [
               33.0,
               36.5
+            ],
+            [
+              33.0,
+              37.0
+            ],
+            [
+              32.5,
+              37.0
             ],
             [
               32.5,

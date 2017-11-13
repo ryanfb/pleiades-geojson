@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vettones",
   "id": "256512",
-  "description": "Vettones, a pre-Roman Celtic population of the Iberian peninsula.",
   "bbox": [
     -7.0,
     39.0,
     -6.0,
     40.0
   ],
-  "reprPoint": [
-    -6.5,
-    39.5
-  ],
+  "description": "Vettones, a pre-Roman Celtic population of the Iberian peninsula.",
   "names": [
     "Vettones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              -7.0,
-              40.0
-            ],
-            [
-              -6.0,
-              40.0
-            ],
-            [
               -6.0,
               39.0
+            ],
+            [
+              -6.0,
+              40.0
+            ],
+            [
+              -7.0,
+              40.0
             ],
             [
               -7.0,

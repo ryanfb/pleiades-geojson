@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Coppolo",
   "id": "452383",
-  "description": "Monte Coppolo is perhaps the site of ancient Lagaria, referred to by Strabo as a fortress (Φρούριον).",
   "bbox": [
     16.444381,
     40.170963,
     16.444381,
     40.170963
   ],
-  "reprPoint": [
-    16.444381,
-    40.170963
-  ],
+  "description": "Monte Coppolo is perhaps the site of ancient Lagaria, referred to by Strabo as a fortress (Φρούριον).",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.444381,
+          40.170963
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

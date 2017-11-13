@@ -2,26 +2,36 @@
   "type": "FeatureCollection",
   "title": "Curunniacis",
   "id": "240915",
-  "description": "An ancient place, cited: BAtlas 24 unlocated Curunniacis",
   "bbox": [
     -10.0,
     40.0,
     -5.0,
     45.0
   ],
+  "description": "An ancient place, cited: BAtlas 24 unlocated Curunniacis",
   "connectsWith": [
     "991317",
     "165997333"
-  ],
-  "reprPoint": [
-    -7.5,
-    42.5
   ],
   "names": [
     "Curunniacis"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

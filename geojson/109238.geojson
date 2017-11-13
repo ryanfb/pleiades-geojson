@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Paemani",
   "id": "109238",
-  "description": "An ancient place, cited: BAtlas 11 F2 Paemani",
   "bbox": [
     5.0,
     50.0,
     6.0,
     51.0
   ],
-  "reprPoint": [
-    5.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 F2 Paemani",
   "names": [
     "Paemani",
     "Caemani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               50.0
             ],
             [
-              5.0,
-              51.0
-            ],
-            [
-              6.0,
-              51.0
-            ],
-            [
               6.0,
               50.0
+            ],
+            [
+              6.0,
+              51.0
+            ],
+            [
+              5.0,
+              51.0
             ],
             [
               5.0,

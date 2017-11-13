@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Andelos",
   "id": "246163",
-  "description": "A Roman settlement in Spain",
   "bbox": [
     -1.8593,
     42.5992,
     -1.8593,
     42.5992
   ],
-  "reprPoint": [
-    -1.8593,
-    42.5992
-  ],
+  "description": "A Roman settlement in Spain",
   "names": [
     "Andelos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8593,
+          42.5992
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

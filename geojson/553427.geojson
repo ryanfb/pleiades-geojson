@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "553427",
-  "description": "An ancient place, cited: BAtlas 56 G5 unnamed tumulus (3 near Koloe)",
   "bbox": [
     28.260544,
     38.497356,
     28.260544,
     38.497356
   ],
-  "reprPoint": [
-    28.260544,
-    38.497356
-  ],
+  "description": "An ancient place, cited: BAtlas 56 G5 unnamed tumulus (3 near Koloe)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.260544,
+          38.497356
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              28.0,
-              38.5
-            ],
-            [
-              28.5,
-              38.5
-            ],
-            [
               28.5,
               38.0
+            ],
+            [
+              28.5,
+              38.5
+            ],
+            [
+              28.0,
+              38.5
             ],
             [
               28.0,

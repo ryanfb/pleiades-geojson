@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "The Frith",
   "id": "127132167",
-  "description": "The Frith is an Iron Age hill fort in Hampshire, England, that covers 1.6 hectares.",
   "bbox": [
     -1.1012095,
     51.3630713,
     -1.1012095,
     51.3630713
   ],
-  "reprPoint": [
-    -1.1012095,
-    51.3630713
-  ],
+  "description": "The Frith is an Iron Age hill fort in Hampshire, England, that covers 1.6 hectares.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1012095,
+          51.3630713
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

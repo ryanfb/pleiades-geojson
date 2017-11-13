@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Asichon Pr.",
   "id": "39296",
-  "description": "An ancient place, cited: BAtlas 4 E2 Asichon Pr.",
   "bbox": [
     55.0,
     15.0,
     60.0,
     20.0
   ],
-  "reprPoint": [
-    57.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 E2 Asichon Pr.",
   "names": [
     "Asichon Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               15.0
             ],
             [
-              55.0,
-              20.0
-            ],
-            [
-              60.0,
-              20.0
-            ],
-            [
               60.0,
               15.0
+            ],
+            [
+              60.0,
+              20.0
+            ],
+            [
+              55.0,
+              20.0
             ],
             [
               55.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mygdonia",
   "id": "491669",
-  "description": "An ancient place, cited: BAtlas 50 D3 Mygdonia",
   "bbox": [
     23.0,
     40.5,
     23.5,
     41.0
   ],
-  "reprPoint": [
-    23.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D3 Mygdonia",
   "names": [
     "Mygdonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              23.0,
-              41.0
-            ],
-            [
-              23.5,
-              41.0
-            ],
-            [
               23.5,
               40.5
+            ],
+            [
+              23.5,
+              41.0
+            ],
+            [
+              23.0,
+              41.0
             ],
             [
               23.0,

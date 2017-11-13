@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(At)Uria (river)",
   "id": "246202",
-  "description": "An ancient place, cited: BAtlas 25 D2 (At)Uria fl.",
   "bbox": [
     -2.0,
     43.0,
     -1.0,
     44.0
   ],
-  "reprPoint": [
-    -1.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 D2 (At)Uria fl.",
   "names": [
     "Aturia",
     "Uria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               43.0
             ],
             [
-              -2.0,
-              44.0
-            ],
-            [
-              -1.0,
-              44.0
-            ],
-            [
               -1.0,
               43.0
+            ],
+            [
+              -1.0,
+              44.0
+            ],
+            [
+              -2.0,
+              44.0
             ],
             [
               -2.0,

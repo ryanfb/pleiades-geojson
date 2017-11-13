@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Setae",
   "id": "60044",
-  "description": "An ancient place, cited: BAtlas 6 C2 Setae",
   "bbox": [
     70.0,
     35.0,
     75.0,
     40.0
   ],
-  "reprPoint": [
-    72.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C2 Setae",
   "names": [
     "Setae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              70.0,
-              40.0
-            ],
-            [
-              75.0,
-              40.0
-            ],
-            [
               75.0,
               35.0
+            ],
+            [
+              75.0,
+              40.0
+            ],
+            [
+              70.0,
+              40.0
             ],
             [
               70.0,

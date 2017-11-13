@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Locris Ozolia",
   "id": "540919",
-  "description": "An ancient place, cited: BAtlas 55 B4 Locris Ozolia",
   "bbox": [
     21.5,
     38.0,
     22.0,
     38.5
   ],
-  "reprPoint": [
-    21.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 B4 Locris Ozolia",
   "names": [
     "Locris Ozolia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              21.5,
-              38.5
-            ],
-            [
-              22.0,
-              38.5
-            ],
-            [
               22.0,
               38.0
+            ],
+            [
+              22.0,
+              38.5
+            ],
+            [
+              21.5,
+              38.5
             ],
             [
               21.5,

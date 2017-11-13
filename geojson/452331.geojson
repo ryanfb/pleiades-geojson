@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Halex? (river)",
   "id": "452331",
-  "description": "An ancient place, cited: BAtlas 46 C5 Halex? fl.",
   "bbox": [
     15.5,
     38.0,
     16.0,
     38.5
   ],
-  "reprPoint": [
-    15.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 46 C5 Halex? fl.",
   "names": [
     "Halex"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              15.5,
-              38.5
-            ],
-            [
-              16.0,
-              38.5
-            ],
-            [
               16.0,
               38.0
+            ],
+            [
+              16.0,
+              38.5
+            ],
+            [
+              15.5,
+              38.5
             ],
             [
               15.5,

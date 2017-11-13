@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Thapsacus",
   "id": "674270",
-  "description": "The location of the ancient site of Thapsacus is no longer known, but it lay on the western bank of the Euphrates river.",
   "bbox": [
     44.0,
     31.0,
     45.0,
     32.0
   ],
+  "description": "The location of the ancient site of Thapsacus is no longer known, but it lay on the western bank of the Euphrates river.",
   "connectsWith": [
     "912849"
-  ],
-  "reprPoint": [
-    44.5,
-    31.5
   ],
   "names": [
     "Thapsacus"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "undetermined",
       "type": "Feature",
       "properties": {

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Karesene?",
   "id": "511286",
-  "description": "An ancient place, cited: BAtlas 52 A4 Karesene?",
   "bbox": [
     27.0,
     40.0,
     27.5,
     40.5
   ],
-  "reprPoint": [
-    27.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 A4 Karesene?",
   "names": [
     "Karesene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              27.0,
-              40.5
-            ],
-            [
-              27.5,
-              40.5
-            ],
-            [
               27.5,
               40.0
+            ],
+            [
+              27.5,
+              40.5
+            ],
+            [
+              27.0,
+              40.5
             ],
             [
               27.0,

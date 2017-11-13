@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Macris Ins.",
   "id": "638976",
-  "description": "An ancient place, cited: BAtlas 65 B4 Macris Ins.",
   "bbox": [
     29.0,
     36.5,
     29.5,
     37.0
   ],
-  "reprPoint": [
-    29.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 B4 Macris Ins.",
   "names": [
     "Macris",
     "Makra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.5
             ],
             [
-              29.0,
-              37.0
-            ],
-            [
-              29.5,
-              37.0
-            ],
-            [
               29.5,
               36.5
+            ],
+            [
+              29.5,
+              37.0
+            ],
+            [
+              29.0,
+              37.0
             ],
             [
               29.0,

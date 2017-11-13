@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aurunci",
   "id": "432711",
-  "description": "The Aurunci were an Italic tribe of south Italy. Their territory was incorporated into the Roman territory in the fourth century B.C.",
   "bbox": [
     13.768185,
     41.241973,
     13.768749,
     41.242413
   ],
-  "reprPoint": [
-    13.768467,
-    41.242193
-  ],
+  "description": "The Aurunci were an Italic tribe of south Italy. Their territory was incorporated into the Roman territory in the fourth century B.C.",
   "names": [
     "Aurunci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.768467,
+          41.242193
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

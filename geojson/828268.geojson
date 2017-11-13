@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Hertichei",
   "id": "828268",
-  "description": "An ancient place, cited: BAtlas 84 unlocated Hertichei",
   "bbox": [
     40.7291755,
     47.5437096,
     40.7291755,
     47.5437096
   ],
+  "description": "An ancient place, cited: BAtlas 84 unlocated Hertichei",
   "connectsWith": [
     "825398"
-  ],
-  "reprPoint": [
-    40.7291755,
-    47.5437096
   ],
   "names": [
     "Hertichei"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.7291755,
+          47.5437096
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

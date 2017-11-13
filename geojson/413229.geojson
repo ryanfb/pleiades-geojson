@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nursia",
   "id": "413229",
-  "description": "Nursia was the northernmost city of the Sabines.",
   "bbox": [
     13.096435,
     42.794246,
     13.096435,
     42.794246
   ],
-  "reprPoint": [
-    13.096435,
-    42.794246
-  ],
+  "description": "Nursia was the northernmost city of the Sabines.",
   "names": [
     "Nursia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.096435,
+          42.794246
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

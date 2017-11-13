@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Meidum",
   "id": "736958",
-  "description": "Meidum is located in the desert south of Cairo and is the site of numerous mudbrick mastabas and a pyramid.",
   "bbox": [
     31.1568042,
     29.3880544,
     31.158411,
     29.389147
   ],
-  "reprPoint": [
-    31.1576076,
-    29.3886007
-  ],
+  "description": "Meidum is located in the desert south of Cairo and is the site of numerous mudbrick mastabas and a pyramid.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1576076,
+          29.3886007
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

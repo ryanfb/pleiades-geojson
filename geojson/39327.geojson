@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Cerbani",
   "id": "39327",
-  "description": "An ancient place, cited: BAtlas 4 C3 Cerbani",
   "bbox": [
     45.0,
     10.0,
     50.0,
     15.0
   ],
-  "reprPoint": [
-    47.5,
-    12.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 C3 Cerbani",
   "names": [
     "Cerbani",
     "Caeubani",
@@ -31,6 +27,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -40,16 +49,16 @@
               10.0
             ],
             [
-              45.0,
-              15.0
-            ],
-            [
-              50.0,
-              15.0
-            ],
-            [
               50.0,
               10.0
+            ],
+            [
+              50.0,
+              15.0
+            ],
+            [
+              45.0,
+              15.0
             ],
             [
               45.0,

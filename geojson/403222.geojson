@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Ilva/Aethalia (island)",
   "id": "403222",
-  "description": "The largest island of the Tuscan Archipelago, Ilva (modern Elba) is located in the Tyrrhenian Sea 50 km east of Corsica. It is the third largest Italian island.",
   "bbox": [
     10.240833,
     42.761833,
     10.240833,
     42.761833
   ],
+  "description": "The largest island of the Tuscan Archipelago, Ilva (modern Elba) is located in the Tyrrhenian Sea 50 km east of Corsica. It is the third largest Italian island.",
   "connectsWith": [
     "490307091",
     "1356"
-  ],
-  "reprPoint": [
-    10.240833,
-    42.761833
   ],
   "names": [
     "Ilva",
@@ -23,6 +19,19 @@
     "Elba"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.240833,
+          42.761833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

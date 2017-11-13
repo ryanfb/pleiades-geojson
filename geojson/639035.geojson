@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pamphylium Mare",
   "id": "639035",
-  "description": "An ancient place, cited: BAtlas 65 E5 Pamphylium Mare",
   "bbox": [
     30.407,
     36.215,
     30.9204027,
     36.8540002
   ],
-  "reprPoint": [
-    30.66370135,
-    36.5345001
-  ],
+  "description": "An ancient place, cited: BAtlas 65 E5 Pamphylium Mare",
   "names": [
     "Pamphylium Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.66370135,
+          36.5345001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              30.5,
-              36.5
-            ],
-            [
-              31.0,
-              36.5
-            ],
-            [
               31.0,
               36.0
+            ],
+            [
+              31.0,
+              36.5
+            ],
+            [
+              30.5,
+              36.5
             ],
             [
               30.5,

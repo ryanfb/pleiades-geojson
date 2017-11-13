@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Ad Aesim",
   "id": "412988",
-  "description": "An ancient place, cited: BAtlas 42 D2 Ad Aesim",
   "bbox": [
     12.5,
     43.0,
     13.0,
     43.5
   ],
+  "description": "An ancient place, cited: BAtlas 42 D2 Ad Aesim",
   "connectsWith": [
     "856514595"
-  ],
-  "reprPoint": [
-    12.75,
-    43.25
   ],
   "names": [
     "Ad Aesim"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               43.0
             ],
             [
-              12.5,
-              43.5
-            ],
-            [
-              13.0,
-              43.5
-            ],
-            [
               13.0,
               43.0
+            ],
+            [
+              13.0,
+              43.5
+            ],
+            [
+              12.5,
+              43.5
             ],
             [
               12.5,

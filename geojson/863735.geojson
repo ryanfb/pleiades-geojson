@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Albanos (river)",
   "id": "863735",
-  "description": "The Samur river.",
   "bbox": [
     47.0,
     41.0,
     48.0,
     42.0
   ],
+  "description": "The Samur river.",
   "connectsWith": [
     "884130"
-  ],
-  "reprPoint": [
-    47.5,
-    41.5
   ],
   "names": [
     "Albanos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.0
             ],
             [
-              47.0,
-              42.0
-            ],
-            [
-              48.0,
-              42.0
-            ],
-            [
               48.0,
               41.0
+            ],
+            [
+              48.0,
+              42.0
+            ],
+            [
+              47.0,
+              42.0
             ],
             [
               47.0,

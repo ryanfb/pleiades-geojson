@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Priaticus Campus",
   "id": "501580",
-  "description": "An ancient place, cited: BAtlas 51 E2 Priaticus Campus",
   "bbox": [
     25.0,
     41.0,
     25.5,
     41.5
   ],
-  "reprPoint": [
-    25.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 E2 Priaticus Campus",
   "names": [
     "Priaticus Campus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              25.0,
-              41.5
-            ],
-            [
-              25.5,
-              41.5
-            ],
-            [
               25.5,
               41.0
+            ],
+            [
+              25.5,
+              41.5
+            ],
+            [
+              25.0,
+              41.5
             ],
             [
               25.0,

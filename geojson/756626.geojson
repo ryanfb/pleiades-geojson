@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pokis",
   "id": "756626",
-  "description": "An ancient place, cited: BAtlas 77 D2 Pokis",
   "bbox": [
     30.83331,
     27.399977,
     30.83331,
     27.399977
   ],
-  "reprPoint": [
-    30.83331,
-    27.399977
-  ],
+  "description": "An ancient place, cited: BAtlas 77 D2 Pokis",
   "names": [
     "Pokis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.83331,
+          27.399977
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

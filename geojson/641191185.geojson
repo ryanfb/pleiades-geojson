@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Taʿizz",
   "id": "641191185",
-  "description": "A place from the TAVO Index",
   "bbox": [
     40.0,
     10.0,
     45.0,
     15.0
   ],
-  "reprPoint": [
-    42.5,
-    12.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Taʿizz"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               10.0
             ],
             [
-              40.0,
-              15.0
-            ],
-            [
-              45.0,
-              15.0
-            ],
-            [
               45.0,
               10.0
+            ],
+            [
+              45.0,
+              15.0
+            ],
+            [
+              40.0,
+              15.0
             ],
             [
               40.0,

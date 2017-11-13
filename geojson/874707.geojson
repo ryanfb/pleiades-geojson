@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sophene",
   "id": "874707",
-  "description": "An ancient place, cited: BAtlas 89 B2 Sophene",
   "bbox": [
     39.0,
     38.0,
     40.0,
     39.0
   ],
-  "reprPoint": [
-    39.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B2 Sophene",
   "names": [
     "Sophene",
     "Sophanene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              39.0,
-              39.0
-            ],
-            [
-              40.0,
-              39.0
-            ],
-            [
               40.0,
               38.0
+            ],
+            [
+              40.0,
+              39.0
+            ],
+            [
+              39.0,
+              39.0
             ],
             [
               39.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Misictri",
   "id": "315081",
-  "description": "An ancient place, cited: BAtlas 32 A3 Misictri",
   "bbox": [
     7.5,
     36.5,
     8.0,
     37.0
   ],
-  "reprPoint": [
-    7.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 A3 Misictri",
   "names": [
     "Misictri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              7.5,
-              37.0
-            ],
-            [
-              8.0,
-              37.0
-            ],
-            [
               8.0,
               36.5
+            ],
+            [
+              8.0,
+              37.0
+            ],
+            [
+              7.5,
+              37.0
             ],
             [
               7.5,

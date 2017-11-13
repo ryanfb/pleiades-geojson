@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "639490",
-  "description": "An ancient place, cited: BAtlas 65 C4 unnamed aqueduct (Oenoanda)",
   "bbox": [
     29.5,
     36.5,
     30.0,
     37.0
   ],
-  "reprPoint": [
-    29.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 C4 unnamed aqueduct (Oenoanda)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              29.5,
-              37.0
-            ],
-            [
-              30.0,
-              37.0
-            ],
-            [
               30.0,
               36.5
+            ],
+            [
+              30.0,
+              37.0
+            ],
+            [
+              29.5,
+              37.0
             ],
             [
               29.5,

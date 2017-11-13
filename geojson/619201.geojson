@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Magaba/Mordiacus M.",
   "id": "619201",
-  "description": "An ancient place, cited: BAtlas 63 C1 Magaba/Mordiacus M.",
   "bbox": [
     33.0,
     39.5,
     33.5,
     40.0
   ],
-  "reprPoint": [
-    33.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 63 C1 Magaba/Mordiacus M.",
   "names": [
     "Magaba",
     "Mordiacus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.5
             ],
             [
-              33.0,
-              40.0
-            ],
-            [
-              33.5,
-              40.0
-            ],
-            [
               33.5,
               39.5
+            ],
+            [
+              33.5,
+              40.0
+            ],
+            [
+              33.0,
+              40.0
             ],
             [
               33.0,

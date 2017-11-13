@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Herakleios Porthmos/Gaditanum Fretum",
   "id": "256198",
-  "description": "The Strait of Gibraltar, a narrow strait that connects the Atlantic Ocean and the Mediterranean Sea and separates Europe from Africa.",
   "bbox": [
     -5.485833,
     35.971667,
     -5.485833,
     35.971667
   ],
-  "reprPoint": [
-    -5.485833,
-    35.971667
-  ],
+  "description": "The Strait of Gibraltar, a narrow strait that connects the Atlantic Ocean and the Mediterranean Sea and separates Europe from Africa.",
   "names": [
     "Herakleios Porthmos",
     "Gaditanum Fretum",
@@ -22,6 +18,19 @@
     "Hispanum Fretum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.485833,
+          35.971667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

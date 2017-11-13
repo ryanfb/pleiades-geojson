@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Duria (Bautica) (river)",
   "id": "383635",
-  "description": "Duria (Bautica) fl. (Dora Baltea) is a river of northern Italy that is a tributary of the Padus fl. (Po river).",
   "bbox": [
     7.0,
     45.5,
     7.5,
     46.0
   ],
+  "description": "Duria (Bautica) fl. (Dora Baltea) is a river of northern Italy that is a tributary of the Padus fl. (Po river).",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    7.25,
-    45.75
   ],
   "names": [
     "Duria Bautica",
     "Duria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               45.5
             ],
             [
-              7.0,
-              46.0
-            ],
-            [
-              7.5,
-              46.0
-            ],
-            [
               7.5,
               45.5
+            ],
+            [
+              7.5,
+              46.0
+            ],
+            [
+              7.0,
+              46.0
             ],
             [
               7.0,

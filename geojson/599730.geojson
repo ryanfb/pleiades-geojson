@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kressa",
   "id": "599730",
-  "description": "An ancient place, cited: BAtlas 61 G4 Kressa",
   "bbox": [
     28.0,
     36.5,
     28.5,
     37.0
   ],
-  "reprPoint": [
-    28.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 G4 Kressa",
   "names": [
     "Kressa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              28.0,
-              37.0
-            ],
-            [
-              28.5,
-              37.0
-            ],
-            [
               28.5,
               36.5
+            ],
+            [
+              28.5,
+              37.0
+            ],
+            [
+              28.0,
+              37.0
             ],
             [
               28.0,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Timaea",
   "id": "521168",
-  "description": "An ancient place, cited: BAtlas 53 B2 Timaea",
   "bbox": [
     29.0,
     41.0,
     29.25,
     41.25
   ],
-  "reprPoint": [
-    29.125,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 B2 Timaea",
   "names": [
     "Timaea",
     "Thimea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.125,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              29.0,
-              41.25
-            ],
-            [
-              29.25,
-              41.25
-            ],
-            [
               29.25,
               41.0
+            ],
+            [
+              29.25,
+              41.25
+            ],
+            [
+              29.0,
+              41.25
             ],
             [
               29.0,

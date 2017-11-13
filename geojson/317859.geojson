@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "317859",
-  "description": "An ancient place, cited: BAtlas 32 D3 unnamed bridge group (near Vicus Augusti? and Teglata?)",
   "bbox": [
     9.0,
     36.5,
     9.5,
     37.0
   ],
-  "reprPoint": [
-    9.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 32 D3 unnamed bridge group (near Vicus Augusti? and Teglata?)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              9.0,
-              37.0
-            ],
-            [
-              9.5,
-              37.0
-            ],
-            [
               9.5,
               36.5
+            ],
+            [
+              9.5,
+              37.0
+            ],
+            [
+              9.0,
+              37.0
             ],
             [
               9.0,

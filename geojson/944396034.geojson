@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Marāġe",
   "id": "944396034",
-  "description": "A place from the TAVO Index",
   "bbox": [
     46.0,
     37.0,
     47.0,
     38.0
   ],
-  "reprPoint": [
-    46.5,
-    37.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Marāġe",
     "Marāġa",
@@ -21,6 +17,19 @@
     "Phraata"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               37.0
             ],
             [
-              46.0,
-              38.0
-            ],
-            [
-              47.0,
-              38.0
-            ],
-            [
               47.0,
               37.0
+            ],
+            [
+              47.0,
+              38.0
+            ],
+            [
+              46.0,
+              38.0
             ],
             [
               46.0,

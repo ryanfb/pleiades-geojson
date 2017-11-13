@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Italia",
   "id": "452346",
-  "description": "That portion of the Toe of Italy lying to the south of the Terina/Scylletium isthmus as known to the Greeks in the 5th century BCE. Thus called after the Itali who inhabited it at that time. ",
   "bbox": [
     16.0,
     38.0,
     16.5,
     38.5
   ],
-  "reprPoint": [
-    16.25,
-    38.25
-  ],
+  "description": "That portion of the Toe of Italy lying to the south of the Terina/Scylletium isthmus as known to the Greeks in the 5th century BCE. Thus called after the Itali who inhabited it at that time. ",
   "names": [
     "Italia",
     "Italía"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              16.0,
-              38.5
-            ],
-            [
-              16.5,
-              38.5
-            ],
-            [
               16.5,
               38.0
+            ],
+            [
+              16.5,
+              38.5
+            ],
+            [
+              16.0,
+              38.5
             ],
             [
               16.0,

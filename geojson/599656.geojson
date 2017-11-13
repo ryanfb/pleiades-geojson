@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Hyetousa (island)",
   "id": "599656",
-  "description": "An ancient place, cited: BAtlas 61 D3 Hyetousa Ins.",
   "bbox": [
     26.5,
     37.0,
     27.0,
     37.5
   ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Hyetousa Ins.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.75,
-    37.25
   ],
   "names": [
     "Hyetousa",
     "Hyetoessa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               37.0
             ],
             [
-              26.5,
-              37.5
-            ],
-            [
-              27.0,
-              37.5
-            ],
-            [
               27.0,
               37.0
+            ],
+            [
+              27.0,
+              37.5
+            ],
+            [
+              26.5,
+              37.5
             ],
             [
               26.5,

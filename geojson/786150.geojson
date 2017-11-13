@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wadi Nabiyah",
   "id": "786150",
-  "description": "An ancient place, cited: BAtlas 80 F3 Wadi Nabiyah",
   "bbox": [
     34.569681,
     25.218553,
     34.569681,
     25.218553
   ],
-  "reprPoint": [
-    34.569681,
-    25.218553
-  ],
+  "description": "An ancient place, cited: BAtlas 80 F3 Wadi Nabiyah",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.569681,
+          25.218553
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kaloi Limenes",
   "id": "589834",
-  "description": "An ancient place, cited: BAtlas 60 C3 Kaloi Limenes",
   "bbox": [
     24.5,
     34.5,
     25.0,
     35.0
   ],
-  "reprPoint": [
-    24.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 60 C3 Kaloi Limenes",
   "names": [
     "Kaloi Limenes",
     "Órmos Kaloí Limniónes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.5
             ],
             [
-              24.5,
-              35.0
-            ],
-            [
-              25.0,
-              35.0
-            ],
-            [
               25.0,
               34.5
+            ],
+            [
+              25.0,
+              35.0
+            ],
+            [
+              24.5,
+              35.0
             ],
             [
               24.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marsyas (river)",
   "id": "638986",
-  "description": "An ancient place, cited: BAtlas 65 D1 Marsyas fl.",
   "bbox": [
     30.0,
     38.0,
     30.5,
     38.5
   ],
-  "reprPoint": [
-    30.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 D1 Marsyas fl.",
   "names": [
     "Marsyas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              30.0,
-              38.5
-            ],
-            [
-              30.5,
-              38.5
-            ],
-            [
               30.5,
               38.0
+            ],
+            [
+              30.5,
+              38.5
+            ],
+            [
+              30.0,
+              38.5
             ],
             [
               30.0,

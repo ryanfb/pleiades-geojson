@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Abboukome/Apokome",
   "id": "609287",
-  "description": "An ancient place, cited: BAtlas 62 E3 Abboukome/Apokome",
   "bbox": [
     30.5,
     39.0,
     31.0,
     39.5
   ],
-  "reprPoint": [
-    30.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E3 Abboukome/Apokome",
   "names": [
     "Abboukome",
     "Apokome"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.0
             ],
             [
-              30.5,
-              39.5
-            ],
-            [
-              31.0,
-              39.5
-            ],
-            [
               31.0,
               39.0
+            ],
+            [
+              31.0,
+              39.5
+            ],
+            [
+              30.5,
+              39.5
             ],
             [
               30.5,

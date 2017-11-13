@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Silbury Hill",
   "id": "943692804",
-  "description": "Silbury Hill is a prehistoric artificial chalk mound near Avebury and is part of the Stonehenge, Avebury and Associated Sites UNESCO World Heritage Site. The mound stands to 40 meters (131 ft) in height.",
   "bbox": [
     -1.8574727,
     51.415762,
     -1.8574727,
     51.415762
   ],
-  "reprPoint": [
-    -1.8574727,
-    51.415762
-  ],
+  "description": "Silbury Hill is a prehistoric artificial chalk mound near Avebury and is part of the Stonehenge, Avebury and Associated Sites UNESCO World Heritage Site. The mound stands to 40 meters (131 ft) in height.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8574727,
+          51.415762
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Clovelly Dykes",
   "id": "975884602",
-  "description": "Clovelly Dykes is an unexcavated Iron Age hillfort. ",
   "bbox": [
     -4.4042635,
     50.985618,
     -4.4042635,
     50.985618
   ],
-  "reprPoint": [
-    -4.4042635,
-    50.985618
-  ],
+  "description": "Clovelly Dykes is an unexcavated Iron Age hillfort. ",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4042635,
+          50.985618
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

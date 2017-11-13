@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueduct supplying Lambaesis",
   "id": "335226",
-  "description": "An ancient place, cited: BAtlas 34 E2 unnamed aqueduct (Lambaesis)",
   "bbox": [
     6.254778,
     35.385119,
     6.323578,
     35.490208
   ],
+  "description": "An ancient place, cited: BAtlas 34 E2 unnamed aqueduct (Lambaesis)",
   "connectsWith": [
     "334570"
   ],
-  "reprPoint": [
-    6.29046725,
-    35.43742325
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.29046725,
+          35.43742325
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              6.0,
-              36.0
-            ],
-            [
-              7.0,
-              36.0
-            ],
-            [
               7.0,
               35.0
+            ],
+            [
+              7.0,
+              36.0
+            ],
+            [
+              6.0,
+              36.0
             ],
             [
               6.0,

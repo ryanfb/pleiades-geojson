@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "237828",
-  "description": "An ancient place, cited: BAtlas 24 D2 no. 2 (‘Ponte Návea’ near Puebla de Trives, over R. Návea)",
   "bbox": [
     -8.0,
     42.0,
     -7.0,
     43.0
   ],
-  "reprPoint": [
-    -7.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D2 no. 2 (‘Ponte Návea’ near Puebla de Trives, over R. Návea)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              -8.0,
-              43.0
-            ],
-            [
-              -7.0,
-              43.0
-            ],
-            [
               -7.0,
               42.0
+            ],
+            [
+              -7.0,
+              43.0
+            ],
+            [
+              -8.0,
+              43.0
             ],
             [
               -8.0,

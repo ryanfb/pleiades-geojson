@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Zayden",
   "id": "363947",
-  "description": "An ancient place, cited: BAtlas 37 A2 Bir Zayden",
   "bbox": [
     15.537943,
     30.94872,
     15.537943,
     30.94872
   ],
-  "reprPoint": [
-    15.537943,
-    30.94872
-  ],
+  "description": "An ancient place, cited: BAtlas 37 A2 Bir Zayden",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.537943,
+          30.94872
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

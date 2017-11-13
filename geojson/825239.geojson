@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Belikov",
   "id": "825239",
-  "description": "An ancient place, cited: BAtlas 84 D3 Belikov",
   "bbox": [
     38.00175,
     45.517541,
     38.00175,
     45.517541
   ],
-  "reprPoint": [
-    38.00175,
-    45.517541
-  ],
+  "description": "An ancient place, cited: BAtlas 84 D3 Belikov",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.00175,
+          45.517541
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

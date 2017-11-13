@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200095",
-  "description": "An ancient place, cited: BAtlas 20 B5 unnamed quarry (on Cissa Ins.)",
   "bbox": [
     14.0,
     44.0,
     15.0,
     45.0
   ],
-  "reprPoint": [
-    14.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B5 unnamed quarry (on Cissa Ins.)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              14.0,
-              45.0
-            ],
-            [
-              15.0,
-              45.0
-            ],
-            [
               15.0,
               44.0
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              14.0,
+              45.0
             ],
             [
               14.0,

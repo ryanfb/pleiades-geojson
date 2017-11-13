@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Cataractonium",
   "id": "89143",
-  "description": "The remains of a Roman fort and settlement located at Catterick, North Yorkshire.",
   "bbox": [
     -1.65796,
     54.386049,
     -1.652,
     54.38853
   ],
+  "description": "The remains of a Roman fort and settlement located at Catterick, North Yorkshire.",
   "connectsWith": [
     "82519025"
-  ],
-  "reprPoint": [
-    -1.65471014672,
-    54.3871953968
   ],
   "names": [
     "Cataractonium",
     "Catterick"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.65471014672,
+          54.3871953968
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,13 +41,8 @@
               0.0
             ],
             [
-              -1.65735,
-              54.386524,
-              0.0
-            ],
-            [
-              -1.65796,
-              54.387318,
+              -1.652,
+              54.386696,
               0.0
             ],
             [
@@ -47,8 +51,13 @@
               0.0
             ],
             [
-              -1.652,
-              54.386696,
+              -1.65796,
+              54.387318,
+              0.0
+            ],
+            [
+              -1.65735,
+              54.386524,
               0.0
             ],
             [

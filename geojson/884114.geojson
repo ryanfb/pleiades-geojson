@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(A)Mardoi",
   "id": "884114",
-  "description": "An ancient place, cited: BAtlas 90 D4 (A)Mardoi",
   "bbox": [
     48.0,
     36.0,
     49.0,
     37.0
   ],
-  "reprPoint": [
-    48.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 D4 (A)Mardoi",
   "names": [
     "Amardoi",
     "Mardoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.0
             ],
             [
-              48.0,
-              37.0
-            ],
-            [
-              49.0,
-              37.0
-            ],
-            [
               49.0,
               36.0
+            ],
+            [
+              49.0,
+              37.0
+            ],
+            [
+              48.0,
+              37.0
             ],
             [
               48.0,

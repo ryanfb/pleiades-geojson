@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Vicus Iugarius",
   "id": "889101791",
-  "description": "An ancient street that led from the Forum Romanum to the porta Carmentalis, passing between the basilica Iulia and the temple of Castor.",
   "bbox": [
     12.4852084,
     41.8914913,
     12.4852084,
     41.8914913
   ],
+  "description": "An ancient street that led from the Forum Romanum to the porta Carmentalis, passing between the basilica Iulia and the temple of Castor.",
   "connectsWith": [
     "502866838",
     "423025"
   ],
-  "reprPoint": [
-    12.4852084,
-    41.8914913
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4852084,
+          41.8914913
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

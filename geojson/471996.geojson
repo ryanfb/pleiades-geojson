@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Phintonis (island)",
   "id": "471996",
-  "description": "An ancient place, cited: BAtlas 48 B1 Phintonis Ins.",
   "bbox": [
     9.346667,
     41.285556,
     9.372556,
     41.301667
   ],
+  "description": "An ancient place, cited: BAtlas 48 B1 Phintonis Ins.",
   "connectsWith": [
     "471909"
-  ],
-  "reprPoint": [
-    9.35955566667,
-    41.2949253333
   ],
   "names": [
     "Phintonis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.35955566667,
+          41.2949253333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.0
             ],
             [
-              9.0,
-              42.0
-            ],
-            [
-              10.0,
-              42.0
-            ],
-            [
               10.0,
               41.0
+            ],
+            [
+              10.0,
+              42.0
+            ],
+            [
+              9.0,
+              42.0
             ],
             [
               9.0,

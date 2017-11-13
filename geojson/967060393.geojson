@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 38A (Milking Gap)",
   "id": "967060393",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.363086,
     55.005353,
     -2.363086,
     55.005353
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.363086,
-    55.005353
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.363086,
+          55.005353
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

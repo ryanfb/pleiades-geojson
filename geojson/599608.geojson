@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Elytas (river)",
   "id": "599608",
-  "description": "An ancient place, cited: BAtlas 61 A3 Elytas fl.",
   "bbox": [
     25.19,
     37.05,
     25.19,
     37.05
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Elytas fl.",
   "connectsWith": [
     "599868"
-  ],
-  "reprPoint": [
-    25.19,
-    37.05
   ],
   "names": [
     "Elytas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.19,
+          37.05
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.0
             ],
             [
-              25.0,
-              37.5
-            ],
-            [
-              25.5,
-              37.5
-            ],
-            [
               25.5,
               37.0
+            ],
+            [
+              25.5,
+              37.5
+            ],
+            [
+              25.0,
+              37.5
             ],
             [
               25.0,

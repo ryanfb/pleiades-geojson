@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Alpes Cottiae",
   "id": "167636",
-  "description": "Alpes Cottiae (Cottian Alps) are a mountain range located the southwestern part of the Alps. They take their name from Marcus Julius Cottius.",
   "bbox": [
     6.965954,
     44.6675,
     7.091667,
     44.673376
   ],
+  "description": "Alpes Cottiae (Cottian Alps) are a mountain range located the southwestern part of the Alps. They take their name from Marcus Julius Cottius.",
   "connectsWith": [
     "783"
-  ],
-  "reprPoint": [
-    7.0288105,
-    44.670438
   ],
   "names": [
     "Alpes Cottiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0288105,
+          44.670438
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               44.5
             ],
             [
-              6.5,
-              45.0
-            ],
-            [
-              7.0,
-              45.0
-            ],
-            [
               7.0,
               44.5
+            ],
+            [
+              7.0,
+              45.0
+            ],
+            [
+              6.5,
+              45.0
             ],
             [
               6.5,

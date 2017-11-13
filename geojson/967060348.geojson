@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 7B (Denton)",
   "id": "967060348",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.691361,
     54.984115,
     -1.691238,
     54.984188
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.6912986414,
-    54.9841515586
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6912986414,
+          54.9841515586
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -1.691361,
-              54.984138,
+              -1.691238,
+              54.984166,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -1.691238,
-              54.984166,
+              -1.691361,
+              54.984138,
               0.0
             ],
             [

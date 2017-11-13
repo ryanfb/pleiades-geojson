@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Arsanias (river)",
   "id": "874355",
-  "description": "Arsanias fl. is a river of eastern Turkey and a major source of the Euphrates fl.",
   "bbox": [
     39.0,
     38.0,
     40.0,
     39.0
   ],
+  "description": "Arsanias fl. is a river of eastern Turkey and a major source of the Euphrates fl.",
   "connectsWith": [
     "912849"
-  ],
-  "reprPoint": [
-    39.5,
-    38.5
   ],
   "names": [
     "Arsanias",
     "Arsinos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               38.0
             ],
             [
-              39.0,
-              39.0
-            ],
-            [
-              40.0,
-              39.0
-            ],
-            [
               40.0,
               38.0
+            ],
+            [
+              40.0,
+              39.0
+            ],
+            [
+              39.0,
+              39.0
             ],
             [
               39.0,

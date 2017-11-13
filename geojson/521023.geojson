@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gypopolis Collis",
   "id": "521023",
-  "description": "An ancient place, cited: BAtlas 53 B2 Gypopolis Collis",
   "bbox": [
     29.0,
     41.0,
     29.25,
     41.25
   ],
-  "reprPoint": [
-    29.125,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 B2 Gypopolis Collis",
   "names": [
     "Gypopolis Collis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.125,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              29.0,
-              41.25
-            ],
-            [
-              29.25,
-              41.25
-            ],
-            [
               29.25,
               41.0
+            ],
+            [
+              29.25,
+              41.25
+            ],
+            [
+              29.0,
+              41.25
             ],
             [
               29.0,

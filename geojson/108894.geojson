@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Col. Augusta Treverorum",
   "id": "108894",
-  "description": "The chief ancient city (civitas) of the Treveri. Modern Trier in Germany.",
   "bbox": [
     6.626667,
     49.751944,
     6.626667,
     49.751944
   ],
+  "description": "The chief ancient city (civitas) of the Treveri. Modern Trier in Germany.",
   "connectsWith": [
     "109390"
-  ],
-  "reprPoint": [
-    6.626667,
-    49.751944
   ],
   "names": [
     "Col. Augusta Treverorum",
     "Trier"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626667,
+          49.751944
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

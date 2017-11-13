@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Koprivnica",
   "id": "207214",
-  "description": "An ancient place, cited: BAtlas 21 E5 Koprivnica",
   "bbox": [
     22.356548,
     44.016204,
     22.356548,
     44.016204
   ],
-  "reprPoint": [
-    22.356548,
-    44.016204
-  ],
+  "description": "An ancient place, cited: BAtlas 21 E5 Koprivnica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.356548,
+          44.016204
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

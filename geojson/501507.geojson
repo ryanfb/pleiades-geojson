@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Maroneia",
   "id": "501507",
-  "description": "An ancient place, cited: BAtlas 51 F3 Maroneia",
   "bbox": [
     25.509974,
     40.872999,
     25.512878,
     40.874503
   ],
+  "description": "An ancient place, cited: BAtlas 51 F3 Maroneia",
   "connectsWith": [
     "501468"
-  ],
-  "reprPoint": [
-    25.511426,
-    40.873751
   ],
   "names": [
     "Maroneia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.511426,
+          40.873751
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

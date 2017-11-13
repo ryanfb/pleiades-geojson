@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mesambrie?",
   "id": "922680",
-  "description": "An ancient place, cited: BAtlas 94 A5 Mesambrie?",
   "bbox": [
     50.0,
     28.0,
     51.0,
     29.0
   ],
-  "reprPoint": [
-    50.5,
-    28.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 A5 Mesambrie?",
   "names": [
     "Mesambrie"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5,
+          28.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               28.0
             ],
             [
-              50.0,
-              29.0
-            ],
-            [
-              51.0,
-              29.0
-            ],
-            [
               51.0,
               28.0
+            ],
+            [
+              51.0,
+              29.0
+            ],
+            [
+              50.0,
+              29.0
             ],
             [
               50.0,

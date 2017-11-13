@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Codanus? Sinus",
   "id": "98940",
-  "description": "An ancient place, cited: BAtlas 10 D2 Codanus? Sinus",
   "bbox": [
     7.0,
     54.0,
     8.0,
     55.0
   ],
-  "reprPoint": [
-    7.5,
-    54.5
-  ],
+  "description": "An ancient place, cited: BAtlas 10 D2 Codanus? Sinus",
   "names": [
     "Codanus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          54.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               54.0
             ],
             [
-              7.0,
-              55.0
-            ],
-            [
-              8.0,
-              55.0
-            ],
-            [
               8.0,
               54.0
+            ],
+            [
+              8.0,
+              55.0
+            ],
+            [
+              7.0,
+              55.0
             ],
             [
               7.0,

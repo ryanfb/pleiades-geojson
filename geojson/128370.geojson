@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Břeclav",
   "id": "128370",
-  "description": "An ancient place, cited: BAtlas 13 B4 Břeclav",
   "bbox": [
     16.880741,
     48.760208,
     16.880741,
     48.760208
   ],
-  "reprPoint": [
-    16.880741,
-    48.760208
-  ],
+  "description": "An ancient place, cited: BAtlas 13 B4 Břeclav",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.880741,
+          48.760208
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

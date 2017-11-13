@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Leucolla Pr.",
   "id": "638959",
-  "description": "An ancient place, cited: BAtlas 65 G4 Leucolla Pr.",
   "bbox": [
     31.5,
     36.5,
     32.0,
     37.0
   ],
-  "reprPoint": [
-    31.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 G4 Leucolla Pr.",
   "names": [
     "Leucolla Pr.",
     "Leukotheion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               36.5
             ],
             [
-              31.5,
-              37.0
-            ],
-            [
-              32.0,
-              37.0
-            ],
-            [
               32.0,
               36.5
+            ],
+            [
+              32.0,
+              37.0
+            ],
+            [
+              31.5,
+              37.0
             ],
             [
               31.5,

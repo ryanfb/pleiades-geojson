@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Niphates M.",
   "id": "874622",
-  "description": "A mountain range in Armenia, belonging to the eastern Taurus massif.",
   "bbox": [
     42.0,
     38.0,
     43.0,
     39.0
   ],
-  "reprPoint": [
-    42.5,
-    38.5
-  ],
+  "description": "A mountain range in Armenia, belonging to the eastern Taurus massif.",
   "names": [
     "Niphates M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              42.0,
-              39.0
-            ],
-            [
-              43.0,
-              39.0
-            ],
-            [
               43.0,
               38.0
+            ],
+            [
+              43.0,
+              39.0
+            ],
+            [
+              42.0,
+              39.0
             ],
             [
               42.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Deirouné",
   "id": "587486979",
-  "description": "An ancient place, located in modern Syria, with remains of a monastic chapel. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
   "bbox": [
     36.660229,
     36.211178,
     36.660229,
     36.211178
   ],
-  "reprPoint": [
-    36.660229,
-    36.211178
-  ],
+  "description": "An ancient place, located in modern Syria, with remains of a monastic chapel. Inscribed as a UNESCO World Heritage Site in 2011 as part of the \"Ancient Villages of Northern Syria.\"",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.660229,
+          36.211178
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

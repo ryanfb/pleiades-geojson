@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Vomanus (river)",
   "id": "413392",
-  "description": "The Vomano river in Abruzzo flows into the Adriatic Sea.",
   "bbox": [
     14.033333,
     42.65,
     14.033333,
     42.65
   ],
+  "description": "The Vomano river in Abruzzo flows into the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    14.033333,
-    42.65
   ],
   "names": [
     "Vomanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.033333,
+          42.65
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

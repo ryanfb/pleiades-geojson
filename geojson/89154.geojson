@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Crawford",
   "id": "89154",
-  "description": "Site of a small Roman fort between Castledykes and Tassiesholm. The fort was discovered in 1938 and excavated in 1961-66.",
   "bbox": [
     -3.654134,
     55.470202,
     -3.654134,
     55.470202
   ],
+  "description": "Site of a small Roman fort between Castledykes and Tassiesholm. The fort was discovered in 1938 and excavated in 1961-66.",
   "connectsWith": [
     "89145"
   ],
-  "reprPoint": [
-    -3.654134,
-    55.470202
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.654134,
+          55.470202
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

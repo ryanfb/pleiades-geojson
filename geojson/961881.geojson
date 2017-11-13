@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ar(e)ia",
   "id": "961881",
-  "description": "A region and Persian satrapy located in the area of the modern Afghan province of Herat. ",
   "bbox": [
     61.0,
     34.0,
     62.0,
     35.0
   ],
-  "reprPoint": [
-    61.5,
-    34.5
-  ],
+  "description": "A region and Persian satrapy located in the area of the modern Afghan province of Herat. ",
   "names": [
     "Areia",
     "Aria",
     "Arii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               34.0
             ],
             [
-              61.0,
-              35.0
-            ],
-            [
-              62.0,
-              35.0
-            ],
-            [
               62.0,
               34.0
+            ],
+            [
+              62.0,
+              35.0
+            ],
+            [
+              61.0,
+              35.0
             ],
             [
               61.0,

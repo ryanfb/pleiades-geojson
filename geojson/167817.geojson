@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lugdunensis",
   "id": "167817",
-  "description": "An ancient place, cited: BAtlas 17 C2 Lugdunensis",
   "bbox": [
     4.0,
     45.5,
     4.5,
     46.0
   ],
-  "reprPoint": [
-    4.25,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 C2 Lugdunensis",
   "names": [
     "Lugdunensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              4.0,
-              46.0
-            ],
-            [
-              4.5,
-              46.0
-            ],
-            [
               4.5,
               45.5
+            ],
+            [
+              4.5,
+              46.0
+            ],
+            [
+              4.0,
+              46.0
             ],
             [
               4.0,

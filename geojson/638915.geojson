@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Kestros (river)",
   "id": "638915",
-  "description": "The Kestros fl. is the modern Aksu river.",
   "bbox": [
     30.9204027,
     36.8540002,
     30.9204027,
     36.8540002
   ],
+  "description": "The Kestros fl. is the modern Aksu river.",
   "connectsWith": [
     "639035",
     "35475912"
-  ],
-  "reprPoint": [
-    30.9204027,
-    36.8540002
   ],
   "names": [
     "Kestros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9204027,
+          36.8540002
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

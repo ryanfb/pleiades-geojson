@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed Place",
   "id": "324841378",
-  "description": "An unnamed place of Tripolitana",
   "bbox": [
     15.03601,
     32.077157,
     15.03601,
     32.077157
   ],
-  "reprPoint": [
-    15.03601,
-    32.077157
-  ],
+  "description": "An unnamed place of Tripolitana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.03601,
+          32.077157
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               32.0
             ],
             [
-              14.0,
-              33.0
-            ],
-            [
-              15.0,
-              33.0
-            ],
-            [
               15.0,
               32.0
+            ],
+            [
+              15.0,
+              33.0
+            ],
+            [
+              14.0,
+              33.0
             ],
             [
               14.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Samothrace (island)",
   "id": "501597",
-  "description": "Samothrace is an island of the northern Aegean Sea.",
   "bbox": [
     25.582,
     40.453,
     25.582,
     40.453
   ],
+  "description": "Samothrace is an island of the northern Aegean Sea.",
   "connectsWith": [
     "599944"
-  ],
-  "reprPoint": [
-    25.582,
-    40.453
   ],
   "names": [
     "Samothrace"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.582,
+          40.453
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Tonberon (river)",
   "id": "60088",
-  "description": "The Hingol River flows some 350 miles (560 km) through Balochistan.",
   "bbox": [
     65.5449696,
     25.4335528,
     65.5449696,
     25.4335528
   ],
-  "reprPoint": [
-    65.5449696,
-    25.4335528
-  ],
+  "description": "The Hingol River flows some 350 miles (560 km) through Balochistan.",
   "names": [
     "Tonberon",
     "Lonibarai",
@@ -20,6 +16,19 @@
     "Tubero"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.5449696,
+          25.4335528
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               25.0
             ],
             [
-              65.0,
-              30.0
-            ],
-            [
-              70.0,
-              30.0
-            ],
-            [
               70.0,
               25.0
+            ],
+            [
+              70.0,
+              30.0
+            ],
+            [
+              65.0,
+              30.0
             ],
             [
               65.0,

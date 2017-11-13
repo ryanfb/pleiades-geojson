@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aqua Marcia",
   "id": "423565",
-  "description": "The Aqua Marcia was the longest of Rome's 11 aqueducts.",
   "bbox": [
     12.5393485,
     41.8709452,
     12.5393485,
     41.8709452
   ],
+  "description": "The Aqua Marcia was the longest of Rome's 11 aqueducts.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.5393485,
-    41.8709452
   ],
   "names": [
     "Aqua Marcia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5393485,
+          41.8709452
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sarno",
   "id": "433101",
-  "description": "An ancient place, cited: BAtlas 44 G4 Sarno",
   "bbox": [
     14.619565,
     40.811763,
     14.619565,
     40.811763
   ],
-  "reprPoint": [
-    14.619565,
-    40.811763
-  ],
+  "description": "An ancient place, cited: BAtlas 44 G4 Sarno",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.619565,
+          40.811763
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

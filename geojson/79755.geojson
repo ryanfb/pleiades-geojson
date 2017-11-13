@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Weycock Hill",
   "id": "79755",
-  "description": "Weycock Hill is the site of a Roman temple excavated in 1847.",
   "bbox": [
     -0.81456,
     51.504277,
     -0.81456,
     51.504277
   ],
-  "reprPoint": [
-    -0.81456,
-    51.504277
-  ],
+  "description": "Weycock Hill is the site of a Roman temple excavated in 1847.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.81456,
+          51.504277
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Epirus",
   "id": "530871",
-  "description": "An ancient region that included northwest parts of modern Greece and the southern tip of modern Albania.",
   "bbox": [
     20.056564,
     39.271166,
     20.925409,
     39.913912
   ],
-  "reprPoint": [
-    20.5903873222,
-    39.5770730222
-  ],
+  "description": "An ancient region that included northwest parts of modern Greece and the southern tip of modern Albania.",
   "names": [
     "Epirus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5903873222,
+          39.5770730222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              20.0,
-              40.0
-            ],
-            [
-              20.5,
-              40.0
-            ],
-            [
               20.5,
               39.5
+            ],
+            [
+              20.5,
+              40.0
+            ],
+            [
+              20.0,
+              40.0
             ],
             [
               20.0,

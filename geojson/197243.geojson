@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Delmatae",
   "id": "197243",
-  "description": "An ancient place, cited: BAtlas 20 D6 Delmatae",
   "bbox": [
     16.055704,
     43.700462,
     16.055704,
     43.700462
   ],
-  "reprPoint": [
-    16.055704,
-    43.700462
-  ],
+  "description": "An ancient place, cited: BAtlas 20 D6 Delmatae",
   "names": [
     "Delmatae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.055704,
+          43.700462
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              16.0,
-              44.0
-            ],
-            [
-              17.0,
-              44.0
-            ],
-            [
               17.0,
               43.0
+            ],
+            [
+              17.0,
+              44.0
+            ],
+            [
+              16.0,
+              44.0
             ],
             [
               16.0,

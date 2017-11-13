@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Unnamed Bridge",
   "id": "169130",
-  "description": "A bridge near Col. Dea Vocontiorum",
   "bbox": [
     5.373905,
     44.749626,
     5.373905,
     44.749626
   ],
+  "description": "A bridge near Col. Dea Vocontiorum",
   "connectsWith": [
     "167745",
     "167716"
   ],
-  "reprPoint": [
-    5.373905,
-    44.749626
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.373905,
+          44.749626
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               44.5
             ],
             [
-              5.0,
-              45.0
-            ],
-            [
-              5.5,
-              45.0
-            ],
-            [
               5.5,
               44.5
+            ],
+            [
+              5.5,
+              45.0
+            ],
+            [
+              5.0,
+              45.0
             ],
             [
               5.0,

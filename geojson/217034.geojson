@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Utus (river)",
   "id": "217034",
-  "description": "An ancient place, cited: BAtlas 22 B5 Utus fl.",
   "bbox": [
     24.0,
     43.0,
     25.0,
     44.0
   ],
-  "reprPoint": [
-    24.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 B5 Utus fl.",
   "names": [
     "Utus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              24.0,
-              44.0
-            ],
-            [
-              25.0,
-              44.0
-            ],
-            [
               25.0,
               43.0
+            ],
+            [
+              25.0,
+              44.0
+            ],
+            [
+              24.0,
+              44.0
             ],
             [
               24.0,

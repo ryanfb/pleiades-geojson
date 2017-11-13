@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Dacia Porolissensis",
   "id": "981520",
-  "description": "Sometime after AD 124, Dacia Superior was sub-divided into two provinces: Dacia Apulensis and Dacia Porolissensis.",
   "bbox": [
     20.0,
     45.0,
     25.0,
     50.0
   ],
-  "reprPoint": [
-    22.5,
-    47.5
-  ],
+  "description": "Sometime after AD 124, Dacia Superior was sub-divided into two provinces: Dacia Apulensis and Dacia Porolissensis.",
   "names": [
     "Dacia Porolissensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              20.0,
-              50.0
-            ],
-            [
-              25.0,
-              50.0
-            ],
-            [
               25.0,
               45.0
+            ],
+            [
+              25.0,
+              50.0
+            ],
+            [
+              20.0,
+              50.0
             ],
             [
               20.0,

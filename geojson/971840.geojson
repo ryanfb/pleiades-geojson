@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pareitakene",
   "id": "971840",
-  "description": "An ancient place, cited: BAtlas 99 B1 Pareitakene",
   "bbox": [
     67.0,
     38.0,
     68.0,
     39.0
   ],
+  "description": "An ancient place, cited: BAtlas 99 B1 Pareitakene",
   "connectsWith": [
     "60058"
-  ],
-  "reprPoint": [
-    67.5,
-    38.5
   ],
   "names": [
     "Pareitakene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.0
             ],
             [
-              67.0,
-              39.0
-            ],
-            [
-              68.0,
-              39.0
-            ],
-            [
               68.0,
               38.0
+            ],
+            [
+              68.0,
+              39.0
+            ],
+            [
+              67.0,
+              39.0
             ],
             [
               67.0,

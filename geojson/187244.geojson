@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Acronus L.",
   "id": "187244",
-  "description": "An ancient place, cited: BAtlas 19 A2 Acronus L.",
   "bbox": [
     8.0,
     47.0,
     9.0,
     48.0
   ],
-  "reprPoint": [
-    8.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 19 A2 Acronus L.",
   "names": [
     "Acronus L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              8.0,
-              48.0
-            ],
-            [
-              9.0,
-              48.0
-            ],
-            [
               9.0,
               47.0
+            ],
+            [
+              9.0,
+              48.0
+            ],
+            [
+              8.0,
+              48.0
             ],
             [
               8.0,

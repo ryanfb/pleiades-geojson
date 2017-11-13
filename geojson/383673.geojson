@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iadatini",
   "id": "383673",
-  "description": "An ancient place, cited: BAtlas 39 C3 Iadatini",
   "bbox": [
     8.0,
     45.0,
     8.5,
     45.5
   ],
-  "reprPoint": [
-    8.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 C3 Iadatini",
   "names": [
     "Iadatini"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              8.0,
-              45.5
-            ],
-            [
-              8.5,
-              45.5
-            ],
-            [
               8.5,
               45.0
+            ],
+            [
+              8.5,
+              45.5
+            ],
+            [
+              8.0,
+              45.5
             ],
             [
               8.0,

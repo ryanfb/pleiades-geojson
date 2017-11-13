@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eudemia (island)",
   "id": "540778",
-  "description": "An ancient place, cited: BAtlas 55 F2 Eudemia Ins.",
   "bbox": [
     23.9502623,
     39.1684724,
     23.9502623,
     39.1684724
   ],
-  "reprPoint": [
-    23.9502623,
-    39.1684724
-  ],
+  "description": "An ancient place, cited: BAtlas 55 F2 Eudemia Ins.",
   "names": [
     "Eudemia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9502623,
+          39.1684724
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              23.5,
-              39.5
-            ],
-            [
-              24.0,
-              39.5
-            ],
-            [
               24.0,
               39.0
+            ],
+            [
+              24.0,
+              39.5
+            ],
+            [
+              23.5,
+              39.5
             ],
             [
               23.5,

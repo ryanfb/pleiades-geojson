@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Graioceli?",
   "id": "167785",
-  "description": "An ancient place, cited: BAtlas 17 G3 Graioceli?",
   "bbox": [
     6.0,
     45.0,
     6.5,
     45.5
   ],
-  "reprPoint": [
-    6.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 17 G3 Graioceli?",
   "names": [
     "Graioceli"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              6.0,
-              45.5
-            ],
-            [
-              6.5,
-              45.5
-            ],
-            [
               6.5,
               45.0
+            ],
+            [
+              6.5,
+              45.5
+            ],
+            [
+              6.0,
+              45.5
             ],
             [
               6.0,

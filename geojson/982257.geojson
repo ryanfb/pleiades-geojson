@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Graiae et Poeninae",
   "id": "982257",
-  "description": "Alpes Graiae et Poeninae, a small Alpine province of the Roman Empire. There were three such provinces in the western Alps. Alpes Graiae et Poeninae comprised the Val d'Aosta region and the Canton Valais in Switzerland.",
   "bbox": [
     5.0,
     45.0,
     10.0,
     50.0
   ],
-  "reprPoint": [
-    7.5,
-    47.5
-  ],
+  "description": "Alpes Graiae et Poeninae, a small Alpine province of the Roman Empire. There were three such provinces in the western Alps. Alpes Graiae et Poeninae comprised the Val d'Aosta region and the Canton Valais in Switzerland.",
   "names": [
     "Alpes Graiae et Poeninae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              5.0,
-              50.0
-            ],
-            [
-              10.0,
-              50.0
-            ],
-            [
               10.0,
               45.0
+            ],
+            [
+              10.0,
+              50.0
+            ],
+            [
+              5.0,
+              50.0
             ],
             [
               5.0,

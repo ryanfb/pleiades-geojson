@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Warka Survey",
   "id": "300354623",
-  "description": "A place from the TAVO Index",
   "bbox": [
     45.0,
     31.0,
     46.0,
     32.0
   ],
-  "reprPoint": [
-    45.5,
-    31.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Warka Survey",
     "WS"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               31.0
             ],
             [
-              45.0,
-              32.0
-            ],
-            [
-              46.0,
-              32.0
-            ],
-            [
               46.0,
               31.0
+            ],
+            [
+              46.0,
+              32.0
+            ],
+            [
+              45.0,
+              32.0
             ],
             [
               45.0,

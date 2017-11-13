@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Akesinos/Sandabal (river)",
   "id": "59664",
-  "description": "A tributary of the Indus river.",
   "bbox": [
     67.59,
     24.07,
     72.6661687,
     34.0484606
   ],
+  "description": "A tributary of the Indus river.",
   "connectsWith": [
     "59851"
-  ],
-  "reprPoint": [
-    70.12808435,
-    29.0592303
   ],
   "names": [
     "Akesinos",
@@ -22,6 +18,19 @@
     "Cantaba"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.12808435,
+          29.0592303
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               30.0
             ],
             [
-              70.0,
-              35.0
-            ],
-            [
-              75.0,
-              35.0
-            ],
-            [
               75.0,
               30.0
+            ],
+            [
+              75.0,
+              35.0
+            ],
+            [
+              70.0,
+              35.0
             ],
             [
               70.0,

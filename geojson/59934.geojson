@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mirzapur",
   "id": "59934",
-  "description": "An ancient place, cited: BAtlas 6 E4 Mirzapur",
   "bbox": [
     82.299705,
     25.219374,
     82.299705,
     25.219374
   ],
-  "reprPoint": [
-    82.299705,
-    25.219374
-  ],
+  "description": "An ancient place, cited: BAtlas 6 E4 Mirzapur",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.299705,
+          25.219374
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

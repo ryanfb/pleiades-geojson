@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Goaris (river)",
   "id": "49989",
-  "description": "An ancient place, cited: BAtlas 5 C3 Goaris fl.",
   "bbox": [
     70.0,
     15.0,
     75.0,
     20.0
   ],
-  "reprPoint": [
-    72.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C3 Goaris fl.",
   "names": [
     "Goaris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               15.0
             ],
             [
-              70.0,
-              20.0
-            ],
-            [
-              75.0,
-              20.0
-            ],
-            [
               75.0,
               15.0
+            ],
+            [
+              75.0,
+              20.0
+            ],
+            [
+              70.0,
+              20.0
             ],
             [
               70.0,

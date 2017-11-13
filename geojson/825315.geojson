@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Limnaioi",
   "id": "825315",
-  "description": "An ancient place, cited: BAtlas 84 A2 Limnaioi",
   "bbox": [
     35.0,
     46.0,
     36.0,
     47.0
   ],
-  "reprPoint": [
-    35.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 A2 Limnaioi",
   "names": [
     "Limnaioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              35.0,
-              47.0
-            ],
-            [
-              36.0,
-              47.0
-            ],
-            [
               36.0,
               46.0
+            ],
+            [
+              36.0,
+              47.0
+            ],
+            [
+              35.0,
+              47.0
             ],
             [
               35.0,

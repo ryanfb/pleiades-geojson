@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ad Aras",
   "id": "265767",
-  "description": "An ancient place, cited: BAtlas 27 B3 Ad Aras",
   "bbox": [
     -4.0,
     38.0,
     -3.0,
     39.0
   ],
-  "reprPoint": [
-    -3.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B3 Ad Aras",
   "names": [
     "Ad Aras"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              -4.0,
-              39.0
-            ],
-            [
-              -3.0,
-              39.0
-            ],
-            [
               -3.0,
               38.0
+            ],
+            [
+              -3.0,
+              39.0
+            ],
+            [
+              -4.0,
+              39.0
             ],
             [
               -4.0,

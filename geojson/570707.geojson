@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tegea",
   "id": "570707",
-  "description": "Tegea was an ancient city of Arcadia. It is especially noted for its sanctuary dedicated to Athena Alea.",
   "bbox": [
     22.420458,
     37.455301,
     22.429387,
     37.464048
   ],
+  "description": "Tegea was an ancient city of Arcadia. It is especially noted for its sanctuary dedicated to Athena Alea.",
   "connectsWith": [
     "570102"
-  ],
-  "reprPoint": [
-    22.424283,
-    37.4596135
   ],
   "names": [
     "Tegea"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.424283,
+          37.4596135
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

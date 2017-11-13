@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Iazamatai/Ixibatai",
   "id": "825275",
-  "description": "An ancient place, cited: BAtlas 84 E1 Iazamatai/Ixibatai",
   "bbox": [
     39.0,
     47.0,
     40.0,
     48.0
   ],
-  "reprPoint": [
-    39.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 E1 Iazamatai/Ixibatai",
   "names": [
     "Iazamatai",
     "Ixibatai",
@@ -23,6 +19,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -32,16 +41,16 @@
               47.0
             ],
             [
-              39.0,
-              48.0
-            ],
-            [
-              40.0,
-              48.0
-            ],
-            [
               40.0,
               47.0
+            ],
+            [
+              40.0,
+              48.0
+            ],
+            [
+              39.0,
+              48.0
             ],
             [
               39.0,

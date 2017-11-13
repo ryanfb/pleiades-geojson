@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Castro",
   "id": "413072",
-  "description": "An ancient place, cited: BAtlas 42 B3 Castro",
   "bbox": [
     11.6494503,
     42.5330135,
     11.6494503,
     42.5330135
   ],
-  "reprPoint": [
-    11.6494503,
-    42.5330135
-  ],
+  "description": "An ancient place, cited: BAtlas 42 B3 Castro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6494503,
+          42.5330135
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

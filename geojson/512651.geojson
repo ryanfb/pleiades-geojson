@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "512651",
-  "description": "An ancient place, cited: BAtlas 52 F3 unnamed bridge (W *Nerola)",
   "bbox": [
     29.5,
     40.5,
     30.0,
     41.0
   ],
-  "reprPoint": [
-    29.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F3 unnamed bridge (W *Nerola)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.5
             ],
             [
-              29.5,
-              41.0
-            ],
-            [
-              30.0,
-              41.0
-            ],
-            [
               30.0,
               40.5
+            ],
+            [
+              30.0,
+              41.0
+            ],
+            [
+              29.5,
+              41.0
             ],
             [
               29.5,

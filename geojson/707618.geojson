@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarka",
   "id": "707618",
-  "description": "An ancient place, cited: BAtlas 72 B3 Sarka",
   "bbox": [
     32.659182,
     34.918158,
     32.659182,
     34.918158
   ],
+  "description": "An ancient place, cited: BAtlas 72 B3 Sarka",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.659182,
-    34.918158
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.659182,
+          34.918158
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

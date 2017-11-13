@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gilpil (river)",
   "id": "207135",
-  "description": "An ancient place, cited: BAtlas 21 D3 Gilpil fl.",
   "bbox": [
     21.0,
     46.0,
     22.0,
     47.0
   ],
-  "reprPoint": [
-    21.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 D3 Gilpil fl.",
   "names": [
     "Gilpil"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              21.0,
-              47.0
-            ],
-            [
-              22.0,
-              47.0
-            ],
-            [
               22.0,
               46.0
+            ],
+            [
+              22.0,
+              47.0
+            ],
+            [
+              21.0,
+              47.0
             ],
             [
               21.0,

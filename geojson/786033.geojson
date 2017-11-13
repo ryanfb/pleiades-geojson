@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Hamra",
   "id": "786033",
-  "description": "An ancient place, cited: BAtlas 80 D1 Hamra",
   "bbox": [
     33.909506,
     26.002499,
     33.909506,
     26.002499
   ],
-  "reprPoint": [
-    33.909506,
-    26.002499
-  ],
+  "description": "An ancient place, cited: BAtlas 80 D1 Hamra",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.909506,
+          26.002499
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

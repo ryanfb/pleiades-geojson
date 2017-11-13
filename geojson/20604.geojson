@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sitones?",
   "id": "20604",
-  "description": "The Sitones? were a Germanic or Finnic people living somewhere in northern Europe.",
   "bbox": [
     20.0,
     55.0,
     25.0,
     60.0
   ],
-  "reprPoint": [
-    22.5,
-    57.5
-  ],
+  "description": "The Sitones? were a Germanic or Finnic people living somewhere in northern Europe.",
   "names": [
     "Sitones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          57.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.0
             ],
             [
-              20.0,
-              60.0
-            ],
-            [
-              25.0,
-              60.0
-            ],
-            [
               25.0,
               55.0
+            ],
+            [
+              25.0,
+              60.0
+            ],
+            [
+              20.0,
+              60.0
             ],
             [
               20.0,

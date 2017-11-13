@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Zanǧān",
   "id": "659929984",
-  "description": "A place from the TAVO Index",
   "bbox": [
     48.0,
     36.0,
     49.0,
     37.0
   ],
-  "reprPoint": [
-    48.5,
-    36.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Zanǧān",
     "Zanǧān",
@@ -21,6 +17,19 @@
     "Zanǧan"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               36.0
             ],
             [
-              48.0,
-              37.0
-            ],
-            [
-              49.0,
-              37.0
-            ],
-            [
               49.0,
               36.0
+            ],
+            [
+              49.0,
+              37.0
+            ],
+            [
+              48.0,
+              37.0
             ],
             [
               48.0,

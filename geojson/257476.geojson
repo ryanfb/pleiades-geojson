@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257476",
-  "description": "An ancient place, cited: BAtlas 26 D5 unnamed bridge (N Ad Pontem, over R. Suazo)",
   "bbox": [
     -7.0,
     36.0,
     -6.0,
     37.0
   ],
-  "reprPoint": [
-    -6.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D5 unnamed bridge (N Ad Pontem, over R. Suazo)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              -7.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
               -6.0,
               36.0
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -7.0,
+              37.0
             ],
             [
               -7.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Karpasiai Inss.",
   "id": "707527",
-  "description": "An ancient place, cited: BAtlas 72 E1 Karpasiai Inss.",
   "bbox": [
     34.0,
     35.5,
     34.5,
     36.0
   ],
+  "description": "An ancient place, cited: BAtlas 72 E1 Karpasiai Inss.",
   "connectsWith": [
     "668339"
-  ],
-  "reprPoint": [
-    34.25,
-    35.75
   ],
   "names": [
     "Karpasiai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.25,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               35.5
             ],
             [
-              34.0,
-              36.0
-            ],
-            [
-              34.5,
-              36.0
-            ],
-            [
               34.5,
               35.5
+            ],
+            [
+              34.5,
+              36.0
+            ],
+            [
+              34.0,
+              36.0
             ],
             [
               34.0,

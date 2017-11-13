@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ordovices",
   "id": "79630",
-  "description": "An ancient place, cited: BAtlas 8 D2 Ordovices",
   "bbox": [
     -4.0,
     52.0,
     -3.0,
     53.0
   ],
-  "reprPoint": [
-    -3.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 D2 Ordovices",
   "names": [
     "Ordovices"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               52.0
             ],
             [
-              -4.0,
-              53.0
-            ],
-            [
-              -3.0,
-              53.0
-            ],
-            [
               -3.0,
               52.0
+            ],
+            [
+              -3.0,
+              53.0
+            ],
+            [
+              -4.0,
+              53.0
             ],
             [
               -4.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Malea Pr.",
   "id": "570455",
-  "description": "An ancient place, cited: BAtlas 58 E5 Malea Pr.",
   "bbox": [
     23.0,
     36.0,
     23.5,
     36.5
   ],
+  "description": "An ancient place, cited: BAtlas 58 E5 Malea Pr.",
   "connectsWith": [
     "570577"
-  ],
-  "reprPoint": [
-    23.25,
-    36.25
   ],
   "names": [
     "Malea Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.0
             ],
             [
-              23.0,
-              36.5
-            ],
-            [
-              23.5,
-              36.5
-            ],
-            [
               23.5,
               36.0
+            ],
+            [
+              23.5,
+              36.5
+            ],
+            [
+              23.0,
+              36.5
             ],
             [
               23.0,

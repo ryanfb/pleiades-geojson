@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Acroceraunia Pr.",
   "id": "481693",
-  "description": "An ancient place, cited: BAtlas 49 B3 Acroceraunia Pr.",
   "bbox": [
     19.0,
     40.0,
     20.0,
     41.0
   ],
-  "reprPoint": [
-    19.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 B3 Acroceraunia Pr.",
   "names": [
     "Acroceraunia Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              19.0,
-              41.0
-            ],
-            [
-              20.0,
-              41.0
-            ],
-            [
               20.0,
               40.0
+            ],
+            [
+              20.0,
+              41.0
+            ],
+            [
+              19.0,
+              41.0
             ],
             [
               19.0,

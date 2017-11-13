@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "376007",
-  "description": "Kainopolis → Lasamices?",
   "bbox": [
     19.0,
     29.0,
     24.0,
     33.0
   ],
-  "reprPoint": [
-    21.5,
-    31.0
-  ],
+  "description": "Kainopolis → Lasamices?",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          31.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               29.0
             ],
             [
-              19.0,
-              33.0
-            ],
-            [
-              24.0,
-              33.0
-            ],
-            [
               24.0,
               29.0
+            ],
+            [
+              24.0,
+              33.0
+            ],
+            [
+              19.0,
+              33.0
             ],
             [
               19.0,

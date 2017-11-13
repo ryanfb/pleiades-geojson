@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bararus",
   "id": "324673",
-  "description": "An ancient place, cited: BAtlas 33 G2 Bararus",
   "bbox": [
     10.791179,
     35.211896,
     10.791179,
     35.211896
   ],
-  "reprPoint": [
-    10.791179,
-    35.211896
-  ],
+  "description": "An ancient place, cited: BAtlas 33 G2 Bararus",
   "names": [
     "Bararus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.791179,
+          35.211896
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              10.5,
-              35.5
-            ],
-            [
-              11.0,
-              35.5
-            ],
-            [
               11.0,
               35.0
+            ],
+            [
+              11.0,
+              35.5
+            ],
+            [
+              10.5,
+              35.5
             ],
             [
               10.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tetios? (river)",
   "id": "707630",
-  "description": "An ancient place, cited: BAtlas 72 D3 Tetios? fl.",
   "bbox": [
     33.5,
     34.5,
     34.0,
     35.0
   ],
-  "reprPoint": [
-    33.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 72 D3 Tetios? fl.",
   "names": [
     "Tetios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               34.5
             ],
             [
-              33.5,
-              35.0
-            ],
-            [
-              34.0,
-              35.0
-            ],
-            [
               34.0,
               34.5
+            ],
+            [
+              34.0,
+              35.0
+            ],
+            [
+              33.5,
+              35.0
             ],
             [
               33.5,

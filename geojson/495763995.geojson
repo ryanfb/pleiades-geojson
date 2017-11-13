@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "495763995",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     19.365792,
     44.116581,
     19.365792,
     44.116581
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "209137"
   ],
-  "reprPoint": [
-    19.365792,
-    44.116581
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.365792,
+          44.116581
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

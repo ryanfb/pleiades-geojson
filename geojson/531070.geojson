@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Poseidion Pr.",
   "id": "531070",
-  "description": "An ancient place, cited: BAtlas 54 A2 Poseidion Pr.",
   "bbox": [
     19.5,
     39.5,
     20.0,
     40.0
   ],
-  "reprPoint": [
-    19.75,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 54 A2 Poseidion Pr.",
   "names": [
     "Poseidion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              19.5,
-              40.0
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
               20.0,
               39.5
+            ],
+            [
+              20.0,
+              40.0
+            ],
+            [
+              19.5,
+              40.0
             ],
             [
               19.5,

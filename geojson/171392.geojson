@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "171392",
-  "description": "Col. Valentia → Morginnum",
   "bbox": [
     4.889528,
     44.929806,
     5.564349,
     45.326453
   ],
+  "description": "Col. Valentia → Morginnum",
   "connectsWith": [
     "167845",
     "167718"
   ],
-  "reprPoint": [
-    5.22702275,
-    45.128586
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.22702275,
+          45.128586
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               44.0
             ],
             [
-              3.0,
-              46.5
-            ],
-            [
-              7.5,
-              46.5
-            ],
-            [
               7.5,
               44.0
+            ],
+            [
+              7.5,
+              46.5
+            ],
+            [
+              3.0,
+              46.5
             ],
             [
               3.0,

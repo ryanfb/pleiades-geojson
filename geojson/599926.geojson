@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Samos (island)",
   "id": "599926",
-  "description": "The island of Samos.",
   "bbox": [
     26.84,
     37.73,
     26.84,
     37.73
   ],
+  "description": "The island of Samos.",
   "connectsWith": [
     "599668"
-  ],
-  "reprPoint": [
-    26.84,
-    37.73
   ],
   "names": [
     "Samos",
     "Sámos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.84,
+          37.73
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

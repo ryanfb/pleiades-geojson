@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Leucopetra Pr.",
   "id": "452366",
-  "description": "Leucopetra Pr. (Punta di Pellaro) in Calabria is the extreme southwestern point of mainland Italy.",
   "bbox": [
     15.5,
     38.0,
     16.0,
     38.5
   ],
-  "reprPoint": [
-    15.75,
-    38.25
-  ],
+  "description": "Leucopetra Pr. (Punta di Pellaro) in Calabria is the extreme southwestern point of mainland Italy.",
   "names": [
     "Leucopetra Pr.",
     "Bruttium Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              15.5,
-              38.5
-            ],
-            [
-              16.0,
-              38.5
-            ],
-            [
               16.0,
               38.0
+            ],
+            [
+              16.0,
+              38.5
+            ],
+            [
+              15.5,
+              38.5
             ],
             [
               15.5,

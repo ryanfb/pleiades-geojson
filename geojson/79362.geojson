@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Caer Gybi",
   "id": "79362",
-  "description": "Caer Gybi is the site of a Roman fortlet in Anglesey, Wales.",
   "bbox": [
     -4.633509,
     53.309458,
     -4.6328,
     53.3118
   ],
-  "reprPoint": [
-    -4.6331545,
-    53.310629
-  ],
+  "description": "Caer Gybi is the site of a Roman fortlet in Anglesey, Wales.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6331545,
+          53.310629
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

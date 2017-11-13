@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bir Massouda",
   "id": "513048413",
-  "description": "An archaeological site in Carthage showing signs of continuous habitation from ca. 760 BCE-700 CE.",
   "bbox": [
     10.3261562,
     36.8500936,
     10.3282441,
     36.8517261
   ],
+  "description": "An archaeological site in Carthage showing signs of continuous habitation from ca. 760 BCE-700 CE.",
   "connectsWith": [
     "314921"
   ],
-  "reprPoint": [
-    10.3271851783,
-    36.8508911811
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3271851783,
+          36.8508911811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,20 +36,20 @@
               36.8500936
             ],
             [
-              10.3262548,
-              36.8504633
-            ],
-            [
-              10.3261562,
-              36.850516
+              10.3282441,
+              36.8511989
             ],
             [
               10.3272994,
               36.8517261
             ],
             [
-              10.3282441,
-              36.8511989
+              10.3261562,
+              36.850516
+            ],
+            [
+              10.3262548,
+              36.8504633
             ],
             [
               10.327091,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bituriges Cubi",
   "id": "138225",
-  "description": "A Gallic tribe.",
   "bbox": [
     1.515499,
     46.588704,
     2.399168,
     47.08286
   ],
-  "reprPoint": [
-    1.95754275,
-    46.8382855
-  ],
+  "description": "A Gallic tribe.",
   "names": [
     "Bituriges Cubi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.95754275,
+          46.8382855
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              1.0,
-              48.0
-            ],
-            [
-              2.0,
-              48.0
-            ],
-            [
               2.0,
               47.0
+            ],
+            [
+              2.0,
+              48.0
+            ],
+            [
+              1.0,
+              48.0
             ],
             [
               1.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pyatigorsk",
   "id": "825362",
-  "description": "An ancient place, cited: BAtlas 84 I4 Pyatigorsk",
   "bbox": [
     43.023775,
     44.022305,
     43.023775,
     44.022305
   ],
-  "reprPoint": [
-    43.023775,
-    44.022305
-  ],
+  "description": "An ancient place, cited: BAtlas 84 I4 Pyatigorsk",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.023775,
+          44.022305
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

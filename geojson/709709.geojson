@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Unnamed road on Cyprus",
   "id": "709709",
-  "description": "Connecting Tremithous → Kition via Kelliake?; exact route uncertain.",
   "bbox": [
     33.603765,
     34.920211,
     33.632745,
     35.072406
   ],
+  "description": "Connecting Tremithous → Kition via Kelliake?; exact route uncertain.",
   "connectsWith": [
     "707636",
     "707530",
     "707534"
   ],
-  "reprPoint": [
-    33.6154533333,
-    34.991498
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6154533333,
+          34.991498
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               34.0
             ],
             [
-              32.0,
-              36.0
-            ],
-            [
-              35.0,
-              36.0
-            ],
-            [
               35.0,
               34.0
+            ],
+            [
+              35.0,
+              36.0
+            ],
+            [
+              32.0,
+              36.0
             ],
             [
               32.0,

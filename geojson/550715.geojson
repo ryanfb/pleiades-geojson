@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Malia Pr.",
   "id": "550715",
-  "description": "An ancient place, cited: BAtlas 56 D3 Malia Pr.",
   "bbox": [
     26.1342123,
     39.2074811,
     26.1342123,
     39.2074811
   ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Malia Pr.",
   "connectsWith": [
     "550696"
-  ],
-  "reprPoint": [
-    26.1342123,
-    39.2074811
   ],
   "names": [
     "Malia Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1342123,
+          39.2074811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               39.0
             ],
             [
-              26.5,
-              39.5
-            ],
-            [
-              27.0,
-              39.5
-            ],
-            [
               27.0,
               39.0
+            ],
+            [
+              27.0,
+              39.5
+            ],
+            [
+              26.5,
+              39.5
             ],
             [
               26.5,

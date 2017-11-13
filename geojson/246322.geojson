@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Celtiberia",
   "id": "246322",
-  "description": "Celtiberia was inhabited by Celtic-speaking tribes of the Hallstatt culture in the latter first millennium BC. Some attested tribal names include the Arevaci, Belli, Titti, Lusones, and Berones.",
   "bbox": [
     -4.0,
     41.0,
     -3.0,
     42.0
   ],
-  "reprPoint": [
-    -3.5,
-    41.5
-  ],
+  "description": "Celtiberia was inhabited by Celtic-speaking tribes of the Hallstatt culture in the latter first millennium BC. Some attested tribal names include the Arevaci, Belli, Titti, Lusones, and Berones.",
   "names": [
     "Celtiberia",
     "Celtiberi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              -4.0,
-              42.0
-            ],
-            [
-              -3.0,
-              42.0
-            ],
-            [
               -3.0,
               41.0
+            ],
+            [
+              -3.0,
+              42.0
+            ],
+            [
+              -4.0,
+              42.0
             ],
             [
               -4.0,

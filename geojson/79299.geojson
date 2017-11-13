@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Aquae Sulis",
   "id": "79299",
-  "description": "An ancient Roman thermal spa and site of the Temple of Sulis Minerva.",
   "bbox": [
     -2.359704,
     51.381041,
     -2.357446,
     51.381419
   ],
+  "description": "An ancient Roman thermal spa and site of the Temple of Sulis Minerva.",
   "connectsWith": [
     "656280677"
-  ],
-  "reprPoint": [
-    -2.358575,
-    51.38123
   ],
   "names": [
     "Aquae Sulis",
     "Bath"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.358575,
+          51.38123
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

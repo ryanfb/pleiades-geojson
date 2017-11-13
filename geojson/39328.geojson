@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Chardaleon",
   "id": "39328",
-  "description": "An ancient place, cited: BAtlas 4 B1 Chardaleon",
   "bbox": [
     40.0,
     20.0,
     45.0,
     25.0
   ],
-  "reprPoint": [
-    42.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 B1 Chardaleon",
   "names": [
     "Chardaleon",
     "Cardaleon",
     "Cardalena"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               20.0
             ],
             [
-              40.0,
-              25.0
-            ],
-            [
-              45.0,
-              25.0
-            ],
-            [
               45.0,
               20.0
+            ],
+            [
+              45.0,
+              25.0
+            ],
+            [
+              40.0,
+              25.0
             ],
             [
               40.0,

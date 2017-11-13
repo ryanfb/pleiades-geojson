@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Colle d’Armi",
   "id": "442548",
-  "description": "An ancient place, cited: BAtlas 45 B1 Colle d’Armi",
   "bbox": [
     15.123103,
     41.659721,
     15.123103,
     41.659721
   ],
-  "reprPoint": [
-    15.123103,
-    41.659721
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B1 Colle d’Armi",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.123103,
+          41.659721
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

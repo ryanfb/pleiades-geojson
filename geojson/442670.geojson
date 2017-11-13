@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Pruno",
   "id": "442670",
-  "description": "An ancient place, cited: BAtlas 45 B4 Monte Pruno",
   "bbox": [
     15.3547668,
     40.4145899,
     15.3547668,
     40.4145899
   ],
-  "reprPoint": [
-    15.3547668,
-    40.4145899
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B4 Monte Pruno",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3547668,
+          40.4145899
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

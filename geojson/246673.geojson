@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Surdaones",
   "id": "246673",
-  "description": "The Surdaones were a people of Gallia Narbonensis.",
   "bbox": [
     -1.0,
     41.0,
     0.0,
     42.0
   ],
-  "reprPoint": [
-    -0.5,
-    41.5
-  ],
+  "description": "The Surdaones were a people of Gallia Narbonensis.",
   "names": [
     "Surdaones",
     "Sordones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              -1.0,
-              42.0
-            ],
-            [
-              0.0,
-              42.0
-            ],
-            [
               0.0,
               41.0
+            ],
+            [
+              0.0,
+              42.0
+            ],
+            [
+              -1.0,
+              42.0
             ],
             [
               -1.0,

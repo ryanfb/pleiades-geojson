@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Medain",
   "id": "912903",
-  "description": "An ancient place, cited: BAtlas 93 B2 Medain",
   "bbox": [
     45.508808,
     31.454243,
     45.516946,
     31.660783
   ],
-  "reprPoint": [
-    45.512877,
-    31.557513
-  ],
+  "description": "An ancient place, cited: BAtlas 93 B2 Medain",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.512877,
+          31.557513
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

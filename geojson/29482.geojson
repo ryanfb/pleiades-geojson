@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Ari(m)aspai",
   "id": "29482",
-  "description": "An ancient place, cited: BAtlas 3 H3 Ari(m)aspai",
   "bbox": [
     60.0,
     30.0,
     65.0,
     35.0
   ],
-  "reprPoint": [
-    62.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 3 H3 Ari(m)aspai",
   "names": [
     "Arimaspai",
     "Ariaspai",
     "Euergitae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               30.0
             ],
             [
-              60.0,
-              35.0
-            ],
-            [
-              65.0,
-              35.0
-            ],
-            [
               65.0,
               30.0
+            ],
+            [
+              65.0,
+              35.0
+            ],
+            [
+              60.0,
+              35.0
             ],
             [
               60.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Sinagoga mausoleum and villa",
   "id": "250029",
-  "description": "A Roman mausoleum and villa of the fourth century AD in the locality known as La Sinagoga near Sádaba, Spain.",
   "bbox": [
     -1.2592608,
     42.2755671,
     -1.2592608,
     42.2755671
   ],
-  "reprPoint": [
-    -1.2592608,
-    42.2755671
-  ],
+  "description": "A Roman mausoleum and villa of the fourth century AD in the locality known as La Sinagoga near Sádaba, Spain.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2592608,
+          42.2755671
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

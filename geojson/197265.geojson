@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eravisci",
   "id": "197265",
-  "description": "The Eravisci were a Celtic tribe that occupied the area of Aquincum prior to the Roman conquest.",
   "bbox": [
     18.0,
     46.0,
     19.0,
     47.0
   ],
-  "reprPoint": [
-    18.5,
-    46.5
-  ],
+  "description": "The Eravisci were a Celtic tribe that occupied the area of Aquincum prior to the Roman conquest.",
   "names": [
     "Eravisci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              18.0,
-              47.0
-            ],
-            [
-              19.0,
-              47.0
-            ],
-            [
               19.0,
               46.0
+            ],
+            [
+              19.0,
+              47.0
+            ],
+            [
+              18.0,
+              47.0
             ],
             [
               18.0,

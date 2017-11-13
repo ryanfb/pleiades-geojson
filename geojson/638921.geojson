@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Killanion Pedion/Cillanicus Tractus",
   "id": "638921",
-  "description": "An ancient place, cited: BAtlas 65 F1 Killanion Pedion/Cillanicus Tractus",
   "bbox": [
     31.0,
     38.0,
     31.5,
     38.5
   ],
-  "reprPoint": [
-    31.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 F1 Killanion Pedion/Cillanicus Tractus",
   "names": [
     "Killanion Pedion",
     "Cillanicus Tractus",
     "Civitas Cillanensium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               38.0
             ],
             [
-              31.0,
-              38.5
-            ],
-            [
-              31.5,
-              38.5
-            ],
-            [
               31.5,
               38.0
+            ],
+            [
+              31.5,
+              38.5
+            ],
+            [
+              31.0,
+              38.5
             ],
             [
               31.0,

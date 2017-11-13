@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(H)Aedui",
   "id": "177533",
-  "description": "An ancient place, cited: BAtlas 18 B3 (H)Aedui",
   "bbox": [
     4.829183,
     46.306331,
     4.831212,
     46.307215
   ],
-  "reprPoint": [
-    4.8301975,
-    46.306773
-  ],
+  "description": "An ancient place, cited: BAtlas 18 B3 (H)Aedui",
   "names": [
     "Haedui",
     "Aedui"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8301975,
+          46.306773
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               46.0
             ],
             [
-              4.0,
-              47.0
-            ],
-            [
-              5.0,
-              47.0
-            ],
-            [
               5.0,
               46.0
+            ],
+            [
+              5.0,
+              47.0
+            ],
+            [
+              4.0,
+              47.0
             ],
             [
               4.0,

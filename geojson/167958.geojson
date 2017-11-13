@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vellavi",
   "id": "167958",
-  "description": "An ancient place, cited: BAtlas 17 B4 Vellavi",
   "bbox": [
     3.5,
     44.5,
     4.0,
     45.0
   ],
-  "reprPoint": [
-    3.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 B4 Vellavi",
   "names": [
     "Vellavi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              3.5,
-              45.0
-            ],
-            [
-              4.0,
-              45.0
-            ],
-            [
               4.0,
               44.5
+            ],
+            [
+              4.0,
+              45.0
+            ],
+            [
+              3.5,
+              45.0
             ],
             [
               3.5,

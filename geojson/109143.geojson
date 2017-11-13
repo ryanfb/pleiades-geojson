@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marsaci?",
   "id": "109143",
-  "description": "An ancient place, cited: BAtlas 11 D1 Marsaci?",
   "bbox": [
     3.0,
     51.0,
     4.0,
     52.0
   ],
-  "reprPoint": [
-    3.5,
-    51.5
-  ],
+  "description": "An ancient place, cited: BAtlas 11 D1 Marsaci?",
   "names": [
     "Marsaci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               51.0
             ],
             [
-              3.0,
-              52.0
-            ],
-            [
-              4.0,
-              52.0
-            ],
-            [
               4.0,
               51.0
+            ],
+            [
+              4.0,
+              52.0
+            ],
+            [
+              3.0,
+              52.0
             ],
             [
               3.0,

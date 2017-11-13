@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Africa (region)",
   "id": "775",
-  "description": "The region of modern North Africa to which the Romans referred as \"Africa\", effectively the majority of same with the exception of Egypt, later truncated to correspond to the Roman province of the same name.",
   "bbox": [
     5.0,
     30.0,
     10.0,
     35.0
   ],
+  "description": "The region of modern North Africa to which the Romans referred as \"Africa\", effectively the majority of same with the exception of Egypt, later truncated to correspond to the Roman province of the same name.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    7.5,
-    32.5
   ],
   "names": [
     "Africa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               30.0
             ],
             [
-              5.0,
-              35.0
-            ],
-            [
-              10.0,
-              35.0
-            ],
-            [
               10.0,
               30.0
+            ],
+            [
+              10.0,
+              35.0
+            ],
+            [
+              5.0,
+              35.0
             ],
             [
               5.0,

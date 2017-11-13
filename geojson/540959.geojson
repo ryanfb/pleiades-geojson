@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Naulochos?",
   "id": "540959",
-  "description": "An ancient place, cited: BAtlas 55 D4 Naulochos?",
   "bbox": [
     22.5,
     38.0,
     23.0,
     38.5
   ],
-  "reprPoint": [
-    22.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 55 D4 Naulochos?",
   "names": [
     "Naulochos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              22.5,
-              38.5
-            ],
-            [
-              23.0,
-              38.5
-            ],
-            [
               23.0,
               38.0
+            ],
+            [
+              23.0,
+              38.5
+            ],
+            [
+              22.5,
+              38.5
             ],
             [
               22.5,

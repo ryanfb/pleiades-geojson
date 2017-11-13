@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Messene",
   "id": "570479",
-  "description": "Capital of Messenia",
   "bbox": [
     21.920439,
     37.051474,
     22.008168,
     37.183107
   ],
+  "description": "Capital of Messenia",
   "connectsWith": [
     "570480",
     "570318"
-  ],
-  "reprPoint": [
-    21.943018,
-    37.146361
   ],
   "names": [
     "Messene",
     "Ithome"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.943018,
+          37.146361
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

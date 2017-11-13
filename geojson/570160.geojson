@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Boukephala? Pr.",
   "id": "570160",
-  "description": "An ancient place, cited: BAtlas 58 E3 Boukephala? Pr.",
   "bbox": [
     23.0,
     37.0,
     23.5,
     37.5
   ],
-  "reprPoint": [
-    23.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 E3 Boukephala? Pr.",
   "names": [
     "Boukephala Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              23.0,
-              37.5
-            ],
-            [
-              23.5,
-              37.5
-            ],
-            [
               23.5,
               37.0
+            ],
+            [
+              23.5,
+              37.5
+            ],
+            [
+              23.0,
+              37.5
             ],
             [
               23.0,

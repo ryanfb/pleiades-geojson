@@ -2,26 +2,35 @@
   "type": "FeatureCollection",
   "title": "Mykonos (island)",
   "id": "599808",
-  "description": "Mykonos is part of the Cyclades island group in the Aegean Sea.",
   "bbox": [
     25.37,
     37.44,
     25.37,
     37.44
   ],
+  "description": "Mykonos is part of the Cyclades island group in the Aegean Sea.",
   "connectsWith": [
     "560353",
     "599668"
-  ],
-  "reprPoint": [
-    25.37,
-    37.44
   ],
   "names": [
     "Mykonos",
     "Myconus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.37,
+          37.44
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aquae Tauri",
   "id": "413026",
-  "description": "A thermal site in Etruria northeast of Centumcellae.",
   "bbox": [
     11.8361099,
     42.1090611,
     11.8361099,
     42.1090611
   ],
-  "reprPoint": [
-    11.8361099,
-    42.1090611
-  ],
+  "description": "A thermal site in Etruria northeast of Centumcellae.",
   "names": [
     "Aquae Tauri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8361099,
+          42.1090611
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

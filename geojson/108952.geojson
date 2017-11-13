@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Eburones",
   "id": "108952",
-  "description": "The Eburones were an ancient people of Gallia Belgica.",
   "bbox": [
     5.464831,
     50.732632,
     7.0977283,
     50.780857
   ],
+  "description": "The Eburones were an ancient people of Gallia Belgica.",
   "connectsWith": [
     "981511"
-  ],
-  "reprPoint": [
-    6.280910325,
-    50.759325575
   ],
   "names": [
     "Eburones"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.280910325,
+          50.759325575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               50.0
             ],
             [
-              6.0,
-              51.0
-            ],
-            [
-              7.0,
-              51.0
-            ],
-            [
               7.0,
               50.0
+            ],
+            [
+              7.0,
+              51.0
+            ],
+            [
+              6.0,
+              51.0
             ],
             [
               6.0,

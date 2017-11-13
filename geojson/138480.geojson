@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Namnetes/Samnitai",
   "id": "138480",
-  "description": "A Gallic people on the west coast of Gallia Lugdunensis, on the north bank of the Liger river. ",
   "bbox": [
     -2.0,
     47.0,
     -1.0,
     48.0
   ],
-  "reprPoint": [
-    -1.5,
-    47.5
-  ],
+  "description": "A Gallic people on the west coast of Gallia Lugdunensis, on the north bank of the Liger river. ",
   "names": [
     "Namnetes",
     "Samnitai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               47.0
             ],
             [
-              -2.0,
-              48.0
-            ],
-            [
-              -1.0,
-              48.0
-            ],
-            [
               -1.0,
               47.0
+            ],
+            [
+              -1.0,
+              48.0
+            ],
+            [
+              -2.0,
+              48.0
             ],
             [
               -2.0,

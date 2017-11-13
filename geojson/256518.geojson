@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vila Verde",
   "id": "256518",
-  "description": "An ancient place, cited: BAtlas 26 A3 Vila Verde",
   "bbox": [
     -9.374619,
     38.85109,
     -9.374619,
     38.85109
   ],
-  "reprPoint": [
-    -9.374619,
-    38.85109
-  ],
+  "description": "An ancient place, cited: BAtlas 26 A3 Vila Verde",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.374619,
+          38.85109
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

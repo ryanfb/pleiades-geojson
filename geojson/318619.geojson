@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "318619",
-  "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)",
   "bbox": [
     9.643071,
     36.888865,
     9.643071,
     36.888865
   ],
-  "reprPoint": [
-    9.643071,
-    36.888865
-  ],
+  "description": "An ancient place, cited: BAtlas 32 E3 unnamed quarry group (ENE *Vazari)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.643071,
+          36.888865
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              9.5,
-              37.0
-            ],
-            [
-              10.0,
-              37.0
-            ],
-            [
               10.0,
               36.5
+            ],
+            [
+              10.0,
+              37.0
+            ],
+            [
+              9.5,
+              37.0
             ],
             [
               9.5,

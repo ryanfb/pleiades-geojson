@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pharos",
   "id": "727197",
-  "description": "The Pharos lighthouse of Alexandria, one of the Seven Wonders of the Ancient World, was built under the Ptolemies between 280 and 247 BC.",
   "bbox": [
     29.885075,
     31.213931,
     29.885661,
     31.214147
   ],
+  "description": "The Pharos lighthouse of Alexandria, one of the Seven Wonders of the Ancient World, was built under the Ptolemies between 280 and 247 BC.",
   "connectsWith": [
     "727070"
-  ],
-  "reprPoint": [
-    29.885368,
-    31.214039
   ],
   "names": [
     "Pharos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.885368,
+          31.214039
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

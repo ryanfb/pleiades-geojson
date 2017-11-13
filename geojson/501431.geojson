@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Haskovo bani",
   "id": "501431",
-  "description": "An ancient place, cited: BAtlas 51 E1 Haskovo bani",
   "bbox": [
     25.0,
     41.5,
     25.5,
     42.0
   ],
-  "reprPoint": [
-    25.25,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 E1 Haskovo bani",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.5
             ],
             [
-              25.0,
-              42.0
-            ],
-            [
-              25.5,
-              42.0
-            ],
-            [
               25.5,
               41.5
+            ],
+            [
+              25.5,
+              42.0
+            ],
+            [
+              25.0,
+              42.0
             ],
             [
               25.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "757269",
-  "description": "An ancient place, cited: BAtlas 77 E2 unnamed quarry (E Hierakion)",
   "bbox": [
     31.0,
     27.0,
     31.5,
     27.5
   ],
-  "reprPoint": [
-    31.25,
-    27.25
-  ],
+  "description": "An ancient place, cited: BAtlas 77 E2 unnamed quarry (E Hierakion)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          27.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               27.0
             ],
             [
-              31.0,
-              27.5
-            ],
-            [
-              31.5,
-              27.5
-            ],
-            [
               31.5,
               27.0
+            ],
+            [
+              31.5,
+              27.5
+            ],
+            [
+              31.0,
+              27.5
             ],
             [
               31.0,

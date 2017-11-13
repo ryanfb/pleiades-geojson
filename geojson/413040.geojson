@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Aternus (river)",
   "id": "413040",
-  "description": "The Aterno-Pescara river.",
   "bbox": [
     13.8119427,
     42.1066875,
     13.8119427,
     42.1066875
   ],
+  "description": "The Aterno-Pescara river.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    13.8119427,
-    42.1066875
   ],
   "names": [
     "Aternus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8119427,
+          42.1066875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

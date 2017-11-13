@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Korkontoi",
   "id": "118788",
-  "description": "An ancient place, cited: BAtlas 12 I2 Korkontoi",
   "bbox": [
     15.0,
     50.0,
     16.0,
     51.0
   ],
-  "reprPoint": [
-    15.5,
-    50.5
-  ],
+  "description": "An ancient place, cited: BAtlas 12 I2 Korkontoi",
   "names": [
     "Korkontoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              15.0,
-              51.0
-            ],
-            [
-              16.0,
-              51.0
-            ],
-            [
               16.0,
               50.0
+            ],
+            [
+              16.0,
+              51.0
+            ],
+            [
+              15.0,
+              51.0
             ],
             [
               15.0,

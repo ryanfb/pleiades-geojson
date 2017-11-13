@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thymiana",
   "id": "550923",
-  "description": "An ancient place, cited: BAtlas 56 C5 Thymiana",
   "bbox": [
     26.144497,
     38.323067,
     26.144497,
     38.323067
   ],
+  "description": "An ancient place, cited: BAtlas 56 C5 Thymiana",
   "connectsWith": [
     "550497"
   ],
-  "reprPoint": [
-    26.144497,
-    38.323067
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.144497,
+          38.323067
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

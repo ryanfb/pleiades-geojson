@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Megari Sinus",
   "id": "462308",
-  "description": "An ancient place, cited: BAtlas 47 G4 Megari Sinus",
   "bbox": [
     15.0,
     37.0,
     15.5,
     37.5
   ],
-  "reprPoint": [
-    15.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G4 Megari Sinus",
   "names": [
     "Megari Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              15.0,
-              37.5
-            ],
-            [
-              15.5,
-              37.5
-            ],
-            [
               15.5,
               37.0
+            ],
+            [
+              15.5,
+              37.5
+            ],
+            [
+              15.0,
+              37.5
             ],
             [
               15.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arabikon Oros",
   "id": "736891",
-  "description": "An ancient place, cited: BAtlas 75 E3 Arabikon Oros",
   "bbox": [
     31.0,
     28.5,
     31.5,
     29.0
   ],
-  "reprPoint": [
-    31.25,
-    28.75
-  ],
+  "description": "An ancient place, cited: BAtlas 75 E3 Arabikon Oros",
   "names": [
     "Arabikon Oros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          28.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               28.5
             ],
             [
-              31.0,
-              29.0
-            ],
-            [
-              31.5,
-              29.0
-            ],
-            [
               31.5,
               28.5
+            ],
+            [
+              31.5,
+              29.0
+            ],
+            [
+              31.0,
+              29.0
             ],
             [
               31.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Anthemous (river)",
   "id": "491522",
-  "description": "An ancient place, cited: BAtlas 50 D4 Anthemous fl.",
   "bbox": [
     23.0,
     40.0,
     23.5,
     40.5
   ],
-  "reprPoint": [
-    23.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D4 Anthemous fl.",
   "names": [
     "Anthemous"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              23.0,
-              40.5
-            ],
-            [
-              23.5,
-              40.5
-            ],
-            [
               23.5,
               40.0
+            ],
+            [
+              23.5,
+              40.5
+            ],
+            [
+              23.0,
+              40.5
             ],
             [
               23.0,

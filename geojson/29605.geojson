@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ichthyophagoi",
   "id": "29605",
-  "description": "Ichthyophagoi (\"fish-eaters\"), a people of what is now Pakistan mentioned by Nearchus.",
   "bbox": [
     60.0,
     25.0,
     65.0,
     30.0
   ],
-  "reprPoint": [
-    62.5,
-    27.5
-  ],
+  "description": "Ichthyophagoi (\"fish-eaters\"), a people of what is now Pakistan mentioned by Nearchus.",
   "names": [
     "Ichthyophagoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              60.0,
-              30.0
-            ],
-            [
-              65.0,
-              30.0
-            ],
-            [
               65.0,
               25.0
+            ],
+            [
+              65.0,
+              30.0
+            ],
+            [
+              60.0,
+              30.0
             ],
             [
               60.0,

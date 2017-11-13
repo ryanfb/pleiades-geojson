@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Volubilis",
   "id": "275740",
-  "description": "A town of Mauretania Tingitana and a Roman colony.",
   "bbox": [
     -5.5548,
     34.0725,
     -5.5548,
     34.0725
   ],
+  "description": "A town of Mauretania Tingitana and a Roman colony.",
   "connectsWith": [
     "275673"
-  ],
-  "reprPoint": [
-    -5.5548,
-    34.0725
   ],
   "names": [
     "Volubilis",
@@ -22,6 +18,19 @@
     "Ouoloubilianoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5548,
+          34.0725
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

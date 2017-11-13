@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bosara",
   "id": "39314",
-  "description": "An ancient place, cited: BAtlas 4 D2 Bosara",
   "bbox": [
     50.0,
     15.0,
     55.0,
     20.0
   ],
-  "reprPoint": [
-    52.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 D2 Bosara",
   "names": [
     "Bosara"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               15.0
             ],
             [
-              50.0,
-              20.0
-            ],
-            [
-              55.0,
-              20.0
-            ],
-            [
               55.0,
               15.0
+            ],
+            [
+              55.0,
+              20.0
+            ],
+            [
+              50.0,
+              20.0
             ],
             [
               50.0,

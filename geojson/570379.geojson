@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kranae (island)",
   "id": "570379",
-  "description": "Kranae is an island off the coast of Gytheio.",
   "bbox": [
     22.71,
     36.66,
     22.71,
     36.66
   ],
+  "description": "Kranae is an island off the coast of Gytheio.",
   "connectsWith": [
     "570407"
-  ],
-  "reprPoint": [
-    22.71,
-    36.66
   ],
   "names": [
     "Kranae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.71,
+          36.66
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.5
             ],
             [
-              22.5,
-              37.0
-            ],
-            [
-              23.0,
-              37.0
-            ],
-            [
               23.0,
               36.5
+            ],
+            [
+              23.0,
+              37.0
+            ],
+            [
+              22.5,
+              37.0
             ],
             [
               22.5,

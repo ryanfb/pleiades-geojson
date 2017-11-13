@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Constantinopolis",
   "id": "520998",
-  "description": "Capital city of the Eastern Roman Empire, the Latin, and the Ottoman Empires founded by Constantine I in AD 330. ",
   "bbox": [
     28.9205261,
     40.9998938,
     28.979938,
     41.0175222
   ],
+  "description": "Capital city of the Eastern Roman Empire, the Latin, and the Ottoman Empires founded by Constantine I in AD 330. ",
   "connectsWith": [
     "196789404"
-  ],
-  "reprPoint": [
-    28.96060984,
-    41.00746276
   ],
   "names": [
     "Constantinopolis",
     "Istanbul"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.96060984,
+          41.00746276
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               41.0
             ],
             [
-              28.75,
-              41.25
-            ],
-            [
-              29.0,
-              41.25
-            ],
-            [
               29.0,
               41.0
+            ],
+            [
+              29.0,
+              41.25
+            ],
+            [
+              28.75,
+              41.25
             ],
             [
               28.75,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kardamis",
   "id": "716578",
-  "description": "An ancient place, cited: BAtlas 73 C2 Kardamis (1) (1)",
   "bbox": [
     25.0,
     31.0,
     26.0,
     32.0
   ],
-  "reprPoint": [
-    25.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 73 C2 Kardamis (1) (1)",
   "names": [
     "Kardamis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              25.0,
-              32.0
-            ],
-            [
-              26.0,
-              32.0
-            ],
-            [
               26.0,
               31.0
+            ],
+            [
+              26.0,
+              32.0
+            ],
+            [
+              25.0,
+              32.0
             ],
             [
               25.0,

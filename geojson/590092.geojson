@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vrokastro",
   "id": "590092",
-  "description": "An ancient place, cited: BAtlas 60 E2 Vrokastro",
   "bbox": [
     25.742098,
     35.120765,
     25.742098,
     35.120765
   ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Vrokastro",
   "connectsWith": [
     "589748"
   ],
-  "reprPoint": [
-    25.742098,
-    35.120765
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.742098,
+          35.120765
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

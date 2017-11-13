@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Saos M.",
   "id": "501600",
-  "description": "Saos M., a mountain on the island of Samothrace rising to 1,611 m. above sea level.",
   "bbox": [
     25.5874978,
     40.4616628,
     25.5874978,
     40.4616628
   ],
+  "description": "Saos M., a mountain on the island of Samothrace rising to 1,611 m. above sea level.",
   "connectsWith": [
     "501597"
-  ],
-  "reprPoint": [
-    25.5874978,
-    40.4616628
   ],
   "names": [
     "Saos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5874978,
+          40.4616628
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

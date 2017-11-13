@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "La Argentera",
   "id": "265803",
-  "description": "An ancient place, cited: BAtlas 27 G2 La Argentera",
   "bbox": [
     1.53143,
     39.027916,
     1.53143,
     39.027916
   ],
+  "description": "An ancient place, cited: BAtlas 27 G2 La Argentera",
   "connectsWith": [
     "265884"
   ],
-  "reprPoint": [
-    1.53143,
-    39.027916
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.53143,
+          39.027916
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

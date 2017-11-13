@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Talamone",
   "id": "413331",
-  "description": "An ancient place, cited: BAtlas 42 A3 Talamone",
   "bbox": [
     11.133289,
     42.555296,
     11.133289,
     42.555296
   ],
-  "reprPoint": [
-    11.133289,
-    42.555296
-  ],
+  "description": "An ancient place, cited: BAtlas 42 A3 Talamone",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.133289,
+          42.555296
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

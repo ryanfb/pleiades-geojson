@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "266523",
-  "description": "An ancient place, cited: BAtlas 27 D2 unnamed aqueduct (Peña Cortada, E Barranca de S. Filomena)",
   "bbox": [
     -2.0,
     39.0,
     -1.0,
     40.0
   ],
-  "reprPoint": [
-    -1.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 D2 unnamed aqueduct (Peña Cortada, E Barranca de S. Filomena)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              -2.0,
-              40.0
-            ],
-            [
-              -1.0,
-              40.0
-            ],
-            [
               -1.0,
               39.0
+            ],
+            [
+              -1.0,
+              40.0
+            ],
+            [
+              -2.0,
+              40.0
             ],
             [
               -2.0,

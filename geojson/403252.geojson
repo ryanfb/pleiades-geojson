@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Pieve",
   "id": "403252",
-  "description": "An ancient place, cited: BAtlas 41 D3 La Pieve",
   "bbox": [
     10.62101,
     43.298254,
     10.62101,
     43.298254
   ],
-  "reprPoint": [
-    10.62101,
-    43.298254
-  ],
+  "description": "An ancient place, cited: BAtlas 41 D3 La Pieve",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.62101,
+          43.298254
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

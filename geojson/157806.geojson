@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Maritimae",
   "id": "157806",
-  "description": "An ancient place, cited: BAtlas 16 B1 Alpes Maritimae",
   "bbox": [
     6.0,
     44.0,
     6.5,
     44.5
   ],
-  "reprPoint": [
-    6.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B1 Alpes Maritimae",
   "names": [
     "Alpes Maritimae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              6.0,
-              44.5
-            ],
-            [
-              6.5,
-              44.5
-            ],
-            [
               6.5,
               44.0
+            ],
+            [
+              6.5,
+              44.5
+            ],
+            [
+              6.0,
+              44.5
             ],
             [
               6.0,

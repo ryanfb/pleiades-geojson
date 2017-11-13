@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Circus Maximus",
   "id": "458808506",
-  "description": "An ancient chariot-racing venue at Rome and a major location for public entertainments (ludi), the Circus Maximus is located between the Aventine and Palatine hills.",
   "bbox": [
     12.4874524,
     41.8856889,
     12.4874524,
     41.8856889
   ],
+  "description": "An ancient chariot-racing venue at Rome and a major location for public entertainments (ludi), the Circus Maximus is located between the Aventine and Palatine hills.",
   "connectsWith": [
     "423025"
   ],
-  "reprPoint": [
-    12.4874524,
-    41.8856889
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4874524,
+          41.8856889
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

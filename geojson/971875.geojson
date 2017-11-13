@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sina",
   "id": "971875",
-  "description": "An ancient place, cited: BAtlas 99 B1 Sina",
   "bbox": [
     67.447829,
     38.462811,
     67.447829,
     38.462811
   ],
-  "reprPoint": [
-    67.447829,
-    38.462811
-  ],
+  "description": "An ancient place, cited: BAtlas 99 B1 Sina",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.447829,
+          38.462811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

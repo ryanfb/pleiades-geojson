@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rantidi",
   "id": "707615",
-  "description": "An ancient place, cited: BAtlas 72 B3 Rantidi",
   "bbox": [
     32.624417,
     34.685588,
     32.624417,
     34.685588
   ],
+  "description": "An ancient place, cited: BAtlas 72 B3 Rantidi",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.624417,
-    34.685588
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.624417,
+          34.685588
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eordaikos (river)",
   "id": "481831",
-  "description": "The Devoll river.",
   "bbox": [
     20.0,
     40.0,
     21.0,
     41.0
   ],
-  "reprPoint": [
-    20.5,
-    40.5
-  ],
+  "description": "The Devoll river.",
   "names": [
     "Eordaikos potamos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              20.0,
-              41.0
-            ],
-            [
-              21.0,
-              41.0
-            ],
-            [
               21.0,
               40.0
+            ],
+            [
+              21.0,
+              41.0
+            ],
+            [
+              20.0,
+              41.0
             ],
             [
               20.0,

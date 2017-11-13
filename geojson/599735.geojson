@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kybersos? (river)",
   "id": "599735",
-  "description": "An ancient place, cited: BAtlas 61 F3 Kybersos? fl.",
   "bbox": [
     27.5,
     37.0,
     28.0,
     37.5
   ],
-  "reprPoint": [
-    27.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 F3 Kybersos? fl.",
   "names": [
     "Kybersos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              27.5,
-              37.5
-            ],
-            [
-              28.0,
-              37.5
-            ],
-            [
               28.0,
               37.0
+            ],
+            [
+              28.0,
+              37.5
+            ],
+            [
+              27.5,
+              37.5
             ],
             [
               27.5,

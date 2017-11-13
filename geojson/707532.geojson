@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Khelones",
   "id": "707532",
-  "description": "Khelones was a small coastal settlement in Cyprus that was eventually abandoned in the seventh century AD.",
   "bbox": [
     34.419364,
     35.583406,
     34.419364,
     35.583406
   ],
+  "description": "Khelones was a small coastal settlement in Cyprus that was eventually abandoned in the seventh century AD.",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    34.419364,
-    35.583406
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.419364,
+          35.583406
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

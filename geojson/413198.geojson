@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Matrinus? (river)",
   "id": "413198",
-  "description": "An ancient place, cited: BAtlas 42 F3 Matrinus? fl.",
   "bbox": [
     13.5,
     42.5,
     14.0,
     43.0
   ],
-  "reprPoint": [
-    13.75,
-    42.75
-  ],
+  "description": "An ancient place, cited: BAtlas 42 F3 Matrinus? fl.",
   "names": [
     "Matrinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          42.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.5
             ],
             [
-              13.5,
-              43.0
-            ],
-            [
-              14.0,
-              43.0
-            ],
-            [
               14.0,
               42.5
+            ],
+            [
+              14.0,
+              43.0
+            ],
+            [
+              13.5,
+              43.0
             ],
             [
               13.5,

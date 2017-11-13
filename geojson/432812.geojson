@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Decennovium",
   "id": "432812",
-  "description": "Decennovium refers to a 19-mile stretch of the Via Appia from the Forum Appii to Tarracina that continued through the paludes Pontinae.",
   "bbox": [
     13.0,
     41.0,
     13.5,
     41.5
   ],
+  "description": "Decennovium refers to a 19-mile stretch of the Via Appia from the Forum Appii to Tarracina that continued through the paludes Pontinae.",
   "connectsWith": [
     "356966898"
-  ],
-  "reprPoint": [
-    13.25,
-    41.25
   ],
   "names": [
     "Decennovium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.0
             ],
             [
-              13.0,
-              41.5
-            ],
-            [
-              13.5,
-              41.5
-            ],
-            [
               13.5,
               41.0
+            ],
+            [
+              13.5,
+              41.5
+            ],
+            [
+              13.0,
+              41.5
             ],
             [
               13.0,

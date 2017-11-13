@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Sulcis (river)",
   "id": "472026",
-  "description": "The Cixerri river.",
   "bbox": [
     8.8932434,
     39.2812177,
     8.8932434,
     39.2812177
   ],
+  "description": "The Cixerri river.",
   "connectsWith": [
     "472014"
-  ],
-  "reprPoint": [
-    8.8932434,
-    39.2812177
   ],
   "names": [
     "Sulcis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8932434,
+          39.2812177
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Capraria (island)",
   "id": "265840",
-  "description": "An ancient place, cited: BAtlas 27 inset Capraria Ins.",
   "bbox": [
     2.9470746,
     39.1420544,
     2.9470746,
     39.1420544
   ],
+  "description": "An ancient place, cited: BAtlas 27 inset Capraria Ins.",
   "connectsWith": [
     "265818"
-  ],
-  "reprPoint": [
-    2.9470746,
-    39.1420544
   ],
   "names": [
     "Capraria",
     "Capria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9470746,
+          39.1420544
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               39.0
             ],
             [
-              2.0,
-              41.0
-            ],
-            [
-              5.0,
-              41.0
-            ],
-            [
               5.0,
               39.0
+            ],
+            [
+              5.0,
+              41.0
+            ],
+            [
+              2.0,
+              41.0
             ],
             [
               2.0,

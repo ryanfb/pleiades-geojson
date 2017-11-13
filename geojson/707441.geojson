@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ag. Georgios",
   "id": "707441",
-  "description": "An ancient place, cited: BAtlas 72 C3 Ag. Georgios",
   "bbox": [
     33.0,
     34.5,
     33.5,
     35.0
   ],
-  "reprPoint": [
-    33.25,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 72 C3 Ag. Georgios",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.5
             ],
             [
-              33.0,
-              35.0
-            ],
-            [
-              33.5,
-              35.0
-            ],
-            [
               33.5,
               34.5
+            ],
+            [
+              33.5,
+              35.0
+            ],
+            [
+              33.0,
+              35.0
             ],
             [
               33.0,

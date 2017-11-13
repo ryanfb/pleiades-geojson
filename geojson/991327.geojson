@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Carthaginiensis",
   "id": "991327",
-  "description": "An ancient place, cited: BAtlas 101 F4 Carthaginiensis",
   "bbox": [
     -5.0,
     35.0,
     0.0,
     40.0
   ],
-  "reprPoint": [
-    -2.5,
-    37.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 F4 Carthaginiensis",
   "names": [
     "Carthaginiensis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              -5.0,
-              40.0
-            ],
-            [
-              0.0,
-              40.0
-            ],
-            [
               0.0,
               35.0
+            ],
+            [
+              0.0,
+              40.0
+            ],
+            [
+              -5.0,
+              40.0
             ],
             [
               -5.0,

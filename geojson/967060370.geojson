@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 11A (Heddon Hall)",
   "id": "967060370",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.774665,
     54.996253,
     -1.774665,
     54.996253
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.774665,
-    54.996253
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.774665,
+          54.996253
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

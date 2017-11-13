@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Suelleni",
   "id": "814735",
-  "description": "An ancient place, cited: BAtlas 83 B2 Suelleni",
   "bbox": [
     36.0,
     29.0,
     37.0,
     30.0
   ],
-  "reprPoint": [
-    36.5,
-    29.5
-  ],
+  "description": "An ancient place, cited: BAtlas 83 B2 Suelleni",
   "names": [
     "Suelleni"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               29.0
             ],
             [
-              36.0,
-              30.0
-            ],
-            [
-              37.0,
-              30.0
-            ],
-            [
               37.0,
               29.0
+            ],
+            [
+              37.0,
+              30.0
+            ],
+            [
+              36.0,
+              30.0
             ],
             [
               36.0,

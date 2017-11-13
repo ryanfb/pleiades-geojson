@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "(A)Meilichos (river)",
   "id": "570069",
-  "description": "An ancient place, cited: BAtlas 58 B1 (A)Meilichos fl.",
   "bbox": [
     21.5,
     38.0,
     22.0,
     38.5
   ],
-  "reprPoint": [
-    21.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 B1 (A)Meilichos fl.",
   "names": [
     "Ameilichos",
     "Meilichos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              21.5,
-              38.5
-            ],
-            [
-              22.0,
-              38.5
-            ],
-            [
               22.0,
               38.0
+            ],
+            [
+              22.0,
+              38.5
+            ],
+            [
+              21.5,
+              38.5
             ],
             [
               21.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gücük",
   "id": "769548550",
-  "description": "A place from the TAVO Index",
   "bbox": [
     37.0,
     38.0,
     37.5,
     38.5
   ],
-  "reprPoint": [
-    37.25,
-    38.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Gücük"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              37.0,
-              38.5
-            ],
-            [
-              37.5,
-              38.5
-            ],
-            [
               37.5,
               38.0
+            ],
+            [
+              37.5,
+              38.5
+            ],
+            [
+              37.0,
+              38.5
             ],
             [
               37.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "El Torreón",
   "id": "256479",
-  "description": "An ancient place, cited: BAtlas 26 E4 El Torreón",
   "bbox": [
     -5.66767,
     37.628559,
     -5.66767,
     37.628559
   ],
-  "reprPoint": [
-    -5.66767,
-    37.628559
-  ],
+  "description": "An ancient place, cited: BAtlas 26 E4 El Torreón",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.66767,
+          37.628559
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

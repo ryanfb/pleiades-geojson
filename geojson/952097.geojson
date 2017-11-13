@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Parthyene/Parthia",
   "id": "952097",
-  "description": "A region of northeastern Iran connected with the Arsacid dynasty, rulers of the Parthian Empire.",
   "bbox": [
     57.0,
     38.0,
     58.0,
     39.0
   ],
-  "reprPoint": [
-    57.5,
-    38.5
-  ],
+  "description": "A region of northeastern Iran connected with the Arsacid dynasty, rulers of the Parthian Empire.",
   "names": [
     "Parthyene",
     "Parthia",
     "Parthava"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               38.0
             ],
             [
-              57.0,
-              39.0
-            ],
-            [
-              58.0,
-              39.0
-            ],
-            [
               58.0,
               38.0
+            ],
+            [
+              58.0,
+              39.0
+            ],
+            [
+              57.0,
+              39.0
             ],
             [
               57.0,

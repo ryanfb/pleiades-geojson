@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Psinemoun",
   "id": "756629",
-  "description": "An ancient place, cited: BAtlas 77 E3 Psinemoun",
   "bbox": [
     31.0,
     26.5,
     31.5,
     27.0
   ],
-  "reprPoint": [
-    31.25,
-    26.75
-  ],
+  "description": "An ancient place, cited: BAtlas 77 E3 Psinemoun",
   "names": [
     "Psinemoun",
     "Psinomounis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          26.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               26.5
             ],
             [
-              31.0,
-              27.0
-            ],
-            [
-              31.5,
-              27.0
-            ],
-            [
               31.5,
               26.5
+            ],
+            [
+              31.5,
+              27.0
+            ],
+            [
+              31.0,
+              27.0
             ],
             [
               31.0,

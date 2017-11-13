@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pedalion Pr.",
   "id": "639044",
-  "description": "An ancient place, cited: BAtlas 65 A4 Pedalion Pr.",
   "bbox": [
     28.5,
     36.5,
     29.0,
     37.0
   ],
-  "reprPoint": [
-    28.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 A4 Pedalion Pr.",
   "names": [
     "Pedalion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              28.5,
-              37.0
-            ],
-            [
-              29.0,
-              37.0
-            ],
-            [
               29.0,
               36.5
+            ],
+            [
+              29.0,
+              37.0
+            ],
+            [
+              28.5,
+              37.0
             ],
             [
               28.5,

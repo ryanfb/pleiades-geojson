@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Klirou",
   "id": "707538",
-  "description": "An ancient place, cited: BAtlas 72 C2 Klirou",
   "bbox": [
     33.184191,
     35.021215,
     33.184191,
     35.021215
   ],
+  "description": "An ancient place, cited: BAtlas 72 C2 Klirou",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.184191,
-    35.021215
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.184191,
+          35.021215
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

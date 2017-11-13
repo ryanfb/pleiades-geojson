@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Giado",
   "id": "344378",
-  "description": "An ancient place, cited: BAtlas 35 E3 Giado",
   "bbox": [
     12.016701,
     31.950027,
     12.016701,
     31.950027
   ],
-  "reprPoint": [
-    12.016701,
-    31.950027
-  ],
+  "description": "An ancient place, cited: BAtlas 35 E3 Giado",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.016701,
+          31.950027
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

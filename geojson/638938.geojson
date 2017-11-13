@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Korydela Ins.",
   "id": "638938",
-  "description": "An ancient place, cited: BAtlas 65 D5 Korydela Ins.",
   "bbox": [
     30.403611,
     36.185556,
     30.403611,
     36.185556
   ],
+  "description": "An ancient place, cited: BAtlas 65 D5 Korydela Ins.",
   "connectsWith": [
     "638799"
-  ],
-  "reprPoint": [
-    30.403611,
-    36.185556
   ],
   "names": [
     "Korydela"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.403611,
+          36.185556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.0
             ],
             [
-              30.0,
-              36.5
-            ],
-            [
-              30.5,
-              36.5
-            ],
-            [
               30.5,
               36.0
+            ],
+            [
+              30.5,
+              36.5
+            ],
+            [
+              30.0,
+              36.5
             ],
             [
               30.0,

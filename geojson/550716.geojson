@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Maloeis Sinus",
   "id": "550716",
-  "description": "An ancient place, cited: BAtlas 56 D3 Maloeis Sinus",
   "bbox": [
     26.5,
     39.0,
     27.0,
     39.5
   ],
-  "reprPoint": [
-    26.75,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D3 Maloeis Sinus",
   "names": [
     "Maloeis Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              26.5,
-              39.5
-            ],
-            [
-              27.0,
-              39.5
-            ],
-            [
               27.0,
               39.0
+            ],
+            [
+              27.0,
+              39.5
+            ],
+            [
+              26.5,
+              39.5
             ],
             [
               26.5,

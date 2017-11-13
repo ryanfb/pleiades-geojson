@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ani",
   "id": "863739",
-  "description": "Ani is a ruined Armenian city located in extreme eastern Turkey.",
   "bbox": [
     43.5705326,
     40.506295,
     43.570558,
     40.5122171
   ],
-  "reprPoint": [
-    43.5705453,
-    40.50925605
-  ],
+  "description": "Ani is a ruined Armenian city located in extreme eastern Turkey.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5705453,
+          40.50925605
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Proespera",
   "id": "599908",
-  "description": "An ancient place, cited: BAtlas 61 C2 Proespera",
   "bbox": [
     26.04645,
     37.600612,
     26.04645,
     37.600612
   ],
+  "description": "An ancient place, cited: BAtlas 61 C2 Proespera",
   "connectsWith": [
     "599667"
   ],
-  "reprPoint": [
-    26.04645,
-    37.600612
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.04645,
+          37.600612
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

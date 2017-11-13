@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aioi",
   "id": "49843",
-  "description": "An ancient place, cited: BAtlas 5 D5 Aioi",
   "bbox": [
     75.0,
     5.0,
     80.0,
     10.0
   ],
-  "reprPoint": [
-    77.5,
-    7.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D5 Aioi",
   "names": [
     "Aioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          7.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               5.0
             ],
             [
-              75.0,
-              10.0
-            ],
-            [
-              80.0,
-              10.0
-            ],
-            [
               80.0,
               5.0
+            ],
+            [
+              80.0,
+              10.0
+            ],
+            [
+              75.0,
+              10.0
             ],
             [
               75.0,

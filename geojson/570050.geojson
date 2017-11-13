@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Aigiplanktos/Geran(e)ia M.",
   "id": "570050",
-  "description": "An ancient place, cited: BAtlas 58 D1 Aigiplanktos/Geran(e)ia M.",
   "bbox": [
     22.5,
     38.0,
     23.0,
     38.5
   ],
-  "reprPoint": [
-    22.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D1 Aigiplanktos/Geran(e)ia M.",
   "names": [
     "Aigiplanktos",
     "Geraneia",
@@ -20,6 +16,19 @@
     "Geranion M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.0
             ],
             [
-              22.5,
-              38.5
-            ],
-            [
-              23.0,
-              38.5
-            ],
-            [
               23.0,
               38.0
+            ],
+            [
+              23.0,
+              38.5
+            ],
+            [
+              22.5,
+              38.5
             ],
             [
               22.5,

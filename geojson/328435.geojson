@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "328435",
-  "description": "Taparura → Bararus → Sullecthum",
   "bbox": [
     10.791179,
     35.211896,
     11.045793,
     35.3947171
   ],
+  "description": "Taparura → Bararus → Sullecthum",
   "connectsWith": [
     "324673",
     "324817"
   ],
-  "reprPoint": [
-    10.917054075,
-    35.302844275
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.917054075,
+          35.302844275
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.0
             ],
             [
-              7.5,
-              36.0
-            ],
-            [
-              11.5,
-              36.0
-            ],
-            [
               11.5,
               34.0
+            ],
+            [
+              11.5,
+              36.0
+            ],
+            [
+              7.5,
+              36.0
             ],
             [
               7.5,

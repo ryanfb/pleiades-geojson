@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Carietes",
   "id": "246297",
-  "description": "An ancient place, cited: BAtlas 25 C3 Carietes",
   "bbox": [
     -3.0,
     42.0,
     -2.0,
     43.0
   ],
-  "reprPoint": [
-    -2.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C3 Carietes",
   "names": [
     "Carietes",
     "Karistoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               42.0
             ],
             [
-              -3.0,
-              43.0
-            ],
-            [
-              -2.0,
-              43.0
-            ],
-            [
               -2.0,
               42.0
+            ],
+            [
+              -2.0,
+              43.0
+            ],
+            [
+              -3.0,
+              43.0
             ],
             [
               -3.0,

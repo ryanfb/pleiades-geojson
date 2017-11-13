@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Olina (river)",
   "id": "69546",
-  "description": "The Orne river, located in in Normandy within northwestern France, drains into the English Channel.",
   "bbox": [
     -2.0,
     50.0,
     -2.0,
     50.0
   ],
+  "description": "The Orne river, located in in Normandy within northwestern France, drains into the English Channel.",
   "connectsWith": [
     "20420"
-  ],
-  "reprPoint": [
-    -2.0,
-    50.0
   ],
   "names": [
     "Olina"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0,
+          50.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               48.0
             ],
             [
-              -1.0,
-              49.0
-            ],
-            [
-              0.0,
-              49.0
-            ],
-            [
               0.0,
               48.0
+            ],
+            [
+              0.0,
+              49.0
+            ],
+            [
+              -1.0,
+              49.0
             ],
             [
               -1.0,

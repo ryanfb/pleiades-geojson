@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pieria",
   "id": "491696",
-  "description": "Originally the territory of the Pieres, later incoporated into Macedonia",
   "bbox": [
     22.358611,
     40.085556,
     22.495222,
     40.177012
   ],
+  "description": "Originally the territory of the Pieres, later incoporated into Macedonia",
   "connectsWith": [
     "491677"
-  ],
-  "reprPoint": [
-    22.4247924913,
-    40.130028116
   ],
   "names": [
     "Pieria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4247924913,
+          40.130028116
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               40.5
             ],
             [
-              22.0,
-              41.0
-            ],
-            [
-              22.5,
-              41.0
-            ],
-            [
               22.5,
               40.5
+            ],
+            [
+              22.5,
+              41.0
+            ],
+            [
+              22.0,
+              41.0
             ],
             [
               22.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Los Casares",
   "id": "246300",
-  "description": "An ancient place, cited: BAtlas 25 B4 Los Casares",
   "bbox": [
     -3.222046,
     41.802813,
     -3.222046,
     41.802813
   ],
-  "reprPoint": [
-    -3.222046,
-    41.802813
-  ],
+  "description": "An ancient place, cited: BAtlas 25 B4 Los Casares",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.222046,
+          41.802813
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

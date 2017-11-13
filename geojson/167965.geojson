@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vertamocorii",
   "id": "167965",
-  "description": "An ancient place, cited: BAtlas 17 E4 Vertamocorii",
   "bbox": [
     5.0,
     44.5,
     5.5,
     45.0
   ],
-  "reprPoint": [
-    5.25,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 E4 Vertamocorii",
   "names": [
     "Vertamocorii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              5.0,
-              45.0
-            ],
-            [
-              5.5,
-              45.0
-            ],
-            [
               5.5,
               44.5
+            ],
+            [
+              5.5,
+              45.0
+            ],
+            [
+              5.0,
+              45.0
             ],
             [
               5.0,

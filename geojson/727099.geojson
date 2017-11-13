@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chemmis",
   "id": "727099",
-  "description": "An ancient place, cited: BAtlas 74 D2 Chemmis",
   "bbox": [
     30.5,
     31.0,
     31.0,
     31.5
   ],
-  "reprPoint": [
-    30.75,
-    31.25
-  ],
+  "description": "An ancient place, cited: BAtlas 74 D2 Chemmis",
   "names": [
     "Chemmis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          31.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              30.5,
-              31.5
-            ],
-            [
-              31.0,
-              31.5
-            ],
-            [
               31.0,
               31.0
+            ],
+            [
+              31.0,
+              31.5
+            ],
+            [
+              30.5,
+              31.5
             ],
             [
               30.5,

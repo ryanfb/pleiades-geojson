@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Kāšān",
   "id": "890432541",
-  "description": "A place from the TAVO Index",
   "bbox": [
     51.0,
     33.0,
     52.0,
     34.0
   ],
-  "reprPoint": [
-    51.5,
-    33.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Kāšān",
     "Fīn",
@@ -21,6 +17,19 @@
     "Kašān"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               33.0
             ],
             [
-              51.0,
-              34.0
-            ],
-            [
-              52.0,
-              34.0
-            ],
-            [
               52.0,
               33.0
+            ],
+            [
+              52.0,
+              34.0
+            ],
+            [
+              51.0,
+              34.0
             ],
             [
               51.0,

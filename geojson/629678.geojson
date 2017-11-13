@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "629678",
-  "description": "An ancient place, cited: BAtlas 64 C4 no. 7 (6 miles E Comana at Kemer over Saros fl.)",
   "bbox": [
     35.5849343,
     37.6056811,
     35.5849343,
     37.6056811
   ],
+  "description": "An ancient place, cited: BAtlas 64 C4 no. 7 (6 miles E Comana at Kemer over Saros fl.)",
   "connectsWith": [
     "648748"
   ],
-  "reprPoint": [
-    35.5849343,
-    37.6056811
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5849343,
+          37.6056811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              36.0,
-              38.5
-            ],
-            [
-              36.5,
-              38.5
-            ],
-            [
               36.5,
               38.0
+            ],
+            [
+              36.5,
+              38.5
+            ],
+            [
+              36.0,
+              38.5
             ],
             [
               36.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Coppa Nevigata",
   "id": "442552",
-  "description": "Coppa Nevigata is an archaeological site located on the Apulian coast of the Gargano peninsula southwest of Manfredonia.",
   "bbox": [
     15.8338518,
     41.558074,
     15.8338518,
     41.558074
   ],
-  "reprPoint": [
-    15.8338518,
-    41.558074
-  ],
+  "description": "Coppa Nevigata is an archaeological site located on the Apulian coast of the Gargano peninsula southwest of Manfredonia.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8338518,
+          41.558074
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

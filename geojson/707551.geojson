@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Krommy(ak)on Pr.",
   "id": "707551",
-  "description": "An ancient place, cited: BAtlas 72 B2 Krommy(ak)on Pr.",
   "bbox": [
     32.920278,
     35.405278,
     32.920278,
     35.405278
   ],
+  "description": "An ancient place, cited: BAtlas 72 B2 Krommy(ak)on Pr.",
   "connectsWith": [
     "707498"
-  ],
-  "reprPoint": [
-    32.920278,
-    35.405278
   ],
   "names": [
     "Krommyakon Pr.",
     "Krommyon Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.920278,
+          35.405278
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               35.0
             ],
             [
-              32.5,
-              35.5
-            ],
-            [
-              33.0,
-              35.5
-            ],
-            [
               33.0,
               35.0
+            ],
+            [
+              33.0,
+              35.5
+            ],
+            [
+              32.5,
+              35.5
             ],
             [
               32.5,

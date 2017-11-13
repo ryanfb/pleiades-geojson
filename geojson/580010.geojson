@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Laureion",
   "id": "580010",
-  "description": "A mining region",
   "bbox": [
     24.039891,
     37.712252,
     24.039891,
     37.712252
   ],
-  "reprPoint": [
-    24.039891,
-    37.712252
-  ],
+  "description": "A mining region",
   "names": [
     "Laureion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.039891,
+          37.712252
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.75
             ],
             [
-              23.75,
-              38.0
-            ],
-            [
-              24.0,
-              38.0
-            ],
-            [
               24.0,
               37.75
+            ],
+            [
+              24.0,
+              38.0
+            ],
+            [
+              23.75,
+              38.0
             ],
             [
               23.75,

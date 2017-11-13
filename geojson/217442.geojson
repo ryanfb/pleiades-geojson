@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "217442",
-  "description": "An ancient place, cited: BAtlas 22 B6 unnamed aqueduct group (Philippopolis)",
   "bbox": [
     24.0,
     42.0,
     25.0,
     43.0
   ],
-  "reprPoint": [
-    24.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 22 B6 unnamed aqueduct group (Philippopolis)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              24.0,
-              43.0
-            ],
-            [
-              25.0,
-              43.0
-            ],
-            [
               25.0,
               42.0
+            ],
+            [
+              25.0,
+              43.0
+            ],
+            [
+              24.0,
+              43.0
             ],
             [
               24.0,

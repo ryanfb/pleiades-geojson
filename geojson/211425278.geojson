@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "al-Ḫābūr aš-Šarqī",
   "id": "211425278",
-  "description": "A place from the TAVO Index",
   "bbox": [
     42.0,
     37.0,
     43.0,
     38.0
   ],
-  "reprPoint": [
-    42.5,
-    37.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "al-Ḫābūr aš-Šarqī",
     "al-Ḫabur",
@@ -23,6 +19,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -32,16 +41,16 @@
               37.0
             ],
             [
-              42.0,
-              38.0
-            ],
-            [
-              43.0,
-              38.0
-            ],
-            [
               43.0,
               37.0
+            ],
+            [
+              43.0,
+              38.0
+            ],
+            [
+              42.0,
+              38.0
             ],
             [
               42.0,

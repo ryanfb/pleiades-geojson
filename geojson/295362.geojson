@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Timici",
   "id": "295362",
-  "description": "An ancient place, cited: BAtlas 30 inset Timici",
   "bbox": [
     0.0,
     36.0,
     1.5,
     37.0
   ],
-  "reprPoint": [
-    0.75,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 30 inset Timici",
   "names": [
     "Timici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.75,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              0.0,
-              37.0
-            ],
-            [
-              1.5,
-              37.0
-            ],
-            [
               1.5,
               36.0
+            ],
+            [
+              1.5,
+              37.0
+            ],
+            [
+              0.0,
+              37.0
             ],
             [
               0.0,

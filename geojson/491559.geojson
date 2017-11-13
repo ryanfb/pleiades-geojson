@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cambunii M.",
   "id": "491559",
-  "description": "An ancient place, cited: BAtlas 50 A4 Cambunii M.",
   "bbox": [
     21.5,
     40.0,
     22.0,
     40.5
   ],
-  "reprPoint": [
-    21.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 A4 Cambunii M.",
   "names": [
     "Cambunii M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              21.5,
-              40.5
-            ],
-            [
-              22.0,
-              40.5
-            ],
-            [
               22.0,
               40.0
+            ],
+            [
+              22.0,
+              40.5
+            ],
+            [
+              21.5,
+              40.5
             ],
             [
               21.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phoimios (river)",
   "id": "305130",
-  "description": "An ancient place, cited: BAtlas 31 A4 Phoimios fl.",
   "bbox": [
     4.0,
     36.0,
     4.5,
     36.5
   ],
-  "reprPoint": [
-    4.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 31 A4 Phoimios fl.",
   "names": [
     "Phoimios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              4.0,
-              36.5
-            ],
-            [
-              4.5,
-              36.5
-            ],
-            [
               4.5,
               36.0
+            ],
+            [
+              4.5,
+              36.5
+            ],
+            [
+              4.0,
+              36.5
             ],
             [
               4.0,

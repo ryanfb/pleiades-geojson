@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lubieszewo",
   "id": "20532",
-  "description": "An ancient place, cited: BAtlas 2 G3 Lubieszewo (1)",
   "bbox": [
     15.0,
     50.0,
     20.0,
     55.0
   ],
-  "reprPoint": [
-    17.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 G3 Lubieszewo (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               50.0
             ],
             [
-              15.0,
-              55.0
-            ],
-            [
-              20.0,
-              55.0
-            ],
-            [
               20.0,
               50.0
+            ],
+            [
+              20.0,
+              55.0
+            ],
+            [
+              15.0,
+              55.0
             ],
             [
               15.0,

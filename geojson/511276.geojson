@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hieron M.",
   "id": "511276",
-  "description": "An ancient place, cited: BAtlas 52 A3 Hieron M.",
   "bbox": [
     27.0,
     40.5,
     27.5,
     41.0
   ],
-  "reprPoint": [
-    27.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 A3 Hieron M.",
   "names": [
     "Hieron M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              27.0,
-              41.0
-            ],
-            [
-              27.5,
-              41.0
-            ],
-            [
               27.5,
               40.5
+            ],
+            [
+              27.5,
+              41.0
+            ],
+            [
+              27.0,
+              41.0
             ],
             [
               27.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Klaudianon",
   "id": "766376",
-  "description": "An ancient place, cited: BAtlas 78 C4 Klaudianon (1)",
   "bbox": [
     33.0,
     26.5,
     33.5,
     27.0
   ],
-  "reprPoint": [
-    33.25,
-    26.75
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C4 Klaudianon (1)",
   "names": [
     "Klaudianon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.25,
+          26.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               26.5
             ],
             [
-              33.0,
-              27.0
-            ],
-            [
-              33.5,
-              27.0
-            ],
-            [
               33.5,
               26.5
+            ],
+            [
+              33.5,
+              27.0
+            ],
+            [
+              33.0,
+              27.0
             ],
             [
               33.0,

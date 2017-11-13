@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Bridge at Aspendos",
   "id": "640251",
-  "description": "An unnamed bridge over Eurymedon fl.",
   "bbox": [
     31.18,
     36.9355,
     31.18,
     36.9355
   ],
+  "description": "An unnamed bridge over Eurymedon fl.",
   "connectsWith": [
     "638776",
     "638836"
   ],
-  "reprPoint": [
-    31.18,
-    36.9355
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.18,
+          36.9355
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

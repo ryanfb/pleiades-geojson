@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Mais (river)",
   "id": "59905",
-  "description": "An ancient place, cited: BAtlas 6 C5 Mais fl.",
   "bbox": [
     73.2520695,
     22.7268645,
     73.2520695,
     22.7268645
   ],
-  "reprPoint": [
-    73.2520695,
-    22.7268645
-  ],
+  "description": "An ancient place, cited: BAtlas 6 C5 Mais fl.",
   "names": [
     "Mais",
     "Elymaide",
     "Mophis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2520695,
+          22.7268645
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               20.0
             ],
             [
-              70.0,
-              25.0
-            ],
-            [
-              75.0,
-              25.0
-            ],
-            [
               75.0,
               20.0
+            ],
+            [
+              75.0,
+              25.0
+            ],
+            [
+              70.0,
+              25.0
             ],
             [
               70.0,

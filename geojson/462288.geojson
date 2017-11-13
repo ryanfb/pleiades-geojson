@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Longanos (river)",
   "id": "462288",
-  "description": "An ancient place, cited: BAtlas 47 G2 Longanos fl.",
   "bbox": [
     15.0,
     38.0,
     15.5,
     38.5
   ],
-  "reprPoint": [
-    15.25,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 47 G2 Longanos fl.",
   "names": [
     "Longanos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              15.0,
-              38.5
-            ],
-            [
-              15.5,
-              38.5
-            ],
-            [
               15.5,
               38.0
+            ],
+            [
+              15.5,
+              38.5
+            ],
+            [
+              15.0,
+              38.5
             ],
             [
               15.0,

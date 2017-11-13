@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 17B",
   "id": "967060421",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.918439,
     55.009284,
     -1.918439,
     55.009284
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.918439,
-    55.009284
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.918439,
+          55.009284
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

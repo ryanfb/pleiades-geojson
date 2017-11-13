@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Machounoi",
   "id": "324771",
-  "description": "A small tribe on the coast of the Syrtis Minor",
   "bbox": [
     10.68762,
     34.758702,
     10.68762,
     34.758702
   ],
-  "reprPoint": [
-    10.68762,
-    34.758702
-  ],
+  "description": "A small tribe on the coast of the Syrtis Minor",
   "names": [
     "Machounoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.68762,
+          34.758702
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               34.5
             ],
             [
-              10.5,
-              35.0
-            ],
-            [
-              11.0,
-              35.0
-            ],
-            [
               11.0,
               34.5
+            ],
+            [
+              11.0,
+              35.0
+            ],
+            [
+              10.5,
+              35.0
             ],
             [
               10.5,

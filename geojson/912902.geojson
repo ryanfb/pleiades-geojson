@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mat Tamti",
   "id": "912902",
-  "description": "An ancient place, cited: BAtlas 93 B2 Mat Tamti",
   "bbox": [
     45.0,
     31.0,
     46.0,
     32.0
   ],
-  "reprPoint": [
-    45.5,
-    31.5
-  ],
+  "description": "An ancient place, cited: BAtlas 93 B2 Mat Tamti",
   "names": [
     "Mat Tamti"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               31.0
             ],
             [
-              45.0,
-              32.0
-            ],
-            [
-              46.0,
-              32.0
-            ],
-            [
               46.0,
               31.0
+            ],
+            [
+              46.0,
+              32.0
+            ],
+            [
+              45.0,
+              32.0
             ],
             [
               45.0,

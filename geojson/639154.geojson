@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Trogitis L.",
   "id": "639154",
-  "description": "An ancient place, cited: BAtlas 65 G3 Trogitis L.",
   "bbox": [
     31.5,
     37.0,
     32.0,
     37.5
   ],
-  "reprPoint": [
-    31.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 G3 Trogitis L.",
   "names": [
     "Trogitis L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              31.5,
-              37.5
-            ],
-            [
-              32.0,
-              37.5
-            ],
-            [
               32.0,
               37.0
+            ],
+            [
+              32.0,
+              37.5
+            ],
+            [
+              31.5,
+              37.5
             ],
             [
               31.5,

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Smyrna/Eurydikeia",
   "id": "550893",
-  "description": "An ancient settlement of Asia Minor, modern Izmir in Turkey.",
   "bbox": [
     27.1383,
     38.4153421,
     27.144474,
     38.41905
   ],
+  "description": "An ancient settlement of Asia Minor, modern Izmir in Turkey.",
   "connectsWith": [
     "837"
-  ],
-  "reprPoint": [
-    27.141387,
-    38.41719605
   ],
   "names": [
     "Smyrna",
@@ -22,6 +18,19 @@
     "Zmyrna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.141387,
+          38.41719605
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

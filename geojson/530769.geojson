@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Acheron (river)",
   "id": "530769",
-  "description": "A river of Epirus.",
   "bbox": [
     20.4831346,
     39.2348296,
     20.4831346,
     39.2348296
   ],
-  "reprPoint": [
-    20.4831346,
-    39.2348296
-  ],
+  "description": "A river of Epirus.",
   "names": [
     "Achérōn"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4831346,
+          39.2348296
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Acis (river)",
   "id": "462066",
-  "description": "An ancient place, cited: BAtlas 47 G3 Acis fl.",
   "bbox": [
     15.0,
     37.5,
     15.5,
     38.0
   ],
+  "description": "An ancient place, cited: BAtlas 47 G3 Acis fl.",
   "connectsWith": [
     "462492"
-  ],
-  "reprPoint": [
-    15.25,
-    37.75
   ],
   "names": [
     "Acis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.5
             ],
             [
-              15.0,
-              38.0
-            ],
-            [
-              15.5,
-              38.0
-            ],
-            [
               15.5,
               37.5
+            ],
+            [
+              15.5,
+              38.0
+            ],
+            [
+              15.0,
+              38.0
             ],
             [
               15.0,

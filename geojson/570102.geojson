@@ -2,20 +2,31 @@
   "type": "FeatureCollection",
   "title": "Arcadia",
   "id": "570102",
-  "description": "The ancient region of Arcadia comprised the highlands at the center of the Peloponnese.",
   "bbox": [
     21.839109,
     37.388696,
     22.429387,
     37.8069467
   ],
-  "reprPoint": [
-    22.1653230973,
-    37.5674192684
-  ],
+  "description": "The ancient region of Arcadia comprised the highlands at the center of the Peloponnese.",
   "names": [
     "Arcadia",
     "Pelasgia",
     "Arkadía"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1653230973,
+          37.5674192684
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

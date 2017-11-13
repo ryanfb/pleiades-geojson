@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eone",
   "id": "854680",
-  "description": "An ancient place, cited: BAtlas 87 L2 Eone",
   "bbox": [
     36.5,
     45.0,
     37.0,
     45.5
   ],
-  "reprPoint": [
-    36.75,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 87 L2 Eone",
   "names": [
     "Eone"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              36.5,
-              45.5
-            ],
-            [
-              37.0,
-              45.5
-            ],
-            [
               37.0,
               45.0
+            ],
+            [
+              37.0,
+              45.5
+            ],
+            [
+              36.5,
+              45.5
             ],
             [
               36.5,

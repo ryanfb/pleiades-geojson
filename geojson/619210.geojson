@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Modicus M.",
   "id": "619210",
-  "description": "An ancient place, cited: BAtlas 63 A1 Modicus M.",
   "bbox": [
     32.0,
     39.5,
     32.5,
     40.0
   ],
-  "reprPoint": [
-    32.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 63 A1 Modicus M.",
   "names": [
     "Modicus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              32.0,
-              40.0
-            ],
-            [
-              32.5,
-              40.0
-            ],
-            [
               32.5,
               39.5
+            ],
+            [
+              32.5,
+              40.0
+            ],
+            [
+              32.0,
+              40.0
             ],
             [
               32.0,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Verteris",
   "id": "89312",
-  "description": "An ancient place, cited: BAtlas 9 E6 Verteris",
   "bbox": [
     -2.324443,
     54.520823,
     -2.3229,
     54.521991
   ],
-  "reprPoint": [
-    -2.32367380505,
-    54.5214081466
-  ],
+  "description": "An ancient place, cited: BAtlas 9 E6 Verteris",
   "names": [
     "Verteris",
     "Brough-under-Stainmore"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.32367380505,
+          54.5214081466
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               54.520823
             ],
             [
-              -2.324443,
-              54.521991
+              -2.3229,
+              54.520831
             ],
             [
               -2.322951,
               54.521989
             ],
             [
-              -2.3229,
-              54.520831
+              -2.324443,
+              54.521991
             ],
             [
               -2.324397,

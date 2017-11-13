@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Alpes Cottiae",
   "id": "982258",
-  "description": "An ancient place, cited: BAtlas 100 H3 no. 2 (Alpes Cottiae)",
   "bbox": [
     6.793592,
     44.952968,
     7.048364,
     45.138348
   ],
-  "reprPoint": [
-    6.920978,
-    45.045658
-  ],
+  "description": "An ancient place, cited: BAtlas 100 H3 no. 2 (Alpes Cottiae)",
   "names": [
     "Alpes Cottiae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.920978,
+          45.045658
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              5.0,
-              45.0
-            ],
-            [
-              10.0,
-              45.0
-            ],
-            [
               10.0,
               40.0
+            ],
+            [
+              10.0,
+              45.0
+            ],
+            [
+              5.0,
+              45.0
             ],
             [
               5.0,

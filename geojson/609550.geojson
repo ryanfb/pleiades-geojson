@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Temnos M.",
   "id": "609550",
-  "description": "An ancient place, cited: BAtlas 62 A3 Temnos M.",
   "bbox": [
     27.0057354,
     38.9471678,
     27.0057354,
     38.9471678
   ],
-  "reprPoint": [
-    27.0057354,
-    38.9471678
-  ],
+  "description": "An ancient place, cited: BAtlas 62 A3 Temnos M.",
   "names": [
     "Temnos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0057354,
+          38.9471678
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              28.5,
-              39.5
-            ],
-            [
-              29.0,
-              39.5
-            ],
-            [
               29.0,
               39.0
+            ],
+            [
+              29.0,
+              39.5
+            ],
+            [
+              28.5,
+              39.5
             ],
             [
               28.5,

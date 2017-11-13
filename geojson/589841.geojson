@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Karpathos (island)",
   "id": "589841",
-  "description": "Karpathos, part of the Dodecanese, lies between Crete and Rhodes in the southern Aegean Sea.",
   "bbox": [
     27.133333,
     35.583333,
     27.133333,
     35.583333
   ],
+  "description": "Karpathos, part of the Dodecanese, lies between Crete and Rhodes in the southern Aegean Sea.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    27.133333,
-    35.583333
   ],
   "names": [
     "Karpathos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.133333,
+          35.583333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

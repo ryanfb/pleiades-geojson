@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Kleides Pr.",
   "id": "707537",
-  "description": "An ancient place, cited: BAtlas 72 F1 Kleides Pr.",
   "bbox": [
     34.5,
     35.5,
     35.0,
     36.0
   ],
-  "reprPoint": [
-    34.75,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 72 F1 Kleides Pr.",
   "names": [
     "Kleides Pr.",
     "Oura Boos Pr.",
     "Dinaretum Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               35.5
             ],
             [
-              34.5,
-              36.0
-            ],
-            [
-              35.0,
-              36.0
-            ],
-            [
               35.0,
               35.5
+            ],
+            [
+              35.0,
+              36.0
+            ],
+            [
+              34.5,
+              36.0
             ],
             [
               34.5,

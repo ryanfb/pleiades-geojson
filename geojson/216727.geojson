@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Barboşi",
   "id": "216727",
-  "description": "Barboşi is the site of a Roman castrum in the Roman province of Moesia.",
   "bbox": [
     27.988721,
     45.401623,
     27.988721,
     45.401623
   ],
-  "reprPoint": [
-    27.988721,
-    45.401623
-  ],
+  "description": "Barboşi is the site of a Roman castrum in the Roman province of Moesia.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.988721,
+          45.401623
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

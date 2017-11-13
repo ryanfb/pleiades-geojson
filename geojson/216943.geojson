@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Praetorium",
   "id": "216943",
-  "description": "An ancient place, cited: BAtlas 22 B3 Praetorium",
   "bbox": [
     24.296418,
     45.434546,
     24.296418,
     45.434546
   ],
-  "reprPoint": [
-    24.296418,
-    45.434546
-  ],
+  "description": "An ancient place, cited: BAtlas 22 B3 Praetorium",
   "names": [
     "Praetorium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.296418,
+          45.434546
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              24.0,
-              46.0
-            ],
-            [
-              25.0,
-              46.0
-            ],
-            [
               25.0,
               45.0
+            ],
+            [
+              25.0,
+              46.0
+            ],
+            [
+              24.0,
+              46.0
             ],
             [
               24.0,

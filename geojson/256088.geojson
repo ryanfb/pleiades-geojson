@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Caveira",
   "id": "256088",
-  "description": "An ancient place, cited: BAtlas 26 B3 Caveira",
   "bbox": [
     -8.729378,
     38.147227,
     -8.729378,
     38.147227
   ],
-  "reprPoint": [
-    -8.729378,
-    38.147227
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B3 Caveira",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.729378,
+          38.147227
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

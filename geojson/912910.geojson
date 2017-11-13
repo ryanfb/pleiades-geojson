@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Nippur/Nufar/‘Hippareni’",
   "id": "912910",
-  "description": "An ancient Sumerian settlement whose ruins lie at Nuffar in modern Iraq. Under various names it persisted as a settlement throughout the periods of Greek and Roman engagement in Babylonia.",
   "bbox": [
     45.230833,
     32.126944,
     45.230833,
     32.126944
   ],
-  "reprPoint": [
-    45.230833,
-    32.126944
-  ],
+  "description": "An ancient Sumerian settlement whose ruins lie at Nuffar in modern Iraq. Under various names it persisted as a settlement throughout the periods of Greek and Roman engagement in Babylonia.",
   "names": [
     "Nippur",
     "Nufar",
@@ -27,6 +23,19 @@
     "Nippur"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.230833,
+          32.126944
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

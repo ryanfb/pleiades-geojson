@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "al-Qusur",
   "id": "912803",
-  "description": "An ancient place, cited: BAtlas 93 E4 al-Qusur",
   "bbox": [
     48.34368,
     29.438761,
     48.34368,
     29.438761
   ],
+  "description": "An ancient place, cited: BAtlas 93 E4 al-Qusur",
   "connectsWith": [
     "912841"
   ],
-  "reprPoint": [
-    48.34368,
-    29.438761
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.34368,
+          29.438761
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

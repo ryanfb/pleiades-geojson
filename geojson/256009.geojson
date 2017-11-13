@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Baetis Aestuaria",
   "id": "256009",
-  "description": "An ancient place, cited: BAtlas 26 D5 Baetis Aestuaria",
   "bbox": [
     -2.910335,
     37.969207,
     -2.910335,
     37.969207
   ],
+  "description": "An ancient place, cited: BAtlas 26 D5 Baetis Aestuaria",
   "connectsWith": [
     "256010"
-  ],
-  "reprPoint": [
-    -2.910335,
-    37.969207
   ],
   "names": [
     "Baetis Aestuaria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.910335,
+          37.969207
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.0
             ],
             [
-              -7.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
               -6.0,
               36.0
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -7.0,
+              37.0
             ],
             [
               -7.0,

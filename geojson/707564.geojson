@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Limni",
   "id": "707564",
-  "description": "An ancient place, cited: BAtlas 72 A2 Limni",
   "bbox": [
     32.489772,
     35.03481,
     32.489772,
     35.03481
   ],
+  "description": "An ancient place, cited: BAtlas 72 A2 Limni",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    32.489772,
-    35.03481
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.489772,
+          35.03481
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "346551",
-  "description": "An ancient place, cited: BAtlas 35 C2 unnamed wall (W Wadi Merteba at Remada south)",
   "bbox": [
     10.0,
     32.0,
     11.0,
     33.0
   ],
-  "reprPoint": [
-    10.5,
-    32.5
-  ],
+  "description": "An ancient place, cited: BAtlas 35 C2 unnamed wall (W Wadi Merteba at Remada south)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               32.0
             ],
             [
-              10.0,
-              33.0
-            ],
-            [
-              11.0,
-              33.0
-            ],
-            [
               11.0,
               32.0
+            ],
+            [
+              11.0,
+              33.0
+            ],
+            [
+              10.0,
+              33.0
             ],
             [
               10.0,

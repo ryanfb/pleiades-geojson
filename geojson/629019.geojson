@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kouloupene",
   "id": "629019",
-  "description": "An ancient place, cited: BAtlas 64 C1 Kouloupene",
   "bbox": [
     36.0,
     39.5,
     36.5,
     40.0
   ],
-  "reprPoint": [
-    36.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 64 C1 Kouloupene",
   "names": [
     "Kouloupene",
     "Colopene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.5
             ],
             [
-              36.0,
-              40.0
-            ],
-            [
-              36.5,
-              40.0
-            ],
-            [
               36.5,
               39.5
+            ],
+            [
+              36.5,
+              40.0
+            ],
+            [
+              36.0,
+              40.0
             ],
             [
               36.0,

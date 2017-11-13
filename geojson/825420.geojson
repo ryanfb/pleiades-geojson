@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vladimirovka",
   "id": "825420",
-  "description": "An ancient place, cited: BAtlas 84 C4 Vladimirovka",
   "bbox": [
     37.645655,
     44.825769,
     37.645655,
     44.825769
   ],
-  "reprPoint": [
-    37.645655,
-    44.825769
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C4 Vladimirovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.645655,
+          44.825769
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

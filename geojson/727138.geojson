@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Kanobikos (river)",
   "id": "727138",
-  "description": "The western-most ancient branch of the Nile river in the Delta, terminating in the Mediterranean via the \"Canopic mouth\" (Kanobikon Stoma).",
   "bbox": [
     30.192032,
     31.13965,
     30.192032,
     31.13965
   ],
+  "description": "The western-most ancient branch of the Nile river in the Delta, terminating in the Mediterranean via the \"Canopic mouth\" (Kanobikon Stoma).",
   "connectsWith": [
     "727137"
-  ],
-  "reprPoint": [
-    30.192032,
-    31.13965
   ],
   "names": [
     "Kanobikos",
     "Saitischer Arm"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.192032,
+          31.13965
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               31.0
             ],
             [
-              30.0,
-              31.5
-            ],
-            [
-              30.5,
-              31.5
-            ],
-            [
               30.5,
               31.0
+            ],
+            [
+              30.5,
+              31.5
+            ],
+            [
+              30.0,
+              31.5
             ],
             [
               30.0,
@@ -68,16 +77,16 @@
               30.0
             ],
             [
-              31.0,
-              30.5
-            ],
-            [
-              31.5,
-              30.5
-            ],
-            [
               31.5,
               30.0
+            ],
+            [
+              31.5,
+              30.5
+            ],
+            [
+              31.0,
+              30.5
             ],
             [
               31.0,

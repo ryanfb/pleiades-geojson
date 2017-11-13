@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Delkon (river)",
   "id": "511230",
-  "description": "An ancient place, cited: BAtlas 52 C2 Delkon fl.",
   "bbox": [
     28.0,
     41.0,
     28.5,
     41.5
   ],
-  "reprPoint": [
-    28.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 C2 Delkon fl.",
   "names": [
     "Delkon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              28.0,
-              41.5
-            ],
-            [
-              28.5,
-              41.5
-            ],
-            [
               28.5,
               41.0
+            ],
+            [
+              28.5,
+              41.5
+            ],
+            [
+              28.0,
+              41.5
             ],
             [
               28.0,

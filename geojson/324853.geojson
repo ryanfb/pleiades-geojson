@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Zeta?",
   "id": "324853",
-  "description": "An ancient place, cited: BAtlas 33 G1 Zeta?",
   "bbox": [
     10.5,
     35.5,
     11.0,
     36.0
   ],
-  "reprPoint": [
-    10.75,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 G1 Zeta?",
   "names": [
     "Zeta",
     "Zeia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               35.5
             ],
             [
-              10.5,
-              36.0
-            ],
-            [
-              11.0,
-              36.0
-            ],
-            [
               11.0,
               35.5
+            ],
+            [
+              11.0,
+              36.0
+            ],
+            [
+              10.5,
+              36.0
             ],
             [
               10.5,

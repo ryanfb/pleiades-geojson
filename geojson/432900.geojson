@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "Latium",
   "id": "432900",
-  "description": "The territory of the Latins.",
   "bbox": [
     12.7621,
     41.7909,
     12.7621,
     41.7909
   ],
+  "description": "The territory of the Latins.",
   "connectsWith": [
     "432901"
   ],
-  "reprPoint": [
-    12.7621,
-    41.7909
-  ],
   "names": [
     "Latium"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7621,
+          41.7909
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

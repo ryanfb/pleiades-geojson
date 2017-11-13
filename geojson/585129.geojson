@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "585129",
-  "description": "An ancient place, cited: BAtlas 59 B3 unnamed wall (Phalerikon Teichos, Leophoros Syngrou)",
   "bbox": [
     23.5,
     37.75,
     23.75,
     38.0
   ],
-  "reprPoint": [
-    23.625,
-    37.875
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B3 unnamed wall (Phalerikon Teichos, Leophoros Syngrou)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          37.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.75
             ],
             [
-              23.5,
-              38.0
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
               23.75,
               37.75
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.5,
+              38.0
             ],
             [
               23.5,

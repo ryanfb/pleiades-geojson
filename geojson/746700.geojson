@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Aelana/Aila",
   "id": "746700",
-  "description": "The city of Aqaba on the Red Sea.",
   "bbox": [
     34.999999,
     29.530676,
     34.999999,
     29.530676
   ],
+  "description": "The city of Aqaba on the Red Sea.",
   "connectsWith": [
     "39290",
     "746701"
-  ],
-  "reprPoint": [
-    34.999999,
-    29.530676
   ],
   "names": [
     "Aelana",
@@ -45,6 +41,19 @@
     "Aila"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.999999,
+          29.530676
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

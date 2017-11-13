@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Eriza",
   "id": "874467",
-  "description": "An ancient place, cited: BAtlas 89 B1 Eriza",
   "bbox": [
     39.5,
     39.75,
     39.5,
     39.75
   ],
-  "reprPoint": [
-    39.5,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B1 Eriza",
   "names": [
     "Eriza",
     "Erzincan",
@@ -29,6 +25,19 @@
     "Eriza"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

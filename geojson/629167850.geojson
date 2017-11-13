@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pythagoreion",
   "id": "629167850",
-  "description": "An ancient fortified port on Samos.",
   "bbox": [
     26.942597,
     37.689919,
     26.942597,
     37.689919
   ],
+  "description": "An ancient fortified port on Samos.",
   "connectsWith": [
     "599926"
   ],
-  "reprPoint": [
-    26.942597,
-    37.689919
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.942597,
+          37.689919
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

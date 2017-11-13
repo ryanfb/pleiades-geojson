@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trokmoi",
   "id": "619275",
-  "description": "An ancient Celtic people who likely migrated into Anatolia in the early third century BCE.",
   "bbox": [
     34.365695,
     39.848917,
     34.530432,
     39.928818
   ],
-  "reprPoint": [
-    34.4589144727,
-    39.8789404006
-  ],
+  "description": "An ancient Celtic people who likely migrated into Anatolia in the early third century BCE.",
   "names": [
     "Trokmoi",
     "Trocmi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4589144727,
+          39.8789404006
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.5
             ],
             [
-              34.0,
-              40.0
-            ],
-            [
-              34.5,
-              40.0
-            ],
-            [
               34.5,
               39.5
+            ],
+            [
+              34.5,
+              40.0
+            ],
+            [
+              34.0,
+              40.0
             ],
             [
               34.0,

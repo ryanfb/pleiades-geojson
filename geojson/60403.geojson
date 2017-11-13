@@ -2,21 +2,32 @@
   "type": "FeatureCollection",
   "title": "Achaia (settlement)",
   "id": "60403",
-  "description": "An ancient settlement, said by Strabo to have been located in Areia (i.e., in or near the modern province of Herat, Afghanistan). Its precise location is unknown.",
   "bbox": [
     61.0,
     34.0,
     62.0,
     35.0
   ],
+  "description": "An ancient settlement, said by Strabo to have been located in Areia (i.e., in or near the modern province of Herat, Afghanistan). Its precise location is unknown.",
   "connectsWith": [
     "961881"
   ],
-  "reprPoint": [
-    61.5,
-    34.5
-  ],
   "names": [
     "Achaia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

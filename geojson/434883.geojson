@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Fossa Neronis",
   "id": "434883",
-  "description": "An ancient place, cited: BAtlas 44 E3 Fossa Neronis",
   "bbox": [
     13.5,
     41.0,
     14.0,
     41.5
   ],
-  "reprPoint": [
-    13.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 44 E3 Fossa Neronis",
   "names": [
     "Fossa Neronis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Footpath Station",
   "id": "766363",
-  "description": "An ancient place, cited: BAtlas 78 C3 Footpath Station",
   "bbox": [
     33.307122,
     27.211992,
     33.307122,
     27.211992
   ],
-  "reprPoint": [
-    33.307122,
-    27.211992
-  ],
+  "description": "An ancient place, cited: BAtlas 78 C3 Footpath Station",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.307122,
+          27.211992
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

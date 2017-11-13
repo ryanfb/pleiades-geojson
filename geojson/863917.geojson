@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Valli",
   "id": "863917",
-  "description": "An ancient place, cited: BAtlas 88 B2 Valli",
   "bbox": [
     43.0,
     42.0,
     44.0,
     43.0
   ],
-  "reprPoint": [
-    43.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 B2 Valli",
   "names": [
     "Valli",
     "Oualoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               42.0
             ],
             [
-              43.0,
-              43.0
-            ],
-            [
-              44.0,
-              43.0
-            ],
-            [
               44.0,
               42.0
+            ],
+            [
+              44.0,
+              43.0
+            ],
+            [
+              43.0,
+              43.0
             ],
             [
               43.0,

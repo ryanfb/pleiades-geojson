@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Meletos/Smyrnaeus Sinus",
   "id": "550730",
-  "description": "The Gulf of İzmir",
   "bbox": [
     26.75491,
     38.53586,
     26.75491,
     38.53586
   ],
+  "description": "The Gulf of İzmir",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.75491,
-    38.53586
   ],
   "names": [
     "Meletos",
     "Smyrnaeus Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75491,
+          38.53586
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               38.0
             ],
             [
-              27.0,
-              38.5
-            ],
-            [
-              27.5,
-              38.5
-            ],
-            [
               27.5,
               38.0
+            ],
+            [
+              27.5,
+              38.5
+            ],
+            [
+              27.0,
+              38.5
             ],
             [
               27.0,

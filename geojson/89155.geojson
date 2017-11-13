@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Croy Hill",
   "id": "89155",
-  "description": "The site of a Roman fort and fortlet on the Antonine Wall.",
   "bbox": [
     -4.042,
     55.959,
     -4.042,
     55.959
   ],
+  "description": "The site of a Roman fort and fortlet on the Antonine Wall.",
   "connectsWith": [
     "91357"
   ],
-  "reprPoint": [
-    -4.042,
-    55.959
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.042,
+          55.959
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

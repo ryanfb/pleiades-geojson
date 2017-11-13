@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aiginetes (river)",
   "id": "844854",
-  "description": "An ancient place, cited: BAtlas 86 D2 Aiginetes fl.",
   "bbox": [
     33.0,
     41.0,
     34.0,
     42.0
   ],
-  "reprPoint": [
-    33.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 86 D2 Aiginetes fl.",
   "names": [
     "Aiginetes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              33.0,
-              42.0
-            ],
-            [
-              34.0,
-              42.0
-            ],
-            [
               34.0,
               41.0
+            ],
+            [
+              34.0,
+              42.0
+            ],
+            [
+              33.0,
+              42.0
             ],
             [
               33.0,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Melpis (river)",
   "id": "432935",
-  "description": "The Melfa river flows through Lazio, originating from the Monti della Meta and joining the Liri river near San Giovanni Incarico.",
   "bbox": [
     13.9081382,
     41.6033448,
     13.9081382,
     41.6033448
   ],
+  "description": "The Melfa river flows through Lazio, originating from the Monti della Meta and joining the Liri river near San Giovanni Incarico.",
   "connectsWith": [
     "432910"
-  ],
-  "reprPoint": [
-    13.9081382,
-    41.6033448
   ],
   "names": [
     "Melpis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9081382,
+          41.6033448
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

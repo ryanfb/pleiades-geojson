@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "141207",
-  "description": "Divona → S",
   "bbox": [
     1.436995,
     44.445321,
     1.442975,
     44.4509746
   ],
-  "reprPoint": [
-    1.44014133333,
-    44.4478665333
-  ],
+  "description": "Divona → S",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.44014133333,
+          44.4478665333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              -5.0,
-              48.0
-            ],
-            [
-              4.0,
-              48.0
-            ],
-            [
               4.0,
               44.0
+            ],
+            [
+              4.0,
+              48.0
+            ],
+            [
+              -5.0,
+              48.0
             ],
             [
               -5.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Rokka",
   "id": "590034",
-  "description": "An ancient place, cited: BAtlas 60 A2 Rokka",
   "bbox": [
     23.732629,
     35.47529,
     23.732629,
     35.47529
   ],
-  "reprPoint": [
-    23.732629,
-    35.47529
-  ],
+  "description": "An ancient place, cited: BAtlas 60 A2 Rokka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.732629,
+          35.47529
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

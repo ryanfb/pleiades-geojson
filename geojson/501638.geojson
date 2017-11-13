@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Thracia",
   "id": "501638",
-  "description": "An ancient place, cited: BAtlas 51 F1 Thracia",
   "bbox": [
     23.129408,
     40.288041,
     23.129408,
     40.288041
   ],
-  "reprPoint": [
-    23.129408,
-    40.288041
-  ],
+  "description": "An ancient place, cited: BAtlas 51 F1 Thracia",
   "names": [
     "Thracia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.129408,
+          40.288041
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.5
             ],
             [
-              25.5,
-              42.0
-            ],
-            [
-              26.0,
-              42.0
-            ],
-            [
               26.0,
               41.5
+            ],
+            [
+              26.0,
+              42.0
+            ],
+            [
+              25.5,
+              42.0
             ],
             [
               25.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Beacon Hill Hill fort",
   "id": "245109546",
-  "description": "Beacon Hill Hill fort is an Iron Age hill fort in Hampshire, England.",
   "bbox": [
     -1.3431545,
     51.3113551,
     -1.3431545,
     51.3113551
   ],
-  "reprPoint": [
-    -1.3431545,
-    51.3113551
-  ],
+  "description": "Beacon Hill Hill fort is an Iron Age hill fort in Hampshire, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3431545,
+          51.3113551
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

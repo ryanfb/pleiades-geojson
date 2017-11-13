@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aqueduct supplying Alb(i)um Intimilium",
   "id": "158555",
-  "description": "Ancient name, if any, unknown (BAtlas 16 E2 unnamed aqueduct at Alb(i)um Intimilium)",
   "bbox": [
     7.613525,
     43.787919,
     7.629157,
     43.807317
   ],
+  "description": "Ancient name, if any, unknown (BAtlas 16 E2 unnamed aqueduct at Alb(i)um Intimilium)",
   "connectsWith": [
     "157802"
   ],
-  "reprPoint": [
-    7.621341,
-    43.797618
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.621341,
+          43.797618
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.787919
             ],
             [
-              7.613525,
-              43.807317
-            ],
-            [
-              7.629157,
-              43.807317
-            ],
-            [
               7.629157,
               43.787919
+            ],
+            [
+              7.629157,
+              43.807317
+            ],
+            [
+              7.613525,
+              43.807317
             ],
             [
               7.613525,

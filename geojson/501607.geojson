@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Serreion/Zonaion M.",
   "id": "501607",
-  "description": "An ancient place, cited: BAtlas 51 F3 Serreion/Zonaion M.",
   "bbox": [
     25.5,
     40.5,
     26.0,
     41.0
   ],
-  "reprPoint": [
-    25.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 F3 Serreion/Zonaion M.",
   "names": [
     "Serreion",
     "Zonaion M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               40.5
             ],
             [
-              25.5,
-              41.0
-            ],
-            [
-              26.0,
-              41.0
-            ],
-            [
               26.0,
               40.5
+            ],
+            [
+              26.0,
+              41.0
+            ],
+            [
+              25.5,
+              41.0
             ],
             [
               25.5,

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Ikarion Mare",
   "id": "599668",
-  "description": "The Ikarian Sea is the southeastern part of the Aegean Sea, extending from Samos to Mykonos.",
   "bbox": [
     26.333333,
     37.5,
     26.333333,
     37.5
   ],
+  "description": "The Ikarian Sea is the southeastern part of the Aegean Sea, extending from Samos to Mykonos.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.333333,
-    37.5
   ],
   "names": [
     "Ikarion Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.333333,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gynaikopolites Nomos",
   "id": "727115",
-  "description": "An ancient place, cited: BAtlas 74 C3 Gynaikopolites Nomos",
   "bbox": [
     30.0,
     30.5,
     30.5,
     31.0
   ],
-  "reprPoint": [
-    30.25,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 74 C3 Gynaikopolites Nomos",
   "names": [
     "Gynaikopolites Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.5
             ],
             [
-              30.0,
-              31.0
-            ],
-            [
-              30.5,
-              31.0
-            ],
-            [
               30.5,
               30.5
+            ],
+            [
+              30.5,
+              31.0
+            ],
+            [
+              30.0,
+              31.0
             ],
             [
               30.0,

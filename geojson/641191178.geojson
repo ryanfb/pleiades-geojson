@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Mitanni",
   "id": "641191178",
-  "description": "A place from the TAVO Index",
   "bbox": [
     38.0,
     36.0,
     38.5,
     36.5
   ],
-  "reprPoint": [
-    38.25,
-    36.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Mitanni",
     "Ḫanigalbat",
     "Ḫanikalbat"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               36.0
             ],
             [
-              38.0,
-              36.5
-            ],
-            [
-              38.5,
-              36.5
-            ],
-            [
               38.5,
               36.0
+            ],
+            [
+              38.5,
+              36.5
+            ],
+            [
+              38.0,
+              36.5
             ],
             [
               38.0,

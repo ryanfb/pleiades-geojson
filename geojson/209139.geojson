@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Metal(la) Aeliana Pincensia",
   "id": "209139",
-  "description": "An ancient place, cited: BAtlas 21 D5 Metal(la) Aeliana Pincensia",
   "bbox": [
     21.0,
     44.0,
     22.0,
     45.0
   ],
-  "reprPoint": [
-    21.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 D5 Metal(la) Aeliana Pincensia",
   "names": [
     "Metalla Aeliana Pincensia",
     "Metal Aeliana Pincensia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               44.0
             ],
             [
-              21.0,
-              45.0
-            ],
-            [
-              22.0,
-              45.0
-            ],
-            [
               22.0,
               44.0
+            ],
+            [
+              22.0,
+              45.0
+            ],
+            [
+              21.0,
+              45.0
             ],
             [
               21.0,

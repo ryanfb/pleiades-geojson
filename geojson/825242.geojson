@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Borisovka",
   "id": "825242",
-  "description": "An ancient place, cited: BAtlas 84 C4 Borisovka",
   "bbox": [
     37.689236,
     44.776322,
     37.689236,
     44.776322
   ],
-  "reprPoint": [
-    37.689236,
-    44.776322
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C4 Borisovka",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.689236,
+          44.776322
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

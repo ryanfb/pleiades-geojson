@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Curicta Ins.",
   "id": "197234",
-  "description": "A large island in the Adriatic Sea.",
   "bbox": [
     14.6,
     45.066667,
     14.6,
     45.066667
   ],
-  "reprPoint": [
-    14.6,
-    45.066667
-  ],
+  "description": "A large island in the Adriatic Sea.",
   "names": [
     "Curicta",
     "Krk"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6,
+          45.066667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

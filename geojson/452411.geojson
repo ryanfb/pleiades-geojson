@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Pyxous/Buxentum (settlement)",
   "id": "452411",
-  "description": "An ancient coastal settlement of south Italy, modern Policastro Bussentino.",
   "bbox": [
     15.511849,
     40.083851,
     15.511849,
     40.083851
   ],
+  "description": "An ancient coastal settlement of south Italy, modern Policastro Bussentino.",
   "connectsWith": [
     "452412"
-  ],
-  "reprPoint": [
-    15.511849,
-    40.083851
   ],
   "names": [
     "Pyxous",
     "Buxentum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.511849,
+          40.083851
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

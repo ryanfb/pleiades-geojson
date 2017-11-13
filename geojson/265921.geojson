@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Iliberri",
   "id": "265921",
-  "description": "An ancient settlement located to the west of modern Granada. Its precise location is unknown.",
   "bbox": [
     -3.597934,
     37.176484,
     -3.597934,
     37.176484
   ],
-  "reprPoint": [
-    -3.597934,
-    37.176484
-  ],
+  "description": "An ancient settlement located to the west of modern Granada. Its precise location is unknown.",
   "names": [
     "Iliberri",
     "Elvira",
     "Municipium Florentinum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.597934,
+          37.176484
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

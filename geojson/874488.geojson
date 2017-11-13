@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Gordyene/Corduena",
   "id": "874488",
-  "description": "Gordyene/Corduena was an ancient region of northern Mesopotamia.",
   "bbox": [
     42.0,
     37.0,
     43.0,
     38.0
   ],
-  "reprPoint": [
-    42.5,
-    37.5
-  ],
+  "description": "Gordyene/Corduena was an ancient region of northern Mesopotamia.",
   "names": [
     "Gordyene",
     "Corduena"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               37.0
             ],
             [
-              42.0,
-              38.0
-            ],
-            [
-              43.0,
-              38.0
-            ],
-            [
               43.0,
               37.0
+            ],
+            [
+              43.0,
+              38.0
+            ],
+            [
+              42.0,
+              38.0
             ],
             [
               42.0,

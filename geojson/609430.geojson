@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kaystros (river)",
   "id": "609430",
-  "description": "An ancient place, cited: BAtlas 62 D4 Kaystros fl.",
   "bbox": [
     30.0,
     38.5,
     30.5,
     39.0
   ],
-  "reprPoint": [
-    30.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 D4 Kaystros fl.",
   "names": [
     "Kaystros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              30.0,
-              39.0
-            ],
-            [
-              30.5,
-              39.0
-            ],
-            [
               30.5,
               38.5
+            ],
+            [
+              30.5,
+              39.0
+            ],
+            [
+              30.0,
+              39.0
             ],
             [
               30.0,

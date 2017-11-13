@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sauga? (river)",
   "id": "236654",
-  "description": "An ancient place, cited: BAtlas 24 H1 Sauga? fl.",
   "bbox": [
     -4.0,
     43.0,
     -3.0,
     44.0
   ],
-  "reprPoint": [
-    -3.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 H1 Sauga? fl.",
   "names": [
     "Sauga"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              -4.0,
-              44.0
-            ],
-            [
-              -3.0,
-              44.0
-            ],
-            [
               -3.0,
               43.0
+            ],
+            [
+              -3.0,
+              44.0
+            ],
+            [
+              -4.0,
+              44.0
             ],
             [
               -4.0,

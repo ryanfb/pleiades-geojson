@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Phrygia Epiktetos",
   "id": "511363",
-  "description": "An ancient place, cited: BAtlas 52 F4 Phrygia Epiktetos",
   "bbox": [
     29.39342,
     38.985291,
     30.718445,
     39.478002
   ],
-  "reprPoint": [
-    30.0548498667,
-    39.2362636167
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F4 Phrygia Epiktetos",
   "names": [
     "Phrygia Epiktetos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0548498667,
+          39.2362636167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              29.5,
-              40.5
-            ],
-            [
-              30.0,
-              40.5
-            ],
-            [
               30.0,
               40.0
+            ],
+            [
+              30.0,
+              40.5
+            ],
+            [
+              29.5,
+              40.5
             ],
             [
               29.5,

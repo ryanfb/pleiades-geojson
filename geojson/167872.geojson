@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pondel",
   "id": "167872",
-  "description": "A Roman aqueduct dating to 3 B.C.",
   "bbox": [
     7.0,
     45.5,
     7.5,
     46.0
   ],
-  "reprPoint": [
-    7.25,
-    45.75
-  ],
+  "description": "A Roman aqueduct dating to 3 B.C.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               45.5
             ],
             [
-              7.0,
-              46.0
-            ],
-            [
-              7.5,
-              46.0
-            ],
-            [
               7.5,
               45.5
+            ],
+            [
+              7.5,
+              46.0
+            ],
+            [
+              7.0,
+              46.0
             ],
             [
               7.0,

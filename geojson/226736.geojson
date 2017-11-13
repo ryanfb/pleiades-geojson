@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Raskopana",
   "id": "226736",
-  "description": "An ancient place, cited: BAtlas 23 G1 Raskopana",
   "bbox": [
     33.0,
     47.0,
     34.0,
     48.0
   ],
-  "reprPoint": [
-    33.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 G1 Raskopana",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              33.0,
-              48.0
-            ],
-            [
-              34.0,
-              48.0
-            ],
-            [
               34.0,
               47.0
+            ],
+            [
+              34.0,
+              48.0
+            ],
+            [
+              33.0,
+              48.0
             ],
             [
               33.0,

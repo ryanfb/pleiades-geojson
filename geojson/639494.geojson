@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "639494",
-  "description": "An ancient place, cited: BAtlas 65 E2 unnamed aqueduct (at Sagalassos)",
   "bbox": [
     30.5,
     37.5,
     31.0,
     38.0
   ],
-  "reprPoint": [
-    30.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 E2 unnamed aqueduct (at Sagalassos)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.5
             ],
             [
-              30.5,
-              38.0
-            ],
-            [
-              31.0,
-              38.0
-            ],
-            [
               31.0,
               37.5
+            ],
+            [
+              31.0,
+              38.0
+            ],
+            [
+              30.5,
+              38.0
             ],
             [
               30.5,

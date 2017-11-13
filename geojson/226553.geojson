@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bykes (river)",
   "id": "226553",
-  "description": "An ancient place, cited: BAtlas 23 G2 Bykes fl.",
   "bbox": [
     33.0,
     46.0,
     34.0,
     47.0
   ],
-  "reprPoint": [
-    33.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 G2 Bykes fl.",
   "names": [
     "Bykes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              33.0,
-              47.0
-            ],
-            [
-              34.0,
-              47.0
-            ],
-            [
               34.0,
               46.0
+            ],
+            [
+              34.0,
+              47.0
+            ],
+            [
+              33.0,
+              47.0
             ],
             [
               33.0,

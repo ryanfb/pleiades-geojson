@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Scythia",
   "id": "1273",
-  "description": "An ancient place, cited: BAtlas 1 I1 Scythia",
   "bbox": [
     25.0,
     45.0,
     30.0,
     50.0
   ],
-  "reprPoint": [
-    27.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 1 I1 Scythia",
   "names": [
     "Scythia",
     "Skythai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              25.0,
-              50.0
-            ],
-            [
-              30.0,
-              50.0
-            ],
-            [
               30.0,
               45.0
+            ],
+            [
+              30.0,
+              50.0
+            ],
+            [
+              25.0,
+              50.0
             ],
             [
               25.0,

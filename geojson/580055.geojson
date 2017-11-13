@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Panhellenios M.",
   "id": "580055",
-  "description": "An ancient place, cited: BAtlas 59 A4 Panhellenios M.",
   "bbox": [
     23.25,
     37.5,
     23.5,
     37.75
   ],
-  "reprPoint": [
-    23.375,
-    37.625
-  ],
+  "description": "An ancient place, cited: BAtlas 59 A4 Panhellenios M.",
   "names": [
     "Panhellenios M.",
     "Oros M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.375,
+          37.625
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               37.5
             ],
             [
-              23.25,
-              37.75
-            ],
-            [
-              23.5,
-              37.75
-            ],
-            [
               23.5,
               37.5
+            ],
+            [
+              23.5,
+              37.75
+            ],
+            [
+              23.25,
+              37.75
             ],
             [
               23.25,

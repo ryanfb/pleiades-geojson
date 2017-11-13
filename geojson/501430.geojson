@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Harpessos (river)",
   "id": "501430",
-  "description": "An ancient place, cited: BAtlas 51 G1 Harpessos fl.",
   "bbox": [
     26.0,
     41.5,
     26.5,
     42.0
   ],
-  "reprPoint": [
-    26.25,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 51 G1 Harpessos fl.",
   "names": [
     "Harpessos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.5
             ],
             [
-              26.0,
-              42.0
-            ],
-            [
-              26.5,
-              42.0
-            ],
-            [
               26.5,
               41.5
+            ],
+            [
+              26.5,
+              42.0
+            ],
+            [
+              26.0,
+              42.0
             ],
             [
               26.0,

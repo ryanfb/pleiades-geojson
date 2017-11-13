@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Selgoouai",
   "id": "89289",
-  "description": "The Selgoouai were an ancient people of southern Scotland attested only in the text of Ptolemy.",
   "bbox": [
     -4.0,
     55.0,
     -3.0,
     56.0
   ],
-  "reprPoint": [
-    -3.5,
-    55.5
-  ],
+  "description": "The Selgoouai were an ancient people of southern Scotland attested only in the text of Ptolemy.",
   "names": [
     "Selgoouai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          55.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               55.0
             ],
             [
-              -4.0,
-              56.0
-            ],
-            [
-              -3.0,
-              56.0
-            ],
-            [
               -3.0,
               55.0
+            ],
+            [
+              -3.0,
+              56.0
+            ],
+            [
+              -4.0,
+              56.0
             ],
             [
               -4.0,

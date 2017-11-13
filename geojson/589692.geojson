@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Andros (settlement)",
   "id": "589692",
-  "description": "An ancient place, cited: BAtlas 60 A4 Andros",
   "bbox": [
     24.8323379,
     37.8188329,
     24.8323379,
     37.8188329
   ],
+  "description": "An ancient place, cited: BAtlas 60 A4 Andros",
   "connectsWith": [
     "589693"
-  ],
-  "reprPoint": [
-    24.8323379,
-    37.8188329
   ],
   "names": [
     "Andros"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8323379,
+          37.8188329
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

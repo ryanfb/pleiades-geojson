@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Salassi",
   "id": "383764",
-  "description": "The Salassi were a Celtic tribe in the Alpine region of northern Italy and Gaul.",
   "bbox": [
     7.0,
     45.5,
     7.5,
     46.0
   ],
-  "reprPoint": [
-    7.25,
-    45.75
-  ],
+  "description": "The Salassi were a Celtic tribe in the Alpine region of northern Italy and Gaul.",
   "names": [
     "Salassi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              7.0,
-              46.0
-            ],
-            [
-              7.5,
-              46.0
-            ],
-            [
               7.5,
               45.5
+            ],
+            [
+              7.5,
+              46.0
+            ],
+            [
+              7.0,
+              46.0
             ],
             [
               7.0,

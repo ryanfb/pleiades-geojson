@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Las Gimenas",
   "id": "246407",
-  "description": "An ancient place, cited: BAtlas 25 C3 Las Gimenas",
   "bbox": [
     -2.351508,
     42.075381,
     -2.351508,
     42.075381
   ],
-  "reprPoint": [
-    -2.351508,
-    42.075381
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C3 Las Gimenas",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.351508,
+          42.075381
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

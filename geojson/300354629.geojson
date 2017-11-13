@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "ʿAfak",
   "id": "300354629",
-  "description": "A place from the TAVO Index",
   "bbox": [
     45.0,
     32.0,
     46.0,
     33.0
   ],
-  "reprPoint": [
-    45.5,
-    32.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "ʿAfak"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               32.0
             ],
             [
-              45.0,
-              33.0
-            ],
-            [
-              46.0,
-              33.0
-            ],
-            [
               46.0,
               32.0
+            ],
+            [
+              46.0,
+              33.0
+            ],
+            [
+              45.0,
+              33.0
             ],
             [
               45.0,

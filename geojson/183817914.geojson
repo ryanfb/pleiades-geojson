@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Spring supplying Carthage via unnamed aqueduct",
   "id": "183817914",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     10.127507,
     36.380434,
     10.127507,
     36.380434
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "315603"
   ],
-  "reprPoint": [
-    10.127507,
-    36.380434
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.127507,
+          36.380434
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,32 @@
   "type": "FeatureCollection",
   "title": "Pandosia",
   "id": "456108",
-  "description": "Pandosia was an ancient city of Bruttium.",
   "bbox": [
     16.1942468,
     39.308789,
     16.1942468,
     39.308789
   ],
-  "reprPoint": [
-    16.1942468,
-    39.308789
-  ],
+  "description": "Pandosia was an ancient city of Bruttium.",
   "names": [
     "Pandosia"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1942468,
+          39.308789
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

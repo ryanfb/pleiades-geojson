@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "327679",
-  "description": "An ancient place, cited: BAtlas 33 D2 unnamed unlabeled ((5 monuments))",
   "bbox": [
     9.482386,
     35.332974,
     9.482386,
     35.332974
   ],
-  "reprPoint": [
-    9.482386,
-    35.332974
-  ],
+  "description": "An ancient place, cited: BAtlas 33 D2 unnamed unlabeled ((5 monuments))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.482386,
+          35.332974
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               35.0
             ],
             [
-              9.0,
-              35.5
-            ],
-            [
-              9.5,
-              35.5
-            ],
-            [
               9.5,
               35.0
+            ],
+            [
+              9.5,
+              35.5
+            ],
+            [
+              9.0,
+              35.5
             ],
             [
               9.0,

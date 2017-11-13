@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Minoa Pr.",
   "id": "570487",
-  "description": "An ancient place, cited: BAtlas 58 E4 Minoa Pr.",
   "bbox": [
     23.0,
     36.5,
     23.5,
     37.0
   ],
+  "description": "An ancient place, cited: BAtlas 58 E4 Minoa Pr.",
   "connectsWith": [
     "570577"
-  ],
-  "reprPoint": [
-    23.25,
-    36.75
   ],
   "names": [
     "Minoa Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.5
             ],
             [
-              23.0,
-              37.0
-            ],
-            [
-              23.5,
-              37.0
-            ],
-            [
               23.5,
               36.5
+            ],
+            [
+              23.5,
+              37.0
+            ],
+            [
+              23.0,
+              37.0
             ],
             [
               23.0,

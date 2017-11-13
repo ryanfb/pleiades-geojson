@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed aqueduct",
   "id": "845602",
-  "description": "An ancient place, cited: BAtlas 86 B2 unnamed aqueduct (Heraclea)",
   "bbox": [
     31.46301,
     41.32305,
     31.46301,
     41.32305
   ],
-  "reprPoint": [
-    31.46301,
-    41.32305
-  ],
+  "description": "An ancient place, cited: BAtlas 86 B2 unnamed aqueduct (Heraclea)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.46301,
+          41.32305
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

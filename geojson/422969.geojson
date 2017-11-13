@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Marco Pedonio",
   "id": "422969",
-  "description": "The villa of Marcus Pedonius.",
   "bbox": [
     12.71357,
     41.951766,
     12.71357,
     41.951766
   ],
-  "reprPoint": [
-    12.71357,
-    41.951766
-  ],
+  "description": "The villa of Marcus Pedonius.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.71357,
+          41.951766
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

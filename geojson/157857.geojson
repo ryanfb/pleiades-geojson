@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "La Galère",
   "id": "157857",
-  "description": "An ancient Greek village on the east end of the island of Porquerolles discovered through archaeological survey in the 1980s and dating to the first century BCE. Its ancient name is unknown.",
   "bbox": [
     6.249032,
     43.003821,
     6.249032,
     43.003821
   ],
+  "description": "An ancient Greek village on the east end of the island of Porquerolles discovered through archaeological survey in the 1980s and dating to the first century BCE. Its ancient name is unknown.",
   "connectsWith": [
     "157929"
   ],
-  "reprPoint": [
-    6.249032,
-    43.003821
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249032,
+          43.003821
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

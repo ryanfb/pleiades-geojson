@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Lucania",
   "id": "442639",
-  "description": "An ancient region of south Italy stretching from the Tyrrhenian Sea to the Gulf of Taranto.",
   "bbox": [
     17.276944,
     39.885,
     17.276944,
     39.885
   ],
+  "description": "An ancient region of south Italy stretching from the Tyrrhenian Sea to the Gulf of Taranto.",
   "connectsWith": [
     "1356",
     "442621"
-  ],
-  "reprPoint": [
-    17.276944,
-    39.885
   ],
   "names": [
     "Lucania"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.276944,
+          39.885
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               40.5
             ],
             [
-              15.5,
-              41.0
-            ],
-            [
-              16.0,
-              41.0
-            ],
-            [
               16.0,
               40.5
+            ],
+            [
+              16.0,
+              41.0
+            ],
+            [
+              15.5,
+              41.0
             ],
             [
               15.5,

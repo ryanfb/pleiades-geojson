@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vigna Randanini",
   "id": "874652177",
-  "description": "A Jewish catacomb along the Via Appia discovered in 1859.",
   "bbox": [
     12.5134707,
     41.8585402,
     12.5134707,
     41.8585402
   ],
+  "description": "A Jewish catacomb along the Via Appia discovered in 1859.",
   "connectsWith": [
     "356966898"
   ],
-  "reprPoint": [
-    12.5134707,
-    41.8585402
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5134707,
+          41.8585402
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lake Stymphalia",
   "id": "324369908",
-  "description": "A lake located in the northeastern part of the Peloponnese in Greece.",
   "bbox": [
     22.4677283,
     37.8502198,
     22.4677283,
     37.8502198
   ],
-  "reprPoint": [
-    22.4677283,
-    37.8502198
-  ],
+  "description": "A lake located in the northeastern part of the Peloponnese in Greece.",
   "names": [
     "Límnē Stymphalía"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4677283,
+          37.8502198
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

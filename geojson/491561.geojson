@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chalcidice",
   "id": "491561",
-  "description": "An ancient place, cited: BAtlas 50 D4 Chalcidice",
   "bbox": [
     23.6437183,
     39.9832624,
     23.6437183,
     39.9832624
   ],
-  "reprPoint": [
-    23.6437183,
-    39.9832624
-  ],
+  "description": "An ancient place, cited: BAtlas 50 D4 Chalcidice",
   "names": [
     "Chalcidice"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6437183,
+          39.9832624
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              23.0,
-              40.5
-            ],
-            [
-              23.5,
-              40.5
-            ],
-            [
               23.5,
               40.0
+            ],
+            [
+              23.5,
+              40.5
+            ],
+            [
+              23.0,
+              40.5
             ],
             [
               23.0,

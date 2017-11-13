@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Mariandynoi",
   "id": "845013",
-  "description": "An ancient place, cited: BAtlas 86 A3 Mariandynoi",
   "bbox": [
     30.5368013,
     40.8561807,
     32.6145125,
     41.1920125
   ],
+  "description": "An ancient place, cited: BAtlas 86 A3 Mariandynoi",
   "connectsWith": [
     "511406",
     "844877"
-  ],
-  "reprPoint": [
-    31.603681575,
-    41.091651425
   ],
   "names": [
     "Mariandynoí"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.603681575,
+          41.091651425
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               40.0
             ],
             [
-              30.0,
-              41.0
-            ],
-            [
-              31.0,
-              41.0
-            ],
-            [
               31.0,
               40.0
+            ],
+            [
+              31.0,
+              41.0
+            ],
+            [
+              30.0,
+              41.0
             ],
             [
               30.0,

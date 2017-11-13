@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Metapinum? Ostium",
   "id": "148134",
-  "description": "Metapinum? Ostium, the mouth of the Rhone river.",
   "bbox": [
     4.845556,
     43.330833,
     8.376333,
     46.572
   ],
+  "description": "Metapinum? Ostium, the mouth of the Rhone river.",
   "connectsWith": [
     "148168"
-  ],
-  "reprPoint": [
-    6.6109445,
-    44.9514165
   ],
   "names": [
     "Metapinum Ostium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6109445,
+          44.9514165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               43.0
             ],
             [
-              4.0,
-              43.5
-            ],
-            [
-              4.5,
-              43.5
-            ],
-            [
               4.5,
               43.0
+            ],
+            [
+              4.5,
+              43.5
+            ],
+            [
+              4.0,
+              43.5
             ],
             [
               4.0,

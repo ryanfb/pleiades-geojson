@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "672708",
-  "description": "An ancient place, cited: BAtlas 68 E4 unnamed pass (at Khirbet el-Bilaas)",
   "bbox": [
     37.5,
     34.5,
     38.0,
     35.0
   ],
-  "reprPoint": [
-    37.75,
-    34.75
-  ],
+  "description": "An ancient place, cited: BAtlas 68 E4 unnamed pass (at Khirbet el-Bilaas)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75,
+          34.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.5
             ],
             [
-              37.5,
-              35.0
-            ],
-            [
-              38.0,
-              35.0
-            ],
-            [
               38.0,
               34.5
+            ],
+            [
+              38.0,
+              35.0
+            ],
+            [
+              37.5,
+              35.0
             ],
             [
               37.5,

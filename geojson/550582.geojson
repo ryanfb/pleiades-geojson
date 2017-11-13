@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hydra Pr.",
   "id": "550582",
-  "description": "An ancient place, cited: BAtlas 56 D4 Hydra Pr.",
   "bbox": [
     26.896,
     38.82,
     26.896,
     38.82
   ],
-  "reprPoint": [
-    26.896,
-    38.82
-  ],
+  "description": "An ancient place, cited: BAtlas 56 D4 Hydra Pr.",
   "names": [
     "Hydra Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.896,
+          38.82
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              26.5,
-              39.0
-            ],
-            [
-              27.0,
-              39.0
-            ],
-            [
               27.0,
               38.5
+            ],
+            [
+              27.0,
+              39.0
+            ],
+            [
+              26.5,
+              39.0
             ],
             [
               26.5,

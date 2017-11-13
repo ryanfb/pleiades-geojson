@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "296718",
-  "description": "An ancient place, cited: BAtlas 30 D3 unnamed bridge (W Iol Caesarea (2): Oued el Kantara and Oued Rassoul (marked with one symbol))",
   "bbox": [
     2.0,
     36.5,
     2.5,
     37.0
   ],
-  "reprPoint": [
-    2.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 30 D3 unnamed bridge (W Iol Caesarea (2): Oued el Kantara and Oued Rassoul (marked with one symbol))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              2.0,
-              37.0
-            ],
-            [
-              2.5,
-              37.0
-            ],
-            [
               2.5,
               36.5
+            ],
+            [
+              2.5,
+              37.0
+            ],
+            [
+              2.0,
+              37.0
             ],
             [
               2.0,

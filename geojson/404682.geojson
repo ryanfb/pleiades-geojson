@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "404682",
-  "description": "An ancient place, cited: BAtlas 41 C3 unnamed bridge (at Calignaia, NW Vada Volaterrana)",
   "bbox": [
     10.0,
     43.0,
     10.5,
     43.5
   ],
-  "reprPoint": [
-    10.25,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 41 C3 unnamed bridge (at Calignaia, NW Vada Volaterrana)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               43.0
             ],
             [
-              10.0,
-              43.5
-            ],
-            [
-              10.5,
-              43.5
-            ],
-            [
               10.5,
               43.0
+            ],
+            [
+              10.5,
+              43.5
+            ],
+            [
+              10.0,
+              43.5
             ],
             [
               10.0,

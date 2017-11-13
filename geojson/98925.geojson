@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bielefeld",
   "id": "98925",
-  "description": "An ancient place, cited: BAtlas 10 E4 Bielefeld",
   "bbox": [
     8.4728994,
     52.0139404,
     8.533021,
     52.022964
   ],
-  "reprPoint": [
-    8.5029602,
-    52.0184522
-  ],
+  "description": "An ancient place, cited: BAtlas 10 E4 Bielefeld",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5029602,
+          52.0184522
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

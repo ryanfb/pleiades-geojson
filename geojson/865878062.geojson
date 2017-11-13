@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Purpurariae (islands)",
   "id": "865878062",
-  "description": "An island group off the western coast of Morocco.",
   "bbox": [
     -9.7829917,
     31.4986568,
     -9.7829917,
     31.4986568
   ],
+  "description": "An island group off the western coast of Morocco.",
   "connectsWith": [
     "845"
   ],
-  "reprPoint": [
-    -9.7829917,
-    31.4986568
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.7829917,
+          31.4986568
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

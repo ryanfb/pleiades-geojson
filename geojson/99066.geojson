@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Wijster",
   "id": "99066",
-  "description": "An ancient place, cited: BAtlas 10 C4 Wijster",
   "bbox": [
     6.515659,
     52.815232,
     6.515659,
     52.815232
   ],
-  "reprPoint": [
-    6.515659,
-    52.815232
-  ],
+  "description": "An ancient place, cited: BAtlas 10 C4 Wijster",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.515659,
+          52.815232
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

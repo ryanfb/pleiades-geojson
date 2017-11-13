@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Amazonion Pr.",
   "id": "599482",
-  "description": "An ancient place, cited: BAtlas 61 D3 Amazonion Pr.",
   "bbox": [
     26.5578532,
     37.3157746,
     26.5578532,
     37.3157746
   ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Amazonion Pr.",
   "connectsWith": [
     "599872"
-  ],
-  "reprPoint": [
-    26.5578532,
-    37.3157746
   ],
   "names": [
     "Amazonion Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5578532,
+          37.3157746
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.0
             ],
             [
-              26.5,
-              37.5
-            ],
-            [
-              27.0,
-              37.5
-            ],
-            [
               27.0,
               37.0
+            ],
+            [
+              27.0,
+              37.5
+            ],
+            [
+              26.5,
+              37.5
             ],
             [
               26.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sportela",
   "id": "482000",
-  "description": "An ancient place, cited: BAtlas 49 F1 Sportela",
   "bbox": [
     23.172221,
     42.128406,
     23.172221,
     42.128406
   ],
-  "reprPoint": [
-    23.172221,
-    42.128406
-  ],
+  "description": "An ancient place, cited: BAtlas 49 F1 Sportela",
   "names": [
     "Sportela"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.172221,
+          42.128406
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

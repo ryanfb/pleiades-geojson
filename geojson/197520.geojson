@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Solva (river)",
   "id": "197520",
-  "description": "An ancient place, cited: BAtlas 20 C3 Solva fl.",
   "bbox": [
     15.0,
     46.0,
     16.0,
     47.0
   ],
-  "reprPoint": [
-    15.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C3 Solva fl.",
   "names": [
     "Solva"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              15.0,
-              47.0
-            ],
-            [
-              16.0,
-              47.0
-            ],
-            [
               16.0,
               46.0
+            ],
+            [
+              16.0,
+              47.0
+            ],
+            [
+              15.0,
+              47.0
             ],
             [
               15.0,

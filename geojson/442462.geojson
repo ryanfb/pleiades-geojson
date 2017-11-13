@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Althainos? (river)",
   "id": "442462",
-  "description": "An ancient place, cited: BAtlas 45 C1 Althainos? fl.",
   "bbox": [
     15.5,
     41.5,
     16.0,
     42.0
   ],
-  "reprPoint": [
-    15.75,
-    41.75
-  ],
+  "description": "An ancient place, cited: BAtlas 45 C1 Althainos? fl.",
   "names": [
     "Althainos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.75,
+          41.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.5
             ],
             [
-              15.5,
-              42.0
-            ],
-            [
-              16.0,
-              42.0
-            ],
-            [
               16.0,
               41.5
+            ],
+            [
+              16.0,
+              42.0
+            ],
+            [
+              15.5,
+              42.0
             ],
             [
               15.5,

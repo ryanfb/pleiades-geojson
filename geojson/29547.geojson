@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Drangiane/Zarangiane",
   "id": "29547",
-  "description": "A region located around Lake Hāmūn and the Helmand river in modern Sīstān.",
   "bbox": [
     60.0,
     30.0,
     65.0,
     35.0
   ],
-  "reprPoint": [
-    62.5,
-    32.5
-  ],
+  "description": "A region located around Lake Hāmūn and the Helmand river in modern Sīstān.",
   "names": [
     "Drangiane",
     "Zarangiane",
@@ -25,6 +21,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -34,16 +43,16 @@
               30.0
             ],
             [
-              60.0,
-              35.0
-            ],
-            [
-              65.0,
-              35.0
-            ],
-            [
               65.0,
               30.0
+            ],
+            [
+              65.0,
+              35.0
+            ],
+            [
+              60.0,
+              35.0
             ],
             [
               60.0,

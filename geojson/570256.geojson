@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Gatheatas? (river)",
   "id": "570256",
-  "description": "An ancient place, cited: BAtlas 58 C3 Gatheatas? fl.",
   "bbox": [
     22.061019,
     37.298673,
     22.061019,
     37.298673
   ],
-  "reprPoint": [
-    22.061019,
-    37.298673
-  ],
+  "description": "An ancient place, cited: BAtlas 58 C3 Gatheatas? fl.",
   "names": [
     "Gatheatas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.061019,
+          37.298673
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
               22.5,
               37.0
+            ],
+            [
+              22.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
             ],
             [
               22.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Katerini",
   "id": "491631",
-  "description": "An ancient place, cited: BAtlas 50 C4 Katerini",
   "bbox": [
     22.508687,
     40.271427,
     22.508687,
     40.271427
   ],
-  "reprPoint": [
-    22.508687,
-    40.271427
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C4 Katerini",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.508687,
+          40.271427
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

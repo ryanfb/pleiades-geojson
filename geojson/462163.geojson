@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Colle Madore",
   "id": "462163",
-  "description": "Colle Madore is an archaeological site connected with the Sicanians.",
   "bbox": [
     13.591889,
     37.758874,
     13.591889,
     37.758874
   ],
+  "description": "Colle Madore is an archaeological site connected with the Sicanians.",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    13.591889,
-    37.758874
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.591889,
+          37.758874
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

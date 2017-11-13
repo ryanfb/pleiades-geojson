@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bertha",
   "id": "89116",
-  "description": "A Roman fort in Scotland built ca. A.D. 83 that served as a supply base.",
   "bbox": [
     -3.464428,
     56.423374,
     -3.464428,
     56.423374
   ],
-  "reprPoint": [
-    -3.464428,
-    56.423374
-  ],
+  "description": "A Roman fort in Scotland built ca. A.D. 83 that served as a supply base.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.464428,
+          56.423374
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Andes",
   "id": "383570",
-  "description": "Andes is said to be the birthplace of the poet Vergil.",
   "bbox": [
     10.824999,
     45.125167,
     10.824999,
     45.125167
   ],
+  "description": "Andes is said to be the birthplace of the poet Vergil.",
   "connectsWith": [
     "383708"
-  ],
-  "reprPoint": [
-    10.824999,
-    45.125167
   ],
   "names": [
     "Andes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.824999,
+          45.125167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

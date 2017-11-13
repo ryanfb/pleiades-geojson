@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Pelousiakos (river)",
   "id": "727189",
-  "description": "Pelousiakos fl. (the now-defunct Pelusiac branch of the Nile river).",
   "bbox": [
     29.331389,
     -2.282222,
     31.2705999,
     30.166667
   ],
+  "description": "Pelousiakos fl. (the now-defunct Pelusiac branch of the Nile river).",
   "connectsWith": [
     "727172",
     "727191"
-  ],
-  "reprPoint": [
-    30.5673296333,
-    19.2114087667
   ],
   "names": [
     "Pelousiakos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5673296333,
+          19.2114087667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               30.0
             ],
             [
-              31.0,
-              30.5
-            ],
-            [
-              31.5,
-              30.5
-            ],
-            [
               31.5,
               30.0
+            ],
+            [
+              31.5,
+              30.5
+            ],
+            [
+              31.0,
+              30.5
             ],
             [
               31.0,

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Korokondamitis/Opissas Limne",
   "id": "854700",
-  "description": "Korokondamitis/Opissas Limne (Taman Bay)",
   "bbox": [
     36.65,
     45.35,
     36.65,
     45.35
   ],
+  "description": "Korokondamitis/Opissas Limne (Taman Bay)",
   "connectsWith": [
     "854675"
-  ],
-  "reprPoint": [
-    36.65,
-    45.35
   ],
   "names": [
     "Korokondamitis",
     "Opissas Limne"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.65,
+          45.35
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               45.0
             ],
             [
-              36.5,
-              45.5
-            ],
-            [
-              37.0,
-              45.5
-            ],
-            [
               37.0,
               45.0
+            ],
+            [
+              37.0,
+              45.5
+            ],
+            [
+              36.5,
+              45.5
             ],
             [
               36.5,

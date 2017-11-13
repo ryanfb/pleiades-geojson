@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Doureios (river)",
   "id": "609368",
-  "description": "An ancient place, cited: BAtlas 62 E4 Doureios fl.",
   "bbox": [
     30.5,
     38.5,
     31.0,
     39.0
   ],
-  "reprPoint": [
-    30.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 E4 Doureios fl.",
   "names": [
     "Doureios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              30.5,
-              39.0
-            ],
-            [
-              31.0,
-              39.0
-            ],
-            [
               31.0,
               38.5
+            ],
+            [
+              31.0,
+              39.0
+            ],
+            [
+              30.5,
+              39.0
             ],
             [
               30.5,

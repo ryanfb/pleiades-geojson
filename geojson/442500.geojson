@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Barium",
   "id": "442500",
-  "description": "A city of the Peucetii that came under Roman control in the third century BC. ",
   "bbox": [
     16.870331,
     41.129222,
     16.870331,
     41.129222
   ],
+  "description": "A city of the Peucetii that came under Roman control in the third century BC. ",
   "connectsWith": [
     "442714"
-  ],
-  "reprPoint": [
-    16.870331,
-    41.129222
   ],
   "names": [
     "Barium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.870331,
+          41.129222
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

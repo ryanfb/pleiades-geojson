@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Melas Kolpos",
   "id": "501513",
-  "description": "The Gulf of Saros.",
   "bbox": [
     26.46,
     40.55,
     26.46,
     40.55
   ],
-  "reprPoint": [
-    26.46,
-    40.55
-  ],
+  "description": "The Gulf of Saros.",
   "names": [
     "Melas Kolpos",
     "Gulf of Saros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.46,
+          40.55
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

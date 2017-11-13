@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Serico",
   "id": "442679",
-  "description": "An ancient place, cited: BAtlas 45 D3 Monte Serico",
   "bbox": [
     16.151405,
     40.85476,
     16.151405,
     40.85476
   ],
-  "reprPoint": [
-    16.151405,
-    40.85476
-  ],
+  "description": "An ancient place, cited: BAtlas 45 D3 Monte Serico",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.151405,
+          40.85476
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

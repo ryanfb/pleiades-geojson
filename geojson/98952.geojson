@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ermelo",
   "id": "98952",
-  "description": "An ancient place, cited: BAtlas 10 B4 Ermelo",
   "bbox": [
     5.627929,
     52.300732,
     5.627929,
     52.300732
   ],
-  "reprPoint": [
-    5.627929,
-    52.300732
-  ],
+  "description": "An ancient place, cited: BAtlas 10 B4 Ermelo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.627929,
+          52.300732
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

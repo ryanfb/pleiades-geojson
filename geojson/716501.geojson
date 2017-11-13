@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Abu Shuruf",
   "id": "716501",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.754713,
     29.295715,
     25.754713,
     29.295715
   ],
-  "reprPoint": [
-    25.754713,
-    29.295715
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.754713,
+          29.295715
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

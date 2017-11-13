@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chashma",
   "id": "971728",
-  "description": "An ancient place, cited: BAtlas 99 D3 Chashma",
   "bbox": [
     69.242326,
     36.95702,
     69.242326,
     36.95702
   ],
-  "reprPoint": [
-    69.242326,
-    36.95702
-  ],
+  "description": "An ancient place, cited: BAtlas 99 D3 Chashma",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.242326,
+          36.95702
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Achilleion Sinus",
   "id": "540589",
-  "description": "An ancient place, cited: BAtlas 55 H3 Achilleion Sinus",
   "bbox": [
     24.5,
     38.5,
     25.0,
     39.0
   ],
-  "reprPoint": [
-    24.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 55 H3 Achilleion Sinus",
   "names": [
     "Achilleion Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              24.5,
-              39.0
-            ],
-            [
-              25.0,
-              39.0
-            ],
-            [
               25.0,
               38.5
+            ],
+            [
+              25.0,
+              39.0
+            ],
+            [
+              24.5,
+              39.0
             ],
             [
               24.5,

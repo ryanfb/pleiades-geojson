@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Venice",
   "id": "818739154",
-  "description": "The city of Venice in northern Italy.",
   "bbox": [
     12.335833,
     45.4375,
     12.335833,
     45.4375
   ],
+  "description": "The city of Venice in northern Italy.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    12.335833,
-    45.4375
   ],
   "names": [
     "Venezia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.335833,
+          45.4375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

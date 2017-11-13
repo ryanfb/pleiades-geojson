@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Antitaurus M.",
   "id": "874325",
-  "description": "An ancient place, cited: BAtlas 89 B1 Antitaurus M.",
   "bbox": [
     39.0,
     39.25,
     40.0,
     40.0
   ],
-  "reprPoint": [
-    39.4166666667,
-    39.6666666667
-  ],
+  "description": "An ancient place, cited: BAtlas 89 B1 Antitaurus M.",
   "names": [
     "Antitaurus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.4166666667,
+          39.6666666667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,7 +36,7 @@
               39.25
             ],
             [
-              39.0,
+              40.0,
               39.75
             ],
             [
@@ -35,7 +44,7 @@
               40.0
             ],
             [
-              40.0,
+              39.0,
               39.75
             ],
             [

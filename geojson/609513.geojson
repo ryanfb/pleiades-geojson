@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Regio Ipsina et Moeteana",
   "id": "609513",
-  "description": "An ancient place, cited: BAtlas 62 D3 Regio Ipsina et Moeteana",
   "bbox": [
     30.0,
     39.0,
     30.5,
     39.5
   ],
-  "reprPoint": [
-    30.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 62 D3 Regio Ipsina et Moeteana",
   "names": [
     "Regio Ipsina et Moeteana"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              30.0,
-              39.5
-            ],
-            [
-              30.5,
-              39.5
-            ],
-            [
               30.5,
               39.0
+            ],
+            [
+              30.5,
+              39.5
+            ],
+            [
+              30.0,
+              39.5
             ],
             [
               30.0,

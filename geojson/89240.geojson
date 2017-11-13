@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Malaios (island)",
   "id": "89240",
-  "description": "The Isle of Mull is the second largest island of the Inner Hebrides, located off the west coast of Scotland.",
   "bbox": [
     -5.77126,
     56.44689,
     -5.77126,
     56.44689
   ],
-  "reprPoint": [
-    -5.77126,
-    56.44689
-  ],
+  "description": "The Isle of Mull is the second largest island of the Inner Hebrides, located off the west coast of Scotland.",
   "names": [
     "Malaios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.77126,
+          56.44689
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

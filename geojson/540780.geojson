@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Euenos (river)",
   "id": "540780",
-  "description": "The Euenos (modern Evinos) is a river of western Greece that flows into the Gulf of Patras.",
   "bbox": [
     21.5193991,
     38.3288971,
     21.5193991,
     38.3288971
   ],
+  "description": "The Euenos (modern Evinos) is a river of western Greece that flows into the Gulf of Patras.",
   "connectsWith": [
     "1046"
-  ],
-  "reprPoint": [
-    21.5193991,
-    38.3288971
   ],
   "names": [
     "Euenos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5193991,
+          38.3288971
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

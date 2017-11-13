@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 18B (Wallhouses West)",
   "id": "967060220",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -1.941577,
     55.010915,
     -1.941577,
     55.010915
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.941577,
-    55.010915
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.941577,
+          55.010915
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Krokeai (quarry)",
   "id": "572298",
-  "description": "An ancient place, cited: BAtlas 58 D4 unnamed quarry (Krokeai)",
   "bbox": [
     22.5,
     36.5,
     23.0,
     37.0
   ],
-  "reprPoint": [
-    22.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D4 unnamed quarry (Krokeai)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              22.5,
-              37.0
-            ],
-            [
-              23.0,
-              37.0
-            ],
-            [
               23.0,
               36.5
+            ],
+            [
+              23.0,
+              37.0
+            ],
+            [
+              22.5,
+              37.0
             ],
             [
               22.5,

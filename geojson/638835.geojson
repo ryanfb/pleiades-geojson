@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eunias Nemus",
   "id": "638835",
-  "description": "An ancient place, cited: BAtlas 65 C5 Eunias Nemus",
   "bbox": [
     29.5,
     36.0,
     30.0,
     36.5
   ],
-  "reprPoint": [
-    29.75,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 C5 Eunias Nemus",
   "names": [
     "Eunias Nemus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              29.5,
-              36.5
-            ],
-            [
-              30.0,
-              36.5
-            ],
-            [
               30.0,
               36.0
+            ],
+            [
+              30.0,
+              36.5
+            ],
+            [
+              29.5,
+              36.5
             ],
             [
               29.5,

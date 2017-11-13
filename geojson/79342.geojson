@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Boxmoor",
   "id": "79342",
-  "description": "An ancient place, cited: BAtlas 8 G3 Boxmoor",
   "bbox": [
     -0.484718,
     51.747058,
     -0.484718,
     51.747058
   ],
-  "reprPoint": [
-    -0.484718,
-    51.747058
-  ],
+  "description": "An ancient place, cited: BAtlas 8 G3 Boxmoor",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.484718,
+          51.747058
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

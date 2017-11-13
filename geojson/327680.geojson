@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "327680",
-  "description": "An ancient place, cited: BAtlas 33 D3 unnamed unlabeled ((1 aqueduct))",
   "bbox": [
     9.499191,
     34.77999,
     9.499191,
     34.77999
   ],
-  "reprPoint": [
-    9.499191,
-    34.77999
-  ],
+  "description": "An ancient place, cited: BAtlas 33 D3 unnamed unlabeled ((1 aqueduct))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.499191,
+          34.77999
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.5
             ],
             [
-              9.0,
-              35.0
-            ],
-            [
-              9.5,
-              35.0
-            ],
-            [
               9.5,
               34.5
+            ],
+            [
+              9.5,
+              35.0
+            ],
+            [
+              9.0,
+              35.0
             ],
             [
               9.0,

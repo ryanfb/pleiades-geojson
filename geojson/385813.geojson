@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "385813",
-  "description": "An ancient place, cited: BAtlas 39 B4 unnamed centuriation (Pedo(na))",
   "bbox": [
     7.5,
     44.5,
     8.0,
     45.0
   ],
-  "reprPoint": [
-    7.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 B4 unnamed centuriation (Pedo(na))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.5
             ],
             [
-              7.5,
-              45.0
-            ],
-            [
-              8.0,
-              45.0
-            ],
-            [
               8.0,
               44.5
+            ],
+            [
+              8.0,
+              45.0
+            ],
+            [
+              7.5,
+              45.0
             ],
             [
               7.5,

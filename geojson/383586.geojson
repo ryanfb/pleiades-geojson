@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Benacenses",
   "id": "383586",
-  "description": "An ancient place, cited: BAtlas 39 H2 Benacenses",
   "bbox": [
     10.5,
     45.5,
     11.0,
     46.0
   ],
-  "reprPoint": [
-    10.75,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 H2 Benacenses",
   "names": [
     "Benacenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              10.5,
-              46.0
-            ],
-            [
-              11.0,
-              46.0
-            ],
-            [
               11.0,
               45.5
+            ],
+            [
+              11.0,
+              46.0
+            ],
+            [
+              10.5,
+              46.0
             ],
             [
               10.5,

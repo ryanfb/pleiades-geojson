@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Trendle Ring",
   "id": "267388586",
-  "description": "Trendle Ring is a prehistoric hill fort in Britain.",
   "bbox": [
     -3.2627822,
     51.1467042,
     -3.2627822,
     51.1467042
   ],
-  "reprPoint": [
-    -3.2627822,
-    51.1467042
-  ],
+  "description": "Trendle Ring is a prehistoric hill fort in Britain.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2627822,
+          51.1467042
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

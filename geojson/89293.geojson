@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Strageath",
   "id": "89293",
-  "description": "Strageath is the site of a Roman camp located near the River Earn in eastern Scotland.",
   "bbox": [
     -3.782655,
     56.34105,
     -3.782655,
     56.34105
   ],
-  "reprPoint": [
-    -3.782655,
-    56.34105
-  ],
+  "description": "Strageath is the site of a Roman camp located near the River Earn in eastern Scotland.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.782655,
+          56.34105
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

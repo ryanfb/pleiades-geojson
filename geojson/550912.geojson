@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Tenedos (island)",
   "id": "550912",
-  "description": "An island located in the Aegean Sea 5 km off the coast of Troas.",
   "bbox": [
     26.05,
     39.816667,
     26.05,
     39.816667
   ],
+  "description": "An island located in the Aegean Sea 5 km off the coast of Troas.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.05,
-    39.816667
   ],
   "names": [
     "Tenedos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.05,
+          39.816667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

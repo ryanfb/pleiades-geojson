@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Heniochi/Coraxici M.",
   "id": "863800",
-  "description": "An ancient place, cited: BAtlas 88 A3 Heniochi/Coraxici M.",
   "bbox": [
     42.0,
     41.0,
     43.0,
     42.0
   ],
-  "reprPoint": [
-    42.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 A3 Heniochi/Coraxici M.",
   "names": [
     "Heniochi",
     "Coraxici M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              42.0,
-              42.0
-            ],
-            [
-              43.0,
-              42.0
-            ],
-            [
               43.0,
               41.0
+            ],
+            [
+              43.0,
+              42.0
+            ],
+            [
+              42.0,
+              42.0
             ],
             [
               42.0,

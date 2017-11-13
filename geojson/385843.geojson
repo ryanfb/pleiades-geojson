@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "385843",
-  "description": "An ancient place, cited: BAtlas 39 H4 unnamed centuriation (Regium Lepidum)",
   "bbox": [
     10.5,
     44.5,
     11.0,
     45.0
   ],
-  "reprPoint": [
-    10.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 39 H4 unnamed centuriation (Regium Lepidum)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.5
             ],
             [
-              10.5,
-              45.0
-            ],
-            [
-              11.0,
-              45.0
-            ],
-            [
               11.0,
               44.5
+            ],
+            [
+              11.0,
+              45.0
+            ],
+            [
+              10.5,
+              45.0
             ],
             [
               10.5,

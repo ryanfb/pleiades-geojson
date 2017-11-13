@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Darae",
   "id": "814670",
-  "description": "An ancient place, cited: BAtlas 83 B5 Darae",
   "bbox": [
     36.0,
     26.0,
     37.0,
     27.0
   ],
-  "reprPoint": [
-    36.5,
-    26.5
-  ],
+  "description": "An ancient place, cited: BAtlas 83 B5 Darae",
   "names": [
     "Darae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5,
+          26.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               26.0
             ],
             [
-              36.0,
-              27.0
-            ],
-            [
-              37.0,
-              27.0
-            ],
-            [
               37.0,
               26.0
+            ],
+            [
+              37.0,
+              27.0
+            ],
+            [
+              36.0,
+              27.0
             ],
             [
               36.0,

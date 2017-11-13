@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed centuriation",
   "id": "436416",
-  "description": "Traces of centuriation connected with the Roman phase(s) of Saepinum.",
   "bbox": [
     14.6161102,
     41.4314933,
     14.6202906,
     41.4349536
   ],
+  "description": "Traces of centuriation connected with the Roman phase(s) of Saepinum.",
   "connectsWith": [
     "433073"
   ],
-  "reprPoint": [
-    14.6182890557,
-    41.4334586224
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6182890557,
+          41.4334586224
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              14.5,
-              41.5
-            ],
-            [
-              15.0,
-              41.5
-            ],
-            [
               15.0,
               41.0
+            ],
+            [
+              15.0,
+              41.5
+            ],
+            [
+              14.5,
+              41.5
             ],
             [
               14.5,

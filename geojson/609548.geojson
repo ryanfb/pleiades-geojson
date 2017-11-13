@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tembris (river)",
   "id": "609548",
-  "description": "The modern Porsuk River.",
   "bbox": [
     30.752569,
     39.799331,
     30.864699,
     39.836158
   ],
-  "reprPoint": [
-    30.8209518667,
-    39.8117042333
-  ],
+  "description": "The modern Porsuk River.",
   "names": [
     "Tembris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8209518667,
+          39.8117042333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              30.0,
-              40.0
-            ],
-            [
-              30.5,
-              40.0
-            ],
-            [
               30.5,
               39.5
+            ],
+            [
+              30.5,
+              40.0
+            ],
+            [
+              30.0,
+              40.0
             ],
             [
               30.0,

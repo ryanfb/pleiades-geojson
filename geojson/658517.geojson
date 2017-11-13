@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lakanatis",
   "id": "658517",
-  "description": "An ancient place, cited: BAtlas 67 C2 Lakanatis",
   "bbox": [
     36.0,
     37.0,
     36.5,
     37.5
   ],
-  "reprPoint": [
-    36.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 67 C2 Lakanatis",
   "names": [
     "Lakanatis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              36.0,
-              37.5
-            ],
-            [
-              36.5,
-              37.5
-            ],
-            [
               36.5,
               37.0
+            ],
+            [
+              36.5,
+              37.5
+            ],
+            [
+              36.0,
+              37.5
             ],
             [
               36.0,

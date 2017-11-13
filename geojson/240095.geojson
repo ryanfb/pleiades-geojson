@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240095",
-  "description": "Bracara Augusta → Burbida → Brevis → Lucus Augusti → Asturica Augusta",
   "bbox": [
     -8.531584,
     41.55001,
     -6.063491,
     43.012084
   ],
+  "description": "Bracara Augusta → Burbida → Brevis → Lucus Augusti → Asturica Augusta",
   "connectsWith": [
     "236525",
     "236352",
@@ -16,11 +16,20 @@
     "236388",
     "236377"
   ],
-  "reprPoint": [
-    -7.7151787,
-    42.4450375
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7151787,
+          42.4450375
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               40.0
             ],
             [
-              -11.0,
-              44.0
-            ],
-            [
-              -3.0,
-              44.0
-            ],
-            [
               -3.0,
               40.0
+            ],
+            [
+              -3.0,
+              44.0
+            ],
+            [
+              -11.0,
+              44.0
             ],
             [
               -11.0,

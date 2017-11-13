@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Moesia Superior",
   "id": "991369",
-  "description": "An ancient place, cited: BAtlas 101 L3 Moesia Superior",
   "bbox": [
     20.0,
     40.0,
     25.0,
     45.0
   ],
-  "reprPoint": [
-    22.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 L3 Moesia Superior",
   "names": [
     "Moesia Superior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              20.0,
-              45.0
-            ],
-            [
-              25.0,
-              45.0
-            ],
-            [
               25.0,
               40.0
+            ],
+            [
+              25.0,
+              45.0
+            ],
+            [
+              20.0,
+              45.0
             ],
             [
               20.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lade (island)",
   "id": "599746",
-  "description": "Formerly an island northwest of Miletus.",
   "bbox": [
     27.0,
     37.5,
     27.5,
     38.0
   ],
-  "reprPoint": [
-    27.25,
-    37.75
-  ],
+  "description": "Formerly an island northwest of Miletus.",
   "names": [
     "Lade"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              27.0,
-              38.0
-            ],
-            [
-              27.5,
-              38.0
-            ],
-            [
               27.5,
               37.5
+            ],
+            [
+              27.5,
+              38.0
+            ],
+            [
+              27.0,
+              38.0
             ],
             [
               27.0,

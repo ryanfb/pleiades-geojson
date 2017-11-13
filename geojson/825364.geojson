@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Rassvet",
   "id": "825364",
-  "description": "Rassvet is a Bosporan agricultural settlement dating from the second century BC to the first century AD.",
   "bbox": [
     37.404091,
     44.893277,
     37.404091,
     44.893277
   ],
-  "reprPoint": [
-    37.404091,
-    44.893277
-  ],
+  "description": "Rassvet is a Bosporan agricultural settlement dating from the second century BC to the first century AD.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.404091,
+          44.893277
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

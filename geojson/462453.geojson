@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Poira",
   "id": "462453",
-  "description": "An ancient place, cited: BAtlas 47 F3 Poira",
   "bbox": [
     14.808244,
     37.556267,
     14.808244,
     37.556267
   ],
+  "description": "An ancient place, cited: BAtlas 47 F3 Poira",
   "connectsWith": [
     "462492"
   ],
-  "reprPoint": [
-    14.808244,
-    37.556267
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.808244,
+          37.556267
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

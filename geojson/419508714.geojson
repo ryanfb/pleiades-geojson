@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Tehrān",
   "id": "419508714",
-  "description": "A place from the TAVO Index",
   "bbox": [
     51.0,
     35.0,
     52.0,
     36.0
   ],
-  "reprPoint": [
-    51.5,
-    35.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Tehrān",
     "Teherān",
@@ -34,6 +30,19 @@
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -43,16 +52,16 @@
               35.0
             ],
             [
-              51.0,
-              36.0
-            ],
-            [
-              52.0,
-              36.0
-            ],
-            [
               52.0,
               35.0
+            ],
+            [
+              52.0,
+              36.0
+            ],
+            [
+              51.0,
+              36.0
             ],
             [
               51.0,

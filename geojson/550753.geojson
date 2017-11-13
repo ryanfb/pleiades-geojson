@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mosychlos M.",
   "id": "550753",
-  "description": "An ancient place, cited: BAtlas 56 A2 Mosychlos M.",
   "bbox": [
     25.0,
     39.5,
     25.5,
     40.0
   ],
-  "reprPoint": [
-    25.25,
-    39.75
-  ],
+  "description": "An ancient place, cited: BAtlas 56 A2 Mosychlos M.",
   "names": [
     "Mosychlos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              25.0,
-              40.0
-            ],
-            [
-              25.5,
-              40.0
-            ],
-            [
               25.5,
               39.5
+            ],
+            [
+              25.5,
+              40.0
+            ],
+            [
+              25.0,
+              40.0
             ],
             [
               25.0,

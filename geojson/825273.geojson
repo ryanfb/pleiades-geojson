@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Hypanis (river)",
   "id": "825273",
-  "description": "Hypanis fl. (modern Southern Bug River) flows into the Black Sea.",
   "bbox": [
     25.096836,
     46.983333,
     31.966667,
     49.866826
   ],
+  "description": "Hypanis fl. (modern Southern Bug River) flows into the Black Sea.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    28.4664418333,
-    48.6559302
   ],
   "names": [
     "Hypanis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4664418333,
+          48.6559302
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

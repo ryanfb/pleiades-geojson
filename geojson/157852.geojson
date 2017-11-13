@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Le Fort",
   "id": "157852",
-  "description": "An ancient place, cited: BAtlas 16 B3 Le Fort",
   "bbox": [
     6.437904,
     43.454598,
     6.437904,
     43.454598
   ],
-  "reprPoint": [
-    6.437904,
-    43.454598
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B3 Le Fort",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.437904,
+          43.454598
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

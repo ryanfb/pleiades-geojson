@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "268786",
-  "description": "An ancient place, cited: BAtlas 27 B2 unnamed dam (Puente de Urda, 4 miles SW Consuegra, on R. Amarguillo)",
   "bbox": [
     -4.0,
     39.0,
     -3.0,
     40.0
   ],
-  "reprPoint": [
-    -3.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 27 B2 unnamed dam (Puente de Urda, 4 miles SW Consuegra, on R. Amarguillo)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              -4.0,
-              40.0
-            ],
-            [
-              -3.0,
-              40.0
-            ],
-            [
               -3.0,
               39.0
+            ],
+            [
+              -3.0,
+              40.0
+            ],
+            [
+              -4.0,
+              40.0
             ],
             [
               -4.0,

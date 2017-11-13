@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bir Cuca",
   "id": "344318",
-  "description": "An ancient place, cited: BAtlas 35 E2 Bir Cuca",
   "bbox": [
     12.979461,
     32.426638,
     12.979461,
     32.426638
   ],
-  "reprPoint": [
-    12.979461,
-    32.426638
-  ],
+  "description": "An ancient place, cited: BAtlas 35 E2 Bir Cuca",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.979461,
+          32.426638
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

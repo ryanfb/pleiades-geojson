@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nigris (river)",
   "id": "334602",
-  "description": "Nigris fl. (Djedi river) is a wadi in Algeria that is also one of the largest rivers of the Sahara.",
   "bbox": [
     5.0,
     34.0,
     6.0,
     35.0
   ],
-  "reprPoint": [
-    5.5,
-    34.5
-  ],
+  "description": "Nigris fl. (Djedi river) is a wadi in Algeria that is also one of the largest rivers of the Sahara.",
   "names": [
     "Nigris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          34.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               34.0
             ],
             [
-              5.0,
-              35.0
-            ],
-            [
-              6.0,
-              35.0
-            ],
-            [
               6.0,
               34.0
+            ],
+            [
+              6.0,
+              35.0
+            ],
+            [
+              5.0,
+              35.0
             ],
             [
               5.0,

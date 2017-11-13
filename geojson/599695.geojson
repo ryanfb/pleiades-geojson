@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Karyanda/Krousa? (island)",
   "id": "599695",
-  "description": "An ancient place, cited: BAtlas 61 E3 Karyanda/Krousa? Ins.",
   "bbox": [
     27.207759,
     36.996933,
     27.207759,
     36.996933
   ],
-  "reprPoint": [
-    27.207759,
-    36.996933
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E3 Karyanda/Krousa? Ins.",
   "names": [
     "Karyanda",
     "Krousa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.207759,
+          36.996933
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               37.0
             ],
             [
-              27.0,
-              37.5
-            ],
-            [
-              27.5,
-              37.5
-            ],
-            [
               27.5,
               37.0
+            ],
+            [
+              27.5,
+              37.5
+            ],
+            [
+              27.0,
+              37.5
             ],
             [
               27.0,

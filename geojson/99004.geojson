@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lundeborg",
   "id": "99004",
-  "description": "An ancient place, cited: BAtlas 10 G1 Lundeborg",
   "bbox": [
     10.782254,
     55.139719,
     10.782254,
     55.139719
   ],
-  "reprPoint": [
-    10.782254,
-    55.139719
-  ],
+  "description": "An ancient place, cited: BAtlas 10 G1 Lundeborg",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.782254,
+          55.139719
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

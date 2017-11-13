@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Nuraghe Albucciu",
   "id": "372588261",
-  "description": "A nuragic village dating ca. 1600 BC.",
   "bbox": [
     9.409444,
     41.067778,
     9.409444,
     41.067778
   ],
+  "description": "A nuragic village dating ca. 1600 BC.",
   "connectsWith": [
     "472014"
   ],
-  "reprPoint": [
-    9.409444,
-    41.067778
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.409444,
+          41.067778
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

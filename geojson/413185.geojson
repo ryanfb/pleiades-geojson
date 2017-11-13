@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Lugnano",
   "id": "413185",
-  "description": "An ancient place, cited: BAtlas 42 C3 Lugnano",
   "bbox": [
     12.330585,
     42.574173,
     12.330585,
     42.574173
   ],
-  "reprPoint": [
-    12.330585,
-    42.574173
-  ],
+  "description": "An ancient place, cited: BAtlas 42 C3 Lugnano",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.330585,
+          42.574173
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Convenae",
   "id": "246357",
-  "description": "The Convenae were a tribe of Aquitania whose territory lay on the north side of the Pyrenees.",
   "bbox": [
     0.0,
     42.0,
     1.0,
     43.0
   ],
-  "reprPoint": [
-    0.5,
-    42.5
-  ],
+  "description": "The Convenae were a tribe of Aquitania whose territory lay on the north side of the Pyrenees.",
   "names": [
     "Convenae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              0.0,
-              43.0
-            ],
-            [
-              1.0,
-              43.0
-            ],
-            [
               1.0,
               42.0
+            ],
+            [
+              1.0,
+              43.0
+            ],
+            [
+              0.0,
+              43.0
             ],
             [
               0.0,

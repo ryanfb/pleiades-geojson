@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Basoropeda",
   "id": "884127",
-  "description": "An ancient place, cited: BAtlas 90 B2 Basoropeda",
   "bbox": [
     46.0,
     38.0,
     47.0,
     39.0
   ],
-  "reprPoint": [
-    46.5,
-    38.5
-  ],
+  "description": "An ancient place, cited: BAtlas 90 B2 Basoropeda",
   "names": [
     "Basoropeda"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          38.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              46.0,
-              39.0
-            ],
-            [
-              47.0,
-              39.0
-            ],
-            [
               47.0,
               38.0
+            ],
+            [
+              47.0,
+              39.0
+            ],
+            [
+              46.0,
+              39.0
             ],
             [
               46.0,

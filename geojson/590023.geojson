@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pyrra Ins.",
   "id": "590023",
-  "description": "An ancient place, cited: BAtlas 60 E2 Pyrra Ins.",
   "bbox": [
     25.7274538,
     35.1967458,
     25.7274538,
     35.1967458
   ],
-  "reprPoint": [
-    25.7274538,
-    35.1967458
-  ],
+  "description": "An ancient place, cited: BAtlas 60 E2 Pyrra Ins.",
   "names": [
     "Pyrra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7274538,
+          35.1967458
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              25.5,
-              35.5
-            ],
-            [
-              26.0,
-              35.5
-            ],
-            [
               26.0,
               35.0
+            ],
+            [
+              26.0,
+              35.5
+            ],
+            [
+              25.5,
+              35.5
             ],
             [
               25.5,

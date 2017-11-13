@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250043",
-  "description": "An ancient place, cited: BAtlas 25 C5 no. 137 (Gárgoles de Arriba (Cifuentes))",
   "bbox": [
     -2.6327963,
     40.7498235,
     -2.6327963,
     40.7498235
   ],
-  "reprPoint": [
-    -2.6327963,
-    40.7498235
-  ],
+  "description": "An ancient place, cited: BAtlas 25 C5 no. 137 (Gárgoles de Arriba (Cifuentes))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6327963,
+          40.7498235
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              -3.0,
-              41.0
-            ],
-            [
-              -2.0,
-              41.0
-            ],
-            [
               -2.0,
               40.0
+            ],
+            [
+              -2.0,
+              41.0
+            ],
+            [
+              -3.0,
+              41.0
             ],
             [
               -3.0,

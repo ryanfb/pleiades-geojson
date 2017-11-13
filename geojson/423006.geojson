@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pompeo",
   "id": "423006",
-  "description": "A villa attributed to Cnaeus Pompeius.",
   "bbox": [
     12.6547804,
     41.7302569,
     12.655657,
     41.731832
   ],
-  "reprPoint": [
-    12.6552187,
-    41.73104445
-  ],
+  "description": "A villa attributed to Cnaeus Pompeius.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6552187,
+          41.73104445
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

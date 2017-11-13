@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kolone Pr.",
   "id": "521060",
-  "description": "An ancient place, cited: BAtlas 53 C2 Kolone Pr.",
   "bbox": [
     29.25,
     41.0,
     29.5,
     41.25
   ],
-  "reprPoint": [
-    29.375,
-    41.125
-  ],
+  "description": "An ancient place, cited: BAtlas 53 C2 Kolone Pr.",
   "names": [
     "Kolone Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.375,
+          41.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              29.25,
-              41.25
-            ],
-            [
-              29.5,
-              41.25
-            ],
-            [
               29.5,
               41.0
+            ],
+            [
+              29.5,
+              41.25
+            ],
+            [
+              29.25,
+              41.25
             ],
             [
               29.25,

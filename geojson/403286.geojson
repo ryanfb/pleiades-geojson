@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Urgo/Gorgon (island)",
   "id": "403286",
-  "description": "The northernmost island in the Tuscan Archipelago.",
   "bbox": [
     9.9,
     43.433333,
     9.9,
     43.433333
   ],
+  "description": "The northernmost island in the Tuscan Archipelago.",
   "connectsWith": [
     "490307091"
-  ],
-  "reprPoint": [
-    9.9,
-    43.433333
   ],
   "names": [
     "Urgo",
@@ -22,6 +18,19 @@
     "Isola di Gorgona"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9,
+          43.433333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Canaria? (island)",
   "id": "770912717",
-  "description": "Canaria? (Gran Canaria) is an island of the Canary Islands archipelago.",
   "bbox": [
     -15.6,
     27.966667,
     -15.6,
     27.966667
   ],
+  "description": "Canaria? (Gran Canaria) is an island of the Canary Islands archipelago.",
   "connectsWith": [
     "149334673",
     "845"
-  ],
-  "reprPoint": [
-    -15.6,
-    27.966667
   ],
   "names": [
     "Canaria"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6,
+          27.966667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

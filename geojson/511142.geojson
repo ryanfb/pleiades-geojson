@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Agrianes/Erginos (river)",
   "id": "511142",
-  "description": "An ancient place, cited: BAtlas 52 A2 Agrianes/Erginos fl.",
   "bbox": [
     27.0,
     41.0,
     27.5,
     41.5
   ],
-  "reprPoint": [
-    27.25,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 A2 Agrianes/Erginos fl.",
   "names": [
     "Agrianes",
     "Erginos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              27.0,
-              41.5
-            ],
-            [
-              27.5,
-              41.5
-            ],
-            [
               27.5,
               41.0
+            ],
+            [
+              27.5,
+              41.5
+            ],
+            [
+              27.0,
+              41.5
             ],
             [
               27.0,

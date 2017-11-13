@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "926387",
-  "description": "An ancient place, cited: BAtlas 94 D3 unnamed dam (Didegan Dam, easternmost of three dams N Pasargadae)",
   "bbox": [
     53.0,
     30.0,
     54.0,
     31.0
   ],
-  "reprPoint": [
-    53.5,
-    30.5
-  ],
+  "description": "An ancient place, cited: BAtlas 94 D3 unnamed dam (Didegan Dam, easternmost of three dams N Pasargadae)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               30.0
             ],
             [
-              53.0,
-              31.0
-            ],
-            [
-              54.0,
-              31.0
-            ],
-            [
               54.0,
               30.0
+            ],
+            [
+              54.0,
+              31.0
+            ],
+            [
+              53.0,
+              31.0
             ],
             [
               53.0,

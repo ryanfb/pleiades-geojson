@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Glaukos (river)",
   "id": "550552",
-  "description": "An ancient place, cited: BAtlas 56 F4 Glaukos fl.",
   "bbox": [
     27.5,
     38.5,
     28.0,
     39.0
   ],
-  "reprPoint": [
-    27.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 56 F4 Glaukos fl.",
   "names": [
     "Glaukos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              27.5,
-              39.0
-            ],
-            [
-              28.0,
-              39.0
-            ],
-            [
               28.0,
               38.5
+            ],
+            [
+              28.0,
+              39.0
+            ],
+            [
+              27.5,
+              39.0
             ],
             [
               27.5,

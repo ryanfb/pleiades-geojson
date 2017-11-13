@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vocontii",
   "id": "148241",
-  "description": "The Vocontii were a Gallic people living to the east of the Rhone river.",
   "bbox": [
     5.370412,
     44.752363,
     5.370412,
     44.752363
   ],
-  "reprPoint": [
-    5.370412,
-    44.752363
-  ],
+  "description": "The Vocontii were a Gallic people living to the east of the Rhone river.",
   "names": [
     "Vocontii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.370412,
+          44.752363
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              5.0,
-              44.5
-            ],
-            [
-              5.5,
-              44.5
-            ],
-            [
               5.5,
               44.0
+            ],
+            [
+              5.5,
+              44.5
+            ],
+            [
+              5.0,
+              44.5
             ],
             [
               5.0,

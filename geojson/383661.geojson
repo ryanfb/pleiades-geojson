@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Gabellus/*Secia (river)",
   "id": "383661",
-  "description": "Gabellus/*Secia fl. (Secchia river) is a tributary of the Po river.",
   "bbox": [
     10.7943866,
     44.6492028,
     10.7943866,
     44.6492028
   ],
+  "description": "Gabellus/*Secia fl. (Secchia river) is a tributary of the Po river.",
   "connectsWith": [
     "393469"
-  ],
-  "reprPoint": [
-    10.7943866,
-    44.6492028
   ],
   "names": [
     "Gabellus",
@@ -22,6 +18,19 @@
     "Secula"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7943866,
+          44.6492028
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               44.0
             ],
             [
-              10.0,
-              44.5
-            ],
-            [
-              10.5,
-              44.5
-            ],
-            [
               10.5,
               44.0
+            ],
+            [
+              10.5,
+              44.5
+            ],
+            [
+              10.0,
+              44.5
             ],
             [
               10.0,

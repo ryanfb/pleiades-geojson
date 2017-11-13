@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Grotta",
   "id": "599630",
-  "description": "An ancient place, cited: BAtlas 61 A3 Grotta",
   "bbox": [
     25.378278,
     37.112875,
     25.378278,
     37.112875
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Grotta",
   "connectsWith": [
     "599822"
   ],
-  "reprPoint": [
-    25.378278,
-    37.112875
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.378278,
+          37.112875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

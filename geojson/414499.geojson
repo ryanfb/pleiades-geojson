@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "414499",
-  "description": "An ancient place, cited: BAtlas 42 B1 unnamed bridge (W Ponte a Buriano, over R. Arno)",
   "bbox": [
     11.6767668,
     43.5019405,
     11.6767668,
     43.5019405
   ],
+  "description": "An ancient place, cited: BAtlas 42 B1 unnamed bridge (W Ponte a Buriano, over R. Arno)",
   "connectsWith": [
     "403181"
   ],
-  "reprPoint": [
-    11.6767668,
-    43.5019405
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6767668,
+          43.5019405
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.5
             ],
             [
-              11.5,
-              44.0
-            ],
-            [
-              12.0,
-              44.0
-            ],
-            [
               12.0,
               43.5
+            ],
+            [
+              12.0,
+              44.0
+            ],
+            [
+              11.5,
+              44.0
             ],
             [
               11.5,

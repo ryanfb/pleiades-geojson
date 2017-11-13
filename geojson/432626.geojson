@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Ad Flexum",
   "id": "432626",
-  "description": "An ancient place, cited: BAtlas 44 E3 Ad Flexum",
   "bbox": [
     13.9636174,
     41.4454758,
     13.9636174,
     41.4454758
   ],
+  "description": "An ancient place, cited: BAtlas 44 E3 Ad Flexum",
   "connectsWith": [
     "93042695"
-  ],
-  "reprPoint": [
-    13.9636174,
-    41.4454758
   ],
   "names": [
     "Ad Flexum"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9636174,
+          41.4454758
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

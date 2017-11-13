@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Crotalus (river)",
   "id": "452316",
-  "description": "An ancient place, cited: BAtlas 46 E4 Crotalus fl.",
   "bbox": [
     16.5,
     38.5,
     17.0,
     39.0
   ],
-  "reprPoint": [
-    16.75,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 46 E4 Crotalus fl.",
   "names": [
     "Crotalus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              16.5,
-              39.0
-            ],
-            [
-              17.0,
-              39.0
-            ],
-            [
               17.0,
               38.5
+            ],
+            [
+              17.0,
+              39.0
+            ],
+            [
+              16.5,
+              39.0
             ],
             [
               16.5,

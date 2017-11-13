@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Puente de la Perdiz",
   "id": "237841",
-  "description": "A Roman bridge located near the hamelt of Nestar, over the Rio Rubagón.",
   "bbox": [
     -5.0,
     42.0,
     -4.0,
     43.0
   ],
-  "reprPoint": [
-    -4.5,
-    42.5
-  ],
+  "description": "A Roman bridge located near the hamelt of Nestar, over the Rio Rubagón.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              -5.0,
-              43.0
-            ],
-            [
-              -4.0,
-              43.0
-            ],
-            [
               -4.0,
               42.0
+            ],
+            [
+              -4.0,
+              43.0
+            ],
+            [
+              -5.0,
+              43.0
             ],
             [
               -5.0,

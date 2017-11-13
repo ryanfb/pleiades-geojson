@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed villa",
   "id": "963101394",
-  "description": "An unnamed villa of Cyrenaica",
   "bbox": [
     20.494463,
     32.475782,
     20.494463,
     32.475782
   ],
-  "reprPoint": [
-    20.494463,
-    32.475782
-  ],
+  "description": "An unnamed villa of Cyrenaica",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.494463,
+          32.475782
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

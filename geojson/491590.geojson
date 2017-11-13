@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Enipeios (river)",
   "id": "491590",
-  "description": "An ancient place, cited: BAtlas 50 B4 Enipeios fl.",
   "bbox": [
     22.0,
     40.0,
     22.5,
     40.5
   ],
-  "reprPoint": [
-    22.25,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 B4 Enipeios fl.",
   "names": [
     "Enipeios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              22.0,
-              40.5
-            ],
-            [
-              22.5,
-              40.5
-            ],
-            [
               22.5,
               40.0
+            ],
+            [
+              22.5,
+              40.5
+            ],
+            [
+              22.0,
+              40.5
             ],
             [
               22.0,

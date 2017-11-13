@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kudavelli",
   "id": "50085",
-  "description": "An ancient place, cited: BAtlas 5 D3 Kudavelli",
   "bbox": [
     75.0,
     15.0,
     80.0,
     20.0
   ],
-  "reprPoint": [
-    77.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 D3 Kudavelli",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               15.0
             ],
             [
-              75.0,
-              20.0
-            ],
-            [
-              80.0,
-              20.0
-            ],
-            [
               80.0,
               15.0
+            ],
+            [
+              80.0,
+              20.0
+            ],
+            [
+              75.0,
+              20.0
             ],
             [
               75.0,

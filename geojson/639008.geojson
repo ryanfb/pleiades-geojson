@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Neapolis",
   "id": "639008",
-  "description": "An ancient place, cited: BAtlas 65 F2 Neapolis",
   "bbox": [
     31.367292,
     37.951521,
     31.492965,
     38.080949
   ],
+  "description": "An ancient place, cited: BAtlas 65 F2 Neapolis",
   "connectsWith": [
     "33128252"
-  ],
-  "reprPoint": [
-    31.4301285,
-    38.016235
   ],
   "names": [
     "Neapolis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4301285,
+          38.016235
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

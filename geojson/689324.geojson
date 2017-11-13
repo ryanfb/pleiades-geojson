@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Unnamed bridge",
   "id": "689324",
-  "description": "An ancient place, cited: BAtlas 70 H1 unnamed bridge (Jisr Damiya, over R. Jordan, between Neapolis and Philadelpheia)",
   "bbox": [
     35.6191595,
     33.1864496,
     35.6191595,
     33.1864496
   ],
+  "description": "An ancient place, cited: BAtlas 70 H1 unnamed bridge (Jisr Damiya, over R. Jordan, between Neapolis and Philadelpheia)",
   "connectsWith": [
     "687932"
   ],
-  "reprPoint": [
-    35.6191595,
-    33.1864496
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6191595,
+          33.1864496
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               32.0
             ],
             [
-              35.5,
-              32.5
-            ],
-            [
-              36.0,
-              32.5
-            ],
-            [
               36.0,
               32.0
+            ],
+            [
+              36.0,
+              32.5
+            ],
+            [
+              35.5,
+              32.5
             ],
             [
               35.5,

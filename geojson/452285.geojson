@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Carcinus (river)",
   "id": "452285",
-  "description": "The Corace river empties into the Gulf of Squillace.",
   "bbox": [
     16.5,
     38.5,
     17.0,
     39.0
   ],
+  "description": "The Corace river empties into the Gulf of Squillace.",
   "connectsWith": [
     "452437"
-  ],
-  "reprPoint": [
-    16.75,
-    38.75
   ],
   "names": [
     "Carcinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.5
             ],
             [
-              16.5,
-              39.0
-            ],
-            [
-              17.0,
-              39.0
-            ],
-            [
               17.0,
               38.5
+            ],
+            [
+              17.0,
+              39.0
+            ],
+            [
+              16.5,
+              39.0
             ],
             [
               16.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "La Gran Mina",
   "id": "256186",
-  "description": "An ancient place, cited: BAtlas 26 F3 La Gran Mina",
   "bbox": [
     -5.003799,
     38.034997,
     -5.003799,
     38.034997
   ],
-  "reprPoint": [
-    -5.003799,
-    38.034997
-  ],
+  "description": "An ancient place, cited: BAtlas 26 F3 La Gran Mina",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.003799,
+          38.034997
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

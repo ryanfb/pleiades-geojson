@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Amphax(it)is",
   "id": "491520",
-  "description": "An ancient place, cited: BAtlas 50 C3 Amphax(it)is",
   "bbox": [
     22.5,
     40.5,
     23.0,
     41.0
   ],
-  "reprPoint": [
-    22.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C3 Amphax(it)is",
   "names": [
     "Amphaxitis",
     "Amphaxis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               40.5
             ],
             [
-              22.5,
-              41.0
-            ],
-            [
-              23.0,
-              41.0
-            ],
-            [
               23.0,
               40.5
+            ],
+            [
+              23.0,
+              41.0
+            ],
+            [
+              22.5,
+              41.0
             ],
             [
               22.5,

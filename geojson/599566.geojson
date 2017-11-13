@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "‘Cedreaticum’ Sinus",
   "id": "599566",
-  "description": "An ancient place, cited: BAtlas 61 G3 ‘Cedreaticum’ Sinus",
   "bbox": [
     28.0,
     37.0,
     28.5,
     37.5
   ],
-  "reprPoint": [
-    28.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 G3 ‘Cedreaticum’ Sinus",
   "names": [
     "Cedreaticum Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              28.0,
-              37.5
-            ],
-            [
-              28.5,
-              37.5
-            ],
-            [
               28.5,
               37.0
+            ],
+            [
+              28.5,
+              37.5
+            ],
+            [
+              28.0,
+              37.5
             ],
             [
               28.0,

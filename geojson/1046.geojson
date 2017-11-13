@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Ionium Mare",
   "id": "1046",
-  "description": "The Ionian Sea, located south of the Adriatic Sea, is an elongated embayment of the Mediterranean Sea.",
   "bbox": [
     15.885196,
     37.6125,
     21.5193991,
     42.7752864
   ],
+  "description": "The Ionian Sea, located south of the Adriatic Sea, is an elongated embayment of the Mediterranean Sea.",
   "connectsWith": [
     "1043",
     "1004"
-  ],
-  "reprPoint": [
-    19.6748610756,
-    39.0324464756
   ],
   "names": [
     "Ionium Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6748610756,
+          39.0324464756
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               35.0
             ],
             [
-              15.0,
-              40.0
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
               20.0,
               35.0
+            ],
+            [
+              20.0,
+              40.0
+            ],
+            [
+              15.0,
+              40.0
             ],
             [
               15.0,

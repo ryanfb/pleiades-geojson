@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kynthos M.",
   "id": "599740",
-  "description": "An ancient place, cited: BAtlas 61 A3 Kynthos M.",
   "bbox": [
     25.2724428,
     37.395581,
     25.2724428,
     37.395581
   ],
+  "description": "An ancient place, cited: BAtlas 61 A3 Kynthos M.",
   "connectsWith": [
     "599588"
-  ],
-  "reprPoint": [
-    25.2724428,
-    37.395581
   ],
   "names": [
     "Kynthos M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2724428,
+          37.395581
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               37.0
             ],
             [
-              25.0,
-              37.5
-            ],
-            [
-              25.5,
-              37.5
-            ],
-            [
               25.5,
               37.0
+            ],
+            [
+              25.5,
+              37.5
+            ],
+            [
+              25.0,
+              37.5
             ],
             [
               25.0,

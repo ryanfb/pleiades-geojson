@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ladle Hill Iron Age Fort",
   "id": "127132165",
-  "description": "Ladle Hill is an Iron Age hill fort located in north Hampshire, England.",
   "bbox": [
     -1.314548,
     51.3086043,
     -1.314548,
     51.3086043
   ],
-  "reprPoint": [
-    -1.314548,
-    51.3086043
-  ],
+  "description": "Ladle Hill is an Iron Age hill fort located in north Hampshire, England.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.314548,
+          51.3086043
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

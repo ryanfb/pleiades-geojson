@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Nesis? (river)",
   "id": "857246",
-  "description": "Nesis? fl., a river of the western Caucasus flowing into the Black Sea.",
   "bbox": [
     39.9240115521,
     43.4157128755,
     39.9501425,
     43.4354538
   ],
+  "description": "Nesis? fl., a river of the western Caucasus flowing into the Black Sea.",
   "connectsWith": [
     "1224"
-  ],
-  "reprPoint": [
-    39.9370770261,
-    43.4255833377
   ],
   "names": [
     "Nesis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9370770261,
+          43.4255833377
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "250008",
-  "description": "An ancient place, cited: BAtlas 25 I3 no. 102 (Tolegassos, Els (Vilademat))",
   "bbox": [
     3.0754846,
     42.1323122,
     3.0754846,
     42.1323122
   ],
-  "reprPoint": [
-    3.0754846,
-    42.1323122
-  ],
+  "description": "An ancient place, cited: BAtlas 25 I3 no. 102 (Tolegassos, Els (Vilademat))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0754846,
+          42.1323122
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              3.0,
-              43.0
-            ],
-            [
-              4.0,
-              43.0
-            ],
-            [
               4.0,
               42.0
+            ],
+            [
+              4.0,
+              43.0
+            ],
+            [
+              3.0,
+              43.0
             ],
             [
               3.0,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ostrov",
   "id": "216912",
-  "description": "An ancient place, cited: BAtlas 22 E4 Ostrov",
   "bbox": [
     27.369218,
     44.106533,
     27.369218,
     44.106533
   ],
-  "reprPoint": [
-    27.369218,
-    44.106533
-  ],
+  "description": "An ancient place, cited: BAtlas 22 E4 Ostrov",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.369218,
+          44.106533
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

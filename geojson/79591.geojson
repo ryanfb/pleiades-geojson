@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Manapioi",
   "id": "79591",
-  "description": "An ancient place, cited: BAtlas 8 A1 Manapioi",
   "bbox": [
     -7.0,
     53.0,
     -6.0,
     54.0
   ],
-  "reprPoint": [
-    -6.5,
-    53.5
-  ],
+  "description": "An ancient place, cited: BAtlas 8 A1 Manapioi",
   "names": [
     "Manapioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               53.0
             ],
             [
-              -7.0,
-              54.0
-            ],
-            [
-              -6.0,
-              54.0
-            ],
-            [
               -6.0,
               53.0
+            ],
+            [
+              -6.0,
+              54.0
+            ],
+            [
+              -7.0,
+              54.0
             ],
             [
               -7.0,

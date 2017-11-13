@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Fendoch",
   "id": "89184",
-  "description": "A Roman auxiliary fort.",
   "bbox": [
     -3.700873,
     56.435541,
     -3.700873,
     56.435541
   ],
-  "reprPoint": [
-    -3.700873,
-    56.435541
-  ],
+  "description": "A Roman auxiliary fort.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.700873,
+          56.435541
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

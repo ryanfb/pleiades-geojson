@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Tell Beydar",
   "id": "423885388",
-  "description": "Tell Beydar (ancient Nabada) is an archaeological site in NE Syria that was first settled ca. 2600 BC.",
   "bbox": [
     40.586944,
     36.737778,
     40.586944,
     36.737778
   ],
-  "reprPoint": [
-    40.586944,
-    36.737778
-  ],
+  "description": "Tell Beydar (ancient Nabada) is an archaeological site in NE Syria that was first settled ca. 2600 BC.",
   "names": [
     "Tell Beydar",
     "Nabada"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.586944,
+          36.737778
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

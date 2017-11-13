@@ -2,28 +2,37 @@
   "type": "FeatureCollection",
   "title": "Britannia/Albion (island)",
   "id": "20419",
-  "description": "The island of Great Britain is located to the northwest of continental Europe and is the ninth largest island in the world.",
   "bbox": [
     -2.422,
     53.826,
     -2.422,
     53.826
   ],
+  "description": "The island of Great Britain is located to the northwest of continental Europe and is the ninth largest island in the world.",
   "connectsWith": [
     "20420",
     "20469",
     "20493",
     "20489"
   ],
-  "reprPoint": [
-    -2.422,
-    53.826
-  ],
   "names": [
     "Britannia",
     "Albion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.422,
+          53.826
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

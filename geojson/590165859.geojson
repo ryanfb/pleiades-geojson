@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Roman milestone at Locmeltro",
   "id": "590165859",
-  "description": "A Roman milestone.",
   "bbox": [
     -3.1458048,
     48.0472109,
     -3.1458048,
     48.0472109
   ],
-  "reprPoint": [
-    -3.1458048,
-    48.0472109
-  ],
+  "description": "A Roman milestone.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1458048,
+          48.0472109
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tarti",
   "id": "550905",
-  "description": "An ancient place, cited: BAtlas 56 C4 Tarti",
   "bbox": [
     26.480975,
     38.975668,
     26.480975,
     38.975668
   ],
-  "reprPoint": [
-    26.480975,
-    38.975668
-  ],
+  "description": "An ancient place, cited: BAtlas 56 C4 Tarti",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.480975,
+          38.975668
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

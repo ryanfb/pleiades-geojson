@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "An unnamed bridge",
   "id": "472635",
-  "description": "A bridge located north of Usel(l)is in western Sardinia",
   "bbox": [
     8.850947,
     39.810711,
     8.850947,
     39.810711
   ],
+  "description": "A bridge located north of Usel(l)is in western Sardinia",
   "connectsWith": [
     "472014",
     "472038"
   ],
-  "reprPoint": [
-    8.850947,
-    39.810711
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.850947,
+          39.810711
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.0
             ],
             [
-              8.0,
-              40.0
-            ],
-            [
-              9.0,
-              40.0
-            ],
-            [
               9.0,
               39.0
+            ],
+            [
+              9.0,
+              40.0
+            ],
+            [
+              8.0,
+              40.0
             ],
             [
               8.0,

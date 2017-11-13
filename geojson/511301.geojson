@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Leucatas Pr.",
   "id": "511301",
-  "description": "An ancient place, cited: BAtlas 52 E3 Leucatas Pr.",
   "bbox": [
     29.0,
     40.5,
     29.5,
     41.0
   ],
-  "reprPoint": [
-    29.25,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 52 E3 Leucatas Pr.",
   "names": [
     "Leucatas Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              29.0,
-              41.0
-            ],
-            [
-              29.5,
-              41.0
-            ],
-            [
               29.5,
               40.5
+            ],
+            [
+              29.5,
+              41.0
+            ],
+            [
+              29.0,
+              41.0
             ],
             [
               29.0,

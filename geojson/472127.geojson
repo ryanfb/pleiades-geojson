@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sardoum Mare",
   "id": "472127",
-  "description": "The name given by the ancients to the part of the Mediterranean sea adjoining the island of Sardinia on the west and south.",
   "bbox": [
     8.0,
     40.0,
     9.0,
     41.0
   ],
-  "reprPoint": [
-    8.5,
-    40.5
-  ],
+  "description": "The name given by the ancients to the part of the Mediterranean sea adjoining the island of Sardinia on the west and south.",
   "names": [
     "Sardoum Mare"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              8.0,
-              41.0
-            ],
-            [
-              9.0,
-              41.0
-            ],
-            [
               9.0,
               40.0
+            ],
+            [
+              9.0,
+              41.0
+            ],
+            [
+              8.0,
+              41.0
             ],
             [
               8.0,

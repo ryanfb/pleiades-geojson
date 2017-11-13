@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "277847",
-  "description": "An ancient place, cited: BAtlas 28 B3 unnamed feature (rural settlement in Djouima vicinity)",
   "bbox": [
     -6.105608,
     35.254559,
     -6.105608,
     35.254559
   ],
-  "reprPoint": [
-    -6.105608,
-    35.254559
-  ],
+  "description": "An ancient place, cited: BAtlas 28 B3 unnamed feature (rural settlement in Djouima vicinity)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.105608,
+          35.254559
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               35.0
             ],
             [
-              -6.5,
-              35.5
-            ],
-            [
-              -6.0,
-              35.5
-            ],
-            [
               -6.0,
               35.0
+            ],
+            [
+              -6.0,
+              35.5
+            ],
+            [
+              -6.5,
+              35.5
             ],
             [
               -6.5,

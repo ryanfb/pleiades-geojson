@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sindike",
   "id": "854735",
-  "description": "Sindike was a region of the Taman peninsula inhabited by the ancient tribe of the Sindoi.",
   "bbox": [
     36.5,
     45.0,
     37.0,
     45.5
   ],
-  "reprPoint": [
-    36.75,
-    45.25
-  ],
+  "description": "Sindike was a region of the Taman peninsula inhabited by the ancient tribe of the Sindoi.",
   "names": [
     "Sindike",
     "Sindoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              36.5,
-              45.5
-            ],
-            [
-              37.0,
-              45.5
-            ],
-            [
               37.0,
               45.0
+            ],
+            [
+              37.0,
+              45.5
+            ],
+            [
+              36.5,
+              45.5
             ],
             [
               36.5,

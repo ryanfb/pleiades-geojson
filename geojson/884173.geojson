@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kyros (river)",
   "id": "884173",
-  "description": "An ancient place, cited: BAtlas 90 D1 Kyros fl.",
   "bbox": [
     49.2343866,
     39.4192429,
     49.2343866,
     39.4192429
   ],
+  "description": "An ancient place, cited: BAtlas 90 D1 Kyros fl.",
   "connectsWith": [
     "884130"
-  ],
-  "reprPoint": [
-    49.2343866,
-    39.4192429
   ],
   "names": [
     "Kyros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2343866,
+          39.4192429
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

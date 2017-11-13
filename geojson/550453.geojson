@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Arios M.",
   "id": "550453",
-  "description": "An ancient place, cited: BAtlas 56 B4 Arios M.",
   "bbox": [
     25.5,
     38.5,
     26.0,
     39.0
   ],
+  "description": "An ancient place, cited: BAtlas 56 B4 Arios M.",
   "connectsWith": [
     "550497"
-  ],
-  "reprPoint": [
-    25.75,
-    38.75
   ],
   "names": [
     "Arios M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               38.5
             ],
             [
-              25.5,
-              39.0
-            ],
-            [
-              26.0,
-              39.0
-            ],
-            [
               26.0,
               38.5
+            ],
+            [
+              26.0,
+              39.0
+            ],
+            [
+              25.5,
+              39.0
             ],
             [
               25.5,

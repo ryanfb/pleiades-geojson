@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cawdor",
   "id": "463220210",
-  "description": "Site of a Roman fortress near Eastern Galcantray that some consider one of the northernmost Roman forts in Great Britain.",
   "bbox": [
     -3.9874892,
     57.5093095,
     -3.9874892,
     57.5093095
   ],
-  "reprPoint": [
-    -3.9874892,
-    57.5093095
-  ],
+  "description": "Site of a Roman fortress near Eastern Galcantray that some consider one of the northernmost Roman forts in Great Britain.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9874892,
+          57.5093095
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

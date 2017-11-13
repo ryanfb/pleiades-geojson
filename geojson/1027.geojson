@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hispania",
   "id": "1027",
-  "description": "An ancient place, cited: BAtlas 1 B2 Hispania",
   "bbox": [
     -10.0,
     40.0,
     -5.0,
     45.0
   ],
-  "reprPoint": [
-    -7.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 1 B2 Hispania",
   "names": [
     "Hispania"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -10.0,
-              45.0
-            ],
-            [
-              -5.0,
-              45.0
-            ],
-            [
               -5.0,
               40.0
+            ],
+            [
+              -5.0,
+              45.0
+            ],
+            [
+              -10.0,
+              45.0
             ],
             [
               -10.0,

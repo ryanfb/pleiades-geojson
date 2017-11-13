@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Pernik",
   "id": "481958",
-  "description": "An ancient place, cited: BAtlas 49 F1 Pernik",
   "bbox": [
     23.032579,
     42.610356,
     23.032579,
     42.610356
   ],
-  "reprPoint": [
-    23.032579,
-    42.610356
-  ],
+  "description": "An ancient place, cited: BAtlas 49 F1 Pernik",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.032579,
+          42.610356
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

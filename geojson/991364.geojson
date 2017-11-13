@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Epirus Vetus",
   "id": "991364",
-  "description": "A province of the Roman Empire that was later incorporated into the province of Macedonia.",
   "bbox": [
     20.7286954,
     39.008011,
     20.736054,
     39.023389
   ],
-  "reprPoint": [
-    20.7335674667,
-    39.0141873
-  ],
+  "description": "A province of the Roman Empire that was later incorporated into the province of Macedonia.",
   "names": [
     "Epirus Vetus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7335674667,
+          39.0141873
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              15.0,
-              40.0
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
               20.0,
               35.0
+            ],
+            [
+              20.0,
+              40.0
+            ],
+            [
+              15.0,
+              40.0
             ],
             [
               15.0,

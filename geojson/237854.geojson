@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Cáparra Roman bridge",
   "id": "237854",
-  "description": "An unnamed bridge over the river Caparra, just north of ancient Capera, which is west-southwest of modern Casablanca (Guijo de Granadilla, Caceres, Extremadura, Spain)",
   "bbox": [
     -6.1037,
     40.1703,
     -6.1037,
     40.1703
   ],
-  "reprPoint": [
-    -6.1037,
-    40.1703
-  ],
+  "description": "An unnamed bridge over the river Caparra, just north of ancient Capera, which is west-southwest of modern Casablanca (Guijo de Granadilla, Caceres, Extremadura, Spain)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1037,
+          40.1703
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

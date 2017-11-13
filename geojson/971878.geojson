@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Surkh Kotal",
   "id": "971878",
-  "description": "Surkh Kotal is an archaeological site of southern Bactria and one of the most significant sites connected with the Kushan civilization.",
   "bbox": [
     68.569763,
     35.99802,
     68.582048,
     36.050153
   ],
-  "reprPoint": [
-    68.5759055,
-    36.0240865
-  ],
+  "description": "Surkh Kotal is an archaeological site of southern Bactria and one of the most significant sites connected with the Kushan civilization.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.5759055,
+          36.0240865
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

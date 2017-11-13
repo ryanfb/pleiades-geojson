@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Monte Sambuco",
   "id": "442673",
-  "description": "An ancient place, cited: BAtlas 45 B1 Monte Sambuco",
   "bbox": [
     15.07719,
     41.527124,
     15.07719,
     41.527124
   ],
-  "reprPoint": [
-    15.07719,
-    41.527124
-  ],
+  "description": "An ancient place, cited: BAtlas 45 B1 Monte Sambuco",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.07719,
+          41.527124
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

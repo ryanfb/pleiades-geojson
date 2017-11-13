@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Nerion/Artabrum/Celticum/Magnum Pr.",
   "id": "236567",
-  "description": "An ancient place, cited: BAtlas 24 B1 Nerion/Artabrum/Celticum/Magnum Pr.",
   "bbox": [
     -10.0,
     43.0,
     -9.0,
     44.0
   ],
-  "reprPoint": [
-    -9.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 B1 Nerion/Artabrum/Celticum/Magnum Pr.",
   "names": [
     "Nerion",
     "Artabrum",
@@ -21,6 +17,19 @@
     "Hire Akra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               43.0
             ],
             [
-              -10.0,
-              44.0
-            ],
-            [
-              -9.0,
-              44.0
-            ],
-            [
               -9.0,
               43.0
+            ],
+            [
+              -9.0,
+              44.0
+            ],
+            [
+              -10.0,
+              44.0
             ],
             [
               -10.0,

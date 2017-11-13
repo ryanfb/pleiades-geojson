@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kam Pirak wall",
   "id": "963384",
-  "description": "The Kam Pirak wall is a rammed earth defensive wall located near Kumsar, Afghanistan. It has been traced for ca. 60 km.",
   "bbox": [
     66.0,
     37.0,
     67.0,
     38.0
   ],
-  "reprPoint": [
-    66.5,
-    37.5
-  ],
+  "description": "The Kam Pirak wall is a rammed earth defensive wall located near Kumsar, Afghanistan. It has been traced for ca. 60 km.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               37.0
             ],
             [
-              66.0,
-              38.0
-            ],
-            [
-              67.0,
-              38.0
-            ],
-            [
               67.0,
               37.0
+            ],
+            [
+              67.0,
+              38.0
+            ],
+            [
+              66.0,
+              38.0
             ],
             [
               66.0,

@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Anagnia",
   "id": "422833",
-  "description": "Anagnia was a Hernican town that sided with Rome against the Volscians and later became civitas sine suffragio.",
   "bbox": [
     13.158962,
     41.742213,
     13.158962,
     41.742213
   ],
+  "description": "Anagnia was a Hernican town that sided with Rome against the Volscians and later became civitas sine suffragio.",
   "connectsWith": [
     "422944",
     "93042695",
@@ -16,14 +16,23 @@
     "432901",
     "622606468"
   ],
-  "reprPoint": [
-    13.158962,
-    41.742213
-  ],
   "names": [
     "Anagnia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.158962,
+          41.742213
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Herakleia (island)",
   "id": "599642",
-  "description": "An ancient place, cited: BAtlas 61 A4 Herakleia Ins.",
   "bbox": [
     25.0,
     36.5,
     25.5,
     37.0
   ],
-  "reprPoint": [
-    25.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 A4 Herakleia Ins.",
   "names": [
     "Herakleia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              25.0,
-              37.0
-            ],
-            [
-              25.5,
-              37.0
-            ],
-            [
               25.5,
               36.5
+            ],
+            [
+              25.5,
+              37.0
+            ],
+            [
+              25.0,
+              37.0
             ],
             [
               25.0,

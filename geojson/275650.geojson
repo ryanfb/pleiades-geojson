@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Kaunoi",
   "id": "275650",
-  "description": "An ancient place, cited: BAtlas 28 B5 Kaunoi",
   "bbox": [
     -6.5,
     34.0,
     -6.0,
     34.5
   ],
-  "reprPoint": [
-    -6.25,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 B5 Kaunoi",
   "names": [
     "Kaunoi",
     "Iangaukanoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.25,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               34.0
             ],
             [
-              -6.5,
-              34.5
-            ],
-            [
-              -6.0,
-              34.5
-            ],
-            [
               -6.0,
               34.0
+            ],
+            [
+              -6.0,
+              34.5
+            ],
+            [
+              -6.5,
+              34.5
             ],
             [
               -6.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Apollonia",
   "id": "501355",
-  "description": "An ancient place, cited: BAtlas 51 C3 Apollonia",
   "bbox": [
     24.137678,
     40.744165,
     24.137678,
     40.744165
   ],
-  "reprPoint": [
-    24.137678,
-    40.744165
-  ],
+  "description": "An ancient place, cited: BAtlas 51 C3 Apollonia",
   "names": [
     "Apollonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.137678,
+          40.744165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              24.0,
-              41.0
-            ],
-            [
-              24.5,
-              41.0
-            ],
-            [
               24.5,
               40.5
+            ],
+            [
+              24.5,
+              41.0
+            ],
+            [
+              24.0,
+              41.0
             ],
             [
               24.0,

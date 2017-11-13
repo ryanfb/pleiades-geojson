@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "S. Giovanni",
   "id": "472006",
-  "description": "An ancient place, cited: BAtlas 48 A3 S. Giovanni",
   "bbox": [
     8.0,
     39.0,
     9.0,
     40.0
   ],
-  "reprPoint": [
-    8.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 48 A3 S. Giovanni",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               39.0
             ],
             [
-              8.0,
-              40.0
-            ],
-            [
-              9.0,
-              40.0
-            ],
-            [
               9.0,
               39.0
+            ],
+            [
+              9.0,
+              40.0
+            ],
+            [
+              8.0,
+              40.0
             ],
             [
               8.0,

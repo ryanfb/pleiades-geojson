@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Clysma",
   "id": "727101",
-  "description": "Clysma as an ancient port at the northern end of the Gulf of Suez.",
   "bbox": [
     32.552557,
     29.958988,
     32.567728,
     29.981293
   ],
+  "description": "Clysma as an ancient port at the northern end of the Gulf of Suez.",
   "connectsWith": [
     "39290"
-  ],
-  "reprPoint": [
-    32.5601425,
-    29.9701405
   ],
   "names": [
     "Clysma",
     "Arsinoe"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5601425,
+          29.9701405
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

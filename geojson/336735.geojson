@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "336735",
-  "description": "An ancient place, cited: BAtlas 34 B3 unnamed feature ()",
   "bbox": [
     3.325481,
     34.88402,
     3.325481,
     34.88402
   ],
-  "reprPoint": [
-    3.325481,
-    34.88402
-  ],
+  "description": "An ancient place, cited: BAtlas 34 B3 unnamed feature ()",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.325481,
+          34.88402
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.0
             ],
             [
-              3.0,
-              35.0
-            ],
-            [
-              4.0,
-              35.0
-            ],
-            [
               4.0,
               34.0
+            ],
+            [
+              4.0,
+              35.0
+            ],
+            [
+              3.0,
+              35.0
             ],
             [
               3.0,

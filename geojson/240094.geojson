@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "240094",
-  "description": "Bracara Augusta → Nemetobriga → Asturica Augusta (Via Nova)",
   "bbox": [
     -8.427013,
     41.55001,
     -6.063491,
     42.458902
   ],
+  "description": "Bracara Augusta → Nemetobriga → Asturica Augusta (Via Nova)",
   "connectsWith": [
     "236377",
     "236565",
     "236352"
   ],
-  "reprPoint": [
-    -7.247089,
-    42.1164966667
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.247089,
+          42.1164966667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               40.0
             ],
             [
-              -11.0,
-              44.0
-            ],
-            [
-              -3.0,
-              44.0
-            ],
-            [
               -3.0,
               40.0
+            ],
+            [
+              -3.0,
+              44.0
+            ],
+            [
+              -11.0,
+              44.0
             ],
             [
               -11.0,

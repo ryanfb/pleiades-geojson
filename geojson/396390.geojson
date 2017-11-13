@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "396390",
-  "description": "An ancient place, cited: BAtlas 40 C2 unnamed centuriation (NE Patavium)",
   "bbox": [
     12.0,
     45.0,
     12.5,
     45.5
   ],
-  "reprPoint": [
-    12.25,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 40 C2 unnamed centuriation (NE Patavium)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.25,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               45.0
             ],
             [
-              12.0,
-              45.5
-            ],
-            [
-              12.5,
-              45.5
-            ],
-            [
               12.5,
               45.0
+            ],
+            [
+              12.5,
+              45.5
+            ],
+            [
+              12.0,
+              45.5
             ],
             [
               12.0,

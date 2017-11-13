@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Minervae Pr.",
   "id": "432938",
-  "description": "Punta Campanella lies at the western extremity of the Sorrentine Peninsula.",
   "bbox": [
     14.339,
     40.57,
     14.339,
     40.57
   ],
-  "reprPoint": [
-    14.339,
-    40.57
-  ],
+  "description": "Punta Campanella lies at the western extremity of the Sorrentine Peninsula.",
   "names": [
     "Minervae Pr.",
     "Seirenousson Akroterion",
     "Athenaion Akron"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.339,
+          40.57
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Agryle Kathyperthen",
   "id": "579849",
-  "description": "An ancient place, cited: BAtlas 59 B3 Agryle Kathyperthen",
   "bbox": [
     23.5,
     37.75,
     23.75,
     38.0
   ],
-  "reprPoint": [
-    23.625,
-    37.875
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B3 Agryle Kathyperthen",
   "names": [
     "Agryle Kathyperthen"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          37.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.75
             ],
             [
-              23.5,
-              38.0
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
               23.75,
               37.75
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.5,
+              38.0
             ],
             [
               23.5,

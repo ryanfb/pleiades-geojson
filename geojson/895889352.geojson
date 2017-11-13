@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Logie Durno camp",
   "id": "895889352",
-  "description": "Temporary Roman marching camp",
   "bbox": [
     -2.5604,
     57.2929,
     -2.5604,
     57.2929
   ],
-  "reprPoint": [
-    -2.5604,
-    57.2929
-  ],
+  "description": "Temporary Roman marching camp",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5604,
+          57.2929
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hyllos (river)",
   "id": "609409",
-  "description": "An ancient place, cited: BAtlas 62 B4 Hyllos fl.",
   "bbox": [
     29.0,
     38.5,
     29.5,
     39.0
   ],
-  "reprPoint": [
-    29.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 62 B4 Hyllos fl.",
   "names": [
     "Hyllos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.5
             ],
             [
-              29.0,
-              39.0
-            ],
-            [
-              29.5,
-              39.0
-            ],
-            [
               29.5,
               38.5
+            ],
+            [
+              29.5,
+              39.0
+            ],
+            [
+              29.0,
+              39.0
             ],
             [
               29.0,

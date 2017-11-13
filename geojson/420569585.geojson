@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Khirbet Beit-Bassa",
   "id": "420569585",
-  "description": "An ancient fortress located in Beit Sahour, in the district of Bethlehem in Palestine.",
   "bbox": [
     35.21667,
     31.7,
     35.21667,
     31.7
   ],
-  "reprPoint": [
-    35.21667,
-    31.7
-  ],
+  "description": "An ancient fortress located in Beit Sahour, in the district of Bethlehem in Palestine.",
   "names": [
     "Bethalaga"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21667,
+          31.7
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

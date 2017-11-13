@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Flusor (river)",
   "id": "413139",
-  "description": "The Potenza river.",
   "bbox": [
     15.885196,
     42.7752864,
     15.885196,
     42.7752864
   ],
+  "description": "The Potenza river.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.885196,
-    42.7752864
   ],
   "names": [
     "Flusor"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.885196,
+          42.7752864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               43.0
             ],
             [
-              13.0,
-              43.5
-            ],
-            [
-              13.5,
-              43.5
-            ],
-            [
               13.5,
               43.0
+            ],
+            [
+              13.5,
+              43.5
+            ],
+            [
+              13.0,
+              43.5
             ],
             [
               13.0,

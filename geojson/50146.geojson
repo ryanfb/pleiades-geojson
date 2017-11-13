@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Muziris",
   "id": "50146",
-  "description": "An important port and trading village",
   "bbox": [
     76.213146,
     10.153976,
     76.213146,
     10.153976
   ],
-  "reprPoint": [
-    76.213146,
-    10.153976
-  ],
+  "description": "An important port and trading village",
   "names": [
     "Muziris",
     "Mouzeris",
     "Zmiris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.213146,
+          10.153976
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

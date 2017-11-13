@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Durocortorum",
   "id": "108945",
-  "description": "The capital of the Remi in Gallia Belgica, now Reims.",
   "bbox": [
     4.0297477,
     49.253801,
     4.033901,
     49.2605591
   ],
+  "description": "The capital of the Remi in Gallia Belgica, now Reims.",
   "connectsWith": [
     "113262",
     "113282",
@@ -16,15 +16,24 @@
     "109275",
     "113268"
   ],
-  "reprPoint": [
-    4.0320509,
-    49.2561547
-  ],
   "names": [
     "Durocortorum",
     "Reims"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0320509,
+          49.2561547
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

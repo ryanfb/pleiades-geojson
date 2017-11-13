@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Contestania",
   "id": "265877",
-  "description": "An ancient place, cited: BAtlas 27 D3 Contestania",
   "bbox": [
     -0.515639,
     38.988847,
     -0.515639,
     38.988847
   ],
-  "reprPoint": [
-    -0.515639,
-    38.988847
-  ],
+  "description": "An ancient place, cited: BAtlas 27 D3 Contestania",
   "names": [
     "Contestania",
     "Contestani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.515639,
+          38.988847
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              -2.0,
-              39.0
-            ],
-            [
-              -1.0,
-              39.0
-            ],
-            [
               -1.0,
               38.0
+            ],
+            [
+              -1.0,
+              39.0
+            ],
+            [
+              -2.0,
+              39.0
             ],
             [
               -2.0,

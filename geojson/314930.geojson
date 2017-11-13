@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chulcul? (river)",
   "id": "314930",
-  "description": "An ancient place, cited: BAtlas 32 C2 Chulcul? fl.",
   "bbox": [
     8.5,
     37.0,
     9.0,
     37.5
   ],
-  "reprPoint": [
-    8.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 32 C2 Chulcul? fl.",
   "names": [
     "Chulcul"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              8.5,
-              37.5
-            ],
-            [
-              9.0,
-              37.5
-            ],
-            [
               9.0,
               37.0
+            ],
+            [
+              9.0,
+              37.5
+            ],
+            [
+              8.5,
+              37.5
             ],
             [
               8.5,

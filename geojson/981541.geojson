@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Pannonia Superior",
   "id": "981541",
-  "description": "An ancient place, cited: BAtlas 100 J2 Pannonia Superior",
   "bbox": [
     16.867891,
     48.113346,
     16.867891,
     48.113346
   ],
-  "reprPoint": [
-    16.867891,
-    48.113346
-  ],
+  "description": "An ancient place, cited: BAtlas 100 J2 Pannonia Superior",
   "names": [
     "Pannonia Superior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.867891,
+          48.113346
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              10.0,
-              50.0
-            ],
-            [
-              15.0,
-              50.0
-            ],
-            [
               15.0,
               45.0
+            ],
+            [
+              15.0,
+              50.0
+            ],
+            [
+              10.0,
+              50.0
             ],
             [
               10.0,

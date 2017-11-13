@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mamison Pass",
   "id": "864483",
-  "description": "A high mountain pass in the central Greater Caucasus mountains.",
   "bbox": [
     43.793056,
     42.706111,
     43.793056,
     42.706111
   ],
-  "reprPoint": [
-    43.793056,
-    42.706111
-  ],
+  "description": "A high mountain pass in the central Greater Caucasus mountains.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.793056,
+          42.706111
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

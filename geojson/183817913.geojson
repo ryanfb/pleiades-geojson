@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iron mine near Djebel Taya",
   "id": "183817913",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     7.119469,
     36.521745,
     7.119469,
     36.521745
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "305072"
   ],
-  "reprPoint": [
-    7.119469,
-    36.521745
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119469,
+          36.521745
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

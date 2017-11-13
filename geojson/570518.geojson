@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Oinoa",
   "id": "570518",
-  "description": "An ancient place, cited: BAtlas 58 D2 Oinoa",
   "bbox": [
     22.5,
     37.5,
     23.0,
     38.0
   ],
-  "reprPoint": [
-    22.75,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 D2 Oinoa",
   "names": [
     "Oinoa",
     "Oine"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               37.5
             ],
             [
-              22.5,
-              38.0
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
               23.0,
               37.5
+            ],
+            [
+              23.0,
+              38.0
+            ],
+            [
+              22.5,
+              38.0
             ],
             [
               22.5,

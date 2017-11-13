@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Monument at Ain bou Merzoug",
   "id": "183817896",
-  "description": "Unlabeled feature captured from the Barrington Atlas",
   "bbox": [
     6.641021,
     36.15588,
     6.641021,
     36.15588
   ],
+  "description": "Unlabeled feature captured from the Barrington Atlas",
   "connectsWith": [
     "183817907"
   ],
-  "reprPoint": [
-    6.641021,
-    36.15588
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.641021,
+          36.15588
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

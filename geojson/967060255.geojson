@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 24A (Green Field)",
   "id": "967060255",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.07059,
     55.018815,
     -2.07059,
     55.018815
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.07059,
-    55.018815
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.07059,
+          55.018815
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

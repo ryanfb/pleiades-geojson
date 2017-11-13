@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lepontii",
   "id": "383692",
-  "description": "An ancient place, cited: BAtlas 39 C1 Lepontii",
   "bbox": [
     8.0,
     46.0,
     8.5,
     46.5
   ],
-  "reprPoint": [
-    8.25,
-    46.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 C1 Lepontii",
   "names": [
     "Lepontii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          46.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              8.0,
-              46.5
-            ],
-            [
-              8.5,
-              46.5
-            ],
-            [
               8.5,
               46.0
+            ],
+            [
+              8.5,
+              46.5
+            ],
+            [
+              8.0,
+              46.5
             ],
             [
               8.0,

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Issicus Sinus",
   "id": "658489",
-  "description": "Issicus Sinus (the Gulf of İskenderun) is a gulf of the Levantine Sea.",
   "bbox": [
     35.83,
     36.579722,
     35.83,
     36.579722
   ],
+  "description": "Issicus Sinus (the Gulf of İskenderun) is a gulf of the Levantine Sea.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    35.83,
-    36.579722
   ],
   "names": [
     "Issicus Sinus",
@@ -22,6 +18,19 @@
     "Mariandikos Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.83,
+          36.579722
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

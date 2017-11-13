@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "903742",
-  "description": "An ancient place, cited: BAtlas 92 C3 no. 6 (Pol-i Khosro, near Shaymara)",
   "bbox": [
     47.0,
     33.0,
     48.0,
     34.0
   ],
-  "reprPoint": [
-    47.5,
-    33.5
-  ],
+  "description": "An ancient place, cited: BAtlas 92 C3 no. 6 (Pol-i Khosro, near Shaymara)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          33.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               33.0
             ],
             [
-              47.0,
-              34.0
-            ],
-            [
-              48.0,
-              34.0
-            ],
-            [
               48.0,
               33.0
+            ],
+            [
+              48.0,
+              34.0
+            ],
+            [
+              47.0,
+              34.0
             ],
             [
               47.0,

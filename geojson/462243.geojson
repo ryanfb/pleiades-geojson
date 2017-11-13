@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Hiera/Maritima Ins.",
   "id": "462243",
-  "description": "The second largest of the Aegadian Islands.",
   "bbox": [
     12.0737934,
     37.9678556,
     12.0737934,
     37.9678556
   ],
+  "description": "The second largest of the Aegadian Islands.",
   "connectsWith": [
     "462075"
-  ],
-  "reprPoint": [
-    12.0737934,
-    37.9678556
   ],
   "names": [
     "Hiera",
     "Maritima"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0737934,
+          37.9678556
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               37.5
             ],
             [
-              12.0,
-              38.0
-            ],
-            [
-              12.5,
-              38.0
-            ],
-            [
               12.5,
               37.5
+            ],
+            [
+              12.5,
+              38.0
+            ],
+            [
+              12.0,
+              38.0
             ],
             [
               12.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Amades",
   "id": "550429",
-  "description": "An ancient place, cited: BAtlas 56 C4 Amades",
   "bbox": [
     26.038491,
     38.57414,
     26.038491,
     38.57414
   ],
+  "description": "An ancient place, cited: BAtlas 56 C4 Amades",
   "connectsWith": [
     "550497"
   ],
-  "reprPoint": [
-    26.038491,
-    38.57414
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.038491,
+          38.57414
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

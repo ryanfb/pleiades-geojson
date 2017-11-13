@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Camactulici?",
   "id": "157831",
-  "description": "An ancient place, cited: BAtlas 16 A3 Camactulici?",
   "bbox": [
     5.5,
     43.0,
     6.0,
     43.5
   ],
-  "reprPoint": [
-    5.75,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 A3 Camactulici?",
   "names": [
     "Camactulici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.75,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              5.5,
-              43.5
-            ],
-            [
-              6.0,
-              43.5
-            ],
-            [
               6.0,
               43.0
+            ],
+            [
+              6.0,
+              43.5
+            ],
+            [
+              5.5,
+              43.5
             ],
             [
               5.5,

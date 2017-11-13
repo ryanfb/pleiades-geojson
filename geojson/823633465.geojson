@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Torre de San Josep",
   "id": "823633465",
-  "description": "A Roman tower tomb located northeast of Villajoyosa, Spain. It is also known as the Torre de Hércules.",
   "bbox": [
     -0.1970617,
     38.5163318,
     -0.1970617,
     38.5163318
   ],
-  "reprPoint": [
-    -0.1970617,
-    38.5163318
-  ],
+  "description": "A Roman tower tomb located northeast of Villajoyosa, Spain. It is also known as the Torre de Hércules.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1970617,
+          38.5163318
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

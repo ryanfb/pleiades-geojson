@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Meduacus Maior (river)",
   "id": "393450",
-  "description": "The Brenta river flows from near Trentino to the Adriatic Sea.",
   "bbox": [
     12.2739032,
     45.1811762,
     12.2739032,
     45.1811762
   ],
+  "description": "The Brenta river flows from near Trentino to the Adriatic Sea.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    12.2739032,
-    45.1811762
   ],
   "names": [
     "Meduacus Maior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2739032,
+          45.1811762
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               45.0
             ],
             [
-              12.0,
-              45.5
-            ],
-            [
-              12.5,
-              45.5
-            ],
-            [
               12.5,
               45.0
+            ],
+            [
+              12.5,
+              45.5
+            ],
+            [
+              12.0,
+              45.5
             ],
             [
               12.0,

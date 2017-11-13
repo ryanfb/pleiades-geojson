@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Walton Castle",
   "id": "79744",
-  "description": "An ancient place, cited: BAtlas 8 I3 Walton Castle",
   "bbox": [
     1.349271,
     51.961201,
     1.349271,
     51.961201
   ],
-  "reprPoint": [
-    1.349271,
-    51.961201
-  ],
+  "description": "An ancient place, cited: BAtlas 8 I3 Walton Castle",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.349271,
+          51.961201
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

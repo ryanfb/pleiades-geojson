@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Pyretos (river)",
   "id": "216947",
-  "description": "The Prut river flows from the Carpathian Mountains to the Danube.",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.095556
   ],
+  "description": "The Prut river flows from the Carpathian Mountains to the Danube.",
   "connectsWith": [
     "226577"
-  ],
-  "reprPoint": [
-    15.0772312333,
-    47.1149830333
   ],
   "names": [
     "Pyretos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0772312333,
+          47.1149830333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               46.0
             ],
             [
-              28.0,
-              47.0
-            ],
-            [
-              29.0,
-              47.0
-            ],
-            [
               29.0,
               46.0
+            ],
+            [
+              29.0,
+              47.0
+            ],
+            [
+              28.0,
+              47.0
             ],
             [
               28.0,

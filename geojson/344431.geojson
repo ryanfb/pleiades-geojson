@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mansoura",
   "id": "344431",
-  "description": "An ancient place, cited: BAtlas 35 A1 Mansoura",
   "bbox": [
     8.938616,
     33.725705,
     8.938616,
     33.725705
   ],
-  "reprPoint": [
-    8.938616,
-    33.725705
-  ],
+  "description": "An ancient place, cited: BAtlas 35 A1 Mansoura",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.938616,
+          33.725705
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

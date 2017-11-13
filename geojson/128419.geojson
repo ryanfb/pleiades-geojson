@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Jakuszowice",
   "id": "128419",
-  "description": "An ancient place, cited: BAtlas 13 F2 Jakuszowice",
   "bbox": [
     20.5184,
     50.272575,
     20.5184,
     50.272575
   ],
-  "reprPoint": [
-    20.5184,
-    50.272575
-  ],
+  "description": "An ancient place, cited: BAtlas 13 F2 Jakuszowice",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5184,
+          50.272575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

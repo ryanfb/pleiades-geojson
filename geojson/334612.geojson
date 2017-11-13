@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Regius L.",
   "id": "334612",
-  "description": "An ancient place, cited: BAtlas 34 E2 Regius L.",
   "bbox": [
     6.0,
     35.0,
     7.0,
     36.0
   ],
-  "reprPoint": [
-    6.5,
-    35.5
-  ],
+  "description": "An ancient place, cited: BAtlas 34 E2 Regius L.",
   "names": [
     "Regius L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               35.0
             ],
             [
-              6.0,
-              36.0
-            ],
-            [
-              7.0,
-              36.0
-            ],
-            [
               7.0,
               35.0
+            ],
+            [
+              7.0,
+              36.0
+            ],
+            [
+              6.0,
+              36.0
             ],
             [
               6.0,

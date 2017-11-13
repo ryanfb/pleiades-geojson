@@ -2,15 +2,26 @@
   "type": "FeatureCollection",
   "title": "Watling Street",
   "id": "491855883",
-  "description": "A Roman road in Britain.",
   "bbox": [
     -2.96024,
     51.123013,
     1.3337971,
     53.259423
   ],
-  "reprPoint": [
-    -0.968105537627,
-    52.0879911458
+  "description": "A Roman road in Britain.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.968105537627,
+          52.0879911458
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

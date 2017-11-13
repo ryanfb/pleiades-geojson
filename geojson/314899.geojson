@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bagrada (river)",
   "id": "314899",
-  "description": "The Medjerda River.",
   "bbox": [
     8.8460158,
     36.534713,
     10.216667,
     37.116667
   ],
-  "reprPoint": [
-    9.5313414,
-    36.82569
-  ],
+  "description": "The Medjerda River.",
   "names": [
     "Bagrada"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5313414,
+          36.82569
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              9.5,
-              37.0
-            ],
-            [
-              10.0,
-              37.0
-            ],
-            [
               10.0,
               36.5
+            ],
+            [
+              10.0,
+              37.0
+            ],
+            [
+              9.5,
+              37.0
             ],
             [
               9.5,

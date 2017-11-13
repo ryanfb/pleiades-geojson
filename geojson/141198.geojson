@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "141198",
-  "description": "Augustoritum → ‘Pretorio’",
   "bbox": [
     -5.0,
     44.0,
     4.0,
     48.0
   ],
-  "reprPoint": [
-    -0.5,
-    46.0
-  ],
+  "description": "Augustoritum → ‘Pretorio’",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          46.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              -5.0,
-              48.0
-            ],
-            [
-              4.0,
-              48.0
-            ],
-            [
               4.0,
               44.0
+            ],
+            [
+              4.0,
+              48.0
+            ],
+            [
+              -5.0,
+              48.0
             ],
             [
               -5.0,

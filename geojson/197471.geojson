@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Rhizon/Risinium",
   "id": "197471",
-  "description": "A city on the Adriatic coast of Dalmatia with a protected harbor.",
   "bbox": [
     18.694988,
     42.514718,
     18.694988,
     42.514718
   ],
+  "description": "A city on the Adriatic coast of Dalmatia with a protected harbor.",
   "connectsWith": [
     "197472"
-  ],
-  "reprPoint": [
-    18.694988,
-    42.514718
   ],
   "names": [
     "Rhizon",
     "Risinium"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.694988,
+          42.514718
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

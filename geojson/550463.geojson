@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Assos/Apollonia",
   "id": "550463",
-  "description": "A city of Mysia located on the gulf of Adramyttium.",
   "bbox": [
     26.337061,
     39.490601,
     26.339656,
     39.491621
   ],
-  "reprPoint": [
-    26.3383585,
-    39.491111
-  ],
+  "description": "A city of Mysia located on the gulf of Adramyttium.",
   "names": [
     "Assos",
     "Apollonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3383585,
+          39.491111
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "585128",
-  "description": "An ancient place, cited: BAtlas 59 B3 unnamed wall (Makra Teiche, Athens-Peiraieus railway)",
   "bbox": [
     23.5,
     37.75,
     23.75,
     38.0
   ],
+  "description": "An ancient place, cited: BAtlas 59 B3 unnamed wall (Makra Teiche, Athens-Peiraieus railway)",
   "connectsWith": [
     "927604602"
   ],
-  "reprPoint": [
-    23.625,
-    37.875
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.625,
+          37.875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.75
             ],
             [
-              23.5,
-              38.0
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
               23.75,
               37.75
+            ],
+            [
+              23.75,
+              38.0
+            ],
+            [
+              23.5,
+              38.0
             ],
             [
               23.5,

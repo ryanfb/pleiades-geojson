@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Herone Ins.",
   "id": "49997",
-  "description": "An ancient place, cited: BAtlas 5 C2 Herone Ins.",
   "bbox": [
     70.0,
     20.0,
     75.0,
     25.0
   ],
-  "reprPoint": [
-    72.5,
-    22.5
-  ],
+  "description": "An ancient place, cited: BAtlas 5 C2 Herone Ins.",
   "names": [
     "Herone"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               20.0
             ],
             [
-              70.0,
-              25.0
-            ],
-            [
-              75.0,
-              25.0
-            ],
-            [
               75.0,
               20.0
+            ],
+            [
+              75.0,
+              25.0
+            ],
+            [
+              70.0,
+              25.0
             ],
             [
               70.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ad Columnam",
   "id": "452250",
-  "description": "A Roman coastal station.",
   "bbox": [
     15.651754,
     38.191434,
     15.651754,
     38.191434
   ],
-  "reprPoint": [
-    15.651754,
-    38.191434
-  ],
+  "description": "A Roman coastal station.",
   "names": [
     "Ad Columnam"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.651754,
+          38.191434
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

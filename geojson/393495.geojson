@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Silarus (river)",
   "id": "393495",
-  "description": "The Sillaro river.",
   "bbox": [
     11.5880783,
     44.3799679,
     11.5880783,
     44.3799679
   ],
+  "description": "The Sillaro river.",
   "connectsWith": [
     "393483"
-  ],
-  "reprPoint": [
-    11.5880783,
-    44.3799679
   ],
   "names": [
     "Silarus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5880783,
+          44.3799679
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               44.0
             ],
             [
-              11.0,
-              44.5
-            ],
-            [
-              11.5,
-              44.5
-            ],
-            [
               11.5,
               44.0
+            ],
+            [
+              11.5,
+              44.5
+            ],
+            [
+              11.0,
+              44.5
             ],
             [
               11.0,

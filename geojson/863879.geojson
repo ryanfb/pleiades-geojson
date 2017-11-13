@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Sakasene",
   "id": "863879",
-  "description": "An ancient place, cited: BAtlas 88 E4 Sakasene",
   "bbox": [
     46.0,
     40.0,
     47.0,
     41.0
   ],
-  "reprPoint": [
-    46.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 E4 Sakasene",
   "names": [
     "Sakasene",
     "Sacasani",
     "Sakapene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               40.0
             ],
             [
-              46.0,
-              41.0
-            ],
-            [
-              47.0,
-              41.0
-            ],
-            [
               47.0,
               40.0
+            ],
+            [
+              47.0,
+              41.0
+            ],
+            [
+              46.0,
+              41.0
             ],
             [
               46.0,

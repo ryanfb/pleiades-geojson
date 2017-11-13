@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Chelonatas Sinus",
   "id": "570175",
-  "description": "An ancient place, cited: BAtlas 58 A2 Chelonatas Sinus",
   "bbox": [
     21.0,
     37.5,
     21.5,
     38.0
   ],
-  "reprPoint": [
-    21.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 58 A2 Chelonatas Sinus",
   "names": [
     "Chelonatas Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              21.0,
-              38.0
-            ],
-            [
-              21.5,
-              38.0
-            ],
-            [
               21.5,
               37.5
+            ],
+            [
+              21.5,
+              38.0
+            ],
+            [
+              21.0,
+              38.0
             ],
             [
               21.0,

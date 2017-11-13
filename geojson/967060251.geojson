@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 22A (Portgate)",
   "id": "967060251",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.025232,
     55.013172,
     -2.025232,
     55.013172
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.025232,
-    55.013172
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.025232,
+          55.013172
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

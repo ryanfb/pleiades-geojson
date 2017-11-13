@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cantiaci",
   "id": "79374",
-  "description": "An ancient place, cited: BAtlas 8 H3 Cantiaci",
   "bbox": [
     1.08386,
     51.279876,
     1.08386,
     51.279876
   ],
-  "reprPoint": [
-    1.08386,
-    51.279876
-  ],
+  "description": "An ancient place, cited: BAtlas 8 H3 Cantiaci",
   "names": [
     "Cantiaci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.08386,
+          51.279876
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               51.0
             ],
             [
-              0.0,
-              52.0
-            ],
-            [
-              1.0,
-              52.0
-            ],
-            [
               1.0,
               51.0
+            ],
+            [
+              1.0,
+              52.0
+            ],
+            [
+              0.0,
+              52.0
             ],
             [
               0.0,

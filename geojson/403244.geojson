@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Monte Serra",
   "id": "403244",
-  "description": "An ancient place, cited: BAtlas 41 C4 Monte Serra",
   "bbox": [
     10.404491,
     42.829372,
     10.404491,
     42.829372
   ],
+  "description": "An ancient place, cited: BAtlas 41 C4 Monte Serra",
   "connectsWith": [
     "403222"
   ],
-  "reprPoint": [
-    10.404491,
-    42.829372
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.404491,
+          42.829372
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

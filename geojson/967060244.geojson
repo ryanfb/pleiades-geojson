@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 56 (Walton)",
   "id": "967060244",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -2.747453,
     54.971472,
     -2.747453,
     54.971472
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.747453,
-    54.971472
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.747453,
+          54.971472
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

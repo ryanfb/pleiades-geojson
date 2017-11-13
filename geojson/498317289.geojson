@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Chûn Castle",
   "id": "498317289",
-  "description": "Chûn Castle is an Iron Age hill fort near Penzance in Cornwall, United Kingdom.",
   "bbox": [
     -5.6337358,
     50.1486811,
     -5.6337358,
     50.1486811
   ],
-  "reprPoint": [
-    -5.6337358,
-    50.1486811
-  ],
+  "description": "Chûn Castle is an Iron Age hill fort near Penzance in Cornwall, United Kingdom.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6337358,
+          50.1486811
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

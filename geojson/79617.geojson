@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Norfolk Street",
   "id": "79617",
-  "description": "An ancient place, cited: BAtlas 8 F2 Norfolk Street",
   "bbox": [
     -1.15091,
     52.632569,
     -1.15091,
     52.632569
   ],
-  "reprPoint": [
-    -1.15091,
-    52.632569
-  ],
+  "description": "An ancient place, cited: BAtlas 8 F2 Norfolk Street",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15091,
+          52.632569
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

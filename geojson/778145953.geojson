@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "So-called Temple of Cybele",
   "id": "778145953",
-  "description": "Recently discovered temple in the acropolis of Cyrene",
   "bbox": [
     21.8576983,
     32.8175188,
     21.8576983,
     32.8175188
   ],
+  "description": "Recently discovered temple in the acropolis of Cyrene",
   "connectsWith": [
     "373778"
-  ],
-  "reprPoint": [
-    21.8576983,
-    32.8175188
   ],
   "names": [
     "Temple of Cybele",
     "Tempio di Cibele"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8576983,
+          32.8175188
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

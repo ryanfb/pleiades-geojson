@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "436413",
-  "description": "An ancient place, cited: BAtlas 44 F4 unnamed centuriation (Pompeii)",
   "bbox": [
     14.484536,
     40.7485758,
     14.4946843,
     40.7517011
   ],
+  "description": "An ancient place, cited: BAtlas 44 F4 unnamed centuriation (Pompeii)",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4889023232,
-    40.7497381275
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4889023232,
+          40.7497381275
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              14.0,
-              41.0
-            ],
-            [
-              14.5,
-              41.0
-            ],
-            [
               14.5,
               40.5
+            ],
+            [
+              14.5,
+              41.0
+            ],
+            [
+              14.0,
+              41.0
             ],
             [
               14.0,

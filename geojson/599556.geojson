@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Belevi",
   "id": "599556",
-  "description": "An ancient place, cited: BAtlas 61 E1 Belevi (1)",
   "bbox": [
     27.454423,
     38.005618,
     27.454423,
     38.005618
   ],
-  "reprPoint": [
-    27.454423,
-    38.005618
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E1 Belevi (1)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.454423,
+          38.005618
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

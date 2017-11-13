@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Bou Hellou",
   "id": "275606",
-  "description": "An ancient place, cited: BAtlas 28 E5 Bou Hellou",
   "bbox": [
     -5.0,
     34.0,
     -4.5,
     34.5
   ],
-  "reprPoint": [
-    -4.75,
-    34.25
-  ],
+  "description": "An ancient place, cited: BAtlas 28 E5 Bou Hellou",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.75,
+          34.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.0
             ],
             [
-              -5.0,
-              34.5
-            ],
-            [
-              -4.5,
-              34.5
-            ],
-            [
               -4.5,
               34.0
+            ],
+            [
+              -4.5,
+              34.5
+            ],
+            [
+              -5.0,
+              34.5
             ],
             [
               -5.0,

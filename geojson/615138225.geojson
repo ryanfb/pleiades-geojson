@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Porta Marina ",
   "id": "615138225",
-  "description": "A city gate at the western terminus of the Strada della Marina.",
   "bbox": [
     14.4833964,
     40.7485845,
     14.4833964,
     40.7485845
   ],
+  "description": "A city gate at the western terminus of the Strada della Marina.",
   "connectsWith": [
     "433032"
   ],
-  "reprPoint": [
-    14.4833964,
-    40.7485845
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4833964,
+          40.7485845
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

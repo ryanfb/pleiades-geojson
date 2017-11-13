@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Park Street",
   "id": "79637",
-  "description": "Park Street is the site of a Roman villa excavated in 1943.",
   "bbox": [
     -0.338965,
     51.722207,
     -0.338965,
     51.722207
   ],
-  "reprPoint": [
-    -0.338965,
-    51.722207
-  ],
+  "description": "Park Street is the site of a Roman villa excavated in 1943.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.338965,
+          51.722207
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

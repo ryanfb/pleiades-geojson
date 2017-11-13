@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Patmos",
   "id": "599871",
-  "description": "An ancient place, cited: BAtlas 61 D3 Patmos",
   "bbox": [
     26.5464039,
     37.3091187,
     26.5464039,
     37.3091187
   ],
+  "description": "An ancient place, cited: BAtlas 61 D3 Patmos",
   "connectsWith": [
     "599872"
-  ],
-  "reprPoint": [
-    26.5464039,
-    37.3091187
   ],
   "names": [
     "Patmos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5464039,
+          37.3091187
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

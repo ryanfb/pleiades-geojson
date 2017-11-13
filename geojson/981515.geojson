@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Creta (et Cyrene)",
   "id": "981515",
-  "description": "An ancient place, cited: BAtlas 100 L4 Creta (et Cyrene)",
   "bbox": [
     24.946943,
     35.062107,
     24.9469444444,
     35.0633333333
   ],
-  "reprPoint": [
-    24.9469437222,
-    35.0627201667
-  ],
+  "description": "An ancient place, cited: BAtlas 100 L4 Creta (et Cyrene)",
   "names": [
     "Creta et Cyrene",
     "Creta"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9469437222,
+          35.0627201667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               35.0
             ],
             [
-              20.0,
-              40.0
-            ],
-            [
-              25.0,
-              40.0
-            ],
-            [
               25.0,
               35.0
+            ],
+            [
+              25.0,
+              40.0
+            ],
+            [
+              20.0,
+              40.0
             ],
             [
               20.0,

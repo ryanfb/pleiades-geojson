@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kythnos (island)",
   "id": "570403",
-  "description": "Kythnos is an island in the Aegean Sea and one of the Cyclades.",
   "bbox": [
     24.3890287,
     37.3847165,
     24.3890287,
     37.3847165
   ],
+  "description": "Kythnos is an island in the Aegean Sea and one of the Cyclades.",
   "connectsWith": [
     "560353"
-  ],
-  "reprPoint": [
-    24.3890287,
-    37.3847165
   ],
   "names": [
     "Kythnos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3890287,
+          37.3847165
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

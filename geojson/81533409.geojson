@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "San Pietro a Badia Pozzeveri",
   "id": "81533409",
-  "description": "An abbey with tenth century origins connected to the pilgrimage route known as the Via Francigena.",
   "bbox": [
     10.6559363,
     43.8206237,
     10.6559363,
     43.8206237
   ],
-  "reprPoint": [
-    10.6559363,
-    43.8206237
-  ],
+  "description": "An abbey with tenth century origins connected to the pilgrimage route known as the Via Francigena.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6559363,
+          43.8206237
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

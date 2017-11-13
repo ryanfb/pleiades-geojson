@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 33B (Coesike)",
   "id": "967060270",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.281165,
     55.029127,
     -2.281055,
     55.029186
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.2811081827,
-    55.029156832
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2811081827,
+          55.029156832
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,8 +37,8 @@
               0.0
             ],
             [
-              -2.281165,
-              55.029178,
+              -2.281055,
+              55.029135,
               0.0
             ],
             [
@@ -38,8 +47,8 @@
               0.0
             ],
             [
-              -2.281055,
-              55.029135,
+              -2.281165,
+              55.029178,
               0.0
             ],
             [

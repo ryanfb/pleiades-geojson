@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Oriens",
   "id": "992080",
-  "description": "An ancient place, cited: BAtlas 101 M6 Oriens",
   "bbox": [
     25.0,
     25.0,
     30.0,
     30.0
   ],
-  "reprPoint": [
-    27.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 101 M6 Oriens",
   "names": [
     "Oriens"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              25.0,
-              30.0
-            ],
-            [
-              30.0,
-              30.0
-            ],
-            [
               30.0,
               25.0
+            ],
+            [
+              30.0,
+              30.0
+            ],
+            [
+              25.0,
+              30.0
             ],
             [
               25.0,

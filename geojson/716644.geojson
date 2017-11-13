@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Umm Ubaydah",
   "id": "716644",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.545218,
     29.201286,
     25.545218,
     29.201286
   ],
-  "reprPoint": [
-    25.545218,
-    29.201286
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.545218,
+          29.201286
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

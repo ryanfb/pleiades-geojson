@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Agraei",
   "id": "39276",
-  "description": "An ancient place, cited: BAtlas 4 C3 Agraei",
   "bbox": [
     45.0,
     10.0,
     50.0,
     15.0
   ],
-  "reprPoint": [
-    47.5,
-    12.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 C3 Agraei",
   "names": [
     "Agraei",
     "Harrei"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               10.0
             ],
             [
-              45.0,
-              15.0
-            ],
-            [
-              50.0,
-              15.0
-            ],
-            [
               50.0,
               10.0
+            ],
+            [
+              50.0,
+              15.0
+            ],
+            [
+              45.0,
+              15.0
             ],
             [
               45.0,

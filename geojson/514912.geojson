@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Murus Anastasii/Makron Teichos",
   "id": "514912",
-  "description": "Fortifications east of the Bosphorus",
   "bbox": [
     28.328578,
     41.293572,
     28.379856,
     41.425126
   ],
-  "reprPoint": [
-    28.3586044,
-    41.3553348
-  ],
+  "description": "Fortifications east of the Bosphorus",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3586044,
+          41.3553348
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              28.0,
-              41.5
-            ],
-            [
-              28.5,
-              41.5
-            ],
-            [
               28.5,
               41.0
+            ],
+            [
+              28.5,
+              41.5
+            ],
+            [
+              28.0,
+              41.5
             ],
             [
               28.0,

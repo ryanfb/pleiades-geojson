@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 78 (Kirkland)",
   "id": "967060320",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -3.179287,
     54.94109,
     -3.179287,
     54.94109
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -3.179287,
-    54.94109
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.179287,
+          54.94109
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

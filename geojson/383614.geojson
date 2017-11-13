@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cenomani",
   "id": "383614",
-  "description": "The Cenomani were a Celtic people whose territory centered on the valley of the Maine river; Vindinum or Suindinum was their principal center.",
   "bbox": [
     9.5,
     45.0,
     10.0,
     45.5
   ],
-  "reprPoint": [
-    9.75,
-    45.25
-  ],
+  "description": "The Cenomani were a Celtic people whose territory centered on the valley of the Maine river; Vindinum or Suindinum was their principal center.",
   "names": [
     "Cenomani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              9.5,
-              45.5
-            ],
-            [
-              10.0,
-              45.5
-            ],
-            [
               10.0,
               45.0
+            ],
+            [
+              10.0,
+              45.5
+            ],
+            [
+              9.5,
+              45.5
             ],
             [
               9.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 74A",
   "id": "967060412",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -3.109203,
     54.927146,
     -3.109203,
     54.927146
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -3.109203,
-    54.927146
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.109203,
+          54.927146
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

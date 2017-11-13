@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Forum Romanum",
   "id": "502866838",
-  "description": "The ancient Roman forum.",
   "bbox": [
     12.4840267,
     41.8919597,
     12.4847853,
     41.8929384
   ],
+  "description": "The ancient Roman forum.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.484406,
-    41.89244905
   ],
   "names": [
     "Foro Romano"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.484406,
+          41.89244905
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Portus Pisanus?",
   "id": "403261",
-  "description": "The port city of Roman Pisa.",
   "bbox": [
     10.343319,
     43.679716,
     10.346781,
     43.680035
   ],
+  "description": "The port city of Roman Pisa.",
   "connectsWith": [
     "174900201"
-  ],
-  "reprPoint": [
-    10.34505,
-    43.6798755
   ],
   "names": [
     "Portus Pisanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.34505,
+          43.6798755
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

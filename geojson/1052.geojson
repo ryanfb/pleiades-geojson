@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Italia",
   "id": "1052",
-  "description": "The Italian peninsula extending northward to the Alps as recognized by the Romans.",
   "bbox": [
     10.0,
     40.0,
     15.0,
     45.0
   ],
-  "reprPoint": [
-    12.5,
-    42.5
-  ],
+  "description": "The Italian peninsula extending northward to the Alps as recognized by the Romans.",
   "names": [
     "Italia",
     "Italia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               40.0
             ],
             [
-              10.0,
-              45.0
-            ],
-            [
-              15.0,
-              45.0
-            ],
-            [
               15.0,
               40.0
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              10.0,
+              45.0
             ],
             [
               10.0,

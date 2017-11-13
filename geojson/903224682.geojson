@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Spring at Temple of Apollo",
   "id": "903224682",
-  "description": "Across a small river from the temple",
   "bbox": [
     29.69386,
     38.798623,
     29.69386,
     38.798623
   ],
+  "description": "Across a small river from the temple",
   "connectsWith": [
     "609311"
   ],
-  "reprPoint": [
-    29.69386,
-    38.798623
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.69386,
+          38.798623
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

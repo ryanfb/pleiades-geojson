@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Iadovi",
   "id": "236483",
-  "description": "An ancient place, cited: BAtlas 24 D1 Iadovi",
   "bbox": [
     -8.0,
     43.0,
     -7.0,
     44.0
   ],
-  "reprPoint": [
-    -7.5,
-    43.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D1 Iadovi",
   "names": [
     "Iadovi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              -8.0,
-              44.0
-            ],
-            [
-              -7.0,
-              44.0
-            ],
-            [
               -7.0,
               43.0
+            ],
+            [
+              -7.0,
+              44.0
+            ],
+            [
+              -8.0,
+              44.0
             ],
             [
               -8.0,

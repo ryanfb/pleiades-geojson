@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "‘A(n)dros’ Ins.",
   "id": "79294",
-  "description": "‘A(n)dros’ Ins., referred to as Edrou Heremos by Ptolemy was perhaps originally a coastal island, but is now connected to the mainland by a narrow strip of land, thus forming a peninsula.",
   "bbox": [
     -7.0,
     53.0,
     -6.0,
     54.0
   ],
+  "description": "‘A(n)dros’ Ins., referred to as Edrou Heremos by Ptolemy was perhaps originally a coastal island, but is now connected to the mainland by a narrow strip of land, thus forming a peninsula.",
   "connectsWith": [
     "20487"
-  ],
-  "reprPoint": [
-    -6.5,
-    53.5
   ],
   "names": [
     "Andros",
     "Adros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          53.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               53.0
             ],
             [
-              -7.0,
-              54.0
-            ],
-            [
-              -6.0,
-              54.0
-            ],
-            [
               -6.0,
               53.0
+            ],
+            [
+              -6.0,
+              54.0
+            ],
+            [
+              -7.0,
+              54.0
             ],
             [
               -7.0,

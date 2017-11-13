@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hellespontus",
   "id": "981526",
-  "description": "An ancient place, cited: BAtlas 100 M3 Hellespontus",
   "bbox": [
     26.699162,
     40.346685,
     26.699162,
     40.346685
   ],
-  "reprPoint": [
-    26.699162,
-    40.346685
-  ],
+  "description": "An ancient place, cited: BAtlas 100 M3 Hellespontus",
   "names": [
     "Hellespontus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.699162,
+          40.346685
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              25.0,
-              45.0
-            ],
-            [
-              30.0,
-              45.0
-            ],
-            [
               30.0,
               40.0
+            ],
+            [
+              30.0,
+              45.0
+            ],
+            [
+              25.0,
+              45.0
             ],
             [
               25.0,

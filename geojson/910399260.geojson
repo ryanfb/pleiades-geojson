@@ -2,23 +2,34 @@
   "type": "FeatureCollection",
   "title": "Via Popilia (in Aemilia)",
   "id": "910399260",
-  "description": "A road from Ariminum up the Adriatic Coast toward what is now Venice.",
   "bbox": [
     12.056195,
     44.056947,
     12.5751485,
     45.0577
   ],
+  "description": "A road from Ariminum up the Adriatic Coast toward what is now Venice.",
   "connectsWith": [
     "393470",
     "393494",
     "393372"
   ],
-  "reprPoint": [
-    12.2504228959,
-    44.5305730626
-  ],
   "names": [
     "Via Popilia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2504228959,
+          44.5305730626
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

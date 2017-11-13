@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Halicarnassus/Halikarnassos",
   "id": "599636",
-  "description": "An ancient city in Caria, now known as Bodrum in Turkey.",
   "bbox": [
     27.420201,
     37.032062,
     27.429126,
     37.042901
   ],
+  "description": "An ancient city in Caria, now known as Bodrum in Turkey.",
   "connectsWith": [
     "599564",
     "991381"
-  ],
-  "reprPoint": [
-    27.423765,
-    37.0382205
   ],
   "names": [
     "Halicarnassus",
@@ -23,6 +19,19 @@
     "Halikarnassos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.423765,
+          37.0382205
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

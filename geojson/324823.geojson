@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Taricheiai Nesoi",
   "id": "324823",
-  "description": "An ancient place, cited: BAtlas 33 H1 Taricheiai Nesoi",
   "bbox": [
     11.0,
     35.5,
     11.5,
     36.0
   ],
-  "reprPoint": [
-    11.25,
-    35.75
-  ],
+  "description": "An ancient place, cited: BAtlas 33 H1 Taricheiai Nesoi",
   "names": [
     "Taricheiai Nesoi",
     "Laron Nesia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.25,
+          35.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               35.5
             ],
             [
-              11.0,
-              36.0
-            ],
-            [
-              11.5,
-              36.0
-            ],
-            [
               11.5,
               35.5
+            ],
+            [
+              11.5,
+              36.0
+            ],
+            [
+              11.0,
+              36.0
             ],
             [
               11.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Aethiopia",
   "id": "39274",
-  "description": "An ancient place, cited: BAtlas 4 A3 Aethiopia",
   "bbox": [
     38.721522,
     14.125005,
     38.721522,
     14.125005
   ],
-  "reprPoint": [
-    38.721522,
-    14.125005
-  ],
+  "description": "An ancient place, cited: BAtlas 4 A3 Aethiopia",
   "names": [
     "Aethiopia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.721522,
+          14.125005
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               10.0
             ],
             [
-              35.0,
-              15.0
-            ],
-            [
-              40.0,
-              15.0
-            ],
-            [
               40.0,
               10.0
+            ],
+            [
+              40.0,
+              15.0
+            ],
+            [
+              35.0,
+              15.0
             ],
             [
               35.0,

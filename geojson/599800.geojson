@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Minoa",
   "id": "599800",
-  "description": "An ancient place, cited: BAtlas 61 B4 Minoa",
   "bbox": [
     25.861108,
     36.821263,
     25.867017,
     36.827112
   ],
-  "reprPoint": [
-    25.8640625,
-    36.8241875
-  ],
+  "description": "An ancient place, cited: BAtlas 61 B4 Minoa",
   "names": [
     "Minoa"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8640625,
+          36.8241875
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Hirmas/Mygdon(ios) (river)",
   "id": "874509",
-  "description": "An ancient place, cited: BAtlas 89 D4 Hirmas/Mygdon(ios) fl.",
   "bbox": [
     41.0,
     36.0,
     42.0,
     37.0
   ],
-  "reprPoint": [
-    41.5,
-    36.5
-  ],
+  "description": "An ancient place, cited: BAtlas 89 D4 Hirmas/Mygdon(ios) fl.",
   "names": [
     "Hirmas",
     "Mygdonios",
     "Mygdon"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               36.0
             ],
             [
-              41.0,
-              37.0
-            ],
-            [
-              42.0,
-              37.0
-            ],
-            [
               42.0,
               36.0
+            ],
+            [
+              42.0,
+              37.0
+            ],
+            [
+              41.0,
+              37.0
             ],
             [
               41.0,

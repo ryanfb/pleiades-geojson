@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "269538",
-  "description": "Carthago Nova → Acci → Vergilia → Castulo",
   "bbox": [
     -3.624424,
     37.300309,
     -0.980161,
     38.037913
   ],
-  "reprPoint": [
-    -2.82063606076,
-    37.6415401533
-  ],
+  "description": "Carthago Nova → Acci → Vergilia → Castulo",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.82063606076,
+          37.6415401533
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.0
             ],
             [
-              -5.0,
-              41.0
-            ],
-            [
-              3.0,
-              41.0
-            ],
-            [
               3.0,
               36.0
+            ],
+            [
+              3.0,
+              41.0
+            ],
+            [
+              -5.0,
+              41.0
             ],
             [
               -5.0,

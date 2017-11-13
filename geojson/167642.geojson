@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ambarri",
   "id": "167642",
-  "description": "An ancient place, cited: BAtlas 17 D2 Ambarri",
   "bbox": [
     4.5,
     45.5,
     5.0,
     46.0
   ],
-  "reprPoint": [
-    4.75,
-    45.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 D2 Ambarri",
   "names": [
     "Ambarri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75,
+          45.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.5
             ],
             [
-              4.5,
-              46.0
-            ],
-            [
-              5.0,
-              46.0
-            ],
-            [
               5.0,
               45.5
+            ],
+            [
+              5.0,
+              46.0
+            ],
+            [
+              4.5,
+              46.0
             ],
             [
               4.5,

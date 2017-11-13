@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "444713",
-  "description": "An ancient place, cited: BAtlas 45 E4 unnamed centuriation (near Heraclea)",
   "bbox": [
     16.5,
     40.0,
     17.0,
     40.5
   ],
-  "reprPoint": [
-    16.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 45 E4 unnamed centuriation (near Heraclea)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               40.0
             ],
             [
-              16.5,
-              40.5
-            ],
-            [
-              17.0,
-              40.5
-            ],
-            [
               17.0,
               40.0
+            ],
+            [
+              17.0,
+              40.5
+            ],
+            [
+              16.5,
+              40.5
             ],
             [
               16.5,

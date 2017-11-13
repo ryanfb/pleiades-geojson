@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Surpicanum",
   "id": "416863",
-  "description": "An ancient settlement along the Via Salaria, the exact position of which remains unknown.",
   "bbox": [
     13.2965826,
     42.7723609,
     13.2965826,
     42.7723609
   ],
+  "description": "An ancient settlement along the Via Salaria, the exact position of which remains unknown.",
   "connectsWith": [
     "18271457"
-  ],
-  "reprPoint": [
-    13.2965826,
-    42.7723609
   ],
   "names": [
     "Surpicanum"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2965826,
+          42.7723609
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

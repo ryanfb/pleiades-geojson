@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milyadeis",
   "id": "638995",
-  "description": "An ancient place, cited: BAtlas 65 D3 Milyadeis",
   "bbox": [
     30.0,
     37.0,
     30.5,
     37.5
   ],
-  "reprPoint": [
-    30.25,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 65 D3 Milyadeis",
   "names": [
     "Milyadeis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              30.0,
-              37.5
-            ],
-            [
-              30.5,
-              37.5
-            ],
-            [
               30.5,
               37.0
+            ],
+            [
+              30.5,
+              37.5
+            ],
+            [
+              30.0,
+              37.5
             ],
             [
               30.0,

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Casani/Gasani/Kassanitai",
   "id": "39326",
-  "description": "An ancient people of the southwest coast of Arabia, probably localized in the area immediately south of modern Jazan, Saudi Arabia.",
   "bbox": [
     40.0,
     15.0,
     45.0,
     20.0
   ],
-  "reprPoint": [
-    42.5,
-    17.5
-  ],
+  "description": "An ancient people of the southwest coast of Arabia, probably localized in the area immediately south of modern Jazan, Saudi Arabia.",
   "names": [
     "Casani",
     "Gasani",
     "Kassanitai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               15.0
             ],
             [
-              40.0,
-              20.0
-            ],
-            [
-              45.0,
-              20.0
-            ],
-            [
               45.0,
               15.0
+            ],
+            [
+              45.0,
+              20.0
+            ],
+            [
+              40.0,
+              20.0
             ],
             [
               40.0,

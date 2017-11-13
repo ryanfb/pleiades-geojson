@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Atintanis",
   "id": "481748",
-  "description": "An ancient place, cited: BAtlas 49 C2 Atintanis",
   "bbox": [
     20.0,
     41.0,
     21.0,
     42.0
   ],
-  "reprPoint": [
-    20.5,
-    41.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 C2 Atintanis",
   "names": [
     "Atintanis",
     "Atintanes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              20.0,
-              42.0
-            ],
-            [
-              21.0,
-              42.0
-            ],
-            [
               21.0,
               41.0
+            ],
+            [
+              21.0,
+              42.0
+            ],
+            [
+              20.0,
+              42.0
             ],
             [
               20.0,

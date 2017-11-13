@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sukko",
   "id": "825394",
-  "description": "An ancient place, cited: BAtlas 84 C4 Sukko",
   "bbox": [
     37.423469,
     44.800493,
     37.423469,
     44.800493
   ],
-  "reprPoint": [
-    37.423469,
-    44.800493
-  ],
+  "description": "An ancient place, cited: BAtlas 84 C4 Sukko",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.423469,
+          44.800493
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Skymnia",
   "id": "857327",
-  "description": "An ancient place, cited: BAtlas 87 H2 Skymnia",
   "bbox": [
     42.0,
     42.0,
     43.0,
     43.0
   ],
-  "reprPoint": [
-    42.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 87 H2 Skymnia",
   "names": [
     "Skymnia",
     "Skymnoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               42.0
             ],
             [
-              42.0,
-              43.0
-            ],
-            [
-              43.0,
-              43.0
-            ],
-            [
               43.0,
               42.0
+            ],
+            [
+              43.0,
+              43.0
+            ],
+            [
+              42.0,
+              43.0
             ],
             [
               42.0,

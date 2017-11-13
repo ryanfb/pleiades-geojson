@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Metagonium Pr.",
   "id": "305108",
-  "description": "An ancient place, cited: BAtlas 31 F2 Metagonium Pr.",
   "bbox": [
     6.5,
     37.0,
     7.0,
     37.5
   ],
-  "reprPoint": [
-    6.75,
-    37.25
-  ],
+  "description": "An ancient place, cited: BAtlas 31 F2 Metagonium Pr.",
   "names": [
     "Metagonium Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          37.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.0
             ],
             [
-              6.5,
-              37.5
-            ],
-            [
-              7.0,
-              37.5
-            ],
-            [
               7.0,
               37.0
+            ],
+            [
+              7.0,
+              37.5
+            ],
+            [
+              6.5,
+              37.5
             ],
             [
               6.5,

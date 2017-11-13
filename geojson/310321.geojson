@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "310321",
-  "description": "An ancient place, cited: BAtlas 31 F3 unnamed unlabeled (settlements)",
   "bbox": [
     6.816675,
     36.710567,
     6.816675,
     36.710567
   ],
-  "reprPoint": [
-    6.816675,
-    36.710567
-  ],
+  "description": "An ancient place, cited: BAtlas 31 F3 unnamed unlabeled (settlements)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.816675,
+          36.710567
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              6.5,
-              37.0
-            ],
-            [
-              7.0,
-              37.0
-            ],
-            [
               7.0,
               36.5
+            ],
+            [
+              7.0,
+              37.0
+            ],
+            [
+              6.5,
+              37.0
             ],
             [
               6.5,

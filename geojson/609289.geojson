@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Abrettene",
   "id": "609289",
-  "description": "Abrettene was a region in northern  Mysia.",
   "bbox": [
     28.5,
     39.5,
     29.0,
     40.0
   ],
-  "reprPoint": [
-    28.75,
-    39.75
-  ],
+  "description": "Abrettene was a region in northern  Mysia.",
   "names": [
     "Abrettene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.75,
+          39.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.5
             ],
             [
-              28.5,
-              40.0
-            ],
-            [
-              29.0,
-              40.0
-            ],
-            [
               29.0,
               39.5
+            ],
+            [
+              29.0,
+              40.0
+            ],
+            [
+              28.5,
+              40.0
             ],
             [
               28.5,

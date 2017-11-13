@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Simbruina Stagna",
   "id": "423073",
-  "description": "An ancient place, cited: BAtlas 43 E2 Simbruina Stagna",
   "bbox": [
     13.101729,
     41.922059,
     13.106062,
     41.922622
   ],
-  "reprPoint": [
-    13.1038955,
-    41.9223405
-  ],
+  "description": "An ancient place, cited: BAtlas 43 E2 Simbruina Stagna",
   "names": [
     "Simbruina Stagna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1038955,
+          41.9223405
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.75
             ],
             [
-              13.0,
-              42.0
-            ],
-            [
-              13.25,
-              42.0
-            ],
-            [
               13.25,
               41.75
+            ],
+            [
+              13.25,
+              42.0
+            ],
+            [
+              13.0,
+              42.0
             ],
             [
               13.0,

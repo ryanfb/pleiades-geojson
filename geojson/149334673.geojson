@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Fortunatae Insulae (Canary Islands)",
   "id": "149334673",
-  "description": "The \"Blessed Islands\", equivalent in most ancient literature to the modern Canary Islands (Islas Canarias).",
   "bbox": [
     -16.58,
     27.966667,
     -15.6,
     28.23
   ],
+  "description": "The \"Blessed Islands\", equivalent in most ancient literature to the modern Canary Islands (Islas Canarias).",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -16.09,
-    28.0983335
   ],
   "names": [
     "Fortunatae Insulae",
     "Canariae Insulae"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.09,
+          28.0983335
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

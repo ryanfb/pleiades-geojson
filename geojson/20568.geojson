@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ouenniknioi",
   "id": "20568",
-  "description": "An ancient place, cited: BAtlas 2 B3 Ouenniknioi",
   "bbox": [
     -10.0,
     50.0,
     -5.0,
     55.0
   ],
-  "reprPoint": [
-    -7.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 B3 Ouenniknioi",
   "names": [
     "Ouenniknioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              -10.0,
-              55.0
-            ],
-            [
-              -5.0,
-              55.0
-            ],
-            [
               -5.0,
               50.0
+            ],
+            [
+              -5.0,
+              55.0
+            ],
+            [
+              -10.0,
+              55.0
             ],
             [
               -10.0,

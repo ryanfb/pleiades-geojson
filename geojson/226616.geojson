@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Halmyris Limne",
   "id": "226616",
-  "description": "An ancient place, cited: BAtlas 23 B4 Halmyris Limne",
   "bbox": [
     28.0,
     44.0,
     29.0,
     45.0
   ],
-  "reprPoint": [
-    28.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 23 B4 Halmyris Limne",
   "names": [
     "Halmyris Limne"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              28.0,
-              45.0
-            ],
-            [
-              29.0,
-              45.0
-            ],
-            [
               29.0,
               44.0
+            ],
+            [
+              29.0,
+              45.0
+            ],
+            [
+              28.0,
+              45.0
             ],
             [
               28.0,

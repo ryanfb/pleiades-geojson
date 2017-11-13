@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sarnus? M.",
   "id": "433103",
-  "description": "An ancient place, cited: BAtlas 44 G4 Sarnus? M.",
   "bbox": [
     14.5,
     40.5,
     15.0,
     41.0
   ],
-  "reprPoint": [
-    14.75,
-    40.75
-  ],
+  "description": "An ancient place, cited: BAtlas 44 G4 Sarnus? M.",
   "names": [
     "Sarnus M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.75,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.5
             ],
             [
-              14.5,
-              41.0
-            ],
-            [
-              15.0,
-              41.0
-            ],
-            [
               15.0,
               40.5
+            ],
+            [
+              15.0,
+              41.0
+            ],
+            [
+              14.5,
+              41.0
             ],
             [
               14.5,

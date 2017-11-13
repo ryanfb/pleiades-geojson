@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Convento de San Francisco",
   "id": "256127",
-  "description": "An ancient place, cited: BAtlas 26 D4 Convento de San Francisco",
   "bbox": [
     -6.171317,
     37.520384,
     -6.171317,
     37.520384
   ],
-  "reprPoint": [
-    -6.171317,
-    37.520384
-  ],
+  "description": "An ancient place, cited: BAtlas 26 D4 Convento de San Francisco",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.171317,
+          37.520384
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

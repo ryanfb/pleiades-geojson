@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Danuvius/Istros/Hister (river)",
   "id": "226577",
-  "description": "The Danube river.",
   "bbox": [
     8.155,
     45.2293931,
     28.7366937,
     48.095556
   ],
+  "description": "The Danube river.",
   "connectsWith": [
     "226720"
-  ],
-  "reprPoint": [
-    15.0772312333,
-    47.1149830333
   ],
   "names": [
     "Danuvius",
@@ -23,6 +19,19 @@
     "Danube"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0772312333,
+          47.1149830333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

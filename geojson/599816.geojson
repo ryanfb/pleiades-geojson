@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Narthekis Ins.",
   "id": "599816",
-  "description": "An ancient place, cited: BAtlas 61 E2 Narthekis Ins.",
   "bbox": [
     27.01734,
     37.690862,
     27.01734,
     37.690862
   ],
-  "reprPoint": [
-    27.01734,
-    37.690862
-  ],
+  "description": "An ancient place, cited: BAtlas 61 E2 Narthekis Ins.",
   "names": [
     "Narthekis"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.01734,
+          37.690862
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              27.0,
-              38.0
-            ],
-            [
-              27.5,
-              38.0
-            ],
-            [
               27.5,
               37.5
+            ],
+            [
+              27.5,
+              38.0
+            ],
+            [
+              27.0,
+              38.0
             ],
             [
               27.0,

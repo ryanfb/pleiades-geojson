@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Kyria",
   "id": "501490",
-  "description": "An ancient place, cited: BAtlas 51 C2 Kyria",
   "bbox": [
     24.30012,
     41.105467,
     24.30012,
     41.105467
   ],
-  "reprPoint": [
-    24.30012,
-    41.105467
-  ],
+  "description": "An ancient place, cited: BAtlas 51 C2 Kyria",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.30012,
+          41.105467
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

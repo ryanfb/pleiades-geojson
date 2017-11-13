@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Histria",
   "id": "197304",
-  "description": "Histria (modern Istria) is the name given to a peninsula at the head of the Adriatic Sea between the Gulf of Trieste and the Bay of Kvarner.",
   "bbox": [
     13.0,
     45.0,
     14.0,
     46.0
   ],
-  "reprPoint": [
-    13.5,
-    45.5
-  ],
+  "description": "Histria (modern Istria) is the name given to a peninsula at the head of the Adriatic Sea between the Gulf of Trieste and the Bay of Kvarner.",
   "names": [
     "Histria",
     "Histri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               45.0
             ],
             [
-              13.0,
-              46.0
-            ],
-            [
-              14.0,
-              46.0
-            ],
-            [
               14.0,
               45.0
+            ],
+            [
+              14.0,
+              46.0
+            ],
+            [
+              13.0,
+              46.0
             ],
             [
               13.0,

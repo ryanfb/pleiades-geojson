@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sirachoi",
   "id": "825382",
-  "description": "An ancient place, cited: BAtlas 84 E4 Sirachoi",
   "bbox": [
     39.0,
     44.0,
     40.0,
     45.0
   ],
-  "reprPoint": [
-    39.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 84 E4 Sirachoi",
   "names": [
     "Sirachoi",
     "Sirakoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               44.0
             ],
             [
-              39.0,
-              45.0
-            ],
-            [
-              40.0,
-              45.0
-            ],
-            [
               40.0,
               44.0
+            ],
+            [
+              40.0,
+              45.0
+            ],
+            [
+              39.0,
+              45.0
             ],
             [
               39.0,

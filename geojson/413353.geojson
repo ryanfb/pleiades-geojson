@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Truentus (river)",
   "id": "413353",
-  "description": "An ancient place, cited: BAtlas 42 E3 Truentus fl.",
   "bbox": [
     15.885196,
     42.7752864,
     15.885196,
     42.7752864
   ],
+  "description": "An ancient place, cited: BAtlas 42 E3 Truentus fl.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.885196,
-    42.7752864
   ],
   "names": [
     "Truentus",
     "Fiume Tronto"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.885196,
+          42.7752864
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               42.5
             ],
             [
-              13.0,
-              43.0
-            ],
-            [
-              13.5,
-              43.0
-            ],
-            [
               13.5,
               42.5
+            ],
+            [
+              13.5,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
             ],
             [
               13.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tubantes",
   "id": "99047",
-  "description": "An ancient place, cited: BAtlas 10 C4 Tubantes",
   "bbox": [
     6.0,
     52.0,
     7.0,
     53.0
   ],
-  "reprPoint": [
-    6.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 10 C4 Tubantes",
   "names": [
     "Tubantes"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               52.0
             ],
             [
-              6.0,
-              53.0
-            ],
-            [
-              7.0,
-              53.0
-            ],
-            [
               7.0,
               52.0
+            ],
+            [
+              7.0,
+              53.0
+            ],
+            [
+              6.0,
+              53.0
             ],
             [
               6.0,

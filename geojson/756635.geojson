@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Ptolemais Hermiou/Psoi",
   "id": "756635",
-  "description": "A city founded by Ptolemy I Soter as the capital of Upper Egypt.",
   "bbox": [
     31.802059,
     26.476779,
     31.803539,
     26.47798
   ],
+  "description": "A city founded by Ptolemy I Soter as the capital of Upper Egypt.",
   "connectsWith": [
     "727172"
-  ],
-  "reprPoint": [
-    31.802799,
-    26.4773795
   ],
   "names": [
     "Ptolemais Hermiou",
@@ -22,6 +18,19 @@
     "El-Mansha"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.802799,
+          26.4773795
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Lacedaemon/Laconia",
   "id": "570406",
-  "description": "Lacedaemon/Laconia is a region comprising the south-eastern part of the Peloponnese.",
   "bbox": [
     22.3334931,
     36.953544,
     22.73,
     37.1615197
   ],
-  "reprPoint": [
-    22.4608264518,
-    37.0762404208
-  ],
+  "description": "Lacedaemon/Laconia is a region comprising the south-eastern part of the Peloponnese.",
   "names": [
     "Lacedaemon",
     "Laconia",
     "Lakedaímōn"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4608264518,
+          37.0762404208
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               37.0
             ],
             [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
               22.5,
               37.0
+            ],
+            [
+              22.5,
+              37.5
+            ],
+            [
+              22.0,
+              37.5
             ],
             [
               22.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mauryas",
   "id": "59923",
-  "description": "An ancient place, cited: BAtlas 6 D4 Mauryas",
   "bbox": [
     75.0,
     25.0,
     80.0,
     30.0
   ],
-  "reprPoint": [
-    77.5,
-    27.5
-  ],
+  "description": "An ancient place, cited: BAtlas 6 D4 Mauryas",
   "names": [
     "Mauryas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              75.0,
-              30.0
-            ],
-            [
-              80.0,
-              30.0
-            ],
-            [
               80.0,
               25.0
+            ],
+            [
+              80.0,
+              30.0
+            ],
+            [
+              75.0,
+              30.0
             ],
             [
               75.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tsoko",
   "id": "599992",
-  "description": "An ancient place, cited: BAtlas 61 E2 Tsoko",
   "bbox": [
     27.019501,
     37.731084,
     27.019501,
     37.731084
   ],
+  "description": "An ancient place, cited: BAtlas 61 E2 Tsoko",
   "connectsWith": [
     "599926"
   ],
-  "reprPoint": [
-    27.019501,
-    37.731084
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.019501,
+          37.731084
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

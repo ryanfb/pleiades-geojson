@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Corcyra (island)",
   "id": "530835",
-  "description": "Corcyra Ins. (Kerkyra/Corfu) is an island in the Ionian Sea.",
   "bbox": [
     19.75,
     39.666667,
     19.75,
     39.666667
   ],
+  "description": "Corcyra Ins. (Kerkyra/Corfu) is an island in the Ionian Sea.",
   "connectsWith": [
     "1046"
-  ],
-  "reprPoint": [
-    19.75,
-    39.666667
   ],
   "names": [
     "Corcyra",
@@ -23,6 +19,19 @@
     "Corfu"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.75,
+          39.666667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

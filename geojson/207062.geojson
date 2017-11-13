@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Cusus (river)",
   "id": "207062",
-  "description": "An ancient place, cited: BAtlas 21 A2 Cusus fl.",
   "bbox": [
     18.0,
     47.0,
     19.0,
     48.0
   ],
-  "reprPoint": [
-    18.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 21 A2 Cusus fl.",
   "names": [
     "Cusus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              18.0,
-              48.0
-            ],
-            [
-              19.0,
-              48.0
-            ],
-            [
               19.0,
               47.0
+            ],
+            [
+              19.0,
+              48.0
+            ],
+            [
+              18.0,
+              48.0
             ],
             [
               18.0,

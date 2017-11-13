@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Semilitenses",
   "id": "472016",
-  "description": "An ancient people of Sardinia thought to have been localized in the southwest portion of the island.",
   "bbox": [
     8.0,
     39.0,
     9.0,
     40.0
   ],
-  "reprPoint": [
-    8.5,
-    39.5
-  ],
+  "description": "An ancient people of Sardinia thought to have been localized in the southwest portion of the island.",
   "names": [
     "Semilitenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              8.0,
-              40.0
-            ],
-            [
-              9.0,
-              40.0
-            ],
-            [
               9.0,
               39.0
+            ],
+            [
+              9.0,
+              40.0
+            ],
+            [
+              8.0,
+              40.0
             ],
             [
               8.0,

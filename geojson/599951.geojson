@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Syme (island)",
   "id": "599951",
-  "description": "An island located off the coast of Caria, some 24 km north of Rhodes.",
   "bbox": [
     27.813674,
     36.566308,
     27.813674,
     36.566308
   ],
+  "description": "An island located off the coast of Caria, some 24 km north of Rhodes.",
   "connectsWith": [
     "599944",
     "560221"
-  ],
-  "reprPoint": [
-    27.813674,
-    36.566308
   ],
   "names": [
     "Syme",
@@ -23,6 +19,19 @@
     "Nisos Symi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.813674,
+          36.566308
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

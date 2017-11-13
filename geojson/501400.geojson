@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Dion",
   "id": "501400",
-  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "bbox": [
     24.163782,
     40.355943,
     24.163782,
     40.355943
   ],
+  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "connectsWith": [
     "501365"
-  ],
-  "reprPoint": [
-    24.163782,
-    40.355943
   ],
   "names": [
     "Dion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.163782,
+          40.355943
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

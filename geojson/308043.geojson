@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Mausoleum of Quintus Lollius Urbicus",
   "id": "308043",
-  "description": "Located at Tiddis.",
   "bbox": [
     6.478255,
     36.461823,
     6.478255,
     36.461823
   ],
+  "description": "Located at Tiddis.",
   "connectsWith": [
     "305167"
   ],
-  "reprPoint": [
-    6.478255,
-    36.461823
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.478255,
+          36.461823
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              6.0,
-              36.5
-            ],
-            [
-              6.5,
-              36.5
-            ],
-            [
               6.5,
               36.0
+            ],
+            [
+              6.5,
+              36.5
+            ],
+            [
+              6.0,
+              36.5
             ],
             [
               6.0,

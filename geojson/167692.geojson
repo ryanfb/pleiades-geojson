@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Brigianii",
   "id": "167692",
-  "description": "An ancient place, cited: BAtlas 17 H4 Brigianii",
   "bbox": [
     6.5,
     44.5,
     7.0,
     45.0
   ],
-  "reprPoint": [
-    6.75,
-    44.75
-  ],
+  "description": "An ancient place, cited: BAtlas 17 H4 Brigianii",
   "names": [
     "Brigianii"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          44.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.5
             ],
             [
-              6.5,
-              45.0
-            ],
-            [
-              7.0,
-              45.0
-            ],
-            [
               7.0,
               44.5
+            ],
+            [
+              7.0,
+              45.0
+            ],
+            [
+              6.5,
+              45.0
             ],
             [
               6.5,

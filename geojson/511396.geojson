@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Rhebas (river)",
   "id": "511396",
-  "description": "An ancient place, cited: BAtlas 52 F4 Rhebas fl.",
   "bbox": [
     29.5,
     40.0,
     30.0,
     40.5
   ],
-  "reprPoint": [
-    29.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 52 F4 Rhebas fl.",
   "names": [
     "Rhebas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              29.5,
-              40.5
-            ],
-            [
-              30.0,
-              40.5
-            ],
-            [
               30.0,
               40.0
+            ],
+            [
+              30.0,
+              40.5
+            ],
+            [
+              29.5,
+              40.5
             ],
             [
               29.5,

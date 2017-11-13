@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Las Torres",
   "id": "256480",
-  "description": "An ancient place, cited: BAtlas 26 F5 Las Torres",
   "bbox": [
     -4.993735,
     36.468528,
     -4.993735,
     36.468528
   ],
-  "reprPoint": [
-    -4.993735,
-    36.468528
-  ],
+  "description": "An ancient place, cited: BAtlas 26 F5 Las Torres",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.993735,
+          36.468528
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

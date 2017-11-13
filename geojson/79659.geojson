@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Rockbourne",
   "id": "79659",
-  "description": "A Roman-style courtyard villa occupied until the fifth century AD.",
   "bbox": [
     -1.8300565,
     50.9534708,
     -1.8300565,
     50.9534708
   ],
-  "reprPoint": [
-    -1.8300565,
-    50.9534708
-  ],
+  "description": "A Roman-style courtyard villa occupied until the fifth century AD.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8300565,
+          50.9534708
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

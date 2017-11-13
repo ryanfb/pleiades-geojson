@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kapria L.",
   "id": "638894",
-  "description": "An ancient place, cited: BAtlas 65 F4 Kapria L.",
   "bbox": [
     31.0,
     36.5,
     31.5,
     37.0
   ],
-  "reprPoint": [
-    31.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 65 F4 Kapria L.",
   "names": [
     "Kapria L."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              31.0,
-              37.0
-            ],
-            [
-              31.5,
-              37.0
-            ],
-            [
               31.5,
               36.5
+            ],
+            [
+              31.5,
+              37.0
+            ],
+            [
+              31.0,
+              37.0
             ],
             [
               31.0,

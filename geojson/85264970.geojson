@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sarazm",
   "id": "85264970",
-  "description": "An ancient, proto-urban site located in north-western Tajikistan.",
   "bbox": [
     67.460278,
     39.507778,
     67.460278,
     39.507778
   ],
-  "reprPoint": [
-    67.460278,
-    39.507778
-  ],
+  "description": "An ancient, proto-urban site located in north-western Tajikistan.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.460278,
+          39.507778
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

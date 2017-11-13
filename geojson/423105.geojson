@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Trerus/Tolerus (river)",
   "id": "423105",
-  "description": "A river of central Italy and a right tributary of the Liris.",
   "bbox": [
     13.351922,
     41.3140277,
     13.893085,
     41.64016
   ],
+  "description": "A river of central Italy and a right tributary of the Liris.",
   "connectsWith": [
     "432910"
-  ],
-  "reprPoint": [
-    13.6225035,
-    41.47709385
   ],
   "names": [
     "Trerus",
     "Tolerus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6225035,
+          41.47709385
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               41.5
             ],
             [
-              13.0,
-              41.75
-            ],
-            [
-              13.25,
-              41.75
-            ],
-            [
               13.25,
               41.5
+            ],
+            [
+              13.25,
+              41.75
+            ],
+            [
+              13.0,
+              41.75
             ],
             [
               13.0,

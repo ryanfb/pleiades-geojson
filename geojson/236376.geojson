@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Boreios/Gallicus/Cantabricus Oceanus",
   "id": "236376",
-  "description": "The Bay of Biscay.",
   "bbox": [
     -2.9808908,
     42.9389421,
     -2.9808908,
     42.9389421
   ],
+  "description": "The Bay of Biscay.",
   "connectsWith": [
     "845"
-  ],
-  "reprPoint": [
-    -2.9808908,
-    42.9389421
   ],
   "names": [
     "Boreios",
@@ -22,6 +18,19 @@
     "Cantabricus Oceanus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9808908,
+          42.9389421
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -32,16 +41,16 @@
               43.0
             ],
             [
-              -6.0,
-              44.0
-            ],
-            [
-              -5.0,
-              44.0
-            ],
-            [
               -5.0,
               43.0
+            ],
+            [
+              -5.0,
+              44.0
+            ],
+            [
+              -6.0,
+              44.0
             ],
             [
               -6.0,

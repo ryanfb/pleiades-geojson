@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ilissos? (river)",
   "id": "501437",
-  "description": "An ancient place, cited: BAtlas 51 F4 Ilissos? fl.",
   "bbox": [
     25.5,
     40.0,
     26.0,
     40.5
   ],
-  "reprPoint": [
-    25.75,
-    40.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 F4 Ilissos? fl.",
   "names": [
     "Ilissos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.75,
+          40.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              25.5,
-              40.5
-            ],
-            [
-              26.0,
-              40.5
-            ],
-            [
               26.0,
               40.0
+            ],
+            [
+              26.0,
+              40.5
+            ],
+            [
+              25.5,
+              40.5
             ],
             [
               25.5,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "'Akkaz",
   "id": "912798",
-  "description": "Formerly an island but now part of the harbor infrastructure of Kuwait City: Shuwaikh Port.",
   "bbox": [
     47.915846,
     29.35497,
     47.920252,
     29.391507
   ],
+  "description": "Formerly an island but now part of the harbor infrastructure of Kuwait City: Shuwaikh Port.",
   "connectsWith": [
     "912837",
     "29713"
   ],
-  "reprPoint": [
-    47.918049,
-    29.3732385
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.918049,
+          29.3732385
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

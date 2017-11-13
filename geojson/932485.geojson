@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tylos (island)",
   "id": "932485",
-  "description": "Tylos is the ancient name for Bahrain, renowned in antiquity as a center of pearl trading.",
   "bbox": [
     50.520036,
     26.233137,
     50.520036,
     26.233137
   ],
-  "reprPoint": [
-    50.520036,
-    26.233137
-  ],
+  "description": "Tylos is the ancient name for Bahrain, renowned in antiquity as a center of pearl trading.",
   "names": [
     "Tylos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.520036,
+          26.233137
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               26.0
             ],
             [
-              50.0,
-              27.0
-            ],
-            [
-              51.0,
-              27.0
-            ],
-            [
               51.0,
               26.0
+            ],
+            [
+              51.0,
+              27.0
+            ],
+            [
+              50.0,
+              27.0
             ],
             [
               50.0,

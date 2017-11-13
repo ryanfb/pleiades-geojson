@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kabia",
   "id": "511282",
-  "description": "An ancient place, cited: BAtlas 52 G3 Kabia",
   "bbox": [
     30.299985,
     40.500052,
     30.299985,
     40.500052
   ],
-  "reprPoint": [
-    30.299985,
-    40.500052
-  ],
+  "description": "An ancient place, cited: BAtlas 52 G3 Kabia",
   "names": [
     "Kabia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.299985,
+          40.500052
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

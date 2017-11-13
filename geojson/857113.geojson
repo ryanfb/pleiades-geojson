@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Drilai",
   "id": "857113",
-  "description": "The Drilai were an ancient tribe of western Georgian, who inhabited the coasts of the southern shores of the Black Sea.",
   "bbox": [
     39.0,
     40.0,
     40.0,
     41.0
   ],
-  "reprPoint": [
-    39.5,
-    40.5
-  ],
+  "description": "The Drilai were an ancient tribe of western Georgian, who inhabited the coasts of the southern shores of the Black Sea.",
   "names": [
     "Drilai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              39.0,
-              41.0
-            ],
-            [
-              40.0,
-              41.0
-            ],
-            [
               40.0,
               40.0
+            ],
+            [
+              40.0,
+              41.0
+            ],
+            [
+              39.0,
+              41.0
             ],
             [
               39.0,

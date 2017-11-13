@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Hagia Sophia",
   "id": "307220778",
-  "description": "A major paleochristian, then Byzantine, church in Istanbul; subsequently an Islamic mosque, and today a museum.",
   "bbox": [
     28.979938,
     41.008548,
     28.979938,
     41.008548
   ],
+  "description": "A major paleochristian, then Byzantine, church in Istanbul; subsequently an Islamic mosque, and today a museum.",
   "connectsWith": [
     "520998"
   ],
-  "reprPoint": [
-    28.979938,
-    41.008548
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.979938,
+          41.008548
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

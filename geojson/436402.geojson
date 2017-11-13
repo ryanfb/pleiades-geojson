@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "436402",
-  "description": "An ancient place, cited: BAtlas 44 E3 unnamed centuriation (Formiae)",
   "bbox": [
     13.601067,
     41.255655,
     13.605998,
     41.256424
   ],
+  "description": "An ancient place, cited: BAtlas 44 E3 unnamed centuriation (Formiae)",
   "connectsWith": [
     "432839"
   ],
-  "reprPoint": [
-    13.6035325,
-    41.2560395
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6035325,
+          41.2560395
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              13.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
               14.0,
               41.0
+            ],
+            [
+              14.0,
+              41.5
+            ],
+            [
+              13.5,
+              41.5
             ],
             [
               13.5,

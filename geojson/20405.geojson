@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Babięta, Machary, Mojtyny",
   "id": "20405",
-  "description": "An ancient place, cited: BAtlas 2 H3 Babięta, Machary, Mojtyny",
   "bbox": [
     20.0,
     50.0,
     25.0,
     55.0
   ],
-  "reprPoint": [
-    22.5,
-    52.5
-  ],
+  "description": "An ancient place, cited: BAtlas 2 H3 Babięta, Machary, Mojtyny",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               50.0
             ],
             [
-              20.0,
-              55.0
-            ],
-            [
-              25.0,
-              55.0
-            ],
-            [
               25.0,
               50.0
+            ],
+            [
+              25.0,
+              55.0
+            ],
+            [
+              20.0,
+              55.0
             ],
             [
               20.0,

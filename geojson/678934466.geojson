@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tanitischer Arm",
   "id": "678934466",
-  "description": "A place from the TAVO Index",
   "bbox": [
     31.0,
     30.0,
     31.5,
     30.5
   ],
-  "reprPoint": [
-    31.25,
-    30.25
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Tanitischer Arm"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.0
             ],
             [
-              31.0,
-              30.5
-            ],
-            [
-              31.5,
-              30.5
-            ],
-            [
               31.5,
               30.0
+            ],
+            [
+              31.5,
+              30.5
+            ],
+            [
+              31.0,
+              30.5
             ],
             [
               31.0,

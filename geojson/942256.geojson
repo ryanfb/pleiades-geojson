@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Cho(a)rene",
   "id": "942256",
-  "description": "Cho(a)rene was a region located east of the Caspian Sea.",
   "bbox": [
     52.497326,
     35.286884,
     52.497326,
     35.286884
   ],
-  "reprPoint": [
-    52.497326,
-    35.286884
-  ],
+  "description": "Cho(a)rene was a region located east of the Caspian Sea.",
   "names": [
     "Choarene",
     "Chorene"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.497326,
+          35.286884
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               35.0
             ],
             [
-              52.0,
-              36.0
-            ],
-            [
-              53.0,
-              36.0
-            ],
-            [
               53.0,
               35.0
+            ],
+            [
+              53.0,
+              36.0
+            ],
+            [
+              52.0,
+              36.0
             ],
             [
               52.0,

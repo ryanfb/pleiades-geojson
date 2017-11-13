@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vofricenses",
   "id": "315265",
-  "description": "An ancient place, cited: BAtlas 32 B4 Vofricenses",
   "bbox": [
     8.0,
     36.0,
     8.5,
     36.5
   ],
-  "reprPoint": [
-    8.25,
-    36.25
-  ],
+  "description": "An ancient place, cited: BAtlas 32 B4 Vofricenses",
   "names": [
     "Vofricenses"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          36.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.0
             ],
             [
-              8.0,
-              36.5
-            ],
-            [
-              8.5,
-              36.5
-            ],
-            [
               8.5,
               36.0
+            ],
+            [
+              8.5,
+              36.5
+            ],
+            [
+              8.0,
+              36.5
             ],
             [
               8.0,

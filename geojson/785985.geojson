@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Berenicidis M./Smaragdos Oros",
   "id": "785985",
-  "description": "An ancient place, cited: BAtlas 80 F4 Berenicidis M./Smaragdos Oros",
   "bbox": [
     34.5,
     24.5,
     35.0,
     25.0
   ],
-  "reprPoint": [
-    34.75,
-    24.75
-  ],
+  "description": "An ancient place, cited: BAtlas 80 F4 Berenicidis M./Smaragdos Oros",
   "names": [
     "Berenicidis M.",
     "Smaragdos Oros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          24.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               24.5
             ],
             [
-              34.5,
-              25.0
-            ],
-            [
-              35.0,
-              25.0
-            ],
-            [
               35.0,
               24.5
+            ],
+            [
+              35.0,
+              25.0
+            ],
+            [
+              34.5,
+              25.0
             ],
             [
               34.5,

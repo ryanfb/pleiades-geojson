@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Odomantes",
   "id": "501532",
-  "description": "An ancient place, cited: BAtlas 51 B2 Odomantes",
   "bbox": [
     23.5,
     41.0,
     24.0,
     41.5
   ],
-  "reprPoint": [
-    23.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 B2 Odomantes",
   "names": [
     "Odomantes",
     "Odomantike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               41.0
             ],
             [
-              23.5,
-              41.5
-            ],
-            [
-              24.0,
-              41.5
-            ],
-            [
               24.0,
               41.0
+            ],
+            [
+              24.0,
+              41.5
+            ],
+            [
+              23.5,
+              41.5
             ],
             [
               23.5,

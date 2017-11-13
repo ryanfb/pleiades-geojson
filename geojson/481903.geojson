@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lynkos",
   "id": "481903",
-  "description": "An ancient place, cited: BAtlas 49 D3 Lynkos",
   "bbox": [
     21.0,
     40.0,
     22.0,
     41.0
   ],
-  "reprPoint": [
-    21.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 49 D3 Lynkos",
   "names": [
     "Lynkos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              21.0,
-              41.0
-            ],
-            [
-              22.0,
-              41.0
-            ],
-            [
               22.0,
               40.0
+            ],
+            [
+              22.0,
+              41.0
+            ],
+            [
+              21.0,
+              41.0
             ],
             [
               21.0,

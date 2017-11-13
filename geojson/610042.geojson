@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "610042",
-  "description": "An unnamed spring and aqueduct serving Colonia Caesarea",
   "bbox": [
     31.267874,
     38.307252,
     31.267874,
     38.307252
   ],
+  "description": "An unnamed spring and aqueduct serving Colonia Caesarea",
   "connectsWith": [
     "609307",
     "610809"
   ],
-  "reprPoint": [
-    31.267874,
-    38.307252
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.267874,
+          38.307252
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

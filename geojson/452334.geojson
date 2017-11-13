@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Heracleum Pr.",
   "id": "452334",
-  "description": "An ancient place, cited: BAtlas 46 D6 Heracleum Pr.",
   "bbox": [
     16.0,
     37.5,
     16.5,
     38.0
   ],
-  "reprPoint": [
-    16.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 46 D6 Heracleum Pr.",
   "names": [
     "Heracleum Pr."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              16.0,
-              38.0
-            ],
-            [
-              16.5,
-              38.0
-            ],
-            [
               16.5,
               37.5
+            ],
+            [
+              16.5,
+              38.0
+            ],
+            [
+              16.0,
+              38.0
             ],
             [
               16.0,

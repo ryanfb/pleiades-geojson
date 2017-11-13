@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Castrum Invi",
   "id": "438710",
-  "description": "An Italic site located at the mouth of the Incastro river and in the territory of Ardea.",
   "bbox": [
     12.5113,
     41.5803,
     12.5113,
     41.5803
   ],
-  "reprPoint": [
-    12.5113,
-    41.5803
-  ],
+  "description": "An Italic site located at the mouth of the Incastro river and in the territory of Ardea.",
   "names": [
     "Castrum Invi",
     "Foce del Fosso dell’incastro",
     "Castrum Inui"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5113,
+          41.5803
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

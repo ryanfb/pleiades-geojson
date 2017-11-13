@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Parorbelia",
   "id": "491684",
-  "description": "An ancient place, cited: BAtlas 50 C2 Parorbelia",
   "bbox": [
     22.5,
     41.0,
     23.0,
     41.5
   ],
-  "reprPoint": [
-    22.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 C2 Parorbelia",
   "names": [
     "Parorbelia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              22.5,
-              41.5
-            ],
-            [
-              23.0,
-              41.5
-            ],
-            [
               23.0,
               41.0
+            ],
+            [
+              23.0,
+              41.5
+            ],
+            [
+              22.5,
+              41.5
             ],
             [
               22.5,

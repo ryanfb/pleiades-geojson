@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Garganou Kolpos",
   "id": "442593",
-  "description": "An ancient place, cited: BAtlas 45 B1 Garganou Kolpos",
   "bbox": [
     15.885196,
     41.83333,
     16.0,
     42.7752864
   ],
+  "description": "An ancient place, cited: BAtlas 45 B1 Garganou Kolpos",
   "connectsWith": [
     "442596",
     "1004"
-  ],
-  "reprPoint": [
-    15.942598,
-    42.3043082
   ],
   "names": [
     "Garganou Kolpos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.942598,
+          42.3043082
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               41.5
             ],
             [
-              15.0,
-              42.0
-            ],
-            [
-              15.5,
-              42.0
-            ],
-            [
               15.5,
               41.5
+            ],
+            [
+              15.5,
+              42.0
+            ],
+            [
+              15.0,
+              42.0
             ],
             [
               15.0,

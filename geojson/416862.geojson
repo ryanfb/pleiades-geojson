@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Suriates",
   "id": "416862",
-  "description": "An ancient people whose territory is unlocated",
   "bbox": [
     12.5,
     43.5,
     13.0,
     44.0
   ],
+  "description": "An ancient people whose territory is unlocated",
   "connectsWith": [
     "413360"
-  ],
-  "reprPoint": [
-    12.75,
-    43.75
   ],
   "names": [
     "Suriates"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.75,
+          43.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

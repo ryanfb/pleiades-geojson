@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Peloponnesus/Peloponnesos/Peloponnese",
   "id": "570577",
-  "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ",
   "bbox": [
     21.143869,
     36.387567,
     24.0,
     38.31667
   ],
+  "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ",
   "connectsWith": [
     "570184",
     "570181",
@@ -20,15 +20,26 @@
     "570185",
     "570175"
   ],
-  "reprPoint": [
-    22.3127526885,
-    37.2528977769
-  ],
   "names": [
     "Peloponnesus",
     "Apia",
     "Inachia",
     "Pelopónnēsos",
     "Pelopónnasos"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3127526885,
+          37.2528977769
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

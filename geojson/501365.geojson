@@ -2,25 +2,36 @@
   "type": "FeatureCollection",
   "title": "Athos/Akte (peninsula)",
   "id": "501365",
-  "description": "A peninsula of Greece, projecting from the larger Chalcidice peninsula in the Aegean Sea.",
   "bbox": [
     23.934807,
     40.11,
     25.166667,
     40.366667
   ],
+  "description": "A peninsula of Greece, projecting from the larger Chalcidice peninsula in the Aegean Sea.",
   "connectsWith": [
     "491561",
     "501639",
     "501612",
     "560221"
   ],
-  "reprPoint": [
-    24.2951477273,
-    40.2468341818
-  ],
   "names": [
     "Athos",
     "Akte"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2951477273,
+          40.2468341818
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

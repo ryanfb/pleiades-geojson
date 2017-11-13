@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "113262",
-  "description": "Bagacum → Verbinum → Durocortorum",
   "bbox": [
     3.79167,
     49.253801,
     4.033901,
     50.298592
   ],
-  "reprPoint": [
-    3.9100393,
-    49.7950017333
-  ],
+  "description": "Bagacum → Verbinum → Durocortorum",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9100393,
+          49.7950017333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              0.0,
-              52.0
-            ],
-            [
-              9.0,
-              52.0
-            ],
-            [
               9.0,
               47.0
+            ],
+            [
+              9.0,
+              52.0
+            ],
+            [
+              0.0,
+              52.0
             ],
             [
               0.0,

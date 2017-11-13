@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "413743",
-  "description": "An ancient place, cited: BAtlas 42 B2 unnamed aqueduct (Arretium)",
   "bbox": [
     11.863048,
     43.4608671,
     11.8796902,
     43.471274
   ],
+  "description": "An ancient place, cited: BAtlas 42 B2 unnamed aqueduct (Arretium)",
   "connectsWith": [
     "413032"
   ],
-  "reprPoint": [
-    11.8713691,
-    43.46607055
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8713691,
+          43.46607055
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              11.5,
-              43.5
-            ],
-            [
-              12.0,
-              43.5
-            ],
-            [
               12.0,
               43.0
+            ],
+            [
+              12.0,
+              43.5
+            ],
+            [
+              11.5,
+              43.5
             ],
             [
               11.5,

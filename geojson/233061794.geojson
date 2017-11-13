@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Roman amphitheater at Corinth",
   "id": "233061794",
-  "description": "A small amphitheater measuring ca. 100 x 70 meters that was built in the first century B.C.",
   "bbox": [
     22.8921792,
     37.9096749,
     22.8921792,
     37.9096749
   ],
+  "description": "A small amphitheater measuring ca. 100 x 70 meters that was built in the first century B.C.",
   "connectsWith": [
     "570182"
   ],
-  "reprPoint": [
-    22.8921792,
-    37.9096749
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8921792,
+          37.9096749
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

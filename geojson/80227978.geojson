@@ -2,22 +2,33 @@
   "type": "FeatureCollection",
   "title": "Blakeia",
   "id": "80227978",
-  "description": "A settlement attested in Aristotle's Kymaion Politeia. Its precise location is unknown today but it was located within Cymian territory.",
   "bbox": [
     26.936283,
     38.75953,
     26.942154,
     38.761848
   ],
+  "description": "A settlement attested in Aristotle's Kymaion Politeia. Its precise location is unknown today but it was located within Cymian territory.",
   "connectsWith": [
     "550406",
     "550506"
   ],
-  "reprPoint": [
-    26.9392185,
-    38.760689
-  ],
   "names": [
     "Blakeia"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9392185,
+          38.760689
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

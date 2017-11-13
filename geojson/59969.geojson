@@ -2,20 +2,16 @@
   "type": "FeatureCollection",
   "title": "Oxus (river)",
   "id": "59969",
-  "description": "Oxus fl. (modern Amu Darya river) is a major river of central Asia. It flows from the Pamir Mountains to the Aral Sea.",
   "bbox": [
     59.681111,
     37.1103808,
     73.5725,
     44.108333
   ],
+  "description": "Oxus fl. (modern Amu Darya river) is a major river of central Asia. It flows from the Pamir Mountains to the Aral Sea.",
   "connectsWith": [
     "442241741",
     "442241741"
-  ],
-  "reprPoint": [
-    67.1893694,
-    39.5566082667
   ],
   "names": [
     "Oxus",
@@ -24,6 +20,19 @@
     "Amu Darya"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.1893694,
+          39.5566082667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -34,16 +43,16 @@
               40.0
             ],
             [
-              60.0,
-              45.0
-            ],
-            [
-              65.0,
-              45.0
-            ],
-            [
               65.0,
               40.0
+            ],
+            [
+              65.0,
+              45.0
+            ],
+            [
+              60.0,
+              45.0
             ],
             [
               60.0,

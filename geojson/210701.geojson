@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "210701",
-  "description": "Neresnica → Trška crkva",
   "bbox": [
     21.716485,
     44.207741,
     21.735652,
     44.44345
   ],
-  "reprPoint": [
-    21.7260685,
-    44.3255955
-  ],
+  "description": "Neresnica → Trška crkva",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7260685,
+          44.3255955
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               42.0
             ],
             [
-              18.0,
-              49.0
-            ],
-            [
-              25.0,
-              49.0
-            ],
-            [
               25.0,
               42.0
+            ],
+            [
+              25.0,
+              49.0
+            ],
+            [
+              18.0,
+              49.0
             ],
             [
               18.0,

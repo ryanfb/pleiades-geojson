@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 75 (Easton)",
   "id": "967060414",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -3.124354,
     54.927636,
     -3.124354,
     54.927636
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -3.124354,
-    54.927636
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.124354,
+          54.927636
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

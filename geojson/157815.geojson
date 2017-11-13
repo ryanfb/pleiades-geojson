@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Argenteus (river)",
   "id": "157815",
-  "description": "An ancient place, cited: BAtlas 16 B3 Argenteus fl.",
   "bbox": [
     6.0,
     43.0,
     6.5,
     43.5
   ],
-  "reprPoint": [
-    6.25,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 B3 Argenteus fl.",
   "names": [
     "Argenteus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              6.0,
-              43.5
-            ],
-            [
-              6.5,
-              43.5
-            ],
-            [
               6.5,
               43.0
+            ],
+            [
+              6.5,
+              43.5
+            ],
+            [
+              6.0,
+              43.5
             ],
             [
               6.0,

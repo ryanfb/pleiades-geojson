@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Achelous (river)",
   "id": "530768",
-  "description": "A river of Western Greece. Its floods were noted by Herodotus.",
   "bbox": [
     21.1067111,
     38.3388321,
     21.1067111,
     38.3388321
   ],
+  "description": "A river of Western Greece. Its floods were noted by Herodotus.",
   "connectsWith": [
     "1046"
-  ],
-  "reprPoint": [
-    21.1067111,
-    38.3388321
   ],
   "names": [
     "Achelous",
     "Thoas"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1067111,
+          38.3388321
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

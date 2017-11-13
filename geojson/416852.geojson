@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Salinae",
   "id": "416852",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Salinae",
   "bbox": [
     13.8195744,
     42.4318508,
     13.8195744,
     42.4318508
   ],
+  "description": "An ancient place, cited: BAtlas 42 unlocated Salinae",
   "connectsWith": [
     "413110"
-  ],
-  "reprPoint": [
-    13.8195744,
-    42.4318508
   ],
   "names": [
     "Salinae"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8195744,
+          42.4318508
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Solomos",
   "id": "531100",
-  "description": "An ancient place, cited: BAtlas 54 D3 Solomos",
   "bbox": [
     21.204629,
     39.08234,
     21.204629,
     39.08234
   ],
-  "reprPoint": [
-    21.204629,
-    39.08234
-  ],
+  "description": "An ancient place, cited: BAtlas 54 D3 Solomos",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.204629,
+          39.08234
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

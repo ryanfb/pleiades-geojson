@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Tanais (river)",
   "id": "825398",
-  "description": "The modern Don River.",
   "bbox": [
     40.7291755,
     47.5437096,
     40.7291755,
     47.5437096
   ],
-  "reprPoint": [
-    40.7291755,
-    47.5437096
-  ],
+  "description": "The modern Don River.",
   "names": [
     "Tanais"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.7291755,
+          47.5437096
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

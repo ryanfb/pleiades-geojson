@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Taochoi",
   "id": "857343",
-  "description": "An ancient people that inhabited the South Caucasus and the mountainous region of northeastern Anatolia.",
   "bbox": [
     41.0,
     40.0,
     42.0,
     41.0
   ],
-  "reprPoint": [
-    41.5,
-    40.5
-  ],
+  "description": "An ancient people that inhabited the South Caucasus and the mountainous region of northeastern Anatolia.",
   "names": [
     "Tauchoi",
     "Taochoi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               40.0
             ],
             [
-              41.0,
-              41.0
-            ],
-            [
-              42.0,
-              41.0
-            ],
-            [
               42.0,
               40.0
+            ],
+            [
+              42.0,
+              41.0
+            ],
+            [
+              41.0,
+              41.0
             ],
             [
               41.0,

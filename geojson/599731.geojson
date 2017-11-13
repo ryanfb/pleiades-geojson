@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kretikos Sinus",
   "id": "599731",
-  "description": "An ancient place, cited: BAtlas 61 C4 Kretikos Sinus",
   "bbox": [
     26.0,
     36.5,
     26.5,
     37.0
   ],
-  "reprPoint": [
-    26.25,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 61 C4 Kretikos Sinus",
   "names": [
     "Kretikos Sinus"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               36.5
             ],
             [
-              26.0,
-              37.0
-            ],
-            [
-              26.5,
-              37.0
-            ],
-            [
               26.5,
               36.5
+            ],
+            [
+              26.5,
+              37.0
+            ],
+            [
+              26.0,
+              37.0
             ],
             [
               26.0,

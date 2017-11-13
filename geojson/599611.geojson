@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Emporion",
   "id": "599611",
-  "description": "An ancient place, cited: BAtlas 61 A5 Emporion",
   "bbox": [
     25.444006,
     36.357296,
     25.444006,
     36.357296
   ],
+  "description": "An ancient place, cited: BAtlas 61 A5 Emporion",
   "connectsWith": [
     "599973"
   ],
-  "reprPoint": [
-    25.444006,
-    36.357296
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.444006,
+          36.357296
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

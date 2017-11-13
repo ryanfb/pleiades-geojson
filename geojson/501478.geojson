@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Kossinites? (river)",
   "id": "501478",
-  "description": "An ancient place, cited: BAtlas 51 D2 Kossinites? fl.",
   "bbox": [
     24.5,
     41.0,
     25.0,
     41.5
   ],
-  "reprPoint": [
-    24.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 51 D2 Kossinites? fl.",
   "names": [
     "Kossinites"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              24.5,
-              41.5
-            ],
-            [
-              25.0,
-              41.5
-            ],
-            [
               25.0,
               41.0
+            ],
+            [
+              25.0,
+              41.5
+            ],
+            [
+              24.5,
+              41.5
             ],
             [
               24.5,

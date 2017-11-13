@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "257458",
-  "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (at Ad Sorores)",
   "bbox": [
     -7.0,
     39.0,
     -6.0,
     40.0
   ],
+  "description": "An ancient place, cited: BAtlas 26 D2 unnamed bridge (at Ad Sorores)",
   "connectsWith": [
     "255958"
   ],
-  "reprPoint": [
-    -6.5,
-    39.5
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              -7.0,
-              40.0
-            ],
-            [
-              -6.0,
-              40.0
-            ],
-            [
               -6.0,
               39.0
+            ],
+            [
+              -6.0,
+              40.0
+            ],
+            [
+              -7.0,
+              40.0
             ],
             [
               -7.0,

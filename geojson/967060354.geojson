@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Milecastle 5 (Quarry House)",
   "id": "967060354",
-  "description": "A milecastle situated on Hadrian's Wall.",
   "bbox": [
     -1.62898,
     54.971409,
     -1.62898,
     54.971409
   ],
+  "description": "A milecastle situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -1.62898,
-    54.971409
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.62898,
+          54.971409
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

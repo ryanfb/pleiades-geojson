@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trogodytice",
   "id": "39435",
-  "description": "An ancient place, cited: BAtlas 4 A2 Trogodytice",
   "bbox": [
     35.0,
     15.0,
     40.0,
     20.0
   ],
-  "reprPoint": [
-    37.5,
-    17.5
-  ],
+  "description": "An ancient place, cited: BAtlas 4 A2 Trogodytice",
   "names": [
     "Trogodytice",
     "Trogloditike"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               15.0
             ],
             [
-              35.0,
-              20.0
-            ],
-            [
-              40.0,
-              20.0
-            ],
-            [
               40.0,
               15.0
+            ],
+            [
+              40.0,
+              20.0
+            ],
+            [
+              35.0,
+              20.0
             ],
             [
               35.0,

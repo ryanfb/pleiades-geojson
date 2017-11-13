@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Erythrai",
   "id": "579928",
-  "description": "An ancient place, cited: BAtlas 59 A2 Erythrai",
   "bbox": [
     23.25,
     38.0,
     23.5,
     38.25
   ],
-  "reprPoint": [
-    23.375,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 A2 Erythrai",
   "names": [
     "Erythrai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.375,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              23.25,
-              38.25
-            ],
-            [
-              23.5,
-              38.25
-            ],
-            [
               23.5,
               38.0
+            ],
+            [
+              23.5,
+              38.25
+            ],
+            [
+              23.25,
+              38.25
             ],
             [
               23.25,

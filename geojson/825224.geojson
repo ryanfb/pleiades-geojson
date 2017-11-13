@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Aorsoi",
   "id": "825224",
-  "description": "Aorsoi refers to a group of tribes of the Sarmatae living to the east of Maiotis.",
   "bbox": [
     39.0,
     46.0,
     40.0,
     47.0
   ],
-  "reprPoint": [
-    39.5,
-    46.5
-  ],
+  "description": "Aorsoi refers to a group of tribes of the Sarmatae living to the east of Maiotis.",
   "names": [
     "Aorsoi",
     "Aorsia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               46.0
             ],
             [
-              39.0,
-              47.0
-            ],
-            [
-              40.0,
-              47.0
-            ],
-            [
               40.0,
               46.0
+            ],
+            [
+              40.0,
+              47.0
+            ],
+            [
+              39.0,
+              47.0
             ],
             [
               39.0,

@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Mes(s)ogis M.",
   "id": "599796",
-  "description": "An ancient place, cited: BAtlas 61 F1 Mes(s)ogis M.",
   "bbox": [
     27.5,
     38.0,
     28.0,
     38.5
   ],
-  "reprPoint": [
-    27.75,
-    38.25
-  ],
+  "description": "An ancient place, cited: BAtlas 61 F1 Mes(s)ogis M.",
   "names": [
     " Messogis M.",
     " Mesogis M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.75,
+          38.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.0
             ],
             [
-              27.5,
-              38.5
-            ],
-            [
-              28.0,
-              38.5
-            ],
-            [
               28.0,
               38.0
+            ],
+            [
+              28.0,
+              38.5
+            ],
+            [
+              27.5,
+              38.5
             ],
             [
               27.5,

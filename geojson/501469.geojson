@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kleonai",
   "id": "501469",
-  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "bbox": [
     24.233651,
     40.214176,
     24.233651,
     40.214176
   ],
+  "description": "An ancient settlement, located on the Athos/Akte peninsula.",
   "connectsWith": [
     "501365"
-  ],
-  "reprPoint": [
-    24.233651,
-    40.214176
   ],
   "names": [
     "Kleonai"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.233651,
+          40.214176
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

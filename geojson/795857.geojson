@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Serra",
   "id": "795857",
-  "description": "An ancient place, cited: BAtlas 81 B3 Serra",
   "bbox": [
     31.455513,
     22.124949,
     31.455513,
     22.124949
   ],
-  "reprPoint": [
-    31.455513,
-    22.124949
-  ],
+  "description": "An ancient place, cited: BAtlas 81 B3 Serra",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.455513,
+          22.124949
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

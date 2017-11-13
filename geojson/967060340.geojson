@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Turret 46B (Wallend)",
   "id": "967060340",
-  "description": "A turret situated on Hadrian's Wall.",
   "bbox": [
     -2.541861,
     54.987704,
     -2.541861,
     54.987704
   ],
+  "description": "A turret situated on Hadrian's Wall.",
   "connectsWith": [
     "91358"
   ],
-  "reprPoint": [
-    -2.541861,
-    54.987704
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.541861,
+          54.987704
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

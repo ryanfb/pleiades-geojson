@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Maionia/Mysia",
   "id": "550710",
-  "description": "An ancient place, cited: BAtlas 56 G4 Maionia/Mysia",
   "bbox": [
     28.0,
     38.5,
     28.5,
     39.0
   ],
-  "reprPoint": [
-    28.25,
-    38.75
-  ],
+  "description": "An ancient place, cited: BAtlas 56 G4 Maionia/Mysia",
   "names": [
     "Maionia",
     "Mysia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.25,
+          38.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               38.5
             ],
             [
-              28.0,
-              39.0
-            ],
-            [
-              28.5,
-              39.0
-            ],
-            [
               28.5,
               38.5
+            ],
+            [
+              28.5,
+              39.0
+            ],
+            [
+              28.0,
+              39.0
             ],
             [
               28.0,

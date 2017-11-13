@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Germania Inferior",
   "id": "981524",
-  "description": "Germania Inferior was a province of the Roman empire located on the west bank of the Rhine river. It was established as a province ca. AD 80.",
   "bbox": [
     4.349213,
     50.732632,
     7.0977283,
     52.212
   ],
-  "reprPoint": [
-    5.7943685575,
-    51.6064740575
-  ],
+  "description": "Germania Inferior was a province of the Roman empire located on the west bank of the Rhine river. It was established as a province ca. AD 80.",
   "names": [
     "Germania Inferior"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7943685575,
+          51.6064740575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               50.0
             ],
             [
-              0.0,
-              55.0
-            ],
-            [
-              5.0,
-              55.0
-            ],
-            [
               5.0,
               50.0
+            ],
+            [
+              5.0,
+              55.0
+            ],
+            [
+              0.0,
+              55.0
             ],
             [
               0.0,

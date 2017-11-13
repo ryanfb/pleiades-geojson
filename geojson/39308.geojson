@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Azanium Mare/Barbarikon Pelagos",
   "id": "39308",
-  "description": "Azanium Mare/Barbarikon Pelagos (The Arabian Sea).",
   "bbox": [
     64.9999999,
     20.0000001,
     64.9999999,
     20.0000001
   ],
+  "description": "Azanium Mare/Barbarikon Pelagos (The Arabian Sea).",
   "connectsWith": [
     "39352"
-  ],
-  "reprPoint": [
-    64.9999999,
-    20.0000001
   ],
   "names": [
     "Azanium Mare",
     "Barbarikon Pelagos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.9999999,
+          20.0000001
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

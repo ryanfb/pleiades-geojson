@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Balline",
   "id": "20406",
-  "description": "An ancient place, cited: BAtlas 2 B3 Balline",
   "bbox": [
     -8.457122,
     52.397981,
     -8.457122,
     52.397981
   ],
+  "description": "An ancient place, cited: BAtlas 2 B3 Balline",
   "connectsWith": [
     "20487"
   ],
-  "reprPoint": [
-    -8.457122,
-    52.397981
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.457122,
+          52.397981
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

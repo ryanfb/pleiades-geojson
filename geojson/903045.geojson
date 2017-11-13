@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Iasonius? M.",
   "id": "903045",
-  "description": "An ancient place, cited: BAtlas 92 H1 Iasonius? M.",
   "bbox": [
     52.0,
     35.0,
     53.0,
     36.0
   ],
+  "description": "An ancient place, cited: BAtlas 92 H1 Iasonius? M.",
   "connectsWith": [
     "942296"
-  ],
-  "reprPoint": [
-    52.5,
-    35.5
   ],
   "names": [
     "Iasonius M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               35.0
             ],
             [
-              52.0,
-              36.0
-            ],
-            [
-              53.0,
-              36.0
-            ],
-            [
               53.0,
               35.0
+            ],
+            [
+              53.0,
+              36.0
+            ],
+            [
+              52.0,
+              36.0
             ],
             [
               52.0,

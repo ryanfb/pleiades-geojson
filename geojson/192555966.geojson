@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Sam'al",
   "id": "192555966",
-  "description": "An Hittite and Aramaean city located at Zincirli Höyük in the Anti-Taurus mountains.",
   "bbox": [
     36.6792698,
     37.1015492,
     36.6792698,
     37.1015492
   ],
-  "reprPoint": [
-    36.6792698,
-    37.1015492
-  ],
+  "description": "An Hittite and Aramaean city located at Zincirli Höyük in the Anti-Taurus mountains.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6792698,
+          37.1015492
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

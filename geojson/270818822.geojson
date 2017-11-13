@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Vallerano",
   "id": "270818822",
-  "description": "A necropolis located on the southern outskirts of Rome. The necropolis is located near a villa site along a road running through the suburbium of  Rome.  Excavated between 1992 and 1993.",
   "bbox": [
     12.479657,
     41.78561,
     12.479657,
     41.78561
   ],
-  "reprPoint": [
-    12.479657,
-    41.78561
-  ],
+  "description": "A necropolis located on the southern outskirts of Rome. The necropolis is located near a villa site along a road running through the suburbium of  Rome.  Excavated between 1992 and 1993.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.479657,
+          41.78561
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

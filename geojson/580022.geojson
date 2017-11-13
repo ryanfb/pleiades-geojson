@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Marathonian Pedion",
   "id": "580022",
-  "description": "An ancient place, cited: BAtlas 59 C2 Marathonian Pedion",
   "bbox": [
     23.75,
     38.0,
     24.0,
     38.25
   ],
-  "reprPoint": [
-    23.875,
-    38.125
-  ],
+  "description": "An ancient place, cited: BAtlas 59 C2 Marathonian Pedion",
   "names": [
     "Marathonian Pedion"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.875,
+          38.125
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               38.0
             ],
             [
-              23.75,
-              38.25
-            ],
-            [
-              24.0,
-              38.25
-            ],
-            [
               24.0,
               38.0
+            ],
+            [
+              24.0,
+              38.25
+            ],
+            [
+              23.75,
+              38.25
             ],
             [
               23.75,

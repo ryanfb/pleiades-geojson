@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "129109",
-  "description": "Vindobona → Guntramsdorf",
   "bbox": [
     15.0,
     47.0,
     25.0,
     52.0
   ],
-  "reprPoint": [
-    20.0,
-    49.5
-  ],
+  "description": "Vindobona → Guntramsdorf",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0,
+          49.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               47.0
             ],
             [
-              15.0,
-              52.0
-            ],
-            [
-              25.0,
-              52.0
-            ],
-            [
               25.0,
               47.0
+            ],
+            [
+              25.0,
+              52.0
+            ],
+            [
+              15.0,
+              52.0
             ],
             [
               15.0,

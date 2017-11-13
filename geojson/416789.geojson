@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Castellum Amerinum",
   "id": "416789",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Castellum Amerinum",
   "bbox": [
     12.386423,
     42.460326,
     12.386423,
     42.460326
   ],
+  "description": "An ancient place, cited: BAtlas 42 unlocated Castellum Amerinum",
   "connectsWith": [
     "413172"
-  ],
-  "reprPoint": [
-    12.386423,
-    42.460326
   ],
   "names": [
     "Castellum Amerinum"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.386423,
+          42.460326
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

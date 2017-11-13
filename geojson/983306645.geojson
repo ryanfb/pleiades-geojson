@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tholos de El Romeral",
   "id": "983306645",
-  "description": "A megalithic tomb dating ca. 1800 BC located in Antequera (Andalusia), Spain.",
   "bbox": [
     -4.5350049,
     37.0344706,
     -4.5350049,
     37.0344706
   ],
-  "reprPoint": [
-    -4.5350049,
-    37.0344706
-  ],
+  "description": "A megalithic tomb dating ca. 1800 BC located in Antequera (Andalusia), Spain.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5350049,
+          37.0344706
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

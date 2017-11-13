@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Eleutheros (river)",
   "id": "462192",
-  "description": "An ancient place, cited: BAtlas 47 C3 Eleutheros fl.",
   "bbox": [
     13.0,
     37.5,
     13.5,
     38.0
   ],
-  "reprPoint": [
-    13.25,
-    37.75
-  ],
+  "description": "An ancient place, cited: BAtlas 47 C3 Eleutheros fl.",
   "names": [
     "Eleutheros"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          37.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               37.5
             ],
             [
-              13.0,
-              38.0
-            ],
-            [
-              13.5,
-              38.0
-            ],
-            [
               13.5,
               37.5
+            ],
+            [
+              13.5,
+              38.0
+            ],
+            [
+              13.0,
+              38.0
             ],
             [
               13.0,

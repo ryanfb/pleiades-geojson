@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "266521",
-  "description": "An ancient place, cited: BAtlas 27 C2 unnamed aqueduct (Segobriga)",
   "bbox": [
     -2.8141956,
     39.885321,
     -2.8104137,
     39.8910763
   ],
+  "description": "An ancient place, cited: BAtlas 27 C2 unnamed aqueduct (Segobriga)",
   "connectsWith": [
     "266036"
   ],
-  "reprPoint": [
-    -2.81267426411,
-    39.8882167139
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.81267426411,
+          39.8882167139
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              -3.0,
-              40.0
-            ],
-            [
-              -2.0,
-              40.0
-            ],
-            [
               -2.0,
               39.0
+            ],
+            [
+              -2.0,
+              40.0
+            ],
+            [
+              -3.0,
+              40.0
             ],
             [
               -3.0,

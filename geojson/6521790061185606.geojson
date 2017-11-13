@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Unnamed Place",
   "id": "6521790061185606",
-  "description": "An unnamed ancient place",
   "bbox": [
     28.5606,
     37.9006,
     28.5606,
     37.9006
   ],
-  "reprPoint": [
-    28.5606,
-    37.9006
-  ],
+  "description": "An unnamed ancient place",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5606,
+          37.9006
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

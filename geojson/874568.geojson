@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Lucus Basaro",
   "id": "874568",
-  "description": "An ancient place, cited: BAtlas 89 C1 Lucus Basaro",
   "bbox": [
     40.385083,
     39.779455,
     40.385083,
     39.779455
   ],
-  "reprPoint": [
-    40.385083,
-    39.779455
-  ],
+  "description": "An ancient place, cited: BAtlas 89 C1 Lucus Basaro",
   "names": [
     "Lucus Basaro",
     "Bressos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.385083,
+          39.779455
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

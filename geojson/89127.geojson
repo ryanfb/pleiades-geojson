@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Brocavum",
   "id": "89127",
-  "description": "A Roman fort at modern Brougham in the UK (sometimes called Brougham Castle Roman Fort).",
   "bbox": [
     -2.718515,
     54.652325,
     -2.715899,
     54.653957
   ],
-  "reprPoint": [
-    -2.717200087,
-    54.6531471422
-  ],
+  "description": "A Roman fort at modern Brougham in the UK (sometimes called Brougham Castle Roman Fort).",
   "names": [
     "Brocavum",
     "Brougham"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.717200087,
+          54.6531471422
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,8 +38,8 @@
               0.0
             ],
             [
-              -2.718515,
-              54.653542,
+              -2.715899,
+              54.652763,
               0.0
             ],
             [
@@ -39,8 +48,8 @@
               0.0
             ],
             [
-              -2.715899,
-              54.652763,
+              -2.718515,
+              54.653542,
               0.0
             ],
             [

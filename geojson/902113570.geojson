@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Moenjodaro",
   "id": "902113570",
-  "description": "An ancient (third millennium BC) city of the Indian sub-continent connected with the Harappan Civilization. It  was designated a UNESCO World Heritage Site in 1980.",
   "bbox": [
     68.138889,
     27.329167,
     68.138889,
     27.329167
   ],
-  "reprPoint": [
-    68.138889,
-    27.329167
-  ],
+  "description": "An ancient (third millennium BC) city of the Indian sub-continent connected with the Harappan Civilization. It  was designated a UNESCO World Heritage Site in 1980.",
   "names": [
     "Mohenjo-daro"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.138889,
+          27.329167
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

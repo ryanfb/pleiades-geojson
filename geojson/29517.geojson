@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Carmania",
   "id": "29517",
-  "description": "A province of both the Achaemenid Empire and the Sassanid Empire.",
   "bbox": [
     55.0,
     25.0,
     60.0,
     30.0
   ],
-  "reprPoint": [
-    57.5,
-    27.5
-  ],
+  "description": "A province of both the Achaemenid Empire and the Sassanid Empire.",
   "names": [
     "Carmania"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               25.0
             ],
             [
-              55.0,
-              30.0
-            ],
-            [
-              60.0,
-              30.0
-            ],
-            [
               60.0,
               25.0
+            ],
+            [
+              60.0,
+              30.0
+            ],
+            [
+              55.0,
+              30.0
             ],
             [
               55.0,

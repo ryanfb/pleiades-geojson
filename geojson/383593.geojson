@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Boakias (river)",
   "id": "383593",
-  "description": "A river of Liguria.",
   "bbox": [
     9.5,
     44.0,
     10.0,
     44.5
   ],
-  "reprPoint": [
-    9.75,
-    44.25
-  ],
+  "description": "A river of Liguria.",
   "names": [
     "Boakias"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              9.5,
-              44.5
-            ],
-            [
-              10.0,
-              44.5
-            ],
-            [
               10.0,
               44.0
+            ],
+            [
+              10.0,
+              44.5
+            ],
+            [
+              9.5,
+              44.5
             ],
             [
               9.5,

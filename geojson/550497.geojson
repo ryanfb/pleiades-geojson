@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Chios (island)",
   "id": "550497",
-  "description": "Chios is the fifth largest of the Greek islands.",
   "bbox": [
     26.053,
     38.414,
     26.053,
     38.414
   ],
+  "description": "Chios is the fifth largest of the Greek islands.",
   "connectsWith": [
     "560221"
-  ],
-  "reprPoint": [
-    26.053,
-    38.414
   ],
   "names": [
     "Chios"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.053,
+          38.414
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

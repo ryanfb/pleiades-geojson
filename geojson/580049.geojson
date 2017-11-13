@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Palaikastro",
   "id": "580049",
-  "description": "An ancient place, cited: BAtlas 59 B2 Palaikastro",
   "bbox": [
     26.2751276,
     35.194889,
     26.27598,
     35.196407
   ],
-  "reprPoint": [
-    26.2755538,
-    35.195648
-  ],
+  "description": "An ancient place, cited: BAtlas 59 B2 Palaikastro",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2755538,
+          35.195648
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               38.0
             ],
             [
-              23.5,
-              38.25
-            ],
-            [
-              23.75,
-              38.25
-            ],
-            [
               23.75,
               38.0
+            ],
+            [
+              23.75,
+              38.25
+            ],
+            [
+              23.5,
+              38.25
             ],
             [
               23.5,

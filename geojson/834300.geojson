@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Serboi",
   "id": "834300",
-  "description": "An ancient place, cited: BAtlas 85 E1 Serboi",
   "bbox": [
     47.0,
     46.0,
     48.0,
     47.0
   ],
-  "reprPoint": [
-    47.5,
-    46.5
-  ],
+  "description": "An ancient place, cited: BAtlas 85 E1 Serboi",
   "names": [
     "Serboi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               46.0
             ],
             [
-              47.0,
-              47.0
-            ],
-            [
-              48.0,
-              47.0
-            ],
-            [
               48.0,
               46.0
+            ],
+            [
+              48.0,
+              47.0
+            ],
+            [
+              47.0,
+              47.0
             ],
             [
               47.0,

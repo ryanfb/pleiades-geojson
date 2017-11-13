@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Macedonia",
   "id": "491656",
-  "description": "An ancient place, cited: BAtlas 50 A2 Macedonia",
   "bbox": [
     21.5,
     41.0,
     22.0,
     41.5
   ],
-  "reprPoint": [
-    21.75,
-    41.25
-  ],
+  "description": "An ancient place, cited: BAtlas 50 A2 Macedonia",
   "names": [
     "Macedonia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.75,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               41.0
             ],
             [
-              21.5,
-              41.5
-            ],
-            [
-              22.0,
-              41.5
-            ],
-            [
               22.0,
               41.0
+            ],
+            [
+              22.0,
+              41.5
+            ],
+            [
+              21.5,
+              41.5
             ],
             [
               21.5,

@@ -2,23 +2,32 @@
   "type": "FeatureCollection",
   "title": "Botti(ai)a/Emathia",
   "id": "491553",
-  "description": "A district surrounding Pella in Macedonia.",
   "bbox": [
     22.0,
     40.5,
     22.5,
     41.0
   ],
-  "reprPoint": [
-    22.25,
-    40.75
-  ],
+  "description": "A district surrounding Pella in Macedonia.",
   "names": [
     "Bottiaia",
     "Bottia",
     "Emathia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          40.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -29,16 +38,16 @@
               40.5
             ],
             [
-              22.0,
-              41.0
-            ],
-            [
-              22.5,
-              41.0
-            ],
-            [
               22.5,
               40.5
+            ],
+            [
+              22.5,
+              41.0
+            ],
+            [
+              22.0,
+              41.0
             ],
             [
               22.0,

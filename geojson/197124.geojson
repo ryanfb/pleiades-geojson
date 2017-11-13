@@ -2,25 +2,34 @@
   "type": "FeatureCollection",
   "title": "Apsyrtides (islands)",
   "id": "197124",
-  "description": "The Apsyrtides Islands, a group of Liburnian islands located east of Istria.",
   "bbox": [
     14.3291477,
     42.7752864,
     15.885196,
     44.860859
   ],
+  "description": "The Apsyrtides Islands, a group of Liburnian islands located east of Istria.",
   "connectsWith": [
     "1004"
-  ],
-  "reprPoint": [
-    15.10717185,
-    43.8180727
   ],
   "names": [
     "Apsyrtides",
     "Crepsi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.10717185,
+          43.8180727
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -31,16 +40,16 @@
               44.0
             ],
             [
-              14.0,
-              45.0
-            ],
-            [
-              15.0,
-              45.0
-            ],
-            [
               15.0,
               44.0
+            ],
+            [
+              15.0,
+              45.0
+            ],
+            [
+              14.0,
+              45.0
             ],
             [
               14.0,

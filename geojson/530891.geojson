@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Hieron Oros/Crania M.",
   "id": "530891",
-  "description": "An ancient place, cited: BAtlas 54 D3 Hieron Oros/Crania M.",
   "bbox": [
     21.0,
     39.0,
     21.5,
     39.5
   ],
-  "reprPoint": [
-    21.25,
-    39.25
-  ],
+  "description": "An ancient place, cited: BAtlas 54 D3 Hieron Oros/Crania M.",
   "names": [
     "Hieron Oros",
     "Crania M."
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.25,
+          39.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               39.0
             ],
             [
-              21.0,
-              39.5
-            ],
-            [
-              21.5,
-              39.5
-            ],
-            [
               21.5,
               39.0
+            ],
+            [
+              21.5,
+              39.5
+            ],
+            [
+              21.0,
+              39.5
             ],
             [
               21.0,

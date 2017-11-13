@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Sirmium",
   "id": "207447",
-  "description": "An ancient place, cited: BAtlas 21 B5 Sirmium",
   "bbox": [
     19.610106,
     44.966447,
     19.610106,
     44.966447
   ],
-  "reprPoint": [
-    19.610106,
-    44.966447
-  ],
+  "description": "An ancient place, cited: BAtlas 21 B5 Sirmium",
   "names": [
     "Sirmium",
     "Sremska Mitrovica"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.610106,
+          44.966447
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Boca do Rio",
   "id": "256027",
-  "description": "An ancient place, cited: BAtlas 26 B4 Boca do Rio",
   "bbox": [
     -8.810158,
     37.066024,
     -8.810158,
     37.066024
   ],
-  "reprPoint": [
-    -8.810158,
-    37.066024
-  ],
+  "description": "An ancient place, cited: BAtlas 26 B4 Boca do Rio",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.810158,
+          37.066024
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

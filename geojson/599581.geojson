@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Kos/Cos (island)",
   "id": "599581",
-  "description": "A large island in the Aegean Sea, lying off the modern Turkish coast near Bodrum (ancient Halicarnassus).",
   "bbox": [
     27.17,
     36.844,
     27.17,
     36.844
   ],
+  "description": "A large island in the Aegean Sea, lying off the modern Turkish coast near Bodrum (ancient Halicarnassus).",
   "connectsWith": [
     "599944"
-  ],
-  "reprPoint": [
-    27.17,
-    36.844
   ],
   "names": [
     "Cos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.17,
+          36.844
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

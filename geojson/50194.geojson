@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Palaeogoni/Serendivae",
   "id": "50194",
-  "description": "An ancient place, cited: BAtlas 5 inset Palaeogoni/Serendivae",
   "bbox": [
     75.0,
     5.0,
     85.0,
     15.0
   ],
-  "reprPoint": [
-    80.0,
-    10.0
-  ],
+  "description": "An ancient place, cited: BAtlas 5 inset Palaeogoni/Serendivae",
   "names": [
     "Palaeogoni",
     "Serendivae"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0,
+          10.0
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               5.0
             ],
             [
-              75.0,
-              15.0
-            ],
-            [
-              85.0,
-              15.0
-            ],
-            [
               85.0,
               5.0
+            ],
+            [
+              85.0,
+              15.0
+            ],
+            [
+              75.0,
+              15.0
             ],
             [
               75.0,

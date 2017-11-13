@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Limyra Bridge",
   "id": "640246",
-  "description": "A late-Roman bridge, ancient name unknown, located near the ancient city of Limyra in modern Turkey.",
   "bbox": [
     30.21186,
     36.350935,
     30.21186,
     36.350935
   ],
-  "reprPoint": [
-    30.21186,
-    36.350935
-  ],
+  "description": "A late-Roman bridge, ancient name unknown, located near the ancient city of Limyra in modern Turkey.",
   "names": [
     "Kırk Göz Kemeri"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.21186,
+          36.350935
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

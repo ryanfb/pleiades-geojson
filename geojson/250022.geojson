@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Mausoleum of Lucius Aemilius Lupus",
   "id": "250022",
-  "description": "A Roman tomb of one Lucius Aemilius Lupus.",
   "bbox": [
     0.1603771,
     41.1846648,
     0.1603771,
     41.1846648
   ],
-  "reprPoint": [
-    0.1603771,
-    41.1846648
-  ],
+  "description": "A Roman tomb of one Lucius Aemilius Lupus.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1603771,
+          41.1846648
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

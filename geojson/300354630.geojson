@@ -2,17 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sabzevār",
   "id": "300354630",
-  "description": "A place from the TAVO Index",
   "bbox": [
     57.0,
     36.0,
     58.0,
     37.0
   ],
-  "reprPoint": [
-    57.5,
-    36.5
-  ],
+  "description": "A place from the TAVO Index",
   "names": [
     "Sabzevār",
     "Sabzavār",
@@ -20,6 +16,19 @@
     "Baihaq"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          36.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -30,16 +39,16 @@
               36.0
             ],
             [
-              57.0,
-              37.0
-            ],
-            [
-              58.0,
-              37.0
-            ],
-            [
               58.0,
               36.0
+            ],
+            [
+              58.0,
+              37.0
+            ],
+            [
+              57.0,
+              37.0
             ],
             [
               57.0,

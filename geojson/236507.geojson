@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Lancienses Transcudani",
   "id": "236507",
-  "description": "An ancient place, cited: BAtlas 24 D4 Lancienses Transcudani",
   "bbox": [
     -8.0,
     40.0,
     -7.0,
     41.0
   ],
-  "reprPoint": [
-    -7.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 D4 Lancienses Transcudani",
   "names": [
     "Lancienses Transcudani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -8.0,
-              41.0
-            ],
-            [
-              -7.0,
-              41.0
-            ],
-            [
               -7.0,
               40.0
+            ],
+            [
+              -7.0,
+              41.0
+            ],
+            [
+              -8.0,
+              41.0
             ],
             [
               -8.0,

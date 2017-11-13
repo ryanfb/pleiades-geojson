@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Gebel el-Dakrur",
   "id": "716558",
-  "description": "An ancient place, cited: None",
   "bbox": [
     25.550082,
     29.183733,
     25.550082,
     29.183733
   ],
-  "reprPoint": [
-    25.550082,
-    29.183733
-  ],
+  "description": "An ancient place, cited: None",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.550082,
+          29.183733
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

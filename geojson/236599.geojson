@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Petra",
   "id": "236599",
-  "description": "An ancient place, cited: BAtlas 24 F4 Petra",
   "bbox": [
     -6.0,
     40.0,
     -5.0,
     41.0
   ],
-  "reprPoint": [
-    -5.5,
-    40.5
-  ],
+  "description": "An ancient place, cited: BAtlas 24 F4 Petra",
   "names": [
     "Petra"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5,
+          40.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               40.0
             ],
             [
-              -6.0,
-              41.0
-            ],
-            [
-              -5.0,
-              41.0
-            ],
-            [
               -5.0,
               40.0
+            ],
+            [
+              -5.0,
+              41.0
+            ],
+            [
+              -6.0,
+              41.0
             ],
             [
               -6.0,

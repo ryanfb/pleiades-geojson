@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "‘Aventia’ (river)",
   "id": "403184",
-  "description": "An ancient place, cited: BAtlas 41 C1 ‘Aventia’ fl.",
   "bbox": [
     10.0606235,
     44.0471586,
     10.0606235,
     44.0471586
   ],
-  "reprPoint": [
-    10.0606235,
-    44.0471586
-  ],
+  "description": "An ancient place, cited: BAtlas 41 C1 ‘Aventia’ fl.",
   "names": [
     "Aventia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0606235,
+          44.0471586
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              10.0,
-              44.5
-            ],
-            [
-              10.5,
-              44.5
-            ],
-            [
               10.5,
               44.0
+            ],
+            [
+              10.5,
+              44.5
+            ],
+            [
+              10.0,
+              44.5
             ],
             [
               10.0,

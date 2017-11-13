@@ -2,24 +2,33 @@
   "type": "FeatureCollection",
   "title": "Karthaia",
   "id": "570333",
-  "description": "An ancient place, cited: BAtlas 58 G2 Karthaia",
   "bbox": [
     24.330211,
     37.560259,
     24.330211,
     37.560259
   ],
+  "description": "An ancient place, cited: BAtlas 58 G2 Karthaia",
   "connectsWith": [
     "570348"
-  ],
-  "reprPoint": [
-    24.330211,
-    37.560259
   ],
   "names": [
     "Karthaia"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.330211,
+          37.560259
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

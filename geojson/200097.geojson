@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200097",
-  "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry group (near Flavia Solvia)",
   "bbox": [
     15.629721,
     46.736794,
     15.629721,
     46.736794
   ],
-  "reprPoint": [
-    15.629721,
-    46.736794
-  ],
+  "description": "An ancient place, cited: BAtlas 20 C3 unnamed quarry group (near Flavia Solvia)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.629721,
+          46.736794
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               46.0
             ],
             [
-              15.0,
-              47.0
-            ],
-            [
-              16.0,
-              47.0
-            ],
-            [
               16.0,
               46.0
+            ],
+            [
+              16.0,
+              47.0
+            ],
+            [
+              15.0,
+              47.0
             ],
             [
               15.0,

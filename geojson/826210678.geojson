@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Great Orme",
   "id": "826210678",
-  "description": "The Great Orme is a prominent limestone headland located in Llandudno on the north coast of Wales.",
   "bbox": [
     -3.8522262,
     53.332551,
     -3.8522262,
     53.332551
   ],
-  "reprPoint": [
-    -3.8522262,
-    53.332551
-  ],
+  "description": "The Great Orme is a prominent limestone headland located in Llandudno on the north coast of Wales.",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8522262,
+          53.332551
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

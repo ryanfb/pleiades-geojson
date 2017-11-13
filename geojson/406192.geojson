@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "An unnamed quarry on Ilva",
   "id": "406192",
-  "description": "An ancient place, cited: BAtlas 41 C4 unnamed quarry (Ilva)",
   "bbox": [
     10.240833,
     42.761833,
     10.240833,
     42.761833
   ],
+  "description": "An ancient place, cited: BAtlas 41 C4 unnamed quarry (Ilva)",
   "connectsWith": [
     "403222"
   ],
-  "reprPoint": [
-    10.240833,
-    42.761833
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.240833,
+          42.761833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.5
             ],
             [
-              10.0,
-              43.0
-            ],
-            [
-              10.5,
-              43.0
-            ],
-            [
               10.5,
               42.5
+            ],
+            [
+              10.5,
+              43.0
+            ],
+            [
+              10.0,
+              43.0
             ],
             [
               10.0,

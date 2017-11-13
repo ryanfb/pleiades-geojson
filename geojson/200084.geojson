@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "200084",
-  "description": "An ancient place, cited: BAtlas 20 A5 unnamed quarry group (near Pola)",
   "bbox": [
     13.0,
     44.0,
     14.0,
     45.0
   ],
-  "reprPoint": [
-    13.5,
-    44.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 A5 unnamed quarry group (near Pola)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          44.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               44.0
             ],
             [
-              13.0,
-              45.0
-            ],
-            [
-              14.0,
-              45.0
-            ],
-            [
               14.0,
               44.0
+            ],
+            [
+              14.0,
+              45.0
+            ],
+            [
+              13.0,
+              45.0
             ],
             [
               13.0,

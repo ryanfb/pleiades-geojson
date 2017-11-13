@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sanaraioi",
   "id": "863883",
-  "description": "An ancient place, cited: BAtlas 88 E2 Sanaraioi",
   "bbox": [
     46.0,
     42.0,
     47.0,
     43.0
   ],
-  "reprPoint": [
-    46.5,
-    42.5
-  ],
+  "description": "An ancient place, cited: BAtlas 88 E2 Sanaraioi",
   "names": [
     "Sanaraioi"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          42.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               42.0
             ],
             [
-              46.0,
-              43.0
-            ],
-            [
-              47.0,
-              43.0
-            ],
-            [
               47.0,
               42.0
+            ],
+            [
+              47.0,
+              43.0
+            ],
+            [
+              46.0,
+              43.0
             ],
             [
               46.0,

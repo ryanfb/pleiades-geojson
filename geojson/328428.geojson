@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "328428",
-  "description": "Hadrumetum → Vicus Augusti? → Aquae Regiae → Masclianae → Sufetula",
   "bbox": [
     9.118569,
     35.2355943,
     10.63878,
     36.636684
   ],
-  "reprPoint": [
-    9.65247061333,
-    35.7361634733
-  ],
+  "description": "Hadrumetum → Vicus Augusti? → Aquae Regiae → Masclianae → Sufetula",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.65247061333,
+          35.7361634733
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               34.0
             ],
             [
-              7.5,
-              36.0
-            ],
-            [
-              11.5,
-              36.0
-            ],
-            [
               11.5,
               34.0
+            ],
+            [
+              11.5,
+              36.0
+            ],
+            [
+              7.5,
+              36.0
             ],
             [
               7.5,

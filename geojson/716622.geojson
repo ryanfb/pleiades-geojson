@@ -2,22 +2,31 @@
   "type": "FeatureCollection",
   "title": "Phokoussai/Delphines (islands)",
   "id": "716622",
-  "description": "A group of small islands off the ancient Libyan coast, near Paraetonium and Apis. The modern Umm el-Rakham reef.",
   "bbox": [
     27.0,
     31.0,
     28.0,
     32.0
   ],
-  "reprPoint": [
-    27.5,
-    31.5
-  ],
+  "description": "A group of small islands off the ancient Libyan coast, near Paraetonium and Apis. The modern Umm el-Rakham reef.",
   "names": [
     "Phokoussai",
     "Delphines"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -28,16 +37,16 @@
               31.0
             ],
             [
-              27.0,
-              32.0
-            ],
-            [
-              28.0,
-              32.0
-            ],
-            [
               28.0,
               31.0
+            ],
+            [
+              28.0,
+              32.0
+            ],
+            [
+              27.0,
+              32.0
             ],
             [
               27.0,

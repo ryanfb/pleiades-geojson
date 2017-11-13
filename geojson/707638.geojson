@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Trikomon",
   "id": "707638",
-  "description": "An ancient place, cited: BAtlas 72 D2 Trikomon",
   "bbox": [
     33.914361,
     35.309392,
     33.914361,
     35.309392
   ],
+  "description": "An ancient place, cited: BAtlas 72 D2 Trikomon",
   "connectsWith": [
     "707498"
   ],
-  "reprPoint": [
-    33.914361,
-    35.309392
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.914361,
+          35.309392
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

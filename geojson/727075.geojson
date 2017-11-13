@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Arabia Nomos",
   "id": "727075",
-  "description": "An ancient place, cited: BAtlas 74 F3 Arabia Nomos",
   "bbox": [
     31.5,
     30.5,
     32.0,
     31.0
   ],
-  "reprPoint": [
-    31.75,
-    30.75
-  ],
+  "description": "An ancient place, cited: BAtlas 74 F3 Arabia Nomos",
   "names": [
     "Arabia Nomos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          30.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               30.5
             ],
             [
-              31.5,
-              31.0
-            ],
-            [
-              32.0,
-              31.0
-            ],
-            [
               32.0,
               30.5
+            ],
+            [
+              32.0,
+              31.0
+            ],
+            [
+              31.5,
+              31.0
             ],
             [
               31.5,

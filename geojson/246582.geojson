@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Pyrenaei (mountains)",
   "id": "246582",
-  "description": "The Pyrenees Mountains separate the Iberian Peninsula from the rest of continental Europe. The mountain ranges extends from the Bay of Biscay to Cap de Creus, for an extent of 491 km (305 miles).",
   "bbox": [
     1.0,
     42.67,
     1.0,
     42.67
   ],
+  "description": "The Pyrenees Mountains separate the Iberian Peninsula from the rest of continental Europe. The mountain ranges extends from the Bay of Biscay to Cap de Creus, for an extent of 491 km (305 miles).",
   "connectsWith": [
     "993"
-  ],
-  "reprPoint": [
-    1.0,
-    42.67
   ],
   "names": [
     "Pyrenaei M.",
@@ -24,6 +20,19 @@
     "Pyrénées"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0,
+          42.67
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

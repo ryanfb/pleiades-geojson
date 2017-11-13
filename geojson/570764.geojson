@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sanctuary of Zeus Lykaios",
   "id": "570764",
-  "description": "The sanctuary of Zeus Lykaios on Mt. Lykaion.",
   "bbox": [
     21.988863,
     37.446624,
     21.995469,
     37.452038
   ],
+  "description": "The sanctuary of Zeus Lykaios on Mt. Lykaion.",
   "connectsWith": [
     "570441"
   ],
-  "reprPoint": [
-    21.993144,
-    37.4490053333
-  ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.993144,
+          37.4490053333
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

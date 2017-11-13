@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Themistou Meris",
   "id": "737082",
-  "description": "An ancient place, cited: BAtlas 75 D2 Themistou Meris",
   "bbox": [
     30.5,
     29.0,
     31.0,
     29.5
   ],
-  "reprPoint": [
-    30.75,
-    29.25
-  ],
+  "description": "An ancient place, cited: BAtlas 75 D2 Themistou Meris",
   "names": [
     "Themistou Meris"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.75,
+          29.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               29.0
             ],
             [
-              30.5,
-              29.5
-            ],
-            [
-              31.0,
-              29.5
-            ],
-            [
               31.0,
               29.0
+            ],
+            [
+              31.0,
+              29.5
+            ],
+            [
+              30.5,
+              29.5
             ],
             [
               30.5,

@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Tekke",
   "id": "857346",
-  "description": "An ancient place, cited: BAtlas 87 A4 Tekke",
   "bbox": [
     35.105866,
     40.360567,
     35.105866,
     40.360567
   ],
-  "reprPoint": [
-    35.105866,
-    40.360567
-  ],
+  "description": "An ancient place, cited: BAtlas 87 A4 Tekke",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.105866,
+          40.360567
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

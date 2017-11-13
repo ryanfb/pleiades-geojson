@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "title": "Samosata",
   "id": "658587",
-  "description": "An ancient city located on the West bank of the Euphrates river, established perhaps as early as the Hittite period. Its ruins, known in modern times as Samsat (Turkey), were submerged following the construction of the Atatürk Dam in the early 1990s. The modern village of Samsat was relocated and is not coincident with the ancient site.",
   "bbox": [
     38.530357,
     37.525756,
     38.530357,
     37.525756
   ],
+  "description": "An ancient city located on the West bank of the Euphrates river, established perhaps as early as the Hittite period. Its ruins, known in modern times as Samsat (Turkey), were submerged following the construction of the Atatürk Dam in the early 1990s. The modern village of Samsat was relocated and is not coincident with the ancient site.",
   "connectsWith": [
     "661414",
     "661406",
@@ -17,10 +17,6 @@
     "661402",
     "661407",
     "661388"
-  ],
-  "reprPoint": [
-    38.530357,
-    37.525756
   ],
   "names": [
     "Samosata",
@@ -41,6 +37,19 @@
     "III Gallica (Hadr.)"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.530357,
+          37.525756
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

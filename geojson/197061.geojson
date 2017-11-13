@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ad Fines",
   "id": "197061",
-  "description": "An ancient place, cited: BAtlas 20 E5 Ad Fines",
   "bbox": [
     17.301666,
     44.906786,
     17.301666,
     44.906786
   ],
-  "reprPoint": [
-    17.301666,
-    44.906786
-  ],
+  "description": "An ancient place, cited: BAtlas 20 E5 Ad Fines",
   "names": [
     "Ad Fines"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.301666,
+          44.906786
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              17.0,
-              45.0
-            ],
-            [
-              18.0,
-              45.0
-            ],
-            [
               18.0,
               44.0
+            ],
+            [
+              18.0,
+              45.0
+            ],
+            [
+              17.0,
+              45.0
             ],
             [
               17.0,

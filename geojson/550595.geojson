@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Ilium/Troia",
   "id": "550595",
-  "description": "An ancient city of northwest Anatolia with occupation ranging from the Bronze Age to the Roman period. Troy features as the central setting of Homer's Iliad.",
   "bbox": [
     26.238889,
     39.9575,
     26.238889,
     39.9575
   ],
+  "description": "An ancient city of northwest Anatolia with occupation ranging from the Bronze Age to the Roman period. Troy features as the central setting of Homer's Iliad.",
   "connectsWith": [
     "550944"
-  ],
-  "reprPoint": [
-    26.238889,
-    39.9575
   ],
   "names": [
     "Ilium",
@@ -24,6 +20,19 @@
     "Troía"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.238889,
+          39.9575
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

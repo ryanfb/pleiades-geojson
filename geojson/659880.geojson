@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Untitled",
   "id": "659880",
-  "description": "An ancient place, cited: BAtlas 67 D3 unnamed bridge group (near Cyrrus)",
   "bbox": [
     36.5,
     36.5,
     37.0,
     37.0
   ],
-  "reprPoint": [
-    36.75,
-    36.75
-  ],
+  "description": "An ancient place, cited: BAtlas 67 D3 unnamed bridge group (near Cyrrus)",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          36.75
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               36.5
             ],
             [
-              36.5,
-              37.0
-            ],
-            [
-              37.0,
-              37.0
-            ],
-            [
               37.0,
               36.5
+            ],
+            [
+              37.0,
+              37.0
+            ],
+            [
+              36.5,
+              37.0
             ],
             [
               36.5,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Celtici",
   "id": "256090",
-  "description": "An ancient place, cited: BAtlas 26 C2 Celtici",
   "bbox": [
     -8.0,
     39.0,
     -7.0,
     40.0
   ],
-  "reprPoint": [
-    -7.5,
-    39.5
-  ],
+  "description": "An ancient place, cited: BAtlas 26 C2 Celtici",
   "names": [
     "Celtici"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               39.0
             ],
             [
-              -8.0,
-              40.0
-            ],
-            [
-              -7.0,
-              40.0
-            ],
-            [
               -7.0,
               39.0
+            ],
+            [
+              -7.0,
+              40.0
+            ],
+            [
+              -8.0,
+              40.0
             ],
             [
               -8.0,

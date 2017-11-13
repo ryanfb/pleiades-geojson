@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Ain Hersha",
   "id": "678007",
-  "description": "An ancient place, cited: BAtlas 69 C3 Ain Hersha",
   "bbox": [
     35.786843,
     33.458366,
     35.786843,
     33.458366
   ],
-  "reprPoint": [
-    35.786843,
-    33.458366
-  ],
+  "description": "An ancient place, cited: BAtlas 69 C3 Ain Hersha",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.786843,
+          33.458366
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

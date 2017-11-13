@@ -2,25 +2,35 @@
   "type": "FeatureCollection",
   "title": "Verrugo",
   "id": "438872",
-  "description": "Verrugo was a Volscian settlement at the borders of Latium. Its location is now uncertain.",
   "bbox": [
     13.0,
     41.0,
     13.5,
     41.5
   ],
+  "description": "Verrugo was a Volscian settlement at the borders of Latium. Its location is now uncertain.",
   "connectsWith": [
     "433208"
-  ],
-  "reprPoint": [
-    13.25,
-    41.25
   ],
   "names": [
     "Verrugo"
   ],
   "features": [
     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          41.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": null,
       "id": "batlas-location",
       "type": "Feature",
       "properties": {

@@ -2,19 +2,15 @@
   "type": "FeatureCollection",
   "title": "Nilus (river)",
   "id": "727172",
-  "description": "The Nile is a major river of northeastern Africa and is generally acknowledged as the longest river in the world, measuring some 6,650 km (4,130 miles) from source to mouth.",
   "bbox": [
     29.331389,
     -2.282222,
     31.2705999,
     30.166667
   ],
+  "description": "The Nile is a major river of northeastern Africa and is generally acknowledged as the longest river in the world, measuring some 6,650 km (4,130 miles) from source to mouth.",
   "connectsWith": [
     "1043"
-  ],
-  "reprPoint": [
-    30.5673296333,
-    19.2114087667
   ],
   "names": [
     "Nilus",
@@ -26,6 +22,19 @@
     "Neilos"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5673296333,
+          19.2114087667
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

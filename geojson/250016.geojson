@@ -2,18 +2,27 @@
   "type": "FeatureCollection",
   "title": "Villa dels Munts",
   "id": "250016",
-  "description": "An ancient place, cited: BAtlas 25 G4 no. 110 (Els Munts (Altafulla))",
   "bbox": [
     1.373,
     41.133833,
     1.373,
     41.133833
   ],
-  "reprPoint": [
-    1.373,
-    41.133833
-  ],
+  "description": "An ancient place, cited: BAtlas 25 G4 no. 110 (Els Munts (Altafulla))",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.373,
+          41.133833
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -24,16 +33,16 @@
               41.0
             ],
             [
-              1.0,
-              42.0
-            ],
-            [
-              2.0,
-              42.0
-            ],
-            [
               2.0,
               41.0
+            ],
+            [
+              2.0,
+              42.0
+            ],
+            [
+              1.0,
+              42.0
             ],
             [
               1.0,

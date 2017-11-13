@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Salona",
   "id": "197488",
-  "description": "A coastal city of Dalmatia.",
   "bbox": [
     16.4804508,
     43.5358659,
     16.4841672,
     43.5421187
   ],
+  "description": "A coastal city of Dalmatia.",
   "connectsWith": [
     "197240",
     "481865",
     "1004"
-  ],
-  "reprPoint": [
-    16.48265865,
-    43.539346025
   ],
   "names": [
     "Salona",
     "Solin"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.48265865,
+          43.539346025
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Point",

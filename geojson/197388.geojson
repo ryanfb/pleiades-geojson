@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "*Murius (river)",
   "id": "197388",
-  "description": "An ancient place, cited: BAtlas 20 B2 *Murius fl.",
   "bbox": [
     14.0,
     47.0,
     15.0,
     48.0
   ],
-  "reprPoint": [
-    14.5,
-    47.5
-  ],
+  "description": "An ancient place, cited: BAtlas 20 B2 *Murius fl.",
   "names": [
     "Murius"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               47.0
             ],
             [
-              14.0,
-              48.0
-            ],
-            [
-              15.0,
-              48.0
-            ],
-            [
               15.0,
               47.0
+            ],
+            [
+              15.0,
+              48.0
+            ],
+            [
+              14.0,
+              48.0
             ],
             [
               14.0,

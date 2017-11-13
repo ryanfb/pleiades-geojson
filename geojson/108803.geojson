@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Bellovaci",
   "id": "108803",
-  "description": "The Bellovaci were a tribe of Gallia Belgica.",
   "bbox": [
     2.080574,
     49.428224,
     2.081508,
     49.432583
   ],
-  "reprPoint": [
-    2.081041,
-    49.4304035
-  ],
+  "description": "The Bellovaci were a tribe of Gallia Belgica.",
   "names": [
     "Bellovaci"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.081041,
+          49.4304035
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               49.0
             ],
             [
-              1.0,
-              50.0
-            ],
-            [
-              2.0,
-              50.0
-            ],
-            [
               2.0,
               49.0
+            ],
+            [
+              2.0,
+              50.0
+            ],
+            [
+              1.0,
+              50.0
             ],
             [
               1.0,

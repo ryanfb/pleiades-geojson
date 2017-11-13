@@ -2,24 +2,35 @@
   "type": "FeatureCollection",
   "title": "Caelius Mons",
   "id": "695491849",
-  "description": "The Caelian Hill in Rome.",
   "bbox": [
     12.486137,
     41.8855803,
     12.4951854,
     41.891775
   ],
+  "description": "The Caelian Hill in Rome.",
   "connectsWith": [
     "423025"
-  ],
-  "reprPoint": [
-    12.4913007759,
-    41.8875509768
   ],
   "names": [
     "Caelius Mons",
     "Caelian Hill",
     "to Kailion oros",
     "Monte Celio"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4913007759,
+          41.8875509768
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    }
   ]
 }

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Ad Fines",
   "id": "403172",
-  "description": "An ancient place, cited: BAtlas 41 C3 Ad Fines",
   "bbox": [
     10.0,
     43.0,
     10.5,
     43.5
   ],
-  "reprPoint": [
-    10.25,
-    43.25
-  ],
+  "description": "An ancient place, cited: BAtlas 41 C3 Ad Fines",
   "names": [
     "Ad Fines"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25,
+          43.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               43.0
             ],
             [
-              10.0,
-              43.5
-            ],
-            [
-              10.5,
-              43.5
-            ],
-            [
               10.5,
               43.0
+            ],
+            [
+              10.5,
+              43.5
+            ],
+            [
+              10.0,
+              43.5
             ],
             [
               10.0,

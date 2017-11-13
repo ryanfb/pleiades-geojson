@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Vesubiani",
   "id": "157948",
-  "description": "An ancient place, cited: BAtlas 16 D1 Vesubiani",
   "bbox": [
     7.0,
     44.0,
     7.5,
     44.5
   ],
-  "reprPoint": [
-    7.25,
-    44.25
-  ],
+  "description": "An ancient place, cited: BAtlas 16 D1 Vesubiani",
   "names": [
     "Vesubiani"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          44.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               44.0
             ],
             [
-              7.0,
-              44.5
-            ],
-            [
-              7.5,
-              44.5
-            ],
-            [
               7.5,
               44.0
+            ],
+            [
+              7.5,
+              44.5
+            ],
+            [
+              7.0,
+              44.5
             ],
             [
               7.0,

@@ -2,21 +2,30 @@
   "type": "FeatureCollection",
   "title": "Clenna (river)",
   "id": "383619",
-  "description": "An ancient place, cited: BAtlas 39 F3 Clenna fl.",
   "bbox": [
     9.5,
     45.0,
     10.0,
     45.5
   ],
-  "reprPoint": [
-    9.75,
-    45.25
-  ],
+  "description": "An ancient place, cited: BAtlas 39 F3 Clenna fl.",
   "names": [
     "Clenna"
   ],
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75,
+          45.25
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
     {
       "geometry": {
         "type": "Polygon",
@@ -27,16 +36,16 @@
               45.0
             ],
             [
-              9.5,
-              45.5
-            ],
-            [
-              10.0,
-              45.5
-            ],
-            [
               10.0,
               45.0
+            ],
+            [
+              10.0,
+              45.5
+            ],
+            [
+              9.5,
+              45.5
             ],
             [
               9.5,
