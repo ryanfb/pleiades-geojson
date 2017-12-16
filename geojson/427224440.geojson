@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Al-Hijr (Madâin Sâlih)",
+  "title": "Erroneous Duplicate: Al-Hijr (Madâin Sâlih)",
   "id": "427224440",
   "bbox": [
     37.952778,
     26.791667,
-    37.952778,
-    26.791667
+    37.9698741,
+    26.7930777
   ],
   "description": "This place was published as an unintended duplicate of https://pleiades.stoa.org/places/814675/.",
+  "names": [
+    "Mada'in Salih"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.952778,
-          26.791667
+          37.96132605,
+          26.79237235
         ]
       },
       "properties": {
@@ -37,7 +40,24 @@
         "description": "Coordinates following GeoHack, verified in Google Earth 2012.",
         "location_precision": "precise",
         "title": "GeoHack location of Madâin Sâlih",
-        "link": "http://pleiades.stoa.org/places/427224440/location-of-madain-salih"
+        "link": "http://pleiades.stoa.org/errata/427224440/location-of-madain-salih"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9698741,
+          26.7930777
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/errata/427224440/osm-location"
       }
     }
   ]
