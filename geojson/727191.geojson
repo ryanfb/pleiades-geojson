@@ -3,10 +3,10 @@
   "title": "Pelousiakon Stoma",
   "id": "727191",
   "bbox": [
-    29.331389,
-    -2.282222,
-    31.2705999,
-    30.166667
+    32.5824,
+    31.062,
+    32.5824,
+    31.062
   ],
   "description": "The easternmost ancient mouth of the Nile River.",
   "connectsWith": [
@@ -18,7 +18,8 @@
     "Pēlousiakon Stoma",
     "Pēlousion Stoma",
     "Pēlousiakon stoma",
-    "Pelusinische Mündung"
+    "Pelusinische Mündung",
+    "Pelusiacum ostium"
   ],
   "features": [
     {
@@ -26,8 +27,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.5673296333,
-          19.2114087667
+          32.5824,
+          31.062
         ]
       },
       "properties": {
@@ -36,39 +37,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              32.5,
-              31.0
-            ],
-            [
-              33.0,
-              31.0
-            ],
-            [
-              33.0,
-              31.5
-            ],
-            [
-              32.5,
-              31.5
-            ],
-            [
-              32.5,
-              31.0
-            ]
-          ]
+          32.5824,
+          31.062
         ]
       },
-      "id": "undetermined",
+      "id": "aalac-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727191/undetermined"
+        "description": "Location as from the AWMC's Antiquity À-la Carte.",
+        "location_precision": "precise",
+        "title": "AAlaC Location",
+        "link": "http://pleiades.stoa.org/places/727191/aalac-location"
       }
     }
   ]

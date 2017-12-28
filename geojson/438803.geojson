@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Pedum",
   "id": "438803",
+  "bbox": [
+    12.7413118,
+    41.8541857,
+    12.8453688,
+    41.9119471
+  ],
   "description": "Pedum was an ancient city of Latium that was part of the Latin League. Located between Tibur and Praeneste, its precise location is now unknown. Some suggest that modern Gallicano is the site of the ancient city.",
   "connectsWith": [
     "622606468"
@@ -12,20 +18,116 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7953454646,
+          41.8811019381
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.833073,
+              41.8541857
+            ],
+            [
+              12.8340126,
+              41.8542934
+            ],
+            [
+              12.8439746,
+              41.8623788
+            ],
+            [
+              12.8441111,
+              41.8625349
+            ],
+            [
+              12.8446706,
+              41.8631749
+            ],
+            [
+              12.8453688,
+              41.864259
+            ],
+            [
+              12.8395175,
+              41.8715053
+            ],
+            [
+              12.8389967,
+              41.8720793
+            ],
+            [
+              12.801931,
+              41.9002299
+            ],
+            [
+              12.7947991,
+              41.9038337
+            ],
+            [
+              12.7763182,
+              41.9119471
+            ],
+            [
+              12.7701693,
+              41.9095209
+            ],
+            [
+              12.7495299,
+              41.9012439
+            ],
+            [
+              12.7413118,
+              41.8979232
+            ],
+            [
+              12.7418815,
+              41.8964296
+            ],
+            [
+              12.742896,
+              41.8943267
+            ],
+            [
+              12.7631714,
+              41.8754304
+            ],
+            [
+              12.7699399,
+              41.86948
+            ],
+            [
+              12.7725265,
+              41.867508
+            ],
+            [
+              12.7783979,
+              41.8630401
+            ],
+            [
+              12.833073,
+              41.8541857
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-gallicano-nel-lazio",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438803/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Gallicano nel Lazio",
+        "link": "http://pleiades.stoa.org/places/438803/osm-location-of-gallicano-nel-lazio"
       }
     }
   ]
