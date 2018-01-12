@@ -3,15 +3,16 @@
   "title": "Cutha",
   "id": "893977",
   "bbox": [
-    44.611795,
-    32.761262,
-    44.611795,
-    32.761262
+    44.6081393,
+    32.7569848,
+    44.615215,
+    32.764505
   ],
-  "description": "An ancient place, cited: BAtlas 91 F5 Cutha",
+  "description": "Kutha or Cutha (modern Tell Ibrahim) is located on the Upper Euphrates, north of Nippur and northeast of Babylon. The archaeological site consists of two tells. Archaeological evidence of the Neo-Babylonian period has been revealed by excavation.",
   "names": [
     "Cutha",
-    "Kūtû"
+    "Kūtû",
+    "Tell Ibrahim"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.611795,
-          32.761262
+          44.6115870118,
+          32.7609196481
         ]
       },
       "properties": {
@@ -29,19 +30,75 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          44.611795,
-          32.761262
+          [
+            [
+              44.6131057,
+              32.7569848
+            ],
+            [
+              44.615097,
+              32.7586225
+            ],
+            [
+              44.6151568,
+              32.7588524
+            ],
+            [
+              44.615215,
+              32.7592721
+            ],
+            [
+              44.6148287,
+              32.7625833
+            ],
+            [
+              44.611653,
+              32.7641712
+            ],
+            [
+              44.6106338,
+              32.764505
+            ],
+            [
+              44.6092712,
+              32.7643606
+            ],
+            [
+              44.6089386,
+              32.7642253
+            ],
+            [
+              44.6083861,
+              32.763296
+            ],
+            [
+              44.6081661,
+              32.761027
+            ],
+            [
+              44.6081393,
+              32.7604856
+            ],
+            [
+              44.6110415,
+              32.7577022
+            ],
+            [
+              44.6131057,
+              32.7569848
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-22489",
+      "id": "osm-location-of-tell-ibrahim",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative location based on an OpenStreetMap way tracing the outline of the tell.",
         "location_precision": "precise",
-        "title": "DARMC location 22489",
-        "link": "http://pleiades.stoa.org/places/893977/darmc-location-22489"
+        "title": "OSM location of Tell Ibrahim",
+        "link": "http://pleiades.stoa.org/places/893977/osm-location-of-tell-ibrahim"
       }
     }
   ]
