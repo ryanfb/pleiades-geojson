@@ -1,14 +1,11 @@
 {
   "type": "FeatureCollection",
-  "title": "Aegyptus",
+  "title": "Aegyptus (Roman imperial province)",
   "id": "766",
-  "bbox": [
-    30.0,
-    30.0,
-    35.0,
-    35.0
-  ],
   "description": "The Roman province of Egypt (Aegyptus) was established in 30 BC after the defeat of Marcus Antonius and Cleopatra VII at the Battle of Actium.",
+  "connectsWith": [
+    "981503"
+  ],
   "names": [
     "Aegyptus",
     "Aegyptus"
@@ -16,52 +13,9 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.5,
-          32.5
-        ]
-      },
+      "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              30.0,
-              30.0
-            ],
-            [
-              35.0,
-              30.0
-            ],
-            [
-              35.0,
-              35.0
-            ],
-            [
-              30.0,
-              35.0
-            ],
-            [
-              30.0,
-              30.0
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/766/batlas-location"
       }
     }
   ]
