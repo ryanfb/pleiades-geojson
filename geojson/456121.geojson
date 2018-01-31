@@ -2,7 +2,11 @@
   "type": "FeatureCollection",
   "title": "Semuncla",
   "id": "456121",
-  "description": "An ancient place, cited: BAtlas 46 unlocated Semuncla",
+  "description": "A road station during the Roman period, attested by the Antonine Itinerary. Its exact location is not known today, but may have been in the Upper Sinni Valley in southern Italy.",
+  "connectsWith": [
+    "442603",
+    "452390"
+  ],
   "names": [
     "Semuncla"
   ],
@@ -12,17 +16,6 @@
       "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/456121/batlas-location"
       }
     }
   ]

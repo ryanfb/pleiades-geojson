@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "title": "Parthenon",
+  "id": "168254096",
+  "bbox": [
+    23.7261042,
+    37.9713017,
+    23.7270751,
+    37.9718049
+  ],
+  "description": "The poliadic temple of Athena located on the Athenian Acropolis and constructed at the height of Athenian power between 447 and 432 BCE. The Parthenon is the largest Doric temple in mainland Greece.",
+  "connectsWith": [
+    "638356144",
+    "579885"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7265843383,
+          37.9715576682
+        ]
+      },
+      "properties": {
+        "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.7262007,
+              37.9713017
+            ],
+            [
+              23.7270751,
+              37.9714709
+            ],
+            [
+              23.7269705,
+              37.9718049
+            ],
+            [
+              23.7261042,
+              37.9716591
+            ],
+            [
+              23.7262007,
+              37.9713017
+            ]
+          ]
+        ]
+      },
+      "id": "parthenon",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygon representing the boundaries of the Parthenon structure, derived from an OpenStreetMap Way.",
+        "location_precision": "precise",
+        "title": "OSM location of the Parthenon",
+        "link": "http://pleiades.stoa.org/places/168254096/parthenon"
+      }
+    }
+  ]
+}

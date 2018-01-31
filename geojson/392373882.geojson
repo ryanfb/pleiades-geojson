@@ -3,14 +3,16 @@
   "title": "Sippar-Amnanum",
   "id": "392373882",
   "bbox": [
-    44.29,
-    33.1,
-    44.29,
-    33.1
+    44.2946331,
+    33.0950111,
+    44.3054907,
+    33.1033697
   ],
   "description": "Sippar-Amnanum, located at modern Tell ed-Der, was an ancient city of the Old Babylonian period and the sister city of Sippar.",
   "names": [
-    "Tell ed-Dēr"
+    "Sippar-Annunitum",
+    "Tell ed-Dēr",
+    "Sippar-Annunītu"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.29,
-          33.1
+          44.2993863073,
+          33.0993821503
         ]
       },
       "properties": {
@@ -28,19 +30,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          44.29,
-          33.1
+          [
+            [
+              44.299268,
+              33.0950111
+            ],
+            [
+              44.3054907,
+              33.0990916
+            ],
+            [
+              44.305319,
+              33.0994871
+            ],
+            [
+              44.3045466,
+              33.1001342
+            ],
+            [
+              44.2956845,
+              33.1033697
+            ],
+            [
+              44.2952768,
+              33.1033697
+            ],
+            [
+              44.2946331,
+              33.1025609
+            ],
+            [
+              44.2948477,
+              33.0996669
+            ],
+            [
+              44.2965858,
+              33.0965211
+            ],
+            [
+              44.299268,
+              33.0950111
+            ]
+          ]
         ]
       },
-      "id": "sippar-amnanum",
+      "id": "osm-location-of-tell-ed-der",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on an OpenStreetMap way tracing the outline of the tell.",
         "location_precision": "precise",
-        "title": "Imagery location of Sippar-Amnanum",
-        "link": "http://pleiades.stoa.org/places/392373882/sippar-amnanum"
+        "title": "OSM location of Tell ed-Der",
+        "link": "http://pleiades.stoa.org/places/392373882/osm-location-of-tell-ed-der"
       }
     }
   ]
