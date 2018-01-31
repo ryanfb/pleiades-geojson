@@ -3,13 +3,15 @@
   "title": "Antiochia/Theoupolis",
   "id": "658381",
   "bbox": [
-    36.15818,
-    36.200663,
     36.165318,
-    36.202097
+    36.200663,
+    36.20111,
+    36.24444
   ],
   "description": "A city founded ca. 300 BC by Seleucus I Nicator, a successor of Alexander the Great. Antioch was a great trading center and numbered as one of the four cities of the Syrian tetrapolis. Justinian I renamed the city 'Theoupolis' in the sixth century AD.",
   "connectsWith": [
+    "658560",
+    "661388",
     "658560",
     "661388"
   ],
@@ -38,29 +40,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.161749,
-          36.20138
+          36.183214,
+          36.2225515
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.15818,
-          36.202097
-        ]
-      },
-      "id": "darmc-location-34873",
-      "type": "Feature",
-      "properties": {
-        "description": "  scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 34873",
-        "link": "http://pleiades.stoa.org/places/658381/darmc-location-34873"
       }
     },
     {
@@ -78,6 +63,23 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/658381/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.20111,
+          36.24444
+        ]
+      },
+      "id": "antakya-ilcesi",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames location of Antakya İlçesi",
+        "link": "http://pleiades.stoa.org/places/658381/antakya-ilcesi"
       }
     }
   ]
