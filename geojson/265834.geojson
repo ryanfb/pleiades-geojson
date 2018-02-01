@@ -5,8 +5,8 @@
   "bbox": [
     -4.834583,
     39.95945,
-    -4.834583,
-    39.95945
+    -4.8299634,
+    39.96071
   ],
   "description": "An ancient place, cited: BAtlas 27 A2 Caesarobriga",
   "connectsWith": [
@@ -14,7 +14,9 @@
     "256463"
   ],
   "names": [
-    "Caesarobriga"
+    "Caesarobriga",
+    "Talauera",
+    "Talavera de la Reina"
   ],
   "features": [
     {
@@ -22,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.834583,
-          39.95945
+          -4.8322732,
+          39.96008
         ]
       },
       "properties": {
@@ -41,10 +43,27 @@
       "id": "darmc-location-20088",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 20088",
         "link": "http://pleiades.stoa.org/places/265834/darmc-location-20088"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8299634,
+          39.96071
+        ]
+      },
+      "id": "osm-location-of-modern-talavera-de-la-reina",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Talavera de la Reina",
+        "link": "http://pleiades.stoa.org/places/265834/osm-location-of-modern-talavera-de-la-reina"
       }
     }
   ]
