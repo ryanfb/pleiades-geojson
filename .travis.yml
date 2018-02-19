@@ -7,7 +7,7 @@ branches:
 before_script:
   - npm install -g ndgeojson-lint
   - npm install -g jsonlint
-  - npm install -g nomnom
+  - npm install -g @gerhobbelt/nomnom
 script:
   - jsonlint -q name_index.json
   - find geojson -name '*.geojson' -exec cat {} \; | jq -c . | ndgeojson-lint
