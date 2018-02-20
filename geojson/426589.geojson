@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Ponte di Vallerano",
   "id": "426589",
   "bbox": [
-    12.25,
-    41.75,
-    12.5,
-    42.0
+    12.445345,
+    41.826733,
+    12.445345,
+    41.826733
   ],
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 13 (bridge at Tor di Valle)",
+  "description": "The Ponte di Vallerano is a second century Roman bridge that carried the via Ostiensis across the fosso di Vallerano.",
+  "connectsWith": [
+    "390205932"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.375,
-          41.875
+          12.445345,
+          41.826733
         ]
       },
       "properties": {
@@ -25,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.25,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.25,
-              42.0
-            ],
-            [
-              12.25,
-              41.75
-            ]
-          ]
+          12.445345,
+          41.826733
         ]
       },
-      "id": "batlas-location",
+      "id": "geohack-location-of-ponte-di-vallerano",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/426589/batlas-location"
+        "description": "Coordinates following GeoHack. Archeaological remains per Custodero, with photos.",
+        "location_precision": "precise",
+        "title": "GeoHack location of Ponte di Vallerano",
+        "link": "http://pleiades.stoa.org/places/426589/geohack-location-of-ponte-di-vallerano"
       }
     }
   ]
