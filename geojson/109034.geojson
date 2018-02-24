@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Heckenmünster",
+  "title": "Roman spring sanctuary near Heckenmünster",
   "id": "109034",
   "bbox": [
-    6.78768,
-    49.8997477946,
-    6.7879379875,
-    49.90917
+    6.7866655,
+    49.8988853,
+    6.7879923,
+    49.8997477946
   ],
-  "description": "An ancient place, cited: BAtlas 11 G3 Heckenmünster",
+  "description": "An extensive complex of structures dating to the 1st - 3rd centuries of the Roman imperial period sited at a pair of springs known today as \"Viktoriaquelle\" and \"Schwefelquelle,\" near modern Heckenmünster in German. This site, whose ancient name and tutelary deities are not known, was extensively excavated in the 1960s. It comprised religious and  performative spaces, as well as baths and hostelry.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.78780899375,
-          49.9044588973
+          6.78753192917,
+          49.8994267649
         ]
       },
       "properties": {
@@ -27,17 +27,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.78768,
-          49.90917
+          6.7879923,
+          49.8996472
         ]
       },
-      "id": "darmc-location-15991",
+      "id": "viktoriaquelle",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Represented location of spring based on an OpenStreetMap node.",
         "location_precision": "precise",
-        "title": "DARMC location 15991",
-        "link": "http://pleiades.stoa.org/places/109034/darmc-location-15991"
+        "title": "OSM location of Viktoriaquelle ",
+        "link": "http://pleiades.stoa.org/places/109034/viktoriaquelle"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7866655,
+          49.8988853
+        ]
+      },
+      "id": "osm-location-of-schwefelquelle",
+      "type": "Feature",
+      "properties": {
+        "description": "Represented location of spring based on an OpenStreetMap node.",
+        "location_precision": "precise",
+        "title": "OSM location of Schwefelquelle",
+        "link": "http://pleiades.stoa.org/places/109034/osm-location-of-schwefelquelle"
       }
     },
     {
