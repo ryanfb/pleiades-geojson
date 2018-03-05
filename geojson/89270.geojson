@@ -3,10 +3,10 @@
   "title": "Ouolas? Kolpos",
   "id": "89270",
   "bbox": [
-    -5.0,
-    58.0,
-    -4.0,
-    59.0
+    -4.67,
+    58.505,
+    -4.67,
+    58.505
   ],
   "description": "Loch Eriboll is a sea loch located on the north coast of Scotland. It has long functioned as a deep water anchorage.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          58.5
+          -4.67,
+          58.505
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -5.0,
-              58.0
-            ],
-            [
-              -4.0,
-              58.0
-            ],
-            [
-              -4.0,
-              59.0
-            ],
-            [
-              -5.0,
-              59.0
-            ],
-            [
-              -5.0,
-              58.0
-            ]
-          ]
+          -4.67,
+          58.505
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-loch-eriboll",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89270/undetermined"
+        "description": "coordinates after GeoHack.",
+        "location_precision": "precise",
+        "title": "GeoHack location of Loch Eriboll",
+        "link": "http://pleiades.stoa.org/places/89270/location-of-loch-eriboll"
       }
     }
   ]
