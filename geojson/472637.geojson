@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Decimomannu Roman bridge",
   "id": "472637",
   "bbox": [
-    8.0,
-    39.0,
-    9.0,
-    40.0
+    8.954687,
+    39.3052298,
+    8.954687,
+    39.3052298
   ],
-  "description": "An ancient place, cited: BAtlas 48 A3 unnamed bridge (W Assemini)",
+  "description": "The remains of a stone, arched Roman bridge at Decimomannu, to the west of Assemini, Sardinia. Three of the original six arches survive today. The bridge may originally have been as much as 160 meters in length. R.J. Rowland considered it to be of Iulio-Claudian date.",
+  "connectsWith": [
+    "472014"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          39.5
+          8.954687,
+          39.3052298
         ]
       },
       "properties": {
@@ -25,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              8.0,
-              39.0
-            ],
-            [
-              9.0,
-              39.0
-            ],
-            [
-              9.0,
-              40.0
-            ],
-            [
-              8.0,
-              40.0
-            ],
-            [
-              8.0,
-              39.0
-            ]
-          ]
+          8.954687,
+          39.3052298
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472637/batlas-location"
+        "description": "Representative location of the remains of the Roman bridge based on a way derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte romano",
+        "link": "http://pleiades.stoa.org/places/472637/osm-location"
       }
     }
   ]

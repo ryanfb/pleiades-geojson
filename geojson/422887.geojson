@@ -3,10 +3,10 @@
   "title": "La Cecchina",
   "id": "422887",
   "bbox": [
-    12.559035,
-    41.941889,
-    12.559035,
-    41.941889
+    12.55864,
+    41.9431757,
+    12.5587687,
+    41.9432715
   ],
   "description": "The so-called \"Torraccio della Cecchina\" is a Roman funereal monument dating to the second century A.D. It is located at the ninth kilometer of the modern Via Nomentana.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.559035,
-          41.941889
+          12.5587045951,
+          41.9432229178
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.559035,
-          41.941889
+          [
+            [
+              12.5586882,
+              41.9431757
+            ],
+            [
+              12.5587687,
+              41.9432106
+            ],
+            [
+              12.5587204,
+              41.9432715
+            ],
+            [
+              12.55864,
+              41.9432326
+            ],
+            [
+              12.5586882,
+              41.9431757
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20589",
+      "id": "osm-location-of-torraccio-della-cecchina",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 20589",
-        "link": "http://pleiades.stoa.org/places/422887/darmc-location-20589"
+        "title": "OSM location of Torraccio della Cecchina",
+        "link": "http://pleiades.stoa.org/places/422887/osm-location-of-torraccio-della-cecchina"
       }
     }
   ]

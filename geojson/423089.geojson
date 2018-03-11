@@ -3,10 +3,10 @@
   "title": "Tor Marancia",
   "id": "423089",
   "bbox": [
-    12.497743,
-    41.853589,
-    12.497743,
-    41.853589
+    12.4972988,
+    41.8566142,
+    12.4973908,
+    41.856679
   ],
   "description": "The modern toponym Tor Marancia is claimed to derive from the Praedium Amaranthianus, a villa belonging to the second-century A.D. freedman Amaranthus.",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.497743,
-          41.853589
+          12.4973447984,
+          41.8566466001
         ]
       },
       "properties": {
@@ -29,19 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.497743,
-          41.853589
+          [
+            [
+              12.4973854,
+              41.8566142
+            ],
+            [
+              12.4973908,
+              41.8566747
+            ],
+            [
+              12.4973042,
+              41.856679
+            ],
+            [
+              12.4973014,
+              41.8566478
+            ],
+            [
+              12.4972988,
+              41.8566185
+            ],
+            [
+              12.4973854,
+              41.8566142
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-21122",
+      "id": "osm-location-of-torre-delle-vigne",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 21122",
-        "link": "http://pleiades.stoa.org/places/423089/darmc-location-21122"
+        "title": "OSM location of Torre delle Vigne",
+        "link": "http://pleiades.stoa.org/places/423089/osm-location-of-torre-delle-vigne"
       }
     }
   ]
