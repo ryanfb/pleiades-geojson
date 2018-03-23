@@ -3,17 +3,18 @@
   "title": "Marmenia",
   "id": "422971",
   "bbox": [
-    12.532131,
-    41.838244,
-    12.532131,
-    41.838244
+    12.5348572,
+    41.8385823,
+    12.535051,
+    41.838727
   ],
   "description": "The Domus Marmeniae is a villa located on the Via Appia near the fourth milestone. The villa grounds hosted a pagan necropolis and tradition holds that the matrona, Marmenia, relocated the body of St. Urban to a mausoleum built on the grounds.",
   "connectsWith": [
     "356966898"
   ],
   "names": [
-    "Marmenia"
+    "Marmenia",
+    "Villa di Tor Carbone"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.532131,
-          41.838244
+          12.5349541,
+          41.83865465
         ]
       },
       "properties": {
@@ -31,19 +32,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.532131,
-          41.838244
+          [
+            [
+              12.5349516,
+              41.8385823
+            ],
+            [
+              12.535051,
+              41.8386495
+            ],
+            [
+              12.5349566,
+              41.838727
+            ],
+            [
+              12.5348572,
+              41.8386598
+            ],
+            [
+              12.5349516,
+              41.8385823
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20991",
+      "id": "osm-location-of-mausoleo-di-santurbano-martire",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 20991",
-        "link": "http://pleiades.stoa.org/places/422971/darmc-location-20991"
+        "title": "OSM location of Mausoleo di Sant'Urbano martire",
+        "link": "http://pleiades.stoa.org/places/422971/osm-location-of-mausoleo-di-santurbano-martire"
       }
     }
   ]
