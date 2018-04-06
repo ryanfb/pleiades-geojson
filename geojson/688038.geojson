@@ -3,13 +3,14 @@
   "title": "Thala",
   "id": "688038",
   "bbox": [
-    34.858638,
-    31.383685,
-    34.858638,
-    31.383685
+    34.8652889,
+    31.3815136,
+    34.8686918,
+    31.3838073
   ],
-  "description": "An ancient place, cited: BAtlas 70 F3 Thala",
+  "description": "Thala (Tell Halif) is a small tell located in the northeastern Negev desert, near the modern town of Lahav. The site shows signs of habitation from the Chalcolithic through the Medieval and Ottoman periods.",
   "names": [
+    "Tel H̱alif",
     "Thala"
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.858638,
-          31.383685
+          34.8668864585,
+          31.3826457212
         ]
       },
       "properties": {
@@ -28,19 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          34.858638,
-          31.383685
+          [
+            [
+              34.867272,
+              31.3815136
+            ],
+            [
+              34.8683338,
+              31.3819065
+            ],
+            [
+              34.8686796,
+              31.3823539
+            ],
+            [
+              34.8686918,
+              31.3825904
+            ],
+            [
+              34.8679598,
+              31.3831632
+            ],
+            [
+              34.8674392,
+              31.3835193
+            ],
+            [
+              34.8665881,
+              31.3837378
+            ],
+            [
+              34.8659612,
+              31.3838073
+            ],
+            [
+              34.8655182,
+              31.3837199
+            ],
+            [
+              34.8652889,
+              31.3828634
+            ],
+            [
+              34.8655244,
+              31.382171
+            ],
+            [
+              34.8663599,
+              31.3815607
+            ],
+            [
+              34.867272,
+              31.3815136
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-2314",
+      "id": "tell-halif",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Polygon representing the location of the Tell Halif site, derived from an OpenStreetMap Way after Hardin 2014.",
         "location_precision": "precise",
-        "title": "DARMC location 2314",
-        "link": "http://pleiades.stoa.org/places/688038/darmc-location-2314"
+        "title": "OSM location of Tell Halif",
+        "link": "http://pleiades.stoa.org/places/688038/tell-halif"
       }
     }
   ]
