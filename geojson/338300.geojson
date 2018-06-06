@@ -2,14 +2,29 @@
   "type": "FeatureCollection",
   "title": "Velefi",
   "id": "338300",
-  "description": "An ancient place, cited: BAtlas 34 unlocated Velefi",
+  "bbox": [
+    7.66,
+    35.93,
+    7.66,
+    35.93
+  ],
+  "description": "An ancient settlement or road station attested in the Peutinger Map, but otherwise unknown and unlocateable. The map places it together with several other unlocated places on a route in modern Algeria between Gadifaula (modern Ksar Sbehi) and Vatari (which might be modern Fedj es Siouda).",
+  "connectsWith": [
+    "334659"
+  ],
   "names": [
     "Velefi"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.66,
+          35.93
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

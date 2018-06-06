@@ -3,10 +3,10 @@
   "title": "Puente de la Perdiz",
   "id": "237841",
   "bbox": [
-    -5.0,
-    42.0,
-    -4.0,
-    43.0
+    -4.2345005,
+    42.8390976,
+    -4.2345005,
+    42.8390976
   ],
   "description": "A Roman bridge located near the hamelt of Nestar, over the Rio Rubagón.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          42.5
+          -4.2345005,
+          42.8390976
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -5.0,
-              42.0
-            ],
-            [
-              -4.0,
-              42.0
-            ],
-            [
-              -4.0,
-              43.0
-            ],
-            [
-              -5.0,
-              43.0
-            ],
-            [
-              -5.0,
-              42.0
-            ]
-          ]
+          -4.2345005,
+          42.8390976
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-puente-de-la-perdiz",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/237841/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Puente de la Perdiz",
+        "link": "http://pleiades.stoa.org/places/237841/location-of-puente-de-la-perdiz"
       }
     }
   ]
