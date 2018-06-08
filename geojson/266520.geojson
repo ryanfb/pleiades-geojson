@@ -3,20 +3,23 @@
   "title": "Torrecuevas aqueduct",
   "id": "266520",
   "bbox": [
-    -4.0,
-    36.0,
-    -3.0,
-    37.0
+    -3.689824,
+    36.762144,
+    -3.689824,
+    36.762144
   ],
-  "description": "An unnamed aqueduct located near the source of the Rio Verde, north of Sexi.",
+  "description": "One of five Roman-era aqueducts known from Sexi (modern Almuñécar, Spain). This one is represented by an extant aqueduct bridge located near the source of the Rio Verde, north of Sexi.",
+  "connectsWith": [
+    "266038"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          36.5
+          -3.689824,
+          36.762144
         ]
       },
       "properties": {
@@ -25,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -4.0,
-              36.0
-            ],
-            [
-              -3.0,
-              36.0
-            ],
-            [
-              -3.0,
-              37.0
-            ],
-            [
-              -4.0,
-              37.0
-            ],
-            [
-              -4.0,
-              36.0
-            ]
-          ]
+          -3.689824,
+          36.762144
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-aqueduct-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/266520/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of aqueduct bridge",
+        "link": "http://pleiades.stoa.org/places/266520/osm-location-of-aqueduct-bridge"
       }
     }
   ]
