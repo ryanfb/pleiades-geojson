@@ -1,16 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Septem Fratres M.",
+  "title": "Septem Fratres Montes",
   "id": "275704",
   "bbox": [
-    -5.5,
-    35.5,
-    -5.0,
-    36.0
+    -5.4129554,
+    35.8989516,
+    -5.4129554,
+    35.8989516
   ],
-  "description": "Jebel Musa is a mountain on the African side of the Strait of Gibraltar that is usually identified as the southern Pillar of Hercules.",
+  "description": "The northern peaks of Jebel Musa, a mountain on the African side of the Strait of Gibraltar that is usually identified as the southern Pillar of Hercules. They share toponomy with, and lie to the west of, the ancient settlement of Septem (modern Ceuta). ",
   "connectsWith": [
-    "256198"
+    "256198",
+    "275703"
   ],
   "names": [
     "Septem Fratres M."
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.25,
-          35.75
+          -5.4129554,
+          35.8989516
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -5.5,
-              35.5
-            ],
-            [
-              -5.0,
-              35.5
-            ],
-            [
-              -5.0,
-              36.0
-            ],
-            [
-              -5.5,
-              36.0
-            ],
-            [
-              -5.5,
-              35.5
-            ]
-          ]
+          -5.4129554,
+          35.8989516
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-jebel-musa",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275704/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Jebel Musa",
+        "link": "http://pleiades.stoa.org/places/275704/osm-location-of-jebel-musa"
       }
     }
   ]
