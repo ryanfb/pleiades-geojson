@@ -3,14 +3,15 @@
   "title": "Oylum",
   "id": "275382665",
   "bbox": [
-    37.0,
-    36.0,
-    37.5,
-    36.5
+    37.1789351,
+    36.6975513,
+    37.1789351,
+    36.6975513
   ],
   "description": "Oylum Höyük is a settlement mound that was inhabited from the fourth millennium BC until the Hellenistic period.",
   "names": [
-    "Oylum"
+    "Oylum",
+    "Oylum Hoyuk"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.25,
-          36.25
+          37.1789351,
+          36.6975513
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              37.0,
-              36.0
-            ],
-            [
-              37.5,
-              36.0
-            ],
-            [
-              37.5,
-              36.5
-            ],
-            [
-              37.0,
-              36.5
-            ],
-            [
-              37.0,
-              36.0
-            ]
-          ]
+          37.1789351,
+          36.6975513
         ]
       },
-      "id": "gane-location-44637",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "Approximate location from the TAVO index",
-        "location_precision": "rough",
-        "title": "GANE Location 44637",
-        "link": "http://pleiades.stoa.org/places/275382665/gane-location-44637"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/275382665/osm-location"
       }
     }
   ]
