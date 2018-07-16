@@ -2,13 +2,45 @@
   "type": "FeatureCollection",
   "title": "Dispilio",
   "id": "471781651",
+  "bbox": [
+    21.290224,
+    40.4856227,
+    21.290224,
+    40.4856227
+  ],
   "description": "Dispilio is an archaeological site with the remains of a Neolithic lake-side settlement near the modern village of Dispilio on Lake Orestiada.",
+  "names": [
+    "Dispilio"
+  ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.290224,
+          40.4856227
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.290224,
+          40.4856227
+        ]
+      },
+      "id": "location-of-neolithic-dispilio",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Neolithic Dispilio",
+        "link": "http://pleiades.stoa.org/places/471781651/location-of-neolithic-dispilio"
       }
     }
   ]
