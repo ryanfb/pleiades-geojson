@@ -3,12 +3,15 @@
   "title": "Neorion",
   "id": "523226",
   "bbox": [
-    28.75,
-    41.0,
-    29.0,
-    41.25
+    28.975,
+    41.016667,
+    28.975,
+    41.016667
   ],
-  "description": "An ancient place, cited: BAtlas 53 A2 Neorion",
+  "description": "Neorion Harbor was a harbor of Constantinople in use from the fourth century until the late Ottoman period.",
+  "connectsWith": [
+    "520998"
+  ],
   "names": [
     "Neorion"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.875,
-          41.125
+          28.975,
+          41.016667
         ]
       },
       "properties": {
@@ -28,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              28.75,
-              41.0
-            ],
-            [
-              29.0,
-              41.0
-            ],
-            [
-              29.0,
-              41.25
-            ],
-            [
-              28.75,
-              41.25
-            ],
-            [
-              28.75,
-              41.0
-            ]
-          ]
+          28.975,
+          41.016667
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-neorion-harbour",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/523226/batlas-location"
+        "description": "Coordinates following GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Neorion Harbour",
+        "link": "http://pleiades.stoa.org/places/523226/imagery-location-of-neorion-harbour"
       }
     }
   ]

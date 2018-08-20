@@ -2,27 +2,31 @@
   "type": "FeatureCollection",
   "title": "Primuliacum",
   "id": "141960",
-  "description": "An ancient place, cited: BAtlas 14 unlocated Primuliacum",
+  "bbox": [
+    0.720745,
+    45.183541,
+    0.722653,
+    45.184538
+  ],
+  "description": "Now unlocated, Primuliacum was located in southwestern Gaul.",
+  "connectsWith": [
+    "138650"
+  ],
   "names": [
     "Primuliacum"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.721699,
+          45.1840395
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/141960/batlas-location"
       }
     }
   ]
