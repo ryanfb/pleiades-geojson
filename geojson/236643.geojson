@@ -3,20 +3,26 @@
   "title": "S. Chuís",
   "id": "236643",
   "bbox": [
-    -6.5961023,
-    43.2318044,
-    -6.596048,
-    43.232252
+    -6.5969888,
+    43.2312989,
+    -6.5957871,
+    43.2323438
   ],
-  "description": "An ancient place, cited: BAtlas 24 E1 S. Chuís",
+  "description": "A Pre-Roman hillfort in the Asturias region, near the northern coast of the Iberian peninsula. The fort was constructed around 1000 BCE and remained in use throughout the Iron Age and shows signs of occupation during the Roman period through the third century CE.",
+  "connectsWith": [
+    "236351"
+  ],
+  "names": [
+    "San Chuis hill fort"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.59607515,
-          43.2320282
+          -6.59639050861,
+          43.2319372075
         ]
       },
       "properties": {
@@ -25,36 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -6.596048,
-          43.232252
+          [
+            [
+              -6.5965462,
+              43.2312989
+            ],
+            [
+              -6.5961787,
+              43.2315621
+            ],
+            [
+              -6.5958082,
+              43.231875
+            ],
+            [
+              -6.5957871,
+              43.2321523
+            ],
+            [
+              -6.5958032,
+              43.2323438
+            ],
+            [
+              -6.5969137,
+              43.2323086
+            ],
+            [
+              -6.5969888,
+              43.2322617
+            ],
+            [
+              -6.5968493,
+              43.2316364
+            ],
+            [
+              -6.5967152,
+              43.2314097
+            ],
+            [
+              -6.5965462,
+              43.2312989
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-3503",
+      "id": "osm-way-281074821",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Polygon representing the location of the San Chuis hillfort, derived from an OpenStreetMap Way.",
         "location_precision": "precise",
-        "title": "DARMC location 3503",
-        "link": "http://pleiades.stoa.org/places/236643/darmc-location-3503"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.5961023,
-          43.2318044
-        ]
-      },
-      "id": "osm-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Location based on OpenStreetMap",
-        "location_precision": "precise",
-        "title": "OSM location",
-        "link": "http://pleiades.stoa.org/places/236643/osm-location"
+        "title": "OSM location of San Chuis",
+        "link": "http://pleiades.stoa.org/places/236643/osm-way-281074821"
       }
     }
   ]

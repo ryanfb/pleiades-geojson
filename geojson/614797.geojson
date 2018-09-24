@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Pepouza",
   "id": "614797",
+  "bbox": [
+    29.461389,
+    38.408056,
+    29.461389,
+    38.408056
+  ],
   "description": "An ancient place, cited: BAtlas 62 unlocated Pepouza",
   "names": [
     "Pepouza"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.461389,
+          38.408056
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
@@ -23,6 +35,23 @@
         "location_precision": "unlocated",
         "title": "Undetermined location",
         "link": "http://pleiades.stoa.org/places/614797/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.461389,
+          38.408056
+        ]
+      },
+      "id": "geohack-location-of-pepuza",
+      "type": "Feature",
+      "properties": {
+        "description": "Coordinates following GeoHack.",
+        "location_precision": "precise",
+        "title": "GeoHack location of Pepuza",
+        "link": "http://pleiades.stoa.org/places/614797/geohack-location-of-pepuza"
       }
     }
   ]
