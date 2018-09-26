@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Taurus M.",
+  "title": "Taurus (mountain range)",
   "id": "648792",
   "bbox": [
-    30.0,
-    30.0,
-    38.0,
-    38.5
+    34.63,
+    37.4,
+    34.63,
+    37.4
   ],
   "description": "The Taurus Mountains in southern Turkey, the modern Toros Dağları.",
   "connectsWith": [
@@ -19,7 +19,8 @@
     "Toros Dağları",
     "Tauros",
     "Taurus",
-    "Toros Daǧları"
+    "Toros Daǧları",
+    "Taurus mountains"
   ],
   "features": [
     {
@@ -27,8 +28,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.8333333333,
-          36.1666666667
+          34.63,
+          37.4
         ]
       },
       "properties": {
@@ -37,113 +38,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              37.5,
-              38.0
-            ],
-            [
-              38.0,
-              38.0
-            ],
-            [
-              38.0,
-              38.5
-            ],
-            [
-              37.5,
-              38.5
-            ],
-            [
-              37.5,
-              38.0
-            ]
-          ]
+          34.63,
+          37.4
         ]
       },
-      "id": "gane-location-68415",
+      "id": "osm-location-of-taurus-mountains",
       "type": "Feature",
       "properties": {
-        "description": "Approximate location from the TAVO index",
-        "location_precision": "rough",
-        "title": "GANE Location 68415",
-        "link": "http://pleiades.stoa.org/places/648792/gane-location-68415"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              37.0,
-              37.5
-            ],
-            [
-              37.5,
-              37.5
-            ],
-            [
-              37.5,
-              38.0
-            ],
-            [
-              37.0,
-              38.0
-            ],
-            [
-              37.0,
-              37.5
-            ]
-          ]
-        ]
-      },
-      "id": "gane-location-62675",
-      "type": "Feature",
-      "properties": {
-        "description": "Approximate location from the TAVO index",
-        "location_precision": "rough",
-        "title": "GANE Location 62675",
-        "link": "http://pleiades.stoa.org/places/648792/gane-location-62675"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              30.0,
-              30.0
-            ],
-            [
-              35.0,
-              30.0
-            ],
-            [
-              35.0,
-              35.0
-            ],
-            [
-              30.0,
-              35.0
-            ],
-            [
-              30.0,
-              30.0
-            ]
-          ]
-        ]
-      },
-      "id": "gane-location-61073",
-      "type": "Feature",
-      "properties": {
-        "description": "Approximate location from the TAVO index",
-        "location_precision": "rough",
-        "title": "GANE Location 61073",
-        "link": "http://pleiades.stoa.org/places/648792/gane-location-61073"
+        "description": "A representative point location for the mountain chain based on a node derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Taurus Mountains",
+        "link": "http://pleiades.stoa.org/places/648792/osm-location-of-taurus-mountains"
       }
     }
   ]

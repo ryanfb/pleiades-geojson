@@ -1,19 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Aroania M.",
+  "title": "Aroania (mountain)",
   "id": "570112",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.207,
+    37.974,
+    22.207,
+    37.974
   ],
   "description": "Aroania M. is the third highest mountain of the Peloponnese (2,355 m asl).",
   "connectsWith": [
     "570102"
   ],
   "names": [
-    "Aroania M."
+    "Aroania M.",
+    "Aroania"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.207,
+          37.974
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
-              22.5,
-              38.0
-            ],
-            [
-              22.0,
-              38.0
-            ],
-            [
-              22.0,
-              37.5
-            ]
-          ]
+          22.207,
+          37.974
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-aroania-m",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570112/batlas-location"
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "Imagery location of Aroania (mountain)",
+        "link": "http://pleiades.stoa.org/places/570112/location-of-aroania-m"
       }
     }
   ]

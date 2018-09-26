@@ -3,14 +3,15 @@
   "title": "Isthmos",
   "id": "570317",
   "bbox": [
-    22.9602226,
-    37.9510881,
-    22.9602226,
-    37.9510881
+    22.987778,
+    37.941389,
+    22.987778,
+    37.941389
   ],
   "description": "The Isthmus of Corinth is a narrow land bridge connecting the Peloponnese peninsula to the Greek mainland.",
   "names": [
-    "Isthmos"
+    "Isthmos",
+    "Isthmus of Corinth"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.9602226,
-          37.9510881
+          22.987778,
+          37.941389
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              37.5
-            ],
-            [
-              23.0,
-              37.5
-            ],
-            [
-              23.0,
-              38.0
-            ],
-            [
-              22.5,
-              38.0
-            ],
-            [
-              22.5,
-              37.5
-            ]
-          ]
+          22.987778,
+          37.941389
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-isthmos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570317/batlas-location"
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "Imagery location of Isthmos",
+        "link": "http://pleiades.stoa.org/places/570317/location-of-isthmos"
       }
     }
   ]
