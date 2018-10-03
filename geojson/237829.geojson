@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Puente del Bibey",
   "id": "237829",
   "bbox": [
-    -8.0,
-    42.0,
-    -7.0,
-    43.0
+    -7.214054,
+    42.333889,
+    -7.214054,
+    42.333889
   ],
-  "description": "An ancient place, cited: BAtlas 24 D2 no. 3 (‘Ponte Bibei’ at Mendoya, over R. Bibei)",
+  "description": "The Puente del Bibey or ‘Ponte Bibei’ crosses the river Bibei at Mendoya.",
+  "names": [
+    "Puente del Bibey"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          42.5
+          -7.214054,
+          42.333889
         ]
       },
       "properties": {
@@ -25,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -8.0,
-              42.0
-            ],
-            [
-              -7.0,
-              42.0
-            ],
-            [
-              -7.0,
-              43.0
-            ],
-            [
-              -8.0,
-              43.0
-            ],
-            [
-              -8.0,
-              42.0
-            ]
-          ]
+          -7.214054,
+          42.333889
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/237829/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/237829/location-of-roman-bridge"
       }
     }
   ]
