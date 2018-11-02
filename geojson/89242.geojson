@@ -3,17 +3,19 @@
   "title": "*Manavia (island)",
   "id": "89242",
   "bbox": [
-    -5.0000001,
-    53.6666671,
-    -5.0000001,
-    53.6666671
+    -4.5,
+    54.25,
+    -4.5,
+    54.25
   ],
   "description": "*Manavia Ins. (The Isle of Man) is an island in the Irish Sea between Britain and Ireland.",
   "connectsWith": [
     "20493"
   ],
   "names": [
-    "Manavia"
+    "Manavia",
+    "Isle of Man",
+    "Monapia"
   ],
   "features": [
     {
@@ -21,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.0000001,
-          53.6666671
+          -4.5,
+          54.25
         ]
       },
       "properties": {
@@ -31,39 +33,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -5.0,
-              54.0
-            ],
-            [
-              -4.0,
-              54.0
-            ],
-            [
-              -4.0,
-              55.0
-            ],
-            [
-              -5.0,
-              55.0
-            ],
-            [
-              -5.0,
-              54.0
-            ]
-          ]
+          -4.5,
+          54.25
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-manavia-ins",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89242/undetermined"
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "Imagery location of Isle of Man",
+        "link": "http://pleiades.stoa.org/places/89242/location-of-manavia-ins"
       }
     }
   ]

@@ -3,12 +3,12 @@
   "title": "Nasium",
   "id": "109190",
   "bbox": [
-    5.386586,
-    48.632434,
-    5.386586,
-    48.632434
+    5.3859057,
+    48.6319439,
+    5.3872886,
+    48.6329649
   ],
-  "description": "An ancient place, cited: BAtlas 11 F4 Nasium",
+  "description": "A large ancient settlement located in the vicinity of modern Naix-aux-Forges and Saint-Armand-sur-Ornain in France. Excavations began in the 19th century and continued in the 20th. ",
   "names": [
     "Nasium"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.386586,
-          48.632434
+          5.3866037078,
+          48.6324949397
         ]
       },
       "properties": {
@@ -28,19 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          5.386586,
-          48.632434
+          [
+            [
+              5.3860964,
+              48.6319439
+            ],
+            [
+              5.3871518,
+              48.63198
+            ],
+            [
+              5.3872886,
+              48.6329649
+            ],
+            [
+              5.3859873,
+              48.6329586
+            ],
+            [
+              5.3859057,
+              48.6327622
+            ],
+            [
+              5.3860964,
+              48.6319439
+            ]
+          ]
         ]
       },
-      "id": "center-point-of-the-archaeological-site-nasium",
+      "id": "osm-location-of-ville-antique-de-nasium",
       "type": "Feature",
       "properties": {
-        "description": "Archaeological remains of the Gallo-Roman temple at ancient Nasium, located at Mazeroie, commune Naix-aux-Forges",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "Gallo-Roman temple",
-        "link": "http://pleiades.stoa.org/places/109190/center-point-of-the-archaeological-site-nasium"
+        "title": "OSM location of Ville antique de Nasium",
+        "link": "http://pleiades.stoa.org/places/109190/osm-location-of-ville-antique-de-nasium"
       }
     }
   ]
