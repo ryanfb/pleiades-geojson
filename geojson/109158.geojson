@@ -1,22 +1,26 @@
 {
   "type": "FeatureCollection",
-  "title": "Mérouville",
+  "title": "Unnamed settlement at Sampuy",
   "id": "109158",
   "bbox": [
-    1.898655,
-    48.296,
-    1.898655,
-    48.296
+    1.9102673,
+    48.303759,
+    1.9116121,
+    48.3051749
   ],
-  "description": "An ancient place, cited: BAtlas 11 B4 Mérouville",
+  "description": "An extensive Roman-era settlement identified via aerial photography and archaeological survey in the modern French commune of Mérouville. ",
+  "names": [
+    "Sampuy",
+    "Mérouville"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.898655,
-          48.296
+          1.91094933293,
+          48.304460312
         ]
       },
       "properties": {
@@ -25,19 +29,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          1.898655,
-          48.296
+          [
+            [
+              1.9106465,
+              48.303759
+            ],
+            [
+              1.9116121,
+              48.3050899
+            ],
+            [
+              1.9113271,
+              48.3051749
+            ],
+            [
+              1.9102673,
+              48.3038823
+            ],
+            [
+              1.9106465,
+              48.303759
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-13708",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 13708",
-        "link": "http://pleiades.stoa.org/places/109158/darmc-location-13708"
+        "title": "OSM Location of the Haie de Sampuy",
+        "link": "http://pleiades.stoa.org/places/109158/osm-location"
       }
     }
   ]
