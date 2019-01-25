@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Temple of Athena Skiras at Phaleron",
   "id": "397011004",
+  "bbox": [
+    23.706248,
+    37.937309,
+    23.706248,
+    37.937309
+  ],
   "description": "This sanctuary, reported in Phaleron by Pausanias, is thought to have been located near the modern \"old town\" of Phaleron in Attica. It is not to be confused with the Temple of Athena Skiras on the island of Salamis, reported by Herodotus.",
   "connectsWith": [
     "580072"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.706248,
+          37.937309
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
