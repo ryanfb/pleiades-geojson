@@ -3,12 +3,15 @@
   "title": "Sobata",
   "id": "688030",
   "bbox": [
-    34.621445,
-    30.880918,
-    34.630617,
-    30.890119
+    34.6290117,
+    30.8792171,
+    34.6326262,
+    30.8835314
   ],
-  "description": "An ancient place, cited: BAtlas 70 F4 Sobata",
+  "description": "Sobata or Shivta is an ancient city in the Negev Desert located some 43 km southwest of Beersheba. The site was enrolled as a UNESCO World Heritage site, together with Haluza, Mamshit, and Avdat, in June 2005.",
+  "connectsWith": [
+    "687985"
+  ],
   "names": [
     "Sobata"
   ],
@@ -18,29 +21,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.626031,
-          30.8855185
+          34.6307210599,
+          30.8811698869
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.621445,
-          30.890119
-        ]
-      },
-      "id": "darmc-location-5357",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 5357",
-        "link": "http://pleiades.stoa.org/places/688030/darmc-location-5357"
       }
     },
     {
@@ -58,6 +44,55 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/688030/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.630853,
+              30.8792171
+            ],
+            [
+              34.6318614,
+              30.8799842
+            ],
+            [
+              34.6326262,
+              30.8809949
+            ],
+            [
+              34.6317022,
+              30.8835314
+            ],
+            [
+              34.6296706,
+              30.8830325
+            ],
+            [
+              34.6290117,
+              30.8810648
+            ],
+            [
+              34.6293748,
+              30.8801096
+            ],
+            [
+              34.630853,
+              30.8792171
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-shivta-ruins",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Shivta Ruins",
+        "link": "http://pleiades.stoa.org/places/688030/osm-location-of-shivta-ruins"
       }
     }
   ]

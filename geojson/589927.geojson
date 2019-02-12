@@ -1,16 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Mese Ins.",
+  "title": "Mese (island)",
   "id": "589927",
   "bbox": [
-    23.5,
-    35.5,
-    24.0,
-    36.0
+    23.5799,
+    35.6107,
+    23.5799,
+    35.6107
   ],
   "description": "An ancient place, cited: BAtlas 60 A1 Mese Ins.",
+  "connectsWith": [
+    "589879"
+  ],
   "names": [
-    "Mese"
+    "Mese",
+    "Imeri Gramvousa"
   ],
   "features": [
     {
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          35.75
+          23.5799,
+          35.6107
         ]
       },
       "properties": {
@@ -28,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.5,
-              35.5
-            ],
-            [
-              24.0,
-              35.5
-            ],
-            [
-              24.0,
-              36.0
-            ],
-            [
-              23.5,
-              36.0
-            ],
-            [
-              23.5,
-              35.5
-            ]
-          ]
+          23.5799,
+          35.6107
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-mese-ins",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589927/batlas-location"
+        "description": "coordinates after GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Gramvousa (island)",
+        "link": "http://pleiades.stoa.org/places/589927/location-of-mese-ins"
       }
     }
   ]

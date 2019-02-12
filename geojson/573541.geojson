@@ -2,27 +2,31 @@
   "type": "FeatureCollection",
   "title": "Taleton Akra",
   "id": "573541",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Taleton Akra",
+  "bbox": [
+    22.349956,
+    36.953544,
+    22.349956,
+    36.953544
+  ],
+  "description": "A peak in the Taygetos range, mentioned by Pausanias. Its precise location cannot be determined today.",
+  "connectsWith": [
+    "570706"
+  ],
   "names": [
     "Taleton Akra"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.349956,
+          36.953544
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573541/batlas-location"
       }
     }
   ]

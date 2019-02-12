@@ -3,14 +3,17 @@
   "title": "Dodona",
   "id": "530843",
   "bbox": [
-    20.7871119,
-    39.5462162,
-    20.793225,
-    39.546507
+    20.7835902,
+    39.5435473,
+    20.7914003,
+    39.550196
   ],
   "description": "An ancient site of northwestern Epirus, Dodona was home to one of the most ancient oracular traditions of the Hellenic world.",
   "connectsWith": [
-    "530871"
+    "530871",
+    "531124",
+    "531117",
+    "531003"
   ],
   "names": [
     "Dodona",
@@ -22,29 +25,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.7893679667,
-          39.5463850667
+          20.7877314448,
+          39.5464362719
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.793225,
-          39.546507
-        ]
-      },
-      "id": "darmc-location-12224",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 12224",
-        "link": "http://pleiades.stoa.org/places/530843/darmc-location-12224"
       }
     },
     {
@@ -66,19 +52,91 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          20.7871119,
-          39.5462162
+          [
+            [
+              20.7853836,
+              39.5435473
+            ],
+            [
+              20.7903354,
+              39.5447908
+            ],
+            [
+              20.7906329,
+              39.5449066
+            ],
+            [
+              20.7908664,
+              39.5450588
+            ],
+            [
+              20.7911945,
+              39.5453654
+            ],
+            [
+              20.7914003,
+              39.5465017
+            ],
+            [
+              20.7894469,
+              39.5493501
+            ],
+            [
+              20.789152,
+              39.5497519
+            ],
+            [
+              20.7884875,
+              39.550196
+            ],
+            [
+              20.7874337,
+              39.5494335
+            ],
+            [
+              20.7873079,
+              39.5493395
+            ],
+            [
+              20.7872292,
+              39.5492622
+            ],
+            [
+              20.7836542,
+              39.5456699
+            ],
+            [
+              20.7835902,
+              39.5455734
+            ],
+            [
+              20.7835902,
+              39.5454941
+            ],
+            [
+              20.7836041,
+              39.5454405
+            ],
+            [
+              20.7852918,
+              39.5435666
+            ],
+            [
+              20.7853836,
+              39.5435473
+            ]
+          ]
         ]
       },
-      "id": "location-of-theater-of-pyrrhus",
+      "id": "osm-location-of-dodona",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "location of Theater of Pyrrhus",
-        "link": "http://pleiades.stoa.org/places/530843/location-of-theater-of-pyrrhus"
+        "title": "OSM location of Dodona",
+        "link": "http://pleiades.stoa.org/places/530843/osm-location-of-dodona"
       }
     }
   ]

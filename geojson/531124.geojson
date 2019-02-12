@@ -1,17 +1,23 @@
 {
   "type": "FeatureCollection",
-  "title": "T(o)maros M.",
+  "title": "T(o)maros (mountain)",
   "id": "531124",
   "bbox": [
-    20.5,
-    39.5,
-    21.0,
-    40.0
+    20.791,
+    39.488,
+    20.791,
+    39.488
   ],
   "description": "An ancient place, cited: BAtlas 54 C2 T(o)maros M.",
+  "connectsWith": [
+    "531117",
+    "531003"
+  ],
   "names": [
-    "Tomaros M.",
-    "Tmaros M."
+    "Olytsikas",
+    "Oros Tomaros",
+    "Tomaros",
+    "Tmaros"
   ],
   "features": [
     {
@@ -19,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.75,
-          39.75
+          20.791,
+          39.488
         ]
       },
       "properties": {
@@ -29,39 +35,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.5,
-              39.5
-            ],
-            [
-              21.0,
-              39.5
-            ],
-            [
-              21.0,
-              40.0
-            ],
-            [
-              20.5,
-              40.0
-            ],
-            [
-              20.5,
-              39.5
-            ]
-          ]
+          20.791,
+          39.488
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-tomaros",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531124/batlas-location"
+        "description": "Coordinates following GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Tomaros",
+        "link": "http://pleiades.stoa.org/places/531124/imagery-location-of-tomaros"
       }
     }
   ]
