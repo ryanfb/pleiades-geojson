@@ -1,16 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Lykabettos M.",
+  "title": "Lykabettos (mountain)",
   "id": "582871",
   "bbox": [
-    23.5,
-    37.75,
-    23.75,
-    38.0
+    23.7431,
+    37.9819,
+    23.7431,
+    37.9819
   ],
-  "description": "Lykabettos M. is a limestone hill in Athens, Greece.",
+  "description": "Lykabettos is a limestone hill in Athens, Greece.",
   "names": [
-    "Lykabettos M."
+    "Lykabettos M.",
+    "Lykavittos"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.625,
-          37.875
+          23.7431,
+          37.9819
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.5,
-              37.75
-            ],
-            [
-              23.75,
-              37.75
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
-              23.5,
-              38.0
-            ],
-            [
-              23.5,
-              37.75
-            ]
-          ]
+          23.7431,
+          37.9819
         ]
       },
-      "id": "batlas-location",
+      "id": "geonames-mount-lycabettus",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/582871/batlas-location"
+        "description": "Coordinates following GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames Mount Lycabettus",
+        "link": "http://pleiades.stoa.org/places/582871/geonames-mount-lycabettus"
       }
     }
   ]

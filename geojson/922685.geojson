@@ -3,41 +3,27 @@
   "title": "Naqsh-i Rustam",
   "id": "922685",
   "bbox": [
-    52.874722,
-    29.9774,
-    52.935221,
-    29.988889
+    52.8723397,
+    29.9874796,
+    52.8766156,
+    29.9896313
   ],
   "description": "An ancient necropolis located northwest of Persepolis.",
+  "names": [
+    "Naqsh-e Rustam"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.9049715,
-          29.9831445
+          52.87465819,
+          29.9887346875
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.935221,
-          29.9774
-        ]
-      },
-      "id": "darmc-location-32187",
-      "type": "Feature",
-      "properties": {
-        "description": "  scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 32187",
-        "link": "http://pleiades.stoa.org/places/922685/darmc-location-32187"
       }
     },
     {
@@ -55,6 +41,59 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/922685/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.874551,
+              29.9874796
+            ],
+            [
+              52.8755001,
+              29.9877479
+            ],
+            [
+              52.8760664,
+              29.9882137
+            ],
+            [
+              52.8766156,
+              29.9894151
+            ],
+            [
+              52.8758903,
+              29.9896313
+            ],
+            [
+              52.8731003,
+              29.9889359
+            ],
+            [
+              52.8723397,
+              29.9884487
+            ],
+            [
+              52.8724279,
+              29.9882069
+            ],
+            [
+              52.874551,
+              29.9874796
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-naqsh-e-rustam",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on a way derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Naqsh-e Rustam",
+        "link": "http://pleiades.stoa.org/places/922685/osm-location-of-naqsh-e-rustam"
       }
     }
   ]

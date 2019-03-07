@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Syreanos",
   "id": "614844",
-  "description": "An ancient place, cited: BAtlas 62 unlocated Syreanos",
+  "bbox": [
+    30.31044,
+    39.386076,
+    30.31044,
+    39.386076
+  ],
+  "description": "An ancient sanctuary of Zeus attested in inscriptions found on \"the upland plain of Makas Alan between the [Phrygian] cities of Kotiaeion (Kiitahya) and Nakoleia (Seyitgazi)\" in modern Turkey (Drew-Bear). Its precise location cannot be determined today.",
   "connectsWith": [
     "609371"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.31044,
+          39.386076
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

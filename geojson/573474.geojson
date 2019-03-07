@@ -1,28 +1,34 @@
 {
   "type": "FeatureCollection",
-  "title": "Pontinos",
+  "title": "Pontinos (river)",
   "id": "573474",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Pontinos fl.",
+  "bbox": [
+    22.7183258,
+    37.5512409,
+    22.7183258,
+    37.5512409
+  ],
+  "description": "A river of the Argolid, near Lerna, mentioned by Pausanias. Its precise location cannot be determined today.",
+  "connectsWith": [
+    "570104",
+    "570424",
+    "69536363"
+  ],
   "names": [
-    "Pontinos"
+    "Pontinos potamos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7183258,
+          37.5512409
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573474/batlas-location"
       }
     }
   ]

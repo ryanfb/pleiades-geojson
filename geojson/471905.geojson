@@ -3,17 +3,18 @@
   "title": "Chersonesos Pr.",
   "id": "471905",
   "bbox": [
-    8.0,
-    38.0,
-    9.0,
-    39.0
+    8.644872,
+    38.8643516,
+    8.644872,
+    38.8643516
   ],
   "description": "The promontory now known as Capo Teulada.",
   "connectsWith": [
     "472014"
   ],
   "names": [
-    "Chersonesos Pr."
+    "Chersonesos Pr.",
+    "Capo Teulada"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          38.5
+          8.644872,
+          38.8643516
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              8.0,
-              38.0
-            ],
-            [
-              9.0,
-              38.0
-            ],
-            [
-              9.0,
-              39.0
-            ],
-            [
-              8.0,
-              39.0
-            ],
-            [
-              8.0,
-              38.0
-            ]
-          ]
+          8.644872,
+          38.8643516
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471905/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/471905/osm-location"
       }
     }
   ]

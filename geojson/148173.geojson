@@ -1,26 +1,43 @@
 {
   "type": "FeatureCollection",
-  "title": "Roquemaillère",
+  "title": "Roquemaillère Roman Quarry",
   "id": "148173",
   "bbox": [
     4.315881,
-    43.868161,
-    4.315881,
+    43.860661,
+    4.327895,
     43.868161
   ],
-  "description": "An ancient place, cited: BAtlas 15 C2 Roquemaillère",
+  "description": "A Roman-era limestone quarry located to the north of Nîmes in modern France.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.315881,
-          43.868161
+          4.321888,
+          43.864411
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.327895,
+          43.860661
+        ]
+      },
+      "id": "imagery-location-of-modern-quarry-operation",
+      "type": "Feature",
+      "properties": {
+        "description": "This associated modern point was created using Google Earth and Google Street View to identify the general location of the modern operator \"Carrieres Romaine Roquemailler\" who claims to operate on the same site as the ancient quarry.",
+        "location_precision": "precise",
+        "title": "Imagery Location of Modern Quarry Operation",
+        "link": "http://pleiades.stoa.org/places/148173/imagery-location-of-modern-quarry-operation"
       }
     },
     {
@@ -34,7 +51,7 @@
       "id": "darmc-location-7392",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 7392",
         "link": "http://pleiades.stoa.org/places/148173/darmc-location-7392"

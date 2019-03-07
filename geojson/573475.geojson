@@ -1,28 +1,36 @@
 {
   "type": "FeatureCollection",
-  "title": "Pontinos M.",
+  "title": "Pontinos (mountain)",
   "id": "573475",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Pontinos M.",
+  "bbox": [
+    22.7183258,
+    37.5512409,
+    22.7183258,
+    37.5512409
+  ],
+  "description": "A mountain peak mentioned by Pausanias whose precise identity and location can not be determined today. Pausanias places it in Argolis, above Lerna and reports that a ruined sanctuary of Athena Saitis was to be found at its summit in his day.",
+  "connectsWith": [
+    "570104",
+    "570424",
+    "573474",
+    "69536363"
+  ],
   "names": [
-    "Pontinos M."
+    "Pontinos M.",
+    "Pontinos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7183258,
+          37.5512409
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573475/batlas-location"
       }
     }
   ]
