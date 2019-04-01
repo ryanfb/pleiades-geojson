@@ -3,12 +3,15 @@
   "title": "Nea Pleuron",
   "id": "540961",
   "bbox": [
-    21.409739,
-    38.414413,
-    21.414301,
-    38.415309
+    21.4057101,
+    38.4122532,
+    21.4120725,
+    38.4194239
   ],
-  "description": "An ancient place, cited: BAtlas 55 A4 Nea Pleuron",
+  "description": "Second site of the ancient Greek city of Pleuron, built after the destruction of the original location in the 3rd century BCE. This second site boasts significant excavated remains and is located on the southern slope of Mount Aracynthus near modern Kato Retsina.",
+  "connectsWith": [
+    "540999"
+  ],
   "names": [
     "Nea Pleuron"
   ],
@@ -18,29 +21,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.41202,
-          38.414861
+          21.4093828688,
+          38.4152221307
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.414301,
-          38.415309
-        ]
-      },
-      "id": "darmc-location-13890",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 13890",
-        "link": "http://pleiades.stoa.org/places/540961/darmc-location-13890"
       }
     },
     {
@@ -58,6 +44,75 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/540961/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.4089112,
+              38.4122532
+            ],
+            [
+              21.4107974,
+              38.4128881
+            ],
+            [
+              21.4118335,
+              38.4136999
+            ],
+            [
+              21.4120725,
+              38.4142931
+            ],
+            [
+              21.4114483,
+              38.4168117
+            ],
+            [
+              21.4111162,
+              38.4170823
+            ],
+            [
+              21.4081143,
+              38.4191845
+            ],
+            [
+              21.4072243,
+              38.4194239
+            ],
+            [
+              21.406507,
+              38.4193406
+            ],
+            [
+              21.4059093,
+              38.4190701
+            ],
+            [
+              21.4057101,
+              38.4187162
+            ],
+            [
+              21.4084729,
+              38.4126487
+            ],
+            [
+              21.4089112,
+              38.4122532
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-pleuron",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Pleuron",
+        "link": "http://pleiades.stoa.org/places/540961/osm-location-of-pleuron"
       }
     }
   ]

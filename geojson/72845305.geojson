@@ -2,9 +2,16 @@
   "type": "FeatureCollection",
   "title": "Forum Holitorium",
   "id": "72845305",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "The Forum Holitorium was the vegetable market of ancient Rome, situated outside the Porta Carmentalis in the southern Campus Martius. This area was bounded by the Forum Boarium and the Circus Flaminius.",
   "connectsWith": [
-    "423025"
+    "423025",
+    "207271756"
   ],
   "names": [
     "forum olitorium",
@@ -14,7 +21,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
