@@ -3,13 +3,18 @@
   "title": "Atina",
   "id": "432708",
   "bbox": [
-    13.798223,
-    41.620477,
-    13.801183,
-    41.620923
+    13.796837,
+    41.6204112,
+    13.7974238,
+    41.6209946
   ],
   "description": "Atina was a Samnite hill town with a polygonal masonry fortification wall.",
+  "connectsWith": [
+    "433208",
+    "239510733"
+  ],
   "names": [
+    "Atina",
     "Atina"
   ],
   "features": [
@@ -18,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.799703,
-          41.6207
+          13.7971679209,
+          41.6207105927
         ]
       },
       "properties": {
@@ -28,36 +33,51 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          13.801183,
-          41.620923
+          [
+            [
+              13.7973606,
+              41.6204112
+            ],
+            [
+              13.7974238,
+              41.6204835
+            ],
+            [
+              13.797327,
+              41.6208203
+            ],
+            [
+              13.7971887,
+              41.6209946
+            ],
+            [
+              13.796837,
+              41.620875
+            ],
+            [
+              13.7968706,
+              41.6208262
+            ],
+            [
+              13.7971669,
+              41.6204126
+            ],
+            [
+              13.7973606,
+              41.6204112
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-6948",
+      "id": "osm-location-of-atina",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 6948",
-        "link": "http://pleiades.stoa.org/places/432708/darmc-location-6948"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.798223,
-          41.620477
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, village precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/432708/dare-location"
+        "title": "OSM location of Atina",
+        "link": "http://pleiades.stoa.org/places/432708/osm-location-of-atina"
       }
     }
   ]
