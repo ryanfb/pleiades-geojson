@@ -3,20 +3,20 @@
   "title": "Dilbarjin",
   "id": "961901",
   "bbox": [
-    65.914382,
-    37.029928,
-    66.525611,
-    37.405406
+    66.5238922,
+    37.020105,
+    66.5296429,
+    37.0244736
   ],
-  "description": "An ancient place, cited: BAtlas 98 G1 Dilbarjin",
+  "description": "Dilbarjin is an ancient city of northern Afghanistan. The site may have been founded under the Achaemenid Empire. Under the Kushan Empire, the site was a fortified local center of some importance.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          66.2199965,
-          37.217667
+          66.5267613099,
+          37.022212423
         ]
       },
       "properties": {
@@ -25,36 +25,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          65.914382,
-          37.405406
+          [
+            [
+              66.5241068,
+              37.020105
+            ],
+            [
+              66.5296429,
+              37.0201393
+            ],
+            [
+              66.5292567,
+              37.0244736
+            ],
+            [
+              66.5238922,
+              37.0241995
+            ],
+            [
+              66.5241068,
+              37.020105
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-12202",
+      "id": "osm-location-of-dilbarjin",
       "type": "Feature",
       "properties": {
-        "description": "5M scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 12202",
-        "link": "http://pleiades.stoa.org/places/961901/darmc-location-12202"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          66.525611,
-          37.029928
-        ]
-      },
-      "id": "darmc-location-22979",
-      "type": "Feature",
-      "properties": {
-        "description": "Point location",
-        "location_precision": "precise",
-        "title": "DARMC location 22979",
-        "link": "http://pleiades.stoa.org/places/961901/darmc-location-22979"
+        "title": "OSM location of Dilbarjin",
+        "link": "http://pleiades.stoa.org/places/961901/osm-location-of-dilbarjin"
       }
     }
   ]

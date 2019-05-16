@@ -3,10 +3,10 @@
   "title": "Karnak",
   "id": "786050",
   "bbox": [
-    32.625392,
-    25.658034,
-    32.6566111,
-    25.7191736
+    32.654625,
+    25.714504,
+    32.6625436,
+    25.7227535
   ],
   "description": "A large temple complex in Egypt, associated with the ancient site of Thebes and Luxor and inscribed together with them on the UNESCO World Heritage list.",
   "names": [
@@ -18,29 +18,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.64100155,
-          25.6886038
+          32.6578913517,
+          25.7189300736
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.625392,
-          25.658034
-        ]
-      },
-      "id": "darmc-location-16023",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 16023",
-        "link": "http://pleiades.stoa.org/places/786050/darmc-location-16023"
       }
     },
     {
@@ -58,6 +41,59 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/786050/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.659435,
+              25.714504
+            ],
+            [
+              32.6620576,
+              25.716468
+            ],
+            [
+              32.6625436,
+              25.7217039
+            ],
+            [
+              32.6619244,
+              25.7221177
+            ],
+            [
+              32.6602601,
+              25.7227535
+            ],
+            [
+              32.657607,
+              25.7215331
+            ],
+            [
+              32.6573787,
+              25.7212012
+            ],
+            [
+              32.654625,
+              25.7164038
+            ],
+            [
+              32.659435,
+              25.714504
+            ]
+          ]
+        ]
+      },
+      "id": "karnak-temple-complex",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygon representing the boundaries of the Karnak Temple Complex, derived from an OpenStreetMap Way.",
+        "location_precision": "precise",
+        "title": "OSM location of Karnak Temple Complex",
+        "link": "http://pleiades.stoa.org/places/786050/karnak-temple-complex"
       }
     }
   ]
