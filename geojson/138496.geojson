@@ -3,15 +3,16 @@
   "title": "Novioregum",
   "id": "138496",
   "bbox": [
-    -0.878172,
-    45.534323,
-    -0.878172,
-    45.534323
+    -0.8805921,
+    45.5342033,
+    -0.8763806,
+    45.5362404
   ],
-  "description": "An ancient place, cited: BAtlas 14 E3 Novioregum",
+  "description": "An ancient road station, identified with the archaeological site at Barzan, in France.",
   "names": [
     "Novioregum",
-    "Barzan"
+    "Barzan",
+    "Fâ"
   ],
   "features": [
     {
@@ -19,49 +20,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.878172,
-          45.534323
+          -0.878312638105,
+          45.5347957546
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -1.0,
-              45.0
-            ],
-            [
-              0.0,
-              45.0
-            ],
-            [
-              0.0,
-              46.0
-            ],
-            [
-              -1.0,
-              46.0
-            ],
-            [
-              -1.0,
-              45.0
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138496/batlas-location"
       }
     },
     {
@@ -75,10 +39,75 @@
       "id": "center-point-of-archaeological-site-of-barzan",
       "type": "Feature",
       "properties": {
-        "description": "The Gallo-Roman site of Barzan on Google Maps and Cartes IGN is identified as Novioregum",
+        "description": "The Gallo-Roman site of Barzan on Google Maps and Cartes IGN is identified as Novioregum.",
         "location_precision": "precise",
         "title": "Center point of archaeological site of Barzan",
         "link": "http://pleiades.stoa.org/places/138496/center-point-of-archaeological-site-of-barzan"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.878063,
+              45.5342033
+            ],
+            [
+              -0.8770588,
+              45.5345122
+            ],
+            [
+              -0.8765938,
+              45.535144
+            ],
+            [
+              -0.8763806,
+              45.5357076
+            ],
+            [
+              -0.8768146,
+              45.5360184
+            ],
+            [
+              -0.8773956,
+              45.5362404
+            ],
+            [
+              -0.8800128,
+              45.5362254
+            ],
+            [
+              -0.8800545,
+              45.5361618
+            ],
+            [
+              -0.8805921,
+              45.5350594
+            ],
+            [
+              -0.8791991,
+              45.5345252
+            ],
+            [
+              -0.8786082,
+              45.5342986
+            ],
+            [
+              -0.878063,
+              45.5342033
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-the-site-gallo-romains-du-fac",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM location of the Site Gallo-Romains du Fâ",
+        "link": "http://pleiades.stoa.org/places/138496/osm-location-of-the-site-gallo-romains-du-fac"
       }
     }
   ]
