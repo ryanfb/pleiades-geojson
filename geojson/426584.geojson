@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Villa delle Grotte at Grottarossa",
   "id": "426584",
   "bbox": [
-    12.25,
-    41.75,
-    12.5,
-    42.0
+    12.4844546,
+    41.9572777,
+    12.484503,
+    41.957867
   ],
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 8 (Grottarossa, tombs and villa)",
+  "description": "A villa with beginnings in the early Republican period, continuing in use to the middle Imperial period.",
+  "connectsWith": [
+    "422941"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.375,
-          41.875
+          12.4844788,
+          41.95757235
         ]
       },
       "properties": {
@@ -25,39 +28,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.25,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.25,
-              42.0
-            ],
-            [
-              12.25,
-              41.75
-            ]
-          ]
+          12.4844546,
+          41.9572777
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-grottarossa-tombs",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/426584/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Grottarossa tombs",
+        "link": "http://pleiades.stoa.org/places/426584/location-of-grottarossa-tombs"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.484503,
+          41.957867
+        ]
+      },
+      "id": "villa-delle-grotte",
+      "type": "Feature",
+      "properties": {
+        "description": "A Republican villa site along the Via Flaminia north of Rome",
+        "location_precision": "precise",
+        "title": "Imagery location of so-called \"Villa delle Grotte\"",
+        "link": "http://pleiades.stoa.org/places/426584/villa-delle-grotte"
       }
     }
   ]

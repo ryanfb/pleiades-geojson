@@ -2,14 +2,29 @@
   "type": "FeatureCollection",
   "title": "Syros",
   "id": "590066",
+  "bbox": [
+    24.9423162,
+    37.444567,
+    24.9423162,
+    37.444567
+  ],
   "description": "An ancient place, cited: BAtlas 60 A5 Syros",
+  "connectsWith": [
+    "590067"
+  ],
   "names": [
     "Syros"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9423162,
+          37.444567
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
@@ -23,6 +38,23 @@
         "location_precision": "unlocated",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/590066/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9423162,
+          37.444567
+        ]
+      },
+      "id": "ermoupole",
+      "type": "Feature",
+      "properties": {
+        "description": "Location of the modern associated location based on a node derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of modern Ermoupoli (Ερμούπολη)",
+        "link": "http://pleiades.stoa.org/places/590066/ermoupole"
       }
     }
   ]
