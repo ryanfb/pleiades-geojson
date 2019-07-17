@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Unnamed bridges",
+  "title": "Roman Bridge of Châtillon",
   "id": "385054",
   "bbox": [
-    7.5,
-    45.5,
-    8.0,
-    46.0
+    7.610767,
+    45.7479527,
+    7.6109872,
+    45.7480489
   ],
-  "description": "unnamed bridge group (E Augusta Praetoria, at Châtillon/St Vincent)",
+  "description": "A Roman bridge over the Torrente Marmore at Châtillon in the Valle d'Aosta, Italy.",
+  "names": [
+    "Ponte di Châtillon"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.75,
-          45.75
+          7.6108771,
+          45.7480008
         ]
       },
       "properties": {
@@ -25,39 +28,25 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              7.5,
-              45.5
-            ],
-            [
-              8.0,
-              45.5
-            ],
-            [
-              8.0,
-              46.0
-            ],
-            [
-              7.5,
-              46.0
-            ],
-            [
-              7.5,
-              45.5
-            ]
+            7.6109872,
+            45.7480489
+          ],
+          [
+            7.610767,
+            45.7479527
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-the-ponte-romano-di-chac-tillon",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/385054/batlas-location"
+        "description": "Representative location based on OpenStreetMap. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM Location of the Ponte Romano di Châtillon",
+        "link": "http://pleiades.stoa.org/places/385054/osm-location-of-the-ponte-romano-di-chac-tillon"
       }
     }
   ]
