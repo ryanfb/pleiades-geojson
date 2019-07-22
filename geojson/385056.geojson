@@ -1,22 +1,25 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Pont-Saint-Martin (bridge)",
   "id": "385056",
   "bbox": [
-    7.5,
-    45.5,
-    8.0,
-    46.0
+    7.8000749,
+    45.5991618,
+    7.8001248,
+    45.5994316
   ],
-  "description": "An ancient place, cited: BAtlas 39 B2 unnamed bridge (over Betuctelum fl. NNW Eporedia)",
+  "description": "A Roman segmental arch bridge in the Aosta Valley in Italy that dates to the first century BC. The bridge spans 31.4 m across the Betuctelum to the NNW of Eporedia.",
+  "connectsWith": [
+    "383590"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.75,
-          45.75
+          7.80009985,
+          45.5992967
         ]
       },
       "properties": {
@@ -25,39 +28,25 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              7.5,
-              45.5
-            ],
-            [
-              8.0,
-              45.5
-            ],
-            [
-              8.0,
-              46.0
-            ],
-            [
-              7.5,
-              46.0
-            ],
-            [
-              7.5,
-              45.5
-            ]
+            7.8000749,
+            45.5994316
+          ],
+          [
+            7.8001248,
+            45.5991618
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-ponte-di-san-martino",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/385056/batlas-location"
+        "description": "Representative location based on OpenStreetMap. Dates following BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte di San Martino",
+        "link": "http://pleiades.stoa.org/places/385056/osm-location-of-ponte-di-san-martino"
       }
     }
   ]
