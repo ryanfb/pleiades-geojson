@@ -1,16 +1,21 @@
 {
   "type": "FeatureCollection",
-  "title": "Aquitania",
+  "title": "Aquitania (Roman province)",
   "id": "981505",
   "bbox": [
-    -5.0,
-    45.0,
-    0.0,
-    50.0
+    -0.606667,
+    44.5786621,
+    -0.0302428,
+    45.041389
   ],
-  "description": "An ancient place, cited: BAtlas 100 F2 Aquitania",
+  "description": "A Roman province formed in 27 B.C. by Augustus. According to Strabo, it incorporated the territories of the Aquitani and 14 other peoples whose territories were located between the Garumna and Liger rivers.",
+  "connectsWith": [
+    "138187"
+  ],
   "names": [
-    "Aquitania"
+    "Aquitania",
+    "Gallia Aquitania",
+    "Akouitania"
   ],
   "features": [
     {
@@ -18,49 +23,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          47.5
+          -0.3184549,
+          44.81002555
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -5.0,
-              45.0
-            ],
-            [
-              0.0,
-              45.0
-            ],
-            [
-              0.0,
-              50.0
-            ],
-            [
-              -5.0,
-              50.0
-            ],
-            [
-              -5.0,
-              45.0
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/981505/batlas-location"
       }
     }
   ]
