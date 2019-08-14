@@ -3,10 +3,10 @@
   "title": "Neratii",
   "id": "432979",
   "bbox": [
-    14.629626,
-    41.438396,
-    14.629626,
-    41.438396
+    14.633044,
+    41.4521674,
+    14.6338652,
+    41.4523701
   ],
   "description": "Site of an imperial villa, dating to the first and second centuries, covering an area of ca. 15,000 sq. m.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.629626,
-          41.438396
+          14.6334476233,
+          41.4522600029
         ]
       },
       "properties": {
@@ -28,36 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          14.629626,
-          41.438396
+          [
+            [
+              14.6338505,
+              41.4521674
+            ],
+            [
+              14.6338652,
+              41.4522466
+            ],
+            [
+              14.6330661,
+              41.4523701
+            ],
+            [
+              14.633044,
+              41.4522516
+            ],
+            [
+              14.6338505,
+              41.4521674
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-7829",
+      "id": "osm-location-of-villa-dei-neratii",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 7829",
-        "link": "http://pleiades.stoa.org/places/432979/darmc-location-7829"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.629626,
-          41.438396
-        ]
-      },
-      "id": "darmc-location-7830",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7830",
-        "link": "http://pleiades.stoa.org/places/432979/darmc-location-7830"
+        "title": "OSM location of Villa dei Neratii",
+        "link": "http://pleiades.stoa.org/places/432979/osm-location-of-villa-dei-neratii"
       }
     }
   ]

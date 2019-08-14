@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Cocynthum Pr.",
+  "title": "Cocynthum (promontory)",
   "id": "452306",
   "bbox": [
-    16.5,
-    38.0,
-    17.0,
-    38.5
+    16.5827465,
+    38.4548658,
+    16.5827465,
+    38.4548658
   ],
-  "description": "An ancient place, cited: BAtlas 46 E5 Cocynthum Pr.",
+  "description": "A promontory located between Caulonia and the sinus Scylacius.",
   "names": [
     "Cocynthum Pr."
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.75,
-          38.25
+          16.5827465,
+          38.4548658
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              16.5,
-              38.0
-            ],
-            [
-              17.0,
-              38.0
-            ],
-            [
-              17.0,
-              38.5
-            ],
-            [
-              16.5,
-              38.5
-            ],
-            [
-              16.5,
-              38.0
-            ]
-          ]
+          16.5827465,
+          38.4548658
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-punta-stilo",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452306/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Punta Stilo",
+        "link": "http://pleiades.stoa.org/places/452306/osm-location-of-punta-stilo"
       }
     }
   ]

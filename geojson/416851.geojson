@@ -2,14 +2,30 @@
   "type": "FeatureCollection",
   "title": "Sacrata",
   "id": "416851",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Sacrata",
+  "bbox": [
+    12.8622703,
+    43.1598275,
+    13.6708923,
+    43.4230142
+  ],
+  "description": "Attested on the Peutinger Map, this road station near the Adriatic coast in Italy cannot be located with certainty today.",
+  "connectsWith": [
+    "413139"
+  ],
   "names": [
+    "Sacrata",
     "Sacrata"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2313374348,
+          43.270960493
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
