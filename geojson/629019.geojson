@@ -1,14 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Kouloupene",
+  "title": "Kouloupene (region)",
   "id": "629019",
   "bbox": [
-    36.0,
-    39.5,
-    36.5,
-    40.0
+    36.081414,
+    39.747662,
+    37.017879,
+    40.007795
   ],
-  "description": "An ancient place, cited: BAtlas 64 C1 Kouloupene",
+  "description": "An ancient region of eastern Asia Minor, lying on the border of Armenia Minor and encompassing the cities of Sebasteia and Sebastopolis.",
+  "connectsWith": [
+    "628936"
+  ],
   "names": [
     "Kouloupene",
     "Colopene"
@@ -19,49 +22,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          39.75
+          36.5510511,
+          39.8751519833
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              36.0,
-              39.5
-            ],
-            [
-              36.5,
-              39.5
-            ],
-            [
-              36.5,
-              40.0
-            ],
-            [
-              36.0,
-              40.0
-            ],
-            [
-              36.0,
-              39.5
-            ]
-          ]
-        ]
-      },
-      "id": "undetermined",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/629019/undetermined"
       }
     }
   ]
