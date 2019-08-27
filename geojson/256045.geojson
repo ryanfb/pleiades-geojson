@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Calpe M.",
+  "title": "Calpe (mountain)",
   "id": "256045",
   "bbox": [
-    -5.485833,
-    35.971667,
-    -5.485833,
-    35.971667
+    -5.3442398,
+    36.128447,
+    -5.3442398,
+    36.128447
   ],
   "description": "The Rock of Gibraltar.",
   "connectsWith": [
@@ -16,7 +16,9 @@
     "1043"
   ],
   "names": [
-    "Calpe M."
+    "Calpe M.",
+    "Rock of Gibraltar",
+    "Kalpe"
   ],
   "features": [
     {
@@ -24,8 +26,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.485833,
-          35.971667
+          -5.3442398,
+          36.128447
         ]
       },
       "properties": {
@@ -34,39 +36,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -6.0,
-              36.0
-            ],
-            [
-              -5.0,
-              36.0
-            ],
-            [
-              -5.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
-              -6.0,
-              36.0
-            ]
-          ]
+          -5.3442398,
+          36.128447
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-the-rock-of-gibraltar",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256045/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of the Rock of Gibraltar",
+        "link": "http://pleiades.stoa.org/places/256045/osm-location-of-the-rock-of-gibraltar"
       }
     }
   ]
