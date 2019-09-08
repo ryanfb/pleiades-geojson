@@ -3,14 +3,15 @@
   "title": "Trileukoi (islands)",
   "id": "236689",
   "bbox": [
-    -8.0,
-    43.0,
-    -7.0,
-    44.0
+    -7.8684078,
+    43.7778792,
+    -7.8684078,
+    43.7778792
   ],
   "description": "Small, rocky islets in Galicia located adjacent to Cabo Ortegal.",
   "names": [
-    "Trileukoi"
+    "Trileukoi",
+    "Os Aguillons"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          43.5
+          -7.8684078,
+          43.7778792
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -8.0,
-              43.0
-            ],
-            [
-              -7.0,
-              43.0
-            ],
-            [
-              -7.0,
-              44.0
-            ],
-            [
-              -8.0,
-              44.0
-            ],
-            [
-              -8.0,
-              43.0
-            ]
-          ]
+          -7.8684078,
+          43.7778792
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236689/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of southernmost islet",
+        "link": "http://pleiades.stoa.org/places/236689/osm-location"
       }
     }
   ]

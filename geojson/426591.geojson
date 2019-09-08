@@ -1,22 +1,28 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Ponte di Malafede",
   "id": "426591",
   "bbox": [
-    12.25,
-    41.75,
-    12.5,
-    42.0
+    12.3780048,
+    41.7755265,
+    12.3780048,
+    41.7755265
   ],
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 15 (bridge at Malafede)",
+  "description": "A Roman bridge that is no longer extant. Quilici notes that the bridge was destroyed both by the Second World War and by urbanization that followed in the post-war period. Blake publishes a photo of E. B. van Deman and indicates that the bridge was built in peperino and of \"indeterminate date\". She compares the Ponte di Malafede with the construction of the Via Appia viaduct that lies just beyond Ariccia, a structure that was Augustan in its date.",
+  "connectsWith": [
+    "390205932"
+  ],
+  "names": [
+    "Ponte di Malafede"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.375,
-          41.875
+          12.3780048,
+          41.7755265
         ]
       },
       "properties": {
@@ -25,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.25,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.25,
-              42.0
-            ],
-            [
-              12.25,
-              41.75
-            ]
-          ]
+          12.3780048,
+          41.7755265
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-malafede",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/426591/batlas-location"
+        "description": "Associated Modern Location of the Malafede \"zona urbanistica\" of the modern city of Rome, based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of modern Malafede",
+        "link": "http://pleiades.stoa.org/places/426591/osm-location-of-modern-malafede"
       }
     }
   ]
