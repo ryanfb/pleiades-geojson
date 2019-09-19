@@ -3,14 +3,16 @@
   "title": "Unnamed bridge",
   "id": "426586",
   "bbox": [
-    12.25,
-    41.75,
-    12.5,
-    42.0
+    12.4901652,
+    41.8666844,
+    12.4901652,
+    41.8666844
   ],
-  "description": "An ancient place, cited: BAtlas 43 B2 no. 10 (bridge over Almo fl.)",
+  "description": "The remains of an ancient Roman bridge in the present Piazza Eugenio Biffi in Rome. This bridge is thought to have spanned the Almo river.",
   "connectsWith": [
-    "642108775"
+    "370793043",
+    "423025",
+    "370793043"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.375,
-          41.875
+          12.4901652,
+          41.8666844
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.25,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.25,
-              42.0
-            ],
-            [
-              12.25,
-              41.75
-            ]
-          ]
+          12.4901652,
+          41.8666844
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/426586/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of bridge",
+        "link": "http://pleiades.stoa.org/places/426586/osm-location-of-bridge"
       }
     }
   ]
