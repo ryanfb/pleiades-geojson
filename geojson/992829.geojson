@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "title": "Alpes Maritimae",
+  "title": "Alpes Maritimae (late Roman province)",
   "id": "992829",
   "bbox": [
     5.0,
@@ -8,7 +8,11 @@
     10.0,
     45.0
   ],
-  "description": "The Late Roman province as defined in the Barrington Atlas (BAtlas 101 H3 no. 3 [Alpes Maritimae])",
+  "description": "The post-Diocletianic province of Alpes Maritimae according to the Verona List (ca. AD 303-324). It was assigned to the diocese of Viennensis.",
+  "connectsWith": [
+    "992074",
+    "982259"
+  ],
   "names": [
     "Alpes Maritimae"
   ],
@@ -58,9 +62,9 @@
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": null,
+        "location_precision": "rough",
         "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/errata/992829/batlas-location"
+        "link": "http://pleiades.stoa.org/places/992829/batlas-location"
       }
     }
   ]

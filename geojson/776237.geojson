@@ -1,22 +1,29 @@
 {
   "type": "FeatureCollection",
-  "title": "Um Dabadib",
+  "title": "Umm al-Dabadib",
   "id": "776237",
   "bbox": [
-    30.426489,
-    25.731284,
-    30.426489,
-    25.731284
+    30.4217418,
+    25.7294504,
+    30.4226856,
+    25.7302423
   ],
-  "description": "An ancient place, cited: BAtlas 79 C2 Um Dabadib",
+  "description": "A late-Roman fortified settlement in Egypt's Kharga Oasis.",
+  "connectsWith": [
+    "776210"
+  ],
+  "names": [
+    "Um Dabadib",
+    "Umm al-Dabadib"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.426489,
-          25.731284
+          30.4222137,
+          25.72984635
         ]
       },
       "properties": {
@@ -25,19 +32,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          30.426489,
-          25.731284
+          [
+            [
+              30.4218124,
+              25.7294504
+            ],
+            [
+              30.4226856,
+              25.7295196
+            ],
+            [
+              30.422615,
+              25.7302423
+            ],
+            [
+              30.4217418,
+              25.7301731
+            ],
+            [
+              30.4218124,
+              25.7294504
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-15312",
+      "id": "osm-location-of-um-dabadib",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
         "location_precision": "precise",
-        "title": "DARMC location 15312",
-        "link": "http://pleiades.stoa.org/places/776237/darmc-location-15312"
+        "title": "OSM Location of Um Dabadib",
+        "link": "http://pleiades.stoa.org/places/776237/osm-location-of-um-dabadib"
       }
     }
   ]

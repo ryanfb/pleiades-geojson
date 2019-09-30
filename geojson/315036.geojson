@@ -3,10 +3,10 @@
   "title": "Hermaia Akra/Mercurii Pr./Kalon Akroterion?",
   "id": "315036",
   "bbox": [
-    11.0,
-    37.0,
-    11.5,
-    37.5
+    11.0416578,
+    37.0836241,
+    11.0416578,
+    37.0836241
   ],
   "description": "Cap Bon is a peninsula of northeastern Tunisia.",
   "connectsWith": [
@@ -15,7 +15,8 @@
   "names": [
     "Hermaia Akra",
     "Mercurii Pr.",
-    "Kalon Akroterion"
+    "Kalon Akroterion",
+    "Cap Bon"
   ],
   "features": [
     {
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.25,
-          37.25
+          11.0416578,
+          37.0836241
         ]
       },
       "properties": {
@@ -33,39 +34,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              11.0,
-              37.0
-            ],
-            [
-              11.5,
-              37.0
-            ],
-            [
-              11.5,
-              37.5
-            ],
-            [
-              11.0,
-              37.5
-            ],
-            [
-              11.0,
-              37.0
-            ]
-          ]
+          11.0416578,
+          37.0836241
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-cap-bon",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315036/batlas-location"
+        "description": "Representative point location of the cape based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Cap Bon",
+        "link": "http://pleiades.stoa.org/places/315036/osm-location-of-cap-bon"
       }
     }
   ]
