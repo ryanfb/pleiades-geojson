@@ -3,13 +3,15 @@
   "title": "Negrenenses Maiores/Ad Maiores",
   "id": "334599",
   "bbox": [
-    7.556609,
-    34.397676,
-    7.556609,
-    34.397676
+    7.4902458,
+    34.4425125,
+    7.4953045,
+    34.4483254
   ],
-  "description": "An ancient place, cited: BAtlas 34 F3 Negrenenses Maiores/Ad Maiores",
+  "description": "A Roman fort and associated settlement (vicus) known today as Henchir Bessariani. It is located southwest of modern Negrine in Algeria.",
   "names": [
+    "Bessariani",
+    "Henchir Bessariani",
     "Negrenenses Maiores",
     "Ad Maiores"
   ],
@@ -19,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.556609,
-          34.397676
+          7.49257565812,
+          34.4451940819
         ]
       },
       "properties": {
@@ -29,19 +31,140 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          7.556609,
-          34.397676
+          [
+            [
+              7.4923165,
+              34.4425125
+            ],
+            [
+              7.4931909,
+              34.4426762
+            ],
+            [
+              7.4945696,
+              34.4436229
+            ],
+            [
+              7.4949236,
+              34.4440786
+            ],
+            [
+              7.4953045,
+              34.4457774
+            ],
+            [
+              7.4950577,
+              34.4475513
+            ],
+            [
+              7.4944354,
+              34.4480069
+            ],
+            [
+              7.4932821,
+              34.4483254
+            ],
+            [
+              7.4921127,
+              34.4482856
+            ],
+            [
+              7.4912329,
+              34.4474053
+            ],
+            [
+              7.4910344,
+              34.447131
+            ],
+            [
+              7.4906267,
+              34.4464277
+            ],
+            [
+              7.4902566,
+              34.4457464
+            ],
+            [
+              7.4902458,
+              34.4453836
+            ],
+            [
+              7.4903048,
+              34.4448307
+            ],
+            [
+              7.4903853,
+              34.4444104
+            ],
+            [
+              7.4906374,
+              34.4433973
+            ],
+            [
+              7.4910827,
+              34.4427337
+            ],
+            [
+              7.4916513,
+              34.4425302
+            ],
+            [
+              7.4923165,
+              34.4425125
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-8130",
+      "id": "osm-location-of-walled-settlement",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location based on OpenStreetMap. Dates after Trousset in EncBerb.",
         "location_precision": "precise",
-        "title": "DARMC location 8130",
-        "link": "http://pleiades.stoa.org/places/334599/darmc-location-8130"
+        "title": "OSM Location of walled settlement",
+        "link": "http://pleiades.stoa.org/places/334599/osm-location-of-walled-settlement"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.4919464,
+              34.44426
+            ],
+            [
+              7.4929441,
+              34.4443485
+            ],
+            [
+              7.4927832,
+              34.4456491
+            ],
+            [
+              7.491823,
+              34.4455473
+            ],
+            [
+              7.4918015,
+              34.4454677
+            ],
+            [
+              7.4919464,
+              34.44426
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-fort-walls",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap. Dates after Trousset in EncBerb.",
+        "location_precision": "precise",
+        "title": "OSM Location of fort walls",
+        "link": "http://pleiades.stoa.org/places/334599/osm-location-of-fort-walls"
       }
     }
   ]
