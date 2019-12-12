@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Omana?",
   "id": "932474",
+  "bbox": [
+    55.626111,
+    25.522222,
+    55.626111,
+    25.522222
+  ],
   "description": "An ancient place, cited: BAtlas 95 inset Omana?",
   "names": [
     "Omana"
@@ -9,20 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.626111,
+          25.522222
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.626111,
+          25.522222
+        ]
+      },
+      "id": "wikipedia-location-of-ed-dur",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932474/batlas-location"
+        "description": "Coordinates following GeoHack",
+        "location_precision": "precise",
+        "title": "Imagery location of Ed-Dur",
+        "link": "http://pleiades.stoa.org/places/932474/wikipedia-location-of-ed-dur"
       }
     }
   ]

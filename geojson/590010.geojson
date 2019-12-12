@@ -2,7 +2,16 @@
   "type": "FeatureCollection",
   "title": "Potidaion",
   "id": "590010",
+  "bbox": [
+    27.2127142,
+    35.5065848,
+    27.2127142,
+    35.5065848
+  ],
   "description": "An ancient place, cited: BAtlas 60 E4 Potidaion",
+  "connectsWith": [
+    "589841"
+  ],
   "names": [
     "Potidaion",
     "Karpathou Ktoina"
@@ -10,20 +19,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2127142,
+          35.5065848
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2127142,
+          35.5065848
+        ]
+      },
+      "id": "karpathos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590010/batlas-location"
+        "description": "Location based on OpenStreetMap. The official name of Pigadia is Karpathos.",
+        "location_precision": "precise",
+        "title": "OSM location of Κάρπαθος",
+        "link": "http://pleiades.stoa.org/places/590010/karpathos"
       }
     }
   ]
