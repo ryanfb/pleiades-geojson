@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Methylion",
   "id": "543789",
-  "description": "An ancient place, cited: BAtlas 55 unlocated Methylion",
+  "bbox": [
+    21.9755719,
+    39.3752478,
+    21.9755719,
+    39.3752478
+  ],
+  "description": "An ancient settlement of Thessaly whose precise location is not known. It was probably near modern Prodromos Karditsas in Greece.",
   "names": [
     "Methylion"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9755719,
+          39.3752478
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9755719,
+          39.3752478
+        ]
+      },
+      "id": "prodromos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/543789/batlas-location"
+        "description": "Associated modern Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Πρόδρομος",
+        "link": "http://pleiades.stoa.org/places/543789/prodromos"
       }
     }
   ]
