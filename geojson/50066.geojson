@@ -1,18 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Komar(ei) Pr.",
+  "title": "Komar(ei) (promontory)",
   "id": "50066",
   "bbox": [
-    75.0,
-    5.0,
-    80.0,
-    10.0
+    77.5513761,
+    8.0772932,
+    77.5513761,
+    8.0772932
   ],
-  "description": "An ancient place, cited: BAtlas 5 D5 Komar(ei) Pr.",
+  "description": "The modern Kanyakumari (Cape Comorin), southernmost tip of the Indian subcontinent.",
   "names": [
     "Komarei Pr.",
     "Komar Pr.",
-    "Komaria"
+    "Komaria",
+    "Cape Comorin",
+    "Kanniyakumari"
   ],
   "features": [
     {
@@ -20,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          7.5
+          77.5513761,
+          8.0772932
         ]
       },
       "properties": {
@@ -30,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              75.0,
-              5.0
-            ],
-            [
-              80.0,
-              5.0
-            ],
-            [
-              80.0,
-              10.0
-            ],
-            [
-              75.0,
-              10.0
-            ],
-            [
-              75.0,
-              5.0
-            ]
-          ]
+          77.5513761,
+          8.0772932
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-cape-comorin",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50066/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Comorin",
+        "link": "http://pleiades.stoa.org/places/50066/osm-location-of-cape-comorin"
       }
     }
   ]

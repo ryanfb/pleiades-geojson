@@ -3,10 +3,10 @@
   "title": "Temple of Apollo Zoster",
   "id": "579875",
   "bbox": [
-    23.772232,
-    37.804649,
-    23.772232,
-    37.804649
+    23.7735416,
+    37.8098984,
+    23.7739193,
+    37.8101203
   ],
   "description": "The Temple of Apollo Zoster is a sanctuary of the god Apollo located in Vouliagmeni in Attica, Greece. The temple's foundations date to the sixth century BC.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.772232,
-          37.804649
+          23.77373045,
+          37.81000935
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          23.772232,
-          37.804649
+          [
+            [
+              23.7738577,
+              37.8098984
+            ],
+            [
+              23.7739193,
+              37.8100217
+            ],
+            [
+              23.7736032,
+              37.8101203
+            ],
+            [
+              23.7735416,
+              37.809997
+            ],
+            [
+              23.7738577,
+              37.8098984
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-21240",
+      "id": "osm-location-of-temple-of-apollo-zoster",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 21240",
-        "link": "http://pleiades.stoa.org/places/579875/darmc-location-21240"
+        "title": "OSM location of Temple of Apollo Zoster",
+        "link": "http://pleiades.stoa.org/places/579875/osm-location-of-temple-of-apollo-zoster"
       }
     }
   ]
