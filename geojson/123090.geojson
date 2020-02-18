@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Hercynia Silva",
   "id": "123090",
-  "description": "An ancient place, cited: BAtlas 12 unlocated Hercynia Silva",
+  "bbox": [
+    8.15,
+    48.3,
+    8.15,
+    48.3
+  ],
+  "description": "An ancient forest located east of the Rhine river in southern Germany. The precise location and extent of the forest remains uncertain, although the Black Forest formed the western part of the Hercynian Forest.",
   "names": [
     "Hercynia Silva"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.15,
+          48.3
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.15,
+          48.3
+        ]
+      },
+      "id": "geohack-location-of-the-black-forest",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/123090/batlas-location"
+        "description": "The Black Forest was the western portion of the Hercynian Forest. Coordinates after Geo-Hack.",
+        "location_precision": "precise",
+        "title": "Geohack location of the modern Black Forest",
+        "link": "http://pleiades.stoa.org/places/123090/geohack-location-of-the-black-forest"
       }
     }
   ]
