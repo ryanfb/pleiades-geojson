@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hyperakria",
   "id": "585919",
+  "bbox": [
+    23.899722,
+    38.080833,
+    23.899722,
+    38.080833
+  ],
   "description": "An ancient place, cited: BAtlas 59 unlocated Hyperakria",
   "connectsWith": [
     "580065"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.899722,
+          38.080833
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

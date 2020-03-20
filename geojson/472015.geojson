@@ -3,17 +3,18 @@
   "title": "Sardus Pater, T.",
   "id": "472015",
   "bbox": [
-    8.5001976,
-    39.3940129,
-    8.5001976,
-    39.3940129
+    8.5000811,
+    39.3939576,
+    8.5003317,
+    39.3940866
   ],
   "description": "A Punic-Roman temple dedicated to Sardus Pater Babai located near Fluminimaggiore in southern Sardinia. The original phase of the temple dates ca. 500 BC.",
   "connectsWith": [
-    "472014"
+    "472014",
+    "471971"
   ],
   "names": [
-    "Sardus Pater, T."
+    "Sardus Pater"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5001976,
-          39.3940129
+          8.5002089617,
+          39.3940251834
         ]
       },
       "properties": {
@@ -31,19 +32,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          8.5001976,
-          39.3940129
+          [
+            [
+              8.5002864,
+              39.3939576
+            ],
+            [
+              8.5003317,
+              39.3940327
+            ],
+            [
+              8.5002712,
+              39.3940547
+            ],
+            [
+              8.5001138,
+              39.3940866
+            ],
+            [
+              8.5000811,
+              39.3940322
+            ],
+            [
+              8.5002864,
+              39.3939576
+            ]
+          ]
         ]
       },
-      "id": "osm-location",
+      "id": "osm-location-of-tempio-di-antas",
       "type": "Feature",
       "properties": {
-        "description": "Representative point derived from an OpenStreetMap node.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location",
-        "link": "http://pleiades.stoa.org/places/472015/osm-location"
+        "title": "OSM Location of Tempio di Antas",
+        "link": "http://pleiades.stoa.org/places/472015/osm-location-of-tempio-di-antas"
       }
     }
   ]
