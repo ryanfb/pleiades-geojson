@@ -2,14 +2,29 @@
   "type": "FeatureCollection",
   "title": "Carystum",
   "id": "387319",
-  "description": "An ancient place, cited: BAtlas 39 unlocated Carystum",
+  "bbox": [
+    8.0,
+    44.5,
+    8.5,
+    45.0
+  ],
+  "description": "An oppidum of the Statielli/Statellati, where the Romans defeated Ligurian tribes in 173 BC.",
+  "connectsWith": [
+    "383783"
+  ],
   "names": [
     "Carystum"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.25,
+          44.75
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
