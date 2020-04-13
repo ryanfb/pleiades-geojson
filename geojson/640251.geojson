@@ -3,10 +3,10 @@
   "title": "Bridge at Aspendos",
   "id": "640251",
   "bbox": [
-    31.18,
-    36.9355,
-    31.18,
-    36.9355
+    31.1626255,
+    36.9140087,
+    31.1635214,
+    36.9147732
   ],
   "description": "An unnamed bridge over Eurymedon fl.",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.18,
-          36.9355
+          31.1630769643,
+          36.9143874286
         ]
       },
       "properties": {
@@ -29,19 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          31.18,
-          36.9355
+          [
+            [
+              31.1635214,
+              36.9140087
+            ],
+            [
+              31.1633894,
+              36.9141767
+            ],
+            [
+              31.1628128,
+              36.9146451
+            ],
+            [
+              31.1626255,
+              36.9147732
+            ],
+            [
+              31.1631377,
+              36.9142562
+            ],
+            [
+              31.1635214,
+              36.9140087
+            ]
+          ]
         ]
       },
-      "id": "point-location",
+      "id": "osm-location-of-eurymedon-bridge",
       "type": "Feature",
       "properties": {
-        "description": "From the 1:500,000 scale Barrington Map sheet 65. Time periods from the Barrington.",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "Point location",
-        "link": "http://pleiades.stoa.org/places/640251/point-location"
+        "title": "OSM location of Eurymedon Bridge",
+        "link": "http://pleiades.stoa.org/places/640251/osm-location-of-eurymedon-bridge"
       }
     }
   ]
