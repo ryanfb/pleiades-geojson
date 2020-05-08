@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "title": "Sardinia",
+  "title": "Sardinia (late Roman province)",
   "id": "991344",
   "bbox": [
     5.0,
@@ -8,7 +8,10 @@
     10.0,
     40.0
   ],
-  "description": "An ancient place, cited: BAtlas 101 H4 Sardinia",
+  "description": "The Late Roman province of Sardinia was organized under a praeses during the reign of Diocletian. In the fifth century (455) the island was occupied by the Vandals. Justinian I reclaimed the island in 534 and it remained under Byzantine control until the eleventh century.",
+  "connectsWith": [
+    "981548"
+  ],
   "names": [
     "Sardinia"
   ],
@@ -24,43 +27,6 @@
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.0,
-              35.0
-            ],
-            [
-              10.0,
-              35.0
-            ],
-            [
-              10.0,
-              40.0
-            ],
-            [
-              5.0,
-              40.0
-            ],
-            [
-              5.0,
-              35.0
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/991344/batlas-location"
       }
     }
   ]
