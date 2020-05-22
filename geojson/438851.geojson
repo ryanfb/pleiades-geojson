@@ -1,8 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Tifata",
+  "title": "Tifata (Latium)",
   "id": "438851",
-  "description": "An ancient place, cited: BAtlas 44 unlocated Tifata",
+  "bbox": [
+    12.25,
+    41.75,
+    12.5,
+    42.0
+  ],
+  "description": "Tifata is a site in Latium listed as defunct by the elder Pliny. Palmer notes that Festus (43 L) raises the question of an identically named Roman curia.",
   "connectsWith": [
     "422958"
   ],
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          41.875
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438851/batlas-location"
       }
     }
   ]
