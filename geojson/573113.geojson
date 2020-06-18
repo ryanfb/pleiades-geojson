@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Arene",
   "id": "573113",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Arene",
+  "bbox": [
+    21.7251305,
+    37.4400321,
+    21.7251305,
+    37.4400321
+  ],
+  "description": "A spring that Pausanias places at Lepreon. Its precise location is not known today.",
   "connectsWith": [
     "570423"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7251305,
+          37.4400321
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

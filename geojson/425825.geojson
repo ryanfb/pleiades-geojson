@@ -1,25 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Emissarium of Lake Nemi",
   "id": "425825",
   "bbox": [
-    12.6964546,
-    41.7151885,
+    12.6760715,
+    41.7118127,
     12.6964546,
     41.7151885
   ],
   "description": "An ancient place, cited: BAtlas 43 C3 unnamed canal (from Nemorensis L.)",
-  "connectsWith": [
-    "422984"
-  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6964546,
-          41.7151885
+          12.690350175,
+          41.71292645
         ]
       },
       "properties": {
@@ -28,39 +25,53 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.5,
-              41.5
-            ],
-            [
-              12.75,
-              41.5
-            ],
-            [
-              12.75,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              41.5
-            ]
-          ]
+          12.6760715,
+          41.7124129
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-emissario-del-lago-di-nemi-uscita",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/425825/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Emissario del lago di Nemi (uscita)",
+        "link": "http://pleiades.stoa.org/places/425825/osm-location-of-emissario-del-lago-di-nemi-uscita"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6941828,
+          41.7118127
+        ]
+      },
+      "id": "osm-location-of-discenderia-emissario-del-lago-di",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Discenderia emissario del Lago di Nemi",
+        "link": "http://pleiades.stoa.org/places/425825/osm-location-of-discenderia-emissario-del-lago-di"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6946918,
+          41.7122917
+        ]
+      },
+      "id": "osm-location-of-emissario-del-lago-di-nemi",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Emissario del Lago di Nemi (ingresso)",
+        "link": "http://pleiades.stoa.org/places/425825/osm-location-of-emissario-del-lago-di-nemi"
       }
     },
     {
@@ -71,13 +82,13 @@
           41.7151885
         ]
       },
-      "id": "location-of-emissarium",
+      "id": "osm-location-of-emissarium",
       "type": "Feature",
       "properties": {
         "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of Emissarium",
-        "link": "http://pleiades.stoa.org/places/425825/location-of-emissarium"
+        "title": "OSM location of Emissarium",
+        "link": "http://pleiades.stoa.org/places/425825/osm-location-of-emissarium"
       }
     }
   ]

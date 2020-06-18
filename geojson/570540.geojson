@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Oryx(is) M.",
+  "title": "Oryx(is) (mountain)",
   "id": "570540",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.2522179,
+    37.839724,
+    22.2522179,
+    37.839724
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Oryx(is) M.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.2522179,
+          37.839724
         ]
       },
       "properties": {
@@ -32,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
-              22.5,
-              38.0
-            ],
-            [
-              22.0,
-              38.0
-            ],
-            [
-              22.0,
-              37.5
-            ]
-          ]
+          22.2522179,
+          37.839724
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-saitas",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570540/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Saitas",
+        "link": "http://pleiades.stoa.org/places/570540/osm-location-of-saitas"
       }
     }
   ]

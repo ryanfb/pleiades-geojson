@@ -3,12 +3,15 @@
   "title": "Nennig",
   "id": "109198",
   "bbox": [
-    6.384483,
-    49.528879,
-    6.384552,
-    49.529123
+    6.3843897,
+    49.5286364,
+    6.3849142,
+    49.5293213
   ],
-  "description": "An ancient place, cited: BAtlas 11 G3 Nennig",
+  "description": "The site of a Roman villa some 40 km upstream on the Moselle from Trier. The site was discovered in 1852 and was excavated between 1866 and 1876.",
+  "connectsWith": [
+    "109182"
+  ],
   "names": [
     "Nennig"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.3845175,
-          49.529001
+          6.38455718183,
+          49.5289922263
         ]
       },
       "properties": {
@@ -58,6 +61,43 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/109198/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.3847545,
+              49.5286364
+            ],
+            [
+              6.3849142,
+              49.5292456
+            ],
+            [
+              6.3844962,
+              49.5293213
+            ],
+            [
+              6.3843897,
+              49.5286573
+            ],
+            [
+              6.3847545,
+              49.5286364
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-villa-nenning",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Villa Nennig",
+        "link": "http://pleiades.stoa.org/places/109198/osm-location-of-villa-nenning"
       }
     }
   ]
