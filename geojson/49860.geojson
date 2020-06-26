@@ -3,12 +3,15 @@
   "title": "Andrisimoundou (Akron)",
   "id": "49860",
   "bbox": [
-    75.0,
-    5.0,
-    85.0,
-    15.0
+    79.833333,
+    9.05,
+    79.833333,
+    9.05
   ],
   "description": "An ancient place, cited: BAtlas 5 inset Andrisimoundou (Akron)",
+  "connectsWith": [
+    "50298"
+  ],
   "names": [
     "Andrisimoundou Akron",
     "Andrisimoundou"
@@ -19,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.0,
-          10.0
+          79.833333,
+          9.05
         ]
       },
       "properties": {
@@ -29,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              75.0,
-              5.0
-            ],
-            [
-              85.0,
-              5.0
-            ],
-            [
-              85.0,
-              15.0
-            ],
-            [
-              75.0,
-              15.0
-            ],
-            [
-              75.0,
-              5.0
-            ]
-          ]
+          79.833333,
+          9.05
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-mannar-island",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49860/batlas-location"
+        "description": "Coordinates following GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Mannar Island",
+        "link": "http://pleiades.stoa.org/places/49860/imagery-location-of-mannar-island"
       }
     }
   ]
