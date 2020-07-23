@@ -3,10 +3,10 @@
   "title": "Tamassos",
   "id": "707628",
   "bbox": [
-    33.238046,
-    35.027492,
-    33.246325,
-    35.029352
+    33.2434856,
+    35.02905,
+    33.2452071,
+    35.0301752
   ],
   "description": "An ancient place, cited: BAtlas 72 C2 Tamassos",
   "connectsWith": [
@@ -15,7 +15,8 @@
   "names": [
     "Tamassos",
     "Temese",
-    "Tamesi"
+    "Tamesi",
+    "Tamasos"
   ],
   "features": [
     {
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.2421855,
-          35.028422
+          33.2444267995,
+          35.0296281786
         ]
       },
       "properties": {
@@ -33,36 +34,55 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          33.238046,
-          35.027492
+          [
+            [
+              33.244734,
+              35.02905
+            ],
+            [
+              33.2448598,
+              35.0290871
+            ],
+            [
+              33.2451492,
+              35.0298867
+            ],
+            [
+              33.2452071,
+              35.030066
+            ],
+            [
+              33.2446106,
+              35.0301752
+            ],
+            [
+              33.2440846,
+              35.0299197
+            ],
+            [
+              33.2434856,
+              35.029592
+            ],
+            [
+              33.2441802,
+              35.0291097
+            ],
+            [
+              33.244734,
+              35.02905
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-14992",
+      "id": "osm-location-of-tamassos",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Polygon location based on OpenStreetMap: delineates the visible remains.",
         "location_precision": "precise",
-        "title": "DARMC location 14992",
-        "link": "http://pleiades.stoa.org/places/707628/darmc-location-14992"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.246325,
-          35.029352
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/707628/dare-location"
+        "title": "OSM Location of Tamassos",
+        "link": "http://pleiades.stoa.org/places/707628/osm-location-of-tamassos"
       }
     }
   ]
