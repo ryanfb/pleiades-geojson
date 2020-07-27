@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Belevi",
+  "title": "Belevi Mausoleum",
   "id": "599556",
   "bbox": [
-    27.454423,
-    38.005618,
-    27.454423,
-    38.005618
+    27.4719282,
+    38.0144966,
+    27.4723843,
+    38.0148792
   ],
-  "description": "An ancient place, cited: BAtlas 61 E1 Belevi (1)",
+  "description": "A monumental Hellenistic tomb located at the modern Turkish village of Belevi (11km northeast of ancient Ephesus). The tomb may have been prepared for either Antigonus Monophthalmus or Lysimachus. The Seleucid king Antiochus II Theos may have been buried there subsequently.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.454423,
-          38.005618
+          27.47215625,
+          38.0146879
         ]
       },
       "properties": {
@@ -25,19 +25,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          27.454423,
-          38.005618
+          [
+            [
+              27.4720536,
+              38.0144966
+            ],
+            [
+              27.4723843,
+              38.0145838
+            ],
+            [
+              27.4722589,
+              38.0148792
+            ],
+            [
+              27.4719282,
+              38.014792
+            ],
+            [
+              27.4720536,
+              38.0144966
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-25905",
+      "id": "osm-location-of-belevi-mausoleum",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 25905",
-        "link": "http://pleiades.stoa.org/places/599556/darmc-location-25905"
+        "title": "OSM location of Belevi Mausoleum",
+        "link": "http://pleiades.stoa.org/places/599556/osm-location-of-belevi-mausoleum"
       }
     }
   ]
