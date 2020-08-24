@@ -2,16 +2,49 @@
   "type": "FeatureCollection",
   "title": "Humē",
   "id": "653377581",
-  "description": "A region mentioned in Neo- and Late-Babylonian texts that roughly corresponds to Que in Neo-Assyrian texts; that latter place is generally identified as being in Cilicia.",
+  "bbox": [
+    35.4111353467,
+    36.9303120368,
+    35.4111353467,
+    36.9303120368
+  ],
+  "description": "A country mentioned in Neo- and Late-Babylonian texts that roughly corresponds to Que (kingdom and province) and Cilicia Pedias (\"Flat Cilicia\").",
+  "connectsWith": [
+    "944349915",
+    "648600"
+  ],
   "names": [
     "Humē"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4111353467,
+          36.9303120368
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4111353467,
+          36.9303120368
+        ]
+      },
+      "id": "representative-location-of-hume-cilicia-pedias",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point for Cilicia Pedias based on the Helsinki Atlas.",
+        "location_precision": "precise",
+        "title": "Representative location of Humē (Cilicia Pedias)",
+        "link": "http://pleiades.stoa.org/places/653377581/representative-location-of-hume-cilicia-pedias"
       }
     }
   ]
