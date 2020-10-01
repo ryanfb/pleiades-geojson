@@ -2,27 +2,36 @@
   "type": "FeatureCollection",
   "title": "Trikomia 3",
   "id": "614870",
-  "description": "An ancient place, cited: BAtlas 62 unlocated Trikomia 3",
+  "bbox": [
+    30.51684,
+    39.3310786,
+    32.860538,
+    40.000895
+  ],
+  "description": "One of several \"Trikomiai\" attested in the ancient Greek and Roman world. This presumed settlement cannot be located today, but probably lay in what is today the country of Turkey, somewhere between Dorylaion (Eskişehir) and Pessinous (Ballıhisar).",
+  "connectsWith": [
+    "609473",
+    "619103",
+    "609367",
+    "609500",
+    "609500"
+  ],
   "names": [
-    "Trikomia 3"
+    "Trikomia",
+    "Tricomia"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4412675311,
+          39.7175180525
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "undetermined",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/614870/undetermined"
       }
     }
   ]
