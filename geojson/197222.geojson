@@ -3,12 +3,15 @@
   "title": "Contra Florentiam",
   "id": "197222",
   "bbox": [
-    18.769044,
-    46.081374,
-    18.781661,
-    46.087606
+    18.7684582,
+    46.0864313,
+    18.7697349,
+    46.0877165
   ],
-  "description": "An ancient place, cited: BAtlas 20 F3 Contra Florentiam",
+  "description": "Contra Florentiam was a late Roman fort located on the Danube frontier.",
+  "connectsWith": [
+    "197360"
+  ],
   "names": [
     "Contra Florentiam"
   ],
@@ -18,29 +21,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7753525,
-          46.08449
+          18.769070275,
+          46.08733995
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.781661,
-          46.081374
-        ]
-      },
-      "id": "darmc-location-7598",
-      "type": "Feature",
-      "properties": {
-        "description": "1M scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7598",
-        "link": "http://pleiades.stoa.org/places/197222/darmc-location-7598"
       }
     },
     {
@@ -58,6 +44,43 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/197222/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7695428,
+              46.0864313
+            ],
+            [
+              18.7697349,
+              46.0876332
+            ],
+            [
+              18.7686503,
+              46.0877165
+            ],
+            [
+              18.7684582,
+              46.0865146
+            ],
+            [
+              18.7695428,
+              46.0864313
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-contra-florentiam",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Contra Florentiam",
+        "link": "http://pleiades.stoa.org/places/197222/osm-location-of-contra-florentiam"
       }
     }
   ]
