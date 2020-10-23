@@ -3,20 +3,23 @@
   "title": "Boxmoor",
   "id": "79342",
   "bbox": [
-    -0.484718,
-    51.747058,
-    -0.484718,
-    51.747058
+    -0.4992398,
+    51.7394766,
+    -0.4963001,
+    51.7410113
   ],
   "description": "The Boxmoor Roman Villa located at Boxmoor, Hemel Hempstead, Hertfordshire, was occupied from the first to the fourth centuries. During that time at least five occupational phases have been identified.",
+  "names": [
+    "Boxmoor House Roman villa"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.484718,
-          51.747058
+          -0.497770008659,
+          51.740247661
         ]
       },
       "properties": {
@@ -25,19 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -0.484718,
-          51.747058
+          [
+            [
+              -0.4972228,
+              51.7394766
+            ],
+            [
+              -0.4963001,
+              51.7403669
+            ],
+            [
+              -0.4973944,
+              51.7407854
+            ],
+            [
+              -0.4982849,
+              51.7410113
+            ],
+            [
+              -0.4992398,
+              51.7400812
+            ],
+            [
+              -0.4986819,
+              51.7398686
+            ],
+            [
+              -0.4972228,
+              51.7394766
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20791",
+      "id": "osm-location-of-roman-fields-school",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap. Per Pastscape, the school's playing fields lie over the villa site.",
         "location_precision": "precise",
-        "title": "DARMC location 20791",
-        "link": "http://pleiades.stoa.org/places/79342/darmc-location-20791"
+        "title": "OSM Location of Roman Fields School",
+        "link": "http://pleiades.stoa.org/places/79342/osm-location-of-roman-fields-school"
       }
     }
   ]
