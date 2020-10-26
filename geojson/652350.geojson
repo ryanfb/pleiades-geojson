@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Kyinda",
   "id": "652350",
+  "bbox": [
+    34.6031761,
+    36.8004345,
+    35.8163535,
+    37.4488715
+  ],
   "description": "Strabo describes Kyinda as a fortress where Macedonian kings deposited treasure. Eumenes reportedly captured the treasure when he revolted against Antigonus. The site is now unlocated.",
   "connectsWith": [
     "648555",
@@ -15,7 +21,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1234508438,
+          37.0015916028
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
