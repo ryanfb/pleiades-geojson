@@ -3,17 +3,18 @@
   "title": "Tenea",
   "id": "570711",
   "bbox": [
-    22.834379,
-    37.798572,
-    22.834379,
-    37.798572
+    22.8111864,
+    37.7650677,
+    22.909991,
+    37.8453143
   ],
-  "description": "Tenea is an ancient city of the Corinthia famous for its sanctuary of Apollo.",
+  "description": "Tenea was an ancient city of the Corinthia famous for its sanctuary of Apollo. Scholars have long believed it is to be located in the area of modern Chiliomodi in Greece. Recent scientific excavations have identified the general extent of a large, multi-period cemetery zone to the east and south of the modern town, as well as an extensive bath complex of Roman date.",
   "connectsWith": [
     "570180"
   ],
   "names": [
-    "Tenea"
+    "Tenea",
+    "Chiliomodi"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.834379,
-          37.798572
+          22.8678879648,
+          37.8079385828
         ]
       },
       "properties": {
@@ -31,19 +32,95 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          22.834379,
-          37.798572
+          [
+            [
+              22.9083431,
+              37.7650677
+            ],
+            [
+              22.9089086,
+              37.7652148
+            ],
+            [
+              22.909991,
+              37.7846024
+            ],
+            [
+              22.8912795,
+              37.8374767
+            ],
+            [
+              22.8908477,
+              37.8382612
+            ],
+            [
+              22.889227,
+              37.8405216
+            ],
+            [
+              22.8887658,
+              37.8410332
+            ],
+            [
+              22.887695,
+              37.841841
+            ],
+            [
+              22.8861788,
+              37.8428586
+            ],
+            [
+              22.8823447,
+              37.8453143
+            ],
+            [
+              22.8116542,
+              37.8237242
+            ],
+            [
+              22.8111864,
+              37.823555
+            ],
+            [
+              22.8148843,
+              37.8085681
+            ],
+            [
+              22.9022495,
+              37.7661106
+            ],
+            [
+              22.9042684,
+              37.7655278
+            ],
+            [
+              22.9066624,
+              37.7651737
+            ],
+            [
+              22.9072826,
+              37.7651186
+            ],
+            [
+              22.9079448,
+              37.7650842
+            ],
+            [
+              22.9083431,
+              37.7650677
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-24217",
+      "id": "osm-location-of-modern-chiliomodi",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap relation defining the official boundaries of the modern village.",
         "location_precision": "precise",
-        "title": "DARMC location 24217",
-        "link": "http://pleiades.stoa.org/places/570711/darmc-location-24217"
+        "title": "OSM Location of Modern Chiliomodi",
+        "link": "http://pleiades.stoa.org/places/570711/osm-location-of-modern-chiliomodi"
       }
     }
   ]
