@@ -3,10 +3,10 @@
   "title": "‘Diabas’/Turnat (river)",
   "id": "893984",
   "bbox": [
-    44.0,
-    33.0,
-    45.0,
-    34.0
+    44.5048156,
+    33.2198378,
+    46.3893824,
+    35.3213246
   ],
   "description": "The Diyala River is a major tributary of the Tigris.",
   "connectsWith": [
@@ -15,7 +15,8 @@
   "names": [
     "Diabas",
     "Turnat",
-    "Tornadotus"
+    "Tornadotus",
+    "Nahr Diyālā"
   ],
   "features": [
     {
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          33.5
+          44.862068085,
+          33.7832491694
         ]
       },
       "properties": {
@@ -33,39 +34,104 @@
     },
     {
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5059848,
+          33.220376
+        ]
+      },
+      "id": "osm-location-of-diyala-river",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Diyala-Tigris confluence",
+        "link": "http://pleiades.stoa.org/places/893984/osm-location-of-diyala-river"
+      }
+    },
+    {
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              44.0,
-              33.0
+              44.5048156,
+              33.2198378
             ],
             [
-              45.0,
-              33.0
+              44.5067139,
+              33.2209834
             ],
             [
-              45.0,
-              34.0
+              44.5242233,
+              33.2384297
             ],
             [
-              44.0,
-              34.0
+              46.3893824,
+              35.1720908
             ],
             [
-              44.0,
-              33.0
+              46.3368154,
+              35.3128485
+            ],
+            [
+              46.2796908,
+              35.3213246
+            ],
+            [
+              45.7612339,
+              35.1453243
+            ],
+            [
+              45.7291332,
+              35.1303037
+            ],
+            [
+              45.7062016,
+              35.1138634
+            ],
+            [
+              45.6373116,
+              35.0472709
+            ],
+            [
+              44.6308628,
+              33.8552214
+            ],
+            [
+              44.630321,
+              33.8543698
+            ],
+            [
+              44.6296567,
+              33.8527522
+            ],
+            [
+              44.6233902,
+              33.836002
+            ],
+            [
+              44.6143419,
+              33.8027588
+            ],
+            [
+              44.6078183,
+              33.7680452
+            ],
+            [
+              44.5048156,
+              33.2198378
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-course-of-diyala-river",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/893984/batlas-location"
+        "description": "Representative location of present river course based on a Relation derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of modern course of Diyala River",
+        "link": "http://pleiades.stoa.org/places/893984/osm-location-of-course-of-diyala-river"
       }
     }
   ]
