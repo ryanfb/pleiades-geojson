@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Via Domitiana",
   "id": "236890543",
+  "bbox": [
+    13.5,
+    41.0,
+    14.0,
+    41.5
+  ],
   "description": "A Roman road of Campania built during the reign of Domitian.",
   "names": [
     "Via Domitiana"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75,
+          41.25
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
