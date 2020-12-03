@@ -3,17 +3,18 @@
   "title": "Volturnus (river)",
   "id": "433211",
   "bbox": [
-    14.1884169,
-    41.36475,
-    14.1884169,
-    41.36475
+    13.9277981,
+    41.024189,
+    14.4672978,
+    41.7034793
   ],
   "description": "The Volturno river flows 175 km from the Apennines to the Tyrrhenian Sea at Castel Volturno.",
   "connectsWith": [
     "1356"
   ],
   "names": [
-    "Volturnus"
+    "Volturnus",
+    "Ououltournos"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.1884169,
-          41.36475
+          14.2036835649,
+          41.2885606895
         ]
       },
       "properties": {
@@ -31,19 +32,83 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          14.1884169,
-          41.36475
+          [
+            [
+              13.9277981,
+              41.024189
+            ],
+            [
+              14.4257447,
+              41.1331439
+            ],
+            [
+              14.4574132,
+              41.1550646
+            ],
+            [
+              14.4654244,
+              41.169781
+            ],
+            [
+              14.4659397,
+              41.1707297
+            ],
+            [
+              14.4663308,
+              41.1720396
+            ],
+            [
+              14.4666485,
+              41.1731977
+            ],
+            [
+              14.4671411,
+              41.1750549
+            ],
+            [
+              14.4672706,
+              41.1760596
+            ],
+            [
+              14.4672978,
+              41.1767489
+            ],
+            [
+              14.4672885,
+              41.1771388
+            ],
+            [
+              14.4636686,
+              41.1881881
+            ],
+            [
+              14.420155,
+              41.2491816
+            ],
+            [
+              14.0982639,
+              41.6492601
+            ],
+            [
+              14.0213562,
+              41.7034793
+            ],
+            [
+              13.9277981,
+              41.024189
+            ]
+          ]
         ]
       },
-      "id": "location-of-course-of-Volturnus-fl",
+      "id": "osm-location-of-course-of-volturno-river",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Location based on a Relation derived from OpenStreetMap plotting the course of the river Volturno.",
         "location_precision": "precise",
-        "title": "location of course of Volturnus fl.",
-        "link": "http://pleiades.stoa.org/places/433211/location-of-course-of-Volturnus-fl"
+        "title": "OSM location of course of Volturno (river)",
+        "link": "http://pleiades.stoa.org/places/433211/osm-location-of-course-of-volturno-river"
       }
     }
   ]

@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Arenata",
   "id": "438684",
-  "description": "An ancient place, cited: BAtlas 44 unlocated Arenata",
+  "bbox": [
+    12.9194152,
+    41.6794147,
+    12.9194152,
+    41.6794147
+  ],
+  "description": "An ancient place mentioned in the correspondence of Pope Gregory the Great (ca.  540 – 12 March 604) wherein Gregory permits the Bishop of Velletri to transfer his seat from Velletri to Arenata. This may refer to the modern comune of Rocca Massima in the Latina province.",
   "names": [
     "Arenata"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9194152,
+          41.6794147
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9194152,
+          41.6794147
+        ]
+      },
+      "id": "osm-location-of-modern-rocca-massima",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438684/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Rocca Massima",
+        "link": "http://pleiades.stoa.org/places/438684/osm-location-of-modern-rocca-massima"
       }
     }
   ]
