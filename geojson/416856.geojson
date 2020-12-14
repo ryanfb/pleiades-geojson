@@ -2,27 +2,48 @@
   "type": "FeatureCollection",
   "title": "Septem Aquae",
   "id": "416856",
-  "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
+  "bbox": [
+    12.8361776,
+    42.4755701,
+    12.8361776,
+    42.4755701
+  ],
+  "description": "A now-unlocated pagus in the territory of the Sabines. Septem Aquae was known for springs and lakes that were popular with tourists. Cicero visited the area in 54 B.C.",
+  "connectsWith": [
+    "151473898"
+  ],
   "names": [
     "Septem Aquae"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8361776,
+          42.4755701
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8361776,
+          42.4755701
+        ]
+      },
+      "id": "osm-location-of-ponte-crispolti",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/416856/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte Crispolti",
+        "link": "http://pleiades.stoa.org/places/416856/osm-location-of-ponte-crispolti"
       }
     }
   ]
