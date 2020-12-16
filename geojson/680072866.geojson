@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Regio IX, Pompeii",
   "id": "680072866",
+  "bbox": [
+    14.485429,
+    40.74941,
+    14.485429,
+    40.74941
+  ],
   "description": "The so-called Regio IX, an archaeological subdivision located in the central section of Pompeii, contains a mix of residential and commercial structures.",
   "connectsWith": [
     "433032"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.485429,
+          40.74941
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
