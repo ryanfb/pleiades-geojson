@@ -3,15 +3,16 @@
   "title": "Castra Mefaa",
   "id": "697646",
   "bbox": [
-    35.920133,
-    31.500375,
-    35.920133,
-    31.500375
+    35.9170398,
+    31.4975738,
+    35.9234822,
+    31.502745
   ],
-  "description": "A site that originated as a Roman castrum and developed into a town from the fifth century onward. Archaeological remains dates from the Roman, Byzantine, and Early Muslim periods.",
+  "description": "A site that originated as a Roman castrum and developed into a town from the fifth century onward. Archaeological remains date from the Roman, Byzantine, and Early Muslim periods.",
   "names": [
     "Castra Mefaa",
-    "Umm ar-Rasas"
+    "Umm ar-Rasas",
+    "Kastrom Mefa'a"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.920133,
-          31.500375
+          35.9202588598,
+          31.5001262642
         ]
       },
       "properties": {
@@ -29,19 +30,79 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          35.920133,
-          31.500375
+          [
+            [
+              35.9191399,
+              31.4975738
+            ],
+            [
+              35.9209382,
+              31.4978871
+            ],
+            [
+              35.9234267,
+              31.4986755
+            ],
+            [
+              35.9234822,
+              31.4998324
+            ],
+            [
+              35.9231434,
+              31.5009327
+            ],
+            [
+              35.9227276,
+              31.5014844
+            ],
+            [
+              35.921575,
+              31.5023806
+            ],
+            [
+              35.9190511,
+              31.502745
+            ],
+            [
+              35.9188255,
+              31.502705
+            ],
+            [
+              35.9183989,
+              31.5023777
+            ],
+            [
+              35.9181438,
+              31.5021464
+            ],
+            [
+              35.917648,
+              31.5016693
+            ],
+            [
+              35.9174641,
+              31.5012602
+            ],
+            [
+              35.9170398,
+              31.4994173
+            ],
+            [
+              35.9191399,
+              31.4975738
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-19088",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 19088",
-        "link": "http://pleiades.stoa.org/places/697646/darmc-location-19088"
+        "title": "OSM location of Umm ar Rasas",
+        "link": "http://pleiades.stoa.org/places/697646/osm-location"
       }
     }
   ]

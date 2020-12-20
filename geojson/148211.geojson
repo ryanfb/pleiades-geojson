@@ -3,10 +3,10 @@
   "title": "Taurus/Volcarum Stagna",
   "id": "148211",
   "bbox": [
-    3.8443125,
-    43.0,
-    4.0,
-    43.7180443
+    3.5608062,
+    43.3897149,
+    3.5608062,
+    43.3897149
   ],
   "description": "The coastal lagoons of Languedoc",
   "connectsWith": [
@@ -14,7 +14,8 @@
   ],
   "names": [
     "Taurus",
-    "Volcarum Stagna"
+    "Volcarum Stagna",
+    "Etang de Thau"
   ],
   "features": [
     {
@@ -22,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.91652766667,
-          43.4283127667
+          3.5608062,
+          43.3897149
         ]
       },
       "properties": {
@@ -32,39 +33,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              3.5,
-              43.0
-            ],
-            [
-              4.0,
-              43.0
-            ],
-            [
-              4.0,
-              43.5
-            ],
-            [
-              3.5,
-              43.5
-            ],
-            [
-              3.5,
-              43.0
-            ]
-          ]
+          3.5608062,
+          43.3897149
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-etang-de-thau",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/148211/undetermined"
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Étang de Thau",
+        "link": "http://pleiades.stoa.org/places/148211/location-of-etang-de-thau"
       }
     }
   ]

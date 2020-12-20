@@ -3,15 +3,16 @@
   "title": "Maeotis",
   "id": "825318",
   "bbox": [
-    35.075172,
-    45.35,
-    36.65,
-    46.278834
+    37.0,
+    46.0,
+    37.0,
+    46.0
   ],
   "description": "Maeotis, known in antiquity as a lake, is the modern Sea of Azov and is the shallowest of the world's seas.",
   "names": [
     "Maeotis",
-    "Temarunda"
+    "Temarunda",
+    "Sea of Azov"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.862586,
-          45.814417
+          37.0,
+          46.0
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              36.0,
-              46.0
-            ],
-            [
-              37.0,
-              46.0
-            ],
-            [
-              37.0,
-              47.0
-            ],
-            [
-              36.0,
-              47.0
-            ],
-            [
-              36.0,
-              46.0
-            ]
-          ]
+          37.0,
+          46.0
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-maeotis",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/825318/batlas-location"
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "Imagery location of Sea of Azov",
+        "link": "http://pleiades.stoa.org/places/825318/location-of-maeotis"
       }
     }
   ]
