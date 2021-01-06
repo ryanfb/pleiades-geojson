@@ -3,12 +3,12 @@
   "title": "Ponte dell'Abbadia",
   "id": "414502",
   "bbox": [
-    11.631389,
-    42.429722,
-    11.631389,
-    42.429722
+    11.6311494,
+    42.4297651,
+    11.6321011,
+    42.4299644
   ],
-  "description": "An ancient bridge over the Fiora river (ancient Armenta) near Vulci. Ancient name unknown.",
+  "description": "An ancient bridge over the Fiora river (the ancient Armenta) near Vulci. Ancient name unknown.",
   "connectsWith": [
     "413029",
     "413393"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.631389,
-          42.429722
+          11.63162525,
+          42.42986475
         ]
       },
       "properties": {
@@ -29,19 +29,25 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          11.631389,
-          42.429722
+          [
+            11.6321011,
+            42.4297651
+          ],
+          [
+            11.6311494,
+            42.4299644
+          ]
         ]
       },
-      "id": "ponte-dellabbadia",
+      "id": "osm-location-of-the-ponte-dellabbadia",
       "type": "Feature",
       "properties": {
-        "description": "Verified in Google Earth.",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Bridge location",
-        "link": "http://pleiades.stoa.org/places/414502/ponte-dellabbadia"
+        "title": "OSM Location of the Ponte dell'Abbadia",
+        "link": "http://pleiades.stoa.org/places/414502/osm-location-of-the-ponte-dellabbadia"
       }
     }
   ]
