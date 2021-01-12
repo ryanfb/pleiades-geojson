@@ -3,10 +3,10 @@
   "title": "Isca",
   "id": "79531",
   "bbox": [
-    -4.0,
-    50.0,
-    -3.0,
-    51.0
+    -3.5269108,
+    50.725562,
+    -3.5269108,
+    50.725562
   ],
   "description": "Isca Dumnoniorum was a Roman site that was the likely base of Legio II Augusta.",
   "connectsWith": [
@@ -15,7 +15,8 @@
   ],
   "names": [
     "Isca",
-    "Exeter"
+    "Exeter",
+    "Isca Dumnoniorum"
   ],
   "features": [
     {
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          50.5
+          -3.5269108,
+          50.725562
         ]
       },
       "properties": {
@@ -33,39 +34,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -4.0,
-              50.0
-            ],
-            [
-              -3.0,
-              50.0
-            ],
-            [
-              -3.0,
-              51.0
-            ],
-            [
-              -4.0,
-              51.0
-            ],
-            [
-              -4.0,
-              50.0
-            ]
-          ]
+          -3.5269108,
+          50.725562
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location-of-modern-exeter",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79531/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Exeter",
+        "link": "http://pleiades.stoa.org/places/79531/osm-location-of-modern-exeter"
       }
     }
   ]
