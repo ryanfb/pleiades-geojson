@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Villa in via Casone Grotta",
   "id": "523755191",
+  "bbox": [
+    14.471389,
+    40.761389,
+    14.47517,
+    40.775431
+  ],
   "description": "A Roman villa at Boscoreale discovered in 1986 and only partially excavated.",
   "connectsWith": [
     "432723"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4732795,
+          40.76841
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
