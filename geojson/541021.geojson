@@ -1,14 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Pelion M.",
+  "title": "Pelion (mountain)",
   "id": "541021",
   "bbox": [
-    23.0,
-    39.0,
-    23.5,
-    39.5
+    23.046389,
+    39.438611,
+    23.046389,
+    39.438611
   ],
   "description": "An ancient place, cited: BAtlas 55 E2 Pelion M.",
+  "connectsWith": [
+    "540923"
+  ],
   "names": [
     "Pelion M."
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.25,
-          39.25
+          23.046389,
+          39.438611
         ]
       },
       "properties": {
@@ -28,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.0,
-              39.0
-            ],
-            [
-              23.5,
-              39.0
-            ],
-            [
-              23.5,
-              39.5
-            ],
-            [
-              23.0,
-              39.5
-            ],
-            [
-              23.0,
-              39.0
-            ]
-          ]
+          23.046389,
+          39.438611
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-pelion",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541021/batlas-location"
+        "description": "Coordinates following GeoHack",
+        "location_precision": "precise",
+        "title": "Imagery location of Pelion",
+        "link": "http://pleiades.stoa.org/places/541021/imagery-location-of-pelion"
       }
     }
   ]

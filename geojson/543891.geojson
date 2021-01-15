@@ -1,28 +1,32 @@
 {
   "type": "FeatureCollection",
-  "title": "Tisaion M.",
+  "title": "Tisaion (mountain)",
   "id": "543891",
-  "description": "An ancient place, cited: BAtlas 55 unlocated Tisaion M.",
+  "bbox": [
+    22.5,
+    39.5,
+    23.0,
+    40.0
+  ],
+  "description": "An unlocated mountain or promontory mentioned in ancient sources, situated somewhere in the southern part of the peninsula of Magnesia.",
+  "connectsWith": [
+    "540923"
+  ],
   "names": [
-    "Tisaion M."
+    "Tisaion oros"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75,
+          39.75
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/543891/batlas-location"
       }
     }
   ]

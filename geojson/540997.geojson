@@ -3,12 +3,15 @@
   "title": "Pagasaeus/Demetriacus Sinus",
   "id": "540997",
   "bbox": [
-    22.5,
-    39.0,
     23.0,
-    39.5
+    39.25,
+    23.0,
+    39.25
   ],
-  "description": "An ancient place, cited: BAtlas 55 D2 Pagasaeus/Demetriacus Sinus",
+  "description": "The Pagasetic Gulf.",
+  "connectsWith": [
+    "540923"
+  ],
   "names": [
     "Pagasaeus sinus",
     "Demetriacus Sinus",
@@ -21,7 +24,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
+          23.0,
           39.25
         ]
       },
@@ -31,39 +34,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              39.0
-            ],
-            [
-              23.0,
-              39.0
-            ],
-            [
-              23.0,
-              39.5
-            ],
-            [
-              22.5,
-              39.5
-            ],
-            [
-              22.5,
-              39.0
-            ]
-          ]
+          23.0,
+          39.25
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-pagasaeus-demetriacus-sinus",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540997/batlas-location"
+        "description": "Coordinates after GeoHack, verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "Imagery location of Pagasetic Gulf",
+        "link": "http://pleiades.stoa.org/places/540997/imagery-pagasaeus-demetriacus-sinus"
       }
     }
   ]
