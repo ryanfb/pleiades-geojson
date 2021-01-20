@@ -1,19 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Iasonius? M.",
+  "title": "Iasonius (mountain)",
   "id": "903045",
   "bbox": [
-    52.0,
-    35.0,
-    53.0,
-    36.0
+    52.1102898,
+    35.954337,
+    52.1102898,
+    35.954337
   ],
-  "description": "An ancient place, cited: BAtlas 92 H1 Iasonius? M.",
+  "description": "A mountain mentioned by Strabo, Ptolemy, and Ammianus. It is probably to be identified with Mount Damāvand in modern Iran.",
   "connectsWith": [
     "942296"
   ],
   "names": [
-    "Iasonius M."
+    "Iasonius M.",
+    "Iasonion"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.5,
-          35.5
+          52.1102898,
+          35.954337
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              52.0,
-              35.0
-            ],
-            [
-              53.0,
-              35.0
-            ],
-            [
-              53.0,
-              36.0
-            ],
-            [
-              52.0,
-              36.0
-            ],
-            [
-              52.0,
-              35.0
-            ]
-          ]
+          52.1102898,
+          35.954337
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-damavand-mountain",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/903045/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Damavand (mountain)",
+        "link": "http://pleiades.stoa.org/places/903045/location-of-damavand-mountain"
       }
     }
   ]
