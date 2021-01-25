@@ -3,15 +3,20 @@
   "title": "Tell Babil",
   "id": "894126",
   "bbox": [
-    44.424981,
-    32.544753,
-    44.424981,
-    32.544753
+    44.4232275,
+    32.5642557,
+    44.4261914,
+    32.5665447
   ],
-  "description": "The so-called \"Summer Palace of Nebuchadnezzar,\" located at ancient Babylon (modern Iraq; BAtlas 91 F5 Tell Babil).",
+  "description": "The so-called \"Summer Palace of Nebuchadnezzar,\" located at ancient Babylon in modern Iraq.",
   "connectsWith": [
     "893951",
     "893951"
+  ],
+  "names": [
+    "Summer Palace",
+    "Sommerpalast",
+    "Nabium-kudurrī-uṣur-libluṭ-lulabbir-zānin-Esagila"
   ],
   "features": [
     {
@@ -19,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.424981,
-          32.544753
+          44.42467,
+          32.565629
         ]
       },
       "properties": {
@@ -31,17 +36,74 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.424981,
-          32.544753
+          44.42467,
+          32.565629
         ]
       },
-      "id": "darmc-location-22461",
+      "id": "imagery-location-of-tell-babil",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Imagery location of Tell Babil based on the visible ruins of the Summer Palace of Nebuchadnezzar II.",
         "location_precision": "precise",
-        "title": "DARMC location 22461",
-        "link": "http://pleiades.stoa.org/places/894126/darmc-location-22461"
+        "title": "Imagery location of Tell Babil",
+        "link": "http://pleiades.stoa.org/places/894126/imagery-location-of-tell-babil"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.4243789,
+              32.5642557
+            ],
+            [
+              44.4248486,
+              32.5642833
+            ],
+            [
+              44.4255675,
+              32.5644779
+            ],
+            [
+              44.4261914,
+              32.5648828
+            ],
+            [
+              44.4256411,
+              32.5665447
+            ],
+            [
+              44.4237618,
+              32.5665048
+            ],
+            [
+              44.4232275,
+              32.5651419
+            ],
+            [
+              44.4233089,
+              32.5647876
+            ],
+            [
+              44.4235637,
+              32.5646463
+            ],
+            [
+              44.4243789,
+              32.5642557
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-tell-babil",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Tell Babil",
+        "link": "http://pleiades.stoa.org/places/894126/osm-location-of-tell-babil"
       }
     }
   ]

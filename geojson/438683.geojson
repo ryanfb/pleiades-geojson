@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Arcanum",
   "id": "438683",
+  "bbox": [
+    13.58542,
+    41.58715,
+    13.58542,
+    41.58715
+  ],
   "description": "Arcanum was the location of an estate that belonged to Quintus Cicero. it was located between Aquinum and Arpinum.",
   "connectsWith": [
     "432702"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.58542,
+          41.58715
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
