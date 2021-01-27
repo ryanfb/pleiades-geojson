@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Petrinus Vicus",
   "id": "438804",
+  "bbox": [
+    12.69699,
+    41.808973,
+    12.69699,
+    41.808973
+  ],
   "description": "An ancient place, cited: BAtlas 44 unlocated Petrinus Vicus?",
   "connectsWith": [
     "422972"
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.69699,
+          41.808973
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438804/batlas-location"
       }
     }
   ]
