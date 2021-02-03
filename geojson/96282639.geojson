@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Dionysopolis",
   "id": "96282639",
+  "bbox": [
+    27.175716,
+    37.2993174,
+    30.1629723,
+    38.3602824
+  ],
   "description": "This city was founded by Attalos II and Eumenes II. Although its precise location is unknown today, it was located somewhere on the north bank of the Maeander River, near Çal Dag and the Çal Ova.",
   "connectsWith": [
     "599777"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3792472,
+          38.1521275
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
