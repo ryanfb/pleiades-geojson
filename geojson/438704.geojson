@@ -2,30 +2,32 @@
   "type": "FeatureCollection",
   "title": "Cameria",
   "id": "438704",
+  "bbox": [
+    12.25,
+    41.75,
+    12.5,
+    42.0
+  ],
   "description": "An ancient city of Latium that is noted by Pliny the Elder as one of the lost cities of central Italy.",
   "connectsWith": [
     "422958"
   ],
   "names": [
-    "Cameria"
+    "Cameria",
+    "Kameria"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          41.875
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438704/batlas-location"
       }
     }
   ]
