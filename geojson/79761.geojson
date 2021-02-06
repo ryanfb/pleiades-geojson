@@ -3,10 +3,10 @@
   "title": "Castle Hill, Whitton",
   "id": "79761",
   "bbox": [
-    1.0,
-    52.0,
-    2.0,
-    53.0
+    1.1376194,
+    52.0779758,
+    1.1376194,
+    52.0779758
   ],
   "description": "A large villa complex located at Castle Hill, Whitton. This site is considered to be one of the most important villa complexes known in Suffolk. Excavations were conducted in 1929-32, 1946-50 and 1988-9.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          52.5
+          1.1376194,
+          52.0779758
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              1.0,
-              52.0
-            ],
-            [
-              2.0,
-              52.0
-            ],
-            [
-              2.0,
-              53.0
-            ],
-            [
-              1.0,
-              53.0
-            ],
-            [
-              1.0,
-              52.0
-            ]
-          ]
+          1.1376194,
+          52.0779758
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location-of-castle-hill",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79761/undetermined"
+        "description": "Location of the modern associated settlement based on a node derived from OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Castle Hill",
+        "link": "http://pleiades.stoa.org/places/79761/osm-location-of-castle-hill"
       }
     }
   ]
