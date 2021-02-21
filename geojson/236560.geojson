@@ -3,20 +3,20 @@
   "title": "Navatejera",
   "id": "236560",
   "bbox": [
-    -5.57178,
-    42.599832,
-    -5.57178,
-    42.599832
+    -5.5615799,
+    42.6313705,
+    -5.5604285,
+    42.6322585
   ],
-  "description": "An ancient place, cited: BAtlas 24 F2 Navatejera",
+  "description": "A Roman villa with mosaic pavements dating from the first to the fifth centuries CE.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.57178,
-          42.599832
+          -5.56101262208,
+          42.6318243448
         ]
       },
       "properties": {
@@ -25,19 +25,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -5.57178,
-          42.599832
+          [
+            [
+              -5.5607782,
+              42.6313705
+            ],
+            [
+              -5.5606598,
+              42.6315994
+            ],
+            [
+              -5.5604285,
+              42.6320621
+            ],
+            [
+              -5.5606163,
+              42.6321167
+            ],
+            [
+              -5.5610932,
+              42.6322553
+            ],
+            [
+              -5.5611044,
+              42.6322585
+            ],
+            [
+              -5.561378,
+              42.6321322
+            ],
+            [
+              -5.5615148,
+              42.6318658
+            ],
+            [
+              -5.5615799,
+              42.6315845
+            ],
+            [
+              -5.5607782,
+              42.6313705
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-21007",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 21007",
-        "link": "http://pleiades.stoa.org/places/236560/darmc-location-21007"
+        "title": "OSM location of Villa Romana Navatejera",
+        "link": "http://pleiades.stoa.org/places/236560/osm-location"
       }
     }
   ]
