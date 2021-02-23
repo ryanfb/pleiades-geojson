@@ -1,22 +1,27 @@
 {
   "type": "FeatureCollection",
-  "title": "Schramberg",
+  "title": "Kastell Waldmössingen",
   "id": "118956",
   "bbox": [
     8.493333,
-    48.273889,
-    8.493333,
+    48.273137,
+    8.4933629,
     48.273889
   ],
-  "description": "An ancient place, cited: BAtlas 12 B4 Schramberg",
+  "description": "A Roman border fort and associated vicus located near the modern German town of Schramberg.",
+  "names": [
+    "Schramberg",
+    "Kastell Waldmössingen",
+    "Römerkastell in Waldmössingen"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.493333,
-          48.273889
+          8.49334795,
+          48.273513
         ]
       },
       "properties": {
@@ -27,17 +32,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.4933629,
+          48.273137
+        ]
+      },
+      "id": "osm-location-of-rapmerkastell-waldmapssingen",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Römerkastell Waldmössingen",
+        "link": "http://pleiades.stoa.org/places/118956/osm-location-of-rapmerkastell-waldmapssingen"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.493333,
           48.273889
         ]
       },
-      "id": "center-point-of-archaeological-site-waldmoessingen",
+      "id": "imagery-location-center-point",
       "type": "Feature",
       "properties": {
         "description": null,
         "location_precision": "precise",
-        "title": "Center point of archaeological site Waldmössingen",
-        "link": "http://pleiades.stoa.org/places/118956/center-point-of-archaeological-site-waldmoessingen"
+        "title": "Imagery Location: Center point of archaeological site Waldmössingen",
+        "link": "http://pleiades.stoa.org/places/118956/imagery-location-center-point"
       }
     }
   ]
