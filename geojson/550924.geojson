@@ -3,12 +3,12 @@
   "title": "Thyateira",
   "id": "550924",
   "bbox": [
+    27.8357653,
+    38.9197377,
     27.840523,
-    38.898515,
-    27.849235,
     38.922933
   ],
-  "description": "An ancient settlement of Asia Minor, located at modern Akhisar in Turkey.",
+  "description": "An ancient settlement of Asia Minor, located at modern Akhisar in Turkey. Visible remains today are limited; they include the archaeological area of Tepe Mezarı in the center of the modern town.",
   "connectsWith": [
     "837",
     "552679",
@@ -23,29 +23,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.844879,
-          38.910724
+          27.8383626065,
+          38.921506033
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.849235,
-          38.898515
-        ]
-      },
-      "id": "darmc-location-15162",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 15162",
-        "link": "http://pleiades.stoa.org/places/550924/darmc-location-15162"
       }
     },
     {
@@ -63,6 +46,43 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/550924/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.8365984,
+              38.9197377
+            ],
+            [
+              27.8365984,
+              38.9203333
+            ],
+            [
+              27.8358644,
+              38.9204489
+            ],
+            [
+              27.8357653,
+              38.9198358
+            ],
+            [
+              27.8365984,
+              38.9197377
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-tepe-mezara",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Tepe Mezarı",
+        "link": "http://pleiades.stoa.org/places/550924/osm-location-of-tepe-mezara"
       }
     }
   ]

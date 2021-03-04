@@ -3,14 +3,16 @@
   "title": "Korax (mountain)",
   "id": "540880",
   "bbox": [
-    22.0,
-    38.5,
-    22.5,
-    39.0
+    22.251944,
+    38.647222,
+    22.251944,
+    38.647222
   ],
-  "description": "Ghiona.",
+  "description": "An ancient mountain of Aetolia, known today as Giona. Some ancient sources, echoed or interpreted by modern commentators, seem also to include or alternately identify the nearby mountain known today as Vardousia, although most recent scholarship rejects this notion. A peak of Vardousia (Βαρδούσια) seems to have acquired variants of the name \"Korax\" in modern times.",
   "names": [
-    "Korax"
+    "Korax",
+    "Aitolikon oros",
+    "Corax"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          38.75
+          22.251944,
+          38.647222
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              38.5
-            ],
-            [
-              22.5,
-              38.5
-            ],
-            [
-              22.5,
-              39.0
-            ],
-            [
-              22.0,
-              39.0
-            ],
-            [
-              22.0,
-              38.5
-            ]
-          ]
+          22.251944,
+          38.647222
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-mount-giona",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540880/batlas-location"
+        "description": "verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "Imagery location of Mount Giona",
+        "link": "http://pleiades.stoa.org/places/540880/imagery-location-of-mount-giona"
       }
     }
   ]

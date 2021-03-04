@@ -3,10 +3,10 @@
   "title": "Varnava Tower",
   "id": "580130",
   "bbox": [
-    23.92138,
-    38.224527,
-    23.92138,
-    38.224527
+    23.9346933,
+    38.2324295,
+    23.9347822,
+    38.232491
   ],
   "description": "A square, stone tower known today as Varnava Tower (Ο πύργος του Βαρνάβα), located outside the modern village of Varnava in Greece.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.92138,
-          38.224527
+          23.9347443508,
+          38.2324546062
         ]
       },
       "properties": {
@@ -28,19 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          23.92138,
-          38.224527
+          [
+            [
+              23.9347822,
+              38.2324295
+            ],
+            [
+              23.9347814,
+              38.2324889
+            ],
+            [
+              23.9347599,
+              38.232491
+            ],
+            [
+              23.9346933,
+              38.232466
+            ],
+            [
+              23.9346985,
+              38.2324325
+            ],
+            [
+              23.9347822,
+              38.2324295
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-21337",
+      "id": "osm-location-of-varnava-tower-attica",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 21337",
-        "link": "http://pleiades.stoa.org/places/580130/darmc-location-21337"
+        "title": "OSM location of Varnava tower (Attica)",
+        "link": "http://pleiades.stoa.org/places/580130/osm-location-of-varnava-tower-attica"
       }
     }
   ]

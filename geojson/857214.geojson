@@ -3,13 +3,17 @@
   "title": "Lithros (mountain)",
   "id": "857214",
   "bbox": [
-    35.0,
-    40.0,
-    36.0,
-    41.0
+    35.8767779,
+    40.8153446,
+    35.8767779,
+    40.8153446
   ],
-  "description": "A mountain, probably Akdağ.",
+  "description": "A mountain near the head of the Lykos river in Pontus, probably to be identified with modern Akdağ in Amasya, Turkey.",
+  "connectsWith": [
+    "857217"
+  ],
   "names": [
+    "Akdağ",
     "Lithros"
   ],
   "features": [
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.5,
-          40.5
+          35.8767779,
+          40.8153446
         ]
       },
       "properties": {
@@ -28,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              35.0,
-              40.0
-            ],
-            [
-              36.0,
-              40.0
-            ],
-            [
-              36.0,
-              41.0
-            ],
-            [
-              35.0,
-              41.0
-            ],
-            [
-              35.0,
-              40.0
-            ]
-          ]
+          35.8767779,
+          40.8153446
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-akdaa",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid A4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857214/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Akdağ",
+        "link": "http://pleiades.stoa.org/places/857214/osm-location-of-akdaa"
       }
     }
   ]

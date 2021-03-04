@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Alexandreia/Alexandria",
   "id": "60406",
+  "bbox": [
+    71.06148,
+    29.2389543,
+    71.06148,
+    29.2389543
+  ],
   "description": "A city founded by Alexander the Great at the junction of the Indus and the Acesines rivers.",
   "names": [
     "Alexandreia",
@@ -10,20 +16,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.06148,
+          29.2389543
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.06148,
+          29.2389543
+        ]
+      },
+      "id": "osm-location-of-modern-uch-sharif",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60406/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Uch Sharif",
+        "link": "http://pleiades.stoa.org/places/60406/osm-location-of-modern-uch-sharif"
       }
     }
   ]
