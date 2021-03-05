@@ -1,16 +1,16 @@
 {
   "type": "FeatureCollection",
-  "title": "Chersonnesos (mountain)",
+  "title": "Chersonnesos Akra",
   "id": "814668",
   "bbox": [
-    37.0,
-    25.0,
-    38.0,
-    26.0
+    37.143501,
+    24.8341,
+    37.16023,
+    25.943361
   ],
-  "description": "A mountain, probably Ra's Abu Madd.",
+  "description": "In describing features on the Red Sea coast of Arabia Felix, Ptolemy lists the Chesonnesos Akra. In the Barrington Atlas directory for Map 83, Graf suggests the Ras Abu Madd peninsula as a likely identification, but on the corresponding map, he labels a different feature: the mountainous Jabal Ral outcropping, about 120km north of Ras Abu Madd and some 40km east of the modern coastline.",
   "names": [
-    "Chersonnesos"
+    "Chersonnesos akra"
   ],
   "features": [
     {
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.5,
-          25.5
+          37.1518655,
+          25.3887305
         ]
       },
       "properties": {
@@ -28,39 +28,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              37.0,
-              25.0
-            ],
-            [
-              38.0,
-              25.0
-            ],
-            [
-              38.0,
-              26.0
-            ],
-            [
-              37.0,
-              26.0
-            ],
-            [
-              37.0,
-              25.0
-            ]
-          ]
+          37.16023,
+          24.8341
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-ra2019s-abu-madd",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames location of Ra’s Abū Madd",
+        "link": "http://pleiades.stoa.org/places/814668/location-of-ra2019s-abu-madd"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.143501,
+          25.943361
+        ]
+      },
+      "id": "geohack-location-of-jabal-ral",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/814668/undetermined"
+        "location_precision": "precise",
+        "title": "GeoHack Location of Jabal Ral",
+        "link": "http://pleiades.stoa.org/places/814668/geohack-location-of-jabal-ral"
       }
     }
   ]
