@@ -1,15 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Panhellenios M.",
+  "title": "Panhellenios (mountain)",
   "id": "580055",
   "bbox": [
-    23.25,
-    37.5,
-    23.5,
-    37.75
+    23.4961073,
+    37.7007514,
+    23.4961073,
+    37.7007514
   ],
-  "description": "An ancient place, cited: BAtlas 59 A4 Panhellenios M.",
+  "description": "A peak on the island of Aegina rising to 531 meters above sea level, known today as Oros Aigina.",
+  "connectsWith": [
+    "579844"
+  ],
   "names": [
+    "Oros",
     "Panhellenios M.",
     "Oros M."
   ],
@@ -19,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.375,
-          37.625
+          23.4961073,
+          37.7007514
         ]
       },
       "properties": {
@@ -29,39 +33,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.25,
-              37.5
-            ],
-            [
-              23.5,
-              37.5
-            ],
-            [
-              23.5,
-              37.75
-            ],
-            [
-              23.25,
-              37.75
-            ],
-            [
-              23.25,
-              37.5
-            ]
-          ]
+          23.4961073,
+          37.7007514
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-ii-i-i-i1-2i1i-i1-2-iii-i",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/580055/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ελλάνιον Όρος",
+        "link": "http://pleiades.stoa.org/places/580055/osm-location-of-ii-i-i-i1-2i1i-i1-2-iii-i"
       }
     }
   ]
