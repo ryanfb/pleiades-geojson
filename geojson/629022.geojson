@@ -1,16 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Kurtlu Tepe",
+  "title": "Cengerli",
   "id": "629022",
   "bbox": [
-    38.890684,
-    39.858657,
-    38.890684,
-    39.858657
+    38.871418,
+    39.805861,
+    38.876289,
+    39.815521
   ],
-  "description": "An ancient place, cited: BAtlas 64 H1 Kurtlu Tepe",
+  "description": "A likely Roman fort and possible Urartian fire temple at the modern village of Cengerli in the Refahiye district of Erzincan province, Turkey.",
   "connectsWith": [
     "628948"
+  ],
+  "names": [
+    "Kurtlu Tepe",
+    "Cengerli"
   ],
   "features": [
     {
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.890684,
-          39.858657
+          38.8738535,
+          39.810691
         ]
       },
       "properties": {
@@ -30,17 +34,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.890684,
-          39.858657
+          38.871418,
+          39.805861
         ]
       },
-      "id": "darmc-location-6119",
+      "id": "imagery-location-of-cengerli-kale",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Coordinates determined in Google Earth, following description in Mitford 2018.",
         "location_precision": "precise",
-        "title": "DARMC location 6119",
-        "link": "http://pleiades.stoa.org/places/629022/darmc-location-6119"
+        "title": "Imagery Location of Cengerli Kale",
+        "link": "http://pleiades.stoa.org/places/629022/imagery-location-of-cengerli-kale"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.876289,
+          39.815521
+        ]
+      },
+      "id": "osm-location-of-modern-cengerli-village",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Cengerli Village",
+        "link": "http://pleiades.stoa.org/places/629022/osm-location-of-modern-cengerli-village"
       }
     }
   ]
