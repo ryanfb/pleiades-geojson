@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sandarakourgion Oros",
   "id": "847903",
-  "description": "An ancient place, cited: BAtlas 86 unlocated Sandarakourgion Oros",
+  "bbox": [
+    34.8062245,
+    40.9780582,
+    34.8062245,
+    40.9780582
+  ],
+  "description": "A mountain and extensive mining works mentioned by Strabo in the vicinity of Pimolisa in Pontus. Its exact location cannot be determined today.",
   "connectsWith": [
     "845039"
   ],
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8062245,
+          40.9780582
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "undetermined",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/847903/undetermined"
       }
     }
   ]
