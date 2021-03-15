@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Pollusca",
   "id": "438813",
+  "bbox": [
+    12.25,
+    41.75,
+    12.5,
+    42.0
+  ],
   "description": "Pollusca was an early city of Latium Vetus connected with Longula and Corioli. These three cities were captured by Coriolanus in 488 BC. The location of Pollusca is no longer known.",
   "connectsWith": [
     "422958"
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          41.875
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
