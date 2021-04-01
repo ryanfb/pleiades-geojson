@@ -5,15 +5,15 @@
   "bbox": [
     23.084462,
     38.377372,
-    23.123909,
-    38.385981
+    23.0904048,
+    38.3814726
   ],
-  "description": "An ancient place, cited: BAtlas 55 E4 Haliartos",
+  "description": "Haliartos was an ancient city of Boeotia, founded as a contemporary of Orchomenos. The city was destroyed by C. Lucretius during the Third Macedonian War.",
   "connectsWith": [
-    "540689",
     "540689"
   ],
   "names": [
+    "Haliartus",
     "Haliartos"
   ],
   "features": [
@@ -22,12 +22,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.0984383333,
-          38.380377
+          23.0866042024,
+          38.3783229064
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.0899006,
+              38.3780075
+            ],
+            [
+              23.0904048,
+              38.3805307
+            ],
+            [
+              23.0889135,
+              38.3813969
+            ],
+            [
+              23.0884951,
+              38.3814726
+            ],
+            [
+              23.0871218,
+              38.3814642
+            ],
+            [
+              23.0867141,
+              38.3813717
+            ],
+            [
+              23.0865746,
+              38.3808419
+            ],
+            [
+              23.0863922,
+              38.3794878
+            ],
+            [
+              23.0868643,
+              38.3786551
+            ],
+            [
+              23.0899006,
+              38.3780075
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-acropolis-of-aliartos-haliartus",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Acropolis of Aliartos (Haliartus)",
+        "link": "http://pleiades.stoa.org/places/540801/osm-location-of-acropolis-of-aliartos-haliartus"
       }
     },
     {
@@ -41,27 +98,10 @@
       "id": "darmc-location-12656",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 12656",
         "link": "http://pleiades.stoa.org/places/540801/darmc-location-12656"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.123909,
-          38.385981
-        ]
-      },
-      "id": "darmc-location-13687",
-      "type": "Feature",
-      "properties": {
-        "description": "TIB point location",
-        "location_precision": "precise",
-        "title": "DARMC location 13687",
-        "link": "http://pleiades.stoa.org/places/540801/darmc-location-13687"
       }
     },
     {
