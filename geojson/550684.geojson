@@ -3,12 +3,12 @@
   "title": "Larisa",
   "id": "550684",
   "bbox": [
-    27.741461,
-    38.153004,
-    27.741461,
-    38.153004
+    27.6744726,
+    38.1285278,
+    27.7208296,
+    38.172431
   ],
-  "description": "An ancient place, cited: BAtlas 56 F5 Larisa",
+  "description": "An ancient settlement known to Strabo as a village (formerly a city) in the territory of Ephesus, but closer to Mt. Tmolus than to Ephesus itself. Modern scholars differ as to the precise location of Larisa, but agree in placing it between modern Tire and modern Bayındır in Turkey.",
   "names": [
     "Larisa"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.741461,
-          38.153004
+          27.697593475,
+          38.150425625
         ]
       },
       "properties": {
@@ -28,19 +28,56 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          27.741461,
-          38.153004
+          [
+            [
+              27.7207264,
+              38.1722159
+            ],
+            [
+              27.7208296,
+              38.1722647
+            ],
+            [
+              27.7207023,
+              38.172431
+            ],
+            [
+              27.7205991,
+              38.1723822
+            ],
+            [
+              27.7207264,
+              38.1722159
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-3801",
+      "id": "osm-location-of-modern-aatal-train-station",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Modern locality associated with Larisa by the Barrington Atlas",
         "location_precision": "precise",
-        "title": "DARMC location 3801",
-        "link": "http://pleiades.stoa.org/places/550684/darmc-location-3801"
+        "title": "OSM Location of modern Çatal train station",
+        "link": "http://pleiades.stoa.org/places/550684/osm-location-of-modern-aatal-train-station"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6744726,
+          38.1285278
+        ]
+      },
+      "id": "osm-location-of-modern-karateke-village",
+      "type": "Feature",
+      "properties": {
+        "description": "Modern village in the area described by Buresch 1898 and associated by him with ancient Larisa.",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Karateke village",
+        "link": "http://pleiades.stoa.org/places/550684/osm-location-of-modern-karateke-village"
       }
     }
   ]

@@ -1,17 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Gortynios (river)",
+  "title": "Gortynios/Lousios (river)",
   "id": "570266",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.0215371,
+    37.5011737,
+    22.0215371,
+    37.5011737
   ],
-  "description": "An ancient place, cited: BAtlas 58 C2 Gortynios fl.",
+  "description": "A river of the Peloponnese.",
   "names": [
     "Gortynios",
-    "Lousios"
+    "Lousios",
+    "Lousios potamos"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.0215371,
+          37.5011737
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              37.5
-            ],
-            [
-              22.5,
-              37.5
-            ],
-            [
-              22.5,
-              38.0
-            ],
-            [
-              22.0,
-              38.0
-            ],
-            [
-              22.0,
-              37.5
-            ]
-          ]
+          22.0215371,
+          37.5011737
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-lousios-river",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570266/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Lousios (river)",
+        "link": "http://pleiades.stoa.org/places/570266/location-of-lousios-river"
       }
     }
   ]
