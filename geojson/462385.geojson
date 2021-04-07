@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Naustathmus Portus?",
+  "title": "Naustathmus Portus",
   "id": "462385",
   "bbox": [
-    15.0,
-    36.5,
-    15.5,
-    37.0
+    15.2231642,
+    36.9645478,
+    15.2231642,
+    36.9645478
   ],
-  "description": "An ancient place, cited: BAtlas 47 G5 Naustathmus Portus?",
+  "description": "An ancient port on the east coast of Sicily, mentioned by Pliny. It is probably to be associated with modern Fontane Bianche.",
   "connectsWith": [
     "462492"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.25,
-          36.75
+          15.2231642,
+          36.9645478
         ]
       },
       "properties": {
@@ -31,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              15.0,
-              36.5
-            ],
-            [
-              15.5,
-              36.5
-            ],
-            [
-              15.5,
-              37.0
-            ],
-            [
-              15.0,
-              37.0
-            ],
-            [
-              15.0,
-              36.5
-            ]
-          ]
+          15.2231642,
+          36.9645478
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-fontane-bianche",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462385/batlas-location"
+        "description": "Point location of modern Fontane Bianche, thought to be associated with the ancient site, derived from an OpenStreetMap node.",
+        "location_precision": "precise",
+        "title": "OSM location of modern Fontane Bianche",
+        "link": "http://pleiades.stoa.org/places/462385/osm-location-of-modern-fontane-bianche"
       }
     }
   ]

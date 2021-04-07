@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Phalassia? Pr.",
+  "title": "Phalassia (promontory)",
   "id": "541035",
   "bbox": [
-    22.5,
-    38.5,
-    23.0,
-    39.0
+    22.8506874,
+    38.8706964,
+    22.8506874,
+    38.8706964
   ],
-  "description": "An ancient place, cited: BAtlas 55 D3 Phalassia? Pr.",
+  "description": "A promontory, listed by Ptolemy among other coastal features of Euboea, Phalassia is probably to be associated with a promontory on the Malian Gulf in the modern locality of Βασιλίνας (Vasilinas) where a late 19th century lighthouse now stands.",
   "names": [
     "Phalassia Pr."
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          38.75
+          22.8506874,
+          38.8706964
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              38.5
-            ],
-            [
-              23.0,
-              38.5
-            ],
-            [
-              23.0,
-              39.0
-            ],
-            [
-              22.5,
-              39.0
-            ],
-            [
-              22.5,
-              38.5
-            ]
-          ]
+          22.8506874,
+          38.8706964
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541035/batlas-location"
+        "description": "Representative modern location of the ancient cape based on the fixed location of a modern lighthouse, derived from a node in OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Φάρος Βασιλίνας lighthouse",
+        "link": "http://pleiades.stoa.org/places/541035/osm-location"
       }
     }
   ]
