@@ -5,8 +5,8 @@
   "bbox": [
     5.30651251506,
     43.8626065394,
-    5.30651251506,
-    43.8626065394
+    5.3065353,
+    43.8626525
   ],
   "description": "A bridge that spans the river known as the Cavalon (French), once part of the Via Domitia",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.30651251506,
-          43.8626065394
+          5.30652390753,
+          43.8626295197
         ]
       },
       "properties": {
@@ -30,17 +30,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.3065353,
+          43.8626525
+        ]
+      },
+      "id": "osm-location-of-pont-julien",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Pont Julien",
+        "link": "http://pleiades.stoa.org/places/149500/osm-location-of-pont-julien"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.306512515063857,
           43.86260653944799
         ]
       },
-      "id": "point-location",
+      "id": "imagery-location",
       "type": "Feature",
       "properties": {
         "description": "derived from Google Earth",
         "location_precision": "precise",
-        "title": "Point Location of bridge",
-        "link": "http://pleiades.stoa.org/places/149500/point-location"
+        "title": "Imagery Location of bridge centerpoint",
+        "link": "http://pleiades.stoa.org/places/149500/imagery-location"
       }
     }
   ]

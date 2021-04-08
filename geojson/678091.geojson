@@ -3,10 +3,10 @@
   "title": "Chorazin",
   "id": "678091",
   "bbox": [
-    35.566986,
-    32.907983,
-    35.566986,
-    32.907983
+    35.5627683,
+    32.910721,
+    35.565193,
+    32.912331
   ],
   "description": "An ancient place, cited: BAtlas 69 C4 Chorazin",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.566986,
-          32.907983
+          35.5640900674,
+          32.9113913072
         ]
       },
       "properties": {
@@ -28,19 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          35.566986,
-          32.907983
+          [
+            [
+              35.5647156,
+              32.910721
+            ],
+            [
+              35.565193,
+              32.9121058
+            ],
+            [
+              35.5647746,
+              32.912331
+            ],
+            [
+              35.5628327,
+              32.9113965
+            ],
+            [
+              35.5627683,
+              32.9112952
+            ],
+            [
+              35.5627871,
+              32.9110745
+            ],
+            [
+              35.5635864,
+              32.9107571
+            ],
+            [
+              35.5647156,
+              32.910721
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-12014",
+      "id": "osm-location-of-korazim",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas and PECS.",
         "location_precision": "precise",
-        "title": "DARMC location 12014",
-        "link": "http://pleiades.stoa.org/places/678091/darmc-location-12014"
+        "title": "OSM Location of Korazim",
+        "link": "http://pleiades.stoa.org/places/678091/osm-location-of-korazim"
       }
     }
   ]
