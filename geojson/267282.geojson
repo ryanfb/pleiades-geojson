@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "267282",
   "bbox": [
-    -3.0,
-    39.0,
-    -2.0,
-    40.0
+    -2.4159727,
+    39.4090773,
+    -2.4159727,
+    39.4090773
   ],
   "description": "An ancient place, cited: BAtlas 27 C2 unnamed bridge (S. Clemente on R. Rus, SW Valeria)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          39.5
+          -2.4159727,
+          39.4090773
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -3.0,
-              39.0
-            ],
-            [
-              -2.0,
-              39.0
-            ],
-            [
-              -2.0,
-              40.0
-            ],
-            [
-              -3.0,
-              40.0
-            ],
-            [
-              -3.0,
-              39.0
-            ]
-          ]
+          -2.4159727,
+          39.4090773
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/267282/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of puente romano",
+        "link": "http://pleiades.stoa.org/places/267282/osm-location"
       }
     }
   ]
