@@ -3,17 +3,18 @@
   "title": "Abellinum",
   "id": "432618",
   "bbox": [
-    14.790368,
-    40.914015,
-    14.825643,
-    40.916893
+    14.8308384,
+    40.9217072,
+    14.8316189,
+    40.9225097
   ],
   "description": "Abellinum was a settlement of the Hirpini in Campania.",
   "connectsWith": [
     "442614"
   ],
   "names": [
-    "Abellinum"
+    "Abellinum",
+    "Abellinon"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.8080055,
-          40.915454
+          14.8312637292,
+          40.92209079
         ]
       },
       "properties": {
@@ -31,36 +32,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          14.825643,
-          40.916893
+          [
+            [
+              14.8315224,
+              40.9217072
+            ],
+            [
+              14.8316189,
+              40.9224611
+            ],
+            [
+              14.8311066,
+              40.9225097
+            ],
+            [
+              14.8308384,
+              40.9217781
+            ],
+            [
+              14.8315224,
+              40.9217072
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-18142",
+      "id": "osm-location-of-archaeological-area-of-ancient",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18142",
-        "link": "http://pleiades.stoa.org/places/432618/darmc-location-18142"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.790368,
-          40.914015
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/432618/dare-location"
+        "title": "OSM Location of archaeological area of ancient Abellinum",
+        "link": "http://pleiades.stoa.org/places/432618/osm-location-of-archaeological-area-of-ancient"
       }
     }
   ]
