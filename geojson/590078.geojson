@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Thoanteion Pr.",
   "id": "590078",
-  "description": "An ancient place, cited: BAtlas 60 E5 Thoanteion Pr.",
+  "bbox": [
+    27.13536,
+    35.3974,
+    27.13536,
+    35.3974
+  ],
+  "description": "Thoanteion Pr., a promontory of Karpathos mentioned by Ptolemy.",
   "connectsWith": [
     "589841"
   ],
@@ -12,20 +18,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.13536,
+          35.3974
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.13536,
+          35.3974
+        ]
+      },
+      "id": "geonames-location-of-akra-kastello",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590078/batlas-location"
+        "description": "Coordinates following GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of Ákra Kástello",
+        "link": "http://pleiades.stoa.org/places/590078/geonames-location-of-akra-kastello"
       }
     }
   ]
