@@ -1,16 +1,26 @@
 {
   "type": "FeatureCollection",
-  "title": "Artemita",
+  "title": "Edremit",
   "id": "874362",
   "bbox": [
-    43.276591,
-    38.422069,
-    43.276591,
-    38.422069
+    42.8834995,
+    38.3201399,
+    43.5277193,
+    38.5932883
   ],
-  "description": "An ancient place, cited: BAtlas 89 F2 Artemita",
+  "description": "Edremit is a modern settlement and associated administrative region in the Van Province in the southeast of Turkey. In the vicinity, several inscriptions on rock and stone of the Urartian king Minua (9th / 8th century BCE) have been found which report the construction of the 'Canal of Minua'. In Greek and Roman times, Ptolemy gives the name \"Artemita\" for a settlement that modern scholars believe was located at Edremit.",
+  "connectsWith": [
+    "214160492"
+  ],
   "names": [
-    "Artemita"
+    "Edremit",
+    "Artemêt",
+    "Artamet",
+    "Artamid",
+    "Sarmansuyu",
+    "Gümüşdere",
+    "Artemita",
+    "Ertemêtan"
   ],
   "features": [
     {
@@ -18,12 +28,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.276591,
-          38.422069
+          43.2468650726,
+          38.4275714626
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2564908,
+          38.4153838
+        ]
+      },
+      "id": "osm-location-of-modern-edremit",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Modern Edremit",
+        "link": "http://pleiades.stoa.org/places/874362/osm-location-of-modern-edremit"
       }
     },
     {
@@ -37,10 +64,95 @@
       "id": "darmc-location-21443",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 21443",
         "link": "http://pleiades.stoa.org/places/874362/darmc-location-21443"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.1922904,
+              38.3201399
+            ],
+            [
+              43.3566151,
+              38.3214019
+            ],
+            [
+              43.365968,
+              38.3230457
+            ],
+            [
+              43.4826537,
+              38.376954
+            ],
+            [
+              43.5265689,
+              38.4220884
+            ],
+            [
+              43.5277193,
+              38.4242048
+            ],
+            [
+              43.5103483,
+              38.4326469
+            ],
+            [
+              43.3985764,
+              38.4795375
+            ],
+            [
+              43.3984852,
+              38.4795753
+            ],
+            [
+              43.3680823,
+              38.4887714
+            ],
+            [
+              42.9064025,
+              38.5932883
+            ],
+            [
+              42.8834995,
+              38.5524563
+            ],
+            [
+              43.1096642,
+              38.3357324
+            ],
+            [
+              43.1507051,
+              38.3253684
+            ],
+            [
+              43.1547429,
+              38.3245197
+            ],
+            [
+              43.1855372,
+              38.3207051
+            ],
+            [
+              43.1922904,
+              38.3201399
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-edremit-administrative-area",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Edremit administrative area",
+        "link": "http://pleiades.stoa.org/places/874362/osm-location-of-edremit-administrative-area"
       }
     }
   ]
