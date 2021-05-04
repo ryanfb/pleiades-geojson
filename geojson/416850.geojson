@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Sabate",
   "id": "416850",
+  "bbox": [
+    12.231944,
+    42.121111,
+    12.231944,
+    42.121111
+  ],
   "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
   "connectsWith": [
     "413290"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231944,
+          42.121111
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

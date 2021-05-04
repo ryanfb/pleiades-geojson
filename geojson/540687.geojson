@@ -3,17 +3,18 @@
   "title": "Azoros",
   "id": "540687",
   "bbox": [
-    22.073274,
-    39.978862,
-    22.104377,
-    39.997728
+    22.0792559,
+    39.9811365,
+    22.0880293,
+    39.9881552
   ],
   "description": "Azoros was a city belonging to the tripolis of the Perrhaebi.",
   "connectsWith": [
     "491689"
   ],
   "names": [
-    "Azoros"
+    "Azoros",
+    "Azorus"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.0888255,
-          39.988295
+          22.0838085821,
+          39.9849348621
         ]
       },
       "properties": {
@@ -31,36 +32,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          22.073274,
-          39.997728
+          [
+            [
+              22.0852112,
+              39.9811365
+            ],
+            [
+              22.0860204,
+              39.9813276
+            ],
+            [
+              22.0880293,
+              39.9847922
+            ],
+            [
+              22.0876156,
+              39.9859901
+            ],
+            [
+              22.0853385,
+              39.9880591
+            ],
+            [
+              22.0817328,
+              39.9881552
+            ],
+            [
+              22.079883,
+              39.9868579
+            ],
+            [
+              22.0792559,
+              39.9847198
+            ],
+            [
+              22.0808663,
+              39.9835233
+            ],
+            [
+              22.0852112,
+              39.9811365
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-49",
+      "id": "osm-location-of-iipiii-i",
       "type": "Feature",
       "properties": {
-        "description": "TIB representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 49",
-        "link": "http://pleiades.stoa.org/places/540687/darmc-location-49"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.104377,
-          39.978862
-        ]
-      },
-      "id": "darmc-location-2454",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 2454",
-        "link": "http://pleiades.stoa.org/places/540687/darmc-location-2454"
+        "title": "OSM location of Άζωρος",
+        "link": "http://pleiades.stoa.org/places/540687/osm-location-of-iipiii-i"
       }
     }
   ]
