@@ -3,10 +3,10 @@
   "title": "House of the Sundial at Baelo",
   "id": "510567670",
   "bbox": [
-    -5.774776,
-    36.088341,
-    -5.774776,
-    36.088341
+    -5.7749081,
+    36.0882053,
+    -5.774626,
+    36.0884155
   ],
   "description": "House at Baelo Claudia located across the colonnaded street from the House of the West.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.774776,
-          36.088341
+          -5.77476654975,
+          36.0883089953
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -5.774776,
-          36.088341
+          [
+            [
+              -5.774682,
+              36.0882053
+            ],
+            [
+              -5.774626,
+              36.0883611
+            ],
+            [
+              -5.774846,
+              36.0884155
+            ],
+            [
+              -5.7749081,
+              36.088256
+            ],
+            [
+              -5.774682,
+              36.0882053
+            ]
+          ]
         ]
       },
-      "id": "house-of-the-sundial",
+      "id": "house-o-t-sundial",
       "type": "Feature",
       "properties": {
-        "description": "Point representing the approximate center point of House of the Sundial based on Google Maps imagery.",
+        "description": "Polygon representing the visible remains of the House of the Sundial, derived from an OpenStreetMap Way after Sillières 1995.",
         "location_precision": "precise",
-        "title": "Imagery location of House of the Sundial ",
-        "link": "http://pleiades.stoa.org/places/510567670/house-of-the-sundial"
+        "title": "OSM location of the House of the sundial",
+        "link": "http://pleiades.stoa.org/places/510567670/house-o-t-sundial"
       }
     }
   ]
