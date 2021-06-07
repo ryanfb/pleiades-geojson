@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Shrine of Strenia",
   "id": "582254847",
+  "bbox": [
+    12.4859059,
+    41.891775,
+    12.486137,
+    41.8922983
+  ],
   "description": "The Shrine of Strenia was located in the valley of the Colosseum and is mentioned as the starting point of the Sacra Via.",
   "connectsWith": [
     "423025",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48602145,
+          41.89203665
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
