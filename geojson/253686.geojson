@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Celebandicum Iugum",
   "id": "253686",
-  "description": "An ancient place, cited: BAtlas 25 unlocated Celebandicum Iugum",
+  "bbox": [
+    3.2334713,
+    41.9503531,
+    3.2334713,
+    41.9503531
+  ],
+  "description": "Mentioned only by Avienus, the Celebandicum Iugum is to be identified with the modern Cap de Begur on the Mediterranean coast of the Spanish province of Girona. The Barrington Atlas treated it as an unlocated, possibly false, toponym.",
   "names": [
     "Celebandicum Iugum"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2334713,
+          41.9503531
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2334713,
+          41.9503531
+        ]
+      },
+      "id": "osm-location-of-cap-de-begur",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/253686/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cap de Begur",
+        "link": "http://pleiades.stoa.org/places/253686/osm-location-of-cap-de-begur"
       }
     }
   ]

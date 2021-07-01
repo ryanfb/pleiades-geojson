@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Amunclus (river)",
   "id": "438674",
+  "bbox": [
+    15.3405482,
+    40.5903401,
+    15.4480162,
+    40.6178819
+  ],
   "description": "An ancient place, cited: BAtlas 44 unlocated Amunclus fl.",
   "names": [
     "Amunclus"
@@ -9,20 +15,84 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3940599686,
+          40.6045276322
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.3405482,
+              40.5903401
+            ],
+            [
+              15.3510771,
+              40.5903865
+            ],
+            [
+              15.3715184,
+              40.5916827
+            ],
+            [
+              15.3722872,
+              40.5917969
+            ],
+            [
+              15.3748527,
+              40.5922157
+            ],
+            [
+              15.3758889,
+              40.5924378
+            ],
+            [
+              15.4480162,
+              40.6085394
+            ],
+            [
+              15.4190432,
+              40.6174696
+            ],
+            [
+              15.417798,
+              40.6176155
+            ],
+            [
+              15.4077283,
+              40.6178819
+            ],
+            [
+              15.4068927,
+              40.6176409
+            ],
+            [
+              15.3904695,
+              40.6128765
+            ],
+            [
+              15.3405482,
+              40.5903401
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-fiume-bianco",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438674/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Fiume Bianco",
+        "link": "http://pleiades.stoa.org/places/438674/osm-location-of-fiume-bianco"
       }
     }
   ]

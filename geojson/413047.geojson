@@ -3,17 +3,18 @@
   "title": "Avens (river)",
   "id": "413047",
   "bbox": [
-    12.0248296,
-    41.7451532,
-    12.6387405,
-    43.7892424
+    12.7175942,
+    42.5489052,
+    12.7175942,
+    42.5489052
   ],
   "description": "A river of the Sabine territory.",
   "connectsWith": [
     "423080"
   ],
   "names": [
-    "Avens"
+    "Avens",
+    "Velino"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3275425525,
-          42.6783085406
+          12.7175942,
+          42.5489052
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.5,
-              42.0
-            ],
-            [
-              13.0,
-              42.0
-            ],
-            [
-              13.0,
-              42.5
-            ],
-            [
-              12.5,
-              42.5
-            ],
-            [
-              12.5,
-              42.0
-            ]
-          ]
+          12.7175942,
+          42.5489052
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-velino-river",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413047/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Velino (river)",
+        "link": "http://pleiades.stoa.org/places/413047/location-of-velino-river"
       }
     }
   ]
