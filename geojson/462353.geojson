@@ -3,10 +3,10 @@
   "title": "Monte Maranfusa",
   "id": "462353",
   "bbox": [
-    13.135419,
-    37.849579,
-    13.135419,
-    37.849579
+    13.1305859,
+    37.8500948,
+    13.1309599,
+    37.8505649
   ],
   "description": "An ancient place, cited: BAtlas 47 C3 Monte Maranfusa",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.135419,
-          37.849579
+          13.130772935,
+          37.8503298604
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          13.135419,
-          37.849579
+          [
+            [
+              13.1309431,
+              37.8500948
+            ],
+            [
+              13.1309599,
+              37.8505568
+            ],
+            [
+              13.1306028,
+              37.8505649
+            ],
+            [
+              13.1305859,
+              37.850103
+            ],
+            [
+              13.1309431,
+              37.8500948
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-28552",
+      "id": "osm-location-of-scavi-archeologici-monte-maranfusa",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 28552",
-        "link": "http://pleiades.stoa.org/places/462353/darmc-location-28552"
+        "title": "OSM location of Scavi Archeologici Monte Maranfusa",
+        "link": "http://pleiades.stoa.org/places/462353/osm-location-of-scavi-archeologici-monte-maranfusa"
       }
     }
   ]
