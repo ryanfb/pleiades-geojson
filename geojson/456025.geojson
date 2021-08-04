@@ -2,10 +2,15 @@
   "type": "FeatureCollection",
   "title": "Ad Mallias",
   "id": "456025",
+  "bbox": [
+    15.651754,
+    38.191434,
+    15.651754,
+    38.191434
+  ],
   "description": "An ancient place, cited: BAtlas 46 unlocated Ad Mallias",
   "connectsWith": [
-    "452250",
-    "452391"
+    "452250"
   ],
   "names": [
     "Ad Mallias"
@@ -13,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.651754,
+          38.191434
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

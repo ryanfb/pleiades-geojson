@@ -3,10 +3,10 @@
   "title": "Oberhochstatt",
   "id": "118888",
   "bbox": [
-    11.04845,
-    49.030696,
-    11.053056,
-    49.034444
+    11.0523638,
+    49.0337899,
+    11.0549435,
+    49.0348999
   ],
   "description": "The Roman fort at Oberhochstatt is one of the least well-known Roman castra of the Upper Germanic-Rhaetian Limes.",
   "features": [
@@ -15,29 +15,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.050753,
-          49.03257
+          11.0533501554,
+          49.0343966669
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.04845,
-          49.030696
-        ]
-      },
-      "id": "darmc-location-8147",
-      "type": "Feature",
-      "properties": {
-        "description": "1M scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 8147",
-        "link": "http://pleiades.stoa.org/places/118888/darmc-location-8147"
       }
     },
     {
@@ -55,6 +38,43 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/118888/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0527012,
+              49.0337899
+            ],
+            [
+              11.0549435,
+              49.0341065
+            ],
+            [
+              11.0545739,
+              49.0348999
+            ],
+            [
+              11.0523638,
+              49.0346115
+            ],
+            [
+              11.0527012,
+              49.0337899
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-kastell-oberhochstatt",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Kastell Oberhochstatt",
+        "link": "http://pleiades.stoa.org/places/118888/osm-location-of-kastell-oberhochstatt"
       }
     }
   ]
