@@ -3,20 +3,23 @@
   "title": "Wadi es Sebua",
   "id": "795885",
   "bbox": [
-    32.561719,
-    22.798461,
-    32.561719,
-    22.798461
+    32.5449688,
+    22.7926329,
+    32.5458903,
+    22.7935949
   ],
   "description": "The Wadi es-Sebua, also known as the Valley of the Lions, is the site of two New Kingdom Egyptian temples. This includes a temple built by Pharaoh Ramesses II (19th Dynasty).",
+  "names": [
+    "Wadi es-Sebua"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.561719,
-          22.798461
+          32.5454141567,
+          22.7931323307
         ]
       },
       "properties": {
@@ -25,19 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          32.561719,
-          22.798461
+          [
+            [
+              32.5456505,
+              22.7926329
+            ],
+            [
+              32.5458903,
+              22.7927955
+            ],
+            [
+              32.5453303,
+              22.7934748
+            ],
+            [
+              32.5452261,
+              22.7935889
+            ],
+            [
+              32.5451284,
+              22.7935949
+            ],
+            [
+              32.5449851,
+              22.7934838
+            ],
+            [
+              32.5449688,
+              22.7933877
+            ],
+            [
+              32.5450079,
+              22.7933337
+            ],
+            [
+              32.5456505,
+              22.7926329
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-22000",
+      "id": "osm-location-of-wadi-es-sebua-temple",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 22000",
-        "link": "http://pleiades.stoa.org/places/795885/darmc-location-22000"
+        "title": "OSM location of Wadi es-Sebua Temple",
+        "link": "http://pleiades.stoa.org/places/795885/osm-location-of-wadi-es-sebua-temple"
       }
     }
   ]
