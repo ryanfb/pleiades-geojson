@@ -1,21 +1,24 @@
 {
   "type": "FeatureCollection",
-  "title": "Tainaron Pr.",
+  "title": "Tainaron (promontory)",
   "id": "570703",
   "bbox": [
-    22.4849795,
-    36.400128,
-    22.71,
-    36.66
+    22.4831905,
+    36.3856534,
+    22.4831905,
+    36.3856534
   ],
-  "description": "Tainaron Pr. (Cape Matapan) is the southernmost point of mainland Greece.",
+  "description": "Tainaron (Cape Matapan) is the southernmost point of mainland Greece.",
   "connectsWith": [
     "570407",
     "570123",
     "570577"
   ],
   "names": [
-    "Tainaron Pr."
+    "Tainaron Pr.",
+    "Tainaron",
+    "Cape Matapan",
+    "Akroterio Tainaro"
   ],
   "features": [
     {
@@ -23,8 +26,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5982376992,
-          36.5306726123
+          22.4831905,
+          36.3856534
         ]
       },
       "properties": {
@@ -33,39 +36,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              36.0
-            ],
-            [
-              22.5,
-              36.0
-            ],
-            [
-              22.5,
-              36.5
-            ],
-            [
-              22.0,
-              36.5
-            ],
-            [
-              22.0,
-              36.0
-            ]
-          ]
+          22.4831905,
+          36.3856534
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-Tainaron-Pr",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570703/batlas-location"
+        "description": "Representative point location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Matapan",
+        "link": "http://pleiades.stoa.org/places/570703/location-of-Tainaron-Pr"
       }
     }
   ]
