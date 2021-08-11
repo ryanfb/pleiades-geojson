@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Tifernum",
   "id": "438852",
+  "bbox": [
+    14.4777334,
+    41.283225,
+    14.4783321,
+    41.2835695
+  ],
   "description": "An ancient place, cited: BAtlas 44 unlocated Tifernum",
   "names": [
     "Tifernum"
@@ -9,20 +15,64 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4780961054,
+          41.2833629816
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.4777371,
+              41.283225
+            ],
+            [
+              14.4781043,
+              41.2832435
+            ],
+            [
+              14.4783321,
+              41.2832586
+            ],
+            [
+              14.478315,
+              41.283567
+            ],
+            [
+              14.4781263,
+              41.2835695
+            ],
+            [
+              14.4780298,
+              41.2835671
+            ],
+            [
+              14.4777334,
+              41.2832844
+            ],
+            [
+              14.4777371,
+              41.283225
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-convento-di-san-pasquale",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438852/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Convento di San Pasquale",
+        "link": "http://pleiades.stoa.org/places/438852/osm-location-of-convento-di-san-pasquale"
       }
     }
   ]
