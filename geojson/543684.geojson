@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Dion/Orchomenos",
   "id": "543684",
+  "bbox": [
+    22.0,
+    39.0,
+    22.5,
+    39.5
+  ],
   "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
   "connectsWith": [
     "540585"
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.25,
+          39.25
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

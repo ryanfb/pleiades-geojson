@@ -2,16 +2,69 @@
   "type": "FeatureCollection",
   "title": "Temple of Ba'al at Palmyra",
   "id": "35794949",
-  "description": "Temple of Ba'al (or Bel) in the ancient city of Palmyra. ",
+  "bbox": [
+    38.2726809,
+    34.5463404,
+    38.2751183,
+    34.5483429
+  ],
+  "description": "Temple of Ba'al (or Bel) in the ancient city of Palmyra.",
   "connectsWith": [
     "668331"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2739059751,
+          34.5473376445
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.274941,
+              34.5463404
+            ],
+            [
+              38.2751183,
+              34.5482004
+            ],
+            [
+              38.2729156,
+              34.5483429
+            ],
+            [
+              38.2728412,
+              34.5481687
+            ],
+            [
+              38.2726809,
+              34.5464866
+            ],
+            [
+              38.274941,
+              34.5463404
+            ]
+          ]
+        ]
+      },
+      "id": "64563962862f-628639644",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygon representing the visible remains of the Temple of Bel at Palmyra, derived from an OpenStreetMap Way.",
+        "location_precision": "precise",
+        "title": "OSM location of معبد بعل",
+        "link": "http://pleiades.stoa.org/places/35794949/64563962862f-628639644"
       }
     }
   ]
