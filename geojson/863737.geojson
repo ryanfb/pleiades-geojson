@@ -3,17 +3,18 @@
   "title": "Alontas (river)",
   "id": "863737",
   "bbox": [
-    44.0,
-    42.0,
-    45.0,
-    43.0
+    44.5233077,
+    42.5838979,
+    44.5233077,
+    42.5838979
   ],
   "description": "A major river of the Northern Caucasus that flows from Georgia to the Caspian Sea.",
   "connectsWith": [
     "884130"
   ],
   "names": [
-    "Alontas"
+    "Alontas",
+    "Terek"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          42.5
+          44.5233077,
+          42.5838979
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              44.0,
-              42.0
-            ],
-            [
-              45.0,
-              42.0
-            ],
-            [
-              45.0,
-              43.0
-            ],
-            [
-              44.0,
-              43.0
-            ],
-            [
-              44.0,
-              42.0
-            ]
-          ]
+          44.5233077,
+          42.5838979
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-terek-river",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863737/batlas-location"
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Terek river",
+        "link": "http://pleiades.stoa.org/places/863737/osm-location-of-terek-river"
       }
     }
   ]

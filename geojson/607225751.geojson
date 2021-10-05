@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Ager Romanus",
   "id": "607225751",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "The rural hinterland of the ancient city of Rome.",
   "names": [
     "ager Romanus"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
