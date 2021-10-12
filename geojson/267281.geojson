@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "267281",
   "bbox": [
-    -3.0,
-    39.0,
-    -2.0,
-    40.0
+    -2.2654996,
+    39.8846041,
+    -2.2654996,
+    39.8846041
   ],
   "description": "An ancient place, cited: BAtlas 27 C2 unnamed bridge (El Castellar, NW Valeria)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          39.5
+          -2.2654996,
+          39.8846041
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -3.0,
-              39.0
-            ],
-            [
-              -2.0,
-              39.0
-            ],
-            [
-              -2.0,
-              40.0
-            ],
-            [
-              -3.0,
-              40.0
-            ],
-            [
-              -3.0,
-              39.0
-            ]
-          ]
+          -2.2654996,
+          39.8846041
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/267281/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/267281/osm-location"
       }
     }
   ]

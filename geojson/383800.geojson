@@ -3,10 +3,10 @@
   "title": "Tidone (river)",
   "id": "383800",
   "bbox": [
-    9.0,
-    44.5,
-    9.5,
-    45.0
+    9.3202764,
+    44.860716,
+    9.3202764,
+    44.860716
   ],
   "description": "An ancient place, cited: BAtlas 39 E4 Tidone fl.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.25,
-          44.75
+          9.3202764,
+          44.860716
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              9.0,
-              44.5
-            ],
-            [
-              9.5,
-              44.5
-            ],
-            [
-              9.5,
-              45.0
-            ],
-            [
-              9.0,
-              45.0
-            ],
-            [
-              9.0,
-              44.5
-            ]
-          ]
+          9.3202764,
+          44.860716
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383800/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/383800/osm-location"
       }
     }
   ]

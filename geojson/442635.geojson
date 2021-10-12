@@ -3,20 +3,20 @@
   "title": "Li Castelli",
   "id": "442635",
   "bbox": [
-    17.690031,
-    40.339914,
-    17.690031,
-    40.339914
+    17.8608037,
+    40.4168067,
+    17.8633281,
+    40.4179819
   ],
-  "description": "An ancient place, cited: BAtlas 45 G4 Li Castelli",
+  "description": "An ancient settlement of the Messapians located near the modern town of San Pancrazio Salentino on the Salento peninsula of Italy, the site was later used as a Roman military installation. The ancient name of the site is unknown.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.690031,
-          40.339914
+          17.8620579225,
+          40.4174391208
         ]
       },
       "properties": {
@@ -25,19 +25,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          17.690031,
-          40.339914
+          [
+            [
+              17.8615625,
+              40.4168067
+            ],
+            [
+              17.8633281,
+              40.41698
+            ],
+            [
+              17.8630965,
+              40.4179819
+            ],
+            [
+              17.8608037,
+              40.4179665
+            ],
+            [
+              17.8610416,
+              40.4169144
+            ],
+            [
+              17.8615625,
+              40.4168067
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-18515",
+      "id": "osm-location-of-li-castelli",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18515",
-        "link": "http://pleiades.stoa.org/places/442635/darmc-location-18515"
+        "title": "OSM location of Li Castelli",
+        "link": "http://pleiades.stoa.org/places/442635/osm-location-of-li-castelli"
       }
     }
   ]

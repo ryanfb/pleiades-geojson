@@ -3,10 +3,10 @@
   "title": "Unnamed bridge",
   "id": "257481",
   "bbox": [
-    -6.0,
-    37.0,
-    -5.0,
-    38.0
+    -5.8614464,
+    37.096002,
+    -5.8614464,
+    37.096002
   ],
   "description": "An unnamed Roman bridge located north of U(r)gia at Alcantarillas, over the Rio Saldo de Móron.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5,
-          37.5
+          -5.8614464,
+          37.096002
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -6.0,
-              37.0
-            ],
-            [
-              -5.0,
-              37.0
-            ],
-            [
-              -5.0,
-              38.0
-            ],
-            [
-              -6.0,
-              38.0
-            ],
-            [
-              -6.0,
-              37.0
-            ]
-          ]
+          -5.8614464,
+          37.096002
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/257481/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/257481/osm-location"
       }
     }
   ]
