@@ -3,20 +3,20 @@
   "title": "Krokeai (quarry)",
   "id": "572298",
   "bbox": [
-    22.5,
-    36.5,
-    23.0,
-    37.0
+    22.54,
+    36.88,
+    22.54,
+    36.88
   ],
-  "description": "An ancient place, cited: BAtlas 58 D4 unnamed quarry (Krokeai)",
+  "description": "An unnamed quarry at Krokeai.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          36.75
+          22.54,
+          36.88
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              36.5
-            ],
-            [
-              23.0,
-              36.5
-            ],
-            [
-              23.0,
-              37.0
-            ],
-            [
-              22.5,
-              37.0
-            ],
-            [
-              22.5,
-              36.5
-            ]
-          ]
+          22.54,
+          36.88
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-quarry",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/572298/batlas-location"
+        "description": "Coordinates after Oxford Roman Economy Project",
+        "location_precision": "precise",
+        "title": "Imagery location of quarry",
+        "link": "http://pleiades.stoa.org/places/572298/location-of-quarry"
       }
     }
   ]
