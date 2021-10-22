@@ -93,7 +93,7 @@ places.each_key do |id|
   end
 
   unless places[id]["names"].nil?
-    places[id]["names"].map{|n| [n["title"],n["nameAttested"]]}.flatten.compact.uniq.each do |name|
+    places[id]["names"].map{|n| [n["title"],n["nameAttested"],n["nameTransliterated"].split(/,\s*/)]}.flatten.compact.uniq.each do |name|
       names << [name, place_id]
     end
   end
