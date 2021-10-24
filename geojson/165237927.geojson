@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Arcus Divi Veri",
   "id": "165237927",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "An arch, likely on the Via Appia, that is known only from the Regionary Catalogues. It may have honored the Parthian victories of Lucius Verus.",
   "connectsWith": [
     "423025",
@@ -11,7 +17,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
