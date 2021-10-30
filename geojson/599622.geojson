@@ -3,14 +3,15 @@
   "title": "Gallesion (mountain)",
   "id": "599622",
   "bbox": [
-    27.0,
-    38.0,
-    27.5,
-    38.5
+    27.3951786,
+    38.0460003,
+    27.3951786,
+    38.0460003
   ],
   "description": "Alaman Dağ.",
   "names": [
-    "Gallesion"
+    "Gallesion",
+    "Alaman Daği"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          38.25
+          27.3951786,
+          38.0460003
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              27.0,
-              38.0
-            ],
-            [
-              27.5,
-              38.0
-            ],
-            [
-              27.5,
-              38.5
-            ],
-            [
-              27.0,
-              38.5
-            ],
-            [
-              27.0,
-              38.0
-            ]
-          ]
+          27.3951786,
+          38.0460003
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599622/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/599622/osm-location"
       }
     }
   ]

@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Illubru",
   "id": "911351382",
+  "bbox": [
+    34.6038403,
+    37.1704423,
+    34.6038403,
+    37.1704423
+  ],
   "description": "Illubru is a city in the western part of Que (kingdom) or in Hilakku that is mentioned in inscriptions of the Assyrian king Sennacherib (r. 704-681 BC). This site is generally connected with classical Lampron, which is likely to be identified with modern Namrun, ca. 20 km northwest of Tarsus.",
   "connectsWith": [
     "652445664",
@@ -16,9 +22,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6038403,
+          37.1704423
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6038403,
+          37.1704423
+        ]
+      },
+      "id": "namrun-kalesi",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap node of Namrun Kalesi",
+        "location_precision": "precise",
+        "title": "OSM location of Namrun Kalesi ",
+        "link": "http://pleiades.stoa.org/places/911351382/namrun-kalesi"
       }
     }
   ]
