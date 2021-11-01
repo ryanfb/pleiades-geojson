@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sekia",
   "id": "252981",
-  "description": "An ancient place, cited: BAtlas 25 unlocated Sekia",
+  "bbox": [
+    -1.0,
+    42.0,
+    0.0,
+    43.0
+  ],
+  "description": "A settlement or people within the territory of the Suessetani, known only from coins they issued. The precise location is not known",
   "connectsWith": [
     "246669"
   ],
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5,
+          42.5
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/252981/batlas-location"
       }
     }
   ]

@@ -2,13 +2,42 @@
   "type": "FeatureCollection",
   "title": "Sitagroi",
   "id": "58683083",
+  "bbox": [
+    24.0286075,
+    41.1113874,
+    24.0286075,
+    41.1113874
+  ],
   "description": "Sitagroi is the location of an important archaeological site from the late Neolithic period and early Bronze Age.",
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0286075,
+          41.1113874
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0286075,
+          41.1113874
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Sitagroi",
+        "link": "http://pleiades.stoa.org/places/58683083/osm-location"
       }
     }
   ]
