@@ -4,8 +4,8 @@
   "id": "912855",
   "bbox": [
     46.175712,
-    31.576909,
-    46.175712,
+    31.5591,
+    46.1776,
     31.576909
   ],
   "description": "A Sumerian city-state.",
@@ -14,7 +14,9 @@
   ],
   "names": [
     "Girsu",
-    "Tell Telloh"
+    "Tell Telloh",
+    "Tall Tīlūh",
+    "Jīrsū"
   ],
   "features": [
     {
@@ -22,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.175712,
-          31.576909
+          46.176656,
+          31.5680045
         ]
       },
       "properties": {
@@ -45,6 +47,23 @@
         "location_precision": "precise",
         "title": "OSM location of Girsu (Tell Telloh)",
         "link": "http://pleiades.stoa.org/places/912855/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1776,
+          31.5591
+        ]
+      },
+      "id": "imagery-location-of-tall-tiluh",
+      "type": "Feature",
+      "properties": {
+        "description": "Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.",
+        "location_precision": "precise",
+        "title": "Imagery location of Tall Tīlūh",
+        "link": "http://pleiades.stoa.org/places/912855/imagery-location-of-tall-tiluh"
       }
     }
   ]
