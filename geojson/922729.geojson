@@ -5,12 +5,13 @@
   "bbox": [
     52.407778,
     29.98608,
-    52.410901,
-    30.011667
+    52.4124,
+    30.0119
   ],
   "description": "An ancient place, cited: BAtlas 94 C3 Tal-i Malyan/[Anzan]",
   "names": [
-    "Anzan"
+    "Anzan",
+    "Tal-I Malyān"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.4093395,
-          29.9988735
+          52.4103596667,
+          30.0032156667
         ]
       },
       "properties": {
@@ -58,6 +59,23 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/922729/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4124,
+          30.0119
+        ]
+      },
+      "id": "imagery-location-of-tal-i-malyan",
+      "type": "Feature",
+      "properties": {
+        "description": "Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.",
+        "location_precision": "precise",
+        "title": "Imagery location of Tal-I Malyān",
+        "link": "http://pleiades.stoa.org/places/922729/imagery-location-of-tal-i-malyan"
       }
     }
   ]
