@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hispania Citerior",
   "id": "530036687",
+  "bbox": [
+    -5.0,
+    40.0,
+    -5.0,
+    40.0
+  ],
   "description": "Province of the Roman Republic in the Iberian peninsula. In the first century BCE Augustus incorporated Hispania Citerior into the new province of Hispania Tarraconensis.",
   "connectsWith": [
     "540456066",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0,
+          40.0
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
