@@ -3,10 +3,10 @@
   "title": "Castra Herculis?",
   "id": "98934",
   "bbox": [
-    5.873611,
+    5.8735499,
     51.970833,
-    5.900014,
-    51.976183
+    5.8743471,
+    51.9724227
   ],
   "description": "Castra Herculis? (modern Arnhem)",
   "connectsWith": [
@@ -23,29 +23,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.8868125,
-          51.973508
+          5.8737787014,
+          51.9715209939
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.900014,
-          51.976183
-        ]
-      },
-      "id": "darmc-location-7530",
-      "type": "Feature",
-      "properties": {
-        "description": "1M scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7530",
-        "link": "http://pleiades.stoa.org/places/98934/darmc-location-7530"
       }
     },
     {
@@ -63,6 +46,47 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/98934/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.8738071,
+              51.9719806
+            ],
+            [
+              5.8741298,
+              51.9721139
+            ],
+            [
+              5.8743471,
+              51.9722123
+            ],
+            [
+              5.8740989,
+              51.9724227
+            ],
+            [
+              5.8735499,
+              51.9722327
+            ],
+            [
+              5.8738071,
+              51.9719806
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-roman-castellum-castra-herculis",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Roman Castellum Castra Herculis",
+        "link": "http://pleiades.stoa.org/places/98934/osm-location-of-roman-castellum-castra-herculis"
       }
     }
   ]
