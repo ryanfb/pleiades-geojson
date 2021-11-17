@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Saturni/Scombraria Pr.",
+  "title": "Saturni/Scombraria (promontory)",
   "id": "266030",
   "bbox": [
-    -1.0,
-    37.0,
-    0.0,
-    38.0
+    -0.6904232,
+    37.63479,
+    -0.6904232,
+    37.63479
   ],
-  "description": "An ancient place, cited: BAtlas 27 E4 Saturni/Scombraria Pr.",
+  "description": "The modern Cabo de Palos, a Mediterranean peninsula in the modern Spanish municipality of Cartagena.",
   "names": [
     "Saturni",
     "Scombraria Pr."
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          37.5
+          -0.6904232,
+          37.63479
         ]
       },
       "properties": {
@@ -29,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -1.0,
-              37.0
-            ],
-            [
-              0.0,
-              37.0
-            ],
-            [
-              0.0,
-              38.0
-            ],
-            [
-              -1.0,
-              38.0
-            ],
-            [
-              -1.0,
-              37.0
-            ]
-          ]
+          -0.6904232,
+          37.63479
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-cabo-de-palos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/266030/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Cabo de Palos",
+        "link": "http://pleiades.stoa.org/places/266030/location-of-cabo-de-palos"
       }
     }
   ]
