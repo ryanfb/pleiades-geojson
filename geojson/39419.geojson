@@ -3,14 +3,16 @@
   "title": "Sachalites Sinus",
   "id": "39419",
   "bbox": [
-    50.0,
-    15.0,
-    55.0,
-    20.0
+    52.2093989,
+    15.9270015,
+    52.2093989,
+    15.9270015
   ],
   "description": "An ancient place, cited: BAtlas 4 D2 Sachalites Sinus",
   "names": [
-    "Sachalites Sinus"
+    "Sachalites Sinus",
+    "Al Qamar Bay",
+    "Ghubbat al Qamar"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.5,
-          17.5
+          52.2093989,
+          15.9270015
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              50.0,
-              15.0
-            ],
-            [
-              55.0,
-              15.0
-            ],
-            [
-              55.0,
-              20.0
-            ],
-            [
-              50.0,
-              20.0
-            ],
-            [
-              50.0,
-              15.0
-            ]
-          ]
+          52.2093989,
+          15.9270015
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-ghubbat-al-qamar",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39419/batlas-location"
+        "description": "Location based on OpenStreetMap, sourced from GNS",
+        "location_precision": "precise",
+        "title": "OSM Location of Ghubbat al Qamar",
+        "link": "http://pleiades.stoa.org/places/39419/osm-location-of-ghubbat-al-qamar"
       }
     }
   ]
