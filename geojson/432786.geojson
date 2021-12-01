@@ -3,10 +3,10 @@
   "title": "Clanius (river)",
   "id": "432786",
   "bbox": [
-    14.371233,
-    40.946092,
-    14.371233,
-    40.946092
+    14.0803174,
+    41.0326932,
+    14.0803174,
+    41.0326932
   ],
   "description": "A river of Campania that likely flowed into the Tyrrhenian Sea near Liternum.",
   "connectsWith": [
@@ -14,7 +14,8 @@
   ],
   "names": [
     "Clanius",
-    "Liternus"
+    "Liternus",
+    "Glanis"
   ],
   "features": [
     {
@@ -22,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.371233,
-          40.946092
+          14.0803174,
+          41.0326932
         ]
       },
       "properties": {
@@ -32,39 +33,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              14.0,
-              40.5
-            ],
-            [
-              14.5,
-              40.5
-            ],
-            [
-              14.5,
-              41.0
-            ],
-            [
-              14.0,
-              41.0
-            ],
-            [
-              14.0,
-              40.5
-            ]
-          ]
+          14.0803174,
+          41.0326932
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-regi-lagni",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432786/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Regi Lagni",
+        "link": "http://pleiades.stoa.org/places/432786/location-of-regi-lagni"
       }
     }
   ]

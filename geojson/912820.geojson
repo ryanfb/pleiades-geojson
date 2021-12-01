@@ -3,20 +3,23 @@
   "title": "Bard-i Nishande",
   "id": "912820",
   "bbox": [
-    49.283626,
-    32.051175,
-    49.283626,
-    32.051175
+    49.3338471,
+    32.0344638,
+    49.3353088,
+    32.036087
   ],
-  "description": "An ancient place, cited: BAtlas 93 F1 Bard-i Nishande",
+  "description": "Bard-i Nishande is the site of a ruined ancient landscape consisting of multiple complexes. According to K. Schippmann, these complexes include a ruler's residence or \"castle\", a terraced platform used for ritual activity, and a lower town.",
+  "names": [
+    "Bardneshāndeh"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.283626,
-          32.051175
+          49.3345901937,
+          32.0352905289
         ]
       },
       "properties": {
@@ -25,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          49.283626,
-          32.051175
+          [
+            [
+              49.3346036,
+              32.0344638
+            ],
+            [
+              49.3353088,
+              32.034737
+            ],
+            [
+              49.3346457,
+              32.036087
+            ],
+            [
+              49.3338471,
+              32.0358336
+            ],
+            [
+              49.3346036,
+              32.0344638
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-31874",
+      "id": "terraces-at-bardneshandeh",
       "type": "Feature",
       "properties": {
-        "description": "representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Polygon representing the temple terraces at Bardneshandeh, derived from an OpenStreetMap Way after MDP 45.",
         "location_precision": "precise",
-        "title": "DARMC location 31874",
-        "link": "http://pleiades.stoa.org/places/912820/darmc-location-31874"
+        "title": "OSM location of Terraces at Bardneshandeh",
+        "link": "http://pleiades.stoa.org/places/912820/terraces-at-bardneshandeh"
       }
     }
   ]

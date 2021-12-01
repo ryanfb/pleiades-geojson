@@ -3,20 +3,23 @@
   "title": "Unnamed bridge",
   "id": "659884",
   "bbox": [
-    38.150487,
-    37.429194,
-    38.150487,
-    37.429194
+    38.1626193,
+    37.4457156,
+    38.1632872,
+    37.4461437
   ],
   "description": "An ancient place, cited: BAtlas 67 G2 unnamed bridge (Pons *Singae, Göksu bridge, E Seleukeia epi tou Zeugmatos)",
+  "names": [
+    "ad Pons Singae"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.150487,
-          37.429194
+          38.16295325,
+          37.44592965
         ]
       },
       "properties": {
@@ -27,17 +30,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.150487,
-          37.429194
+          38.1626193,
+          37.4457156
         ]
       },
-      "id": "darmc-location-27959",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 27959",
-        "link": "http://pleiades.stoa.org/places/659884/darmc-location-27959"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/659884/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1632872,
+          37.4461437
+        ]
+      },
+      "id": "osm-location-2",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location 2",
+        "link": "http://pleiades.stoa.org/places/659884/osm-location-2"
       }
     }
   ]
