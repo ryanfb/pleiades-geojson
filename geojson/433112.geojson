@@ -3,20 +3,23 @@
   "title": "Schiavi",
   "id": "433112",
   "bbox": [
-    14.484678,
-    41.815994,
-    14.484783,
-    41.816036
+    14.4806091,
+    41.8061492,
+    14.4813931,
+    41.8070057
   ],
   "description": "Twin Italic temples located atop the Colle della Torre.",
+  "names": [
+    "Schiavi di Abruzzo"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4847305,
-          41.816015
+          14.4809875621,
+          41.8065837007
         ]
       },
       "properties": {
@@ -25,36 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          14.484678,
-          41.815994
+          [
+            [
+              14.481239,
+              41.8061492
+            ],
+            [
+              14.4813547,
+              41.8061927
+            ],
+            [
+              14.4813931,
+              41.8062772
+            ],
+            [
+              14.4813333,
+              41.8065686
+            ],
+            [
+              14.481227,
+              41.8067388
+            ],
+            [
+              14.4809846,
+              41.8069685
+            ],
+            [
+              14.4807354,
+              41.8070057
+            ],
+            [
+              14.4806091,
+              41.8069445
+            ],
+            [
+              14.4806145,
+              41.8065446
+            ],
+            [
+              14.4807647,
+              41.8063607
+            ],
+            [
+              14.4811718,
+              41.8061764
+            ],
+            [
+              14.481239,
+              41.8061492
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20652",
+      "id": "osm-location-of-tempio-italico-colle-della-torre",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 20652",
-        "link": "http://pleiades.stoa.org/places/433112/darmc-location-20652"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.484783,
-          41.816036
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, village precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/433112/dare-location"
+        "title": "OSM location of Tempio Italico, Colle della Torre",
+        "link": "http://pleiades.stoa.org/places/433112/osm-location-of-tempio-italico-colle-della-torre"
       }
     }
   ]

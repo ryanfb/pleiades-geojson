@@ -3,14 +3,15 @@
   "title": "Ad Fines",
   "id": "383545",
   "bbox": [
-    7.0,
-    45.0,
-    7.5,
-    45.5
+    7.4208953,
+    45.0957849,
+    7.4208953,
+    45.0957849
   ],
   "description": "An ancient place, cited: BAtlas 39 A3 Ad Fines",
   "names": [
-    "Ad Fines"
+    "Ad Fines",
+    "Finibus"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          45.25
+          7.4208953,
+          45.0957849
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              7.0,
-              45.0
-            ],
-            [
-              7.5,
-              45.0
-            ],
-            [
-              7.5,
-              45.5
-            ],
-            [
-              7.0,
-              45.5
-            ],
-            [
-              7.0,
-              45.0
-            ]
-          ]
+          7.4208953,
+          45.0957849
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-drubiaglio",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383545/batlas-location"
+        "description": "Modern point location of Drubiaglio based on OpenStreetMap. Drubiaglio is thought to be the location of the ancient road station.",
+        "location_precision": "precise",
+        "title": "OSM location of modern Drubiaglio",
+        "link": "http://pleiades.stoa.org/places/383545/osm-location-of-modern-drubiaglio"
       }
     }
   ]
