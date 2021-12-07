@@ -3,17 +3,18 @@
   "title": "Baccanae",
   "id": "413050",
   "bbox": [
-    12.367302,
-    42.119115,
-    12.367302,
-    42.119115
+    12.3598819,
+    42.1264782,
+    12.3603057,
+    42.1268024
   ],
   "description": "Baccanae was a road station along the Via Cassia.",
   "connectsWith": [
     "447759107"
   ],
   "names": [
-    "Baccanae"
+    "Baccanae",
+    "Vacanas"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.367302,
-          42.119115
+          12.3600934668,
+          42.1266374463
         ]
       },
       "properties": {
@@ -31,19 +32,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.367302,
-          42.119115
+          [
+            [
+              12.3600456,
+              42.1264782
+            ],
+            [
+              12.3603057,
+              42.1265916
+            ],
+            [
+              12.3601314,
+              42.1268024
+            ],
+            [
+              12.3598819,
+              42.1266751
+            ],
+            [
+              12.3600456,
+              42.1264782
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-19337",
+      "id": "osm-location-of-mansio-ad-vacanas",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 19337",
-        "link": "http://pleiades.stoa.org/places/413050/darmc-location-19337"
+        "title": "OSM location of Mansio ad Vacanas",
+        "link": "http://pleiades.stoa.org/places/413050/osm-location-of-mansio-ad-vacanas"
       }
     }
   ]

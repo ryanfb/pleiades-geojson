@@ -2,27 +2,32 @@
   "type": "FeatureCollection",
   "title": "Eukratidia",
   "id": "975464",
-  "description": "An ancient place, cited: BAtlas 99 unlocated Eukratidia",
+  "bbox": [
+    66.5238922,
+    37.020105,
+    66.5296429,
+    37.0244736
+  ],
+  "description": "An ancient settlement, mentioned by both Strabo and Ptolemy. While its modern location is uncertain, it may correspond to a fortified settlement in northern Afghanistan known today as Dilbarjin (thus Bernard in EncIran). Hiebert and Kohl (BAtlas) offered only the suggestion that it might have been located somewhere in the territory of modern Uzbekistan. ",
+  "connectsWith": [
+    "961901"
+  ],
   "names": [
-    "Eukratidia"
+    "Eukratidia",
+    "Eukratideia"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.526751672,
+          37.0222201586
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/975464/batlas-location"
       }
     }
   ]

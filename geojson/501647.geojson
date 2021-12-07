@@ -3,14 +3,15 @@
   "title": "Toronaikos Kolpos",
   "id": "501647",
   "bbox": [
-    23.5,
-    40.0,
-    24.0,
-    40.5
+    23.606153,
+    40.115943,
+    23.606153,
+    40.115943
   ],
   "description": "The Toronaic Gulf, the modern Gulf of Kassandra.",
   "names": [
-    "Toronaikos Kolpos"
+    "Toronaikos Kolpos",
+    "Kólpos Kassándras"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          40.25
+          23.606153,
+          40.115943
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.5,
-              40.0
-            ],
-            [
-              24.0,
-              40.0
-            ],
-            [
-              24.0,
-              40.5
-            ],
-            [
-              23.5,
-              40.5
-            ],
-            [
-              23.5,
-              40.0
-            ]
-          ]
+          23.606153,
+          40.115943
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-toronaikos-kolpos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501647/batlas-location"
+        "description": "verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "Imagery location of Toronaikos Kolpos",
+        "link": "http://pleiades.stoa.org/places/501647/imagery-location-of-toronaikos-kolpos"
       }
     }
   ]
