@@ -3,12 +3,12 @@
   "title": "Rhion? Akron",
   "id": "472119",
   "bbox": [
-    8.0,
-    42.0,
-    9.0,
-    43.0
+    8.5894139,
+    42.1329897,
+    8.5894139,
+    42.1329897
   ],
-  "description": "An ancient place, cited: BAtlas 48 C2 Rhion? Akron",
+  "description": "An ancient name for a promontory on the island of Corsica, probably to be identified with the modern Cap Cargese.",
   "names": [
     "Rhion Akron"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          42.5
+          8.5894139,
+          42.1329897
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              8.0,
-              42.0
-            ],
-            [
-              9.0,
-              42.0
-            ],
-            [
-              9.0,
-              43.0
-            ],
-            [
-              8.0,
-              43.0
-            ],
-            [
-              8.0,
-              42.0
-            ]
-          ]
+          8.5894139,
+          42.1329897
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472119/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/472119/osm-location"
       }
     }
   ]

@@ -3,13 +3,18 @@
   "title": "Thabudeos/Tabudium Oppidum",
   "id": "334632",
   "bbox": [
-    6.007213,
-    34.723295,
-    6.007213,
-    34.723295
+    5.8936638,
+    34.8010395,
+    5.8964292,
+    34.8032747
   ],
-  "description": "An ancient place, cited: BAtlas 34 D3 Thabudeos/Tabudium Oppidum",
+  "description": "A tell settlement, known today as Tehouda, located in modern Algeria and mentioned by Pliny the Elder. Archaeological remains at the site provide evidence for mud-brick fortification walls and might be consistent with a sixth century reoccupation and Byzantine garrison of a \"Dabousis\" recorded by Procopius.",
   "names": [
+    "Tehouda",
+    "Thouda",
+    "Tahouda",
+    "Tabouda",
+    "Tahuda",
     "Thabudeos",
     "Tabudium Oppidum",
     "Dabousis"
@@ -20,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.007213,
-          34.723295
+          5.89494699294,
+          34.8021371912
         ]
       },
       "properties": {
@@ -30,19 +35,124 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          6.007213,
-          34.723295
+          [
+            [
+              5.894637,
+              34.8010395
+            ],
+            [
+              5.8952543,
+              34.8016757
+            ],
+            [
+              5.8942619,
+              34.8024356
+            ],
+            [
+              5.8936638,
+              34.8017572
+            ],
+            [
+              5.894637,
+              34.8010395
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-15104",
+      "id": "osm-location-of-roman-byzantine-fort-at-tabouda",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 15104",
-        "link": "http://pleiades.stoa.org/places/334632/darmc-location-15104"
+        "title": "OSM Location of Roman/Byzantine Fort at Tabouda",
+        "link": "http://pleiades.stoa.org/places/334632/osm-location-of-roman-byzantine-fort-at-tabouda"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.895603,
+              34.8018255
+            ],
+            [
+              5.8959544,
+              34.8018409
+            ],
+            [
+              5.8962414,
+              34.8020193
+            ],
+            [
+              5.8963809,
+              34.8022528
+            ],
+            [
+              5.8964292,
+              34.8024554
+            ],
+            [
+              5.8963862,
+              34.8025237
+            ],
+            [
+              5.8961636,
+              34.8027527
+            ],
+            [
+              5.89589,
+              34.8029972
+            ],
+            [
+              5.8955548,
+              34.8031624
+            ],
+            [
+              5.8952034,
+              34.8032747
+            ],
+            [
+              5.8949539,
+              34.8032307
+            ],
+            [
+              5.8947233,
+              34.8031095
+            ],
+            [
+              5.8945087,
+              34.8029355
+            ],
+            [
+              5.894455,
+              34.8027461
+            ],
+            [
+              5.8945811,
+              34.8023915
+            ],
+            [
+              5.895367,
+              34.8018563
+            ],
+            [
+              5.895603,
+              34.8018255
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-village-tell-at-tabouda",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM Location of Village/Tell at Tabouda",
+        "link": "http://pleiades.stoa.org/places/334632/osm-location-of-village-tell-at-tabouda"
       }
     }
   ]
