@@ -3,13 +3,15 @@
   "title": "Herakleous? Limen",
   "id": "471942",
   "bbox": [
-    8.0,
-    38.0,
-    9.0,
-    39.0
+    8.81414,
+    38.885163,
+    8.81414,
+    38.885163
   ],
-  "description": "An ancient place, cited: BAtlas 48 A4 Herakleous? Limen",
+  "description": "The Herakleous Limen, mentioned by Ptolemy, was an ancient bay or anchorage on the island of Sardinia, probably to be identified with the modern Porto Malfatano, which is located on the southern coast of the island between the Capo Malfatano and the Capo Spartivento.",
   "names": [
+    "Porto Malfatano",
+    "Stagno di Malfatano",
     "Herakleous Limen"
   ],
   "features": [
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          38.5
+          8.81414,
+          38.885163
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              8.0,
-              38.0
-            ],
-            [
-              9.0,
-              38.0
-            ],
-            [
-              9.0,
-              39.0
-            ],
-            [
-              8.0,
-              39.0
-            ],
-            [
-              8.0,
-              38.0
-            ]
-          ]
+          8.81414,
+          38.885163
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-center-point-of-porto-malfatano",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471942/batlas-location"
+        "description": "Identification and location after BAtlas, Michelatti",
+        "location_precision": "precise",
+        "title": "Imagery Location of center point of Porto Malfatano",
+        "link": "http://pleiades.stoa.org/places/471942/imagery-location-of-center-point-of-porto-malfatano"
       }
     }
   ]

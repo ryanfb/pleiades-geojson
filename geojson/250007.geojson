@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "250007",
   "bbox": [
-    3.0,
-    42.0,
-    4.0,
-    43.0
+    3.0753648,
+    42.1327669,
+    3.0753648,
+    42.1327669
   ],
   "description": "An ancient place, cited: BAtlas 25 I3 no. 101 (Olivet d’en Pujol (Vilademat))",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          42.5
+          3.0753648,
+          42.1327669
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              3.0,
-              42.0
-            ],
-            [
-              4.0,
-              42.0
-            ],
-            [
-              4.0,
-              43.0
-            ],
-            [
-              3.0,
-              43.0
-            ],
-            [
-              3.0,
-              42.0
-            ]
-          ]
+          3.0753648,
+          42.1327669
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/250007/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern village of Viladamat",
+        "link": "http://pleiades.stoa.org/places/250007/osm-location"
       }
     }
   ]
