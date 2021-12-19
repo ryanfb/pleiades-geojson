@@ -1,16 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Leon Pr.",
+  "title": "Leon",
   "id": "570421",
   "bbox": [
-    24.0,
-    38.0,
-    24.5,
-    38.5
+    24.2033044,
+    38.085209,
+    24.2033044,
+    38.085209
   ],
-  "description": "An ancient place, cited: BAtlas 58 G1 Leon Pr.",
+  "description": "Modern Cape Vigla on Euboea.",
   "names": [
-    "Leon Pr."
+    "Cape Vigla",
+    "Ákra Vígles",
+    "Leon akron"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          38.25
+          24.2033044,
+          38.085209
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              24.0,
-              38.0
-            ],
-            [
-              24.5,
-              38.0
-            ],
-            [
-              24.5,
-              38.5
-            ],
-            [
-              24.0,
-              38.5
-            ],
-            [
-              24.0,
-              38.0
-            ]
-          ]
+          24.2033044,
+          38.085209
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570421/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Vigla",
+        "link": "http://pleiades.stoa.org/places/570421/osm-location"
       }
     }
   ]

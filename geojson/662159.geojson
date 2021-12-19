@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Erana",
   "id": "662159",
-  "description": "An ancient place, cited: BAtlas 67 unlocated Erana",
+  "bbox": [
+    36.333333,
+    36.75,
+    36.333333,
+    36.75
+  ],
+  "description": "An ancient city in Cilicia, defeated by Roman troops under Cicero's command as governor of the Roman province of Cilicia. The city's precise location is not known, but it seems to have been located on the north side of the Amanus mountain range (the modern Nur Dağları in Turkey).",
   "connectsWith": [
     "658376"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.333333,
+          36.75
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
