@@ -1,15 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Leucolla Pr.",
+  "title": "Leucolla",
   "id": "638959",
   "bbox": [
-    31.5,
-    36.5,
-    32.0,
-    37.0
+    31.77389,
+    36.6044852,
+    31.7765118,
+    36.60682
   ],
-  "description": "An ancient place, cited: BAtlas 65 G4 Leucolla Pr.",
+  "description": "A small headland on Turkey's southern coast: modern Fığla/Fidan Burnu. Recent photgrammetrical, archaeological survey, and archival work indicates that this coastal feature was probably exploited as a port facility -- including construction of a Hellenistic era breakwater in the Aynalıgöl Koyu on the southeast side of the peninsula -- for the nearby city of Ptolemais.",
+  "connectsWith": [
+    "639073"
+  ],
   "names": [
+    "Fığla Burnu",
+    "Fidan Burnu",
     "Leucolla Pr.",
     "Leukotheion Pr."
   ],
@@ -19,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.75,
-          36.75
+          31.7752009,
+          36.6056526
         ]
       },
       "properties": {
@@ -29,39 +34,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.5,
-              36.5
-            ],
-            [
-              32.0,
-              36.5
-            ],
-            [
-              32.0,
-              37.0
-            ],
-            [
-              31.5,
-              37.0
-            ],
-            [
-              31.5,
-              36.5
-            ]
-          ]
+          31.7765118,
+          36.6044852
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern lighthouse",
+        "link": "http://pleiades.stoa.org/places/638959/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.77389,
+          36.60682
+        ]
+      },
+      "id": "geonames-location-of-fidan-burnu",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/638959/batlas-location"
+        "location_precision": "precise",
+        "title": "Geonames Location of Fidan Burnu",
+        "link": "http://pleiades.stoa.org/places/638959/geonames-location-of-fidan-burnu"
       }
     }
   ]
