@@ -1,16 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Sigrion Pr.",
+  "title": "Sigrion (promontory)",
   "id": "550879",
   "bbox": [
-    25.5,
-    39.0,
-    26.0,
-    39.5
+    25.8329659,
+    39.1891486,
+    25.8329659,
+    39.1891486
   ],
-  "description": "An ancient place, cited: BAtlas 56 B3 Sigrion Pr.",
+  "description": "Modern Cape Sigri on the west coast of the Aegean island of Lesbos.",
   "names": [
-    "Sigrion Pr."
+    "Cape Sigri",
+    "Ákra Sigri",
+    "Sigrion Pr.",
+    "Sigrion"
   ],
   "features": [
     {
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.75,
-          39.25
+          25.8329659,
+          39.1891486
         ]
       },
       "properties": {
@@ -28,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              25.5,
-              39.0
-            ],
-            [
-              26.0,
-              39.0
-            ],
-            [
-              26.0,
-              39.5
-            ],
-            [
-              25.5,
-              39.5
-            ],
-            [
-              25.5,
-              39.0
-            ]
-          ]
+          25.8329659,
+          39.1891486
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location-lighthouse",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550879/undetermined"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of lighthouse on Cape Sigri",
+        "link": "http://pleiades.stoa.org/places/550879/osm-location-lighthouse"
       }
     }
   ]
