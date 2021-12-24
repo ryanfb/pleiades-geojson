@@ -3,13 +3,14 @@
   "title": "Salbake (mountain)",
   "id": "639088",
   "bbox": [
-    29.0,
-    37.0,
-    29.5,
-    37.5
+    29.1808127,
+    37.2883889,
+    29.200656,
+    37.301228
   ],
-  "description": "Bozdağ.",
+  "description": "Modern Bozdağ in the Tavas district of Turkey's Denizli province.",
   "names": [
+    "Bozdağ",
     "Salbake"
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.25,
-          37.25
+          29.19073435,
+          37.29480845
         ]
       },
       "properties": {
@@ -28,39 +29,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              29.0,
-              37.0
-            ],
-            [
-              29.5,
-              37.0
-            ],
-            [
-              29.5,
-              37.5
-            ],
-            [
-              29.0,
-              37.5
-            ],
-            [
-              29.0,
-              37.0
-            ]
-          ]
+          29.1808127,
+          37.2883889
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-asma-tepesi",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639088/batlas-location"
+        "description": "A peak in the Bozdağ massif. Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Asma Tepesi",
+        "link": "http://pleiades.stoa.org/places/639088/osm-location-of-asma-tepesi"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.200656,
+          37.301228
+        ]
+      },
+      "id": "osm-location-of-bozdaa-peak",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Bozdağ peak",
+        "link": "http://pleiades.stoa.org/places/639088/osm-location-of-bozdaa-peak"
       }
     }
   ]
