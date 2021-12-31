@@ -2,17 +2,47 @@
   "type": "FeatureCollection",
   "title": "Kaiadas Spelaion",
   "id": "570321",
-  "description": "The Kaiadas Spelaion located near Trypi in the Peloponnese is linked to the execution of ancient Spartans.",
+  "bbox": [
+    22.340541,
+    37.095513,
+    22.340541,
+    37.095513
+  ],
+  "description": "The Kaiadas cave is located near modern Trypi in the Peloponnese. Ancient testimony identifies it as a place of execution used by the ancient Spartans. Exploration in the modern era identified a significant number of skeletal remains, but these have not been effectively dated.",
   "names": [
-    "Kaiadas Spelaion",
-    "Keadas"
+    "Kaiadas",
+    "Keadas",
+    "Kaietas"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.340541,
+          37.095513
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.340541,
+          37.095513
+        ]
+      },
+      "id": "imagery-location-of-cave-of-caiada",
+      "type": "Feature",
+      "properties": {
+        "description": "Coordinates determined in Google Earth with reference to GeoHack and GPS coordinates visible in Tavis Travels 2021 video.",
+        "location_precision": "precise",
+        "title": "Imagery location of Cave of Caiada",
+        "link": "http://pleiades.stoa.org/places/570321/imagery-location-of-cave-of-caiada"
       }
     }
   ]

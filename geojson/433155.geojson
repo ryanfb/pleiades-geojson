@@ -1,20 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Tifernus M.",
+  "title": "Tifernus (mountain)",
   "id": "433155",
   "bbox": [
-    14.0,
-    41.0,
-    14.5,
-    41.5
+    14.3719823,
+    41.4494964,
+    14.4304727,
+    41.4596073
   ],
-  "description": "Tifernus M. (Monti Matese), a mountain chain that straddles Campania and Molise in the central-southern Apennines.",
+  "description": "Tifernus mons was the Roman name for the central portion of the modern Monti Matese, a mountain chain that straddles Campania and Molise in the central-southern Apennines.",
   "connectsWith": [
     "815"
   ],
   "names": [
-    "Tifernus M.",
-    "Prifernus M."
+    "Tifernus mons"
   ],
   "features": [
     {
@@ -22,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.25,
-          41.25
+          14.4012275,
+          41.45455185
         ]
       },
       "properties": {
@@ -32,39 +31,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              14.0,
-              41.0
-            ],
-            [
-              14.5,
-              41.0
-            ],
-            [
-              14.5,
-              41.5
-            ],
-            [
-              14.0,
-              41.5
-            ],
-            [
-              14.0,
-              41.0
-            ]
-          ]
+          14.3719823,
+          41.4494964
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-monte-miletto",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433155/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Monte Miletto",
+        "link": "http://pleiades.stoa.org/places/433155/osm-location-of-monte-miletto"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4304727,
+          41.4596073
+        ]
+      },
+      "id": "osm-location-of-monte-acerone",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Monte Acerone",
+        "link": "http://pleiades.stoa.org/places/433155/osm-location-of-monte-acerone"
       }
     }
   ]
