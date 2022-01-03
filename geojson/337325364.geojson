@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Regio VIII (Forum Romanum)",
   "id": "337325364",
+  "bbox": [
+    12.4840267,
+    41.8914913,
+    12.4852084,
+    41.8919597
+  ],
   "description": "The eighth administrative region of ancient Rome was created by the Augustan reforms of 7 BCE. Regio VIII contained 34 shrines (aediculae), 130 townhouses (domūs), 18 warehouses (horrea), 85 baths (balneae), and 120 fountains.",
   "connectsWith": [
     "423025"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48461755,
+          41.8917255
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

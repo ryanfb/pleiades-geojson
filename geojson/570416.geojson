@@ -3,10 +3,10 @@
   "title": "Larysion (mountain)",
   "id": "570416",
   "bbox": [
-    22.5,
-    36.5,
-    23.0,
-    37.0
+    22.564,
+    36.754,
+    22.564,
+    36.754
   ],
   "description": "Mt. Koumarou.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          36.75
+          22.564,
+          36.754
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              36.5
-            ],
-            [
-              23.0,
-              36.5
-            ],
-            [
-              23.0,
-              37.0
-            ],
-            [
-              22.5,
-              37.0
-            ],
-            [
-              22.5,
-              36.5
-            ]
-          ]
+          22.564,
+          36.754
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570416/batlas-location"
+        "description": "Coordinates following GeoHack",
+        "location_precision": "precise",
+        "title": "Imagery location",
+        "link": "http://pleiades.stoa.org/places/570416/imagery-location"
       }
     }
   ]
