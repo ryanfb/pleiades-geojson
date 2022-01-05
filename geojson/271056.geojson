@@ -2,27 +2,62 @@
   "type": "FeatureCollection",
   "title": "Ilerda",
   "id": "271056",
-  "description": "An ancient place, cited: BAtlas 27 unlocated Ilerda",
+  "bbox": [
+    0.1633256,
+    38.7893909,
+    0.6267842,
+    41.6147605
+  ],
+  "description": "An ancient settlement reported only by the 4th century CE Roman poet Avienus, who places it on the east coast of the Iberian peninsula. If it is not a fiction, it might be identified as either modern Javea or modern Lérida, north of the river Ebro.",
   "names": [
     "Ilerda"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3950549,
+          40.2020757
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1633256,
+          38.7893909
+        ]
+      },
+      "id": "osm-location-of-modern-xabia-javea",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/271056/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Xàbia / Jávea",
+        "link": "http://pleiades.stoa.org/places/271056/osm-location-of-modern-xabia-javea"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6267842,
+          41.6147605
+        ]
+      },
+      "id": "osm-location-of-modern-la-c-rida",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Lérida",
+        "link": "http://pleiades.stoa.org/places/271056/osm-location-of-modern-la-c-rida"
       }
     }
   ]
