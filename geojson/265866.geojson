@@ -1,17 +1,48 @@
 {
   "type": "FeatureCollection",
-  "title": "Charidemos Pr.",
+  "title": "Charidemos (promontory)",
   "id": "265866",
-  "description": "An ancient place, cited: BAtlas 27 C5 Charidemos Pr.",
+  "bbox": [
+    -2.1932327,
+    36.7210296,
+    -2.1932327,
+    36.7210296
+  ],
+  "description": "Ptolemy place the \"headland of Charidemos\" on the southern coast of the Iberian peninsula between Abdera and Barea. Scholars have identified it as the modern Cabo de Gata.",
   "names": [
+    "Cabo de Gata",
+    "Charidemou akroterion",
     "Charidemos Pr."
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1932327,
+          36.7210296
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1932327,
+          36.7210296
+        ]
+      },
+      "id": "osm-location-of-cabo-de-gata",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Cabo de Gata",
+        "link": "http://pleiades.stoa.org/places/265866/osm-location-of-cabo-de-gata"
       }
     }
   ]
