@@ -3,10 +3,10 @@
   "title": "Temple of Artemis Orthia",
   "id": "139216315",
   "bbox": [
-    22.435455,
-    37.083301,
-    22.435455,
-    37.083301
+    22.4350097,
+    37.0828199,
+    22.4352192,
+    37.0829157
   ],
   "description": "An Archaic temple dedicated to Artemis Orthia within the sanctuary of this goddess at Sparta. The site contained rich deposits of votives and masks.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.435455,
-          37.083301
+          22.43511445,
+          37.0828678
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          22.435455,
-          37.083301
+          [
+            [
+              22.4352046,
+              37.0828199
+            ],
+            [
+              22.4352192,
+              37.08289
+            ],
+            [
+              22.4350243,
+              37.0829157
+            ],
+            [
+              22.4350097,
+              37.0828456
+            ],
+            [
+              22.4352046,
+              37.0828199
+            ]
+          ]
         ]
       },
-      "id": "temple-of-artemis-orthia-4",
+      "id": "osm-location-of-temple-of-artemis-orthia",
       "type": "Feature",
       "properties": {
-        "description": "Archaic temple dedicated to Artemis Orthia within the sanctuary of this goddess at Sparta. The site contained rich deposits of votives and masks.",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Temple of Artemis Orthia",
-        "link": "http://pleiades.stoa.org/places/139216315/temple-of-artemis-orthia-4"
+        "title": "OSM location of Temple of Artemis Orthia",
+        "link": "http://pleiades.stoa.org/places/139216315/osm-location-of-temple-of-artemis-orthia"
       }
     }
   ]

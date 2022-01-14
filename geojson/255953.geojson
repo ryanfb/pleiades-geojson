@@ -3,12 +3,16 @@
   "title": "Ad Herculem",
   "id": "255953",
   "bbox": [
-    -6.163431,
-    36.351621,
-    -6.163431,
-    36.351621
+    -6.20665,
+    36.377466,
+    -6.203257,
+    36.394849
   ],
-  "description": "An ancient place, cited: BAtlas 26 D5 Ad Herculem",
+  "description": "An ancient station on the Roman road to Gades recorded in the Antonine Itinerary, ad Herculem must have been associated with the Herakleion on the southern end of the island of Cotinussa. Scholars differ on the precise location; their efforts are complicated by significant landscape change since antiquity.",
+  "connectsWith": [
+    "256197",
+    "256177"
+  ],
   "names": [
     "Ad Herculem"
   ],
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.163431,
-          36.351621
+          -6.2049535,
+          36.3861575
         ]
       },
       "properties": {
@@ -30,17 +34,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.163431,
-          36.351621
+          -6.20665,
+          36.394849
         ]
       },
-      "id": "darmc-location-7448",
+      "id": "imagery-location-of-capilla-neustra-sra-del-carmen",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Modern feature roughly coincident with BAtlas location for Ad Herculem. OSM Way 225552599 labels this feature Capilla de Sancti-Petri, but Google Street View imagery dating to May 2016 clearly shows a label on the chapel that reads \"Capilla Neustra Sra. del Carmen.\"",
         "location_precision": "precise",
-        "title": "DARMC location 7448",
-        "link": "http://pleiades.stoa.org/places/255953/darmc-location-7448"
+        "title": "Imagery location of Capilla Neustra Sra. del Carmen",
+        "link": "http://pleiades.stoa.org/places/255953/imagery-location-of-capilla-neustra-sra-del-carmen"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.203257,
+          36.377466
+        ]
+      },
+      "id": "imagery-location-of-tir-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location chosen in Google Earth with reference to TIR map at 1:250,000.",
+        "location_precision": "precise",
+        "title": "Imagery location of TIR location",
+        "link": "http://pleiades.stoa.org/places/255953/imagery-location-of-tir-location"
       }
     }
   ]
