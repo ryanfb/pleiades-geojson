@@ -1,16 +1,21 @@
 {
   "type": "FeatureCollection",
-  "title": "Steiris",
+  "title": "Stiris/Steiris",
   "id": "541113",
   "bbox": [
-    22.711423,
+    22.755354,
     38.383187,
     22.766919,
-    38.407815
+    38.38432
   ],
-  "description": "An ancient place, cited: BAtlas 55 D4 Steiris",
+  "description": "An ancient settlement of eastern Phocis. The site of ancient Steiri has only ever been partly explored and defined. The city was located in an area known locally today as Paliokhori. The acropolis has been identified on a hill locally known today as Bouli, where a church or monastery of Agios Nikolaos (now ruined?) reportedly succeeded it. The site was not coincident with the modern town that has inherited the ancient name. Rather, ancient Stiris was located to the south and east of the famous monastery of Hosios Loukas, which lies between modern Steiri and modern Kyriaki (archaeological evidence for fortifications and other structures have, however, been noted both at modern Steiri and at Hosios Loukas as elsewhere in the area).",
+  "connectsWith": [
+    "541048"
+  ],
   "names": [
-    "Steiris"
+    "Steiris",
+    "Stiris",
+    "Stiris"
   ],
   "features": [
     {
@@ -18,12 +23,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.739171,
-          38.395501
+          22.7611365,
+          38.3837535
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.755354,
+          38.38432
+        ]
+      },
+      "id": "imagery-location-of-acropolis-centerpoint",
+      "type": "Feature",
+      "properties": {
+        "description": "Coordinates identified in Google Earth with reference to description in Tsota and sketch plan in Argyriou (reproduced in Tsota). Dates after BAtlas and Tsota.",
+        "location_precision": "precise",
+        "title": "Imagery location of acropolis centerpoint",
+        "link": "http://pleiades.stoa.org/places/541113/imagery-location-of-acropolis-centerpoint"
       }
     },
     {
@@ -37,27 +59,10 @@
       "id": "darmc-location-14894",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 14894",
         "link": "http://pleiades.stoa.org/places/541113/darmc-location-14894"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.711423,
-          38.407815
-        ]
-      },
-      "id": "darmc-location-10353",
-      "type": "Feature",
-      "properties": {
-        "description": "TIB point location",
-        "location_precision": "precise",
-        "title": "DARMC location 10353",
-        "link": "http://pleiades.stoa.org/places/541113/darmc-location-10353"
       }
     }
   ]

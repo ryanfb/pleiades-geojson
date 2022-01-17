@@ -3,14 +3,18 @@
   "title": "Tithronion",
   "id": "541153",
   "bbox": [
-    22.601059,
-    38.678999,
-    22.601059,
-    38.678999
+    22.5798462,
+    38.6731505,
+    22.5823783,
+    38.6774525
   ],
-  "description": "An ancient place, cited: BAtlas 55 D3 Tithronion",
+  "description": "An ancient city of Phocis in Greek, which according to Pausanias was burned by Xerxes. Modern consensus places its acropolis at an unexcavated paliokastro north of modern Ano Kalivia, just inside the southern boundary of the Kapenitsa-Vertzianou-Amfikleia protected area.",
+  "connectsWith": [
+    "541048"
+  ],
   "names": [
-    "Tithronion"
+    "Tithronion",
+    "Tethronion"
   ],
   "features": [
     {
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.601059,
-          38.678999
+          22.5810733533,
+          38.6753330343
         ]
       },
       "properties": {
@@ -28,19 +32,67 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          22.601059,
-          38.678999
+          [
+            [
+              22.5811337,
+              38.6731505
+            ],
+            [
+              22.5817517,
+              38.6733449
+            ],
+            [
+              22.5820006,
+              38.6742361
+            ],
+            [
+              22.5822667,
+              38.675583
+            ],
+            [
+              22.5823783,
+              38.6764608
+            ],
+            [
+              22.5811251,
+              38.6774525
+            ],
+            [
+              22.5804986,
+              38.6773788
+            ],
+            [
+              22.5798462,
+              38.6768628
+            ],
+            [
+              22.5798634,
+              38.6761994
+            ],
+            [
+              22.5801552,
+              38.6735459
+            ],
+            [
+              22.5804642,
+              38.6732913
+            ],
+            [
+              22.5811337,
+              38.6731505
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-15198",
+      "id": "osm-location-of-iiii-i-i-iioiiii-i-i-i-i1i-iii1-2i",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 15198",
-        "link": "http://pleiades.stoa.org/places/541153/darmc-location-15198"
+        "title": "OSM location of Αρχαία Ακρόπολη Τιθρωνίου",
+        "link": "http://pleiades.stoa.org/places/541153/osm-location-of-iiii-i-i-iioiiii-i-i-i-i1i-iii1-2i"
       }
     }
   ]

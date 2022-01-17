@@ -3,13 +3,20 @@
   "title": "Eupalion",
   "id": "540782",
   "bbox": [
-    21.936403,
-    38.415046,
-    21.936403,
-    38.415046
+    21.9184273,
+    38.4153838,
+    21.919232,
+    38.4158276
   ],
-  "description": "An ancient place, cited: BAtlas 55 B4 Eupalion",
+  "description": "An ancient Greek settlement in the region of Locris. Modern consensus identifies an ancient \"kastro\" above modern Efpalio (called Soule prior to 1907) as Eupalion's acropolis.",
+  "connectsWith": [
+    "540919"
+  ],
   "names": [
+    "Eupalia",
+    "Eupalium",
+    "Kastro Soule",
+    "Efpalio",
     "Eupalion"
   ],
   "features": [
@@ -18,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.936403,
-          38.415046
+          21.918813128,
+          38.415582726
         ]
       },
       "properties": {
@@ -28,19 +35,55 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          21.936403,
-          38.415046
+          [
+            [
+              21.9188082,
+              38.4153838
+            ],
+            [
+              21.919232,
+              38.4154972
+            ],
+            [
+              21.9192019,
+              38.4156132
+            ],
+            [
+              21.9189659,
+              38.4157351
+            ],
+            [
+              21.9187513,
+              38.4158276
+            ],
+            [
+              21.9186204,
+              38.4158167
+            ],
+            [
+              21.9184273,
+              38.4156149
+            ],
+            [
+              21.9185131,
+              38.4154006
+            ],
+            [
+              21.9188082,
+              38.4153838
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-12406",
+      "id": "osm-location-of-iiii-i-i-iioiiii-i-i-iiii-i-i-i-i",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 12406",
-        "link": "http://pleiades.stoa.org/places/540782/darmc-location-12406"
+        "title": "OSM location of Αρχαία Ακρόπολη Ευπαλίου",
+        "link": "http://pleiades.stoa.org/places/540782/osm-location-of-iiii-i-i-iioiiii-i-i-iiii-i-i-i-i"
       }
     }
   ]
