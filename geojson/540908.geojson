@@ -1,14 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Ledon?",
+  "title": "Ledon",
   "id": "540908",
   "bbox": [
-    22.680539,
+    22.6716144,
     38.654801,
     22.680539,
-    38.654801
+    38.661986
   ],
-  "description": "An ancient place, cited: BAtlas 55 D3 Ledon?",
+  "description": "An ancient Greek settlement in Phocis, mentioned by Pausanias and abandoned by his time. Possibly to be located at modern Modi.",
+  "connectsWith": [
+    "541048"
+  ],
   "names": [
     "Ledon"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.680539,
-          38.654801
+          22.6760767,
+          38.6583935
         ]
       },
       "properties": {
@@ -41,6 +44,23 @@
         "location_precision": "precise",
         "title": "DARMC location 13445",
         "link": "http://pleiades.stoa.org/places/540908/darmc-location-13445"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6716144,
+          38.661986
+        ]
+      },
+      "id": "osm-location-of-modern-modi",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Modi",
+        "link": "http://pleiades.stoa.org/places/540908/osm-location-of-modern-modi"
       }
     }
   ]

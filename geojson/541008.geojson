@@ -3,18 +3,24 @@
   "title": "Panopeos/Phanotis",
   "id": "541008",
   "bbox": [
-    22.822117,
-    38.498702,
-    22.822117,
-    38.498702
+    22.7919594,
+    38.4944439,
+    22.7967714,
+    38.496042
   ],
-  "description": "A city of Phocis on the Boeotian frontier.",
+  "description": "A city of Phocis on the Boeotian frontier. Substantive remains of the ancient walled city are visible on the height immediately south of modern Hagios Vlasios (Municipality of Livadia, Boeotia, Greece).",
   "connectsWith": [
-    "541048"
+    "541048",
+    "541113"
   ],
   "names": [
     "Panopeos",
-    "Phanotis"
+    "Phanotis",
+    "Panopeus",
+    "Phanoteus",
+    "Agios Vlasios",
+    "Phanoteia",
+    "Phanoteoi"
   ],
   "features": [
     {
@@ -22,8 +28,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.822117,
-          38.498702
+          22.7943206002,
+          38.4952911503
         ]
       },
       "properties": {
@@ -32,19 +38,51 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          22.822117,
-          38.498702
+          [
+            [
+              22.7935634,
+              38.4944439
+            ],
+            [
+              22.7967714,
+              38.4952574
+            ],
+            [
+              22.7964706,
+              38.4956373
+            ],
+            [
+              22.7955314,
+              38.495976
+            ],
+            [
+              22.7939433,
+              38.496042
+            ],
+            [
+              22.7923287,
+              38.4954887
+            ],
+            [
+              22.7919594,
+              38.4948279
+            ],
+            [
+              22.7935634,
+              38.4944439
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-14123",
+      "id": "osm-location-of-panopeia-archaeological-site",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
         "location_precision": "precise",
-        "title": "DARMC location 14123",
-        "link": "http://pleiades.stoa.org/places/541008/darmc-location-14123"
+        "title": "OSM Location of Panopeia Archaeological Site",
+        "link": "http://pleiades.stoa.org/places/541008/osm-location-of-panopeia-archaeological-site"
       }
     }
   ]
