@@ -1,17 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Ponte sul Fosso Tre Ponti",
   "id": "414506",
   "bbox": [
-    12.0,
-    42.0,
-    12.5,
-    42.5
+    12.3556733,
+    42.2778805,
+    12.3556733,
+    42.2778805
   ],
-  "description": "An ancient place, cited: BAtlas 42 C4 unnamed bridge group (on Via Amerina, near Nepet)",
+  "description": "A Roman bridge on the Via Amerina between ancient Nepet and Falerii.",
   "connectsWith": [
     "690508612",
-    "413224"
+    "413224",
+    "413125"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.25,
-          42.25
+          12.3556733,
+          42.2778805
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              12.0,
-              42.0
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.5,
-              42.5
-            ],
-            [
-              12.0,
-              42.5
-            ],
-            [
-              12.0,
-              42.0
-            ]
-          ]
+          12.3556733,
+          42.2778805
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/414506/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte Tre Ponti",
+        "link": "http://pleiades.stoa.org/places/414506/location-of-roman-bridge"
       }
     }
   ]
