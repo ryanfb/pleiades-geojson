@@ -2,9 +2,17 @@
   "type": "FeatureCollection",
   "title": "Ameriola",
   "id": "438671",
-  "description": "An ancient town of Latium that was a member of the Latin League.",
+  "bbox": [
+    12.6422717,
+    41.963602,
+    12.79818,
+    42.0350216
+  ],
+  "description": "An ancient town of Latium that was a member of the Latin League. It was located to the northeast of Rome, but its precise location cannot be determined today.",
   "connectsWith": [
-    "422958"
+    "422958",
+    "422986",
+    "423081"
   ],
   "names": [
     "Ameriola"
@@ -12,20 +20,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7202643,
+          41.998649975
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/438671/batlas-location"
       }
     }
   ]

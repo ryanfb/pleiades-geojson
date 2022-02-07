@@ -3,10 +3,10 @@
   "title": "Interamna Lirenas",
   "id": "432884",
   "bbox": [
-    13.787207,
-    41.44039,
-    13.787207,
-    41.44039
+    13.753783,
+    41.4273675,
+    13.7543516,
+    41.4277737
   ],
   "description": "A Latin colony founded ca. 312 B.C. along the Via Latina. The site was sacked by Samnites (ca. 294 B.C.) and subsequently by Hannibal (212 B.C.). It received Roman municipal status in 90 B.C.",
   "connectsWith": [
@@ -14,7 +14,8 @@
   ],
   "names": [
     "Interamna Lirenas",
-    "Interamnion"
+    "Interamnion",
+    "Interamnates Sucasini"
   ],
   "features": [
     {
@@ -22,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.787207,
-          41.44039
+          13.7540670356,
+          41.427569285
         ]
       },
       "properties": {
@@ -32,19 +33,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          13.787207,
-          41.44039
+          [
+            [
+              13.7541209,
+              41.4273675
+            ],
+            [
+              13.7543516,
+              41.4275525
+            ],
+            [
+              13.7540136,
+              41.4277737
+            ],
+            [
+              13.753783,
+              41.4275807
+            ],
+            [
+              13.7541209,
+              41.4273675
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-18054",
+      "id": "osm-location-of-interamna-linares",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18054",
-        "link": "http://pleiades.stoa.org/places/432884/darmc-location-18054"
+        "title": "OSM location of Interamna Linares",
+        "link": "http://pleiades.stoa.org/places/432884/osm-location-of-interamna-linares"
       }
     }
   ]
