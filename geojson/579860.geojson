@@ -1,15 +1,16 @@
 {
   "type": "FeatureCollection",
-  "title": "Amphiale Pr.",
+  "title": "Amphiale (promontory)",
   "id": "579860",
   "bbox": [
-    23.5,
-    37.75,
-    23.75,
-    38.0
+    23.55218,
+    37.979825,
+    23.55218,
+    37.979825
   ],
-  "description": "An ancient place, cited: BAtlas 59 B3 Amphiale Pr.",
+  "description": "A promontory of Attica that is the terminus of the Aigaleos mountain range.",
   "names": [
+    "akra Amphiale",
     "Amphiale Pr."
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.625,
-          37.875
+          23.55218,
+          37.979825
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              23.5,
-              37.75
-            ],
-            [
-              23.75,
-              37.75
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
-              23.5,
-              38.0
-            ],
-            [
-              23.5,
-              37.75
-            ]
-          ]
+          23.55218,
+          37.979825
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-amphiale-promontory",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/579860/batlas-location"
+        "description": "Determined in Google Earth following BAtlas.",
+        "location_precision": "precise",
+        "title": "Imagery location of Amphiale promontory",
+        "link": "http://pleiades.stoa.org/places/579860/imagery-location-of-amphiale-promontory"
       }
     }
   ]
