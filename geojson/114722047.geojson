@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Temple of Cybele",
   "id": "114722047",
+  "bbox": [
+    31.5823527,
+    39.3310786,
+    31.5840909,
+    39.3342379
+  ],
   "description": "This temple at Pessinus was built by the Attalids to honor Cybele. ",
   "connectsWith": [
     "609500"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5832926078,
+          39.3322811933
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -1,63 +1,36 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Phalerikon Teichos",
   "id": "585129",
   "bbox": [
-    23.5,
-    37.75,
-    23.75,
-    38.0
+    23.6959733,
+    37.937309,
+    23.711133,
+    37.958593
   ],
-  "description": "An ancient place, cited: BAtlas 59 B3 unnamed wall (Phalerikon Teichos, Leophoros Syngrou)",
+  "description": "Mentioned by Thucydides, the \"Phaleric Wall\" (a third major component of Athens' \"Long Walls\") extended toward Phaleron, but became obsolete already late in the Peloponnesian War. It may have been destroyed or allowed to deteriorate and was subsequently spoliated and reused for building matieral: no trace of this fortification has been identified in modern times.",
+  "connectsWith": [
+    "580071",
+    "579959",
+    "580072",
+    "582864"
+  ],
+  "names": [
+    "Phalerikon Teichos",
+    "Phaleric Wall"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.625,
-          37.875
+          23.7044514333,
+          37.9513867
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              23.5,
-              37.75
-            ],
-            [
-              23.75,
-              37.75
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
-              23.5,
-              38.0
-            ],
-            [
-              23.5,
-              37.75
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/585129/batlas-location"
       }
     }
   ]
