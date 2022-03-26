@@ -1,28 +1,105 @@
 {
   "type": "FeatureCollection",
-  "title": "Kimolos",
+  "title": "Kimolos (settlement)",
   "id": "589867",
-  "description": "An ancient place, cited: BAtlas 60 C5 Kimolos",
+  "bbox": [
+    24.5252527,
+    36.7878679,
+    24.5276213,
+    36.7892589
+  ],
+  "description": "An ancient settlement on the Cycladic island of Kimolos, located at modern Ag. Andreas (now a small island in the western bay of Kimolos).",
+  "connectsWith": [
+    "589868"
+  ],
   "names": [
     "Kimolos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5264112813,
+          36.7885456193
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.5274651,
+              36.7878679
+            ],
+            [
+              24.5263954,
+              36.7879753
+            ],
+            [
+              24.5263344,
+              36.7879821
+            ],
+            [
+              24.5252527,
+              36.788631
+            ],
+            [
+              24.5253032,
+              36.7887361
+            ],
+            [
+              24.5254795,
+              36.7889549
+            ],
+            [
+              24.5258129,
+              36.7892553
+            ],
+            [
+              24.5258369,
+              36.7892589
+            ],
+            [
+              24.5262714,
+              36.7892214
+            ],
+            [
+              24.5268123,
+              36.7888624
+            ],
+            [
+              24.5273156,
+              36.7884723
+            ],
+            [
+              24.5275427,
+              36.7881625
+            ],
+            [
+              24.5276213,
+              36.7879997
+            ],
+            [
+              24.5274651,
+              36.7878679
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-modern-ii3i1i-i-ii1-2iiii-i",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589867/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Άγιος Ανδρέας",
+        "link": "http://pleiades.stoa.org/places/589867/osm-location-of-modern-ii3i1i-i-ii1-2iiii-i"
       }
     }
   ]

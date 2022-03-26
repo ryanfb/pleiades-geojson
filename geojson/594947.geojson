@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Apollonia",
   "id": "594947",
-  "description": "An ancient place, cited: BAtlas 60 unlocated Apollonia",
+  "bbox": [
+    24.6348242,
+    36.9011463,
+    24.7651168,
+    37.0416501
+  ],
+  "description": "An ancient settlement on the island of Siphnos, attested by an inscription. Its precise location is not known today.",
   "connectsWith": [
     "590049"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6987850287,
+          36.9735791484
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

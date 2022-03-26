@@ -3,12 +3,12 @@
   "title": "Pholegandros (settlement)",
   "id": "589995",
   "bbox": [
-    24.9,
-    36.616667,
-    24.9,
-    36.616667
+    24.9154455,
+    36.6232355,
+    24.9241501,
+    36.6293373
   ],
-  "description": "An ancient place, cited: BAtlas 60 C5 Pholegandros",
+  "description": "An ancient settlement on the island of Pholegandros in the Creticum Mare. Located at the modern village of Chora (Palaiokastro).",
   "connectsWith": [
     "589996"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.9,
-          36.616667
+          24.9198600473,
+          36.6265598481
         ]
       },
       "properties": {
@@ -30,14 +30,80 @@
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.9180776,
+              36.6232355
+            ],
+            [
+              24.9154455,
+              36.6258386
+            ],
+            [
+              24.9154692,
+              36.6268432
+            ],
+            [
+              24.9187766,
+              36.6287727
+            ],
+            [
+              24.9191203,
+              36.6289535
+            ],
+            [
+              24.92212,
+              36.6293373
+            ],
+            [
+              24.9221565,
+              36.6293249
+            ],
+            [
+              24.924083,
+              36.6274023
+            ],
+            [
+              24.9241362,
+              36.6272358
+            ],
+            [
+              24.9241463,
+              36.6272005
+            ],
+            [
+              24.9241501,
+              36.6271561
+            ],
+            [
+              24.9241461,
+              36.6271066
+            ],
+            [
+              24.9241039,
+              36.6269647
+            ],
+            [
+              24.9194942,
+              36.6234064
+            ],
+            [
+              24.9180776,
+              36.6232355
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location-of-modern-chora",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589995/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Chora",
+        "link": "http://pleiades.stoa.org/places/589995/osm-location-of-modern-chora"
       }
     }
   ]
