@@ -3,20 +3,20 @@
   "title": "Horkstow",
   "id": "79519",
   "bbox": [
-    -0.508454,
-    53.651844,
-    -0.508454,
-    53.651844
+    -0.5100942,
+    53.6587104,
+    -0.5097773,
+    53.6590258
   ],
-  "description": "An ancient place, cited: BAtlas 8 G1 Horkstow",
+  "description": "A Roman 'villa rustica' discovered in 1797 in Horkstow, North Lincolnshire. A large floor mosaic was identified to the east of the nearby modern elite building known as Horkstow Hall.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.508454,
-          53.651844
+          -0.509951968236,
+          53.6588471603
         ]
       },
       "properties": {
@@ -25,19 +25,47 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -0.508454,
-          53.651844
+          [
+            [
+              -0.5097833,
+              53.6587104
+            ],
+            [
+              -0.5100046,
+              53.6587168
+            ],
+            [
+              -0.5100942,
+              53.6587812
+            ],
+            [
+              -0.5100738,
+              53.6590258
+            ],
+            [
+              -0.5098972,
+              53.6590206
+            ],
+            [
+              -0.5097773,
+              53.6587821
+            ],
+            [
+              -0.5097833,
+              53.6587104
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20921",
+      "id": "osm-location-of-horkstow-hall",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 20921",
-        "link": "http://pleiades.stoa.org/places/79519/darmc-location-20921"
+        "title": "OSM location of Horkstow Hall",
+        "link": "http://pleiades.stoa.org/places/79519/osm-location-of-horkstow-hall"
       }
     }
   ]
