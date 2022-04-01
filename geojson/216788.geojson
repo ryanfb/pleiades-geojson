@@ -3,10 +3,10 @@
   "title": "Deultum",
   "id": "216788",
   "bbox": [
-    27.28956,
-    42.390761,
-    27.28956,
-    42.390761
+    27.2800652,
+    42.3879045,
+    27.2817044,
+    42.3895348
   ],
   "description": "An ancient settlement, modern Debelt in Bulgaria.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.28956,
-          42.390761
+          27.2808172535,
+          42.3886719103
         ]
       },
       "properties": {
@@ -31,19 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          27.28956,
-          42.390761
+          [
+            [
+              27.281663,
+              42.3879045
+            ],
+            [
+              27.2800652,
+              42.3880488
+            ],
+            [
+              27.2801291,
+              42.3895275
+            ],
+            [
+              27.2807719,
+              42.3895348
+            ],
+            [
+              27.2811968,
+              42.3892989
+            ],
+            [
+              27.2817044,
+              42.3886302
+            ],
+            [
+              27.281663,
+              42.3879045
+            ]
+          ]
         ]
       },
-      "id": "dare-location",
+      "id": "osm-location-of-the-roman-city-of-deultum",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location, site precision",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/216788/dare-location"
+        "title": "OSM location of The Roman City of Deultum",
+        "link": "http://pleiades.stoa.org/places/216788/osm-location-of-the-roman-city-of-deultum"
       }
     }
   ]
