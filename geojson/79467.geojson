@@ -3,10 +3,10 @@
   "title": "Folkestone",
   "id": "79467",
   "bbox": [
-    1.174125,
-    51.078741,
-    1.174125,
-    51.078741
+    1.1983134,
+    51.0884619,
+    1.1989169,
+    51.0890819
   ],
   "description": "An elaborate Romano-British villa of the mid-second century A.D. Epigraphic evidence connects the site with the prefect of the Classis Britannica (praefectus classis Britannicae).",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.174125,
-          51.078741
+          1.1986349415,
+          51.088748617
         ]
       },
       "properties": {
@@ -25,19 +25,51 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          1.174125,
-          51.078741
+          [
+            [
+              1.198536,
+              51.0884619
+            ],
+            [
+              1.1983134,
+              51.0885579
+            ],
+            [
+              1.1985762,
+              51.0890819
+            ],
+            [
+              1.198721,
+              51.0890499
+            ],
+            [
+              1.1989169,
+              51.0889033
+            ],
+            [
+              1.1988847,
+              51.0886304
+            ],
+            [
+              1.198823,
+              51.0885141
+            ],
+            [
+              1.198536,
+              51.0884619
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-20868",
+      "id": "osm-location-of-folkestone-roman-villa",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location of the archaeological site based on an OpenStreetMap way that traces a polyline around the visible remains.",
         "location_precision": "precise",
-        "title": "DARMC location 20868",
-        "link": "http://pleiades.stoa.org/places/79467/darmc-location-20868"
+        "title": "OSM location of Folkestone Roman Villa",
+        "link": "http://pleiades.stoa.org/places/79467/osm-location-of-folkestone-roman-villa"
       }
     }
   ]

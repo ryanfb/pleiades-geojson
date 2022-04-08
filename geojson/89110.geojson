@@ -3,10 +3,10 @@
   "title": "Bar Hill",
   "id": "89110",
   "bbox": [
-    -4.083657,
-    55.956526,
-    -4.083657,
-    55.956526
+    -4.0731702,
+    55.9582428,
+    -4.0707519,
+    55.9595893
   ],
   "description": "The site of a Roman fort on the Antonine Wall.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.083657,
-          55.956526
+          -4.07196104057,
+          55.9589160552
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -4.083657,
-          55.956526
+          [
+            [
+              -4.0724035,
+              55.9582428
+            ],
+            [
+              -4.0731702,
+              55.9591536
+            ],
+            [
+              -4.0715185,
+              55.9595893
+            ],
+            [
+              -4.0707519,
+              55.9586785
+            ],
+            [
+              -4.0724035,
+              55.9582428
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-19054",
+      "id": "osm-location-of-bar-hill-roman-fort",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location based on an OpenStreetMap way outlining the site of the Roman fort.",
         "location_precision": "precise",
-        "title": "DARMC location 19054",
-        "link": "http://pleiades.stoa.org/places/89110/darmc-location-19054"
+        "title": "OSM location of  Bar Hill Roman Fort",
+        "link": "http://pleiades.stoa.org/places/89110/osm-location-of-bar-hill-roman-fort"
       }
     }
   ]
