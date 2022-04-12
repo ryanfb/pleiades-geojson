@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Maalmetein Roman Bridge",
   "id": "679508",
   "bbox": [
-    35.651803,
-    34.019518,
-    35.651803,
-    34.019518
+    35.6426463,
+    34.0127927,
+    35.6428318,
+    34.0129993
   ],
   "description": "An ancient place, cited: BAtlas 69 C1 unnamed bridge (Maameltein, N Palaibyblos)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.651803,
-          34.019518
+          35.6427389988,
+          34.012895279
         ]
       },
       "properties": {
@@ -25,19 +25,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          35.651803,
-          34.019518
+          [
+            [
+              35.6427673,
+              34.0127927
+            ],
+            [
+              35.6426463,
+              34.012968
+            ],
+            [
+              35.6427103,
+              34.0129993
+            ],
+            [
+              35.6428318,
+              34.01282
+            ],
+            [
+              35.6427673,
+              34.0127927
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-14774",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 14774",
-        "link": "http://pleiades.stoa.org/places/679508/darmc-location-14774"
+        "title": "OSM location of Maalmetein Roman bridge",
+        "link": "http://pleiades.stoa.org/places/679508/osm-location"
       }
     }
   ]

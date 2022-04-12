@@ -1,16 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "*Locus Maponi?",
+  "title": "Ladyward Roman Fort",
   "id": "89227",
   "bbox": [
-    -4.0,
-    55.0,
-    -3.0,
-    56.0
+    -3.392818,
+    55.124329,
+    -3.392818,
+    55.124329
   ],
-  "description": "An ancient place, cited: BAtlas 9 D5 *Locus Maponi?",
+  "description": "Remains of a Roman fort have been identified between modern Lochmaben and Lockerbie in Scotland. The site -- or an as-yet undiscovered nearby settlement, sanctuary, or road station -- may have been named *Locus Maponi by the Ravenna Cosmographer.",
   "names": [
-    "Locus Maponi"
+    "[Locus] Maponi",
+    "*Locus Maponi?"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          55.5
+          -3.392818,
+          55.124329
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -4.0,
-              55.0
-            ],
-            [
-              -4.0,
-              56.0
-            ],
-            [
-              -3.0,
-              56.0
-            ],
-            [
-              -3.0,
-              55.0
-            ],
-            [
-              -4.0,
-              55.0
-            ]
-          ]
+          -3.392818,
+          55.124329
         ]
       },
-      "id": "undetermined",
+      "id": "vici-org-location-of-ladyward-roman-fort",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89227/undetermined"
+        "description": "Coordinates from vici.org, verified in Google Earth and against aerial photos in Canmore.",
+        "location_precision": "precise",
+        "title": "Vici.org location of Ladyward Roman Fort",
+        "link": "http://pleiades.stoa.org/places/89227/vici-org-location-of-ladyward-roman-fort"
       }
     }
   ]

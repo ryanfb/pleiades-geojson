@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Nersa",
   "id": "416834",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Nersa",
+  "bbox": [
+    13.1816409,
+    42.2088946,
+    13.1816409,
+    42.2088946
+  ],
+  "description": "Referred to by Virgil, Nersa was a vicus of the Aequiculi. Its precise location is not known, but some 19th century scholars identified it with the modern village of Civitella di Nesce in Italy.",
   "names": [
     "Nersa"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1816409,
+          42.2088946
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1816409,
+          42.2088946
+        ]
+      },
+      "id": "civitella-di-nesce",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/416834/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Civitella di Nesce",
+        "link": "http://pleiades.stoa.org/places/416834/civitella-di-nesce"
       }
     }
   ]
