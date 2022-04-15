@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Cornalvo",
+  "title": "Cornalvo Roman Dam and Aqueduct",
   "id": "256129",
   "bbox": [
-    -6.1911118,
-    38.9939197,
-    -6.1911118,
-    38.9939197
+    -6.1918585,
+    38.9862372,
+    -6.1778126,
+    39.0023245
   ],
-  "description": "The Roman dam at Cornalvo is a gravity dam that dates to the first or second century AD. The earthen dam and its stone cladding remain in use. The site is a part of the Archaeological Ensemble of Mérida, a UNESCO World Heritage site.",
+  "description": "The Roman dam at Cornalvo is a gravity dam with associated reservoir and aqueduct. It dates to the first or second century AD. The earthen dam and its stone cladding remain in use. The site is a part of the Archaeological Ensemble of Mérida, a UNESCO World Heritage site.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.1911118,
-          38.9939197
+          -6.18731926781,
+          38.9905734242
         ]
       },
       "properties": {
@@ -25,10 +25,107 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -6.1911118,
-          38.9939197
+          [
+            [
+              -6.1912005,
+              38.9880049
+            ],
+            [
+              -6.191601,
+              38.988577
+            ],
+            [
+              -6.1918585,
+              38.989044
+            ],
+            [
+              -6.1915601,
+              38.9893424
+            ],
+            [
+              -6.1912974,
+              38.989005
+            ],
+            [
+              -6.1910102,
+              38.9884504
+            ],
+            [
+              -6.1909153,
+              38.988243
+            ],
+            [
+              -6.1908537,
+              38.9880351
+            ],
+            [
+              -6.1912005,
+              38.9880049
+            ]
+          ]
+        ]
+      },
+      "id": "cornalvo-roman-dam",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of presa romana de Cornalvo",
+        "link": "http://pleiades.stoa.org/places/256129/cornalvo-roman-dam"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.1807384,
+              38.9862372
+            ],
+            [
+              -6.1908537,
+              38.9880351
+            ],
+            [
+              -6.1915601,
+              38.9893424
+            ],
+            [
+              -6.1916271,
+              38.9923281
+            ],
+            [
+              -6.191604,
+              38.9929718
+            ],
+            [
+              -6.1914055,
+              38.9941546
+            ],
+            [
+              -6.1795496,
+              39.0021676
+            ],
+            [
+              -6.1790955,
+              39.0023245
+            ],
+            [
+              -6.1781704,
+              38.9975388
+            ],
+            [
+              -6.1778126,
+              38.9874493
+            ],
+            [
+              -6.1807384,
+              38.9862372
+            ]
+          ]
         ]
       },
       "id": "cornalvo-reservoir",
@@ -36,7 +133,7 @@
       "properties": {
         "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "OSM location of Cornalvo reservoir",
+        "title": "OSM location of Cornalvo reservoir (modern extent)",
         "link": "http://pleiades.stoa.org/places/256129/cornalvo-reservoir"
       }
     }

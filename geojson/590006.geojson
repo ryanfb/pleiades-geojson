@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Poseidon, Amphitrite, T.",
+  "title": "Temple of Poseidon and Amphitrite on Tenos",
   "id": "590006",
   "bbox": [
-    25.114,
-    37.607,
-    25.114,
-    37.607
+    25.1411772,
+    37.5509442,
+    25.1446239,
+    37.5525433
   ],
-  "description": "A peripteral temple dedicated to Poseidon on the island of Tenos.",
+  "description": "A peripteral temple.",
   "connectsWith": [
     "590074"
   ],
   "names": [
-    "Poseidon, Amphitrite, T."
+    "Poseidon"
   ],
   "features": [
     {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.114,
-          37.607
+          25.142885166,
+          37.5516881444
         ]
       },
       "properties": {
@@ -30,14 +30,48 @@
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.1444007,
+              37.5509442
+            ],
+            [
+              25.1411772,
+              37.5518303
+            ],
+            [
+              25.1413055,
+              37.5522286
+            ],
+            [
+              25.1418258,
+              37.5525263
+            ],
+            [
+              25.1421369,
+              37.5525433
+            ],
+            [
+              25.1446239,
+              37.5513519
+            ],
+            [
+              25.1444007,
+              37.5509442
+            ]
+          ]
+        ]
+      },
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590006/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ναός Ποσειδώνος και Αμφιτρίτης",
+        "link": "http://pleiades.stoa.org/places/590006/osm-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Pons Aelius",
   "id": "334776903",
   "bbox": [
-    12.4665568,
-    41.9013301,
-    12.4665568,
-    41.9013301
+    12.4662364,
+    41.9013244,
+    12.4666168,
+    41.9024545
   ],
   "description": "The Pons Aelius or Aelian Bridge (now Ponte Sant'Angelo) was completed by Hadrian in AD 134 to span the Tiber opposite the new mausoleum of the emperor.",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.4665568,
-          41.9013301
+          12.4664400398,
+          41.9018928946
         ]
       },
       "properties": {
@@ -29,19 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.4665568,
-          41.9013301
+          [
+            [
+              12.4664397,
+              41.9013244
+            ],
+            [
+              12.4663175,
+              41.9015047
+            ],
+            [
+              12.4662364,
+              41.902254
+            ],
+            [
+              12.4663416,
+              41.9024488
+            ],
+            [
+              12.4664587,
+              41.9024545
+            ],
+            [
+              12.4665716,
+              41.9022341
+            ],
+            [
+              12.4665967,
+              41.9020103
+            ],
+            [
+              12.4666168,
+              41.9015432
+            ],
+            [
+              12.4665568,
+              41.9013301
+            ],
+            [
+              12.4664397,
+              41.9013244
+            ]
+          ]
         ]
       },
-      "id": "location-of-pons-aelius",
+      "id": "osm-location-of-ponte-santangelo",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of Pons Aelius",
-        "link": "http://pleiades.stoa.org/places/334776903/location-of-pons-aelius"
+        "title": "OSM location of Ponte Sant'Angelo",
+        "link": "http://pleiades.stoa.org/places/334776903/osm-location-of-ponte-santangelo"
       }
     }
   ]
