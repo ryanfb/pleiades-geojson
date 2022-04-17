@@ -3,10 +3,10 @@
   "title": "Roman villa near Setia",
   "id": "426636",
   "bbox": [
-    13.068392,
-    41.48511,
-    13.068392,
-    41.48511
+    13.070357,
+    41.4858046,
+    13.0710288,
+    41.4860506
   ],
   "description": "The platform, including cryptoporticus, of a republican period villa originally dating to the first century B.C. with evidence for second century A.D. renovations.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.068392,
-          41.48511
+          13.0706929,
+          41.4859276
         ]
       },
       "properties": {
@@ -28,19 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          13.068392,
-          41.48511
+          [
+            [
+              13.070989,
+              41.4858046
+            ],
+            [
+              13.070357,
+              41.4859594
+            ],
+            [
+              13.0703968,
+              41.4860506
+            ],
+            [
+              13.0710288,
+              41.4858958
+            ],
+            [
+              13.070989,
+              41.4858046
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-30710",
+      "id": "location-of-roman-villa",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 30710",
-        "link": "http://pleiades.stoa.org/places/426636/darmc-location-30710"
+        "title": "OSM location of resti di una villa romana (età repubblicana)",
+        "link": "http://pleiades.stoa.org/places/426636/location-of-roman-villa"
       }
     }
   ]
