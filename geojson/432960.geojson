@@ -3,10 +3,10 @@
   "title": "Monte S. Croce",
   "id": "432960",
   "bbox": [
-    14.21626,
-    41.187387,
-    14.323275,
-    41.269244
+    14.3267657,
+    41.1829262,
+    14.3273423,
+    41.1837864
   ],
   "description": "An ancient place, cited: BAtlas 44 F3 Monte S. Croce",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2697675,
-          41.2283155
+          14.327009675,
+          41.1833225182
         ]
       },
       "properties": {
@@ -25,36 +25,67 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          14.21626,
-          41.269244
+          [
+            [
+              14.3268612,
+              41.1829262
+            ],
+            [
+              14.326789,
+              41.1829609
+            ],
+            [
+              14.3267657,
+              41.1831551
+            ],
+            [
+              14.3268112,
+              41.1835065
+            ],
+            [
+              14.3268469,
+              41.1836582
+            ],
+            [
+              14.3268749,
+              41.183757
+            ],
+            [
+              14.3269524,
+              41.1837864
+            ],
+            [
+              14.3272539,
+              41.1834796
+            ],
+            [
+              14.3273423,
+              41.1832783
+            ],
+            [
+              14.3272748,
+              41.1831388
+            ],
+            [
+              14.3271083,
+              41.1829482
+            ],
+            [
+              14.3268612,
+              41.1829262
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-7076",
+      "id": "osm-location-of-fortified-samnite-citadel",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 7076",
-        "link": "http://pleiades.stoa.org/places/432960/darmc-location-7076"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.323275,
-          41.187387
-        ]
-      },
-      "id": "darmc-location-7077",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7077",
-        "link": "http://pleiades.stoa.org/places/432960/darmc-location-7077"
+        "title": "OSM location of fortified Samnite citadel",
+        "link": "http://pleiades.stoa.org/places/432960/osm-location-of-fortified-samnite-citadel"
       }
     }
   ]
