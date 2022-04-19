@@ -1,17 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Statonia",
+  "title": "Piammiano",
   "id": "413321",
   "bbox": [
-    12.26835,
-    42.509942,
-    12.26835,
-    42.509942
+    12.2588085731,
+    42.5051777054,
+    12.2706002528,
+    42.5154911003
   ],
-  "description": "An ancient city of south Etruria.",
+  "description": "Site of an ancient settlement that flourished between the seventh century BCE and the early sixth century CE, located west across the Tiber from the modern village of Attigliano in Italy. Piammiano is probably to be identified with \"Statonia\", which is mentioned in ancient sources.",
   "names": [
     "Statonia",
-    "Statonia"
+    "Statonia",
+    "Piammiano"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.26835,
-          42.509942
+          12.2655679851,
+          42.5096123799
         ]
       },
       "properties": {
@@ -29,19 +30,99 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.26835,
-          42.509942
+          [
+            [
+              12.25912684376265,
+              42.50517770538784
+            ],
+            [
+              12.258808573064165,
+              42.50538747471184
+            ],
+            [
+              12.265116022768877,
+              42.512066922196155
+            ],
+            [
+              12.267876294900315,
+              42.51474021762003
+            ],
+            [
+              12.267960052918063,
+              42.51479274383455
+            ],
+            [
+              12.268079301621299,
+              42.51483675228455
+            ],
+            [
+              12.27012630883257,
+              42.51549110033919
+            ],
+            [
+              12.270334489840161,
+              42.51545123589093
+            ],
+            [
+              12.27050280639949,
+              42.51527406056532
+            ],
+            [
+              12.270600252828576,
+              42.515070308940864
+            ],
+            [
+              12.270595823445436,
+              42.51485326916699
+            ],
+            [
+              12.270582535296015,
+              42.51472481705593
+            ],
+            [
+              12.269475189510949,
+              42.51114144609546
+            ],
+            [
+              12.269404319380707,
+              42.51096427076985
+            ],
+            [
+              12.268375307771091,
+              42.50919309653841
+            ],
+            [
+              12.267699976701717,
+              42.50805600063528
+            ],
+            [
+              12.267212910229198,
+              42.50726184684277
+            ],
+            [
+              12.26634535837674,
+              42.50619016514268
+            ],
+            [
+              12.26537574160046,
+              42.50564581888231
+            ],
+            [
+              12.25912684376265,
+              42.50517770538784
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-18902",
+      "id": "gis-location-bounding-polygon-after-leucci-2021",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Convex hull around features included in Leucci 2021, Figure 2. Georeferenced against OpenStreetMap features in QGIS. Dates after Leucci 2021.",
         "location_precision": "precise",
-        "title": "DARMC location 18902",
-        "link": "http://pleiades.stoa.org/places/413321/darmc-location-18902"
+        "title": "GIS Location: Known Settlement and Cemetery Extent",
+        "link": "http://pleiades.stoa.org/places/413321/gis-location-bounding-polygon-after-leucci-2021"
       }
     }
   ]

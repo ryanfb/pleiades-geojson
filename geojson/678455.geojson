@@ -3,10 +3,10 @@
   "title": "Zekweh",
   "id": "678455",
   "bbox": [
-    35.914139,
-    33.712917,
-    35.914139,
-    33.712917
+    35.9013822,
+    33.711809,
+    35.9023201,
+    33.7126077
   ],
   "description": "An ancient place, cited: BAtlas 69 C2 Zekweh",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.914139,
-          33.712917
+          35.9018508392,
+          33.7122075474
         ]
       },
       "properties": {
@@ -25,19 +25,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          35.914139,
-          33.712917
+          [
+            [
+              35.9020175,
+              33.711809
+            ],
+            [
+              35.9018052,
+              33.7118808
+            ],
+            [
+              35.9013822,
+              33.7120457
+            ],
+            [
+              35.9016847,
+              33.7126077
+            ],
+            [
+              35.9023201,
+              33.712371
+            ],
+            [
+              35.9020175,
+              33.711809
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-16268",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 16268",
-        "link": "http://pleiades.stoa.org/places/678455/darmc-location-16268"
+        "title": "OSM location of Zekweh archaeological site",
+        "link": "http://pleiades.stoa.org/places/678455/osm-location"
       }
     }
   ]

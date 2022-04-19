@@ -3,10 +3,10 @@
   "title": "Qasr el-Banat",
   "id": "668344",
   "bbox": [
-    36.120296,
-    34.097547,
-    36.120296,
-    34.097547
+    36.1178149,
+    34.0872634,
+    36.1182118,
+    34.0875455
   ],
   "description": "The remains of an ancient temple at Qasr el Banat, Lebanon, ",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.120296,
-          34.097547
+          36.118013534,
+          34.0874084699
         ]
       },
       "properties": {
@@ -25,19 +25,39 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          36.120296,
-          34.097547
+          [
+            [
+              36.1179409,
+              34.0872634
+            ],
+            [
+              36.1178149,
+              34.0874767
+            ],
+            [
+              36.1180992,
+              34.0875455
+            ],
+            [
+              36.1182118,
+              34.0873478
+            ],
+            [
+              36.1179409,
+              34.0872634
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-26161",
+      "id": "osm-location-of-qasr-el-banat-lebanon",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 26161",
-        "link": "http://pleiades.stoa.org/places/668344/darmc-location-26161"
+        "title": "OSM location of Qasr el Banat, Lebanon",
+        "link": "http://pleiades.stoa.org/places/668344/osm-location-of-qasr-el-banat-lebanon"
       }
     }
   ]

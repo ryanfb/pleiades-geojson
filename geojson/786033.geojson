@@ -3,10 +3,10 @@
   "title": "Hamra",
   "id": "786033",
   "bbox": [
-    33.909506,
-    26.002499,
-    33.909506,
-    26.002499
+    33.8909384,
+    26.0380953,
+    33.8917592,
+    26.0387315
   ],
   "description": "An ancient place, cited: BAtlas 80 D1 Hamra",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.909506,
-          26.002499
+          33.8913426491,
+          26.0383917996
         ]
       },
       "properties": {
@@ -25,19 +25,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          33.909506,
-          26.002499
+          [
+            [
+              33.8912871,
+              26.0380953
+            ],
+            [
+              33.8909384,
+              26.0383363
+            ],
+            [
+              33.8912817,
+              26.0387315
+            ],
+            [
+              33.8917592,
+              26.0384038
+            ],
+            [
+              33.8915178,
+              26.0381579
+            ],
+            [
+              33.8912871,
+              26.0380953
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-7302",
+      "id": "osm-location-of-hamra",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 7302",
-        "link": "http://pleiades.stoa.org/places/786033/darmc-location-7302"
+        "title": "OSM location of Hamra",
+        "link": "http://pleiades.stoa.org/places/786033/osm-location-of-hamra"
       }
     }
   ]

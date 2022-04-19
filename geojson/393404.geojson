@@ -3,10 +3,10 @@
   "title": "Classis",
   "id": "393404",
   "bbox": [
-    12.233178,
-    44.38024,
-    12.233178,
-    44.38024
+    12.2177088,
+    44.3941321,
+    12.221024,
+    44.3963974
   ],
   "description": "A military port near Ravenna, established by Octavian by 12 B.C. as headquarters for the Roman fleet in the Adriatic Sea.",
   "connectsWith": [
@@ -25,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.233178,
-          44.38024
+          12.219388845,
+          44.3952925594
         ]
       },
       "properties": {
@@ -35,19 +35,47 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.233178,
-          44.38024
+          [
+            [
+              12.2201818,
+              44.3941321
+            ],
+            [
+              12.2189587,
+              44.3948335
+            ],
+            [
+              12.2181053,
+              44.3956134
+            ],
+            [
+              12.2177088,
+              44.3959758
+            ],
+            [
+              12.2190231,
+              44.3963974
+            ],
+            [
+              12.221024,
+              44.3945767
+            ],
+            [
+              12.2201818,
+              44.3941321
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-18349",
+      "id": "location-of-archaeological-area",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 18349",
-        "link": "http://pleiades.stoa.org/places/393404/darmc-location-18349"
+        "title": "OSM location of Porto romano di Classe",
+        "link": "http://pleiades.stoa.org/places/393404/location-of-archaeological-area"
       }
     }
   ]
