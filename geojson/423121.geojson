@@ -3,10 +3,10 @@
   "title": "Vicus Augustanus Laurentium?",
   "id": "423121",
   "bbox": [
-    12.48124,
-    41.664924,
-    12.48124,
-    41.664924
+    12.3928913,
+    41.6790626,
+    12.3935699,
+    41.6796155
   ],
   "description": "The Vicus Augustanus Laurentium is an ancient settlement in coastal Latium located between the shore and the Via Severiana. The site was first described by Rodolfo Lanciani in 1903. The British School at Rome carried out excavations in the 1980s.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.48124,
-          41.664924
+          12.3932255227,
+          41.6793411235
         ]
       },
       "properties": {
@@ -31,19 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          12.48124,
-          41.664924
+          [
+            [
+              12.393138,
+              41.6790626
+            ],
+            [
+              12.3928913,
+              41.679305
+            ],
+            [
+              12.3931327,
+              41.6795113
+            ],
+            [
+              12.3932775,
+              41.6796155
+            ],
+            [
+              12.3935699,
+              41.6793691
+            ],
+            [
+              12.393138,
+              41.6790626
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-19008",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 19008",
-        "link": "http://pleiades.stoa.org/places/423121/darmc-location-19008"
+        "title": "OSM location of Tor Paterno",
+        "link": "http://pleiades.stoa.org/places/423121/osm-location"
       }
     }
   ]

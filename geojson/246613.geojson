@@ -3,10 +3,10 @@
   "title": "S. Antonio de Calaceite",
   "id": "246613",
   "bbox": [
-    0.188236,
-    41.017186,
-    0.188236,
-    41.017186
+    0.1848178,
+    41.0042463,
+    0.1862042,
+    41.0051766
   ],
   "description": "An ancient place, cited: BAtlas 25 F4 S. Antonio de Calaceite",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.188236,
-          41.017186
+          0.185522140204,
+          41.004693445
         ]
       },
       "properties": {
@@ -25,19 +25,47 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          0.188236,
-          41.017186
+          [
+            [
+              0.1848178,
+              41.0042463
+            ],
+            [
+              0.1852338,
+              41.0049476
+            ],
+            [
+              0.1859869,
+              41.0051682
+            ],
+            [
+              0.1862042,
+              41.0051766
+            ],
+            [
+              0.1858145,
+              41.0043962
+            ],
+            [
+              0.185496,
+              41.0042803
+            ],
+            [
+              0.1848178,
+              41.0042463
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-3502",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 3502",
-        "link": "http://pleiades.stoa.org/places/246613/darmc-location-3502"
+        "title": "OSM location of Despoblado ibérico de San Antonio (Calaceite, TERUEL)",
+        "link": "http://pleiades.stoa.org/places/246613/osm-location"
       }
     }
   ]

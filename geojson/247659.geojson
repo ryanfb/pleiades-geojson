@@ -3,10 +3,10 @@
   "title": "Puente del Diablo (Martorell)",
   "id": "247659",
   "bbox": [
-    1.969957,
-    41.464129,
-    1.969957,
-    41.464129
+    1.9368067,
+    41.4749104,
+    1.9382457,
+    41.4749965
   ],
   "description": "An ancient place, cited: BAtlas 25 G4 unnamed bridge (Pont del Diable (Martorell) over R. Llobregat, SE (Ad) Fines)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.969957,
-          41.464129
+          1.93752617507,
+          41.4749538983
         ]
       },
       "properties": {
@@ -25,19 +25,35 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          1.969957,
-          41.464129
+          [
+            [
+              1.9368067,
+              41.4749104
+            ],
+            [
+              1.9381471,
+              41.4749915
+            ],
+            [
+              1.9382457,
+              41.4749965
+            ],
+            [
+              1.9368067,
+              41.4749104
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-27827",
+      "id": "osm-location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 27827",
-        "link": "http://pleiades.stoa.org/places/247659/darmc-location-27827"
+        "title": "OSM location of Roman bridge",
+        "link": "http://pleiades.stoa.org/places/247659/osm-location-of-roman-bridge"
       }
     }
   ]

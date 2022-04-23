@@ -3,10 +3,10 @@
   "title": "Ponte do Coadouro",
   "id": "256379",
   "bbox": [
-    -8.038009,
-    39.541817,
-    -8.038009,
-    39.541817
+    -8.0203052,
+    39.5493308,
+    -8.0200119,
+    39.5493409
   ],
   "description": "An ancient place, cited: BAtlas 26 C2 Ponte do Coadouro",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.038009,
-          39.541817
+          -8.02015855,
+          39.54933585
         ]
       },
       "properties": {
@@ -25,19 +25,25 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -8.038009,
-          39.541817
+          [
+            -8.0203052,
+            39.5493308
+          ],
+          [
+            -8.0200119,
+            39.5493409
+          ]
         ]
       },
-      "id": "darmc-location-17993",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 17993",
-        "link": "http://pleiades.stoa.org/places/256379/darmc-location-17993"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/256379/osm-location"
       }
     }
   ]
