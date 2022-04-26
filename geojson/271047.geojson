@@ -2,27 +2,109 @@
   "type": "FeatureCollection",
   "title": "Alebus",
   "id": "271047",
-  "description": "An ancient place, cited: BAtlas 27 unlocated Alebus fl.",
+  "bbox": [
+    -0.8129843,
+    38.2771665,
+    -0.7007923,
+    38.4716742
+  ],
+  "description": "The name \"Alebus\" is known only from Avienus. If it is not fictional, it might be associated with the modern Riu Vinalopó in Spain.",
   "names": [
     "Alebus"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.756347442018,
+          38.3744486073
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.7015535,
+              38.2771665
+            ],
+            [
+              -0.7181859,
+              38.2975087
+            ],
+            [
+              -0.8062062,
+              38.4223163
+            ],
+            [
+              -0.8128013,
+              38.4333492
+            ],
+            [
+              -0.8129843,
+              38.4338497
+            ],
+            [
+              -0.8124688,
+              38.4367409
+            ],
+            [
+              -0.8068712,
+              38.464608
+            ],
+            [
+              -0.804473,
+              38.4704699
+            ],
+            [
+              -0.8043084,
+              38.4708554
+            ],
+            [
+              -0.8040259,
+              38.4713916
+            ],
+            [
+              -0.8038394,
+              38.4716742
+            ],
+            [
+              -0.7244198,
+              38.3572362
+            ],
+            [
+              -0.7242619,
+              38.356782
+            ],
+            [
+              -0.7007923,
+              38.2825143
+            ],
+            [
+              -0.7008105,
+              38.2818393
+            ],
+            [
+              -0.7015535,
+              38.2771665
+            ]
+          ]
+        ]
+      },
+      "id": "riu-vinalopo-1",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/271047/batlas-location"
+        "description": "Line representing the central portion of the course of the modern Vinalopó River, derived from an OpenStreetMap Way.",
+        "location_precision": "precise",
+        "title": "OSM location of Riu Vinalopó",
+        "link": "http://pleiades.stoa.org/places/271047/riu-vinalopo-1"
       }
     }
   ]
