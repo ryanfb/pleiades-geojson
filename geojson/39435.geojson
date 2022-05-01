@@ -3,12 +3,12 @@
   "title": "Trogodytice",
   "id": "39435",
   "bbox": [
-    35.0,
-    15.0,
-    40.0,
-    20.0
+    37.2777193512,
+    12.5312744236,
+    41.3801369286,
+    18.4343779013
   ],
-  "description": "An ancient place, cited: BAtlas 4 A2 Trogodytice",
+  "description": "An ancient name for the hinterland south of Berenice in modern Eritrea and Sudan.",
   "names": [
     "Trogodytice",
     "Trogloditike"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.5,
-          17.5
+          39.0015986281,
+          15.2553507976
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.0,
-              15.0
+              37.27771935120336,
+              18.434377901278477
             ],
             [
-              35.0,
-              20.0
+              37.46398075016279,
+              17.728088426656004
             ],
             [
-              40.0,
-              20.0
+              37.786082073594876,
+              17.037200240755478
             ],
             [
-              40.0,
-              15.0
+              38.11344768900191,
+              16.358394373474315
             ],
             [
-              35.0,
-              15.0
+              38.473301525027445,
+              15.71730734784443
+            ],
+            [
+              38.881440689810304,
+              15.08539215257589
+            ],
+            [
+              39.343885557288075,
+              14.484091724962576
+            ],
+            [
+              39.80544407502738,
+              13.924040822803486
+            ],
+            [
+              40.28342228946076,
+              13.428535370264566
+            ],
+            [
+              40.795353903159544,
+              12.958909546977514
+            ],
+            [
+              41.38013692857516,
+              12.531274423637438
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39435/batlas-location"
+        "description": "Long axis of the Barrington Atlas map label",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/39435/batlas-label-location"
       }
     }
   ]
