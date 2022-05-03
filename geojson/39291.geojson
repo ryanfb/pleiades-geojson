@@ -3,12 +3,12 @@
   "title": "Ararene",
   "id": "39291",
   "bbox": [
-    40.0,
-    15.0,
-    45.0,
-    20.0
+    42.6335779922,
+    17.4366241327,
+    43.3963955613,
+    18.2722008856
   ],
-  "description": "An ancient place, cited: BAtlas 4 B2 Ararene",
+  "description": "The modern al 'Ara'ir, near Jizan in Saudi Arabia.",
   "names": [
     "Ararene"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          17.5
+          43.0401879408,
+          17.8782026129
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              15.0
+              42.63357799222083,
+              18.2722008856459
             ],
             [
-              40.0,
-              20.0
+              42.79567198114844,
+              18.150361829920573
             ],
             [
-              45.0,
-              20.0
+              42.92993174619276,
+              18.020384931332824
             ],
             [
-              45.0,
-              15.0
+              43.04802607608985,
+              17.899804828741797
             ],
             [
-              40.0,
-              15.0
+              43.16927168565007,
+              17.757984675782
+            ],
+            [
+              43.270809608597396,
+              17.60934213414103
+            ],
+            [
+              43.39639556128867,
+              17.43662413265738
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39291/batlas-location"
+        "description": "Long axis of Barrington Atlas label",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/39291/batlas-label-location"
       }
     }
   ]
