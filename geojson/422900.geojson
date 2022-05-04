@@ -3,10 +3,10 @@
   "title": "Colle Medico",
   "id": "422900",
   "bbox": [
-    12.885195,
-    41.693231,
-    12.885195,
-    41.693231
+    12.8847115,
+    41.7029611,
+    12.8851448,
+    41.7031982
   ],
   "description": "An ancient place, cited: BAtlas 43 D3 Colle Medico",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.885195,
-          41.693231
+          12.88492815,
+          41.70307965
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          12.885195,
-          41.693231
+          [
+            12.8847398,
+            41.7031982
+          ],
+          [
+            12.8847115,
+            41.702992
+          ],
+          [
+            12.8851165,
+            41.7029611
+          ],
+          [
+            12.8851448,
+            41.7031673
+          ],
+          [
+            12.8847398,
+            41.7031982
+          ]
         ]
       },
-      "id": "darmc-location-4470",
+      "id": "location-of-roman-villa",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 4470",
-        "link": "http://pleiades.stoa.org/places/422900/darmc-location-4470"
+        "title": "OSM location of Roman villa",
+        "link": "http://pleiades.stoa.org/places/422900/location-of-roman-villa"
       }
     }
   ]

@@ -3,12 +3,12 @@
   "title": "*Hercules Curinus",
   "id": "413165",
   "bbox": [
-    13.933614,
-    42.08905,
-    13.933614,
-    42.08905
+    13.9341538,
+    42.0880608,
+    13.9352884,
+    42.0888908
   ],
-  "description": "A sanctuary in the territory of the Paeligni dedicated to Hercules Curinus situated on an artificial terrace on the slopes of Mount Morrone. The terrace sanctuary looks over Sulmo in the valley below. ",
+  "description": "A sanctuary in the territory of the Paeligni dedicated to Hercules Curinus situated on an artificial terrace on the slopes of Mount Morrone. The terrace sanctuary looks over Sulmo in the valley below.",
   "connectsWith": [
     "433134"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.933614,
-          42.08905
+          13.9347242114,
+          42.0884438296
         ]
       },
       "properties": {
@@ -31,19 +31,65 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.933614,
-          42.08905
+          [
+            13.93454,
+            42.0888908
+          ],
+          [
+            13.9341538,
+            42.0887117
+          ],
+          [
+            13.934658,
+            42.0881424
+          ],
+          [
+            13.9348431,
+            42.088226
+          ],
+          [
+            13.9351328,
+            42.0881006
+          ],
+          [
+            13.9352481,
+            42.0880608
+          ],
+          [
+            13.9352884,
+            42.0881424
+          ],
+          [
+            13.9351274,
+            42.0882539
+          ],
+          [
+            13.9350389,
+            42.0884231
+          ],
+          [
+            13.9348592,
+            42.0885903
+          ],
+          [
+            13.9346017,
+            42.0888331
+          ],
+          [
+            13.93454,
+            42.0888908
+          ]
         ]
       },
-      "id": "dare-location",
+      "id": "location-of-sanctuary",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location, site precision",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/413165/dare-location"
+        "title": "OSM location of Santuario di Ercole Curino",
+        "link": "http://pleiades.stoa.org/places/413165/location-of-sanctuary"
       }
     }
   ]
