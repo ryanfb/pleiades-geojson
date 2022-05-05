@@ -3,10 +3,10 @@
   "title": "Puente Mocho",
   "id": "237850",
   "bbox": [
-    -6.0,
-    41.0,
-    -5.0,
-    42.0
+    -5.998772,
+    41.1152133,
+    -5.9986445,
+    41.1157972
   ],
   "description": "A Roman bridge, known as the 'Puente Mocho', crossing the ribera de Cañedo.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5,
-          41.5
+          -5.99869917379,
+          41.1155071181
         ]
       },
       "properties": {
@@ -25,39 +25,29 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -6.0,
-              41.0
-            ],
-            [
-              -6.0,
-              42.0
-            ],
-            [
-              -5.0,
-              42.0
-            ],
-            [
-              -5.0,
-              41.0
-            ],
-            [
-              -6.0,
-              41.0
-            ]
+            -5.9986445,
+            41.1152133
+          ],
+          [
+            -5.9986782,
+            41.1154545
+          ],
+          [
+            -5.998772,
+            41.1157972
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-puente-mocho",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/237850/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Puente Mocho",
+        "link": "http://pleiades.stoa.org/places/237850/location-of-puente-mocho"
       }
     }
   ]

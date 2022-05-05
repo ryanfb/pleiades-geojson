@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Villa del Río Roman Bridge",
   "id": "267276",
   "bbox": [
-    -5.0,
-    37.0,
-    -4.0,
-    38.0
+    -4.2718771,
+    37.9870923,
+    -4.2713573,
+    37.9872934
   ],
-  "description": "An ancient place, cited: BAtlas 27 A4 unnamed bridge (E Ad Lucos on Arroyo Salado de Porcuna)",
+  "description": "A Roman bridge over the Arroyo Salado de Porcuna, located just east of modern Villa del Río in Spain's Cordoba province.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          37.5
+          -4.27161722039,
+          37.9871928449
         ]
       },
       "properties": {
@@ -25,39 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -5.0,
-              37.0
-            ],
-            [
-              -5.0,
-              38.0
-            ],
-            [
-              -4.0,
-              38.0
-            ],
-            [
-              -4.0,
-              37.0
-            ],
-            [
-              -5.0,
-              37.0
-            ]
+            -4.2718771,
+            37.9872355
+          ],
+          [
+            -4.2718501,
+            37.9870923
+          ],
+          [
+            -4.2713573,
+            37.9871502
+          ],
+          [
+            -4.2713844,
+            37.9872934
+          ],
+          [
+            -4.2718771,
+            37.9872355
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-puente-romano",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/267276/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Puente Romano",
+        "link": "http://pleiades.stoa.org/places/267276/osm-location-of-puente-romano"
       }
     }
   ]
