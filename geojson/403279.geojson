@@ -3,10 +3,10 @@
   "title": "Taberna Frigida",
   "id": "403279",
   "bbox": [
-    10.1393443,
-    44.0353943,
-    10.1393443,
-    44.0353943
+    10.1167289,
+    44.0210911,
+    10.1169906,
+    44.021232
   ],
   "description": "Taberna Frigida was a road station on the Via Aemilia Scauri at the crossing of the Frigidus river, located between Pisae and Luna.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1393443,
-          44.0353943
+          10.1168597248,
+          44.0211615333
         ]
       },
       "properties": {
@@ -31,19 +31,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          10.1393443,
-          44.0353943
+          [
+            10.1167725,
+            44.021232
+          ],
+          [
+            10.1169906,
+            44.0211553
+          ],
+          [
+            10.1169469,
+            44.0210911
+          ],
+          [
+            10.1167289,
+            44.0211677
+          ],
+          [
+            10.1167725,
+            44.021232
+          ]
         ]
       },
-      "id": "dare-location",
+      "id": "osm-location-of-chiesa-san-leonardo-al-frigido",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location, village precision",
+        "description": "Representative location of the current church based on OpenStreetMap. The church assumed the space of the former Roman mansio.",
         "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/403279/dare-location"
+        "title": "OSM location of Chiesa San Leonardo al Frigido",
+        "link": "http://pleiades.stoa.org/places/403279/osm-location-of-chiesa-san-leonardo-al-frigido"
       }
     }
   ]
