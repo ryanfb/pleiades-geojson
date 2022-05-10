@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Kouriakon? Pr.",
+  "title": "Kouriakon (promontory)",
   "id": "707547",
   "bbox": [
-    32.5,
-    34.5,
-    33.0,
-    35.0
+    32.9329679,
+    34.5667956,
+    32.9329679,
+    34.5667956
   ],
-  "description": "An ancient place, cited: BAtlas 72 B3 Kouriakon? Pr.",
+  "description": "A promontory of the island of Cyprus, identified tentatively by scholars with the modern Cape Zevgari.",
   "names": [
     "Kouriakon Pr."
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          34.75
+          32.9329679,
+          34.5667956
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              32.5,
-              34.5
-            ],
-            [
-              32.5,
-              35.0
-            ],
-            [
-              33.0,
-              35.0
-            ],
-            [
-              33.0,
-              34.5
-            ],
-            [
-              32.5,
-              34.5
-            ]
-          ]
+          32.9329679,
+          34.5667956
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-cape-zevgari",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707547/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Zevgari",
+        "link": "http://pleiades.stoa.org/places/707547/location-of-cape-zevgari"
       }
     }
   ]
