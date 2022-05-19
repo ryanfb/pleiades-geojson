@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Samnitum? (island)",
+  "title": "Samnitum (island)",
   "id": "138571",
   "bbox": [
-    -3.0,
-    46.0,
-    -2.0,
-    47.0
+    -2.2,
+    46.966667,
+    -2.2,
+    46.966667
   ],
-  "description": "An ancient place, cited: BAtlas 14 C2 Samnitum? Ins.",
+  "description": "Scholars tentatively associate the ancient name Samnitum with modern Ile de Noirmoutier.",
   "names": [
     "Samnitum"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          46.5
+          -2.2,
+          46.966667
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -3.0,
-              46.0
-            ],
-            [
-              -3.0,
-              47.0
-            ],
-            [
-              -2.0,
-              47.0
-            ],
-            [
-              -2.0,
-              46.0
-            ],
-            [
-              -3.0,
-              46.0
-            ]
-          ]
+          -2.2,
+          46.966667
         ]
       },
-      "id": "batlas-location",
+      "id": "ile-de-noirmoutier",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138571/batlas-location"
+        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "location_precision": "precise",
+        "title": "Imagery location of Ile de Noirmoutier",
+        "link": "http://pleiades.stoa.org/places/138571/ile-de-noirmoutier"
       }
     }
   ]
