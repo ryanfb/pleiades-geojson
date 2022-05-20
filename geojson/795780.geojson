@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Arminna West",
   "id": "795780",
-  "description": "Archaeological site located on the Nile with late Nubian, Meroitic, and early Christian remains.",
+  "bbox": [
+    31.815421,
+    22.540426,
+    31.815421,
+    22.540426
+  ],
+  "description": "Archaeological site located on the Nile with late Nubian, Meroitic, and early Christian remains. The site was inundated as a result of the construction of the Aswan High Dam in the 1960s.",
   "connectsWith": [
     "727172",
     "812747686"
@@ -10,9 +16,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.815421,
+          22.540426
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.815421,
+          22.540426
+        ]
+      },
+      "id": "approximate-imagery-location-of-arminna-west",
+      "type": "Feature",
+      "properties": {
+        "description": "Point representing the approximate location of the inundated Arminna West site, after Weeks 1967.",
+        "location_precision": "precise",
+        "title": "Approximate imagery location of Arminna West",
+        "link": "http://pleiades.stoa.org/places/795780/approximate-imagery-location-of-arminna-west"
       }
     }
   ]
