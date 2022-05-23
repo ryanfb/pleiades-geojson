@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Leontopolis",
+  "title": "Tell el-Yahudiya",
   "id": "727147",
   "bbox": [
-    31.35,
-    30.683333,
-    31.35,
-    30.683333
+    31.330822,
+    30.292445,
+    31.3308300034,
+    30.2925000098
   ],
-  "description": "An ancient place, cited: BAtlas 74 E4 Leontopolis",
+  "description": "An ancient settlement in Egypt, known as Leontopolis (one of two in the area) in Greco-Roman sources.",
   "names": [
     "Leontopolis"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.35,
-          30.683333
+          31.3308260017,
+          30.2924725049
         ]
       },
       "properties": {
@@ -28,56 +28,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.0,
-              30.0
-            ],
-            [
-              31.0,
-              30.5
-            ],
-            [
-              31.5,
-              30.5
-            ],
-            [
-              31.5,
-              30.0
-            ],
-            [
-              31.0,
-              30.0
-            ]
-          ]
+          31.3308300033842,
+          30.2925000097842
         ]
       },
-      "id": "undetermined",
+      "id": "archaeocosmos-location",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727147/undetermined"
+        "location_precision": "precise",
+        "title": "Archaeocosmos Location",
+        "link": "http://pleiades.stoa.org/places/727147/archaeocosmos-location"
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.35,
-          30.683333
+          31.330822,
+          30.292445
         ]
       },
-      "id": "dare-location",
+      "id": "survey-location",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location, village precision",
+        "description": "Dates after BAtlas and EES DSP.",
         "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/727147/dare-location"
+        "title": "Survey Location",
+        "link": "http://pleiades.stoa.org/places/727147/survey-location"
       }
     }
   ]

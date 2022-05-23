@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Leontopolis",
+  "title": "Tell el-Moqdam",
   "id": "727146",
   "bbox": [
-    31.0,
-    30.5,
-    31.5,
-    31.0
+    31.355543,
+    30.682989,
+    31.355543,
+    30.682989
   ],
-  "description": "An ancient place, cited: BAtlas 74 E3 Leontopolis",
+  "description": "An ancient settlement in Egypt, known as Leontopolis (one of two in the area) in Greco-Roman sources.",
   "names": [
     "Leontopolis"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          30.75
+          31.355543,
+          30.682989
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.0,
-              30.5
-            ],
-            [
-              31.0,
-              31.0
-            ],
-            [
-              31.5,
-              31.0
-            ],
-            [
-              31.5,
-              30.5
-            ],
-            [
-              31.0,
-              30.5
-            ]
-          ]
+          31.355543,
+          30.682989
         ]
       },
-      "id": "undetermined",
+      "id": "survey-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727146/undetermined"
+        "description": "Dates after BAtlas and EES DSP.",
+        "location_precision": "precise",
+        "title": "Survey Location",
+        "link": "http://pleiades.stoa.org/places/727146/survey-location"
       }
     }
   ]
