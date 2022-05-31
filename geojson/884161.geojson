@@ -1,22 +1,26 @@
 {
   "type": "FeatureCollection",
-  "title": "Haidar Khan",
+  "title": "Tappeh Qalaichi",
   "id": "884161",
   "bbox": [
-    46.266589,
-    36.525263,
-    46.266589,
-    36.525263
+    46.2744416,
+    36.5696073,
+    46.275552,
+    36.5706844
   ],
-  "description": "An ancient place, cited: BAtlas 90 B4 Haidar Khan",
+  "description": "Fortified site in eastern Iran, also known as Haidar Khan, containing remains dated to the Mannaean period (9th-7th centuries BCE).",
+  "names": [
+    "Haidar Khan",
+    "Tappeh Qalaichi"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.266589,
-          36.525263
+          46.2750179962,
+          36.5701780862
         ]
       },
       "properties": {
@@ -25,19 +29,77 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          46.266589,
-          36.525263
+          [
+            46.2745489,
+            36.5705034
+          ],
+          [
+            46.2747151,
+            36.5706413
+          ],
+          [
+            46.2749351,
+            36.5706844
+          ],
+          [
+            46.2751872,
+            36.5706629
+          ],
+          [
+            46.2753964,
+            36.5706068
+          ],
+          [
+            46.275552,
+            36.5704302
+          ],
+          [
+            46.2755198,
+            36.5699692
+          ],
+          [
+            46.275375,
+            36.5697969
+          ],
+          [
+            46.2751658,
+            36.5696245
+          ],
+          [
+            46.2749565,
+            36.5696073
+          ],
+          [
+            46.2748439,
+            36.5698012
+          ],
+          [
+            46.274624,
+            36.5698443
+          ],
+          [
+            46.2745274,
+            36.5699434
+          ],
+          [
+            46.2744416,
+            36.570232
+          ],
+          [
+            46.2745489,
+            36.5705034
+          ]
         ]
       },
-      "id": "darmc-location-22105",
+      "id": "tappeh-qalaichi",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Polygon representing the extent of the visible remains at Tappeh Qalaichi, derived from an OpenStreetMap Way after Hassanzadeh 2021.",
         "location_precision": "precise",
-        "title": "DARMC location 22105",
-        "link": "http://pleiades.stoa.org/places/884161/darmc-location-22105"
+        "title": "OSM location of Tappeh Qalaichi",
+        "link": "http://pleiades.stoa.org/places/884161/tappeh-qalaichi"
       }
     }
   ]
