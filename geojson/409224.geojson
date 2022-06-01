@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hasta",
   "id": "409224",
+  "bbox": [
+    11.1057807,
+    42.669208,
+    11.1057807,
+    42.669208
+  ],
   "description": "An unlocated road station in coastal Etruria.",
   "connectsWith": [
     "403280"
@@ -12,20 +18,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1057807,
+          42.669208
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1057807,
+          42.669208
+        ]
+      },
+      "id": "osm-location-of-alberese",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/409224/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Alberese",
+        "link": "http://pleiades.stoa.org/places/409224/osm-location-of-alberese"
       }
     }
   ]
