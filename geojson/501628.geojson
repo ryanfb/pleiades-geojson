@@ -1,16 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Stryme?",
+  "title": "Stryme",
   "id": "501628",
   "bbox": [
     25.282291,
-    40.93661,
-    25.282291,
+    40.9353234,
+    25.2879648,
     40.93661
   ],
-  "description": "An ancient place, cited: BAtlas 51 E3 Stryme?",
+  "description": "Remains of a 7th century walled settlement on the Molyvoti peninsula inhabited by Thasian colonists.",
+  "connectsWith": [
+    "501638"
+  ],
   "names": [
-    "Stryme"
+    "Stryme",
+    "Stryme?"
   ],
   "features": [
     {
@@ -18,12 +22,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.282291,
-          40.93661
+          25.2849514177,
+          40.936131235
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.2872942,
+            40.9359799
+          ],
+          [
+            25.2872325,
+            40.9353457
+          ],
+          [
+            25.287946,
+            40.9353234
+          ],
+          [
+            25.2879648,
+            40.9359819
+          ],
+          [
+            25.2872942,
+            40.9359799
+          ]
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygon based on OpenStreetMap representing the Strume ruins after Bakalakes 1967",
+        "location_precision": "precise",
+        "title": "OSM Location after Bakalakes 1967",
+        "link": "http://pleiades.stoa.org/places/501628/osm-location"
       }
     },
     {
