@@ -3,10 +3,10 @@
   "title": "Golgoi",
   "id": "707512",
   "bbox": [
-    33.546609,
-    35.065649,
-    33.546609,
-    35.065649
+    33.5476268,
+    35.0728324,
+    33.5486246,
+    35.07339
   ],
   "description": "An ancient settlement on the island of Cyprus whose temple of Aphrodite is mentioned in ancient sources.",
   "connectsWith": [
@@ -16,7 +16,8 @@
   ],
   "names": [
     "Golgoi",
-    "Golgous"
+    "Golgous",
+    "Bamboulari tis Koukouninas"
   ],
   "features": [
     {
@@ -24,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.546609,
-          35.065649
+          33.548107162,
+          35.0731388781
         ]
       },
       "properties": {
@@ -34,19 +35,49 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.546609,
-          35.065649
+          [
+            33.5480184,
+            35.07339
+          ],
+          [
+            33.5483215,
+            35.0732693
+          ],
+          [
+            33.5486246,
+            35.0732451
+          ],
+          [
+            33.5484664,
+            35.0728324
+          ],
+          [
+            33.5482384,
+            35.0730168
+          ],
+          [
+            33.5476269,
+            35.0729729
+          ],
+          [
+            33.5476268,
+            35.0733439
+          ],
+          [
+            33.5480184,
+            35.07339
+          ]
         ]
       },
-      "id": "darmc-location-12576",
+      "id": "bamboulari-tis-koukouninas-golgoi",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Polygon based on OpenStreetMap representing Bamboulari tis Koukouninas after Toumazou 1998.",
         "location_precision": "precise",
-        "title": "DARMC location 12576",
-        "link": "http://pleiades.stoa.org/places/707512/darmc-location-12576"
+        "title": "OSM location of Bamboulari tis Koukouninas (Golgoi)",
+        "link": "http://pleiades.stoa.org/places/707512/bamboulari-tis-koukouninas-golgoi"
       }
     }
   ]
