@@ -3,10 +3,10 @@
   "title": "Dryopes",
   "id": "540744",
   "bbox": [
-    24.0,
-    38.0,
-    24.5,
-    38.5
+    24.1425112368,
+    38.195671276,
+    24.2519160288,
+    38.3201323067
   ],
   "description": "An ancient place, cited: BAtlas 55 G4 Dryopes",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          38.25
+          24.207677401,
+          38.26673412
         ]
       },
       "properties": {
@@ -28,39 +28,45 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              24.0,
-              38.0
-            ],
-            [
-              24.0,
-              38.5
-            ],
-            [
-              24.5,
-              38.5
-            ],
-            [
-              24.5,
-              38.0
-            ],
-            [
-              24.0,
-              38.0
-            ]
+            24.14251123683951,
+            38.32013230670776
+          ],
+          [
+            24.175841154579132,
+            38.302441443560554
+          ],
+          [
+            24.198423627999766,
+            38.28620801805824
+          ],
+          [
+            24.218762931961546,
+            38.2661165576319
+          ],
+          [
+            24.23424095880039,
+            38.24419959654131
+          ],
+          [
+            24.244201780899534,
+            38.22147875698997
+          ],
+          [
+            24.251916028780766,
+            38.19567127603998
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540744/batlas-location"
+        "description": "Long axis of label used on Barrington Atlas Map 55. Dates after BAtlDir",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/540744/batlas-label-location"
       }
     }
   ]
