@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Temple Grove of Nikephorion at Pergamum",
   "id": "537932154",
+  "bbox": [
+    27.18373,
+    39.129049,
+    27.185694,
+    39.1325
+  ],
   "description": "A temple grove at the Nikephorion in the settlement of Pergamum. Mentioned by Polybius, the precise location of the grove is not known today.",
   "connectsWith": [
     "550812"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1845303333,
+          39.1312133333
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
