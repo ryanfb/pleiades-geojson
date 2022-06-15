@@ -1,15 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "*Agnaviae",
+  "title": "Zăvoi Roman Camp",
   "id": "206897",
   "bbox": [
-    22.403427,
-    45.523444,
-    22.403427,
-    45.523444
+    22.4053666,
+    45.5231701,
+    22.4102979,
+    45.5264979
   ],
-  "description": "An ancient place, cited: BAtlas 21 E4 *Agnaviae",
+  "description": "A Roman camp located in the middle of the modern village of Zăvoi in Romania. The site may be associated with a road station known as Acmonia/Augmonia/Agnavi(a)e in ancient sources.",
   "names": [
+    "Castra of Zăvoi",
+    "Castrul roman de la Zăvoi",
+    "Kastell Zăvoi",
     "Agnaviae",
     "Acmonia"
   ],
@@ -19,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.403427,
-          45.523444
+          22.4078321517,
+          45.5248339284
         ]
       },
       "properties": {
@@ -29,19 +32,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          22.403427,
-          45.523444
+          [
+            22.4059251,
+            45.5264979
+          ],
+          [
+            22.4053666,
+            45.523581
+          ],
+          [
+            22.4097392,
+            45.5231701
+          ],
+          [
+            22.4102979,
+            45.5260866
+          ],
+          [
+            22.4059251,
+            45.5264979
+          ]
         ]
       },
-      "id": "darmc-location-24362",
+      "id": "osm-location-of-castra-of-zavoi",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 24362",
-        "link": "http://pleiades.stoa.org/places/206897/darmc-location-24362"
+        "title": "OSM location of Castra of Zăvoi",
+        "link": "http://pleiades.stoa.org/places/206897/osm-location-of-castra-of-zavoi"
       }
     }
   ]
