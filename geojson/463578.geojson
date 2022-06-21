@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Roman bridge, Pietralunga di Paternò",
   "id": "463578",
   "bbox": [
-    14.5,
-    37.5,
-    15.0,
-    38.0
+    14.8644979,
+    37.575132,
+    14.8645735,
+    37.5751869
   ],
   "description": "An unnamed bridge located west of Hybla Gereatis at Pietralunga di Paternò, over the river Simeto.",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.75,
-          37.75
+          14.8645357173,
+          37.5751594413
         ]
       },
       "properties": {
@@ -29,39 +29,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              14.5,
-              37.5
-            ],
-            [
-              14.5,
-              38.0
-            ],
-            [
-              15.0,
-              38.0
-            ],
-            [
-              15.0,
-              37.5
-            ],
-            [
-              14.5,
-              37.5
-            ]
+            14.8645119,
+            37.5751869
+          ],
+          [
+            14.8644979,
+            37.5751448
+          ],
+          [
+            14.8645596,
+            37.575132
+          ],
+          [
+            14.8645735,
+            37.5751741
+          ],
+          [
+            14.8645119,
+            37.5751869
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-ponte-romano",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/463578/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte Romano",
+        "link": "http://pleiades.stoa.org/places/463578/osm-location-of-ponte-romano"
       }
     }
   ]
