@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Hayling Island",
+  "title": "Hayling Island Iron-Age/Roman Sanctuary",
   "id": "79504",
   "bbox": [
     -0.989776,
     50.809533,
-    -0.989776,
-    50.809533
+    -0.9723461,
+    50.8222562
   ],
-  "description": "Hayling Island is the site of a multi-phase sanctuary: the Iron Age shrine dates ca. 50 B.C. and the Roman temple dates ca. A.D. 55-60.",
+  "description": "Modern Hayling Island (borough of Havant, Hampshire, England) is the site of a multi-phase sanctuary: the Iron Age shrine dates ca. 50 BCE and the Roman temple dates ca. 55-60CE. The sanctuary seems to have suffered decline and ceased being maintained in the early third century CE, although ritual/votive deposition seems to have continued through the fourth century.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.989776,
-          50.809533
+          -0.978385166667,
+          50.8178580667
         ]
       },
       "properties": {
@@ -34,10 +34,62 @@
       "id": "darmc-location-20574",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 20574",
         "link": "http://pleiades.stoa.org/places/79504/darmc-location-20574"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.97275,
+          50.821973
+        ]
+      },
+      "id": "imagery-location-of-sanctuary-centerpoint",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerpoint of crop marks visible in Google Earth \"historical imagery\" dating to 1998, 2000, and 2011 that clearly matches plan in King 2013, page 4. Dates after King 2013 passim, but not including the later Saxon-era settlement and ritual site immediately south.",
+        "location_precision": "precise",
+        "title": "Imagery Location of Sanctuary Centerpoint",
+        "link": "http://pleiades.stoa.org/places/79504/imagery-location-of-sanctuary-centerpoint"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.9728847,
+            50.8222562
+          ],
+          [
+            -0.9723461,
+            50.8222393
+          ],
+          [
+            -0.9723743,
+            50.8218802
+          ],
+          [
+            -0.9729129,
+            50.8218971
+          ],
+          [
+            -0.9728847,
+            50.8222562
+          ]
+        ]
+      },
+      "id": "osm-location-of-iron-age-shrine-and-roman-temple",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of Iron Age Shrine and Roman Temple ",
+        "link": "http://pleiades.stoa.org/places/79504/osm-location-of-iron-age-shrine-and-roman-temple"
       }
     }
   ]
