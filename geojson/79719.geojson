@@ -3,12 +3,12 @@
   "title": "Toliatis/Tanatus (island)",
   "id": "79719",
   "bbox": [
-    1.0,
-    51.0,
-    2.0,
-    52.0
+    1.383333,
+    51.35,
+    1.383333,
+    51.35
   ],
-  "description": "A location at the most easterly point of England that was separated from the mainland by the River Wantsum.",
+  "description": "A location at the most easterly point of England that, in antiquity, was separated from the mainland by the River Wantsum.",
   "names": [
     "Toliatis",
     "Tanatus"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          51.5
+          1.383333,
+          51.35
         ]
       },
       "properties": {
@@ -29,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              1.0,
-              51.0
-            ],
-            [
-              1.0,
-              52.0
-            ],
-            [
-              2.0,
-              52.0
-            ],
-            [
-              2.0,
-              51.0
-            ],
-            [
-              1.0,
-              51.0
-            ]
-          ]
+          1.383333,
+          51.35
         ]
       },
-      "id": "undetermined",
+      "id": "location-of-isle-of-thanet",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79719/undetermined"
+        "description": "coordinates after GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Isle of Thanet",
+        "link": "http://pleiades.stoa.org/places/79719/location-of-isle-of-thanet"
       }
     }
   ]
