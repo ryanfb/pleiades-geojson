@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Roman Bridge (Paracuellos de Jíloca)",
   "id": "247652",
   "bbox": [
-    -2.0,
-    41.0,
-    -1.0,
-    42.0
+    -1.6419062,
+    41.3122986,
+    -1.6416119,
+    41.3124234
   ],
-  "description": "An ancient place, cited: BAtlas 25 D4 unnamed bridge (Paracuellos de Jíloca over R. Jíloca, E Platea)",
+  "description": "An unnamed Roman bridge just east of ancient Platea at modern Paracuellos de Jíloca over the river Jíloca in Spain.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5,
-          41.5
+          -1.64175905,
+          41.312361
         ]
       },
       "properties": {
@@ -25,39 +25,25 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -2.0,
-              41.0
-            ],
-            [
-              -2.0,
-              42.0
-            ],
-            [
-              -1.0,
-              42.0
-            ],
-            [
-              -1.0,
-              41.0
-            ],
-            [
-              -2.0,
-              41.0
-            ]
+            -1.6419062,
+            41.3122986
+          ],
+          [
+            -1.6416119,
+            41.3124234
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/247652/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of current bridge",
+        "link": "http://pleiades.stoa.org/places/247652/osm-location"
       }
     }
   ]
