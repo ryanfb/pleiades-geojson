@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Silves",
+  "title": "Silves Roman Bridge",
   "id": "256451",
   "bbox": [
     -8.438535,
-    37.18682,
-    -8.438535,
-    37.18682
+    37.1864934,
+    -8.4378376,
+    37.1869526
   ],
-  "description": "An ancient place, cited: BAtlas 26 B4 Silves",
+  "description": "An unnamed Roman bridge at modern Silves in Portugal's Algarve region. The bridge spans the Arade river.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.438535,
-          37.18682
+          -8.43835505,
+          37.1867715
         ]
       },
       "properties": {
@@ -34,10 +34,33 @@
       "id": "darmc-location-17997",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 17997",
         "link": "http://pleiades.stoa.org/places/256451/darmc-location-17997"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.4385126,
+            37.1869526
+          ],
+          [
+            -8.4378376,
+            37.1864934
+          ]
+        ]
+      },
+      "id": "osm-location-of-ponte-romana",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte Romana",
+        "link": "http://pleiades.stoa.org/places/256451/osm-location-of-ponte-romana"
       }
     }
   ]
