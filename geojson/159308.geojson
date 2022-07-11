@@ -1,43 +1,29 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Lurs Roman Bridge",
   "id": "159308",
   "bbox": [
-    5.907591,
-    43.97512,
     5.908501,
-    43.984633
+    43.984633,
+    5.9088461,
+    43.9846442
   ],
-  "description": "An ancient place, cited: BAtlas 16 A2 unnamed bridge (NE Alaunium)",
+  "description": "The Roman Bridge of Lurs is located to the northeast of Alaunium (modern Lurs, France). It was a bridge of the ancient Via Domitia.",
+  "connectsWith": [
+    "834876934"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.908046,
-          43.9798765
+          5.90867355,
+          43.9846386
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.907591,
-          43.97512
-        ]
-      },
-      "id": "darmc-location-14372",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 14372",
-        "link": "http://pleiades.stoa.org/places/159308/darmc-location-14372"
       }
     },
     {
@@ -55,6 +41,23 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/159308/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9088461,
+          43.9846442
+        ]
+      },
+      "id": "osm-location-of-pont-romain-de-lurs",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Pont romain de Lurs",
+        "link": "http://pleiades.stoa.org/places/159308/osm-location-of-pont-romain-de-lurs"
       }
     }
   ]

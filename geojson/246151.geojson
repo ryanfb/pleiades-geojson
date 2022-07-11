@@ -3,12 +3,15 @@
   "title": "Agiria",
   "id": "246151",
   "bbox": [
-    -1.30095,
-    40.920296,
-    -1.30095,
-    40.920296
+    -1.5020884,
+    40.0984878,
+    27.074936,
+    57.795172
   ],
-  "description": "An ancient place, cited: BAtlas 25 D5 Agiria",
+  "description": "A Roman road station in Spain mentioned only in the Antonine Itinerary, which places it between Albonica (unlocated) and Carae (unlocated) on the road between Laminium (probably Alhambra) and \"Caesarea Augusta\" (Zaragosa). No archaeological site can yet be tied conclusively to this mansio. BAtlas tentatively followed one of the potential identifications by placing the symbol at modern Calamocha, but other scholars have suggested modern Salvacañete instead.",
+  "connectsWith": [
+    "246289"
+  ],
   "names": [
     "Agiria"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.30095,
-          40.920296
+          12.7863547223,
+          48.9468047559
         ]
       },
       "properties": {
@@ -30,17 +33,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.30095,
-          40.920296
+          -1.5020884,
+          40.0984878
         ]
       },
-      "id": "darmc-location-19318",
+      "id": "osm-location-of-modern-salvacaa-ete",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 19318",
-        "link": "http://pleiades.stoa.org/places/246151/darmc-location-19318"
+        "title": "OSM Location of modern Salvacañete",
+        "link": "http://pleiades.stoa.org/places/246151/osm-location-of-modern-salvacaa-ete"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.074936,
+            57.795116
+          ],
+          [
+            27.074697,
+            57.795071
+          ],
+          [
+            27.07466,
+            57.795128
+          ],
+          [
+            27.074899,
+            57.795172
+          ],
+          [
+            27.074936,
+            57.795116
+          ]
+        ]
+      },
+      "id": "osm-location-of-modern-calamocha",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Calamocha",
+        "link": "http://pleiades.stoa.org/places/246151/osm-location-of-modern-calamocha"
       }
     }
   ]

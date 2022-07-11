@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Ad Novas",
   "id": "416770",
-  "description": "An ancient place, cited: BAtlas 42 unlocated Ad Novas",
+  "bbox": [
+    11.330502,
+    43.015733,
+    11.949059,
+    43.318695
+  ],
+  "description": "An unlocated Roman road station in Italy. As represented on the Peutinger Map, it was at least a minor hub in the road network, connected to Ad Grecos (unlocated), Arretium, Clusium, and Manliana. The Barrington Atlas Directory describes its likely general localization as \"between Saena and Clusium\".",
   "connectsWith": [
     "413293",
     "413096"
@@ -13,20 +19,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7716466,
+          43.1667601
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/416770/batlas-location"
       }
     }
   ]
