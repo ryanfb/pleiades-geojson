@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Malodes (mountain)",
   "id": "253694",
+  "bbox": [
+    3.1316264,
+    42.0521427,
+    3.1316264,
+    42.0521427
+  ],
   "description": "Sometimes associated with the Montgrí massif in Girona or a part thereof. The ancient name is known only from Avienus and is otherwise unattested.",
   "names": [
     "Malodes"
@@ -9,20 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1316264,
+          42.0521427
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1316264,
+          42.0521427
+        ]
+      },
+      "id": "location-of-montgri-massif",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/253694/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Muntanya del Montgrí ",
+        "link": "http://pleiades.stoa.org/places/253694/location-of-montgri-massif"
       }
     }
   ]
