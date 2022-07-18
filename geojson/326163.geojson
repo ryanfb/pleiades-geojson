@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Theveste Roman Bridge",
   "id": "326163",
   "bbox": [
-    8.0,
-    35.0,
-    8.5,
-    35.5
+    8.1416663,
+    35.4209281,
+    8.1418735,
+    35.421088
   ],
-  "description": "An ancient place, cited: BAtlas 33 B2 unnamed bridge (N Theveste)",
+  "description": "An unnamed bridge located north of Theveste (modern Tébessa, Algeria) on a Roman road between Theveste and Ammaedara (modern Haidra).",
   "connectsWith": [
     "324831"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.25,
-          35.25
+          8.14176924666,
+          35.4210088929
         ]
       },
       "properties": {
@@ -28,39 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              8.0,
-              35.0
-            ],
-            [
-              8.0,
-              35.5
-            ],
-            [
-              8.5,
-              35.5
-            ],
-            [
-              8.5,
-              35.0
-            ],
-            [
-              8.0,
-              35.0
-            ]
+            8.1418353,
+            35.421088
+          ],
+          [
+            8.1416663,
+            35.4209531
+          ],
+          [
+            8.1416987,
+            35.4209281
+          ],
+          [
+            8.1418735,
+            35.421065
+          ],
+          [
+            8.1418353,
+            35.421088
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/326163/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Roman bridge",
+        "link": "http://pleiades.stoa.org/places/326163/osm-location-of-roman-bridge"
       }
     }
   ]

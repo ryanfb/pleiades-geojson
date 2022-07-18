@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "La Brèche",
+  "title": "La Brèche (necropolis)",
   "id": "148022",
   "bbox": [
-    4.5,
-    44.0,
-    5.0,
-    44.5
+    4.693504,
+    44.113195,
+    4.693504,
+    44.113195
   ],
-  "description": "An ancient place, cited: BAtlas 15 D1 La Brèche",
+  "description": "A large necropolis excavated under rescue conditions in the 20th century. Grave goods indicated a long period of use, stretching from as early as the third century CE to as late as the sixteenth. The site is located in the French commune of Laudun-l'Ardoise, near the confluences of the Tave, Céze, and Rhône rivers.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.75,
-          44.25
+          4.693504,
+          44.113195
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              4.5,
-              44.0
-            ],
-            [
-              4.5,
-              44.5
-            ],
-            [
-              5.0,
-              44.5
-            ],
-            [
-              5.0,
-              44.0
-            ],
-            [
-              4.5,
-              44.0
-            ]
-          ]
+          4.693504,
+          44.113195
         ]
       },
-      "id": "undetermined",
+      "id": "approximate-imagery-location-of-necropolis",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/148022/undetermined"
+        "description": "Location determined in Google earth with reference to small-scale sketch map in Feugère 1987 (figure 1, page 81), which shows a dot near the confluence of the Tave and the Cèze rivers. BAtlas places the necropolis just south of the Tave. On page 81, the location is described only generally as \"sur la rive droite de la Céze\". Dates after Feugère.",
+        "location_precision": "precise",
+        "title": "Approximate imagery location of necropolis",
+        "link": "http://pleiades.stoa.org/places/148022/approximate-imagery-location-of-necropolis"
       }
     }
   ]

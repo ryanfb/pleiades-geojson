@@ -1,28 +1,46 @@
 {
   "type": "FeatureCollection",
-  "title": "Trete Iugum",
+  "title": "Trete Iugum (promontory)",
   "id": "271076",
-  "description": "An ancient place, cited: BAtlas 27 unlocated Trete Iugum",
+  "bbox": [
+    -0.69,
+    37.635,
+    -0.69,
+    37.635
+  ],
+  "description": "The Trete Iugum is mentioned only in Avienus, where (if it is not a fantasy) it seems mostly likely to correspond to the modern Cabo de Palos, a small cape on the Mediterranean coast of modern Spain at Cartagena.",
   "names": [
     "Trete Iugum"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.69,
+          37.635
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.69,
+          37.635
+        ]
+      },
+      "id": "osm-location-of-cape-palos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/271076/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Palos",
+        "link": "http://pleiades.stoa.org/places/271076/osm-location-of-cape-palos"
       }
     }
   ]

@@ -2,27 +2,282 @@
   "type": "FeatureCollection",
   "title": "Salduba (river)",
   "id": "270371",
-  "description": "An ancient place, cited: BAtlas 27 unlocated Salduba fl.",
+  "bbox": [
+    -4.4731178,
+    36.6650892,
+    -4.1103798,
+    36.794311
+  ],
+  "description": "A river, placed by ancient sources to the west of Malaca (modern Malaga in Spain), the Salduba may correspond to either the Vélez or the Guadalhorce river.",
   "names": [
     "Salduba"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.29144265545,
+          36.7244477286
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.4731178,
+            36.6795524
+          ],
+          [
+            -4.4721909,
+            36.6789045
+          ],
+          [
+            -4.4716714,
+            36.6773631
+          ],
+          [
+            -4.4710039,
+            36.6768308
+          ],
+          [
+            -4.4690937,
+            36.6757223
+          ],
+          [
+            -4.4638361,
+            36.673475
+          ],
+          [
+            -4.4628415,
+            36.6728148
+          ],
+          [
+            -4.4607225,
+            36.6714473
+          ],
+          [
+            -4.4598578,
+            36.6708893
+          ],
+          [
+            -4.4575257,
+            36.6684686
+          ],
+          [
+            -4.4550915,
+            36.6660857
+          ],
+          [
+            -4.4551844,
+            36.6656531
+          ],
+          [
+            -4.4551112,
+            36.6654115
+          ],
+          [
+            -4.4548206,
+            36.6650892
+          ]
+        ]
+      },
+      "id": "osm-location-of-rio-guadalhorce",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/270371/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Rio Guadalhorce",
+        "link": "http://pleiades.stoa.org/places/270371/osm-location-of-rio-guadalhorce"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.1307,
+            36.794311
+          ],
+          [
+            -4.1305133,
+            36.7940166
+          ],
+          [
+            -4.1302609,
+            36.7936187
+          ],
+          [
+            -4.1277688,
+            36.7904353
+          ],
+          [
+            -4.1261888,
+            36.7880079
+          ],
+          [
+            -4.1252711,
+            36.7869288
+          ],
+          [
+            -4.124006,
+            36.785815
+          ],
+          [
+            -4.12243,
+            36.784566
+          ],
+          [
+            -4.1219381,
+            36.7841729
+          ],
+          [
+            -4.121106,
+            36.783508
+          ],
+          [
+            -4.1191452,
+            36.7820201
+          ],
+          [
+            -4.1191263,
+            36.7820053
+          ],
+          [
+            -4.1185916,
+            36.7815874
+          ],
+          [
+            -4.1180185,
+            36.7810737
+          ],
+          [
+            -4.1173806,
+            36.780336
+          ],
+          [
+            -4.1168143,
+            36.7794808
+          ],
+          [
+            -4.116482,
+            36.778782
+          ],
+          [
+            -4.1163067,
+            36.7781661
+          ],
+          [
+            -4.1157405,
+            36.7760555
+          ],
+          [
+            -4.1156681,
+            36.7752893
+          ],
+          [
+            -4.115903,
+            36.774557
+          ],
+          [
+            -4.116022,
+            36.773808
+          ],
+          [
+            -4.1159882,
+            36.7728212
+          ],
+          [
+            -4.1159609,
+            36.7712336
+          ],
+          [
+            -4.1158552,
+            36.7705914
+          ],
+          [
+            -4.1155447,
+            36.7694683
+          ],
+          [
+            -4.115499,
+            36.76917
+          ],
+          [
+            -4.1155618,
+            36.7685365
+          ],
+          [
+            -4.115877,
+            36.76703
+          ],
+          [
+            -4.116046,
+            36.766006
+          ],
+          [
+            -4.1162065,
+            36.7648445
+          ],
+          [
+            -4.116206,
+            36.764494
+          ],
+          [
+            -4.11614,
+            36.763923
+          ],
+          [
+            -4.115765,
+            36.762385
+          ],
+          [
+            -4.115585,
+            36.761833
+          ],
+          [
+            -4.115397,
+            36.761524
+          ],
+          [
+            -4.1148659,
+            36.7608954
+          ],
+          [
+            -4.1132523,
+            36.7593376
+          ],
+          [
+            -4.1127065,
+            36.7588948
+          ],
+          [
+            -4.1119457,
+            36.7584493
+          ],
+          [
+            -4.1106456,
+            36.7578288
+          ],
+          [
+            -4.1103798,
+            36.7576667
+          ]
+        ]
+      },
+      "id": "osm-location-of-rao-va-c-lez",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Río Vélez",
+        "link": "http://pleiades.stoa.org/places/270371/osm-location-of-rao-va-c-lez"
       }
     }
   ]
