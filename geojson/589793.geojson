@@ -3,20 +3,20 @@
   "title": "Gemakhi",
   "id": "589793",
   "bbox": [
-    26.5,
-    34.5,
-    27.0,
-    35.0
+    28.1271224903,
+    36.2404717084,
+    28.1271224903,
+    36.2404717084
   ],
-  "description": "An ancient place, cited: BAtlas 60 G3 Gemakhi",
+  "description": "An ancient necropolis of uncertain date on the island of Rhodes.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          34.75
+          28.1271224903,
+          36.2404717084
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              26.5,
-              34.5
-            ],
-            [
-              26.5,
-              35.0
-            ],
-            [
-              27.0,
-              35.0
-            ],
-            [
-              27.0,
-              34.5
-            ],
-            [
-              26.5,
-              34.5
-            ]
-          ]
+          28.12712249025327,
+          36.240471708405046
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-location-of-gemakhi",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589793/batlas-location"
+        "description": "Digitized in QGIS from Barrington raster georegistered to original projection (ONC G-3) using gridlines.",
+        "location_precision": "precise",
+        "title": "BAtlas Location of Gemakhi",
+        "link": "http://pleiades.stoa.org/places/589793/batlas-location-of-gemakhi"
       }
     }
   ]

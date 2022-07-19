@@ -3,12 +3,12 @@
   "title": "Actaei",
   "id": "39267",
   "bbox": [
-    45.0,
-    15.0,
-    50.0,
-    20.0
+    47.6945730309,
+    15.6909277389,
+    48.2200299671,
+    16.0537470264
   ],
-  "description": "An ancient place, cited: BAtlas 4 C2 Actaei",
+  "description": "A people of the southern Arabian peninsula, localized around modern al-Qatn in Yemen.",
   "names": [
     "Actaei",
     "Acthei"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.5,
-          17.5
+          47.9637238553,
+          15.8813286872
         ]
       },
       "properties": {
@@ -29,39 +29,41 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              45.0,
-              15.0
-            ],
-            [
-              45.0,
-              20.0
-            ],
-            [
-              50.0,
-              20.0
-            ],
-            [
-              50.0,
-              15.0
-            ],
-            [
-              45.0,
-              15.0
-            ]
+            47.69457303086749,
+            16.05374702640643
+          ],
+          [
+            47.84013058769617,
+            15.969596016548328
+          ],
+          [
+            47.939316444546016,
+            15.90728253349233
+          ],
+          [
+            48.02583380836077,
+            15.837905517860959
+          ],
+          [
+            48.13055322963311,
+            15.770562182117308
+          ],
+          [
+            48.22002996713116,
+            15.690927738920818
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39267/batlas-location"
+        "description": "Long axis of label used in the Barrington Atlas. Dates after BAtlDir.",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/39267/batlas-label-location"
       }
     }
   ]

@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Leon Pr.",
+  "title": "Leon (promontory)",
   "id": "589903",
   "bbox": [
-    24.5,
-    34.5,
-    25.0,
-    35.0
+    24.9200476,
+    34.9272516,
+    24.9200476,
+    34.9272516
   ],
-  "description": "An ancient place, cited: BAtlas 60 C3 Leon Pr.",
+  "description": "Mentioned in ancient sources, Leon can be associated with the small, modern Cape Kefalas, located just west of modern Lentas (ancient Leben) on the south coast of Crete.",
   "names": [
     "Leon Pr."
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.75,
-          34.75
+          24.9200476,
+          34.9272516
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              24.5,
-              34.5
-            ],
-            [
-              24.5,
-              35.0
-            ],
-            [
-              25.0,
-              35.0
-            ],
-            [
-              25.0,
-              34.5
-            ],
-            [
-              24.5,
-              34.5
-            ]
-          ]
+          24.9200476,
+          34.9272516
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-promontory",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589903/batlas-location"
+        "description": "Location based on OpenStreetMap after BAtlas label placement.",
+        "location_precision": "precise",
+        "title": "OSM Location of promontory",
+        "link": "http://pleiades.stoa.org/places/589903/osm-location-of-promontory"
       }
     }
   ]
