@@ -1,22 +1,26 @@
 {
   "type": "FeatureCollection",
-  "title": "Merachiche",
+  "title": "Merachiche/Bou Khenndak",
   "id": "295308",
   "bbox": [
-    1.0,
-    36.0,
-    1.5,
-    36.5
+    1.33203,
+    36.46667,
+    1.36667,
+    36.48186
   ],
-  "description": "An ancient place, cited: BAtlas 30 B4 Merachiche",
+  "description": "Evidence of possible ancient construction, presumably associated with the nearby copper mines at \"Bou Khandek\", was noted by AAA at modern \"Merachiche\", southeast of modern Ténès in Algeria (ancient Cartenna).",
+  "names": [
+    "Boukhandek",
+    "Douar M'rachiche"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.25,
-          36.25
+          1.34935,
+          36.474265
         ]
       },
       "properties": {
@@ -25,39 +29,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              1.0,
-              36.0
-            ],
-            [
-              1.0,
-              36.5
-            ],
-            [
-              1.5,
-              36.5
-            ],
-            [
-              1.5,
-              36.0
-            ],
-            [
-              1.0,
-              36.0
-            ]
-          ]
+          1.36667,
+          36.46667
         ]
       },
-      "id": "batlas-location",
+      "id": "geonames-location-of-mines-de-cuivre-bou-khenndak",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295308/batlas-location"
+        "location_precision": "precise",
+        "title": "Geonames location of Mines de Cuivre Bou Khenndak",
+        "link": "http://pleiades.stoa.org/places/295308/geonames-location-of-mines-de-cuivre-bou-khenndak"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.33203,
+          36.48186
+        ]
+      },
+      "id": "geonames-location-of-douar-m2019rachiche",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "Geonames location of Douar M’rachiche",
+        "link": "http://pleiades.stoa.org/places/295308/geonames-location-of-douar-m2019rachiche"
       }
     }
   ]

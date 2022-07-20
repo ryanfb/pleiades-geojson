@@ -3,20 +3,20 @@
   "title": "Oued Krerza",
   "id": "295320",
   "bbox": [
-    3.0,
-    36.0,
-    3.5,
-    36.5
+    3.2188635,
+    35.9947445,
+    3.2558999,
+    36.0059421
   ],
-  "description": "An ancient place, cited: BAtlas 30 F4 Oued Krerza",
+  "description": "The AAA reports significant Roman ruins on both sides of the \"Oued Krerza\", especially to the south and southeast of the \"djebbana Dra el Abiod\". These names are not readily found in modern digital gazetteers; however, comparative analysis of AAA sheet 14 with Google Earth imagery and OpenStreetMap permits localization to the area roughly between and around modern \"El Kherza\" and \"Ouled Hadhria\".",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.25,
-          36.25
+          3.2373817,
+          36.0003433
         ]
       },
       "properties": {
@@ -25,39 +25,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              3.0,
-              36.0
-            ],
-            [
-              3.0,
-              36.5
-            ],
-            [
-              3.5,
-              36.5
-            ],
-            [
-              3.5,
-              36.0
-            ],
-            [
-              3.0,
-              36.0
-            ]
-          ]
+          3.2188635,
+          36.0059421
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-el-kherza",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295320/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern El Kherza",
+        "link": "http://pleiades.stoa.org/places/295320/osm-location-of-modern-el-kherza"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2558999,
+          35.9947445
+        ]
+      },
+      "id": "osm-location-of-modern-ouled-hadhria",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Ouled Hadhria",
+        "link": "http://pleiades.stoa.org/places/295320/osm-location-of-modern-ouled-hadhria"
       }
     }
   ]

@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Puente de Génave Roman Bridge",
   "id": "267284",
   "bbox": [
-    -3.0,
-    38.0,
-    -2.0,
-    39.0
+    -2.8032447,
+    38.3553247,
+    -2.8030536,
+    38.355527
   ],
-  "description": "An ancient place, cited: BAtlas 27 C3 unnamed bridge (Puente de Génave, SSE Mariana)",
+  "description": "Known locally as the Puente Romano or Puente Viejo, this single-arched bridge crosses the modern Rio Guadalimar at Puente de Génave in Andalusia, Spain.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          38.5
+          -2.80314915,
+          38.35542585
         ]
       },
       "properties": {
@@ -25,39 +25,25 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -3.0,
-              38.0
-            ],
-            [
-              -3.0,
-              39.0
-            ],
-            [
-              -2.0,
-              39.0
-            ],
-            [
-              -2.0,
-              38.0
-            ],
-            [
-              -3.0,
-              38.0
-            ]
+            -2.8032447,
+            38.3553247
+          ],
+          [
+            -2.8030536,
+            38.355527
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-puente-viejo",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/267284/batlas-location"
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "OSM Location of Puente Viejo",
+        "link": "http://pleiades.stoa.org/places/267284/osm-location-of-puente-viejo"
       }
     }
   ]
