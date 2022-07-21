@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Tachachit",
+  "title": "Tachachit Roman Site",
   "id": "295349",
   "bbox": [
-    4.0,
-    36.0,
-    4.5,
-    36.5
+    4.116589,
+    36.367032,
+    4.116589,
+    36.367032
   ],
-  "description": "An ancient place, cited: BAtlas 30 H4 Tachachit",
+  "description": "A small fortified hilltop settlement located on private land in the modern Algerian village of \"Crète Rouge\" at Tachachit, which is approximately 8km north of El Adjiba. Noted already by Gsell for AAA, a 2012 cultural inventory notes visible remnants of walls, roof tiles, drainage conduit, a cistern, and a polychrome opus-tesselatum mosaic.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.25,
-          36.25
+          4.116589,
+          36.367032
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              4.0,
-              36.0
-            ],
-            [
-              4.0,
-              36.5
-            ],
-            [
-              4.5,
-              36.5
-            ],
-            [
-              4.5,
-              36.0
-            ],
-            [
-              4.0,
-              36.0
-            ]
-          ]
+          4.116589,
+          36.367032
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295349/batlas-location"
+        "description": "Imagery location after description in Boutarene 2017.",
+        "location_precision": "precise",
+        "title": "Imagery Location",
+        "link": "http://pleiades.stoa.org/places/295349/imagery-location"
       }
     }
   ]
