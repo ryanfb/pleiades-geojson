@@ -2,27 +2,28 @@
   "type": "FeatureCollection",
   "title": "Aque Ange",
   "id": "456032",
-  "description": "An ancient place, cited: BAtlas 46 unlocated ‘Aque Ange’",
+  "bbox": [
+    16.2598678,
+    38.9740422,
+    16.2598678,
+    38.9740422
+  ],
+  "description": "An ancient road station and/or spa mentioned on the Peutinger Map. It's precise location cannot be determined today; however, some scholars have suggested that it be identified with the modern Terme di Caronte at Lamezia Terme in Italy's Cantanzaro province.",
   "names": [
     "Aque Ange"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2598678,
+          38.9740422
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/456032/batlas-location"
       }
     }
   ]
