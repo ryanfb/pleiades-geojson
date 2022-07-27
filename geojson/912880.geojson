@@ -3,12 +3,12 @@
   "title": "Kas(h)kar",
   "id": "912880",
   "bbox": [
-    46.0,
-    32.0,
-    47.0,
-    33.0
+    31.1406026,
+    -29.5443422,
+    31.1411004,
+    -29.5432314
   ],
-  "description": "Kas(h)kar was a a significant Sasanian city built on the west bank of the Tigris river.",
+  "description": "Kas(h)kar was a significant Sasanian city, originally built on the west bank of the Tigris river in what is now modern Iraq's al-Kut district. A major flood in antiquity moved the channel of the Tigris, leaving Kashkar on the east bank. The city was supplanted by the new city of Wasit, built in the 8th century CE; Kashkar was subsequently abandoned. The original city is presumed to have lain somewhere in the vicinity of the modern residential area northeast of modern Wasit, across the heavily-controlled modern Tigris.",
   "names": [
     "Kashkar",
     "Kaskar"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.5,
-          32.5
+          31.1408074997,
+          -29.5437696898
         ]
       },
       "properties": {
@@ -29,39 +29,57 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              46.0,
-              32.0
-            ],
-            [
-              46.0,
-              33.0
-            ],
-            [
-              47.0,
-              33.0
-            ],
-            [
-              47.0,
-              32.0
-            ],
-            [
-              46.0,
-              32.0
-            ]
+            31.1406026,
+            -29.5443422
+          ],
+          [
+            31.1406304,
+            -29.5442925
+          ],
+          [
+            31.1406458,
+            -29.5442424
+          ],
+          [
+            31.1406545,
+            -29.5441852
+          ],
+          [
+            31.1406827,
+            -29.5439787
+          ],
+          [
+            31.1406914,
+            -29.5439262
+          ],
+          [
+            31.1407075,
+            -29.5438696
+          ],
+          [
+            31.1407585,
+            -29.5437675
+          ],
+          [
+            31.1409804,
+            -29.5434301
+          ],
+          [
+            31.1411004,
+            -29.5432314
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-cross-tigris-residential",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912880/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern cross-Tigris residential area",
+        "link": "http://pleiades.stoa.org/places/912880/osm-location-of-modern-cross-tigris-residential"
       }
     }
   ]

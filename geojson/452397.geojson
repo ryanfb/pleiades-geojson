@@ -1,22 +1,27 @@
 {
   "type": "FeatureCollection",
-  "title": "Palazzi",
+  "title": "Casignana Roman Villa",
   "id": "452397",
   "bbox": [
-    16.0,
-    38.0,
-    16.5,
-    38.5
+    16.1572179,
+    38.1170258,
+    16.1589346,
+    38.1182075
   ],
-  "description": "The remains of a Roman villa, known as the Roman villa of Casignana, dating to the first through fifth centuries AD.",
+  "description": "The remains of a Roman villa in the modern Italian municipality of Casignana in Calabria. The site dates to the first through fifth centuries AD and is located near the Mediterranean coast, along the Strada Statale 106 between Bianco and Bovalino.",
+  "names": [
+    "Palazzi",
+    "Palazzi di Casignana",
+    "Villa romana di Casignana"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.25,
-          38.25
+          16.1580973721,
+          38.1176173873
         ]
       },
       "properties": {
@@ -25,39 +30,69 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              16.0,
-              38.0
-            ],
-            [
-              16.0,
-              38.5
-            ],
-            [
-              16.5,
-              38.5
-            ],
-            [
-              16.5,
-              38.0
-            ],
-            [
-              16.0,
-              38.0
-            ]
+            16.1584464,
+            38.1181611
+          ],
+          [
+            16.1579958,
+            38.1182075
+          ],
+          [
+            16.1576578,
+            38.1181442
+          ],
+          [
+            16.1572609,
+            38.1179205
+          ],
+          [
+            16.1572179,
+            38.1175027
+          ],
+          [
+            16.1572716,
+            38.1172452
+          ],
+          [
+            16.1577597,
+            38.1170806
+          ],
+          [
+            16.1580548,
+            38.1170258
+          ],
+          [
+            16.158543,
+            38.1170638
+          ],
+          [
+            16.1588487,
+            38.1171777
+          ],
+          [
+            16.1589346,
+            38.1176209
+          ],
+          [
+            16.1588541,
+            38.118102
+          ],
+          [
+            16.1584464,
+            38.1181611
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-roman-villa",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452397/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Roman villa",
+        "link": "http://pleiades.stoa.org/places/452397/osm-location-of-roman-villa"
       }
     }
   ]

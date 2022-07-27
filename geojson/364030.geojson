@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Unnamed ancient settlement at Umm el-Gbur",
+  "title": "Umm el-Gbur",
   "id": "364030",
   "bbox": [
-    16.0,
-    30.0,
-    17.0,
-    31.0
+    16.743,
+    30.946,
+    16.743,
+    30.946
   ],
-  "description": "An ancient Syrtican settlement (historical name unknown) at mod. Umm el-Gbur in Libya (BAtlas 37 B2)",
+  "description": "An ancient settlement at modern Umm el-Gbur in Libya.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          30.5
+          16.743,
+          30.946
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              16.0,
-              30.0
-            ],
-            [
-              16.0,
-              31.0
-            ],
-            [
-              17.0,
-              31.0
-            ],
-            [
-              17.0,
-              30.0
-            ],
-            [
-              16.0,
-              30.0
-            ]
-          ]
+          16.743,
+          30.946
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-location",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/364030/undetermined"
+        "location_precision": "precise",
+        "title": "BAtlas Location",
+        "link": "http://pleiades.stoa.org/places/364030/batlas-location"
       }
     }
   ]
