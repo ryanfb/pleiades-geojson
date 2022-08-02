@@ -3,13 +3,14 @@
   "title": "Timici",
   "id": "295362",
   "bbox": [
-    0.0,
-    36.0,
-    1.5,
-    37.0
+    0.9222293,
+    36.2472325,
+    0.9222293,
+    36.2472325
   ],
-  "description": "An ancient place, cited: BAtlas 30 inset Timici",
+  "description": "A Roman settlement in Mauretania, mentioned in Ptolemy and Pliny, that has been associated with a site that was known as Sidi bou Chaïb in the mid 20th century. That site is now in the territory of the modern Algerian town of Taougrite (colonial Paul-Robert), Chlef province.",
   "names": [
+    "Sidi bou Chaib",
     "Timici"
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.75,
-          36.5
+          0.9222293,
+          36.2472325
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              0.0,
-              36.0
-            ],
-            [
-              0.0,
-              37.0
-            ],
-            [
-              1.5,
-              37.0
-            ],
-            [
-              1.5,
-              36.0
-            ],
-            [
-              0.0,
-              36.0
-            ]
-          ]
+          0.9222293,
+          36.2472325
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-taougrite",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295362/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Taougrite",
+        "link": "http://pleiades.stoa.org/places/295362/osm-location-of-modern-taougrite"
       }
     }
   ]

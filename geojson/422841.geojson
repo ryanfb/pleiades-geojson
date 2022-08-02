@@ -5,8 +5,8 @@
   "bbox": [
     12.716667,
     41.95,
-    12.716667,
-    41.95
+    12.7216744,
+    41.9676991
   ],
   "description": "A group of springs located west of Tibur (modern Tivoli). The main spring, known as Lago della Regina, preserves traces of an ancient Roman bath.",
   "connectsWith": [
@@ -21,49 +21,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.716667,
-          41.95
+          12.7189339194,
+          41.9586803388
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
-              12.75,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/422841/batlas-location"
       }
     },
     {
@@ -81,6 +44,85 @@
         "location_precision": "precise",
         "title": "Coordinate Geografiche location of Aquae Albulae",
         "link": "http://pleiades.stoa.org/places/422841/location-of-aquae-albulae"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.7210656,
+            41.9676612
+          ],
+          [
+            12.7208564,
+            41.967531
+          ],
+          [
+            12.7206981,
+            41.9673561
+          ],
+          [
+            12.7208027,
+            41.9671308
+          ],
+          [
+            12.721079,
+            41.9670564
+          ],
+          [
+            12.7212802,
+            41.967049
+          ],
+          [
+            12.7214679,
+            41.9671102
+          ],
+          [
+            12.7215859,
+            41.9672099
+          ],
+          [
+            12.7215833,
+            41.9672678
+          ],
+          [
+            12.7216744,
+            41.9673342
+          ],
+          [
+            12.7216557,
+            41.9674618
+          ],
+          [
+            12.7216074,
+            41.9674957
+          ],
+          [
+            12.7215993,
+            41.9675769
+          ],
+          [
+            12.7212989,
+            41.9676991
+          ],
+          [
+            12.7211675,
+            41.9676547
+          ],
+          [
+            12.7210656,
+            41.9676612
+          ]
+        ]
+      },
+      "id": "osm-location-of-lago-della-regina",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Lago della Regina",
+        "link": "http://pleiades.stoa.org/places/422841/osm-location-of-lago-della-regina"
       }
     }
   ]
