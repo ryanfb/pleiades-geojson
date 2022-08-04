@@ -1,22 +1,28 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "San Lázaro Aqueduct",
   "id": "256709",
   "bbox": [
-    -7.0,
-    38.0,
-    -6.0,
-    39.0
+    -6.3356275,
+    38.9204358,
+    -6.335166,
+    38.9254828
   ],
-  "description": "An ancient place, cited: BAtlas 26 D3 unnamed aqueduct (N Emerita Augusta (Rabo de Buey-San Lázaro))",
+  "description": "The San Lázaro Aqueduct is located to the north of Emerita Augusta in the locality Rabo de Buey-San Lázaro, as noted by the Barrington Atlas Directory.",
+  "connectsWith": [
+    "256155"
+  ],
+  "names": [
+    "Acueducto de San Lázaro"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          38.5
+          -6.33540611128,
+          38.9229602049
         ]
       },
       "properties": {
@@ -25,39 +31,93 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -7.0,
-              38.0
-            ],
-            [
-              -7.0,
-              39.0
-            ],
-            [
-              -6.0,
-              39.0
-            ],
-            [
-              -6.0,
-              38.0
-            ],
-            [
-              -7.0,
-              38.0
-            ]
+            -6.335166,
+            38.9204358
+          ],
+          [
+            -6.3351665,
+            38.9206116
+          ],
+          [
+            -6.3351736,
+            38.9207327
+          ],
+          [
+            -6.3352188,
+            38.92106
+          ],
+          [
+            -6.3352392,
+            38.9213189
+          ],
+          [
+            -6.3352536,
+            38.9214651
+          ],
+          [
+            -6.3352842,
+            38.9216159
+          ],
+          [
+            -6.3353111,
+            38.9220131
+          ],
+          [
+            -6.3353749,
+            38.9223946
+          ],
+          [
+            -6.3354149,
+            38.9230428
+          ],
+          [
+            -6.3354146,
+            38.9232096
+          ],
+          [
+            -6.3354555,
+            38.923447
+          ],
+          [
+            -6.3354629,
+            38.9239344
+          ],
+          [
+            -6.335481,
+            38.9240861
+          ],
+          [
+            -6.3356068,
+            38.9246271
+          ],
+          [
+            -6.3356211,
+            38.9248341
+          ],
+          [
+            -6.3356248,
+            38.925217
+          ],
+          [
+            -6.3356275,
+            38.9252735
+          ],
+          [
+            -6.3356254,
+            38.9254828
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-acueducto-de-san-la-zaro",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256709/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Acueducto de San Lázaro",
+        "link": "http://pleiades.stoa.org/places/256709/osm-location-of-acueducto-de-san-la-zaro"
       }
     }
   ]

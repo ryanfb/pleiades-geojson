@@ -1,16 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Boreion Pr.",
+  "title": "Boreion (promontory)",
   "id": "373760",
   "bbox": [
-    19.0,
-    31.0,
-    20.0,
-    32.0
+    19.95,
+    31.95,
+    19.95,
+    31.95
   ],
-  "description": "An ancient place, cited: BAtlas 38 A2 Boreion Pr.",
+  "description": "Modern Ra’s Tāwīnis on Libya's Mediterranean coast.",
   "names": [
-    "Boreion Pr.",
+    "Ra’s Tāwīnis",
+    "Ras Taiunes",
+    "Boreion akron",
     "Bryon Aigialos"
   ],
   "features": [
@@ -19,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          31.5
+          19.95,
+          31.95
         ]
       },
       "properties": {
@@ -29,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              19.0,
-              31.0
-            ],
-            [
-              19.0,
-              32.0
-            ],
-            [
-              20.0,
-              32.0
-            ],
-            [
-              20.0,
-              31.0
-            ],
-            [
-              19.0,
-              31.0
-            ]
-          ]
+          19.95,
+          31.95
         ]
       },
-      "id": "batlas-location",
+      "id": "geonames-location-of-ra2019s-tawinis",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373760/batlas-location"
+        "description": "Coordinates following GeoNames",
+        "location_precision": "precise",
+        "title": "Geonames location of Ra’s Tāwīnis",
+        "link": "http://pleiades.stoa.org/places/373760/geonames-location-of-ra2019s-tawinis"
       }
     }
   ]
