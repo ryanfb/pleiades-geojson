@@ -1,16 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Pele? (island)",
+  "title": "Pele (island)",
   "id": "550807",
   "bbox": [
-    26.5,
-    38.0,
-    27.0,
-    38.5
+    26.7619267,
+    38.4375618,
+    26.7619267,
+    38.4375618
   ],
-  "description": "The modern Hekim Adası.",
+  "description": "An ancient island, probably to be associated with the modern Hekim Adası.",
   "names": [
-    "Pele"
+    "Pele",
+    "Hekim Adası"
   ],
   "features": [
     {
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          38.25
+          26.7619267,
+          38.4375618
         ]
       },
       "properties": {
@@ -28,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              26.5,
-              38.0
-            ],
-            [
-              26.5,
-              38.5
-            ],
-            [
-              27.0,
-              38.5
-            ],
-            [
-              27.0,
-              38.0
-            ],
-            [
-              26.5,
-              38.0
-            ]
-          ]
+          26.7619267,
+          38.4375618
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550807/undetermined"
+        "description": "Representative modern location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Hekim Adası",
+        "link": "http://pleiades.stoa.org/places/550807/osm-location"
       }
     }
   ]
