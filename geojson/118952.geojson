@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Schirenhof",
+  "title": "Schirenhof Roman Fort",
   "id": "118952",
   "bbox": [
-    9.775091,
-    48.785496,
-    9.776917,
-    48.786694
+    9.7760915,
+    48.7858199,
+    9.7788134,
+    48.7876509
   ],
-  "description": "An ancient place, cited: BAtlas 12 C4 Schirenhof",
+  "description": "A Roman fort with associated vicus located at modern Schirenhof in the German municipality of Schwäbisch Gmünd, Baden-Württemberg.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.776004,
-          48.786095
+          9.777184725,
+          48.7867147
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          9.775091,
-          48.785496
+          [
+            9.7760915,
+            48.7869203
+          ],
+          [
+            9.7774382,
+            48.7858199
+          ],
+          [
+            9.7788134,
+            48.7865505
+          ],
+          [
+            9.7774667,
+            48.7876509
+          ],
+          [
+            9.7760915,
+            48.7869203
+          ]
         ]
       },
-      "id": "darmc-location-8283",
+      "id": "osm-approximate-location-of-kohortenkastell",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
         "location_precision": "precise",
-        "title": "DARMC location 8283",
-        "link": "http://pleiades.stoa.org/places/118952/darmc-location-8283"
+        "title": "OSM Approximate Location of Kohortenkastell Schirenhof",
+        "link": "http://pleiades.stoa.org/places/118952/osm-approximate-location-of-kohortenkastell"
       }
     },
     {
