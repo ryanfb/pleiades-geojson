@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Puente sobre el Arroyo Rabanales",
   "id": "267273",
   "bbox": [
-    -5.0,
-    37.0,
-    -4.0,
-    38.0
+    -4.732364,
+    37.902847,
+    -4.732364,
+    37.902847
   ],
-  "description": "An ancient place, cited: BAtlas 27 A4 unnamed bridge (SW La Valenzoleja on Arroyo Rabanales)",
+  "description": "A bridge, originally of Roman date, over the modern Arroyo Rabanales (a tributary of the Guadalquivir) just east of Cordoba, Spain. The bridge was in use as late as the 1920s.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          37.5
+          -4.732364,
+          37.902847
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -5.0,
-              37.0
-            ],
-            [
-              -5.0,
-              38.0
-            ],
-            [
-              -4.0,
-              38.0
-            ],
-            [
-              -4.0,
-              37.0
-            ],
-            [
-              -5.0,
-              37.0
-            ]
-          ]
+          -4.732364,
+          37.902847
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/267273/batlas-location"
+        "description": "Location determined with reference to Google Earth screen capture in Romero Correas 2021. Exact location verified in Google Earth Pro using historical imagery dating to 15 August 2007 (foliage progressively and ultimately completely blocks the view in later imagery). This location matches Figures 38 and 39 in Ostos López 2014.",
+        "location_precision": "precise",
+        "title": "Imagery Location of bridge",
+        "link": "http://pleiades.stoa.org/places/267273/imagery-location-of-bridge"
       }
     }
   ]
