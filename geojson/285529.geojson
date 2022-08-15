@@ -4,11 +4,14 @@
   "id": "285529",
   "bbox": [
     -0.192255,
-    35.532275,
-    -0.192255,
+    35.5305119,
+    -0.1906822,
     35.532275
   ],
-  "description": "An ancient place, cited: BAtlas 29 E1 Tasaccora",
+  "description": "An ancient settlement in north Africa near a river of the same name. Modern Siq in Algeria.",
+  "connectsWith": [
+    "285530"
+  ],
   "names": [
     "Tasaccora"
   ],
@@ -18,12 +21,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.192255,
-          35.532275
+          -0.1914686,
+          35.53139345
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1906822,
+          35.5305119
+        ]
+      },
+      "id": "osm-location-of-modern-sig",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Sig",
+        "link": "http://pleiades.stoa.org/places/285529/osm-location-of-modern-sig"
       }
     },
     {
@@ -37,7 +57,7 @@
       "id": "darmc-location-15018",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 15018",
         "link": "http://pleiades.stoa.org/places/285529/darmc-location-15018"
