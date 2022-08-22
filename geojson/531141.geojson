@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Vigla",
+  "title": "Vigla Keramitsas",
   "id": "531141",
   "bbox": [
-    20.0,
-    39.5,
-    20.5,
-    40.0
+    20.439784,
+    39.660436,
+    20.439784,
+    39.660436
   ],
-  "description": "An ancient place, cited: BAtlas 54 B2 Vigla",
+  "description": "A small guard tower in Epirus.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.25,
-          39.75
+          20.439784,
+          39.660436
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.0,
-              39.5
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
-              20.5,
-              40.0
-            ],
-            [
-              20.5,
-              39.5
-            ],
-            [
-              20.0,
-              39.5
-            ]
-          ]
+          20.439784,
+          39.660436
         ]
       },
-      "id": "batlas-location",
+      "id": "reported-location-of-vigla-keramitsas",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531141/batlas-location"
+        "description": "Coordinates converted from UTM in Sucha 2021 (NB: she marks this location as \"presumed/not found\" in her index. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "Reported location of Vigla Keramitsas",
+        "link": "http://pleiades.stoa.org/places/531141/reported-location-of-vigla-keramitsas"
       }
     }
   ]

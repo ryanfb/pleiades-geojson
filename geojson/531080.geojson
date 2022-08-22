@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Pyrgos",
+  "title": "Pyrgos (Kefalonia)",
   "id": "531080",
   "bbox": [
-    20.5,
-    38.0,
-    21.0,
-    38.5
+    20.5815988,
+    38.3921364,
+    20.5815988,
+    38.3921364
   ],
-  "description": "An ancient place, cited: BAtlas 54 C5 Pyrgos",
+  "description": "A small fortress with cyclopean masonry reported in the 19th century in the north central part of the Ionian island of Kefalonia, at an inhabited place called Pyrgos near the town of Plagia. At the time, the fort was already partially dismantled by dynamiting and also partially built over. The fortress is presumed to have been of Hellenistic date, but coins of Roman date were also reported.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.75,
-          38.25
+          20.5815988,
+          38.3921364
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.5,
-              38.0
-            ],
-            [
-              20.5,
-              38.5
-            ],
-            [
-              21.0,
-              38.5
-            ],
-            [
-              21.0,
-              38.0
-            ],
-            [
-              20.5,
-              38.0
-            ]
-          ]
+          20.5815988,
+          38.3921364
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-plagia",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531080/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Plagia",
+        "link": "http://pleiades.stoa.org/places/531080/osm-location-of-modern-plagia"
       }
     }
   ]
