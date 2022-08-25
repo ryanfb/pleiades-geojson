@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Canal of Xerxes",
   "id": "503587",
   "bbox": [
-    23.5,
-    40.0,
-    24.0,
-    40.5
+    23.9151593,
+    40.3649009,
+    23.9296327,
+    40.3815922
   ],
-  "description": "An ancient place, cited: BAtlas 51 B4 unnamed canal (“Xerxes’ canal”, at Nea Rhode)",
+  "description": "The so-called canal of Xerxes at Nea Rhode dates to the fifth century BCE. It was a navigable canal dug through the base of Mount Athos in Chalkidiki, northern Greece, as part of the invasion of Greece carried out by king Xerxes I of Persia.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          40.25
+          23.9228255041,
+          40.3728660411
         ]
       },
       "properties": {
@@ -25,39 +25,45 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              23.5,
-              40.0
-            ],
-            [
-              23.5,
-              40.5
-            ],
-            [
-              24.0,
-              40.5
-            ],
-            [
-              24.0,
-              40.0
-            ],
-            [
-              23.5,
-              40.0
-            ]
+            23.9151593,
+            40.3649009
+          ],
+          [
+            23.9180042,
+            40.368382
+          ],
+          [
+            23.9228777,
+            40.3717386
+          ],
+          [
+            23.9240355,
+            40.3728394
+          ],
+          [
+            23.9262265,
+            40.376474
+          ],
+          [
+            23.9274755,
+            40.3783449
+          ],
+          [
+            23.9296327,
+            40.3815922
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-canal-of-xerxes",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/503587/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Canal of Xerxes",
+        "link": "http://pleiades.stoa.org/places/503587/osm-location-of-canal-of-xerxes"
       }
     }
   ]

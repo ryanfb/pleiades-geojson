@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Unnamed dam",
   "id": "268783",
   "bbox": [
-    -5.0,
-    39.0,
-    -4.0,
-    40.0
+    -4.3730036,
+    39.7511416,
+    -4.3728055,
+    39.7513495
   ],
-  "description": "An ancient place, cited: BAtlas 27 A2 unnamed dam (at Melque, SW Toletum, on Arroyos Las Zorras and Melqar (5-dam complex))",
+  "description": "An unnamed 5-dam complex dating from the Roman period is located at Melque, to the southwest of Toletum on the Arroyos Las Zorras and Melqar. Visible remains are to be found in the vicinity of the Ermita de Santa María de Melque.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          39.5
+          -4.37290299668,
+          39.7512433021
         ]
       },
       "properties": {
@@ -25,39 +25,69 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -5.0,
-              39.0
-            ],
-            [
-              -5.0,
-              40.0
-            ],
-            [
-              -4.0,
-              40.0
-            ],
-            [
-              -4.0,
-              39.0
-            ],
-            [
-              -5.0,
-              39.0
-            ]
+            -4.3728422,
+            39.7513354
+          ],
+          [
+            -4.3729079,
+            39.7513495
+          ],
+          [
+            -4.3729758,
+            39.7512855
+          ],
+          [
+            -4.3730018,
+            39.7512358
+          ],
+          [
+            -4.3730036,
+            39.7511869
+          ],
+          [
+            -4.3729863,
+            39.7511638
+          ],
+          [
+            -4.3729351,
+            39.7511455
+          ],
+          [
+            -4.3728804,
+            39.7511416
+          ],
+          [
+            -4.3728506,
+            39.7511715
+          ],
+          [
+            -4.3728174,
+            39.7512242
+          ],
+          [
+            -4.3728115,
+            39.7512682
+          ],
+          [
+            -4.3728055,
+            39.7513131
+          ],
+          [
+            -4.3728422,
+            39.7513354
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/268783/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/268783/osm-location"
       }
     }
   ]
