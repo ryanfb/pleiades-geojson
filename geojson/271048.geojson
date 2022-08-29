@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Barbetium Iugum",
   "id": "271048",
+  "bbox": [
+    -4.6398494,
+    36.5073263,
+    -4.6397239,
+    36.5074272
+  ],
   "description": "An ancient place, cited: BAtlas 27 unlocated Barbetium Iugum",
   "names": [
     "Barbetium Iugum"
@@ -9,20 +15,98 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.63978698495,
+          36.5073766024
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.6397479,
+            36.5073367
+          ],
+          [
+            -4.6397307,
+            36.5073536
+          ],
+          [
+            -4.6397239,
+            36.5073747
+          ],
+          [
+            -4.6397287,
+            36.5073961
+          ],
+          [
+            -4.6397443,
+            36.5074139
+          ],
+          [
+            -4.6397678,
+            36.5074249
+          ],
+          [
+            -4.6397896,
+            36.5074272
+          ],
+          [
+            -4.6398111,
+            36.5074234
+          ],
+          [
+            -4.6398296,
+            36.5074138
+          ],
+          [
+            -4.6398429,
+            36.5073998
+          ],
+          [
+            -4.6398494,
+            36.5073829
+          ],
+          [
+            -4.6398477,
+            36.5073631
+          ],
+          [
+            -4.6398366,
+            36.5073454
+          ],
+          [
+            -4.6398179,
+            36.5073324
+          ],
+          [
+            -4.6397945,
+            36.5073263
+          ],
+          [
+            -4.6397699,
+            36.5073278
+          ],
+          [
+            -4.6397479,
+            36.5073367
+          ]
+        ]
+      },
+      "id": "osm-location-of-faro-de-calaburras",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/271048/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Faro de Calaburras",
+        "link": "http://pleiades.stoa.org/places/271048/osm-location-of-faro-de-calaburras"
       }
     }
   ]
