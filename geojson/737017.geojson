@@ -3,10 +3,10 @@
   "title": "Polemonos Meris",
   "id": "737017",
   "bbox": [
-    30.5,
-    29.0,
-    31.0,
-    29.5
+    30.6798360049,
+    29.1934734399,
+    30.8208190695,
+    29.1946631704
   ],
   "description": "An ancient place, cited: BAtlas 75 D2 Polemonos Meris",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          29.25
+          30.7503271324,
+          29.1942477506
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              29.0
+              30.679836004934714,
+              29.194068305140206
             ],
             [
-              30.5,
-              29.5
+              30.6982768277299,
+              29.194663170391664
             ],
             [
-              31.0,
-              29.5
+              30.714338189519253,
+              29.194663170391664
             ],
             [
-              31.0,
-              29.0
+              30.731589281811523,
+              29.194663170391664
             ],
             [
-              30.5,
-              29.0
+              30.748840374103793,
+              29.194068305140206
+            ],
+            [
+              30.768470927401893,
+              29.194068305140206
+            ],
+            [
+              30.786911750197078,
+              29.194068305140206
+            ],
+            [
+              30.80356797723789,
+              29.194068305140206
+            ],
+            [
+              30.82081906953016,
+              29.19347343988875
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/737017/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/737017/batlas-map-label-location"
       }
     }
   ]

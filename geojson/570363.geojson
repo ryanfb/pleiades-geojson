@@ -3,10 +3,10 @@
   "title": "Knakalos (mountain)",
   "id": "570363",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.242910515,
+    37.749937296,
+    22.2576631732,
+    37.8041890069
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Knakalos M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.2474087029,
+          37.7779281239
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.243148461077112,
+              37.74993729599652
             ],
             [
-              22.0,
-              38.0
+              22.242910514976586,
+              37.75897924781867
             ],
             [
-              22.5,
-              38.0
+              22.243624353278335,
+              37.76492790033325
             ],
             [
-              22.5,
-              37.5
+              22.244576137680724,
+              37.76992476844538
             ],
             [
-              22.0,
-              37.5
+              22.245289975982416,
+              37.77515958265826
+            ],
+            [
+              22.246241760384862,
+              37.77896672026753
+            ],
+            [
+              22.24719354478708,
+              37.782773857876975
+            ],
+            [
+              22.24885916749116,
+              37.788484564290854
+            ],
+            [
+              22.252666305100433,
+              37.79681267781126
+            ],
+            [
+              22.25766317321279,
+              37.80418900692945
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570363/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570363/batlas-map-label-location"
       }
     }
   ]

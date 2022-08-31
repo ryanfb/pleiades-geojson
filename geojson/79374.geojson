@@ -3,10 +3,10 @@
   "title": "Cantiaci",
   "id": "79374",
   "bbox": [
-    1.08386,
-    51.279876,
-    1.08386,
-    51.279876
+    0.533755895941,
+    51.1672490954,
+    1.11624795017,
+    51.1815258614
   ],
   "description": "An ancient place, cited: BAtlas 8 H3 Cantiaci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.08386,
-          51.279876
+          0.825115507835,
+          51.1766855219
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              51.0
+              0.533755895940942,
+              51.18152586139627
             ],
             [
-              0.0,
-              52.0
+              0.660819113652167,
+              51.180098184792826
             ],
             [
-              1.0,
-              52.0
+              0.743624356655005,
+              51.178670508189214
             ],
             [
-              1.0,
-              51.0
+              0.816435863433526,
+              51.180098184792826
             ],
             [
-              0.0,
-              51.0
+              0.883536663797997,
+              51.17724283158577
+            ],
+            [
+              0.953492817369295,
+              51.17153212517172
+            ],
+            [
+              1.026304324147816,
+              51.172959801775335
+            ],
+            [
+              1.116247950168145,
+              51.167249095361285
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79374/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79374/batlas-map-label-location"
       }
     }
   ]

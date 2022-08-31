@@ -3,10 +3,10 @@
   "title": "Ouxenton (mountain)",
   "id": "59966",
   "bbox": [
-    80.0,
-    20.0,
-    85.0,
-    25.0
+    80.8778633322,
+    22.3699630916,
+    84.4422959189,
+    23.1361495355
   ],
   "description": "Mountains linking Vindhya ranges to E Ghaṭs Skt.: Ṛkṣavat.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.5,
-          22.5
+          82.6490584905,
+          22.8040161319
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              80.0,
-              20.0
+              80.87786333216673,
+              22.36996309159008
             ],
             [
-              80.0,
-              25.0
+              81.3156841572395,
+              22.503212907916577
             ],
             [
-              85.0,
-              25.0
+              81.55363025782253,
+              22.569837816079826
             ],
             [
-              85.0,
-              20.0
+              81.8106120464522,
+              22.626944880219753
             ],
             [
-              80.0,
-              20.0
+              82.03428138100026,
+              22.68881086637134
+            ],
+            [
+              82.28650424761827,
+              22.75067685252293
+            ],
+            [
+              82.53872711423628,
+              22.807783916662856
+            ],
+            [
+              82.82426243493592,
+              22.864890980802784
+            ],
+            [
+              83.1050388336239,
+              22.926756966954372
+            ],
+            [
+              83.45244014047512,
+              22.98862295310596
+            ],
+            [
+              83.75225222720974,
+              23.031453251210905
+            ],
+            [
+              84.04254646992104,
+              23.083801393339172
+            ],
+            [
+              84.44229591890053,
+              23.13614953546744
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59966/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59966/batlas-map-label-location"
       }
     }
   ]

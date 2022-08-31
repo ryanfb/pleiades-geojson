@@ -3,10 +3,10 @@
   "title": "Tochari/Asioi",
   "id": "60087",
   "bbox": [
-    65.0,
-    40.0,
-    70.0,
-    45.0
+    69.4210143797,
+    40.5531029629,
+    71.9194484359,
+    41.1955574344
   ],
   "description": "An ancient place, cited: BAtlas 6 B1 Tochari/Asioi",
   "names": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          42.5
+          70.6588423584,
+          40.9170573815
         ]
       },
       "properties": {
@@ -32,39 +32,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              40.0
+              69.42101437972991,
+              40.55310296286086
             ],
             [
-              65.0,
-              45.0
+              69.71368808344704,
+              40.66731709114072
             ],
             [
-              70.0,
-              45.0
+              69.92070119095428,
+              40.724424155280644
             ],
             [
-              70.0,
-              40.0
+              70.15626783053148,
+              40.802946368473044
             ],
             [
-              65.0,
-              40.0
+              70.34186578898624,
+              40.86005343261297
+            ],
+            [
+              70.55601727951097,
+              40.9171604967529
+            ],
+            [
+              70.72020008891326,
+              40.959990794857845
+            ],
+            [
+              70.88438289831555,
+              40.9956827099453
+            ],
+            [
+              71.0842576228053,
+              41.031374625032754
+            ],
+            [
+              71.30554749634751,
+              41.08848168917268
+            ],
+            [
+              71.45545353971482,
+              41.109896838225154
+            ],
+            [
+              71.64818988118708,
+              41.14558875331261
+            ],
+            [
+              71.91944843585173,
+              41.195557434435045
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60087/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60087/batlas-map-label-location"
       }
     }
   ]

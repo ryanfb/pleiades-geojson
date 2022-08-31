@@ -3,10 +3,10 @@
   "title": "Zamucii",
   "id": "364035",
   "bbox": [
-    16.0,
-    31.0,
-    17.0,
-    32.0
+    16.6297335587,
+    31.1553950408,
+    16.7406164415,
+    31.1658646692
   ],
   "description": "Zamucii, A Libyan Tribe, cited: BAtlas 37 B1",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          31.5
+          16.6854327423,
+          31.1630825297
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              31.0
+              16.629733558671944,
+              31.164912884843147
             ],
             [
-              16.0,
-              32.0
+              16.65495584533386,
+              31.165864669245536
             ],
             [
-              17.0,
-              32.0
+              16.6739915333805,
+              31.16538877704437
             ],
             [
-              17.0,
-              31.0
+              16.693027221427144,
+              31.164436992641924
             ],
             [
-              16.0,
-              31.0
+              16.709207556266733,
+              31.161581639434928
+            ],
+            [
+              16.721104861295885,
+              31.159678070630264
+            ],
+            [
+              16.74061644154375,
+              31.155395040819826
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/364035/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/364035/batlas-map-label-location"
       }
     }
   ]

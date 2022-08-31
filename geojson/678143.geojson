@@ -3,10 +3,10 @@
   "title": "Gala(a)ditis",
   "id": "678143",
   "bbox": [
-    35.5,
-    32.5,
-    36.0,
-    33.0
+    35.746145541,
+    32.6260337231,
+    36.1363771459,
+    32.8259084476
   ],
   "description": "An ancient place, cited: BAtlas 69 C4 Gala(a)ditis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          32.75
+          35.9482277684,
+          32.7125172131
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              32.5
+              35.74614554098582,
+              32.626033723102466
             ],
             [
-              35.5,
-              33.0
+              35.80801152713741,
+              32.64744887215494
             ],
             [
-              36.0,
-              33.0
+              35.846082903230695,
+              32.66113077293846
             ],
             [
-              36.0,
-              32.5
+              35.88712860558127,
+              32.67362294321907
             ],
             [
-              35.5,
-              32.5
+              35.936502421452246,
+              32.695038092271545
+            ],
+            [
+              35.98468650682031,
+              32.721807028587136
+            ],
+            [
+              36.02216301766214,
+              32.74560163864544
+            ],
+            [
+              36.06142412425834,
+              32.7699911139552
+            ],
+            [
+              36.09295198258559,
+              32.79259599351059
+            ],
+            [
+              36.13637714594199,
+              32.82590844759221
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678143/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678143/batlas-map-label-location"
       }
     }
   ]

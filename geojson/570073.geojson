@@ -3,10 +3,10 @@
   "title": "Amphidolia",
   "id": "570073",
   "bbox": [
-    21.5,
-    37.5,
-    22.0,
-    38.0
+    21.5183182392,
+    37.7204557741,
+    21.6598961691,
+    37.7528759303
   ],
   "description": "An ancient place, cited: BAtlas 58 B2 Amphidolia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.75
+          21.5874573665,
+          37.7433607095
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.5
+              21.51831823921168,
+              37.720455774134166
             ],
             [
-              21.5,
-              38.0
+              21.54032825351561,
+              37.73205564653762
             ],
             [
-              22.0,
-              38.0
+              21.554010154299135,
+              37.737706866426436
             ],
             [
-              22.0,
-              37.5
+              21.565907459328287,
+              37.74187092318664
             ],
             [
-              21.5,
-              37.5
+              21.580779090614726,
+              37.74603497994684
+            ],
+            [
+              21.59446099139825,
+              37.74841444095267
+            ],
+            [
+              21.612306948941978,
+              37.7507939019585
+            ],
+            [
+              21.625393984474044,
+              37.75168619983572
+            ],
+            [
+              21.63907588525757,
+              37.75287593033863
+            ],
+            [
+              21.659896169058584,
+              37.752578497712875
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570073/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570073/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Apuani",
   "id": "403177",
   "bbox": [
-    9.5,
-    44.0,
-    10.0,
-    44.5
+    9.86669392124,
+    43.9959261413,
+    10.2343206466,
+    44.1551120826
   ],
   "description": "The Apuani were a Ligurian tribe of northwest Italy.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          44.25
+          10.0550851404,
+          44.0864370544
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              44.0
+              9.866693921242643,
+              44.155112082554524
             ],
             [
-              9.5,
-              44.5
+              9.960920577073637,
+              44.130127741993306
             ],
             [
-              10.0,
-              44.5
+              10.029449054041493,
+              44.1065710780357
             ],
             [
-              10.0,
-              44.0
+              10.10011904591471,
+              44.071593001249994
             ],
             [
-              9.5,
-              44.0
+              10.16579216967557,
+              44.03661492446423
+            ],
+            [
+              10.234320646643425,
+              43.99592614126459
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/403177/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/403177/batlas-map-label-location"
       }
     }
   ]

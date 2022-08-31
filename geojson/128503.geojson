@@ -3,10 +3,10 @@
   "title": "Rakatai",
   "id": "128503",
   "bbox": [
-    16.0,
-    48.0,
-    17.0,
-    49.0
+    16.4470487841,
+    48.2241939129,
+    16.8360906586,
+    48.4133610629
   ],
   "description": "An ancient people, described by Ptolemy as inhabiting an area along the Danube that scholars interpret as being in the vicinity of Vienna.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          48.5
+          16.6356123861,
+          48.3070209823
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              48.0
+              16.447048784112894,
+              48.413361062863885
             ],
             [
-              16.0,
-              49.0
+              16.52378640155092,
+              48.35803859447833
             ],
             [
-              17.0,
-              49.0
+              16.58089346569085,
+              48.32591587089962
             ],
             [
-              17.0,
-              48.0
+              16.63264674256766,
+              48.3009315303384
             ],
             [
-              16.0,
-              48.0
+              16.69332299821633,
+              48.27416259402281
+            ],
+            [
+              16.746860870847513,
+              48.25453204072471
+            ],
+            [
+              16.83609065856615,
+              48.224193912900375
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/128503/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/128503/batlas-map-label-location"
       }
     }
   ]

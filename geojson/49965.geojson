@@ -3,12 +3,12 @@
   "title": "Divae",
   "id": "49965",
   "bbox": [
-    70.0,
-    10.0,
-    75.0,
-    15.0
+    71.7997635316,
+    10.3359976853,
+    73.8817919117,
+    11.9123906017
   ],
-  "description": "An ancient place, cited: BAtlas 5 C4 Divae",
+  "description": "The Divi or Diveni were the ancient inhabitants of the Lakshadweep or Laccadive Islands, an archipelago located off the western coast of the Indian subcontinent.",
   "connectsWith": [
     "642557317"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          12.5
+          72.7251497378,
+          10.9839403205
         ]
       },
       "properties": {
@@ -31,39 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              10.0
+              71.7997635315649,
+              11.912390601699826
             ],
             [
-              70.0,
-              15.0
+              72.13883672489573,
+              11.341319960300552
             ],
             [
-              75.0,
-              15.0
+              72.37678282547876,
+              11.097425207202946
             ],
             [
-              75.0,
-              10.0
+              72.65636949366382,
+              10.924914284280248
             ],
             [
-              70.0,
-              10.0
+              72.94785346687803,
+              10.722660098784672
+            ],
+            [
+              73.88179191166643,
+              10.341946337851823
+            ],
+            [
+              73.88179191166643,
+              10.335997685337247
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49965/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49965/batlas-map-label-location"
       }
     }
   ]

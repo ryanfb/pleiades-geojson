@@ -3,10 +3,10 @@
   "title": "Alexandreia (mountain)",
   "id": "550425",
   "bbox": [
-    26.5,
-    39.5,
-    27.0,
-    40.0
+    26.7324365841,
+    39.621664668,
+    26.8234509676,
+    39.6317773773
   ],
   "description": "A mountain above the Antandros.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          39.75
+          26.7783825044,
+          39.629661968
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              39.5
+              26.732436584100242,
+              39.631777377271874
             ],
             [
-              26.5,
-              40.0
+              26.74492875438085,
+              39.631777377271874
             ],
             [
-              27.0,
-              40.0
+              26.756826059410002,
+              39.631777377271874
             ],
             [
-              27.0,
-              39.5
+              26.763369577176036,
+              39.631777377271874
             ],
             [
-              26.5,
-              39.5
+              26.771697690696442,
+              39.631777377271874
+            ],
+            [
+              26.78894878298871,
+              39.6299927815175
+            ],
+            [
+              26.795492300754745,
+              39.6299927815175
+            ],
+            [
+              26.805010144778066,
+              39.62761332051167
+            ],
+            [
+              26.812148527795557,
+              39.62523385950584
+            ],
+            [
+              26.82345096757325,
+              39.621664667997095
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550425/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550425/batlas-map-label-location"
       }
     }
   ]

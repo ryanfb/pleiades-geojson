@@ -3,10 +3,10 @@
   "title": "Vanacini",
   "id": "472144",
   "bbox": [
-    9.0,
-    42.0,
-    10.0,
-    43.0
+    9.34678858763,
+    42.6594280364,
+    9.413889388,
+    42.7455645248
   ],
   "description": "The name of an ancient people inhabiting the northeastern portion of Corscia",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          42.5
+          9.38408933734,
+          42.7053564543
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              42.0
+              9.346788587633423,
+              42.745564524780875
             ],
             [
-              9.0,
-              43.0
+              9.361065353668405,
+              42.73223954314811
             ],
             [
-              10.0,
-              43.0
+              9.375342119703387,
+              42.72081813032018
             ],
             [
-              10.0,
-              42.0
+              9.3829563949221,
+              42.70987260969342
             ],
             [
-              9.0,
-              42.0
+              9.393901915549034,
+              42.69702352026188
+            ],
+            [
+              9.399612621962913,
+              42.687981568439724
+            ],
+            [
+              9.40627511277918,
+              42.676560155611796
+            ],
+            [
+              9.413889387997894,
+              42.65942803636976
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472144/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472144/batlas-map-label-location"
       }
     }
   ]

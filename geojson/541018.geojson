@@ -3,10 +3,10 @@
   "title": "Pelasgiotis",
   "id": "541018",
   "bbox": [
-    22.0,
-    39.5,
-    22.5,
-    40.0
+    22.2855238754,
+    39.4536270326,
+    22.6814661868,
+    39.5925875554
   ],
   "description": "An ancient place, cited: BAtlas 55 C1 Pelasgiotis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          39.75
+          22.486724614,
+          39.5306821657
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              39.5
+              22.285523875434308,
+              39.59258755536172
             ],
             [
-              22.0,
-              40.0
+              22.33977558636724,
+              39.57735900492435
             ],
             [
-              22.5,
-              40.0
+              22.37499160925347,
+              39.572600082912686
             ],
             [
-              22.5,
-              39.5
+              22.413062985346755,
+              39.5611786700847
             ],
             [
-              22.0,
-              39.5
+              22.45208614584243,
+              39.54880547285438
+            ],
+            [
+              22.490157521935714,
+              39.533576922416955
+            ],
+            [
+              22.52156640721273,
+              39.52215550958903
+            ],
+            [
+              22.557734214501238,
+              39.507878743554045
+            ],
+            [
+              22.596757374996912,
+              39.492650193116845
+            ],
+            [
+              22.625310907066876,
+              39.477421642679474
+            ],
+            [
+              22.67956261799975,
+              39.45553060142578
+            ],
+            [
+              22.681466186804414,
+              39.45553060142578
+            ],
+            [
+              22.681466186804414,
+              39.45362703262117
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541018/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/541018/batlas-map-label-location"
       }
     }
   ]

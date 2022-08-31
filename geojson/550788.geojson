@@ -3,10 +3,10 @@
   "title": "Ordymnos (mountain)",
   "id": "550788",
   "bbox": [
-    25.5,
-    39.0,
-    26.0,
-    39.5
+    25.9533375985,
+    39.2088579267,
+    26.0215091563,
+    39.2192085821
   ],
   "description": "Hypsilia Monastiri, on Lesbos.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.75,
-          39.25
+          25.9873943068,
+          39.2136633785
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              39.0
+              25.95333759849774,
+              39.21920858212343
             ],
             [
-              25.5,
-              39.5
+              25.962260577269603,
+              39.21813782467092
             ],
             [
-              26.0,
-              39.5
+              25.970826636890706,
+              39.21671014806731
             ],
             [
-              26.0,
-              39.0
+              25.980463453964262,
+              39.21421171401124
             ],
             [
-              25.5,
-              39.0
+              25.988315675283502,
+              39.21421171401124
+            ],
+            [
+              25.99830941150799,
+              39.21099944165343
+            ],
+            [
+              26.00509087537455,
+              39.210642522502496
+            ],
+            [
+              26.01294309669396,
+              39.209214845899055
+            ],
+            [
+              26.021509156314835,
+              39.208857926748124
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550788/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550788/batlas-map-label-location"
       }
     }
   ]

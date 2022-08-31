@@ -3,10 +3,10 @@
   "title": "Maezaei",
   "id": "197364",
   "bbox": [
-    16.0,
-    45.0,
-    17.0,
-    46.0
+    16.4415761925,
+    44.6937761552,
+    17.2410750904,
+    45.1434942853
   ],
   "description": "An ancient tribe located to the north of Dalmatia near the Dalmatian-Pannonian border.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          45.5
+          16.8490777274,
+          44.9328208507
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              45.0
+              16.44157619247278,
+              45.1434942852739
             ],
             [
-              16.0,
-              46.0
+              16.634312533945035,
+              45.059261365667396
             ],
             [
-              17.0,
-              46.0
+              16.75423736863877,
+              44.99787127171703
             ],
             [
-              17.0,
-              45.0
+              16.87273452672906,
+              44.929342794749175
             ],
             [
-              16.0,
-              45.0
+              16.981237948595037,
+              44.86081431778126
+            ],
+            [
+              17.096879753478333,
+              44.78943048760635
+            ],
+            [
+              17.241075090431764,
+              44.693776155171975
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197364/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197364/batlas-map-label-location"
       }
     }
   ]

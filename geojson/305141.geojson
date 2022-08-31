@@ -3,10 +3,10 @@
   "title": "Salassi(i)",
   "id": "305141",
   "bbox": [
-    6.0,
-    36.5,
-    6.5,
-    37.0
+    6.4248480069,
+    36.5573726622,
+    6.56182277622,
+    36.5586316318
   ],
   "description": "An ancient place, cited: BAtlas 31 E3 Salassi(i)",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          36.75
+          6.49333604646,
+          36.5579176952
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              36.5
+              6.42484800689574,
+              36.55792069245039
             ],
             [
-              6.0,
-              37.0
+              6.45019618966743,
+              36.557372662242244
             ],
             [
-              6.5,
-              37.0
+              6.461808972364362,
+              36.55753975855949
             ],
             [
-              6.5,
-              36.5
+              6.479648361889978,
+              36.55757537475041
             ],
             [
-              6.0,
-              36.5
+              6.494794585973327,
+              36.557461050370875
+            ],
+            [
+              6.509628826772214,
+              36.558448644002645
+            ],
+            [
+              6.520756938620517,
+              36.55828864514169
+            ],
+            [
+              6.543056417893443,
+              36.55832187049781
+            ],
+            [
+              6.561822776216538,
+              36.558631631839496
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305141/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305141/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Nomia (mountain)",
   "id": "570509",
   "bbox": [
-    21.5,
-    37.0,
-    22.0,
-    37.5
+    21.9360098156,
+    37.4137660537,
+    21.9956153138,
+    37.4173352452
   ],
   "description": "The south side of Mount Lykaion.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.25
+          21.96581863,
+          37.4158723137
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.0
+              21.936009815617297,
+              37.41376605365065
             ],
             [
-              21.5,
-              37.5
+              21.952785015708344,
+              37.41626448770671
             ],
             [
-              22.0,
-              37.5
+              21.960994156178515,
+              37.41733524515939
             ],
             [
-              22.0,
-              37.0
+              21.968489458346767,
+              37.41697832600846
             ],
             [
-              21.5,
-              37.0
+              21.976698598816938,
+              37.41662140685747
+            ],
+            [
+              21.9856215775888,
+              37.41555064940502
+            ],
+            [
+              21.99561531381329,
+              37.41376605365065
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570509/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570509/batlas-map-label-location"
       }
     }
   ]

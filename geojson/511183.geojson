@@ -3,10 +3,10 @@
   "title": "Bebrykes",
   "id": "511183",
   "bbox": [
-    29.0,
-    41.0,
-    29.5,
-    41.5
+    29.2957702434,
+    40.9582402305,
+    30.4174771822,
+    41.0391419047
   ],
   "description": "The Bebrykes were an ancient people of Bithynia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.25,
-          41.25
+          29.8554276469,
+          40.9811958311
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              41.0
+              29.295770243371066,
+              41.03914190465582
             ],
             [
-              29.0,
-              41.5
+              29.421881676680073,
+              41.01653702510043
             ],
             [
-              29.5,
-              41.5
+              29.55513149300657,
+              40.99988079805962
             ],
             [
-              29.5,
-              41.0
+              29.68005319581266,
+              40.982034840515894
             ],
             [
-              29.0,
-              41.0
+              29.81568247314499,
+              40.96894780498383
+            ],
+            [
+              29.94536309796274,
+              40.95824023045759
+            ],
+            [
+              30.22652543643376,
+              40.96238742907881
+            ],
+            [
+              30.41747718215164,
+              40.98023338662254
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511183/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511183/batlas-map-label-location"
       }
     }
   ]

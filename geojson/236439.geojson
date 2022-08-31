@@ -3,10 +3,10 @@
   "title": "Colarni?",
   "id": "236439",
   "bbox": [
-    -8.0,
-    41.0,
-    -7.0,
-    42.0
+    -7.81799676861,
+    41.0698115695,
+    -7.63120907965,
+    41.0936061796
   ],
   "description": "An ancient place, cited: BAtlas 24 D3 Colarni?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          41.5
+          -7.72474964806,
+          41.0829177093
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              41.0
+              -7.817996768611295,
+              41.06981156950536
             ],
             [
-              -8.0,
-              42.0
+              -7.773976740003434,
+              41.07694995252285
             ],
             [
-              -7.0,
-              42.0
+              -7.752561590950961,
+              41.0805191440316
             ],
             [
-              -7.0,
-              41.0
+              -7.731146441898488,
+              41.08289860503743
             ],
             [
-              -8.0,
-              41.0
+              -7.707351831840185,
+              41.08527806604326
+            ],
+            [
+              -7.682367491278967,
+              41.08765752704909
+            ],
+            [
+              -7.660952342226494,
+              41.091226718557834
+            ],
+            [
+              -7.631209079653615,
+              41.093606179563665
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236439/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236439/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Locris Opuntia",
   "id": "540918",
   "bbox": [
-    22.5,
-    38.5,
-    23.0,
-    39.0
+    22.9053457071,
+    38.6585261718,
+    23.0500169362,
+    38.7108743139
   ],
   "description": "An ancient place, cited: BAtlas 55 D3 Locris Opuntia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          38.75
+          22.9775323956,
+          38.6843189107
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              38.5
+              22.905345707074616,
+              38.71087431388298
             ],
             [
-              22.5,
-              39.0
+              22.92580907172487,
+              38.7027841464631
             ],
             [
-              23.0,
-              39.0
+              22.938182268955188,
+              38.69802522445144
             ],
             [
-              23.0,
-              38.5
+              22.951031358386558,
+              38.69469397904322
             ],
             [
-              22.5,
-              38.5
+              22.96292866341571,
+              38.68993505703156
+            ],
+            [
+              22.980060782657745,
+              38.68327256621524
+            ],
+            [
+              23.001475931710218,
+              38.67470650659436
+            ],
+            [
+              23.01718037434864,
+              38.6699475845827
+            ],
+            [
+              23.029077679377792,
+              38.66614044697326
+            ],
+            [
+              23.050016936229213,
+              38.658526171754716
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540918/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540918/batlas-map-label-location"
       }
     }
   ]

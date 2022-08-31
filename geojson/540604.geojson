@@ -3,10 +3,10 @@
   "title": "Aigai (mountain)",
   "id": "540604",
   "bbox": [
-    23.87,
-    38.53,
-    23.87,
-    38.53
+    23.4153137727,
+    38.648661323,
+    23.5071609676,
+    38.710051417
   ],
   "description": "Mt. Kandili.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.87,
-          38.53
+          23.4483898663,
+          38.6894345431
         ]
       },
       "properties": {
@@ -31,39 +31,72 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          23.4353228,
+          38.6992819
+        ]
+      },
+      "id": "osm-location-of-kandylio",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Kandylio",
+        "link": "http://pleiades.stoa.org/places/540604/osm-location-of-kandylio"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.0,
-              38.5
+              23.41531377272827,
+              38.710051416951785
             ],
             [
-              23.0,
-              39.0
+              23.426735185556424,
+              38.701961249531905
             ],
             [
-              23.5,
-              39.0
+              23.43434946077491,
+              38.697202327520245
             ],
             [
-              23.5,
-              38.5
+              23.444343196999455,
+              38.68958805230153
             ],
             [
-              23.0,
-              38.5
+              23.453385148821553,
+              38.68435323808865
+            ],
+            [
+              23.46861369925898,
+              38.674835394065326
+            ],
+            [
+              23.478607435483468,
+              38.66864879545028
+            ],
+            [
+              23.49050474051262,
+              38.66246219683518
+            ],
+            [
+              23.507160967553432,
+              38.64866132300119
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540604/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540604/batlas-map-label-location"
       }
     }
   ]

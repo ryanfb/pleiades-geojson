@@ -3,10 +3,10 @@
   "title": "Gedrosia",
   "id": "29573",
   "bbox": [
-    60.0,
-    24.0,
-    70.0,
-    32.0
+    62.6083271827,
+    26.4798739356,
+    65.1840937215,
+    26.7297173412
   ],
   "description": "Gedrosia was a mountainous region covering parts of what is today southeastern Iran and southwestern Pakistan.",
   "connectsWith": [
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          65.0,
-          28.0
+          63.895823413,
+          26.6083300854
         ]
       },
       "properties": {
@@ -34,39 +34,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              60.0,
-              25.0
+              62.60832718273457,
+              26.479873935557123
             ],
             [
-              60.0,
-              30.0
+              63.066373426356904,
+              26.533411808188305
             ],
             [
-              65.0,
-              30.0
+              63.429241229746026,
+              26.56910372327576
             ],
             [
-              65.0,
-              25.0
+              63.78616038062057,
+              26.592898333334062
             ],
             [
-              60.0,
-              25.0
+              64.13713087898054,
+              26.628590248421517
+            ],
+            [
+              64.48215272482594,
+              26.66428216350897
+            ],
+            [
+              64.77363669804015,
+              26.69402542608185
+            ],
+            [
+              65.18409372154588,
+              26.729717341169305
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/29573/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/29573/batlas-map-label-location"
       }
     }
   ]

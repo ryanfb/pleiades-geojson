@@ -3,10 +3,10 @@
   "title": "Argon Pedion",
   "id": "570105",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.4475917507,
+    37.6411245442,
+    22.4843544232,
+    37.657185906
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Argon Pedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.4659535016,
+          37.6491778346
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.447591750698223,
+              37.64112454419984
             ],
             [
-              22.0,
-              38.0
+              22.45294553796134,
+              37.643266059105144
             ],
             [
-              22.5,
-              38.0
+              22.45829932522446,
+              37.64540757401028
             ],
             [
-              22.5,
-              37.5
+              22.462939274185715,
+              37.64826292721733
             ],
             [
-              22.0,
-              37.5
+              22.468293061448833,
+              37.650404442122635
+            ],
+            [
+              22.476145282768186,
+              37.65361671448045
+            ],
+            [
+              22.480071393427693,
+              37.65540131023482
+            ],
+            [
+              22.484354423238187,
+              37.657185905989195
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570105/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570105/batlas-map-label-location"
       }
     }
   ]

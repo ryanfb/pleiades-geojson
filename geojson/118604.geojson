@@ -3,10 +3,10 @@
   "title": "Boihaemum",
   "id": "118604",
   "bbox": [
-    13.0,
-    50.0,
-    14.0,
-    51.0
+    13.5296124651,
+    50.0541471513,
+    15.2409208205,
+    50.0865078209
   ],
   "description": "An ancient place, cited: BAtlas 12 G2 Boihaemum",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.5,
-          50.5
+          14.3852544822,
+          50.069138833
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              50.0
+              13.529612465148205,
+              50.08650782093406
             ],
             [
-              13.0,
-              51.0
+              13.782787116168663,
+              50.08079711451995
             ],
             [
-              14.0,
-              51.0
+              13.978854703048967,
+              50.075086408106074
             ],
             [
-              14.0,
-              50.0
+              14.16540444590612,
+              50.07127927049663
             ],
             [
-              13.0,
-              50.0
+              14.369086308005137,
+              50.06747213288742
+            ],
+            [
+              14.57086460129949,
+              50.06556856408275
+            ],
+            [
+              14.761221481765915,
+              50.06556856408275
+            ],
+            [
+              14.985842600716353,
+              50.057954288864096
+            ],
+            [
+              15.240920820541419,
+              50.054147151254824
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/118604/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/118604/batlas-map-label-location"
       }
     }
   ]

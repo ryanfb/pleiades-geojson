@@ -3,10 +3,10 @@
   "title": "Sidicini",
   "id": "433117",
   "bbox": [
-    14.371233,
-    40.946092,
-    14.371233,
-    40.946092
+    14.003964651,
+    41.2358247188,
+    14.1372144673,
+    41.2367765032
   ],
   "description": "The Sidicini were a people of ancient Italy; their territory bordered that of the Campani and the Samnites.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.371233,
-          40.946092
+          14.0705914911,
+          41.2363464868
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              41.0
+              14.003964650999535,
+              41.236776503168755
             ],
             [
-              14.0,
-              41.5
+              14.02918693766145,
+              41.236776503168755
             ],
             [
-              14.5,
-              41.5
+              14.046319056903485,
+              41.23630061096753
             ],
             [
-              14.5,
-              41.0
+              14.063451176145293,
+              41.23630061096753
             ],
             [
-              14.0,
-              41.0
+              14.080107403186105,
+              41.23630061096753
+            ],
+            [
+              14.095335953623476,
+              41.23630061096753
+            ],
+            [
+              14.113895749468952,
+              41.23582471876631
+            ],
+            [
+              14.137214467326032,
+              41.23630061096753
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433117/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433117/batlas-map-label-location"
       }
     }
   ]

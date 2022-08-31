@@ -3,10 +3,10 @@
   "title": "Petrocori",
   "id": "138513",
   "bbox": [
-    0.7133087,
-    45.1831921,
-    0.722653,
-    45.184538
+    0.246300151921,
+    45.0625257505,
+    0.900176036323,
+    45.2709665346
   ],
   "description": "An ancient place, cited: BAtlas 14 F3 Petrocori",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.718902233333,
-          45.1837570333
+          0.569634963714,
+          45.1775869455
         ]
       },
       "properties": {
@@ -62,6 +62,59 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/138513/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0.246300151920991,
+              45.06252575052906
+            ],
+            [
+              0.35194822057997,
+              45.109639078444445
+            ],
+            [
+              0.419049020944385,
+              45.13248190410053
+            ],
+            [
+              0.486149821308857,
+              45.15675240635983
+            ],
+            [
+              0.561816681294204,
+              45.181022908619354
+            ],
+            [
+              0.636055864676166,
+              45.20529341087888
+            ],
+            [
+              0.713150401264954,
+              45.2238532067243
+            ],
+            [
+              0.785961908043305,
+              45.24241300256972
+            ],
+            [
+              0.90017603632316,
+              45.27096653463968
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138513/batlas-map-label-location"
       }
     }
   ]

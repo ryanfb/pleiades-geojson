@@ -3,10 +3,10 @@
   "title": "Krestonia",
   "id": "491643",
   "bbox": [
-    22.5,
-    40.5,
-    23.0,
-    41.0
+    22.8808293272,
+    40.813907386,
+    23.1348367896,
+    40.8561428189
   ],
   "description": "An ancient place, cited: BAtlas 50 C3 Krestonia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          40.75
+          23.0060119298,
+          40.8445186291
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              40.5
+              22.880829327177935,
+              40.8139073860134
             ],
             [
-              22.5,
-              41.0
+              22.921875029528508,
+              40.834132804562955
             ],
             [
-              23.0,
-              41.0
+              22.94804910059264,
+              40.84305578333482
             ],
             [
-              23.0,
-              40.5
+              22.981361554674265,
+              40.851383896855225
             ],
             [
-              22.5,
-              40.5
+              23.010509951995687,
+              40.85554795361543
+            ],
+            [
+              23.040848079820023,
+              40.856142818866886
+            ],
+            [
+              23.072970803398732,
+              40.85197876210668
+            ],
+            [
+              23.094385952451205,
+              40.849004435849395
+            ],
+            [
+              23.13483678955032,
+              40.83829686132316
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491643/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491643/batlas-map-label-location"
       }
     }
   ]

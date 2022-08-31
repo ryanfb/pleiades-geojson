@@ -3,10 +3,10 @@
   "title": "Castra Maurorum",
   "id": "874414",
   "bbox": [
-    41.0,
-    37.0,
-    42.0,
-    38.0
+    41.7837983715,
+    37.1351889359,
+    42.0379248069,
+    37.1965790298
   ],
   "description": "An ancient place, cited: BAtlas 89 D3 Castra Maurorum",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          37.5
+          41.9108615892,
+          37.1658839828
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              37.0
+              41.78379837148417,
+              37.135188935853506
             ],
             [
-              41.0,
-              38.0
-            ],
-            [
-              42.0,
-              38.0
-            ],
-            [
-              42.0,
-              37.0
-            ],
-            [
-              41.0,
-              37.0
+              42.037924806906844,
+              37.19657902980393
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874414/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874414/batlas-map-label-location"
       }
     }
   ]

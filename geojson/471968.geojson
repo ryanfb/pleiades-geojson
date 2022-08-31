@@ -3,10 +3,10 @@
   "title": "Maltamonenses",
   "id": "471968",
   "bbox": [
-    8.0,
-    39.0,
-    9.0,
-    40.0
+    8.87287457661,
+    39.5792490419,
+    9.14556080788,
+    39.5828182334
   ],
   "description": "An ancient place, cited: BAtlas 48 A3 Maltamonenses",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          39.5
+          9.00923128285,
+          39.5811480252
         ]
       },
       "properties": {
@@ -31,39 +31,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              39.0
+              8.872874576611837,
+              39.5806767184671
             ],
             [
-              8.0,
-              40.0
+              8.909994168302788,
+              39.58139055676885
             ],
             [
-              9.0,
-              40.0
+              8.928553964148264,
+              39.5806767184671
             ],
             [
-              9.0,
-              39.0
+              8.946399921691992,
+              39.58281823337235
             ],
             [
-              8.0,
-              39.0
+              8.959249011123475,
+              39.5821043950706
+            ],
+            [
+              8.984233351684694,
+              39.58139055676885
+            ],
+            [
+              9.008503853944163,
+              39.58139055676885
+            ],
+            [
+              9.027777488091388,
+              39.58281823337235
+            ],
+            [
+              9.047051122238612,
+              39.5806767184671
+            ],
+            [
+              9.07274930110158,
+              39.5806767184671
+            ],
+            [
+              9.091309096947056,
+              39.5806767184671
+            ],
+            [
+              9.109155054490783,
+              39.579249041863605
+            ],
+            [
+              9.145560807879987,
+              39.58139055676885
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471968/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471968/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Megabar(r)i?",
   "id": "805629",
   "bbox": [
-    32.0,
-    18.0,
-    33.0,
-    19.0
+    32.1931692389,
+    17.7875231427,
+    33.6327431474,
+    18.3675167628
   ],
   "description": "An ancient place, cited: BAtlas 82 C3 Megabar(r)i?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          18.5
+          32.8925977797,
+          18.0238525035
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              18.0
+              32.193169238874134,
+              18.36751676284382
             ],
             [
-              32.0,
-              19.0
+              32.401372076884286,
+              18.24259506003773
             ],
             [
-              33.0,
-              19.0
+              32.54711406349139,
+              18.162288251090956
             ],
             [
-              33.0,
-              18.0
+              32.68095874506935,
+              18.08793009465876
             ],
             [
-              32.0,
-              18.0
+              32.84157236296289,
+              18.013571938226562
+            ],
+            [
+              32.978391370798136,
+              17.954085413080804
+            ],
+            [
+              33.118184704890666,
+              17.906496192964198
+            ],
+            [
+              33.2074144926093,
+              17.879727256648607
+            ],
+            [
+              33.3055672590998,
+              17.84700966781844
+            ],
+            [
+              33.39479704681844,
+              17.826189384017425
+            ],
+            [
+              33.47510385576521,
+              17.811317752730986
+            ],
+            [
+              33.63274314740147,
+              17.787523142672683
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/805629/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/805629/batlas-map-label-location"
       }
     }
   ]

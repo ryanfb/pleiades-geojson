@@ -3,10 +3,10 @@
   "title": "Ias(s)ii",
   "id": "197314",
   "bbox": [
-    16.0,
-    45.0,
-    17.0,
-    46.0
+    16.9547069584,
+    45.6844647449,
+    17.3401796413,
+    45.6866062599
   ],
   "description": "An ancient place, cited: BAtlas 20 D4 Ias(s)ii",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          45.5
+          17.1474418088,
+          45.6852645456
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              45.0
+              16.954706958379973,
+              45.68517858325106
             ],
             [
-              16.0,
-              46.0
+              17.033229171572373,
+              45.68517858325106
             ],
             [
-              17.0,
-              46.0
+              17.103899163445533,
+              45.68660625985467
             ],
             [
-              17.0,
-              45.0
+              17.14101875513643,
+              45.68589242155292
             ],
             [
-              16.0,
-              45.0
+              17.18170753833624,
+              45.68517858325106
+            ],
+            [
+              17.221682483234133,
+              45.68517858325106
+            ],
+            [
+              17.258088236623337,
+              45.68446474494931
+            ],
+            [
+              17.340179641324482,
+              45.68446474494931
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197314/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197314/batlas-map-label-location"
       }
     }
   ]

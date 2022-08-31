@@ -3,10 +3,10 @@
   "title": "Kaspiria/Caspyre/Kattybourine",
   "id": "59869",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    74.1049635409,
+    33.7524447775,
+    75.5540552934,
+    34.4056068236
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Kaspiria/Caspyre/Kattybourine",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          74.8246963018,
+          34.0907837288
         ]
       },
       "properties": {
@@ -30,39 +30,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              74.10496354086541,
+              33.752444777464234
             ],
             [
-              70.0,
-              35.0
+              74.25130039272398,
+              33.82739779914789
             ],
             [
-              75.0,
-              35.0
+              74.41191401061752,
+              33.88807405479656
             ],
             [
-              75.0,
-              30.0
+              74.55825086247609,
+              33.96659626798896
             ],
             [
-              70.0,
-              30.0
+              74.67603418226469,
+              34.027272523637635
+            ],
+            [
+              74.89375486429816,
+              34.11650231135627
+            ],
+            [
+              74.99726141805178,
+              34.18788614153118
+            ],
+            [
+              75.16858261047156,
+              34.25926997170609
+            ],
+            [
+              75.2899351217689,
+              34.31637703584602
+            ],
+            [
+              75.42199520759249,
+              34.35563814244222
+            ],
+            [
+              75.55405529341607,
+              34.40560682356465
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59869/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59869/batlas-map-label-location"
       }
     }
   ]

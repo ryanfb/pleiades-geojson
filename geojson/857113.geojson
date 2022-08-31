@@ -3,10 +3,10 @@
   "title": "Drilai",
   "id": "857113",
   "bbox": [
-    39.0,
-    40.0,
-    40.0,
-    41.0
+    39.1930132842,
+    40.5668376229,
+    39.4660564346,
+    40.5721914102
   ],
   "description": "The Drilai were an ancient tribe of western Georgia, who inhabited the coasts of the southern shores of the Black Sea.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          40.5
+          39.3295348594,
+          40.5695145165
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              40.0
+              39.19301328417098,
+              40.5721914101526
             ],
             [
-              39.0,
-              41.0
-            ],
-            [
-              40.0,
-              41.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
-              39.0,
-              40.0
+              39.46605643459,
+              40.56683762288948
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid E4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857113/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857113/batlas-map-label-location"
       }
     }
   ]

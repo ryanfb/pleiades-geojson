@@ -3,10 +3,10 @@
   "title": "Aduatuci",
   "id": "108728",
   "bbox": [
-    4.0,
-    50.0,
-    5.0,
-    51.0
+    4.67032393287,
+    50.4905799574,
+    5.44983535838,
+    50.9288766747
   ],
   "description": "An ancient place, cited: BAtlas 11 E2 Aduatuci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5,
-          50.5
+          5.04652891741,
+          50.7333894369
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              50.0
+              4.670323932874055,
+              50.49057995740753
             ],
             [
-              4.0,
-              51.0
+              4.77882735473986,
+              50.5819512600313
             ],
             [
-              5.0,
-              51.0
+              4.884475423398783,
+              50.65047973699916
             ],
             [
-              5.0,
-              50.0
+              4.982985109040044,
+              50.71044215434614
             ],
             [
-              4.0,
-              50.0
+              5.074356411664041,
+              50.76326618867563
+            ],
+            [
+              5.180004480322964,
+              50.818945576212116
+            ],
+            [
+              5.30135699162031,
+              50.87319728714499
+            ],
+            [
+              5.449835358384007,
+              50.928876674681305
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108728/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108728/batlas-map-label-location"
       }
     }
   ]

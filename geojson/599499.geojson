@@ -3,10 +3,10 @@
   "title": "Apeiros",
   "id": "599499",
   "bbox": [
-    28.0,
-    36.5,
-    28.5,
-    37.0
+    28.0656704746,
+    36.8550534667,
+    28.2405608585,
+    36.9143020458
   ],
   "description": "An ancient place, cited: BAtlas 61 G4 Apeiros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          36.75
+          28.1531156666,
+          36.8846777563
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              36.5
+              28.065670474600108,
+              36.85505346673393
             ],
             [
-              28.0,
-              37.0
-            ],
-            [
-              28.5,
-              37.0
-            ],
-            [
-              28.5,
-              36.5
-            ],
-            [
-              28.0,
-              36.5
+              28.24056085852863,
+              36.9143020457791
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599499/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599499/batlas-map-label-location"
       }
     }
   ]

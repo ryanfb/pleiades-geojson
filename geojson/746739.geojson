@@ -3,10 +3,10 @@
   "title": "Garindaneis",
   "id": "746739",
   "bbox": [
-    33.5,
-    28.0,
-    34.0,
-    28.5
+    33.5670501948,
+    28.3113755189,
+    33.8216525224,
+    28.3137549799
   ],
   "description": "An ancient place, cited: BAtlas 76 D5 Garindaneis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75,
-          28.25
+          33.6943576116,
+          28.3126875492
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.5,
-              28.0
+              33.567050194799094,
+              28.313160114634968
             ],
             [
-              33.5,
-              28.5
+              33.606311301395294,
+              28.313160114634968
             ],
             [
-              34.0,
-              28.5
+              33.625941854693394,
+              28.313160114634968
             ],
             [
-              34.0,
-              28.0
+              33.64616727324295,
+              28.313160114634968
             ],
             [
-              33.5,
-              28.0
+              33.66639269179251,
+              28.313160114634968
+            ],
+            [
+              33.691971897605185,
+              28.313754979886426
+            ],
+            [
+              33.71993056442369,
+              28.31256524938351
+            ],
+            [
+              33.741345713476164,
+              28.311970384132053
+            ],
+            [
+              33.76395059303155,
+              28.311375518880595
+            ],
+            [
+              33.78596060733548,
+              28.311970384132053
+            ],
+            [
+              33.82165252242294,
+              28.311970384132053
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746739/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746739/batlas-map-label-location"
       }
     }
   ]

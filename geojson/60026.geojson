@@ -3,10 +3,10 @@
   "title": "Sakastan(e)",
   "id": "60026",
   "bbox": [
-    60.0,
-    30.0,
-    65.0,
-    35.0
+    61.9783974438,
+    30.3004417233,
+    64.5541639826,
+    30.5205418663
   ],
   "description": "Sakastan(e) was a region located between Arachosia and Drangiana.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          62.5,
-          32.5
+          63.265811221,
+          30.4089386102
         ]
       },
       "properties": {
@@ -30,39 +30,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              60.0,
-              30.0
+              61.97839744380218,
+              30.300441723255915
             ],
             [
-              60.0,
-              35.0
+              62.29962467958927,
+              30.318287680799642
             ],
             [
-              65.0,
-              35.0
+              62.57921134777433,
+              30.359928248401673
             ],
             [
-              65.0,
-              30.0
+              62.87664397350312,
+              30.359928248401673
             ],
             [
-              60.0,
-              30.0
+              63.11459007408615,
+              30.40751746851828
+            ],
+            [
+              63.37038213221291,
+              30.413466121032855
+            ],
+            [
+              63.632122842854244,
+              30.443209383605733
+            ],
+            [
+              63.89386355349558,
+              30.467003993664036
+            ],
+            [
+              64.23888539934097,
+              30.49079860372234
+            ],
+            [
+              64.55416398261349,
+              30.52054186629522
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60026/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60026/batlas-map-label-location"
       }
     }
   ]

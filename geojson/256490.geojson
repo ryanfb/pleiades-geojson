@@ -3,10 +3,10 @@
   "title": "Turgaliensis Regionis Praefectura",
   "id": "256490",
   "bbox": [
-    -7.0,
-    39.0,
-    -6.0,
-    40.0
+    -6.17685206347,
+    39.5272937667,
+    -5.8656185639,
+    39.5758347712
   ],
   "description": "An ancient place, cited: BAtlas 26 D2 Turgaliensis Regionis Praefectura",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          39.5
+          -6.02123531369,
+          39.5515642689
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              39.0
+              -6.176852063466849,
+              39.575834771199
             ],
             [
-              -7.0,
-              40.0
-            ],
-            [
-              -6.0,
-              40.0
-            ],
-            [
-              -6.0,
-              39.0
-            ],
-            [
-              -7.0,
-              39.0
+              -5.865618563904248,
+              39.52729376668006
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256490/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256490/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Theodorias",
   "id": "668388",
   "bbox": [
-    35.5,
-    35.5,
-    36.0,
-    36.0
+    35.8529270505,
+    35.5155770081,
+    36.0842106602,
+    35.517718523
   ],
   "description": "An ancient place, cited: BAtlas 68 A2 Theodorias",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          35.75
+          35.9685688554,
+          35.5166477655
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              35.5
+              35.8529270504679,
+              35.51557700808486
             ],
             [
-              35.5,
-              36.0
-            ],
-            [
-              36.0,
-              36.0
-            ],
-            [
-              36.0,
-              35.5
-            ],
-            [
-              35.5,
-              35.5
+              36.0842106602346,
+              35.51771852299011
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668388/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668388/batlas-map-label-location"
       }
     }
   ]

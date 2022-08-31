@@ -3,10 +3,10 @@
   "title": "Comedus (mountain)",
   "id": "59779",
   "bbox": [
-    70.0,
-    35.0,
-    75.0,
-    40.0
+    70.3610006212,
+    38.6297449742,
+    74.3168545434,
+    38.9033829898
   ],
   "description": "An ancient place, cited: BAtlas 6 C2 Comedus M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          37.5
+          72.3423339444,
+          38.721622481
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              35.0
+              70.36100062124149,
+              38.62974497416474
             ],
             [
-              70.0,
-              40.0
+              70.85473877995128,
+              38.62974497416474
             ],
             [
-              75.0,
-              40.0
+              71.22355523585497,
+              38.63569362667931
             ],
             [
-              75.0,
-              35.0
+              71.57452573421494,
+              38.65353958422304
             ],
             [
-              70.0,
-              35.0
+              71.87790701245831,
+              38.67733419428134
+            ],
+            [
+              72.22887751081828,
+              38.70707745685422
+            ],
+            [
+              72.63338588180943,
+              38.730872066912525
+            ],
+            [
+              73.09143212543177,
+              38.76656398199998
+            ],
+            [
+              73.44240262379174,
+              38.78440993954371
+            ],
+            [
+              73.79932177466628,
+              38.82010185463116
+            ],
+            [
+              74.31685454343437,
+              38.90338298983522
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59779/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59779/batlas-map-label-location"
       }
     }
   ]

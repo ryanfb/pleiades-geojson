@@ -3,14 +3,13 @@
   "title": "Ipnoi (mountain)",
   "id": "570315",
   "bbox": [
-    24.333333,
-    37.616667,
-    24.333333,
-    37.616667
+    24.3116364691,
+    37.5598031363,
+    24.3404279473,
+    37.5678933037
   ],
   "description": "A mountain, probably Kaminia, on Keos.",
   "connectsWith": [
-    "570348",
     "570348"
   ],
   "names": [
@@ -22,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.333333,
-          37.616667
+          24.326227207,
+          37.5630925134
         ]
       },
       "properties": {
@@ -32,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              37.5
+              24.311636469149505,
+              37.55980313625287
             ],
             [
-              24.0,
-              38.0
+              24.31758512166408,
+              37.56051697455456
             ],
             [
-              24.5,
-              38.0
+              24.322581989776438,
+              37.56146875895678
             ],
             [
-              24.5,
-              37.5
+              24.328292696190317,
+              37.563134381660916
             ],
             [
-              24.0,
-              37.5
+              24.334955187006642,
+              37.56598973486797
+            ],
+            [
+              24.340427947320165,
+              37.56789330367258
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570315/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570315/batlas-map-label-location"
       }
     }
   ]

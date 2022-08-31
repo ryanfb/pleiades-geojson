@@ -3,10 +3,10 @@
   "title": "Lykone (mountain)",
   "id": "570443",
   "bbox": [
-    22.5,
-    37.5,
-    23.0,
-    38.0
+    22.6682371377,
+    37.620159751,
+    22.7164212231,
+    37.6380057085
   ],
   "description": "A spur of Megavouni.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          37.75
+          22.6918645024,
+          37.6302168244
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.5
+              22.668237137709127,
+              37.62015975097307
             ],
             [
-              22.5,
-              38.0
+              22.67507808810086,
+              37.624323807733276
             ],
             [
-              23.0,
-              38.0
+              22.681324173241194,
+              37.62700070136481
             ],
             [
-              23.0,
-              37.5
+              22.689354854135843,
+              37.629677594996394
             ],
             [
-              22.5,
-              37.5
+              22.695006074024718,
+              37.63175962337647
+            ],
+            [
+              22.700954726539294,
+              37.6338416517566
+            ],
+            [
+              22.71642122307719,
+              37.6380057085168
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570443/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570443/batlas-map-label-location"
       }
     }
   ]
