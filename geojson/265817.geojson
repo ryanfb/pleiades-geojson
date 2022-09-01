@@ -3,10 +3,10 @@
   "title": "Baliares/Gymnesiae Inss. (Maior et Minor)",
   "id": "265817",
   "bbox": [
-    1.5,
-    39.5019494,
-    4.0044605,
-    40.0
+    2.96104913529,
+    39.1237103162,
+    4.44464879972,
+    39.8020479331
   ],
   "description": "Baliares/Gymnesiae Inss. (Maior et Minor) (The Balearic Islands) is an island group of the western Mediterranean Sea, located to the east of the Iberian peninsula. In modern geographical terms, the four largest islands of the group are Majorca, Minorca, Ibiza, and Formentera, but the latter two are also part of the Pityussae island group of antiquity.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.75107376667,
-          39.808954
+          3.67595688631,
+          39.5204263986
         ]
       },
       "properties": {
@@ -33,39 +33,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              2.0,
-              39.0
+              2.961049135294003,
+              39.12371031618202
             ],
             [
-              2.0,
-              41.0
+              3.476595076301146,
+              39.47936335865339
             ],
             [
-              5.0,
-              41.0
+              3.992890395459668,
+              39.68219366260852
             ],
             [
-              5.0,
-              39.0
-            ],
-            [
-              2.0,
-              39.0
+              4.444648799723375,
+              39.80204793312746
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/265817/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/265817/batlas-map-label-location"
       }
     }
   ]

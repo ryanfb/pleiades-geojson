@@ -3,10 +3,10 @@
   "title": "Tidamensioi?",
   "id": "344514",
   "bbox": [
-    9.0,
-    30.0,
-    10.0,
-    31.0
+    9.51740018626,
+    30.1199606868,
+    9.88431307336,
+    30.1306682614
   ],
   "description": "An ancient place, cited: BAtlas 35 B4 Tidamensioi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          30.5
+          9.70087329908,
+          30.1243476123
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              30.0
+              9.517400186263444,
+              30.11996068682771
             ],
             [
-              9.0,
-              31.0
+              9.560944322670082,
+              30.122816040034706
             ],
             [
-              10.0,
-              31.0
+              9.593067046248791,
+              30.122102201733014
             ],
             [
-              10.0,
-              30.0
+              9.622334416620674,
+              30.123529878336456
             ],
             [
-              9.0,
-              30.0
+              9.655170978501076,
+              30.12424371663832
+            ],
+            [
+              9.698001276606021,
+              30.122816040034706
+            ],
+            [
+              9.732265515089864,
+              30.122816040034706
+            ],
+            [
+              9.765102076970493,
+              30.123529878336456
+            ],
+            [
+              9.785803387721046,
+              30.12567139324176
+            ],
+            [
+              9.820067626205116,
+              30.1270990698452
+            ],
+            [
+              9.84076893695584,
+              30.128526746448756
+            ],
+            [
+              9.884313073362534,
+              30.130668261353946
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344514/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344514/batlas-map-label-location"
       }
     }
   ]

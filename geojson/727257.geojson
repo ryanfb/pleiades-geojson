@@ -3,10 +3,10 @@
   "title": "Xoites Nomos",
   "id": "727257",
   "bbox": [
-    30.5,
-    31.0,
-    31.0,
-    31.5
+    30.9758647487,
+    31.1298094055,
+    31.1049505082,
+    31.130999136
   ],
   "description": "An ancient place, cited: BAtlas 74 D2 Xoites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          31.25
+          31.0404123794,
+          31.1306139922
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              31.0
+              30.97586474866995,
+              31.129809405487492
             ],
             [
-              30.5,
-              31.5
+              31.00263368498554,
+              31.13040427073895
             ],
             [
-              31.0,
-              31.5
+              31.0270231602953,
+              31.130999135990407
             ],
             [
-              31.0,
-              31.0
+              31.03951533057591,
+              31.13040427073895
             ],
             [
-              30.5,
-              31.0
+              31.05676642286818,
+              31.130999135990407
+            ],
+            [
+              31.072232919406076,
+              31.130999135990407
+            ],
+            [
+              31.091863472704176,
+              31.13040427073895
+            ],
+            [
+              31.104950508236243,
+              31.130999135990407
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727257/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727257/batlas-map-label-location"
       }
     }
   ]

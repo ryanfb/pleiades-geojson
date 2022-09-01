@@ -3,12 +3,12 @@
   "title": "Rhodope (mountain)",
   "id": "501592",
   "bbox": [
-    24.0,
-    41.5,
-    24.5,
-    42.0
+    23.9633041202,
+    41.4674851898,
+    25.1250759563,
+    41.7744356595
   ],
-  "description": "Rhodope Mts.",
+  "description": "The Rhodope Mountains are located in southeastern Europe. Golyam Perelik is the highest peak of the mountain range rising to 2,191 meters (7,188 ft).",
   "names": [
     "Rhodope"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          41.75
+          24.5342713215,
+          41.5836049857
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              41.5
+              23.963304120180226,
+              41.77443565953263
             ],
             [
-              24.0,
-              42.0
+              24.05074931214449,
+              41.733389957182226
             ],
             [
-              24.5,
-              42.0
+              24.145332887126244,
+              41.69055965907728
             ],
             [
-              24.5,
-              41.5
+              24.236347270599254,
+              41.654867743989826
             ],
             [
-              24.0,
-              41.5
+              24.33271544133538,
+              41.62274502041112
+            ],
+            [
+              24.42372982480839,
+              41.595976084095525
+            ],
+            [
+              24.511175016772654,
+              41.57099174353431
+            ],
+            [
+              24.81455629501602,
+              41.50139250911377
+            ],
+            [
+              24.923416636032755,
+              41.485331147324416
+            ],
+            [
+              25.028707785540746,
+              41.47462357279818
+            ],
+            [
+              25.125075956276874,
+              41.46748518978069
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501592/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501592/batlas-map-label-location"
       }
     }
   ]

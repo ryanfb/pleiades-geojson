@@ -3,10 +3,10 @@
   "title": "Pieria",
   "id": "491696",
   "bbox": [
-    22.358611,
-    40.085556,
-    22.491299,
-    40.177012
+    22.4143032794,
+    40.1377944471,
+    22.5166201026,
+    40.5708563501
   ],
   "description": "Originally the territory of the Pieres, later incoporated into Macedonia",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4236465,
-          40.130203
+          22.4871771632,
+          40.3600729515
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              40.5
+              22.414303279395984,
+              40.57085635013066
             ],
             [
-              22.0,
-              41.0
+              22.46665142152425,
+              40.4792471014062
             ],
             [
-              22.5,
-              41.0
+              22.491635762085465,
+              40.4007248882138
             ],
             [
-              22.5,
-              40.5
+              22.508291989126278,
+              40.31744375300974
             ],
             [
-              22.0,
-              40.5
+              22.516620102646684,
+              40.23892153981734
+            ],
+            [
+              22.507102258623362,
+              40.13779444706955
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491696/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491696/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Yaudheyas",
   "id": "60107",
   "bbox": [
-    75.0,
-    30.0,
-    80.0,
-    35.0
+    75.2688768919,
+    31.1933344657,
+    76.3610494935,
+    31.2183188063
   ],
   "description": "An ancient place, cited: BAtlas 6 D3 Yaudheyas",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          32.5
+          75.8153034034,
+          31.2047535295
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              30.0
+              75.26887689186736,
+              31.193334465693738
             ],
             [
-              75.0,
-              35.0
+              75.4366288927784,
+              31.20047284871123
             ],
             [
-              80.0,
-              35.0
+              75.56511978709324,
+              31.204042040219974
             ],
             [
-              80.0,
-              30.0
+              75.67576472386435,
+              31.204042040219974
             ],
             [
-              75.0,
-              30.0
+              75.84351672477538,
+              31.20047284871123
+            ],
+            [
+              75.93274651249402,
+              31.204042040219974
+            ],
+            [
+              76.04339144926513,
+              31.21474961474621
+            ],
+            [
+              76.15760557754498,
+              31.204042040219974
+            ],
+            [
+              76.36104949354348,
+              31.218318806254956
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60107/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60107/batlas-map-label-location"
       }
     }
   ]

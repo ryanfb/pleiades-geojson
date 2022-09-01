@@ -3,10 +3,10 @@
   "title": "Namnetes/Samnitai",
   "id": "138480",
   "bbox": [
-    -2.0,
-    47.0,
-    -1.0,
-    48.0
+    -1.90486941636,
+    47.3048713073,
+    -1.44563344223,
+    47.4286032796
   ],
   "description": "A Gallic people on the west coast of Gallia Lugdunensis, on the north bank of the Liger river.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5,
-          47.5
+          -1.67573764761,
+          47.3650698577
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -2.0,
-              47.0
+              -1.904869416357371,
+              47.42860327964348
             ],
             [
-              -2.0,
-              48.0
+              -1.866798040264086,
+              47.41670597461433
             ],
             [
-              -1.0,
-              48.0
+              -1.823967742159198,
+              47.40480866958518
             ],
             [
-              -1.0,
-              47.0
+              -1.778757983048422,
+              47.39529082556186
             ],
             [
-              -2.0,
-              47.0
+              -1.728789301925985,
+              47.378634598521046
+            ],
+            [
+              -1.68595900382104,
+              47.366737293491894
+            ],
+            [
+              -1.64907735823067,
+              47.35483998846274
+            ],
+            [
+              -1.590780563587828,
+              47.341752952930676
+            ],
+            [
+              -1.540811882465391,
+              47.32866591739861
+            ],
+            [
+              -1.501550775869191,
+              47.31914807337529
+            ],
+            [
+              -1.445633442232179,
+              47.304871307340306
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138480/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138480/batlas-map-label-location"
       }
     }
   ]

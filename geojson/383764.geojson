@@ -3,10 +3,10 @@
   "title": "Salassi",
   "id": "383764",
   "bbox": [
-    7.0,
-    45.5,
-    7.5,
-    46.0
+    7.23837384013,
+    45.6670456492,
+    7.47572507546,
+    45.7158245998
   ],
   "description": "The Salassi were a Celtic tribe in the Alpine region of northern Italy and Gaul.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          45.75
+          7.35637441226,
+          45.6947742331
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              45.5
+              7.23837384012936,
+              45.667045649155895
             ],
             [
-              7.0,
-              46.0
+              7.287747656000339,
+              45.68013268468796
             ],
             [
-              7.5,
-              46.0
+              7.322844705836336,
+              45.69024539396274
             ],
             [
-              7.5,
-              45.5
+              7.359726351426706,
+              45.696788911728774
             ],
             [
-              7.0,
-              45.5
+              7.396013131765618,
+              45.703927294746265
+            ],
+            [
+              7.430515316350157,
+              45.7104708125123
+            ],
+            [
+              7.475725075460933,
+              45.71582459977542
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383764/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383764/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Media/Mad(aya) (region)",
   "id": "903080",
   "bbox": [
-    46.0,
-    34.0,
-    47.0,
-    35.0
+    46.5059448765,
+    34.6227377488,
+    51.3600453284,
+    35.2699511424
   ],
   "description": "Media/Mad(aya) was a region of northwestern Iran.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.5,
-          34.5
+          48.9193312443,
+          35.0482414358
         ]
       },
       "properties": {
@@ -30,39 +30,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              46.0,
-              34.0
+              46.50594487652967,
+              34.62273774877343
             ],
             [
-              46.0,
-              35.0
+              47.01039060976569,
+              34.75598756509993
             ],
             [
-              47.0,
-              35.0
+              47.419657902768506,
+              34.84640708332148
             ],
             [
-              47.0,
-              34.0
+              47.805130585713016,
+              34.92730875751971
             ],
             [
-              46.0,
-              34.0
+              48.181085424634205,
+              34.98441582165964
+            ],
+            [
+              48.571317029590375,
+              35.046281807811226
+            ],
+            [
+              48.966307556558206,
+              35.103388871951154
+            ],
+            [
+              49.347021317491055,
+              35.15097809206776
+            ],
+            [
+              49.76580645451719,
+              35.189049468161045
+            ],
+            [
+              49.98947578906524,
+              35.20332623419603
+            ],
+            [
+              50.203627279589966,
+              35.22712084425433
+            ],
+            [
+              50.579582118511155,
+              35.25567437632429
+            ],
+            [
+              50.99836725553729,
+              35.269951142359275
+            ],
+            [
+              51.360045328423496,
+              35.260433298335954
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/903080/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/903080/batlas-map-label-location"
       }
     }
   ]

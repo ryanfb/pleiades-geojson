@@ -3,10 +3,10 @@
   "title": "Amphilochia",
   "id": "530797",
   "bbox": [
-    21.0,
-    39.0,
-    21.5,
-    39.5
+    21.1488077637,
+    38.9393580912,
+    21.3355954527,
+    39.0387005882
   ],
   "description": "An ancient place, cited: BAtlas 54 D3 Amphilochia",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.25
+          21.2425271691,
+          38.9896178321
         ]
       },
       "properties": {
@@ -31,39 +31,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.0
+              21.14880776372894,
+              39.038700588192796
             ],
             [
-              21.0,
-              39.5
+              21.178551026301818,
+              39.0232340916549
             ],
             [
-              21.5,
-              39.5
+              21.194017522839715,
+              39.01490597813449
             ],
             [
-              21.5,
-              39.0
+              21.214242941389273,
+              39.00538813411117
             ],
             [
-              21.0,
-              39.0
+              21.227924842172797,
+              38.99824975109368
+            ],
+            [
+              21.242796473459236,
+              38.99051650282473
+            ],
+            [
+              21.26123729625442,
+              38.97921406304704
+            ],
+            [
+              21.280272984301064,
+              38.970291084275175
+            ],
+            [
+              21.297524076593334,
+              38.960773240251854
+            ],
+            [
+              21.314180303634146,
+              38.950660530977075
+            ],
+            [
+              21.33559545268662,
+              38.93935809119938
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530797/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530797/batlas-map-label-location"
       }
     }
   ]

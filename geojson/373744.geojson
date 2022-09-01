@@ -3,10 +3,10 @@
   "title": "Auschisai?",
   "id": "373744",
   "bbox": [
-    20.0,
-    32.0,
-    21.0,
-    33.0
+    20.2528922345,
+    32.2129147587,
+    20.6764362935,
+    32.336646731
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          32.5
+          20.4638521215,
+          32.2777088059
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              32.0
+              20.252892234471688,
+              32.21291475871425
             ],
             [
-              20.0,
-              33.0
+              20.315710005025664,
+              32.233854015565726
             ],
             [
-              21.0,
-              33.0
+              20.361395656337663,
+              32.24717899719832
             ],
             [
-              21.0,
-              32.0
+              20.409936660856488,
+              32.2643111164403
             ],
             [
-              20.0,
-              32.0
+              20.457525880973094,
+              32.27763609807289
+            ],
+            [
+              20.50416331668748,
+              32.290009295303264
+            ],
+            [
+              20.54604183039004,
+              32.304286061338246
+            ],
+            [
+              20.58696855969032,
+              32.314755689763956
+            ],
+            [
+              20.63075064219754,
+              32.32332174938489
+            ],
+            [
+              20.676436293509482,
+              32.336646731017424
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373744/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373744/batlas-map-label-location"
       }
     }
   ]

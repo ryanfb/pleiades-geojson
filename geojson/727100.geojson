@@ -3,10 +3,10 @@
   "title": "Chemmites? Nomos",
   "id": "727100",
   "bbox": [
-    30.5,
-    31.0,
-    31.0,
-    31.5
+    30.5309055406,
+    31.2713873353,
+    30.7254264778,
+    31.2743616616
   ],
   "description": "An ancient place, cited: BAtlas 74 D2 Chemmites? Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          31.25
+          30.6281556421,
+          31.2734383329
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              31.0
+              30.53090554057968,
+              31.271387335334396
             ],
             [
-              30.5,
-              31.5
+              30.554105285386527,
+              31.271982200585853
             ],
             [
-              31.0,
-              31.5
+              30.576115299690457,
+              31.27257706583731
             ],
             [
-              31.0,
-              31.0
+              30.59277152673127,
+              31.273766796340226
             ],
             [
-              30.5,
-              31.0
+              30.608238023269166,
+              31.273766796340226
+            ],
+            [
+              30.623704519807063,
+              31.273766796340226
+            ],
+            [
+              30.64392993835662,
+              31.273766796340226
+            ],
+            [
+              30.659991300145975,
+              31.274361661591684
+            ],
+            [
+              30.670698874672212,
+              31.274361661591684
+            ],
+            [
+              30.689139697467397,
+              31.274361661591684
+            ],
+            [
+              30.70579592450821,
+              31.273766796340226
+            ],
+            [
+              30.72542647780631,
+              31.273766796340226
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727100/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727100/batlas-map-label-location"
       }
     }
   ]

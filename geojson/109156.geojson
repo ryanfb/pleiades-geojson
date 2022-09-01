@@ -3,10 +3,10 @@
   "title": "Menapii",
   "id": "109156",
   "bbox": [
-    3.0,
-    50.0,
-    4.0,
-    51.0
+    3.16192411475,
+    50.9789643289,
+    5.12795377082,
+    51.4697281613
   ],
   "description": "A Belgic tribe of northern Gaul.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          50.5
+          4.15964320653,
+          51.1689227712
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              50.0
+              3.161924114753106,
+              50.978964328854204
             ],
             [
-              3.0,
-              51.0
+              3.575355464516122,
+              51.032502201485386
             ],
             [
-              4.0,
-              51.0
+              3.917402984104228,
+              51.08604007411657
             ],
             [
-              4.0,
-              50.0
+              4.226732914862168,
+              51.1514752517769
             ],
             [
-              3.0,
-              50.0
+              4.530114193105533,
+              51.23475638698096
+            ],
+            [
+              4.812675187547882,
+              51.33290915347146
+            ],
+            [
+              5.127953770820227,
+              51.469728161306705
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109156/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109156/batlas-map-label-location"
       }
     }
   ]

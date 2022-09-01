@@ -3,10 +3,10 @@
   "title": "Francia",
   "id": "98961",
   "bbox": [
-    6.0,
-    52.0,
-    7.0,
-    53.0
+    6.74559067795,
+    52.0900516626,
+    8.17897798786,
+    52.0971900457
   ],
   "description": "An ancient place, cited: BAtlas 10 C4 Francia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          52.5
+          7.46228141227,
+          52.0938092641
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              52.0
+              6.745590677950531,
+              52.091479339245836
             ],
             [
-              6.0,
-              53.0
+              7.042547411478324,
+              52.09005166264245
             ],
             [
-              7.0,
-              53.0
+              7.268120314830981,
+              52.091479339245836
             ],
             [
-              7.0,
-              52.0
+              7.492265541580252,
+              52.0957623690565
             ],
             [
-              6.0,
-              52.0
+              7.712127738518859,
+              52.09719004565994
+            ],
+            [
+              7.90058105018062,
+              52.0957623690565
+            ],
+            [
+              8.178977987862766,
+              52.0957623690565
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98961/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98961/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Lugdunensis (province)",
   "id": "981528",
   "bbox": [
-    -5.0,
-    45.0,
-    0.0,
-    50.0
+    -1.96851999826,
+    47.9084215915,
+    2.24312598206,
+    47.9322162015
   ],
   "description": "An ancient place, cited: BAtlas 100 F2 Lugdunensis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          47.5
+          0.137361074557,
+          47.9264227416
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              45.0
+              -1.968519998263389,
+              47.926267549013005
             ],
             [
-              -5.0,
-              50.0
+              -1.480730492068176,
+              47.93221620152758
             ],
             [
-              0.0,
-              50.0
+              -1.076222121077024,
+              47.93221620152758
             ],
             [
-              0.0,
-              45.0
+              -0.665765097571295,
+              47.926267549013005
             ],
             [
-              -5.0,
-              45.0
+              -0.255308074065567,
+              47.93221620152758
+            ],
+            [
+              0.172994906983888,
+              47.926267549013005
+            ],
+            [
+              0.583451930489616,
+              47.93221620152758
+            ],
+            [
+              0.982011648966193,
+              47.926267549013005
+            ],
+            [
+              1.398417324986497,
+              47.926267549013005
+            ],
+            [
+              1.761285128375619,
+              47.91437024398385
+            ],
+            [
+              2.243125982056256,
+              47.90842159146928
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/981528/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/981528/batlas-map-label-location"
       }
     }
   ]

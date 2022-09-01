@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Saltus Carminianensis?",
+  "title": "Saltus Carminianensis",
   "id": "442764",
   "bbox": [
-    15.5,
-    41.0,
-    16.0,
-    41.5
+    15.5726460932,
+    41.384622453,
+    15.8439046479,
+    41.4188866915
   ],
-  "description": "The Saltus Carminianensis? is a large imperial property of northern Apulia mentioned in the Notitia Dignitatum Occidentis.",
+  "description": "The Saltus Carminianensis was a large imperial property of northern Apulia mentioned in the Notitia Dignitatum Occidentis. Its precise location and borders are not known today.",
   "names": [
     "Saltus Carminianensis"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.75,
-          41.25
+          15.7097426328,
+          41.3931635603
         ]
       },
       "properties": {
@@ -28,39 +28,103 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.5,
-              41.0
+              15.57264609322641,
+              41.39925613821197
             ],
             [
-              15.5,
-              41.5
+              15.594418161429871,
+              41.39318851264716
             ],
             [
-              16.0,
-              41.5
+              15.605125735956108,
+              41.391403916892784
             ],
             [
-              16.0,
-              41.0
+              15.620116340292782,
+              41.38961932113841
             ],
             [
-              15.5,
-              41.0
+              15.632965429724322,
+              41.38747780623305
+            ],
+            [
+              15.646885276608373,
+              41.38712088708229
+            ],
+            [
+              15.665088153303032,
+              41.38569321047868
+            ],
+            [
+              15.679364919338013,
+              41.38569321047868
+            ],
+            [
+              15.692927847071303,
+              41.384622453026054
+            ],
+            [
+              15.707918451407977,
+              41.38569321047868
+            ],
+            [
+              15.721481379141267,
+              41.38712088708229
+            ],
+            [
+              15.735401226025317,
+              41.38783472538404
+            ],
+            [
+              15.744681123948112,
+              41.38890548283666
+            ],
+            [
+              15.758244051681174,
+              41.390690078591035
+            ],
+            [
+              15.772877736867144,
+              41.39354543179792
+            ],
+            [
+              15.783228392242393,
+              41.39604386585415
+            ],
+            [
+              15.797505158277374,
+              41.39996997651366
+            ],
+            [
+              15.80892657110553,
+              41.404253006324154
+            ],
+            [
+              15.818920307329847,
+              41.40639452122946
+            ],
+            [
+              15.828200205252699,
+              41.410320631889135
+            ],
+            [
+              15.843904647891065,
+              41.41888669151007
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442764/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442764/batlas-map-label-location"
       }
     }
   ]

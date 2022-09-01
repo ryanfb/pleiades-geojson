@@ -3,10 +3,10 @@
   "title": "Suelteri?",
   "id": "157930",
   "bbox": [
-    6.0,
-    43.0,
-    6.5,
-    43.5
+    6.21457435512,
+    43.2145738224,
+    6.61729813036,
+    43.4114742206
   ],
   "description": "An ancient place, cited: BAtlas 16 B3 Suelteri?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          43.25
+          6.41937728162,
+          43.3060838501
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              43.0
+              6.214574355120703,
+              43.2145738223644
             ],
             [
-              6.0,
-              43.5
+              6.238368965179006,
+              43.22468653163918
             ],
             [
-              6.5,
-              43.5
+              6.282983859038325,
+              43.240747893428534
             ],
             [
-              6.5,
-              43.0
+              6.337711462172422,
+              43.26335277298392
             ],
             [
-              6.0,
-              43.0
+              6.383516086534655,
+              43.28417305678494
+            ],
+            [
+              6.432295037154176,
+              43.309157397346155
+            ],
+            [
+              6.482263718276613,
+              43.33533146841029
+            ],
+            [
+              6.529852938393219,
+              43.357936347965676
+            ],
+            [
+              6.572088371246707,
+              43.38232582327544
+            ],
+            [
+              6.597072711807925,
+              43.39838718506479
+            ],
+            [
+              6.617298130357483,
+              43.41147422059686
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157930/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157930/batlas-map-label-location"
       }
     }
   ]

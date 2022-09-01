@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Heptakometai",
+  "title": "Heptakomeitai",
   "id": "609400",
   "bbox": [
-    31.0,
-    39.5,
-    31.5,
-    40.0
+    31.2598992487,
+    39.8021085097,
+    31.4570970796,
+    39.8044879707
   ],
-  "description": "An ancient place, cited: BAtlas 62 F2 Heptakometai",
+  "description": "An ancient place, cited: BAtlas 62 F2 Heptakomeitai",
   "names": [
     "Heptakometai"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          39.75
+          31.3586581302,
+          39.8035791612
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              39.5
+              31.259899248710724,
+              39.80448797068641
             ],
             [
-              31.0,
-              40.0
+              31.27863750413161,
+              39.80359567280925
             ],
             [
-              31.5,
-              40.0
+              31.294401433295263,
+              39.80389310543495
             ],
             [
-              31.5,
-              39.5
+              31.31016536245886,
+              39.80389310543495
             ],
             [
-              31.0,
-              39.5
+              31.325929291622515,
+              39.80359567280925
+            ],
+            [
+              31.342882951289027,
+              39.803298240183494
+            ],
+            [
+              31.360728908832755,
+              39.80359567280925
+            ],
+            [
+              31.379764596879397,
+              39.80359567280925
+            ],
+            [
+              31.399692582803254,
+              39.80359567280925
+            ],
+            [
+              31.413969348838236,
+              39.80359567280925
+            ],
+            [
+              31.42794868224746,
+              39.80359567280925
+            ],
+            [
+              31.442225448282443,
+              39.803298240183494
+            ],
+            [
+              31.457097079568882,
+              39.80210850968058
+            ],
+            [
+              31.457097079568882,
+              39.802405942306336
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609400/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609400/batlas-map-label-location"
       }
     }
   ]

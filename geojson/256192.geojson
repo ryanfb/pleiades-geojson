@@ -3,10 +3,10 @@
   "title": "Hareni (mountain)",
   "id": "256192",
   "bbox": [
-    -7.0,
-    37.0,
-    -6.0,
-    38.0
+    -6.87855511409,
+    37.0231490041,
+    -6.51449758019,
+    37.2158853456
   ],
   "description": "Arenas Gordas.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          37.5
+          -6.69652634714,
+          37.1195171749
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              37.0
+              -6.514497580194167,
+              37.023149004144294
             ],
             [
-              -7.0,
-              38.0
-            ],
-            [
-              -6.0,
-              38.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
-              -7.0,
-              37.0
+              -6.8785551140862,
+              37.21588534561655
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256192/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256192/batlas-map-label-location"
       }
     }
   ]

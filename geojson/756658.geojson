@@ -3,10 +3,10 @@
   "title": "Thinites Nomos",
   "id": "756658",
   "bbox": [
-    31.5,
-    26.0,
-    32.0,
-    26.5
+    31.798331394,
+    26.144192178,
+    31.9845242177,
+    26.3559642076
   ],
   "description": "An ancient place, cited: BAtlas 77 F4 Thinites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.75,
-          26.25
+          31.8898851656,
+          26.2487103974
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.5,
-              26.0
+              31.798331393987667,
+              26.35596420755172
             ],
             [
-              31.5,
-              26.5
+              31.825100330303258,
+              26.325626079727385
             ],
             [
-              32.0,
-              26.5
+              31.83699763533241,
+              26.31194417894386
             ],
             [
-              32.0,
-              26.0
+              31.858412784384882,
+              26.284580377376813
             ],
             [
-              31.5,
-              26.0
+              31.87387928092278,
+              26.263760093575797
+            ],
+            [
+              31.894699564723794,
+              26.240560348768952
+            ],
+            [
+              31.909571196010234,
+              26.222119525973767
+            ],
+            [
+              31.930986345062706,
+              26.200109511669837
+            ],
+            [
+              31.952996359366637,
+              26.17750463211445
+            ],
+            [
+              31.984524217693888,
+              26.144192178032824
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/756658/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/756658/batlas-map-label-location"
       }
     }
   ]

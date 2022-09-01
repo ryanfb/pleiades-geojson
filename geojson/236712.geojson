@@ -3,10 +3,10 @@
   "title": "Vettonia",
   "id": "236712",
   "bbox": [
-    -5.357813,
-    40.1832267,
-    -4.8837734,
-    40.5291068
+    -6.42239529947,
+    40.8091654109,
+    -5.00804367761,
+    41.1613256398
   ],
   "description": "An ancient place, cited: BAtlas 24 E4 Vettonia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.1207932,
-          40.35616675
+          -5.7230668514,
+          41.0168239377
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              40.0
+              -6.422395299471702,
+              40.80916541092671
             ],
             [
-              -7.0,
-              41.0
+              -6.190159905302664,
+              40.8948260071366
             ],
             [
-              -6.0,
-              41.0
+              -6.013128006468889,
+              40.95574020888574
             ],
             [
-              -6.0,
-              40.0
+              -5.826578263611736,
+              41.00713656661179
             ],
             [
-              -7.0,
-              40.0
+              -5.634317814340704,
+              41.05662935553306
+            ],
+            [
+              -5.432539521046294,
+              41.096604300430954
+            ],
+            [
+              -5.245989778189141,
+              41.13086853891497
+            ],
+            [
+              -5.059440035332045,
+              41.15561493337549
+            ],
+            [
+              -5.008043677606111,
+              41.161325639789595
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236712/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236712/batlas-map-label-location"
       }
     }
   ]

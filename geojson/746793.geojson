@@ -3,10 +3,10 @@
   "title": "Pharanitai",
   "id": "746793",
   "bbox": [
-    33.0,
-    28.5,
-    33.5,
-    29.0
+    33.3531663936,
+    28.689878364,
+    33.5780254587,
+    28.6934475555
   ],
   "description": "An ancient place, cited: BAtlas 76 C4 Pharanitai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.25,
-          28.75
+          33.4656071147,
+          28.6911720202
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              28.5
+              33.35316639363748,
+              28.69047322921375
             ],
             [
-              33.0,
-              29.0
+              33.395996691742425,
+              28.69047322921375
             ],
             [
-              33.5,
-              29.0
+              33.41265291878324,
+              28.69047322921375
             ],
             [
-              33.5,
-              28.5
+              33.43228347208134,
+              28.69047322921375
             ],
             [
-              33.0,
-              28.5
+              33.45905240839693,
+              28.689878363962293
+            ],
+            [
+              33.48284701845523,
+              28.69106809446521
+            ],
+            [
+              33.504262167507704,
+              28.691662959716666
+            ],
+            [
+              33.52746191231455,
+              28.692257824968124
+            ],
+            [
+              33.54233354360099,
+              28.692257824968124
+            ],
+            [
+              33.578025458688444,
+              28.69344755547104
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746793/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746793/batlas-map-label-location"
       }
     }
   ]

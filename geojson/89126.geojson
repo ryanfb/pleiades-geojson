@@ -3,10 +3,10 @@
   "title": "Brigantes",
   "id": "89126",
   "bbox": [
-    -1.380761,
-    54.09191,
-    -1.380761,
-    54.09191
+    -2.63337971242,
+    54.0646565665,
+    -1.44233799163,
+    54.3629316576
   ],
   "description": "An ancient place, cited: BAtlas 9 E6 Brigantes",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.380761,
-          54.09191
+          -2.03726326407,
+          54.2161251531
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              54.0
+              -2.633379712418347,
+              54.36293165756327
             ],
             [
-              -3.0,
-              55.0
+              -2.450488666603484,
+              54.319482940131344
             ],
             [
-              -2.0,
-              55.0
+              -2.314109988072925,
+              54.286170741805414
             ],
             [
-              -2.0,
-              54.0
+              -2.189853438203024,
+              54.253370108108285
             ],
             [
-              -3.0,
-              54.0
+              -2.045949112612619,
+              54.21577025939809
+            ],
+            [
+              -1.906412010759699,
+              54.185360702080125
+            ],
+            [
+              -1.768877580716171,
+              54.15176619698872
+            ],
+            [
+              -1.630752012690618,
+              54.11557788210589
+            ],
+            [
+              -1.442337991625298,
+              54.06465656651628
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89126/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89126/batlas-map-label-location"
       }
     }
   ]

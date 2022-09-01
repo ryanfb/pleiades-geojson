@@ -3,10 +3,10 @@
   "title": "Orumcolae/Korandakaloi",
   "id": "59959",
   "bbox": [
-    90.0,
-    20.0,
-    95.0,
-    25.0
+    91.4636094549,
+    24.7070696915,
+    93.2482052093,
+    24.7998686707
   ],
   "description": "An ancient place, cited: BAtlas 6 G5 Orumcolae/Korandakaloi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          92.5,
-          22.5
+          92.3561086624,
+          24.7672976266
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              90.0,
-              20.0
+              91.46360945490454,
+              24.707069691516438
             ],
             [
-              90.0,
-              25.0
+              91.72059124353422,
+              24.72134645755142
             ],
             [
-              95.0,
-              25.0
+              91.99184979819887,
+              24.757038372638874
             ],
             [
-              95.0,
-              20.0
+              92.17744775665363,
+              24.771315138673856
             ],
             [
-              90.0,
-              20.0
+              92.41301439623084,
+              24.79986867074382
+            ],
+            [
+              92.63430426977305,
+              24.79986867074382
+            ],
+            [
+              92.85559414331527,
+              24.785591904708838
+            ],
+            [
+              93.07688401685749,
+              24.785591904708838
+            ],
+            [
+              93.24820520927727,
+              24.757038372638874
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59959/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59959/batlas-map-label-location"
       }
     }
   ]

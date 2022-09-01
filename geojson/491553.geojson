@@ -3,10 +3,10 @@
   "title": "Botti(ai)a/Emathia",
   "id": "491553",
   "bbox": [
-    22.0,
-    40.5,
-    22.5,
-    41.0
+    22.1356683956,
+    40.684118694,
+    22.515192426,
+    40.7947636308
   ],
   "description": "A district surrounding Pella in Macedonia.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          40.75
+          22.3252058098,
+          40.7403448009
         ]
       },
       "properties": {
@@ -30,39 +30,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              40.5
+              22.13566839561326,
+              40.68411869400819
             ],
             [
-              22.0,
-              41.0
+              22.177308963215285,
+              40.69958519054609
             ],
             [
-              22.5,
-              41.0
+              22.216570069811485,
+              40.710292765072325
             ],
             [
-              22.5,
-              40.5
+              22.25940036791643,
+              40.72337980060439
             ],
             [
-              22.0,
-              40.5
+              22.30342039652429,
+              40.73289764462771
+            ],
+            [
+              22.339112311611746,
+              40.744794949656864
+            ],
+            [
+              22.37956314871086,
+              40.7555025241831
+            ],
+            [
+              22.4140653332954,
+              40.76264090720059
+            ],
+            [
+              22.449757248382856,
+              40.77453821222974
+            ],
+            [
+              22.48782862447614,
+              40.788814978264725
+            ],
+            [
+              22.515192426043185,
+              40.7947636307793
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491553/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491553/batlas-map-label-location"
       }
     }
   ]

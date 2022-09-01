@@ -3,12 +3,12 @@
   "title": "Sicani",
   "id": "462491",
   "bbox": [
-    13.0,
-    37.5,
-    13.5,
-    38.0
+    13.3535999219,
+    37.5707935961,
+    13.7262235154,
+    37.5736489493
   ],
-  "description": "An ancient place, cited: BAtlas 47 C3 Sicani",
+  "description": "One of the three indigenous tribes of Sicily present at the time of Phoenician and Greek colonization.",
   "names": [
     "Sicani"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.25,
-          37.75
+          13.5399223367,
+          37.5727380491
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              37.5
+              13.353599921891583,
+              37.57293511096745
             ],
             [
-              13.0,
-              38.0
+              13.428552943575237,
+              37.5736489492692
             ],
             [
-              13.5,
-              38.0
+              13.4963675822414,
+              37.57293511096745
             ],
             [
-              13.5,
-              37.5
+              13.564896059209312,
+              37.5707935960622
             ],
             [
-              13.0,
-              37.5
+              13.636279889384221,
+              37.5736489492692
+            ],
+            [
+              13.726223515404607,
+              37.5722212726657
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462491/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/462491/batlas-map-label-location"
       }
     }
   ]

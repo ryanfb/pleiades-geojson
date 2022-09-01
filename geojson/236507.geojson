@@ -3,10 +3,10 @@
   "title": "Lancienses Transcudani",
   "id": "236507",
   "bbox": [
-    -8.0,
-    40.0,
-    -7.0,
-    41.0
+    -7.13195652006,
+    40.3765719643,
+    -6.862125642,
+    40.4558080157
   ],
   "description": "An ancient place, cited: BAtlas 24 D4 Lancienses Transcudani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          40.5
+          -6.99937620156,
+          40.4086029247
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              40.0
+              -7.131956520062772,
+              40.45580801574516
             ],
             [
-              -8.0,
-              41.0
+              -7.10197531138931,
+              40.44081741140849
             ],
             [
-              -7.0,
-              41.0
+              -7.075563294224537,
+              40.43010983688225
             ],
             [
-              -7.0,
-              40.0
+              -7.047009762154573,
+              40.41726074745088
             ],
             [
-              -8.0,
-              40.0
+              -7.017742391782917,
+              40.41012236443339
+            ],
+            [
+              -6.979908961790215,
+              40.400842466510596
+            ],
+            [
+              -6.943503208400955,
+              40.391562568587744
+            ],
+            [
+              -6.910666646520554,
+              40.38299650896687
+            ],
+            [
+              -6.862125642001615,
+              40.37657196425107
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236507/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236507/batlas-map-label-location"
       }
     }
   ]

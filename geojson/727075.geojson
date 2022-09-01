@@ -3,10 +3,10 @@
   "title": "Arabia Nomos",
   "id": "727075",
   "bbox": [
-    31.5,
-    30.5,
-    32.0,
-    31.0
+    31.6385684334,
+    30.5868798563,
+    31.7623004057,
+    30.5887834251
   ],
   "description": "An ancient place, cited: BAtlas 74 F3 Arabia Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.75,
-          30.75
+          31.7004275503,
+          30.5879779711
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.5,
-              30.5
+              31.63856843340386,
+              30.586879856250505
             ],
             [
-              31.5,
-              31.0
+              31.668073749876044,
+              30.587831640652723
             ],
             [
-              32.0,
-              31.0
+              31.68520586911808,
+              30.587355748451557
             ],
             [
-              32.0,
-              30.5
+              31.695199605342566,
+              30.588307532853946
             ],
             [
-              31.5,
-              30.5
+              31.7123317245846,
+              30.587831640652723
+            ],
+            [
+              31.72993973602763,
+              30.588307532853946
+            ],
+            [
+              31.741837041056783,
+              30.58878342505517
+            ],
+            [
+              31.762300405707037,
+              30.58878342505517
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727075/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727075/batlas-map-label-location"
       }
     }
   ]

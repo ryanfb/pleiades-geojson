@@ -3,10 +3,10 @@
   "title": "Berenicidis M./Smaragdos Oros",
   "id": "785985",
   "bbox": [
-    34.7935054,
-    24.6301364,
-    34.7972792,
-    24.633462
+    34.6333223634,
+    24.727754562,
+    34.769546506,
+    24.75601
   ],
   "description": "An ancient place, cited: BAtlas 80 F4 Berenicidis M./Smaragdos Oros",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7953752969,
-          24.6319264809
+          34.7004574449,
+          24.7421707802
         ]
       },
       "properties": {
@@ -29,39 +29,72 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          34.69948,
+          24.75601
+        ]
+      },
+      "id": "location-of-jabal-zabarah",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoNames.",
+        "location_precision": "precise",
+        "title": "Imagery location of  Jabal Zabārah",
+        "link": "http://pleiades.stoa.org/places/785985/location-of-jabal-zabarah"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.5,
-              24.5
+              34.6333223634266,
+              24.72775456201896
             ],
             [
-              34.5,
-              25.0
+              34.64759912946158,
+              24.72805199464466
             ],
             [
-              35.0,
-              25.0
+              34.66366049125094,
+              24.728349427270416
             ],
             [
-              35.0,
-              24.5
+              34.678829555163134,
+              24.728349427270416
             ],
             [
-              34.5,
-              24.5
+              34.69697294533256,
+              24.728646859896116
+            ],
+            [
+              34.71392660499913,
+              24.728646859896116
+            ],
+            [
+              34.7311776972914,
+              24.728646859896116
+            ],
+            [
+              34.747536491706455,
+              24.72805199464466
+            ],
+            [
+              34.769546506010386,
+              24.72805199464466
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/785985/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/785985/batlas-map-label-location"
       }
     }
   ]

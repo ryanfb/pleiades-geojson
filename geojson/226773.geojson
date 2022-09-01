@@ -3,10 +3,10 @@
   "title": "Tagroi",
   "id": "226773",
   "bbox": [
-    29.0,
-    46.0,
-    30.0,
-    47.0
+    29.2659234365,
+    46.5622450897,
+    29.8155789288,
+    46.7490327787
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.5,
-          46.5
+          29.5443177285,
+          46.6458934272
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              46.0
+              29.26592343645177,
+              46.56224508973634
             ],
             [
-              29.0,
-              47.0
+              29.412260288310335,
+              46.60269592683545
             ],
             [
-              30.0,
-              47.0
+              29.509818189549378,
+              46.6300597284025
             ],
             [
-              30.0,
-              46.0
+              29.60023770777093,
+              46.65742352996955
             ],
             [
-              29.0,
-              46.0
+              29.701364800518718,
+              46.69430517555992
+            ],
+            [
+              29.815578928798573,
+              46.749032778694016
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226773/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226773/batlas-map-label-location"
       }
     }
   ]

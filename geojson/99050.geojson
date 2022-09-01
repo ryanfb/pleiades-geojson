@@ -3,10 +3,10 @@
   "title": "(Ulme)Rugii",
   "id": "99050",
   "bbox": [
-    12.0,
-    54.0,
-    13.0,
-    55.0
+    12.625262618,
+    54.183921827,
+    12.9696895986,
+    54.1857064228
   ],
   "description": "An ancient place, cited: BAtlas 10 I2 (Ulme)Rugii",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.5,
-          54.5
+          12.7974869155,
+          54.1840790754
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.0,
-              54.0
+              12.625262617967223,
+              54.183921827016206
             ],
             [
-              12.0,
-              55.0
+              12.678800490598405,
+              54.183921827016206
             ],
             [
-              13.0,
-              55.0
+              12.746615129264569,
+              54.183921827016206
             ],
             [
-              13.0,
-              54.0
+              12.79301461887826,
+              54.183921827016206
             ],
             [
-              12.0,
-              54.0
+              12.850121683018187,
+              54.183921827016206
+            ],
+            [
+              12.909013342912488,
+              54.183921827016206
+            ],
+            [
+              12.96968959856116,
+              54.18570642277058
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/99050/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/99050/batlas-map-label-location"
       }
     }
   ]
