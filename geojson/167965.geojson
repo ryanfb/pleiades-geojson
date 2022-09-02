@@ -3,10 +3,10 @@
   "title": "Vertamocorii",
   "id": "167965",
   "bbox": [
-    5.0,
-    44.5,
-    5.5,
-    45.0
+    5.35323796465,
+    44.8535730611,
+    5.43421927495,
+    45.0762716644
   ],
   "description": "An ancient place, cited: BAtlas 17 E4 Vertamocorii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.25,
-          44.75
+          5.40267914654,
+          44.9617485628
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              44.5
+              5.353237964649793,
+              44.85357306113292
             ],
             [
-              5.0,
-              45.0
+              5.370783915214076,
+              44.881016727400095
             ],
             [
-              5.5,
-              45.0
+              5.381131527085415,
+              44.89946247030116
             ],
             [
-              5.5,
-              44.5
+              5.389229658115028,
+              44.91700842086544
             ],
             [
-              5.0,
-              44.5
+              5.395978100639809,
+              44.93230489058817
+            ],
+            [
+              5.404526127837869,
+              44.95524959517229
+            ],
+            [
+              5.411724466530984,
+              44.97549492274652
+            ],
+            [
+              5.418922805223929,
+              44.99753983499397
+            ],
+            [
+              5.423421766907097,
+              45.015985577894924
+            ],
+            [
+              5.429720313263601,
+              45.03443132079582
+            ],
+            [
+              5.43151989793688,
+              45.05287706369694
+            ],
+            [
+              5.434219274946599,
+              45.07627166444939
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167965/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167965/batlas-map-label-location"
       }
     }
   ]

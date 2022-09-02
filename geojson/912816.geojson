@@ -3,10 +3,10 @@
   "title": "Babylonia",
   "id": "912816",
   "bbox": [
-    44.0,
-    32.0,
-    45.0,
-    33.0
+    44.8401784133,
+    31.2186015185,
+    46.2031336775,
+    32.1189895631
   ],
   "description": "An ancient Akkadian region in Mesopotamia.",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          32.5
+          45.4954067714,
+          31.6283443083
         ]
       },
       "properties": {
@@ -31,39 +31,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              44.0,
-              32.0
+              44.84017841334588,
+              32.11898956307181
             ],
             [
-              44.0,
-              33.0
+              45.02482458739843,
+              31.95908978348018
             ],
             [
-              45.0,
-              33.0
+              45.167592247748246,
+              31.84297208639549
             ],
             [
-              45.0,
-              32.0
+              45.31226347690273,
+              31.72495082050642
             ],
             [
-              44.0,
-              32.0
+              45.46454898127587,
+              31.612640261031174
+            ],
+            [
+              45.624448760867665,
+              31.511751114383912
+            ],
+            [
+              45.791962815678176,
+              31.414669105346036
+            ],
+            [
+              45.95947687048857,
+              31.33091207794081
+            ],
+            [
+              46.20313367748565,
+              31.218601518465732
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912816/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/912816/batlas-map-label-location"
       }
     }
   ]

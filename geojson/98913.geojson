@@ -3,10 +3,10 @@
   "title": "Angrivarii",
   "id": "98913",
   "bbox": [
-    8.0,
-    52.0,
-    9.0,
-    53.0
+    8.54160784515,
+    52.8424372327,
+    9.23117564464,
+    52.8467202625
   ],
   "description": "An ancient place, cited: BAtlas 10 E4 Angrivarii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          52.5
+          8.88637301184,
+          52.8445270147
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              52.0
+              8.541607845151418,
+              52.84386490928944
             ],
             [
-              8.0,
-              53.0
+              8.654394296827661,
+              52.842437232685995
             ],
             [
-              9.0,
-              53.0
+              8.732916510020061,
+              52.84529258589305
             ],
             [
-              9.0,
-              52.0
+              8.801444986987917,
+              52.84672026249649
             ],
             [
-              8.0,
-              52.0
+              8.87568417036988,
+              52.84529258589305
+            ],
+            [
+              8.935646587716803,
+              52.84529258589305
+            ],
+            [
+              9.001319711477663,
+              52.84529258589305
+            ],
+            [
+              9.074131218256184,
+              52.84386490928944
+            ],
+            [
+              9.14265969522404,
+              52.84386490928944
+            ],
+            [
+              9.231175644640985,
+              52.84386490928944
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98913/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98913/batlas-map-label-location"
       }
     }
   ]

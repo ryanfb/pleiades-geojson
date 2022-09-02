@@ -3,10 +3,10 @@
   "title": "Titanos (mountain)",
   "id": "541150",
   "bbox": [
-    22.0,
-    39.5,
-    22.5,
-    40.0
+    22.1307795947,
+    39.5477347154,
+    22.1938353113,
+    39.5495193112
   ],
   "description": "A mountain mentioned in ancient sources.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          39.75
+          22.1623105819,
+          39.5485008253
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              39.5
+              22.130779594688477,
+              39.5477347154017
             ],
             [
-              22.0,
-              40.0
+              22.14208203446617,
+              39.54832958065316
             ],
             [
-              22.5,
-              40.0
+              22.153384474243865,
+              39.54832958065316
             ],
             [
-              22.5,
-              39.5
+              22.16230745301573,
+              39.54832958065316
             ],
             [
-              22.0,
-              39.5
+              22.171230431787592,
+              39.54832958065316
+            ],
+            [
+              22.18134314106237,
+              39.54892444590462
+            ],
+            [
+              22.19383531134298,
+              39.549519311156075
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541150/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/541150/batlas-map-label-location"
       }
     }
   ]

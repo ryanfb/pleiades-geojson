@@ -3,10 +3,10 @@
   "title": "Ariake/Larike",
   "id": "59700",
   "bbox": [
-    70.0,
-    20.0,
-    75.0,
-    25.0
+    70.3861111373,
+    21.690675816,
+    73.4413390688,
+    22.511589863
   ],
   "description": "An ancient place, cited: BAtlas 6 C5 Ariake/Larike",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          22.5
+          71.9757873397,
+          22.3041430147
         ]
       },
       "properties": {
@@ -29,39 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              20.0
+              70.3861111372754,
+              22.347407053602637
             ],
             [
-              70.0,
-              25.0
+              70.71447675607999,
+              22.44734441584751
             ],
             [
-              75.0,
-              25.0
+              70.97859692772715,
+              22.497313096969947
             ],
             [
-              75.0,
-              20.0
+              71.22844033333934,
+              22.51158986300493
             ],
             [
-              70.0,
-              20.0
+              71.47114535593403,
+              22.51158986300493
+            ],
+            [
+              71.79237259172112,
+              22.475897947917474
+            ],
+            [
+              71.99938569922836,
+              22.44734441584751
+            ],
+            [
+              72.20639880673559,
+              22.404514117742565
+            ],
+            [
+              72.47765736140025,
+              22.318853521532674
+            ],
+            [
+              72.72036238399494,
+              22.197501010235328
+            ],
+            [
+              72.94165225753716,
+              22.083286881955473
+            ],
+            [
+              73.12725021599192,
+              21.961934370658128
+            ],
+            [
+              73.44133906876152,
+              21.690675815993472
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59700/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59700/batlas-map-label-location"
       }
     }
   ]

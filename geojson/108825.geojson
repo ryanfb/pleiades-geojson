@@ -3,10 +3,10 @@
   "title": "Brisigavi",
   "id": "108825",
   "bbox": [
-    7.0,
-    48.0,
-    8.0,
-    49.0
+    7.76009370663,
+    48.0944230669,
+    8.40825888462,
+    48.1215489223
   ],
   "description": "An ancient place, cited: BAtlas 11 H4 Brisigavi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.5,
-          48.5
+          8.08435705755,
+          48.1101408701
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              48.0
+              7.760093706628084,
+              48.12154892231939
             ],
             [
-              7.0,
-              49.0
+              7.87573551151155,
+              48.117265892508954
             ],
             [
-              8.0,
-              49.0
+              7.945691665082848,
+              48.1144105393019
             ],
             [
-              8.0,
-              48.0
+              8.034207614499792,
+              48.1144105393019
             ],
             [
-              7.0,
-              48.0
+              8.095597708450157,
+              48.11012750949146
+            ],
+            [
+              8.152704772590084,
+              48.10869983288785
+            ],
+            [
+              8.232654662386096,
+              48.10298912647397
+            ],
+            [
+              8.301183139353952,
+              48.10441680307741
+            ],
+            [
+              8.408258884616316,
+              48.09442306685287
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108825/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108825/batlas-map-label-location"
       }
     }
   ]

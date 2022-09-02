@@ -5,8 +5,8 @@
   "bbox": [
     29.1636203,
     40.9707185,
-    29.1636203,
-    40.9707185
+    29.2724910034,
+    40.9919287039
   ],
   "description": "An ancient place, cited: BAtlas 53 B3 S. Auxentiou/Skopa M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.1636203,
-          40.9707185
+          29.1976813661,
+          40.9768690228
         ]
       },
       "properties": {
@@ -42,6 +42,51 @@
         "location_precision": "precise",
         "title": "OSM location of Kayış Dağı",
         "link": "http://pleiades.stoa.org/places/521143/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              29.190756517811053,
+              40.99192870390965
+            ],
+            [
+              29.204319445544172,
+              40.98978718900452
+            ],
+            [
+              29.218239292428336,
+              40.98586107834484
+            ],
+            [
+              29.23394373506676,
+              40.98300572513779
+            ],
+            [
+              29.24643590534737,
+              40.98015037193096
+            ],
+            [
+              29.259998833080658,
+              40.975867342120296
+            ],
+            [
+              29.272491003361267,
+              40.97301198891347
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/521143/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Salakenoi",
   "id": "50248",
   "bbox": [
-    80.0,
-    15.0,
-    85.0,
-    20.0
+    80.9945957233,
+    16.230398489,
+    82.1902748788,
+    16.8906989181
   ],
   "description": "An ancient people between Kṛṣṇa and Godāvarīdeltas. Skt.: Śālankāyana.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.5,
-          17.5
+          81.5676861996,
+          16.6073231332
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              80.0,
-              15.0
+              80.9945957233445,
+              16.230398488979972
             ],
             [
-              80.0,
-              20.0
+              81.16115799375262,
+              16.355320191786063
             ],
             [
-              85.0,
-              20.0
+              81.28607969655872,
+              16.450498632019276
             ],
             [
-              85.0,
-              15.0
+              81.40505274685023,
+              16.545677072252488
             ],
             [
-              80.0,
-              15.0
+              81.54782040720005,
+              16.6408555124857
+            ],
+            [
+              81.69653672006444,
+              16.718187995175185
+            ],
+            [
+              81.85715033795799,
+              16.771725867806367
+            ],
+            [
+              82.02371260836611,
+              16.843109697981276
+            ],
+            [
+              82.19027487877423,
+              16.890698918097883
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50248/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50248/batlas-map-label-location"
       }
     }
   ]

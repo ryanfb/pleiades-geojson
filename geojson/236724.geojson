@@ -3,10 +3,10 @@
   "title": "Zoelae",
   "id": "236724",
   "bbox": [
-    -7.0,
-    41.0,
-    -6.0,
-    42.0
+    -6.74105271737,
+    41.6801433175,
+    -6.51833516723,
+    41.7629485605
   ],
   "description": "The Zoelae were an ancient Celtic tribe of Gallaecia in the Iberian peninsula.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          41.5
+          -6.62800608445,
+          41.7173488189
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              41.0
+              -6.741052717372497,
+              41.680143317500836
             ],
             [
-              -7.0,
-              42.0
+              -6.676331378013856,
+              41.69917900554748
             ],
             [
-              -6.0,
-              42.0
+              -6.636356433115964,
+              41.712503987180014
             ],
             [
-              -6.0,
-              41.0
+              -6.606851116643668,
+              41.72297361560578
             ],
             [
-              -7.0,
-              41.0
+              -6.566876171745662,
+              41.73725038164076
+            ],
+            [
+              -6.51833516722678,
+              41.76294856050367
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236724/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236724/batlas-map-label-location"
       }
     }
   ]

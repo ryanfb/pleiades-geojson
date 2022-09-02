@@ -3,10 +3,10 @@
   "title": "Klabene",
   "id": "648674",
   "bbox": [
-    32.5,
-    36.5,
-    33.0,
-    37.0
+    32.5312003908,
+    36.9195573802,
+    32.6190025019,
+    36.9961760246
   ],
   "description": "An ancient place, cited: BAtlas 66 B3 Klabene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          36.75
+          32.5733139154,
+          36.9558068701
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              36.5
+              32.619002501891146,
+              36.91955738023756
             ],
             [
-              32.5,
-              37.0
+              32.59853913724112,
+              36.93359620017202
             ],
             [
-              33.0,
-              37.0
+              32.58331058680369,
+              36.945255559100474
             ],
             [
-              33.0,
-              36.5
+              32.57093738957337,
+              36.95596313362671
             ],
             [
-              32.5,
-              36.5
+              32.55856419234317,
+              36.96714660035434
+            ],
+            [
+              32.545953049012155,
+              36.98023363588641
+            ],
+            [
+              32.53120039077612,
+              36.996176024625356
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648674/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648674/batlas-map-label-location"
       }
     }
   ]

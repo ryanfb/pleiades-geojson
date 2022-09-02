@@ -3,10 +3,10 @@
   "title": "Vergunni",
   "id": "157946",
   "bbox": [
-    6.5,
-    43.5,
-    7.0,
-    44.0
+    6.49939583752,
+    43.8962894005,
+    6.66786167673,
+    43.9223444985
   ],
   "description": "An ancient place, cited: BAtlas 16 C2 Vergunni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          43.75
+          6.58391021614,
+          43.911183861
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              43.5
+              6.499395837518648,
+              43.92234449854868
             ],
             [
-              6.5,
-              44.0
+              6.529733965342984,
+              43.91984606449256
             ],
             [
-              7.0,
-              44.0
+              6.548650680339392,
+              43.916990711285564
             ],
             [
-              7.0,
-              43.5
+              6.570779667693557,
+              43.91377843892775
             ],
             [
-              6.5,
-              43.5
+              6.59219481674603,
+              43.911280004871514
+            ],
+            [
+              6.612539208345822,
+              43.90699697506102
+            ],
+            [
+              6.636095872303656,
+              43.90307086440151
+            ],
+            [
+              6.667861676731377,
+              43.89628940053478
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157946/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157946/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Alma M.",
   "id": "206907",
   "bbox": [
-    19.0,
-    45.0,
-    20.0,
-    46.0
+    19.6391910705,
+    45.1311587628,
+    19.8854652847,
+    45.1501944509
   ],
   "description": "An ancient place, cited: BAtlas 21 B4 Alma M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          45.5
+          19.7625457857,
+          45.138001124
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              45.0
+              19.639191070547724,
+              45.1311587628428
             ],
             [
-              19.0,
-              46.0
+              19.67964190764684,
+              45.13353822384863
             ],
             [
-              20.0,
-              46.0
+              19.703436517705143,
+              45.13353822384863
             ],
             [
-              20.0,
-              45.0
+              19.727231127763446,
+              45.13353822384863
             ],
             [
-              19.0,
-              45.0
+              19.784338191903373,
+              45.13829714586029
+            ],
+            [
+              19.817650645984997,
+              45.14067660686612
+            ],
+            [
+              19.842634986546216,
+              45.14424579837487
+            ],
+            [
+              19.88546528465116,
+              45.150194450889444
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/206907/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/206907/batlas-map-label-location"
       }
     }
   ]
