@@ -3,10 +3,10 @@
   "title": "Bagoon (mountain)",
   "id": "59728",
   "bbox": [
-    60.0,
-    30.0,
-    65.0,
-    35.0
+    62.662492483,
+    32.5133404587,
+    64.917031786,
+    33.2390760655
   ],
   "description": "An ancient place, cited: BAtlas 6 A3 Bagoon M.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          62.5,
-          32.5
+          63.7827303698,
+          32.8989750693
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              60.0,
-              30.0
+              62.662492482978394,
+              32.5133404586781
             ],
             [
-              60.0,
-              35.0
+              62.94802780367803,
+              32.61446755142589
             ],
             [
-              65.0,
-              35.0
+              63.15028198917361,
+              32.69774868662995
             ],
             [
-              65.0,
-              30.0
+              63.34063886964003,
+              32.76318386429028
             ],
             [
-              60.0,
-              30.0
+              63.55479036016476,
+              32.84051634697977
+            ],
+            [
+              63.92955546858303,
+              32.94759209224213
+            ],
+            [
+              64.14370695910776,
+              33.03087322744619
+            ],
+            [
+              64.36975575466164,
+              33.09035975259195
+            ],
+            [
+              64.63149646530297,
+              33.17364088779601
+            ],
+            [
+              64.91703178600261,
+              33.239076065456345
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59728/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59728/batlas-map-label-location"
       }
     }
   ]

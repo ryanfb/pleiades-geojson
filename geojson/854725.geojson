@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Phanagor(e)ia Ins.",
+  "title": "Phanagor(e)ia (island)",
   "id": "854725",
   "bbox": [
-    36.5,
-    45.0,
-    37.0,
-    45.5
+    36.9840265916,
+    45.3999744191,
+    37.3609332149,
+    45.4085404787
   ],
-  "description": "An ancient place, cited: BAtlas 87 L2 Phanagor(e)ia Ins.",
+  "description": "The northwest portion of the Taman' peninsula, which is the modern landmass on the Straits of Kerch' opposite modern Kerch' and the eastern Crimea. Modern geophysical study and ancient testimony indicate that this peninsula was an island in antiquity.",
   "names": [
     "Phanagoreia",
     "Phanagoria"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          45.25
+          37.1724817552,
+          45.4044426835
         ]
       },
       "properties": {
@@ -29,39 +29,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.5,
-              45.0
+              36.98402659155897,
+              45.39997441906178
             ],
             [
-              36.5,
-              45.5
+              37.024715374758784,
+              45.40282977226883
             ],
             [
-              37.0,
-              45.5
+              37.050413553621695,
+              45.40282977226883
             ],
             [
-              37.0,
-              45.0
+              37.07611173248466,
+              45.40282977226883
             ],
             [
-              36.5,
-              45.0
+              37.10395142625288,
+              45.40282977226883
+            ],
+            [
+              37.1260804136071,
+              45.40282977226883
+            ],
+            [
+              37.15463394567706,
+              45.40354361057052
+            ],
+            [
+              37.17961828623828,
+              45.404971287174135
+            ],
+            [
+              37.2046026267995,
+              45.404971287174135
+            ],
+            [
+              37.226731614153664,
+              45.404971287174135
+            ],
+            [
+              37.248860601507886,
+              45.405685125475884
+            ],
+            [
+              37.273131103767355,
+              45.40711280207927
+            ],
+            [
+              37.30025695923388,
+              45.40711280207927
+            ],
+            [
+              37.32881049130384,
+              45.406398963777576
+            ],
+            [
+              37.36093321488255,
+              45.40854047868288
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/854725/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/854725/batlas-map-label-location"
       }
     }
   ]

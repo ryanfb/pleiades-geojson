@@ -3,10 +3,10 @@
   "title": "Koriondoi",
   "id": "79550",
   "bbox": [
-    -7.0,
-    52.0,
-    -6.0,
-    53.0
+    -6.78023134378,
+    52.727699623,
+    -6.12350010617,
+    52.8204986022
   ],
   "description": "An ancient place, cited: BAtlas 8 A2 Koriondoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          52.5
+          -6.45162385329,
+          52.7713670801
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              52.0
+              -6.780231343780315,
+              52.727699622984744
             ],
             [
-              -7.0,
-              53.0
+              -6.671727921914453,
+              52.73626568260585
             ],
             [
-              -6.0,
-              53.0
+              -6.603199444946483,
+              52.75054244864083
             ],
             [
-              -6.0,
-              52.0
+              -6.527532584961136,
+              52.75768083165832
             ],
             [
-              -7.0,
-              52.0
+              -6.470425520821209,
+              52.76910224448625
+            ],
+            [
+              -6.374771188386774,
+              52.78195133391762
+            ],
+            [
+              -6.313381094436409,
+              52.79194507014216
+            ],
+            [
+              -6.224865145019464,
+              52.8047941595737
+            ],
+            [
+              -6.12350010617115,
+              52.820498602212126
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79550/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79550/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Dumnonii",
   "id": "79430",
   "bbox": [
-    -5.0,
-    50.0,
-    -4.0,
-    51.0
+    -4.93139014225,
+    50.3648948442,
+    -3.59222948817,
+    50.8374558
   ],
   "description": "An ancient place, cited: BAtlas 8 C4 Dumnonii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          50.5
+          -4.26746554838,
+          50.6171308558
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              50.0
+              -4.931390142250166,
+              50.36489484419525
             ],
             [
-              -5.0,
-              51.0
+              -4.705817238897396,
+              50.460549176629684
             ],
             [
-              -4.0,
-              51.0
+              -4.530213016667176,
+              50.53193300680459
             ],
             [
-              -4.0,
-              50.0
+              -4.347470411419351,
+              50.59617845396201
             ],
             [
-              -5.0,
-              50.0
+              -4.170438512585577,
+              50.66042390111943
+            ],
+            [
+              -3.976274494509823,
+              50.72324167167341
+            ],
+            [
+              -3.8035256254866,
+              50.77749338260628
+            ],
+            [
+              -3.592229488168812,
+              50.83745579995326
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79430/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79430/batlas-map-label-location"
       }
     }
   ]

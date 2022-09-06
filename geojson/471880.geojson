@@ -3,10 +3,10 @@
   "title": "Aisaronensioi",
   "id": "471880",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.44815686399,
+    40.6871260862,
+    9.75153814223,
+    40.6899814394
   ],
   "description": "An ancient place, cited: BAtlas 48 B2 Aisaronensioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.59989889106,
+          40.6885208673
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.448156863991416,
+              40.687839924479775
             ],
             [
-              9.0,
-              41.0
+              9.485990293984116,
+              40.688553762781524
             ],
             [
-              10.0,
-              41.0
+              9.505263928131342,
+              40.68926760108327
             ],
             [
-              10.0,
-              40.0
+              9.52239604737332,
+              40.68926760108327
             ],
             [
-              9.0,
-              40.0
+              9.552377256046782,
+              40.687839924479775
+            ],
+            [
+              9.56950937528876,
+              40.688553762781524
+            ],
+            [
+              9.602345937169217,
+              40.68998143938502
+            ],
+            [
+              9.626616439428686,
+              40.687839924479775
+            ],
+            [
+              9.653028456593402,
+              40.688553762781524
+            ],
+            [
+              9.679440473758119,
+              40.687126086178026
+            ],
+            [
+              9.691575724887853,
+              40.688553762781524
+            ],
+            [
+              9.715132388845573,
+              40.68926760108327
+            ],
+            [
+              9.751538142234775,
+              40.687126086178026
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471880/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471880/batlas-map-label-location"
       }
     }
   ]

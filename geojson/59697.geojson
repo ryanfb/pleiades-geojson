@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Arbita M.",
+  "title": "Arbita (mountain)",
   "id": "59697",
   "bbox": [
-    65.0,
-    25.0,
-    70.0,
-    30.0
+    66.7236049923,
+    26.4489409425,
+    67.16667,
+    27.5672876152
   ],
   "description": "The Kirthar Mountains are located in Balochistan and Sindh provinces of Pakistan.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          27.5
+          66.9983972447,
+          26.9997234393
         ]
       },
       "properties": {
@@ -29,39 +29,68 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          67.16667,
+          27
+        ]
+      },
+      "id": "geonames-location-of-kirthar-range",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of  Kīrthar Range",
+        "link": "http://pleiades.stoa.org/places/59697/geonames-location-of-kirthar-range"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              25.0
+              66.72360499231792,
+              27.567287615221574
             ],
             [
-              65.0,
-              30.0
+              66.74739960237622,
+              27.34718747218227
             ],
             [
-              70.0,
-              30.0
+              66.77119421243452,
+              27.22226576937618
             ],
             [
-              70.0,
-              25.0
+              66.78309151746367,
+              27.115190024113815
             ],
             [
-              65.0,
-              25.0
+              66.81283478003655,
+              27.00811427885145
+            ],
+            [
+              66.84257804260943,
+              26.87129527101621
+            ],
+            [
+              66.89611591524061,
+              26.69878434809351
+            ],
+            [
+              67.00319166050298,
+              26.44894094248133
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59697/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59697/batlas-map-label-location"
       }
     }
   ]

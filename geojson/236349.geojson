@@ -3,10 +3,10 @@
   "title": "Astures Augustani",
   "id": "236349",
   "bbox": [
-    -7.0,
-    42.0,
-    -6.0,
-    43.0
+    -6.7243135891,
+    42.2797839455,
+    -5.91320292143,
+    42.6785816101
   ],
   "description": "An ancient place, cited: BAtlas 24 E2 Astures Augustani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          42.5
+          -6.32415176073,
+          42.4899984586
         ]
       },
       "properties": {
@@ -28,39 +28,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              42.0
+              -6.72431358909904,
+              42.279783945515135
             ],
             [
-              -7.0,
-              43.0
+              -6.659592249740456,
+              42.31214461519454
             ],
             [
-              -6.0,
-              43.0
+              -6.621520873647171,
+              42.33784279405751
             ],
             [
-              -6.0,
-              42.0
+              -6.571076300323512,
+              42.36925167933447
             ],
             [
-              -7.0,
-              42.0
+              -6.520631726999966,
+              42.394949858197435
+            ],
+            [
+              -6.478753213297352,
+              42.415889115048685
+            ],
+            [
+              -6.419742580352761,
+              42.44920156913031
+            ],
+            [
+              -6.375960497845426,
+              42.471092610384005
+            ],
+            [
+              -6.329323062131209,
+              42.49583900484453
+            ],
+            [
+              -6.277926704405274,
+              42.52058539930522
+            ],
+            [
+              -6.231289268691,
+              42.54438000936352
+            ],
+            [
+              -6.177037557758069,
+              42.568174619421825
+            ],
+            [
+              -6.126592984434467,
+              42.589113876273075
+            ],
+            [
+              -6.079955548720136,
+              42.60910134872216
+            ],
+            [
+              -6.03712525061519,
+              42.62718525236636
+            ],
+            [
+              -5.979827829594797,
+              42.65288343122933
+            ],
+            [
+              -5.913202921431548,
+              42.67858161009241
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236349/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236349/batlas-map-label-location"
       }
     }
   ]

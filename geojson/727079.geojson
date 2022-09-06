@@ -3,10 +3,10 @@
   "title": "Athribites Nomos",
   "id": "727079",
   "bbox": [
-    31.0,
-    30.5,
-    31.5,
-    31.0
+    31.1365656135,
+    30.4865617802,
+    31.2997966385,
+    30.535578677
   ],
   "description": "An ancient place, cited: BAtlas 74 E3 Athribites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          30.75
+          31.2174901006,
+          30.5087064869
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              30.5
+              31.13656561346704,
+              30.53557867696469
             ],
             [
-              31.0,
-              31.0
+              31.157980762519514,
+              30.52891618614842
             ],
             [
-              31.5,
-              31.0
+              31.174636989560327,
+              30.522253695332154
             ],
             [
-              31.5,
-              30.5
+              31.18891375559531,
+              30.516542988918047
             ],
             [
-              31.0,
-              30.5
+              31.200335168423237,
+              30.511784066906387
+            ],
+            [
+              31.21937085646988,
+              30.506073360492508
+            ],
+            [
+              31.23602708351069,
+              30.500362654078458
+            ],
+            [
+              31.25220741835051,
+              30.497983193072628
+            ],
+            [
+              31.27219489079937,
+              30.492748378859744
+            ],
+            [
+              31.299796638467114,
+              30.4865617802447
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727079/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727079/batlas-map-label-location"
       }
     }
   ]

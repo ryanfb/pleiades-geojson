@@ -3,10 +3,10 @@
   "title": "Goniatai?",
   "id": "716567",
   "bbox": [
-    29.0,
-    30.0,
-    30.0,
-    31.0
+    29.1444749107,
+    30.6902852829,
+    29.4342932612,
+    30.756672245
   ],
   "description": "An ancient place, cited: None",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.5,
-          30.5
+          29.2899715017,
+          30.7208980155
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              30.0
+              29.144474910733436,
+              30.690285282911304
             ],
             [
-              29.0,
-              31.0
+              29.207292681287242,
+              30.701706695739233
             ],
             [
-              30.0,
-              31.0
+              29.247267626185362,
+              30.710272755360165
             ],
             [
-              30.0,
-              30.0
+              29.275821158255326,
+              30.715983461774215
             ],
             [
-              29.0,
-              30.0
+              29.302947013721678,
+              30.721694168188094
+            ],
+            [
+              29.33578357560208,
+              30.730260227809197
+            ],
+            [
+              29.366478622577404,
+              30.73882628743013
+            ],
+            [
+              29.39717366955267,
+              30.746678508749312
+            ],
+            [
+              29.434293261243567,
+              30.756672244973856
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/716567/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/716567/batlas-map-label-location"
       }
     }
   ]

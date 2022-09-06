@@ -3,10 +3,10 @@
   "title": "Enchelei",
   "id": "197260",
   "bbox": [
-    18.0,
-    42.0,
-    19.0,
-    43.0
+    18.6583336205,
+    42.5062008335,
+    18.9248332531,
+    42.6781168912
   ],
   "description": "An ancient place, cited: BAtlas 20 F7 Enchelei",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          42.5
+          18.791719973,
+          42.5923914448
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              42.0
+              18.658333620492726,
+              42.67811689117559
             ],
             [
-              18.0,
-              43.0
+              18.705327975357875,
+              42.64837362860271
             ],
             [
-              19.0,
-              43.0
+              18.75951462673413,
+              42.61154754390844
             ],
             [
-              19.0,
-              42.0
+              18.786640482200653,
+              42.59727077787346
             ],
             [
-              18.0,
-              42.0
+              18.809483307856567,
+              42.58228017353679
+            ],
+            [
+              18.828043103701987,
+              42.56943108410525
+            ],
+            [
+              18.8750623844237,
+              42.5383228430581
+            ],
+            [
+              18.92483325314572,
+              42.50620083350435
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197260/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197260/batlas-map-label-location"
       }
     }
   ]

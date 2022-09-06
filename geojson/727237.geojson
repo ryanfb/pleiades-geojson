@@ -3,10 +3,10 @@
   "title": "Tanites Nomos",
   "id": "727237",
   "bbox": [
-    31.5,
-    30.5,
-    32.0,
-    31.0
+    31.9183930477,
+    30.9583137193,
+    32.0575915165,
+    30.960098315
   ],
   "description": "An ancient place, cited: BAtlas 74 F3 Tanites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.75,
-          30.75
+          31.9879935615,
+          30.959237827
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.5,
-              30.5
+              31.91839304768945,
+              30.959503449763474
             ],
             [
-              31.5,
-              31.0
+              31.948136310262328,
+              30.959503449763474
             ],
             [
-              32.0,
-              31.0
+              31.963602806800225,
+              30.960098315014932
             ],
             [
-              32.0,
-              30.5
+              31.97490524657792,
+              30.960098315014932
             ],
             [
-              31.5,
-              30.5
+              31.99156147361873,
+              30.959503449763474
+            ],
+            [
+              32.00583823965371,
+              30.958908584512017
+            ],
+            [
+              32.01952014043724,
+              30.958908584512017
+            ],
+            [
+              32.034391771723676,
+              30.95831371926056
+            ],
+            [
+              32.05759151653052,
+              30.95831371926056
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727237/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727237/batlas-map-label-location"
       }
     }
   ]

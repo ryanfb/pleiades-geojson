@@ -3,10 +3,10 @@
   "title": "Attakenoi",
   "id": "59721",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    73.5482801961,
+    30.6110693175,
+    74.6042934329,
+    30.6401097818
   ],
   "description": "An ancient people, tribe, or cultural group. Located: along R. Sutlej.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          74.0762641801,
+          30.6243991327
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              73.5482801961407,
+              30.611069317491342
             ],
             [
-              70.0,
-              35.0
+              73.72270313027883,
+              30.62583301580321
             ],
             [
-              75.0,
-              35.0
+              73.83334806704994,
+              30.622263824294464
             ],
             [
-              75.0,
-              30.0
+              73.93328542929481,
+              30.622263824294464
             ],
             [
-              70.0,
-              30.0
+              74.0582071321009,
+              30.611556249768228
+            ],
+            [
+              74.16528287736327,
+              30.611556249768228
+            ],
+            [
+              74.29020458016936,
+              30.6329713988207
+            ],
+            [
+              74.42940304901043,
+              30.636540590329446
+            ],
+            [
+              74.60429343293896,
+              30.64010978183819
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59721/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59721/batlas-map-label-location"
       }
     }
   ]

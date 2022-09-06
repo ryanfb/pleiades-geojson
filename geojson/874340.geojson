@@ -3,10 +3,10 @@
   "title": "Arbayestan/Beth Arbaye",
   "id": "874340",
   "bbox": [
-    41.0,
-    36.0,
-    42.0,
-    37.0
+    41.4709408898,
+    36.5100747864,
+    42.3989306821,
+    36.7841886942
   ],
   "description": "An ancient place, cited: BAtlas 89 D4 Arbayestan/Beth Arbaye",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          36.5
+          41.9349357859,
+          36.6471317403
         ]
       },
       "properties": {
@@ -30,39 +30,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              36.0
+              42.3989306820589,
+              36.51007478635931
             ],
             [
-              41.0,
-              37.0
-            ],
-            [
-              42.0,
-              37.0
-            ],
-            [
-              42.0,
-              36.0
-            ],
-            [
-              41.0,
-              36.0
+              41.470940889785076,
+              36.78418869423096
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874340/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874340/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Seurbi?",
   "id": "236664",
   "bbox": [
-    -9.0,
-    41.0,
-    -8.0,
-    42.0
+    -8.72568975851,
+    41.7471489394,
+    -8.6019577862,
+    41.793548429
   ],
   "description": "An ancient place, cited: BAtlas 24 C3 Seurbi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          41.5
+          -8.66361542186,
+          41.7699165314
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              41.0
+              -8.725689758505325,
+              41.74714893942502
             ],
             [
-              -9.0,
-              42.0
+              -8.697136226435362,
+              41.75785651395125
             ],
             [
-              -8.0,
-              42.0
+              -8.675721077382889,
+              41.76618462747166
             ],
             [
-              -8.0,
-              41.0
+              -8.655495658833331,
+              41.77332301048915
             ],
             [
-              -9.0,
-              41.0
+              -8.636459970786689,
+              41.77808193250081
+            ],
+            [
+              -8.623372935254622,
+              41.78403058501539
+            ],
+            [
+              -8.60195778620215,
+              41.79354842903871
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236664/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236664/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Machlyae?",
   "id": "344429",
   "bbox": [
-    9.0,
-    33.0,
-    10.0,
-    34.0
+    9.78219552997,
+    33.5346151262,
+    10.0477433782,
+    33.5403258326
   ],
   "description": "An ancient place, cited: BAtlas 35 B1 Machlyae?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          33.5
+          9.91498553185,
+          33.5366128286
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              33.0
+              9.78219552997109,
+              33.53556691062562
             ],
             [
-              9.0,
-              34.0
+              9.83835080970863,
+              33.53461512622323
             ],
             [
-              10.0,
-              34.0
+              9.866904341778593,
+              33.53461512622323
             ],
             [
-              10.0,
-              33.0
+              9.900216795860217,
+              33.53651869502784
             ],
             [
-              9.0,
-              33.0
+              9.925914974723128,
+              33.53651869502784
+            ],
+            [
+              9.954468506793091,
+              33.53747047943028
+            ],
+            [
+              9.978263116851394,
+              33.53747047943028
+            ],
+            [
+              10.008720217726193,
+              33.5384222638325
+            ],
+            [
+              10.047743378221696,
+              33.54032583263728
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344429/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344429/batlas-map-label-location"
       }
     }
   ]

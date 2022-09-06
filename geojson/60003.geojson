@@ -3,10 +3,10 @@
   "title": "Poulindai",
   "id": "60003",
   "bbox": [
-    75.0,
-    20.0,
-    80.0,
-    25.0
+    79.287555787,
+    22.9402497632,
+    80.6081566453,
+    22.9616649123
   ],
   "description": "An ancient place, cited: BAtlas 6 D5 Poulindai",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          22.5
+          79.9480737816,
+          22.9495274314
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              20.0
+              79.28755578703635,
+              22.96166491225779
             ],
             [
-              75.0,
-              25.0
+              79.55881434170101,
+              22.947388146222806
             ],
             [
-              80.0,
-              25.0
+              79.7229971511033,
+              22.947388146222806
             ],
             [
-              80.0,
-              20.0
+              79.83721127938315,
+              22.940249763205316
             ],
             [
-              75.0,
-              20.0
+              79.94428702464552,
+              22.954526529240297
+            ],
+            [
+              80.09419306801283,
+              22.954526529240297
+            ],
+            [
+              80.25837587741512,
+              22.947388146222806
+            ],
+            [
+              80.38686677172996,
+              22.954526529240297
+            ],
+            [
+              80.49394251699232,
+              22.940249763205316
+            ],
+            [
+              80.60815664527217,
+              22.940249763205316
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60003/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60003/batlas-map-label-location"
       }
     }
   ]

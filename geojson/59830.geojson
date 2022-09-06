@@ -3,10 +3,10 @@
   "title": "Goryaia",
   "id": "59830",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    71.6256841458,
+    34.9118371526,
+    72.0718330844,
+    35.6256754543
   ],
   "description": "Ptolemy locates the Goryaia below the Lambatai and Sovastini.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          71.8697277671,
+          35.2550773616
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              71.6256841458403,
+              34.91183715255488
             ],
             [
-              70.0,
-              35.0
+              71.77440045870469,
+              35.07245077044843
             ],
             [
-              75.0,
-              35.0
+              71.8219896788213,
+              35.15573190565249
             ],
             [
-              75.0,
-              30.0
+              71.88742485648163,
+              35.274704955944
             ],
             [
-              70.0,
-              30.0
+              71.96475733917111,
+              35.38178070120637
+            ],
+            [
+              71.994500601744,
+              35.471010488925
+            ],
+            [
+              72.07183308443348,
+              35.62567545430397
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59830/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59830/batlas-map-label-location"
       }
     }
   ]

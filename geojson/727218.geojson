@@ -3,10 +3,10 @@
   "title": "Saites Nomos",
   "id": "727218",
   "bbox": [
-    30.5,
-    30.5,
-    31.0,
-    31.0
+    30.7568036369,
+    30.862040727,
+    30.8781561482,
+    30.8634684036
   ],
   "description": "An ancient place, cited: BAtlas 74 D3 Saites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          30.75
+          30.8174859351,
+          30.8627069598
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              30.5
+              30.75680363693658,
+              30.862992511367054
             ],
             [
-              30.5,
-              31.0
+              30.786308953408934,
+              30.862992511367054
             ],
             [
-              31.0,
-              31.0
+              30.80248928824858,
+              30.862516619165888
             ],
             [
-              31.0,
-              30.5
+              30.81438659327773,
+              30.862040726964665
             ],
             [
-              30.5,
-              30.5
+              30.827235682709272,
+              30.862516619165888
+            ],
+            [
+              30.840560664341865,
+              30.862516619165888
+            ],
+            [
+              30.854837430376847,
+              30.862516619165888
+            ],
+            [
+              30.878156148233927,
+              30.863468403568106
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727218/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727218/batlas-map-label-location"
       }
     }
   ]

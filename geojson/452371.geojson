@@ -3,10 +3,10 @@
   "title": "Lucani",
   "id": "452371",
   "bbox": [
-    16.669239,
-    40.220362,
-    16.669239,
-    40.220362
+    16.1248639514,
+    39.4512462819,
+    16.4913009462,
+    39.6054353551
   ],
   "description": "An ancient Oscan-speaking population of south Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.669239,
-          40.220362
+          16.3025031007,
+          39.5152358224
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              39.5
+              16.124863951351642,
+              39.6054353550756
             ],
             [
-              16.0,
-              40.0
+              16.205765625549873,
+              39.55403899734955
             ],
             [
-              16.5,
-              40.0
+              16.27239053371312,
+              39.51787119006093
             ],
             [
-              16.5,
-              39.5
+              16.331401166657656,
+              39.495028364405016
             ],
             [
-              16.0,
-              39.5
+              16.4046885656374,
+              39.4721855387491
+            ],
+            [
+              16.49130094624951,
+              39.45124628189768
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452371/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/452371/batlas-map-label-location"
       }
     }
   ]

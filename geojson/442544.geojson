@@ -3,10 +3,10 @@
   "title": "Chones",
   "id": "442544",
   "bbox": [
-    16.0,
-    40.0,
-    16.5,
-    40.5
+    16.2575858411,
+    40.2832651319,
+    16.5274167191,
+    40.2846928085
   ],
   "description": "Chones, an ancient Lucanian tribe.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.25,
-          40.25
+          16.392504718,
+          40.2839421425
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              40.0
+              16.25758584105978,
+              40.283978970169244
             ],
             [
-              16.0,
-              40.5
+              16.319689773312064,
+              40.283978970169244
             ],
             [
-              16.5,
-              40.5
+              16.371799969339634,
+              40.28326513186755
             ],
             [
-              16.5,
-              40.0
+              16.421054812160378,
+              40.28326513186755
             ],
             [
-              16.0,
-              40.0
+              16.466026625170628,
+              40.28469280847099
+            ],
+            [
+              16.52741671912105,
+              40.28469280847099
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442544/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442544/batlas-map-label-location"
       }
     }
   ]

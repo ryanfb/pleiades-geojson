@@ -3,10 +3,10 @@
   "title": "Koriaia?/Garine?",
   "id": "874558",
   "bbox": [
-    39.0,
-    39.0,
-    40.0,
-    40.0
+    39.3367348101,
+    39.0829575787,
+    39.6879432546,
+    39.1729012047
   ],
   "description": "An ancient place, cited: BAtlas 89 B1 Koriaia?/Garine?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          39.5
+          39.5123390323,
+          39.1279293917
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              39.0
+              39.33673481011044,
+              39.17290120469179
             ],
             [
-              39.0,
-              40.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
-              40.0,
-              39.0
-            ],
-            [
-              39.0,
-              39.0
+              39.687943254570996,
+              39.082957578671405
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874558/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874558/batlas-map-label-location"
       }
     }
   ]

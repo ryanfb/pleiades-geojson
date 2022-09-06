@@ -3,10 +3,10 @@
   "title": "Ouenikones",
   "id": "89266",
   "bbox": [
-    -4.0,
-    56.0,
-    -3.0,
-    57.0
+    -3.55741995654,
+    56.3814363556,
+    -2.87451464786,
+    56.3873850081
   ],
   "description": "An ancient place, cited: BAtlas 9 D4 Ouenikones",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          56.5
+          -3.2159989993,
+          56.3855899313
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              56.0
+              -3.557419956537728,
+              56.38143635559362
             ],
             [
-              -4.0,
-              57.0
+              -3.437257175743298,
+              56.38500554710237
             ],
             [
-              -3.0,
-              57.0
+              -3.356355501545067,
+              56.38500554710237
             ],
             [
-              -3.0,
-              56.0
+              -3.304007359416801,
+              56.3873850081082
             ],
             [
-              -4.0,
-              56.0
+              -3.236192720750637,
+              56.38619527760528
+            ],
+            [
+              -3.18146511761654,
+              56.38619527760528
+            ],
+            [
+              -3.119599131464952,
+              56.38619527760528
+            ],
+            [
+              -3.043456379278382,
+              56.38619527760528
+            ],
+            [
+              -2.985159584635539,
+              56.38619527760528
+            ],
+            [
+              -2.87451464786443,
+              56.38619527760528
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89266/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89266/batlas-map-label-location"
       }
     }
   ]

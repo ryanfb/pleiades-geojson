@@ -3,10 +3,10 @@
   "title": "Oxydrakai/Sydrakai",
   "id": "59970",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    72.591269422,
+    31.1969036572,
+    73.6727344492,
+    31.4253319138
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Oxydrakai/Sydrakai",
   "names": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          73.1275540067,
+          31.2921600185
         ]
       },
       "properties": {
@@ -32,39 +32,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              72.59126942200652,
+              31.425331913762193
             ],
             [
-              70.0,
-              35.0
+              72.73403708235634,
+              31.37179404113101
             ],
             [
-              75.0,
-              35.0
+              72.87680474270616,
+              31.346809700569793
             ],
             [
-              75.0,
-              30.0
+              73.01957240305597,
+              31.3004102109561
             ],
             [
-              70.0,
-              30.0
+              73.13021733982708,
+              31.27899506190363
+            ],
+            [
+              73.26584661715941,
+              31.24687233832492
+            ],
+            [
+              73.40504508600048,
+              31.23973395530743
+            ],
+            [
+              73.54067436333281,
+              31.2218879977637
+            ],
+            [
+              73.6727344491564,
+              31.196903657202483
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59970/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59970/batlas-map-label-location"
       }
     }
   ]

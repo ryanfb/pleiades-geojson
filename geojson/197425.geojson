@@ -3,10 +3,10 @@
   "title": "Pannonia",
   "id": "197425",
   "bbox": [
-    15.0,
-    46.0,
-    16.0,
-    47.0
+    15.2451108235,
+    45.4200858069,
+    17.9874396327,
+    46.1696160238
   ],
   "description": "An ancient place, cited: BAtlas 20 C3 Pannonia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5,
-          46.5
+          16.6030583846,
+          45.7490406431
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.0,
-              46.0
+              15.245110823468963,
+              46.16961602375437
             ],
             [
-              15.0,
-              47.0
+              15.367058200017766,
+              46.110129498608615
             ],
             [
-              16.0,
-              47.0
+              15.694234088319433,
+              45.99413077457439
             ],
             [
-              16.0,
-              46.0
+              16.060076217965843,
+              45.88110637679745
             ],
             [
-              15.0,
-              46.0
+              16.422944021354965,
+              45.77997928404966
+            ],
+            [
+              16.776888845972223,
+              45.687775170073735
+            ],
+            [
+              17.139756649361345,
+              45.59259672984052
+            ],
+            [
+              17.478829842692164,
+              45.51526424715104
+            ],
+            [
+              17.832774667309423,
+              45.44388041697613
+            ],
+            [
+              17.987439632688393,
+              45.420085806917825
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197425/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197425/batlas-map-label-location"
       }
     }
   ]

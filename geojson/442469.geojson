@@ -3,10 +3,10 @@
   "title": "Apulia",
   "id": "442469",
   "bbox": [
-    15.5,
-    41.0,
-    16.0,
-    41.5
+    15.7119040486,
+    40.8634729035,
+    16.6551223913,
+    41.4107489349
   ],
   "description": "Apulia is a region of the south-eastern Italian peninsula.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.75,
-          41.25
+          16.1735916107,
+          41.1197243031
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.5,
-              41.0
+              15.711904048592714,
+              41.41074893487013
             ],
             [
-              15.5,
-              41.5
+              15.768059328330423,
+              41.36982220556985
             ],
             [
-              16.0,
-              41.5
+              15.919393048301174,
+              41.26798127452031
             ],
             [
-              16.0,
-              41.0
+              16.08024461229519,
+              41.16233320586139
             ],
             [
-              15.5,
-              41.0
+              16.253469373519806,
+              41.061444059214296
+            ],
+            [
+              16.4238387815372,
+              40.97197632539496
+            ],
+            [
+              16.59706354276159,
+              40.88631572918507
+            ],
+            [
+              16.655122391303905,
+              40.86347290352916
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442469/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442469/batlas-map-label-location"
       }
     }
   ]

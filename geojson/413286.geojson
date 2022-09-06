@@ -3,10 +3,10 @@
   "title": "Rosia Campus",
   "id": "413286",
   "bbox": [
-    12.5,
-    42.0,
-    13.0,
-    42.5
+    12.8067381622,
+    42.443044552,
+    12.886688052,
+    42.4608905095
   ],
   "description": "A plain in the territory of the Sabines near Reate, reputed to have the most fertile soils in Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.75,
-          42.25
+          12.8467251238,
+          42.4518484102
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.5,
-              42.0
+              12.806738162156933,
+              42.46089050952281
             ],
             [
-              12.5,
-              42.5
+              12.822442604795526,
+              42.45803515631576
             ],
             [
-              13.0,
-              42.5
+              12.841002400641003,
+              42.45375212650532
             ],
             [
-              13.0,
-              42.0
+              12.855993004977677,
+              42.449469096694884
             ],
             [
-              12.5,
-              42.0
+              12.86598674120222,
+              42.44589990518614
+            ],
+            [
+              12.87883583063359,
+              42.4444722285827
+            ],
+            [
+              12.886688051952945,
+              42.443044551979085
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413286/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413286/batlas-map-label-location"
       }
     }
   ]

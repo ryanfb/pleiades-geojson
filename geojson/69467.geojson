@@ -3,10 +3,10 @@
   "title": "Ar(e)morica",
   "id": "69467",
   "bbox": [
-    -4.0,
-    48.0,
-    -3.0,
-    49.0
+    -3.37249221293,
+    48.2927134669,
+    -0.665855318801,
+    48.3194824032
   ],
   "description": "An ancient place, cited: BAtlas 7 C3 Ar(e)morica",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          48.5
+          -2.01903544349,
+          48.3144537407
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              48.0
+              -3.372492212932968,
+              48.31650807694797
             ],
             [
-              -4.0,
-              49.0
+              -3.015573062058422,
+              48.31948240320526
             ],
             [
-              -3.0,
-              49.0
+              -2.828190507849285,
+              48.31353375069068
             ],
             [
-              -3.0,
-              48.0
+              -2.634859301125573,
+              48.31353375069068
             ],
             [
-              -4.0,
-              48.0
+              -2.477220009489315,
+              48.31650807694797
+            ],
+            [
+              -2.30173476030933,
+              48.31948240320526
+            ],
+            [
+              -1.980507524522238,
+              48.31948240320526
+            ],
+            [
+              -1.671177593764298,
+              48.31650807694797
+            ],
+            [
+              -1.37374496803551,
+              48.31650807694797
+            ],
+            [
+              -1.073338016049433,
+              48.31055942443339
+            ],
+            [
+              -0.665855318800993,
+              48.292713466889666
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/69467/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/69467/batlas-map-label-location"
       }
     }
   ]

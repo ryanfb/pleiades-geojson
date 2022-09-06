@@ -3,10 +3,10 @@
   "title": "Dobunni",
   "id": "79423",
   "bbox": [
-    -3.0,
-    52.0,
-    -2.0,
-    53.0
+    -2.34057351258,
+    52.0601418378,
+    -1.76593367967,
+    52.0654956251
   ],
   "description": "The Dobunni were a Celtic people of pre-Roman Britain.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          52.5
+          -2.05325625342,
+          52.0624031627
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              52.0
+              -2.340573512576952,
+              52.06014183779911
             ],
             [
-              -3.0,
-              53.0
+              -2.215651809770861,
+              52.06371102930785
             ],
             [
-              -2.0,
-              53.0
+              -2.140698788087207,
+              52.06192643355348
             ],
             [
-              -2.0,
-              52.0
+              -2.060391979140434,
+              52.06192643355348
             ],
             [
-              -3.0,
-              52.0
+              -1.971162191421797,
+              52.06192643355348
+            ],
+            [
+              -1.881932403703161,
+              52.06192643355348
+            ],
+            [
+              -1.765933679668933,
+              52.065495625062226
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79423/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79423/batlas-map-label-location"
       }
     }
   ]

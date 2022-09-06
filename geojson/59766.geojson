@@ -3,10 +3,10 @@
   "title": "Chaarene/Arana",
   "id": "59766",
   "bbox": [
-    60.0,
-    24.0,
-    70.0,
-    32.0
+    64.1684136959,
+    27.9679354146,
+    65.7507552648,
+    28.1642409476
   ],
   "description": "An ancient place, cited: BAtlas 6 A4 Chaarene/Arana",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          65.0,
-          28.0
+          64.9552830701,
+          28.0318591443
         ]
       },
       "properties": {
@@ -33,39 +33,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              60.0,
-              25.0
+              64.16841369588508,
+              28.164240947588382
             ],
             [
-              60.0,
-              30.0
+              64.44800036407014,
+              28.092857117413473
             ],
             [
-              65.0,
-              30.0
+              64.70974107471147,
+              28.05716520232602
             ],
             [
-              65.0,
-              25.0
+              64.9476871752945,
+              28.015524634723988
             ],
             [
-              60.0,
-              25.0
+              65.21537653845041,
+              27.979832719636534
+            ],
+            [
+              65.4652199440626,
+              27.973884067121958
+            ],
+            [
+              65.75075526476223,
+              27.967935414607382
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59766/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59766/batlas-map-label-location"
       }
     }
   ]

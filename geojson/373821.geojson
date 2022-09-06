@@ -3,10 +3,10 @@
   "title": "Gnade?",
   "id": "373821",
   "bbox": [
-    19.0,
-    31.0,
-    20.0,
-    32.0
+    19.9421896521,
+    31.8230851835,
+    20.282452576,
+    31.8254646445
   ],
   "description": "An ancient place, cited: BAtlas 38 A2 Gnade?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          31.5
+          20.1123111899,
+          31.8242707556
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              31.0
+              19.942189652146055,
+              31.82546464452986
             ],
             [
-              19.0,
-              32.0
+              20.025470787350116,
+              31.82308518352403
             ],
             [
-              20.0,
-              32.0
+              20.089716234507534,
+              31.824274914026944
             ],
             [
-              20.0,
-              31.0
+              20.15991033417953,
+              31.824274914026944
             ],
             [
-              19.0,
-              31.0
+              20.2205865898282,
+              31.824274914026944
+            ],
+            [
+              20.28245257597979,
+              31.82546464452986
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373821/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373821/batlas-map-label-location"
       }
     }
   ]

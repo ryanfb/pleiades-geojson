@@ -3,10 +3,10 @@
   "title": "Nareae",
   "id": "59944",
   "bbox": [
-    70.0,
-    20.0,
-    75.0,
-    25.0
+    72.327751318,
+    24.6830859769,
+    73.2271875782,
+    24.704501126
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Nairs, N Mt. Abu.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          22.5
+          72.7774479926,
+          24.6925163664
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              20.0
+              72.32775131803294,
+              24.68308597692578
             ],
             [
-              70.0,
-              25.0
+              72.56331795761014,
+              24.690224359943272
             ],
             [
-              75.0,
-              25.0
+              72.70608561795996,
+              24.68308597692578
             ],
             [
-              75.0,
-              20.0
+              72.86313004434476,
+              24.697362742960763
             ],
             [
-              70.0,
-              20.0
+              72.99875932167708,
+              24.697362742960763
+            ],
+            [
+              73.2271875782368,
+              24.704501125978254
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59944/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59944/batlas-map-label-location"
       }
     }
   ]

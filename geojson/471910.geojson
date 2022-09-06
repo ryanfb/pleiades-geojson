@@ -3,10 +3,10 @@
   "title": "*Cusinitani",
   "id": "471910",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.28961337717,
+    40.2374079561,
+    9.5458813275,
+    40.2416909859
   ],
   "description": "An ancient place, cited: BAtlas 48 B2 *Cusinitani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.4177234583,
+          40.2400716218
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.289613377172945,
+              40.23740795607617
             ],
             [
-              9.0,
-              41.0
+              9.3253052922604,
+              40.23883563267967
             ],
             [
-              10.0,
-              41.0
+              9.350289632821617,
+              40.240977147584914
             ],
             [
-              10.0,
-              40.0
+              9.376701649986334,
+              40.240263309283165
             ],
             [
-              9.0,
-              40.0
+              9.393119930926563,
+              40.240977147584914
+            ],
+            [
+              9.418818109789528,
+              40.240263309283165
+            ],
+            [
+              9.439519420540252,
+              40.24169098588666
+            ],
+            [
+              9.460934569592725,
+              40.240263309283165
+            ],
+            [
+              9.4809220420417,
+              40.240977147584914
+            ],
+            [
+              9.510189412413412,
+              40.239549470981416
+            ],
+            [
+              9.545881327500865,
+              40.239549470981416
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471910/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471910/batlas-map-label-location"
       }
     }
   ]

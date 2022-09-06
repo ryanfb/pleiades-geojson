@@ -3,10 +3,10 @@
   "title": "Iberi (people)",
   "id": "246423",
   "bbox": [
-    0.0,
-    41.0,
-    1.0,
-    42.0
+    0.588952524053,
+    40.9677085886,
+    0.895084013222,
+    41.1211534867
   ],
   "description": "An ancient people who lived along the east coast of the Iberian peninsula.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          41.5
+          0.742018268637,
+          41.0444310377
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              41.0
+              0.588952524052509,
+              40.96770858861954
             ],
             [
-              0.0,
-              42.0
-            ],
-            [
-              1.0,
-              42.0
-            ],
-            [
-              1.0,
-              41.0
-            ],
-            [
-              0.0,
-              41.0
+              0.895084013222024,
+              41.121153486729476
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246423/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246423/batlas-map-label-location"
       }
     }
   ]

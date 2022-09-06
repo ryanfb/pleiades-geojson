@@ -3,10 +3,10 @@
   "title": "Akamanton (mountain)",
   "id": "707454",
   "bbox": [
-    32.0,
-    35.0,
-    32.5,
-    35.5
+    32.3405550365,
+    34.9655461532,
+    32.3905237176,
+    35.0236050018
   ],
   "description": "A mountain mentioned in ancient sources.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          35.25
+          32.3623393303,
+          34.9917922724
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              35.0
+              32.34055503645942,
+              35.023605001764054
             ],
             [
-              32.0,
-              35.5
+              32.34578985067225,
+              35.01361126553951
             ],
             [
-              32.5,
-              35.5
+              32.34769341947691,
+              35.00790055912563
             ],
             [
-              32.5,
-              35.0
+              32.35340412589096,
+              35.00028628390692
             ],
             [
-              32.0,
-              35.0
+              32.35911483230501,
+              34.99267200868826
+            ],
+            [
+              32.36482553871889,
+              34.98458184126832
+            ],
+            [
+              32.37101213733416,
+              34.97982291925666
+            ],
+            [
+              32.38052998135748,
+              34.97173275183695
+            ],
+            [
+              32.39052371758186,
+              34.96554615322168
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707454/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707454/batlas-map-label-location"
       }
     }
   ]

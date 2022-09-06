@@ -3,10 +3,10 @@
   "title": "Mosychlos (mountain)",
   "id": "550753",
   "bbox": [
-    25.25,
-    39.916667,
-    25.25,
-    39.916667
+    25.277277206,
+    39.9196564671,
+    25.3324807013,
+    39.9263189579
   ],
   "description": "Mosykhlos, on Lemnos.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          39.916667
+          25.3050516308,
+          39.9239289872
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.0,
-              39.5
+              25.277277205984717,
+              39.92631895787861
             ],
             [
-              25.0,
-              40.0
+              25.28917451101387,
+              39.92536717347616
             ],
             [
-              25.5,
-              40.0
+              25.295837001830193,
+              39.92536717347616
             ],
             [
-              25.5,
-              39.5
+              25.30440306145107,
+              39.92441538907394
             ],
             [
-              25.0,
-              39.5
+              25.312493228871006,
+              39.92298771247033
+            ],
+            [
+              25.320583396290715,
+              39.92298771247033
+            ],
+            [
+              25.326294102704765,
+              39.921560035866946
+            ],
+            [
+              25.332480701319867,
+              39.91965646706228
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550753/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550753/batlas-map-label-location"
       }
     }
   ]

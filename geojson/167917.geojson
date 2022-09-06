@@ -3,10 +3,10 @@
   "title": "Segovellauni",
   "id": "167917",
   "bbox": [
-    4.5,
-    44.5,
-    5.0,
-    45.0
+    4.85346175512,
+    44.6815684604,
+    5.00622315169,
+    44.9885189302
   ],
   "description": "The Segovellauni were a Celtic tribe in Gallia Narbonensis whose territory lay between the Rhodanus and the Druna.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.75,
-          44.75
+          4.94247589566,
+          44.8291459407
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.5,
-              44.5
+              4.853461755119952,
+              44.68156846041251
             ],
             [
-              4.5,
-              45.0
+              4.882015287189915,
+              44.71940189040532
             ],
             [
-              5.0,
-              45.0
+              4.898433568130201,
+              44.746527745871845
             ],
             [
-              5.0,
-              44.5
+              4.914851849070317,
+              44.76937057152776
             ],
             [
-              4.5,
-              44.5
+              4.93127013001066,
+              44.79506875039067
+            ],
+            [
+              4.945546896045641,
+              44.82005309095189
+            ],
+            [
+              4.959823662080623,
+              44.84432359321141
+            ],
+            [
+              4.969103560003248,
+              44.86502490396214
+            ],
+            [
+              4.981952649434788,
+              44.9000029807479
+            ],
+            [
+              4.991946385659332,
+              44.92498732130912
+            ],
+            [
+              4.998370930375074,
+              44.95139933847378
+            ],
+            [
+              5.006223151694314,
+              44.98851893016462
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167917/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167917/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Koryphos M.",
   "id": "570376",
   "bbox": [
-    23.0,
-    37.5,
-    23.5,
-    38.0
+    23.0709351355,
+    37.5743352978,
+    23.1375600436,
+    37.599617071
   ],
   "description": "An ancient place, cited: BAtlas 58 E2 Koryphos M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.25,
-          37.75
+          23.1045479966,
+          37.5861507849
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.0,
-              37.5
+              23.070935135451634,
+              37.57433529776898
             ],
             [
-              23.0,
-              38.0
+              23.0840221709837,
+              37.5782019219036
             ],
             [
-              23.5,
-              38.0
+              23.090863121375435,
+              37.58028395028356
             ],
             [
-              23.5,
-              37.5
+              23.09681177389001,
+              37.58296084391526
             ],
             [
-              23.0,
-              37.5
+              23.100975830650214,
+              37.584150574418175
+            ],
+            [
+              23.107221915790547,
+              37.58682746804959
+            ],
+            [
+              23.11406286618228,
+              37.58980179430688
+            ],
+            [
+              23.12149868182553,
+              37.59247868793858
+            ],
+            [
+              23.137560043614883,
+              37.59961707095607
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570376/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570376/batlas-map-label-location"
       }
     }
   ]

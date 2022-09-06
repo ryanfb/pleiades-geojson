@@ -3,10 +3,10 @@
   "title": "Raithenoi",
   "id": "746803",
   "bbox": [
-    33.5,
-    28.0,
-    34.0,
-    28.5
+    33.6533056563,
+    28.2685452208,
+    33.8650776858,
+    28.2709246818
   ],
   "description": "An ancient place, cited: BAtlas 76 D5 Raithenoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75,
-          28.25
+          33.7591888402,
+          28.2697164419
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.5,
-              28.0
+              33.65330565626044,
+              28.269734951278565
             ],
             [
-              33.5,
-              28.5
+              33.6889975713479,
+              28.269734951278565
             ],
             [
-              34.0,
-              28.5
+              33.708628124646,
+              28.269734951278565
             ],
             [
-              34.0,
-              28.0
+              33.72587921693827,
+              28.26854522077565
             ],
             [
-              33.5,
-              28.0
+              33.75264815325386,
+              28.269734951278565
+            ],
+            [
+              33.77406330230633,
+              28.269734951278565
+            ],
+            [
+              33.797857912364634,
+              28.269734951278565
+            ],
+            [
+              33.82760117493751,
+              28.269734951278565
+            ],
+            [
+              33.86507768577934,
+              28.27092468178148
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746803/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746803/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Daorsi",
   "id": "197242",
   "bbox": [
-    17.927039,
-    43.10401,
-    17.927039,
-    43.10401
+    17.5824395064,
+    42.9633260274,
+    17.8115816013,
+    42.9833134999
   ],
   "description": "An ancient place, cited: BAtlas 20 E7 Daorsi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.927039,
-          43.10401
+          17.6969371312,
+          42.9744486452
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              42.0
+              17.582439506422702,
+              42.96332602742899
             ],
             [
-              17.0,
-              43.0
+              17.656678689804664,
+              42.97046441044648
             ],
             [
-              18.0,
-              43.0
+              17.69237060489212,
+              42.97403360195523
             ],
             [
-              18.0,
-              42.0
+              17.728062519979574,
+              42.978316631765665
             ],
             [
-              17.0,
-              42.0
+              17.768751303179158,
+              42.98188582327441
+            ],
+            [
+              17.811581601284104,
+              42.98331349987785
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197242/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197242/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Kallipidai",
   "id": "226644",
   "bbox": [
-    31.0,
-    46.0,
-    32.0,
-    47.0
+    31.0472474319,
+    46.9414716875,
+    31.884817706,
+    47.0366501278
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.5,
-          46.5
+          31.4653196634,
+          46.9959671301
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              46.0
+              31.047247431941628,
+              46.94147168754057
             ],
             [
-              31.0,
-              47.0
+              31.1864459007827,
+              46.96169710609013
             ],
             [
-              32.0,
-              47.0
+              31.274485957998422,
+              46.97359441111928
             ],
             [
-              32.0,
-              46.0
+              31.364905476219974,
+              46.986681446651346
             ],
             [
-              31.0,
-              46.0
+              31.441048228406544,
+              46.99619929067467
+            ],
+            [
+              31.510052597575623,
+              47.00452740419507
+            ],
+            [
+              31.59928238529426,
+              47.01523497872131
+            ],
+            [
+              31.681373789995405,
+              47.02475282274463
+            ],
+            [
+              31.774172769222787,
+              47.02951174475629
+            ],
+            [
+              31.884817705993896,
+              47.03665012777378
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226644/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226644/batlas-map-label-location"
       }
     }
   ]

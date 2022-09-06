@@ -3,10 +3,10 @@
   "title": "Berenikes Nomos",
   "id": "727083",
   "bbox": [
-    30.0,
-    31.0,
-    30.5,
-    31.5
+    30.3809994972,
+    31.1321888665,
+    30.5600539379,
+    31.135758058
   ],
   "description": "An ancient place, cited: BAtlas 74 C2 Berenikes Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          31.25
+          30.4705089324,
+          31.134777531
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              31.0
+              30.380999497212372,
+              31.132188866493323
             ],
             [
-              30.0,
-              31.5
+              30.40598383777359,
+              31.133378596996238
             ],
             [
-              30.5,
-              31.5
+              30.426209256323148,
+              31.133973462247695
             ],
             [
-              30.5,
-              31.0
+              30.438701426603757,
+              31.134568327499153
             ],
             [
-              30.0,
-              31.0
+              30.456547384147484,
+              31.134568327499153
+            ],
+            [
+              30.470824150182466,
+              31.135758058002068
+            ],
+            [
+              30.491049568732024,
+              31.135758058002068
+            ],
+            [
+              30.505921200018463,
+              31.135758058002068
+            ],
+            [
+              30.52376715756219,
+              31.135758058002068
+            ],
+            [
+              30.560053937901102,
+              31.13516319275061
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727083/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727083/batlas-map-label-location"
       }
     }
   ]

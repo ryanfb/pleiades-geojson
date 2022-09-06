@@ -3,12 +3,12 @@
   "title": "Caedicius? Campus",
   "id": "432730",
   "bbox": [
-    13.5,
-    41.0,
-    14.0,
-    41.5
+    13.909535741,
+    41.0656337703,
+    14.01363716,
+    41.0912129761
   ],
-  "description": "An ancient place, cited: BAtlas 44 E3 Caedicius? Campus",
+  "description": "Caedicius Campus is a toponym that ancient sources place in the territory of the Vestini. Pliny praises the high-quality cheese that was produced there.",
   "names": [
     "Caedicius Campus"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.75,
-          41.25
+          13.9615137643,
+          41.0781387122
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              41.0
+              13.909535740983245,
+              41.091212976137115
             ],
             [
-              13.5,
-              41.5
+              13.92797656377843,
+              41.08704891937691
             ],
             [
-              14.0,
-              41.5
+              13.940766166684796,
+              41.084074593119624
             ],
             [
-              14.0,
-              41.0
+              13.955340365345478,
+              41.07931567110796
             ],
             [
-              13.5,
-              41.0
+              13.968724833503302,
+              41.07544904697346
+            ],
+            [
+              13.983893897415442,
+              41.07217728809047
+            ],
+            [
+              13.99846809607618,
+              41.06890552920743
+            ],
+            [
+              14.01363715998832,
+              41.06563377032444
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432730/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432730/batlas-map-label-location"
       }
     }
   ]

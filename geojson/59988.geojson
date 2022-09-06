@@ -3,10 +3,10 @@
   "title": "Patalene",
   "id": "59988",
   "bbox": [
-    65.0,
-    20.0,
-    70.0,
-    25.0
+    68.133237457,
+    24.8708254503,
+    68.96842827,
+    25.0778385578
   ],
   "description": "An ancient place, cited: BAtlas 6 B5 Patalene",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          22.5
+          68.5447754478,
+          25.0055857353
         ]
       },
       "properties": {
@@ -64,6 +64,55 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/59988/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              68.13323745695533,
+              24.87082545028568
+            ],
+            [
+              68.29742026635762,
+              24.935070897443097
+            ],
+            [
+              68.40449601161998,
+              24.985039578565534
+            ],
+            [
+              68.50443337386486,
+              25.013593110635497
+            ],
+            [
+              68.58295558705726,
+              25.03500825968797
+            ],
+            [
+              68.7043080983546,
+              25.070700174775425
+            ],
+            [
+              68.81138384361697,
+              25.077838557792916
+            ],
+            [
+              68.96842827000177,
+              25.049285025722952
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59988/batlas-map-label-location"
       }
     }
   ]

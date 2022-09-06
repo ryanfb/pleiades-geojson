@@ -3,10 +3,10 @@
   "title": "Kanope Ins.",
   "id": "727136",
   "bbox": [
-    30.0,
-    31.0,
-    30.5,
-    31.5
+    30.0850540346,
+    31.358736,
+    30.1303827668,
+    31.3775112962
   ],
   "description": "An ancient place, cited: BAtlas 74 C2 Kanope Ins.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          31.25
+          30.1079873714,
+          31.3679844595
         ]
       },
       "properties": {
@@ -31,39 +31,60 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          30.1082529,
+          31.358736
+        ]
+      },
+      "id": "location-of-ile-nelson",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "location of Île Nelson ",
+        "link": "http://pleiades.stoa.org/places/727136/location-of-ile-nelson"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              31.0
+              30.08505403461237,
+              31.377511296194314
             ],
             [
-              30.0,
-              31.5
+              30.097189285742047,
+              31.377511296194314
             ],
             [
-              30.5,
-              31.5
+              30.10468458791047,
+              31.377511296194314
             ],
             [
-              30.5,
-              31.0
+              30.111109132626098,
+              31.37679745789262
             ],
             [
-              30.0,
-              31.0
+              30.11824751564359,
+              31.377154377043553
+            ],
+            [
+              30.130382766773437,
+              31.37679745789262
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727136/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727136/batlas-map-label-location"
       }
     }
   ]

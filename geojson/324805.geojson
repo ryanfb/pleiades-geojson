@@ -3,10 +3,10 @@
   "title": "Saltus Beguensis",
   "id": "324805",
   "bbox": [
-    8.5,
-    35.0,
-    9.0,
-    35.5
+    8.84320522438,
+    35.4401684663,
+    8.98890406601,
+    35.5097011265
   ],
   "description": "An ancient place, cited: BAtlas 33 C2 Saltus Beguensis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          35.25
+          8.91554602875,
+          35.4760193222
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              35.0
+              8.843205224377165,
+              35.440168466304705
             ],
             [
-              8.5,
-              35.5
+              8.858378225804428,
+              35.44730874472599
             ],
             [
-              9.0,
-              35.5
+              8.865528333908046,
+              35.45188396206382
             ],
             [
-              9.0,
-              35.0
+              8.875066987053678,
+              35.456700508541985
             ],
             [
-              8.5,
-              35.0
+              8.884098561402881,
+              35.46204826978291
+            ],
+            [
+              8.89356849588237,
+              35.466389441600285
+            ],
+            [
+              8.907521257671807,
+              35.47316582646355
+            ],
+            [
+              8.917715526413168,
+              35.4783946350246
+            ],
+            [
+              8.928347931117523,
+              35.48261653895548
+            ],
+            [
+              8.9390528071325,
+              35.4873113537556
+            ],
+            [
+              8.946790535198945,
+              35.49182333678269
+            ],
+            [
+              8.957934229878356,
+              35.495510353561166
+            ],
+            [
+              8.966761194248624,
+              35.4994302978311
+            ],
+            [
+              8.975081136584398,
+              35.50388195467199
+            ],
+            [
+              8.988904066006485,
+              35.5097011265064
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324805/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324805/batlas-map-label-location"
       }
     }
   ]

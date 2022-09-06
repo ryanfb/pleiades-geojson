@@ -3,10 +3,10 @@
   "title": "Mounychiatis",
   "id": "746783",
   "bbox": [
-    33.0,
-    29.0,
-    33.5,
-    29.5
+    33.1078439639,
+    29.2024737511,
+    33.3952828534,
+    29.2043773199
   ],
   "description": "An ancient place, cited: BAtlas 76 C3 Mounychiatis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.25,
-          29.25
+          33.2515692287,
+          29.2028111134
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              29.0
+              33.10784396393626,
+              29.204377319947923
             ],
             [
-              33.0,
-              29.5
+              33.14972247763899,
+              29.20247375114326
             ],
             [
-              33.5,
-              29.5
+              33.175420656501956,
+              29.20247375114326
             ],
             [
-              33.5,
-              29.0
+              33.203022404169474,
+              29.20247375114326
             ],
             [
-              33.0,
-              29.0
+              33.22776879863022,
+              29.20247375114326
+            ],
+            [
+              33.25061162428608,
+              29.20247375114326
+            ],
+            [
+              33.27630980314922,
+              29.203425535545705
+            ],
+            [
+              33.298200844402686,
+              29.20247375114326
+            ],
+            [
+              33.322947238863435,
+              29.20247375114326
+            ],
+            [
+              33.34198292691008,
+              29.203425535545705
+            ],
+            [
+              33.360066830554274,
+              29.20247375114326
+            ],
+            [
+              33.39528285344073,
+              29.203425535545705
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746783/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746783/batlas-map-label-location"
       }
     }
   ]

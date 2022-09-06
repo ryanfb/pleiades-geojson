@@ -3,10 +3,10 @@
   "title": "Drymus",
   "id": "678123",
   "bbox": [
-    34.5,
-    32.0,
-    35.0,
-    32.5
+    34.8482600675,
+    32.2651761645,
+    35.0070890897,
+    32.2657710298
   ],
   "description": "An ancient place, cited: BAtlas 69 A5 Drymus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.75,
-          32.25
+          34.9276741819,
+          32.2654847362
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.5,
-              32.0
+              34.848260067525416,
+              32.26517616451383
             ],
             [
-              34.5,
-              32.5
+              34.892874961384734,
+              32.26577102976529
             ],
             [
-              35.0,
-              32.5
+              34.91785930194595,
+              32.26577102976529
             ],
             [
-              35.0,
-              32.0
+              34.939274450998425,
+              32.26577102976529
             ],
             [
-              34.5,
-              32.0
+              34.966638252565474,
+              32.26517616451383
+            ],
+            [
+              35.00708908966459,
+              32.26517616451383
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678123/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678123/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Fossae? Ins.",
   "id": "471927",
   "bbox": [
-    9.346667,
-    41.285556,
-    9.372556,
-    41.301667
+    9.2918024813,
+    41.2221558249,
+    9.3753215626,
+    41.2264388547
   ],
   "description": "An ancient place, cited: BAtlas 48 B1 Fossae? Ins.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.35955566667,
-          41.2949253333
+          9.33340811639,
+          41.2236112605
         ]
       },
       "properties": {
@@ -31,39 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              41.0
+              9.291802481298317,
+              41.226438854686094
             ],
             [
-              9.0,
-              42.0
+              9.311789953747292,
+              41.2221558248756
             ],
             [
-              10.0,
-              42.0
+              9.323925204877026,
+              41.2221558248756
             ],
             [
-              10.0,
-              41.0
+              9.334632779403263,
+              41.2235835014791
             ],
             [
-              9.0,
-              41.0
+              9.343198839024252,
+              41.2235835014791
+            ],
+            [
+              9.357475605059234,
+              41.2235835014791
+            ],
+            [
+              9.37532156260296,
+              41.225011178082596
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471927/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471927/batlas-map-label-location"
       }
     }
   ]

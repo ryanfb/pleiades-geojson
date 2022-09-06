@@ -3,10 +3,10 @@
   "title": "Chersonesos",
   "id": "599571",
   "bbox": [
-    28.0,
-    36.5,
-    28.5,
-    37.0
+    28.0885133003,
+    36.6030685462,
+    28.2684005523,
+    36.8728994243
   ],
   "description": "An ancient place, cited: BAtlas 61 G4 Chersonesos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          36.75
+          28.1704701152,
+          36.7442185511
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              36.5
+              28.08851330025608,
+              36.603068546216505
             ],
             [
-              28.0,
-              37.0
+              28.121349862136533,
+              36.66445864016692
             ],
             [
-              28.5,
-              37.0
+              28.157755615525737,
+              36.731559440531335
             ],
             [
-              28.5,
-              36.5
+              28.188450662500948,
+              36.78010044505027
             ],
             [
-              28.0,
-              36.5
+              28.229139445700646,
+              36.840776700698946
+            ],
+            [
+              28.268400552296846,
+              36.872899424277655
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599571/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599571/batlas-map-label-location"
       }
     }
   ]

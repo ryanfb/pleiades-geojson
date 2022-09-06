@@ -3,10 +3,10 @@
   "title": "*Geneatae",
   "id": "491599",
   "bbox": [
-    21.5,
-    41.0,
-    22.0,
-    41.5
+    21.7310450173,
+    41.1938884712,
+    21.9216398439,
+    41.2645584631
   ],
   "description": "An ancient people, tribe, or cultural group. Located: near Vitolište MAC.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          41.25
+          21.825523956,
+          41.2316385193
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              41.0
+              21.731045017340154,
+              41.19388847124477
             ],
             [
-              21.5,
-              41.5
+              21.760312387711867,
+              41.2060237223745
             ],
             [
-              22.0,
-              41.5
+              21.778872183557343,
+              41.213162105391994
             ],
             [
-              22.0,
-              41.0
+              21.801001170911565,
+              41.22244200331473
             ],
             [
-              21.5,
-              41.0
+              21.82170248166229,
+              41.23100806293572
+            ],
+            [
+              21.84168995411126,
+              41.239574122556704
+            ],
+            [
+              21.859535911654987,
+              41.246712505574195
+            ],
+            [
+              21.883092575612707,
+              41.254564726893435
+            ],
+            [
+              21.92163984390716,
+              41.26455846311792
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491599/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491599/batlas-map-label-location"
       }
     }
   ]

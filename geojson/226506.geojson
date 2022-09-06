@@ -3,10 +3,10 @@
   "title": "Achilleios Dromos",
   "id": "226506",
   "bbox": [
-    31.0,
-    46.0,
-    32.0,
-    47.0
+    31.513383843,
+    46.1798696719,
+    31.9150368608,
+    46.2921802313
   ],
   "description": "A strip of land northwest of Crimea and south of the mouth of the Dnieper river in Ukraine, running nearly due west and east.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.5,
-          46.5
+          31.7068577705,
+          46.2181753313
         ]
       },
       "properties": {
@@ -30,39 +30,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              46.0
+              31.51338384298367,
+              46.29218023134297
             ],
             [
-              31.0,
-              47.0
+              31.53432309983515,
+              46.27028919008927
             ],
             [
-              32.0,
-              47.0
+              31.552407003479402,
+              46.25981956166356
             ],
             [
-              32.0,
-              46.0
+              31.567635553916773,
+              46.25220528644502
             ],
             [
-              31.0,
-              46.0
+              31.5790569667447,
+              46.24554279562858
+            ],
+            [
+              31.594285517181902,
+              46.2398320892147
+            ],
+            [
+              31.60951406761933,
+              46.23031424519138
+            ],
+            [
+              31.63045332447058,
+              46.22555532317972
+            ],
+            [
+              31.647585443712615,
+              46.222699969972666
+            ],
+            [
+              31.671380053770918,
+              46.21698926355862
+            ],
+            [
+              31.71040321426659,
+              46.21032677274229
+            ],
+            [
+              31.76655849400413,
+              46.201760713121416
+            ],
+            [
+              31.791304888464822,
+              46.19890535991436
+            ],
+            [
+              31.81319592971829,
+              46.19509822230509
+            ],
+            [
+              31.844604814995307,
+              46.18938751589104
+            ],
+            [
+              31.865544071846557,
+              46.18653216268399
+            ],
+            [
+              31.915036860767998,
+              46.17986967186772
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226506/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226506/batlas-map-label-location"
       }
     }
   ]

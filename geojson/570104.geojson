@@ -3,10 +3,10 @@
   "title": "Argolis",
   "id": "570104",
   "bbox": [
-    22.719464,
-    37.496395,
-    23.362444,
-    37.714636
+    22.7004093703,
+    37.5321482713,
+    23.1401337642,
+    37.6891926977
   ],
   "description": "Argolis (also known as 'the Argolid') occupied the eastern part of the Peloponnese; comprising primarily the Argolid peninsula and the coastal region lying to the east of Arcadia, and north of Laconia.",
   "connectsWith": [
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.8932135984,
-          37.5975603213
+          22.9256944674,
+          37.6263261493
         ]
       },
       "properties": {
@@ -34,39 +34,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.5
+              22.700409370300065,
+              37.68919269770919
             ],
             [
-              22.5,
-              38.0
+              22.8051056545566,
+              37.67206057846715
             ],
             [
-              23.0,
-              38.0
+              22.87553770032929,
+              37.6539766748229
             ],
             [
-              23.0,
-              37.5
+              22.939307255285485,
+              37.63113384916687
             ],
             [
-              22.5,
-              37.5
+              23.00212502583929,
+              37.6035321014993
+            ],
+            [
+              23.06303922758866,
+              37.574978569429334
+            ],
+            [
+              23.14013376417745,
+              37.53214827132439
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570104/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570104/batlas-map-label-location"
       }
     }
   ]

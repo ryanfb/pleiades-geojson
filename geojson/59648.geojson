@@ -3,10 +3,10 @@
   "title": "Abastanoi/Sambastai",
   "id": "59648",
   "bbox": [
-    70.0,
-    25.0,
-    75.0,
-    30.0
+    71.0319689672,
+    28.6817737164,
+    72.162212945,
+    28.8661819443
   ],
   "description": "An ancient place, cited: BAtlas 6 C4 Abastanoi/Sambastai",
   "names": [
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          27.5
+          71.5922646867,
+          28.7518104736
         ]
       },
       "properties": {
@@ -34,39 +34,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              25.0
+              71.0319689672026,
+              28.866181944308323
             ],
             [
-              70.0,
-              30.0
+              71.180685280067,
+              28.806695419162565
             ],
             [
-              75.0,
-              30.0
+              71.36509350801884,
+              28.782900809104262
             ],
             [
-              75.0,
-              25.0
+              71.48406655831036,
+              28.75910619904596
             ],
             [
-              70.0,
-              25.0
+              71.6446801762039,
+              28.747208894016808
+            ],
+            [
+              71.84693436169948,
+              28.705568326414777
+            ],
+            [
+              71.965907411991,
+              28.693671021385626
+            ],
+            [
+              72.162212944972,
+              28.681773716356474
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59648/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59648/batlas-map-label-location"
       }
     }
   ]

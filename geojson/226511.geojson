@@ -3,10 +3,10 @@
   "title": "Agathyrsoi",
   "id": "226511",
   "bbox": [
-    27.0,
-    47.0,
-    28.0,
-    48.0
+    27.878459724,
+    47.4693908036,
+    29.3299309375,
+    47.8643813306
   ],
   "description": "The Agathyrsoi were an ancient tribe whose territory was located on the upper Mureş river, north-east of that of the Neuri.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          47.5
+          28.5939910692,
+          47.7030363106
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              47.0
+              27.878459723952176,
+              47.46939080359914
             ],
             [
-              27.0,
-              48.0
+              28.049780916371958,
+              47.54791301679154
             ],
             [
-              28.0,
-              48.0
+              28.190169115715946,
+              47.59788169791398
             ],
             [
-              28.0,
-              47.0
+              28.340075159083256,
+              47.64785037903641
             ],
             [
-              27.0,
-              47.0
+              28.489981202450565,
+              47.69543959915302
+            ],
+            [
+              28.661302394870347,
+              47.738269897257965
+            ],
+            [
+              28.799311133208505,
+              47.77396181234542
+            ],
+            [
+              28.956355559593305,
+              47.80013588340955
+            ],
+            [
+              29.111020524972275,
+              47.83344833749118
+            ],
+            [
+              29.329930937508664,
+              47.86438133056697
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226511/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226511/batlas-map-label-location"
       }
     }
   ]

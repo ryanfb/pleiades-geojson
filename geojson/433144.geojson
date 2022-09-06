@@ -3,10 +3,10 @@
   "title": "Taurasinus? Ager",
   "id": "433144",
   "bbox": [
-    14.5,
-    41.0,
-    15.0,
-    41.5
+    14.771792923,
+    41.3274042242,
+    14.9973658263,
+    41.4855194081
   ],
   "description": "An ancient place, cited: BAtlas 44 G3 Taurasinus? Ager",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.75,
-          41.25
+          14.8863252166,
+          41.4039648756
         ]
       },
       "properties": {
@@ -28,39 +28,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              41.0
+              14.77179292297103,
+              41.32740422422836
             ],
             [
-              14.5,
-              41.5
+              14.7960634252305,
+              41.3420379094141
             ],
             [
-              15.0,
-              41.5
+              14.813195544472535,
+              41.35524391799663
             ],
             [
-              15.0,
-              41.0
+              14.827829229658278,
+              41.36202538186319
             ],
             [
-              14.5,
-              41.0
+              14.84317675314594,
+              41.37237603723844
+            ],
+            [
+              14.859951953236987,
+              41.384154369217356
+            ],
+            [
+              14.86851801285809,
+              41.39164967138578
+            ],
+            [
+              14.883151698043832,
+              41.39950189270502
+            ],
+            [
+              14.896357706626134,
+              41.41163714383464
+            ],
+            [
+              14.915631340773473,
+              41.4205601226065
+            ],
+            [
+              14.923126642941725,
+              41.42841234392591
+            ],
+            [
+              14.932049621713588,
+              41.43376613118903
+            ],
+            [
+              14.942757196239825,
+              41.441975271658976
+            ],
+            [
+              14.958104719727487,
+              41.45375360363789
+            ],
+            [
+              14.970953809159028,
+              41.46446117816413
+            ],
+            [
+              14.997365826323687,
+              41.48551940806584
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433144/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433144/batlas-map-label-location"
       }
     }
   ]

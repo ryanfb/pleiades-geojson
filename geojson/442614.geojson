@@ -3,10 +3,10 @@
   "title": "Hirpini",
   "id": "442614",
   "bbox": [
-    14.8308384,
-    40.869305,
-    15.475346,
-    41.2462
+    14.9399085127,
+    41.0388202191,
+    15.3039660466,
+    41.0435791411
   ],
   "description": "The Hirpini were an ancient Samnite people of central Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.963923,
-          41.2462
+          15.121936198,
+          41.0410470891
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              41.0
+              14.939908512734235,
+              41.043579141126656
             ],
             [
-              14.5,
-              41.5
+              15.017835860675177,
+              41.04238941062374
             ],
             [
-              15.0,
-              41.5
+              15.071373733306359,
+              41.041794545372284
             ],
             [
-              15.0,
-              41.0
+              15.127291066943371,
+              41.04060481486937
             ],
             [
-              14.5,
-              41.0
+              15.178449478568723,
+              41.04060481486937
+            ],
+            [
+              15.233771946954278,
+              41.03941508436645
+            ],
+            [
+              15.303966046626272,
+              41.038820219114996
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442614/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442614/batlas-map-label-location"
       }
     }
   ]

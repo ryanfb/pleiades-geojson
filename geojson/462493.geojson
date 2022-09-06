@@ -3,12 +3,15 @@
   "title": "Siculi",
   "id": "462493",
   "bbox": [
-    14.0,
-    37.0,
-    14.5,
-    37.5
+    14.3884116503,
+    37.4692818238,
+    14.7602024324,
+    37.474635611
   ],
   "description": "An ancient place, cited: BAtlas 47 E4 Siculi",
+  "connectsWith": [
+    "462492"
+  ],
   "names": [
     "Siculi",
     "Sikeloi"
@@ -19,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.25,
-          37.25
+          14.5743279184,
+          37.47268909
         ]
       },
       "properties": {
@@ -29,39 +32,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              37.0
+              14.388411650253781,
+              37.47344588054478
             ],
             [
-              14.0,
-              37.5
+              14.468718459200554,
+              37.472256150041865
             ],
             [
-              14.5,
-              37.5
+              14.53355877160943,
+              37.47344588054478
             ],
             [
-              14.5,
-              37.0
+              14.607322062790168,
+              37.474635611047695
             ],
             [
-              14.0,
-              37.0
+              14.670972644696128,
+              37.472256150041865
+            ],
+            [
+              14.760202432414763,
+              37.46928182378458
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462493/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/462493/batlas-map-label-location"
       }
     }
   ]

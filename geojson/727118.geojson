@@ -3,10 +3,10 @@
   "title": "Heliopolites Nomos",
   "id": "727118",
   "bbox": [
-    31.0,
-    30.0,
-    31.5,
-    30.5
+    31.2390569305,
+    30.0636363811,
+    31.32055347,
+    30.2236551337
   ],
   "description": "An ancient place, cited: BAtlas 74 E4 Heliopolites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          30.25
+          31.2772081065,
+          30.1451445674
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              30.0
+              31.239056930524896,
+              30.063636381068363
             ],
             [
-              31.0,
-              30.5
+              31.25035937030259,
+              30.088025856378124
             ],
             [
-              31.5,
-              30.5
+              31.25809261857154,
+              30.104682083418936
             ],
             [
-              31.5,
-              30.0
+              31.266420732091945,
+              30.12312290621412
             ],
             [
-              31.0,
-              30.0
+              31.27236938460652,
+              30.139184268003476
+            ],
+            [
+              31.280697498126926,
+              30.158814821301576
+            ],
+            [
+              31.290215342150248,
+              30.17963510510259
+            ],
+            [
+              31.305086973436687,
+              30.197481062646318
+            ],
+            [
+              31.320553469974584,
+              30.22365513371045
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727118/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727118/batlas-map-label-location"
       }
     }
   ]

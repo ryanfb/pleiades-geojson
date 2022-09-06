@@ -3,10 +3,10 @@
   "title": "Melana Ore",
   "id": "746781",
   "bbox": [
-    32.5,
-    29.5,
-    33.0,
-    30.0
+    32.9598355407,
+    29.8518346083,
+    33.1697040014,
+    29.8554037998
   ],
   "description": "An ancient place, cited: BAtlas 76 B2 Melana Ore",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          29.75
+          33.0647986596,
+          29.8533860935
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              29.5
+              32.9598355407212,
+              29.853976123192183
             ],
             [
-              32.5,
-              30.0
+              32.99481361750691,
+              29.853976123192183
             ],
             [
-              33.0,
-              30.0
+              33.021939472973486,
+              29.853262284890434
             ],
             [
-              33.0,
-              29.5
+              33.046923813534704,
+              29.853262284890434
             ],
             [
-              32.5,
-              29.5
+              33.06476977107843,
+              29.853262284890434
+            ],
+            [
+              33.08404340522554,
+              29.85183460828688
+            ],
+            [
+              33.11259693729551,
+              29.85254844658874
+            ],
+            [
+              33.130442894839234,
+              29.853262284890434
+            ],
+            [
+              33.169704001435434,
+              29.855403799795624
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746781/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746781/batlas-map-label-location"
       }
     }
   ]

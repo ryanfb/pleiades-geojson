@@ -3,10 +3,10 @@
   "title": "Callaecia",
   "id": "236400",
   "bbox": [
-    -9.3015367,
-    41.149974,
-    -6.063491,
-    43.790422
+    -8.37906215638,
+    42.3611615119,
+    -7.48438481819,
+    43.2534593891
   ],
   "description": "Callaecia was a Roman province and an early Medieval kingdom in north-west Hispania.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5570105,
-          43.0106145
+          -7.95528525644,
+          42.8312152997
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.379062156383554,
+              42.36116151191459
             ],
             [
-              -9.0,
-              43.0
+              -8.260089106092039,
+              42.50868809427607
             ],
             [
-              -8.0,
-              43.0
+              -8.176807970887978,
+              42.61814330054426
             ],
             [
-              -8.0,
-              42.0
+              -8.081629530654766,
+              42.727598506812456
             ],
             [
-              -9.0,
-              42.0
+              -7.974553785392402,
+              42.83943317408648
+            ],
+            [
+              -7.862719118118378,
+              42.94412945834301
+            ],
+            [
+              -7.748504989838523,
+              43.05358466461121
+            ],
+            [
+              -7.631911400552838,
+              43.1392452608211
+            ],
+            [
+              -7.484384818191359,
+              43.253459389100954
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236400/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236400/batlas-map-label-location"
       }
     }
   ]

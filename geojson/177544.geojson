@@ -3,10 +3,10 @@
   "title": "Iura",
   "id": "177544",
   "bbox": [
-    6.0,
-    46.0,
-    7.0,
-    47.0
+    6.55833601977,
+    46.9271467443,
+    7.40423440734,
+    47.2864453562
   ],
   "description": "The Jura Mountains, a sub-alpine mountain range located to the north of the western Alps, separate the Rhine and Rhone rivers.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          46.5
+          6.97813349251,
+          47.1140213513
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              46.0
+              6.558336019770479,
+              46.92714674429618
             ],
             [
-              6.0,
-              47.0
+              6.682067992073655,
+              46.987822999944854
             ],
             [
-              7.0,
-              47.0
+              6.760590205266055,
+              47.02113545402648
             ],
             [
-              7.0,
-              46.0
+              6.83792268795554,
+              47.05682736911393
             ],
             [
-              6.0,
-              46.0
+              6.90930651813045,
+              47.09489874520722
+            ],
+            [
+              6.998536305849086,
+              47.13059066029467
+            ],
+            [
+              7.092525015579383,
+              47.16509284487921
+            ],
+            [
+              7.182944533800935,
+              47.19959502946375
+            ],
+            [
+              7.274553782525402,
+              47.23409721404829
+            ],
+            [
+              7.404234407343154,
+              47.28644535617656
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/177544/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/177544/batlas-map-label-location"
       }
     }
   ]

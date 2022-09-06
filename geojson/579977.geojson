@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Kerata M.",
+  "title": "Kerata (mountain)",
   "id": "579977",
   "bbox": [
-    23.25,
-    38.0,
-    23.5,
-    38.25
+    23.3432683502,
+    38.0546164388,
+    23.4295238117,
+    38.1051799852
   ],
   "description": "An ancient place, cited: BAtlas 59 A2 Kerata M.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.375,
-          38.125
+          23.3870078131,
+          38.0809376093
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.25,
-              38.0
+              23.343268350245353,
+              38.10517998516917
             ],
             [
-              23.25,
-              38.25
+              23.35665281840312,
+              38.09833903477738
             ],
             [
-              23.5,
-              38.25
+              23.364683499297826,
+              38.09387754539148
             ],
             [
-              23.5,
-              38.0
+              23.3706321518124,
+              38.08941605600552
             ],
             [
-              23.25,
-              38.0
+              23.37836540008135,
+              38.08703659499969
+            ],
+            [
+              23.384314052595926,
+              38.082575105613785
+            ],
+            [
+              23.397401088127992,
+              38.07513928997054
+            ],
+            [
+              23.406918932151314,
+              38.07097523321033
+            ],
+            [
+              23.416734208800335,
+              38.06383685019284
+            ],
+            [
+              23.4295238117067,
+              38.05461643879528
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/579977/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/579977/batlas-map-label-location"
       }
     }
   ]

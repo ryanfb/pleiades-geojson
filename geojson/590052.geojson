@@ -3,10 +3,10 @@
   "title": "Skyl(l)ion? M.",
   "id": "590052",
   "bbox": [
-    25.0,
-    35.0,
-    25.5,
-    35.5
+    25.1887545852,
+    35.0218104172,
+    25.2562717912,
+    35.0227027151
   ],
   "description": "An ancient place, cited: BAtlas 60 D2 Skyl(l)ion? M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          35.25
+          25.2225036871,
+          35.0222781801
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.0,
-              35.0
+              25.18875458516021,
+              35.02270271505415
             ],
             [
-              25.0,
-              35.5
+              25.19886729443499,
+              35.022107849802694
             ],
             [
-              25.5,
-              35.5
+              25.202436485943736,
+              35.02240528242845
             ],
             [
-              25.5,
-              35.0
+              25.207492840581097,
+              35.022107849802694
             ],
             [
-              25.0,
-              35.0
+              25.213144060469972,
+              35.022107849802694
+            ],
+            [
+              25.22117474136462,
+              35.02240528242845
+            ],
+            [
+              25.22623109600204,
+              35.02240528242845
+            ],
+            [
+              25.2312874506394,
+              35.02240528242845
+            ],
+            [
+              25.24140015991418,
+              35.02240528242845
+            ],
+            [
+              25.256271791200618,
+              35.021810417176994
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590052/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/590052/batlas-map-label-location"
       }
     }
   ]

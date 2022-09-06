@@ -3,10 +3,10 @@
   "title": "Ichthyophagi",
   "id": "766372",
   "bbox": [
-    33.5,
-    26.5,
-    34.0,
-    27.0
+    33.7179496631,
+    26.4165829596,
+    34.0505983118,
+    26.829181498
   ],
   "description": "An ancient place, cited: BAtlas 78 D4 Ichthyophagi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75,
-          26.75
+          33.8873300961,
+          26.625352418
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.5,
-              26.5
+              33.71794966313627,
+              26.829181497970467
             ],
             [
-              33.5,
-              27.0
+              33.75649693143072,
+              26.78492352326191
             ],
             [
-              34.0,
-              27.0
+              33.78647814010412,
+              26.747803931571013
             ],
             [
-              34.0,
-              26.5
+              33.81503167217409,
+              26.716395046294053
             ],
             [
-              33.5,
-              26.5
+              33.84501288084749,
+              26.682130807809983
+            ],
+            [
+              33.87499408952107,
+              26.645725054420836
+            ],
+            [
+              33.90283378328928,
+              26.60860546272994
+            ],
+            [
+              33.93567034516974,
+              26.566489002926744
+            ],
+            [
+              33.96993458365358,
+              26.5236587048218
+            ],
+            [
+              33.99420508591305,
+              26.49224981954478
+            ],
+            [
+              34.01918942647427,
+              26.460127095966072
+            ],
+            [
+              34.05059831175129,
+              26.416582959559435
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/766372/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/766372/batlas-map-label-location"
       }
     }
   ]

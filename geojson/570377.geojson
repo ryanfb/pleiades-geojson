@@ -3,10 +3,10 @@
   "title": "Kotilion (mountain)",
   "id": "570377",
   "bbox": [
-    21.5,
-    37.0,
-    22.0,
-    37.5
+    21.8721212876,
+    37.4269720622,
+    21.9263729985,
+    37.4540979177
   ],
   "description": "Paliovlatiza.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.25
+          21.8987359995,
+          37.4414380947
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.0
+              21.87212128761064,
+              37.42697206223295
             ],
             [
-              21.5,
-              37.5
+              21.881401185533434,
+              37.431968930345306
             ],
             [
-              22.0,
-              37.5
+              21.88568421534393,
+              37.43589504100481
             ],
             [
-              22.0,
-              37.0
+              21.889610326003606,
+              37.43696579845749
             ],
             [
-              21.5,
-              37.0
+              21.893893355814043,
+              37.4391073133628
+            ],
+            [
+              21.898176385624538,
+              37.44196266656968
+            ],
+            [
+              21.903173253736668,
+              37.444461100625745
+            ],
+            [
+              21.91138239420684,
+              37.44838721128542
+            ],
+            [
+              21.91852077722433,
+              37.45088564534154
+            ],
+            [
+              21.926372998543513,
+              37.45409791769953
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570377/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570377/batlas-map-label-location"
       }
     }
   ]

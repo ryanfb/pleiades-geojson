@@ -3,10 +3,10 @@
   "title": "Aigidion Nesos",
   "id": "49842",
   "bbox": [
-    70.0,
-    15.0,
-    75.0,
-    20.0
+    72.9366957776,
+    15.4263865466,
+    73.6148421643,
+    15.4430427737
   ],
   "description": "An ancient place, cited: BAtlas 5 C3 Aigidion Nesos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          17.5
+          73.2758445635,
+          15.4316563299
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              15.0
+              72.9366957776449,
+              15.426386546646313
             ],
             [
-              70.0,
-              20.0
+              73.06042774994808,
+              15.426386546646313
             ],
             [
-              75.0,
-              20.0
+              73.10325804805302,
+              15.426386546646313
             ],
             [
-              75.0,
-              15.0
+              73.1413294241463,
+              15.426386546646313
             ],
             [
-              70.0,
-              15.0
+              73.1960570272804,
+              15.426386546646313
+            ],
+            [
+              73.24602570840284,
+              15.431145468657974
+            ],
+            [
+              73.33406576561856,
+              15.431145468657974
+            ],
+            [
+              73.41258797881096,
+              15.435904390669634
+            ],
+            [
+              73.47683342596838,
+              15.435904390669634
+            ],
+            [
+              73.55297617815495,
+              15.440663312681295
+            ],
+            [
+              73.61484216430654,
+              15.443042773687125
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49842/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49842/batlas-map-label-location"
       }
     }
   ]

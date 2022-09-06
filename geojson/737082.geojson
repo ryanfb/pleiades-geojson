@@ -3,10 +3,10 @@
   "title": "Themistou Meris",
   "id": "737082",
   "bbox": [
-    30.5,
-    29.0,
-    31.0,
-    29.5
+    30.6405748983,
+    29.3415948875,
+    30.7619274096,
+    29.3469486748
   ],
   "description": "Themistou Meris is a district that is part of the Fayoum.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          29.25
+          30.7012363578,
+          29.345489856
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              29.0
+              30.640574898338514,
+              29.341594887501685
             ],
             [
-              30.5,
-              29.5
+              30.6590157211337,
+              29.344569213758973
             ],
             [
-              31.0,
-              29.5
+              30.682215465940544,
+              29.346353809513346
             ],
             [
-              31.0,
-              29.0
+              30.70541521074739,
+              29.346948674764803
             ],
             [
-              30.5,
-              29.0
+              30.723856033542575,
+              29.346948674764803
+            ],
+            [
+              30.74229685633776,
+              29.34575894426189
+            ],
+            [
+              30.76192740963586,
+              29.3427846180046
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/737082/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/737082/batlas-map-label-location"
       }
     }
   ]
