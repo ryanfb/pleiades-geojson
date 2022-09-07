@@ -3,10 +3,10 @@
   "title": "Cenomani",
   "id": "383614",
   "bbox": [
-    9.5,
-    45.0,
-    10.0,
-    45.5
+    9.8827548578,
+    45.1818178426,
+    10.3814898846,
+    45.3398140534
   ],
   "description": "The Cenomani were a Celtic people whose territory centered on the valley of the Maine river; Vindinum or Suindinum was their principal center.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          45.25
+          10.1348264453,
+          45.2688468462
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              45.0
+              9.882754857799512,
+              45.33981405343519
             ],
             [
-              9.5,
-              45.5
+              9.976981513630335,
+              45.31601944337689
             ],
             [
-              10.0,
-              45.5
+              10.044558206195973,
+              45.29983910853713
             ],
             [
-              10.0,
-              45.0
+              10.111183114359221,
+              45.27985163608827
             ],
             [
-              9.5,
-              45.0
+              10.181615160131742,
+              45.25700881043218
+            ],
+            [
+              10.247288283892772,
+              45.23797312238554
+            ],
+            [
+              10.310106054446578,
+              45.21417851232724
+            ],
+            [
+              10.381489884621487,
+              45.181817842648
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383614/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383614/batlas-map-label-location"
       }
     }
   ]

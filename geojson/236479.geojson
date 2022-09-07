@@ -3,10 +3,10 @@
   "title": "Helleni",
   "id": "236479",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.82332268838,
+    42.0645489147,
+    -8.67778529574,
+    42.1274444714
   ],
   "description": "An ancient place, cited: BAtlas 24 C2 Helleni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.74978473134,
+          42.0942312066
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.823322688381836,
+              42.06454891474874
             ],
             [
-              -9.0,
-              43.0
+              -8.78090475484754,
+              42.07990713206283
             ],
             [
-              -8.0,
-              43.0
+              -8.762621162806909,
+              42.08722056887916
             ],
             [
-              -8.0,
-              42.0
+              -8.74360622708457,
+              42.0967280367401
             ],
             [
-              -9.0,
-              42.0
+              -8.7231286039991,
+              42.10550416091968
+            ],
+            [
+              -8.705576355640062,
+              42.11281759773601
+            ],
+            [
+              -8.67778529573826,
+              42.127444471368506
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236479/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236479/batlas-map-label-location"
       }
     }
   ]

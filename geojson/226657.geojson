@@ -3,10 +3,10 @@
   "title": "Kephalonesos",
   "id": "226657",
   "bbox": [
-    32.0,
-    46.0,
-    33.0,
-    47.0
+    32.7261237338,
+    46.0114752165,
+    32.9012520639,
+    46.0162341385
   ],
   "description": "An ancient place, cited: BAtlas 23 F2 Kephalonesos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          46.5
+          32.8136369219,
+          46.012738675
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              46.0
+              32.726123733825375,
+              46.01623413849666
             ],
             [
-              32.0,
-              47.0
+              32.75467726589534,
+              46.01337878528966
             ],
             [
-              33.0,
-              47.0
+              32.77276116953959,
+              46.01337878528966
             ],
             [
-              33.0,
-              46.0
+              32.78894150437918,
+              46.01337878528966
             ],
             [
-              32.0,
-              46.0
+              32.802266486011945,
+              46.01337878528966
+            ],
+            [
+              32.81654325204693,
+              46.01337878528966
+            ],
+            [
+              32.82510931166786,
+              46.011475216484996
+            ],
+            [
+              32.83843429330062,
+              46.011475216484996
+            ],
+            [
+              32.852711059335604,
+              46.011475216484996
+            ],
+            [
+              32.86984317857741,
+              46.011475216484996
+            ],
+            [
+              32.883168160210175,
+              46.011475216484996
+            ],
+            [
+              32.90125206385443,
+              46.011475216484996
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226657/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226657/batlas-map-label-location"
       }
     }
   ]

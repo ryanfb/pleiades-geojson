@@ -3,10 +3,10 @@
   "title": "Rhoition Oros",
   "id": "472120",
   "bbox": [
-    8.0,
-    42.0,
-    9.0,
-    43.0
+    8.59812019715,
+    42.189196538,
+    8.81822034019,
+    42.2486830632
   ],
   "description": "An ancient place, cited: BAtlas 48 C2 Rhoition Oros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          42.5
+          8.70690896344,
+          42.2147465633
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              42.0
+              8.59812019715278,
+              42.248683063168954
             ],
             [
-              8.0,
-              43.0
+              8.62488913346837,
+              42.2367857581398
             ],
             [
-              9.0,
-              43.0
+              8.645709417269385,
+              42.231431970876685
             ],
             [
-              9.0,
-              42.0
+              8.660581048555825,
+              42.22548331836211
             ],
             [
-              8.0,
-              42.0
+              8.669504027327688,
+              42.22488845311065
+            ],
+            [
+              8.682591062859755,
+              42.22191412685336
+            ],
+            [
+              8.69627296364328,
+              42.21596547433879
+            ],
+            [
+              8.716498382192837,
+              42.209421956572754
+            ],
+            [
+              8.73315460923365,
+              42.204663034561094
+            ],
+            [
+              8.752190297280292,
+              42.20109384305235
+            ],
+            [
+              8.769441389572561,
+              42.19811951679506
+            ],
+            [
+              8.786692481864831,
+              42.194550325286315
+            ],
+            [
+              8.818220340192083,
+              42.1891965380232
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472120/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472120/batlas-map-label-location"
       }
     }
   ]

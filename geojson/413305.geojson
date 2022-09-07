@@ -3,10 +3,10 @@
   "title": "Sappinates?",
   "id": "413305",
   "bbox": [
-    11.5,
-    43.5,
-    12.0,
-    44.0
+    11.9636832305,
+    43.8862748989,
+    12.0874152028,
+    43.9186355686
   ],
   "description": "An ancient place, cited: BAtlas 42 B1 Sappinates?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.75,
-          43.75
+          12.0256321497,
+          43.9021620017
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              11.5,
-              43.5
+              11.96368323048631,
+              43.886274898918714
             ],
             [
-              11.5,
-              44.0
+              11.983670702935171,
+              43.891033820930375
             ],
             [
-              12.0,
-              44.0
+              11.995568007964323,
+              43.89388917413743
             ],
             [
-              12.0,
-              43.5
+              12.005561744188867,
+              43.896744527344254
             ],
             [
-              11.5,
-              43.5
+              12.015079588212188,
+              43.89959988055131
+            ],
+            [
+              12.026025108838894,
+              43.901503449355914
+            ],
+            [
+              12.03744652166705,
+              43.90578647916658
+            ],
+            [
+              12.048867934494979,
+              43.90816594017241
+            ],
+            [
+              12.060289347322964,
+              43.911021293379235
+            ],
+            [
+              12.072186652352116,
+              43.91482843098868
+            ],
+            [
+              12.087415202789487,
+              43.91863556859795
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413305/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413305/batlas-map-label-location"
       }
     }
   ]

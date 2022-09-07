@@ -3,10 +3,10 @@
   "title": "Thesprotia",
   "id": "531117",
   "bbox": [
-    20.7835902,
-    39.488,
-    20.7914003,
-    39.550196
+    20.3607659705,
+    39.2533299538,
+    20.7383864321,
+    39.648796373
   ],
   "description": "One of the three main ancient tribes of Epirus.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.7893510706,
-          39.5172420083
+          20.5564965576,
+          39.4579354528
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              39.5
+              20.360765970513114,
+              39.648796372971844
             ],
             [
-              20.0,
-              40.0
+              20.426439094273974,
+              39.59597233864241
             ],
             [
-              20.5,
-              40.0
+              20.46855555407717,
+              39.55456971714085
             ],
             [
-              20.5,
-              39.5
+              20.50781666067337,
+              39.51530861054465
             ],
             [
-              20.0,
-              39.5
+              20.546363928967878,
+              39.47818901885381
+            ],
+            [
+              20.582769682357025,
+              39.43607255905056
+            ],
+            [
+              20.621316950651533,
+              39.39110074604048
+            ],
+            [
+              20.65843654234243,
+              39.34827044793553
+            ],
+            [
+              20.692700780826442,
+              39.30900934133933
+            ],
+            [
+              20.73838643213844,
+              39.25332995380285
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531117/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/531117/batlas-map-label-location"
       }
     }
   ]

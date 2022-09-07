@@ -3,10 +3,10 @@
   "title": "Eut(h)ychiani",
   "id": "471920",
   "bbox": [
-    8.0,
-    40.0,
-    9.0,
-    41.0
+    8.50393914766,
+    40.0343288908,
+    8.55176631388,
+    40.2049362449
   ],
   "description": "An ancient place, cited: BAtlas 48 A2 Eut(h)ychiani",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          40.5
+          8.53428311989,
+          40.1214305842
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              40.0
+              8.50393914765786,
+              40.204936244883285
             ],
             [
-              8.0,
-              41.0
+              8.514646722184096,
+              40.182093419227314
             ],
             [
-              9.0,
-              41.0
+              8.521785105201587,
+              40.16924432979583
             ],
             [
-              9.0,
-              40.0
+              8.529637326520827,
+              40.149256857346856
             ],
             [
-              8.0,
-              40.0
+              8.536775709538317,
+              40.12498635508739
+            ],
+            [
+              8.54177257765056,
+              40.111423427354154
+            ],
+            [
+              8.543200254254058,
+              40.094291308112176
+            ],
+            [
+              8.546055607461055,
+              40.086439086792936
+            ],
+            [
+              8.547483284064553,
+              40.07501767396495
+            ],
+            [
+              8.5496247989698,
+              40.05788555472297
+            ],
+            [
+              8.551766313875047,
+              40.03432889076525
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471920/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471920/batlas-map-label-location"
       }
     }
   ]
