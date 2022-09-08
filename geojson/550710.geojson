@@ -3,10 +3,10 @@
   "title": "Maionia/Mysia",
   "id": "550710",
   "bbox": [
-    28.0,
-    38.5,
-    28.5,
-    39.0
+    28.3647973097,
+    38.5946205799,
+    28.5089926467,
+    38.6088973459
   ],
   "description": "An ancient region in Lydia, located at the base of mount Tmolus (the modern Boz Dağ in Turkey) and in the vicinity of the Gygaie Limne (modern Marmara Gölü).",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          38.75
+          28.4368949782,
+          38.6017589629
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              38.5
+              28.36479730974431,
+              38.59462057990847
             ],
             [
-              28.0,
-              39.0
-            ],
-            [
-              28.5,
-              39.0
-            ],
-            [
-              28.5,
-              38.5
-            ],
-            [
-              28.0,
-              38.5
+              28.508992646697628,
+              38.608897345943454
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550710/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550710/batlas-map-label-location"
       }
     }
   ]

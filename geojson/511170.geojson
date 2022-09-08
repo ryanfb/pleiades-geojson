@@ -3,10 +3,10 @@
   "title": "Astike",
   "id": "511170",
   "bbox": [
-    28.0,
-    41.0,
-    28.5,
-    41.5
+    28.0874363212,
+    41.3152651231,
+    28.2617318398,
+    41.3991411236
   ],
   "description": "An ancient place, cited: BAtlas 52 C2 Astike",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          41.25
+          28.1760456672,
+          41.3598006295
         ]
       },
       "properties": {
@@ -61,6 +61,51 @@
         "location_precision": "rough",
         "title": "Undetermined location",
         "link": "http://pleiades.stoa.org/places/511170/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              28.087436321158577,
+              41.39914112359264
+            ],
+            [
+              28.12610256250332,
+              41.383674627054745
+            ],
+            [
+              28.158094415726794,
+              41.36804156824638
+            ],
+            [
+              28.194381196065706,
+              41.354954532714316
+            ],
+            [
+              28.22425532899382,
+              41.3366802721896
+            ],
+            [
+              28.261731839835647,
+              41.31585998838858
+            ],
+            [
+              28.261731839835647,
+              41.315265123137124
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511170/batlas-map-label-location"
       }
     }
   ]

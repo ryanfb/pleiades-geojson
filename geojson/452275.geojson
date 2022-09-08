@@ -3,10 +3,10 @@
   "title": "Bruttii",
   "id": "452275",
   "bbox": [
-    16.595392,
-    38.807463,
-    17.05108,
-    39.266064
+    16.3570993455,
+    38.6320171007,
+    16.4430738073,
+    39.2922982867
   ],
   "description": "An ancient Italic people of extreme southern Italy, the Bruttii inhabited an area that roughly corresponds to the modern Calabria.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8542396667,
-          39.0751336889
+          16.3839221834,
+          38.960045878
         ]
       },
       "properties": {
@@ -30,39 +30,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              39.0
+              16.357099345520794,
+              39.29229828670822
             ],
             [
-              16.0,
-              39.5
+              16.357099345520794,
+              39.21615553452165
             ],
             [
-              16.5,
-              39.5
+              16.36090648313001,
+              39.15904847038172
             ],
             [
-              16.5,
-              39.0
+              16.362810051934673,
+              39.05815932373463
             ],
             [
-              16.0,
-              39.0
+              16.377086817969655,
+              38.952511255075706
+            ],
+            [
+              16.389460015199973,
+              38.84971853962378
+            ],
+            [
+              16.44307380734665,
+              38.632017100652035
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452275/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/452275/batlas-map-label-location"
       }
     }
   ]

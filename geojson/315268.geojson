@@ -3,10 +3,10 @@
   "title": "Zeugitana",
   "id": "315268",
   "bbox": [
-    9.0,
-    37.0,
-    9.5,
-    37.5
+    9.29312396341,
+    36.6113820995,
+    10.4142798351,
+    37.0872372562
   ],
   "description": "Zeugitana is the name given to the northern portion of Africa Proconsularis.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.25,
-          37.25
+          9.86258253459,
+          36.8701757252
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              37.0
+              9.29312396340624,
+              37.08723725618056
             ],
             [
-              9.0,
-              37.5
+              9.434435953661403,
+              37.04151778603004
             ],
             [
-              9.5,
-              37.5
+              9.585333541148414,
+              36.99100814492939
             ],
             [
-              9.5,
-              37.0
+              9.721104049282234,
+              36.94068128954161
             ],
             [
-              9.0,
-              37.0
+              9.85905849499531,
+              36.88633906944282
+            ],
+            [
+              9.989070395682377,
+              36.83026675393332
+            ],
+            [
+              10.113491207143726,
+              36.76862182229698
+            ],
+            [
+              10.2499271464548,
+              36.699480961121125
+            ],
+            [
+              10.41427983514195,
+              36.611382099535824
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315268/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/315268/batlas-map-label-location"
       }
     }
   ]

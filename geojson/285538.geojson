@@ -3,10 +3,10 @@
   "title": "Tolotai?",
   "id": "285538",
   "bbox": [
-    -1.0,
-    34.0,
-    0.0,
-    35.0
+    -0.684003497508,
+    34.9086026622,
+    -0.210014865146,
+    35.0256721437
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Altava area.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          34.5
+          -0.448625022047,
+          34.9735202117
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              34.0
+              -0.684003497507604,
+              34.90860266217214
             ],
             [
-              -1.0,
-              35.0
+              -0.586921488469727,
+              34.94001154744916
             ],
             [
-              0.0,
-              35.0
+              -0.531955939235047,
+              34.956429828389275
             ],
             [
-              0.0,
-              34.0
+              -0.459858270758332,
+              34.975703462536615
             ],
             [
-              -1.0,
-              34.0
+              -0.393471308695666,
+              34.99069406687329
+            ],
+            [
+              -0.322087478520757,
+              35.002829318002966
+            ],
+            [
+              -0.272118797398321,
+              35.0135368925292
+            ],
+            [
+              -0.21001486514615,
+              35.02567214365905
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/285538/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/285538/batlas-map-label-location"
       }
     }
   ]

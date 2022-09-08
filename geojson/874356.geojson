@@ -3,10 +3,10 @@
   "title": "Arsesa/Elegosine",
   "id": "874356",
   "bbox": [
-    43.0,
-    39.0,
-    44.0,
-    40.0
+    43.1557697245,
+    39.0401272806,
+    43.6925761274,
+    39.1157941406
   ],
   "description": "An ancient place, cited: BAtlas 89 F1 Arsesa/Elegosine",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          39.5
+          43.426871985,
+          39.0922952932
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              39.0
+              43.69257612738335,
+              39.04012728056646
             ],
             [
-              43.0,
-              40.0
+              43.64403512286441,
+              39.07153616584342
             ],
             [
-              44.0,
-              40.0
+              43.591211088534976,
+              39.09295131489589
             ],
             [
-              44.0,
-              39.0
+              43.51697190515307,
+              39.11008343413787
             ],
             [
-              43.0,
-              39.0
+              43.44416039837466,
+              39.11579414055186
+            ],
+            [
+              43.37134889159626,
+              39.112938787344866
+            ],
+            [
+              43.299965061421354,
+              39.10294505112038
+            ],
+            [
+              43.23429193766044,
+              39.08010222546441
+            ],
+            [
+              43.15576972446804,
+              39.051548693394444
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874356/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874356/batlas-map-label-location"
       }
     }
   ]

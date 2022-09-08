@@ -3,10 +3,10 @@
   "title": "Ophlimos (mountain)",
   "id": "857259",
   "bbox": [
-    36.0,
-    40.0,
-    37.0,
-    41.0
+    36.2183923809,
+    40.6014879195,
+    36.4016108784,
+    40.6205236076
   ],
   "description": "Probably a mountain southwest of Erbaa.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.5,
-          40.5
+          36.3095982608,
+          40.6148496925
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              40.0
+              36.2183923809219,
+              40.60148791952611
             ],
             [
-              36.0,
-              41.0
+              36.24456645198603,
+              40.60743657204068
             ],
             [
-              37.0,
-              41.0
+              36.270740523050165,
+              40.612195494052344
             ],
             [
-              37.0,
-              40.0
+              36.29572486361138,
+              40.614574955058174
             ],
             [
-              36.0,
-              40.0
+              36.32546812618426,
+              40.61814414656692
+            ],
+            [
+              36.349262736242565,
+              40.62052360757275
+            ],
+            [
+              36.3754368073067,
+              40.62052360757275
+            ],
+            [
+              36.40161087837083,
+              40.62052360757275
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid B4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857259/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857259/batlas-map-label-location"
       }
     }
   ]

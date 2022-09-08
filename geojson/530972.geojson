@@ -3,10 +3,10 @@
   "title": "Lakmon (mountain)",
   "id": "530972",
   "bbox": [
-    21.0,
-    39.5,
-    21.5,
-    40.0
+    21.0756690811,
+    39.6603427075,
+    21.1905970476,
+    39.7092406312
   ],
   "description": "Lakmon.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.75
+          21.1319626644,
+          39.6874206884
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.5
+              21.0756690810623,
+              39.66034270750265
             ],
             [
-              21.0,
-              40.0
+              21.089232008795534,
+              39.6678380096709
             ],
             [
-              21.5,
-              40.0
+              21.095656553511333,
+              39.67247795863233
             ],
             [
-              21.5,
-              39.5
+              21.10707796633926,
+              39.67818866504638
             ],
             [
-              21.0,
-              39.5
+              21.11957013661987,
+              39.68389937146026
+            ],
+            [
+              21.130991549447856,
+              39.688896239572614
+            ],
+            [
+              21.149194426142515,
+              39.69532078428841
+            ],
+            [
+              21.160615838970443,
+              39.69996073324961
+            ],
+            [
+              21.17275109010029,
+              39.70352992475836
+            ],
+            [
+              21.19059704764402,
+              39.70924063117246
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530972/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530972/batlas-map-label-location"
       }
     }
   ]

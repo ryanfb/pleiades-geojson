@@ -3,10 +3,10 @@
   "title": "Itouraioi",
   "id": "678204",
   "bbox": [
-    35.5,
-    33.5,
-    36.0,
-    34.0
+    35.7026043789,
+    33.5364561531,
+    36.1299555756,
+    33.9209770516
   ],
   "description": "An ancient place, cited: BAtlas 69 C2 Itouraioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          33.75
+          35.9020739534,
+          33.7131156713
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              33.5
+              35.702604378905505,
+              33.92097705160086
             ],
             [
-              35.5,
-              34.0
+              35.74353110820567,
+              33.86291820305854
             ],
             [
-              36.0,
-              34.0
+              35.79778281913872,
+              33.80105221690695
             ],
             [
-              36.0,
-              33.5
+              35.84156490164588,
+              33.75727013439979
             ],
             [
-              35.5,
-              33.5
+              35.88915412176249,
+              33.7106326986854
+            ],
+            [
+              35.946261185902415,
+              33.66113990976413
+            ],
+            [
+              35.99765754362846,
+              33.62211674926863
+            ],
+            [
+              36.05571639217061,
+              33.581190019968346
+            ],
+            [
+              36.12995557555257,
+              33.53645615305874
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678204/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678204/batlas-map-label-location"
       }
     }
   ]

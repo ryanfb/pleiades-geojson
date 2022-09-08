@@ -3,10 +3,10 @@
   "title": "Niphates (mountain)",
   "id": "874622",
   "bbox": [
-    42.0,
-    38.0,
-    43.0,
-    39.0
+    42.4984932792,
+    38.1616884138,
+    43.5392695231,
+    38.2601980994
   ],
   "description": "A mountain range in Armenia, belonging to the eastern Taurus massif.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          38.5
+          43.016613313,
+          38.187519564
         ]
       },
       "properties": {
@@ -32,39 +32,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              38.0
+              43.539269523145535,
+              38.21736780130512
             ],
             [
-              42.0,
-              39.0
+              43.43933216090066,
+              38.193097299045654
             ],
             [
-              43.0,
-              39.0
+              43.33939479865579,
+              38.175965179803676
             ],
             [
-              43.0,
-              38.0
+              43.23802975980742,
+              38.16739912018269
             ],
             [
-              42.0,
-              38.0
+              43.08812371644011,
+              38.161688413768694
+            ],
+            [
+              43.00674615004071,
+              38.161688413768694
+            ],
+            [
+              42.92822393684831,
+              38.168826796786185
+            ],
+            [
+              42.84827404705241,
+              38.17453750320018
+            ],
+            [
+              42.76261345084253,
+              38.19024194583866
+            ],
+            [
+              42.66695911840815,
+              38.208801741684134
+            ],
+            [
+              42.59700296483674,
+              38.22593386092611
+            ],
+            [
+              42.498493279195365,
+              38.26019809941007
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874622/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874622/batlas-map-label-location"
       }
     }
   ]

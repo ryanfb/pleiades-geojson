@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Bates’ Is.",
+  "title": "Bates’ (island)",
   "id": "716535",
   "bbox": [
-    27.0,
-    31.0,
-    28.0,
-    32.0
+    27.281446173,
+    31.3918693605,
+    27.3891167835,
+    31.3948436867
   ],
-  "description": "An ancient place, cited: None",
+  "description": "An island located in the East Lagoon of Marsa Matruh.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          31.5
+          27.3352524106,
+          31.3941176352
         ]
       },
       "properties": {
@@ -25,39 +25,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              31.0
+              27.281446172955953,
+              31.391869360480314
             ],
             [
-              27.0,
-              32.0
+              27.296317804242392,
+              31.393653956234687
             ],
             [
-              28.0,
-              32.0
+              27.330225123575474,
+              31.3948436867376
             ],
             [
-              28.0,
-              31.0
+              27.34331215910754,
+              31.3948436867376
             ],
             [
-              27.0,
-              31.0
+              27.361752981902725,
+              31.3948436867376
+            ],
+            [
+              27.377219478440622,
+              31.393653956234687
+            ],
+            [
+              27.389116783469774,
+              31.39305909098323
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/716535/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/716535/batlas-map-label-location"
       }
     }
   ]

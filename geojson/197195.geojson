@@ -3,10 +3,10 @@
   "title": "Cervaria (island)",
   "id": "197195",
   "bbox": [
-    13.0,
-    45.0,
-    14.0,
-    46.0
+    13.4995342638,
+    45.1651027655,
+    13.6030408176,
+    45.1672442804
   ],
   "description": "An ancient place, cited: BAtlas 20 A4 Cervaria Ins.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.5,
-          45.5
+          13.5512690459,
+          45.1664117807
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              45.0
+              13.499534263823591,
+              45.16510276553305
             ],
             [
-              13.0,
-              46.0
+              13.526660119290113,
+              45.16510276553305
             ],
             [
-              14.0,
-              46.0
+              13.536653855514487,
+              45.16653044213649
             ],
             [
-              14.0,
-              45.0
+              13.548075268342586,
+              45.16653044213649
             ],
             [
-              13.0,
-              45.0
+              13.56377971098101,
+              45.167244280438354
+            ],
+            [
+              13.573773447205554,
+              45.167244280438354
+            ],
+            [
+              13.580197991921295,
+              45.167244280438354
+            ],
+            [
+              13.60304081757721,
+              45.167244280438354
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197195/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197195/batlas-map-label-location"
       }
     }
   ]

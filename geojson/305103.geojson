@@ -3,10 +3,10 @@
   "title": "Machoures",
   "id": "305103",
   "bbox": [
-    5.5,
-    36.5,
-    6.0,
-    37.0
+    5.54491654986,
+    36.6359388054,
+    5.77126886939,
+    36.6925352713
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Babors.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          36.75
+          5.6591794242,
+          36.6597665227
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              36.5
+              5.544916549856171,
+              36.635938805363736
             ],
             [
-              5.5,
-              37.0
+              5.588872053300321,
+              36.64096259740477
             ],
             [
-              6.0,
-              37.0
+              5.612771445306246,
+              36.64740470624336
             ],
             [
-              6.0,
-              36.5
+              5.637212411119653,
+              36.65332435865729
             ],
             [
-              5.5,
-              36.5
+              5.665092563325503,
+              36.65803385737941
+            ],
+            [
+              5.691037723813861,
+              36.66671050744574
+            ],
+            [
+              5.71420435563535,
+              36.671748713907185
+            ],
+            [
+              5.737261329447291,
+              36.681103949222
+            ],
+            [
+              5.771268869393909,
+              36.69253527133653
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305103/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305103/batlas-map-label-location"
       }
     }
   ]

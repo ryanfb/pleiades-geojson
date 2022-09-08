@@ -3,10 +3,10 @@
   "title": "Nemeturii?",
   "id": "167852",
   "bbox": [
-    6.5,
-    44.0,
-    7.0,
-    44.5
+    6.7010097512,
+    44.156321826,
+    6.77553548767,
+    44.2876765522
   ],
   "description": "A people of the Ligurian Alps.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          44.25
+          6.73358974751,
+          44.2245862741
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              44.0
+              6.701009751203742,
+              44.156321826035764
             ],
             [
-              6.5,
-              44.5
+              6.70898574975547,
+              44.181246821510456
             ],
             [
-              7.0,
-              44.5
+              6.718207998081198,
+              44.19944206820679
             ],
             [
-              7.0,
-              44.0
+              6.724189996994994,
+              44.213649315627435
             ],
             [
-              6.5,
-              44.0
+              6.73166749563751,
+              44.2273580631383
+            ],
+            [
+              6.740141994098906,
+              44.24131606060422
+            ],
+            [
+              6.749114992469686,
+              44.2540278082962
+            ],
+            [
+              6.757589490931082,
+              44.26524405625969
+            ],
+            [
+              6.764069989754319,
+              44.27322005481159
+            ],
+            [
+              6.775535487672698,
+              44.28767655218678
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167852/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167852/batlas-map-label-location"
       }
     }
   ]

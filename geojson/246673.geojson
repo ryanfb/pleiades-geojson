@@ -3,10 +3,10 @@
   "title": "Surdaones",
   "id": "246673",
   "bbox": [
-    -1.0,
-    41.0,
-    0.0,
-    42.0
+    -0.0394111969462,
+    41.7626744878,
+    0.343682024993,
+    41.9149599922
   ],
   "description": "The Surdaones were a people of Gallia Narbonensis.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          41.5
+          0.153604606276,
+          41.8425118093
         ]
       },
       "properties": {
@@ -29,39 +29,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              41.0
+              -0.039411196946167,
+              41.914959992210335
             ],
             [
-              -1.0,
-              42.0
+              0.155704605531916,
+              41.845955623041256
             ],
             [
-              0.0,
-              42.0
-            ],
-            [
-              0.0,
-              41.0
-            ],
-            [
-              -1.0,
-              41.0
+              0.343682024992508,
+              41.762674487837195
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246673/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246673/batlas-map-label-location"
       }
     }
   ]

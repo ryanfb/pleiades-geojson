@@ -3,10 +3,10 @@
   "title": "Phyllitai",
   "id": "59998",
   "bbox": [
-    70.0,
-    25.0,
-    75.0,
-    30.0
+    73.5049895436,
+    25.0974070912,
+    74.2687965264,
+    25.8969059891
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Bhils.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          27.5
+          73.8929293791,
+          25.4945805694
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              25.0
+              73.5049895435672,
+              25.097407091169714
             ],
             [
-              70.0,
-              30.0
+              73.67631073598699,
+              25.254451517554514
             ],
             [
-              75.0,
-              30.0
+              73.77624809823186,
+              25.36866564583437
             ],
             [
-              75.0,
-              25.0
+              73.84763192840677,
+              25.44004947600928
             ],
             [
-              70.0,
-              25.0
+              73.9047389925467,
+              25.51857168920168
+            ],
+            [
+              74.01895312082655,
+              25.61850905144655
+            ],
+            [
+              74.0617834189315,
+              25.704169647656443
+            ],
+            [
+              74.17599754721135,
+              25.77555347783135
+            ],
+            [
+              74.26879652643873,
+              25.896905989128697
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59998/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59998/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Hylaia",
   "id": "226628",
   "bbox": [
-    32.0,
-    46.0,
-    33.0,
-    47.0
+    32.0839865237,
+    46.6353748494,
+    32.394506185,
+    46.677015417
   ],
   "description": "An ancient place, cited: BAtlas 23 F2 Hylaia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          46.5
+          32.2387260056,
+          46.6518260846
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              46.0
+              32.083986523718636,
+              46.67701541702627
             ],
             [
-              32.0,
-              47.0
+              32.16607792841978,
+              46.66273865099129
             ],
             [
-              33.0,
-              47.0
+              32.21247741803347,
+              46.653220806967965
             ],
             [
-              33.0,
-              46.0
+              32.27196394317923,
+              46.643702962944644
             ],
             [
-              32.0,
-              46.0
+              32.32193262430167,
+              46.638944040932984
+            ],
+            [
+              32.39450618497949,
+              46.63537484942424
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226628/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226628/batlas-map-label-location"
       }
     }
   ]

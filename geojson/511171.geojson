@@ -3,10 +3,10 @@
   "title": "Asticus (mountain)",
   "id": "511171",
   "bbox": [
-    27.5,
-    41.5,
-    28.0,
-    42.0
+    27.7630949658,
+    41.4719407331,
+    28.1599890616,
+    41.7560483772
   ],
   "description": "Istranca Daği.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          41.75
+          27.9587772244,
+          41.6101700969
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              41.5
+              27.76309496578017,
+              41.75604837716219
             ],
             [
-              27.5,
-              42.0
+              27.799500719169316,
+              41.72606716848861
             ],
             [
-              28.0,
-              42.0
+              27.830195766144584,
+              41.70465201943614
             ],
             [
-              28.0,
-              41.5
+              27.86017697481799,
+              41.67895384057317
             ],
             [
-              27.5,
-              41.5
+              27.895868889905444,
+              41.65182798510682
+            ],
+            [
+              27.933702319898202,
+              41.62612980624374
+            ],
+            [
+              27.962969690269915,
+              41.60542849549313
+            ],
+            [
+              28.03578119704821,
+              41.552604461163696
+            ],
+            [
+              28.078611495153154,
+              41.52333709079198
+            ],
+            [
+              28.120727954956408,
+              41.498352750230765
+            ],
+            [
+              28.159989061552608,
+              41.471940733065935
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511171/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511171/batlas-map-label-location"
       }
     }
   ]

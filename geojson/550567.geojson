@@ -3,10 +3,10 @@
   "title": "Hekatonnesoi (islands)",
   "id": "550567",
   "bbox": [
-    26.55,
-    39.336684,
-    26.654808,
-    39.43
+    26.4743146371,
+    39.3503882674,
+    26.5738950802,
+    39.3560989738
   ],
   "description": "An ancient place, cited: BAtlas 56 D3 Hekatonnesoi Inss.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.602404,
-          39.383342
+          26.5240911806,
+          39.3532442023
         ]
       },
       "properties": {
@@ -31,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              39.0
+              26.474314637071927,
+              39.3560989737889
             ],
             [
-              26.5,
-              39.5
+              26.490375998861282,
+              39.35431437803453
             ],
             [
-              27.0,
-              39.5
+              26.499655896783906,
+              39.35431437803453
             ],
             [
-              27.0,
-              39.0
+              26.507865037254078,
+              39.35360053973278
             ],
             [
-              26.5,
-              39.0
+              26.51428958196982,
+              39.35395745888354
+            ],
+            [
+              26.52107104583638,
+              39.35395745888354
+            ],
+            [
+              26.531064782060923,
+              39.35324362058185
+            ],
+            [
+              26.537846245927426,
+              39.35288670143109
+            ],
+            [
+              26.548553820453662,
+              39.35181594397841
+            ],
+            [
+              26.555335284320392,
+              39.35181594397841
+            ],
+            [
+              26.56140290988526,
+              39.35145902482748
+            ],
+            [
+              26.57389508016587,
+              39.3503882673748
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550567/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550567/batlas-map-label-location"
       }
     }
   ]

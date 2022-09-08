@@ -3,10 +3,10 @@
   "title": "Pictones",
   "id": "138515",
   "bbox": [
-    -2.0,
-    46.0,
-    -1.0,
-    47.0
+    -1.55449378325,
+    46.3982024771,
+    0.0855497150196,
+    46.8033057134
   ],
   "description": "The Pictones were a Celtic tribe that inhabited an area along the south bank of the Loire river near the Bay of Biscay.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5,
-          46.5
+          -0.731529235834,
+          46.6125221246
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -2.0,
-              46.0
+              -1.554493783248859,
+              46.8033057133635
             ],
             [
-              -2.0,
-              47.0
+              -1.279666037075458,
+              46.74262945771483
             ],
             [
-              -1.0,
-              47.0
+              -1.074437525322594,
+              46.69979915960988
             ],
             [
-              -1.0,
-              46.0
+              -0.854932247534805,
+              46.649830478487445
             ],
             [
-              -2.0,
-              46.0
+              -0.635426969746959,
+              46.59629260585626
+            ],
+            [
+              -0.410567904695995,
+              46.539185541716336
+            ],
+            [
+              -0.187493435399404,
+              46.47672469031329
+            ],
+            [
+              0.085549715019624,
+              46.39820247712089
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138515/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138515/batlas-map-label-location"
       }
     }
   ]

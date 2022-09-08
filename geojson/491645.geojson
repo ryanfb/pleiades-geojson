@@ -3,10 +3,10 @@
   "title": "Krousis",
   "id": "491645",
   "bbox": [
-    22.5,
-    40.0,
-    23.0,
-    40.5
+    22.9416245559,
+    40.2707954114,
+    23.2503596214,
+    40.4254603768
   ],
   "description": "An ancient place, cited: BAtlas 50 C4 Krousis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          40.25
+          23.0924249283,
+          40.3409355026
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              40.0
+              22.941624555876842,
+              40.4254603768116
             ],
             [
-              22.5,
-              40.5
+              23.00349054202843,
+              40.38679413546686
             ],
             [
-              23.0,
-              40.5
+              23.041561918121715,
+              40.36180979490564
             ],
             [
-              23.0,
-              40.0
+              23.090935733992694,
+              40.33623058909296
             ],
             [
-              22.5,
-              40.0
+              23.134955762600555,
+              40.31660003579486
+            ],
+            [
+              23.18313984796862,
+              40.29459002149093
+            ],
+            [
+              23.250359621383325,
+              40.27079541143263
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491645/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491645/batlas-map-label-location"
       }
     }
   ]

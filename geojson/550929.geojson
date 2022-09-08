@@ -3,10 +3,10 @@
   "title": "Thymbras Pedion",
   "id": "550929",
   "bbox": [
-    26.0,
-    39.5,
-    26.5,
-    40.0
+    26.2702529648,
+    39.8947223816,
+    26.3164145083,
+    39.9047161178
   ],
   "description": "A plain located south of Troy.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.25,
-          39.75
+          26.2933337365,
+          39.8997192497
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.0,
-              39.5
+              26.27025296475214,
+              39.90471611780354
             ],
             [
-              26.0,
-              40.0
-            ],
-            [
-              26.5,
-              40.0
-            ],
-            [
-              26.5,
-              39.5
-            ],
-            [
-              26.0,
-              39.5
+              26.316414508265247,
+              39.89472238157905
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550929/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550929/batlas-map-label-location"
       }
     }
   ]

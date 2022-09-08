@@ -3,10 +3,10 @@
   "title": "Sakarauloi",
   "id": "60025",
   "bbox": [
-    70.0,
-    40.0,
-    75.0,
-    45.0
+    70.779448668,
+    40.4603039836,
+    73.7704311523,
+    40.5459645798
   ],
   "description": "An ancient place, cited: BAtlas 6 C1 Sakarauloi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          42.5
+          72.2755729069,
+          40.4990998124
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              40.0
+              70.77944866795855,
+              40.46030398363348
             ],
             [
-              70.0,
-              45.0
+              71.2148900320255,
+              40.46030398363348
             ],
             [
-              75.0,
-              45.0
+              71.5218405017776,
+              40.48171913268595
             ],
             [
-              75.0,
-              40.0
+              71.82165258851222,
+              40.48171913268595
             ],
             [
-              70.0,
-              40.0
+              72.11432629222935,
+              40.495995898720935
+            ],
+            [
+              72.41413837896397,
+              40.495995898720935
+            ],
+            [
+              72.74964238078604,
+              40.5245494307909
+            ],
+            [
+              73.03517770148568,
+              40.51027266475592
+            ],
+            [
+              73.37068170330775,
+              40.54596457984337
+            ],
+            [
+              73.77043115228724,
+              40.53168781380839
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60025/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60025/batlas-map-label-location"
       }
     }
   ]

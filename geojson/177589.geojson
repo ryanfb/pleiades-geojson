@@ -3,10 +3,10 @@
   "title": "Nantuates",
   "id": "177589",
   "bbox": [
-    6.989159,
-    46.242249,
-    6.989159,
-    46.242249
+    6.83598937589,
+    46.2018572865,
+    7.06322790195,
+    46.2036418822
   ],
   "description": "The Nantuates were a Celtic people dwelling in the upper Rhône valley. They formed part of the confederation known as \"quattuor civitates Poeninae\".",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.989159,
-          46.242249
+          6.949602449,
+          46.2027036215
         ]
       },
       "properties": {
@@ -32,39 +32,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              46.0
+              6.835989375888289,
+              46.20245215170797
             ],
             [
-              6.0,
-              47.0
+              6.885958057010725,
+              46.201857286456516
             ],
             [
-              7.0,
-              47.0
+              6.910347532320486,
+              46.20304701695943
             ],
             [
-              7.0,
-              46.0
+              6.932357546624416,
+              46.20245215170797
             ],
             [
-              6.0,
-              46.0
+              6.961505943945838,
+              46.20245215170797
+            ],
+            [
+              6.982921092998311,
+              46.20304701695943
+            ],
+            [
+              7.000767050542038,
+              46.20304701695943
+            ],
+            [
+              7.025156525851799,
+              46.20304701695943
+            ],
+            [
+              7.063227901945083,
+              46.20364188221089
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/177589/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/177589/batlas-map-label-location"
       }
     }
   ]

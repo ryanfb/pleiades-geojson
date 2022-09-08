@@ -3,10 +3,10 @@
   "title": "Cileni",
   "id": "236429",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.79406894112,
+    42.4600595778,
+    -8.69387485673,
+    42.5295372275
   ],
   "description": "An ancient place, cited: BAtlas 24 C2 Cileni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.74428771974,
+          42.4952488688
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.794068941116791,
+              42.46005957777186
             ],
             [
-              -9.0,
-              43.0
+              -8.76627788121499,
+              42.48053720085744
             ],
             [
-              -8.0,
-              43.0
+              -8.753845038627333,
+              42.48711929399212
             ],
             [
-              -8.0,
-              42.0
+              -8.736292790268351,
+              42.50101482394297
             ],
             [
-              -9.0,
-              42.0
+              -8.716546510864475,
+              42.51564169757546
+            ],
+            [
+              -8.693874856734055,
+              42.529537227526475
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236429/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236429/batlas-map-label-location"
       }
     }
   ]
