@@ -3,10 +3,10 @@
   "title": "Symbolon (mountain)",
   "id": "501631",
   "bbox": [
-    24.0,
-    40.5,
-    24.5,
-    41.0
+    24.1305511194,
+    40.807657295,
+    24.252617469,
+    40.8679766315
   ],
   "description": "Mt. Symvolon.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          40.75
+          24.191539237,
+          40.837875217
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              40.5
+              24.13055111936052,
+              40.80765729496568
             ],
             [
-              24.0,
-              41.0
+              24.141972532188447,
+              40.81336800137973
             ],
             [
-              24.5,
-              41.0
+              24.152323187563752,
+              40.819435626944596
             ],
             [
-              24.5,
-              40.5
+              24.161603085486547,
+              40.82336173760427
             ],
             [
-              24.0,
-              40.5
+              24.17088298340923,
+              40.82835860571646
+            ],
+            [
+              24.17587985152153,
+              40.829786282319844
+            ],
+            [
+              24.18373207284077,
+              40.8347831504322
+            ],
+            [
+              24.192655051612633,
+              40.83942309939363
+            ],
+            [
+              24.211571766608984,
+              40.84763223986357
+            ],
+            [
+              24.224063936889593,
+              40.85262910797593
+            ],
+            [
+              24.23584226886851,
+              40.858696733540796
+            ],
+            [
+              24.252617468959556,
+              40.86797663146359
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501631/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501631/batlas-map-label-location"
       }
     }
   ]

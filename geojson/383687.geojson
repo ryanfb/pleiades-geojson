@@ -3,10 +3,10 @@
   "title": "Langenses",
   "id": "383687",
   "bbox": [
-    8.5,
-    44.0,
-    9.0,
-    44.5
+    8.79620174987,
+    44.4754351854,
+    9.01154297089,
+    44.4974451997
   ],
   "description": "An ancient place, cited: BAtlas 39 D5 Langenses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          44.25
+          8.90434087413,
+          44.4907506216
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              44.0
+              8.796201749865588,
+              44.4962554691848
             ],
             [
-              8.5,
-              44.5
+              8.829514203947213,
+              44.4962554691848
             ],
             [
-              9.0,
-              44.5
+              8.855688275011346,
+              44.49744519968772
             ],
             [
-              9.0,
-              44.0
+              8.879482885069649,
+              44.495660603933345
             ],
             [
-              8.5,
-              44.0
+              8.90387236037941,
+              44.49268627767606
+            ],
+            [
+              8.930641296695,
+              44.49030681667023
+            ],
+            [
+              8.952651310998931,
+              44.4879273556644
+            ],
+            [
+              8.971686999045573,
+              44.483763298904194
+            ],
+            [
+              9.011542970893231,
+              44.47543518538379
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383687/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383687/batlas-map-label-location"
       }
     }
   ]

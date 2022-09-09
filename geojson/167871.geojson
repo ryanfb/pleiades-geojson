@@ -3,10 +3,10 @@
   "title": "Poeninus (mountain)",
   "id": "167871",
   "bbox": [
-    6.5,
-    45.5,
-    7.0,
-    46.0
+    6.77591492559,
+    45.7943388973,
+    7.05383597107,
+    45.9951654062
   ],
   "description": "Great St. Bernard.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          45.75
+          6.92105777488,
+          45.8859219201
         ]
       },
       "properties": {
@@ -31,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              45.5
+              6.775914925585596,
+              45.79433889729302
             ],
             [
-              6.5,
-              46.0
+              6.823504145702202,
+              45.81718172294893
             ],
             [
-              7.0,
-              46.0
+              6.853009462174612,
+              45.83336205778858
             ],
             [
-              7.0,
-              45.5
+              6.876804072232915,
+              45.845735255018894
             ],
             [
-              6.5,
-              45.5
+              6.893936191474893,
+              45.85715666784688
+            ],
+            [
+              6.910116526314539,
+              45.87143343388186
+            ],
+            [
+              6.931055783165789,
+              45.88951733752623
+            ],
+            [
+              6.952946824419485,
+              45.905697672365875
+            ],
+            [
+              6.982452140891837,
+              45.92949228242418
+            ],
+            [
+              7.008150319754748,
+              45.95043153927543
+            ],
+            [
+              7.02718600780139,
+              45.96756365851746
+            ],
+            [
+              7.053835971066746,
+              45.99516540618504
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167871/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167871/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "[Sophon] (mountain)",
   "id": "511422",
   "bbox": [
-    30.0,
-    40.5,
-    30.5,
-    41.0
+    30.1003292819,
+    40.6036006678,
+    30.2516630019,
+    40.6407202594
   ],
   "description": "Sapanca Dağı.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          40.75
+          30.1760799782,
+          40.6225979037
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              40.5
+              30.10032928189969,
+              40.64072025944921
             ],
             [
-              30.0,
-              41.0
+              30.12103059265047,
+              40.637151067940465
             ],
             [
-              30.5,
-              41.0
+              30.148156448116822,
+              40.630012684922974
             ],
             [
-              30.5,
-              40.5
+              30.172426950376348,
+              40.62287430190548
             ],
             [
-              30.0,
-              40.5
+              30.190272907920075,
+              40.61930511039674
+            ],
+            [
+              30.227392499610914,
+              40.609311374172194
+            ],
+            [
+              30.25166300187044,
+              40.603600667758315
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511422/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511422/batlas-map-label-location"
       }
     }
   ]

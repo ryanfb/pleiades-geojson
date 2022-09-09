@@ -3,10 +3,10 @@
   "title": "Diokleion (mountain)",
   "id": "668239",
   "bbox": [
-    36.0,
-    35.0,
-    36.5,
-    35.5
+    36.4129331982,
+    35.4627529738,
+    36.4900277348,
+    35.5712563956
   ],
   "description": "Jebel Zawiye.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          35.25
+          36.4514804665,
+          35.5170046847
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              35.0
+              36.41293319819005,
+              35.46275297375543
             ],
             [
-              36.0,
-              35.5
-            ],
-            [
-              36.5,
-              35.5
-            ],
-            [
-              36.5,
-              35.0
-            ],
-            [
-              36.0,
-              35.0
+              36.490027734778955,
+              35.57125639562129
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668239/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668239/batlas-map-label-location"
       }
     }
   ]

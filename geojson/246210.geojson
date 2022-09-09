@@ -3,10 +3,10 @@
   "title": "Auscii",
   "id": "246210",
   "bbox": [
-    0.585694,
-    43.647434,
-    0.585694,
-    43.647434
+    0.319138650783,
+    43.6254137419,
+    0.720315776366,
+    43.6910868656
   ],
   "description": "The Auscii were an ancient tribe of Aquitania and submitted to Caesar's legate in 56 BC.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.585694,
-          43.647434
+          0.519026802283,
+          43.6624918079
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              43.0
+              0.319138650782918,
+              43.62541374185457
             ],
             [
-              0.0,
-              44.0
+              0.420503689631232,
+              43.646828890907045
             ],
             [
-              1.0,
-              44.0
+              0.497598226220191,
+              43.66253333354547
             ],
             [
-              1.0,
-              43.0
+              0.567554379791488,
+              43.672527069769956
             ],
             [
-              0.0,
-              43.0
+              0.636082856759572,
+              43.68109312939089
+            ],
+            [
+              0.720315776365851,
+              43.69108686561543
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246210/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246210/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Cambolectri",
   "id": "246282",
   "bbox": [
-    1.0,
-    43.0,
-    2.0,
-    44.0
+    1.05358308484,
+    43.8110117003,
+    1.59181716436,
+    43.9109490626
   ],
   "description": "An ancient place, cited: BAtlas 25 G2 Cambolectri",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          43.5
+          1.31865519858,
+          43.840792221
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              43.0
+              1.053583084842558,
+              43.91094906255421
             ],
             [
-              1.0,
-              44.0
+              1.152092770483989,
+              43.86811876444909
             ],
             [
-              2.0,
-              44.0
+              1.224024131211195,
+              43.850347487093075
             ],
             [
-              2.0,
-              43.0
+              1.273445281781164,
+              43.83813755577569
             ],
             [
-              1.0,
-              43.0
+              1.343660033378853,
+              43.82666765581786
+            ],
+            [
+              1.411929912320545,
+              43.815294730119774
+            ],
+            [
+              1.469036976460472,
+              43.815294730119774
+            ],
+            [
+              1.520433334186293,
+              43.81101170030934
+            ],
+            [
+              1.591817164361203,
+              43.816722406723215
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246282/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246282/batlas-map-label-location"
       }
     }
   ]

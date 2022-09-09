@@ -3,10 +3,10 @@
   "title": "Sebaginni?",
   "id": "167915",
   "bbox": [
-    5.5,
-    44.0,
-    6.0,
-    44.5
+    5.87390916127,
+    44.2170081117,
+    6.04290063059,
+    44.2922815981
   ],
   "description": "An ancient place, cited: BAtlas 17 F5 Sebaginni?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          44.25
+          5.96057314711,
+          44.2498238407
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              44.0
+              5.873909161271854,
+              44.217008111745486
             ],
             [
-              5.5,
-              44.5
+              5.905813155479393,
+              44.22598111011632
             ],
             [
-              6.0,
-              44.5
+              5.923260652311569,
+              44.23246160893973
             ],
             [
-              6.0,
-              44.0
+              5.940708149143745,
+              44.237945107944086
             ],
             [
-              5.5,
-              44.0
+              5.958654145885589,
+              44.24641960640548
+            ],
+            [
+              5.973609143170222,
+              44.25240160531928
+            ],
+            [
+              5.987567140635974,
+              44.25888210414274
+            ],
+            [
+              6.006510137196642,
+              44.27084610197056
+            ],
+            [
+              6.021465134481446,
+              44.27832360061285
+            ],
+            [
+              6.042900630589543,
+              44.2922815980786
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167915/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167915/batlas-map-label-location"
       }
     }
   ]

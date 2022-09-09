@@ -3,10 +3,10 @@
   "title": "Arevaci",
   "id": "246188",
   "bbox": [
-    -3.0947549,
-    41.5750018,
-    -3.0947549,
-    41.5750018
+    -3.22550948375,
+    41.7769512539,
+    -2.7567556656,
+    41.9078216092
   ],
   "description": "The Arevaci were a pre-Roman Celtic tribe of northern Hispania who dominated most of Celtiberia from the fourth to late second centuries BC.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0947549,
-          41.5750018
+          -2.98996984213,
+          41.8465308492
         ]
       },
       "properties": {
@@ -33,39 +33,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              41.0
+              -3.22550948375291,
+              41.907821609192844
             ],
             [
-              -4.0,
-              42.0
+              -2.980425000152392,
+              41.848335084047086
             ],
             [
-              -3.0,
-              42.0
-            ],
-            [
-              -3.0,
-              41.0
-            ],
-            [
-              -4.0,
-              41.0
+              -2.756755665604345,
+              41.77695125387218
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246188/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246188/batlas-map-label-location"
       }
     }
   ]

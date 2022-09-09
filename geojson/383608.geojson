@@ -3,10 +3,10 @@
   "title": "Camunni",
   "id": "383608",
   "bbox": [
-    10.0,
-    45.5,
-    10.5,
-    46.0
+    10.1289834656,
+    45.867895766,
+    10.2759151827,
+    45.974376646
   ],
   "description": "An ancient tribe located in Val Camonica during the Iron Age.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.25,
-          45.75
+          10.2011472031,
+          45.9229879984
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              45.5
+              10.128983465567046,
+              45.86789576599574
             ],
             [
-              10.0,
-              46.0
+              10.15991645864284,
+              45.891690376054044
             ],
             [
-              10.5,
-              46.0
+              10.17954701194094,
+              45.908346603094856
             ],
             [
-              10.5,
-              45.5
+              10.202746756747786,
+              45.925597695387125
             ],
             [
-              10.0,
-              45.5
+              10.224756771051716,
+              45.94225392242794
+            ],
+            [
+              10.247361650607104,
+              45.95712555371438
+            ],
+            [
+              10.275915182677068,
+              45.97437664600665
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383608/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383608/batlas-map-label-location"
       }
     }
   ]

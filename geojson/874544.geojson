@@ -3,10 +3,10 @@
   "title": "Kaukab M.",
   "id": "874544",
   "bbox": [
-    40.0,
-    36.0,
-    41.0,
-    37.0
+    40.7680417886,
+    36.5454567061,
+    40.953639747,
+    36.547598221
   ],
   "description": "An ancient place, cited: BAtlas 89 C4 Kaukab M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          36.5
+          40.8608333888,
+          36.5466289477
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              36.0
+              40.768041788561675,
+              36.54617054440547
             ],
             [
-              40.0,
-              37.0
+              40.79659532063164,
+              36.54545670610361
             ],
             [
-              41.0,
-              37.0
+              40.807302895157875,
+              36.54617054440547
             ],
             [
-              41.0,
-              36.0
+              40.83014572081379,
+              36.54617054440547
             ],
             [
-              40.0,
-              36.0
+              40.84442248684877,
+              36.54617054440547
+            ],
+            [
+              40.86155460609075,
+              36.54688438270722
+            ],
+            [
+              40.88868046155733,
+              36.54688438270722
+            ],
+            [
+              40.90724025740275,
+              36.54688438270722
+            ],
+            [
+              40.923658538343034,
+              36.54759822100891
+            ],
+            [
+              40.95363974701644,
+              36.54759822100891
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874544/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874544/batlas-map-label-location"
       }
     }
   ]

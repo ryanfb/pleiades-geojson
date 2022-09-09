@@ -3,10 +3,10 @@
   "title": "Regio Auffeeiana",
   "id": "442742",
   "bbox": [
-    14.5,
-    40.5,
-    15.0,
-    41.0
+    14.9362405577,
+    40.7036150459,
+    15.052834147,
+    40.7390690149
   ],
   "description": "An ancient place, cited: BAtlas 45 A3 Regio Auffeeiana",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.75,
-          40.75
+          14.9946620391,
+          40.7209096583
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              40.5
+              14.936240557730684,
+              40.70361504586907
             ],
             [
-              14.5,
-              41.0
+              14.952420892570274,
+              40.7086119139812
             ],
             [
-              15.0,
-              41.0
+              14.967649443007645,
+              40.71218110548995
             ],
             [
-              15.0,
-              40.5
+              14.980974424640237,
+              40.71575029699869
             ],
             [
-              14.5,
-              40.5
+              14.993109675770086,
+              40.72074716511105
+            ],
+            [
+              15.011431525514865,
+              40.72550608712271
+            ],
+            [
+              15.02309088444349,
+              40.729789116933205
+            ],
+            [
+              15.033798458969727,
+              40.73288241624073
+            ],
+            [
+              15.04403014129474,
+              40.73645160774947
+            ],
+            [
+              15.05283414701637,
+              40.739069014856
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442742/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442742/batlas-map-label-location"
       }
     }
   ]

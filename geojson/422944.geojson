@@ -3,10 +3,10 @@
   "title": "Hernici",
   "id": "422944",
   "bbox": [
-    13.0195732,
-    41.5142635,
-    13.547222,
-    41.995
+    13.0400791347,
+    41.712181726,
+    13.3131222851,
+    41.7810671221
   ],
   "description": "The Hernici (Hernicans) were an Italic tribe of first millennium B.C. Latium. Their territory was bounded by the Trerus fl. (Sacco) and the Lacus Fucinus (Fucine Lake).",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3399182253,
-          41.7267957034
+          13.1750969881,
+          41.7407771369
         ]
       },
       "properties": {
@@ -33,39 +33,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              41.75
+              13.040079134691496,
+              41.781067122127354
             ],
             [
-              13.0,
-              42.0
+              13.084337109399883,
+              41.76429192203625
             ],
             [
-              13.25,
-              42.0
+              13.126396439222333,
+              41.75093796689333
             ],
             [
-              13.25,
-              41.75
+              13.172099200320247,
+              41.73751122278088
             ],
             [
-              13.0,
-              41.75
+              13.2117053318417,
+              41.72864688164475
+            ],
+            [
+              13.261012089082783,
+              41.72039086647868
+            ],
+            [
+              13.313122285110524,
+              41.71218172600851
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/422944/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/422944/batlas-map-label-location"
       }
     }
   ]

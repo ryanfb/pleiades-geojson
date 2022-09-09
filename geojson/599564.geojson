@@ -3,10 +3,10 @@
   "title": "Caria (region)",
   "id": "599564",
   "bbox": [
-    27.420201,
-    37.042901,
-    27.420201,
-    37.042901
+    27.5879698831,
+    37.1505825237,
+    28.4881199816,
+    37.7016656926
   ],
   "description": "A historical region of western Anatolia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.420201,
-          37.042901
+          28.0448837378,
+          37.4370786122
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              37.5
+              27.5879698830696,
+              37.70166569260834
             ],
             [
-              27.5,
-              38.0
+              27.802835211896074,
+              37.574602474897
             ],
             [
-              28.0,
-              38.0
+              27.925615399796918,
+              37.513926219248326
             ],
             [
-              28.0,
-              37.5
+              28.049823264301256,
+              37.451108448694406
             ],
             [
-              27.5,
-              37.5
+              28.161182039374115,
+              37.381152295122995
+            ],
+            [
+              28.271113137843475,
+              37.30405775853409
+            ],
+            [
+              28.488119981575196,
+              37.150582523658045
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599564/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599564/batlas-map-label-location"
       }
     }
   ]

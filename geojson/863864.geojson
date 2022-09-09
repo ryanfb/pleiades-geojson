@@ -3,10 +3,10 @@
   "title": "Parihedri (mountain)",
   "id": "863864",
   "bbox": [
-    44.0,
-    40.0,
-    45.0,
-    41.0
+    44.4918060878,
+    40.2752786332,
+    46.2573661542,
+    40.8606260406
   ],
   "description": "The Pontic Mountains.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          40.5
+          45.3799827192,
+          40.583393371
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              44.0,
-              40.0
+              46.257366154166846,
+              40.27527863315578
             ],
             [
-              44.0,
-              41.0
+              46.13125472085784,
+              40.327626775284045
             ],
             [
-              45.0,
-              41.0
+              46.03131735861297,
+              40.37283653439482
             ],
             [
-              45.0,
-              40.0
+              45.933759457373924,
+              40.406148988476446
             ],
             [
-              44.0,
-              40.0
+              45.81716586808824,
+              40.44422036456973
+            ],
+            [
+              45.69581335679089,
+              40.482291740663015
+            ],
+            [
+              45.34365312792801,
+              40.60602371296619
+            ],
+            [
+              45.250854148700626,
+              40.636956706041985
+            ],
+            [
+              45.13664002042077,
+              40.66788969911778
+            ],
+            [
+              45.03194373616424,
+              40.701202153199404
+            ],
+            [
+              44.929626912913534,
+              40.72975568526937
+            ],
+            [
+              44.82017170664534,
+              40.76306813935099
+            ],
+            [
+              44.72737272741796,
+              40.789242210415125
+            ],
+            [
+              44.622676443161424,
+              40.81779574248509
+            ],
+            [
+              44.49180608784076,
+              40.860626040590034
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863864/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863864/batlas-map-label-location"
       }
     }
   ]

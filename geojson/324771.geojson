@@ -3,10 +3,10 @@
   "title": "Machounoi",
   "id": "324771",
   "bbox": [
-    10.68762,
-    34.758702,
-    10.68762,
-    34.758702
+    10.6597107382,
+    34.6823575399,
+    10.8094272461,
+    34.8319019349
   ],
   "description": "A small tribe on the coast of the Syrtis Minor",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.68762,
-          34.758702
+          10.735976529,
+          34.7557428761
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.5,
-              34.5
+              10.659710738190505,
+              34.68235753989597
             ],
             [
-              10.5,
-              35.0
+              10.689210530762997,
+              34.70892865555659
             ],
             [
-              11.0,
-              35.0
+              10.704395177381906,
+              34.72342721234704
             ],
             [
-              11.0,
-              34.5
+              10.721421500161494,
+              34.740963677688725
             ],
             [
-              10.5,
-              34.5
+              10.739804838659628,
+              34.75870129916132
+            ],
+            [
+              10.7585648429668,
+              34.776031245760706
+            ],
+            [
+              10.77408040688776,
+              34.792293501072905
+            ],
+            [
+              10.79119663989195,
+              34.812706478215965
+            ],
+            [
+              10.809427246096869,
+              34.831901934883255
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324771/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324771/batlas-map-label-location"
       }
     }
   ]

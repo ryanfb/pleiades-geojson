@@ -3,10 +3,10 @@
   "title": "Koidamousioi",
   "id": "305100",
   "bbox": [
-    5.5,
-    36.0,
-    6.0,
-    36.5
+    5.62445869492,
+    36.4079115191,
+    5.80001085289,
+    36.4929709113
   ],
   "description": "An ancient place, cited: BAtlas 31 D4 Koidamousioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          36.25
+          5.71551866132,
+          36.4436125065
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              36.0
+              5.624458694917722,
+              36.407911519136626
             ],
             [
-              5.5,
-              36.5
+              5.651231746603649,
+              36.4141354853473
             ],
             [
-              6.0,
-              36.5
+              5.664215120983025,
+              36.418951832210084
             ],
             [
-              6.0,
-              36.0
+              5.67965857597048,
+              36.42454789504583
             ],
             [
-              5.5,
-              36.0
+              5.695587320427294,
+              36.429148483145674
+            ],
+            [
+              5.7125283467011,
+              36.437508050886464
+            ],
+            [
+              5.73022005812757,
+              36.44724887166219
+            ],
+            [
+              5.747327586105309,
+              36.45702986548751
+            ],
+            [
+              5.761766428960416,
+              36.46412726853964
+            ],
+            [
+              5.770321321192215,
+              36.47165214917295
+            ],
+            [
+              5.780590784082293,
+              36.478572116573
+            ],
+            [
+              5.800010852885127,
+              36.492970911319226
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305100/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305100/batlas-map-label-location"
       }
     }
   ]

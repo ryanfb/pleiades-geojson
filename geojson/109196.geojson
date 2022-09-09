@@ -3,10 +3,10 @@
   "title": "Nemetes",
   "id": "109196",
   "bbox": [
-    7.0,
-    49.0,
-    8.0,
-    50.0
+    7.70596096875,
+    49.1457879123,
+    8.32700029127,
+    49.2475098703
   ],
   "description": "An ancient place, cited: BAtlas 11 H3 Nemetes",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.5,
-          49.5
+          8.01742046481,
+          49.1909363703
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              49.0
+              7.705960968745444,
+              49.145787912279104
             ],
             [
-              7.0,
-              50.0
+              7.84694403334089,
+              49.16184927406846
             ],
             [
-              8.0,
-              50.0
+              7.948665991340135,
+              49.179695231612186
             ],
             [
-              8.0,
-              49.0
+              8.0361111833044,
+              49.18861821038405
             ],
             [
-              7.0,
-              49.0
+              8.128910162531781,
+              49.20824876368215
+            ],
+            [
+              8.2127861629873,
+              49.22252552971713
+            ],
+            [
+              8.327000291267154,
+              49.24750987027835
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109196/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109196/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Campi Macri",
   "id": "383607",
   "bbox": [
-    10.5,
-    44.5,
-    11.0,
-    45.0
+    10.7701034561,
+    44.5628803773,
+    10.862188597,
+    44.5950031009
   ],
   "description": "An ancient place, cited: BAtlas 39 H4 Campi Macri",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          44.75
+          10.8160082971,
+          44.5784672169
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.5,
-              44.5
+              10.77010345609375,
+              44.59500310092676
             ],
             [
-              10.5,
-              45.0
+              10.788663251939226,
+              44.58715087960758
             ],
             [
-              11.0,
-              45.0
+              10.807223047784817,
+              44.58144017319353
             ],
             [
-              11.0,
-              44.5
+              10.825782843630236,
+              44.57644330508134
             ],
             [
-              10.5,
-              44.5
+              10.843628801173963,
+              44.56787724546041
+            ],
+            [
+              10.86218859701944,
+              44.56288037734805
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383607/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383607/batlas-map-label-location"
       }
     }
   ]

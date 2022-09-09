@@ -3,10 +3,10 @@
   "title": "Belgae",
   "id": "79326",
   "bbox": [
-    -3.0,
-    51.0,
-    -2.0,
-    52.0
+    -2.06461552243,
+    51.1786705082,
+    -1.77051414211,
+    51.3699791731
   ],
   "description": "An ancient people, living in southern Britannia during the Roman period.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          51.5
+          -1.91744322715,
+          51.2745917722
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              51.0
+              -2.064615522425868,
+              51.36997917305803
             ],
             [
-              -3.0,
-              52.0
+              -1.987520985836966,
+              51.322865845142644
             ],
             [
-              -2.0,
-              52.0
+              -1.94469068773202,
+              51.28860160665863
             ],
             [
-              -2.0,
-              51.0
+              -1.897577359816523,
+              51.264331104399105
             ],
             [
-              -3.0,
-              51.0
+              -1.85331938510808,
+              51.2314945425187
+            ],
+            [
+              -1.770514142105242,
+              51.178670508189214
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79326/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79326/batlas-map-label-location"
       }
     }
   ]
