@@ -3,10 +3,10 @@
   "title": "Apias Pedion",
   "id": "550439",
   "bbox": [
-    27.5,
-    39.5,
-    28.0,
-    40.0
+    27.8826590234,
+    39.6135652691,
+    27.9828938183,
+    39.6302214962
   ],
   "description": "An ancient place, cited: BAtlas 56 F2 Apias Pedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          39.75
+          27.9327764209,
+          39.6218933827
         ]
       },
       "properties": {
@@ -61,6 +61,31 @@
         "location_precision": "rough",
         "title": "Undetermined location",
         "link": "http://pleiades.stoa.org/places/550439/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              27.88265902343794,
+              39.613565269130156
+            ],
+            [
+              27.982893818308543,
+              39.63022149617097
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550439/batlas-map-label-location"
       }
     }
   ]

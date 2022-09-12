@@ -3,10 +3,10 @@
   "title": "Sardianon Pedion",
   "id": "550866",
   "bbox": [
-    27.5,
-    38.5,
-    28.0,
-    39.0
+    27.9648337093,
+    38.5496487669,
+    28.151145506,
+    38.5653532095
   ],
   "description": "An ancient place, cited: BAtlas 56 F4 Sardianon Pedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          38.75
+          28.0579896077,
+          38.5575009882
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              38.5
+              27.964833709274295,
+              38.56535320953676
             ],
             [
-              27.5,
-              39.0
-            ],
-            [
-              28.0,
-              39.0
-            ],
-            [
-              28.0,
-              38.5
-            ],
-            [
-              27.5,
-              38.5
+              28.151145506030808,
+              38.54964876689828
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550866/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550866/batlas-map-label-location"
       }
     }
   ]

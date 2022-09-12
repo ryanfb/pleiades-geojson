@@ -3,10 +3,10 @@
   "title": "Masalia",
   "id": "50123",
   "bbox": [
-    75.0,
-    15.0,
-    80.0,
-    20.0
+    79.5758420986,
+    16.1066665167,
+    80.8310077792,
+    16.1126151692
   ],
   "description": "An ancient place, cited: BAtlas 5 D3 Masalia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          17.5
+          80.2034508947,
+          16.1105005424
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              15.0
+              79.57584209861835,
+              16.112615169191372
             ],
             [
-              75.0,
-              20.0
+              79.89706933440544,
+              16.112615169191372
             ],
             [
-              80.0,
-              20.0
+              80.08742621487187,
+              16.106666516676796
             ],
             [
-              80.0,
-              15.0
+              80.22424522270711,
+              16.106666516676796
             ],
             [
-              75.0,
-              15.0
+              80.43244806071726,
+              16.112615169191372
+            ],
+            [
+              80.61090763615454,
+              16.112615169191372
+            ],
+            [
+              80.83100777919367,
+              16.106666516676796
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50123/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50123/batlas-map-label-location"
       }
     }
   ]

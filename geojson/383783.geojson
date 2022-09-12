@@ -3,10 +3,10 @@
   "title": "Statielli",
   "id": "383783",
   "bbox": [
-    8.470658,
-    44.675532,
-    8.470658,
-    44.675532
+    8.31374223632,
+    44.711001825,
+    8.50945290405,
+    44.7389604918
   ],
   "description": "A tribe of Liguria whose territory was located on the northern slopes of the Apennines in the Bormida valley.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.470658,
-          44.675532
+          8.41140580818,
+          44.7261489087
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              44.5
+              8.313742236323321,
+              44.71100182496099
             ],
             [
-              8.0,
-              45.0
+              8.351813612416606,
+              44.71873507322994
             ],
             [
-              8.5,
-              45.0
+              8.373823626720537,
+              44.721709399487224
             ],
             [
-              8.5,
-              44.5
+              8.39523877577301,
+              44.724088860493055
             ],
             [
-              8.0,
-              44.5
+              8.416059059574025,
+              44.72706318675034
+            ],
+            [
+              8.437474208626497,
+              44.73003751300763
+            ],
+            [
+              8.452940705164394,
+              44.731822108762
+            ],
+            [
+              8.476735315222697,
+              44.73479643501929
+            ],
+            [
+              8.509452904052864,
+              44.738960491779494
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383783/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383783/batlas-map-label-location"
       }
     }
   ]

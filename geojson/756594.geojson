@@ -3,10 +3,10 @@
   "title": "Lykopolites Nomos",
   "id": "756594",
   "bbox": [
-    30.5,
-    27.0,
-    31.0,
-    27.5
+    31.003591418,
+    27.1929396164,
+    31.3402851504,
+    27.3368970072
   ],
   "description": "An ancient place, cited: BAtlas 77 D2 Lykopolites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          27.25
+          31.1653754974,
+          27.2478471905
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              27.0
+              31.003591418040344,
+              27.336897007205437
             ],
             [
-              30.5,
-              27.5
+              31.050585772905492,
+              27.304774283626728
             ],
             [
-              31.0,
-              27.5
+              31.074380382963795,
+              27.287523191334458
             ],
             [
-              31.0,
-              27.0
+              31.10055445402793,
+              27.27205669479656
             ],
             [
-              30.5,
-              27.0
+              31.129107986097893,
+              27.256590198258664
+            ],
+            [
+              31.155876922413483,
+              27.24290829747514
+            ],
+            [
+              31.179671532471787,
+              27.231605857697446
+            ],
+            [
+              31.204655873033005,
+              27.22089828317121
+            ],
+            [
+              31.236778596611714,
+              27.209595843393515
+            ],
+            [
+              31.263547532927305,
+              27.201862595124567
+            ],
+            [
+              31.295670256506014,
+              27.19591394260999
+            ],
+            [
+              31.340285150365332,
+              27.192939616352703
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/756594/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/756594/batlas-map-label-location"
       }
     }
   ]

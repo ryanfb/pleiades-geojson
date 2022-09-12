@@ -3,10 +3,10 @@
   "title": "Korpilike",
   "id": "501477",
   "bbox": [
-    25.5,
-    41.0,
-    26.0,
-    41.5
+    25.6273639499,
+    41.0770230055,
+    25.8688792419,
+    41.0841613886
   ],
   "description": "An ancient place, cited: BAtlas 51 F2 Korpilike",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.75,
-          41.25
+          25.7480663131,
+          41.0823383691
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              41.0
+              25.62736394985609,
+              41.07702300553518
             ],
             [
-              25.5,
-              41.5
+              25.667814786955205,
+              41.07999733179247
             ],
             [
-              26.0,
-              41.5
+              25.695476021147954,
+              41.08148449492114
             ],
             [
-              26.0,
-              41.0
+              25.726706446849505,
+              41.08297165804976
             ],
             [
-              25.5,
-              41.0
+              25.75258308528788,
+              41.08416138855267
+            ],
+            [
+              25.77459309959181,
+              41.08416138855267
+            ],
+            [
+              25.803741496913233,
+              41.08416138855267
+            ],
+            [
+              25.82694124172008,
+              41.08386395592697
+            ],
+            [
+              25.868879241947866,
+              41.08267422542406
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501477/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501477/batlas-map-label-location"
       }
     }
   ]

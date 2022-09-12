@@ -3,10 +3,10 @@
   "title": "Cantabri",
   "id": "236403",
   "bbox": [
-    -5.0,
-    43.0,
-    -4.0,
-    44.0
+    -4.8014949449,
+    43.0768875194,
+    -4.1078820617,
+    43.1839632647
   ],
   "description": "The Cantabri were an important tribe of the Atlantic coastal region of northern Iberia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          43.5
+          -4.45530950384,
+          43.1344807665
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              43.0
+              -4.801494944897684,
+              43.07688751939497
             ],
             [
-              -5.0,
-              44.0
+              -4.676573242091592,
+              43.09949239895036
             ],
             [
-              -4.0,
-              44.0
+              -4.582584532361295,
+              43.11614862599117
             ],
             [
-              -4.0,
-              43.0
+              -4.490975283636828,
+              43.1339945835349
             ],
             [
-              -5.0,
-              43.0
+              -4.404124956924022,
+              43.14351242755822
+            ],
+            [
+              -4.30894651669081,
+              43.15897892409612
+            ],
+            [
+              -4.217337267966343,
+              43.16849676811944
+            ],
+            [
+              -4.107882061698149,
+              43.183963264657166
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236403/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236403/batlas-map-label-location"
       }
     }
   ]

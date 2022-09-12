@@ -3,10 +3,10 @@
   "title": "Paesici",
   "id": "236586",
   "bbox": [
-    -7.0,
-    43.0,
-    -6.0,
-    44.0
+    -6.56709070314,
+    43.4528007177,
+    -6.40861860015,
+    43.4570837476
   ],
   "description": "An ancient place, cited: BAtlas 24 E1 Paesici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          43.5
+          -6.4879093311,
+          43.4540236819
         ]
       },
       "properties": {
@@ -61,6 +61,47 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/236586/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -6.567090703138774,
+              43.45708374755901
+            ],
+            [
+              -6.535681817861871,
+              43.45422839435196
+            ],
+            [
+              -6.508555962395405,
+              43.452800717748346
+            ],
+            [
+              -6.480002430325442,
+              43.452800717748346
+            ],
+            [
+              -6.455731928065973,
+              43.45422839435196
+            ],
+            [
+              -6.408618600150533,
+              43.45422839435196
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236586/batlas-map-label-location"
       }
     }
   ]

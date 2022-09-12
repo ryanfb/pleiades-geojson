@@ -3,10 +3,10 @@
   "title": "Garsauria",
   "id": "619165",
   "bbox": [
-    33.5,
-    38.0,
-    34.0,
-    38.5
+    33.9052113218,
+    38.4163175305,
+    34.4382105872,
+    38.4515335534
   ],
   "description": "An ancient place, cited: BAtlas 63 D4 Garsauria",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75,
-          38.25
+          34.1711773593,
+          38.4407876466
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.5,
-              38.0
+              33.90521132184858,
+              38.41631753053605
             ],
             [
-              33.5,
-              38.5
+              33.989920133656256,
+              38.42964251216881
             ],
             [
-              34.0,
-              38.5
+              34.04893076660079,
+              38.43440143418047
             ],
             [
-              34.0,
-              38.0
+              34.11174853715477,
+              38.44106392499674
             ],
             [
-              33.5,
-              38.0
+              34.16980738569691,
+              38.44391927820379
+            ],
+            [
+              34.23738407826261,
+              38.448678200215454
+            ],
+            [
+              34.299250064414196,
+              38.448678200215454
+            ],
+            [
+              34.35730891295634,
+              38.44962998461767
+            ],
+            [
+              34.43821058715457,
+              38.45153355342245
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619165/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619165/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Tibernene",
   "id": "619272",
   "bbox": [
-    34.0,
-    38.0,
-    34.5,
-    38.5
+    34.3601642662,
+    38.3325605031,
+    34.5866889539,
+    38.3335122875
   ],
   "description": "An ancient place, cited: BAtlas 63 E4 Tibernene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.25,
-          38.25
+          34.47342661,
+          38.3330363953
         ]
       },
       "properties": {
@@ -61,6 +61,31 @@
         "location_precision": "rough",
         "title": "Undetermined location",
         "link": "http://pleiades.stoa.org/places/619272/undetermined"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              34.58668895391844,
+              38.332560503130935
+            ],
+            [
+              34.36016426616334,
+              38.33351228753315
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619272/batlas-map-label-location"
       }
     }
   ]

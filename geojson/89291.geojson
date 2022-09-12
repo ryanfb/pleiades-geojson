@@ -3,10 +3,10 @@
   "title": "(S)Mertai",
   "id": "89291",
   "bbox": [
-    -5.0,
-    58.0,
-    -4.0,
-    59.0
+    -4.66291753985,
+    58.0364308005,
+    -4.02902912789,
+    58.0459486445
   ],
   "description": "An ancient place, cited: BAtlas 9 C2 (S)Mertai",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          58.5
+          -4.34594748634,
+          58.0417217003
         ]
       },
       "properties": {
@@ -30,39 +30,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              58.0
+              -4.662917539846489,
+              58.03643080051552
             ],
             [
-              -5.0,
-              59.0
+              -4.582967650050591,
+              58.03643080051552
             ],
             [
-              -4.0,
-              59.0
+              -4.512535604278014,
+              58.038334369320125
             ],
             [
-              -4.0,
-              58.0
+              -4.447814264919373,
+              58.038334369320125
             ],
             [
-              -5.0,
-              58.0
+              -4.354539393490882,
+              58.0421415069294
+            ],
+            [
+              -4.287914485327633,
+              58.04594864453884
+            ],
+            [
+              -4.213675301945671,
+              58.04594864453884
+            ],
+            [
+              -4.11468972410313,
+              58.04594864453884
+            ],
+            [
+              -4.029029127893239,
+              58.0421415069294
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89291/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89291/batlas-map-label-location"
       }
     }
   ]

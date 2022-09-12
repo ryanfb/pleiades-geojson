@@ -3,10 +3,10 @@
   "title": "Paraetacene (region)",
   "id": "903096",
   "bbox": [
-    49.0,
-    33.0,
-    50.0,
-    34.0
+    49.2145497832,
+    33.169189464,
+    51.0378117789,
+    33.1810867691
   ],
   "description": "Paraetacene was a district of ancient Persis that was a part of the larger regional entity known as Media Magna.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.5,
-          33.5
+          50.1261580087,
+          33.1768291372
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              49.0,
-              33.0
+              49.21454978320196,
+              33.178112442819156
             ],
             [
-              49.0,
-              34.0
+              49.404906663668385,
+              33.181086769076444
             ],
             [
-              50.0,
-              34.0
+              49.5982378703921,
+              33.181086769076444
             ],
             [
-              50.0,
-              33.0
+              49.77669744582937,
+              33.17513811656187
             ],
             [
-              49.0,
-              33.0
+              49.93136241120834,
+              33.181086769076444
+            ],
+            [
+              50.09792468161646,
+              33.178112442819156
+            ],
+            [
+              50.27043560453916,
+              33.178112442819156
+            ],
+            [
+              50.43699787494728,
+              33.178112442819156
+            ],
+            [
+              50.60653447161269,
+              33.17216379030458
+            ],
+            [
+              50.78499404704996,
+              33.17216379030458
+            ],
+            [
+              51.03781177891943,
+              33.16918946404729
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/903096/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/903096/batlas-map-label-location"
       }
     }
   ]

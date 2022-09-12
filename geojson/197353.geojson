@@ -3,10 +3,10 @@
   "title": "Liburnia (region)",
   "id": "197353",
   "bbox": [
-    14.7426317,
-    44.115501,
-    15.223778,
-    44.7786584
+    14.6580224437,
+    43.8649434602,
+    15.6681036407,
+    45.0088693388
   ],
   "description": "The land of the Liburians on the northeast coast of the Adriatic Sea.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.992806,
-          44.435013
+          15.1291397595,
+          44.4060887994
         ]
       },
       "properties": {
@@ -32,39 +32,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              44.0
+              14.658022443732023,
+              45.008869338774446
             ],
             [
-              14.0,
-              45.0
+              14.79365172106435,
+              44.81077921003907
             ],
             [
-              15.0,
-              45.0
+              14.900727466326714,
+              44.6519501878999
             ],
             [
-              15.0,
-              44.0
+              15.020295381869687,
+              44.493121165760726
             ],
             [
-              14.0,
-              44.0
+              15.15949385071076,
+              44.34321512239342
+            ],
+            [
+              15.302261511060578,
+              44.1808169087455
+            ],
+            [
+              15.445029171410397,
+              44.041618439904425
+            ],
+            [
+              15.668103640706988,
+              43.864943460221525
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197353/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197353/batlas-map-label-location"
       }
     }
   ]

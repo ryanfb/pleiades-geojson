@@ -3,10 +3,10 @@
   "title": "Nestoi",
   "id": "197406",
   "bbox": [
-    16.0,
-    43.0,
-    17.0,
-    44.0
+    16.5995168825,
+    43.4808181471,
+    16.8174755106,
+    43.4855770691
   ],
   "description": "An ancient place, cited: BAtlas 20 D6 Nestoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          43.5
+          16.7084832785,
+          43.482867426
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              43.0
+              16.59951688250311,
+              43.48557706908326
             ],
             [
-              16.0,
-              44.0
+              16.658527515447645,
+              43.48272171587621
             ],
             [
-              17.0,
-              44.0
+              16.694695322736322,
+              43.48272171587621
             ],
             [
-              17.0,
-              43.0
+              16.725152423610893,
+              43.48272171587621
             ],
             [
-              16.0,
-              43.0
+              16.76227201530179,
+              43.48272171587621
+            ],
+            [
+              16.817475510637053,
+              43.4808181470716
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197406/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197406/batlas-map-label-location"
       }
     }
   ]

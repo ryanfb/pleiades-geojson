@@ -3,10 +3,10 @@
   "title": "Trogodos (mountain)",
   "id": "707639",
   "bbox": [
-    32.5,
-    34.5,
-    33.5,
-    35.0
+    32.5479901409,
+    34.922149248,
+    33.3391609254,
+    35.0197071493
   ],
   "description": "The greater mountain range of Cyprus. Its highest point is 1952 meters.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.0,
-          34.75
+          32.9402863641,
+          34.9475713871
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              34.5
+              32.547990140930075,
+              35.019707149261464
             ],
             [
-              32.5,
-              35.0
+              32.71336268083528,
+              34.97092819864194
             ],
             [
-              33.5,
-              35.0
+              32.815679504085985,
+              34.94951304958947
             ],
             [
-              33.5,
-              34.5
+              32.96320608644746,
+              34.93166709204574
             ],
             [
-              32.5,
-              34.5
+              33.135717009370154,
+              34.92333897852534
+            ],
+            [
+              33.339160925368645,
+              34.92214924802242
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas grid location",
-        "link": "http://pleiades.stoa.org/places/707639/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707639/batlas-map-label-location"
       }
     }
   ]

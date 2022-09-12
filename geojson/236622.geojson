@@ -3,10 +3,10 @@
   "title": "Quarquerni",
   "id": "236622",
   "bbox": [
-    -9.0,
-    41.0,
-    -8.0,
-    42.0
+    -8.05944067687,
+    41.9030036353,
+    -7.83339188132,
+    41.9446442029
   ],
   "description": "An ancient place, cited: BAtlas 24 C3 Quarquerni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          41.5
+          -7.94653346342,
+          41.9244911346
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              41.0
+              -8.059440676872839,
+              41.9030036353069
             ],
             [
-              -9.0,
-              42.0
+              -8.016610378767894,
+              41.91133174882731
             ],
             [
-              -8.0,
-              42.0
+              -7.995195229715421,
+              41.914900940336054
             ],
             [
-              -8.0,
-              41.0
+              -7.978539002674609,
+              41.919659862347714
             ],
             [
-              -9.0,
-              41.0
+              -7.952364931610475,
+              41.922039323353545
+            ],
+            [
+              -7.933329243563833,
+              41.92560851486229
+            ],
+            [
+              -7.91429355551719,
+              41.931557167376866
+            ],
+            [
+              -7.890498945458887,
+              41.93631608938853
+            ],
+            [
+              -7.866704335400584,
+              41.93988528089727
+            ],
+            [
+              -7.83339188131896,
+              41.94464420290893
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236622/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236622/batlas-map-label-location"
       }
     }
   ]

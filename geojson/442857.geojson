@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Vultur M.",
+  "title": "Vultur (mountain)",
   "id": "442857",
   "bbox": [
-    15.5,
-    40.5,
-    16.0,
-    41.0
+    15.5821916976,
+    40.9477058231,
+    15.6771321918,
+    40.9487765806
   ],
   "description": "An ancient place, cited: BAtlas 45 C3 Vultur M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.75,
-          40.75
+          15.632606595,
+          40.9484383629
         ]
       },
       "properties": {
@@ -29,39 +29,76 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          15.635556,
+          40.948333
+        ]
+      },
+      "id": "location-of-monte-vulture",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoHack.",
+        "location_precision": "precise",
+        "title": "Imagery location of Monte Vulture",
+        "link": "http://pleiades.stoa.org/places/442857/location-of-monte-vulture"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.5,
-              40.5
+              15.582191697628275,
+              40.947705823135436
             ],
             [
-              15.5,
-              41.0
+              15.598966897719322,
+              40.948062742286425
             ],
             [
-              16.0,
-              41.0
+              15.60503452328419,
+              40.948419661437356
             ],
             [
-              16.0,
-              40.5
+              15.61217290630168,
+              40.94877658058812
             ],
             [
-              15.5,
-              40.5
+              15.620382046771795,
+              40.94877658058812
+            ],
+            [
+              15.629661944694647,
+              40.94877658058812
+            ],
+            [
+              15.642154114975256,
+              40.94877658058812
+            ],
+            [
+              15.652504770350504,
+              40.94877658058812
+            ],
+            [
+              15.662498506575048,
+              40.94877658058812
+            ],
+            [
+              15.67713219176079,
+              40.948419661437356
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442857/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442857/batlas-map-label-location"
       }
     }
   ]

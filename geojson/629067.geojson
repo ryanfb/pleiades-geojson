@@ -3,10 +3,10 @@
   "title": "Saraouene",
   "id": "629067",
   "bbox": [
-    35.5,
-    39.0,
-    36.0,
-    39.5
+    35.5706909417,
+    39.3819445779,
+    36.2302775325,
+    39.6417817198
   ],
   "description": "An ancient place, cited: BAtlas 64 B2 Saraouene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          39.25
+          35.9074683615,
+          39.494217284
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              39.0
+              35.5706909416719,
+              39.38194457793497
             ],
             [
-              35.5,
-              39.5
+              35.666821166307386,
+              39.40383561918867
             ],
             [
-              36.0,
-              39.5
+              35.748674624908006,
+              39.42858201364936
             ],
             [
-              36.0,
-              39.0
+              35.830528083508625,
+              39.457135545719325
             ],
             [
-              35.5,
-              39.0
+              35.917140464120735,
+              39.48854443099634
+            ],
+            [
+              35.992331431905086,
+              39.518049747468524
+            ],
+            [
+              36.07323310610332,
+              39.55516933915959
+            ],
+            [
+              36.145568720680444,
+              39.593240715252875
+            ],
+            [
+              36.23027753248812,
+              39.6417817197717
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/629067/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/629067/batlas-map-label-location"
       }
     }
   ]

@@ -4,13 +4,16 @@
   "id": "257120882",
   "bbox": [
     8.9784422,
-    40.6145167,
-    8.9784422,
+    40.6139466,
+    8.9792522,
     40.6145167
   ],
-  "description": "A Roman bridge of the first century AD crossing the Rio Mannu near Ozieri, Sardinia.",
+  "description": "Ponte Ezzu or Pont'Ezzu is a Roman bridge of the first century A.D. that crosses the Rio Mannu near Ozieri, Sardinia.",
   "connectsWith": [
     "472014"
+  ],
+  "names": [
+    "Pont'Ezzu"
   ],
   "features": [
     {
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.9784422,
-          40.6145167
+          8.97885097329,
+          40.614237436
         ]
       },
       "properties": {
@@ -28,19 +31,29 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          8.9784422,
-          40.6145167
+          [
+            8.9784422,
+            40.6145167
+          ],
+          [
+            8.978579,
+            40.6144373
+          ],
+          [
+            8.9792522,
+            40.6139466
+          ]
         ]
       },
-      "id": "osm-location",
+      "id": "osm-location-of-pontezzu",
       "type": "Feature",
       "properties": {
-        "description": "Representative location based on OpenStreetMap",
+        "description": null,
         "location_precision": "precise",
-        "title": "OSM location of Pont'ezzu",
-        "link": "http://pleiades.stoa.org/places/257120882/osm-location"
+        "title": "OSM Location of Pont'Ezzu",
+        "link": "http://pleiades.stoa.org/places/257120882/osm-location-of-pontezzu"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Tritolii?",
   "id": "157939",
   "bbox": [
-    5.5,
-    43.5,
-    6.0,
-    44.0
+    5.76190976951,
+    43.522967721,
+    5.89004374467,
+    43.6014899342
   ],
   "description": "An ancient place, cited: BAtlas 16 A2 Tritolii?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          43.75
+          5.82433379731,
+          43.5594529497
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              43.5
+              5.761909769508463,
+              43.60148993423269
             ],
             [
-              5.5,
-              44.0
+              5.785823352617001,
+              43.58364397668896
             ],
             [
-              6.0,
-              44.0
+              5.799386280350291,
+              43.574007159615405
             ],
             [
-              6.0,
-              43.5
+              5.811521531480139,
+              43.566154938296165
             ],
             [
-              5.5,
-              43.5
+              5.827225974118562,
+              43.55616120207168
+            ],
+            [
+              5.839718144399171,
+              43.547595142450746
+            ],
+            [
+              5.854351829585084,
+              43.539742921131335
+            ],
+            [
+              5.869699353072519,
+              43.53189069981215
+            ],
+            [
+              5.890043744672539,
+              43.52296772104029
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157939/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157939/batlas-map-label-location"
       }
     }
   ]

@@ -3,12 +3,15 @@
   "title": "*Celesitani",
   "id": "471903",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.27669290391,
+    40.1788732153,
+    9.52510863292,
+    40.1824424068
   ],
   "description": "An ancient place, cited: BAtlas 48 B2 *Celesitani",
+  "connectsWith": [
+    "472014"
+  ],
   "names": [
     "Celesitani"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.40092248622,
+          40.1807306322
         ]
       },
       "properties": {
@@ -28,39 +31,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.276692903911288,
+              40.180300891936255
             ],
             [
-              9.0,
-              41.0
+              9.300249567869008,
+              40.181728568539754
             ],
             [
-              10.0,
-              41.0
+              9.327375423335473,
+              40.181728568539754
             ],
             [
-              10.0,
-              40.0
+              9.347362895784446,
+              40.180300891936255
             ],
             [
-              9.0,
-              40.0
+              9.373061074647413,
+              40.180300891936255
+            ],
+            [
+              9.396617738605133,
+              40.181014730238005
+            ],
+            [
+              9.413749857847112,
+              40.1824424068415
+            ],
+            [
+              9.43802036010658,
+              40.180300891936255
+            ],
+            [
+              9.455866317650308,
+              40.17887321533276
+            ],
+            [
+              9.481564496513274,
+              40.181014730238005
+            ],
+            [
+              9.525108632919968,
+              40.179587053634506
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471903/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471903/batlas-map-label-location"
       }
     }
   ]

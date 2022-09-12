@@ -3,10 +3,10 @@
   "title": "Toxiandria",
   "id": "109385",
   "bbox": [
-    5.0,
-    51.0,
-    6.0,
-    52.0
+    5.04508904129,
+    50.9642116706,
+    5.77320410908,
+    51.1569480121
   ],
   "description": "Toxiandria was the territory of the Toxandri.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          51.5
+          5.41063314302,
+          51.0660053694
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              51.0
+              5.045089041292329,
+              51.156948012090254
             ],
             [
-              5.0,
-              52.0
+              5.148595595045947,
+              51.131963671529036
             ],
             [
-              6.0,
-              52.0
+              5.225333212483974,
+              51.11590230973968
             ],
             [
-              6.0,
-              51.0
+              5.300286234167629,
+              51.098056352195954
             ],
             [
-              5.0,
-              51.0
+              5.368100872833793,
+              51.078425798897854
+            ],
+            [
+              5.443053894517448,
+              51.058795245599754
+            ],
+            [
+              5.525145299218593,
+              51.03738009654728
+            ],
+            [
+              5.600098320902248,
+              51.019534139003554
+            ],
+            [
+              5.675051342585903,
+              50.99633439419671
+            ],
+            [
+              5.773204109076403,
+              50.964211670618
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109385/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109385/batlas-map-label-location"
       }
     }
   ]

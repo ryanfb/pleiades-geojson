@@ -3,10 +3,10 @@
   "title": "Bibakta (island)",
   "id": "59744",
   "bbox": [
-    65.0,
-    20.0,
-    70.0,
-    25.0
+    67.4978170061,
+    24.3995045277,
+    67.869012923,
+    24.4423348258
   ],
   "description": "An island off the coast of Gedrosia, mentioned by Pliny and Arrian. Due to coastline change and other factors, its precise location cannot be determined today.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          22.5
+          67.6830365993,
+          24.4242644045
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              20.0
+              67.497817006074,
+              24.399504527671013
             ],
             [
-              65.0,
-              25.0
+              67.57871868027223,
+              24.409022371694334
             ],
             [
-              70.0,
-              25.0
+              67.63582574441216,
+              24.423299137729316
             ],
             [
-              70.0,
-              20.0
+              67.72148634062205,
+              24.428058059740977
             ],
             [
-              65.0,
-              20.0
+              67.76907556073866,
+              24.437575903764298
+            ],
+            [
+              67.86901292298353,
+              24.44233482577596
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59744/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59744/batlas-map-label-location"
       }
     }
   ]

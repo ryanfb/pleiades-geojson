@@ -3,10 +3,10 @@
   "title": "Iuga Asturum",
   "id": "236492",
   "bbox": [
-    -7.0,
-    42.0,
-    -6.0,
-    43.0
+    -6.72593162258,
+    42.8953346446,
+    -6.14201189175,
+    43.0480960412
   ],
   "description": "An ancient place, cited: BAtlas 24 E2 Iuga Asturum",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          42.5
+          -6.43641411603,
+          42.9809760105
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              42.0
+              -6.725931622582948,
+              42.89533464464995
             ],
             [
-              -7.0,
-              43.0
+              -6.670252235046519,
+              42.91674979370242
             ],
             [
-              -6.0,
-              43.0
+              -6.621711230527637,
+              42.93388191294446
             ],
             [
-              -6.0,
-              42.0
+              -6.554610430163166,
+              42.95244170878988
             ],
             [
-              -7.0,
-              42.0
+              -6.503214072437231,
+              42.96386312161803
+            ],
+            [
+              -6.454673067918293,
+              42.98099524085984
+            ],
+            [
+              -6.41755347622734,
+              42.990988977084385
+            ],
+            [
+              -6.373295501518953,
+              42.99955503670549
+            ],
+            [
+              -6.326182173603456,
+              43.01240412613686
+            ],
+            [
+              -6.27335813927408,
+              43.023825538964786
+            ],
+            [
+              -6.227672487962082,
+              43.03524695179294
+            ],
+            [
+              -6.14201189175219,
+              43.04809604122431
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236492/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236492/batlas-map-label-location"
       }
     }
   ]

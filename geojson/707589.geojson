@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "title": "Noumenion/Hiera et Cepia? Ins.",
+  "title": "Noumenion/Hiera et Cepia? (islands)",
   "id": "707589",
   "bbox": [
-    32.0,
-    34.5,
-    32.5,
-    35.0
+    32.3404955499,
+    34.7149889093,
+    32.4318668526,
+    34.7168924781
   ],
   "description": "Rocky islands described as being 25 stades from Paphos, Cyprus.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          34.75
+          32.3861566059,
+          34.7157786898
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              34.5
+              32.34049554993436,
+              34.715940693710195
             ],
             [
-              32.0,
-              35.0
+              32.34953750175646,
+              34.71689247811241
             ],
             [
-              32.5,
-              35.0
+              32.357627669176395,
+              34.71689247811241
             ],
             [
-              32.5,
-              34.5
+              32.370476758607765,
+              34.71641658591142
             ],
             [
-              32.0,
-              34.5
+              32.3814222792347,
+              34.71641658591142
+            ],
+            [
+              32.39094012325802,
+              34.714988909307806
+            ],
+            [
+              32.40378921268939,
+              34.714988909307806
+            ],
+            [
+              32.41235527231049,
+              34.714988909307806
+            ],
+            [
+              32.42282490073603,
+              34.714988909307806
+            ],
+            [
+              32.4318668525583,
+              34.714988909307806
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707589/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707589/batlas-map-label-location"
       }
     }
   ]

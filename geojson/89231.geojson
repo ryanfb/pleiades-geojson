@@ -3,10 +3,10 @@
   "title": "Lougoi",
   "id": "89231",
   "bbox": [
-    -4.0,
-    58.0,
-    -3.0,
-    59.0
+    -3.96621135734,
+    58.2020412865,
+    -3.49793343139,
+    58.2058484241
   ],
   "description": "An ancient place, cited: BAtlas 9 D2 Lougoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          58.5
+          -3.73209364366,
+          58.2031285951
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              58.0
+              -3.966211357339319,
+              58.205848424130636
             ],
             [
-              -4.0,
-              59.0
+              -3.855804366668906,
+              58.202041286521194
             ],
             [
-              -3.0,
-              59.0
+              -3.772047339263622,
+              58.202041286521194
             ],
             [
-              -3.0,
-              58.0
+              -3.694001018272445,
+              58.202041286521194
             ],
             [
-              -4.0,
-              58.0
+              -3.615954697281154,
+              58.20394485532586
+            ],
+            [
+              -3.497933431391971,
+              58.20394485532586
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89231/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89231/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Chatti",
   "id": "108885",
   "bbox": [
-    8.0,
-    50.0,
-    9.0,
-    51.0
+    8.38121234452,
+    50.5965849452,
+    9.04989541647,
+    51.0858070852
   ],
   "description": "The Chatti were an ancient Germanic people whose homeland centered on the valley of the Weser River.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          50.5
+          8.71510407823,
+          50.8417996321
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              50.0
+              8.381212344516712,
+              50.59658494521722
             ],
             [
-              8.0,
-              51.0
+              8.521124651659477,
+              50.69652230746209
             ],
             [
-              9.0,
-              51.0
+              8.623917367111403,
+              50.77647219725793
             ],
             [
-              9.0,
-              50.0
+              8.753652521243907,
+              50.86987099894725
             ],
             [
-              8.0,
-              50.0
+              8.864297458015017,
+              50.95374699940277
+            ],
+            [
+              9.04989541646978,
+              51.08580708522635
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108885/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108885/batlas-map-label-location"
       }
     }
   ]

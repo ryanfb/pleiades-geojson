@@ -3,10 +3,10 @@
   "title": "Boulinoi",
   "id": "197176",
   "bbox": [
-    15.0,
-    43.0,
-    16.0,
-    44.0
+    15.9229171455,
+    43.5048507032,
+    16.1168432175,
+    43.6172802358
   ],
   "description": "An ancient place, cited: BAtlas 20 C6 Boulinoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5,
-          43.5
+          16.019188627,
+          43.5598139152
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.0,
-              43.0
+              15.922917145495148,
+              43.61728023575591
             ],
             [
-              15.0,
-              44.0
+              15.963962847845721,
+              43.592295895194695
             ],
             [
-              16.0,
-              44.0
+              15.98894718840694,
+              43.57920885966263
             ],
             [
-              16.0,
-              43.0
+              16.012146933213785,
+              43.563147497873274
             ],
             [
-              15.0,
-              43.0
+              16.02820829500314,
+              43.55243992334704
+            ],
+            [
+              16.048433713552697,
+              43.54232721407226
+            ],
+            [
+              16.078176976125576,
+              43.523886391277074
+            ],
+            [
+              16.11684321747032,
+              43.50485070323043
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197176/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197176/batlas-map-label-location"
       }
     }
   ]

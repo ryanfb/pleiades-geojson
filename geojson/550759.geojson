@@ -3,10 +3,10 @@
   "title": "Mysia (region)",
   "id": "550759",
   "bbox": [
-    27.1645158,
-    39.1178923,
-    27.2201435,
-    39.3633119
+    27.2055239077,
+    39.5428952773,
+    28.4713971628,
+    39.7161200385
   ],
   "description": "A region of northwestern Asia Minor.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.2023369167,
-          39.2472626167
+          27.8340013218,
+          39.5996880845
         ]
       },
       "properties": {
@@ -31,39 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              39.5
+              27.205523907703782,
+              39.71612003848144
             ],
             [
-              27.0,
-              40.0
+              27.41967539822851,
+              39.65330226792752
             ],
             [
-              27.5,
-              40.0
+              27.628116182339244,
+              39.614279107431905
             ],
             [
-              27.5,
-              39.5
+              27.835605182047647,
+              39.58477379095961
             ],
             [
-              27.0,
-              39.5
+              28.030720984525733,
+              39.56764167171763
+            ],
+            [
+              28.228692140210814,
+              39.547654199268656
+            ],
+            [
+              28.471397162805506,
+              39.542895277256996
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550759/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550759/batlas-map-label-location"
       }
     }
   ]

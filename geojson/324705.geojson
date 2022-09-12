@@ -3,10 +3,10 @@
   "title": "Frexes",
   "id": "324705",
   "bbox": [
-    8.0,
-    35.0,
-    8.5,
-    35.5
+    8.37675128481,
+    35.2237628598,
+    8.62758058801,
+    35.2282729512
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.25,
-          35.25
+          8.5021591989,
+          35.226581663
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              35.0
+              8.376751284809004,
+              35.22376285975616
             ],
             [
-              8.0,
-              35.5
+              8.43375397722013,
+              35.224992993646836
             ],
             [
-              8.5,
-              35.5
+              8.477841398729646,
+              35.2260084644589
             ],
             [
-              8.5,
-              35.0
+              8.520842989121133,
+              35.22759430862948
             ],
             [
-              8.0,
-              35.0
+              8.563130730262717,
+              35.228272951202506
+            ],
+            [
+              8.627580588009925,
+              35.22820093082798
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324705/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324705/batlas-map-label-location"
       }
     }
   ]

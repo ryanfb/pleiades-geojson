@@ -3,10 +3,10 @@
   "title": "Charakene",
   "id": "658434",
   "bbox": [
-    35.5,
-    37.0,
-    36.0,
-    37.5
+    35.9718262306,
+    37.2658321724,
+    36.162183111,
+    37.4508352656
   ],
   "description": "An ancient place, cited: BAtlas 67 B2 Charakene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          37.25
+          36.0779082994,
+          37.3695820529
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              37.0
+              36.1621831110466,
+              37.2658321723713
             ],
             [
-              35.5,
-              37.5
+              36.14314742299996,
+              37.300929222207294
             ],
             [
-              36.0,
-              37.5
+              36.1258963307077,
+              37.32710329327143
             ],
             [
-              36.0,
-              37.0
+              36.10745550791251,
+              37.349708172826816
             ],
             [
-              35.5,
-              37.0
+              36.08544549360858,
+              37.372313052382204
+            ],
+            [
+              36.06581494031048,
+              37.39313333618322
+            ],
+            [
+              36.040235734497806,
+              37.41276388948132
+            ],
+            [
+              36.01049247192493,
+              37.430609847025046
+            ],
+            [
+              35.971826230580184,
+              37.450835265574604
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/658434/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/658434/batlas-map-label-location"
       }
     }
   ]

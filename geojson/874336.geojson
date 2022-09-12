@@ -3,10 +3,10 @@
   "title": "Araxenon Pedion",
   "id": "874336",
   "bbox": [
-    43.0,
-    39.0,
-    44.0,
-    40.0
+    43.7825197534,
+    39.9124376853,
+    44.0951809296,
+    39.9652617196
   ],
   "description": "An ancient place, cited: BAtlas 89 F1 Araxenon Pedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          39.5
+          43.9388503415,
+          39.9388497025
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              39.0
+              43.78251975340373,
+              39.96526171963327
             ],
             [
-              43.0,
-              40.0
-            ],
-            [
-              44.0,
-              40.0
-            ],
-            [
-              44.0,
-              39.0
-            ],
-            [
-              43.0,
-              39.0
+              44.09518092956983,
+              39.912437685303836
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874336/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874336/batlas-map-label-location"
       }
     }
   ]

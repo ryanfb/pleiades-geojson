@@ -3,10 +3,10 @@
   "title": "Omphalion",
   "id": "589960",
   "bbox": [
-    25.0,
-    35.0,
-    25.5,
-    35.5
+    25.0823227169,
+    35.3341044898,
+    25.1622726067,
+    35.3374357352
   ],
   "description": "A inland region of Crete.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          35.25
+          25.1222976618,
+          35.3357701125
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.0,
-              35.0
+              25.082322716864063,
+              35.334104489790874
             ],
             [
-              25.0,
-              35.5
-            ],
-            [
-              25.5,
-              35.5
-            ],
-            [
-              25.5,
-              35.0
-            ],
-            [
-              25.0,
-              35.0
+              25.16227260665996,
+              35.33743573519904
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589960/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/589960/batlas-map-label-location"
       }
     }
   ]

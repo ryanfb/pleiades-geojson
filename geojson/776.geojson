@@ -3,10 +3,10 @@
   "title": "Africum Mare",
   "id": "776",
   "bbox": [
-    0.0,
-    35.0,
-    15.0,
-    40.0
+    8.59403546877,
+    37.4913278005,
+    10.0940490378,
+    37.777678656
   ],
   "description": "An ancient place, cited: BAtlas 1 D3/F3 Africum Mare",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.5,
-          37.5
+          9.33375272684,
+          37.6871302388
         ]
       },
       "properties": {
@@ -33,39 +33,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              35.0
+              8.59403546876818,
+              37.49132780053623
             ],
             [
-              0.0,
-              40.0
+              8.725013581877178,
+              37.543661090594036
             ],
             [
-              15.0,
-              40.0
+              8.836350506485411,
+              37.58480120259187
             ],
             [
-              15.0,
-              35.0
+              8.939781435893718,
+              37.62085663452393
             ],
             [
-              0.0,
-              35.0
+              9.037061566624647,
+              37.65167157882794
+            ],
+            [
+              9.14982908492216,
+              37.676547199001384
+            ],
+            [
+              9.262216751111998,
+              37.69847879382214
+            ],
+            [
+              9.37310888495819,
+              37.721907940513105
+            ],
+            [
+              9.486952128761938,
+              37.74061229434985
+            ],
+            [
+              9.587175753390895,
+              37.75340578908673
+            ],
+            [
+              9.66255811538105,
+              37.758597087223244
+            ],
+            [
+              9.791904582386229,
+              37.77109064932161
+            ],
+            [
+              9.907589834890304,
+              37.77767865604429
+            ],
+            [
+              10.09404903776007,
+              37.77225377467813
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/776/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/776/batlas-map-label-location"
       }
     }
   ]

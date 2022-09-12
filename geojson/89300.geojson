@@ -3,10 +3,10 @@
   "title": "*Tectoverdi",
   "id": "89300",
   "bbox": [
-    -3.0,
-    54.0,
-    -2.0,
-    55.0
+    -2.5540607369,
+    54.8812159347,
+    -1.84736081817,
+    54.8871645872
   ],
   "description": "An ancient place, cited: BAtlas 9 E6 *Tectoverdi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          54.5
+          -2.20065196101,
+          54.8854507961
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              54.0
+              -2.554060736904262,
+              54.884785126188945
             ],
             [
-              -3.0,
-              55.0
+              -2.506471516787656,
+              54.884785126188945
             ],
             [
-              -2.0,
-              55.0
+              -2.45888229667105,
+              54.884785126188945
             ],
             [
-              -2.0,
-              54.0
+              -2.391067658004886,
+              54.884785126188945
             ],
             [
-              -3.0,
-              54.0
+              -2.330391402356213,
+              54.884785126188945
+            ],
+            [
+              -2.27209460771337,
+              54.884785126188945
+            ],
+            [
+              -2.19119293351514,
+              54.88597485669186
+            ],
+            [
+              -2.134085869375212,
+              54.887164587194775
+            ],
+            [
+              -2.065081500206134,
+              54.887164587194775
+            ],
+            [
+              -2.009164166569121,
+              54.887164587194775
+            ],
+            [
+              -1.936590605891297,
+              54.88597485669186
+            ],
+            [
+              -1.84736081817266,
+              54.8812159346802
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89300/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89300/batlas-map-label-location"
       }
     }
   ]

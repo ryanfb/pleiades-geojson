@@ -3,10 +3,10 @@
   "title": "Krokrion Pedion",
   "id": "540890",
   "bbox": [
-    22.755041,
-    39.268145,
-    22.81827,
-    39.279549
+    22.7109695204,
+    39.1931851111,
+    22.8370809537,
+    39.2348256787
   ],
   "description": "An ancient place, cited: BAtlas 55 D2 Krokrion Pedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.7799128017,
-          39.2744684682
+          22.7740956414,
+          39.214316333
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              39.0
+              22.710969520392496,
+              39.23482567871412
             ],
             [
-              22.5,
-              39.5
+              22.730600073690596,
+              39.230066756702456
             ],
             [
-              23.0,
-              39.5
+              22.752610087994526,
+              39.22233350843351
             ],
             [
-              23.0,
-              39.0
+              22.77164577604117,
+              39.21460026016456
             ],
             [
-              22.5,
-              39.0
+              22.786517407327608,
+              39.20924647290144
+            ],
+            [
+              22.80079417336259,
+              39.20508241614124
+            ],
+            [
+              22.814476074146114,
+              39.20032349412958
+            ],
+            [
+              22.837080953701502,
+              39.193185111112086
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540890/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540890/batlas-map-label-location"
       }
     }
   ]

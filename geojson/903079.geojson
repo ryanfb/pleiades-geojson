@@ -3,10 +3,10 @@
   "title": "Masabadan/Massabatene",
   "id": "903079",
   "bbox": [
-    46.0,
-    33.0,
-    47.0,
-    34.0
+    46.0171490566,
+    33.4041612384,
+    48.0188706278,
+    33.6807735803
   ],
   "description": "An ancient place, cited: BAtlas 92 B3 Masabadan/Massabatene",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.5,
-          33.5
+          47.0231774984,
+          33.5806909066
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              46.0,
-              33.0
+              46.017149056617484,
+              33.67779925404352
             ],
             [
-              46.0,
-              34.0
+              46.1599167169673,
+              33.68077358030081
             ],
             [
-              47.0,
-              34.0
+              46.27591544100153,
+              33.67482492778623
             ],
             [
-              47.0,
-              33.0
+              46.44842636392423,
+              33.66292762275708
             ],
             [
-              46.0,
-              33.0
+              46.60903998181777,
+              33.65103031772793
+            ],
+            [
+              46.802371188541485,
+              33.630210033926915
+            ],
+            [
+              47.00462537403706,
+              33.600466771354036
+            ],
+            [
+              47.22175119081908,
+              33.57667216129573
+            ],
+            [
+              47.435902681343805,
+              33.52313428866455
+            ],
+            [
+              47.62923388806752,
+              33.49636535234896
+            ],
+            [
+              47.81959076853394,
+              33.448776132232354
+            ],
+            [
+              48.01887062777223,
+              33.404161238373035
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/903079/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/903079/batlas-map-label-location"
       }
     }
   ]

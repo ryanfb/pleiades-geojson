@@ -3,10 +3,10 @@
   "title": "Parsyetai (mountain)",
   "id": "59985",
   "bbox": [
-    65.0,
-    30.0,
-    70.0,
-    35.0
+    65.5428300305,
+    32.2813430106,
+    69.5879137404,
+    33.1320003202
   ],
   "description": "The southern flank of the Hindukush.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          32.5
+          67.5821853463,
+          32.6260645448
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              30.0
+              65.54283003053598,
+              32.281343010609646
             ],
             [
-              65.0,
-              35.0
+              65.9056978339251,
+              32.311086273182525
             ],
             [
-              70.0,
-              35.0
+              66.16743854456644,
+              32.34677818826998
             ],
             [
-              70.0,
-              30.0
+              66.41133329766404,
+              32.382470103357434
             ],
             [
-              65.0,
-              30.0
+              66.67902266081995,
+              32.43005932347404
+            ],
+            [
+              66.92291741391756,
+              32.45980258604692
+            ],
+            [
+              67.16086351450059,
+              32.51928911119268
+            ],
+            [
+              67.41665557262735,
+              32.537135068736404
+            ],
+            [
+              67.64270436818123,
+              32.59662159388216
+            ],
+            [
+              68.13049387437644,
+              32.691800034115374
+            ],
+            [
+              68.41602919507608,
+              32.775081169319435
+            ],
+            [
+              68.71346182080487,
+              32.87025960955265
+            ],
+            [
+              68.95735657390247,
+              32.93569478721298
+            ],
+            [
+              69.20719997951466,
+              33.00707861738789
+            ],
+            [
+              69.5879137404475,
+              33.13200032019398
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59985/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59985/batlas-map-label-location"
       }
     }
   ]

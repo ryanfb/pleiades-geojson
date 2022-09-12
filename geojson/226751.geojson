@@ -3,10 +3,10 @@
   "title": "Sardi",
   "id": "226751",
   "bbox": [
-    32.0,
-    46.0,
-    33.0,
-    47.0
+    32.1870092537,
+    46.329950209,
+    32.5974662772,
+    46.5036508625
   ],
   "description": "An ancient place, cited: BAtlas 23 F2 Sardi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          46.5
+          32.3959378653,
+          46.4081699065
         ]
       },
       "properties": {
@@ -28,39 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              46.0
+              32.187009253734345,
+              46.32995020904218
             ],
             [
-              32.0,
-              47.0
+              32.307172034528776,
+              46.36921131563838
             ],
             [
-              33.0,
-              47.0
+              32.39878128325324,
+              46.40133403921709
             ],
             [
-              33.0,
-              46.0
+              32.49039053197771,
+              46.44535406782495
             ],
             [
-              32.0,
-              46.0
+              32.59746627724007,
+              46.503650862467794
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226751/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226751/batlas-map-label-location"
       }
     }
   ]

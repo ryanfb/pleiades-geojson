@@ -3,10 +3,10 @@
   "title": "Uticensis Sinus",
   "id": "315249",
   "bbox": [
-    10.312944,
-    36.847009,
-    11.0416578,
-    37.0836241
+    10.251976185,
+    36.9291389058,
+    10.6883838689,
+    37.0732456755
   ],
   "description": "The Gulf of Tunis",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.6798289,
-          36.9668283
+          10.4708597072,
+          37.0034593507
         ]
       },
       "properties": {
@@ -32,39 +32,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              37.0
+              10.251976184990086,
+              37.07324567550717
             ],
             [
-              10.0,
-              37.5
+              10.291597763976432,
+              37.06239108610838
             ],
             [
-              10.5,
-              37.5
+              10.342710698402602,
+              37.050253711612655
             ],
             [
-              10.5,
-              37.0
+              10.387888659347668,
+              37.03513750924546
             ],
             [
-              10.0,
-              37.0
+              10.426858780486093,
+              37.02069290752282
+            ],
+            [
+              10.457464634097702,
+              37.010057905246796
+            ],
+            [
+              10.494887853530681,
+              36.997206596479984
+            ],
+            [
+              10.535092590186553,
+              36.979693149026694
+            ],
+            [
+              10.569078121851586,
+              36.96792427127918
+            ],
+            [
+              10.609747901054115,
+              36.953221826719336
+            ],
+            [
+              10.647367862437967,
+              36.94174111822692
+            ],
+            [
+              10.688383868874315,
+              36.92913890577932
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315249/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/315249/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Medulli",
   "id": "167829",
   "bbox": [
-    6.5,
-    45.0,
-    7.0,
-    45.5
+    6.61058394502,
+    45.237597565,
+    6.95520440995,
+    45.266840816
   ],
   "description": "An ancient place, cited: BAtlas 17 H3 Medulli",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          45.25
+          6.78369891307,
+          45.2448200359
         ]
       },
       "properties": {
@@ -61,6 +61,51 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/167829/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              6.6105839450193,
+              45.24164663055785
+            ],
+            [
+              6.692914943821279,
+              45.23759756504296
+            ],
+            [
+              6.745102899346023,
+              45.238947253547906
+            ],
+            [
+              6.793691685523982,
+              45.240746838221185
+            ],
+            [
+              6.836881717682331,
+              45.24389611139924
+            ],
+            [
+              6.880521646009186,
+              45.24974476158741
+            ],
+            [
+              6.955204409949545,
+              45.266840815983414
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167829/batlas-map-label-location"
       }
     }
   ]

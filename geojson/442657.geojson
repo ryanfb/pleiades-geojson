@@ -3,10 +3,10 @@
   "title": "Messapii",
   "id": "442657",
   "bbox": [
-    17.391887,
-    39.926319,
-    18.202308,
-    40.888326
+    17.6921311553,
+    40.4437121875,
+    18.0222813699,
+    40.447281379
   ],
   "description": "The Messapii were an ancient Indo-European people occupying the Salento peninsula in southeast Italy.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8811268462,
-          40.4129211538
+          17.857216312,
+          40.4464002202
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.5,
-              40.0
+              17.69213115532807,
+              40.44609164849646
             ],
             [
-              17.5,
-              40.5
+              17.767084177011725,
+              40.44728137899938
             ],
             [
-              18.0,
-              40.5
+              17.810509340368128,
+              40.44728137899938
             ],
             [
-              18.0,
-              40.0
+              17.850365312215786,
+              40.44728137899938
             ],
             [
-              17.5,
-              40.0
+              17.889031553560528,
+              40.44728137899938
+            ],
+            [
+              17.931861851665474,
+              40.44609164849646
+            ],
+            [
+              17.97231268876459,
+              40.44490191799355
+            ],
+            [
+              18.022281369887025,
+              40.44371218749063
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442657/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442657/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Thynoi",
   "id": "511442",
   "bbox": [
-    29.5,
-    41.0,
-    30.0,
-    41.5
+    29.6110488266,
+    41.0879208553,
+    30.1737913545,
+    41.1021976213
   ],
   "description": "An ancient place, cited: BAtlas 52 F2 Thynoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.75,
-          41.25
+          29.8923360081,
+          41.0929881688
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.5,
-              41.0
+              29.611048826643582,
+              41.102197621310324
             ],
             [
-              29.5,
-              41.5
+              29.72169376341469,
+              41.09386950778992
             ],
             [
-              30.0,
-              41.5
+              29.83709762219746,
+              41.08792085527534
             ],
             [
-              30.0,
-              41.0
+              29.944173367459825,
+              41.09030031628117
             ],
             [
-              29.5,
-              41.0
+              30.067905339763,
+              41.092679777287
+            ],
+            [
+              30.17379135452245,
+              41.09862842980158
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511442/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511442/batlas-map-label-location"
       }
     }
   ]

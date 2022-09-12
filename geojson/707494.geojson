@@ -3,10 +3,10 @@
   "title": "Boukasa (mountain)",
   "id": "707494",
   "bbox": [
-    32.5,
-    35.0,
-    33.0,
-    35.5
+    32.9301854737,
+    35.102127215,
+    32.9901478911,
+    35.1059343526
   ],
   "description": "Petra-Phoukasa.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          35.25
+          32.9602242577,
+          35.1047434958
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              35.0
+              32.930185473704285,
+              35.104506675962284
             ],
             [
-              32.5,
-              35.5
+              32.94017920992883,
+              35.10545846036467
             ],
             [
-              33.0,
-              35.5
+              32.95064883835437,
+              35.10498256816345
             ],
             [
-              33.0,
-              35.0
+              32.963022035584686,
+              35.105934352565896
             ],
             [
-              32.5,
-              35.0
+              32.97491934061384,
+              35.104506675962284
+            ],
+            [
+              32.990147891051265,
+              35.102127214956454
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707494/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707494/batlas-map-label-location"
       }
     }
   ]

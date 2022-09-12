@@ -3,10 +3,10 @@
   "title": "Archene",
   "id": "874343",
   "bbox": [
-    41.0,
-    38.0,
-    42.0,
-    39.0
+    41.9136910794,
+    38.9516113311,
+    42.2420566982,
+    39.1186494938
   ],
   "description": "An ancient place, cited: BAtlas 89 D2 Archene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          38.5
+          42.0719152878,
+          39.0466888576
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              38.0
+              41.91369107942464,
+              38.95161133114957
             ],
             [
-              41.0,
-              39.0
+              41.972225820168056,
+              38.995869305858015
             ],
             [
-              42.0,
-              39.0
+              42.019339148083496,
+              39.02585051453148
             ],
             [
-              42.0,
-              38.0
+              42.07216318241293,
+              39.05725939980844
             ],
             [
-              41.0,
-              38.0
+              42.12070418693187,
+              39.075819195653914
+            ],
+            [
+              42.1749558978648,
+              39.097234344706386
+            ],
+            [
+              42.24205669822921,
+              39.11864949375886
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874343/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874343/batlas-map-label-location"
       }
     }
   ]

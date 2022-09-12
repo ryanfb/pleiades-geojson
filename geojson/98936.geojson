@@ -3,10 +3,10 @@
   "title": "(Ch)Attuarii",
   "id": "98936",
   "bbox": [
-    7.0,
-    52.0,
-    8.0,
-    53.0
+    7.30095687671,
+    52.564040295,
+    8.08332365543,
+    52.5697510014
   ],
   "description": "An ancient place, cited: BAtlas 10 D4 (Ch)Attuarii",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.5,
-          52.5
+          7.69213372554,
+          52.567119672
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              52.0
+              7.300956876711382,
+              52.56404029500385
             ],
             [
-              7.0,
-              53.0
+              7.378051413300398,
+              52.56404029500385
             ],
             [
-              8.0,
-              53.0
+              7.462284332906677,
+              52.56546797160729
             ],
             [
-              8.0,
-              52.0
+              7.512253014029113,
+              52.56546797160729
             ],
             [
-              7.0,
-              52.0
+              7.559366341944497,
+              52.56546797160729
+            ],
+            [
+              7.633605525326459,
+              52.568323324814344
+            ],
+            [
+              7.707844708708365,
+              52.568323324814344
+            ],
+            [
+              7.782083892090327,
+              52.568323324814344
+            ],
+            [
+              7.852040045661624,
+              52.568323324814344
+            ],
+            [
+              7.920568522629708,
+              52.568323324814344
+            ],
+            [
+              7.981958616580073,
+              52.568323324814344
+            ],
+            [
+              8.083323655428387,
+              52.56975100141773
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98936/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98936/batlas-map-label-location"
       }
     }
   ]

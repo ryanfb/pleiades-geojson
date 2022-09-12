@@ -3,10 +3,10 @@
   "title": "Ausetani",
   "id": "246211",
   "bbox": [
-    2.8480864,
-    41.7160823,
-    2.8480864,
-    41.7160823
+    2.3055476243,
+    41.9149599922,
+    2.7148149173,
+    42.0148973545
   ],
   "description": "An ancient place, cited: BAtlas 25 H4 Ausetani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.8480864,
-          41.7160823
+          2.51114026164,
+          41.961040291
         ]
       },
       "properties": {
@@ -28,39 +28,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              2.0,
-              41.0
+              2.305547624299573,
+              41.914959992210335
             ],
             [
-              2.0,
-              42.0
+              2.524458036835959,
+              41.96016975132111
             ],
             [
-              3.0,
-              42.0
-            ],
-            [
-              3.0,
-              41.0
-            ],
-            [
-              2.0,
-              41.0
+              2.714814917302381,
+              42.01489735445521
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246211/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246211/batlas-map-label-location"
       }
     }
   ]

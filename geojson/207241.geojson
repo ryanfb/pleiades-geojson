@@ -3,10 +3,10 @@
   "title": "Limes Daciae",
   "id": "207241",
   "bbox": [
-    22.0,
-    47.0,
-    23.0,
-    48.0
+    22.7311816746,
+    47.0164057178,
+    23.8933104298,
+    47.4232935498
   ],
   "description": "An ancient place, cited: BAtlas 21 E2 Limes Daciae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          47.5
+          23.2836165359,
+          47.2951655628
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              47.0
+              22.731181674573804,
+              47.0164057177621
             ],
             [
-              22.0,
-              48.0
+              22.828263683611794,
+              47.1034939905756
             ],
             [
-              23.0,
-              48.0
+              22.91106892661469,
+              47.16345640792241
             ],
             [
-              23.0,
-              47.0
+              22.992446493014086,
+              47.21628044225184
             ],
             [
-              22.0,
-              47.0
+              23.08810082544835,
+              47.264821446770895
+            ],
+            [
+              23.1723337450548,
+              47.303368715065346
+            ],
+            [
+              23.266560400885623,
+              47.33334992373875
+            ],
+            [
+              23.373636146147987,
+              47.361903455808715
+            ],
+            [
+              23.489277951031454,
+              47.387601634671626
+            ],
+            [
+              23.599209049500814,
+              47.40473375391366
+            ],
+            [
+              23.70342944155618,
+              47.414727490138205
+            ],
+            [
+              23.893310429821383,
+              47.42329354975908
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/207241/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/207241/batlas-map-label-location"
       }
     }
   ]

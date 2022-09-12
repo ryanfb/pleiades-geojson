@@ -3,10 +3,10 @@
   "title": "Alpes Delmaticae",
   "id": "197106",
   "bbox": [
-    14.0,
-    45.0,
-    15.0,
-    46.0
+    14.6220350789,
+    45.0385749265,
+    15.2944707592,
+    45.4083431669
   ],
   "description": "An ancient place, cited: BAtlas 20 B4 Alpes Delmaticae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          45.5
+          14.9739143597,
+          45.2508513808
         ]
       },
       "properties": {
@@ -28,39 +28,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              45.0
+              14.622035078903082,
+              45.40834316685397
             ],
             [
-              14.0,
-              46.0
+              14.6862805260605,
+              45.386928017801495
             ],
             [
-              15.0,
-              46.0
+              14.731966177372499,
+              45.375506604973566
             ],
             [
-              15.0,
-              45.0
+              14.763375062649516,
+              45.35980216233514
             ],
             [
-              14.0,
-              45.0
+              14.80477768415085,
+              45.34409771969655
+            ],
+            [
+              14.857601718480282,
+              45.32268257064425
+            ],
+            [
+              14.928985548655191,
+              45.29412903857428
+            ],
+            [
+              14.996086349019663,
+              45.25843712348683
+            ],
+            [
+              15.031778264107118,
+              45.23416662122736
+            ],
+            [
+              15.070325532401625,
+              45.21275147217489
+            ],
+            [
+              15.097451387867977,
+              45.198474706139905
+            ],
+            [
+              15.128860273144937,
+              45.17277652727694
+            ],
+            [
+              15.165979864835833,
+              45.14850602501747
+            ],
+            [
+              15.187395013888306,
+              45.13565693558587
+            ],
+            [
+              15.231652988596863,
+              45.099965020498416
+            ],
+            [
+              15.254495814252778,
+              45.07569451823895
+            ],
+            [
+              15.29447075915067,
+              45.03857492654805
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197106/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197106/batlas-map-label-location"
       }
     }
   ]

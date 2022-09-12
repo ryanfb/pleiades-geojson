@@ -3,10 +3,10 @@
   "title": "Nikasiai (islands)",
   "id": "599827",
   "bbox": [
-    25.6899641,
-    37.0769503,
-    25.7100597,
-    37.0863475
+    25.6807329818,
+    37.0529732656,
+    25.7421230757,
+    37.1115080063
   ],
   "description": "An ancient place, cited: BAtlas 61 B3 Nikasiai Inss.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.6978116644,
-          37.0832195504
+          25.7144037802,
+          37.0852170278
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              37.0
+              25.680732981757046,
+              37.11150800632021
             ],
             [
-              25.5,
-              37.5
+              25.691202610182643,
+              37.106273192107324
             ],
             [
-              26.0,
-              37.5
+              25.695961532194303,
+              37.101990162296886
             ],
             [
-              26.0,
-              37.0
+              25.70357580741296,
+              37.09627945588278
             ],
             [
-              25.5,
-              37.0
+              25.711190082631674,
+              37.090092857267734
+            ],
+            [
+              25.719280250051554,
+              37.08343036645141
+            ],
+            [
+              25.729749878477094,
+              37.07248484582448
+            ],
+            [
+              25.737840045896974,
+              37.06201521739894
+            ],
+            [
+              25.742123075707468,
+              37.05297326557684
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599827/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599827/batlas-map-label-location"
       }
     }
   ]

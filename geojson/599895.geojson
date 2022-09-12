@@ -3,10 +3,10 @@
   "title": "Polichne",
   "id": "599895",
   "bbox": [
-    25.0,
-    37.0,
-    25.5,
-    37.5
+    25.3731437842,
+    36.9821166844,
+    25.4052665078,
+    37.0292300124
   ],
   "description": "An ancient place, cited: BAtlas 61 A3 Polichne",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          37.25
+          25.3912826298,
+          37.0071331285
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.0,
-              37.0
+              25.37314378423273,
+              37.029230012360706
             ],
             [
-              25.0,
-              37.5
+              25.386706711965964,
+              37.01638092292922
             ],
             [
-              25.5,
-              37.5
+              25.39670044819045,
+              37.00139031859249
             ],
             [
-              25.5,
-              37.0
-            ],
-            [
-              25.0,
-              37.0
+              25.40526650781144,
+              36.982116684445266
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599895/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599895/batlas-map-label-location"
       }
     }
   ]

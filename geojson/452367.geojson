@@ -3,10 +3,10 @@
   "title": "Leucosia (island)",
   "id": "452367",
   "bbox": [
-    16.0,
-    38.5,
-    16.5,
-    39.0
+    16.0901630342,
+    38.7304481519,
+    16.1393116579,
+    38.7316542531
   ],
   "description": "In ancient times, the area of the modern Italian port town of Vibo Marina on the Gulf of Saint Euphemia was an island named Leucosia. Artificial port construction began in antiquity and, together with natural processes, has connected Leucosia to the mainland.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.25,
-          38.75
+          16.1147383422,
+          38.7310628004
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              38.5
+              16.090163034184002,
+              38.73135272778097
             ],
             [
-              16.0,
-              39.0
+              16.101620995532926,
+              38.730448151885014
             ],
             [
-              16.5,
-              39.0
+              16.107802264155396,
+              38.73105120248238
             ],
             [
-              16.5,
-              38.5
+              16.113983532777866,
+              38.731201965131675
             ],
             [
-              16.0,
-              38.5
+              16.119410988153845,
+              38.73135272778097
+            ],
+            [
+              16.126195307373678,
+              38.73165425307957
+            ],
+            [
+              16.131773525398785,
+              38.73105120248238
+            ],
+            [
+              16.139311657865278,
+              38.730448151885014
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452367/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/452367/batlas-map-label-location"
       }
     }
   ]

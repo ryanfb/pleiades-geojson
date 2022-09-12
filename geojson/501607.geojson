@@ -3,10 +3,10 @@
   "title": "Serreion/Zonaion M.",
   "id": "501607",
   "bbox": [
-    25.5,
-    40.5,
-    26.0,
-    41.0
+    25.7317400023,
+    40.9201066563,
+    25.8152590836,
+    40.9372387756
   ],
   "description": "An ancient place, cited: BAtlas 51 F3 Serreion/Zonaion M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.75,
-          40.75
+          25.7737021569,
+          40.9295920977
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              40.5
+              25.731740002287893,
+              40.93723877557488
             ],
             [
-              25.5,
-              41.0
+              25.75029979813337,
+              40.934383422368
             ],
             [
-              26.0,
-              41.0
+              25.76457656416835,
+              40.932241907462696
             ],
             [
-              26.0,
-              40.5
+              25.780281006806945,
+              40.9279588776522
             ],
             [
-              25.5,
-              40.5
+              25.79527161114362,
+              40.9258173627469
+            ],
+            [
+              25.81525908359248,
+              40.92010665633302
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501607/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501607/batlas-map-label-location"
       }
     }
   ]

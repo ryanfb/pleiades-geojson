@@ -3,10 +3,10 @@
   "title": "Olympus/Phoinikous M.",
   "id": "639018",
   "bbox": [
-    30.0,
-    36.5,
-    30.5,
-    37.0
+    30.3461977258,
+    36.5088118201,
+    30.5160912416,
+    36.5662758033
   ],
   "description": "An ancient place, cited: BAtlas 65 D4 Olympus/Phoinikous M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          36.75
+          30.4284596349,
+          36.5447642486
         ]
       },
       "properties": {
@@ -29,39 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              36.5
+              30.346197725796742,
+              36.508811820056906
             ],
             [
-              30.0,
-              37.0
+              30.355477623719366,
+              36.51487944562177
             ],
             [
-              30.5,
-              37.0
+              30.366185198245603,
+              36.522374747790195
             ],
             [
-              30.5,
-              36.5
+              30.37689277277184,
+              36.52879929250582
             ],
             [
-              30.0,
-              36.5
+              30.38974186220338,
+              36.534866918070804
+            ],
+            [
+              30.405803223992734,
+              36.540934543635615
+            ],
+            [
+              30.419366151726024,
+              36.54664525004955
+            ],
+            [
+              30.431144483704713,
+              36.54985752240748
+            ],
+            [
+              30.452202713606425,
+              36.554854390519836
+            ],
+            [
+              30.465765641339715,
+              36.55806666287765
+            ],
+            [
+              30.483611598883442,
+              36.561278935235464
+            ],
+            [
+              30.496460688314812,
+              36.56306353098984
+            ],
+            [
+              30.516091241612912,
+              36.56627580334782
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639018/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/639018/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Turduli Veteres",
   "id": "236695",
   "bbox": [
-    -8.532558,
-    40.636052,
-    -8.466492,
-    40.991697
+    -8.53814064203,
+    40.9593569896,
+    -8.34540430055,
+    41.0321684964
   ],
   "description": "An ancient place, cited: BAtlas 24 C3 Turduli Veteres",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.499525,
-          40.8138745
+          -8.44365905977,
+          40.9908379194
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              41.0
+              -8.538140642025724,
+              41.03216849639307
             ],
             [
-              -9.0,
-              42.0
+              -8.503876403541824,
+              41.015036377151205
             ],
             [
-              -8.0,
-              42.0
+              -8.469612165057868,
+              40.996476581305615
             ],
             [
-              -8.0,
-              41.0
+              -8.42820954355642,
+              40.98219981527063
             ],
             [
-              -9.0,
-              41.0
+              -8.391089951865467,
+              40.97077840244265
+            ],
+            [
+              -8.345404300553469,
+              40.95935698961472
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236695/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236695/batlas-map-label-location"
       }
     }
   ]

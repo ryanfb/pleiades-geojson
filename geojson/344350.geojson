@@ -3,10 +3,10 @@
   "title": "Elaiones?",
   "id": "344350",
   "bbox": [
-    15.0,
-    31.0,
-    16.0,
-    32.0
+    15.2368947429,
+    31.4248888286,
+    15.4843586875,
+    31.4315513194
   ],
   "description": "An ancient place, cited: BAtlas 35 H3 Elaiones?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5,
-          31.5
+          15.3605903752,
+          31.4270952918
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.0,
-              31.0
+              15.23689474290444,
+              31.431551319388063
             ],
             [
-              15.0,
-              32.0
+              15.279725041009385,
+              31.428695966181067
             ],
             [
-              16.0,
-              32.0
+              15.310182141884013,
+              31.42774418177879
             ],
             [
-              16.0,
-              31.0
+              15.332073183137652,
+              31.42774418177879
             ],
             [
-              15.0,
-              31.0
+              15.355867793195955,
+              31.425840612974184
+            ],
+            [
+              15.387276678472801,
+              31.425840612974184
+            ],
+            [
+              15.416781994945154,
+              31.424888828571795
+            ],
+            [
+              15.446287311417507,
+              31.425840612974184
+            ],
+            [
+              15.484358687510792,
+              31.426792397376403
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344350/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344350/batlas-map-label-location"
       }
     }
   ]

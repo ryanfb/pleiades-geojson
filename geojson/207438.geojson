@@ -3,10 +3,10 @@
   "title": "Serdoi",
   "id": "207438",
   "bbox": [
-    22.0,
-    43.0,
-    23.0,
-    44.0
+    22.4737725744,
+    43.0694341252,
+    23.135262734,
+    43.0825211607
   ],
   "description": "An ancient place, cited: BAtlas 21 E6 Serdoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          43.5
+          22.8045001192,
+          43.0760933608
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              43.0
+              22.473772574405245,
+              43.08252116074766
             ],
             [
-              22.0,
-              44.0
+              22.61772996525798,
+              43.076572508233085
             ],
             [
-              23.0,
-              44.0
+              22.743841398566985,
+              43.077762238736
             ],
             [
-              23.0,
-              43.0
+              22.859245257349755,
+              43.076572508233085
             ],
             [
-              22.0,
-              43.0
+              22.97821830764127,
+              43.074193047227254
+            ],
+            [
+              23.13526273402607,
+              43.069434125215594
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/207438/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/207438/batlas-map-label-location"
       }
     }
   ]

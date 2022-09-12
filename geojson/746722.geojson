@@ -3,10 +3,10 @@
   "title": "Bythemanoi",
   "id": "746722",
   "bbox": [
-    34.5,
-    28.5,
-    35.0,
-    29.0
+    34.8660673588,
+    28.6117328988,
+    35.1116277346,
+    28.6126846832
   ],
   "description": "An ancient place, cited: BAtlas 76 F4 Bythemanoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.75,
-          28.75
+          34.9888441511,
+          28.6120022433
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.5,
-              28.5
+              34.86606735882788,
+              28.612684683164787
             ],
             [
-              34.5,
-              29.0
+              34.896524459702505,
+              28.61173289876257
             ],
             [
-              35.0,
-              29.0
+              34.918415500956144,
+              28.61173289876257
             ],
             [
-              35.0,
-              28.5
+              34.9450654642215,
+              28.61173289876257
             ],
             [
-              34.5,
-              28.5
+              34.967908289877414,
+              28.61173289876257
+            ],
+            [
+              34.99646182194738,
+              28.612684683164787
+            ],
+            [
+              35.02406356961495,
+              28.612684683164787
+            ],
+            [
+              35.048809964075645,
+              28.61173289876257
+            ],
+            [
+              35.07355635853634,
+              28.61173289876257
+            ],
+            [
+              35.11162773462962,
+              28.61173289876257
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/746722/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/746722/batlas-map-label-location"
       }
     }
   ]

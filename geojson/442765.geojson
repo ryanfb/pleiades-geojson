@@ -3,10 +3,10 @@
   "title": "Samnites",
   "id": "442765",
   "bbox": [
-    14.5,
-    41.0,
-    15.0,
-    41.5
+    14.9050050269,
+    41.0561378612,
+    15.2547857948,
+    41.2203206706
   ],
   "description": "An ancient, Oscan-speaking people who lived in the central southern part of the Apennine mountains in Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.75,
-          41.25
+          15.0839425579,
+          41.146745591
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              41.0
+              14.905005026905712,
+              41.22032067057347
             ],
             [
-              14.5,
-              41.5
+              14.965086417302928,
+              41.199500386772456
             ],
             [
-              15.0,
-              41.5
+              15.017434559431194,
+              41.18105956397727
             ],
             [
-              15.0,
-              41.0
+              15.070972432062376,
+              41.15904954967334
             ],
             [
-              14.5,
-              41.0
+              15.109638673407119,
+              41.1400138616267
+            ],
+            [
+              15.150684375757692,
+              41.11919357782568
+            ],
+            [
+              15.19291980861118,
+              41.09539896776738
+            ],
+            [
+              15.254785794762768,
+              41.05613786117118
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442765/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442765/batlas-map-label-location"
       }
     }
   ]

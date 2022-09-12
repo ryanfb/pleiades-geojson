@@ -3,10 +3,10 @@
   "title": "Aouidenoi",
   "id": "678020",
   "bbox": [
-    36.5,
-    32.5,
-    37.0,
-    33.0
+    36.8104330139,
+    32.7340192125,
+    37.0126871994,
+    32.7344951047
   ],
   "description": "An ancient place, cited: BAtlas 69 E4 Aouidenoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          32.75
+          36.9115595298,
+          32.7342946684
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.5,
-              32.5
+              36.81043301387899,
+              32.73449510465127
             ],
             [
-              36.5,
-              33.0
+              36.8427936835584,
+              32.73449510465127
             ],
             [
-              37.0,
-              33.0
+              36.868015970220085,
+              32.73401921245005
             ],
             [
-              37.0,
-              32.5
+              36.88847933487034,
+              32.73401921245005
             ],
             [
-              36.5,
-              32.5
+              36.907039130715816,
+              32.73401921245005
+            ],
+            [
+              36.92845427976829,
+              32.73401921245005
+            ],
+            [
+              36.95272478202776,
+              32.73449510465127
+            ],
+            [
+              36.97556760768367,
+              32.73449510465127
+            ],
+            [
+              37.01268719937457,
+              32.73449510465127
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678020/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678020/batlas-map-label-location"
       }
     }
   ]

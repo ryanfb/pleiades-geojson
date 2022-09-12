@@ -3,10 +3,10 @@
   "title": "Volsci",
   "id": "433208",
   "bbox": [
-    12.77721,
-    41.4907686,
-    13.609876,
-    41.692693
+    12.9655306214,
+    41.4156532955,
+    13.3813414321,
+    41.4852525299
   ],
   "description": "The Volsci (Volscians) were an Italic tribe of central Italy during the first millennium B.C. They inhabited parts of southern Latium and were bounded by other tribes, including the Aurunci, Samnites, and Hernici.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.058914,
-          41.498686
+          13.1751275115,
+          41.4599009768
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              41.0
+              12.965530621378832,
+              41.48525252988247
             ],
             [
-              13.0,
-              41.5
+              13.05951126557028,
+              41.48035671042862
             ],
             [
-              13.5,
-              41.5
+              13.15868720029323,
+              41.465889587513175
             ],
             [
-              13.5,
-              41.0
+              13.229650793025996,
+              41.45491440205814
             ],
             [
-              13.0,
-              41.0
+              13.30995760197277,
+              41.43885304026878
+            ],
+            [
+              13.381341432147678,
+              41.41565329546194
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433208/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433208/batlas-map-label-location"
       }
     }
   ]

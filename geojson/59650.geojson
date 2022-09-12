@@ -3,10 +3,10 @@
   "title": "Abii",
   "id": "59650",
   "bbox": [
-    60.0,
-    40.0,
-    65.0,
-    45.0
+    64.7632194608,
+    40.4103353025,
+    65.5984102739,
+    40.4745807497
   ],
   "description": "The Abii were an ancient Scythian people.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          62.5,
-          42.5
+          65.1805169846,
+          40.4458524684
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              60.0,
-              40.0
+              64.76321946081725,
+              40.410335302511044
             ],
             [
-              60.0,
-              45.0
+              65.09872346263933,
+              40.4460272175985
             ],
             [
-              65.0,
-              45.0
+              65.31287495316406,
+              40.45316560061599
             ],
             [
-              65.0,
-              40.0
-            ],
-            [
-              60.0,
-              40.0
+              65.59841027386369,
+              40.47458074966846
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59650/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59650/batlas-map-label-location"
       }
     }
   ]

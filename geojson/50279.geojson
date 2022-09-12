@@ -3,10 +3,10 @@
   "title": "Sorai",
   "id": "50279",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    78.5151973553,
+    11.1581014629,
+    79.4907763677,
+    13.6267922564
   ],
   "description": "An ancient place, cited: BAtlas 5 D4 Sorai",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          79.0399818727,
+          12.3769892447
         ]
       },
       "properties": {
@@ -29,39 +29,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              78.51519735526932,
+              11.158101462851619
             ],
             [
-              75.0,
-              15.0
+              78.85427054860014,
+              11.824350544484105
             ],
             [
-              80.0,
-              15.0
+              79.06247338661029,
+              12.395421185883379
             ],
             [
-              80.0,
-              10.0
+              79.27662487713502,
+              12.978389132311804
             ],
             [
-              75.0,
-              10.0
+              79.49077636765975,
+              13.626792256400563
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50279/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50279/batlas-map-label-location"
       }
     }
   ]

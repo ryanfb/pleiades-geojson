@@ -3,10 +3,10 @@
   "title": "Mardoi?",
   "id": "874589",
   "bbox": [
-    43.0,
-    39.0,
-    44.0,
-    40.0
+    43.94829887,
+    38.495764739,
+    44.2152743949,
+    39.1524959766
   ],
   "description": "An ancient people, tribe, or cultural group. Located: in plains of Saray; and in district of upper Kara Su to N?.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          39.5
+          44.1118328767,
+          38.8360598619
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              39.0
+              43.94829887004776,
+              39.15249597659643
             ],
             [
-              43.0,
-              40.0
+              44.03967017267164,
+              39.0154390226606
             ],
             [
-              44.0,
-              40.0
+              44.099632590018565,
+              38.911218630605234
             ],
             [
-              44.0,
-              39.0
+              44.14531824133051,
+              38.798432178928884
             ],
             [
-              43.0,
-              39.0
+              44.18386550962496,
+              38.68421805064903
+            ],
+            [
+              44.202425305470435,
+              38.577142305386666
+            ],
+            [
+              44.21527439490192,
+              38.49576473898727
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874589/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874589/batlas-map-label-location"
       }
     }
   ]

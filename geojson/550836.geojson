@@ -3,10 +3,10 @@
   "title": "Plakos (mountain)",
   "id": "550836",
   "bbox": [
-    27.0,
-    39.5,
-    27.5,
-    40.0
+    26.9823692195,
+    39.6112545261,
+    27.0370968226,
+    39.6340973518
   ],
   "description": "Paşa Dağ, mountain and village above Thebe.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          39.75
+          27.0094470945,
+          39.6218360865
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              39.5
+              26.98236921950007,
+              39.63409735175247
             ],
             [
-              27.0,
-              40.0
+              26.99950133874205,
+              39.62648307653393
             ],
             [
-              27.5,
-              40.0
+              27.010922751570035,
+              39.62029647791866
             ],
             [
-              27.5,
-              39.5
+              27.018061134587526,
+              39.61696523251061
             ],
             [
-              27.0,
-              39.5
+              27.023295948800353,
+              39.61601344810822
+            ],
+            [
+              27.029482547415455,
+              39.613158094901166
+            ],
+            [
+              27.03709682263417,
+              39.61125452609656
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550836/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550836/batlas-map-label-location"
       }
     }
   ]

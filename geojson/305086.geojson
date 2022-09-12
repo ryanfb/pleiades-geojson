@@ -3,10 +3,10 @@
   "title": "Giddibenses?",
   "id": "305086",
   "bbox": [
-    7.0,
-    36.5,
-    7.5,
-    37.0
+    7.353198908,
+    36.9338432629,
+    7.60148415849,
+    37.0004726359
   ],
   "description": "An ancient place, cited: BAtlas 31 G3 Giddibenses?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          36.75
+          7.47701821911,
+          36.9659017949
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              36.5
+              7.353198907998181,
+              37.00047263590847
             ],
             [
-              7.0,
-              37.0
+              7.385572990849445,
+              36.99193897558166
             ],
             [
-              7.5,
-              37.0
+              7.405053123665446,
+              36.98546552818383
             ],
             [
-              7.5,
-              36.5
+              7.428206014084133,
+              36.97963219537158
             ],
             [
-              7.0,
-              36.5
+              7.449453822613603,
+              36.972998636189956
+            ],
+            [
+              7.466094649291079,
+              36.96771979760969
+            ],
+            [
+              7.485817588250815,
+              36.96313142977743
+            ],
+            [
+              7.512185237405295,
+              36.95460183365624
+            ],
+            [
+              7.533611585619054,
+              36.94937698939349
+            ],
+            [
+              7.552734789319502,
+              36.94482920780197
+            ],
+            [
+              7.572575639458845,
+              36.94117567132059
+            ],
+            [
+              7.601484158491595,
+              36.933843262931745
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305086/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305086/batlas-map-label-location"
       }
     }
   ]

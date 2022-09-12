@@ -3,10 +3,10 @@
   "title": "Agessinates",
   "id": "246149",
   "bbox": [
-    1.0,
-    43.0,
-    2.0,
-    44.0
+    1.04358934862,
+    43.7324894871,
+    1.54470383645,
+    43.8581250282
   ],
   "description": "An ancient people, tribe, or cultural group. Located: FRA.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          43.5
+          1.29042196979,
+          43.7811994415
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              43.0
+              1.043589348618013,
+              43.85812502822472
             ],
             [
-              1.0,
-              44.0
+              1.107834795775432,
+              43.829571496154756
             ],
             [
-              2.0,
-              44.0
+              1.150665093880377,
+              43.81386705351616
             ],
             [
-              2.0,
-              43.0
+              1.193495391985323,
+              43.79959028748118
             ],
             [
-              1.0,
-              43.0
+              1.240608719900763,
+              43.7853135214462
+            ],
+            [
+              1.274872958384776,
+              43.77817513842871
+            ],
+            [
+              1.324841639507213,
+              43.76532604899734
+            ],
+            [
+              1.3690996142156,
+              43.756759989376235
+            ],
+            [
+              1.416212942130983,
+              43.74819392975536
+            ],
+            [
+              1.461898593442982,
+              43.743910899944865
+            ],
+            [
+              1.544703836445819,
+              43.732489487116936
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246149/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246149/batlas-map-label-location"
       }
     }
   ]

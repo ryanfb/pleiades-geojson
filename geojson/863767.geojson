@@ -3,10 +3,10 @@
   "title": "Ceraunii (mountain)",
   "id": "863767",
   "bbox": [
-    47.0,
-    41.0,
-    48.0,
-    42.0
+    46.9390460404,
+    41.6519316612,
+    47.4922707243,
+    41.9707794359
   ],
   "description": "Daghestan Mts.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.5,
-          41.5
+          47.2205218202,
+          41.8197368091
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              47.0,
-              41.0
+              47.49227072427772,
+              41.65193166115216
             ],
             [
-              47.0,
-              42.0
+              47.45657880919026,
+              41.67929546271921
             ],
             [
-              48.0,
-              42.0
+              47.42088689410281,
+              41.7019003422746
             ],
             [
-              48.0,
-              41.0
+              47.3887641705241,
+              41.724505221829986
             ],
             [
-              47.0,
-              41.0
+              47.34712360292207,
+              41.751869023397035
+            ],
+            [
+              47.298344652302546,
+              41.77685336395825
+            ],
+            [
+              47.20911486458391,
+              41.830391236589435
+            ],
+            [
+              47.182940793519776,
+              41.84585773312733
+            ],
+            [
+              47.14843860893524,
+              41.864893421173974
+            ],
+            [
+              47.10679804133321,
+              41.88868803123228
+            ],
+            [
+              47.065157473731176,
+              41.906533988776005
+            ],
+            [
+              47.025896367134976,
+              41.93032859883431
+            ],
+            [
+              46.98782499104169,
+              41.94936428688095
+            ],
+            [
+              46.93904604042217,
+              41.97077943593342
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863767/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863767/batlas-map-label-location"
       }
     }
   ]

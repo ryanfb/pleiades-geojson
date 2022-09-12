@@ -3,10 +3,10 @@
   "title": "Kynthos (mountain)",
   "id": "599741",
   "bbox": [
-    25.0,
-    37.0,
-    25.5,
-    37.5
+    25.1543962073,
+    37.1143633595,
+    25.1896122302,
+    37.1200740659
   ],
   "description": "A mountain on Paros.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          37.25
+          25.1718797351,
+          37.1180205808
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.0,
-              37.0
+              25.154396207267382,
+              37.114363359527204
             ],
             [
-              25.0,
-              37.5
+              25.159155129279043,
+              37.115791036130645
             ],
             [
-              25.5,
-              37.5
+              25.1667694044977,
+              37.11769460493525
             ],
             [
-              25.5,
-              37.0
+              25.175335464118632,
+              37.1186463893377
             ],
             [
-              25.0,
-              37.0
+              25.183901523739735,
+              37.12007406594108
+            ],
+            [
+              25.189612230153614,
+              37.12007406594108
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599741/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599741/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Alfaterni",
   "id": "432665",
   "bbox": [
-    14.5,
-    40.5,
-    15.0,
-    41.0
+    14.5846632968,
+    40.727647602,
+    14.7474184296,
+    40.7305029552
   ],
   "description": "An ancient place, cited: BAtlas 44 G4 Alfaterni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.75,
-          40.75
+          14.666038077,
+          40.7288756907
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              40.5
+              14.584663296814256,
+              40.7305029552349
             ],
             [
-              14.5,
-              41.0
+              14.610004556526235,
+              40.729789116933205
             ],
             [
-              15.0,
-              41.0
+              14.629278190673574,
+              40.729075278631456
             ],
             [
-              15.0,
-              40.5
+              14.64498263331194,
+              40.728718359480695
             ],
             [
-              14.5,
-              40.5
+              14.663899348308348,
+              40.72943219778239
+            ],
+            [
+              14.682459144153768,
+              40.72836144032976
+            ],
+            [
+              14.700662020848483,
+              40.727647602027844
+            ],
+            [
+              14.721720250749968,
+              40.72836144032976
+            ],
+            [
+              14.747418429612935,
+              40.72836144032976
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432665/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432665/batlas-map-label-location"
       }
     }
   ]

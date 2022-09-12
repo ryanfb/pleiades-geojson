@@ -3,10 +3,10 @@
   "title": "Campus Serenus",
   "id": "511202",
   "bbox": [
-    27.5,
-    41.0,
-    28.0,
-    41.5
+    27.5749004205,
+    41.2246225304,
+    27.8140362516,
+    41.3170645905
   ],
   "description": "An ancient place, cited: BAtlas 52 B2 Campus Serenus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          41.25
+          27.6987142174,
+          41.2599191236
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              41.0
+              27.574900420502672,
+              41.224622530446254
             ],
             [
-              27.5,
-              41.5
+              27.596672488706076,
+              41.22676404535156
             ],
             [
-              28.0,
-              41.5
+              27.616659961155108,
+              41.22961939855861
             ],
             [
-              28.0,
-              41.0
+              27.637004352754957,
+              41.23390242836905
             ],
             [
-              27.5,
-              41.0
+              27.654850310298684,
+              41.238185458179544
+            ],
+            [
+              27.673410106144104,
+              41.24389616459359
+            ],
+            [
+              27.72480646386998,
+              41.264240556193386
+            ],
+            [
+              27.739083229904963,
+              41.27137893921088
+            ],
+            [
+              27.753716915090877,
+              41.27958807968105
+            ],
+            [
+              27.767636761974927,
+              41.28744030100023
+            ],
+            [
+              27.78298428546259,
+              41.29672019892291
+            ],
+            [
+              27.799045647251944,
+              41.30707085429833
+            ],
+            [
+              27.814036251588618,
+              41.317064590522875
+            ],
+            [
+              27.814036251588618,
+              41.316707671371944
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511202/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511202/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Rundictes",
   "id": "197479",
   "bbox": [
-    14.0,
-    45.0,
-    15.0,
-    46.0
+    13.9734515124,
+    45.6724276466,
+    14.2218672414,
+    45.820192175
   ],
   "description": "An ancient place, cited: BAtlas 20 B4 Rundictes",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          45.5
+          14.1002816504,
+          45.7418543559
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              45.0
+              13.973451512354814,
+              45.67242764658613
             ],
             [
-              14.0,
-              46.0
+              14.025561708382554,
+              45.69741198714735
             ],
             [
-              15.0,
-              46.0
+              14.059112108564705,
+              45.714544106389326
             ],
             [
-              15.0,
-              45.0
+              14.09409018535041,
+              45.733817740536495
             ],
             [
-              14.0,
-              45.0
+              14.114077657799271,
+              45.746666829968035
+            ],
+            [
+              14.13906199836049,
+              45.76379894921007
+            ],
+            [
+              14.161190985714882,
+              45.77736187694313
+            ],
+            [
+              14.184033811370796,
+              45.793780157883475
+            ],
+            [
+              14.221867241363555,
+              45.82019217504808
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197479/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197479/batlas-map-label-location"
       }
     }
   ]

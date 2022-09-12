@@ -3,10 +3,10 @@
   "title": "Tripolitai",
   "id": "531130",
   "bbox": [
-    20.5,
-    39.0,
-    21.0,
-    39.5
+    20.6795661561,
+    39.318277342,
+    20.6959249505,
+    39.453311754
   ],
   "description": "An ancient place, cited: BAtlas 54 C3 Tripolitai",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.75,
-          39.25
+          20.6874935264,
+          39.3858233444
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.5,
-              39.0
+              20.679566156074145,
+              39.31827734195696
             ],
             [
-              20.5,
-              39.5
+              20.681350751828518,
+              39.33909762575797
             ],
             [
-              21.0,
-              39.5
+              20.682243049705903,
+              39.3527795265415
             ],
             [
-              21.0,
-              39.0
+              20.683730212834348,
+              39.365271696822106
             ],
             [
-              20.5,
-              39.0
+              20.686704539091636,
+              39.38133305861146
+            ],
+            [
+              20.68848913484601,
+              39.395312392020685
+            ],
+            [
+              20.691463461103297,
+              39.40869686017851
+            ],
+            [
+              20.69265319160621,
+              39.419404434704745
+            ],
+            [
+              20.694140354735055,
+              39.43308633548827
+            ],
+            [
+              20.695924950489427,
+              39.45331175403783
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531130/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/531130/batlas-map-label-location"
       }
     }
   ]
