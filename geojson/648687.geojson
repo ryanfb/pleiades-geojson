@@ -3,10 +3,10 @@
   "title": "Laka(i)nitis",
   "id": "648687",
   "bbox": [
-    32.5,
-    36.0,
-    33.0,
-    36.5
+    32.857947219,
+    36.4416413754,
+    33.0730504939,
+    36.4444967286
   ],
   "description": "An ancient place, cited: BAtlas 66 B4 Laka(i)nitis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          36.25
+          32.9654988565,
+          36.443069052
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              36.0
+              33.07305049392255,
+              36.444496728588206
             ],
             [
-              32.5,
-              36.5
-            ],
-            [
-              33.0,
-              36.5
-            ],
-            [
-              33.0,
-              36.0
-            ],
-            [
-              32.5,
-              36.0
+              32.857947218995434,
+              36.44164137538121
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648687/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648687/batlas-map-label-location"
       }
     }
   ]

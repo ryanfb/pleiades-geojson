@@ -3,10 +3,10 @@
   "title": "Musulami(i)",
   "id": "324785",
   "bbox": [
-    8.0,
-    35.5,
-    8.5,
-    36.0
+    8.19693431999,
+    35.5183642201,
+    8.87936990676,
+    35.5235543414
   ],
   "description": "An ancient place, cited: BAtlas 33 B1 Musulami(i)",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.25,
-          35.75
+          8.53815843677,
+          35.5216079916
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              35.5
+              8.196934319989545,
+              35.518364220063546
             ],
             [
-              8.0,
-              36.0
+              8.30741799719646,
+              35.520143388588885
             ],
             [
-              8.5,
-              36.0
+              8.377170246996055,
+              35.5206858102959
             ],
             [
-              8.5,
-              35.5
+              8.450608645805199,
+              35.52227405034766
             ],
             [
-              8.0,
-              35.5
+              8.515704238870047,
+              35.521021468974794
+            ],
+            [
+              8.590015419059077,
+              35.522439371078484
+            ],
+            [
+              8.666938466998936,
+              35.52355434144506
+            ],
+            [
+              8.736485065792186,
+              35.52246441751158
+            ],
+            [
+              8.776146144502729,
+              35.522140405554744
+            ],
+            [
+              8.815149238386587,
+              35.523311623206865
+            ],
+            [
+              8.87936990675615,
+              35.521947055145255
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324785/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324785/batlas-map-label-location"
       }
     }
   ]

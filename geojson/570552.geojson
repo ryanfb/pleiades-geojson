@@ -3,10 +3,10 @@
   "title": "Panachaikon (mountain)",
   "id": "570552",
   "bbox": [
-    21.5,
-    38.0,
-    22.0,
-    38.5
+    21.7891085227,
+    38.1795629277,
+    21.9592399846,
+    38.1966398
   ],
   "description": "Panachaikos.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          38.25
+          21.872487217,
+          38.1911498227
         ]
       },
       "properties": {
@@ -28,39 +28,80 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          21.8708816,
+          38.1966398
+        ]
+      },
+      "id": "osm-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Panachaiko",
+        "link": "http://pleiades.stoa.org/places/570552/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              38.0
+              21.789108522655965,
+              38.179562927653535
             ],
             [
-              21.5,
-              38.5
+              21.80754934545115,
+              38.181942388659365
             ],
             [
-              22.0,
-              38.5
+              21.824205572491962,
+              38.18253725391082
             ],
             [
-              22.0,
-              38.0
+              21.846215586795893,
+              38.184321849665196
             ],
             [
-              21.5,
-              38.0
+              21.864656409591078,
+              38.186701310671026
+            ],
+            [
+              21.880717771380432,
+              38.187296175922484
+            ],
+            [
+              21.899158594175617,
+              38.187296175922484
+            ],
+            [
+              21.917599416970802,
+              38.18789104117394
+            ],
+            [
+              21.936040239765987,
+              38.18789104117394
+            ],
+            [
+              21.949127275298054,
+              38.189080771676856
+            ],
+            [
+              21.959239984572832,
+              38.189080771676856
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570552/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570552/batlas-map-label-location"
       }
     }
   ]

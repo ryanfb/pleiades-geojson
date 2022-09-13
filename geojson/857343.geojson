@@ -3,10 +3,10 @@
   "title": "Taochoi",
   "id": "857343",
   "bbox": [
-    41.0,
-    40.0,
-    42.0,
-    41.0
+    41.4142996196,
+    40.3883780475,
+    41.9175556224,
+    40.7774199219
   ],
   "description": "An ancient people that inhabited the South Caucasus and the mountainous region of northeastern Anatolia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          40.5
+          41.669213866,
+          40.5784818904
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              40.0
+              41.4142996196387,
+              40.38837804745221
             ],
             [
-              41.0,
-              41.0
+              41.5124523861292,
+              40.452623494609625
             ],
             [
-              42.0,
-              41.0
+              41.58740540781285,
+              40.51508434601267
             ],
             [
-              42.0,
-              40.0
+              41.67306600402274,
+              40.58111438892446
             ],
             [
-              41.0,
-              40.0
+              41.74980362146077,
+              40.63643685731002
+            ],
+            [
+              41.83189502616191,
+              40.70603609173055
+            ],
+            [
+              41.9175556223718,
+              40.777419921905455
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid G4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857343/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857343/batlas-map-label-location"
       }
     }
   ]

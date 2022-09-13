@@ -3,10 +3,10 @@
   "title": "Symplegades/Kyaneai (islands)",
   "id": "521160",
   "bbox": [
-    29.0,
-    41.0,
-    29.25,
-    41.25
+    29.1280359086,
+    41.2424423244,
+    29.2053683913,
+    41.2665343671
   ],
   "description": "An ancient place, cited: BAtlas 53 B2 Symplegades/Kyaneai Inss.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.125,
-          41.125
+          29.1644789308,
+          41.2601892346
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              41.0
+              29.12803590858141,
+              41.24244232437189
             ],
             [
-              29.0,
-              41.25
+              29.134579426347614,
+              41.249878140015085
             ],
             [
-              29.25,
-              41.25
+              29.15093822076267,
+              41.25969341666416
             ],
             [
-              29.25,
-              41.0
+              29.164025256294735,
+              41.26326260817291
             ],
             [
-              29.0,
-              41.0
+              29.17740972445256,
+              41.26534463655298
+            ],
+            [
+              29.192281355738828,
+              41.2665343670559
+            ],
+            [
+              29.205368391270895,
+              41.2665343670559
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/521160/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/521160/batlas-map-label-location"
       }
     }
   ]
