@@ -3,10 +3,10 @@
   "title": "Vocontii",
   "id": "148241",
   "bbox": [
-    5.370412,
-    44.752363,
-    5.370412,
-    44.752363
+    5.1502135027,
+    44.0227557849,
+    5.79980635729,
+    44.3725365527
   ],
   "description": "The Vocontii were a Gallic people living to the east of the Rhone river.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.370412,
-          44.752363
+          5.45529516557,
+          44.1605030669
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              44.0
+              5.150213502702343,
+              44.37253655274134
             ],
             [
-              5.0,
-              44.5
+              5.225166524385997,
+              44.29758353105768
             ],
             [
-              5.5,
-              44.5
+              5.332242269648361,
+              44.213707530602164
             ],
             [
-              5.5,
-              44.0
+              5.410764482840762,
+              44.15838506221661
             ],
             [
-              5.0,
-              44.0
+              5.517840228103125,
+              44.10127799807668
+            ],
+            [
+              5.61242380308488,
+              44.06915527449797
+            ],
+            [
+              5.705222782312262,
+              44.04060174242801
+            ],
+            [
+              5.799806357294017,
+              44.02275578488428
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/148241/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/148241/batlas-map-label-location"
       }
     }
   ]

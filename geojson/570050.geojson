@@ -3,10 +3,10 @@
   "title": "Aigiplanktos/Geran(e)ia M.",
   "id": "570050",
   "bbox": [
-    22.5,
-    38.0,
-    23.0,
-    38.5
+    23.0040048,
+    38.0101581928,
+    23.1856766478,
+    38.0194380907
   ],
   "description": "An ancient place, cited: BAtlas 58 D1 Aigiplanktos/Geran(e)ia M.",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          38.25
+          23.0947124135,
+          38.016840343
         ]
       },
       "properties": {
@@ -31,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              38.0
+              23.00400480003401,
+              38.010158192785696
             ],
             [
-              22.5,
-              38.5
+              23.028632221444298,
+              38.01337046514345
             ],
             [
-              23.0,
-              38.5
+              23.041124391724907,
+              38.014798141747065
             ],
             [
-              23.0,
-              38.0
+              23.0504042896477,
+              38.014798141747065
             ],
             [
-              22.5,
-              38.0
+              23.064681055682684,
+              38.0169396566522
+            ],
+            [
+              23.084668528131544,
+              38.01836733325581
+            ],
+            [
+              23.098231455864834,
+              38.01801041410488
+            ],
+            [
+              23.111437464447135,
+              38.01765349495395
+            ],
+            [
+              23.132138775197916,
+              38.01943809070832
+            ],
+            [
+              23.14820013698727,
+              38.01943809070832
+            ],
+            [
+              23.16176306472056,
+              38.01836733325581
+            ],
+            [
+              23.185676647829098,
+              38.01872425240657
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570050/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570050/batlas-map-label-location"
       }
     }
   ]

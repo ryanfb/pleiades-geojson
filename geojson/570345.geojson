@@ -3,10 +3,10 @@
   "title": "Kelossa M.",
   "id": "570345",
   "bbox": [
-    22.5,
-    37.5,
-    23.0,
-    38.0
+    22.6039512397,
+    37.7652497653,
+    22.6562993818,
+    37.7884733047
   ],
   "description": "An ancient place, cited: BAtlas 58 D2 Kelossa M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          37.75
+          22.6295471256,
+          37.7780800563
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.5
+              22.60395123971449,
+              37.76524976526457
             ],
             [
-              22.5,
-              38.0
+              22.61175587181367,
+              37.76981833039571
             ],
             [
-              23.0,
-              38.0
+              22.616324436944865,
+              37.772102612961305
             ],
             [
-              23.0,
-              37.5
+              22.621083358956525,
+              37.77571939369011
             ],
             [
-              22.5,
-              37.5
+              22.628126563533783,
+              37.77876510377763
+            ],
+            [
+              22.632695128664977,
+              37.78009760194078
+            ],
+            [
+              22.639357619481416,
+              37.782572241386845
+            ],
+            [
+              22.656299381842757,
+              37.78847330468142
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570345/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570345/batlas-map-label-location"
       }
     }
   ]

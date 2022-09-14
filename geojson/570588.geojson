@@ -3,10 +3,10 @@
   "title": "Phalanthon M.",
   "id": "570588",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.1890633124,
+    37.593416351,
+    22.2214239821,
+    37.6600412592
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Phalanthon M.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.2041376834,
+          37.6272464649
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.189063312414703,
+              37.59341635103294
             ],
             [
-              22.0,
-              38.0
+              22.193108396124615,
+              37.602934195056264
             ],
             [
-              22.5,
-              38.0
+              22.19643964153272,
+              37.60864490147014
             ],
             [
-              22.5,
-              37.5
+              22.196915533733886,
+              37.611500254677196
             ],
             [
-              22.0,
-              37.5
+              22.19881910253855,
+              37.617210961091246
+            ],
+            [
+              22.200960617443855,
+              37.621969883102906
+            ],
+            [
+              22.20310213234916,
+              37.627442643416316
+            ],
+            [
+              22.205005701153766,
+              37.63196361932745
+            ],
+            [
+              22.20857489266251,
+              37.638864056244245
+            ],
+            [
+              22.212382030271783,
+              37.64481270875882
+            ],
+            [
+              22.217140952283444,
+              37.6529028761787
+            ],
+            [
+              22.22142398209394,
+              37.66004125919619
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570588/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570588/batlas-map-label-location"
       }
     }
   ]

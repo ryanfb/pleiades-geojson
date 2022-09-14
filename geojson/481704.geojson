@@ -3,10 +3,10 @@
   "title": "Agrianes",
   "id": "481704",
   "bbox": [
-    22.0,
-    42.0,
-    23.0,
-    43.0
+    22.5803341368,
+    42.6578280605,
+    23.314159911,
+    42.6649664435
   ],
   "description": "An ancient people, tribe, or cultural group. Located: upper Struma valley BUL.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          42.5
+          22.9472588468,
+          42.6616929691
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              42.0
+              22.58033413684609,
+              42.65782806047182
             ],
             [
-              22.0,
-              43.0
+              22.70311432474693,
+              42.65925573707532
             ],
             [
-              23.0,
-              43.0
+              22.801624010388306,
+              42.662111090282316
             ],
             [
-              23.0,
-              42.0
+              22.89299531301219,
+              42.66496644348931
             ],
             [
-              22.0,
-              42.0
+              22.98436661563607,
+              42.663538766885814
+            ],
+            [
+              23.08715933108794,
+              42.663538766885814
+            ],
+            [
+              23.18709669333281,
+              42.662111090282316
+            ],
+            [
+              23.314159911044147,
+              42.65782806047182
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481704/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481704/batlas-map-label-location"
       }
     }
   ]

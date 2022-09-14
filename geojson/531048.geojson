@@ -3,10 +3,10 @@
   "title": "Paxoi (islands)",
   "id": "531048",
   "bbox": [
-    20.1550175,
-    39.1591833,
-    20.2276316,
-    39.192672
+    20.1343899991,
+    39.1301631035,
+    20.2089861016,
+    39.1840578953
   ],
   "description": "Paxoi Inss., the smallest group of Ionian islands.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.19132455,
-          39.17592765
+          20.1715525409,
+          39.1569816858
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              39.0
+              20.13438999907089,
+              39.184057895270655
             ],
             [
-              20.0,
-              39.5
+              20.144740654446366,
+              39.17513491649879
             ],
             [
-              20.5,
-              39.5
+              20.151522118312926,
+              39.170494967537365
             ],
             [
-              20.5,
-              39.0
+              20.16044509708479,
+              39.16549809942518
             ],
             [
-              20.0,
-              39.0
+              20.1665127226496,
+              39.16085815046381
+            ],
+            [
+              20.178647973779448,
+              39.15229209084271
+            ],
+            [
+              20.185072518495076,
+              39.14765214188145
+            ],
+            [
+              20.19292473981443,
+              39.14158451631647
+            ],
+            [
+              20.19970620368099,
+              39.136944567355215
+            ],
+            [
+              20.208986101603784,
+              39.130163103488485
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531048/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/531048/batlas-map-label-location"
       }
     }
   ]

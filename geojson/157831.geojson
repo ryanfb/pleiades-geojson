@@ -3,10 +3,10 @@
   "title": "Camactulici?",
   "id": "157831",
   "bbox": [
-    5.5,
-    43.0,
-    6.0,
-    43.5
+    5.82484651311,
+    43.1505820736,
+    6.0028023256,
+    43.1889946166
   ],
   "description": "An ancient place, cited: BAtlas 16 A3 Camactulici?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          43.25
+          5.91264742234,
+          43.1754125343
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              43.0
+              5.824846513112732,
+              43.150582073627845
             ],
             [
-              5.5,
-              43.5
+              5.845904743014216,
+              43.157720456645336
             ],
             [
-              6.0,
-              43.5
+              5.856612317540453,
+              43.16164656730501
             ],
             [
-              6.0,
-              43.0
+              5.869818326122981,
+              43.1666434354172
             ],
             [
-              5.5,
-              43.0
+              5.883024334705283,
+              43.17092646522764
+            ],
+            [
+              5.893731909231519,
+              43.17485257588737
+            ],
+            [
+              5.906937917813877,
+              43.17806484824513
+            ],
+            [
+              5.916574734887433,
+              43.1798494439995
+            ],
+            [
+              5.924426956206617,
+              43.181634039753874
+            ],
+            [
+              5.948684795345457,
+              43.18527334878081
+            ],
+            [
+              5.973059063028927,
+              43.18721002079735
+            ],
+            [
+              6.002802325601806,
+              43.188994616551724
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157831/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157831/batlas-map-label-location"
       }
     }
   ]

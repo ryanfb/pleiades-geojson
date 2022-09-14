@@ -3,10 +3,10 @@
   "title": "Salmydessos",
   "id": "511405",
   "bbox": [
-    28.0,
-    41.5,
-    28.5,
-    42.0
+    28.2242820979,
+    41.3959883378,
+    28.5102933108,
+    41.5182926335
   ],
   "description": "An ancient place, cited: BAtlas 52 C1 Salmydessos (1)",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          41.75
+          28.3655042784,
+          41.453190952
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              41.5
+              28.22428209793003,
+              41.51829263345962
             ],
             [
-              28.0,
-              42.0
+              28.250456168994162,
+              41.50496765182686
             ],
             [
-              28.5,
-              42.0
+              28.276630240058296,
+              41.48878731698727
             ],
             [
-              28.5,
-              41.5
+              28.304707879927264,
+              41.477365904159285
             ],
             [
-              28.0,
-              41.5
+              28.33468908860067,
+              41.464516814727745
+            ],
+            [
+              28.3637185128718,
+              41.45261950969859
+            ],
+            [
+              28.395127398148816,
+              41.43977042026722
+            ],
+            [
+              28.422253253615168,
+              41.42787311523807
+            ],
+            [
+              28.452234462288743,
+              41.416451702409915
+            ],
+            [
+              28.480312102157484,
+              41.405982073984376
+            ],
+            [
+              28.51029331083089,
+              41.39598833775989
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511405/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511405/batlas-map-label-location"
       }
     }
   ]

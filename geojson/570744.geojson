@@ -3,10 +3,10 @@
   "title": "Trachy (mountain)",
   "id": "570744",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.3536506302,
+    37.7261902752,
+    22.4161114816,
+    37.7647375435
   ],
   "description": "Trachy.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.387204555,
+          37.7419940904
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.353650630187985,
+              37.726190275158274
             ],
             [
-              22.0,
-              38.0
+              22.364001285563234,
+              37.72904562836527
             ],
             [
-              22.5,
-              38.0
+              22.370425830279032,
+              37.73190098157232
             ],
             [
-              22.5,
-              37.5
+              22.376136536693082,
+              37.73475633477915
             ],
             [
-              22.0,
-              37.5
+              22.379705728201827,
+              37.73725476883544
+            ],
+            [
+              22.387914868672,
+              37.73975320289151
+            ],
+            [
+              22.4011208772543,
+              37.74724850505976
+            ],
+            [
+              22.403619311310422,
+              37.75046077741774
+            ],
+            [
+              22.40683158366818,
+              37.75367304977556
+            ],
+            [
+              22.411828451780536,
+              37.760097594491356
+            ],
+            [
+              22.41611148159103,
+              37.764737543452725
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570744/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570744/batlas-map-label-location"
       }
     }
   ]

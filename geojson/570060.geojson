@@ -3,10 +3,10 @@
   "title": "Akroreia",
   "id": "570060",
   "bbox": [
-    21.5,
-    37.5,
-    22.0,
-    38.0
+    21.6524206957,
+    37.6994768596,
+    21.7190456039,
+    37.7884687012
   ],
   "description": "An ancient place, cited: BAtlas 58 B2 Akroreia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.75
+          21.6858174082,
+          37.7440280643
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.5
+              21.65242069573202,
+              37.69947685959937
             ],
             [
-              21.5,
-              38.0
+              21.66574567736461,
+              37.71708487104257
             ],
             [
-              22.0,
-              38.0
+              21.67383584478449,
+              37.73183752927878
             ],
             [
-              22.0,
-              37.5
+              21.683829581008865,
+              37.741831265503095
             ],
             [
-              21.5,
-              37.5
+              21.690967964026356,
+              37.75087321732542
+            ],
+            [
+              21.697630454842795,
+              37.75896338474513
+            ],
+            [
+              21.707148298866116,
+              37.771336581975504
+            ],
+            [
+              21.716190250688214,
+              37.78133031819999
+            ],
+            [
+              21.719045603895268,
+              37.78846870121748
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570060/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570060/batlas-map-label-location"
       }
     }
   ]

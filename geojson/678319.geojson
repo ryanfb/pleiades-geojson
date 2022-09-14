@@ -3,10 +3,10 @@
   "title": "Oulatha",
   "id": "678319",
   "bbox": [
-    35.5,
-    33.0,
-    36.0,
-    33.5
+    35.5939502578,
+    33.12592378,
+    35.6339252027,
+    33.2144397294
   ],
   "description": "An ancient place, cited: BAtlas 69 C3 Oulatha",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          33.25
+          35.6161550634,
+          33.1713148612
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              33.0
+              35.59395025784244,
+              33.214439729371406
             ],
             [
-              35.5,
-              33.5
+              35.61036853878272,
+              33.19016922711188
             ],
             [
-              36.0,
-              33.5
+              35.61536540689491,
+              33.17446478447346
             ],
             [
-              36.0,
-              33.0
+              35.6225037899124,
+              33.15804650353317
             ],
             [
-              35.5,
-              33.0
+              35.62678681972284,
+              33.14662509070524
+            ],
+            [
+              35.63392520274033,
+              33.12592377995446
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678319/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678319/batlas-map-label-location"
       }
     }
   ]

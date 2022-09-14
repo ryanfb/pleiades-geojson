@@ -3,10 +3,10 @@
   "title": "Orondeis",
   "id": "639025",
   "bbox": [
-    31.5,
-    37.5,
-    32.0,
-    38.0
+    31.6742411018,
+    37.8356596934,
+    31.9112354179,
+    37.8375632622
   ],
   "description": "An ancient place, cited: BAtlas 65 G2 Orondeis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.75,
-          37.75
+          31.7927382599,
+          37.8366114778
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.5,
-              37.5
+              31.911235417942578,
+              37.83565969340202
             ],
             [
-              31.5,
-              38.0
-            ],
-            [
-              32.0,
-              38.0
-            ],
-            [
-              32.0,
-              37.5
-            ],
-            [
-              31.5,
-              37.5
+              31.674241101761936,
+              37.83756326220686
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639025/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/639025/batlas-map-label-location"
       }
     }
   ]

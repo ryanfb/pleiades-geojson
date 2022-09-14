@@ -3,10 +3,10 @@
   "title": "Dekapolis",
   "id": "678116",
   "bbox": [
-    35.5,
-    32.5,
-    36.0,
-    33.0
+    35.5070890253,
+    32.143241085,
+    35.9144527495,
+    32.5763029881
   ],
   "description": "An ancient place, cited: BAtlas 69 C4 Dekapolis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          32.75
+          35.7322417581,
+          32.3806831633
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              32.5
+              35.50708902526674,
+              32.576302988080556
             ],
             [
-              35.5,
-              33.0
+              35.59274962147663,
+              32.52205127714768
             ],
             [
-              36.0,
-              33.0
+              35.65747096083527,
+              32.47826919464029
             ],
             [
-              36.0,
-              32.5
+              35.70886731856115,
+              32.43258354332852
             ],
             [
-              35.5,
-              32.5
+              35.75645653867775,
+              32.38118718560247
+            ],
+            [
+              35.79833505238042,
+              32.32408012146254
+            ],
+            [
+              35.83926178168076,
+              32.2660212729204
+            ],
+            [
+              35.872574235762386,
+              32.21272134638974
+            ],
+            [
+              35.91445274946494,
+              32.14324108501944
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678116/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678116/batlas-map-label-location"
       }
     }
   ]

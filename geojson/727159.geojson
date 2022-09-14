@@ -3,10 +3,10 @@
   "title": "Mendesios Nomos",
   "id": "727159",
   "bbox": [
-    31.4194301,
-    30.9581008,
-    31.4194301,
-    30.9581008
+    31.5659710781,
+    31.0328463695,
+    31.738482001,
+    31.0346309653
   ],
   "description": "An ancient place, cited: BAtlas 74 F2 Mendesios Nomos",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.4194301,
-          30.9581008
+          31.6522175177,
+          31.033833999
         ]
       },
       "properties": {
@@ -31,39 +31,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.5,
-              31.0
+              31.565971078115865,
+              31.033441234751365
             ],
             [
-              31.5,
-              31.5
+              31.589765688174168,
+              31.033441234751365
             ],
             [
-              32.0,
-              31.5
+              31.610585971975183,
+              31.032846369499907
             ],
             [
-              32.0,
-              31.0
+              31.62902679477037,
+              31.034036100002822
             ],
             [
-              31.5,
-              31.0
+              31.643898426056808,
+              31.034036100002822
+            ],
+            [
+              31.657580326840332,
+              31.03463096525428
+            ],
+            [
+              31.673641688629687,
+              31.034036100002822
+            ],
+            [
+              31.68970305041904,
+              31.034036100002822
+            ],
+            [
+              31.698626029190905,
+              31.034036100002822
+            ],
+            [
+              31.711118199471514,
+              31.034036100002822
+            ],
+            [
+              31.738482001038562,
+              31.034036100002822
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727159/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727159/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Saxones",
   "id": "99035",
   "bbox": [
-    9.0,
-    54.0,
-    10.0,
-    55.0
+    9.59323443129,
+    54.2089061676,
+    10.1339669449,
+    54.2124753591
   ],
   "description": "An ancient place, cited: BAtlas 10 F2 Saxones",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          54.5
+          9.86360022344,
+          54.210678986
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              54.0
+              9.593234431288181,
+              54.21247535908617
             ],
             [
-              9.0,
-              55.0
+              9.700310176550545,
+              54.2106907633318
             ],
             [
-              10.0,
-              55.0
+              9.777047793988572,
+              54.2106907633318
             ],
             [
-              10.0,
-              54.0
+              9.857354602935345,
+              54.2106907633318
             ],
             [
-              9.0,
-              54.0
+              9.944799794899609,
+              54.2106907633318
+            ],
+            [
+              10.019752816583264,
+              54.2106907633318
+            ],
+            [
+              10.133966944863118,
+              54.208906167577425
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/99035/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/99035/batlas-map-label-location"
       }
     }
   ]

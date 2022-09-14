@@ -3,10 +3,10 @@
   "title": "Boresti?",
   "id": "89121",
   "bbox": [
-    -4.0,
-    57.0,
-    -3.0,
-    58.0
+    -3.82534726579,
+    57.4577458839,
+    -3.22191595472,
+    57.4615530215
   ],
   "description": "An ancient place, cited: BAtlas 9 D3 Boresti?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          57.5
+          -3.52365834272,
+          57.4591121534
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              57.0
+              -3.825347265794221,
+              57.45774588389753
             ],
             [
-              -4.0,
-              58.0
+              -3.709229568709759,
+              57.4615530215068
             ],
             [
-              -3.0,
-              58.0
+              -3.623568972499868,
+              57.45774588389753
             ],
             [
-              -3.0,
-              57.0
+              -3.537908376289977,
+              57.45964945270214
             ],
             [
-              -4.0,
-              57.0
+              -3.450344211275365,
+              57.45774588389753
+            ],
+            [
+              -3.362780046260809,
+              57.45774588389753
+            ],
+            [
+              -3.296155138097561,
+              57.45964945270214
+            ],
+            [
+              -3.221915954715655,
+              57.4615530215068
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89121/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89121/batlas-map-label-location"
       }
     }
   ]

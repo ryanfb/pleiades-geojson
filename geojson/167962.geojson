@@ -3,10 +3,10 @@
   "title": "Veragri",
   "id": "167962",
   "bbox": [
-    6.5,
-    46.0,
-    7.0,
-    46.5
+    6.9388285855,
+    46.0607363374,
+    7.18159255793,
+    46.1419425957
   ],
   "description": "An ancient place, cited: BAtlas 17 H1 Veragri",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          46.25
+          7.05853612919,
+          46.1061124922
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              46.0
+              6.938828585503927,
+              46.060736337361845
             ],
             [
-              6.5,
-              46.5
+              6.993179924014271,
+              46.08592387254669
             ],
             [
-              7.0,
-              46.5
+              7.012810477312371,
+              46.09395455344122
             ],
             [
-              7.0,
-              46.0
+              7.033333328487515,
+              46.100498071207255
             ],
             [
-              6.5,
-              46.0
+              7.053856179662944,
+              46.107636454224746
+            ],
+            [
+              7.074973896089546,
+              46.11447740461665
+            ],
+            [
+              7.181592557927274,
+              46.141942595742876
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167962/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167962/batlas-map-label-location"
       }
     }
   ]

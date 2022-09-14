@@ -3,10 +3,10 @@
   "title": "Iapudes",
   "id": "197313",
   "bbox": [
-    14.0,
-    45.0,
-    15.0,
-    46.0
+    14.7008527418,
+    44.4163835483,
+    15.3290304474,
+    45.5103407458
   ],
   "description": "An ancient place, cited: BAtlas 20 B4 Iapudes",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          45.5
+          15.0517783217,
+          44.9845465436
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              45.0
+              14.700852741836968,
+              45.51034074575318
             ],
             [
-              14.0,
-              46.0
+              14.847189593695532,
+              45.33723495757903
             ],
             [
-              15.0,
-              46.0
+              14.97032670074725,
+              45.1623445736505
             ],
             [
-              15.0,
-              45.0
+              15.072048658746496,
+              44.989238785476346
             ],
             [
-              14.0,
-              45.0
+              15.16663223372825,
+              44.8089946142847
+            ],
+            [
+              15.25050823418377,
+              44.63945801761929
+            ],
+            [
+              15.32903044737617,
+              44.4163835483227
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197313/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197313/batlas-map-label-location"
       }
     }
   ]

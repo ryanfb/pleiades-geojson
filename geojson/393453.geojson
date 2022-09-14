@@ -3,10 +3,10 @@
   "title": "Misquilenses",
   "id": "393453",
   "bbox": [
-    11.5,
-    45.5,
-    12.0,
-    46.0
+    11.4836996514,
+    45.8332470375,
+    11.915571824,
+    45.8353885524
   ],
   "description": "An ancient place, cited: BAtlas 40 B1 Misquilenses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.75,
-          45.75
+          11.6996485036,
+          45.8343266687
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              11.5,
-              45.5
+              11.483699651438565,
+              45.83324703753879
             ],
             [
-              11.5,
-              46.0
+              11.54223439218199,
+              45.83396087584054
             ],
             [
-              12.0,
-              46.0
+              11.5743571157607,
+              45.83396087584054
             ],
             [
-              12.0,
-              45.5
+              11.6136182223569,
+              45.83396087584054
             ],
             [
-              11.5,
-              45.5
+              11.6528793289531,
+              45.83467471414229
+            ],
+            [
+              11.686429729135305,
+              45.83467471414229
+            ],
+            [
+              11.712841746300022,
+              45.83467471414229
+            ],
+            [
+              11.749961337990975,
+              45.83396087584054
+            ],
+            [
+              11.791363959492422,
+              45.83467471414229
+            ],
+            [
+              11.829197389485124,
+              45.83396087584054
+            ],
+            [
+              11.86274778966733,
+              45.83538855244404
+            ],
+            [
+              11.915571823996762,
+              45.83467471414229
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/393453/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/393453/batlas-map-label-location"
       }
     }
   ]

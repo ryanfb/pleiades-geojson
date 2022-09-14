@@ -3,10 +3,10 @@
   "title": "Cimbii?",
   "id": "256108",
   "bbox": [
-    -7.0,
-    36.0,
-    -6.0,
-    37.0
+    -6.38315133267,
+    36.6719405597,
+    -6.22182387648,
+    36.6733682363
   ],
   "description": "An ancient place, cited: BAtlas 26 D5 Cimbii?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          36.5
+          -6.30248760457,
+          36.672654398
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              36.0
+              -6.383151332672336,
+              36.673368236287246
             ],
             [
-              -7.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
-              -6.0,
-              36.0
-            ],
-            [
-              -7.0,
-              36.0
+              -6.221823876477043,
+              36.67194055968375
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256108/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256108/batlas-map-label-location"
       }
     }
   ]

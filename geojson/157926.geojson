@@ -3,10 +3,10 @@
   "title": "Sentii",
   "id": "157926",
   "bbox": [
-    6.0,
-    43.5,
-    6.5,
-    44.0
+    6.30121053034,
+    43.9221184498,
+    6.41542465862,
+    43.9649487479
   ],
   "description": "An ancient place, cited: BAtlas 16 B2 Sentii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          43.75
+          6.35821535511,
+          43.9432663326
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              43.5
+              6.301210530343042,
+              43.9649487478581
             ],
             [
-              6.0,
-              44.0
+              6.330120981563937,
+              43.952813496728254
             ],
             [
-              6.5,
-              44.0
+              6.353677645521543,
+              43.94496127540907
             ],
             [
-              6.5,
-              43.5
+              6.37116668391451,
+              43.93817981154251
             ],
             [
-              6.0,
-              43.5
+              6.388655722307305,
+              43.93282602427939
+            ],
+            [
+              6.415424658622896,
+              43.92211844975316
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157926/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157926/batlas-map-label-location"
       }
     }
   ]

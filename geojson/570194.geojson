@@ -3,10 +3,10 @@
   "title": "Denthaliates (Ager)",
   "id": "570194",
   "bbox": [
-    22.0,
-    37.0,
-    22.5,
-    37.5
+    22.1761093284,
+    37.0475075183,
+    22.2636734934,
+    37.1284091925
   ],
   "description": "An ancient place, cited: BAtlas 58 C3 Denthaliates (Ager)",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.25
+          22.2220457774,
+          37.0902939126
         ]
       },
       "properties": {
@@ -30,39 +30,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.0
+              22.176109328410632,
+              37.128409192526476
             ],
             [
-              22.0,
-              37.5
+              22.191813771049056,
+              37.11746367189954
             ],
             [
-              22.5,
-              37.5
+              22.199903938468935,
+              37.11127707328444
             ],
             [
-              22.5,
-              37.0
+              22.206090537084037,
+              37.10651815127278
             ],
             [
-              22.0,
-              37.0
+              22.21608427330858,
+              37.09985566045651
+            ],
+            [
+              22.22369854852724,
+              37.09176549303663
+            ],
+            [
+              22.227029793935287,
+              37.08795835542736
+            ],
+            [
+              22.234168176952778,
+              37.08081997240987
+            ],
+            [
+              22.23797531456222,
+              37.0746333737946
+            ],
+            [
+              22.24511369757971,
+              37.06892266738072
+            ],
+            [
+              22.251300296194813,
+              37.06178428436323
+            ],
+            [
+              22.263673493425188,
+              37.047507518328246
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570194/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570194/batlas-map-label-location"
       }
     }
   ]

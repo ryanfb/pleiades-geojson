@@ -3,10 +3,10 @@
   "title": "Thanouenoi",
   "id": "678422",
   "bbox": [
-    36.0,
-    32.0,
-    36.5,
-    32.5
+    36.3235714975,
+    32.2757112281,
+    36.5241600603,
+    32.3078339517
   ],
   "description": "An ancient place, cited: BAtlas 69 D5 Thanouenoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          32.25
+          36.4250622994,
+          32.284570089
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              32.0
+              36.323571497476166,
+              32.28463420688905
             ],
             [
-              36.0,
-              32.5
+              36.354980382753126,
+              32.27820966217331
             ],
             [
-              36.5,
-              32.5
+              36.3763955318056,
+              32.27606814726795
             ],
             [
-              36.5,
-              32.0
+              36.39816760000883,
+              32.27571122811719
             ],
             [
-              36.0,
-              32.0
+              36.41851199160868,
+              32.27785274302232
+            ],
+            [
+              36.44099789811378,
+              32.28142193453107
+            ],
+            [
+              36.458843855657506,
+              32.2853480451908
+            ],
+            [
+              36.479545166408286,
+              32.28998799415217
+            ],
+            [
+              36.50060339630983,
+              32.29784021547141
+            ],
+            [
+              36.524160060267604,
+              32.3078339516959
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678422/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678422/batlas-map-label-location"
       }
     }
   ]

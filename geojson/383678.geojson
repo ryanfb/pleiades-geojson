@@ -3,10 +3,10 @@
   "title": "Insubres",
   "id": "383678",
   "bbox": [
-    9.18806,
-    45.463746,
-    9.18806,
-    45.463746
+    8.90730869865,
+    45.6281650697,
+    9.36357034652,
+    45.6299496654
   ],
   "description": "A Gallic tribe of Northern Italy, giving their name to the region of Insubria.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.18806,
-          45.463746
+          9.13544070298,
+          45.6292807241
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              45.5
+              8.907308698648649,
+              45.62994966541271
             ],
             [
-              8.5,
-              46.0
+              8.985830911841049,
+              45.62994966541271
             ],
             [
-              9.5,
-              46.0
+              9.044722571735349,
+              45.62994966541271
             ],
             [
-              9.5,
-              45.5
+              9.107183423138395,
+              45.62994966541271
             ],
             [
-              8.5,
-              45.5
+              9.166669948284152,
+              45.628759934909795
+            ],
+            [
+              9.223182147172622,
+              45.62816506965834
+            ],
+            [
+              9.286237863827125,
+              45.628759934909795
+            ],
+            [
+              9.36357034651661,
+              45.628759934909795
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383678/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383678/batlas-map-label-location"
       }
     }
   ]

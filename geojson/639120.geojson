@@ -3,10 +3,10 @@
   "title": "*Sparza",
   "id": "639120",
   "bbox": [
-    29.0,
-    37.0,
-    29.5,
-    37.5
+    29.0469230355,
+    37.3179524308,
+    29.1147376742,
+    37.375059495
   ],
   "description": "An ancient place, cited: BAtlas 65 B3 *Sparza",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.25,
-          37.25
+          29.0808303549,
+          37.3465059629
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              37.0
+              29.114737674191247,
+              37.37505949496693
             ],
             [
-              29.0,
-              37.5
-            ],
-            [
-              29.5,
-              37.5
-            ],
-            [
-              29.5,
-              37.0
-            ],
-            [
-              29.0,
-              37.0
+              29.046923035525083,
+              37.317952430827006
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639120/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/639120/batlas-map-label-location"
       }
     }
   ]

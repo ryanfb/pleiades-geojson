@@ -3,10 +3,10 @@
   "title": "Sambracitanus Sinus",
   "id": "157922",
   "bbox": [
-    6.5,
-    43.0,
-    7.0,
-    43.5
+    6.6349482,
+    43.284438,
+    6.63952,
+    43.28598
   ],
   "description": "An ancient place, cited: BAtlas 16 C3 Sambracitanus Sinus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          43.25
+          6.6372341,
+          43.285209
         ]
       },
       "properties": {
@@ -28,39 +28,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              6.5,
-              43.0
-            ],
-            [
-              6.5,
-              43.5
-            ],
-            [
-              7.0,
-              43.5
-            ],
-            [
-              7.0,
-              43.0
-            ],
-            [
-              6.5,
-              43.0
-            ]
-          ]
+          6.63952,
+          43.28598
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-golfe-de-st-tropez",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157922/batlas-location"
+        "description": "coordinates after GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames location of Golfe de St-Tropez",
+        "link": "http://pleiades.stoa.org/places/157922/location-of-golfe-de-st-tropez"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6349482,
+          43.284438
+        ]
+      },
+      "id": "osm-location-of-golfe-de-saint-tropez",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Golfe de Saint-Tropez",
+        "link": "http://pleiades.stoa.org/places/157922/osm-location-of-golfe-de-saint-tropez"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Cessetania",
   "id": "246331",
   "bbox": [
-    1.0,
-    41.0,
-    2.0,
-    42.0
+    0.993274879584,
+    41.1225994773,
+    1.53579198891,
+    41.2439519886
   ],
   "description": "Cessetania was a region of Tarraconensis and the country of the Cessetani.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          41.5
+          1.26289089856,
+          41.1906415719
         ]
       },
       "properties": {
@@ -29,39 +29,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              41.0
+              0.993274879584174,
+              41.12259947726885
             ],
             [
-              1.0,
-              42.0
+              1.264533434248826,
+              41.19874222945542
             ],
             [
-              2.0,
-              42.0
-            ],
-            [
-              2.0,
-              41.0
-            ],
-            [
-              1.0,
-              41.0
+              1.535791988913478,
+              41.243951988566195
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246331/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246331/batlas-map-label-location"
       }
     }
   ]
