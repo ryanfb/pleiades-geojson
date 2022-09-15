@@ -3,10 +3,10 @@
   "title": "Mariandynoi",
   "id": "845013",
   "bbox": [
-    30.5368013,
-    40.537332,
-    33.3844989,
-    41.5806805
+    30.7553089287,
+    40.8425599652,
+    32.1133862977,
+    41.2155404778
   ],
   "description": "An ancient place, cited: BAtlas 86 A3 Mariandynoi",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.5357333331,
-          41.0151452777
+          31.4413789887,
+          41.0035262492
         ]
       },
       "properties": {
@@ -32,39 +32,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              40.0
+              30.75530892865056,
+              40.84255996518124
             ],
             [
-              30.0,
-              41.0
+              30.942691482859694,
+              40.87468268875995
             ],
             [
-              31.0,
-              41.0
+              31.069397781420157,
+              40.90323622082991
             ],
             [
-              31.0,
-              40.0
+              31.20502705875248,
+              40.931789752899874
             ],
             [
-              30.0,
-              40.0
+              31.317456591277963,
+              40.95320490195235
+            ],
+            [
+              31.44773208134717,
+              40.9888968170398
+            ],
+            [
+              31.594068933205733,
+              41.03172711514475
+            ],
+            [
+              31.718990636011824,
+              41.069203625986574
+            ],
+            [
+              31.83677395580042,
+              41.11381851984589
+            ],
+            [
+              31.902803998712212,
+              41.13701826465274
+            ],
+            [
+              31.975972424641494,
+              41.1655717967227
+            ],
+            [
+              32.11338629772819,
+              41.21554047784514
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/845013/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/845013/batlas-map-label-location"
       }
     }
   ]

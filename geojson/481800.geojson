@@ -3,10 +3,10 @@
   "title": "Dassaretis",
   "id": "481800",
   "bbox": [
-    20.0,
-    40.0,
-    21.0,
-    41.0
+    20.4997096387,
+    40.7112445495,
+    21.0172424075,
+    40.717193202
   ],
   "description": "An ancient place, cited: BAtlas 49 C3 Dassaretis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          40.5
+          20.7585055528,
+          40.7127312454
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              40.0
+              20.49970963873807,
+              40.71362401048049
             ],
             [
-              20.0,
-              41.0
+              20.579421582433383,
+              40.71124454947466
             ],
             [
-              21.0,
-              41.0
+              20.630579994058735,
+              40.71362401048049
             ],
             [
-              21.0,
-              40.0
+              20.684117866689917,
+              40.71243427997757
             ],
             [
-              20.0,
-              40.0
+              20.734086547812353,
+              40.71124454947466
+            ],
+            [
+              20.78881415094645,
+              40.71124454947466
+            ],
+            [
+              20.845921215086374,
+              40.71243427997757
+            ],
+            [
+              20.899459087717556,
+              40.71124454947466
+            ],
+            [
+              20.945858577331247,
+              40.7148137409834
+            ],
+            [
+              21.017242407506156,
+              40.71719320198923
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481800/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481800/batlas-map-label-location"
       }
     }
   ]

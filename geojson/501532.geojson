@@ -3,10 +3,10 @@
   "title": "Odomantes",
   "id": "501532",
   "bbox": [
-    23.5,
-    41.0,
-    24.0,
-    41.5
+    23.5112065291,
+    40.995233564,
+    23.6811000449,
+    41.0314013712
   ],
   "description": "An ancient place, cited: BAtlas 51 B2 Odomantes",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          41.25
+          23.5967089669,
+          41.0157002854
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.5,
-              41.0
+              23.511206529072467,
+              41.03140137124211
             ],
             [
-              23.5,
-              41.5
+              23.540473899444123,
+              41.02664244923045
             ],
             [
-              24.0,
-              41.5
+              23.561175210194904,
+              41.02354914992287
             ],
             [
-              24.0,
-              41.0
+              23.583542143649595,
+              41.020693796715875
             ],
             [
-              23.5,
-              41.0
+              23.604243454400375,
+              41.01498309030177
+            ],
+            [
+              23.623755034648184,
+              41.01022416829011
+            ],
+            [
+              23.643028668795353,
+              41.0061790845802
+            ],
+            [
+              23.66158846464083,
+              41.0021340008704
+            ],
+            [
+              23.68086209878811,
+              40.995233563953434
+            ],
+            [
+              23.681100044888638,
+              40.995233563953434
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501532/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501532/batlas-map-label-location"
       }
     }
   ]

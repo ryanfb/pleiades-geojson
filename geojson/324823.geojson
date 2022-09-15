@@ -3,10 +3,10 @@
   "title": "Taricheiai Nesoi",
   "id": "324823",
   "bbox": [
-    11.0,
-    35.5,
-    11.5,
-    36.0
+    10.9861036109,
+    35.7872124109,
+    11.086493812,
+    35.7890941078
   ],
   "description": "An ancient place, cited: BAtlas 33 H1 Taricheiai Nesoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.25,
-          35.75
+          11.0362957399,
+          35.788194448
         ]
       },
       "properties": {
@@ -29,39 +29,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              11.0,
-              35.5
+              10.986103610901043,
+              35.78873884683784
             ],
             [
-              11.0,
-              36.0
+              10.996462122749218,
+              35.78872458903854
             ],
             [
-              11.5,
-              36.0
+              11.003257154276119,
+              35.788647229659425
             ],
             [
-              11.5,
-              35.5
+              11.007068621234733,
+              35.788438983579745
             ],
             [
-              11.0,
-              35.5
+              11.013367682059842,
+              35.78890195014364
+            ],
+            [
+              11.019914765081591,
+              35.78909410782764
+            ],
+            [
+              11.027495602581611,
+              35.78844018587974
+            ],
+            [
+              11.033668631720525,
+              35.788193343367396
+            ],
+            [
+              11.038391896628433,
+              35.78811755556368
+            ],
+            [
+              11.043199308792927,
+              35.788514063368574
+            ],
+            [
+              11.054053438406068,
+              35.78795376502695
+            ],
+            [
+              11.062298019363404,
+              35.78770148786683
+            ],
+            [
+              11.07050038880461,
+              35.78721241086524
+            ],
+            [
+              11.07642543939041,
+              35.787233943329795
+            ],
+            [
+              11.08649381203262,
+              35.787246252232265
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324823/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324823/batlas-map-label-location"
       }
     }
   ]

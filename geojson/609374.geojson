@@ -3,10 +3,10 @@
   "title": "Epikteteis",
   "id": "609374",
   "bbox": [
-    29.5,
-    39.0,
-    30.0,
-    39.5
+    29.6394783722,
+    39.2551537056,
+    30.68703608,
+    39.7726864743
   ],
   "description": "An ancient place, cited: BAtlas 62 C3 Epikteteis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.75,
-          39.25
+          30.147723831,
+          39.5454858483
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.5,
-              39.0
+              29.639478372203598,
+              39.25515370557537
             ],
             [
-              29.5,
-              39.5
+              29.746554117465962,
+              39.331891323013394
             ],
             [
-              30.0,
-              39.5
+              29.853629862728326,
+              39.40149055743393
             ],
             [
-              30.0,
-              39.0
+              29.957136416481944,
+              39.462166813082604
             ],
             [
-              29.5,
-              39.0
+              30.069565949007426,
+              39.52998145174877
+            ],
+            [
+              30.192703056059145,
+              39.58530392013432
+            ],
+            [
+              30.31405556735649,
+              39.64062638851988
+            ],
+            [
+              30.43897727016258,
+              39.69059506964231
+            ],
+            [
+              30.5621143772143,
+              39.736994559256004
+            ],
+            [
+              30.68703608002039,
+              39.77268647434346
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609374/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609374/batlas-map-label-location"
       }
     }
   ]

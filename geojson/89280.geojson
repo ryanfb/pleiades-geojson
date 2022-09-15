@@ -3,10 +3,10 @@
   "title": "Robogdioi",
   "id": "89280",
   "bbox": [
-    -7.0,
-    55.0,
-    -6.0,
-    56.0
+    -6.37678381582,
+    54.7960014874,
+    -5.93777326025,
+    55.121511753
   ],
   "description": "An ancient place, cited: BAtlas 9 A5 Robogdioi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          55.5
+          -6.15482914085,
+          54.9620167251
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              55.0
+              -6.376783815820886,
+              55.12151175300647
             ],
             [
-              -7.0,
-              56.0
+              -6.301830794137231,
+              55.06868771867698
             ],
             [
-              -6.0,
-              56.0
+              -6.25328978961835,
+              55.03299580358953
             ],
             [
-              -6.0,
-              55.0
+              -6.201179593590666,
+              54.99801772680382
             ],
             [
-              -7.0,
-              55.0
+              -6.147641720959484,
+              54.96161197341462
+            ],
+            [
+              -6.099100716440546,
+              54.92449238172378
+            ],
+            [
+              -6.055556580033794,
+              54.89022814323971
+            ],
+            [
+              -6.012012443627157,
+              54.85667774305762
+            ],
+            [
+              -5.937773260245194,
+              54.796001487408944
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89280/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89280/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Korax Oros",
   "id": "825299",
   "bbox": [
-    38.0,
-    44.0,
-    39.0,
-    45.0
+    38.2421626326,
+    44.3921775047,
+    38.9429138988,
+    44.5789651936
   ],
   "description": "An ancient place, cited: BAtlas 84 D4 Korax Oros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.5,
-          44.5
+          38.5944511925,
+          44.4929592529
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.0,
-              44.0
+              38.242162632623604,
+              44.57896519361009
             ],
             [
-              38.0,
-              45.0
+              38.35518703040054,
+              44.555170583551785
             ],
             [
-              39.0,
-              45.0
+              38.415863286049216,
+              44.54446300902555
             ],
             [
-              39.0,
-              44.0
+              38.484867655218295,
+              44.52661705148182
             ],
             [
-              38.0,
-              44.0
+              38.55268229388446,
+              44.50996082444101
+            ],
+            [
+              38.637153159591435,
+              44.48735594488562
+            ],
+            [
+              38.70734725926343,
+              44.46475106533023
+            ],
+            [
+              38.77278243692376,
+              44.444525646780676
+            ],
+            [
+              38.84178680609284,
+              44.42073103672237
+            ],
+            [
+              38.94291389884063,
+              44.39217750465241
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/825299/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/825299/batlas-map-label-location"
       }
     }
   ]

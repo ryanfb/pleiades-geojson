@@ -3,10 +3,10 @@
   "title": "Taronitis",
   "id": "874717",
   "bbox": [
-    42.0,
-    37.0,
-    43.0,
-    38.0
+    42.5910067231,
+    37.4207242566,
+    42.6866610555,
+    37.8004862331
   ],
   "description": "An ancient place, cited: BAtlas 89 E3 Taronitis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          37.5
+          42.6300297566,
+          37.6128081288
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              37.0
+              42.59100672310204,
+              37.42072425655314
             ],
             [
-              42.0,
-              38.0
+              42.59957278272303,
+              37.490680410124554
             ],
             [
-              43.0,
-              38.0
+              42.61670490196501,
+              37.57919635954144
             ],
             [
-              43.0,
-              37.0
+              42.63954772762098,
+              37.66485695575133
             ],
             [
-              42.0,
-              37.0
+              42.66381822988045,
+              37.741951492340235
+            ],
+            [
+              42.68666105553642,
+              37.80048623308366
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874717/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874717/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Trikaranon (mountain)",
   "id": "570749",
   "bbox": [
-    22.5,
-    37.5,
-    23.0,
-    38.0
+    22.6799401201,
+    37.7926508451,
+    22.6942168861,
+    37.8696858951
   ],
   "description": "Koutsi.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          37.75
+          22.6901577919,
+          37.8304593631
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.5
+              22.67994012008944,
+              37.79265084505391
             ],
             [
-              22.5,
-              38.0
+              22.684104176849644,
+              37.79949179544582
             ],
             [
-              23.0,
-              38.0
+              22.68529390735256,
+              37.80335841958015
             ],
             [
-              23.0,
-              37.5
+              22.686483637855474,
+              37.80633274583744
             ],
             [
-              22.5,
-              37.5
+              22.68767336835839,
+              37.8110916678491
+            ],
+            [
+              22.688565666235547,
+              37.816445455112216
+            ],
+            [
+              22.69005282936422,
+              37.82090694449829
+            ],
+            [
+              22.69035026198992,
+              37.82715302963845
+            ],
+            [
+              22.691539992492835,
+              37.83161451902453
+            ],
+            [
+              22.693622020872965,
+              37.83964519991906
+            ],
+            [
+              22.693919453498665,
+              37.84827074606534
+            ],
+            [
+              22.694216886124423,
+              37.85511169645696
+            ],
+            [
+              22.693622020872965,
+              37.86165521422299
+            ],
+            [
+              22.69272972299575,
+              37.86968589511781
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570749/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570749/batlas-map-label-location"
       }
     }
   ]

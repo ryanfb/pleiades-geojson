@@ -3,10 +3,10 @@
   "title": "Marcomanni",
   "id": "118831",
   "bbox": [
-    13.0,
-    50.0,
-    14.0,
-    51.0
+    13.5714909789,
+    50.1854933988,
+    15.4560240955,
+    50.5186179396
   ],
   "description": "The Marcomanni were a German tribe.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.5,
-          50.5
+          14.5184922594,
+          50.3781759683
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              50.0
+              13.571490978850932,
+              50.51861793959273
             ],
             [
-              13.0,
-              51.0
+              13.876061987597211,
+              50.48245013230428
             ],
             [
-              14.0,
-              51.0
+              14.0683224368683,
+              50.459607306648195
             ],
             [
-              14.0,
-              50.0
+              14.26248645494394,
+              50.43486091218767
             ],
             [
-              13.0,
-              50.0
+              14.449036197800922,
+              50.40821094892232
+            ],
+            [
+              14.656525197509382,
+              50.36633243521959
+            ],
+            [
+              14.86020705960857,
+              50.328261059126305
+            ],
+            [
+              15.04866037127016,
+              50.286382545423805
+            ],
+            [
+              15.254245802174012,
+              50.2387933253072
+            ],
+            [
+              15.456024095468365,
+              50.18549339877649
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/118831/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/118831/batlas-map-label-location"
       }
     }
   ]

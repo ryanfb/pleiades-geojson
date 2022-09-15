@@ -3,12 +3,12 @@
   "title": "Cinyphii",
   "id": "344343",
   "bbox": [
-    14.0,
-    32.0,
-    15.0,
-    33.0
+    14.2187392416,
+    32.4475851346,
+    14.4626339947,
+    32.4517491914
   ],
-  "description": "An ancient place, cited: BAtlas 35 G2 Cinyphii",
+  "description": "Cinyphii, an ancient tribe dwelling in valley of the Cinyps river.",
   "names": [
     "Cinyphii"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          32.5
+          14.3406955665,
+          32.4495824098
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              32.0
+              14.21873924158291,
+              32.44996459565181
             ],
             [
-              14.0,
-              33.0
+              14.26751819220243,
+              32.44996459565181
             ],
             [
-              15.0,
-              33.0
+              14.29726145477531,
+              32.45115432615472
             ],
             [
-              15.0,
-              32.0
+              14.331763639359849,
+              32.45174919140618
             ],
             [
-              14.0,
-              32.0
+              14.354963384166695,
+              32.450559460903264
+            ],
+            [
+              14.399578278026013,
+              32.447585134645976
+            ],
+            [
+              14.424562618587231,
+              32.447585134645976
+            ],
+            [
+              14.462633994680516,
+              32.447585134645976
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344343/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344343/batlas-map-label-location"
       }
     }
   ]

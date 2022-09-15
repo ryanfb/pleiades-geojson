@@ -3,10 +3,10 @@
   "title": "Neri",
   "id": "236566",
   "bbox": [
-    -10.0,
-    42.0,
-    -9.0,
-    43.0
+    -9.17685422408,
+    42.9651255243,
+    -9.10298851224,
+    43.0258270499
   ],
   "description": "An ancient place, cited: BAtlas 24 B2 Neri",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.5,
-          42.5
+          -9.14083930849,
+          42.9966983012
         ]
       },
       "properties": {
@@ -31,39 +31,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -10.0,
-              42.0
+              -9.176854224079705,
+              42.965125524302664
             ],
             [
-              -10.0,
-              43.0
+              -9.14833182049631,
+              42.98999120947809
             ],
             [
-              -9.0,
-              43.0
+              -9.132242259500515,
+              43.006812114155366
             ],
             [
-              -9.0,
-              42.0
-            ],
-            [
-              -10.0,
-              42.0
+              -9.10298851223547,
+              43.025827049877705
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236566/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236566/batlas-map-label-location"
       }
     }
   ]

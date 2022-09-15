@@ -3,10 +3,10 @@
   "title": "Arachosia",
   "id": "59692",
   "bbox": [
-    65.0,
-    30.0,
-    70.0,
-    35.0
+    64.9896053467,
+    30.7108987468,
+    69.5522218254,
+    31.0380746351
   ],
   "description": "A satrapy located in what is now Afghanistan.",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          32.5
+          67.2698968361,
+          30.8882580772
         ]
       },
       "properties": {
@@ -31,39 +31,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              30.0
+              64.98960534668043,
+              30.710898746761643
             ],
             [
-              65.0,
-              35.0
+              65.6618030808275,
+              30.7703852719074
             ],
             [
-              70.0,
-              35.0
+              66.2269250697122,
+              30.817974492024007
             ],
             [
-              70.0,
-              30.0
+              66.78609840608232,
+              30.87151236465519
             ],
             [
-              65.0,
-              30.0
+              67.32742578490871,
+              30.901255627228068
+            ],
+            [
+              67.87470181624968,
+              30.936947542315522
+            ],
+            [
+              68.41602919507608,
+              30.960742152373825
+            ],
+            [
+              68.88597274372756,
+              30.99643406746128
+            ],
+            [
+              69.55222182536005,
+              31.03807463506331
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59692/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59692/batlas-map-label-location"
       }
     }
   ]

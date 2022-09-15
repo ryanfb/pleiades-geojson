@@ -3,10 +3,10 @@
   "title": "Massyli",
   "id": "334588",
   "bbox": [
-    6.0,
-    35.0,
-    7.0,
-    36.0
+    6.02725257684,
+    35.4439603403,
+    7.77871041968,
+    35.8913959319
   ],
   "description": "A confederation of Berber tribes living in Numidia.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          35.5
+          6.89129620959,
+          35.7134265327
         ]
       },
       "properties": {
@@ -31,39 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              35.0
+              6.027252576843893,
+              35.443960340255195
             ],
             [
-              6.0,
-              36.0
+              6.359151295012127,
+              35.57510089101148
             ],
             [
-              7.0,
-              36.0
+              6.616358277763082,
+              35.6625217007538
             ],
             [
-              7.0,
-              35.0
+              6.881802337662431,
+              35.7401123563373
             ],
             [
-              6.0,
-              35.0
+              7.149067486535969,
+              35.799719652070436
+            ],
+            [
+              7.42222723980393,
+              35.84672420826976
+            ],
+            [
+              7.778710419675924,
+              35.89139593189907
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334588/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334588/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Mousikanoi",
   "id": "59938",
   "bbox": [
-    65.0,
-    25.0,
-    70.0,
-    30.0
+    68.2488394971,
+    27.6862606655,
+    69.7181566682,
+    27.7814391057
   ],
   "description": "An ancient place, cited: BAtlas 6 B4 Mousikanoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          27.5
+          68.9831830814,
+          27.7370217023
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              25.0
+              68.24883949705514,
+              27.68626066551309
             ],
             [
-              65.0,
-              30.0
+              68.54032347026936,
+              27.716003928085968
             ],
             [
-              70.0,
-              30.0
+              68.69498843564833,
+              27.72790123311512
             ],
             [
-              70.0,
-              25.0
+              68.84370474851272,
+              27.72790123311512
             ],
             [
-              65.0,
-              25.0
+              68.95078049377508,
+              27.733849885629695
+            ],
+            [
+              69.07570219658118,
+              27.73979853814427
+            ],
+            [
+              69.23036716196015,
+              27.751695843173422
+            ],
+            [
+              69.39098077985369,
+              27.757644495687998
+            ],
+            [
+              69.55159439774724,
+              27.76954180071715
+            ],
+            [
+              69.71815666815536,
+              27.7814391057463
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59938/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59938/batlas-map-label-location"
       }
     }
   ]
