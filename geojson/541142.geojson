@@ -3,10 +3,10 @@
   "title": "Thessaliotis",
   "id": "541142",
   "bbox": [
-    21.5,
-    39.0,
-    22.0,
-    39.5
+    21.6956981241,
+    39.3372317318,
+    22.1025859561,
+    39.3895798739
   ],
   "description": "An ancient place, cited: BAtlas 55 B2 Thessaliotis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          39.25
+          21.897319945,
+          39.3504995132
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              39.0
+              21.69569812409867,
+              39.389579873880905
             ],
             [
-              21.5,
-              39.5
+              21.738528422203615,
+              39.37530310784592
             ],
             [
-              22.0,
-              39.5
+              21.77422033729107,
+              39.3657852638226
             ],
             [
-              22.0,
-              39.0
+              21.81110198288144,
+              39.355077689296365
             ],
             [
-              21.5,
-              39.0
+              21.84322470646015,
+              39.350318767284705
+            ],
+            [
+              21.876537160541773,
+              39.3419906537643
+            ],
+            [
+              21.907470153617567,
+              39.340800923261384
+            ],
+            [
+              21.94078260769919,
+              39.33842146225555
+            ],
+            [
+              21.97766425328956,
+              39.33842146225555
+            ],
+            [
+              22.015735629382846,
+              39.33961119275847
+            ],
+            [
+              22.04904808346447,
+              39.33723173175264
+            ],
+            [
+              22.102585956095652,
+              39.343180384267214
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541142/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/541142/batlas-map-label-location"
       }
     }
   ]

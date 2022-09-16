@@ -3,10 +3,10 @@
   "title": "Acutri?",
   "id": "59654",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    70.8238057869,
+    34.5019749943,
+    71.3520461302,
+    34.5162517603
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Acutri?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          71.0880225878,
+          34.5067168449
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              70.82380578687582,
+              34.50197499430078
             ],
             [
-              70.0,
-              35.0
+              70.95943506420815,
+              34.50197499430078
             ],
             [
-              75.0,
-              35.0
+              71.04509566041804,
+              34.50911337731827
             ],
             [
-              75.0,
-              30.0
+              71.13432544813668,
+              34.505544185809526
             ],
             [
-              70.0,
-              30.0
+              71.20570927831159,
+              34.50911337731827
+            ],
+            [
+              71.269954725469,
+              34.50911337731827
+            ],
+            [
+              71.35204613017015,
+              34.51625176033576
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59654/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59654/batlas-map-label-location"
       }
     }
   ]

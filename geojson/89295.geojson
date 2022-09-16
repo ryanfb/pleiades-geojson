@@ -3,10 +3,10 @@
   "title": "Taixaloi",
   "id": "89295",
   "bbox": [
-    -3.0,
-    57.0,
-    -2.0,
-    58.0
+    -2.36340642381,
+    56.9038073617,
+    -2.33675646055,
+    57.3092675171
   ],
   "description": "An ancient place, cited: BAtlas 9 E3 Taixaloi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          57.5
+          -2.35495103787,
+          57.1062663324
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              57.0
+              -2.351985010984151,
+              57.30926751713366
             ],
             [
-              -3.0,
-              58.0
+              -2.359599286202752,
+              57.23502833375187
             ],
             [
-              -2.0,
-              58.0
+              -2.36340642381208,
+              57.17982483841661
             ],
             [
-              -2.0,
-              57.0
+              -2.361502855007473,
+              57.13794632471388
             ],
             [
-              -3.0,
-              57.0
+              -2.359599286202752,
+              57.07893569176929
+            ],
+            [
+              -2.353888579788759,
+              57.02182862762936
+            ],
+            [
+              -2.346274304570102,
+              56.97233583870815
+            ],
+            [
+              -2.336756460546781,
+              56.90380736174029
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89295/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89295/batlas-map-label-location"
       }
     }
   ]

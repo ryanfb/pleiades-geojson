@@ -3,10 +3,10 @@
   "title": "Kathaioi/Xathroi",
   "id": "59871",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    74.1585014135,
+    32.1391702155,
+    75.193566951,
+    32.3426141315
   ],
   "description": "The Kathaioi/Xathroi were a people of ancient India subjugated by Alexander the Great. Their territory lay in the Punjab either to the east of the Hydraotes or between the Hydaspes and Acesines rivers.",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          74.6718899869,
+          32.2227418581
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              74.1585014134966,
+              32.34261413150978
             ],
             [
-              70.0,
-              35.0
+              74.32268422289889,
+              32.281937875861104
             ],
             [
-              75.0,
-              35.0
+              74.45831350023121,
+              32.26766110982612
             ],
             [
-              75.0,
-              30.0
+              74.58680439454605,
+              32.23553838624741
             ],
             [
-              70.0,
-              30.0
+              74.72243367187838,
+              32.20698485417745
+            ],
+            [
+              74.87947809826318,
+              32.178431322107485
+            ],
+            [
+              75.06864524822669,
+              32.146308598528776
+            ],
+            [
+              75.19356695103278,
+              32.139170215511285
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59871/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59871/batlas-map-label-location"
       }
     }
   ]

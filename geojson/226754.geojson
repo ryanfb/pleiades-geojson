@@ -3,10 +3,10 @@
   "title": "Satauci",
   "id": "226754",
   "bbox": [
-    34.0,
-    45.0,
-    35.0,
-    46.0
+    34.2220908682,
+    45.140161211,
+    35.1472253073,
+    45.2458092797
   ],
   "description": "An ancient place, cited: BAtlas 23 H3 Satauci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.5,
-          45.5
+          34.6867337308,
+          45.2107402539
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.0,
-              45.0
+              34.222090868190946,
+              45.245809279702485
             ],
             [
-              34.0,
-              46.0
+              34.40768882664571,
+              45.24152624989205
             ],
             [
-              35.0,
-              46.0
+              34.53617972096072,
+              45.234387866874556
             ],
             [
-              35.0,
-              45.0
+              34.67038132168943,
+              45.221538777443186
             ],
             [
-              34.0,
-              45.0
+              34.80315524581471,
+              45.207262011408204
+            ],
+            [
+              34.94449522956114,
+              45.18299150914868
+            ],
+            [
+              35.147225307257884,
+              45.14016121104373
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226754/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226754/batlas-map-label-location"
       }
     }
   ]

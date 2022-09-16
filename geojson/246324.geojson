@@ -3,10 +3,10 @@
   "title": "Cer(r)etani",
   "id": "246324",
   "bbox": [
-    1.0,
-    42.0,
-    2.0,
-    43.0
+    1.39540378957,
+    42.5669323078,
+    2.07592963724,
+    42.640695599
   ],
   "description": "An ancient place, cited: BAtlas 25 G3 Cer(r)etani",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          42.5
+          1.73665424936,
+          42.5947401016
         ]
       },
       "properties": {
@@ -29,39 +29,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              42.0
+              1.395403789569492,
+              42.566932307807825
             ],
             [
-              1.0,
-              43.0
+              1.740425635414883,
+              42.58596799585447
             ],
             [
-              2.0,
-              43.0
-            ],
-            [
-              2.0,
-              42.0
-            ],
-            [
-              1.0,
-              42.0
+              2.075929637236952,
+              42.640695598988565
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246324/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246324/batlas-map-label-location"
       }
     }
   ]

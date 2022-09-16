@@ -3,10 +3,10 @@
   "title": "Mandubii",
   "id": "177572",
   "bbox": [
-    4.503884,
-    47.536622,
-    4.503884,
-    47.536622
+    4.23384056317,
+    47.5374784923,
+    4.60075345027,
+    47.5460445519
   ],
   "description": "A conferation of Gallic tribes.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.503884,
-          47.536622
+          4.41727338809,
+          47.5423958479
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              47.0
+              4.233840563174738,
+              47.537478492291655
             ],
             [
-              4.0,
-              48.0
+              4.31379045297075,
+              47.54033384549865
             ],
             [
-              5.0,
-              48.0
+              4.359476104282749,
+              47.543189198705704
             ],
             [
-              5.0,
-              47.0
+              4.407303270499881,
+              47.542475360403785
             ],
             [
-              4.0,
-              47.0
+              4.460127304829314,
+              47.543189198705704
+            ],
+            [
+              4.502243764632567,
+              47.5439030370074
+            ],
+            [
+              4.537935679720022,
+              47.5439030370074
+            ],
+            [
+              4.600753450273828,
+              47.54604455191253
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/177572/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/177572/batlas-map-label-location"
       }
     }
   ]

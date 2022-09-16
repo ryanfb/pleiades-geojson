@@ -3,10 +3,10 @@
   "title": "Lycaonia (region)",
   "id": "648698",
   "bbox": [
-    32.5,
-    37.0,
-    33.0,
-    37.5
+    32.5479888559,
+    37.3916342166,
+    34.0042189915,
+    38.0483654542
   ],
   "description": "An ancient place, cited: BAtlas 66 B2 Lycaonia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          37.25
+          33.32286755,
+          37.6358579837
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              37.0
+              34.004218991516495,
+              38.048365454195846
             ],
             [
-              32.5,
-              37.5
+              33.83289779909671,
+              37.84135234668861
             ],
             [
-              33.0,
-              37.5
+              33.67585337271191,
+              37.74855336746123
             ],
             [
-              33.0,
-              37.0
+              33.51167056330962,
+              37.655754388233845
             ],
             [
-              32.5,
-              37.0
+              33.2903806897674,
+              37.584370558058936
+            ],
+            [
+              33.09764434829515,
+              37.52012511090152
+            ],
+            [
+              32.79783226156053,
+              37.44160289770912
+            ],
+            [
+              32.54798885594835,
+              37.39163421658668
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648698/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648698/batlas-map-label-location"
       }
     }
   ]

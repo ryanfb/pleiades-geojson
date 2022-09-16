@@ -3,10 +3,10 @@
   "title": "Azania",
   "id": "570143",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.0643795557,
+    37.7202654173,
+    22.1628892414,
+    37.8694576223
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Azania",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.1100733493,
+          37.7972327198
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.064379555709138,
+              37.7202654172537
             ],
             [
-              22.0,
-              38.0
+              22.08365318985642,
+              37.75916960469914
             ],
             [
-              22.5,
-              38.0
+              22.101856066550965,
+              37.78808005591986
             ],
             [
-              22.5,
-              37.5
+              22.120058943245624,
+              37.81449207308469
             ],
             [
-              22.0,
-              37.5
+              22.135763385884047,
+              37.83840565619323
+            ],
+            [
+              22.16288924135057,
+              37.86945762231932
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570143/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570143/batlas-map-label-location"
       }
     }
   ]

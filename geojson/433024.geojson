@@ -3,10 +3,10 @@
   "title": "Picentinus Ager",
   "id": "433024",
   "bbox": [
-    14.72808,
-    40.6332345,
-    14.8564808,
-    40.672914
+    14.8143169758,
+    40.4963639923,
+    14.992300659,
+    40.6791065975
   ],
   "description": "An ancient place, cited: BAtlas 44 G4 Picentinus Ager",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7922804,
-          40.65307425
+          14.9084331492,
+          40.5928282243
         ]
       },
       "properties": {
@@ -31,39 +31,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.5,
-              40.5
+              14.814316975791883,
+              40.67910659750902
             ],
             [
-              14.5,
-              41.0
+              14.835732124844355,
+              40.663402154870425
             ],
             [
-              15.0,
-              41.0
+              14.849057106477119,
+              40.652932526444886
             ],
             [
-              15.0,
-              40.5
+              14.86095441150627,
+              40.642462898019176
             ],
             [
-              14.5,
-              40.5
+              14.875707069742248,
+              40.629613808587806
+            ],
+            [
+              14.888556159173845,
+              40.617716503558654
+            ],
+            [
+              14.901405248605386,
+              40.60772276733411
+            ],
+            [
+              14.913302553634537,
+              40.59534957010379
+            ],
+            [
+              14.925199858663689,
+              40.58107280406881
+            ],
+            [
+              14.936145379290451,
+              40.56774782243622
+            ],
+            [
+              14.944235546710331,
+              40.55727819401051
+            ],
+            [
+              14.952801606331263,
+              40.547760349987186
+            ],
+            [
+              14.96374712695797,
+              40.533483583952204
+            ],
+            [
+              14.974692647584902,
+              40.51825503351478
+            ],
+            [
+              14.992300659027933,
+              40.49636399226131
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433024/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433024/batlas-map-label-location"
       }
     }
   ]

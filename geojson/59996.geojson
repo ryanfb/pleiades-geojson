@@ -3,10 +3,10 @@
   "title": "Phrynoi/Phuni",
   "id": "59996",
   "bbox": [
-    75.0,
-    40.0,
-    80.0,
-    45.0
+    79.4390211065,
+    40.113378569,
+    83.9362024075,
+    40.1919007822
   ],
   "description": "An ancient place, cited: BAtlas 6 D1 Phrynoi/Phuni",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          42.5
+          81.6878279921,
+          40.1583691973
         ]
       },
       "properties": {
@@ -29,39 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              40.0
+              79.43902110647673,
+              40.18476239915822
             ],
             [
-              75.0,
-              45.0
+              79.94584630071859,
+              40.19190078217571
             ],
             [
-              80.0,
-              45.0
+              80.28848868555815,
+              40.177624016140726
             ],
             [
-              80.0,
-              40.0
+              80.60971592134524,
+              40.177624016140726
             ],
             [
-              75.0,
-              40.0
+              80.97377345523728,
+              40.177624016140726
+            ],
+            [
+              81.33069260611182,
+              40.177624016140726
+            ],
+            [
+              81.65191984189892,
+              40.15620886708825
+            ],
+            [
+              81.95887031165086,
+              40.15620886708825
+            ],
+            [
+              82.33006622856038,
+              40.13479371803578
+            ],
+            [
+              82.67984699641744,
+              40.14907048407076
+            ],
+            [
+              83.06531967936195,
+              40.14193210105327
+            ],
+            [
+              83.42937721325399,
+              40.1205169520008
+            ],
+            [
+              83.93620240749584,
+              40.11337856898331
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59996/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59996/batlas-map-label-location"
       }
     }
   ]

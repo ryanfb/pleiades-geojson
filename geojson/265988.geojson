@@ -3,10 +3,10 @@
   "title": "Oretana Iuga",
   "id": "265988",
   "bbox": [
-    -3.7256823,
-    38.7606439,
-    -3.7256823,
-    38.7606439
+    -3.83474040703,
+    38.4638210064,
+    -3.51172857548,
+    38.4727439852
   ],
   "description": "The Sierra Morena mountain range.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7256823,
-          38.7606439
+          -3.67323449125,
+          38.4682824958
         ]
       },
       "properties": {
@@ -61,6 +61,31 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/265988/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -3.511728575483708,
+              38.47274398519722
+            ],
+            [
+              -3.834740407025169,
+              38.463821006425356
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/265988/batlas-map-label-location"
       }
     }
   ]

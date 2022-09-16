@@ -3,10 +3,10 @@
   "title": "Sikoulensioi",
   "id": "472019",
   "bbox": [
-    9.0,
-    39.0,
-    10.0,
-    40.0
+    9.34664905748,
+    39.4279153219,
+    9.61076922913,
+    39.43291219
   ],
   "description": "An ancient place, cited: BAtlas 48 B3 Sikoulensioi",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          39.5
+          9.47861878264,
+          39.4309398834
         ]
       },
       "properties": {
@@ -31,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              39.0
+              9.346649057482697,
+              39.4279153218928
             ],
             [
-              9.0,
-              40.0
+              9.37520258955266,
+              39.430770675099794
             ],
             [
-              10.0,
-              40.0
+              9.392334708794637,
+              39.43291219000504
             ],
             [
-              10.0,
-              39.0
+              9.418746725959354,
+              39.43148451340154
             ],
             [
-              9.0,
-              39.0
+              9.445872581425819,
+              39.43148451340154
+            ],
+            [
+              9.465146215573045,
+              39.43148451340154
+            ],
+            [
+              9.49227207103951,
+              39.43148451340154
+            ],
+            [
+              9.518684088204225,
+              39.430056836798045
+            ],
+            [
+              9.543668428765443,
+              39.429342998496296
+            ],
+            [
+              9.555803679895178,
+              39.430770675099794
+            ],
+            [
+              9.575791152344152,
+              39.430770675099794
+            ],
+            [
+              9.610769229129858,
+              39.43148451340154
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472019/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472019/batlas-map-label-location"
       }
     }
   ]

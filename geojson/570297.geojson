@@ -3,10 +3,10 @@
   "title": "Hyameia",
   "id": "570297",
   "bbox": [
-    21.5,
-    37.0,
-    22.0,
-    37.5
+    21.920305373,
+    37.0464962474,
+    21.9909753649,
+    37.1157385627
   ],
   "description": "An ancient place, cited: BAtlas 58 B3 Hyameia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.25
+          21.9579200727,
+          37.083541665
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.0
+              21.920305372978703,
+              37.1157385626704
             ],
             [
-              21.5,
-              37.5
+              21.941720522031176,
+              37.10146179663542
             ],
             [
-              22.0,
-              37.5
+              21.95171425825572,
+              37.091824979561636
             ],
             [
-              22.0,
-              37.0
+              21.962064913630968,
+              37.08218816248825
             ],
             [
-              21.5,
-              37.0
+              21.972058649855512,
+              37.0700529113584
+            ],
+            [
+              21.979553952023934,
+              37.06148685173753
+            ],
+            [
+              21.99097536485192,
+              37.046496247400796
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570297/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570297/batlas-map-label-location"
       }
     }
   ]

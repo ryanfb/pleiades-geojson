@@ -3,10 +3,10 @@
   "title": "Venisami",
   "id": "383812",
   "bbox": [
-    7.0,
-    44.5,
-    7.5,
-    45.0
+    7.26305553728,
+    44.5468190156,
+    7.44865349574,
+    44.5610957816
   ],
   "description": "An ancient place, cited: BAtlas 39 A4 Venisami",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          44.75
+          7.35562700893,
+          44.5514954331
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              44.5
+              7.263055537283947,
+              44.56109578159368
             ],
             [
-              7.0,
-              45.0
+              7.300532048125774,
+              44.55395739857619
             ],
             [
-              7.5,
-              45.0
+              7.32373179293262,
+              44.55157793757036
             ],
             [
-              7.5,
-              44.5
+              7.344552076733635,
+              44.549793341815985
             ],
             [
-              7.0,
-              44.5
+              7.363587764780277,
+              44.549793341815985
+            ],
+            [
+              7.385597779084208,
+              44.5468190155587
+            ],
+            [
+              7.414746176405629,
+              44.54919847656453
+            ],
+            [
+              7.448653495738711,
+              44.55157793757036
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383812/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383812/batlas-map-label-location"
       }
     }
   ]

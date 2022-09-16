@@ -3,10 +3,10 @@
   "title": "Cherusci",
   "id": "98939",
   "bbox": [
-    9.0,
-    52.0,
-    10.0,
-    53.0
+    9.17977928691,
+    52.2656558849,
+    9.76369901775,
+    52.2685112381
   ],
   "description": "The Cherusci were a Germanic tribe occupying parts of northwestern Germany.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          52.5
+          9.47173522738,
+          52.2668566926
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              52.0
+              9.179779286914936,
+              52.267083561476284
             ],
             [
-              9.0,
-              53.0
+              9.305414828022947,
+              52.268511238079725
             ],
             [
-              10.0,
-              53.0
+              9.383937041215347,
+              52.267083561476284
             ],
             [
-              10.0,
-              52.0
+              9.448182488372765,
+              52.267083561476284
             ],
             [
-              9.0,
-              52.0
+              9.52813237816855,
+              52.267083561476284
+            ],
+            [
+              9.609509944568003,
+              52.26565588487267
+            ],
+            [
+              9.67232771512181,
+              52.26565588487267
+            ],
+            [
+              9.76369901774575,
+              52.26565588487267
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98939/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98939/batlas-map-label-location"
       }
     }
   ]

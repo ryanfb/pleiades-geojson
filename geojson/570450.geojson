@@ -3,10 +3,10 @@
   "title": "Mainalion Pedion",
   "id": "570450",
   "bbox": [
-    22.0,
-    37.0,
-    22.5,
-    37.5
+    22.2459502764,
+    37.4832354092,
+    22.3487620276,
+    37.5183879798
   ],
   "description": "The Mainalion Pedion was a plain located in central Greece.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.25
+          22.296989662,
+          37.5018898137
         ]
       },
       "properties": {
@@ -31,39 +31,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.0
+              22.24595027641152,
+              37.483235409157885
             ],
             [
-              22.0,
-              37.5
+              22.25910393685183,
+              37.4885019495174
             ],
             [
-              22.5,
-              37.5
+              22.264053215744013,
+              37.490405518322234
             ],
             [
-              22.5,
-              37.0
+              22.27033499279935,
+              37.4928801577683
             ],
             [
-              22.0,
-              37.0
+              22.27642641297416,
+              37.49459336969244
+            ],
+            [
+              22.281946762507744,
+              37.49744872289949
+            ],
+            [
+              22.286705684519404,
+              37.49878122106264
+            ],
+            [
+              22.29393924597713,
+              37.50106550362824
+            ],
+            [
+              22.300601736793453,
+              37.50334978619384
+            ],
+            [
+              22.31164243586062,
+              37.507727994444565
+            ],
+            [
+              22.317543499154965,
+              37.50944120636888
+            ],
+            [
+              22.32553848813461,
+              37.51191584581494
+            ],
+            [
+              22.331439551429014,
+              37.51400977150007
+            ],
+            [
+              22.338863469767205,
+              37.51572298342421
+            ],
+            [
+              22.343241678017876,
+              37.51686512470707
+            ],
+            [
+              22.34876202755146,
+              37.51838797975074
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570450/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570450/batlas-map-label-location"
       }
     }
   ]

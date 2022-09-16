@@ -3,10 +3,10 @@
   "title": "Pagus Zeugei",
   "id": "315112",
   "bbox": [
-    9.5,
-    36.5,
-    10.0,
-    37.0
+    9.81929225709,
+    36.7255891685,
+    9.97196143915,
+    36.791096197
   ],
   "description": "An ancient place, cited: BAtlas 32 E3 Pagus Zeugei",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          36.75
+          9.8949161409,
+          36.7599843142
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              36.5
+              9.819292257089787,
+              36.72558916845229
             ],
             [
-              9.5,
-              37.0
+              9.849882447786088,
+              36.74062391556242
             ],
             [
-              10.0,
-              37.0
+              9.870060389357933,
+              36.75050596953536
             ],
             [
-              10.0,
-              36.5
+              9.895182573352905,
+              36.76130029133917
             ],
             [
-              9.5,
-              36.5
+              9.92407569545107,
+              36.773130044337414
+            ],
+            [
+              9.949564850128668,
+              36.782430501567006
+            ],
+            [
+              9.971961439152341,
+              36.7910961969544
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315112/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/315112/batlas-map-label-location"
       }
     }
   ]

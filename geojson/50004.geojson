@@ -3,10 +3,10 @@
   "title": "India",
   "id": "50004",
   "bbox": [
-    75.0,
-    20.0,
-    80.0,
-    25.0
+    75.2930356235,
+    20.6084969505,
+    83.7734346483,
+    20.6513272486
   ],
   "description": "An ancient place, cited: BAtlas 5 D2 India",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          22.5
+          79.5332605032,
+          20.6367379616
         ]
       },
       "properties": {
@@ -28,39 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              20.0
+              75.29303562349872,
+              20.637050482611812
             ],
             [
-              75.0,
-              25.0
+              77.54876465702586,
+              20.651327248646794
             ],
             [
-              80.0,
-              25.0
+              79.57606543399328,
+              20.651327248646794
             ],
             [
-              80.0,
-              20.0
+              81.54625914682077,
+              20.62277371657683
             ],
             [
-              75.0,
-              20.0
+              83.77343464827794,
+              20.60849695054185
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50004/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50004/batlas-map-label-location"
       }
     }
   ]

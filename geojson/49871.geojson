@@ -3,10 +3,10 @@
   "title": "Argarou",
   "id": "49871",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    78.0517973244,
+    11.0938560157,
+    79.2950656999,
+    11.0998046682
   ],
   "description": "An ancient place, cited: BAtlas 5 D4 Argarou",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          78.6734390532,
+          11.0977408908
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              78.05179732438387,
+              11.099804668208776
             ],
             [
-              75.0,
-              15.0
+              78.27189746742317,
+              11.099804668208776
             ],
             [
-              80.0,
-              15.0
+              78.46820300040417,
+              11.0938560156942
             ],
             [
-              80.0,
-              10.0
+              78.64071392332687,
+              11.099804668208776
             ],
             [
-              75.0,
-              10.0
+              78.80132754122042,
+              11.099804668208776
+            ],
+            [
+              79.00358172671599,
+              11.0938560156942
+            ],
+            [
+              79.2950656999302,
+              11.099804668208776
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49871/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49871/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Solmissos (mountain)",
   "id": "599942",
   "bbox": [
-    27.0,
-    37.5,
-    27.5,
-    38.0
+    27.3060317533,
+    37.8556368467,
+    27.3769396913,
+    37.8599198765
   ],
   "description": "A mountain, probably Davut Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          37.75
+          27.3414022085,
+          37.8587712272
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              37.5
+              27.306031753326124,
+              37.855636846673576
             ],
             [
-              27.0,
-              38.0
+              27.317453166154053,
+              37.856588631075795
             ],
             [
-              27.5,
-              38.0
+              27.322687980366936,
+              37.85801630767941
             ],
             [
-              27.5,
-              37.5
+              27.328398686780815,
+              37.85849219988046
             ],
             [
-              27.0,
-              37.5
+              27.336488854200695,
+              37.85944398428285
+            ],
+            [
+              27.346958482626405,
+              37.85944398428285
+            ],
+            [
+              27.354096865643896,
+              37.859919876484014
+            ],
+            [
+              27.37693969129981,
+              37.859919876484014
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599942/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599942/batlas-map-label-location"
       }
     }
   ]
