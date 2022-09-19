@@ -3,10 +3,10 @@
   "title": "Geronteon (mountain)",
   "id": "570262",
   "bbox": [
-    22.3969314,
-    37.9397231,
-    22.3969314,
-    37.9397231
+    22.3542285917,
+    37.8754556915,
+    22.3833769891,
+    37.9560599331
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Geronteon M.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.3969314,
-          37.9397231
+          22.3637630279,
+          37.9139942471
         ]
       },
       "properties": {
@@ -32,39 +32,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.35512088962571,
+              37.956059933052586
             ],
             [
-              22.0,
-              38.0
+              22.354228591748324,
+              37.943567762771806
             ],
             [
-              22.5,
-              38.0
+              22.35541832225124,
+              37.93970113863753
             ],
             [
-              22.5,
-              37.5
+              22.35541832225124,
+              37.93286018824557
             ],
             [
-              22.0,
-              37.5
+              22.35779778325707,
+              37.92750640098262
+            ],
+            [
+              22.358690081134455,
+              37.921855181093804
+            ],
+            [
+              22.35987981163737,
+              37.91620396120476
+            ],
+            [
+              22.360772109514357,
+              37.91293220232194
+            ],
+            [
+              22.363449003146116,
+              37.904901521427234
+            ],
+            [
+              22.368802790409234,
+              37.89657340790683
+            ],
+            [
+              22.373264279794967,
+              37.88943502488934
+            ],
+            [
+              22.375941173426725,
+              37.88467610287768
+            ],
+            [
+              22.383376989069745,
+              37.87545569148011
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570262/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570262/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Arios (mountain)",
   "id": "550453",
   "bbox": [
-    26.053,
-    38.414,
-    26.053,
-    38.414
+    25.8782299118,
+    38.5513652616,
+    25.9174910184,
+    38.555826751
   ],
   "description": "A mountain on Khios.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.053,
-          38.414
+          25.8978693559,
+          38.5537166883
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              38.5
+              25.87822991184879,
+              38.55582675100294
             ],
             [
-              25.5,
-              39.0
+              25.886855457994955,
+              38.554637020500024
             ],
             [
-              26.0,
-              39.0
+              25.892506677883773,
+              38.554637020500024
             ],
             [
-              26.0,
-              38.5
+              25.90083479140418,
+              38.55374472262287
             ],
             [
-              25.5,
-              38.5
+              25.908865472298885,
+              38.552257559494194
+            ],
+            [
+              25.91749101844499,
+              38.551365261617036
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550453/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550453/batlas-map-label-location"
       }
     }
   ]

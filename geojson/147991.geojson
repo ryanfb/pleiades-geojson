@@ -3,10 +3,10 @@
   "title": "Anatilii",
   "id": "147991",
   "bbox": [
-    4.5,
-    43.5,
-    5.0,
-    44.0
+    4.84186738246,
+    43.6570642,
+    5.05595997517,
+    43.7625362861
   ],
   "description": "An ancient place, cited: BAtlas 15 D2 Anatilii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.75,
-          43.75
+          4.94991148572,
+          43.7077825505
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.5,
-              43.5
+              4.841867382460464,
+              43.65706419998929
             ],
             [
-              4.5,
-              44.0
+              4.885420532447768,
+              43.67700419636901
             ],
             [
-              5.0,
-              44.0
+              4.917954210751304,
+              43.690122615039854
             ],
             [
-              5.0,
-              43.5
+              4.946289995080349,
+              43.70533998069811
             ],
             [
-              4.5,
-              43.5
+              4.973051569168888,
+              43.717933662622045
+            ],
+            [
+              4.996139986029561,
+              43.72895313430547
+            ],
+            [
+              5.018178929396527,
+              43.7415468162294
+            ],
+            [
+              5.055959975168435,
+              43.762536286102886
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/147991/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/147991/batlas-map-label-location"
       }
     }
   ]

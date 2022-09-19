@@ -3,10 +3,10 @@
   "title": "Ucubitanorum Praefectura",
   "id": "256498",
   "bbox": [
-    -6.0,
-    39.0,
-    -5.0,
-    40.0
+    -5.06183663613,
+    39.2902994505,
+    -4.83626373278,
+    39.2902994505
   ],
   "description": "An ancient place, cited: BAtlas 26 E2 Ucubitanorum Praefectura",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5,
-          39.5
+          -4.94905018446,
+          39.2902994505
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.0,
-              39.0
+              -5.061836636134779,
+              39.29029945049937
             ],
             [
-              -6.0,
-              40.0
-            ],
-            [
-              -5.0,
-              40.0
-            ],
-            [
-              -5.0,
-              39.0
-            ],
-            [
-              -6.0,
-              39.0
+              -4.836263732782069,
+              39.29029945049937
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256498/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256498/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Latobici",
   "id": "197344",
   "bbox": [
-    14.0,
-    45.0,
-    15.0,
-    46.0
+    14.7911552699,
+    45.8226668145,
+    15.456214621,
+    45.8298051975
   ],
   "description": "An ancient place, cited: BAtlas 20 B4 Latobici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          45.5
+          15.1236869919,
+          45.8272436935
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              45.0
+              14.791155269892556,
+              45.82742573650586
             ],
             [
-              14.0,
-              46.0
+              14.90061047616075,
+              45.82980519751169
             ],
             [
-              15.0,
-              46.0
+              14.993409455388132,
+              45.82980519751169
             ],
             [
-              15.0,
-              45.0
+              15.083828973609684,
+              45.828615467008774
             ],
             [
-              14.0,
-              45.0
+              15.179007413842896,
+              45.826236006002944
+            ],
+            [
+              15.259909088041127,
+              45.826236006002944
+            ],
+            [
+              15.351518336765594,
+              45.82504627550003
+            ],
+            [
+              15.456214621022127,
+              45.8226668144942
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197344/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197344/batlas-map-label-location"
       }
     }
   ]

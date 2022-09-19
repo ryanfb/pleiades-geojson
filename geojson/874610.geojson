@@ -3,10 +3,10 @@
   "title": "Moxoena",
   "id": "874610",
   "bbox": [
-    42.0,
-    38.0,
-    43.0,
-    39.0
+    42.8911043452,
+    38.081738524,
+    43.6277854726,
+    38.088876907
   ],
   "description": "An ancient place, cited: BAtlas 89 E2 Moxoena",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          38.5
+          43.2594449089,
+          38.0853077155
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              38.0
+              43.62778547256242,
+              38.081738523972795
             ],
             [
-              42.0,
-              39.0
-            ],
-            [
-              43.0,
-              39.0
-            ],
-            [
-              43.0,
-              38.0
-            ],
-            [
-              42.0,
-              38.0
+              42.89110434515736,
+              38.088876906990286
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874610/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874610/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Ucutamii",
   "id": "305177",
   "bbox": [
-    5.5,
-    36.5,
-    6.0,
-    37.0
+    5.85377521029,
+    36.590646101,
+    6.03411837516,
+    36.5927372599
   ],
   "description": "An ancient place, cited: BAtlas 31 D3 Ucutamii",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          36.75
+          5.94393499809,
+          36.5920552265
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              36.5
+              5.853775210290325,
+              36.59064610097995
             ],
             [
-              5.5,
-              37.0
+              5.889629638477832,
+              36.592320388760726
             ],
             [
-              6.0,
-              37.0
+              5.916426797473312,
+              36.592737259934246
             ],
             [
-              6.0,
-              36.5
+              5.935987875925332,
+              36.5922469533194
             ],
             [
-              5.5,
-              36.5
+              5.960264337965761,
+              36.59140291014563
+            ],
+            [
+              5.987061549097692,
+              36.591804117277874
+            ],
+            [
+              6.008554162787136,
+              36.59259611272975
+            ],
+            [
+              6.034118375155568,
+              36.592599706001096
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305177/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305177/batlas-map-label-location"
       }
     }
   ]

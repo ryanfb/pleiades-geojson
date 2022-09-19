@@ -3,10 +3,10 @@
   "title": "Tublinates",
   "id": "383806",
   "bbox": [
-    10.5,
-    46.0,
-    11.0,
-    46.5
+    10.9099820542,
+    46.054683455,
+    11.0319294308,
+    46.057062916
   ],
   "description": "An ancient place, cited: BAtlas 39 H1 Tublinates",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          46.25
+          10.9709733035,
+          46.055925075
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.5,
-              46.0
+              10.909982054205784,
+              46.05646805070779
             ],
             [
-              10.5,
-              46.5
+              10.931992068509714,
+              46.05706291595925
             ],
             [
-              11.0,
-              46.5
+              10.945079104041781,
+              46.05646805070779
             ],
             [
-              11.0,
-              46.0
+              10.954596948065102,
+              46.05646805070779
             ],
             [
-              10.5,
-              46.0
+              10.964709657339881,
+              46.05646805070779
+            ],
+            [
+              10.97482236661466,
+              46.05646805070779
+            ],
+            [
+              10.9896939979011,
+              46.05468345495342
+            ],
+            [
+              11.000401572427336,
+              46.05468345495342
+            ],
+            [
+              11.01170401220503,
+              46.05468345495342
+            ],
+            [
+              11.031929430754587,
+              46.055873185456335
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383806/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383806/batlas-map-label-location"
       }
     }
   ]

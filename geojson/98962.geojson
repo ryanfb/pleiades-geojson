@@ -3,10 +3,10 @@
   "title": "Frisii",
   "id": "98962",
   "bbox": [
-    4.0,
-    52.0,
-    5.0,
-    53.0
+    4.8891986535,
+    52.7509310939,
+    6.94505296253,
+    53.1268859329
   ],
   "description": "An ancient place, cited: BAtlas 10 A4 Frisii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5,
-          52.5
+          5.89930957488,
+          53.0265574087
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              52.0
+              4.889198653495441,
+              52.75093109393845
             ],
             [
-              4.0,
-              53.0
+              5.291327563480763,
+              52.92939066937572
             ],
             [
-              5.0,
-              53.0
+              5.660144019384461,
+              53.034086953632254
             ],
             [
-              5.0,
-              52.0
+              6.052755085346462,
+              53.09833240078967
             ],
             [
-              4.0,
-              52.0
+              6.445366151308463,
+              53.126885932859636
+            ],
+            [
+              6.945052962532657,
+              53.124506471853806
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98962/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98962/batlas-map-label-location"
       }
     }
   ]

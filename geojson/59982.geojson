@@ -3,10 +3,10 @@
   "title": "Paropamisadai",
   "id": "59982",
   "bbox": [
-    65.0,
-    30.0,
-    70.0,
-    35.0
+    65.32867854,
+    33.7268655717,
+    69.1758702976,
+    33.9350684097
   ],
   "description": "An ancient place, cited: BAtlas 6 B3 Paropamisadai",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          32.5
+          67.2518370026,
+          33.8474268052
         ]
       },
       "properties": {
@@ -30,39 +30,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              30.0
+              65.32867854001125,
+              33.72686557165156
             ],
             [
-              65.0,
-              35.0
+              65.77482747860444,
+              33.75660883422444
             ],
             [
-              70.0,
-              35.0
+              66.06036279930407,
+              33.774454791768164
             ],
             [
-              70.0,
-              30.0
+              66.38159003509116,
+              33.79824940182647
             ],
             [
-              65.0,
-              30.0
+              66.66117670327623,
+              33.816095359370195
+            ],
+            [
+              66.98240393906332,
+              33.82204401188477
+            ],
+            [
+              67.29768252233583,
+              33.85178727445765
+            ],
+            [
+              67.59511514806462,
+              33.86963323200138
+            ],
+            [
+              67.8449585536768,
+              33.89342784205968
+            ],
+            [
+              68.12454522186187,
+              33.90532514708883
+            ],
+            [
+              68.44577245764896,
+              33.93506840966171
+            ],
+            [
+              68.74915373589232,
+              33.93506840966171
+            ],
+            [
+              69.17587029758431,
+              33.9330018897092
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59982/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59982/batlas-map-label-location"
       }
     }
   ]

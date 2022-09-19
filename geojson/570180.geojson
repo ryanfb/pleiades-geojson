@@ -3,10 +3,10 @@
   "title": "Corinthia",
   "id": "570180",
   "bbox": [
-    22.8111864,
-    37.7650677,
-    22.909991,
-    37.8453143
+    22.6552234689,
+    37.8792632257,
+    22.9768076238,
+    37.9720622049
   ],
   "description": "Corinthia was a region of ancient Greece associated with the city-state Corinth.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.8677675075,
-          37.8084084487
+          22.8106556551,
+          37.9084399883
         ]
       },
       "properties": {
@@ -30,39 +30,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.5
+              22.655223468891336,
+              37.972062204893575
             ],
             [
-              22.5,
-              38.0
+              22.700909120203335,
+              37.94136715791831
             ],
             [
-              23.0,
-              38.0
+              22.738385631045162,
+              37.92209352377114
             ],
             [
-              23.0,
-              37.5
+              22.773006788679936,
+              37.91031519179222
             ],
             [
-              22.5,
-              37.5
+              22.80869870376739,
+              37.900678374718666
+            ],
+            [
+              22.849387486967203,
+              37.89068463849412
+            ],
+            [
+              22.889005512714164,
+              37.88390317462756
+            ],
+            [
+              22.927909700159603,
+              37.88033398311882
+            ],
+            [
+              22.97680762382936,
+              37.87926322566619
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570180/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570180/batlas-map-label-location"
       }
     }
   ]

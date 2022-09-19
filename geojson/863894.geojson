@@ -3,10 +3,10 @@
   "title": "Sirakene",
   "id": "863894",
   "bbox": [
-    43.0,
-    40.0,
-    44.0,
-    41.0
+    43.3409916697,
+    40.4402466647,
+    43.9034962515,
+    40.4497645087
   ],
   "description": "An ancient place, cited: BAtlas 88 B4 Sirakene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          40.5
+          43.6222439606,
+          40.4450055867
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              40.0
+              43.903496251454214,
+              40.449764508713315
             ],
             [
-              43.0,
-              41.0
-            ],
-            [
-              44.0,
-              41.0
-            ],
-            [
-              44.0,
-              40.0
-            ],
-            [
-              43.0,
-              40.0
+              43.34099166967604,
+              40.440246664689994
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863894/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863894/batlas-map-label-location"
       }
     }
   ]

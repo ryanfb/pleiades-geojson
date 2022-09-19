@@ -3,10 +3,10 @@
   "title": "Karpasiai (islands)",
   "id": "707527",
   "bbox": [
-    34.0,
-    35.5,
-    34.5,
-    36.0
+    34.4363303952,
+    35.5824496771,
+    34.4395426675,
+    35.5960126049
   ],
   "description": "An ancient place, cited: BAtlas 72 E1 Karpasiai Inss.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.25,
-          35.75
+          34.4379365313,
+          35.589231141
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.0,
-              35.5
+              34.43633039515699,
+              35.582449677140325
             ],
             [
-              34.0,
-              36.0
-            ],
-            [
-              34.5,
-              36.0
-            ],
-            [
-              34.5,
-              35.5
-            ],
-            [
-              34.0,
-              35.5
+              34.439542667514864,
+              35.59601260487356
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707527/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707527/batlas-map-label-location"
       }
     }
   ]

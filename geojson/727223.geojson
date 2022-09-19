@@ -3,10 +3,10 @@
   "title": "Sebennytes Kato Nomos",
   "id": "727223",
   "bbox": [
-    31.0,
-    31.0,
-    31.5,
-    31.5
+    31.0103669333,
+    31.3618068536,
+    31.2703230481,
+    31.3635914493
   ],
   "description": "An ancient place, cited: BAtlas 74 E2 Sebennytes Kato Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          31.25
+          31.1403571902,
+          31.3629175206
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              31.0
+              31.01036693325449,
+              31.362401718807405
             ],
             [
-              31.0,
-              31.5
+              31.038920465324452,
+              31.362996584058862
             ],
             [
-              31.5,
-              31.5
+              31.054981827113807,
+              31.362996584058862
             ],
             [
-              31.5,
-              31.0
+              31.06925859314879,
+              31.362996584058862
             ],
             [
-              31.0,
-              31.0
+              31.087699415943973,
+              31.36359144931032
+            ],
+            [
+              31.097812125218752,
+              31.362996584058862
+            ],
+            [
+              31.113873487008107,
+              31.362996584058862
+            ],
+            [
+              31.12755538779163,
+              31.362996584058862
+            ],
+            [
+              31.148375671592646,
+              31.361806853555947
+            ],
+            [
+              31.16205757237617,
+              31.36359144931032
+            ],
+            [
+              31.175739473159695,
+              31.362996584058862
+            ],
+            [
+              31.193585430703422,
+              31.362401718807405
+            ],
+            [
+              31.222733828024843,
+              31.362401718807405
+            ],
+            [
+              31.24593357283169,
+              31.36359144931032
+            ],
+            [
+              31.27032304814145,
+              31.36359144931032
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727223/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727223/batlas-map-label-location"
       }
     }
   ]

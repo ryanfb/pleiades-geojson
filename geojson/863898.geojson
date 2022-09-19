@@ -3,10 +3,10 @@
   "title": "Sodoukene",
   "id": "863898",
   "bbox": [
-    45.0,
-    40.0,
-    46.0,
-    41.0
+    45.5290131403,
+    40.0986433112,
+    45.8668966031,
+    40.10054688
   ],
   "description": "An ancient place, cited: BAtlas 88 D4 Sodoukene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.5,
-          40.5
+          45.6979548717,
+          40.0995950956
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              45.0,
-              40.0
+              45.86689660311015,
+              40.10054687996086
             ],
             [
-              45.0,
-              41.0
-            ],
-            [
-              46.0,
-              41.0
-            ],
-            [
-              46.0,
-              40.0
-            ],
-            [
-              45.0,
-              40.0
+              45.529013140282245,
+              40.098643311156195
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863898/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863898/batlas-map-label-location"
       }
     }
   ]

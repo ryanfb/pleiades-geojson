@@ -3,10 +3,10 @@
   "title": "Encheleioi",
   "id": "481829",
   "bbox": [
-    20.0,
-    41.0,
-    21.0,
-    42.0
+    20.5209106363,
+    41.1774701903,
+    20.8906788766,
+    41.214589782
   ],
   "description": "An ancient people, tribe, or cultural group. Located: N Lake Ohrid MAC.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          41.5
+          20.7050185213,
+          41.2032928199
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              41.0
+              20.520910636300005,
+              41.17747019030455
             ],
             [
-              20.0,
-              42.0
+              20.570879317422442,
+              41.18889160313253
             ],
             [
-              21.0,
-              42.0
+              20.615137292130886,
+              41.19602998615002
             ],
             [
-              21.0,
-              41.0
+              20.653684560425337,
+              41.201740692564016
             ],
             [
-              20.0,
-              41.0
+              20.695087181926784,
+              41.20602372237451
+            ],
+            [
+              20.727923743807242,
+              41.20887907558151
+            ],
+            [
+              20.767898688705188,
+              41.2117344287885
+            ],
+            [
+              20.800735250585646,
+              41.2117344287885
+            ],
+            [
+              20.834999489069602,
+              41.2145897819955
+            ],
+            [
+              20.89067887660603,
+              41.2145897819955
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481829/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481829/batlas-map-label-location"
       }
     }
   ]

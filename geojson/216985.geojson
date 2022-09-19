@@ -3,10 +3,10 @@
   "title": "Sialetae",
   "id": "216985",
   "bbox": [
-    27.0,
-    42.0,
-    28.0,
-    43.0
+    27.1593990481,
+    42.6983543816,
+    27.5686663411,
+    42.7021615192
   ],
   "description": "An ancient place, cited: BAtlas 22 E6 Sialetae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          42.5
+          27.3640326946,
+          42.7002579504
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              42.0
+              27.159399048051284,
+              42.70216151916787
             ],
             [
-              27.0,
-              43.0
-            ],
-            [
-              28.0,
-              43.0
-            ],
-            [
-              28.0,
-              42.0
-            ],
-            [
-              27.0,
-              42.0
+              27.568666341054097,
+              42.69835438155843
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216985/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216985/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Kalathion (mountain)",
   "id": "570324",
   "bbox": [
-    22.0,
-    36.5,
-    22.5,
-    37.0
+    22.1597864845,
+    36.9095131741,
+    22.222604255,
+    36.9405651403
   ],
   "description": "Mt. Ag. Georgios.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          36.75
+          22.1920133839,
+          36.9266000153
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              36.5
+              22.159786484478673,
+              36.94056514026886
             ],
             [
-              22.0,
-              37.0
+              22.170137139853978,
+              36.93628211045842
             ],
             [
-              22.5,
-              37.0
+              22.175490927117096,
+              36.93449751470405
             ],
             [
-              22.5,
-              36.5
+              22.181558552681906,
+              36.931642161496995
             ],
             [
-              22.0,
-              36.5
+              22.186912339945025,
+              36.930214484893554
+            ],
+            [
+              22.19119536975552,
+              36.92771605083732
+            ],
+            [
+              22.196192237867876,
+              36.925931455082946
+            ],
+            [
+              22.199047591074873,
+              36.924503778479504
+            ],
+            [
+              22.207970569846736,
+              36.91986382951808
+            ],
+            [
+              22.22260425503248,
+              36.90951317414283
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570324/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570324/batlas-map-label-location"
       }
     }
   ]

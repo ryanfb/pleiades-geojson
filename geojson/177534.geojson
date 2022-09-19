@@ -3,10 +3,10 @@
   "title": "Helvetii",
   "id": "177534",
   "bbox": [
-    6.0,
-    46.0,
-    7.0,
-    47.0
+    6.34210250087,
+    46.7385744596,
+    7.518151103,
+    47.106201185
   ],
   "description": "The Helvetii were a confederation of Gallic tribes occupying the Swiss plateau and they came into contact with the Roman Republic during the first century BC. Iulius Caesar states that the Helvetti were divided into four pagi.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          46.5
+          6.91859315322,
+          46.9580190681
         ]
       },
       "properties": {
@@ -33,39 +33,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              46.0
+              6.342102500865622,
+              46.73857445958413
             ],
             [
-              6.0,
-              47.0
+              6.554469395635977,
+              46.84386560909212
             ],
             [
-              7.0,
-              47.0
+              6.702590843248913,
+              46.90811105624954
             ],
             [
-              7.0,
-              46.0
+              6.843573907844359,
+              46.95986433312635
             ],
             [
-              6.0,
-              46.0
+              7.000618334229159,
+              47.00091003547692
+            ],
+            [
+              7.163016547877078,
+              47.04195573782749
+            ],
+            [
+              7.312922591244387,
+              47.07050926989746
+            ],
+            [
+              7.518151102997251,
+              47.10620118498491
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/177534/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/177534/batlas-map-label-location"
       }
     }
   ]

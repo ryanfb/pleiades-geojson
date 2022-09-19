@@ -3,10 +3,10 @@
   "title": "Bargylus/Emblonos (mountain)",
   "id": "668210",
   "bbox": [
-    36.0,
-    35.0,
-    36.5,
-    35.5
+    36.116690303,
+    35.3792338925,
+    36.1609482777,
+    35.4913065058
   ],
   "description": "An ancient place, cited: BAtlas 68 B3 Bargylus/Emblonos M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          35.25
+          36.1388192903,
+          35.4352701991
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              35.0
+              36.11669030296418,
+              35.379233892450785
             ],
             [
-              36.0,
-              35.5
-            ],
-            [
-              36.5,
-              35.5
-            ],
-            [
-              36.5,
-              35.0
-            ],
-            [
-              36.0,
-              35.0
+              36.160948277672624,
+              35.49130650582539
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668210/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668210/batlas-map-label-location"
       }
     }
   ]

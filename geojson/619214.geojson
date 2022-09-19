@@ -3,12 +3,12 @@
   "title": "Mo(u)rimene",
   "id": "619214",
   "bbox": [
-    34.0,
-    38.5,
-    34.5,
-    39.0
+    34.1564348148,
+    38.7104030478,
+    34.5952074243,
+    38.8921938686
   ],
-  "description": "An ancient place, cited: BAtlas 63 E3 Mo(u)rimene",
+  "description": "Mo(u)rimene was a district of Cappadocia.",
   "names": [
     "Mourimene",
     "Morimene"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.25,
-          38.75
+          34.3742827794,
+          38.7976163076
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              34.0,
-              38.5
+              34.59520742431931,
+              38.710403047783416
             ],
             [
-              34.0,
-              39.0
+              34.52953430055828,
+              38.7370530110486
             ],
             [
-              34.5,
-              39.0
+              34.48099329603946,
+              38.75323334588836
             ],
             [
-              34.5,
-              38.5
+              34.430548722715855,
+              38.77322081833722
             ],
             [
-              34.0,
-              38.5
+              34.38391128700164,
+              38.79035293757926
+            ],
+            [
+              34.33822563568964,
+              38.8093886256259
+            ],
+            [
+              34.283022140354376,
+              38.8331832356842
+            ],
+            [
+              34.224011507409784,
+              38.85983319894956
+            ],
+            [
+              34.15643481484415,
+              38.89219386862874
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619214/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619214/batlas-map-label-location"
       }
     }
   ]

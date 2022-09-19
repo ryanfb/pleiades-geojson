@@ -3,12 +3,12 @@
   "title": "Flaminia (region)",
   "id": "413137",
   "bbox": [
-    12.5,
-    43.5,
-    13.0,
-    44.0
+    12.6478496535,
+    43.6084252373,
+    13.1136291454,
+    43.8743300047
   ],
-  "description": "A region of Roman Italy, located in the modern Marche region, north of the river Aesis (modern Esino).",
+  "description": "An ancient region of Roman Italy, located in the modern Marche region, north of the river Aesis (modern Esino).",
   "names": [
     "Flaminia"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.75,
-          43.75
+          12.8766375721,
+          43.7344453352
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.5,
-              43.5
+              12.647849653492585,
+              43.87433000466939
             ],
             [
-              12.5,
-              44.0
+              12.724587270930613,
+              43.819007536283834
             ],
             [
-              13.0,
-              44.0
+              12.790617313842404,
+              43.779746429687634
             ],
             [
-              13.0,
-              43.5
+              12.849508973736704,
+              43.74405451460018
             ],
             [
-              12.5,
-              43.5
+              12.913754420894122,
+              43.7101471952671
+            ],
+            [
+              12.972646080788422,
+              43.67802447168839
+            ],
+            [
+              13.02975314492835,
+              43.6512555353728
+            ],
+            [
+              13.113629145383868,
+              43.60842523726785
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413137/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413137/batlas-map-label-location"
       }
     }
   ]

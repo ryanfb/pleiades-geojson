@@ -3,10 +3,10 @@
   "title": "Aithikia",
   "id": "530789",
   "bbox": [
-    21.0,
-    39.5,
-    21.5,
-    40.0
+    21.2273597202,
+    39.6824716949,
+    21.3272970824,
+    39.753855525
   ],
   "description": "An ancient place, cited: BAtlas 54 D2 Aithikia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.75
+          21.2761630169,
+          39.7165207377
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.5
+              21.227359720183983,
+              39.75385552503178
             ],
             [
-              21.0,
-              40.0
+              21.24449183942596,
+              39.73993567814773
             ],
             [
-              21.5,
-              40.0
+              21.25555633310313,
+              39.73029886107395
             ],
             [
-              21.5,
-              39.5
+              21.27019001828893,
+              39.71959128654771
             ],
             [
-              21.0,
-              39.5
+              21.281254511966097,
+              39.71138214607777
+            ],
+            [
+              21.2916051673414,
+              39.703886843909345
+            ],
+            [
+              21.306238852527315,
+              39.69532078428841
+            ],
+            [
+              21.327297082428856,
+              39.68247169485687
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530789/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530789/batlas-map-label-location"
       }
     }
   ]

@@ -3,12 +3,12 @@
   "title": "Baquates",
   "id": "275601",
   "bbox": [
-    -5.5,
-    33.5,
-    -5.0,
-    34.0
+    -5.4180063626,
+    33.9144431877,
+    -4.86977854686,
+    33.9772609583
   ],
-  "description": "An ancient place, cited: BAtlas 28 D6 Baquates",
+  "description": "The Baquates were an ancient tribe of Mauretania.",
   "names": [
     "Baquates",
     "Bakouatai",
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.25,
-          33.75
+          -5.14473182864,
+          33.9533750806
         ]
       },
       "properties": {
@@ -30,39 +30,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.5,
-              33.5
+              -5.418006362601375,
+              33.91444318771323
             ],
             [
-              -5.5,
-              34.0
+              -5.323779706770438,
+              33.93062352255282
             ],
             [
-              -5.0,
-              34.0
+              -5.2485887389862,
+              33.943948504185414
             ],
             [
-              -5.0,
-              33.5
+              -5.17815669321368,
+              33.953466348208735
             ],
             [
-              -5.5,
-              33.5
+              -5.111531785050431,
+              33.96203240782984
+            ],
+            [
+              -5.037292601668526,
+              33.968694898646106
+            ],
+            [
+              -4.970667693505277,
+              33.97250203625538
+            ],
+            [
+              -4.869778546858072,
+              33.97726095826704
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275601/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/275601/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Trog(l)odytae",
   "id": "217026",
   "bbox": [
-    28.0,
-    45.0,
-    29.0,
-    46.0
+    28.2915346973,
+    45.0174246671,
+    28.8026429214,
+    45.1440119926
   ],
   "description": "An ancient place, cited: BAtlas 22 F3 Trog(l)odytae",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.5,
-          45.5
+          28.5479111492,
+          45.0837344485
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              45.0
+              28.291534697320287,
+              45.144011992570995
             ],
             [
-              28.0,
-              46.0
+              28.348641761460215,
+              45.13163879534062
             ],
             [
-              29.0,
-              46.0
+              28.395279197174602,
+              45.12021738251269
             ],
             [
-              29.0,
-              45.0
+              28.44667555490048,
+              45.10689240087993
             ],
             [
-              28.0,
-              45.0
+              28.503782619040408,
+              45.09642277245439
+            ],
+            [
+              28.564696820789607,
+              45.08119422201702
+            ],
+            [
+              28.607527118894552,
+              45.073579946798304
+            ],
+            [
+              28.660827045425208,
+              45.056447827556326
+            ],
+            [
+              28.704609127932542,
+              45.046929983533005
+            ],
+            [
+              28.742680504025827,
+              45.03360500190041
+            ],
+            [
+              28.802642921372637,
+              45.017424667060766
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/217026/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/217026/batlas-map-label-location"
       }
     }
   ]

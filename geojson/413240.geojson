@@ -3,10 +3,10 @@
   "title": "Paeligni",
   "id": "413240",
   "bbox": [
-    13.73065,
-    42.046817,
-    13.925673,
-    42.130585
+    13.7674217487,
+    42.1439463035,
+    13.9473090007,
+    42.1532262015
   ],
   "description": "An ancient Oscan tribe of eastern Italy, the Paeligni are mentioned in the historical sources first in the fourth century BC when they oppose Rome during the Second Samnite War. The Paeligni came into alliance with Rome at the end of the fourth century BC but again took sides against Rome in the Social War.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.832836,
-          42.1004053333
+          13.8574030435,
+          42.1504323085
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              42.0
+              13.767421748650804,
+              42.146087818451406
             ],
             [
-              13.5,
-              42.5
+              13.800972148833125,
+              42.15108468656376
             ],
             [
-              14.0,
-              42.5
+              13.825242651092651,
+              42.1532262014689
             ],
             [
-              14.0,
-              42.0
+              13.847371638446816,
+              42.1532262014689
             ],
             [
-              13.5,
-              42.0
+              13.870928302404423,
+              42.152512363167205
+            ],
+            [
+              13.891629613155203,
+              42.15108468656376
+            ],
+            [
+              13.918755468621725,
+              42.14894317165846
+            ],
+            [
+              13.947309000691689,
+              42.14394630354627
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413240/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413240/batlas-map-label-location"
       }
     }
   ]

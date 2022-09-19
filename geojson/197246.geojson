@@ -3,10 +3,10 @@
   "title": "Deretini",
   "id": "197246",
   "bbox": [
-    17.0,
-    43.0,
-    18.0,
-    44.0
+    17.4619644214,
+    43.7402745751,
+    17.7451202811,
+    43.8265300366
   ],
   "description": "An ancient place, cited: BAtlas 20 E6 Deretini",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          43.5
+          17.603632015,
+          43.7837652407
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              43.0
+              17.461964421371306,
+              43.82653003660852
             ],
             [
-              17.0,
-              44.0
+              17.52918419478584,
+              43.80868407906479
             ],
             [
-              18.0,
-              44.0
+              17.560712053113264,
+              43.79916623504147
             ],
             [
-              18.0,
-              43.0
+              17.592834776691973,
+              43.78667406476086
             ],
             [
-              17.0,
-              43.0
+              17.633880479042375,
+              43.77358702922879
+            ],
+            [
+              17.66005455010651,
+              43.7646640504571
+            ],
+            [
+              17.690987543182302,
+              43.755741071685065
+            ],
+            [
+              17.745120281064942,
+              43.74027457514717
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197246/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197246/batlas-map-label-location"
       }
     }
   ]

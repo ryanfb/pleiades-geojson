@@ -3,10 +3,10 @@
   "title": "Arsagalitae",
   "id": "59707",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    72.9492593303,
+    33.8559513312,
+    73.7666041858,
+    33.8773664803
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Arsagalitae",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          73.3581782049,
+          33.8639069882
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              72.94925933033375,
+              33.85595133121785
             ],
             [
-              70.0,
-              35.0
+              73.05990426710486,
+              33.85595133121785
             ],
             [
-              75.0,
-              35.0
+              73.14556486331475,
+              33.8595205227266
             ],
             [
-              75.0,
-              30.0
+              73.2205178849984,
+              33.85595133121785
             ],
             [
-              70.0,
-              30.0
+              73.29547090668206,
+              33.86665890574409
+            ],
+            [
+              73.3775623113832,
+              33.85595133121785
+            ],
+            [
+              73.43110018401438,
+              33.8595205227266
+            ],
+            [
+              73.48463805664557,
+              33.86665890574409
+            ],
+            [
+              73.56316026983797,
+              33.877366480270325
+            ],
+            [
+              73.63097490850413,
+              33.870228097252834
+            ],
+            [
+              73.76660418583646,
+              33.877366480270325
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59707/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59707/batlas-map-label-location"
       }
     }
   ]

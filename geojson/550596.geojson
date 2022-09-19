@@ -3,10 +3,10 @@
   "title": "Indeipedion",
   "id": "550596",
   "bbox": [
-    27.5,
-    39.0,
-    28.0,
-    39.5
+    27.7031405879,
+    39.1257162764,
+    27.7552507839,
+    39.1621220298
   ],
   "description": "An ancient place, cited: BAtlas 56 F3 Indeipedion",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          39.25
+          27.7291956859,
+          39.1439191531
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              39.0
+              27.70314058785308,
+              39.162122029799
             ],
             [
-              27.5,
-              39.5
-            ],
-            [
-              28.0,
-              39.5
-            ],
-            [
-              28.0,
-              39.0
-            ],
-            [
-              27.5,
-              39.0
+              27.755250783880765,
+              39.1257162764098
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550596/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550596/batlas-map-label-location"
       }
     }
   ]

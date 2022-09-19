@@ -3,10 +3,10 @@
   "title": "Memphites Nomos",
   "id": "727155",
   "bbox": [
-    31.0,
-    29.5,
-    31.5,
-    30.0
+    31.0338284188,
+    29.9779757849,
+    31.2105033985,
+    29.9827347069
   ],
   "description": "An ancient place, cited: BAtlas 74 E5 Memphites Nomos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          29.75
+          31.1221787957,
+          29.9807344781
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              29.5
+              31.033828418772032,
+              29.982734706870133
             ],
             [
-              31.0,
-              30.0
+              31.053458972070132,
+              29.982139841618675
             ],
             [
-              31.5,
-              30.0
+              31.07606385162552,
+              29.982139841618675
             ],
             [
-              31.5,
-              29.5
+              31.095099539672162,
+              29.981544976367218
             ],
             [
-              31.0,
-              29.5
+              31.114135227718805,
+              29.981544976367218
+            ],
+            [
+              31.129006859005244,
+              29.980355245864303
+            ],
+            [
+              31.14209389453731,
+              29.980355245864303
+            ],
+            [
+              31.15934498682958,
+              29.979760380612845
+            ],
+            [
+              31.175406348618935,
+              29.979165515361387
+            ],
+            [
+              31.18908824940246,
+              29.979165515361387
+            ],
+            [
+              31.210503398454932,
+              29.977975784858472
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/727155/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/727155/batlas-map-label-location"
       }
     }
   ]

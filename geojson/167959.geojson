@@ -3,10 +3,10 @@
   "title": "Veneni",
   "id": "167959",
   "bbox": [
-    7.0,
-    44.5,
-    7.5,
-    45.0
+    7.01010625894,
+    44.5445351282,
+    7.14573553627,
+    44.5492940502
   ],
   "description": "An ancient place, cited: BAtlas 17 I4 Veneni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          44.75
+          7.07792718335,
+          44.5470321212
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              44.5
+              7.010106258939061,
+              44.549294050167816
             ],
             [
-              7.0,
-              45.0
+              7.042466928618296,
+              44.547866373564375
             ],
             [
-              7.5,
-              45.0
+              7.064833862073158,
+              44.5483422657656
             ],
             [
-              7.5,
-              44.5
+              7.087676687729072,
+              44.54739048136315
             ],
             [
-              7.0,
-              44.5
+              7.114326650994371,
+              44.54501102035732
+            ],
+            [
+              7.145735536271388,
+              44.544535128156156
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167959/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167959/batlas-map-label-location"
       }
     }
   ]

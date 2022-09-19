@@ -3,10 +3,10 @@
   "title": "Sepernates?",
   "id": "413313",
   "bbox": [
-    12.5976389,
-    42.229257,
-    12.5976389,
-    42.229257
+    12.5326718435,
+    42.2338899296,
+    12.6365353164,
+    42.234960687
   ],
   "description": "An ancient people of Etruria inhabiting the area around Nazzano Romano.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.5976389,
-          42.229257
+          12.5846128978,
+          42.2343480992
         ]
       },
       "properties": {
@@ -31,39 +31,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.5,
-              42.0
+              12.532671843505454,
+              42.234246848717476
             ],
             [
-              12.5,
-              42.5
+              12.545520932936824,
+              42.23460376786841
             ],
             [
-              13.0,
-              42.5
+              12.555157750010608,
+              42.23460376786841
             ],
             [
-              13.0,
-              42.0
+              12.564794567084164,
+              42.233889929566715
             ],
             [
-              12.5,
-              42.0
+              12.575145222459469,
+              42.234246848717476
+            ],
+            [
+              12.586209716136636,
+              42.23460376786841
+            ],
+            [
+              12.596560371511941,
+              42.233889929566715
+            ],
+            [
+              12.606197188585497,
+              42.23496068701917
+            ],
+            [
+              12.614406329055669,
+              42.234246848717476
+            ],
+            [
+              12.623686226978464,
+              42.234246848717476
+            ],
+            [
+              12.636535316409834,
+              42.234246848717476
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413313/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413313/batlas-map-label-location"
       }
     }
   ]

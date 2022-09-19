@@ -3,10 +3,10 @@
   "title": "Giddaba (mountain)",
   "id": "305085",
   "bbox": [
-    7.0,
-    37.0,
-    7.5,
-    37.5
+    7.44342305474,
+    37.0000954337,
+    7.54107260917,
+    37.0306419772
   ],
   "description": "A mountain, probably Chetaibi area.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          37.25
+          7.49206156108,
+          37.0149193527
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              37.0
+              7.44342305473622,
+              37.03064197720254
             ],
             [
-              7.0,
-              37.5
+              7.458173596852541,
+              37.02456846507637
             ],
             [
-              7.5,
-              37.5
+              7.460413272726993,
+              37.0234149111051
             ],
             [
-              7.5,
-              37.0
+              7.471465775251947,
+              37.02101927547449
             ],
             [
-              7.0,
-              37.0
+              7.478311468451498,
+              37.01850676138372
+            ],
+            [
+              7.48410109409095,
+              37.017045375246546
+            ],
+            [
+              7.492657198646332,
+              37.01390377629499
+            ],
+            [
+              7.498510212336098,
+              37.012916201174725
+            ],
+            [
+              7.509495998317943,
+              37.010042596602645
+            ],
+            [
+              7.519889340048612,
+              37.00721942247651
+            ],
+            [
+              7.528507102191873,
+              37.00454977298365
+            ],
+            [
+              7.541072609167682,
+              37.00009543371327
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305085/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305085/batlas-map-label-location"
       }
     }
   ]

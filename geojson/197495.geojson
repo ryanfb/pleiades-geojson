@@ -3,10 +3,10 @@
   "title": "Sardeates",
   "id": "197495",
   "bbox": [
-    16.0,
-    44.0,
-    17.0,
-    45.0
+    16.2404383708,
+    44.3032253059,
+    16.6106825033,
+    44.5107143056
   ],
   "description": "An ancient place, cited: BAtlas 20 D5 Sardeates",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          44.5
+          16.4228479273,
+          44.4022865509
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              44.0
+              16.240438370765787,
+              44.51071430557255
             ],
             [
-              16.0,
-              45.0
+              16.296593650503326,
+              44.471691145076875
             ],
             [
-              17.0,
-              45.0
+              16.336568595401218,
+              44.44789653501857
             ],
             [
-              17.0,
-              44.0
+              16.383206031115606,
+              44.422198356155604
             ],
             [
-              16.0,
-              44.0
+              16.423180976013555,
+              44.400307314901966
+            ],
+            [
+              16.458396998899786,
+              44.380319842453105
+            ],
+            [
+              16.500275512602343,
+              44.35842880119941
+            ],
+            [
+              16.544057595109678,
+              44.335585975543495
+            ],
+            [
+              16.610682503272926,
+              44.30322530586409
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197495/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197495/batlas-map-label-location"
       }
     }
   ]

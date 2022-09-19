@@ -3,10 +3,10 @@
   "title": "Giddilitani",
   "id": "471935",
   "bbox": [
-    8.0,
-    40.0,
-    9.0,
-    41.0
+    8.4789548071,
+    40.2377728068,
+    8.54034490105,
+    40.3719744075
   ],
   "description": "An ancient place, cited: BAtlas 48 A2 Giddilitani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          40.5
+          8.51954727028,
+          40.3097822223
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              40.0
+              8.478954807096642,
+              40.371974407492544
             ],
             [
-              8.0,
-              41.0
+              8.49680076464037,
+              40.356269964854064
             ],
             [
-              9.0,
-              41.0
+              8.506794500864856,
+              40.34413471372433
             ],
             [
-              9.0,
-              40.0
+              8.517502075391093,
+              40.32843027108585
             ],
             [
-              8.0,
-              40.0
+              8.523212781805086,
+              40.32057804976661
+            ],
+            [
+              8.526781973313831,
+              40.31201199014562
+            ],
+            [
+              8.531065003124326,
+              40.301304415619384
+            ],
+            [
+              8.533206518029573,
+              40.2898830027914
+            ],
+            [
+              8.53392035633132,
+              40.276320075058166
+            ],
+            [
+              8.53392035633132,
+              40.26775401543718
+            ],
+            [
+              8.538203386141815,
+              40.24990805789345
+            ],
+            [
+              8.540344901047062,
+              40.237772806763715
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471935/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471935/batlas-map-label-location"
       }
     }
   ]

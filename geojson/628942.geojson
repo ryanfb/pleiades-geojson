@@ -3,10 +3,10 @@
   "title": "Bagadania",
   "id": "628942",
   "bbox": [
-    35.5,
-    38.0,
-    36.0,
-    38.5
+    35.5769011278,
+    38.3220134432,
+    35.8826618671,
+    38.3803102378
   ],
   "description": "An ancient place, cited: BAtlas 64 B4 Bagadania",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          38.25
+          35.7288244144,
+          38.3561129467
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              38.0
+              35.57690112784434,
+              38.322013443174
             ],
             [
-              35.5,
-              38.5
+              35.62805953946969,
+              38.33629020920898
             ],
             [
-              36.0,
-              38.5
+              35.65780280204257,
+              38.34461832272939
             ],
             [
-              36.0,
-              38.0
+              35.69706390863877,
+              38.352946436249795
             ],
             [
-              35.5,
-              38.0
+              35.73037636272039,
+              38.35889508876437
+            ],
+            [
+              35.76606827780785,
+              38.364843741278946
+            ],
+            [
+              35.80532938440405,
+              38.37198212429644
+            ],
+            [
+              35.837452107982756,
+              38.37436158530227
+            ],
+            [
+              35.88266186709353,
+              38.38031023781684
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/628942/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/628942/batlas-map-label-location"
       }
     }
   ]

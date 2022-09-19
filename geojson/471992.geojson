@@ -3,10 +3,10 @@
   "title": "Patulcenses Campani",
   "id": "471992",
   "bbox": [
-    9.0,
-    39.0,
-    10.0,
-    40.0
+    9.12671547671,
+    39.2109084782,
+    9.38298342704,
+    39.4172077474
   ],
   "description": "An ancient place, cited: BAtlas 48 B3 Patulcenses Campani",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          39.5
+          9.2591900449,
+          39.3194596214
         ]
       },
       "properties": {
@@ -31,39 +31,91 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              39.0
+              9.126715476713805,
+              39.417207747366575
             ],
             [
-              9.0,
-              40.0
+              9.150985978973274,
+              39.402217143029844
             ],
             [
-              10.0,
-              40.0
+              9.165262745008256,
+              39.392937245107106
             ],
             [
-              10.0,
-              39.0
+              9.182394864250234,
+              39.38222967058087
             ],
             [
-              9.0,
-              39.0
+              9.194530115379969,
+              39.37366361095988
+            ],
+            [
+              9.210948396320196,
+              39.3608145215284
+            ],
+            [
+              9.225939000656927,
+              39.35153462360566
+            ],
+            [
+              9.24021576669191,
+              39.33725785757068
+            ],
+            [
+              9.25520637102864,
+              39.32512260644094
+            ],
+            [
+              9.267341622158375,
+              39.31655654681995
+            ],
+            [
+              9.280904549891607,
+              39.30584897229372
+            ],
+            [
+              9.299464345737084,
+              39.292286044560484
+            ],
+            [
+              9.31088575856507,
+              39.27872311682725
+            ],
+            [
+              9.32659020120355,
+              39.26658786569752
+            ],
+            [
+              9.34086696723853,
+              39.253024937964284
+            ],
+            [
+              9.350860703463017,
+              39.24231736343805
+            ],
+            [
+              9.36442363119625,
+              39.228754435704815
+            ],
+            [
+              9.382983427041726,
+              39.21090847816109
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471992/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471992/batlas-map-label-location"
       }
     }
   ]
