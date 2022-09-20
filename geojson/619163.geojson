@@ -3,10 +3,10 @@
   "title": "Gallograecia (region)",
   "id": "619163",
   "bbox": [
-    32.5,
-    39.5,
-    33.0,
-    40.0
+    32.7028339837,
+    39.6639720459,
+    33.7146997764,
+    39.728217493
   ],
   "description": "A region in Hellenized Galatia.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          39.75
+          33.2084655163,
+          39.7100284233
         ]
       },
       "properties": {
@@ -31,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              39.5
+              33.714699776416865,
+              39.68895638643096
             ],
             [
-              32.5,
-              40.0
+              33.60940862690887,
+              39.71037153548343
             ],
             [
-              33.0,
-              40.0
+              33.52374803069898,
+              39.719294514255466
             ],
             [
-              33.0,
-              39.5
+              33.43808743448909,
+              39.72643289727296
             ],
             [
-              32.5,
-              39.5
+              33.3524268382792,
+              39.72643289727296
+            ],
+            [
+              33.257843263297445,
+              39.72821749302716
+            ],
+            [
+              33.159690496806945,
+              39.72107911000967
+            ],
+            [
+              33.0775990921058,
+              39.72107911000967
+            ],
+            [
+              32.98836930438716,
+              39.71037153548343
+            ],
+            [
+              32.9009241124229,
+              39.69787936520299
+            ],
+            [
+              32.813478920458635,
+              39.68360259916801
+            ],
+            [
+              32.702833983687526,
+              39.66397204586974
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619163/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619163/batlas-map-label-location"
       }
     }
   ]

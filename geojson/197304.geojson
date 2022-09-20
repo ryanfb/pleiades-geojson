@@ -3,10 +3,10 @@
   "title": "Histria",
   "id": "197304",
   "bbox": [
-    9.5508375,
-    44.7080835,
-    14.1925611,
-    47.1078841
+    13.872728928,
+    45.0537439905,
+    14.3267300879,
+    45.5177388866
   ],
   "description": "Histria (modern Istria) is the name given to a peninsula at the head of the Adriatic Sea between the Gulf of Trieste and the Bay of Kvarner.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.0057354807,
-          45.8133991536
+          14.0791804107,
+          45.3046377717
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              45.0
+              13.87272892797796,
+              45.05374399046019
             ],
             [
-              13.0,
-              46.0
+              13.93840205173882,
+              45.16938579534349
             ],
             [
-              14.0,
-              46.0
+              13.996936792482359,
+              45.240769625518396
             ],
             [
-              14.0,
-              45.0
+              14.058326886432724,
+              45.30787042588287
             ],
             [
-              13.0,
-              45.0
+              14.136849099625124,
+              45.372115873040286
+            ],
+            [
+              14.211088283007086,
+              45.43493364359426
+            ],
+            [
+              14.326730087890382,
+              45.5177388865971
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197304/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197304/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Mauretania",
   "id": "305106",
   "bbox": [
-    4.5,
-    36.0,
-    5.0,
-    36.5
+    4.61093779408,
+    36.2386883689,
+    5.82578556371,
+    36.6168071005
   ],
   "description": "An ancient place, cited: BAtlas 31 B4 Mauretania",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.75,
-          36.25
+          5.20885518116,
+          36.4584637876
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.5,
-              36.0
+              4.610937794082494,
+              36.238688368936224
             ],
             [
-              4.5,
-              36.5
+              4.765303092372407,
+              36.30542672965989
             ],
             [
-              5.0,
-              36.5
+              4.886375961064352,
+              36.36219760541343
             ],
             [
-              5.0,
-              36.0
+              5.014496158147516,
+              36.41359810942804
             ],
             [
-              4.5,
-              36.0
+              5.144864661559205,
+              36.45633749420544
+            ],
+            [
+              5.271802300501489,
+              36.493192160824535
+            ],
+            [
+              5.401932504428582,
+              36.53089621147708
+            ],
+            [
+              5.542244623981881,
+              36.565350858460484
+            ],
+            [
+              5.663806463703798,
+              36.59021717407651
+            ],
+            [
+              5.825785563705441,
+              36.61680710053134
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305106/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305106/batlas-map-label-location"
       }
     }
   ]

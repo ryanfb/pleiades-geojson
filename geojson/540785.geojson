@@ -3,10 +3,10 @@
   "title": "Eurytania",
   "id": "540785",
   "bbox": [
-    21.0,
-    39.0,
-    21.5,
-    39.5
+    21.442285527,
+    38.838734651,
+    21.7682716848,
+    39.0552656026
   ],
   "description": "An ancient place, cited: BAtlas 55 A2 Eurytania",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.25
+          21.6101766432,
+          38.9542652455
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.0
+              21.44228552697774,
+              39.05526560256175
             ],
             [
-              21.0,
-              39.5
+              21.498202860614754,
+              39.02671207049178
             ],
             [
-              21.5,
-              39.5
+              21.53865369771387,
+              39.00291746043348
             ],
             [
-              21.5,
-              39.0
+              21.57791480431007,
+              38.98031258087809
             ],
             [
-              21.0,
-              39.0
+              21.6195553719121,
+              38.95294877931104
+            ],
+            [
+              21.650488364987893,
+              38.93153363025857
+            ],
+            [
+              21.68855974108118,
+              38.90535955919444
+            ],
+            [
+              21.720682464659888,
+              38.88037521863322
+            ],
+            [
+              21.768271684776494,
+              38.83873465103119
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540785/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540785/batlas-map-label-location"
       }
     }
   ]

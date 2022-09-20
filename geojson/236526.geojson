@@ -3,10 +3,10 @@
   "title": "Luggoni",
   "id": "236526",
   "bbox": [
-    -7.0,
-    42.0,
-    -6.0,
-    43.0
+    -6.43668434271,
+    42.1663312448,
+    -6.27392920992,
+    42.1815597952
   ],
   "description": "An ancient place, cited: BAtlas 24 E2 Luggoni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          42.5
+          -6.35547599165,
+          42.1730097315
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              42.0
+              -6.436684342714216,
+              42.18155979519446
             ],
             [
-              -7.0,
-              43.0
+              -6.403371888632591,
+              42.175849088780524
             ],
             [
-              -6.0,
-              43.0
+              -6.377673709769681,
+              42.1768008731828
             ],
             [
-              -6.0,
-              42.0
+              -6.355782668515985,
+              42.17299373557353
             ],
             [
-              -7.0,
-              42.0
+              -6.333891627262403,
+              42.170138382366474
+            ],
+            [
+              -6.304386310790107,
+              42.16823481356187
+            ],
+            [
+              -6.273929209915423,
+              42.1663312447572
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236526/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236526/batlas-map-label-location"
       }
     }
   ]

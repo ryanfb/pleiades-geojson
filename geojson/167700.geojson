@@ -3,10 +3,10 @@
   "title": "Caturiges",
   "id": "167700",
   "bbox": [
-    6.495055,
-    44.562348,
-    6.496364,
-    44.565627
+    6.36920449035,
+    44.4757924082,
+    6.70232903117,
+    44.5519351604
   ],
   "description": "An ancient place, cited: BAtlas 17 G4 Caturiges",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.4957095,
-          44.5639875
+          6.53356449449,
+          44.504321121
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              44.5
+              6.369204490349375,
+              44.5519351604288
             ],
             [
-              6.0,
-              45.0
+              6.423337228232015,
+              44.53111487662778
             ],
             [
-              6.5,
-              45.0
+              6.455459951810724,
+              44.520407302101546
             ],
             [
-              6.5,
-              44.5
+              6.492341597401094,
+              44.508509997072395
             ],
             [
-              6.0,
-              44.5
+              6.528628377740006,
+              44.49958701830053
+            ],
+            [
+              6.563130562324545,
+              44.4930435005345
+            ],
+            [
+              6.598822477412,
+              44.486499982768464
+            ],
+            [
+              6.636298988253827,
+              44.481741060756804
+            ],
+            [
+              6.702329031165618,
+              44.47579240824223
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167700/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167700/batlas-map-label-location"
       }
     }
   ]

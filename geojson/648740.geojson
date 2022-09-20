@@ -3,10 +3,10 @@
   "title": "Platanistes",
   "id": "648740",
   "bbox": [
-    32.5,
-    36.0,
-    33.0,
-    36.5
+    32.5822993159,
+    36.0483474762,
+    32.6828315434,
+    36.1006956183
   ],
   "description": "Strabo characterizes this stretch of rugged/rocky coastline (παράπλους τραχὺς) as lying between Charadros (modern Yakacık in Turkey) and Anamourion (Eski Anamur).",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          36.25
+          32.6325654296,
+          36.0745215473
         ]
       },
       "properties": {
@@ -32,39 +32,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              36.0
+              32.68283154337263,
+              36.048347476215326
             ],
             [
-              32.5,
-              36.5
-            ],
-            [
-              33.0,
-              36.5
-            ],
-            [
-              33.0,
-              36.0
-            ],
-            [
-              32.5,
-              36.0
+              32.5822993158763,
+              36.10069561834359
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648740/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648740/batlas-map-label-location"
       }
     }
   ]

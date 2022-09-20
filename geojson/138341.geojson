@@ -3,10 +3,10 @@
   "title": "Eleuteti?",
   "id": "138341",
   "bbox": [
-    0.0,
-    44.0,
-    1.0,
-    45.0
+    0.336243777942,
+    44.668487008,
+    0.868767151046,
+    44.9483116222
   ],
   "description": "An ancient place, cited: BAtlas 14 F4 Eleuteti?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          44.5
+          0.595774207058,
+          44.8206441332
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              44.0
+              0.336243777941547,
+              44.66848700796362
             ],
             [
-              0.0,
-              45.0
+              0.420476697547826,
+              44.7313047785176
             ],
             [
-              1.0,
-              45.0
+              0.481866791498192,
+              44.76556901700144
             ],
             [
-              1.0,
-              44.0
+              0.543256885448784,
+              44.801260932088894
             ],
             [
-              0.0,
-              44.0
+              0.604646979399149,
+              44.83552517057274
+            ],
+            [
+              0.674603132970446,
+              44.86550637924631
+            ],
+            [
+              0.735993226920868,
+              44.894059911316276
+            ],
+            [
+              0.797383320871404,
+              44.91690273697219
+            ],
+            [
+              0.868767151046313,
+              44.94831162224921
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138341/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138341/batlas-map-label-location"
       }
     }
   ]

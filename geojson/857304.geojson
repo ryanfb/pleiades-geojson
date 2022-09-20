@@ -3,10 +3,10 @@
   "title": "Sarakene",
   "id": "857304",
   "bbox": [
-    35.0,
-    41.0,
-    36.0,
-    42.0
+    35.7089469929,
+    41.2842451161,
+    36.0890658886,
+    41.4698430746
   ],
   "description": "An ancient place, cited: BAtlas 87 A3 Sarakene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.5,
-          41.5
+          35.8990064407,
+          41.3770440954
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.0,
-              41.0
+              35.708946992909105,
+              41.28424511614732
             ],
             [
-              35.0,
-              42.0
-            ],
-            [
-              36.0,
-              42.0
-            ],
-            [
-              36.0,
-              41.0
-            ],
-            [
-              35.0,
-              41.0
+              36.0890658885905,
+              41.469843074602075
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid A3, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857304/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857304/batlas-map-label-location"
       }
     }
   ]

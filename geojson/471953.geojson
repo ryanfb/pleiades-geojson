@@ -3,10 +3,10 @@
   "title": "Insani M.",
   "id": "471953",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.18396530851,
+    39.9033316309,
+    9.47663901223,
+    40.0853603978
   ],
   "description": "An ancient place, cited: BAtlas 48 B2 Insani M.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.33682440914,
+          40.0052795185
         ]
       },
       "properties": {
@@ -32,39 +32,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.18396530851408,
+              40.085360397803655
             ],
             [
-              9.0,
-              41.0
+              9.219657223601535,
+              40.07393898497567
             ],
             [
-              10.0,
-              41.0
+              9.244641564162754,
+              40.06323141044943
             ],
             [
-              10.0,
-              40.0
+              9.268198228120474,
+              40.0510961593197
             ],
             [
-              9.0,
-              40.0
+              9.29318256868169,
+              40.038960908189964
+            ],
+            [
+              9.323163777355152,
+              40.022542627249734
+            ],
+            [
+              9.341723573200628,
+              40.0089796995165
+            ],
+            [
+              9.3645663988566,
+              39.99398909517977
+            ],
+            [
+              9.388836901116068,
+              39.97757081423954
+            ],
+            [
+              9.415248918280783,
+              39.95686950348882
+            ],
+            [
+              9.435236390729758,
+              39.93902354594509
+            ],
+            [
+              9.450940833368238,
+              39.92474677991011
+            ],
+            [
+              9.476639012231205,
+              39.903331630857636
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471953/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471953/batlas-map-label-location"
       }
     }
   ]

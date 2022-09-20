@@ -3,10 +3,10 @@
   "title": "Toulensioi",
   "id": "295365",
   "bbox": [
-    3.5,
-    36.5,
-    4.0,
-    37.0
+    3.72082532636,
+    36.7401510174,
+    3.86596983829,
+    36.7427810743
   ],
   "description": "An ancient people, tribe, or cultural group. Located: near Castellum Tulei.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.75,
-          36.75
+          3.7933829271,
+          36.7414866738
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.5,
-              36.5
+              3.720825326360107,
+              36.7401510174011
             ],
             [
-              3.5,
-              37.0
+              3.748287603693853,
+              36.74149179864466
             ],
             [
-              4.0,
-              37.0
+              3.768018014051251,
+              36.74278107425564
             ],
             [
-              4.0,
-              36.5
+              3.778076237391191,
+              36.742217502375716
             ],
             [
-              3.5,
-              36.5
+              3.794050765256717,
+              36.741320699981955
+            ],
+            [
+              3.808332848856847,
+              36.741474085447294
+            ],
+            [
+              3.821981866555893,
+              36.74118302660568
+            ],
+            [
+              3.832672668961995,
+              36.741057678544905
+            ],
+            [
+              3.845221548851499,
+              36.741783176105024
+            ],
+            [
+              3.865969838294205,
+              36.741084902401404
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295365/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/295365/batlas-map-label-location"
       }
     }
   ]

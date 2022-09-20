@@ -3,10 +3,10 @@
   "title": "*Aprutium",
   "id": "413019",
   "bbox": [
-    13.842185,
-    42.123814,
-    13.842185,
-    42.123814
+    13.6715175728,
+    42.474612068,
+    13.8704405129,
+    42.7001849713
   ],
   "description": "An ancient region of eastern Italy (modern Abruzzo).",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.842185,
-          42.123814
+          13.7709397571,
+          42.587359388
         ]
       },
       "properties": {
@@ -31,39 +31,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              42.5
+              13.671517572810785,
+              42.70018497134254
             ],
             [
-              13.5,
-              43.0
+              13.696263967271534,
+              42.670679654870185
             ],
             [
-              14.0,
-              43.0
+              13.716251439720395,
+              42.64688504481188
             ],
             [
-              14.0,
-              42.5
+              13.740046049778698,
+              42.62213865035119
             ],
             [
-              13.5,
-              42.5
+              13.76479244423939,
+              42.595488687086004
+            ],
+            [
+              13.788587054297693,
+              42.57074229262531
+            ],
+            [
+              13.806670957941947,
+              42.54599589816462
+            ],
+            [
+              13.828561999195585,
+              42.52220128810632
+            ],
+            [
+              13.870440512898142,
+              42.47461206798971
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413019/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413019/batlas-map-label-location"
       }
     }
   ]

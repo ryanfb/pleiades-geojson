@@ -3,10 +3,10 @@
   "title": "Skymnia",
   "id": "857327",
   "bbox": [
-    42.0,
-    42.0,
-    43.0,
-    43.0
+    42.1120765596,
+    42.6101420954,
+    42.6443033331,
+    42.847550997
   ],
   "description": "An ancient place, cited: BAtlas 87 H2 Skymnia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          42.5
+          42.3773826275,
+          42.7280517309
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              42.0
+              42.11207655959843,
+              42.84755099697781
             ],
             [
-              42.0,
-              43.0
+              42.19744055623147,
+              42.79431237721451
             ],
             [
-              43.0,
-              43.0
+              42.30973547534522,
+              42.756854059682425
             ],
             [
-              43.0,
-              42.0
+              42.429438004299925,
+              42.70865178100462
             ],
             [
-              42.0,
-              42.0
+              42.51010173239746,
+              42.67652905742591
+            ],
+            [
+              42.57291950295149,
+              42.648689363657695
+            ],
+            [
+              42.6443033331264,
+              42.61014209536319
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid H2, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857327/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857327/batlas-map-label-location"
       }
     }
   ]

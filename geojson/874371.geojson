@@ -3,10 +3,10 @@
   "title": "Astaunitis/Asthianene",
   "id": "874371",
   "bbox": [
-    40.0,
-    38.0,
-    41.0,
-    39.0
+    40.3729186943,
+    38.7783865699,
+    40.8254921776,
+    38.9211542303
   ],
   "description": "An ancient place, cited: BAtlas 89 C2 Astaunitis/Asthianene",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          38.5
+          40.599205436,
+          38.8497704001
         ]
       },
       "properties": {
@@ -32,39 +32,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              38.0
+              40.37291869431936,
+              38.77838656992512
             ],
             [
-              40.0,
-              39.0
-            ],
-            [
-              41.0,
-              39.0
-            ],
-            [
-              41.0,
-              38.0
-            ],
-            [
-              40.0,
-              38.0
+              40.825492177628284,
+              38.92115423027494
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874371/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874371/batlas-map-label-location"
       }
     }
   ]
