@@ -3,10 +3,10 @@
   "title": "Ouerbikai",
   "id": "275688",
   "bbox": [
-    -6.0,
-    34.0,
-    -5.5,
-    34.5
+    -5.71210774292,
+    34.4207924898,
+    -5.39706710575,
+    34.433165687
   ],
   "description": "An ancient place, cited: BAtlas 28 C5 Ouerbikai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.75,
-          34.25
+          -5.5547691952,
+          34.4292575133
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.0,
-              34.0
+              -5.712107742922001,
+              34.42174427415631
             ],
             [
-              -6.0,
-              34.5
+              -5.649289972368081,
+              34.43221390258185
             ],
             [
-              -5.5,
-              34.5
+              -5.615025733884181,
+              34.43316568698424
             ],
             [
-              -5.5,
-              34.0
+              -5.584568633009553,
+              34.43316568698424
             ],
             [
-              -6.0,
-              34.0
+              -5.545545472513879,
+              34.43316568698424
+            ],
+            [
+              -5.515088371639308,
+              34.43221390258185
+            ],
+            [
+              -5.47987234875302,
+              34.42840676497258
+            ],
+            [
+              -5.44846346347606,
+              34.425551411765525
+            ],
+            [
+              -5.397067105750068,
+              34.420792489753865
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275688/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/275688/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Soubasanoi",
   "id": "472129",
   "bbox": [
-    9.0,
-    41.0,
-    10.0,
-    42.0
+    9.12321766904,
+    41.4591977303,
+    9.30703103174,
+    41.5847142983
   ],
   "description": "An ancient place, cited: BAtlas 48 D3 Soubasanoi",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          41.5
+          9.21745403925,
+          41.5186553809
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              41.0
+              9.123217669035236,
+              41.45919773027633
             ],
             [
-              9.0,
-              42.0
+              9.1517712011052,
+              41.475259092065684
             ],
             [
-              10.0,
-              42.0
+              9.174376080660588,
+              41.48894099284921
             ],
             [
-              10.0,
-              41.0
+              9.192222038204314,
+              41.5002434326269
             ],
             [
-              9.0,
-              41.0
+              9.214826917759702,
+              41.51511506391334
+            ],
+            [
+              9.230888279549056,
+              41.52344317743375
+            ],
+            [
+              9.245165045584038,
+              41.53593534771436
+            ],
+            [
+              9.261226407373393,
+              41.546048056989136
+            ],
+            [
+              9.280262095420035,
+              41.56270428402995
+            ],
+            [
+              9.307031031735626,
+              41.58471429833388
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472129/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472129/batlas-map-label-location"
       }
     }
   ]

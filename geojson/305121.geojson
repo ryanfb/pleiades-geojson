@@ -3,10 +3,10 @@
   "title": "Numidicus Sinus",
   "id": "305121",
   "bbox": [
-    5.5,
-    36.5,
-    6.0,
-    37.0
+    5.86502131251,
+    36.8575998268,
+    6.18062900863,
+    36.9429923946
   ],
   "description": "An ancient place, cited: BAtlas 31 D3 Numidicus Sinus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.75,
-          36.75
+          6.02484434503,
+          36.8925748425
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.5,
-              36.5
+              5.865021312512546,
+              36.85759982680965
             ],
             [
-              5.5,
-              37.0
+              5.904066467224808,
+              36.8626394308373
             ],
             [
-              6.0,
-              37.0
+              5.930408719018027,
+              36.86608915839724
             ],
             [
-              6.0,
-              36.5
+              5.947920869462658,
+              36.870546461071875
             ],
             [
-              5.5,
-              36.5
+              5.965755880906113,
+              36.87389896483799
+            ],
+            [
+              5.982220323745294,
+              36.87699125142823
+            ],
+            [
+              5.999737860122601,
+              36.88144105067552
+            ],
+            [
+              6.024119311762469,
+              36.887174116221374
+            ],
+            [
+              6.043664322620892,
+              36.89362372398839
+            ],
+            [
+              6.070242194773323,
+              36.90277903037628
+            ],
+            [
+              6.09064103218586,
+              36.90879806082446
+            ],
+            [
+              6.107492182727912,
+              36.91508096879192
+            ],
+            [
+              6.123416589985173,
+              36.921072060646836
+            ],
+            [
+              6.145808847206321,
+              36.928729857850755
+            ],
+            [
+              6.180629008627359,
+              36.94299239463114
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305121/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305121/batlas-map-label-location"
       }
     }
   ]

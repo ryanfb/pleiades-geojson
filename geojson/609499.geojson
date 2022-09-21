@@ -3,10 +3,10 @@
   "title": "Persis (mountain)",
   "id": "609499",
   "bbox": [
-    30.5,
-    38.5,
-    31.0,
-    39.0
+    30.7709023695,
+    38.846848139,
+    30.847639987,
+    38.8479188964
   ],
   "description": "Bacakale.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          38.75
+          30.809274594,
+          38.8474283081
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              38.5
+              30.770902369514772,
+              38.84791889644799
             ],
             [
-              30.5,
-              39.0
+              30.78160994404101,
+              38.84791889644799
             ],
             [
-              31.0,
-              39.0
+              30.7887483270585,
+              38.84791889644799
             ],
             [
-              31.0,
-              38.5
+              30.795172871774298,
+              38.84791889644799
             ],
             [
-              30.5,
-              38.5
+              30.80231125479179,
+              38.847561977297005
+            ],
+            [
+              30.807308122903976,
+              38.847205058146244
+            ],
+            [
+              30.82265564639158,
+              38.84684813899531
+            ],
+            [
+              30.82872327195645,
+              38.84684813899531
+            ],
+            [
+              30.8476399869528,
+              38.847561977297005
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609499/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609499/batlas-map-label-location"
       }
     }
   ]

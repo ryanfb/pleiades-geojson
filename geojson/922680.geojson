@@ -3,10 +3,10 @@
   "title": "Mesambrie?",
   "id": "922680",
   "bbox": [
-    50.0,
-    28.0,
-    51.0,
-    29.0
+    50.8354782781,
+    28.8125103782,
+    50.9711075554,
+    28.9642010173
   ],
   "description": "An ancient place, cited: BAtlas 94 A5 Mesambrie?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.5,
-          28.5
+          50.8988712091,
+          28.8843435966
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              50.0,
-              28.0
+              50.83547827805717,
+              28.964201017333266
             ],
             [
-              50.0,
-              29.0
+              50.85867802286401,
+              28.930888563251642
             ],
             [
-              51.0,
-              29.0
+              50.86879073213879,
+              28.91661179721666
             ],
             [
-              51.0,
-              28.0
+              50.87830857616211,
+              28.903524761684594
             ],
             [
-              50.0,
-              28.0
+              50.89318020744855,
+              28.88448907363795
+            ],
+            [
+              50.909241569237906,
+              28.868427711848597
+            ],
+            [
+              50.924113200524346,
+              28.853556080562157
+            ],
+            [
+              50.93541564030204,
+              28.842253640784463
+            ],
+            [
+              50.95207186734285,
+              28.82797687474948
+            ],
+            [
+              50.971107555389494,
+              28.812510378211584
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/922680/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/922680/batlas-map-label-location"
       }
     }
   ]

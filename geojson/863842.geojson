@@ -3,10 +3,10 @@
   "title": "Mocheresis",
   "id": "863842",
   "bbox": [
-    42.0,
-    42.0,
-    43.0,
-    43.0
+    42.4494254767,
+    42.1496450069,
+    42.6949858526,
+    42.1567833899
   ],
   "description": "An ancient place, cited: BAtlas 88 A2 Mocheresis",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          42.5
+          42.5722056646,
+          42.1532141984
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              42.0
+              42.69498585255053,
+              42.15678338992228
             ],
             [
-              42.0,
-              43.0
-            ],
-            [
-              43.0,
-              43.0
-            ],
-            [
-              43.0,
-              42.0
-            ],
-            [
-              42.0,
-              42.0
+              42.449425476748786,
+              42.14964500690479
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863842/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863842/batlas-map-label-location"
       }
     }
   ]

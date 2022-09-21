@@ -3,10 +3,10 @@
   "title": "Reudigni",
   "id": "99026",
   "bbox": [
-    10.0,
-    53.0,
-    11.0,
-    54.0
+    9.96799953971,
+    53.9394322087,
+    10.5515623514,
+    53.9483551874
   ],
   "description": "An ancient place, cited: BAtlas 10 G3 Reudigni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.5,
-          53.5
+          10.2598071295,
+          53.9440298092
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              53.0
+              9.967999539706454,
+              53.948355187439006
             ],
             [
-              10.0,
-              54.0
+              10.073290689214446,
+              53.94657059168463
             ],
             [
-              11.0,
-              54.0
+              10.158951285424337,
+              53.94478599593026
             ],
             [
-              11.0,
-              53.0
+              10.237473498616737,
+              53.94478599593026
             ],
             [
-              10.0,
-              53.0
+              10.308857328791646,
+              53.94300140017589
+            ],
+            [
+              10.378456563212183,
+              53.941216804421515
+            ],
+            [
+              10.45519418065021,
+              53.94300140017589
+            ],
+            [
+              10.551562351386337,
+              53.93943220866714
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/99026/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/99026/batlas-map-label-location"
       }
     }
   ]

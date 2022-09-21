@@ -3,10 +3,10 @@
   "title": "Melanogaitouloi?",
   "id": "285484",
   "bbox": [
-    -1.0,
-    33.0,
-    0.0,
-    34.0
+    -0.486835409912,
+    33.8508430153,
+    1.74985793557,
+    34.4766412598
   ],
   "description": "An ancient place, cited: BAtlas 29 E3 Melanogaitouloi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          33.5
+          0.638118680889,
+          34.1406527226
         ]
       },
       "properties": {
@@ -28,39 +28,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              33.0
+              -0.486835409911919,
+              33.85084301529275
             ],
             [
-              -1.0,
-              34.0
+              -0.258407153352209,
+              33.90081169641519
             ],
             [
-              0.0,
-              34.0
+              -0.11326003199656,
+              33.934124150496814
             ],
             [
-              0.0,
-              33.0
+              0.036646011370692,
+              33.96981606558427
             ],
             [
-              -1.0,
-              33.0
+              0.186552054738002,
+              34.010266902683384
+            ],
+            [
+              0.341217020116972,
+              34.05309720078833
+            ],
+            [
+              0.498261446501772,
+              34.095927498893275
+            ],
+            [
+              0.648167489869081,
+              34.1292399529749
+            ],
+            [
+              0.776658384183918,
+              34.167311329068184
+            ],
+            [
+              0.926564427551227,
+              34.21252108817896
+            ],
+            [
+              1.059814243877724,
+              34.243454081254754
+            ],
+            [
+              1.216858670262525,
+              34.29818168438885
+            ],
+            [
+              1.354867408600683,
+              34.34339144349963
+            ],
+            [
+              1.500014529956331,
+              34.39098066361623
+            ],
+            [
+              1.647541112317811,
+              34.43856988373284
+            ],
+            [
+              1.749857935568514,
+              34.476641259826124
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/285484/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/285484/batlas-map-label-location"
       }
     }
   ]

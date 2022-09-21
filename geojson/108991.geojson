@@ -3,10 +3,10 @@
   "title": "Franci",
   "id": "108991",
   "bbox": [
-    6.0,
-    51.0,
-    7.0,
-    52.0
+    6.39602802735,
+    50.6804609457,
+    8.00216420629,
+    51.2675929489
   ],
   "description": "The Franci or Franks were a confederation of German tribes inhabiting the valleys of the Lower and Middle Rhine.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          51.5
+          7.20549660239,
+          50.9911320088
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              51.0
+              6.396028027352486,
+              51.26759294886136
             ],
             [
-              6.0,
-              52.0
+              6.795777476331978,
+              51.14267124605527
             ],
             [
-              7.0,
-              52.0
+              7.08488198854036,
+              51.04094928805603
             ],
             [
-              7.0,
-              51.0
+              7.379340288011861,
+              50.93744273430241
             ],
             [
-              6.0,
-              51.0
+              7.672013991728988,
+              50.8267977975313
+            ],
+            [
+              8.002164206287944,
+              50.680460945672735
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108991/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108991/batlas-map-label-location"
       }
     }
   ]

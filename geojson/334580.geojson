@@ -3,10 +3,10 @@
   "title": "Limes Tubunensis",
   "id": "334580",
   "bbox": [
-    5.0,
-    35.0,
-    6.0,
-    36.0
+    5.13816528232,
+    35.0790699584,
+    5.4907707459,
+    35.5230777451
   ],
   "description": "An ancient place, cited: BAtlas 34 D2 Limes Tubunensis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          35.5
+          5.283937813,
+          35.2755817429
         ]
       },
       "properties": {
@@ -28,39 +28,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              35.0
+              5.138165282319336,
+              35.52307774509367
             ],
             [
-              5.0,
-              36.0
+              5.155107069916209,
+              35.474005465427304
             ],
             [
-              6.0,
-              36.0
+              5.168291204560566,
+              35.44555050383154
             ],
             [
-              6.0,
-              35.0
+              5.179890717368023,
+              35.416004785258814
             ],
             [
-              5.0,
-              35.0
+              5.197658576142064,
+              35.38962504694117
+            ],
+            [
+              5.208503508287733,
+              35.35294032277714
+            ],
+            [
+              5.228781835617483,
+              35.322787012514866
+            ],
+            [
+              5.243611450331565,
+              35.29660181483054
+            ],
+            [
+              5.259881535634758,
+              35.270313755422045
+            ],
+            [
+              5.283265793634328,
+              35.24232773543906
+            ],
+            [
+              5.308082794426785,
+              35.2142355321194
+            ],
+            [
+              5.333006545256358,
+              35.18732742778859
+            ],
+            [
+              5.359859764623429,
+              35.165068660725204
+            ],
+            [
+              5.390541302948889,
+              35.13773934956572
+            ],
+            [
+              5.412074117889663,
+              35.12063597140941
+            ],
+            [
+              5.447815490938137,
+              35.100117897406115
+            ],
+            [
+              5.490770745904863,
+              35.07906995842752
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334580/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334580/batlas-map-label-location"
       }
     }
   ]

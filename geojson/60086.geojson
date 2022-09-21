@@ -3,10 +3,10 @@
   "title": "Tiausa",
   "id": "60086",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    72.2389902201,
+    33.7809983095,
+    72.9278441813,
+    33.8024134586
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Tiausa",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          72.5833522014,
+          33.7938058478
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              72.2389902200934,
+              33.78813669255169
             ],
             [
-              70.0,
-              35.0
+              72.39960383798694,
+              33.78813669255169
             ],
             [
-              75.0,
-              35.0
+              72.50667958324931,
+              33.7809983095342
             ],
             [
-              75.0,
-              30.0
+              72.63517047756415,
+              33.80241345858667
             ],
             [
-              70.0,
-              30.0
+              72.73510783980902,
+              33.80241345858667
+            ],
+            [
+              72.92784418128127,
+              33.798844267077925
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60086/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60086/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Illyricum",
   "id": "481865",
   "bbox": [
-    16.483426,
-    41.31625,
-    19.449834,
-    43.539561
+    19.741994076,
+    40.6868253309,
+    19.9365150133,
+    41.8271820179
   ],
   "description": "Illyricum was a Roman province that existed from 167 BC until AD 10.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.447355,
-          41.3163425
+          19.8584085756,
+          41.2540645139
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              40.0
+              19.741994076041472,
+              40.68682533090235
             ],
             [
-              19.0,
-              41.0
+              19.775901395374554,
+              40.83137758700654
             ],
             [
-              20.0,
-              41.0
+              19.81159331046201,
+              40.97057605584761
             ],
             [
-              20.0,
-              40.0
+              19.836577651023227,
+              41.106205333179936
             ],
             [
-              19.0,
-              40.0
+              19.859777395830072,
+              41.23826541900352
+            ],
+            [
+              19.89190011940878,
+              41.36854090907273
+            ],
+            [
+              19.90974607695251,
+              41.491678016124446
+            ],
+            [
+              19.925807438741863,
+              41.63623027222863
+            ],
+            [
+              19.9365150132681,
+              41.82718201794651
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481865/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481865/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Sequani",
   "id": "167922",
   "bbox": [
-    6.0421883,
-    47.7018263,
-    6.0421883,
-    47.7018263
+    5.23743772891,
+    46.3513171809,
+    6.16007373392,
+    47.2828761647
   ],
   "description": "The Sequani were a Gallic tribe occupying the river basin of the Arar (Saône), the valley of the Doubs, and the Jura Mountains.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.0421883,
-          47.7018263
+          5.67628384043,
+          46.8389630205
         ]
       },
       "properties": {
@@ -33,39 +33,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              46.0
+              5.237437728908901,
+              46.351317180885246
             ],
             [
-              5.0,
-              46.5
+              5.394482155293701,
+              46.560114884146856
             ],
             [
-              5.5,
-              46.5
+              5.528326836871656,
+              46.71180552326854
             ],
             [
-              5.5,
-              46.0
+              5.672879092975847,
+              46.854573183618356
             ],
             [
-              5.0,
-              46.0
+              5.817431349080039,
+              46.99377165245943
+            ],
+            [
+              5.965552796692975,
+              47.127616334037384
+            ],
+            [
+              6.160073733919603,
+              47.28287616466781
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167922/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167922/batlas-map-label-location"
       }
     }
   ]

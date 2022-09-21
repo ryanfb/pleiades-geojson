@@ -3,10 +3,10 @@
   "title": "Maketai?",
   "id": "363994",
   "bbox": [
-    19.0,
-    30.0,
-    20.0,
-    31.0
+    19.4245304745,
+    30.1179659054,
+    19.7785942722,
+    30.133670348
   ],
   "description": "An ancient place, cited: BAtlas 37 E2 Maketai?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          30.5
+          19.6017261045,
+          30.1223286159
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              30.0
+              19.42453047451204,
+              30.117965905351127
             ],
             [
-              19.0,
-              31.0
+              19.501625011100998,
+              30.117965905351127
             ],
             [
-              20.0,
-              31.0
+              19.54731066241277,
+              30.11939358195474
             ],
             [
-              20.0,
-              30.0
+              19.59442399032838,
+              30.11939358195474
             ],
             [
-              19.0,
-              30.0
+              19.642964994847205,
+              30.122248935161622
+            ],
+            [
+              19.688650646159203,
+              30.125104288368618
+            ],
+            [
+              19.730053267660708,
+              30.129387318179113
+            ],
+            [
+              19.778594272179532,
+              30.13367034798972
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/363994/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/363994/batlas-map-label-location"
       }
     }
   ]

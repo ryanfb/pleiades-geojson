@@ -3,10 +3,10 @@
   "title": "Kassiotis",
   "id": "668282",
   "bbox": [
-    36.0,
-    35.5,
-    36.5,
-    36.0
+    36.0163960216,
+    35.9160402954,
+    36.1277547966,
+    35.9845687723
   ],
   "description": "An ancient place, cited: BAtlas 68 B2 Kassiotis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          35.75
+          36.0742442203,
+          35.9467288919
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              35.5
+              36.01639602156844,
+              35.9160402953661
             ],
             [
-              36.0,
-              36.0
+              36.04209420043141,
+              35.92603403159059
             ],
             [
-              36.5,
-              36.0
+              36.067792379294374,
+              35.94102463592732
             ],
             [
-              36.5,
-              35.5
+              36.091349043252094,
+              35.95458756366055
             ],
             [
-              36.0,
-              35.5
+              36.10919500079582,
+              35.968864329695535
+            ],
+            [
+              36.1277547966413,
+              35.984568772334015
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668282/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668282/batlas-map-label-location"
       }
     }
   ]

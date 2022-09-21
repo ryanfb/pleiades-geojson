@@ -3,10 +3,10 @@
   "title": "Celaletae Minores",
   "id": "216760",
   "bbox": [
-    24.0,
-    41.0,
-    25.0,
-    42.0
+    24.686282457,
+    41.973094667,
+    25.5676348136,
+    41.9845160798
   ],
   "description": "An ancient place, cited: BAtlas 22 B7 Celaletae Minores",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.5,
-          41.5
+          25.1269586353,
+          41.9788053734
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              41.0
+              25.567634813591212,
+              41.98451607980934
             ],
             [
-              24.0,
-              42.0
-            ],
-            [
-              25.0,
-              42.0
-            ],
-            [
-              25.0,
-              41.0
-            ],
-            [
-              24.0,
-              41.0
+              24.68628245703161,
+              41.97309466698141
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216760/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216760/batlas-map-label-location"
       }
     }
   ]

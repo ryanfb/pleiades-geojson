@@ -3,10 +3,10 @@
   "title": "Krobyzoi",
   "id": "216865",
   "bbox": [
-    27.0,
-    43.0,
-    28.0,
-    44.0
+    27.9531158558,
+    43.5203867752,
+    28.5099097311,
+    43.9153773022
   ],
   "description": "An ancient place, cited: BAtlas 22 E5 Krobyzoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          43.5
+          28.2443605801,
+          43.700389349
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              43.0
+              27.953115855766157,
+              43.52038677524274
             ],
             [
-              27.0,
-              44.0
+              28.05781214002269,
+              43.57273491737101
             ],
             [
-              28.0,
-              44.0
+              28.157749502267563,
+              43.632221442516766
             ],
             [
-              28.0,
-              43.0
+              28.236271715459964,
+              43.67743120162754
             ],
             [
-              27.0,
-              43.0
+              28.310035006640703,
+              43.73929718777913
+            ],
+            [
+              28.383798297821443,
+              43.79402479091323
+            ],
+            [
+              28.455182127996352,
+              43.853511316058984
+            ],
+            [
+              28.50990973113045,
+              43.91537730221057
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216865/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216865/batlas-map-label-location"
       }
     }
   ]

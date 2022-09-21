@@ -3,10 +3,10 @@
   "title": "Gaetulia",
   "id": "334550",
   "bbox": [
-    3.0,
-    34.0,
-    4.0,
-    35.0
+    3.60068896661,
+    34.8796522319,
+    6.83858748465,
+    35.9637510156
   ],
   "description": "An ancient place, cited: BAtlas 34 B3 Gaetulia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          34.5
+          5.18437611567,
+          35.5256287019
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              34.0
+              3.600688966605304,
+              34.8796522318901
             ],
             [
-              3.0,
-              35.0
+              4.071305739462863,
+              35.12883426263013
             ],
             [
-              4.0,
-              35.0
+              4.478793676990327,
+              35.32645213418114
             ],
             [
-              4.0,
-              34.0
+              4.93017160164249,
+              35.50191988281879
             ],
             [
-              3.0,
-              34.0
+              5.339678519617216,
+              35.63562083081102
+            ],
+            [
+              5.789542892320045,
+              35.76144836895698
+            ],
+            [
+              6.260638888508669,
+              35.866056314757785
+            ],
+            [
+              6.838587484654248,
+              35.96375101557081
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334550/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334550/batlas-map-label-location"
       }
     }
   ]

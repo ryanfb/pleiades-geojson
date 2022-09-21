@@ -3,10 +3,10 @@
   "title": "Otadinoi",
   "id": "89263",
   "bbox": [
-    -3.0,
-    55.0,
-    -2.0,
-    56.0
+    -2.54454289288,
+    55.6347912352,
+    -1.9006607447,
+    55.639074265
   ],
   "description": "An ancient place, cited: BAtlas 9 E5 Otadinoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          55.5
+          -2.22261426701,
+          55.6360131857
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              55.0
+              -2.544542892880941,
+              55.63907426503715
             ],
             [
-              -3.0,
-              56.0
+              -2.421762704980097,
+              55.63764658843354
             ],
             [
-              -2.0,
-              56.0
+              -2.338957461977202,
+              55.634791235226714
             ],
             [
-              -2.0,
-              55.0
+              -2.260435248784802,
+              55.634791235226714
             ],
             [
-              -3.0,
-              55.0
+              -2.186196065402896,
+              55.634791235226714
+            ],
+            [
+              -2.104818499003443,
+              55.634791235226714
+            ],
+            [
+              -2.019157902793552,
+              55.636218911830156
+            ],
+            [
+              -1.900660744703259,
+              55.636218911830156
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89263/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89263/batlas-map-label-location"
       }
     }
   ]

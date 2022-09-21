@@ -3,10 +3,10 @@
   "title": "Argyra Chora",
   "id": "49873",
   "bbox": [
-    90.0,
-    20.0,
-    95.0,
-    25.0
+    92.8302528836,
+    20.1330318,
+    93.8403340806,
+    20.6398569943
   ],
   "description": "An ancient place, cited: BAtlas 5 G2 Argyra Chora",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          92.5,
-          22.5
+          93.3412247599,
+          20.3982059886
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              90.0,
-              20.0
+              92.8302528836033,
+              20.63985699425092
             ],
             [
-              90.0,
-              25.0
+              93.01228165054931,
+              20.557765589549774
             ],
             [
-              95.0,
-              25.0
+              93.21215637503906,
+              20.47567418484863
             ],
             [
-              95.0,
-              20.0
+              93.43344624858128,
+              20.36502924807752
             ],
             [
-              90.0,
-              20.0
+              93.60476744100106,
+              20.257953502815155
+            ],
+            [
+              93.74753510135088,
+              20.186569672640246
+            ],
+            [
+              93.84033408057826,
+              20.133031800009064
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49873/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49873/batlas-map-label-location"
       }
     }
   ]

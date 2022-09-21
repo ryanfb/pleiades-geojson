@@ -3,10 +3,10 @@
   "title": "Limes ‘Bazensis’",
   "id": "334577",
   "bbox": [
-    6.0,
-    34.0,
-    7.0,
-    35.0
+    6.17909960111,
+    34.4549253828,
+    7.20602425537,
+    34.7028123158
   ],
   "description": "An ancient place, cited: BAtlas 34 E3 Limes ‘Bazensis’",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          34.5
+          6.70058825157,
+          34.6122842194
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              34.0
+              6.179099601110201,
+              34.702812315752325
             ],
             [
-              6.0,
-              35.0
+              6.280706937659878,
+              34.697716995893074
             ],
             [
-              7.0,
-              35.0
+              6.35079059560289,
+              34.69120687207508
             ],
             [
-              7.0,
-              34.0
+              6.432032241140068,
+              34.68088193362153
             ],
             [
-              6.0,
-              34.0
+              6.509577310692336,
+              34.66887974690303
+            ],
+            [
+              6.58560889148088,
+              34.65406990411055
+            ],
+            [
+              6.66724567546399,
+              34.63778831384564
+            ],
+            [
+              6.74632038423349,
+              34.619740982463924
+            ],
+            [
+              6.81823444909161,
+              34.60031730990441
+            ],
+            [
+              6.891825739874619,
+              34.57590712143988
+            ],
+            [
+              6.964106709833984,
+              34.550598847128356
+            ],
+            [
+              7.038637191734382,
+              34.52505006472
+            ],
+            [
+              7.099594843337568,
+              34.50253969444686
+            ],
+            [
+              7.206024255367859,
+              34.454925382805214
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334577/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334577/batlas-map-label-location"
       }
     }
   ]

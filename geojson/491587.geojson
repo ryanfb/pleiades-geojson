@@ -3,10 +3,10 @@
   "title": "Elimeia",
   "id": "491587",
   "bbox": [
-    21.5,
-    40.0,
-    22.0,
-    40.5
+    21.7038358807,
+    40.1389841776,
+    22.0512371876,
+    40.3674124341
   ],
   "description": "Elimeia was a district located southwest of Macedonia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          40.25
+          21.8759893913,
+          40.255523884
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              40.0
+              21.703835880738495,
+              40.13898417757247
             ],
             [
-              21.5,
-              40.5
+              21.766891597393,
+              40.18419393668324
             ],
             [
-              22.0,
-              40.5
+              21.81805000901835,
+              40.2198858517707
             ],
             [
-              22.0,
-              40.0
+              21.87158788164953,
+              40.25319830585232
             ],
             [
-              21.5,
-              40.0
+              21.926315484783625,
+              40.29007995144269
+            ],
+            [
+              21.976284165906062,
+              40.321012944518486
+            ],
+            [
+              22.051237187589717,
+              40.36741243413218
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491587/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491587/batlas-map-label-location"
       }
     }
   ]

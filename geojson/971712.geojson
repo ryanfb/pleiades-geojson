@@ -3,10 +3,10 @@
   "title": "Baktrianoi",
   "id": "971712",
   "bbox": [
-    67.0,
-    36.0,
-    68.0,
-    37.0
+    67.1290992562,
+    36.2937390262,
+    69.0594369972,
+    36.5822486731
   ],
   "description": "An ancient place, cited: BAtlas 99 B3 Baktrianoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          36.5
+          68.1012820924,
+          36.4860270461
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              67.0,
-              36.0
+              67.12909925619141,
+              36.57630002061188
             ],
             [
-              67.0,
-              37.0
+              67.3997629456046,
+              36.58224867312646
             ],
             [
-              68.0,
-              37.0
+              67.61094010987205,
+              36.56737704184002
             ],
             [
-              68.0,
-              36.0
+              67.81319429536762,
+              36.54953108429629
             ],
             [
-              67.0,
-              36.0
+              68.01842280712049,
+              36.5227621479807
+            ],
+            [
+              68.19688238255776,
+              36.49599321166511
+            ],
+            [
+              68.39021358928147,
+              36.457326970320366
+            ],
+            [
+              68.59544210103434,
+              36.415686402718336
+            ],
+            [
+              68.79769628652991,
+              36.37107150885902
+            ],
+            [
+              69.05943699717125,
+              36.29373902616953
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/971712/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/971712/batlas-map-label-location"
       }
     }
   ]

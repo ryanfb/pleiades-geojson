@@ -3,10 +3,10 @@
   "title": "Avarigini",
   "id": "236359",
   "bbox": [
-    -5.0,
-    43.0,
-    -4.0,
-    44.0
+    -4.36593460778,
+    43.2172757187,
+    -4.22792586944,
+    43.307695237
   ],
   "description": "An ancient people, tribe, or cultural group. Located: between R. Saja and R. Nansa valleys.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          43.5
+          -4.29680881694,
+          43.2621953274
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              43.0
+              -4.365934607780446,
+              43.21727571873879
             ],
             [
-              -5.0,
-              44.0
+              -4.343329728225058,
+              43.22917302376794
             ],
             [
-              -4.0,
-              44.0
+              -4.327863231687161,
+              43.24107032879709
             ],
             [
-              -4.0,
-              43.0
+              -4.307637813137603,
+              43.25415736432916
             ],
             [
-              -5.0,
-              43.0
+              -4.296930238611367,
+              43.26367520835248
+            ],
+            [
+              -4.277894550564724,
+              43.27676224388455
+            ],
+            [
+              -4.262428054026827,
+              43.285090357404954
+            ],
+            [
+              -4.245771826986015,
+              43.29579793193119
+            ],
+            [
+              -4.227925869442288,
+              43.30769523696034
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236359/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236359/batlas-map-label-location"
       }
     }
   ]

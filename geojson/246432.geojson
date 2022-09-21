@@ -3,10 +3,10 @@
   "title": "Ilergetes",
   "id": "246432",
   "bbox": [
-    0.0,
-    41.0,
-    1.0,
-    42.0
+    0.279436577835,
+    41.4509650961,
+    0.926649971421,
+    41.6508398206
   ],
   "description": "An ancient place, cited: BAtlas 25 F4 Ilergetes",
   "names": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          41.5
+          0.604361880672,
+          41.5551666836
         ]
       },
       "properties": {
@@ -65,6 +65,35 @@
         "location_precision": "rough",
         "title": "Barrington Atlas location",
         "link": "http://pleiades.stoa.org/places/246432/batlas-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0.27943657783509,
+              41.65083982056317
+            ],
+            [
+              0.610181657645499,
+              41.558040841335796
+            ],
+            [
+              0.926649971420926,
+              41.45096509607343
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246432/batlas-map-label-location"
       }
     }
   ]

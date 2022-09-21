@@ -3,10 +3,10 @@
   "title": "Melitene",
   "id": "629039",
   "bbox": [
-    37.0,
-    38.0,
-    37.5,
-    38.5
+    37.2914455502,
+    38.400952062,
+    38.0677447034,
+    38.5365813394
   ],
   "description": "An ancient place, cited: BAtlas 64 E4 Melitene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.25,
-          38.25
+          37.6846822258,
+          38.4417033923
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              37.0,
-              38.0
+              38.067744703357505,
+              38.53658133937472
             ],
             [
-              37.0,
-              38.5
+              37.94639219206016,
+              38.48839725400666
             ],
             [
-              37.5,
-              38.5
+              37.84110104255217,
+              38.45805912618232
             ],
             [
-              37.5,
-              38.0
+              37.74473287181604,
+              38.4330747856211
             ],
             [
-              37.0,
-              38.0
+              37.64122631806242,
+              38.42058261534049
+            ],
+            [
+              37.53058138129131,
+              38.409875040814256
+            ],
+            [
+              37.42529023178332,
+              38.40095206204239
+            ],
+            [
+              37.29144555020537,
+              38.41165963656863
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/629039/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/629039/batlas-map-label-location"
       }
     }
   ]

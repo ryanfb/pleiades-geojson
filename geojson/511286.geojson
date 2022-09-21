@@ -3,10 +3,10 @@
   "title": "Karesene?",
   "id": "511286",
   "bbox": [
-    27.0,
-    40.0,
-    27.5,
-    40.5
+    27.2424143684,
+    40.0517607657,
+    27.4173047523,
+    40.2123743836
   ],
   "description": "An ancient place, cited: BAtlas 52 A4 Karesene?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          40.25
+          27.3226863559,
+          40.1400231502
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              40.0
+              27.242414368389746,
+              40.05176076567665
             ],
             [
-              27.0,
-              40.5
+              27.261688002537085,
+              40.07960045944469
             ],
             [
-              27.5,
-              40.5
+              27.27882012177895,
+              40.103157123402525
             ],
             [
-              27.5,
-              40.0
+              27.300235270831422,
+              40.12528611075669
             ],
             [
-              27.0,
-              40.0
+              27.322364258185758,
+              40.14527358320572
+            ],
+            [
+              27.34377940723823,
+              40.16526105565458
+            ],
+            [
+              27.36876374779945,
+              40.18524852810367
+            ],
+            [
+              27.397317279869412,
+              40.20238064734565
+            ],
+            [
+              27.417304752318273,
+              40.21237438357019
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511286/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511286/batlas-map-label-location"
       }
     }
   ]

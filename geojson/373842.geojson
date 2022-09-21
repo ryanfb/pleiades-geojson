@@ -3,10 +3,10 @@
   "title": "Libyarchai",
   "id": "373842",
   "bbox": [
-    22.0,
-    32.0,
-    23.0,
-    33.0
+    22.777840922,
+    32.4120573032,
+    22.9527313059,
+    32.6005106149
   ],
   "description": "An ancient people of North Africa who, according to Ptolemy, lived in the north of Marmarica.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          32.5
+          22.8677471603,
+          32.5085724768
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              32.0
+              22.777840922014093,
+              32.600510614885536
             ],
             [
-              22.0,
-              33.0
+              22.806394454084057,
+              32.57481243602257
             ],
             [
-              23.0,
-              33.0
+              22.82209889672248,
+              32.56053566998759
             ],
             [
-              23.0,
-              32.0
+              22.839231015964515,
+              32.540548197538556
             ],
             [
-              22.0,
-              32.0
+              22.852080105396055,
+              32.52555759320188
+            ],
+            [
+              22.872067577844916,
+              32.506997797356405
+            ],
+            [
+              22.888485858785202,
+              32.48629648660568
+            ],
+            [
+              22.908473331234063,
+              32.467736690760205
+            ],
+            [
+              22.925605450476098,
+              32.44418002680243
+            ],
+            [
+              22.95273130594262,
+              32.41205730322372
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373842/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373842/batlas-map-label-location"
       }
     }
   ]

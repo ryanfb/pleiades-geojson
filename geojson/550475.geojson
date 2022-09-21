@@ -3,10 +3,10 @@
   "title": "Atys (mountain)",
   "id": "550475",
   "bbox": [
-    27.5,
-    39.5,
-    28.0,
-    40.0
+    27.9304654573,
+    39.8024442179,
+    27.9881673867,
+    39.8048236789
   ],
   "description": "A mountain, probably a hill near Gökcedere.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          39.75
+          27.9592991021,
+          39.8038520453
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              39.5
+              27.930465457273158,
+              39.80363394841788
             ],
             [
-              27.5,
-              40.0
+              27.941767897050852,
+              39.8048236789208
             ],
             [
-              28.0,
-              40.0
+              27.948906280068343,
+              39.8048236789208
             ],
             [
-              28.0,
-              39.5
+              27.953665202080003,
+              39.80422881366934
             ],
             [
-              27.5,
-              39.5
+              27.960803585097494,
+              39.80422881366934
+            ],
+            [
+              27.975675216383934,
+              39.803039083166425
+            ],
+            [
+              27.988167386664543,
+              39.80244421791497
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550475/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550475/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Apsilia",
   "id": "857034",
   "bbox": [
-    41.0,
-    43.0,
-    42.0,
-    44.0
+    41.2931255679,
+    42.7993669116,
+    41.9230878692,
+    43.2009009563
   ],
   "description": "An ancient place, cited: BAtlas 87 G1 Apsilia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          43.5
+          41.6128184409,
+          43.0073916483
         ]
       },
       "properties": {
@@ -29,39 +29,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              43.0
+              41.293125567916796,
+              43.20090095634361
             ],
             [
-              41.0,
-              44.0
+              41.53047680324836,
+              43.06348708325691
             ],
             [
-              42.0,
-              44.0
+              41.721428548966244,
+              42.945703763468316
             ],
             [
-              42.0,
-              43.0
-            ],
-            [
-              41.0,
-              43.0
+              41.92308786921036,
+              42.79936691160975
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid G1, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857034/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857034/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Dekantai",
   "id": "89162",
   "bbox": [
-    -5.0,
-    57.0,
-    -4.0,
-    58.0
+    -4.53728199874,
+    57.7813525807,
+    -3.93004355005,
+    57.7851597183
   ],
   "description": "An ancient place, cited: BAtlas 9 C3 Dekantai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          57.5
+          -4.23366531835,
+          57.7837245654
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              57.0
+              -4.537281998738592,
+              57.78135258069045
             ],
             [
-              -5.0,
-              58.0
+              -4.415453595240137,
+              57.78325614949506
             ],
             [
-              -4.0,
-              58.0
+              -4.348828687076889,
+              57.78325614949506
             ],
             [
-              -4.0,
-              57.0
+              -4.259360953257669,
+              57.78325614949506
             ],
             [
-              -5.0,
-              57.0
+              -4.181314632266378,
+              57.78325614949506
+            ],
+            [
+              -4.099461173665816,
+              57.785159718299724
+            ],
+            [
+              -4.029029127893239,
+              57.785159718299724
+            ],
+            [
+              -3.930043550050755,
+              57.785159718299724
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89162/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89162/batlas-map-label-location"
       }
     }
   ]
