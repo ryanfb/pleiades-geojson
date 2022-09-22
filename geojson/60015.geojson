@@ -3,10 +3,10 @@
   "title": "Rarungae",
   "id": "60015",
   "bbox": [
-    75.0,
-    25.0,
-    80.0,
-    30.0
+    77.0368236216,
+    26.8345946184,
+    77.9291214988,
+    27.1141812866
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Veranjā, in Mathura region?.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          27.5
+          77.4752974971,
+          26.9513334084
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              25.0
+              77.03682362162158,
+              27.114181286582607
             ],
             [
-              75.0,
-              30.0
+              77.19743723951512,
+              27.030900151378546
             ],
             [
-              80.0,
-              30.0
+              77.30451298477749,
+              26.989259583776516
             ],
             [
-              80.0,
-              25.0
+              77.423486035069,
+              26.965464973718213
             ],
             [
-              75.0,
-              25.0
+              77.53651043284594,
+              26.929773058630758
+            ],
+            [
+              77.67332944068119,
+              26.882183838514152
+            ],
+            [
+              77.77445653342897,
+              26.85838922845585
+            ],
+            [
+              77.92912149880794,
+              26.834594618397546
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60015/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60015/batlas-map-label-location"
       }
     }
   ]

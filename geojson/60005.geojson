@@ -3,10 +3,10 @@
   "title": "Prapiotai",
   "id": "60005",
   "bbox": [
-    75.0,
-    20.0,
-    80.0,
-    25.0
+    76.5579570942,
+    23.0878953186,
+    78.2045441102,
+    23.0974131626
   ],
   "description": "An ancient people of Paripātra (W Vindhyas).",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          22.5
+          77.3812707276,
+          23.0957070743
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              20.0
+              76.55795709419806,
+              23.08789531861703
             ],
             [
-              75.0,
-              25.0
+              76.8910816350143,
+              23.09741316264035
             ],
             [
-              80.0,
-              25.0
+              77.05288498341076,
+              23.09741316264035
             ],
             [
-              80.0,
-              20.0
+              77.22420617583055,
+              23.09741316264035
             ],
             [
-              75.0,
-              20.0
+              77.42408090032029,
+              23.09741316264035
+            ],
+            [
+              77.57636640469343,
+              23.09741316264035
+            ],
+            [
+              77.77624112918318,
+              23.09741316264035
+            ],
+            [
+              77.94756232160296,
+              23.09741316264035
+            ],
+            [
+              78.20454411023263,
+              23.08789531861703
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60005/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60005/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Kareoi",
   "id": "50041",
   "bbox": [
-    75.0,
-    5.0,
-    80.0,
-    10.0
+    77.9982594518,
+    8.96423841548,
+    78.5693300932,
+    9.30331160881
   ],
   "description": "An ancient people located on Gulf of Mannar.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          7.5
+          78.2705616843,
+          9.15682397043
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              5.0
+              77.99825945175269,
+              8.964238415476245
             ],
             [
-              75.0,
-              10.0
+              78.12318115455878,
+              9.07131416073861
             ],
             [
-              80.0,
-              10.0
+              78.21835959479199,
+              9.136749338398943
             ],
             [
-              80.0,
-              5.0
+              78.30758938251063,
+              9.202184516059276
             ],
             [
-              75.0,
-              5.0
+              78.43251108531672,
+              9.255722388690458
+            ],
+            [
+              78.56933009315196,
+              9.303311608807064
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50041/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50041/batlas-map-label-location"
       }
     }
   ]

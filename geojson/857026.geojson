@@ -3,10 +3,10 @@
   "title": "Ampreutae?",
   "id": "857026",
   "bbox": [
-    41.0,
-    41.0,
-    42.0,
-    42.0
+    41.251901406,
+    41.2860297119,
+    41.5302983437,
+    41.4073822232
   ],
   "description": "An ancient tribe of Colchis mentioned by Pliny the Elder who places their territory between the Heniochi and the Lazi.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          41.5
+          41.3910998748,
+          41.3467059676
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              41.0
+              41.25190140599078,
+              41.28602971190168
             ],
             [
-              41.0,
-              42.0
-            ],
-            [
-              42.0,
-              42.0
-            ],
-            [
-              42.0,
-              41.0
-            ],
-            [
-              41.0,
-              41.0
+              41.530298343672925,
+              41.40738222319903
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid G3, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857026/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857026/batlas-map-label-location"
       }
     }
   ]

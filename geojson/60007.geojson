@@ -3,10 +3,10 @@
   "title": "Prasii",
   "id": "60007",
   "bbox": [
-    80.0,
-    25.0,
-    85.0,
-    30.0
+    81.3942115885,
+    25.2206062181,
+    84.9705414803,
+    27.1408312498
   ],
   "description": "An ancient place, cited: BAtlas 6 E4 Prasii",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.5,
-          27.5
+          83.1103606474,
+          26.0528038272
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              80.0,
-              25.0
+              81.39421158854816,
+              27.140831249847793
             ],
             [
-              80.0,
-              30.0
+              82.11518827331474,
+              26.548345459396046
             ],
             [
-              85.0,
-              30.0
+              82.80047304299387,
+              26.098627329294118
             ],
             [
-              85.0,
-              25.0
+              83.54286487681293,
+              25.777400093507026
             ],
             [
-              80.0,
-              25.0
+              84.22101126347457,
+              25.4847263897899
+            ],
+            [
+              84.97054148031111,
+              25.220606218142734
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60007/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60007/batlas-map-label-location"
       }
     }
   ]

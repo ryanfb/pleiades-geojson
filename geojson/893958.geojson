@@ -3,10 +3,10 @@
   "title": "Beth Aramaye",
   "id": "893958",
   "bbox": [
-    44.0,
-    32.0,
-    45.0,
-    33.0
+    44.4518503772,
+    32.7980926913,
+    45.4565777869,
+    33.0068903946
   ],
   "description": "Beth Aramaye was the region and Sasanian province of Āsōristān located in Iraq between the Jabal Ḥamrīn and Maysān.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          32.5
+          44.9405753712,
+          32.8503500814
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              44.0,
-              32.0
+              44.451850377194546,
+              33.00689039460792
             ],
             [
-              44.0,
-              33.0
+              44.55178773943942,
+              32.93907575594176
             ],
             [
-              45.0,
-              33.0
+              44.63923293140368,
+              32.890891670573694
             ],
             [
-              45.0,
-              32.0
+              44.71418595308734,
+              32.86055354274936
             ],
             [
-              44.0,
-              32.0
+              44.869445783717765,
+              32.81593864889004
+            ],
+            [
+              44.95332178417328,
+              32.80344647860943
+            ],
+            [
+              45.04790535915504,
+              32.79809269134631
+            ],
+            [
+              45.14784272139991,
+              32.799877287100685
+            ],
+            [
+              45.24064170062729,
+              32.81058486162692
+            ],
+            [
+              45.32451770108281,
+              32.826646223416276
+            ],
+            [
+              45.456577786906394,
+              32.85698435124061
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/893958/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/893958/batlas-map-label-location"
       }
     }
   ]

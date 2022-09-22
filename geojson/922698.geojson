@@ -3,10 +3,10 @@
   "title": "Persis/Pars",
   "id": "922698",
   "bbox": [
-    51.0,
-    30.0,
-    52.0,
-    31.0
+    51.5610651685,
+    29.8489639347,
+    53.4218036751,
+    30.3676864339
   ],
   "description": "An ancient place, cited: BAtlas 94 B3 Persis/Pars",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.5,
-          30.5
+          52.491334576,
+          30.1033729435
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              51.0,
-              30.0
+              51.56106516852253,
+              30.36768643393907
             ],
             [
-              51.0,
-              31.0
+              51.848979950228,
+              30.260610688676707
             ],
             [
-              52.0,
-              31.0
+              52.10834119986367,
+              30.184467936490137
             ],
             [
-              52.0,
-              30.0
+              52.39863544257497,
+              30.101186801286076
             ],
             [
-              51.0,
-              30.0
+              52.62944316014051,
+              30.05835650318113
+            ],
+            [
+              52.86976872172937,
+              30.029802971111167
+            ],
+            [
+              53.09343805627742,
+              29.97269590697124
+            ],
+            [
+              53.31234846881381,
+              29.90607099880799
+            ],
+            [
+              53.421803675082,
+              29.848963934668063
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/922698/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/922698/batlas-map-label-location"
       }
     }
   ]

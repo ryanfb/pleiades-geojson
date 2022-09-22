@@ -3,10 +3,10 @@
   "title": "Bagrauandene",
   "id": "874376",
   "bbox": [
-    42.0,
-    39.0,
-    43.0,
-    40.0
+    42.6853502836,
+    39.5198266193,
+    43.2949681933,
+    39.852475268
   ],
   "description": "An ancient place, cited: BAtlas 89 E1 Bagrauandene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          39.5
+          43.0039602797,
+          39.7118975121
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              39.0
+              43.29496819330911,
+              39.51982661934184
             ],
             [
-              42.0,
-              40.0
+              43.23357809935869,
+              39.56979530046428
             ],
             [
-              43.0,
-              40.0
+              43.19217547785724,
+              39.604059538948235
             ],
             [
-              43.0,
-              39.0
+              43.1464898265453,
+              39.642606807242686
             ],
             [
-              42.0,
-              39.0
+              43.09794882202636,
+              39.67258801591615
+            ],
+            [
+              43.04512478769693,
+              39.70399690119311
+            ],
+            [
+              42.992300753367495,
+              39.738261139677064
+            ],
+            [
+              42.93519368922757,
+              39.76395931854003
+            ],
+            [
+              42.87808662508764,
+              39.7910851740065
+            ],
+            [
+              42.819551884344214,
+              39.81392799966247
+            ],
+            [
+              42.7581617903938,
+              39.831060118904446
+            ],
+            [
+              42.68535028361539,
+              39.85247526795692
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874376/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874376/batlas-map-label-location"
       }
     }
   ]

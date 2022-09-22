@@ -3,10 +3,10 @@
   "title": "Arouarnoi",
   "id": "49879",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    79.5324169353,
+    11.9730668573,
+    80.1689227543,
+    13.1984892754
   ],
   "description": "An ancient people, tribe, or cultural group. Located: people on Tamil Nadu coast.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          79.8286668715,
+          12.5975114282
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              79.53241693526178,
+              11.973066857348499
             ],
             [
-              75.0,
-              15.0
+              79.60974941795126,
+              12.151526432785772
             ],
             [
-              80.0,
-              15.0
+              79.68113324812617,
+              12.312140050679318
             ],
             [
-              80.0,
-              10.0
+              79.7465684257865,
+              12.466805016058288
             ],
             [
-              75.0,
-              10.0
+              79.81795225596142,
+              12.609572676408106
+            ],
+            [
+              79.88933608613632,
+              12.740443031728773
+            ],
+            [
+              79.96666856882581,
+              12.889159344593168
+            ],
+            [
+              80.06184700905902,
+              13.031927004942986
+            ],
+            [
+              80.16892275432139,
+              13.198489275351108
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49879/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49879/batlas-map-label-location"
       }
     }
   ]

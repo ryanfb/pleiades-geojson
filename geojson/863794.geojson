@@ -3,10 +3,10 @@
   "title": "Gogarene/(T)Osarene",
   "id": "863794",
   "bbox": [
-    43.0,
-    41.0,
-    44.0,
-    42.0
+    43.4103053688,
+    41.1385629491,
+    44.3454335441,
+    41.2289824674
   ],
   "description": "Gogarene/(T)Osarene was a fertile region of Caucasia that was, at various times, part of either Armenia or Iberia.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          41.5
+          43.8795568284,
+          41.1998541847
         ]
       },
       "properties": {
@@ -30,39 +30,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              41.0
+              44.345433544067134,
+              41.13856294914427
             ],
             [
-              43.0,
-              42.0
+              44.27048052238348,
+              41.15402944568217
             ],
             [
-              44.0,
-              42.0
+              44.20861453623189,
+              41.16592675071132
             ],
             [
-              44.0,
-              41.0
+              44.15745612460654,
+              41.17663432523756
             ],
             [
-              43.0,
-              41.0
+              44.10510798247827,
+              41.18139324724922
+            ],
+            [
+              44.05513930135584,
+              41.187341899763794
+            ],
+            [
+              44.00041169822174,
+              41.194480282781285
+            ],
+            [
+              43.926648407041,
+              41.20280839630169
+            ],
+            [
+              43.83622888881945,
+              41.21232624032501
+            ],
+            [
+              43.775552633170776,
+              41.21589543183376
+            ],
+            [
+              43.71963529953376,
+              41.22065435384542
+            ],
+            [
+              43.66371796589675,
+              41.221844084348334
+            ],
+            [
+              43.61018009326557,
+              41.22541327585708
+            ],
+            [
+              43.549503837616896,
+              41.226603006359994
+            ],
+            [
+              43.49001731247114,
+              41.22779273686291
+            ],
+            [
+              43.41030536877582,
+              41.228982467365825
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863794/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863794/batlas-map-label-location"
       }
     }
   ]

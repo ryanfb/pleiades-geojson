@@ -3,10 +3,10 @@
   "title": "Moschoi",
   "id": "863847",
   "bbox": [
-    42.0,
-    41.0,
-    43.0,
-    42.0
+    42.7767262868,
+    41.5516135851,
+    43.1336454376,
+    41.7448258188
   ],
   "description": "An ancient place, cited: BAtlas 88 A3 Moschoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          41.5
+          42.9459270134,
+          41.664653183
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              41.0
+              43.13364543762805,
+              41.744825818819834
             ],
             [
-              42.0,
-              42.0
+              43.068924098269406,
+              41.72579013077319
             ],
             [
-              43.0,
-              42.0
+              43.00229919010616,
+              41.70104373631244
             ],
             [
-              43.0,
-              41.0
+              42.942336772759234,
+              41.67439377304731
             ],
             [
-              42.0,
-              41.0
+              42.88998863063097,
+              41.64679202537957
+            ],
+            [
+              42.84525476372136,
+              41.613479571297944
+            ],
+            [
+              42.7767262867535,
+              41.551613585146356
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863847/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863847/batlas-map-label-location"
       }
     }
   ]

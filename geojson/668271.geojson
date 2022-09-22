@@ -3,10 +3,10 @@
   "title": "Itouraioi",
   "id": "668271",
   "bbox": [
-    35.5,
-    34.0,
-    36.0,
-    34.5
+    35.7441856825,
+    34.1124088529,
+    35.8312739553,
+    34.3693906416
   ],
   "description": "An ancient place, cited: BAtlas 68 A5 Itouraioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          34.25
+          35.7723315984,
+          34.2460593833
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              34.0
+              35.74561335910495,
+              34.112408852946714
             ],
             [
-              35.5,
-              34.5
+              35.74418568250145,
+              34.150242282939416
             ],
             [
-              36.0,
-              34.5
+              35.75346558042419,
+              34.220198436510834
             ],
             [
-              36.0,
-              34.0
+              35.77844992098541,
+              34.281588530461256
             ],
             [
-              35.5,
-              34.0
+              35.797723555132634,
+              34.32370499026445
+            ],
+            [
+              35.83127395531484,
+              34.369390641576395
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668271/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668271/batlas-map-label-location"
       }
     }
   ]

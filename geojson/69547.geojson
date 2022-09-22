@@ -3,10 +3,10 @@
   "title": "Osismii",
   "id": "69547",
   "bbox": [
-    -3.571121,
-    48.276532,
-    -0.665855318801,
-    48.3194824032
+    -4.09094072038,
+    48.104795534,
+    -3.26764721236,
+    48.5521342031
   ],
   "description": "A Celtic tribe in Aremorica.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.71603861563,
-          48.2932073723
+          -3.68072819565,
+          48.3310734674
         ]
       },
       "properties": {
@@ -32,39 +32,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              48.0
+              -4.090940720380843,
+              48.104795533954075
             ],
             [
-              -5.0,
-              49.0
+              -3.927233803179774,
+              48.19902218978507
             ],
             [
-              -4.0,
-              49.0
+              -3.808260752888259,
+              48.26279174474132
             ],
             [
-              -4.0,
-              48.0
+              -3.693094840206072,
+              48.327513084099905
             ],
             [
-              -5.0,
-              48.0
+              -3.557941455074854,
+              48.398896914274815
+            ],
+            [
+              -3.428498776357742,
+              48.46552182243806
+            ],
+            [
+              -3.267647212363556,
+              48.55213420305017
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/69547/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/69547/batlas-map-label-location"
       }
     }
   ]

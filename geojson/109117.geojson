@@ -3,10 +3,10 @@
   "title": "Litus Saxonicum",
   "id": "109117",
   "bbox": [
-    3.0,
-    51.0,
-    4.0,
-    52.0
+    3.08810133705,
+    51.0557316896,
+    5.14395564608,
+    51.5887309549
   ],
   "description": "An ancient place, cited: BAtlas 11 D1 Litus Saxonicum",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          51.5
+          4.13105979119,
+          51.2651379959
         ]
       },
       "properties": {
@@ -28,39 +28,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              51.0
+              3.088101337047192,
+              51.05573168955482
             ],
             [
-              3.0,
-              52.0
+              3.257043068461144,
+              51.06762899458397
             ],
             [
-              4.0,
-              52.0
+              3.38553396277598,
+              51.08428522162478
             ],
             [
-              4.0,
-              51.0
+              3.521163240108308,
+              51.110459292688915
             ],
             [
-              3.0,
-              51.0
+              3.663930900458126,
+              51.13901282475888
+            ],
+            [
+              3.801939638796284,
+              51.16518689582301
+            ],
+            [
+              3.973260831216066,
+              51.20087881091047
+            ],
+            [
+              4.087474959495921,
+              51.22467342096877
+            ],
+            [
+              4.225483697834079,
+              51.257985875050394
+            ],
+            [
+              4.344456748125594,
+              51.29129832913202
+            ],
+            [
+              4.475327103446261,
+              51.338887549248625
+            ],
+            [
+              4.62047422480191,
+              51.37695892534191
+            ],
+            [
+              4.732308892075935,
+              51.417409762441025
+            ],
+            [
+              4.837005176332468,
+              51.45548113853431
+            ],
+            [
+              4.960737148635644,
+              51.50544981965675
+            ],
+            [
+              5.143955646084578,
+              51.58873095486081
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109117/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109117/batlas-map-label-location"
       }
     }
   ]

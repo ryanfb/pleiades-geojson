@@ -3,10 +3,10 @@
   "title": "Skenitai",
   "id": "668375",
   "bbox": [
-    38.0,
-    35.5,
-    38.5,
-    36.0
+    38.1200774968,
+    35.8282381843,
+    38.2992509106,
+    35.8296658609
   ],
   "description": "One of the nomadic tribes of ancient Mesopotamia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.25,
-          35.75
+          38.2096642037,
+          35.8289520226
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.0,
-              35.5
+              38.12007749682299,
+              35.82966586085446
             ],
             [
-              38.0,
-              36.0
-            ],
-            [
-              38.5,
-              36.0
-            ],
-            [
-              38.5,
-              35.5
-            ],
-            [
-              38.0,
-              35.5
+              38.29925091056201,
+              35.828238184250964
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668375/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668375/batlas-map-label-location"
       }
     }
   ]

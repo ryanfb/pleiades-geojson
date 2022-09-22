@@ -3,10 +3,10 @@
   "title": "Koniakoi",
   "id": "50071",
   "bbox": [
-    75.0,
-    5.0,
-    80.0,
-    10.0
+    77.3439076751,
+    8.17901628355,
+    77.9863621467,
+    8.43480834168
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Cape Comorin.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          7.5
+          77.6764018191,
+          8.2815887857
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              5.0
+              77.34390767514935,
+              8.179016283552244
             ],
             [
-              75.0,
-              10.0
+              77.4807266829846,
+              8.208759546125123
             ],
             [
-              80.0,
-              10.0
+              77.57590512321781,
+              8.238502808698001
             ],
             [
-              80.0,
-              5.0
+              77.66513491093644,
+              8.262297418756305
             ],
             [
-              75.0,
-              5.0
+              77.71867278356763,
+              8.286092028814608
+            ],
+            [
+              77.80790257128626,
+              8.315835291387486
+            ],
+            [
+              77.89118370649032,
+              8.363424511504093
+            ],
+            [
+              77.98636214672354,
+              8.434808341679002
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50071/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50071/batlas-map-label-location"
       }
     }
   ]

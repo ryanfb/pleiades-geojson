@@ -3,10 +3,10 @@
   "title": "Makrokephaloi",
   "id": "857223",
   "bbox": [
-    38.0,
-    40.0,
-    39.0,
-    41.0
+    38.8325249418,
+    40.6417906446,
+    40.1513412043,
+    40.7649277516
   ],
   "description": "An ancient place, cited: BAtlas 87 D4 Makrokephaloi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.5,
-          40.5
+          39.4895890565,
+          40.6793360833
         ]
       },
       "properties": {
@@ -29,39 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.0,
-              40.0
+              38.83252494178769,
+              40.764927751624846
             ],
             [
-              38.0,
-              41.0
+              38.9628004318569,
+              40.738158815309255
             ],
             [
-              39.0,
-              41.0
+              39.06987617711926,
+              40.71674366625678
             ],
             [
-              39.0,
-              40.0
+              39.17338273087288,
+              40.70425149597618
             ],
             [
-              38.0,
-              40.0
+              39.28759685915273,
+              40.69175932569557
+            ],
+            [
+              39.39288800866072,
+              40.67748255966059
+            ],
+            [
+              39.5053175411862,
+              40.66320579362561
+            ],
+            [
+              39.599901116167956,
+              40.65963660211686
+            ],
+            [
+              39.71946903171093,
+              40.650713623345
+            ],
+            [
+              39.8194063939558,
+              40.64535983608188
+            ],
+            [
+              39.92469754346379,
+              40.641790644573135
+            ],
+            [
+              40.03355788448052,
+              40.641790644573135
+            ],
+            [
+              40.15134120426912,
+              40.64535983608188
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid D4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857223/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857223/batlas-map-label-location"
       }
     }
   ]

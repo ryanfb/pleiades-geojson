@@ -3,10 +3,10 @@
   "title": "Kerobothros",
   "id": "50055",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    75.7080282336,
+    9.71495836282,
+    76.6181720684,
+    12.028984191
   ],
   "description": "An ancient place, cited: BAtlas 5 D4 Kerobothros",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          76.2505818532,
+          10.9047948522
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              75.70802823364102,
+              12.028984190985511
             ],
             [
-              75.0,
-              15.0
+              75.87459050404914,
+              11.779140785373329
             ],
             [
-              80.0,
-              15.0
+              75.99356355434065,
+              11.55309198981962
             ],
             [
-              80.0,
-              10.0
+              76.1065879521176,
+              11.332991846780317
             ],
             [
-              75.0,
-              10.0
+              76.20771504486538,
+              11.136686313799316
+            ],
+            [
+              76.29099618006944,
+              10.904688865730861
+            ],
+            [
+              76.38617462030265,
+              10.69648602772071
+            ],
+            [
+              76.47540440802129,
+              10.458539927137679
+            ],
+            [
+              76.4991990180796,
+              10.226542479069224
+            ],
+            [
+              76.5705828482545,
+              10.018339641059072
+            ],
+            [
+              76.61817206837111,
+              9.714958362815707
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50055/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50055/batlas-map-label-location"
       }
     }
   ]

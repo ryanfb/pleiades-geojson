@@ -3,10 +3,10 @@
   "title": "Bittigo M.",
   "id": "49922",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    76.1720231298,
+    9.12842122488,
+    77.2011400148,
+    11.9183392542
   ],
   "description": "An ancient place, cited: BAtlas 5 D4 Bittigo M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          76.8142657879,
+          10.5673554789
         ]
       },
       "properties": {
@@ -29,39 +29,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              76.17202312977793,
+              11.918339254214402
             ],
             [
-              75.0,
-              15.0
+              76.34453405270062,
+              11.662547196087644
             ],
             [
-              80.0,
-              15.0
+              76.45160979796299,
+              11.466241663106644
             ],
             [
-              80.0,
-              10.0
+              76.55868554322535,
+              11.263987477611067
             ],
             [
-              75.0,
-              10.0
+              76.65981263597314,
+              11.079579249659218
+            ],
+            [
+              76.75499107620635,
+              10.859479106619915
+            ],
+            [
+              76.87396412649787,
+              10.603687048493157
+            ],
+            [
+              76.95724526170193,
+              10.40143286299758
+            ],
+            [
+              77.02268043936226,
+              10.211075982531156
+            ],
+            [
+              77.05837235444972,
+              9.990975839492023
+            ],
+            [
+              77.14760214216835,
+              9.717337823821538
+            ],
+            [
+              77.17139675222666,
+              9.455597113180204
+            ],
+            [
+              77.20114001479953,
+              9.128421224878537
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49922/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49922/batlas-map-label-location"
       }
     }
   ]

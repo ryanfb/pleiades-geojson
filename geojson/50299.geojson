@@ -3,10 +3,10 @@
   "title": "Tarachoi",
   "id": "50299",
   "bbox": [
-    75.0,
-    5.0,
-    85.0,
-    15.0
+    81.2955975406,
+    7.37184362385,
+    81.7357978267,
+    8.15111710326
   ],
   "description": "An ancient people, tribe, or cultural group. Located: E coast of Sri Lanka.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.0,
-          10.0
+          81.5059869118,
+          7.75674723293
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              5.0
+              81.29559754058204,
+              8.15111710325823
             ],
             [
-              75.0,
-              15.0
+              81.36103271824237,
+              7.99645213787926
             ],
             [
-              85.0,
-              15.0
+              81.41457059087355,
+              7.92506830770435
             ],
             [
-              85.0,
-              5.0
+              81.46215981099016,
+              7.806095257412835
             ],
             [
-              75.0,
-              5.0
+              81.52164633613592,
+              7.716865469694199
+            ],
+            [
+              81.59303016631083,
+              7.61573837694641
+            ],
+            [
+              81.64656803894201,
+              7.514611284198622
+            ],
+            [
+              81.73579782666064,
+              7.371843623848804
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50299/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50299/batlas-map-label-location"
       }
     }
   ]

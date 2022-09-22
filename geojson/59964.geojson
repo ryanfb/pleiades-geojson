@@ -3,10 +3,10 @@
   "title": "Ouarsa",
   "id": "59964",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    72.9135674152,
+    34.4020376321,
+    73.7202046962,
+    34.4270219726
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Ouarsa",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          73.3169117701,
+          34.4131096191
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              72.91356741524629,
+              34.40203763205591
             ],
             [
-              70.0,
-              35.0
+              73.14913405482349,
+              34.412745206582144
             ],
             [
-              75.0,
-              35.0
+              73.26334818310335,
+              34.4091760150734
             ],
             [
-              75.0,
-              30.0
+              73.39183907741818,
+              34.412745206582144
             ],
             [
-              70.0,
-              30.0
+              73.52389916324177,
+              34.41631439809089
+            ],
+            [
+              73.72020469622277,
+              34.427021972617126
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59964/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59964/batlas-map-label-location"
       }
     }
   ]

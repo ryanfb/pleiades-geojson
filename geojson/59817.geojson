@@ -3,10 +3,10 @@
   "title": "Gallitalutae",
   "id": "59817",
   "bbox": [
-    70.0,
-    20.0,
-    75.0,
-    25.0
+    70.9907321789,
+    24.1477072506,
+    72.7824663162,
+    24.8472687863
   ],
   "description": "An ancient place, cited: BAtlas 6 C5 Gallitalutae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          22.5
+          71.8887980121,
+          24.5030015443
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              20.0
+              70.990732178857,
+              24.847268786328073
             ],
             [
-              70.0,
-              25.0
+              71.24771396748667,
+              24.75446980710069
             ],
             [
-              75.0,
-              25.0
+              71.383343244819,
+              24.697362742960763
             ],
             [
-              75.0,
-              20.0
+              71.5475260542213,
+              24.633117295803345
             ],
             [
-              70.0,
-              20.0
+              71.64746341646617,
+              24.60456376373338
+            ],
+            [
+              71.79023107681599,
+              24.547456699593454
+            ],
+            [
+              71.92586035414831,
+              24.483211252436035
+            ],
+            [
+              72.05435124846315,
+              24.4332425713136
+            ],
+            [
+              72.23994920691791,
+              24.36899712415618
+            ],
+            [
+              72.4041320163202,
+              24.311890060016253
+            ],
+            [
+              72.52548452761755,
+              24.254782995876326
+            ],
+            [
+              72.78246631624722,
+              24.147707250613962
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59817/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59817/batlas-map-label-location"
       }
     }
   ]

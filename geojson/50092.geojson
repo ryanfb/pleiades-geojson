@@ -3,10 +3,10 @@
   "title": "Limyrike",
   "id": "50092",
   "bbox": [
-    75.0,
-    10.0,
-    80.0,
-    15.0
+    75.5593119208,
+    10.3752587919,
+    76.2136636974,
+    11.7315515653
   ],
   "description": "An ancient place, cited: BAtlas 5 D4 Limyrike",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          12.5
+          75.9216471845,
+          11.0716318038
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              10.0
+              75.55931192077662,
+              11.731551565256723
             ],
             [
-              75.0,
-              15.0
+              75.71992553867017,
+              11.517400074732166
             ],
             [
-              80.0,
-              15.0
+              75.81510397890338,
+              11.344889151809468
             ],
             [
-              80.0,
-              10.0
+              75.89243646159287,
+              11.16048092385762
             ],
             [
-              75.0,
-              10.0
+              75.97571759679693,
+              10.993918653449498
+            ],
+            [
+              76.04115277445726,
+              10.815459078012225
+            ],
+            [
+              76.11253660463217,
+              10.672691417662406
+            ],
+            [
+              76.21366369737996,
+              10.375258791933618
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50092/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50092/batlas-map-label-location"
       }
     }
   ]

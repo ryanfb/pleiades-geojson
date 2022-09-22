@@ -3,10 +3,10 @@
   "title": "Syspiritis",
   "id": "857341",
   "bbox": [
-    40.0,
-    40.0,
-    41.0,
-    41.0
+    40.648708041,
+    40.4579772819,
+    41.4428531517,
+    40.6632057936
   ],
   "description": "An ancient place, cited: BAtlas 87 F4 Syspiritis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          40.5
+          41.0481516902,
+          40.551942848
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              40.0
+              40.6487080410128,
+              40.45797728187274
             ],
             [
-              40.0,
-              41.0
+              40.773629743818894,
+              40.48296162243396
             ],
             [
-              41.0,
-              41.0
+              40.93245876595807,
+              40.52043813327579
             ],
             [
-              41.0,
-              40.0
+              41.10199536262347,
+              40.563268431380735
             ],
             [
-              40.0,
-              40.0
+              41.26617817202576,
+              40.602529537976935
+            ],
+            [
+              41.44285315170866,
+              40.66320579362561
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid F4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857341/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857341/batlas-map-label-location"
       }
     }
   ]

@@ -3,12 +3,15 @@
   "title": "Kilikes",
   "id": "550643",
   "bbox": [
-    27.0,
-    39.5,
-    27.5,
-    40.0
+    27.0056879374,
+    39.5693760124,
+    27.0827824739,
+    39.575562611
   ],
   "description": "An ancient place, cited: BAtlas 56 E2 Kilikes",
+  "connectsWith": [
+    "550944"
+  ],
   "names": [
     "Kilikes"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          39.75
+          27.0441737992,
+          39.5731812118
         ]
       },
       "properties": {
@@ -28,39 +31,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              39.5
+              27.005687937357152,
+              39.569376012394
             ],
             [
-              27.0,
-              40.0
+              27.023295948800353,
+              39.57175547339983
             ],
             [
-              27.5,
-              40.0
+              27.028530763013237,
+              39.572231365600885
             ],
             [
-              27.5,
-              39.5
+              27.038524499237553,
+              39.57270725780205
             ],
             [
-              27.0,
-              39.5
+              27.04756645105988,
+              39.57413493440566
+            ],
+            [
+              27.060891432692472,
+              39.574610826606715
+            ],
+            [
+              27.08278247394611,
+              39.575562611009104
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550643/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550643/batlas-map-label-location"
       }
     }
   ]

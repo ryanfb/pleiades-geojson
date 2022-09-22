@@ -3,10 +3,10 @@
   "title": "Odonbaeorae",
   "id": "59952",
   "bbox": [
-    75.0,
-    30.0,
-    80.0,
-    35.0
+    75.1974930617,
+    31.946433874,
+    76.4502792813,
+    31.9642798316
   ],
   "description": "An ancient place, cited: BAtlas 6 D3 Odonbaeorae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          32.5
+          75.8246863581,
+          31.9524429752
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              30.0
+              75.19749306169246,
+              31.957141448565267
             ],
             [
-              75.0,
-              35.0
+              75.41878293523467,
+              31.94643387403903
             ],
             [
-              80.0,
-              35.0
+              75.54727382954951,
+              31.950003065547776
             ],
             [
-              80.0,
-              30.0
+              75.66148795782937,
+              31.950003065547776
             ],
             [
-              75.0,
-              30.0
+              75.76856370309173,
+              31.950003065547776
+            ],
+            [
+              75.87920863986284,
+              31.950003065547776
+            ],
+            [
+              75.96843842758148,
+              31.950003065547776
+            ],
+            [
+              76.08622174737008,
+              31.960710640074012
+            ],
+            [
+              76.1897283011237,
+              31.960710640074012
+            ],
+            [
+              76.32892676996477,
+              31.94643387403903
+            ],
+            [
+              76.45027928126211,
+              31.964279831582758
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59952/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59952/batlas-map-label-location"
       }
     }
   ]

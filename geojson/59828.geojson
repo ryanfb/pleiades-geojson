@@ -3,10 +3,10 @@
   "title": "Glauganikai",
   "id": "59828",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    73.6695221768,
+    33.2027892851,
+    74.9651386945,
+    33.2349120087
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Glauganikai",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          74.317377762,
+          33.218591369
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              73.66952217679847,
+              33.20278928511743
             ],
             [
-              70.0,
-              35.0
+              73.85155094374448,
+              33.20278928511743
             ],
             [
-              75.0,
-              35.0
+              73.98718022107681,
+              33.209927668134924
             ],
             [
-              75.0,
-              30.0
+              74.10496354086541,
+              33.209927668134924
             ],
             [
-              70.0,
-              30.0
+              74.24416200970649,
+              33.22063524266116
+            ],
+            [
+              74.35837613798634,
+              33.224204434169906
+            ],
+            [
+              74.49757460682741,
+              33.224204434169906
+            ],
+            [
+              74.58680439454605,
+              33.224204434169906
+            ],
+            [
+              74.67603418226469,
+              33.2313428171874
+            ],
+            [
+              74.79381750205329,
+              33.22777362567865
+            ],
+            [
+              74.96513869447307,
+              33.23491200869614
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59828/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59828/batlas-map-label-location"
       }
     }
   ]

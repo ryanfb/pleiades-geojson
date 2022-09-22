@@ -3,10 +3,10 @@
   "title": "Banu Lakhm",
   "id": "912819",
   "bbox": [
-    44.0,
-    31.0,
-    45.0,
-    32.0
+    44.1275298421,
+    31.9453880539,
+    44.5729649424,
+    31.9553817901
   ],
   "description": "An ancient place, cited: BAtlas 93 A2 Banu Lakhm",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5,
-          31.5
+          44.3502521023,
+          31.950406901
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              44.0,
-              31.0
+              44.127529842099705,
+              31.9453880538548
             ],
             [
-              44.0,
-              32.0
+              44.193916804162484,
+              31.948243407061852
             ],
             [
-              45.0,
-              32.0
+              44.24959619169897,
+              31.948243407061852
             ],
             [
-              45.0,
-              31.0
+              44.29528184301074,
+              31.948957245363545
             ],
             [
-              44.0,
-              31.0
+              44.35881345186647,
+              31.95252643687229
+            ],
+            [
+              44.40092991166972,
+              31.95109876026885
+            ],
+            [
+              44.449470916188716,
+              31.951812598570598
+            ],
+            [
+              44.4965842441041,
+              31.951812598570598
+            ],
+            [
+              44.572964942391195,
+              31.955381790079343
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912819/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/912819/batlas-map-label-location"
       }
     }
   ]

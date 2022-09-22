@@ -3,10 +3,10 @@
   "title": "Sanaraioi",
   "id": "863883",
   "bbox": [
-    46.0,
-    42.0,
-    47.0,
-    43.0
+    46.0045989858,
+    42.832217191,
+    46.5763834655,
+    42.832217191
   ],
   "description": "An ancient place, cited: BAtlas 88 E2 Sanaraioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.5,
-          42.5
+          46.2904912257,
+          42.832217191
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              46.0,
-              42.0
+              46.57638346554478,
+              42.83221719103733
             ],
             [
-              46.0,
-              43.0
-            ],
-            [
-              47.0,
-              43.0
-            ],
-            [
-              47.0,
-              42.0
-            ],
-            [
-              46.0,
-              42.0
+              46.00459898584376,
+              42.83221719103733
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863883/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863883/batlas-map-label-location"
       }
     }
   ]

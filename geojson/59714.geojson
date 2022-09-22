@@ -3,10 +3,10 @@
   "title": "Assakanoi",
   "id": "59714",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    71.1164794906,
+    34.8481865706,
+    71.8338869839,
+    34.8731709112
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Assakanoi",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          71.4751604905,
+          34.8607033956
         ]
       },
       "properties": {
@@ -31,39 +31,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              71.11647949059295,
+              34.84818657064892
             ],
             [
-              70.0,
-              35.0
+              71.24140119339904,
+              34.85532495366641
             ],
             [
-              75.0,
-              35.0
+              71.3163542150827,
+              34.851755762157666
             ],
             [
-              75.0,
-              30.0
+              71.38416885374886,
+              34.851755762157666
             ],
             [
-              70.0,
-              30.0
+              71.44484510939753,
+              34.8624633366839
+            ],
+            [
+              71.54121328013366,
+              34.8624633366839
+            ],
+            [
+              71.61973549332606,
+              34.8624633366839
+            ],
+            [
+              71.71253447255344,
+              34.87317091121014
+            ],
+            [
+              71.83388698385079,
+              34.87317091121014
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59714/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59714/batlas-map-label-location"
       }
     }
   ]

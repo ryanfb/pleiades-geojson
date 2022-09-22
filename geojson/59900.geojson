@@ -3,10 +3,10 @@
   "title": "Mactocalingae",
   "id": "59900",
   "bbox": [
-    80.0,
-    20.0,
-    85.0,
-    25.0
+    80.0364859205,
+    22.4425366523,
+    82.0209563994,
+    22.8672704418
   ],
   "description": "An ancient place, cited: BAtlas 6 E5 Mactocalingae",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.5,
-          22.5
+          81.026296155,
+          22.6652727251
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              80.0,
-              20.0
+              80.03648592050519,
+              22.442536652267904
             ],
             [
-              80.0,
-              25.0
+              80.2970369006436,
+              22.521058865460304
             ],
             [
-              85.0,
-              25.0
+              80.46478890155464,
+              22.553181589039013
             ],
             [
-              85.0,
-              20.0
+              80.59684898737822,
+              22.581735121108977
             ],
             [
-              80.0,
-              20.0
+              80.768170179798,
+              22.620996227705177
+            ],
+            [
+              80.9323529892003,
+              22.64954975977514
+            ],
+            [
+              81.07512064955012,
+              22.678103291845105
+            ],
+            [
+              81.19647316084746,
+              22.699518440897577
+            ],
+            [
+              81.33210243817979,
+              22.731641164476287
+            ],
+            [
+              81.4748700985296,
+              22.756625505037505
+            ],
+            [
+              81.64976048245813,
+              22.79231742012496
+            ],
+            [
+              81.78538975979046,
+              22.810163377668687
+            ],
+            [
+              82.02095639936766,
+              22.867270441808614
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59900/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59900/batlas-map-label-location"
       }
     }
   ]

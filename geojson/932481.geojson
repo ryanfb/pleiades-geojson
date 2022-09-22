@@ -3,10 +3,10 @@
   "title": "Taboca",
   "id": "932481",
   "bbox": [
-    51.0,
-    25.0,
-    52.0,
-    26.0
+    51.0540020282,
+    25.508167751,
+    51.3585730369,
+    25.5129266731
   ],
   "description": "An ancient place, cited: BAtlas 95 D4 Taboca",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.5,
-          25.5
+          51.2062957969,
+          25.5112303331
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              51.0,
-              25.0
+              51.05400202818015,
+              25.51173694255482
             ],
             [
-              51.0,
-              26.0
+              51.13728316338421,
+              25.512926673057734
             ],
             [
-              52.0,
-              26.0
+              51.18725184450665,
+              25.512926673057734
             ],
             [
-              52.0,
-              25.0
+              51.22651295110285,
+              25.510547212051904
             ],
             [
-              51.0,
-              25.0
+              51.26934324920779,
+              25.510547212051904
+            ],
+            [
+              51.35857303692643,
+              25.508167751046074
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932481/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/932481/batlas-map-label-location"
       }
     }
   ]

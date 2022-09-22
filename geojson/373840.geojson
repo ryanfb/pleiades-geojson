@@ -3,10 +3,10 @@
   "title": "Lesanikoi",
   "id": "373840",
   "bbox": [
-    21.0,
-    32.0,
-    22.0,
-    33.0
+    21.8731222584,
+    32.5946571408,
+    22.1236795023,
+    32.6346320857
   ],
   "description": "An ancient place, cited: BAtlas 38 C1 Lesanikoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          32.5
+          21.9984836048,
+          32.6141739088
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              32.0
+              21.87312225837735,
+              32.594657140811194
             ],
             [
-              21.0,
-              33.0
+              21.915952556482296,
+              32.60036784722524
             ],
             [
-              22.0,
-              33.0
+              21.94521992685395,
+              32.60465087703574
             ],
             [
-              22.0,
-              32.0
+              21.97020426741517,
+              32.608933906846175
             ],
             [
-              21.0,
-              32.0
+              22.003040829295628,
+              32.614644613260225
+            ],
+            [
+              22.026597493253405,
+              32.61821380476897
+            ],
+            [
+              22.04872648060757,
+              32.622496834579465
+            ],
+            [
+              22.08084920418628,
+              32.62892137929521
+            ],
+            [
+              22.123679502291225,
+              32.634632085709086
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373840/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373840/batlas-map-label-location"
       }
     }
   ]

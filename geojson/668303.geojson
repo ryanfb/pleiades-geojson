@@ -3,10 +3,10 @@
   "title": "Makra(s) Pedion?",
   "id": "668303",
   "bbox": [
-    36.0,
-    34.5,
-    36.5,
-    35.0
+    36.2819438698,
+    34.6789585184,
+    36.4025825428,
+    34.7246441697
   ],
   "description": "An ancient place, cited: BAtlas 68 B4 Makra(s) Pedion?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          34.75
+          36.3422632063,
+          34.7018013441
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              34.5
+              36.2819438698191,
+              34.678958518434925
             ],
             [
-              36.0,
-              35.0
-            ],
-            [
-              36.5,
-              35.0
-            ],
-            [
-              36.5,
-              34.5
-            ],
-            [
-              36.0,
-              34.5
+              36.4025825428147,
+              34.72464416974687
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668303/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668303/batlas-map-label-location"
       }
     }
   ]

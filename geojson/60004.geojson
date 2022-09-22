@@ -3,10 +3,10 @@
   "title": "Praesti",
   "id": "60004",
   "bbox": [
-    65.0,
-    25.0,
-    70.0,
-    30.0
+    69.2870776493,
+    25.2635727847,
+    69.8962196668,
+    26.1630090449
   ],
   "description": "An ancient place, cited: BAtlas 6 B4 Praesti",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          27.5
+          69.6181882444,
+          25.7309410337
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              25.0
+              69.28707764926577,
+              26.163009044947387
             ],
             [
-              65.0,
-              30.0
+              69.48695237375551,
+              25.939339710399338
             ],
             [
-              70.0,
-              30.0
+              69.56309512594208,
+              25.825125582119483
             ],
             [
-              70.0,
-              25.0
+              69.66779141019862,
+              25.691875765792986
             ],
             [
-              65.0,
-              25.0
+              69.73917524037353,
+              25.57766163751313
+            ],
+            [
+              69.82007691457176,
+              25.430135055151652
+            ],
+            [
+              69.89621966675833,
+              25.26357278474353
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60004/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60004/batlas-map-label-location"
       }
     }
   ]

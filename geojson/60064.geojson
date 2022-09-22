@@ -3,10 +3,10 @@
   "title": "Souastene",
   "id": "60064",
   "bbox": [
-    70.0,
-    30.0,
-    75.0,
-    35.0
+    72.1432169146,
+    34.9177858051,
+    72.5239306755,
+    35.7624944621
   ],
   "description": "An ancient place, cited: BAtlas 6 C3 Souastene",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          32.5
+          72.3561340263,
+          35.3276557482
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              30.0
+              72.14321691460839,
+              34.91778580506946
             ],
             [
-              70.0,
-              35.0
+              72.23244670232702,
+              35.03675885536097
             ],
             [
-              75.0,
-              35.0
+              72.2621899648999,
+              35.131937295594184
             ],
             [
-              75.0,
-              30.0
+              72.33952244758939,
+              35.22116708331282
             ],
             [
-              70.0,
-              30.0
+              72.35736840513312,
+              35.31039687103146
+            ],
+            [
+              72.39306032022057,
+              35.399626658750094
+            ],
+            [
+              72.4347008878226,
+              35.494805098983306
+            ],
+            [
+              72.47039280291006,
+              35.58998353921652
+            ],
+            [
+              72.52393067554124,
+              35.762494462139216
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60064/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60064/batlas-map-label-location"
       }
     }
   ]

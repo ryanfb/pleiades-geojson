@@ -3,12 +3,12 @@
   "title": "Prasiane (island)",
   "id": "60006",
   "bbox": [
-    65.0,
-    25.0,
-    70.0,
-    30.0
+    68.9916279077,
+    25.1997239144,
+    69.4413460378,
+    25.8850086841
   ],
-  "description": "An ancient place, cited: BAtlas 6 B4 Prasiane Ins.",
+  "description": "Large island formed by two branches of the eastern Indus River Delta.",
   "names": [
     "Prasiane"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          27.5
+          69.2374727105,
+          25.5555334308
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              25.0
+              68.9916279077085,
+              25.885008684099546
             ],
             [
-              65.0,
-              30.0
+              69.09870365297087,
+              25.75651778978471
             ],
             [
-              70.0,
-              30.0
+              69.16294910012829,
+              25.67799557659231
             ],
             [
-              70.0,
-              25.0
+              69.2271945472857,
+              25.59947336339991
             ],
             [
-              65.0,
-              25.0
+              69.26288646237316,
+              25.53522791624249
+            ],
+            [
+              69.31999352651309,
+              25.45670570305009
+            ],
+            [
+              69.37710059065301,
+              25.349629957787727
+            ],
+            [
+              69.44134603781043,
+              25.199723914420417
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60006/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60006/batlas-map-label-location"
       }
     }
   ]

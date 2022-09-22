@@ -3,10 +3,10 @@
   "title": "Marathken (mountain)",
   "id": "874587",
   "bbox": [
-    41.0,
-    38.0,
-    42.0,
-    39.0
+    41.4794177196,
+    38.3330096062,
+    41.7221227422,
+    38.3829782873
   ],
   "description": "A mountain, probably Taurus Mts. between Bitlis pass and vale of Kulp.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          38.5
+          41.6007702309,
+          38.3579939467
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              38.0
+              41.47941771961837,
+              38.333009606188476
             ],
             [
-              41.0,
-              39.0
-            ],
-            [
-              42.0,
-              39.0
-            ],
-            [
-              42.0,
-              38.0
-            ],
-            [
-              41.0,
-              38.0
+              41.72212274221306,
+              38.38297828731091
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874587/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874587/batlas-map-label-location"
       }
     }
   ]

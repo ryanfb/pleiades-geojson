@@ -3,10 +3,10 @@
   "title": "Limici",
   "id": "236519",
   "bbox": [
-    -8.0,
-    42.0,
-    -7.0,
-    43.0
+    -7.64238102898,
+    42.1560281786,
+    -7.51674548787,
+    42.1603112084
   ],
   "description": "An ancient place, cited: BAtlas 24 D2 Limici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          42.5
+          -7.57957532217,
+          42.1586966548
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              42.0
+              -7.642381028978491,
+              42.15602817860196
             ],
             [
-              -8.0,
-              43.0
+              -7.612399820305086,
+              42.1574558552054
             ],
             [
-              -7.0,
-              43.0
+              -7.592412347856055,
+              42.1574558552054
             ],
             [
-              -7.0,
-              42.0
+              -7.565286492389589,
+              42.16031120841245
             ],
             [
-              -8.0,
-              42.0
+              -7.548154373147668,
+              42.16031120841245
+            ],
+            [
+              -7.516745487870651,
+              42.16031120841245
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236519/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236519/batlas-map-label-location"
       }
     }
   ]

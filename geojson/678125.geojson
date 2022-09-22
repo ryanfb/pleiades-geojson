@@ -3,10 +3,10 @@
   "title": "Ebionitai",
   "id": "678125",
   "bbox": [
-    35.5,
-    32.5,
-    36.0,
-    33.0
+    35.8199088322,
+    32.7634475962,
+    35.8978361801,
+    32.9639171859
   ],
   "description": "An ancient place, cited: BAtlas 69 C4 Ebionitai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          32.75
+          35.8629723183,
+          32.8654363942
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              32.5
+              35.81990883216656,
+              32.96391718593037
             ],
             [
-              35.5,
-              33.0
+              35.83953938546466,
+              32.93000986659729
             ],
             [
-              36.0,
-              33.0
+              35.84905722948798,
+              32.90978444804773
             ],
             [
-              36.0,
-              32.5
+              35.857980208259846,
+              32.886584703240885
             ],
             [
-              35.5,
-              32.5
+              35.865713456528795,
+              32.862195227931124
+            ],
+            [
+              35.872851839546286,
+              32.840185213627194
+            ],
+            [
+              35.880585087815234,
+              32.81936492982618
+            ],
+            [
+              35.88653374032981,
+              32.79973437652808
+            ],
+            [
+              35.897836180107504,
+              32.76344759618917
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678125/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678125/batlas-map-label-location"
       }
     }
   ]

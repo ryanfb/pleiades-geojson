@@ -3,10 +3,10 @@
   "title": "Mālavas",
   "id": "59908",
   "bbox": [
-    70.0,
-    25.0,
-    75.0,
-    30.0
+    74.2309630964,
+    25.0759919421,
+    75.5444255717,
+    26.5893291418
   ],
   "description": "An ancient place, cited: BAtlas 6 C4 Mālavas",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          27.5
+          74.8753685174,
+          25.8437911088
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              25.0
+              74.23096309644615,
+              25.07599194211724
             ],
             [
-              70.0,
-              30.0
+              74.53791356619826,
+              25.45432624204426
             ],
             [
-              75.0,
-              30.0
+              74.71637314163553,
+              25.661339349551497
             ],
             [
-              75.0,
-              25.0
+              74.91624786612527,
+              25.889767606111207
             ],
             [
-              70.0,
-              25.0
+              75.08756905854506,
+              26.111057479653425
+            ],
+            [
+              75.2874437830348,
+              26.332347353195644
+            ],
+            [
+              75.54442557166448,
+              26.589329141825317
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59908/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59908/batlas-map-label-location"
       }
     }
   ]
