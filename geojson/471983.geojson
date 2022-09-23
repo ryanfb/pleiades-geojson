@@ -3,10 +3,10 @@
   "title": "Nurritani",
   "id": "471983",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.12093338647,
+    40.2959426968,
+    9.33508487699,
+    40.2995118883
   ],
   "description": "An ancient place, cited: BAtlas 48 B2 Nurritani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.22803664269,
+          40.2974432517
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.12093338646964,
+              40.295942696819594
             ],
             [
-              9.0,
-              41.0
+              9.169474390988576,
+              40.29665653512134
             ],
             [
-              10.0,
-              41.0
+              9.195172569851543,
+              40.29665653512134
             ],
             [
-              10.0,
-              40.0
+              9.219443072111012,
+              40.29808421172484
             ],
             [
-              9.0,
-              40.0
+              9.239430544559987,
+              40.29808421172484
+            ],
+            [
+              9.254421148896718,
+              40.29808421172484
+            ],
+            [
+              9.280119327759683,
+              40.29808421172484
+            ],
+            [
+              9.302962153415654,
+              40.29737037342309
+            ],
+            [
+              9.335084876994364,
+              40.29951188832834
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471983/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471983/batlas-map-label-location"
       }
     }
   ]

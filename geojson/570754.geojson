@@ -3,10 +3,10 @@
   "title": "Triphylia",
   "id": "570754",
   "bbox": [
-    21.7251305,
-    37.4400321,
-    21.7251305,
-    37.4400321
+    21.5796488466,
+    37.4266716553,
+    21.7914208762,
+    37.6070347995
   ],
   "description": "Triphylia was a region of the western Peloponnese located north of the Alpheius river and south of the Neda river.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.7251305,
-          37.4400321
+          21.691034636,
+          37.523076096
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.5
+              21.579648846637042,
+              37.60703479952292
             ],
             [
-              21.5,
-              38.0
+              21.61914789933377,
+              37.5822884050624
             ],
             [
-              22.0,
-              38.0
+              21.64484607819668,
+              37.5646803936192
             ],
             [
-              22.0,
-              37.5
+              21.665309442846933,
+              37.54945184318183
             ],
             [
-              21.5,
-              37.5
+              21.692435298313285,
+              37.52470544872125
+            ],
+            [
+              21.719561153779807,
+              37.50329029966878
+            ],
+            [
+              21.741452195033503,
+              37.48282693501858
+            ],
+            [
+              21.763819128488194,
+              37.462363570368495
+            ],
+            [
+              21.79142087615594,
+              37.42667165528104
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570754/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570754/batlas-map-label-location"
       }
     }
   ]

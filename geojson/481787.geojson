@@ -3,10 +3,10 @@
   "title": "Chaonia",
   "id": "481787",
   "bbox": [
-    19.0,
-    40.0,
-    20.0,
-    41.0
+    19.5079502915,
+    39.9646539584,
+    20.269477949,
+    40.3101516965
   ],
   "description": "A district of Epirus inhabited by the Chaonians, a Greek tribe.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          40.5
+          19.9345447418,
+          40.2184475866
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              40.0
+              19.507950291507996,
+              40.304356717477845
             ],
             [
-              19.0,
-              41.0
+              19.712684073660114,
+              40.31015169646889
             ],
             [
-              20.0,
-              41.0
+              19.85830708721693,
+              40.28873654741642
             ],
             [
-              20.0,
-              40.0
+              19.973948892100225,
+              40.25589998553602
             ],
             [
-              19.0,
-              40.0
+              20.078169284155763,
+              40.208786657620635
+            ],
+            [
+              20.149553114330672,
+              40.16024565310158
+            ],
+            [
+              20.210943208281037,
+              40.083151116512795
+            ],
+            [
+              20.269477949024406,
+              39.9646539584225
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481787/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481787/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Melcumani",
   "id": "197375",
   "bbox": [
-    18.0,
-    43.0,
-    19.0,
-    44.0
+    18.4197321767,
+    43.0821701902,
+    18.7522618523,
+    43.2582503047
   ],
   "description": "An ancient place, cited: BAtlas 20 F6 Melcumani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          43.5
+          18.579453048,
+          43.1586080015
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              43.0
+              18.4197321766909,
+              43.25825030468076
             ],
             [
-              18.0,
-              44.0
+              18.47386491457354,
+              43.21363541082144
             ],
             [
-              19.0,
-              44.0
+              18.500038985637673,
+              43.192815127020424
             ],
             [
-              19.0,
-              43.0
+              18.536920631228043,
+              43.172589708470866
             ],
             [
-              18.0,
-              43.0
+              18.56904335480675,
+              43.155933481430054
+            ],
+            [
+              18.613063383414612,
+              43.13689779338341
+            ],
+            [
+              18.652324490010812,
+              43.119051835839684
+            ],
+            [
+              18.6945599228643,
+              43.10239560879887
+            ],
+            [
+              18.752261852255685,
+              43.082170190249315
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197375/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197375/batlas-map-label-location"
       }
     }
   ]

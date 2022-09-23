@@ -3,10 +3,10 @@
   "title": "Marrucini",
   "id": "413190",
   "bbox": [
-    13.934227,
-    42.244249,
-    14.167152,
-    42.351795
+    13.9776471285,
+    42.2010533677,
+    14.2274905341,
+    42.388792841
   ],
   "description": "The Marrucini were an Italic tribe centered around Teate in the Abruzzo. In conflict with Rome through the end of the Second Samnite War, the Marrucini became allied with Rome thereafter. Their language was likely in the Sabellic family.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.0506895,
-          42.298022
+          14.1077885004,
+          42.287881249
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              42.0
+              13.977647128515969,
+              42.201053367686086
             ],
             [
-              14.0,
-              42.5
+              14.029043486242017,
+              42.228179223152665
             ],
             [
-              14.5,
-              42.5
+              14.060452371518807,
+              42.2481666956017
             ],
             [
-              14.5,
-              42.0
+              14.087578226985329,
+              42.26815416805056
             ],
             [
-              14.0,
-              42.0
+              14.12112862716748,
+              42.29385234691347
+            ],
+            [
+              14.151823674142747,
+              42.31669517256955
+            ],
+            [
+              14.174666499798661,
+              42.33739648332033
+            ],
+            [
+              14.195367810549442,
+              42.3566701174675
+            ],
+            [
+              14.227490534128151,
+              42.38879284104621
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413190/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413190/batlas-map-label-location"
       }
     }
   ]

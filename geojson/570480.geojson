@@ -3,10 +3,10 @@
   "title": "Messenia",
   "id": "570480",
   "bbox": [
-    21.914167,
-    37.00222,
-    22.0506864,
-    37.1790449
+    21.6288213998,
+    37.0566089567,
+    22.1683641828,
+    37.1422695529
   ],
   "description": "Messenia was the southwestern district of the Peloponnesus. It was bounded on the east by Laconia, on the north by Elis and Arcadia, and on the south and west by the sea.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.9809211,
-          37.0557778
+          21.8958551234,
+          37.1171930115
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.0
+              21.62882139976449,
+              37.056608956675404
             ],
             [
-              21.5,
-              37.5
+              21.725784435752075,
+              37.088731680254114
             ],
             [
-              22.0,
-              37.5
+              21.79300420916678,
+              37.10657763779784
             ],
             [
-              22.0,
-              37.0
+              21.858439386827115,
+              37.12085440383282
             ],
             [
-              21.5,
-              37.0
+              21.932202678007855,
+              37.13453630461652
+            ],
+            [
+              22.00477623868568,
+              37.142269552885296
+            ],
+            [
+              22.07556520360913,
+              37.142269552885296
+            ],
+            [
+              22.168364182836513,
+              37.13572603511943
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570480/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570480/batlas-map-label-location"
       }
     }
   ]

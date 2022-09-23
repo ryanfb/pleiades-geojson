@@ -3,10 +3,10 @@
   "title": "Turoni",
   "id": "138629",
   "bbox": [
-    0.0,
-    46.0,
-    1.0,
-    47.0
+    0.0897137717798,
+    46.8602938045,
+    0.560847050934,
+    47.1868748275
   ],
   "description": "An ancient people who lived in western France just south of Caesarodunum, modern Tours.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          46.5
+          0.32017543498,
+          47.0306177946
         ]
       },
       "properties": {
@@ -30,39 +30,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              46.0
+              0.089713771779827,
+              46.860293804453136
             ],
             [
-              0.0,
-              47.0
+              0.198574112796564,
+              46.95309278368052
             ],
             [
-              1.0,
-              47.0
+              0.28066551749771,
+              47.010199847820445
             ],
             [
-              1.0,
-              46.0
+              0.366326113707601,
+              47.065522316206
             ],
             [
-              0.0,
-              46.0
+              0.455555901426237,
+              47.120844784591554
+            ],
+            [
+              0.560847050934228,
+              47.186874827503345
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138629/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138629/batlas-map-label-location"
       }
     }
   ]

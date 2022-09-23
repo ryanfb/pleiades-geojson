@@ -3,10 +3,10 @@
   "title": "Vaccaei",
   "id": "236706",
   "bbox": [
-    -8.6759486,
-    41.0244882,
-    -2.3586413,
-    42.012482
+    -4.87643568937,
+    41.78932092,
+    -4.3969742967,
+    41.8006233598
   ],
   "description": "The Vaccaei were a Celtic tribe of the Durius river valley.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.01960831065,
-          41.818862765
+          -4.636712322,
+          41.7945172935
         ]
       },
       "properties": {
@@ -32,39 +32,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              41.0
+              -4.876435689373693,
+              41.80062335976265
             ],
             [
-              -5.0,
-              42.0
+              -4.781852114391938,
+              41.797649033505365
             ],
             [
-              -4.0,
-              42.0
+              -4.705114496953911,
+              41.79645930300245
             ],
             [
-              -4.0,
-              41.0
+              -4.631351205773171,
+              41.79407984199662
             ],
             [
-              -5.0,
-              41.0
+              -4.56294170185555,
+              41.79170038099079
+            ],
+            [
+              -4.487988680171895,
+              41.79170038099079
+            ],
+            [
+              -4.396974296698886,
+              41.78932091998496
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236706/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236706/batlas-map-label-location"
       }
     }
   ]

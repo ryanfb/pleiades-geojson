@@ -3,10 +3,10 @@
   "title": "Brigianii",
   "id": "167692",
   "bbox": [
-    6.5,
-    44.5,
-    7.0,
-    45.0
+    6.50661836344,
+    44.7589482679,
+    6.68983686089,
+    44.886844297
   ],
   "description": "An ancient place, cited: BAtlas 17 H4 Brigianii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          44.75
+          6.59399425638,
+          44.8167395146
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              44.5
+              6.506618363436075,
+              44.88684429699941
             ],
             [
-              6.5,
-              45.0
+              6.534577030254582,
+              44.86007536068382
             ],
             [
-              7.0,
-              45.0
+              6.554207583552682,
+              44.84282426839155
             ],
             [
-              7.0,
-              44.5
+              6.571458675844951,
+              44.82914236760803
             ],
             [
-              6.5,
-              44.5
+              6.591089229143051,
+              44.813081005818674
+            ],
+            [
+              6.610124917189694,
+              44.79999397028661
+            ],
+            [
+              6.635109257750912,
+              44.78631206950308
+            ],
+            [
+              6.658903867809215,
+              44.773225033971016
+            ],
+            [
+              6.689836860885009,
+              44.758948267936034
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167692/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167692/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Samnium (region)",
   "id": "433078",
   "bbox": [
-    12.5192484,
-    41.3459814,
-    14.9969199,
-    43.1057353
+    14.3655257337,
+    41.5800296163,
+    14.8753252542,
+    41.5883577299
   ],
   "description": "Samnium is the Latin name for a region of south and central Italy inhabited by the Samnites. The geographic limits of this region prior to sustained Roman contact are poorly defined. With the Augustan reorganization of Italy, the pre-Roman Samnium is subdivided among three of the Augustan regions.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.038505987,
-          42.1979655711
+          14.6204022744,
+          41.5834146594
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              41.5
+              14.365525733719778,
+              41.58835772985367
             ],
             [
-              14.0,
-              42.0
+              14.469627152724854,
+              41.58359880784201
             ],
             [
-              14.5,
-              42.0
+              14.542200713402679,
+              41.58359880784201
             ],
             [
-              14.5,
-              41.5
+              14.624292118103824,
+              41.58300394259038
             ],
             [
-              14.0,
-              41.5
+              14.689727295764158,
+              41.584788538344924
+            ],
+            [
+              14.756947069178864,
+              41.581814212087465
+            ],
+            [
+              14.875325254218922,
+              41.58002961633326
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433078/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433078/batlas-map-label-location"
       }
     }
   ]

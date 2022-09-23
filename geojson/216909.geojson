@@ -3,10 +3,10 @@
   "title": "Oitensioi?",
   "id": "216909",
   "bbox": [
-    24.0,
-    43.0,
-    25.0,
-    44.0
+    24.3792300762,
+    43.3538838168,
+    24.5779150702,
+    43.5989683004
   ],
   "description": "An ancient place, cited: BAtlas 22 B5 Oitensioi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.5,
-          43.5
+          24.4654382766,
+          43.4869909024
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              43.0
+              24.37923007624289,
+              43.35388381683117
             ],
             [
-              24.0,
-              44.0
+              24.398265764289533,
+              43.40147303694778
             ],
             [
-              25.0,
-              44.0
+              24.41611172183326,
+              43.431216299520656
             ],
             [
-              25.0,
-              43.0
+              24.435147409879903,
+              43.45858010108793
             ],
             [
-              24.0,
-              43.0
+              24.45299336742363,
+              43.48594390265498
+            ],
+            [
+              24.473218785973188,
+              43.50854878221037
+            ],
+            [
+              24.49225447401983,
+              43.528774200759926
+            ],
+            [
+              24.51485935357522,
+              43.55256881081823
+            ],
+            [
+              24.542223155142267,
+              43.5739839598707
+            ],
+            [
+              24.57791507022972,
+              43.59896830043192
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216909/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216909/batlas-map-label-location"
       }
     }
   ]

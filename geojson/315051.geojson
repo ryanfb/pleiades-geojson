@@ -3,10 +3,10 @@
   "title": "Kerophaioi?",
   "id": "315051",
   "bbox": [
-    9.5,
-    36.0,
-    10.0,
-    36.5
+    9.51237774577,
+    36.4773053759,
+    9.70440251874,
+    36.4798070845
   ],
   "description": "An ancient place, cited: BAtlas 32 E4 Kerophaioi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          36.25
+          9.60840143267,
+          36.4785712743
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              36.0
+              9.512377745769827,
+              36.47872137381841
             ],
             [
-              9.5,
-              36.5
+              9.542654046794649,
+              36.47796713667557
             ],
             [
-              10.0,
-              36.5
+              9.560109583607105,
+              36.47902934214643
             ],
             [
-              10.0,
-              36.0
+              9.578585794860386,
+              36.47901933810121
             ],
             [
-              9.5,
-              36.0
+              9.597495760029755,
+              36.477998200427976
+            ],
+            [
+              9.617296673221471,
+              36.478805937104475
+            ],
+            [
+              9.636129644312817,
+              36.477305375896705
+            ],
+            [
+              9.649330354886258,
+              36.477840001416176
+            ],
+            [
+              9.66737340895186,
+              36.47882489220597
+            ],
+            [
+              9.685416914050117,
+              36.479807084507485
+            ],
+            [
+              9.704402518740201,
+              36.47924251800987
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315051/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/315051/batlas-map-label-location"
       }
     }
   ]

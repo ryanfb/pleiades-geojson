@@ -3,10 +3,10 @@
   "title": "Thyamon (mountain)",
   "id": "531122",
   "bbox": [
-    21.0,
-    39.0,
-    21.5,
-    39.5
+    21.2609993502,
+    38.9179429421,
+    21.2996655915,
+    39.0321570704
   ],
   "description": "Makrynoros.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.25
+          21.2844104011,
+          38.9764074806
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.0
+              21.260999350153895,
+              39.03215707042676
             ],
             [
-              21.0,
-              39.5
+              21.26754286791993,
+              39.02144949590053
             ],
             [
-              21.5,
-              39.5
+              21.26992232892576,
+              39.01490597813449
             ],
             [
-              21.5,
-              39.0
+              21.272896655183047,
+              39.00836246036846
             ],
             [
-              21.0,
-              39.0
+              21.277655577194707,
+              39.00122407735097
+            ],
+            [
+              21.27944017294908,
+              38.99408569433348
+            ],
+            [
+              21.283604229709283,
+              38.985162715561614
+            ],
+            [
+              21.290147747475316,
+              38.96969621902372
+            ],
+            [
+              21.293716938984062,
+              38.94709133946833
+            ],
+            [
+              21.297286130492807,
+              38.93876322594792
+            ],
+            [
+              21.297880995744265,
+              38.93043511242752
+            ],
+            [
+              21.299665591498638,
+              38.91794294214691
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/531122/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/531122/batlas-map-label-location"
       }
     }
   ]

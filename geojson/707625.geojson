@@ -3,10 +3,10 @@
   "title": "Stiria (island)",
   "id": "707625",
   "bbox": [
-    32.0,
-    35.0,
-    32.5,
-    35.5
+    32.3343684378,
+    35.0711942219,
+    32.3681567841,
+    35.0716701141
   ],
   "description": "An ancient place, cited: BAtlas 72 A2 Stiria Ins.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          35.25
+          32.3512572645,
+          35.0713685726
         ]
       },
       "properties": {
@@ -28,39 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              35.0
+              32.33436843784432,
+              35.071670114081826
             ],
             [
-              32.0,
-              35.5
+              32.34388628186764,
+              35.07119422188066
             ],
             [
-              32.5,
-              35.5
+              32.35007288048274,
+              35.071670114081826
             ],
             [
-              32.5,
-              35.0
+              32.35911483230501,
+              35.07119422188066
             ],
             [
-              32.0,
-              35.0
+              32.36815678412711,
+              35.07119422188066
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707625/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/707625/batlas-map-label-location"
       }
     }
   ]

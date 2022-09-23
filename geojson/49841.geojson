@@ -3,10 +3,10 @@
   "title": "Aigidioi",
   "id": "49841",
   "bbox": [
-    70.0,
-    15.0,
-    75.0,
-    20.0
+    73.6509841941,
+    15.2238864835,
+    74.0495439126,
+    15.9139301752
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Goa region.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.5,
-          17.5
+          73.8474976009,
+          15.5673581232
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              70.0,
-              15.0
+              73.65098419410089,
+              15.913930175204541
             ],
             [
-              70.0,
-              20.0
+              73.72831667679037,
+              15.783059819883874
             ],
             [
-              75.0,
-              20.0
+              73.76400859187783,
+              15.687881379650662
             ],
             [
-              75.0,
-              15.0
+              73.82944376953816,
+              15.610548896961177
             ],
             [
-              70.0,
-              15.0
+              73.87703298965477,
+              15.52131910924254
+            ],
+            [
+              73.93651951480052,
+              15.420192016494752
+            ],
+            [
+              73.9662627773734,
+              15.342859533805267
+            ],
+            [
+              74.04954391257746,
+              15.223886483513752
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49841/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49841/batlas-map-label-location"
       }
     }
   ]

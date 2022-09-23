@@ -3,10 +3,10 @@
   "title": "Nasoi",
   "id": "570500",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.2157132757,
+    37.7520312217,
+    22.2349869098,
+    37.7880800559
   ],
   "description": "An ancient place, cited: BAtlas 58 C2 Nasoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.2243586408,
+          37.7706251329
         ]
       },
       "properties": {
@@ -29,39 +29,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.215713275680002,
+              37.75203122168165
             ],
             [
-              22.0,
-              38.0
+              22.22071014379219,
+              37.76380955366034
             ],
             [
-              22.5,
-              38.0
+              22.223565496999242,
+              37.77059101752707
             ],
             [
-              22.5,
-              37.5
+              22.227134688507988,
+              37.77772940054456
             ],
             [
-              22.0,
-              37.5
+              22.23498690982717,
+              37.78808005591986
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570500/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570500/batlas-map-label-location"
       }
     }
   ]

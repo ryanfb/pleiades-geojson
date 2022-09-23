@@ -3,10 +3,10 @@
   "title": "Laureion",
   "id": "580010",
   "bbox": [
-    24.010352,
-    37.698467,
-    24.039891,
-    37.712252
+    23.9729618355,
+    37.6942545804,
+    24.0050845591,
+    37.7563585126
   ],
   "description": "A mining region of Attika famous in antiquity for its silver mines. These mines were one of the chief sources of revenue for the Athenian state.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.0251215,
-          37.7053595
+          23.9871130055,
+          37.7242978144
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.75,
-              37.75
+              23.972961835537262,
+              37.756358512639395
             ],
             [
-              23.75,
-              38.0
+              23.97688794619677,
+              37.743866342358785
             ],
             [
-              24.0,
-              38.0
+              23.981527895158194,
+              37.734586444435934
             ],
             [
-              24.0,
-              37.75
+              23.98438324836519,
+              37.72780498056943
             ],
             [
-              23.75,
-              37.75
+              23.988309359024754,
+              37.72030967840095
+            ],
+            [
+              23.99116471223175,
+              37.71317129538346
+            ],
+            [
+              23.995090822891427,
+              37.70781750812034
+            ],
+            [
+              24.00508455911597,
+              37.69425458038728
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/580010/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/580010/batlas-map-label-location"
       }
     }
   ]

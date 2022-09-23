@@ -3,10 +3,10 @@
   "title": "Calabria",
   "id": "442518",
   "bbox": [
-    17.5,
-    40.5,
-    18.0,
-    41.0
+    17.5388462773,
+    40.1947491825,
+    18.2079507122,
+    40.6734967368
   ],
   "description": "Ancient Calabria comprised the southern part of Apulia and the Salento peninsula.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.75,
-          40.75
+          17.882970174,
+          40.4474699056
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.5,
-              40.5
+              17.53884627733254,
+              40.67349673682372
             ],
             [
-              17.5,
-              41.0
+              17.67019252485437,
+              40.59640220023476
             ],
             [
-              18.0,
-              41.0
+              17.764419180685366,
+              40.54119870489944
             ],
             [
-              18.0,
-              40.5
+              17.860549405320796,
+              40.47267022793159
             ],
             [
-              17.5,
-              40.5
+              17.95001713914013,
+              40.41080424178
+            ],
+            [
+              18.033774166545243,
+              40.343227549214305
+            ],
+            [
+              18.118482978352915,
+              40.27469907224645
+            ],
+            [
+              18.20795071217202,
+              40.19474918245061
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442518/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442518/batlas-map-label-location"
       }
     }
   ]

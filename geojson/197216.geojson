@@ -3,10 +3,10 @@
   "title": "Colapiani",
   "id": "197216",
   "bbox": [
-    15.0,
-    45.0,
-    16.0,
-    46.0
+    15.2408734,
+    45.5466493378,
+    16.2521443275,
+    45.5573569123
   ],
   "description": "An ancient place, cited: BAtlas 20 C4 Colapiani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5,
-          45.5
+          15.7464904328,
+          45.5522220833
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.0,
-              45.0
+              15.240873399994484,
+              45.54664933781788
             ],
             [
-              15.0,
-              46.0
+              15.40148701788803,
+              45.55259799033246
             ],
             [
-              16.0,
-              46.0
+              15.518080607173715,
+              45.55140825982954
             ],
             [
-              16.0,
-              45.0
+              15.63943311847106,
+              45.55140825982954
             ],
             [
-              15.0,
-              45.0
+              15.753647246750916,
+              45.55259799033246
+            ],
+            [
+              15.861912722516195,
+              45.55259799033246
+            ],
+            [
+              15.970178198281474,
+              45.55259799033246
+            ],
+            [
+              16.092720440081735,
+              45.55259799033246
+            ],
+            [
+              16.252144327472365,
+              45.55735691234412
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197216/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197216/batlas-map-label-location"
       }
     }
   ]

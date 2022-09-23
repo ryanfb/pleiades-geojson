@@ -3,12 +3,12 @@
   "title": "Trachones",
   "id": "678435",
   "bbox": [
-    36.0,
-    32.5,
-    36.5,
-    33.0
+    36.3239621257,
+    32.7878941754,
+    37.2126908113,
+    33.1555209008
   ],
-  "description": "An ancient place, cited: BAtlas 69 D4 Trachones",
+  "description": "Trachones, hills located near Damascus mentioned in the text of Strabo.",
   "names": [
     "Trachones"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          32.75
+          36.7819908016,
+          32.9324605973
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              32.5
+              36.323962125657886,
+              32.787894175390534
             ],
             [
-              36.0,
-              33.0
+              36.464350325001874,
+              32.79860174991677
             ],
             [
-              36.5,
-              33.0
+              36.57142607026424,
+              32.82001689896924
             ],
             [
-              36.5,
-              32.5
+              36.6785018155266,
+              32.86760611908585
             ],
             [
-              36.0,
-              32.5
+              36.78914675229771,
+              32.915195339202455
+            ],
+            [
+              36.89265330605133,
+              32.96635375082781
+            ],
+            [
+              36.99853932081078,
+              33.025840275973565
+            ],
+            [
+              37.097286952552736,
+              33.08651653162224
+            ],
+            [
+              37.212690811335506,
+              33.155520900791316
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678435/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678435/batlas-map-label-location"
       }
     }
   ]

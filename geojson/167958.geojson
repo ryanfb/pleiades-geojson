@@ -3,10 +3,10 @@
   "title": "Vellavi",
   "id": "167958",
   "bbox": [
-    3.5,
-    44.5,
-    4.0,
-    45.0
+    3.867862396,
+    44.8697654402,
+    4.15994123447,
+    45.1279369593
   ],
   "description": "An ancient place, cited: BAtlas 17 B4 Vellavi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.75,
-          44.75
+          4.02031920294,
+          44.9919099214
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.5,
-              44.5
+              3.867862395999737,
+              44.869765440180856
             ],
             [
-              3.5,
-              45.0
+              3.929728382151325,
+              44.916759795046005
             ],
             [
-              4.0,
-              45.0
+              3.981481659028134,
+              44.953641440636375
             ],
             [
-              4.0,
-              44.5
+              4.026096552887452,
+              44.98933335572383
             ],
             [
-              3.5,
-              44.5
+              4.071901177249686,
+              45.029784192822945
+            ],
+            [
+              4.111757149097343,
+              45.07023502992206
+            ],
+            [
+              4.159941234465407,
+              45.127936959313445
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167958/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167958/batlas-map-label-location"
       }
     }
   ]

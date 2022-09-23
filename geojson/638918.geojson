@@ -3,10 +3,10 @@
   "title": "Kibyratis",
   "id": "638918",
   "bbox": [
-    29.5,
-    36.5,
-    30.0,
-    37.0
+    29.5039699055,
+    36.8341485218,
+    29.5801126577,
+    37.1805980443
   ],
   "description": "An ancient place, cited: BAtlas 65 C4 Kibyratis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.75,
-          36.75
+          29.5599356158,
+          37.003030682
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.5,
-              36.5
+              29.503969905525025,
+              36.8341485218167
             ],
             [
-              29.5,
-              37.0
+              29.534427006399596,
+              36.888400232749575
             ],
             [
-              30.0,
-              37.0
+              29.550607341239186,
+              36.9217126868312
             ],
             [
-              30.0,
-              36.5
+              29.56202875406717,
+              36.963591200533756
             ],
             [
-              29.5,
-              36.5
+              29.57249838249288,
+              37.004517929834094
+            ],
+            [
+              29.57916087330915,
+              37.0521071499507
+            ],
+            [
+              29.580112657711595,
+              37.09208209484859
+            ],
+            [
+              29.57820908890693,
+              37.131105255344266
+            ],
+            [
+              29.570594813688274,
+              37.18059804426554
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/638918/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/638918/batlas-map-label-location"
       }
     }
   ]

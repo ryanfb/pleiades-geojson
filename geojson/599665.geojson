@@ -3,10 +3,10 @@
   "title": "Idrias",
   "id": "599665",
   "bbox": [
-    28.0,
-    37.0,
-    28.5,
-    37.5
+    28.0576754856,
+    37.2776457414,
+    28.2018708226,
+    37.4054227974
   ],
   "description": "An ancient place, cited: BAtlas 61 G3 Idrias",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          37.25
+          28.1297731541,
+          37.3415342694
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              37.0
+              28.057675485620514,
+              37.40542279738247
             ],
             [
-              28.0,
-              37.5
-            ],
-            [
-              28.5,
-              37.5
-            ],
-            [
-              28.5,
-              37.0
-            ],
-            [
-              28.0,
-              37.0
+              28.201870822573827,
+              37.27764574136938
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599665/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599665/batlas-map-label-location"
       }
     }
   ]

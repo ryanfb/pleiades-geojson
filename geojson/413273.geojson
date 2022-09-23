@@ -3,10 +3,10 @@
   "title": "Praetuttii",
   "id": "413273",
   "bbox": [
-    13.663762,
-    42.661254,
-    13.962266,
-    43.1410756
+    13.733383559,
+    42.6782939301,
+    13.8694887285,
+    42.8876864986
   ],
   "description": "The Praetuttii were an ancient tribe of central Italy.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.783373825,
-          42.8209514
+          13.7981634384,
+          42.7808474034
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              42.5
+              13.733383558962373,
+              42.887686498601965
             ],
             [
-              13.5,
-              43.0
+              13.753371031411461,
+              42.8505669069109
             ],
             [
-              14.0,
-              43.0
+              13.765744228641609,
+              42.828675865657374
             ],
             [
-              14.0,
-              42.5
+              13.777165641469765,
+              42.80964017761073
             ],
             [
-              13.5,
-              42.5
+              13.792394191906965,
+              42.78584556755243
+            ],
+            [
+              13.807622742344336,
+              42.76395452629879
+            ],
+            [
+              13.823803077183925,
+              42.741111700642705
+            ],
+            [
+              13.83522449001191,
+              42.72207601259606
+            ],
+            [
+              13.849501256046892,
+              42.70399210895181
+            ],
+            [
+              13.869488728495924,
+              42.6782939300889
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/413273/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/413273/batlas-map-label-location"
       }
     }
   ]

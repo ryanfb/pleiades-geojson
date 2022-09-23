@@ -3,10 +3,10 @@
   "title": "Aneiritai?",
   "id": "716523",
   "bbox": [
-    23.0,
-    32.0,
-    24.0,
-    33.0
+    23.191408496,
+    32.1055034252,
+    23.5645079817,
+    32.1131177004
   ],
   "description": "An ancient place, cited: None",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.5,
-          32.5
+          23.3779430049,
+          32.1096853907
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.0,
-              32.0
+              23.191408495991595,
+              32.10550342515984
             ],
             [
-              23.0,
-              33.0
+              23.251370913338576,
+              32.108358778366835
             ],
             [
-              24.0,
-              33.0
+              23.29420121144352,
+              32.108358778366835
             ],
             [
-              24.0,
-              32.0
+              23.334176156341414,
+              32.10931056276905
             ],
             [
-              23.0,
-              32.0
+              23.379861807653413,
+              32.10931056276905
+            ],
+            [
+              23.408415339723376,
+              32.10931056276905
+            ],
+            [
+              23.443631362609608,
+              32.11121413157372
+            ],
+            [
+              23.482654523105282,
+              32.11121413157372
+            ],
+            [
+              23.52262946800323,
+              32.11216591597611
+            ],
+            [
+              23.564507981705788,
+              32.113117700378496
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/716523/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/716523/batlas-map-label-location"
       }
     }
   ]

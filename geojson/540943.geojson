@@ -3,10 +3,10 @@
   "title": "Mesochoros",
   "id": "540943",
   "bbox": [
-    24.0,
-    38.0,
-    24.5,
-    38.5
+    24.0173268259,
+    38.4228148808,
+    24.1461151528,
+    38.4959833067
   ],
   "description": "An ancient place, cited: BAtlas 55 G4 Mesochoros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          38.25
+          24.0790725616,
+          38.4548057461
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              38.0
+              24.017326825903297,
+              38.49598330670642
             ],
             [
-              24.0,
-              38.5
+              24.035172783447024,
+              38.480516810168524
             ],
             [
-              24.5,
-              38.5
+              24.047070088476175,
+              38.472783561899575
             ],
             [
-              24.5,
-              38.0
+              24.05539820199658,
+              38.46594261150784
             ],
             [
-              24.0,
-              38.0
+              24.06759293965149,
+              38.45731706536168
+            ],
+            [
+              24.08246457093793,
+              38.44958381709273
+            ],
+            [
+              24.09674133697291,
+              38.443635164578154
+            ],
+            [
+              24.10685404624769,
+              38.43768651206358
+            ],
+            [
+              24.123212840662745,
+              38.430845561671845
+            ],
+            [
+              24.14611515284389,
+              38.42281488077714
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540943/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540943/batlas-map-label-location"
       }
     }
   ]

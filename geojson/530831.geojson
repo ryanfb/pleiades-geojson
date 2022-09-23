@@ -3,10 +3,10 @@
   "title": "Chaunoi",
   "id": "530831",
   "bbox": [
-    20.0,
-    39.5,
-    20.5,
-    40.0
+    20.194941333,
+    39.5331545681,
+    20.3976714107,
+    39.5652772917
   ],
   "description": "An ancient place, cited: BAtlas 54 B2 Chaunoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.25,
-          39.75
+          20.2967800179,
+          39.5522172634
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              39.5
+              20.194941333016743,
+              39.56527729166709
             ],
             [
-              20.0,
-              40.0
+              20.2391993077253,
+              39.56099426185665
             ],
             [
-              20.5,
-              40.0
+              20.26918051639865,
+              39.558138908649596
             ],
             [
-              20.5,
-              39.5
+              20.300589401675666,
+              39.55456971714085
             ],
             [
-              20.0,
-              39.5
+              20.331998286952683,
+              39.54743133412336
+            ],
+            [
+              20.36197949562603,
+              39.54100678940779
+            ],
+            [
+              20.397671410713485,
+              39.53315456808838
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530831/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530831/batlas-map-label-location"
       }
     }
   ]

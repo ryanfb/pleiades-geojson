@@ -3,10 +3,10 @@
   "title": "Magaba/Mordiacus M.",
   "id": "619201",
   "bbox": [
-    33.0,
-    39.5,
-    33.5,
-    40.0
+    33.0565174333,
+    39.8380879706,
+    33.1969056326,
+    39.8719952899
   ],
   "description": "An ancient place, cited: BAtlas 63 C1 Magaba/Mordiacus M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.25,
-          39.75
+          33.1272462651,
+          39.8531286848
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              39.5
+              33.056517433275076,
+              39.838087970572474
             ],
             [
-              33.0,
-              40.0
+              33.081501773836294,
+              39.84344175783559
             ],
             [
-              33.5,
-              40.0
+              33.117788554175206,
+              39.849985275601625
             ],
             [
-              33.5,
-              39.5
+              33.15110100825683,
+              39.857718523870574
             ],
             [
-              33.0,
-              39.5
+              33.17549048356659,
+              39.86366717638515
+            ],
+            [
+              33.196905632619064,
+              39.871995289905556
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619201/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619201/batlas-map-label-location"
       }
     }
   ]

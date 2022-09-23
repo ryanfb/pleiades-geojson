@@ -3,10 +3,10 @@
   "title": "Sapothrenai",
   "id": "834298",
   "bbox": [
-    45.0,
-    46.0,
-    46.0,
-    47.0
+    45.470612215,
+    46.263550219,
+    45.9756528134,
+    46.2677142758
   ],
   "description": "An ancient place, cited: BAtlas 85 C1 Sapothrenai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.5,
-          46.5
+          45.7231162761,
+          46.2656473041
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              45.0,
-              46.0
+              45.47061221495363,
+              46.26355021902367
             ],
             [
-              45.0,
-              47.0
+              45.543780640882915,
+              46.26355021902367
             ],
             [
-              46.0,
-              47.0
+              45.58839553474223,
+              46.2659296800295
             ],
             [
-              46.0,
-              46.0
+              45.63301042860155,
+              46.264739949526586
             ],
             [
-              45.0,
-              46.0
+              45.67703045720941,
+              46.2659296800295
+            ],
+            [
+              45.72224021632019,
+              46.26652454528096
+            ],
+            [
+              45.76863970593388,
+              46.26652454528096
+            ],
+            [
+              45.81206486929028,
+              46.267714275783874
+            ],
+            [
+              45.86203355041272,
+              46.2659296800295
+            ],
+            [
+              45.90605357902058,
+              46.2659296800295
+            ],
+            [
+              45.975652813441116,
+              46.2659296800295
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/834298/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/834298/batlas-map-label-location"
       }
     }
   ]
