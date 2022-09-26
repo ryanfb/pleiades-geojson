@@ -3,10 +3,10 @@
   "title": "Termetis (mountain)",
   "id": "550914",
   "bbox": [
-    27.0,
-    38.0,
-    27.5,
-    38.5
+    27.0068644787,
+    38.3446117617,
+    27.0485050463,
+    38.3862523293
   ],
   "description": "A mountain southwest of Smyrna.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          38.25
+          27.0281815498,
+          38.365994621
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              38.0
+              27.006864478675936,
+              38.386252329319746
             ],
             [
-              27.0,
-              38.5
+              27.014002861693427,
+              38.381493407308085
             ],
             [
-              27.5,
-              38.5
+              27.016977187950715,
+              38.37762678317364
             ],
             [
-              27.5,
-              38.0
+              27.02054637945946,
+              38.373462726413436
             ],
             [
-              27.0,
-              38.0
+              27.026792464599907,
+              38.36810893915032
+            ],
+            [
+              27.030064223482782,
+              38.364242315015815
+            ],
+            [
+              27.032741117114483,
+              38.361565421384284
+            ],
+            [
+              27.03571544337177,
+              38.359483393004155
+            ],
+            [
+              27.041664095886347,
+              38.35115527948375
+            ],
+            [
+              27.048505046277967,
+              38.344611761717715
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550914/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550914/batlas-map-label-location"
       }
     }
   ]

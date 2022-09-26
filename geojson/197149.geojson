@@ -3,10 +3,10 @@
   "title": "Aureus (mountain)",
   "id": "197149",
   "bbox": [
-    18.0,
-    45.0,
-    19.0,
-    46.0
+    18.6278646223,
+    45.7631158456,
+    18.7932371622,
+    45.8151665551
   ],
   "description": "A mountain, probably Baranjska Greda.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          45.5
+          18.7104365425,
+          45.7895116516
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              45.0
+              18.627864622312984,
+              45.7631158456129
             ],
             [
-              18.0,
-              46.0
+              18.65612072175719,
+              45.77263368963622
             ],
             [
-              19.0,
-              46.0
+              18.667423161534884,
+              45.776797746396426
             ],
             [
-              19.0,
-              45.0
+              18.68110506231841,
+              45.78036693790517
             ],
             [
-              18.0,
-              45.0
+              18.694489530476233,
+              45.784233562039674
+            ],
+            [
+              18.710550892265587,
+              45.78869505142558
+            ],
+            [
+              18.73196604131806,
+              45.796130867068825
+            ],
+            [
+              18.74921713361033,
+              45.80267438483486
+            ],
+            [
+              18.768252821656972,
+              45.80773073947222
+            ],
+            [
+              18.79323716221819,
+              45.81516655511547
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197149/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197149/batlas-map-label-location"
       }
     }
   ]

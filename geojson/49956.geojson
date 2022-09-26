@@ -3,10 +3,10 @@
   "title": "Dachinabades",
   "id": "49956",
   "bbox": [
-    75.0,
-    20.0,
-    80.0,
-    25.0
+    75.9194830017,
+    17.2933830357,
+    80.6212979492,
+    20.9291994526
   ],
   "description": "An ancient place, cited: BAtlas 5 D2 Dachinabades",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          22.5
+          78.3146654834,
+          19.1675586834
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              20.0
+              75.91948300169253,
+              20.92919945255983
             ],
             [
-              75.0,
-              25.0
+              76.47151795504516,
+              20.5580035356503
             ],
             [
-              80.0,
-              25.0
+              76.90933878011793,
+              20.23439683885738
             ],
             [
-              80.0,
-              20.0
+              77.35667744921403,
+              19.9298258301111
             ],
             [
-              75.0,
-              20.0
+              77.73739121014671,
+              19.672844041481426
+            ],
+            [
+              78.11810497107956,
+              19.349237344688504
+            ],
+            [
+              78.5368901081057,
+              19.025630647895582
+            ],
+            [
+              78.96519308915515,
+              18.721059639149303
+            ],
+            [
+              79.33638900606468,
+              18.38793509833306
+            ],
+            [
+              79.73613845504417,
+              18.054810557516817
+            ],
+            [
+              80.13588790402366,
+              17.750239548770537
+            ],
+            [
+              80.62129794921304,
+              17.293383035651118
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49956/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49956/batlas-map-label-location"
       }
     }
   ]

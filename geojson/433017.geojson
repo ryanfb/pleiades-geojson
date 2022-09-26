@@ -3,10 +3,10 @@
   "title": "Pentri",
   "id": "433017",
   "bbox": [
-    14.2616772,
-    41.433333,
-    14.675129,
-    41.785598
+    14.137989775,
+    41.6888899573,
+    14.4669502591,
+    41.7216075462
   ],
   "description": "The Pentri were a major tribe of Oscan-speaking Samnites; their chief center was Bovianum Undecumanorum.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5090335328,
-          41.6316071201
+          14.3026051476,
+          41.7064188876
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              41.5
+              14.137989775037227,
+              41.72160754618017
             ],
             [
-              14.0,
-              42.0
+              14.22305550599566,
+              41.71327943265976
             ],
             [
-              14.5,
-              42.0
+              14.281352300638503,
+              41.70792564539647
             ],
             [
-              14.5,
-              41.5
+              14.342028556287175,
+              41.704951319139354
             ],
             [
-              14.0,
-              41.5
+              14.398540755175645,
+              41.69781293612186
+            ],
+            [
+              14.466950259093267,
+              41.68888995734983
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433017/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433017/batlas-map-label-location"
       }
     }
   ]

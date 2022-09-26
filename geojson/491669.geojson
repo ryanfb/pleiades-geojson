@@ -3,10 +3,10 @@
   "title": "Mygdonia",
   "id": "491669",
   "bbox": [
-    23.0,
-    40.5,
-    23.5,
-    41.0
+    22.9829944598,
+    40.575377326,
+    23.5457369877,
+    40.6443816952
   ],
   "description": "Mygdonia was a region of ancient Macedonia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.25,
-          40.75
+          23.2622742568,
+          40.5951234026
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.0,
-              40.5
+              22.982994459789495,
+              40.644381695210825
             ],
             [
-              23.0,
-              41.0
+              23.079362630525623,
+              40.61582816314086
             ],
             [
-              23.5,
-              41.0
+              23.153125921706362,
+              40.600361666602964
             ],
             [
-              23.5,
-              40.5
+              23.232476098027746,
+              40.59045149335043
             ],
             [
-              23.0,
-              40.5
+              23.30504965870557,
+              40.58331311033294
+            ],
+            [
+              23.373226064745666,
+              40.58013624805341
+            ],
+            [
+              23.437471511903084,
+              40.575377326041746
+            ],
+            [
+              23.545736987668363,
+              40.58013624805341
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491669/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491669/batlas-map-label-location"
       }
     }
   ]

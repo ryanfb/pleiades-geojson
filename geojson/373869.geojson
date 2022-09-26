@@ -3,10 +3,10 @@
   "title": "Pentapolis",
   "id": "373869",
   "bbox": [
-    20.0,
-    32.0,
-    21.0,
-    33.0
+    20.436229705,
+    32.2258828212,
+    22.7562041857,
+    32.6303911922
   ],
   "description": "An ancient place, cited: BAtlas 38 B1 Pentapolis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          32.5
+          21.5889445179,
+          32.4715451959
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              32.0
+              20.436229704970913,
+              32.22588282119625
             ],
             [
-              20.0,
-              33.0
+              20.718790699413262,
+              32.30618963014285
             ],
             [
-              21.0,
-              33.0
+              20.968634105025444,
+              32.36567615528861
             ],
             [
-              21.0,
-              32.0
+              21.224426163152202,
+              32.41921402791979
             ],
             [
-              20.0,
-              32.0
+              21.46534658999252,
+              32.46977757429369
+            ],
+            [
+              21.70626701683284,
+              32.50844381563843
+            ],
+            [
+              21.953136096187734,
+              32.55305870949775
+            ],
+            [
+              22.19703084928534,
+              32.585776298327914
+            ],
+            [
+              22.44984858115481,
+              32.61551956090079
+            ],
+            [
+              22.756204185655463,
+              32.63039119218723
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373869/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373869/batlas-map-label-location"
       }
     }
   ]

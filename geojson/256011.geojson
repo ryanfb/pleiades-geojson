@@ -3,10 +3,10 @@
   "title": "Baeturia Celtica",
   "id": "256011",
   "bbox": [
-    -7.0,
-    38.0,
-    -6.0,
-    39.0
+    -7.04059640858,
+    38.0410824224,
+    -6.51235606529,
+    38.3009195643
   ],
   "description": "An ancient place, cited: BAtlas 26 D3 Baeturia Celtica",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          38.5
+          -6.77647623694,
+          38.1710009934
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              38.0
+              -7.040596408583242,
+              38.041082422438485
             ],
             [
-              -7.0,
-              39.0
-            ],
-            [
-              -6.0,
-              39.0
-            ],
-            [
-              -6.0,
-              38.0
-            ],
-            [
-              -7.0,
-              38.0
+              -6.51235606528892,
+              38.30091956427515
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256011/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256011/batlas-map-label-location"
       }
     }
   ]

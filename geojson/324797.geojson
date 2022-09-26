@@ -3,10 +3,10 @@
   "title": "Ouzalai?",
   "id": "324797",
   "bbox": [
-    9.5,
-    35.5,
-    10.0,
-    36.0
+    9.54123715953,
+    35.8944912677,
+    9.63266865692,
+    35.8954214023
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Djebel Ousselet, NW Kairouan.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          35.75
+          9.58696038058,
+          35.8949150901
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              35.5
+              9.541237159528606,
+              35.89485466202957
             ],
             [
-              9.5,
-              36.0
+              9.563798576671559,
+              35.89488370999028
             ],
             [
-              10.0,
-              36.0
+              9.574897456063772,
+              35.89491584056102
             ],
             [
-              10.0,
-              35.5
+              9.586043580089449,
+              35.8952428480421
             ],
             [
-              9.5,
-              35.5
+              9.595546056539328,
+              35.89453907612193
+            ],
+            [
+              9.607372205553428,
+              35.89449126773347
+            ],
+            [
+              9.618202109950884,
+              35.89514967819816
+            ],
+            [
+              9.632668656923352,
+              35.895421402273406
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324797/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324797/batlas-map-label-location"
       }
     }
   ]

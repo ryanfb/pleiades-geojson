@@ -3,10 +3,10 @@
   "title": "Makrones/Machelones",
   "id": "857224",
   "bbox": [
-    39.0,
-    40.0,
-    40.0,
-    41.0
+    39.8051296279,
+    40.7149590705,
+    40.2798320986,
+    40.7774199219
   ],
   "description": "Makrones/Machelones, an ancient tribe of Colchis.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          40.5
+          40.0424808633,
+          40.7461894962
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              40.0
+              39.80512962792082,
+              40.777419921905455
             ],
             [
-              39.0,
-              41.0
-            ],
-            [
-              40.0,
-              41.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
-              39.0,
-              40.0
+              40.27983209858396,
+              40.71495907050242
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid E4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857224/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857224/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Oxeia (mountain)",
   "id": "971834",
   "bbox": [
-    66.0,
-    38.0,
-    67.0,
-    39.0
+    66.5225136132,
+    37.9878853678,
+    67.8669090815,
+    38.8385426774
   ],
   "description": "A mountain, probably the modern Baisun range.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          66.5,
-          38.5
+          67.1809626154,
+          38.435566293
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              66.0,
-              38.0
+              66.52251361316121,
+              37.98788536784201
             ],
             [
-              66.0,
-              39.0
+              66.74261375620051,
+              38.16039629076471
             ],
             [
-              67.0,
-              39.0
+              66.8437408489483,
+              38.219882815910466
             ],
             [
-              67.0,
-              38.0
+              66.95676524672524,
+              38.29721529859995
             ],
             [
-              66.0,
-              38.0
+              67.06978964450218,
+              38.38049643380401
+            ],
+            [
+              67.17091673724997,
+              38.434034306435194
+            ],
+            [
+              67.36127361771639,
+              38.558956009241285
+            ],
+            [
+              67.50998993058079,
+              38.66603175450365
+            ],
+            [
+              67.68250085350348,
+              38.743364237193134
+            ],
+            [
+              67.86690908145533,
+              38.83854267742635
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/971834/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/971834/batlas-map-label-location"
       }
     }
   ]

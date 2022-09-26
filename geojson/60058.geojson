@@ -3,10 +3,10 @@
   "title": "Sogdiana",
   "id": "60058",
   "bbox": [
-    66.947223,
-    39.4841385,
-    67.6229969,
-    39.656498
+    64.9580180018,
+    38.8444913299,
+    68.6580798659,
+    39.0586428205
   ],
   "description": "Sogdiana was a wide region of the Achaemenid Empire lying between the Oxus (Araxes) and Iaxartes rivers.",
   "names": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.2834740424,
-          39.5715923799
+          66.8077372132,
+          38.9571055737
         ]
       },
       "properties": {
@@ -32,39 +32,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              35.0
+              64.95801800182778,
+              38.84449132994092
             ],
             [
-              65.0,
-              40.0
+              65.58262651585824,
+              38.88018324502838
             ],
             [
-              70.0,
-              40.0
+              66.11205658965548,
+              38.91587516011583
             ],
             [
-              70.0,
-              35.0
+              66.60579474836527,
+              38.951567075203286
             ],
             [
-              65.0,
-              35.0
+              67.04599503444388,
+              38.97536168526159
+            ],
+            [
+              67.49214397303706,
+              38.99915629531989
+            ],
+            [
+              68.00372808929058,
+              39.02889955789277
+            ],
+            [
+              68.65807986589391,
+              39.05864282046565
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60058/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/60058/batlas-map-label-location"
       }
     }
   ]

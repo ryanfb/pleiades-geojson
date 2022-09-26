@@ -3,10 +3,10 @@
   "title": "Parparos (mountain)",
   "id": "570563",
   "bbox": [
-    22.5,
-    37.0,
-    23.0,
-    37.5
+    22.6367085354,
+    37.45,
+    22.7253434579,
+    37.4643643005
   ],
   "description": "Zavitsa.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          37.25
+          22.6908828841,
+          37.4556707204
         ]
       },
       "properties": {
@@ -28,39 +28,88 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              37.0
+              22.636708535403613,
+              37.4581182153571
             ],
             [
-              22.5,
-              37.5
+              22.646226379426935,
+              37.46020024373723
             ],
             [
-              23.0,
-              37.5
+              22.653364762444426,
+              37.46079510898869
             ],
             [
-              23.0,
-              37.0
+              22.660503145461917,
+              37.46138997424015
             ],
             [
-              22.5,
-              37.0
+              22.66466720222212,
+              37.461984839491606
+            ],
+            [
+              22.67150815261408,
+              37.46406686787168
+            ],
+            [
+              22.6789439682571,
+              37.46436430049744
+            ],
+            [
+              22.686082351274592,
+              37.46436430049744
+            ],
+            [
+              22.69827708892967,
+              37.46376943524598
+            ],
+            [
+              22.710174393958823,
+              37.46109254161439
+            ],
+            [
+              22.7161230464734,
+              37.457523350105646
+            ],
+            [
+              22.725343457870792,
+              37.4536567259712
+            ],
+            [
+              22.725343457870792,
+              37.45335929334544
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570563/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570563/batlas-map-label-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7,
+          37.45
+        ]
+      },
+      "id": "geonames-location-of-zavitsa",
+      "type": "Feature",
+      "properties": {
+        "description": "coordinates after GeoNames.",
+        "location_precision": "precise",
+        "title": "Geonames location of Zavitsa",
+        "link": "http://pleiades.stoa.org/places/570563/geonames-location-of-zavitsa"
       }
     }
   ]

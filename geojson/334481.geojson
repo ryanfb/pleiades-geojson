@@ -3,10 +3,10 @@
   "title": "Aethiopia",
   "id": "334481",
   "bbox": [
-    3.0,
-    32.0,
-    4.0,
-    33.0
+    3.53800961417,
+    32.8827066921,
+    8.01144858616,
+    33.1908575638
   ],
   "description": "Aethiopia is a term used in the Classical sources to refer both to Upper Egypt and the regions south of the Sahara desert. It is employed as early as the time of Homer.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          32.5
+          5.77617050791,
+          33.0829803081
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              32.0
+              3.538009614170085,
+              32.89304297868782
             ],
             [
-              3.0,
-              33.0
+              4.226353965851437,
+              33.03489676956099
             ],
             [
-              4.0,
-              33.0
+              4.745901135966872,
+              33.12322964320078
             ],
             [
-              4.0,
-              32.0
+              5.297224210616054,
+              33.17471608898334
             ],
             [
-              3.0,
-              32.0
+              5.807222065555606,
+              33.19085756376562
+            ],
+            [
+              6.317580018545247,
+              33.168795864521066
+            ],
+            [
+              6.855121528184462,
+              33.124164326929446
+            ],
+            [
+              7.365068683358873,
+              33.03269739783918
+            ],
+            [
+              8.011448586160844,
+              32.88270669207575
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334481/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334481/batlas-map-label-location"
       }
     }
   ]

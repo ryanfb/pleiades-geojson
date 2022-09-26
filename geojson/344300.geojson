@@ -3,10 +3,10 @@
   "title": "Astakoures?",
   "id": "344300",
   "bbox": [
-    10.0,
-    32.0,
-    11.0,
-    33.0
+    10.847271028,
+    32.1663080577,
+    11.1820611915,
+    32.1705910875
   ],
   "description": "An ancient place, cited: BAtlas 35 C2 Astakoures?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.5,
-          32.5
+          11.0146583025,
+          32.1684540491
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              32.0
+              10.84727102800116,
+              32.16702189600653
             ],
             [
-              10.0,
-              33.0
+              10.895098194218463,
+              32.16630805770461
             ],
             [
-              11.0,
-              33.0
+              10.927220917797172,
+              32.16702189600653
             ],
             [
-              11.0,
-              32.0
+              10.95149142005647,
+              32.16844957260997
             ],
             [
-              10.0,
-              32.0
+              10.982900305333487,
+              32.16844957260997
+            ],
+            [
+              11.011453837403451,
+              32.16844957260997
+            ],
+            [
+              11.050001105697902,
+              32.169163410911665
+            ],
+            [
+              11.079982314371307,
+              32.169163410911665
+            ],
+            [
+              11.11496039115707,
+              32.169163410911665
+            ],
+            [
+              11.14065857001998,
+              32.16987724921336
+            ],
+            [
+              11.182061191521484,
+              32.17059108751528
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344300/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344300/batlas-map-label-location"
       }
     }
   ]

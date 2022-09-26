@@ -3,10 +3,10 @@
   "title": "Farodini",
   "id": "98955",
   "bbox": [
-    11.0,
-    53.0,
-    12.0,
-    54.0
+    11.4920443139,
+    53.9679857407,
+    12.0880992959,
+    53.9840471025
   ],
   "description": "An ancient place, cited: BAtlas 10 H3 Farodini",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.5,
-          53.5
+          11.7901205672,
+          53.9778397988
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              11.0,
-              53.0
+              11.492044313940767,
+              53.98404710252646
             ],
             [
-              11.0,
-              54.0
+              11.595550867694385,
+              53.98226250677209
             ],
             [
-              12.0,
-              54.0
+              11.665150102114922,
+              53.98226250677209
             ],
             [
-              12.0,
-              53.0
+              11.750810698324813,
+              53.980477911017715
             ],
             [
-              11.0,
-              53.0
+              11.834686698780104,
+              53.97869331526334
+            ],
+            [
+              11.90428593320064,
+              53.9751241237546
+            ],
+            [
+              11.972100571866804,
+              53.97155493224585
+            ],
+            [
+              12.088099295901031,
+              53.967985740737106
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98955/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98955/batlas-map-label-location"
       }
     }
   ]

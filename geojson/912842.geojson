@@ -3,10 +3,10 @@
   "title": "Elam",
   "id": "912842",
   "bbox": [
-    49.0,
-    31.0,
-    50.0,
-    32.0
+    49.0424255227,
+    31.4717761695,
+    50.2113357418,
+    31.9684886545
   ],
   "description": "An ancient Pre-Iranian civilization located in the west and southwest of modern-day Iran.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.5,
-          31.5
+          49.6181605827,
+          31.6995707721
         ]
       },
       "properties": {
@@ -30,39 +30,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              49.0,
-              31.0
+              49.04242552269284,
+              31.96848865445304
             ],
             [
-              49.0,
-              32.0
+              49.426113609882975,
+              31.76920879521475
             ],
             [
-              50.0,
-              32.0
+              49.78600708701481,
+              31.61454382983578
             ],
             [
-              50.0,
-              31.0
-            ],
-            [
-              49.0,
-              31.0
+              50.21133574180698,
+              31.471776169485963
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912842/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/912842/batlas-map-label-location"
       }
     }
   ]

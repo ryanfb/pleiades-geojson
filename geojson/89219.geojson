@@ -3,10 +3,10 @@
   "title": "Kornaouioi",
   "id": "89219",
   "bbox": [
-    -4.0,
-    58.0,
-    -3.0,
-    59.0
+    -3.87674362352,
+    58.5009015889,
+    -3.17242316579,
+    58.5066122953
   ],
   "description": "An ancient place, cited: BAtlas 9 D2 Kornaouioi",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          58.5
+          -3.52456076845,
+          58.503139554
         ]
       },
       "properties": {
@@ -30,39 +30,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              58.0
+              -3.876743623520156,
+              58.50661229526747
             ],
             [
-              -4.0,
-              59.0
+              -3.768240201654294,
+              58.504708726462866
             ],
             [
-              -3.0,
-              59.0
+              -3.692097449467724,
+              58.504708726462866
             ],
             [
-              -3.0,
-              58.0
+              -3.612147559671826,
+              58.50280515765826
             ],
             [
-              -4.0,
-              58.0
+              -3.534101238680591,
+              58.500901588853594
+            ],
+            [
+              -3.454151348884693,
+              58.500901588853594
+            ],
+            [
+              -3.389430009526166,
+              58.500901588853594
+            ],
+            [
+              -3.32851580777691,
+              58.500901588853594
+            ],
+            [
+              -3.261890899613661,
+              58.504708726462866
+            ],
+            [
+              -3.172423165794385,
+              58.504708726462866
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89219/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89219/batlas-map-label-location"
       }
     }
   ]

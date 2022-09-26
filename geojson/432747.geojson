@@ -3,10 +3,10 @@
   "title": "Campus Stellas",
   "id": "432747",
   "bbox": [
-    14.0,
-    41.0,
-    14.5,
-    41.5
+    14.0676866167,
+    41.1144722075,
+    14.1538231051,
+    41.1420739551
   ],
   "description": "The name for a region of Campania that adjoined the Ager Falernus.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.25,
-          41.25
+          14.1101700024,
+          41.126147058
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              41.0
+              14.067686616735728,
+              41.14207395513671
             ],
             [
-              14.0,
-              41.5
+              14.082439274971932,
+              41.13588735652144
             ],
             [
-              14.5,
-              41.5
+              14.092908903397642,
+              41.13208021891222
             ],
             [
-              14.5,
-              41.0
+              14.108613346036066,
+              41.1254177280959
             ],
             [
-              14.0,
-              41.0
+              14.127649034082708,
+              41.118279345078406
+            ],
+            [
+              14.139070446910637,
+              41.11732756067602
+            ],
+            [
+              14.153823105146841,
+              41.114472207468964
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432747/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432747/batlas-map-label-location"
       }
     }
   ]

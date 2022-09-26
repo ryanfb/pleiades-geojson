@@ -3,10 +3,10 @@
   "title": "Armenia Maior",
   "id": "863747",
   "bbox": [
-    43.0,
-    40.0,
-    44.0,
-    41.0
+    43.5179521847,
+    40.511440138,
+    46.516073052,
+    40.9861426086
   ],
   "description": "An ancient place, cited: BAtlas 88 B4 Armenia Maior",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          40.5
+          45.0314837846,
+          40.8353047075
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              40.0
+              46.51607305202583,
+              40.51144013798444
             ],
             [
-              43.0,
-              41.0
+              46.198415007747485,
+              40.62922345777304
             ],
             [
-              44.0,
-              41.0
+              45.99854028325774,
+              40.68276133040422
             ],
             [
-              44.0,
-              40.0
+              45.78795798424176,
+              40.74343758605289
             ],
             [
-              43.0,
-              40.0
+              45.570237302208284,
+              40.779129501140346
+            ],
+            [
+              45.145503512667574,
+              40.854082522824
+            ],
+            [
+              44.93492121365159,
+              40.8933436294202
+            ],
+            [
+              44.70649295709188,
+              40.921897161490165
+            ],
+            [
+              44.47449550902343,
+              40.954019885068874
+            ],
+            [
+              44.27462078453368,
+              40.961158268086365
+            ],
+            [
+              43.99979303836028,
+              40.98614260864758
+            ],
+            [
+              43.77850316481806,
+              40.97543503412135
+            ],
+            [
+              43.51795218467964,
+              40.95758907657762
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863747/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863747/batlas-map-label-location"
       }
     }
   ]

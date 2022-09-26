@@ -3,10 +3,10 @@
   "title": "Praedia Quadratiana",
   "id": "619242",
   "bbox": [
-    32.0,
-    38.0,
-    32.5,
-    38.5
+    32.3398674018,
+    38.1558090395,
+    32.5622280328,
+    38.1904301971
   ],
   "description": "An ancient place, cited: BAtlas 63 A4 Praedia Quadratiana",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          38.25
+          32.4506536538,
+          38.1704209934
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              38.0
+              32.339867401770846,
+              38.19043019708522
             ],
             [
-              32.0,
-              38.5
+              32.363780984879384,
+              38.18543332897303
             ],
             [
-              32.5,
-              38.5
+              32.376986993461685,
+              38.18364873321866
             ],
             [
-              32.5,
-              38.0
+              32.3951898701564,
+              38.17936570340822
             ],
             [
-              32.0,
-              38.0
+              32.40661128298433,
+              38.17758110765385
+            ],
+            [
+              32.42231572562275,
+              38.174368835295866
+            ],
+            [
+              32.44016168316648,
+              38.17115656293805
+            ],
+            [
+              32.456579964106766,
+              38.167230452278375
+            ],
+            [
+              32.4765674365558,
+              38.16437509907132
+            ],
+            [
+              32.49905334306078,
+              38.161162826713564
+            ],
+            [
+              32.51011783673795,
+              38.160448988411815
+            ],
+            [
+              32.52475152192386,
+              38.1590213118082
+            ],
+            [
+              32.541169802863976,
+              38.15723671605383
+            ],
+            [
+              32.56222803276569,
+              38.155809039450446
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619242/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619242/batlas-map-label-location"
       }
     }
   ]

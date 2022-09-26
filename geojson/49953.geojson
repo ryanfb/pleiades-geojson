@@ -3,12 +3,12 @@
   "title": "Cottonara",
   "id": "49953",
   "bbox": [
-    75.0,
-    5.0,
-    80.0,
-    10.0
+    76.5586855432,
+    8.78577884004,
+    77.2368319299,
+    9.24977373618
   ],
-  "description": "An ancient place, cited: BAtlas 5 D5 Cottonara",
+  "description": "Pliny the Elder identifies Cottonara as a district known for pepper, which was conveyed to Becare via dug-out canoes.",
   "names": [
     "Cottonara",
     "Kottanarike"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          7.5
+          76.8889421868,
+          9.00419135029
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              5.0
+              76.55868554322535,
+              9.249773736175882
             ],
             [
-              75.0,
-              10.0
+              76.67765859351687,
+              9.15459529594267
             ],
             [
-              80.0,
-              10.0
+              76.73714511866262,
+              9.101057423311488
             ],
             [
-              80.0,
-              5.0
+              76.80258029632296,
+              9.047519550680306
             ],
             [
-              75.0,
-              5.0
+              76.8918100840416,
+              9.005878983078276
+            ],
+            [
+              76.95129660918735,
+              8.952341110447094
+            ],
+            [
+              77.03457774439141,
+              8.88690593278676
+            ],
+            [
+              77.1119102270809,
+              8.857162670213881
+            ],
+            [
+              77.23683192988699,
+              8.785778840038972
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/49953/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/49953/batlas-map-label-location"
       }
     }
   ]

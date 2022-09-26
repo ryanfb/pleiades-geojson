@@ -3,10 +3,10 @@
   "title": "Oxeia (mountain)",
   "id": "521100",
   "bbox": [
-    29.0,
-    40.75,
-    29.25,
-    41.0
+    29.186473488,
+    40.9441015377,
+    29.2325160585,
+    40.9601628995
   ],
   "description": "Başıbüyük Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.125,
-          40.875
+          29.2096491542,
+          40.9525487389
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              40.75
+              29.186473488000445,
+              40.96016289948193
             ],
             [
-              29.0,
-              41.0
+              29.19575338592324,
+              40.957307546274876
             ],
             [
-              29.25,
-              41.0
+              29.204319445544172,
+              40.95480911221881
             ],
             [
-              29.25,
-              40.75
+              29.212885505165218,
+              40.951239920710066
             ],
             [
-              29.0,
-              40.75
+              29.223593079691454,
+              40.94802764835225
+            ],
+            [
+              29.232516058463318,
+              40.944101537692575
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/521100/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/521100/batlas-map-label-location"
       }
     }
   ]

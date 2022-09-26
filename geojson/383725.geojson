@@ -3,10 +3,10 @@
   "title": "Orumbovii",
   "id": "383725",
   "bbox": [
-    9.5,
-    45.5,
-    10.0,
-    46.0
+    9.51633174309,
+    45.7893735528,
+    9.87682008547,
+    45.9089414683
   ],
   "description": "An ancient place, cited: BAtlas 39 F2 Orumbovii",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          45.75
+          9.69785598317,
+          45.8530015956
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              45.5
+              9.516331743090916,
+              45.90894146834631
             ],
             [
-              9.5,
-              46.0
+              9.578197729242504,
+              45.8922852413055
             ],
             [
-              10.0,
-              46.0
+              9.622812623101822,
+              45.879198205773434
             ],
             [
-              10.0,
-              45.5
+              9.666832651709683,
+              45.864326574486995
             ],
             [
-              9.5,
-              45.5
+              9.713232141323374,
+              45.85064467370347
+            ],
+            [
+              9.75606243942832,
+              45.835178177165574
+            ],
+            [
+              9.795918411275977,
+              45.82149627638205
+            ],
+            [
+              9.830420595860517,
+              45.80721951034707
+            ],
+            [
+              9.876820085474208,
+              45.78937355280334
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383725/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383725/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Metropolitanus Campus",
   "id": "609472",
   "bbox": [
-    30.0,
-    38.0,
-    30.5,
-    38.5
+    30.3545142609,
+    38.2161112084,
+    30.5032305737,
+    38.3083153224
   ],
   "description": "An ancient place, cited: BAtlas 62 D5 Metropolitanus Campus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          38.25
+          30.4288724173,
+          38.2622132654
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              38.0
+              30.354514260882922,
+              38.216111208418
             ],
             [
-              30.0,
-              38.5
-            ],
-            [
-              30.5,
-              38.5
-            ],
-            [
-              30.5,
-              38.0
-            ],
-            [
-              30.0,
-              38.0
+              30.503230573747317,
+              38.30831532239392
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609472/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609472/batlas-map-label-location"
       }
     }
   ]

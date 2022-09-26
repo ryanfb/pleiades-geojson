@@ -3,10 +3,10 @@
   "title": "Copori",
   "id": "236444",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.43112435852,
+    42.813872341,
+    -8.30050637698,
+    42.8764022257
   ],
   "description": "A Celtic tribe of Galicia whose territory was located south of Noega; described by the elder Pliny and Ptolemy.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.36616212367,
+          42.8458398066
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.431124358522368,
+              42.81387234096724
             ],
             [
-              -9.0,
-              43.0
+              -8.395690757147634,
+              42.832631306400856
             ],
             [
-              -8.0,
-              43.0
+              -8.373457909226204,
+              42.84235817736641
             ],
             [
-              -8.0,
-              42.0
+              -8.349835508309695,
+              42.8541693778248
             ],
             [
-              -9.0,
-              42.0
+              -8.328992213383287,
+              42.86320147229287
+            ],
+            [
+              -8.300506376984004,
+              42.87640222574606
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236444/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236444/batlas-map-label-location"
       }
     }
   ]

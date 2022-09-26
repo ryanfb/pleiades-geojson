@@ -3,10 +3,10 @@
   "title": "Modaioi",
   "id": "589938",
   "bbox": [
-    23.5,
-    35.5,
-    24.0,
-    36.0
+    23.7369754642,
+    35.4430838039,
+    23.753155799,
+    35.5177988794
   ],
   "description": "An ancient people, tribe, or cultural group. Located: “Koinon” centered on Rokka.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          35.75
+          23.7487229602,
+          35.4812424186
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.5,
-              35.5
+              23.736975464167607,
+              35.51779887944096
             ],
             [
-              23.5,
-              36.0
+              23.74506563158743,
+              35.50114265240015
             ],
             [
-              24.0,
-              36.0
+              23.749348661397924,
+              35.486865886365166
             ],
             [
-              24.0,
-              35.5
+              23.752679906806087,
+              35.474968581336014
             ],
             [
-              23.5,
-              35.5
+              23.753155799007253,
+              35.46497484511153
+            ],
+            [
+              23.753155799007253,
+              35.45212575568004
+            ],
+            [
+              23.752679906806087,
+              35.44308380385789
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589938/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/589938/batlas-map-label-location"
       }
     }
   ]

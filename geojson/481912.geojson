@@ -3,10 +3,10 @@
   "title": "Messapion (mountain)",
   "id": "481912",
   "bbox": [
-    22.0,
-    42.0,
-    23.0,
-    43.0
+    22.3903103809,
+    42.1310153938,
+    22.6158832843,
+    42.1866947813
   ],
   "description": "Mt. Osogovska.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          42.5
+          22.5031208304,
+          42.158672457
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              42.0
+              22.390310380920482,
+              42.18669478131743
             ],
             [
-              22.0,
-              43.0
+              22.417436236386948,
+              42.17955639829994
             ],
             [
-              23.0,
-              43.0
+              22.457411181284897,
+              42.17099033867895
             ],
             [
-              23.0,
-              42.0
+              22.481681683544366,
+              42.16385195566146
             ],
             [
-              22.0,
-              42.0
+              22.507379862407333,
+              42.15956892585096
+            ],
+            [
+              22.535933394477297,
+              42.15100286622997
+            ],
+            [
+              22.560203896736766,
+              42.14386448321248
+            ],
+            [
+              22.58732975220323,
+              42.13529842359149
+            ],
+            [
+              22.615883284273192,
+              42.131015393781006
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481912/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481912/batlas-map-label-location"
       }
     }
   ]

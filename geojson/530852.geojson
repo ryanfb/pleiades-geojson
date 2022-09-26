@@ -3,10 +3,10 @@
   "title": "Echinades (islands)",
   "id": "530852",
   "bbox": [
-    21.14824,
-    38.32248,
-    21.14824,
-    38.32248
+    20.9727415295,
+    38.3542565614,
+    21.0524534732,
+    38.4851269167
   ],
   "description": "A group of islands in the Ionian Sea off the coast of Acarnania.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.14824,
-          38.32248
+          21.0089561778,
+          38.4174103073
         ]
       },
       "properties": {
@@ -33,39 +33,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              38.0
+              20.97274152948677,
+              38.485126916723004
             ],
             [
-              21.0,
-              38.5
+              20.978690182001344,
+              38.470255285436565
             ],
             [
-              21.5,
-              38.5
+              20.983449104013005,
+              38.460737441413244
             ],
             [
-              21.5,
-              38.0
+              20.987613160773208,
+              38.45181446264138
             ],
             [
-              21.0,
-              38.0
+              20.99177721753341,
+              38.443486349120974
+            ],
+            [
+              20.99713100479653,
+              38.435753100852025
+            ],
+            [
+              21.002484792059647,
+              38.42504552632579
+            ],
+            [
+              21.008433444574223,
+              38.416122547553925
+            ],
+            [
+              21.013192366585884,
+              38.40600983827915
+            ],
+            [
+              21.022710210609205,
+              38.391733072244165
+            ],
+            [
+              21.02865886312378,
+              38.383999823975216
+            ],
+            [
+              21.034607515638356,
+              38.37507684520335
+            ],
+            [
+              21.04115103340439,
+              38.36615386643149
+            ],
+            [
+              21.052453473182084,
+              38.35425656140234
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530852/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530852/batlas-map-label-location"
       }
     }
   ]

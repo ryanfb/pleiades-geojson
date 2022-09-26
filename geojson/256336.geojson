@@ -3,10 +3,10 @@
   "title": "Olbensis Pagus?",
   "id": "256336",
   "bbox": [
-    -7.0,
-    36.0,
-    -6.0,
-    37.0
+    -6.24466670213,
+    36.7818716582,
+    -6.16328913573,
+    36.8661045778
   ],
   "description": "An ancient place, cited: BAtlas 26 D5 Olbensis Pagus?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.5,
-          36.5
+          -6.20397791893,
+          36.823988118
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              36.0
+              -6.244666702133014,
+              36.7818716581531
             ],
             [
-              -7.0,
-              37.0
-            ],
-            [
-              -6.0,
-              37.0
-            ],
-            [
-              -6.0,
-              36.0
-            ],
-            [
-              -7.0,
-              36.0
+              -6.163289135733618,
+              36.866104577759494
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256336/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256336/batlas-map-label-location"
       }
     }
   ]

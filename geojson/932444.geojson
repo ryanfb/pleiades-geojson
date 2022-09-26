@@ -3,10 +3,10 @@
   "title": "Catharrei/Cataraei",
   "id": "932444",
   "bbox": [
-    51.0,
-    25.0,
-    52.0,
-    26.0
+    50.982618198,
+    25.0881928835,
+    51.4216287536,
+    25.2059762033
   ],
   "description": "An ancient place, cited: BAtlas 95 D4 Catharrei/Cataraei",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.5,
-          25.5
+          51.202254108,
+          25.1480845217
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              51.0,
-              25.0
+              50.98261819800524,
+              25.205976203305624
             ],
             [
-              51.0,
-              26.0
+              51.052812297677235,
+              25.192889167773558
             ],
             [
-              52.0,
-              26.0
+              51.10397070930259,
+              25.17504321022983
             ],
             [
-              52.0,
-              25.0
+              51.163457234448344,
+              25.157197252686103
             ],
             [
-              51.0,
-              25.0
+              51.21937456808536,
+              25.14292048665112
+            ],
+            [
+              51.28243028473986,
+              25.12626425961031
+            ],
+            [
+              51.327640043850636,
+              25.113177224078242
+            ],
+            [
+              51.37522926396724,
+              25.100090188546176
+            ],
+            [
+              51.42162875358093,
+              25.088192883517024
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932444/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/932444/batlas-map-label-location"
       }
     }
   ]

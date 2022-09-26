@@ -3,10 +3,10 @@
   "title": "Avares",
   "id": "128356",
   "bbox": [
-    18.0,
-    48.0,
-    19.0,
-    49.0
+    18.8076228182,
+    48.1227693875,
+    21.3120055268,
+    48.1435896713
   ],
   "description": "An ancient people, tribe, or cultural group. Located: HUN/SVK.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          48.5
+          20.0597498182,
+          48.133845577
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              48.0
+              18.80762281820944,
+              48.12871804004146
             ],
             [
-              18.0,
-              49.0
+              19.36679615457956,
+              48.14358967132807
             ],
             [
-              19.0,
-              49.0
+              19.821868071944607,
+              48.13466669255604
             ],
             [
-              19.0,
-              48.0
+              20.288837294338805,
+              48.13466669255604
             ],
             [
-              18.0,
-              48.0
+              20.740934885446563,
+              48.13169236629892
+            ],
+            [
+              21.312005526845837,
+              48.12276938752689
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/128356/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/128356/batlas-map-label-location"
       }
     }
   ]

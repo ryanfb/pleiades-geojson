@@ -3,10 +3,10 @@
   "title": "Mat Tamti",
   "id": "912902",
   "bbox": [
-    45.0,
-    31.0,
-    46.0,
-    32.0
+    45.8833341183,
+    30.8645377208,
+    46.8693827591,
+    31.2281193625
   ],
   "description": "An ancient place, cited: BAtlas 93 B2 Mat Tamti",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.5,
-          31.5
+          46.3714133641,
+          31.0326407017
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              45.0,
-              31.0
+              45.883334118302,
+              31.228119362489053
             ],
             [
-              45.0,
-              32.0
+              46.04133032908919,
+              31.157687316716363
             ],
             [
-              46.0,
-              32.0
+              46.14412304454106,
+              31.11771237181847
             ],
             [
-              46.0,
-              31.0
+              46.34019063142159,
+              31.03585891321785
             ],
             [
-              45.0,
-              31.0
+              46.44679048448273,
+              30.993980399515294
+            ],
+            [
+              46.562908181567195,
+              30.95590902342201
+            ],
+            [
+              46.68664015387037,
+              30.915934078524117
+            ],
+            [
+              46.86938275911814,
+              30.86453772079807
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912902/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/912902/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Aquitani",
   "id": "246175",
   "bbox": [
-    -19.665682,
-    31.937048,
-    1.0,
-    45.041389
+    -1.02473333609,
+    42.8967632953,
+    1.98766429729,
+    44.0353353866
   ],
   "description": "A confederation of a number (?20) of Iberian tribes initially subjugated by P. Licinius Crassus in 56 BC.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.32804563333,
-          39.8056911833
+          0.424242546948,
+          43.3171491992
         ]
       },
       "properties": {
@@ -33,39 +33,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              43.0
+              -1.02473333608998,
+              44.0353353866339
             ],
             [
-              -1.0,
-              44.0
+              -0.607137929566761,
+              43.728384916881794
             ],
             [
-              0.0,
-              44.0
+              -0.210957672096015,
+              43.51066423484832
             ],
             [
-              0.0,
-              43.0
+              0.17094581933975,
+              43.3286354679023
             ],
             [
-              -1.0,
-              43.0
+              0.574264459827987,
+              43.17872942453499
+            ],
+            [
+              1.002567440877442,
+              43.04666933871141
+            ],
+            [
+              1.462993145505607,
+              42.957439550992774
+            ],
+            [
+              1.98766429729119,
+              42.8967632953441
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246175/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246175/batlas-map-label-location"
       }
     }
   ]

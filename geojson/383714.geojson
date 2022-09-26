@@ -3,10 +3,10 @@
   "title": "Montunates",
   "id": "383714",
   "bbox": [
-    8.5,
-    45.5,
-    9.0,
-    46.0
+    8.71724925081,
+    45.7405946022,
+    8.86596556367,
+    45.768553269
   ],
   "description": "An ancient place, cited: BAtlas 39 D2 Montunates",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          45.75
+          8.79236906381,
+          45.7503348923
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              45.5
+              8.717249250807924,
+              45.74059460218382
             ],
             [
-              8.5,
-              46.0
+              8.746397648129346,
+              45.74118946743528
             ],
             [
-              9.0,
-              46.0
+              8.7624590099187,
+              45.74237919793819
             ],
             [
-              9.0,
-              45.5
+              8.776735775953682,
+              45.74594838944694
             ],
             [
-              8.5,
-              45.5
+              8.791012541988664,
+              45.748922715704225
+            ],
+            [
+              8.806479038526561,
+              45.75189704196151
+            ],
+            [
+              8.821350669813,
+              45.753681637715886
+            ],
+            [
+              8.832653109590694,
+              45.75725082922463
+            ],
+            [
+              8.843955549368388,
+              45.761414885984834
+            ],
+            [
+              8.865965563672319,
+              45.768553269002325
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383714/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383714/batlas-map-label-location"
       }
     }
   ]

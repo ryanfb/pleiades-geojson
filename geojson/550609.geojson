@@ -3,10 +3,10 @@
   "title": "Kallikolone M.",
   "id": "550609",
   "bbox": [
-    26.343922,
-    39.949075,
-    26.343922,
-    39.949075
+    26.3907459837,
+    39.9610947805,
+    26.4735512267,
+    39.9734679777
   ],
   "description": "An ancient place, cited: BAtlas 56 C2 Kallikolone M.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.343922,
-          39.949075
+          26.4320396203,
+          39.9680559391
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.0,
-              39.5
+              26.390745983662896,
+              39.961094780478845
             ],
             [
-              26.0,
-              40.0
+              26.402643288692047,
+              39.96299834928345
             ],
             [
-              26.5,
-              40.0
+              26.409305779508486,
+              39.96490191808812
             ],
             [
-              26.5,
-              39.5
+              26.41692005472703,
+              39.966805486892724
             ],
             [
-              26.0,
-              39.5
+              26.42738968315274,
+              39.96775727129511
+            ],
+            [
+              26.438811095980668,
+              39.969184947898555
+            ],
+            [
+              26.446901263400605,
+              39.97108851670316
+            ],
+            [
+              26.456894999625092,
+              39.97108851670316
+            ],
+            [
+              26.464509274843635,
+              39.972516193306774
+            ],
+            [
+              26.473551226665904,
+              39.97346797770899
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550609/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550609/batlas-map-label-location"
       }
     }
   ]

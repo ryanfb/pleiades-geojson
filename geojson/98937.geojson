@@ -3,10 +3,10 @@
   "title": "Chauci",
   "id": "98937",
   "bbox": [
-    10.6432536,
-    53.3698671,
-    10.6432536,
-    53.3698671
+    7.73725484674,
+    53.3326696522,
+    8.82407366115,
+    53.341592631
   ],
   "description": "The Chauci were a German tribe occupying the territory between the Ems and Elbe rivers.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.6432536,
-          53.3698671
+          8.28066578321,
+          53.3374814331
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              53.0
+              7.737254846740541,
+              53.332669652180414
             ],
             [
-              7.0,
-              54.0
+              8.00494420989645,
+              53.33623884368916
             ],
             [
-              8.0,
-              54.0
+              8.206603530140569,
+              53.33623884368916
             ],
             [
-              8.0,
-              53.0
+              8.395770680104079,
+              53.34159263095228
             ],
             [
-              7.0,
-              53.0
+              8.592076213085079,
+              53.33802343944353
+            ],
+            [
+              8.824073661153534,
+              53.339808035197905
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98937/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98937/batlas-map-label-location"
       }
     }
   ]

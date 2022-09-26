@@ -3,10 +3,10 @@
   "title": "Antikasion/Thronos M.",
   "id": "668191",
   "bbox": [
-    35.5,
-    35.5,
-    36.0,
-    36.0
+    35.9181914776,
+    35.9072598866,
+    36.0169391093,
+    35.9081521845
   ],
   "description": "An ancient place, cited: BAtlas 68 A2 Antikasion/Thronos M.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          35.75
+          35.967566048,
+          35.9075389622
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              35.5
+              35.91819147757036,
+              35.90725988659608
             ],
             [
-              35.5,
-              36.0
+              35.93127851310243,
+              35.90755731922178
             ],
             [
-              36.0,
-              36.0
+              35.941688655002906,
+              35.90755731922178
             ],
             [
-              36.0,
-              35.5
+              35.95328852740636,
+              35.90725988659608
             ],
             [
-              35.5,
-              35.5
+              35.96786272606704,
+              35.90725988659608
+            ],
+            [
+              35.98184205947632,
+              35.90755731922178
+            ],
+            [
+              35.99284706662826,
+              35.90755731922178
+            ],
+            [
+              36.001175180148664,
+              35.90785475184754
+            ],
+            [
+              36.01693910931232,
+              35.90815218447324
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668191/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668191/batlas-map-label-location"
       }
     }
   ]

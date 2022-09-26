@@ -3,10 +3,10 @@
   "title": "Pentapolis",
   "id": "609497",
   "bbox": [
-    29.5,
-    38.0,
-    30.0,
-    38.5
+    29.9773696915,
+    38.4109890648,
+    30.2236439056,
+    38.4112864974
   ],
   "description": "An ancient place, cited: BAtlas 62 C5 Pentapolis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.75,
-          38.25
+          30.1005067985,
+          38.4111377811
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.5,
-              38.0
+              29.97736969145882,
+              38.411286497421315
             ],
             [
-              29.5,
-              38.5
-            ],
-            [
-              30.0,
-              38.5
-            ],
-            [
-              30.0,
-              38.0
-            ],
-            [
-              29.5,
-              38.0
+              30.223643905562255,
+              38.41098906479556
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609497/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609497/batlas-map-label-location"
       }
     }
   ]

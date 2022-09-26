@@ -3,10 +3,10 @@
   "title": "Kisamon? Pr.",
   "id": "589869",
   "bbox": [
-    24.0,
-    35.5,
-    24.5,
-    36.0
+    24.0551094006,
+    35.5206542326,
+    24.183600295,
+    35.5720505904
   ],
   "description": "An ancient place, cited: BAtlas 60 B1 Kisamon? Pr.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          35.75
+          24.1193548478,
+          35.5463524115
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              24.0,
-              35.5
+              24.05510940064712,
+              35.520654232647956
             ],
             [
-              24.0,
-              36.0
-            ],
-            [
-              24.5,
-              36.0
-            ],
-            [
-              24.5,
-              35.5
-            ],
-            [
-              24.0,
-              35.5
+              24.183600294961956,
+              35.57205059037389
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589869/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/589869/batlas-map-label-location"
       }
     }
   ]

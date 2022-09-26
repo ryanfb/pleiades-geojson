@@ -3,10 +3,10 @@
   "title": "Interannienses?",
   "id": "236489",
   "bbox": [
-    -8.0,
-    40.0,
-    -7.0,
-    41.0
+    -7.99991251116,
+    40.656182427,
+    -7.70509729254,
+    40.7147171678
   ],
   "description": "An ancient place, cited: BAtlas 24 D4 Interannienses?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          40.5
+          -7.85404862191,
+          40.6783077358
         ]
       },
       "properties": {
@@ -28,39 +28,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              40.0
+              -7.999912511159494,
+              40.71471716778967
             ],
             [
-              -8.0,
-              41.0
+              -7.974928170598275,
+              40.704009593263436
             ],
             [
-              -7.0,
-              41.0
+              -7.951371506640555,
+              40.697585048547694
             ],
             [
-              -7.0,
-              40.0
+              -7.930670195889832,
+              40.6933020187372
             ],
             [
-              -8.0,
-              40.0
+              -7.912110400044355,
+              40.68830515062484
+            ],
+            [
+              -7.896405957405875,
+              40.684022120814404
+            ],
+            [
+              -7.872135455146349,
+              40.67902525270222
+            ],
+            [
+              -7.848578791188686,
+              40.67331454628817
+            ],
+            [
+              -7.83001899534321,
+              40.670459193081115
+            ],
+            [
+              -7.815742229308228,
+              40.66760383987429
+            ],
+            [
+              -7.792899403652257,
+              40.664748486667236
+            ],
+            [
+              -7.769342739694537,
+              40.66189313346024
+            ],
+            [
+              -7.752210620452558,
+              40.65975161855488
+            ],
+            [
+              -7.732223148003584,
+              40.658323941951494
+            ],
+            [
+              -7.705097292537118,
+              40.65618242704613
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236489/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236489/batlas-map-label-location"
       }
     }
   ]

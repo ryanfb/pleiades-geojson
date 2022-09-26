@@ -3,10 +3,10 @@
   "title": "Kotylaion (mountain)",
   "id": "540885",
   "bbox": [
-    23.5,
-    38.5,
-    24.0,
-    39.0
+    23.9736161272,
+    38.5741565323,
+    24.0433343347,
+    38.5912886515
   ],
   "description": "Mavrovouni.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          38.75
+          24.0087347626,
+          38.5822029388
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.5,
-              38.5
+              23.973616127226194,
+              38.574156532284576
             ],
             [
-              23.5,
-              39.0
+              23.985513432255345,
+              38.57701188549157
             ],
             [
-              24.0,
-              39.0
+              23.996696898982748,
+              38.57891545429624
             ],
             [
-              24.0,
-              38.5
+              24.005738850804903,
+              38.58153286140259
             ],
             [
-              23.5,
-              38.5
+              24.012163395520645,
+              38.58248464580498
+            ],
+            [
+              24.020015616839885,
+              38.58415026850906
+            ],
+            [
+              24.026440161555627,
+              38.586291783414254
+            ],
+            [
+              24.030961137466647,
+              38.588671244420084
+            ],
+            [
+              24.036671843880697,
+              38.588671244420084
+            ],
+            [
+              24.043334334696965,
+              38.591288651526554
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540885/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540885/batlas-map-label-location"
       }
     }
   ]

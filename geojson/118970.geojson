@@ -3,10 +3,10 @@
   "title": "Soudianoi?",
   "id": "118970",
   "bbox": [
-    12.0,
-    50.0,
-    13.0,
-    51.0
+    12.6768136407,
+    50.2083362244,
+    13.1546094106,
+    50.4177287929
   ],
   "description": "An ancient people, tribe, or cultural group. Located: CZE.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.5,
-          50.5
+          12.9152758284,
+          50.3143714993
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.0,
-              50.0
+              12.676813640658736,
+              50.20833622443257
             ],
             [
-              12.0,
-              51.0
+              12.749149255235864,
+              50.242600462916414
             ],
             [
-              13.0,
-              51.0
+              12.811967025789897,
+              50.26734685737716
             ],
             [
-              13.0,
-              50.0
+              12.859556245906504,
+              50.29018968303302
             ],
             [
-              12.0,
-              50.0
+              12.909049034827717,
+              50.30922537107966
+            ],
+            [
+              12.94331327331173,
+              50.32445392151709
+            ],
+            [
+              12.994709631037608,
+              50.35110388478239
+            ],
+            [
+              13.051816695177536,
+              50.37965741685235
+            ],
+            [
+              13.103213052903413,
+              50.394885967289554
+            ],
+            [
+              13.154609410629462,
+              50.41772879294564
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/118970/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/118970/batlas-map-label-location"
       }
     }
   ]

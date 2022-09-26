@@ -3,10 +3,10 @@
   "title": "Thracia",
   "id": "501638",
   "bbox": [
-    23.129408,
-    40.288041,
-    25.2879648,
-    40.93661
+    25.5219105655,
+    41.2312059042,
+    28.3811456853,
+    41.6517744447
   ],
   "description": "Thracia refers to a territory occupied by the Thraci (or Thracians), a human population of the northern Balkan Peninsula whose reach stretched from the north Aegean Sea to the Danube river. Parts of Thracia would eventually become incorporated into the Roman provinces of Moesia and Thracia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.2860246888,
-          40.9359347763
+          26.9624137954,
+          41.5178303653
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              25.5,
-              41.5
+              25.521910565524138,
+              41.61965172110342
             ],
             [
-              25.5,
-              42.0
+              25.721785290013884,
+              41.64463606166464
             ],
             [
-              26.0,
-              42.0
+              25.918090822994884,
+              41.65177444468213
             ],
             [
-              26.0,
-              41.5
+              26.103688781449648,
+              41.65177444468213
             ],
             [
-              25.5,
-              41.5
+              26.292855931413158,
+              41.64463606166464
+            ],
+            [
+              26.474884698359176,
+              41.61965172110342
+            ],
+            [
+              26.642636699270213,
+              41.587528997524714
+            ],
+            [
+              27.372777700227687,
+              41.48676001621021
+            ],
+            [
+              27.548381922458077,
+              41.45963416074386
+            ],
+            [
+              27.723986144688354,
+              41.42108689244935
+            ],
+            [
+              27.90387339672901,
+              41.37682891774085
+            ],
+            [
+              28.079477618959288,
+              41.331143266429024
+            ],
+            [
+              28.22981196530776,
+              41.286885291720466
+            ],
+            [
+              28.38114568527851,
+              41.23120590418415
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501638/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501638/batlas-map-label-location"
       }
     }
   ]

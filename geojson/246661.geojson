@@ -3,10 +3,10 @@
   "title": "Sotiates",
   "id": "246661",
   "bbox": [
-    -1.0,
-    43.0,
-    0.0,
-    44.0
+    -0.295542553643,
+    43.9359185315,
+    0.118483661372,
+    44.0358558937
   ],
   "description": "A pre-Roman tribe of the Aquitani.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          43.5
+          -0.0929662470049,
+          44.0043143207
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              43.0
+              -0.295542553642861,
+              43.93591853148405
             ],
             [
-              -1.0,
-              44.0
+              -0.230107375982527,
+              43.96923098556567
             ],
             [
-              0.0,
-              44.0
+              -0.17537977284843,
+              43.990646134618146
             ],
             [
-              0.0,
-              43.0
+              -0.123031630720163,
+              44.00611263115604
             ],
             [
-              -1.0,
-              43.0
+              -0.073062949597727,
+              44.018009936185194
+            ],
+            [
+              -0.019525076966545,
+              44.02871751071143
+            ],
+            [
+              0.036392256670581,
+              44.03585589372892
+            ],
+            [
+              0.118483661371727,
+              44.03466616322601
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246661/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246661/batlas-map-label-location"
       }
     }
   ]

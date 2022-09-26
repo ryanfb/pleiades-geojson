@@ -3,10 +3,10 @@
   "title": "Kaunoi",
   "id": "275650",
   "bbox": [
-    -6.5,
-    34.0,
-    -6.0,
-    34.5
+    -6.31934619161,
+    34.0438858664,
+    -6.03952157732,
+    34.0952822242
   ],
   "description": "An ancient place, cited: BAtlas 28 B5 Kaunoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.25,
-          34.25
+          -6.18038505763,
+          34.0746611491
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.5,
-              34.0
+              -6.319346191609952,
+              34.04388586643029
             ],
             [
-              -6.5,
-              34.5
+              -6.248914145837318,
+              34.06292155447693
             ],
             [
-              -6.0,
-              34.5
+              -6.204180278927765,
+              34.07434296730486
             ],
             [
-              -6.0,
-              34.0
+              -6.145169645983117,
+              34.08290902692596
             ],
             [
-              -6.5,
-              34.0
+              -6.097580425866511,
+              34.089571517742286
+            ],
+            [
+              -6.039521577324251,
+              34.095282224156335
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275650/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/275650/batlas-map-label-location"
       }
     }
   ]

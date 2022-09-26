@@ -3,10 +3,10 @@
   "title": "Ouandabanda?",
   "id": "59963",
   "bbox": [
-    65.0,
-    35.0,
-    70.0,
-    40.0
+    68.9910854337,
+    36.5435525373,
+    71.8880792083,
+    36.6565769351
   ],
   "description": "An ancient place, cited: BAtlas 6 B2 Ouandabanda?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          37.5
+          70.4397414952,
+          36.5996181577
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              35.0
+              68.99108543365992,
+              36.543552537303015
             ],
             [
-              65.0,
-              40.0
+              69.34800458453446,
+              36.555449842332166
             ],
             [
-              70.0,
-              40.0
+              69.58000203260292,
+              36.56139849484674
             ],
             [
-              70.0,
-              35.0
+              69.82389678570053,
+              36.57329579987589
             ],
             [
-              65.0,
-              35.0
+              70.07968884382728,
+              36.5970904099342
+            ],
+            [
+              70.32953224943947,
+              36.57924445239047
+            ],
+            [
+              70.5912729600808,
+              36.60898771496335
+            ],
+            [
+              70.79947579809095,
+              36.6208850199925
+            ],
+            [
+              71.06716516124686,
+              36.6208850199925
+            ],
+            [
+              71.3051112618299,
+              36.6446796300508
+            ],
+            [
+              71.55495466744208,
+              36.63873097753623
+            ],
+            [
+              71.88807920825832,
+              36.656576935079954
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59963/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59963/batlas-map-label-location"
       }
     }
   ]

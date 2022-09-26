@@ -3,10 +3,10 @@
   "title": "Pagus Salutaris",
   "id": "383734",
   "bbox": [
-    9.5,
-    44.5,
-    10.0,
-    45.0
+    9.71022014027,
+    44.5881889495,
+    9.78065218604,
+    44.6662352705
   ],
   "description": "An ancient place, cited: BAtlas 39 F4 Pagus Salutaris",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          44.75
+          9.74554798963,
+          44.6272208787
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              44.5
+              9.710220140266813,
+              44.58818894951514
             ],
             [
-              9.5,
-              45.0
+              9.721641553094798,
+              44.602465715550125
             ],
             [
-              10.0,
-              45.0
+              9.73353885812395,
+              44.611983559573446
             ],
             [
-              10.0,
-              44.5
+              9.739725456738995,
+              44.62054961919432
             ],
             [
-              9.5,
-              44.5
+              9.752574546170592,
+              44.63244692422347
+            ],
+            [
+              9.755905791578641,
+              44.6391094150398
+            ],
+            [
+              9.763520066797298,
+              44.64624779805729
+            ],
+            [
+              9.770182557613623,
+              44.65719331868422
+            ],
+            [
+              9.780652186039333,
+              44.66623527050632
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383734/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383734/batlas-map-label-location"
       }
     }
   ]

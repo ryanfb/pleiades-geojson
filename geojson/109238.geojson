@@ -3,10 +3,10 @@
   "title": "Paemani",
   "id": "109238",
   "bbox": [
-    5.0,
-    50.0,
-    6.0,
-    51.0
+    5.9038365183,
+    50.492007634,
+    6.45777504045,
+    50.499146017
   ],
   "description": "An ancient place, cited: BAtlas 11 F2 Paemani",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          50.5
+          6.18078642273,
+          50.4942008727
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              50.0
+              5.903836518296373,
+              50.499146017028465
             ],
             [
-              5.0,
-              51.0
+              6.009484586955352,
+              50.49629066382141
             ],
             [
-              6.0,
-              51.0
+              6.086579123544311,
+              50.49629066382141
             ],
             [
-              6.0,
-              50.0
+              6.183661132582131,
+              50.492007634010974
             ],
             [
-              5.0,
-              50.0
+              6.262183345774531,
+              50.492007634010974
+            ],
+            [
+              6.354982325001913,
+              50.492007634010974
+            ],
+            [
+              6.457775040453839,
+              50.49343531061436
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109238/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109238/batlas-map-label-location"
       }
     }
   ]

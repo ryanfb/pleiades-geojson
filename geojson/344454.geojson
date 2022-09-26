@@ -3,12 +3,12 @@
   "title": "Nybgenii",
   "id": "344454",
   "bbox": [
-    9.0,
-    33.0,
-    10.0,
-    34.0
+    9.06579930764,
+    33.6848186022,
+    9.36620625963,
+    33.693741581
   ],
-  "description": "An ancient place, cited: BAtlas 35 B1 Nybgenii",
+  "description": "The Nybgenii, a civitas mentioned in a series of second-century CE inscriptions, occupied a territory that extended to Chareb on the north bank of Chott el-Fejaj and had as its center the oasis of Telmine in present-day Nefzaoua, according to Encyclopédie berbère.",
   "names": [
     "Nybgenii"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          33.5
+          9.21601310061,
+          33.6891914953
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              33.0
+              9.065799307640702,
+              33.684818602216296
             ],
             [
-              9.0,
-              34.0
+              9.127070428540833,
+              33.68660319797067
             ],
             [
-              10.0,
-              34.0
+              9.168116130891406,
+              33.68719806322213
             ],
             [
-              10.0,
-              33.0
+              9.207377237487606,
+              33.687792928473584
             ],
             [
-              9.0,
-              33.0
+              9.24544861358089,
+              33.690172389479415
+            ],
+            [
+              9.285304585428548,
+              33.692551850485245
+            ],
+            [
+              9.326945153030579,
+              33.692551850485245
+            ],
+            [
+              9.366206259626779,
+              33.69374158098816
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344454/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344454/batlas-map-label-location"
       }
     }
   ]

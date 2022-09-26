@@ -3,12 +3,15 @@
   "title": "Sardi Pelliti",
   "id": "472013",
   "bbox": [
-    8.0,
-    40.0,
-    9.0,
-    41.0
+    8.82887834261,
+    40.3655498628,
+    9.13511497406,
+    40.3691190543
   ],
   "description": "An ancient place, cited: BAtlas 48 A2 Sardi Pelliti",
+  "connectsWith": [
+    "472014"
+  ],
   "names": [
     "Sardi Pelliti"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          40.5
+          8.98204195355,
+          40.3674178389
         ]
       },
       "properties": {
@@ -28,39 +31,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              40.0
+              8.828878342614042,
+              40.36626370107855
             ],
             [
-              8.0,
-              41.0
+              8.866711772606743,
+              40.3655498627768
             ],
             [
-              9.0,
-              41.0
+              8.89169611316796,
+              40.36626370107855
             ],
             [
-              9.0,
-              40.0
+              8.921677321841422,
+              40.3669775393803
             ],
             [
-              8.0,
-              40.0
+              8.948089339006138,
+              40.3684052159838
+            ],
+            [
+              8.983067415791844,
+              40.3684052159838
+            ],
+            [
+              9.009479432956558,
+              40.36626370107855
+            ],
+            [
+              9.029466905405533,
+              40.3684052159838
+            ],
+            [
+              9.051595892759755,
+              40.36911905428555
+            ],
+            [
+              9.07943558652797,
+              40.3669775393803
+            ],
+            [
+              9.099423058976944,
+              40.36769137768205
+            ],
+            [
+              9.135114974064397,
+              40.36911905428555
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472013/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472013/batlas-map-label-location"
       }
     }
   ]

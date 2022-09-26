@@ -3,10 +3,10 @@
   "title": "Valli",
   "id": "863917",
   "bbox": [
-    43.0,
-    42.0,
-    44.0,
-    43.0
+    43.804623698,
+    42.6836198512,
+    44.0225823261,
+    42.7864125667
   ],
   "description": "An ancient place, cited: BAtlas 88 B2 Valli",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.5,
-          42.5
+          43.9164728022,
+          42.7291497161
         ]
       },
       "properties": {
@@ -29,39 +29,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              43.0,
-              42.0
+              43.80462369800961,
+              42.68361985122323
             ],
             [
-              43.0,
-              43.0
+              43.86268254655175,
+              42.70360732367226
             ],
             [
-              44.0,
-              43.0
+              43.92074139509407,
+              42.72645014932817
             ],
             [
-              44.0,
-              42.0
+              43.974041321624725,
+              42.75405189699569
             ],
             [
-              43.0,
-              42.0
+              44.02258232614355,
+              42.7864125666751
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/863917/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/863917/batlas-map-label-location"
       }
     }
   ]

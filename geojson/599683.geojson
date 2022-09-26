@@ -3,10 +3,10 @@
   "title": "Kalydnioi (islands)",
   "id": "599683",
   "bbox": [
-    26.5,
-    37.0,
-    27.0,
-    37.5
+    26.832229273,
+    36.8993114414,
+    27.0228240996,
+    37.0206639527
   ],
   "description": "An ancient place, cited: BAtlas 61 D3 Kalydnioi Inss.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          37.25
+          26.9275266863,
+          36.9599876971
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              37.0
+              26.83222927300786,
+              37.02066395273972
             ],
             [
-              26.5,
-              37.5
-            ],
-            [
-              27.0,
-              37.5
-            ],
-            [
-              27.0,
-              37.0
-            ],
-            [
-              26.5,
-              37.0
+              27.022824099574866,
+              36.89931144144237
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599683/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599683/batlas-map-label-location"
       }
     }
   ]

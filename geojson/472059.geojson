@@ -3,10 +3,10 @@
   "title": "Balatonoi",
   "id": "472059",
   "bbox": [
-    9.0,
-    41.0,
-    10.0,
-    42.0
+    9.00477999747,
+    41.6150524262,
+    9.22963906252,
+    41.6174318872
   ],
   "description": "A pre-Roman people settled in south-eastern Corsica, mentioned by Ptolemy.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          41.5
+          9.11722322911,
+          41.6162154167
         ]
       },
       "properties": {
@@ -31,39 +31,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              41.0
+              9.004779997470033,
+              41.616242156661116
             ],
             [
-              9.0,
-              42.0
+              9.04463596931769,
+              41.61564729140966
             ],
             [
-              10.0,
-              42.0
+              9.06426652261579,
+              41.616242156661116
             ],
             [
-              10.0,
-              41.0
+              9.08865599792555,
+              41.61683702191257
             ],
             [
-              9.0,
-              41.0
+              9.112450607983853,
+              41.616242156661116
+            ],
+            [
+              9.138624679047986,
+              41.6150524261582
+            ],
+            [
+              9.16717821111795,
+              41.61564729140966
+            ],
+            [
+              9.19632660843937,
+              41.61743188716403
+            ],
+            [
+              9.229639062520995,
+              41.61683702191257
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472059/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472059/batlas-map-label-location"
       }
     }
   ]

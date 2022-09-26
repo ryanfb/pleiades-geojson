@@ -3,10 +3,10 @@
   "title": "Segobrigii",
   "id": "148197",
   "bbox": [
-    5.0,
-    43.0,
-    5.5,
-    43.5
+    5.32670184676,
+    43.3097794754,
+    5.48572331789,
+    43.3800679626
   ],
   "description": "An ancient place, cited: BAtlas 15 E3 Segobrigii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.25,
-          43.25
+          5.40540203602,
+          43.3431809302
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              43.0
+              5.326701846764138,
+              43.38006796261135
             ],
             [
-              5.0,
-              43.5
+              5.351128342329218,
+              43.3661099651456
             ],
             [
-              5.5,
-              43.5
+              5.370569838799327,
+              43.35813396659381
             ],
             [
-              5.5,
-              43.0
+              5.387020335812679,
+              43.351154967860964
             ],
             [
-              5.0,
-              43.0
+              5.404966332554295,
+              43.34317896930901
+            ],
+            [
+              5.42141682956759,
+              43.33570147066666
+            ],
+            [
+              5.436870326761834,
+              43.328722471933816
+            ],
+            [
+              5.450828324227587,
+              43.32274047301979
+            ],
+            [
+              5.465284821602779,
+              43.317256974015436
+            ],
+            [
+              5.485723317891996,
+              43.30977947537315
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/148197/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/148197/batlas-map-label-location"
       }
     }
   ]

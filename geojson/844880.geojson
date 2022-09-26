@@ -3,10 +3,10 @@
   "title": "Blaene",
   "id": "844880",
   "bbox": [
-    33.0,
-    41.0,
-    34.0,
-    42.0
+    33.6494276825,
+    41.4137414386,
+    33.9599473438,
+    41.4268284742
   ],
   "description": "An ancient place, cited: BAtlas 86 D2 Blaene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.5,
-          41.5
+          33.8046875132,
+          41.4202849564
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              41.0
+              33.95994734380159,
+              41.42682847415431
             ],
             [
-              33.0,
-              42.0
-            ],
-            [
-              34.0,
-              42.0
-            ],
-            [
-              34.0,
-              41.0
-            ],
-            [
-              33.0,
-              41.0
+              33.64942768254073,
+              41.413741438622246
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/844880/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/844880/batlas-map-label-location"
       }
     }
   ]
