@@ -3,12 +3,12 @@
   "title": "Erebidai?",
   "id": "344351",
   "bbox": [
-    10.0,
-    33.0,
-    11.0,
-    34.0
+    10.693275286,
+    33.2064596931,
+    10.9300316561,
+    33.2094340194
   ],
-  "description": "An ancient place, cited: BAtlas 35 C1 Erebidai?",
+  "description": "Erebidai? or Erebidae, an ancient tribe of north Africa that were counted among the Lotophages, according to Philistos.",
   "names": [
     "Erebidai"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.5,
-          33.5
+          10.8116507726,
+          33.2079207006
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              33.0
+              10.693275286030087,
+              33.2064596931408
             ],
             [
-              10.0,
-              34.0
+              10.738485045140862,
+              33.20705455839226
             ],
             [
-              11.0,
-              34.0
+              10.765848846707911,
+              33.20824428889517
             ],
             [
-              11.0,
-              33.0
+              10.789048591514756,
+              33.20824428889517
             ],
             [
-              10.0,
-              33.0
+              10.812248336321602,
+              33.207649423643716
+            ],
+            [
+              10.840801868391566,
+              33.207649423643716
+            ],
+            [
+              10.872329726718817,
+              33.20824428889517
+            ],
+            [
+              10.89136541476546,
+              33.20883915414663
+            ],
+            [
+              10.930031656110202,
+              33.20943401939809
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344351/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344351/batlas-map-label-location"
       }
     }
   ]

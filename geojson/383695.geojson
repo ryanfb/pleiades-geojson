@@ -3,12 +3,12 @@
   "title": "Libicii",
   "id": "383695",
   "bbox": [
-    8.0,
-    45.0,
-    8.5,
-    45.5
+    8.32280599987,
+    45.3826046939,
+    8.46414598362,
+    45.3840323705
   ],
-  "description": "An ancient place, cited: BAtlas 39 C3 Libicii",
+  "description": "Libicii, an ancient tribe of Cisalpine Gaul.",
   "names": [
     "Libicii"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.25,
-          45.25
+          8.39347032108,
+          45.3833203312
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              45.0
+              8.322805999871548,
+              45.384032370460204
             ],
             [
-              8.0,
-              45.5
+              8.357784076657083,
+              45.38260469385659
             ],
             [
-              8.5,
-              45.5
+              8.37563003420081,
+              45.38331853215834
             ],
             [
-              8.5,
-              45.0
+              8.395617506649842,
+              45.38331853215834
             ],
             [
-              8.0,
-              45.0
+              8.416318817400622,
+              45.384032370460204
+            ],
+            [
+              8.439161643056536,
+              45.38331853215834
+            ],
+            [
+              8.464145983617755,
+              45.38260469385659
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383695/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383695/batlas-map-label-location"
       }
     }
   ]

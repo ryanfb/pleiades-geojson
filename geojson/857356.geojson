@@ -3,10 +3,10 @@
   "title": "Tibareni",
   "id": "857356",
   "bbox": [
-    37.0,
-    40.0,
-    38.0,
-    41.0
+    37.3948546021,
+    40.8505883478,
+    37.7214356251,
+    40.9951406039
   ],
   "description": "An ancient population of Scythian descent inhabiting the southern shores of the Black Sea in Asia Minor.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.5,
-          40.5
+          37.5538947392,
+          40.9139349603
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              37.0,
-              40.0
+              37.39485460206501,
+              40.99514060393893
             ],
             [
-              37.0,
-              41.0
+              37.4412540916787,
+              40.96123328460585
             ],
             [
-              38.0,
-              41.0
+              37.476946006766156,
+              40.94517192281649
             ],
             [
-              38.0,
-              40.0
+              37.52513009213422,
+              40.920187582255274
             ],
             [
-              37.0,
-              40.0
+              37.56974498599354,
+              40.90412622046592
+            ],
+            [
+              37.6179290713616,
+              40.88628026292219
+            ],
+            [
+              37.66789775248404,
+              40.86486511386972
+            ],
+            [
+              37.72143562511522,
+              40.85058834783474
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid C4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857356/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857356/batlas-map-label-location"
       }
     }
   ]

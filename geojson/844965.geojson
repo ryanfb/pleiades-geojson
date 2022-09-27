@@ -3,10 +3,10 @@
   "title": "Kalmizene",
   "id": "844965",
   "bbox": [
-    33.0,
-    40.0,
-    34.0,
-    41.0
+    33.3101362106,
+    40.1180140889,
+    33.5010879563,
+    40.1429984295
   ],
   "description": "An ancient place, cited: BAtlas 86 D3 Kalmizene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.5,
-          40.5
+          33.4054588755,
+          40.1317705837
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              40.0
+              33.310136210610516,
+              40.11801408890591
             ],
             [
-              33.0,
-              41.0
+              33.37081246625919,
+              40.12693706767777
             ],
             [
-              34.0,
-              41.0
+              33.42435033889036,
+              40.135860046449636
             ],
             [
-              34.0,
-              40.0
-            ],
-            [
-              33.0,
-              40.0
+              33.50108795632839,
+              40.14299842946713
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/844965/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/844965/batlas-map-label-location"
       }
     }
   ]

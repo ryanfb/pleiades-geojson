@@ -3,10 +3,10 @@
   "title": "Langobardi",
   "id": "128439",
   "bbox": [
-    16.0,
-    48.0,
-    17.0,
-    49.0
+    16.2061283573,
+    48.4900986803,
+    17.5445751731,
+    48.5311443827
   ],
   "description": "An ancient place, cited: BAtlas 13 B4 Langobardi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          48.5
+          16.8752968163,
+          48.5102865408
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              48.0
+              16.206128357272576,
+              48.49009868030191
             ],
             [
-              16.0,
-              49.0
+              16.407787677516694,
+              48.491883276056285
             ],
             [
-              17.0,
-              49.0
+              16.532709380322785,
+              48.50259085058252
             ],
             [
-              17.0,
-              48.0
+              16.675477040672604,
+              48.504375446336894
             ],
             [
-              16.0,
-              48.0
+              16.820029296776795,
+              48.50794463784564
+            ],
+            [
+              16.96815074438973,
+              48.50972923360001
+            ],
+            [
+              17.09128785144145,
+              48.5168676166175
+            ],
+            [
+              17.22870172452815,
+              48.524005999634994
+            ],
+            [
+              17.364331001860478,
+              48.52757519114374
+            ],
+            [
+              17.544575173052124,
+              48.531144382652485
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/128439/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/128439/batlas-map-label-location"
       }
     }
   ]

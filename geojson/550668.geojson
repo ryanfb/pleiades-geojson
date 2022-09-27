@@ -3,10 +3,10 @@
   "title": "Kotylos (mountain)",
   "id": "550668",
   "bbox": [
-    26.5,
-    39.5,
-    27.0,
-    40.0
+    26.9400445569,
+    39.7394479878,
+    27.0197565006,
+    39.7632425978
   ],
   "description": "Gürgen Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          39.75
+          26.9805419027,
+          39.753093
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              39.5
+              26.940044556858936,
+              39.763242597844
             ],
             [
-              26.5,
-              40.0
+              26.95610591864829,
+              39.76026827158671
             ],
             [
-              27.0,
-              40.0
+              26.971572415186188,
+              39.75550934957505
             ],
             [
-              27.0,
-              39.5
+              26.988228642227,
+              39.75253502331776
             ],
             [
-              26.5,
-              39.5
+              27.00012594725615,
+              39.747181236054644
+            ],
+            [
+              27.009048926028015,
+              39.74539664030027
+            ],
+            [
+              27.01975650055425,
+              39.739447987785695
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550668/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550668/batlas-map-label-location"
       }
     }
   ]

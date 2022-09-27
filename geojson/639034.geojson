@@ -3,10 +3,10 @@
   "title": "Pamphylia (region)",
   "id": "639034",
   "bbox": [
-    30.98638,
-    36.990721,
-    30.98638,
-    36.990721
+    30.6682877649,
+    36.8904941584,
+    31.2260334247,
+    36.9333244565
   ],
   "description": "An ancient place, cited: BAtlas 65 E4 Pamphylia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.98638,
-          36.990721
+          30.9479600355,
+          36.921937827
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              36.5
+              31.22603342466448,
+              36.890494158434706
             ],
             [
-              30.5,
-              37.0
+              31.157504947696566,
+              36.91048163088374
             ],
             [
-              31.0,
-              37.0
+              31.115626433993896,
+              36.92095125930945
             ],
             [
-              31.0,
-              36.5
+              31.066133645072625,
+              36.92380661251633
             ],
             [
-              30.5,
-              36.5
+              31.01854442495602,
+              36.93142088773499
+            ],
+            [
+              30.96238914521848,
+              36.93237267213743
+            ],
+            [
+              30.911944571894878,
+              36.93332445653965
+            ],
+            [
+              30.852933938950287,
+              36.93142088773499
+            ],
+            [
+              30.79963401241963,
+              36.926661965723326
+            ],
+            [
+              30.746334085889146,
+              36.921903043711666
+            ],
+            [
+              30.668287764897798,
+              36.90381914006747
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639034/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/639034/batlas-map-label-location"
       }
     }
   ]
