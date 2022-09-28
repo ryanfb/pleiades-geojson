@@ -3,10 +3,10 @@
   "title": "Remi",
   "id": "109275",
   "bbox": [
-    4.032504,
-    49.253801,
-    4.033901,
-    49.254104
+    4.01898614021,
+    49.3873032044,
+    4.63050761871,
+    49.3920621264
   ],
   "description": "An ancient place, cited: BAtlas 11 E3 Remi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.0332025,
-          49.2539525
+          4.32473094348,
+          49.3900460558
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              49.0
+              4.018986140211382,
+              49.38730320437088
             ],
             [
-              4.0,
-              50.0
+              4.241465744256516,
+              49.39206212638254
             ],
             [
-              5.0,
-              50.0
+              4.428253433214195,
+              49.38968266537671
             ],
             [
-              5.0,
-              49.0
-            ],
-            [
-              4.0,
-              49.0
+              4.630507618709771,
+              49.38968266537671
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109275/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109275/batlas-map-label-location"
       }
     }
   ]

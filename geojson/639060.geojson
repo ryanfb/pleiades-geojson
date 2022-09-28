@@ -3,10 +3,10 @@
   "title": "Pisidia (region)",
   "id": "639060",
   "bbox": [
-    30.5,
-    37.0,
-    31.0,
-    37.5
+    30.5326584876,
+    37.4353193449,
+    31.4977678715,
+    37.4838603495
   ],
   "description": "Pisidia was a region of ancient Asia Minor located to the north of Lycia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.75,
-          37.25
+          31.0145884714,
+          37.4708007309
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.5,
-              37.0
+              30.53265848756547,
+              37.435319344939444
             ],
             [
-              30.5,
-              37.5
+              30.692558267157267,
+              37.46387287700941
             ],
             [
-              31.0,
-              37.5
+              30.825332191282598,
+              37.473866613233895
             ],
             [
-              31.0,
-              37.0
+              30.965244498425534,
+              37.48386034945844
             ],
             [
-              30.5,
-              37.0
+              31.109439835378794,
+              37.482432672855
+            ],
+            [
+              31.25649052553905,
+              37.481004996251386
+            ],
+            [
+              31.4977678715303,
+              37.453879140785034
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/639060/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/639060/batlas-map-label-location"
       }
     }
   ]

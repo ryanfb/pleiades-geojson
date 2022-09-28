@@ -3,10 +3,10 @@
   "title": "Karensioi",
   "id": "471958",
   "bbox": [
-    9.0,
-    40.0,
-    10.0,
-    41.0
+    9.49805416128,
+    40.4722607574,
+    9.73576231577,
+    40.4786853021
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Irgoli area?.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          40.5
+          9.61684446026,
+          40.476877932
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.498054161283678,
+              40.472260757351584
             ],
             [
-              9.0,
-              41.0
+              9.543025974293869,
+              40.47582994886033
             ],
             [
-              10.0,
-              41.0
+              9.570151829760334,
+              40.47797146376558
             ],
             [
-              10.0,
-              40.0
+              9.590139302209309,
+              40.478685302067326
             ],
             [
-              9.0,
-              40.0
+              9.621548187486269,
+              40.47797146376558
+            ],
+            [
+              9.647960204650985,
+              40.47654378716208
+            ],
+            [
+              9.661523132384218,
+              40.47797146376558
+            ],
+            [
+              9.687221311247184,
+              40.47725762546383
+            ],
+            [
+              9.709350298601406,
+              40.47725762546383
+            ],
+            [
+              9.735762315766122,
+              40.47725762546383
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471958/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471958/batlas-map-label-location"
       }
     }
   ]

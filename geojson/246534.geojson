@@ -3,10 +3,10 @@
   "title": "Onobrisates",
   "id": "246534",
   "bbox": [
-    0.0,
-    43.0,
-    1.0,
-    44.0
+    0.00662024227722,
+    43.0871796623,
+    0.473470491621,
+    43.1971107608
   ],
   "description": "An ancient place, cited: BAtlas 25 F2 Onobrisates",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          43.5
+          0.237394664889,
+          43.1313066538
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              43.0
+              0.006620242277222,
+              43.19711076080512
             ],
             [
-              0.0,
-              44.0
+              0.073721042641466,
+              43.17141258194198
             ],
             [
-              1.0,
-              44.0
+              0.117979017350024,
+              43.15570813930361
             ],
             [
-              1.0,
-              43.0
+              0.16794769847246,
+              43.14143137326863
             ],
             [
-              0.0,
-              43.0
+              0.207922643370409,
+              43.1328653136477
+            ],
+            [
+              0.24646991166486,
+              43.124299254026596
+            ],
+            [
+              0.280734150148703,
+              43.115733194405664
+            ],
+            [
+              0.32499212485726,
+              43.105739458181176
+            ],
+            [
+              0.366394746358594,
+              43.10288410497412
+            ],
+            [
+              0.40922504446354,
+              43.097173398560244
+            ],
+            [
+              0.473470491620958,
+              43.0871796623357
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246534/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246534/batlas-map-label-location"
       }
     }
   ]

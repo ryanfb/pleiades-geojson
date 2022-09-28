@@ -3,10 +3,10 @@
   "title": "Arzosei",
   "id": "344295",
   "bbox": [
-    9.0,
-    33.0,
-    10.0,
-    34.0
+    9.46049240198,
+    33.2804886908,
+    9.64513857604,
+    33.2842958284
   ],
   "description": "An ancient place, cited: BAtlas 35 B1 Arzosei",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          33.5
+          9.55281912933,
+          33.2822157082
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              33.0
+              9.460492401982776,
+              33.28048869080061
             ],
             [
-              9.0,
-              34.0
+              9.500467346880896,
+              33.28144047520283
             ],
             [
-              10.0,
-              34.0
+              9.526165525743806,
+              33.28144047520283
             ],
             [
-              10.0,
-              33.0
+              9.55471905781377,
+              33.28239225960522
             ],
             [
-              9.0,
-              33.0
+              9.582320805481345,
+              33.28239225960522
+            ],
+            [
+              9.610874337551309,
+              33.283344044007606
+            ],
+            [
+              9.645138576035322,
+              33.284295828409824
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344295/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344295/batlas-map-label-location"
       }
     }
   ]

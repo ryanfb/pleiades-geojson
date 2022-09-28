@@ -3,10 +3,10 @@
   "title": "Lide (mountain)",
   "id": "599768",
   "bbox": [
-    27.5,
-    37.0,
-    28.0,
-    37.5
+    27.4788758008,
+    37.063442894,
+    27.5288444819,
+    37.0848580431
   ],
   "description": "Tırman Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          37.25
+          27.5045215041,
+          37.0728140215
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              37.0
+              27.478875800789524,
+              37.06344289400238
             ],
             [
-              27.5,
-              37.5
+              27.486014183807015,
+              37.065346462806986
             ],
             [
-              28.0,
-              37.5
+              27.49172489022112,
+              37.067725923812816
             ],
             [
-              28.0,
-              37.0
+              27.500290949841997,
+              37.07058127701987
             ],
             [
-              27.5,
-              37.0
+              27.508381117261933,
+              37.0729607380257
+            ],
+            [
+              27.51361593147476,
+              37.07676787563514
+            ],
+            [
+              27.52170609889447,
+              37.07962322884197
+            ],
+            [
+              27.52884448191196,
+              37.08485804305485
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599768/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599768/batlas-map-label-location"
       }
     }
   ]

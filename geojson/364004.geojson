@@ -3,10 +3,10 @@
   "title": "Psylli",
   "id": "364004",
   "bbox": [
-    17.0,
-    30.0,
-    18.0,
-    31.0
+    17.4239034554,
+    30.4650340877,
+    18.080634693,
+    30.7239194451
   ],
   "description": "A Libyan People, cited: BAtlas 37 C2 Psylli",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          30.5
+          17.761135198,
+          30.6159614223
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              30.0
+              17.423903455419918,
+              30.72391944509593
             ],
             [
-              17.0,
-              31.0
+              17.57999609740233,
+              30.685848069002645
             ],
             [
-              18.0,
-              31.0
+              17.709438776119555,
+              30.649680261713968
             ],
             [
-              18.0,
-              30.0
+              17.831267179618123,
+              30.600187472792754
             ],
             [
-              17.0,
-              30.0
+              17.947384876702586,
+              30.548791115066877
+            ],
+            [
+              18.080634693029083,
+              30.46503408766165
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/364004/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/364004/batlas-map-label-location"
       }
     }
   ]

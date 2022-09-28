@@ -3,10 +3,10 @@
   "title": "Corieltauvi",
   "id": "79402",
   "bbox": [
-    -1.1413,
-    52.634576,
-    -1.12946,
-    52.6349
+    -1.30764948995,
+    52.8897409175,
+    -0.821287660354,
+    53.2675993252
   ],
   "description": "An ancient place, cited: BAtlas 8 F2 Corieltauvi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.13538,
-          52.634738
+          -1.06887300957,
+          53.084240819
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -2.0,
-              52.0
+              -1.307649489946073,
+              52.8897409174819
             ],
             [
-              -2.0,
-              53.0
+              -1.236265659771163,
+              52.949703334828655
             ],
             [
-              -1.0,
-              53.0
+              -1.196290714873157,
+              52.98777471092194
             ],
             [
-              -1.0,
-              52.0
+              -1.156315769975265,
+              53.0229907338084
             ],
             [
-              -2.0,
-              52.0
+              -1.115389040674927,
+              53.055351403487634
+            ],
+            [
+              -1.074462311374702,
+              53.0839049355576
+            ],
+            [
+              -1.028776660062761,
+              53.11912095844383
+            ],
+            [
+              -0.981187439946154,
+              53.15433698133006
+            ],
+            [
+              -0.930742866622495,
+              53.19145657302113
+            ],
+            [
+              -0.883153646505889,
+              53.22381724270036
+            ],
+            [
+              -0.821287660354301,
+              53.2675993252077
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79402/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79402/batlas-map-label-location"
       }
     }
   ]

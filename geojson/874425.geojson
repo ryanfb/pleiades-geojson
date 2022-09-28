@@ -3,10 +3,10 @@
   "title": "Chorz(i)ane(ne)",
   "id": "874425",
   "bbox": [
-    40.0,
-    39.0,
-    41.0,
-    40.0
+    40.1883439041,
+    39.3856250186,
+    40.739427073,
+    39.3927634016
   ],
   "description": "An ancient place, cited: BAtlas 89 C1 Chorz(i)ane(ne)",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          39.5
+          40.4638854886,
+          39.3891942101
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              39.0
+              40.1883439040971,
+              39.38562501861301
             ],
             [
-              40.0,
-              40.0
-            ],
-            [
-              41.0,
-              40.0
-            ],
-            [
-              41.0,
-              39.0
-            ],
-            [
-              40.0,
-              39.0
+              40.739427073047395,
+              39.3927634016305
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874425/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874425/batlas-map-label-location"
       }
     }
   ]

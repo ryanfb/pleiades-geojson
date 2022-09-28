@@ -3,10 +3,10 @@
   "title": "Bergistani",
   "id": "246239",
   "bbox": [
-    1.0,
-    41.0,
-    2.0,
-    42.0
+    1.569104443,
+    41.848335084,
+    2.03547880014,
+    41.9506519073
   ],
   "description": "Bergistani, an ancient tribe of the Iberian peninsula.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          41.5
+          1.80100135351,
+          41.9053472508
         ]
       },
       "properties": {
@@ -29,39 +29,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              41.0
+              1.569104442995102,
+              41.848335084047086
             ],
             [
-              1.0,
-              42.0
+              1.795153238548978,
+              41.910201070198674
             ],
             [
-              2.0,
-              42.0
-            ],
-            [
-              2.0,
-              41.0
-            ],
-            [
-              1.0,
-              41.0
+              2.035478800137836,
+              41.95065190729779
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246239/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246239/batlas-map-label-location"
       }
     }
   ]

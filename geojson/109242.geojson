@@ -3,10 +3,10 @@
   "title": "Parisii",
   "id": "109242",
   "bbox": [
-    2.342384,
-    48.852964,
-    2.349952,
-    48.855847
+    2.10827895253,
+    48.7543665768,
+    2.59190440196,
+    48.7597203641
   ],
   "description": "An ancient place, cited: BAtlas 11 C4 Parisii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.346168,
-          48.8544055
+          2.35011967747,
+          48.7554567487
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              2.0,
-              48.0
+              2.108278952529815,
+              48.75436657682002
             ],
             [
-              2.0,
-              49.0
+              2.218923889300925,
+              48.75436657682002
             ],
             [
-              3.0,
-              49.0
+              2.297446102493325,
+              48.75615117257439
             ],
             [
-              3.0,
-              48.0
+              2.365260741159489,
+              48.75436657682002
             ],
             [
-              2.0,
-              48.0
+              2.43129078407128,
+              48.75436657682002
+            ],
+            [
+              2.497320826983071,
+              48.75615117257439
+            ],
+            [
+              2.591904401964825,
+              48.75972036408314
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109242/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109242/batlas-map-label-location"
       }
     }
   ]

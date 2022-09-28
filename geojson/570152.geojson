@@ -3,10 +3,10 @@
   "title": "Belminatis",
   "id": "570152",
   "bbox": [
-    22.0,
-    37.0,
-    22.5,
-    37.5
+    22.2268394371,
+    37.2671317692,
+    22.2900141268,
+    37.335303327
   ],
   "description": "An ancient place, cited: BAtlas 58 C3 Belminatis",
   "names": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.25
+          22.2598575957,
+          37.3025865047
         ]
       },
       "properties": {
@@ -33,39 +33,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.0
+              22.22683943705482,
+              37.33530332698331
             ],
             [
-              22.0,
-              37.5
+              22.240759283939042,
+              37.32388191415532
             ],
             [
-              22.5,
-              37.5
+              22.246826909503852,
+              37.31745736943958
             ],
             [
-              22.5,
-              37.0
+              22.25325145421965,
+              37.31138974387471
             ],
             [
-              22.0,
-              37.0
+              22.259675998935222,
+              37.3053221183099
+            ],
+            [
+              22.26538670534933,
+              37.29746989699066
+            ],
+            [
+              22.27181125006507,
+              37.29068843312399
+            ],
+            [
+              22.276451199026496,
+              37.28390696925743
+            ],
+            [
+              22.281448067138683,
+              37.27748242454163
+            ],
+            [
+              22.29001412675956,
+              37.267131769166326
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570152/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570152/batlas-map-label-location"
       }
     }
   ]

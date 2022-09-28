@@ -3,10 +3,10 @@
   "title": "Oxubii",
   "id": "157899",
   "bbox": [
-    6.5,
-    43.0,
-    7.0,
-    43.5
+    6.66012842846,
+    43.4846426465,
+    6.89272074178,
+    43.5096269871
   ],
   "description": "The Oxubii or Oxybii were a Ligurian tribe inhabiting the coast of France near Massalia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          43.25
+          6.77612666366,
+          43.4945001401
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              43.0
+              6.660128428462428,
+              43.50962698708736
             ],
             [
-              6.5,
-              43.5
+              6.717830357853813,
+              43.490591299040716
             ],
             [
-              7.0,
-              43.5
+              6.763634982216047,
+              43.48464264652614
             ],
             [
-              7.0,
-              43.0
+              6.799326897303501,
+              43.485832377029055
             ],
             [
-              6.5,
-              43.0
+              6.836208542893871,
+              43.49475535580092
+            ],
+            [
+              6.865356940215293,
+              43.503083469321325
+            ],
+            [
+              6.892720741782341,
+              43.50962698708736
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157899/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157899/batlas-map-label-location"
       }
     }
   ]

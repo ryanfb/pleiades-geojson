@@ -3,10 +3,10 @@
   "title": "Hestiaiotis",
   "id": "540815",
   "bbox": [
-    21.782998,
-    39.568904,
-    21.782998,
-    39.568904
+    21.607321968,
+    39.5068873015,
+    21.7822123519,
+    39.6276449475
   ],
   "description": "Hestiaiotis was a region of northwestern Thessaly and a part of the Thessalian tetrarchy. It roughly corresponds to the modern Trikala regional unit.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.782998,
-          39.568904
+          21.6949826756,
+          39.567022951
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              39.5
+              21.60732196801581,
+              39.50688730146828
             ],
             [
-              21.5,
-              40.0
+              21.632901173828486,
+              39.52413839376055
             ],
             [
-              22.0,
-              40.0
+              21.6495574008693,
+              39.5360356987897
             ],
             [
-              22.0,
-              39.5
+              21.66621362791011,
+              39.54852786907031
             ],
             [
-              21.5,
-              39.5
+              21.682869854950923,
+              39.558045713093634
+            ],
+            [
+              21.69595689048299,
+              39.56577896136258
+            ],
+            [
+              21.712018252272344,
+              39.57648653588882
+            ],
+            [
+              21.724510422552953,
+              39.58897870616943
+            ],
+            [
+              21.741761514845223,
+              39.60028114594712
+            ],
+            [
+              21.75484855037729,
+              39.60801439421607
+            ],
+            [
+              21.782212351944338,
+              39.62764494751417
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540815/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540815/batlas-map-label-location"
       }
     }
   ]

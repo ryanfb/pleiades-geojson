@@ -3,10 +3,10 @@
   "title": "Parion Oros",
   "id": "658566",
   "bbox": [
-    35.5,
-    36.5,
-    36.0,
-    37.0
+    35.617881406,
+    36.8426450325,
+    35.7237674207,
+    36.9758948488
   ],
   "description": "An ancient place, cited: BAtlas 67 B3 Parion Oros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          36.75
+          35.6661718923,
+          36.9128820569
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              36.5
+              35.617881405962905,
+              36.842645032484405
             ],
             [
-              35.5,
-              37.0
+              35.652383590547444,
+              36.90332128813308
             ],
             [
-              36.0,
-              37.0
+              35.67974739211449,
+              36.933659415957415
             ],
             [
-              36.0,
-              36.5
-            ],
-            [
-              35.5,
-              36.5
+              35.72376742072235,
+              36.9758948488109
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/658566/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/658566/batlas-map-label-location"
       }
     }
   ]

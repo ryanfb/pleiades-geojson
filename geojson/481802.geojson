@@ -3,10 +3,10 @@
   "title": "Derriopos",
   "id": "481802",
   "bbox": [
-    21.0,
-    41.0,
-    22.0,
-    42.0
+    21.3400400876,
+    41.0699185528,
+    21.4352185278,
+    41.4470631223
   ],
   "description": "An ancient place, cited: BAtlas 49 D2 Derriopos",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          41.5
+          21.3945607579,
+          41.2566881849
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              41.0
+              21.340040087557096,
+              41.06991855284101
             ],
             [
-              21.0,
-              42.0
+              21.362644967112484,
+              41.13059480848968
             ],
             [
-              22.0,
-              42.0
+              21.37573200264455,
+              41.17461483709754
             ],
             [
-              22.0,
-              41.0
+              21.390008768679532,
+              41.221014326711234
             ],
             [
-              21.0,
-              41.0
+              21.401906073708684,
+              41.26146516381035
+            ],
+            [
+              21.409044456726175,
+              41.30310573141238
+            ],
+            [
+              21.41737257024658,
+              41.34355656851149
+            ],
+            [
+              21.423321222761157,
+              41.388766327622264
+            ],
+            [
+              21.43521852779031,
+              41.44706312226511
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481802/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481802/batlas-map-label-location"
       }
     }
   ]

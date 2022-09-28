@@ -3,10 +3,10 @@
   "title": "Reg(i)noi",
   "id": "79653",
   "bbox": [
-    -0.799938,
-    50.833139,
-    -0.78,
-    50.837
+    -0.125830694875,
+    50.8631539788,
+    0.32103208202,
+    50.8702923618
   ],
   "description": "The Reg(i)noi were a British Celtic kingdom and later a civitas of Britannia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.789969,
-          50.8350695
+          0.097524155296,
+          50.8679628171
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              50.0
+              -0.125830694875276,
+              50.86315397881617
             ],
             [
-              -1.0,
-              51.0
+              -0.034459392251392,
+              50.87029236183366
             ],
             [
-              0.0,
-              51.0
+              0.029786054905912,
+              50.867437008626666
             ],
             [
-              0.0,
-              50.0
+              0.08689311904584,
+              50.87029236183366
             ],
             [
-              -1.0,
-              50.0
+              0.159704625824361,
+              50.87029236183366
+            ],
+            [
+              0.233943809206323,
+              50.867437008626666
+            ],
+            [
+              0.321032082019599,
+              50.86315397881617
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79653/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79653/batlas-map-label-location"
       }
     }
   ]

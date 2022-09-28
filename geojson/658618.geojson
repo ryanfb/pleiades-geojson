@@ -3,10 +3,10 @@
   "title": "Thaumaston Oros",
   "id": "658618",
   "bbox": [
-    36.0401743,
+    36.0123626126,
     36.0983632,
-    36.0401743,
-    36.0983632
+    36.0986180741,
+    36.1295511166
   ],
   "description": "An ancient place, cited: BAtlas 67 C4 Thaumaston Oros",
   "names": [
@@ -18,12 +18,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.0401743,
-          36.0983632
+          36.0479002719,
+          36.107182915
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              36.01236261264444,
+              36.10337704558083
+            ],
+            [
+              36.027829109182335,
+              36.10694623708957
+            ],
+            [
+              36.042700740468774,
+              36.111705159101234
+            ],
+            [
+              36.059951832761044,
+              36.116464081112895
+            ],
+            [
+              36.07065940728728,
+              36.121223003124555
+            ],
+            [
+              36.08374644281935,
+              36.12538705988476
+            ],
+            [
+              36.09861807410579,
+              36.12955111664496
+            ]
+          ]
+        ]
+      },
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/658618/batlas-map-label-location"
       }
     },
     {

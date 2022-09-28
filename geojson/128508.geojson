@@ -3,10 +3,10 @@
   "title": "Sclaveni",
   "id": "128508",
   "bbox": [
-    18.0,
-    51.0,
-    19.0,
-    52.0
+    18.2340735716,
+    51.2758526529,
+    21.8104034634,
+    51.2865602274
   ],
   "description": "An ancient Slavonic people who settled in the area north of the Carpathian mountains from the 5th century CE onward.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          51.5
+          20.0222539015,
+          51.2835733934
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              51.0
+              18.23407357159573,
+              51.27942184438649
             ],
             [
-              18.0,
-              52.0
+              18.819420979029985,
+              51.282991035895236
             ],
             [
-              19.0,
-              52.0
+              19.27984668365815,
+              51.28656022740398
             ],
             [
-              19.0,
-              51.0
+              19.77596430337377,
+              51.28656022740398
             ],
             [
-              18.0,
-              51.0
+              20.26137434856315,
+              51.282991035895236
+            ],
+            [
+              20.736076819226298,
+              51.28656022740398
+            ],
+            [
+              21.232194438941917,
+              51.282991035895236
+            ],
+            [
+              21.810403463358682,
+              51.275852652877745
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/128508/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/128508/batlas-map-label-location"
       }
     }
   ]

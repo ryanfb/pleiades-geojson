@@ -3,10 +3,10 @@
   "title": "Bastetania",
   "id": "265822",
   "bbox": [
-    -3.0,
-    37.0,
-    -2.0,
-    38.0
+    -2.57838499595,
+    37.8802581947,
+    -1.76460933195,
+    37.8873965778
   ],
   "description": "An ancient place, cited: BAtlas 27 C4 Bastetania",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          37.5
+          -2.17149716395,
+          37.8838273863
         ]
       },
       "properties": {
@@ -30,39 +30,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              37.0
+              -2.578384995946781,
+              37.880258194745466
             ],
             [
-              -3.0,
-              38.0
-            ],
-            [
-              -2.0,
-              38.0
-            ],
-            [
-              -2.0,
-              37.0
-            ],
-            [
-              -3.0,
-              37.0
+              -1.764609331952825,
+              37.887396577762956
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/265822/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/265822/batlas-map-label-location"
       }
     }
   ]

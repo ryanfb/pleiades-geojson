@@ -3,10 +3,10 @@
   "title": "Falernus Ager",
   "id": "432828",
   "bbox": [
-    13.923,
-    41.171,
-    14.05906,
-    41.184992
+    13.9374944078,
+    41.1860939837,
+    14.0314831175,
+    41.205724537
   ],
   "description": "The Ager Falernus comprised the northern portion of Campania from the Massican hills to the Vulturnus river. The area was celebrated for its fertility and, in particular, for its wines.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.0585391379,
-          41.1846870819
+          13.984144082,
+          41.1944852125
         ]
       },
       "properties": {
@@ -32,39 +32,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              41.0
+              13.93749440780175,
+              41.20572453704267
             ],
             [
-              13.5,
-              41.5
+              13.95236603908819,
+              41.20037074977955
             ],
             [
-              14.0,
-              41.5
+              13.966047939871714,
+              41.19769385614802
             ],
             [
-              14.0,
-              41.0
+              13.97883754277808,
+              41.19501696251643
             ],
             [
-              13.5,
-              41.0
+              13.991032280432933,
+              41.192042636259146
+            ],
+            [
+              14.005011613842214,
+              41.19055547313053
+            ],
+            [
+              14.016908918871366,
+              41.1884734447504
+            ],
+            [
+              14.031483117532048,
+              41.18609398374457
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432828/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432828/batlas-map-label-location"
       }
     }
   ]

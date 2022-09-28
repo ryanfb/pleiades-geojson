@@ -3,10 +3,10 @@
   "title": "Syrastrene",
   "id": "50291",
   "bbox": [
-    65.0,
-    20.0,
-    70.0,
-    25.0
+    69.7293798997,
+    21.0553597274,
+    71.8209261238,
+    21.690675816
   ],
   "description": "An ancient place, cited: BAtlas 5 B2 Syrastrene",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          22.5
+          70.7164305626,
+          21.2184709545
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              65.0,
-              20.0
+              69.72937989966624,
+              21.690675815993472
             ],
             [
-              65.0,
-              25.0
+              69.95780815622595,
+              21.455109176416272
             ],
             [
-              70.0,
-              25.0
+              70.11485258261075,
+              21.326618282101435
             ],
             [
-              70.0,
-              20.0
+              70.34328083917046,
+              21.183850621751617
             ],
             [
-              65.0,
-              20.0
+              70.56457071271268,
+              21.105328408559217
+            ],
+            [
+              70.75730705418493,
+              21.06249811045427
+            ],
+            [
+              71.00001207677963,
+              21.05535972743678
+            ],
+            [
+              71.29982416351424,
+              21.091051642524235
+            ],
+            [
+              71.4925605049865,
+              21.12674355761169
+            ],
+            [
+              71.82092612379108,
+              21.233819302874053
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/50291/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/50291/batlas-map-label-location"
       }
     }
   ]

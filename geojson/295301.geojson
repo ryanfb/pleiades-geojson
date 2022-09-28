@@ -3,10 +3,10 @@
   "title": "Machousioi",
   "id": "295301",
   "bbox": [
-    1.5,
-    36.0,
-    2.0,
-    36.5
+    1.7698756029,
+    36.4803869816,
+    1.99566254784,
+    36.4826493182
   ],
   "description": "An ancient place, cited: BAtlas 30 C4 Machousioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.75,
-          36.25
+          1.88276152588,
+          36.4815822197
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.5,
-              36.0
+              1.769875602903417,
+              36.480442053835496
             ],
             [
-              1.5,
-              36.5
+              1.809836786223486,
+              36.48064673031023
             ],
             [
-              2.0,
-              36.5
+              1.831275126366235,
+              36.480386981644166
             ],
             [
-              2.0,
-              36.0
+              1.852823674307377,
+              36.48191132103205
             ],
             [
-              1.5,
-              36.0
+              1.880203055067781,
+              36.48200105800466
+            ],
+            [
+              1.905368568857787,
+              36.48217468202955
+            ],
+            [
+              1.928282927796105,
+              36.481837635988605
+            ],
+            [
+              1.943079575481391,
+              36.48182933938676
+            ],
+            [
+              1.962341541770449,
+              36.48223299337723
+            ],
+            [
+              1.995662547840027,
+              36.48264931815608
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295301/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/295301/batlas-map-label-location"
       }
     }
   ]

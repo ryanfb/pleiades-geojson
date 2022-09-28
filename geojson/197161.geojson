@@ -3,10 +3,10 @@
   "title": "Bathiatai",
   "id": "197161",
   "bbox": [
-    17.0,
-    43.0,
-    18.0,
-    44.0
+    17.698710877,
+    43.9205286608,
+    18.2812029313,
+    44.1737033118
   ],
   "description": "An ancient place, cited: BAtlas 20 E6 Bathiatai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          43.5
+          17.9880735096,
+          44.051414105
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              43.0
+              17.69871087703052,
+              43.920528660759715
             ],
             [
-              17.0,
-              44.0
+              17.79198574845907,
+              43.9671660964741
             ],
             [
-              18.0,
-              44.0
+              17.85575530341532,
+              43.99381605973929
             ],
             [
-              18.0,
-              43.0
+              17.92713913359023,
+              44.026176729418694
             ],
             [
-              17.0,
-              43.0
+              17.989956904144208,
+              44.05473026148866
+            ],
+            [
+              18.052774674698014,
+              44.08042844035157
+            ],
+            [
+              18.112737092044995,
+              44.10803018801914
+            ],
+            [
+              18.180313784610632,
+              44.13468015128444
+            ],
+            [
+              18.281202931257724,
+              44.17370331178017
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197161/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197161/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Bedunienses",
   "id": "236365",
   "bbox": [
-    -6.0,
-    42.0,
-    -5.0,
-    43.0
+    -5.77567007529,
+    42.2354625185,
+    -5.53010969949,
+    42.2754374634
   ],
   "description": "An ancient place, cited: BAtlas 24 F2 Bedunienses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5,
-          42.5
+          -5.65296743874,
+          42.256446307
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.0,
-              42.0
+              -5.775670075294613,
+              42.23546251851326
             ],
             [
-              -6.0,
-              43.0
+              -5.738550483603603,
+              42.244028578134134
             ],
             [
-              -5.0,
-              43.0
+              -5.717135334551131,
+              42.245456254737746
             ],
             [
-              -5.0,
-              42.0
+              -5.690009479084722,
+              42.251166961151625
             ],
             [
-              -6.0,
-              42.0
+              -5.667166653428694,
+              42.25544999096229
+            ],
+            [
+              -5.645751504376221,
+              42.26116069737617
+            ],
+            [
+              -5.627191708530802,
+              42.26116069737617
+            ],
+            [
+              -5.607204236081827,
+              42.26116069737617
+            ],
+            [
+              -5.580078380615305,
+              42.26829908039366
+            ],
+            [
+              -5.565801614580323,
+              42.26829908039366
+            ],
+            [
+              -5.530109699492868,
+              42.27543746341115
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236365/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236365/batlas-map-label-location"
       }
     }
   ]

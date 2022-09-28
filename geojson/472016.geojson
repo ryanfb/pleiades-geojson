@@ -3,10 +3,10 @@
   "title": "Semilitenses",
   "id": "472016",
   "bbox": [
-    8.0,
-    39.0,
-    9.0,
-    40.0
+    8.92212941943,
+    39.6192239868,
+    9.12557333543,
+    39.6213655017
   ],
   "description": "An ancient people of Sardinia thought to have been localized in the southwest portion of the island.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          39.5
+          9.02384522858,
+          39.6204388259
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              39.0
+              8.922129419432522,
+              39.619223986761554
             ],
             [
-              8.0,
-              40.0
+              8.950682951502486,
+              39.619223986761554
             ],
             [
-              9.0,
-              40.0
+              8.969956585649712,
+              39.62065166336505
             ],
             [
-              9.0,
-              39.0
+              8.991371734702184,
+              39.6213655016668
             ],
             [
-              8.0,
-              39.0
+              9.000651632624923,
+              39.62065166336505
+            ],
+            [
+              9.017069913565152,
+              39.6213655016668
+            ],
+            [
+              9.030632841298385,
+              39.6213655016668
+            ],
+            [
+              9.047051122238612,
+              39.6213655016668
+            ],
+            [
+              9.066324756385837,
+              39.6199378250633
+            ],
+            [
+              9.082743037326066,
+              39.6199378250633
+            ],
+            [
+              9.102016671473292,
+              39.62065166336505
+            ],
+            [
+              9.125573335431012,
+              39.6199378250633
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472016/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472016/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Tarauna",
   "id": "874715",
   "bbox": [
-    41.0,
-    38.0,
-    42.0,
-    39.0
+    41.3295116763,
+    38.8698160091,
+    41.7064182996,
+    38.8740990389
   ],
   "description": "An ancient place, cited: BAtlas 89 D2 Tarauna",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          38.5
+          41.5179649879,
+          38.871957524
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              38.0
+              41.32951167625106,
+              38.86981600910379
             ],
             [
-              41.0,
-              39.0
-            ],
-            [
-              42.0,
-              39.0
-            ],
-            [
-              42.0,
-              38.0
-            ],
-            [
-              41.0,
-              38.0
+              41.70641829957458,
+              38.87409903891429
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874715/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874715/batlas-map-label-location"
       }
     }
   ]

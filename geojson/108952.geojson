@@ -3,10 +3,10 @@
   "title": "Eburones",
   "id": "108952",
   "bbox": [
-    5.464831,
-    50.732632,
-    7.096251,
-    50.780857
+    6.17652274956,
+    50.5405486385,
+    6.82183257435,
+    50.8974677894
   ],
   "description": "The Eburones were an ancient people of Gallia Belgica.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.280541,
-          50.7567445
+          6.51594492542,
+          50.6911455957
         ]
       },
       "properties": {
@@ -32,39 +32,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              50.0
+              6.17652274956464,
+              50.54054863852997
             ],
             [
-              6.0,
-              51.0
+              6.309296673689971,
+              50.58623428984174
             ],
             [
-              7.0,
-              51.0
+              6.413517065745282,
+              50.62906458794669
             ],
             [
-              7.0,
-              50.0
+              6.502033015162226,
+              50.66475650303414
             ],
             [
-              6.0,
-              50.0
+              6.591976641182555,
+              50.71044215434614
+            ],
+            [
+              6.671926530978567,
+              50.76326618867563
+            ],
+            [
+              6.744738037756917,
+              50.818945576212116
+            ],
+            [
+              6.821832574345876,
+              50.897467789404516
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108952/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108952/batlas-map-label-location"
       }
     }
   ]

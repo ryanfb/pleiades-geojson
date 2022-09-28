@@ -3,10 +3,10 @@
   "title": "Kokysion (mountain)",
   "id": "648678",
   "bbox": [
-    33.5,
-    36.0,
-    34.0,
-    36.5
+    33.8783449924,
+    36.389653965,
+    33.9343812991,
+    36.3939369948
   ],
   "description": "The acropolis of Seleucia ad Calycadnum.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75,
-          36.25
+          33.9062826562,
+          36.390912001
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.5,
-              36.0
+              33.878344992449684,
+              36.39393699477097
             ],
             [
-              33.5,
-              36.5
+              33.89190792018297,
+              36.3914385607149
             ],
             [
-              34.0,
-              36.5
+              33.899403222351225,
+              36.39108164156414
             ],
             [
-              34.0,
-              36.0
+              33.90868312027402,
+              36.39072472241321
             ],
             [
-              33.5,
-              36.0
+              33.918676856498564,
+              36.38965396496053
+            ],
+            [
+              33.92652907781775,
+              36.38965396496053
+            ],
+            [
+              33.93438129913699,
+              36.38965396496053
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648678/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648678/batlas-map-label-location"
       }
     }
   ]

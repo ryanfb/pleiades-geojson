@@ -3,10 +3,10 @@
   "title": "Endirudini",
   "id": "197261",
   "bbox": [
-    18.0,
-    42.0,
-    19.0,
-    43.0
+    18.685836224,
+    42.6283464985,
+    18.9802945234,
+    42.8841385566
   ],
   "description": "An ancient place, cited: BAtlas 20 F7 Endirudini",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.5,
-          42.5
+          18.8285597023,
+          42.7512784086
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              18.0,
-              42.0
+              18.685836223951753,
+              42.884138556597065
             ],
             [
-              18.0,
-              43.0
+              18.735210039822732,
+              42.830005818714426
             ],
             [
-              19.0,
-              43.0
+              18.76733276340144,
+              42.798477960387174
             ],
             [
-              19.0,
-              42.0
+              18.791722238711202,
+              42.77765767658616
             ],
             [
-              18.0,
-              42.0
+              18.81432711826659,
+              42.75802712328806
+            ],
+            [
+              18.847639572348214,
+              42.73244791747538
+            ],
+            [
+              18.88095202642984,
+              42.705084115908335
+            ],
+            [
+              18.908910693248345,
+              42.68426383210732
+            ],
+            [
+              18.93686936006685,
+              42.66165895255193
+            ],
+            [
+              18.980294523423254,
+              42.62834649847031
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197261/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197261/batlas-map-label-location"
       }
     }
   ]

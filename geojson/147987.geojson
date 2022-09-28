@@ -3,10 +3,10 @@
   "title": "Albici",
   "id": "147987",
   "bbox": [
-    5.0,
-    43.5,
-    5.5,
-    44.0
+    5.21828851647,
+    43.9368639341,
+    5.39817576851,
+    43.9930192138
   ],
   "description": "An ancient place, cited: BAtlas 15 E2 Albici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.25,
-          43.75
+          5.30716373861,
+          43.9682432659
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              43.5
+              5.218288516470579,
+              43.936863934065684
             ],
             [
-              5.0,
-              44.0
+              5.262070598977971,
+              43.95494783770994
             ],
             [
-              5.5,
-              44.0
+              5.29347948425476,
+              43.967321034940255
             ],
             [
-              5.5,
-              43.5
+              5.319177663117898,
+              43.97398352575658
             ],
             [
-              5.0,
-              43.5
+              5.355345470406348,
+              43.982549585377456
+            ],
+            [
+              5.398175768511294,
+              43.99301921380322
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/147987/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/147987/batlas-map-label-location"
       }
     }
   ]

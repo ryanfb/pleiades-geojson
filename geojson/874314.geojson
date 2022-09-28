@@ -3,10 +3,10 @@
   "title": "Alarodioi",
   "id": "874314",
   "bbox": [
-    42.0,
-    38.0,
-    43.0,
-    39.0
+    42.1832840114,
+    38.9159194161,
+    43.5633713948,
+    39.1871779707
   ],
   "description": "An ancient place, cited: BAtlas 89 E2 Alarodioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          38.5
+          42.8636685044,
+          39.1004026273
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              38.0
+              42.1832840113852,
+              38.91591941606212
             ],
             [
-              42.0,
-              39.0
+              42.35460520380498,
+              38.98968270724286
             ],
             [
-              43.0,
-              39.0
+              42.51640855220144,
+              39.04203084937112
             ],
             [
-              43.0,
-              38.0
+              42.692488666632876,
+              39.0872406084819
             ],
             [
-              42.0,
-              38.0
+              42.86380985905266,
+              39.122932523569354
+            ],
+            [
+              43.04464889549576,
+              39.14910659463349
+            ],
+            [
+              43.220729009927204,
+              39.18241904871511
+            ],
+            [
+              43.375393975306174,
+              39.18717797072677
+            ],
+            [
+              43.56337139476677,
+              39.18717797072677
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874314/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874314/batlas-map-label-location"
       }
     }
   ]

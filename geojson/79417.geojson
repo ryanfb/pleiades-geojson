@@ -3,10 +3,10 @@
   "title": "Demetai",
   "id": "79417",
   "bbox": [
-    -4.310541,
-    51.856406,
-    -4.2964,
-    51.8621
+    -4.67440835362,
+    51.9767417295,
+    -4.12903589108,
+    51.982452436
   ],
   "description": "An Iron Age Celtic people who inhabited modern Pembrokeshire and Carmarthenshire in south-west Wales.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.3034705,
-          51.859253
+          -4.40172277447,
+          51.9797447025
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              51.0
+              -4.674408353620493,
+              51.976741729544756
             ],
             [
-              -5.0,
-              52.0
+              -4.565904931754631,
+              51.9781694061482
             ],
             [
-              -4.0,
-              52.0
+              -4.470250599320195,
+              51.97959708275181
             ],
             [
-              -4.0,
-              51.0
+              -4.381734649903365,
+              51.97959708275181
             ],
             [
-              -5.0,
-              51.0
+              -4.306067789917904,
+              51.98102475935525
+            ],
+            [
+              -4.233256283139497,
+              51.98102475935525
+            ],
+            [
+              -4.129035891084186,
+              51.982452435958635
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79417/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79417/batlas-map-label-location"
       }
     }
   ]

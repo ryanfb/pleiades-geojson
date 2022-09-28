@@ -3,10 +3,10 @@
   "title": "Taurisci",
   "id": "197545",
   "bbox": [
-    14.0,
-    46.0,
-    15.0,
-    47.0
+    14.2064760944,
+    46.2136360524,
+    16.1695314242,
+    46.3754394008
   ],
   "description": "An ancient place, cited: BAtlas 20 B3 Taurisci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          46.5
+          15.1890464195,
+          46.3249991658
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              46.0
+              14.206476094424033,
+              46.24694850644386
             ],
             [
-              14.0,
-              47.0
+              14.292136690633924,
+              46.27312257750799
             ],
             [
-              15.0,
-              47.0
+              14.553877401275258,
+              46.32785018064209
             ],
             [
-              15.0,
-              46.0
+              14.813238650910762,
+              46.36592155673537
             ],
             [
-              14.0,
-              46.0
+              15.089256127587078,
+              46.375439400758694
+            ],
+            [
+              15.33909953319926,
+              46.36354209572954
+            ],
+            [
+              15.591322399817273,
+              46.33736802466541
+            ],
+            [
+              15.843545266435285,
+              46.301676109577954
+            ],
+            [
+              16.086250289029977,
+              46.239810123426366
+            ],
+            [
+              16.169531424234037,
+              46.21363605236223
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197545/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197545/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Onesi",
   "id": "246533",
   "bbox": [
-    0.0,
-    42.0,
-    1.0,
-    43.0
+    0.412686394162,
+    42.8572265505,
+    0.676806565809,
+    42.8596060115
   ],
   "description": "An ancient place, cited: BAtlas 25 F3 Onesi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5,
-          42.5
+          0.544746479985,
+          42.858416281
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              0.0,
-              42.0
+              0.412686394161586,
+              42.85960601152495
             ],
             [
-              0.0,
-              43.0
-            ],
-            [
-              1.0,
-              43.0
-            ],
-            [
-              1.0,
-              42.0
-            ],
-            [
-              0.0,
-              42.0
+              0.676806565808748,
+              42.85722655051912
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246533/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246533/batlas-map-label-location"
       }
     }
   ]

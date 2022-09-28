@@ -3,10 +3,10 @@
   "title": "Laia/Aphrodites Nesos",
   "id": "373837",
   "bbox": [
-    22.0,
-    32.0,
-    23.0,
-    33.0
+    22.4907351571,
+    32.8427159507,
+    22.6891822049,
+    32.8448574656
   ],
   "description": "An ancient place, cited: BAtlas 38 D1 Laia/Aphrodites Nesos",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.5,
-          32.5
+          22.5899506322,
+          32.8438199796
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              32.0
+              22.490735157050608,
+              32.843429788970695
             ],
             [
-              22.0,
-              33.0
+              22.509294952896198,
+              32.843429788970695
             ],
             [
-              23.0,
-              33.0
+              22.520716365724184,
+              32.842715950669
             ],
             [
-              23.0,
-              32.0
+              22.542131514776656,
+              32.842715950669
             ],
             [
-              22.0,
-              32.0
+              22.566402017036125,
+              32.842715950669
+            ],
+            [
+              22.60209393212358,
+              32.844143627272615
+            ],
+            [
+              22.630647464193544,
+              32.84485746557431
+            ],
+            [
+              22.663484026074002,
+              32.84485746557431
+            ],
+            [
+              22.689182204936913,
+              32.84485746557431
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373837/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373837/batlas-map-label-location"
       }
     }
   ]

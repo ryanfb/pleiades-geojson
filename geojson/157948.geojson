@@ -3,10 +3,10 @@
   "title": "Vesubiani",
   "id": "157948",
   "bbox": [
-    7.0,
-    44.0,
-    7.5,
-    44.5
+    7.26051126543,
+    43.8831041221,
+    7.31000405435,
+    44.0858341998
   ],
   "description": "An ancient place, cited: BAtlas 16 D1 Vesubiani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          44.25
+          7.29567966769,
+          43.9883261832
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              44.0
+              7.260511265433308,
+              44.08583419980198
             ],
             [
-              7.0,
-              44.5
+              7.281450522284558,
+              44.06203958974368
             ],
             [
-              7.5,
-              44.5
+              7.298582641526593,
+              44.03348605767371
             ],
             [
-              7.5,
-              44.0
+              7.308100485549915,
+              44.00969144761541
             ],
             [
-              7.0,
-              44.0
+              7.310004054354522,
+              43.98494505315466
+            ],
+            [
+              7.309052269952133,
+              43.96019865869414
+            ],
+            [
+              7.302389779135865,
+              43.94306653945216
+            ],
+            [
+              7.296679072721815,
+              43.91927192939386
+            ],
+            [
+              7.28525765989383,
+              43.88310412210518
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157948/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157948/batlas-map-label-location"
       }
     }
   ]
