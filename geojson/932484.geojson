@@ -3,10 +3,10 @@
   "title": "Thilouanoi",
   "id": "932484",
   "bbox": [
-    50.0,
-    26.0,
-    51.0,
-    27.0
+    50.4936389613,
+    26.0243918163,
+    50.5792995575,
+    26.1891694909
   ],
   "description": "An ancient place, cited: BAtlas 95 C3 Thilouanoi",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.5,
-          26.5
+          50.5386958011,
+          26.1078841507
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              50.0,
-              26.0
+              50.49363896130711,
+              26.189169490914935
             ],
             [
-              50.0,
-              27.0
+              50.507915727342095,
+              26.16596974610809
             ],
             [
-              51.0,
-              27.0
+              50.51683870611396,
+              26.149908384318508
             ],
             [
-              51.0,
-              26.0
+              50.522787358628534,
+              26.140390540295186
             ],
             [
-              50.0,
-              26.0
+              50.53408979840623,
+              26.11957025649417
+            ],
+            [
+              50.54360764242955,
+              26.10053456844753
+            ],
+            [
+              50.5513408906985,
+              26.08804239816692
+            ],
+            [
+              50.559074138967446,
+              26.072575901629023
+            ],
+            [
+              50.56561765673348,
+              26.052350483079465
+            ],
+            [
+              50.579299557517004,
+              26.02439181626096
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932484/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/932484/batlas-map-label-location"
       }
     }
   ]

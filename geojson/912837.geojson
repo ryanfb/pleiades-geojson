@@ -3,10 +3,10 @@
   "title": "Dilmun (region)",
   "id": "912837",
   "bbox": [
-    47.915846,
-    26.1413484,
-    50.5168851,
-    29.391507
+    48.0487626067,
+    29.3757089694,
+    48.3818871475,
+    29.3814196759
   ],
   "description": "An ancient region near the Persian Gulf that likely encompassed Bahrain, Kuwait, Qatar, and the eastern portion of Saudi Arabia.",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.5114679102,
-          26.1480163786
+          48.215374528,
+          29.3794556861
         ]
       },
       "properties": {
@@ -30,39 +30,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              48.0,
-              29.0
+              48.04876260665799,
+              29.37951610705943
             ],
             [
-              48.0,
-              30.0
+              48.12871249645383,
+              29.377612538254652
             ],
             [
-              49.0,
-              30.0
+              48.16868744135189,
+              29.37951610705943
             ],
             [
-              49.0,
-              29.0
+              48.23340878071053,
+              29.381419675864038
             ],
             [
-              48.0,
-              29.0
+              48.29432298245973,
+              29.381419675864038
+            ],
+            [
+              48.38188714747423,
+              29.375708969449988
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/912837/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/912837/batlas-map-label-location"
       }
     }
   ]

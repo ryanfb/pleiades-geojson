@@ -3,10 +3,10 @@
   "title": "Tauroskythai",
   "id": "226780",
   "bbox": [
-    33.0,
-    44.0,
-    34.0,
-    45.0
+    33.6219432133,
+    44.7856691104,
+    33.6942788279,
+    45.0740597843
   ],
   "description": "An ancient place, cited: BAtlas 23 G4 Tauroskythai",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.5,
-          44.5
+          33.6669815789,
+          44.9276638189
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              44.0
+              33.62194321330048,
+              44.78566911039508
             ],
             [
-              33.0,
-              45.0
+              33.637171763737854,
+              44.81993334887909
             ],
             [
-              34.0,
-              45.0
+              33.645737823358786,
+              44.847535096546665
             ],
             [
-              34.0,
-              44.0
+              33.65430388297989,
+              44.867522568995696
             ],
             [
-              33.0,
-              44.0
+              33.66477351140543,
+              44.89893145427254
+            ],
+            [
+              33.667628864612425,
+              44.913208220307524
+            ],
+            [
+              33.67429135542875,
+              44.93605104596355
+            ],
+            [
+              33.68190563064741,
+              44.96650814683818
+            ],
+            [
+              33.68476098385446,
+              44.98744740368943
+            ],
+            [
+              33.68666455265907,
+              45.014097366954786
+            ],
+            [
+              33.69142347467073,
+              45.0369401926107
+            ],
+            [
+              33.69427882787778,
+              45.07405978430171
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226780/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226780/batlas-map-label-location"
       }
     }
   ]

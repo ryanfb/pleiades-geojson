@@ -3,10 +3,10 @@
   "title": "Aspourgianoi",
   "id": "854667",
   "bbox": [
-    36.5,
-    45.0,
-    37.0,
-    45.5
+    36.9155104681,
+    45.200343107,
+    37.076124086,
+    45.2017707836
   ],
   "description": "An ancient place, cited: BAtlas 87 L2 Aspourgianoi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          45.25
+          36.9958172771,
+          45.2010569453
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.5,
-              45.0
+              36.91551046810891,
+              45.20177078362937
             ],
             [
-              36.5,
-              45.5
-            ],
-            [
-              37.0,
-              45.5
-            ],
-            [
-              37.0,
-              45.0
-            ],
-            [
-              36.5,
-              45.0
+              37.07612408600245,
+              45.20034310702587
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/854667/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/854667/batlas-map-label-location"
       }
     }
   ]

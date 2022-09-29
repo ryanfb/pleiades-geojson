@@ -3,10 +3,10 @@
   "title": "Regio Statana?",
   "id": "433065",
   "bbox": [
-    13.5,
-    41.0,
-    14.0,
-    41.5
+    13.9344368004,
+    41.2167890307,
+    14.096716041,
+    41.2177408151
   ],
   "description": "An ancient place, cited: BAtlas 44 E3 Regio Statana?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.75,
-          41.25
+          14.0155756412,
+          41.2172851674
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.5,
-              41.0
+              13.93443680040923,
+              41.21726492292089
             ],
             [
-              13.5,
-              41.5
+              13.954900165059485,
+              41.21726492292089
             ],
             [
-              14.0,
-              41.5
+              13.969652823295462,
+              41.21726492292089
             ],
             [
-              14.0,
-              41.0
+              13.980122451721229,
+              41.21774081512211
             ],
             [
-              13.5,
-              41.0
+              13.991067972347935,
+              41.21774081512211
+            ],
+            [
+              13.99773046316443,
+              41.21726492292089
+            ],
+            [
+              14.00820009158997,
+              41.21726492292089
+            ],
+            [
+              14.019145612216903,
+              41.21726492292089
+            ],
+            [
+              14.02913934844122,
+              41.21726492292089
+            ],
+            [
+              14.041036653470371,
+              41.21726492292089
+            ],
+            [
+              14.052933958499523,
+              41.21678903071967
+            ],
+            [
+              14.066258940132286,
+              41.21726492292089
+            ],
+            [
+              14.078156245161438,
+              41.21726492292089
+            ],
+            [
+              14.096716041006914,
+              41.21726492292089
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/433065/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/433065/batlas-map-label-location"
       }
     }
   ]

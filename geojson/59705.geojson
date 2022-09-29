@@ -3,10 +3,10 @@
   "title": "Ārjunāyanas",
   "id": "59705",
   "bbox": [
-    75.0,
-    25.0,
-    80.0,
-    30.0
+    75.8711256749,
+    27.4118518584,
+    76.9418831275,
+    27.8544316055
   ],
   "description": "An ancient place, cited: BAtlas 6 D4 Ārjunāyanas",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          27.5
+          76.3949794292,
+          27.6075119354
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              25.0
+              75.87112567486525,
+              27.85443160549636
             ],
             [
-              75.0,
-              30.0
+              75.99009872515677,
+              27.77352993129813
             ],
             [
-              80.0,
-              30.0
+              76.06624147734334,
+              27.730699633193183
             ],
             [
-              80.0,
-              25.0
+              76.16617883958821,
+              27.687869335088237
             ],
             [
-              75.0,
-              25.0
+              76.28515188987973,
+              27.64028011497163
+            ],
+            [
+              76.3850892521246,
+              27.606967660890007
+            ],
+            [
+              76.48026769235781,
+              27.568896284796722
+            ],
+            [
+              76.57544613259103,
+              27.530824908703437
+            ],
+            [
+              76.6753834948359,
+              27.48799461059849
+            ],
+            [
+              76.78959762311575,
+              27.454682156516867
+            ],
+            [
+              76.9418831274889,
+              27.41185185841192
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59705/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59705/batlas-map-label-location"
       }
     }
   ]

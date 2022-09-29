@@ -3,10 +3,10 @@
   "title": "Trump(i)lini",
   "id": "383805",
   "bbox": [
-    10.0,
-    45.5,
-    10.5,
-    46.0
+    10.212859466,
+    45.6900310558,
+    10.3746628144,
+    45.9119157946
   ],
   "description": "An alpine people dwelling in the area of Brixia; the name is connected to the Val Trompia.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.25,
-          45.75
+          10.2845922621,
+          45.8076583701
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              45.5
+              10.212859466022564,
+              45.690031055809925
             ],
             [
-              10.0,
-              46.0
+              10.225946501554631,
+              45.72036918363426
             ],
             [
-              10.5,
-              46.0
+              10.237843806583783,
+              45.744163793692564
             ],
             [
-              10.5,
-              45.5
+              10.251525707367307,
+              45.76914813425378
             ],
             [
-              10.0,
-              45.5
+              10.266397338653746,
+              45.792942744312086
+            ],
+            [
+              10.290786813963507,
+              45.82387573738788
+            ],
+            [
+              10.311012232513065,
+              45.85064467370347
+            ],
+            [
+              10.330642785811165,
+              45.8726546880074
+            ],
+            [
+              10.347893878103434,
+              45.88693145404238
+            ],
+            [
+              10.374662814419025,
+              45.9119157946036
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383805/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383805/batlas-map-label-location"
       }
     }
   ]

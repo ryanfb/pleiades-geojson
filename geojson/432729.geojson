@@ -3,10 +3,10 @@
   "title": "Caecubus Ager",
   "id": "432729",
   "bbox": [
-    13.0,
-    41.0,
-    13.5,
-    41.5
+    13.3062491804,
+    41.3040121397,
+    13.4133249257,
+    41.3201924745
   ],
   "description": "A tract of Latium that bordered the Gulf of Amyclae, lying in the territory of Fundi.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.25,
-          41.25
+          13.3593569613,
+          41.3093508246
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              13.0,
-              41.0
+              13.3062491804493,
+              41.320192474496594
             ],
             [
-              13.0,
-              41.5
+              13.324808976294719,
+              41.31495766028371
             ],
             [
-              13.5,
-              41.5
+              13.340513418933142,
+              41.31067463047327
             ],
             [
-              13.5,
-              41.0
+              13.353362508364683,
+              41.30829516946744
             ],
             [
-              13.0,
-              41.0
+              13.368115166600887,
+              41.30686749286383
+            ],
+            [
+              13.383343717038088,
+              41.304963924059166
+            ],
+            [
+              13.400475836280066,
+              41.304963924059166
+            ],
+            [
+              13.413324925711663,
+              41.30401213965695
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432729/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432729/batlas-map-label-location"
       }
     }
   ]

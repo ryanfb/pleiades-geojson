@@ -3,10 +3,10 @@
   "title": "Pleutauroi?",
   "id": "236605",
   "bbox": [
-    -4.0,
-    43.0,
-    -3.0,
-    44.0
+    -3.91336112447,
+    42.9591041996,
+    -3.67184583238,
+    43.0661799449
   ],
   "description": "An ancient place, cited: BAtlas 24 H1 Pleutauroi?",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5,
-          43.5
+          -3.79083884293,
+          43.0085730841
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              43.0
+              -3.913361124471521,
+              42.95910419960637
             ],
             [
-              -4.0,
-              44.0
+              -3.875289748378236,
+              42.96981177413261
             ],
             [
-              -3.0,
-              44.0
+              -3.851495138319933,
+              42.980519348658845
             ],
             [
-              -3.0,
-              43.0
+              -3.828890258764545,
+              42.99122692318508
             ],
             [
-              -4.0,
-              43.0
+              -3.803905918203327,
+              43.0007447672084
+            ],
+            [
+              -3.777731847139194,
+              43.01145234173464
+            ],
+            [
+              -3.759885889595466,
+              43.022159916260875
+            ],
+            [
+              -3.737281010040078,
+              43.03286749078711
+            ],
+            [
+              -3.717055591490521,
+              43.04238533481043
+            ],
+            [
+              -3.696830172940963,
+              43.05071344833084
+            ],
+            [
+              -3.671845832379745,
+              43.066179944868736
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236605/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236605/batlas-map-label-location"
       }
     }
   ]

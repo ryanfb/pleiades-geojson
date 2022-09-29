@@ -3,10 +3,10 @@
   "title": "Aphrodisias/Erythea/Iunonis (island)",
   "id": "255978",
   "bbox": [
-    -6.294444,
-    36.528381,
-    -6.292458,
-    36.529729
+    -6.63186186697,
+    36.5042672298,
+    -6.35287006404,
+    36.5072415561
   ],
   "description": "A small, ancient island off the southwest coast of the Iberian peninsula where the core of the ancient city of Gades (modern Cádiz) was located. It is now joined to the modern Cádiz peninsula.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.29312066667,
-          36.5292776667
+          -6.49237261845,
+          36.5058084186
         ]
       },
       "properties": {
@@ -33,39 +33,107 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              36.0
+              -6.63186186697277,
+              36.505456960300876
             ],
             [
-              -7.0,
-              37.0
+              -6.604498065405721,
+              36.505456960300876
             ],
             [
-              -6.0,
-              37.0
+              -6.5949802213824,
+              36.505456960300876
             ],
             [
-              -6.0,
-              36.0
+              -6.584272646856164,
+              36.505456960300876
             ],
             [
-              -7.0,
-              36.0
+              -6.570590746072639,
+              36.50426722979796
+            ],
+            [
+              -6.558693441043488,
+              36.50426722979796
+            ],
+            [
+              -6.549770462271624,
+              36.50426722979796
+            ],
+            [
+              -6.543821809757048,
+              36.505456960300876
+            ],
+            [
+              -6.53846802249393,
+              36.50605182555233
+            ],
+            [
+              -6.527165582716236,
+              36.50605182555233
+            ],
+            [
+              -6.515268277687085,
+              36.50605182555233
+            ],
+            [
+              -6.508724759921051,
+              36.50605182555233
+            ],
+            [
+              -6.492068532880239,
+              36.50605182555233
+            ],
+            [
+              -6.47957636259963,
+              36.50605182555233
+            ],
+            [
+              -6.469463653324851,
+              36.50605182555233
+            ],
+            [
+              -6.452807426284039,
+              36.50664669080379
+            ],
+            [
+              -6.440910121254888,
+              36.50664669080379
+            ],
+            [
+              -6.421874433208245,
+              36.50724155605525
+            ],
+            [
+              -6.411166858682009,
+              36.50724155605525
+            ],
+            [
+              -6.386777383372248,
+              36.50605182555233
+            ],
+            [
+              -6.375474943594554,
+              36.50486209504942
+            ],
+            [
+              -6.352870064039166,
+              36.50486209504942
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/255978/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/255978/batlas-map-label-location"
       }
     }
   ]

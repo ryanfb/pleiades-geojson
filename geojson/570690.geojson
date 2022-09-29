@@ -3,10 +3,10 @@
   "title": "Stenykleros",
   "id": "570690",
   "bbox": [
-    21.5,
-    37.0,
-    22.0,
-    37.5
+    21.972415569,
+    37.1839101205,
+    22.0170304629,
+    37.2545801124
   ],
   "description": "An ancient place, cited: BAtlas 58 B3 Stenykleros",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.25
+          21.997165214,
+          37.2206968134
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.0
+              21.972415569006444,
+              37.25458011236054
             ],
             [
-              21.5,
-              37.5
+              21.979910871174695,
+              37.2467278910413
             ],
             [
-              22.0,
-              37.5
+              21.98455082013612,
+              37.2399464271748
             ],
             [
-              22.0,
-              37.0
+              21.99026152655017,
+              37.23280804415731
             ],
             [
-              21.5,
-              37.0
+              21.994901475511597,
+              37.22602658029058
+            ],
+            [
+              21.99668607126597,
+              37.222814307932765
+            ],
+            [
+              22.001682939378156,
+              37.21496208661358
+            ],
+            [
+              22.007393645792206,
+              37.20782370359609
+            ],
+            [
+              22.01060591815002,
+              37.2006853205786
+            ],
+            [
+              22.013461271357016,
+              37.19461769501356
+            ],
+            [
+              22.017030462865762,
+              37.183910120487326
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570690/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570690/batlas-map-label-location"
       }
     }
   ]

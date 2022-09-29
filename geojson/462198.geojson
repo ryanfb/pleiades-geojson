@@ -3,12 +3,12 @@
   "title": "Epipolai",
   "id": "462198",
   "bbox": [
-    15.0,
-    37.0,
-    15.5,
-    37.5
+    15.2588045003,
+    37.0935817377,
+    15.2917008778,
+    37.0937519216
   ],
-  "description": "An ancient place, cited: BAtlas 47 G4 Epipolai",
+  "description": "A substantial plateau that is roughly triangular in shape and extends to the north and west of Syracuse.",
   "connectsWith": [
     "462492"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.25,
-          37.25
+          15.275252689,
+          37.0936668296
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              15.0,
-              37.0
+              15.25880450027851,
+              37.09375192161477
             ],
             [
-              15.0,
-              37.5
-            ],
-            [
-              15.5,
-              37.5
-            ],
-            [
-              15.5,
-              37.0
-            ],
-            [
-              15.0,
-              37.0
+              15.29170087781108,
+              37.09358173765054
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "npauly-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/462198/batlas-location"
+        "description": "Centerline of label \"Epipolae\" in map \"Syracusae (8th cent. BC -3rd/4th cents. AD)\" accompanying NPauly \"Syracusae\" article.",
+        "location_precision": "precise",
+        "title": "NPauly Map Label Location",
+        "link": "http://pleiades.stoa.org/places/462198/npauly-map-label-location"
       }
     }
   ]

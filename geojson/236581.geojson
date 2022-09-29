@@ -3,10 +3,10 @@
   "title": "Orgenomesci",
   "id": "236581",
   "bbox": [
-    -5.0,
-    43.0,
-    -4.0,
-    44.0
+    -4.79923445694,
+    43.2696238609,
+    -4.54582185982,
+    43.3600433791
   ],
   "description": "A tribe of the Cantabri.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          43.5
+          -4.67145398031,
+          43.3120002005
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              43.0
+              -4.799234456942088,
+              43.26962386086706
             ],
             [
-              -5.0,
-              44.0
+              -4.758783619842973,
+              43.28152116589621
             ],
             [
-              -4.0,
-              44.0
+              -4.732609548778839,
+              43.2886595489137
             ],
             [
-              -4.0,
-              43.0
+              -4.713573860732197,
+              43.29817739293702
             ],
             [
-              -5.0,
-              43.0
+              -4.681451137153488,
+              43.30769523696034
+            ],
+            [
+              -4.6588462575981,
+              43.31602335048075
+            ],
+            [
+              -4.630292725528136,
+              43.32316173349824
+            ],
+            [
+              -4.616015959493154,
+              43.331489847018645
+            ],
+            [
+              -4.589841888429021,
+              43.33981796053905
+            ],
+            [
+              -4.569616469879463,
+              43.34933580456237
+            ],
+            [
+              -4.54582185982116,
+              43.36004337908861
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236581/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236581/batlas-map-label-location"
       }
     }
   ]

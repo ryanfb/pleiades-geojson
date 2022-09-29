@@ -3,10 +3,10 @@
   "title": "Suburbures Regiani",
   "id": "305157",
   "bbox": [
-    6.5,
-    36.0,
-    7.0,
-    36.5
+    6.73076750347,
+    36.178995992,
+    7.04216497958,
+    36.1809479443
   ],
   "description": "An ancient place, cited: BAtlas 31 F4 Suburbures Regiani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          36.25
+          6.8864551993,
+          36.1798811248
         ]
       },
       "properties": {
@@ -28,39 +28,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              36.0
+              6.730767503465395,
+              36.18094794425985
             ],
             [
-              6.5,
-              36.5
+              6.758233820460118,
+              36.18051295782393
             ],
             [
-              7.0,
-              36.5
+              6.775153473835262,
+              36.18093276998086
             ],
             [
-              7.0,
-              36.0
+              6.797302118539125,
+              36.180562792854786
             ],
             [
-              6.5,
-              36.0
+              6.814088765708896,
+              36.179908393907525
+            ],
+            [
+              6.83267722812945,
+              36.17946361764151
+            ],
+            [
+              6.851443780009206,
+              36.180440860240644
+            ],
+            [
+              6.868713989864546,
+              36.1800989168136
+            ],
+            [
+              6.886028780898498,
+              36.180110702407326
+            ],
+            [
+              6.905540438109261,
+              36.17993833612268
+            ],
+            [
+              6.929445602553438,
+              36.179398653572825
+            ],
+            [
+              6.948562651777773,
+              36.17961191983715
+            ],
+            [
+              6.968513383492039,
+              36.179392837154815
+            ],
+            [
+              6.981828863761985,
+              36.17936366715595
+            ],
+            [
+              6.996901636825895,
+              36.179186356888344
+            ],
+            [
+              7.016412808965082,
+              36.17899599203155
+            ],
+            [
+              7.042164979577896,
+              36.178999236879875
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305157/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305157/batlas-map-label-location"
       }
     }
   ]

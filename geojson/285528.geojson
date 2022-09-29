@@ -3,10 +3,10 @@
   "title": "Taladousioi",
   "id": "285528",
   "bbox": [
-    -2.0,
-    35.0,
-    -1.0,
-    36.0
+    -1.51568658845,
+    35.0336869615,
+    -0.823263435758,
+    35.1079261449
   ],
   "description": "An ancient place, cited: BAtlas 29 D1 Taladousioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5,
-          35.5
+          -1.16843101618,
+          35.0606275512
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -2.0,
-              35.0
+              -1.515686588454571,
+              35.03368696148016
             ],
             [
-              -2.0,
-              36.0
+              -1.418604579416638,
+              35.03368696148016
             ],
             [
-              -1.0,
-              36.0
+              -1.362925191880208,
+              35.03511463808377
             ],
             [
-              -1.0,
-              35.0
+              -1.287258331894861,
+              35.04510837430814
             ],
             [
-              -2.0,
-              35.0
+              -1.240145003979364,
+              35.05081908072219
+            ],
+            [
+              -1.171616527011508,
+              35.05795746373968
+            ],
+            [
+              -1.100232696836599,
+              35.066523523360615
+            ],
+            [
+              -1.027421190058135,
+              35.073661906378106
+            ],
+            [
+              -0.971741802521763,
+              35.08222796599921
+            ],
+            [
+              -0.906068678760789,
+              35.0893663490167
+            ],
+            [
+              -0.823263435757951,
+              35.10792614486212
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/285528/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/285528/batlas-map-label-location"
       }
     }
   ]

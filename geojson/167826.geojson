@@ -3,10 +3,10 @@
   "title": "Matrona (mountain)",
   "id": "167826",
   "bbox": [
-    6.5,
-    44.5,
-    7.0,
-    45.0
+    6.65771413731,
+    44.9338386519,
+    6.76062582581,
+    44.9796432762
   ],
   "description": "Mont-Genèvre.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          44.75
+          6.70922424673,
+          44.9568425395
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              44.5
+              6.6577141373063,
+              44.979643276226795
             ],
             [
-              6.5,
-              45.0
+              6.673180633844197,
+              44.972504893209305
             ],
             [
-              7.0,
-              45.0
+              6.689836860885009,
+              44.96596137544327
             ],
             [
-              7.0,
-              44.5
+              6.710657144686024,
+              44.95584866616849
             ],
             [
-              6.5,
-              44.5
+              6.725528775972464,
+              44.950494878905374
+            ],
+            [
+              6.73861581150453,
+              44.94335649588788
+            ],
+            [
+              6.760625825808461,
+              44.93383865186456
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167826/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167826/batlas-map-label-location"
       }
     }
   ]

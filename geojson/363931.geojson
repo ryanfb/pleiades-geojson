@@ -3,10 +3,10 @@
   "title": "Austuriani",
   "id": "363931",
   "bbox": [
-    17.0,
-    29.0,
-    18.0,
-    30.0
+    17.4402503525,
+    29.2995027032,
+    19.1368060497,
+    29.3066410862
   ],
   "description": "A Confederation of Libyan peoples, cited: BAtlas 37 C3 Austuriani",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          29.5
+          18.288537893,
+          29.3017887778
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              29.0
+              17.44025035253003,
+              29.299502703175733
             ],
             [
-              17.0,
-              30.0
+              17.642504538025605,
+              29.299502703175733
             ],
             [
-              18.0,
-              30.0
+              17.82810249648037,
+              29.299502703175733
             ],
             [
-              18.0,
-              29.0
+              18.006562071917642,
+              29.301882164181563
             ],
             [
-              17.0,
-              29.0
+              18.194539491378237,
+              29.299502703175733
+            ],
+            [
+              18.37061960580968,
+              29.304261625187394
+            ],
+            [
+              18.549079181246952,
+              29.306641086193224
+            ],
+            [
+              18.725159295678395,
+              29.304261625187394
+            ],
+            [
+              18.90361887111567,
+              29.301882164181563
+            ],
+            [
+              19.13680604968704,
+              29.299502703175733
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/363931/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/363931/batlas-map-label-location"
       }
     }
   ]

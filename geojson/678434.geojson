@@ -3,10 +3,10 @@
   "title": "Trachon(itis)",
   "id": "678434",
   "bbox": [
-    36.0,
-    33.0,
-    36.5,
-    33.5
+    36.4334241007,
+    32.9028493107,
+    36.4998110628,
+    33.1348467587
   ],
   "description": "An ancient place, cited: BAtlas 69 D3 Trachon(itis)",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          33.25
+          36.4757407112,
+          33.0214094859
         ]
       },
       "properties": {
@@ -29,39 +29,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              33.0
+              36.43342410069948,
+              33.134846758726326
             ],
             [
-              36.0,
-              33.5
+              36.45055621994152,
+              33.10415171175106
             ],
             [
-              36.5,
-              33.5
+              36.45912227956245,
+              33.081308886095144
             ],
             [
-              36.5,
-              33.0
+              36.46697450088163,
+              33.05917989874098
             ],
             [
-              36.0,
-              33.0
+              36.474112883899124,
+              33.0406201028955
+            ],
+            [
+              36.48053742861492,
+              33.01920495384303
+            ],
+            [
+              36.487675811632414,
+              32.998503643092306
+            ],
+            [
+              36.48981732653772,
+              32.98779606856607
+            ],
+            [
+              36.49195884144285,
+              32.97423314083278
+            ],
+            [
+              36.496241871253346,
+              32.94924880027156
+            ],
+            [
+              36.49909722446034,
+              32.92640597461565
+            ],
+            [
+              36.49981106276209,
+              32.90284931065787
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/678434/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/678434/batlas-map-label-location"
       }
     }
   ]

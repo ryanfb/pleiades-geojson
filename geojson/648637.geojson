@@ -3,10 +3,10 @@
   "title": "Gorgoromeis",
   "id": "648637",
   "bbox": [
-    32.0,
-    37.0,
-    32.5,
-    37.5
+    32.1005330547,
+    37.4128025218,
+    32.3024898076,
+    37.4148845502
   ],
   "description": "An ancient place, cited: BAtlas 66 A2 Gorgoromeis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          37.25
+          32.2015114311,
+          37.413843536
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              37.0
+              32.302489807562665,
+              37.414884550217494
             ],
             [
-              32.0,
-              37.5
-            ],
-            [
-              32.5,
-              37.5
-            ],
-            [
-              32.5,
-              37.0
-            ],
-            [
-              32.0,
-              37.0
+              32.10053305469296,
+              37.412802521837364
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648637/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648637/batlas-map-label-location"
       }
     }
   ]

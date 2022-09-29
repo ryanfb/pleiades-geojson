@@ -3,10 +3,10 @@
   "title": "Catuvellauni",
   "id": "79381",
   "bbox": [
-    -1.0,
-    51.0,
-    0.0,
-    52.0
+    -0.975357760482,
+    51.7103610699,
+    -0.32576490589,
+    52.2011249024
   ],
   "description": "An ancient place, cited: BAtlas 8 G3 Catuvellauni",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          51.5
+          -0.657397475454,
+          51.9645742362
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              51.0
+              -0.975357760481813,
+              51.71036106994205
             ],
             [
-              -1.0,
-              52.0
+              -0.898620143043786,
+              51.7728219213451
             ],
             [
-              0.0,
-              52.0
+              -0.848651461921349,
+              51.82100600671316
             ],
             [
-              0.0,
-              51.0
+              -0.800467376553286,
+              51.86740549632685
             ],
             [
-              -1.0,
-              51.0
+              -0.741575716658986,
+              51.9102357944318
+            ],
+            [
+              -0.686253248273431,
+              51.95485068829112
+            ],
+            [
+              -0.645207545922858,
+              51.986973411869826
+            ],
+            [
+              -0.582746694519813,
+              52.02266532695728
+            ],
+            [
+              -0.530993417643003,
+              52.06371102930785
+            ],
+            [
+              -0.472101757748703,
+              52.10118754014968
+            ],
+            [
+              -0.402502523328167,
+              52.145802434009
+            ],
+            [
+              -0.325764905890139,
+              52.201124902394554
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/79381/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/79381/batlas-map-label-location"
       }
     }
   ]

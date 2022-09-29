@@ -3,10 +3,10 @@
   "title": "Katenneis",
   "id": "638907",
   "bbox": [
-    31.0,
-    37.0,
-    31.5,
-    37.5
+    31.4495837862,
+    37.0402574341,
+    31.6094835658,
+    37.0416851107
   ],
   "description": "An ancient place, cited: BAtlas 65 F3 Katenneis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          37.25
+          31.529533676,
+          37.0409712724
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              31.0,
-              37.0
+              31.60948356575409,
+              37.04168511074499
             ],
             [
-              31.0,
-              37.5
-            ],
-            [
-              31.5,
-              37.5
-            ],
-            [
-              31.5,
-              37.0
-            ],
-            [
-              31.0,
-              37.0
+              31.449583786162236,
+              37.04025743414155
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/638907/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/638907/batlas-map-label-location"
       }
     }
   ]

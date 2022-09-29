@@ -3,10 +3,10 @@
   "title": "Mitras",
   "id": "59935",
   "bbox": [
-    75.0,
-    25.0,
-    80.0,
-    30.0
+    79.2666886431,
+    28.4795195309,
+    80.7003138991,
+    28.5033141409
   ],
   "description": "An ancient place, cited: BAtlas 6 D4 Mitras",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.5,
-          27.5
+          79.9836339118,
+          28.4924895659
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              75.0,
-              25.0
+              79.26668864312967,
+              28.485468183375474
             ],
             [
-              75.0,
-              30.0
+              79.62955644651879,
+              28.497365488404625
             ],
             [
-              80.0,
-              30.0
+              79.8496565895581,
+              28.5033141409192
             ],
             [
-              80.0,
-              25.0
+              80.09949999517028,
+              28.5033141409192
             ],
             [
-              75.0,
-              25.0
+              80.31960013820958,
+              28.479519530860898
+            ],
+            [
+              80.70031389914243,
+              28.485468183375474
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59935/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/59935/batlas-map-label-location"
       }
     }
   ]

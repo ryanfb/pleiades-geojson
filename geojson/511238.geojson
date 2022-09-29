@@ -3,10 +3,10 @@
   "title": "Dolionis",
   "id": "511238",
   "bbox": [
-    27.5,
-    40.0,
-    28.0,
-    40.5
+    27.8443069614,
+    40.2775716151,
+    28.2193100159,
+    40.2975590876
   ],
   "description": "An ancient place, cited: BAtlas 52 B4 Dolionis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          40.25
+          28.031639489,
+          40.2908356762
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              40.0
+              27.844306961351265,
+              40.27757161512983
             ],
             [
-              27.5,
-              40.5
+              27.900462241088746,
+              40.2842341059461
             ],
             [
-              28.0,
-              40.5
+              27.95376216761946,
+              40.28899302795776
             ],
             [
-              28.0,
-              40.0
+              28.006110309747726,
+              40.2928001655672
             ],
             [
-              27.5,
-              40.0
+              28.0603620206806,
+              40.294703734371865
+            ],
+            [
+              28.117469084820527,
+              40.29755908757886
+            ],
+            [
+              28.168865442546405,
+              40.2928001655672
+            ],
+            [
+              28.219310015870008,
+              40.2928001655672
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511238/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511238/batlas-map-label-location"
       }
     }
   ]

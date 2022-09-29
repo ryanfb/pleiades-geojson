@@ -3,10 +3,10 @@
   "title": "Chitouai",
   "id": "305061",
   "bbox": [
-    6.0,
-    36.5,
-    6.5,
-    37.0
+    6.07055288761,
+    36.6358226851,
+    6.24446318016,
+    36.6992093491
   ],
   "description": "An ancient place, cited: BAtlas 31 E3 Chitouai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          36.75
+          6.16004351788,
+          36.6608020894
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              36.5
+              6.070552887608232,
+              36.63582268510717
             ],
             [
-              6.0,
-              37.0
+              6.108906519589819,
+              36.643358471256384
             ],
             [
-              6.5,
-              37.0
+              6.132170999689388,
+              36.647711418641904
             ],
             [
-              6.5,
-              36.5
+              6.152424961610595,
+              36.65300780737576
             ],
             [
-              6.0,
-              36.5
+              6.175837266643721,
+              36.66237584693489
+            ],
+            [
+              6.199380843324692,
+              36.67280853896341
+            ],
+            [
+              6.217094262168257,
+              36.682963520231645
+            ],
+            [
+              6.242039785216976,
+              36.69759695562567
+            ],
+            [
+              6.242967024247018,
+              36.69788553167445
+            ],
+            [
+              6.244463180159579,
+              36.69920934909217
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305061/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305061/batlas-map-label-location"
       }
     }
   ]

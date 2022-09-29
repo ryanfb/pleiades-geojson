@@ -3,10 +3,10 @@
   "title": "Lyrkeion (mountain)",
   "id": "570447",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.3914840602,
+    37.699778258,
+    22.549599244,
+    37.7172672964
   ],
   "description": "Lyrkeion.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.4703687124,
+          37.7057085467
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.391484060180744,
+              37.71726729638641
             ],
             [
-              22.0,
-              38.0
+              22.406474664517418,
+              37.712627347424984
             ],
             [
-              22.5,
-              38.0
+              22.41611148159103,
+              37.70977199421793
             ],
             [
-              22.5,
-              37.5
+              22.426819056117267,
+              37.70513204525673
             ],
             [
-              22.0,
-              37.5
+              22.436812792341755,
+              37.70334744950236
+            ],
+            [
+              22.4468065285663,
+              37.70156285374799
+            ],
+            [
+              22.457157183941604,
+              37.699778257993614
+            ],
+            [
+              22.472147788278278,
+              37.700135177144375
+            ],
+            [
+              22.489279907520313,
+              37.70156285374799
+            ],
+            [
+              22.508553541667425,
+              37.70334744950236
+            ],
+            [
+              22.521402631099022,
+              37.705845883558425
+            ],
+            [
+              22.533537882228643,
+              37.70905815591624
+            ],
+            [
+              22.549599244017998,
+              37.71476886233029
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570447/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570447/batlas-map-label-location"
       }
     }
   ]
