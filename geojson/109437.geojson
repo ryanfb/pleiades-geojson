@@ -3,10 +3,10 @@
   "title": "Viromandui",
   "id": "109437",
   "bbox": [
-    3.0,
-    49.0,
-    4.0,
-    50.0
+    3.24923050483,
+    49.9310100442,
+    3.8524238698,
+    49.9369586967
   ],
   "description": "An ancient place, cited: BAtlas 11 D3 Viromandui",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5,
-          49.5
+          3.55082231128,
+          49.9344113947
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              49.0
+              3.249230504825448,
+              49.931010044203106
             ],
             [
-              3.0,
-              50.0
+              3.340839753549915,
+              49.93219977470602
             ],
             [
-              4.0,
-              50.0
+              3.384859782157775,
+              49.93219977470602
             ],
             [
-              4.0,
-              49.0
+              3.440777115794788,
+              49.93219977470602
             ],
             [
-              3.0,
-              49.0
+              3.509781484963696,
+              49.93457923571185
+            ],
+            [
+              3.594252350670672,
+              49.935768966214766
+            ],
+            [
+              3.644221031793109,
+              49.935768966214766
+            ],
+            [
+              3.708466478950527,
+              49.935768966214766
+            ],
+            [
+              3.77152219560503,
+              49.93695869671768
+            ],
+            [
+              3.85242386980326,
+              49.93695869671768
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109437/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109437/batlas-map-label-location"
       }
     }
   ]

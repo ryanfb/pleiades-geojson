@@ -3,10 +3,10 @@
   "title": "Phasiane/Bassiane",
   "id": "874643",
   "bbox": [
-    41.0,
-    39.0,
-    42.0,
-    40.0
+    41.4811050686,
+    39.9038716257,
+    42.0350435907,
+    39.9952429283
   ],
   "description": "An ancient place, cited: BAtlas 89 D1 Phasiane/Bassiane",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          39.5
+          41.7622303086,
+          39.9280094901
         ]
       },
       "properties": {
@@ -29,39 +29,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              39.0
+              41.48110506856469,
+              39.913865361907334
             ],
             [
-              41.0,
-              40.0
+              41.60245757986203,
+              39.90387162568285
             ],
             [
-              42.0,
-              40.0
+              41.702394942106906,
+              39.90672697888984
             ],
             [
-              42.0,
-              39.0
+              41.775206448885314,
+              39.91814839171783
             ],
             [
-              41.0,
-              39.0
+              41.869433104716194,
+              39.93242515775281
+            ],
+            [
+              41.94509996470159,
+              39.95669566001228
+            ],
+            [
+              42.035043590721976,
+              39.99524292830673
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874643/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874643/batlas-map-label-location"
       }
     }
   ]

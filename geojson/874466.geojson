@@ -3,10 +3,10 @@
   "title": "Entsakisar (mountain)",
   "id": "874466",
   "bbox": [
-    42.0,
-    38.0,
-    43.0,
-    39.0
+    42.6255564969,
+    38.24734901,
+    42.8354249576,
+    38.2530597164
   ],
   "description": "A group of mountains on the southern Deveboynu peninsula.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.5,
-          38.5
+          42.7304907273,
+          38.2502043632
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              42.0,
-              38.0
+              42.625556496906704,
+              38.247349009978585
             ],
             [
-              42.0,
-              39.0
-            ],
-            [
-              43.0,
-              39.0
-            ],
-            [
-              43.0,
-              38.0
-            ],
-            [
-              42.0,
-              38.0
+              42.83542495762093,
+              38.25305971639258
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874466/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874466/batlas-map-label-location"
       }
     }
   ]

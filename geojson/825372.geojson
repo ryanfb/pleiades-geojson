@@ -3,10 +3,10 @@
   "title": "Satarchae",
   "id": "825372",
   "bbox": [
-    40.0,
-    47.0,
-    41.0,
-    48.0
+    40.2142381025,
+    47.4284688923,
+    41.6704682381,
+    47.6283436168
   ],
   "description": "A Scythian people of the Tauric Chersonesus.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.5,
-          47.5
+          40.933746129,
+          47.5814066407
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              40.0,
-              47.0
+              40.214238102529805,
+              47.42846889230049
             ],
             [
-              40.0,
-              48.0
+              40.41411282701955,
+              47.504611644487056
             ],
             [
-              41.0,
-              48.0
+              40.56830190019747,
+              47.550297295799
             ],
             [
-              41.0,
-              47.0
+              40.7339123862032,
+              47.582657965478234
             ],
             [
-              40.0,
-              47.0
+              40.89571573459966,
+              47.60930792874359
+            ],
+            [
+              41.07465120223816,
+              47.62834361679023
+            ],
+            [
+              41.25549023868126,
+              47.62834361679023
+            ],
+            [
+              41.436329275124365,
+              47.62834361679023
+            ],
+            [
+              41.67046823809795,
+              47.61692220396225
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/825372/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/825372/batlas-map-label-location"
       }
     }
   ]

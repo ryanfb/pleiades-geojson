@@ -3,10 +3,10 @@
   "title": "Chalcidice",
   "id": "491561",
   "bbox": [
-    23.6437183,
-    39.9832624,
-    23.8092345,
-    40.6177904
+    23.0541730615,
+    40.4254607873,
+    23.76191102,
+    40.4738933141
   ],
   "description": "A peninsula in northern Greece. It was hotly contested between Athens and Sparta during the Peloponnesian War, and was later the site of important gold mines under Philip II of Macedon.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.6437183,
-          39.9832624
+          23.4081095237,
+          40.4430037403
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.0,
-              40.0
+              23.05417306145256,
+              40.45282417837865
             ],
             [
-              23.0,
-              40.5
+              23.178499899007193,
+              40.43497822083492
             ],
             [
-              23.5,
-              40.5
+              23.27666409731978,
+              40.4254607873163
             ],
             [
-              23.5,
-              40.0
+              23.365127318877626,
+              40.4297244995833
             ],
             [
-              23.0,
-              40.0
+              23.452581089290106,
+              40.437011668552714
+            ],
+            [
+              23.497790848400882,
+              40.44058086006146
+            ],
+            [
+              23.55727737354664,
+              40.44771924307895
+            ],
+            [
+              23.60605632416616,
+              40.45247816509061
+            ],
+            [
+              23.661973657803173,
+              40.4596165481081
+            ],
+            [
+              23.761911020048046,
+              40.47389331414308
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491561/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491561/batlas-map-label-location"
       }
     }
   ]

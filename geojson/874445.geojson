@@ -3,10 +3,10 @@
   "title": "Daranalis",
   "id": "874445",
   "bbox": [
-    38.0,
-    39.0,
-    39.0,
-    40.0
+    38.8984380928,
+    39.6911478118,
+    39.2753447162,
+    39.7025692246
   ],
   "description": "An ancient place, cited: BAtlas 89 A1 Daranalis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.5,
-          39.5
+          39.0868914045,
+          39.6968585182
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.0,
-              39.0
+              38.89843809283651,
+              39.691147811761624
             ],
             [
-              38.0,
-              40.0
-            ],
-            [
-              39.0,
-              40.0
-            ],
-            [
-              39.0,
-              39.0
-            ],
-            [
-              38.0,
-              39.0
+              39.27534471616002,
+              39.70256922458961
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874445/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874445/batlas-map-label-location"
       }
     }
   ]
