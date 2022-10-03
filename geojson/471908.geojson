@@ -3,10 +3,10 @@
   "title": "Corsi",
   "id": "471908",
   "bbox": [
-    9.500426,
-    40.923,
-    9.500426,
-    40.923
+    9.03196533946,
+    40.9865891853,
+    9.19543431056,
+    40.9915860534
   ],
   "description": "The Corsi were an ancient tribe occupying a region of ancient Sardinia that is now known as Gallura.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.500426,
-          40.923
+          9.11363267733,
+          40.9903517005
         ]
       },
       "properties": {
@@ -32,39 +32,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              40.0
+              9.031965339461651,
+              40.98658918529845
             ],
             [
-              9.0,
-              41.0
+              9.08764472699808,
+              40.99158605341069
             ],
             [
-              10.0,
-              41.0
+              9.124764318689031,
+              40.990158376807194
             ],
             [
-              10.0,
-              40.0
+              9.154745527362493,
+              40.99158605341069
             ],
             [
-              9.0,
-              40.0
+              9.195434310562192,
+              40.99087221510894
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471908/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471908/batlas-map-label-location"
       }
     }
   ]

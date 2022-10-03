@@ -3,10 +3,10 @@
   "title": "Skythenoi",
   "id": "857328",
   "bbox": [
-    39.0,
-    40.0,
-    40.0,
-    41.0
+    39.2679663059,
+    40.7631431559,
+    39.5713475841,
+    40.7667123474
   ],
   "description": "An ancient place, cited: BAtlas 87 E4 Skythenoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          40.5
+          39.419656945,
+          40.7649277516
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              40.0
+              39.26796630585463,
+              40.76671234737922
             ],
             [
-              39.0,
-              41.0
-            ],
-            [
-              40.0,
-              41.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
-              39.0,
-              40.0
+              39.57134758409799,
+              40.76314315587047
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid E4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857328/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857328/batlas-map-label-location"
       }
     }
   ]

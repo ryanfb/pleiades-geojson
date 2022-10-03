@@ -3,10 +3,10 @@
   "title": "Ponte Mormanno",
   "id": "453757",
   "bbox": [
-    15.990976,
-    39.874905,
-    15.990976,
-    39.874905
+    15.9872469,
+    39.8807398,
+    15.9874756,
+    39.8809056
   ],
   "description": "An ancient place, cited: BAtlas 46 C2 unnamed bridge (NE Laos, at Mormanno)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.990976,
-          39.874905
+          15.9873612419,
+          39.8808227158
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          15.990976,
-          39.874905
+          [
+            15.9872469,
+            39.8807794
+          ],
+          [
+            15.9872934,
+            39.8807398
+          ],
+          [
+            15.9874756,
+            39.8808661
+          ],
+          [
+            15.9874291,
+            39.8809056
+          ],
+          [
+            15.9872469,
+            39.8807794
+          ]
         ]
       },
-      "id": "darmc-location-27934",
+      "id": "location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 27934",
-        "link": "http://pleiades.stoa.org/places/453757/darmc-location-27934"
+        "title": "OSM location of Ponte Mormanno",
+        "link": "http://pleiades.stoa.org/places/453757/location-of-roman-bridge"
       }
     }
   ]

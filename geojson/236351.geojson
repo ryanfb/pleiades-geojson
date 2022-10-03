@@ -3,10 +3,10 @@
   "title": "Asturia (region)",
   "id": "236351",
   "bbox": [
-    -6.5969888,
-    43.2312989,
-    -6.5957871,
-    43.2323438
+    -6.15499185154,
+    42.2657590058,
+    -5.74631942379,
+    43.2026717768
   ],
   "description": "Asturia is a region of the Atlantic coast of northern Iberia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.59639871759,
-          43.2319233901
+          -5.93609345954,
+          42.7407921889
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              43.0
+              -6.154991851539023,
+              43.202671776815635
             ],
             [
-              -7.0,
-              44.0
+              -6.060408276557268,
+              43.033135180150225
             ],
             [
-              -6.0,
-              44.0
+              -5.994378233645477,
+              42.895721307063525
             ],
             [
-              -6.0,
-              43.0
+              -5.928348190733686,
+              42.745815263696215
             ],
             [
-              -7.0,
-              43.0
+              -5.871241126593759,
+              42.6030476033464
+            ],
+            [
+              -5.817703253962577,
+              42.458495347242206
+            ],
+            [
+              -5.746319423787668,
+              42.26575900576995
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236351/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236351/batlas-map-label-location"
       }
     }
   ]

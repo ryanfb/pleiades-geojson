@@ -3,10 +3,10 @@
   "title": "Thrakes",
   "id": "226785",
   "bbox": [
-    28.0,
-    46.0,
-    29.0,
-    47.0
+    28.077382664,
+    46.0351944769,
+    30.0594736819,
+    46.0875426191
   ],
   "description": "An ancient people, tribe, or cultural group. Located: MOL/UKR.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.5,
-          46.5
+          29.0684227,
+          46.0623609813
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              46.0
+              28.077382664039533,
+              46.03519447694492
             ],
             [
-              28.0,
-              47.0
+              28.44857858094906,
+              46.047091781974075
             ],
             [
-              29.0,
-              47.0
+              28.75077012868951,
+              46.056609625997396
             ],
             [
-              29.0,
-              46.0
+              29.06961790347077,
+              46.056609625997396
             ],
             [
-              28.0,
-              46.0
+              29.37180945121122,
+              46.06850693102655
+            ],
+            [
+              29.67162153794584,
+              46.08278369706153
+            ],
+            [
+              30.05947368189618,
+              46.08754261907319
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226785/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226785/batlas-map-label-location"
       }
     }
   ]

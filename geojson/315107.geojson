@@ -3,10 +3,10 @@
   "title": "Pagus Muxsi",
   "id": "315107",
   "bbox": [
-    9.5,
-    36.5,
-    10.0,
-    37.0
+    9.76593082891,
+    36.987859469,
+    9.95236682867,
+    36.9908836849
   ],
   "description": "An ancient place, cited: BAtlas 32 E3 Pagus Muxsi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.75,
-          36.75
+          9.8591499532,
+          36.989486751
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.5,
-              36.5
+              9.765930828911493,
+              36.987859469028585
             ],
             [
-              9.5,
-              37.0
+              9.794198227997892,
+              36.988238038373176
             ],
             [
-              10.0,
-              37.0
+              9.813384519468858,
+              36.98812961076894
             ],
             [
-              10.0,
-              36.5
+              9.827930399317356,
+              36.98899258273883
             ],
             [
-              9.5,
-              36.5
+              9.847941285574121,
+              36.99023546537313
+            ],
+            [
+              9.87915885410206,
+              36.99028049099115
+            ],
+            [
+              9.896064959381004,
+              36.99088368493654
+            ],
+            [
+              9.916273988277073,
+              36.98968684713052
+            ],
+            [
+              9.931332300752594,
+              36.99000127241824
+            ],
+            [
+              9.95236682867245,
+              36.99015449571079
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/315107/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/315107/batlas-map-label-location"
       }
     }
   ]

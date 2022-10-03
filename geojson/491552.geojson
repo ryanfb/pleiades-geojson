@@ -3,12 +3,12 @@
   "title": "Borboros?",
   "id": "491552",
   "bbox": [
-    22.5,
-    40.5,
-    23.0,
-    41.0
+    22.5429458644,
+    40.6598372859,
+    22.7939790005,
+    40.7056419102
   ],
-  "description": "An ancient place, cited: BAtlas 50 C3 Borboros?",
+  "description": "Borboros? is a toponym that has been interpreted in several different ways. Plutarch considered it to be a river, while the compilers of the Barrington Atlas treat it as an area between the now-drained Lake Loudias and Thessalonica.",
   "names": [
     "Borboros"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          40.75
+          22.6701434847,
+          40.6917997417
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              40.5
+              22.54294586435003,
+              40.7044521797452
             ],
             [
-              22.5,
-              41.0
+              22.591724814969552,
+              40.70564191024812
             ],
             [
-              23.0,
-              41.0
+              22.620278347039516,
+              40.703857314493746
             ],
             [
-              23.0,
-              40.5
+              22.650616474863853,
+              40.700288122985
             ],
             [
-              22.5,
-              40.5
+              22.6779802764309,
+              40.69552920097334
+            ],
+            [
+              22.706533808500865,
+              40.68839081795585
+            ],
+            [
+              22.73449247531937,
+              40.68125243493836
+            ],
+            [
+              22.760071681132047,
+              40.67351918666941
+            ],
+            [
+              22.79397900046513,
+              40.659837285885885
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491552/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491552/batlas-map-label-location"
       }
     }
   ]

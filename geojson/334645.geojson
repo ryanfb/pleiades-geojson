@@ -3,10 +3,10 @@
   "title": "*Tisibenenses",
   "id": "334645",
   "bbox": [
-    7.0,
-    35.0,
-    8.0,
-    36.0
+    7.7705405756,
+    35.2833718877,
+    8.19532794249,
+    35.2919869663
   ],
   "description": "An ancient place, cited: BAtlas 34 F2 *Tisibenenses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.5,
-          35.5
+          7.9829333434,
+          35.2857572159
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              35.0
+              7.770540575596537,
+              35.29198696634452
             ],
             [
-              7.0,
-              36.0
+              7.819444879176774,
+              35.289688373541324
             ],
             [
-              8.0,
-              36.0
+              7.851756835543536,
+              35.28817132978438
             ],
             [
-              8.0,
-              35.0
+              7.877797028792529,
+              35.28578074107558
             ],
             [
-              7.0,
-              35.0
+              7.904128258920029,
+              35.28551947534041
+            ],
+            [
+              7.929591392039637,
+              35.285332538233334
+            ],
+            [
+              7.967302874090628,
+              35.28472630932485
+            ],
+            [
+              8.001444025744954,
+              35.28371930888671
+            ],
+            [
+              8.040120716687904,
+              35.28372087971684
+            ],
+            [
+              8.076194128881989,
+              35.28395358202829
+            ],
+            [
+              8.110532289958412,
+              35.284338308675025
+            ],
+            [
+              8.143803740418683,
+              35.283371887682065
+            ],
+            [
+              8.195327942487054,
+              35.28715845501173
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334645/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334645/batlas-map-label-location"
       }
     }
   ]

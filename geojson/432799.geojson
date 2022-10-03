@@ -3,10 +3,10 @@
   "title": "Colles Leucogaei",
   "id": "432799",
   "bbox": [
-    14.0,
-    40.5,
-    14.5,
-    41.0
+    14.1477064144,
+    40.8705536677,
+    14.2032906235,
+    40.8833075787
   ],
   "description": "A name for volcanic hills of a whitish hue around Puteoli.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.25,
-          40.75
+          14.1754973608,
+          40.8770235536
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              40.5
+              14.147706414374966,
+              40.870553667693
             ],
             [
-              14.0,
-              41.0
+              14.158747113441962,
+              40.87283795025854
             ],
             [
-              14.5,
-              41.0
+              14.166551745541142,
+              40.87550294658513
             ],
             [
-              14.5,
-              40.5
+              14.174737091401084,
+              40.87721615850927
             ],
             [
-              14.0,
-              40.5
+              14.182541723500265,
+              40.878739013553115
+            ],
+            [
+              14.188442786794838,
+              40.88026186859679
+            ],
+            [
+              14.195295634491572,
+              40.880832939238246
+            ],
+            [
+              14.203290623471048,
+              40.88330757868431
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/432799/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/432799/batlas-map-label-location"
       }
     }
   ]

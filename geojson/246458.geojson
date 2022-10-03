@@ -3,10 +3,10 @@
   "title": "Lacetani",
   "id": "246458",
   "bbox": [
-    1.0,
-    41.0,
-    2.0,
-    42.0
+    1.569104443,
+    41.6341835935,
+    1.92840305488,
+    41.6413219765
   ],
   "description": "Lacetani, a pre-Roman people of the Iberian peninsula.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          41.5
+          1.74875374894,
+          41.637752785
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              41.0
+              1.569104442995102,
+              41.64132197653985
             ],
             [
-              1.0,
-              42.0
-            ],
-            [
-              2.0,
-              42.0
-            ],
-            [
-              2.0,
-              41.0
-            ],
-            [
-              1.0,
-              41.0
+              1.928403054875474,
+              41.63418359352236
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246458/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246458/batlas-map-label-location"
       }
     }
   ]
