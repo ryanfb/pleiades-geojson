@@ -3,10 +3,10 @@
   "title": "Borysthenitai",
   "id": "226547",
   "bbox": [
-    32.0,
-    46.0,
-    33.0,
-    47.0
+    32.8091193337,
+    46.7565320466,
+    33.4411041769,
+    46.908817551
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          46.5
+          33.1221471318,
+          46.8451483161
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              46.0
+              32.809119333708736,
+              46.75653204663064
             ],
             [
-              32.0,
-              47.0
+              32.89002100790697,
+              46.784133794298384
             ],
             [
-              33.0,
-              47.0
+              32.936658443621184,
+              46.80031412913797
             ],
             [
-              33.0,
-              46.0
+              32.982344094933126,
+              46.814590895172955
             ],
             [
-              32.0,
-              46.0
+              33.02422260863585,
+              46.826012308000884
+            ],
+            [
+              33.06990825994768,
+              46.83648193642665
+            ],
+            [
+              33.12606353968533,
+              46.85266227126624
+            ],
+            [
+              33.169845622192554,
+              46.865035468496615
+            ],
+            [
+              33.22980803953948,
+              46.87740866572693
+            ],
+            [
+              33.27359012204681,
+              46.885022940945476
+            ],
+            [
+              33.322131126565694,
+              46.891685431761914
+            ],
+            [
+              33.36686499347542,
+              46.89834792257824
+            ],
+            [
+              33.44110417685738,
+              46.90881755100378
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226547/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226547/batlas-map-label-location"
       }
     }
   ]

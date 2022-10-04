@@ -3,10 +3,10 @@
   "title": "Sithonia",
   "id": "501618",
   "bbox": [
-    23.5,
-    40.0,
-    24.0,
-    40.5
+    23.7097026206,
+    40.1277209675,
+    23.8343863773,
+    40.2238511921
   ],
   "description": "An ancient place, cited: BAtlas 51 B4 Sithonia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.75,
-          40.25
+          23.7720444989,
+          40.1757860798
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.5,
-              40.0
+              23.70970262057915,
+              40.223851192143
             ],
             [
-              23.5,
-              40.5
-            ],
-            [
-              24.0,
-              40.5
-            ],
-            [
-              24.0,
-              40.0
-            ],
-            [
-              23.5,
-              40.0
+              23.834386377285114,
+              40.12772096750723
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501618/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501618/batlas-map-label-location"
       }
     }
   ]

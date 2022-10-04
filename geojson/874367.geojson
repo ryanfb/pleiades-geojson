@@ -3,10 +3,10 @@
   "title": "Arzanene",
   "id": "874367",
   "bbox": [
-    41.0,
-    38.0,
-    42.0,
-    39.0
+    41.4622856004,
+    38.0531849919,
+    42.1775515787,
+    38.1388455881
   ],
   "description": "Arzanene was a province of southern Armenia, located on the left bank of the Tigris river. The region extended eastward to the valley of Bitlís and was bounded on the south and west by Mesopotamia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.5,
-          38.5
+          41.8221768701,
+          38.1135628934
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              41.0,
-              38.0
+              42.17755157872897,
+              38.05318499190284
             ],
             [
-              41.0,
-              39.0
+              42.059054420638624,
+              38.0831662005763
             ],
             [
-              42.0,
-              39.0
+              41.961972411600755,
+              38.10458134962877
             ],
             [
-              42.0,
-              38.0
+              41.87202878558037,
+              38.118858115663755
             ],
             [
-              41.0,
-              38.0
+              41.772091423335496,
+              38.127424175284744
+            ],
+            [
+              41.67358173769412,
+              38.134562558302235
+            ],
+            [
+              41.57935508186324,
+              38.13741791150923
+            ],
+            [
+              41.46228560037639,
+              38.13884558811273
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874367/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874367/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Thateis",
   "id": "825404",
   "bbox": [
-    38.0,
-    46.0,
-    39.0,
-    47.0
+    38.6716037892,
+    46.5662117103,
+    39.9907769708,
+    46.6889918982
   ],
   "description": "An ancient place, cited: BAtlas 84 D2 Thateis",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.5,
-          46.5
+          39.3345127199,
+          46.5982829696
         ]
       },
       "properties": {
@@ -30,39 +30,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.0,
-              46.0
+              38.67160378918743,
+              46.590482212572226
             ],
             [
-              38.0,
-              47.0
+              38.93429628423115,
+              46.57192241672658
             ],
             [
-              39.0,
-              47.0
+              39.14273706834183,
+              46.5662117103127
             ],
             [
-              39.0,
-              46.0
+              39.34546714603863,
+              46.577633123140686
             ],
             [
-              38.0,
-              46.0
+              39.558190959959916,
+              46.59762059558972
+            ],
+            [
+              39.73807821200063,
+              46.62760180426312
+            ],
+            [
+              39.99077697081981,
+              46.68899189821349
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/825404/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/825404/batlas-map-label-location"
       }
     }
   ]

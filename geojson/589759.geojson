@@ -3,10 +3,10 @@
   "title": "Dikte (mountain)",
   "id": "589759",
   "bbox": [
-    26.0,
-    35.0,
-    26.5,
-    35.5
+    26.1961747516,
+    35.1774876449,
+    26.2225867687,
+    35.2021150663
   ],
   "description": "Mt. Modi.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.25,
-          35.25
+          26.2092058507,
+          35.1899803731
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.0,
-              35.0
+              26.196174751577132,
+              35.17748764492552
             ],
             [
-              26.0,
-              35.5
+              26.20117161968932,
+              35.18177067473596
             ],
             [
-              26.5,
-              35.5
+              26.204740811198064,
+              35.18605370454645
             ],
             [
-              26.5,
-              35.0
+              26.20866692185774,
+              35.1896228960552
             ],
             [
-              26.0,
-              35.0
+              26.21294995166818,
+              35.193905925865806
+            ],
+            [
+              26.216876062327685,
+              35.19747511737455
+            ],
+            [
+              26.22258676874179,
+              35.20211506633581
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589759/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/589759/batlas-map-label-location"
       }
     }
   ]

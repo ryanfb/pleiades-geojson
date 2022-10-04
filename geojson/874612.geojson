@@ -3,10 +3,10 @@
   "title": "*Mouzoura",
   "id": "874612",
   "bbox": [
-    39.0,
-    39.0,
-    40.0,
-    40.0
+    38.9983754551,
+    39.3185242182,
+    39.4052632871,
+    39.3313733077
   ],
   "description": "An ancient place, cited: BAtlas 89 B1 *Mouzoura",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          39.5
+          39.2018193711,
+          39.324948763
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              39.0
+              38.99837545508138,
+              39.3185242182486
             ],
             [
-              39.0,
-              40.0
-            ],
-            [
-              40.0,
-              40.0
-            ],
-            [
-              40.0,
-              39.0
-            ],
-            [
-              39.0,
-              39.0
+              39.405263287078355,
+              39.33137330768008
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874612/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/874612/batlas-map-label-location"
       }
     }
   ]

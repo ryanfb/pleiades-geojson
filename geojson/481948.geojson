@@ -3,10 +3,10 @@
   "title": "Parthini",
   "id": "481948",
   "bbox": [
-    19.0,
-    41.0,
-    20.0,
-    42.0
+    19.6474105011,
+    41.1115591204,
+    20.3483997134,
+    41.1401126525
   ],
   "description": "An ancient people, tribe, or cultural group. Located: middle Shkumbini valley ALB.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          41.5
+          19.9979680272,
+          41.1271723153
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              19.0,
-              41.0
+              19.647410501059717,
+              41.140112652513025
             ],
             [
-              19.0,
-              42.0
+              19.763052305943067,
+              41.13582962270253
             ],
             [
-              20.0,
-              42.0
+              19.857278961773947,
+              41.132974269495534
             ],
             [
-              20.0,
-              41.0
+              19.951505617604827,
+              41.13011891628854
             ],
             [
-              19.0,
-              41.0
+              20.04287692022871,
+              41.12583588647804
+            ],
+            [
+              20.13567589945609,
+              41.12155285666755
+            ],
+            [
+              20.22990255528697,
+              41.11869750346055
+            ],
+            [
+              20.34839971337732,
+              41.11155912044306
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481948/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481948/batlas-map-label-location"
       }
     }
   ]

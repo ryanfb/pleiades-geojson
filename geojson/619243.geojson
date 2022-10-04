@@ -3,10 +3,10 @@
   "title": "Proseilemmene",
   "id": "619243",
   "bbox": [
-    32.0,
-    38.5,
-    32.5,
-    39.0
+    32.4146693586,
+    38.8769653182,
+    33.1047130503,
+    38.8845795934
   ],
   "description": "An ancient place, cited: BAtlas 63 A3 Proseilemmene",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          38.75
+          32.7596912044,
+          38.8807724558
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              38.5
+              33.10471305026715,
+              38.88457959341008
             ],
             [
-              32.0,
-              39.0
-            ],
-            [
-              32.5,
-              39.0
-            ],
-            [
-              32.5,
-              38.5
-            ],
-            [
-              32.0,
-              38.5
+              32.41466935857636,
+              38.87696531819154
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619243/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619243/batlas-map-label-location"
       }
     }
   ]

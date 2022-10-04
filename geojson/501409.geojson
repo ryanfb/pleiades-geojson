@@ -3,10 +3,10 @@
   "title": "Edones",
   "id": "501409",
   "bbox": [
-    23.848889,
-    40.785833,
-    23.848889,
-    40.785833
+    23.8614747248,
+    40.907038277,
+    24.0199468277,
+    40.9705698859
   ],
   "description": "A Thracian people dwelling in the lower basin of the Strymon river.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.848889,
-          40.785833
+          23.9396515474,
+          40.9415061627
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              23.5,
-              40.5
+              23.861474724757556,
+              40.90703827704692
             ],
             [
-              23.5,
-              41.0
+              23.894668205788946,
+              40.92309963883628
             ],
             [
-              24.0,
-              41.0
+              23.925720171914975,
+              40.93737640487126
             ],
             [
-              24.0,
-              40.5
+              23.95605829973931,
+              40.9502254943028
             ],
             [
-              23.5,
-              40.5
+              23.986753346714465,
+              40.960576149678104
+            ],
+            [
+              24.019946827745798,
+              40.97056988590265
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501409/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501409/batlas-map-label-location"
       }
     }
   ]

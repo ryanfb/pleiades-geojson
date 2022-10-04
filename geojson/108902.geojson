@@ -3,10 +3,10 @@
   "title": "Condrusi",
   "id": "108902",
   "bbox": [
-    4.0,
-    50.0,
-    5.0,
-    51.0
+    4.883523639,
+    50.3682756617,
+    5.3760720672,
+    50.3730345837
   ],
   "description": "The Condrusi were a Germanic tribe of ancient Belgium.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5,
-          50.5
+          5.12983073799,
+          50.3704913934
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              50.0
+              4.883523638996394,
+              50.369465392210714
             ],
             [
-              4.0,
-              51.0
+              4.985840462247097,
+              50.37065512271363
             ],
             [
-              5.0,
-              51.0
+              5.042947526387024,
+              50.37065512271363
             ],
             [
-              5.0,
-              50.0
+              5.113141626059019,
+              50.37065512271363
             ],
             [
-              4.0,
-              50.0
+              5.1666794986902,
+              50.37303458371946
+            ],
+            [
+              5.24282225087677,
+              50.371844853216544
+            ],
+            [
+              5.297549854010867,
+              50.3682756617078
+            ],
+            [
+              5.376072067203268,
+              50.3682756617078
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108902/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108902/batlas-map-label-location"
       }
     }
   ]

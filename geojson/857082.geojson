@@ -3,10 +3,10 @@
   "title": "Chaldia/Tzanike",
   "id": "857082",
   "bbox": [
-    39.0,
-    40.0,
-    40.0,
-    41.0
+    39.1591059648,
+    40.3152096215,
+    39.8069142237,
+    40.5275765163
   ],
   "description": "Chaldia/Tzanike was an historical region located along the Black Sea coast.",
   "names": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.5,
-          40.5
+          39.4746753331,
+          40.3935625437
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              39.0,
-              40.0
+              39.80691422367519,
+              40.315209621522925
             ],
             [
-              39.0,
-              41.0
+              39.742668776517775,
+              40.315209621522925
             ],
             [
-              40.0,
-              41.0
+              39.644516010027274,
+              40.32948638755791
             ],
             [
-              40.0,
-              40.0
+              39.54814783929115,
+              40.3562553238735
             ],
             [
-              39.0,
-              40.0
+              39.46605643459,
+              40.38480885594346
+            ],
+            [
+              39.369688263853874,
+              40.41871617527654
+            ],
+            [
+              39.285812263398356,
+              40.45619268611837
+            ],
+            [
+              39.1591059648379,
+              40.52757651629328
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid E4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857082/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857082/batlas-map-label-location"
       }
     }
   ]

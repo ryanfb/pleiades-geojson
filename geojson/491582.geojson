@@ -3,10 +3,10 @@
   "title": "Dysoron (mountain)",
   "id": "491582",
   "bbox": [
-    22.5,
-    41.0,
-    23.0,
-    41.5
+    22.8941017624,
+    41.1076330098,
+    23.1617911255,
+    41.2170882161
   ],
   "description": "Mt. Dysoron.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          41.25
+          23.030809429,
+          41.1692197825
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              41.0
+              22.894101762379954,
+              41.217088216051614
             ],
             [
-              22.5,
-              41.5
+              22.92979367746741,
+              41.20638064152538
             ],
             [
-              23.0,
-              41.5
+              22.945260174005305,
+              41.2004319890108
             ],
             [
-              23.0,
-              41.0
+              22.965485592554863,
+              41.19686279750206
             ],
             [
-              22.5,
-              41.0
+              22.984521280601506,
+              41.189724414484566
+            ],
+            [
+              22.999987777139403,
+              41.184965492472905
+            ],
+            [
+              23.021402926191872,
+              41.1766373789525
+            ],
+            [
+              23.042818075244345,
+              41.16949899593501
+            ],
+            [
+              23.064233224296817,
+              41.1611708824146
+            ],
+            [
+              23.091597025863866,
+              41.14689411637963
+            ],
+            [
+              23.116581366425084,
+              41.13380708084756
+            ],
+            [
+              23.13442732396881,
+              41.12428923682424
+            ],
+            [
+              23.16179112553586,
+              41.10763300978343
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491582/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491582/batlas-map-label-location"
       }
     }
   ]

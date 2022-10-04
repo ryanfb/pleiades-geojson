@@ -3,10 +3,10 @@
   "title": "Lade (island)",
   "id": "599746",
   "bbox": [
-    27.0,
-    37.5,
-    27.5,
-    38.0
+    27.1502780635,
+    37.5228207842,
+    27.2038159362,
+    37.5242484608
   ],
   "description": "Formerly an island northwest of Miletus.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          37.75
+          27.177045886,
+          37.5234882513
         ]
       },
       "properties": {
@@ -28,39 +28,35 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              37.5
+              27.15027806354476,
+              37.52424846078509
             ],
             [
-              27.0,
-              38.0
+              27.166696344484876,
+              37.5238915416341
             ],
             [
-              27.5,
-              38.0
+              27.18275770627423,
+              37.52317770333241
             ],
             [
-              27.5,
-              37.5
-            ],
-            [
-              27.0,
-              37.5
+              27.203815936175943,
+              37.52282078418148
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599746/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599746/batlas-map-label-location"
       }
     }
   ]

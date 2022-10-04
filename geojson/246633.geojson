@@ -3,10 +3,10 @@
   "title": "(S)Edetani",
   "id": "246633",
   "bbox": [
-    -1.0,
-    41.0,
-    0.0,
-    42.0
+    -0.859135513455,
+    41.5175900042,
+    -0.433211993411,
+    41.6318041325
   ],
   "description": "An ancient place, cited: BAtlas 25 E4 (S)Edetani",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          41.5
+          -0.648249812198,
+          41.5823953615
         ]
       },
       "properties": {
@@ -30,39 +30,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              41.0
+              -0.859135513454698,
+              41.51759000423668
             ],
             [
-              -1.0,
-              42.0
+              -0.654501866953294,
+              41.58897383441158
             ],
             [
-              0.0,
-              42.0
-            ],
-            [
-              0.0,
-              41.0
-            ],
-            [
-              -1.0,
-              41.0
+              -0.433211993411078,
+              41.63180413251653
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246633/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246633/batlas-map-label-location"
       }
     }
   ]
