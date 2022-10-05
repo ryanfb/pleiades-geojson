@@ -1,16 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Geraci",
+  "title": "Gerace Roman Villa",
   "id": "462217",
   "bbox": [
-    14.279573,
-    37.567639,
-    14.279573,
-    37.567639
+    14.2531619,
+    37.4651551,
+    14.2536429,
+    37.4655146
   ],
   "description": "A fourth century A.D. Roman villa with mosaic pavements. The villa may have extended to some 10,000 square meters in area.",
   "connectsWith": [
     "462492"
+  ],
+  "names": [
+    "Gerace",
+    "Geraci"
   ],
   "features": [
     {
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.279573,
-          37.567639
+          14.2534017505,
+          37.4653342663
         ]
       },
       "properties": {
@@ -28,19 +32,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          14.279573,
-          37.567639
+          [
+            14.2531665,
+            37.4655146
+          ],
+          [
+            14.2531619,
+            37.4651588
+          ],
+          [
+            14.2536429,
+            37.4651551
+          ],
+          [
+            14.2536335,
+            37.4655146
+          ],
+          [
+            14.2531665,
+            37.4655146
+          ]
         ]
       },
-      "id": "darmc-location-7733",
+      "id": "osm-location-of-gerace-roman-villa",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas and Wilson 2021.",
         "location_precision": "precise",
-        "title": "DARMC location 7733",
-        "link": "http://pleiades.stoa.org/places/462217/darmc-location-7733"
+        "title": "OSM Location of Gerace Roman Villa",
+        "link": "http://pleiades.stoa.org/places/462217/osm-location-of-gerace-roman-villa"
       }
     }
   ]
