@@ -3,10 +3,10 @@
   "title": "Cytorus (mountain)",
   "id": "844898",
   "bbox": [
-    32.0,
-    41.0,
-    33.0,
-    42.0
+    32.8474694605,
+    41.7941213649,
+    32.964657915,
+    41.8292184147
   ],
   "description": "Kidros Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          41.5
+          32.9052762649,
+          41.8143753581
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              41.0
+              32.8474694604875,
+              41.794121364868545
             ],
             [
-              32.0,
-              42.0
+              32.86353082227686,
+              41.80066488263458
             ],
             [
-              33.0,
-              42.0
+              32.881376779820584,
+              41.80780326565207
             ],
             [
-              33.0,
-              41.0
+              32.896248411107024,
+              41.81315705291519
             ],
             [
-              32.0,
-              41.0
+              32.912904638147836,
+              41.818510840178305
+            ],
+            [
+              32.92896599993719,
+              41.82267489693851
+            ],
+            [
+              32.94443249647509,
+              41.825649223195796
+            ],
+            [
+              32.964657915024645,
+              41.82921841470454
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/844898/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/844898/batlas-map-label-location"
       }
     }
   ]

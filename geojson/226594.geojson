@@ -3,10 +3,10 @@
   "title": "Enoecadioe",
   "id": "226594",
   "bbox": [
-    32.0,
-    46.0,
-    33.0,
-    47.0
+    32.0942102745,
+    46.7023358565,
+    32.5903278942,
+    46.7070947785
   ],
   "description": "An ancient place, cited: BAtlas 23 F2 Enoecadioe",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          46.5
+          32.3422933024,
+          46.7057407668
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              46.0
+              32.09421027450696,
+              46.70590504796337
             ],
             [
-              32.0,
-              47.0
+              32.17630167920811,
+              46.707094778466285
             ],
             [
-              33.0,
-              47.0
+              32.2227011688218,
+              46.707094778466285
             ],
             [
-              33.0,
-              46.0
+              32.270290388938406,
+              46.707094778466285
             ],
             [
-              32.0,
-              46.0
+              32.31906933955793,
+              46.704715317460455
+            ],
+            [
+              32.37260721218911,
+              46.704715317460455
+            ],
+            [
+              32.422575893311546,
+              46.70590504796337
+            ],
+            [
+              32.46302673041066,
+              46.70590504796337
+            ],
+            [
+              32.50704675901852,
+              46.70590504796337
+            ],
+            [
+              32.59032789422258,
+              46.702335856454624
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226594/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226594/batlas-map-label-location"
       }
     }
   ]

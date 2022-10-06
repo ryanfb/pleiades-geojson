@@ -3,10 +3,10 @@
   "title": "Tetraxitai",
   "id": "854742",
   "bbox": [
-    36.5,
-    45.0,
-    37.0,
-    45.5
+    36.9226488511,
+    45.3602428866,
+    37.0432875241,
+    45.3602428866
   ],
   "description": "An ancient place, cited: BAtlas 87 L2 Tetraxitai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          45.25
+          36.9829681876,
+          45.3602428866
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.5,
-              45.0
+              36.922648851126404,
+              45.36024288661767
             ],
             [
-              36.5,
-              45.5
-            ],
-            [
-              37.0,
-              45.5
-            ],
-            [
-              37.0,
-              45.0
-            ],
-            [
-              36.5,
-              45.0
+              37.043287524122,
+              45.36024288661767
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/854742/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/854742/batlas-map-label-location"
       }
     }
   ]

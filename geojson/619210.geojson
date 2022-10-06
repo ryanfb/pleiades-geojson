@@ -3,10 +3,10 @@
   "title": "Modicus (mountain)",
   "id": "619210",
   "bbox": [
-    32.0,
-    39.5,
-    32.5,
-    40.0
+    32.3761343533,
+    39.9315214727,
+    32.429910172,
+    39.958171436
   ],
   "description": "Abdüssalam Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          39.75
+          32.4022259698,
+          39.9465314284
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              39.5
+              32.3761343532679,
+              39.93152147273486
             ],
             [
-              32.0,
-              40.0
+              32.38517630509017,
+              39.9377080713499
             ],
             [
-              32.5,
-              40.0
+              32.39945307112515,
+              39.946274130971005
             ],
             [
-              32.5,
-              39.5
+              32.409446807349525,
+              39.951033052982666
             ],
             [
-              32.0,
-              39.5
+              32.422295896781065,
+              39.95626786719538
+            ],
+            [
+              32.42991017199978,
+              39.95817143600016
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619210/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619210/batlas-map-label-location"
       }
     }
   ]

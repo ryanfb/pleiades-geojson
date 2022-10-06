@@ -3,10 +3,10 @@
   "title": "Phanaroia",
   "id": "857270",
   "bbox": [
-    36.0,
-    40.0,
-    37.0,
-    41.0
+    36.1961416339,
+    40.6489290276,
+    36.7333049559,
+    40.8041888582
   ],
   "description": "An ancient place, cited: BAtlas 87 B4 Phanaroia",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.5,
-          40.5
+          36.4653714857,
+          40.7287164668
         ]
       },
       "properties": {
@@ -28,39 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              40.0
+              36.19614163385286,
+              40.804188858221046
             ],
             [
-              36.0,
-              41.0
+              36.34247848571142,
+              40.76314315587047
             ],
             [
-              37.0,
-              41.0
+              36.474538571535,
+              40.72745124078302
             ],
             [
-              37.0,
-              40.0
+              36.601244870095464,
+              40.69175932569557
             ],
             [
-              36.0,
-              40.0
+              36.733304955919046,
+              40.648929027590626
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid B4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857270/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857270/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Pontus",
   "id": "857287",
   "bbox": [
-    34.7425505,
-    43.0786852,
-    34.7425505,
-    43.0786852
+    36.6631703428,
+    40.1795803442,
+    39.1812349522,
+    40.3080712385
   ],
   "description": "A region of northeastern Anatolia consisting of the southeastern coast of the Black Sea and the surrounding inland region.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7425505,
-          43.0786852
+          37.9234161999,
+          40.2213566967
         ]
       },
       "properties": {
@@ -33,39 +33,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              40.0
+              36.6631703427722,
+              40.18850332296246
             ],
             [
-              36.0,
-              41.0
+              36.916582939893125,
+              40.1795803441906
             ],
             [
-              37.0,
-              41.0
+              37.31097860160949,
+              40.190287918716834
             ],
             [
-              37.0,
-              40.0
+              37.72857400813271,
+              40.20099549324307
             ],
             [
-              36.0,
-              40.0
+              38.11940047834033,
+              40.22062604654117
+            ],
+            [
+              38.51736533156545,
+              40.24025659983927
+            ],
+            [
+              38.9064072060187,
+              40.27951770643547
+            ],
+            [
+              39.1812349521921,
+              40.308071238505434
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid B4, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857287/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857287/batlas-map-label-location"
       }
     }
   ]

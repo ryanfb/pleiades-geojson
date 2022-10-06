@@ -3,10 +3,10 @@
   "title": "Tracheia Chersonesos",
   "id": "226793",
   "bbox": [
-    33.0,
-    44.0,
-    34.0,
-    45.0
+    33.6644165923,
+    44.6200586244,
+    34.0159819559,
+    44.7628262847
   ],
   "description": "An ancient place, cited: BAtlas 23 G4 Tracheia Chersonesos",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.5,
-          44.5
+          33.8405033464,
+          44.6924864972
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              33.0,
-              44.0
+              33.66441659225467,
+              44.76282628473916
             ],
             [
-              33.0,
-              45.0
+              33.72509284790334,
+              44.744980327195435
             ],
             [
-              34.0,
-              45.0
+              33.753646379973304,
+              44.72891896540608
             ],
             [
-              34.0,
-              44.0
+              33.79647667807825,
+              44.70928841210798
             ],
             [
-              33.0,
-              44.0
+              33.83573778467445,
+              44.693227050318626
+            ],
+            [
+              33.86786050825316,
+              44.678950284283644
+            ],
+            [
+              33.90890621060373,
+              44.66110432673992
+            ],
+            [
+              33.95352110446305,
+              44.64861215645931
+            ],
+            [
+              34.015981955866096,
+              44.620058624389344
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226793/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226793/batlas-map-label-location"
       }
     }
   ]

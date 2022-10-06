@@ -3,10 +3,10 @@
   "title": "Kynegike",
   "id": "658513",
   "bbox": [
-    36.5,
-    36.0,
-    37.0,
-    36.5
+    36.5061341994,
+    36.1044172554,
+    36.7333727255,
+    36.1056069859
   ],
   "description": "An ancient place, cited: BAtlas 67 D4 Kynegike",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          36.25
+          36.6197534625,
+          36.1050121207
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.5,
-              36.0
+              36.733372725496125,
+              36.1056069859285
             ],
             [
-              36.5,
-              36.5
-            ],
-            [
-              37.0,
-              36.5
-            ],
-            [
-              37.0,
-              36.0
-            ],
-            [
-              36.5,
-              36.0
+              36.50613419943933,
+              36.10441725542559
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/658513/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/658513/batlas-map-label-location"
       }
     }
   ]

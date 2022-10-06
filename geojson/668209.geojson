@@ -3,10 +3,10 @@
   "title": "Barbarikon",
   "id": "668209",
   "bbox": [
-    38.5,
-    35.5,
-    39.0,
-    36.0
+    38.6658068785,
+    35.6612000216,
+    38.8185682751,
+    35.735439205
   ],
   "description": "An ancient place, cited: BAtlas 68 G2 Barbarikon",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.75,
-          35.75
+          38.7434082947,
+          35.696143453
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              38.5,
-              35.5
+              38.66580687851016,
+              35.661200021641676
             ],
             [
-              38.5,
-              36.0
+              38.69079121907138,
+              35.67262143446966
             ],
             [
-              39.0,
-              36.0
+              38.72220010434834,
+              35.686184362202894
             ],
             [
-              39.0,
-              35.5
+              38.75289515132355,
+              35.69974728993613
             ],
             [
-              38.5,
-              35.5
+              38.780734845091764,
+              35.71045486446236
+            ],
+            [
+              38.818568275084466,
+              35.73543920502358
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/668209/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/668209/batlas-map-label-location"
       }
     }
   ]

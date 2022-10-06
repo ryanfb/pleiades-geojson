@@ -3,10 +3,10 @@
   "title": "Aleion Pedion",
   "id": "648554",
   "bbox": [
-    35.0,
-    36.5,
-    35.5,
-    37.0
+    35.4089832264,
+    36.9719518498,
+    35.4878623588,
+    36.9758779604
   ],
   "description": "Aleion Pedion (the Aleian Plain) in Cilicia.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.25,
-          36.75
+          35.4484227926,
+          36.9739149051
         ]
       },
       "properties": {
@@ -31,39 +31,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.0,
-              36.5
+              35.408983226419366,
+              36.975877960410116
             ],
             [
-              35.0,
-              37.0
-            ],
-            [
-              35.5,
-              37.0
-            ],
-            [
-              35.5,
-              36.5
-            ],
-            [
-              35.0,
-              36.5
+              35.4878623587627,
+              36.97195184975044
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648554/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648554/batlas-map-label-location"
       }
     }
   ]
