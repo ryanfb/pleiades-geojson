@@ -3,10 +3,10 @@
   "title": "Haemasi",
   "id": "197295",
   "bbox": [
-    17.0,
-    42.0,
-    18.0,
-    43.0
+    17.8007857884,
+    42.7368598348,
+    18.0476548678,
+    42.8784377646
   ],
   "description": "An ancient place, cited: BAtlas 20 E7 Haemasi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          42.5
+          17.9246798631,
+          42.8084524078
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              42.0
+              17.800785788412384,
+              42.878437764603916
             ],
             [
-              17.0,
-              43.0
+              17.86265177456397,
+              42.844530445270834
             ],
             [
-              18.0,
-              43.0
+              17.89477449814268,
+              42.82608962247565
             ],
             [
-              18.0,
-              42.0
+              17.933440739487423,
+              42.80348474292026
             ],
             [
-              17.0,
-              42.0
+              17.970322385077793,
+              42.782664459119246
+            ],
+            [
+              18.001850243405045,
+              42.76422363632406
+            ],
+            [
+              18.047654867767278,
+              42.73685983475701
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197295/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197295/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Poediculi",
   "id": "442725",
   "bbox": [
-    16.5,
-    40.5,
-    17.0,
-    41.0
+    16.7437255876,
+    40.9732136451,
+    17.0035627295,
+    40.9739274834
   ],
   "description": "An ancient place, cited: BAtlas 45 E3 Poediculi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.75,
-          40.75
+          16.8736437384,
+          40.9735352657
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.5,
-              40.5
+              16.743725587624226,
+              40.9739274834198
             ],
             [
-              16.5,
-              41.0
+              16.784414370824038,
+              40.9739274834198
             ],
             [
-              17.0,
-              41.0
+              16.81725093270444,
+              40.9739274834198
             ],
             [
-              17.0,
-              40.5
+              16.845804464774403,
+              40.9739274834198
             ],
             [
-              16.5,
-              40.5
+              16.875785673447808,
+              40.97321364511811
+            ],
+            [
+              16.899342337405585,
+              40.97321364511811
+            ],
+            [
+              16.931465060984294,
+              40.97321364511811
+            ],
+            [
+              16.956449401545513,
+              40.97321364511811
+            ],
+            [
+              17.003562729460953,
+              40.97321364511811
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442725/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442725/batlas-map-label-location"
       }
     }
   ]

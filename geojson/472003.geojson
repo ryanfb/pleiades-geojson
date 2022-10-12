@@ -3,10 +3,10 @@
   "title": "*Rubrenses",
   "id": "472003",
   "bbox": [
-    9.0,
-    39.0,
-    10.0,
-    40.0
+    9.40011554628,
+    39.8205263879,
+    9.63139915605,
+    39.825523256
   ],
   "description": "An ancient place, cited: BAtlas 48 B3 *Rubrenses",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          39.5
+          9.51567964445,
+          39.8236892512
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              39.0
+              9.400115546283704,
+              39.82052638785475
             ],
             [
-              9.0,
-              40.0
+              9.425813725146671,
+              39.823381741061745
             ],
             [
-              10.0,
-              40.0
+              9.452939580613137,
+              39.82480941766524
             ],
             [
-              10.0,
-              39.0
+              9.476496244570855,
+              39.82552325596699
             ],
             [
-              9.0,
-              39.0
+              9.498625231925077,
+              39.824095579363494
+            ],
+            [
+              9.523609572486295,
+              39.824095579363494
+            ],
+            [
+              9.549307751349263,
+              39.824095579363494
+            ],
+            [
+              9.570009062099986,
+              39.823381741061745
+            ],
+            [
+              9.591424211152457,
+              39.823381741061745
+            ],
+            [
+              9.631399156050406,
+              39.82195406445825
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472003/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/472003/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Peucetii",
   "id": "442714",
   "bbox": [
-    16.691435,
-    40.581291,
-    16.870331,
-    41.129222
+    16.6259422678,
+    40.9039713298,
+    16.95288021,
+    40.9061128448
   ],
   "description": "The Peucetii were an ancient tribe of Apulia in southern Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7729406667,
-          40.939664
+          16.7894174733,
+          40.9050911889
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.5,
-              40.5
+              16.625942267835626,
+              40.904685168150195
             ],
             [
-              16.5,
-              41.0
+              16.685904685182606,
+              40.905399006451944
             ],
             [
-              17.0,
-              41.0
+              16.730876498192856,
+              40.905399006451944
             ],
             [
-              17.0,
-              40.5
+              16.7801313410136,
+              40.905399006451944
             ],
             [
-              16.5,
-              40.5
+              16.8193924476098,
+              40.906112844753636
+            ],
+            [
+              16.86579193722349,
+              40.904685168150195
+            ],
+            [
+              16.905766882121384,
+              40.90397132984833
+            ],
+            [
+              16.952880210036767,
+              40.904685168150195
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/442714/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/442714/batlas-map-label-location"
       }
     }
   ]

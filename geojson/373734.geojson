@@ -3,10 +3,10 @@
   "title": "Araraukeles?",
   "id": "373734",
   "bbox": [
-    21.0,
-    32.0,
-    22.0,
-    33.0
+    21.3391414654,
+    32.2841672228,
+    22.0491726295,
+    32.4012367043
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          32.5
+          21.6931900099,
+          32.3482412214
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              32.0
+              21.33914146540633,
+              32.284167222812926
             ],
             [
-              21.0,
-              33.0
+              21.421946708409394,
+              32.304154695261786
             ],
             [
-              22.0,
-              33.0
+              21.48571626336559,
+              32.31462432368755
             ],
             [
-              22.0,
-              32.0
+              21.54567868071257,
+              32.325093952113264
             ],
             [
-              21.0,
-              32.0
+              21.609448235668765,
+              32.33651536494119
+            ],
+            [
+              21.673217790625017,
+              32.34793677776918
+            ],
+            [
+              21.735083776776605,
+              32.35650283739005
+            ],
+            [
+              21.79980511613519,
+              32.366020681413374
+            ],
+            [
+              21.85976753348217,
+              32.37649030983914
+            ],
+            [
+              21.924488872840584,
+              32.38600815386246
+            ],
+            [
+              21.986354858992172,
+              32.39362242908112
+            ],
+            [
+              22.049172629546206,
+              32.40123670429983
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373734/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373734/batlas-map-label-location"
       }
     }
   ]

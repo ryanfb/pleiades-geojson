@@ -3,10 +3,10 @@
   "title": "Italia (region)",
   "id": "452346",
   "bbox": [
-    16.0,
-    38.0,
-    16.5,
-    38.5
+    15.9974245556,
+    38.391453593,
+    16.3986016811,
+    38.3943089462
   ],
   "description": "That portion of the Toe of Italy lying to the south of the Terina/Scylletium isthmus as known to the Greeks in the 5th century BCE. Thus called after the Itali who inhabited it at that time.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.25,
-          38.25
+          16.1980113658,
+          38.3932000763
         ]
       },
       "properties": {
@@ -29,39 +29,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              38.0
+              15.997424555564692,
+              38.39145359296248
             ],
             [
-              16.0,
-              38.5
+              16.083085151774583,
+              38.39216743126423
             ],
             [
-              16.5,
-              38.5
+              16.155896658552933,
+              38.39216743126423
             ],
             [
-              16.5,
-              38.0
+              16.2258528121244,
+              38.39430894616953
             ],
             [
-              16.0,
-              38.0
+              16.298664318902752,
+              38.39430894616953
+            ],
+            [
+              16.398601681147625,
+              38.39430894616953
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452346/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/452346/batlas-map-label-location"
       }
     }
   ]

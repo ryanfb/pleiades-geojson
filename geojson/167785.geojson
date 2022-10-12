@@ -3,10 +3,10 @@
   "title": "Graioceli?",
   "id": "167785",
   "bbox": [
-    6.0,
-    45.0,
-    6.5,
-    45.5
+    6.25759341489,
+    45.1483363004,
+    6.59488201246,
+    45.2970526133
   ],
   "description": "An ancient place, cited: BAtlas 17 G3 Graioceli?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          45.25
+          6.41825554185,
+          45.2055962984
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              45.0
+              6.257593414885321,
+              45.29705261328371
             ],
             [
-              6.0,
-              45.5
+              6.303398039247554,
+              45.25779150668751
             ],
             [
-              6.5,
-              45.5
+              6.336115628077721,
+              45.23578149238358
             ],
             [
-              6.5,
-              45.0
+              6.366453755902057,
+              45.21912526534277
             ],
             [
-              6.0,
-              45.0
+              6.396197018474936,
+              45.203063903553414
+            ],
+            [
+              6.436052990322594,
+              45.188192272266974
+            ],
+            [
+              6.478288423176082,
+              45.17391550623199
+            ],
+            [
+              6.513385473012079,
+              45.16439766220867
+            ],
+            [
+              6.550861983853906,
+              45.15785414444264
+            ],
+            [
+              6.594882012461767,
+              45.14833630041932
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167785/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167785/batlas-map-label-location"
       }
     }
   ]

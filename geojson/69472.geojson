@@ -3,10 +3,10 @@
   "title": "Aulerci",
   "id": "69472",
   "bbox": [
-    -1.0,
-    48.0,
-    0.0,
-    49.0
+    -0.867098233369,
+    48.0771937863,
+    0.150835184925,
+    48.3927103157
   ],
   "description": "An ancient place, cited: BAtlas 7 F3 Aulerci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          48.5
+          -0.348503708566,
+          48.2651065595
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              48.0
+              -0.86709823336912,
+              48.39271031565954
             ],
             [
-              -1.0,
-              49.0
+              -0.644380683223403,
+              48.3555907239687
             ],
             [
-              0.0,
-              49.0
+              -0.483053227028051,
+              48.31847113227764
             ],
             [
-              0.0,
-              48.0
+              -0.323153447436312,
+              48.27564083417269
             ],
             [
-              -1.0,
-              48.0
+              -0.176102757275942,
+              48.227099829653866
+            ],
+            [
+              -0.021913684098195,
+              48.16285438249645
+            ],
+            [
+              0.150835184925143,
+              48.07719378628656
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/69472/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/69472/batlas-map-label-location"
       }
     }
   ]

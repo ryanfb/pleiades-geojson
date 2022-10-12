@@ -3,10 +3,10 @@
   "title": "Tittoi",
   "id": "246692",
   "bbox": [
-    -3.0,
-    41.0,
-    -2.0,
-    42.0
+    -2.19996179024,
+    41.0821486402,
+    -1.82162749031,
+    41.0845281012
   ],
   "description": "An ancient people, tribe, or cultural group. Located: middle R. Jalón valley.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          41.5
+          -2.01079464028,
+          41.0833383707
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              41.0
+              -2.19996179024006,
+              41.082148640169734
             ],
             [
-              -3.0,
-              42.0
-            ],
-            [
-              -2.0,
-              42.0
-            ],
-            [
-              -2.0,
-              41.0
-            ],
-            [
-              -3.0,
-              41.0
+              -1.821627490313046,
+              41.084528101175565
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246692/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246692/batlas-map-label-location"
       }
     }
   ]

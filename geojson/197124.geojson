@@ -3,10 +3,10 @@
   "title": "Apsyrtides (islands)",
   "id": "197124",
   "bbox": [
-    14.3291477,
-    44.860859,
-    14.3291477,
-    44.860859
+    14.2556853309,
+    44.4128143568,
+    14.5654911539,
+    44.9267779341
   ],
   "description": "The Apsyrtides Islands, a group of Liburnian islands located east of Istria.",
   "connectsWith": [
@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3291477,
-          44.860859
+          14.3581614296,
+          44.6363680996
         ]
       },
       "properties": {
@@ -33,39 +33,83 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              44.0
+              14.255685330908818,
+              44.9267779340733
             ],
             [
-              14.0,
-              45.0
+              14.255685330908818,
+              44.87680925295086
             ],
             [
-              15.0,
-              45.0
+              14.261396037322868,
+              44.833265116544055
             ],
             [
-              15.0,
-              44.0
+              14.267106743736747,
+              44.80613926107765
             ],
             [
-              14.0,
-              44.0
+              14.274958965055987,
+              44.77116118429194
+            ],
+            [
+              14.283525024677033,
+              44.739752299014924
+            ],
+            [
+              14.292804922599714,
+              44.70977109034152
+            ],
+            [
+              14.30351249712595,
+              44.67907604336625
+            ],
+            [
+              14.31493390995405,
+              44.6455256431841
+            ],
+            [
+              14.34063208881696,
+              44.59841231526872
+            ],
+            [
+              14.37275481239567,
+              44.551298987353164
+            ],
+            [
+              14.409874404086565,
+              44.512037880756964
+            ],
+            [
+              14.441283289363582,
+              44.48919505510105
+            ],
+            [
+              14.474119851243984,
+              44.46278303793639
+            ],
+            [
+              14.514808634443796,
+              44.43637102077156
+            ],
+            [
+              14.565491153867924,
+              44.41281435681395
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197124/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197124/batlas-map-label-location"
       }
     }
   ]

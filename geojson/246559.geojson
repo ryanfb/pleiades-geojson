@@ -3,10 +3,10 @@
   "title": "Pelendones",
   "id": "246559",
   "bbox": [
-    -3.0,
-    42.0,
-    -2.0,
-    43.0
+    -2.88762602093,
+    42.0148973545,
+    -2.45694357887,
+    42.0172768155
   ],
   "description": "An ancient place, cited: BAtlas 25 C3 Pelendones",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5,
-          42.5
+          -2.6722847999,
+          42.016087085
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -3.0,
-              42.0
+              -2.887626020925011,
+              42.0148973544552
             ],
             [
-              -3.0,
-              43.0
-            ],
-            [
-              -2.0,
-              43.0
-            ],
-            [
-              -2.0,
-              42.0
-            ],
-            [
-              -3.0,
-              42.0
+              -2.45694357886973,
+              42.01727681546103
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/246559/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/246559/batlas-map-label-location"
       }
     }
   ]

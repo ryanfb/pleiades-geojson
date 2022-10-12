@@ -3,10 +3,10 @@
   "title": "Ilipoula (mountain)",
   "id": "256223",
   "bbox": [
-    -6.0,
-    36.0,
-    -5.0,
-    37.0
+    -5.30311398213,
+    36.6034120827,
+    -4.81913161354,
+    36.8404063989
   ],
   "description": "Sierra de Ronda.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.5,
-          36.5
+          -5.05828840935,
+          36.7162640743
         ]
       },
       "properties": {
@@ -28,39 +28,31 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.0,
-              36.0
+              -5.30311398212597,
+              36.603412082715835
             ],
             [
-              -6.0,
-              37.0
+              -5.006157248598351,
+              36.73475833023767
             ],
             [
-              -5.0,
-              37.0
-            ],
-            [
-              -5.0,
-              36.0
-            ],
-            [
-              -6.0,
-              36.0
+              -4.81913161354009,
+              36.840406398896526
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256223/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256223/batlas-map-label-location"
       }
     }
   ]
