@@ -3,10 +3,10 @@
   "title": "Baniurae?",
   "id": "275600",
   "bbox": [
-    -6.0,
-    34.5,
-    -5.5,
-    35.0
+    -5.88350825071,
+    34.5351255911,
+    -5.57988902636,
+    34.5836665956
   ],
   "description": "An ancient place, cited: BAtlas 28 C4 Baniurae?",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.75,
-          34.75
+          -5.73211367432,
+          34.5619757896
         ]
       },
       "properties": {
@@ -30,39 +30,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -6.0,
-              34.5
+              -5.883508250708701,
+              34.53512559108401
             ],
             [
-              -6.0,
-              35.0
+              -5.833063677385042,
+              34.54559521950972
             ],
             [
-              -5.5,
-              35.0
+              -5.79784765449881,
+              34.55225771032599
             ],
             [
-              -5.5,
-              34.5
+              -5.7607280628078,
+              34.558920201142314
             ],
             [
-              -6.0,
-              34.5
+              -5.724560255519236,
+              34.564630907556364
+            ],
+            [
+              -5.691247801437612,
+              34.569389829568024
+            ],
+            [
+              -5.654128209746659,
+              34.574148751579685
+            ],
+            [
+              -5.615105049251042,
+              34.579859457993734
+            ],
+            [
+              -5.579889026364697,
+              34.583666595603006
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275600/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/275600/batlas-map-label-location"
       }
     }
   ]

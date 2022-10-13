@@ -3,10 +3,10 @@
   "title": "Cariati",
   "id": "39323",
   "bbox": [
-    45.0,
-    15.0,
-    50.0,
-    20.0
+    45.15,
+    19.783,
+    45.1502063,
+    19.7836359
   ],
   "description": "An ancient place, cited: BAtlas 4 C2 Cariati",
   "names": [
@@ -25,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.5,
-          17.5
+          45.15010315,
+          19.78331795
         ]
       },
       "properties": {
@@ -35,39 +35,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              45.0,
-              15.0
-            ],
-            [
-              45.0,
-              20.0
-            ],
-            [
-              50.0,
-              20.0
-            ],
-            [
-              50.0,
-              15.0
-            ],
-            [
-              45.0,
-              15.0
-            ]
-          ]
+          45.15,
+          19.783
         ]
       },
-      "id": "batlas-location",
+      "id": "gps-location-of-qaryat-al-faw",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39323/batlas-location"
+        "description": "Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "GPS location of Qaryat al-Faw",
+        "link": "http://pleiades.stoa.org/places/39323/gps-location-of-qaryat-al-faw"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1502063,
+          19.7836359
+        ]
+      },
+      "id": "osm-location-of-qaryat-al-faw",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Qaryat al Fāw",
+        "link": "http://pleiades.stoa.org/places/39323/osm-location-of-qaryat-al-faw"
       }
     }
   ]

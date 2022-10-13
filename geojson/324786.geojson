@@ -3,10 +3,10 @@
   "title": "Musunii Regiani",
   "id": "324786",
   "bbox": [
-    8.5,
-    35.0,
-    9.0,
-    35.5
+    8.76281887987,
+    35.0166664803,
+    8.87305337854,
+    35.0402229559
   ],
   "description": "An ancient place, cited: BAtlas 33 C2 Musunii Regiani",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          35.25
+          8.81794342247,
+          35.0284903473
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              35.0
+              8.762818879874528,
+              35.040222955897654
             ],
             [
-              8.5,
-              35.5
+              8.778709108696278,
+              35.03695324424033
             ],
             [
-              9.0,
-              35.5
+              8.79038161447077,
+              35.03482458627811
             ],
             [
-              9.0,
-              35.0
+              8.806452501980596,
+              35.03081143964398
             ],
             [
-              8.5,
-              35.0
+              8.81884714228109,
+              35.027645567825
+            ],
+            [
+              8.831416545975866,
+              35.025663176254824
+            ],
+            [
+              8.847301085545924,
+              35.022384271544944
+            ],
+            [
+              8.860880137116549,
+              35.01933514147308
+            ],
+            [
+              8.873053378542751,
+              35.016666480255445
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324786/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/324786/batlas-map-label-location"
       }
     }
   ]

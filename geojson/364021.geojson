@@ -3,10 +3,10 @@
   "title": "Tautamei?",
   "id": "364021",
   "bbox": [
-    17.0,
-    30.0,
-    18.0,
-    31.0
+    17.907029218,
+    30.493206906,
+    18.3024956372,
+    30.6545343622
   ],
   "description": "Tautamei, A Libyan People, thought (by Mattingly) to be a sub-people of either the Nasamones or Macae, cited: BAtlas 37 C2",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5,
-          30.5
+          18.1063826935,
+          30.5776206544
         ]
       },
       "properties": {
@@ -32,39 +32,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              17.0,
-              30.0
+              17.90702921804376,
+              30.65453436216586
             ],
             [
-              17.0,
-              31.0
+              17.97127466520118,
+              30.630263859906393
             ],
             [
-              18.0,
-              31.0
+              18.02409869953061,
+              30.611704064060916
             ],
             [
-              18.0,
-              30.0
+              18.074067380653048,
+              30.591716591612055
             ],
             [
-              17.0,
-              30.0
+              18.11547000215438,
+              30.577439825577073
+            ],
+            [
+              18.16686635988043,
+              30.55459699992099
+            ],
+            [
+              18.216835041002867,
+              30.533181850868516
+            ],
+            [
+              18.262520692314865,
+              30.514622055023096
+            ],
+            [
+              18.302495637212758,
+              30.493206905970624
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/364021/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/364021/batlas-map-label-location"
       }
     }
   ]

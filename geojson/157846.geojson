@@ -3,10 +3,10 @@
   "title": "Ecdinii",
   "id": "157846",
   "bbox": [
-    7.0,
-    44.0,
-    7.5,
-    44.5
+    6.8779930799,
+    44.1015921803,
+    7.07191915188,
+    44.2836209473
   ],
   "description": "The Ecdinii were an Alpine tribe. They are mentioned both on the inscription of the Tropaeum Augusti and on the Arch of Augustus at Susa.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          44.25
+          6.97021380975,
+          44.1875167327
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              44.0
+              6.8779930799044,
+              44.28362094725901
             ],
             [
-              7.0,
-              44.5
+              6.920823378009345,
+              44.23246253563366
             ],
             [
-              7.5,
-              44.5
+              6.957053874388748,
+              44.19641809642695
             ],
             [
-              7.5,
-              44.0
+              6.970014872035449,
+              44.18071534927799
             ],
             [
-              7.0,
-              44.0
+              6.982975869682321,
+              44.16775435163129
+            ],
+            [
+              7.030278584277539,
+              44.132525173388785
+            ],
+            [
+              7.07191915187957,
+              44.10159218031299
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/157846/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/157846/batlas-map-label-location"
       }
     }
   ]
