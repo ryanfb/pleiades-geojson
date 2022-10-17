@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Testruna",
   "id": "416870",
+  "bbox": [
+    13.305485,
+    42.3990182,
+    13.3076558,
+    42.4016973
+  ],
   "description": "Testruna is now unlocated, although it may have been located near Amiternum. Dionysius of Halicarnassus names it as the original settlement of the Sabines.",
   "connectsWith": [
     "413013"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30645446,
+          42.4003861134
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
