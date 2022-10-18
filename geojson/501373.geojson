@@ -3,10 +3,10 @@
   "title": "Bennoi",
   "id": "501373",
   "bbox": [
-    26.0,
-    41.0,
-    26.5,
-    41.5
+    26.2714126603,
+    41.2834134874,
+    26.4284570867,
+    41.3105393429
   ],
   "description": "An ancient people, tribe, or cultural group. Located: middle R. Evros valley.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.25,
-          41.25
+          26.3494827078,
+          41.2997364479
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.0,
-              41.0
+              26.27141266030418,
+              41.28341348741242
             ],
             [
-              26.0,
-              41.5
+              26.304725114385803,
+              41.291503654832354
             ],
             [
-              26.5,
-              41.5
+              26.33470632305938,
+              41.298642037849845
             ],
             [
-              26.5,
-              41.0
+              26.367066992738557,
+              41.30459069036442
             ],
             [
-              26.0,
-              41.0
+              26.39966560851849,
+              41.308397827973636
+            ],
+            [
+              26.42845708668898,
+              41.310539342879
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/501373/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/501373/batlas-map-label-location"
       }
     }
   ]

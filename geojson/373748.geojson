@@ -3,10 +3,10 @@
   "title": "Bakales?",
   "id": "373748",
   "bbox": [
-    20.0,
-    32.0,
-    21.0,
-    33.0
+    20.4223098581,
+    32.405175208,
+    20.646930977,
+    32.4061269924
   ],
   "description": "An ancient people, tribe, or cultural group.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          32.5
+          20.5346160187,
+          32.4060382481
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              32.0
+              20.422309858086862,
+              32.40517520798551
             ],
             [
-              20.0,
-              33.0
+              20.46418837178942,
+              32.406126992387726
             ],
             [
-              21.0,
-              33.0
+              20.49369368826177,
+              32.406126992387726
             ],
             [
-              21.0,
-              32.0
+              20.528909711148003,
+              32.406126992387726
             ],
             [
-              20.0,
-              32.0
+              20.553656105608695,
+              32.406126992387726
+            ],
+            [
+              20.58220963767866,
+              32.406126992387726
+            ],
+            [
+              20.612666738553287,
+              32.406126992387726
+            ],
+            [
+              20.6469309770373,
+              32.406126992387726
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/373748/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/373748/batlas-map-label-location"
       }
     }
   ]

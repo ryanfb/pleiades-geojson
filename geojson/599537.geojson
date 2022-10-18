@@ -3,10 +3,10 @@
   "title": "Astypalaia (mountain)",
   "id": "599537",
   "bbox": [
-    26.5,
-    37.5,
-    27.0,
-    38.0
+    26.914848364,
+    37.6981165281,
+    26.9667206139,
+    37.728573629
   ],
   "description": "A mountain on Samos.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          37.75
+          26.9413582112,
+          37.7142492815
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              37.5
+              26.914848363967508,
+              37.72857362896218
             ],
             [
-              26.5,
-              38.0
+              26.924842100192052,
+              37.72381470695052
             ],
             [
-              27.0,
-              38.0
+              26.934359944215373,
+              37.71857989273764
             ],
             [
-              27.0,
-              37.5
+              26.945781357043302,
+              37.71191740192137
             ],
             [
-              26.5,
-              37.5
+              26.9586304464749,
+              37.70477901890388
+            ],
+            [
+              26.96672061389461,
+              37.69811652808755
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599537/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599537/batlas-map-label-location"
       }
     }
   ]

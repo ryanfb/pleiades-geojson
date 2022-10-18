@@ -3,10 +3,10 @@
   "title": "Kairenoi",
   "id": "89214",
   "bbox": [
-    -5.0,
-    58.0,
-    -4.0,
-    59.0
+    -4.94845286055,
+    58.3638446349,
+    -4.3583465311,
+    58.3733624789
   ],
   "description": "An ancient people, tribe, or cultural group. Located: N Scotland.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.5,
-          58.5
+          -4.65335329599,
+          58.3700122625
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.0,
-              58.0
+              -4.948452860546126,
+              58.37145891013637
             ],
             [
-              -5.0,
-              59.0
+              -4.841853007484872,
+              58.37145891013637
             ],
             [
-              -4.0,
-              59.0
+              -4.765710255298302,
+              58.373362478940976
             ],
             [
-              -4.0,
-              58.0
+              -4.687663934307125,
+              58.36955534133176
             ],
             [
-              -5.0,
-              58.0
+              -4.628653301362476,
+              58.36955534133176
+            ],
+            [
+              -4.537281998738592,
+              58.36955534133176
+            ],
+            [
+              -4.463042815356744,
+              58.36955534133176
+            ],
+            [
+              -4.35834653110021,
+              58.363844634917655
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/89214/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/89214/batlas-map-label-location"
       }
     }
   ]

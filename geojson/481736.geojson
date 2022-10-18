@@ -3,10 +3,10 @@
   "title": "Argestaeus Campus",
   "id": "481736",
   "bbox": [
-    21.0,
-    40.0,
-    22.0,
-    41.0
+    21.1050445186,
+    40.4197605763,
+    21.3191960091,
+    40.4899546759
   ],
   "description": "An ancient place, cited: BAtlas 49 D3 Argestaeus Campus",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          40.5
+          21.2138318702,
+          40.457423248
         ]
       },
       "properties": {
@@ -28,39 +28,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              40.0
+              21.105044518621305,
+              40.48995467593244
             ],
             [
-              21.0,
-              41.0
+              21.130028859182524,
+              40.48400602341786
             ],
             [
-              22.0,
-              41.0
+              21.15263373873791,
+              40.48162656241203
             ],
             [
-              22.0,
-              40.0
+              21.165720774269978,
+              40.47805737090329
             ],
             [
-              21.0,
-              40.0
+              21.185946192819536,
+              40.473298448891626
+            ],
+            [
+              21.213309994386584,
+              40.46259087436539
+            ],
+            [
+              21.22639702991865,
+              40.459021682856644
+            ],
+            [
+              21.234725143439057,
+              40.45188329983915
+            ],
+            [
+              21.2537608314857,
+              40.43760653380417
+            ],
+            [
+              21.269227328023597,
+              40.43760653380417
+            ],
+            [
+              21.278745172046918,
+              40.42808868978085
+            ],
+            [
+              21.2930219380819,
+              40.42332976776919
+            ],
+            [
+              21.301350051602306,
+              40.42332976776919
+            ],
+            [
+              21.31919600914603,
+              40.419760576260444
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481736/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481736/batlas-map-label-location"
       }
     }
   ]

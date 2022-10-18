@@ -3,10 +3,10 @@
   "title": "Syrtica",
   "id": "364017",
   "bbox": [
-    16.0,
-    30.0,
-    17.0,
-    31.0
+    16.5047176689,
+    29.7611895221,
+    19.0239720088,
+    30.6772820094
   ],
   "description": "Syrtica, Coastal North Libyan region, cited: BAtlas 37 B2",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          30.5
+          17.7909555917,
+          30.2947080617
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              30.0
+              16.504717668867727,
+              30.677282009381713
             ],
             [
-              16.0,
-              31.0
+              16.98060987003379,
+              30.58507789540579
             ],
             [
-              17.0,
-              31.0
+              17.402964198568668,
+              30.478002150143425
             ],
             [
-              17.0,
-              30.0
+              17.813421222074396,
+              30.338208816050894
             ],
             [
-              16.0,
-              30.0
+              18.20305796177911,
+              30.171646545642773
+            ],
+            [
+              18.557002786396367,
+              30.002109948977363
+            ],
+            [
+              19.023972008790565,
+              29.761189522137045
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/364017/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/364017/batlas-map-label-location"
       }
     }
   ]

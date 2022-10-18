@@ -3,10 +3,10 @@
   "title": "Amphax(it)is",
   "id": "491520",
   "bbox": [
-    22.5,
-    40.5,
-    23.0,
-    41.0
+    22.589114348,
+    40.7186208786,
+    22.7233159487,
+    41.1197980042
   ],
   "description": "The western maritime district of Mygdonia in ancient Macedonia.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          40.75
+          22.6644380425,
+          40.9220532918
         ]
       },
       "properties": {
@@ -32,39 +32,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              40.5
+              22.589114347957665,
+              41.11979800417575
             ],
             [
-              22.5,
-              41.0
+              22.614812526820632,
+              41.068401646449814
             ],
             [
-              23.0,
-              41.0
+              22.63337232266611,
+              41.02271599513787
             ],
             [
-              23.0,
-              40.5
+              22.64907676530459,
+              40.98416872684342
             ],
             [
-              22.5,
-              40.5
+              22.660498178132574,
+              40.941338428738476
+            ],
+            [
+              22.676202620771054,
+              40.90421883704752
+            ],
+            [
+              22.681913327185047,
+              40.879948334788054
+            ],
+            [
+              22.689051710202538,
+              40.85710550913208
+            ],
+            [
+              22.699045446427025,
+              40.82141359404463
+            ],
+            [
+              22.70332847623752,
+              40.792860061974665
+            ],
+            [
+              22.707611506048014,
+              40.78001097254318
+            ],
+            [
+              22.723315948686494,
+              40.71862087859276
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491520/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491520/batlas-map-label-location"
       }
     }
   ]

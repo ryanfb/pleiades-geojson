@@ -3,10 +3,10 @@
   "title": "Milyas (region)",
   "id": "638996",
   "bbox": [
-    29.5,
-    36.5,
-    30.0,
-    37.0
+    29.8827800977,
+    36.6782462367,
+    30.0759923313,
+    36.8676513328
   ],
   "description": "According to Strabo, Milyas is a region that strethes from Termessus as far as Sagalassus and the territory of Apameia.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.75,
-          36.75
+          29.9877244096,
+          36.7644826966
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.5,
-              36.5
+              29.88278009765321,
+              36.678246236714756
             ],
             [
-              29.5,
-              37.0
+              29.940838946195356,
+              36.71441404400326
             ],
             [
-              30.0,
-              37.0
+              29.972247831472373,
+              36.74201579167101
             ],
             [
-              30.0,
-              36.5
+              30.006512069956386,
+              36.77628003015485
             ],
             [
-              29.5,
-              36.5
+              30.04077630844023,
+              36.81244783744347
+            ],
+            [
+              30.075992331326518,
+              36.86765133277879
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/638996/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/638996/batlas-map-label-location"
       }
     }
   ]

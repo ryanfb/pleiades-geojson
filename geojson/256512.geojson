@@ -3,10 +3,10 @@
   "title": "Vettones",
   "id": "256512",
   "bbox": [
-    -8.6759486,
-    37.1661936,
-    -2.3586413,
-    42.0071783
+    -6.5587555549,
+    39.0718649302,
+    -5.90059664069,
+    39.9484583647
   ],
   "description": "Vettones, a pre-Roman Celtic population of the Iberian peninsula.",
   "connectsWith": [
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.795205075,
-          40.48024075
+          -6.2500200227,
+          39.5253740526
         ]
       },
       "properties": {
@@ -34,39 +34,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -7.0,
-              39.0
+              -6.558755554902611,
+              39.071864930164146
             ],
             [
-              -7.0,
-              40.0
+              -6.475950311899717,
+              39.21891562032446
             ],
             [
-              -6.0,
-              40.0
+              -6.354597800602372,
+              39.39880287236522
             ],
             [
-              -6.0,
-              39.0
+              -6.230389936098032,
+              39.58011780100949
             ],
             [
-              -7.0,
-              39.0
+              -6.027659858401291,
+              39.814256763983195
+            ],
+            [
+              -5.900596640689955,
+              39.94845836471202
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/256512/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/256512/batlas-map-label-location"
       }
     }
   ]

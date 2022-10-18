@@ -3,10 +3,10 @@
   "title": "Modicus (mountain)",
   "id": "845021",
   "bbox": [
-    32.0,
-    40.0,
-    33.0,
-    41.0
+    32.561125123,
+    40.2912775882,
+    32.6820017421,
+    40.3303007487
   ],
   "description": "Abdüssalâm Dağı.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          40.5
+          32.6203555641,
+          40.3154032549
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              40.0
+              32.56112512304588,
+              40.29127758819601
             ],
             [
-              32.0,
-              41.0
+              32.58206437989713,
+              40.30079543221933
             ],
             [
-              33.0,
-              41.0
+              32.601100067943776,
+              40.309361491840264
             ],
             [
-              33.0,
-              40.0
+              32.61728040278342,
+              40.31697576705892
             ],
             [
-              32.0,
-              40.0
+              32.63821965963467,
+              40.324590042277634
+            ],
+            [
+              32.6582071320837,
+              40.329348964289295
+            ],
+            [
+              32.682001742142006,
+              40.330300748691684
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/845021/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/845021/batlas-map-label-location"
       }
     }
   ]

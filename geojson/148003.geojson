@@ -3,10 +3,10 @@
   "title": "Avatici",
   "id": "148003",
   "bbox": [
-    5.0,
-    43.0,
-    5.5,
-    43.5
+    5.01452337324,
+    43.4475872647,
+    5.16799860811,
+    43.5411000823
   ],
   "description": "An ancient place, cited: BAtlas 15 E3 Avatici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.25,
-          43.25
+          5.09032271226,
+          43.4958732322
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              43.0
+              5.014523373236386,
+              43.4475872647418
             ],
             [
-              5.0,
-              43.5
+              5.045218420211484,
+              43.46900241379427
             ],
             [
-              5.5,
-              43.5
+              5.06877508416926,
+              43.48256534152739
             ],
             [
-              5.5,
-              43.0
+              5.085193365109376,
+              43.49327291605363
             ],
             [
-              5.0,
-              43.0
+              5.109463867368902,
+              43.50897735869222
+            ],
+            [
+              5.138731237740558,
+              43.525395639632336
+            ],
+            [
+              5.167998608112441,
+              43.54110008227093
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/148003/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/148003/batlas-map-label-location"
       }
     }
   ]

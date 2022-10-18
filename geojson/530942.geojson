@@ -3,10 +3,10 @@
   "title": "Kestrine/Kammania",
   "id": "530942",
   "bbox": [
-    20.0,
-    39.5,
-    20.5,
-    40.0
+    20.1527653867,
+    39.5982169635,
+    20.2277184084,
+    39.6951799995
   ],
   "description": "A district of Epirus.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.25,
-          39.75
+          20.1902418868,
+          39.6466679631
         ]
       },
       "properties": {
@@ -29,39 +29,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              39.5
+              20.15276538668843,
+              39.69517999951222
             ],
             [
-              20.0,
-              40.0
+              20.16466269171758,
+              39.68090323347724
             ],
             [
-              20.5,
-              40.0
+              20.17239593998653,
+              39.670195658951
             ],
             [
-              20.5,
-              39.5
+              20.17953432300402,
+              39.659488084424765
             ],
             [
-              20.0,
-              39.5
+              20.185482975518596,
+              39.65175483615582
+            ],
+            [
+              20.196190550044832,
+              39.64164212688104
+            ],
+            [
+              20.200949472056493,
+              39.63152941760626
+            ],
+            [
+              20.208087855073984,
+              39.62320130408585
+            ],
+            [
+              20.21403650758856,
+              39.61487319056545
+            ],
+            [
+              20.227718408372084,
+              39.598216963524635
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530942/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/530942/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Epanterii?",
   "id": "383641",
   "bbox": [
-    7.5,
-    44.0,
-    8.0,
-    44.5
+    7.67315564164,
+    44.1708641766,
+    7.89087632367,
+    44.1958485172
   ],
   "description": "An ancient place, cited: BAtlas 39 B5 Epanterii?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.75,
-          44.25
+          7.78218758828,
+          44.1849023252
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.5,
-              44.0
+              7.673155641638744,
+              44.195848517198726
             ],
             [
-              7.5,
-              44.5
+              7.708252691474741,
+              44.193469056192896
             ],
             [
-              8.0,
-              44.5
+              7.730262705778672,
+              44.18989986468415
             ],
             [
-              8.0,
-              44.0
+              7.75524704633989,
+              44.188710134181235
             ],
             [
-              7.5,
-              44.0
+              7.776662195392363,
+              44.186330673175405
+            ],
+            [
+              7.803431131707954,
+              44.18276148166666
+            ],
+            [
+              7.823656550257511,
+              44.18097688591229
+            ],
+            [
+              7.844476834058526,
+              44.178002559655
+            ],
+            [
+              7.860538195847881,
+              44.176217963900626
+            ],
+            [
+              7.890876323672217,
+              44.17086417663751
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383641/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383641/batlas-map-label-location"
       }
     }
   ]

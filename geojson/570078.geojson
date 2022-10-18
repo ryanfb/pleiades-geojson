@@ -3,10 +3,10 @@
   "title": "Anchisia (mountain)",
   "id": "570078",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.3407777461,
+    37.6977081269,
+    22.4045473011,
+    37.7010393723
   ],
   "description": "Kouvelaki.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.3725624476,
+          37.6987051379
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.340777746146387,
+              37.70103937232659
             ],
             [
-              22.0,
-              38.0
+              22.351485320672623,
+              37.69889785742146
             ],
             [
-              22.5,
-              38.0
+              22.35886164979081,
+              37.69770812691854
             ],
             [
-              22.5,
-              37.5
+              22.364096464003467,
+              37.69818401911971
             ],
             [
-              22.0,
-              37.5
+              22.371472793121654,
+              37.69818401911971
+            ],
+            [
+              22.377183499535533,
+              37.69818401911971
+            ],
+            [
+              22.3814665293462,
+              37.69818401911971
+            ],
+            [
+              22.38455982865372,
+              37.69818401911971
+            ],
+            [
+              22.404547301102582,
+              37.69961169572315
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570078/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570078/batlas-map-label-location"
       }
     }
   ]

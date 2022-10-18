@@ -3,10 +3,10 @@
   "title": "Binbelli?",
   "id": "383591",
   "bbox": [
-    7.0,
-    44.5,
-    7.5,
-    45.0
+    7.18572305459,
+    44.6764996404,
+    7.38143372232,
+    44.7062429029
   ],
   "description": "A tribe of Liguria mentioned by Pliny.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.25,
-          44.75
+          7.28399429216,
+          44.694122243
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              7.0,
-              44.5
+              7.185723054594462,
+              44.70624290294933
             ],
             [
-              7.0,
-              45.0
+              7.216061182418798,
+              44.7038634419435
             ],
             [
-              7.5,
-              45.0
+              7.241640388231474,
+              44.70148398093767
             ],
             [
-              7.5,
-              44.5
+              7.263650402535404,
+              44.699104519931836
             ],
             [
-              7.0,
-              44.5
+              7.288634743096623,
+              44.69494046317163
+            ],
+            [
+              7.307075565891807,
+              44.69077640641143
+            ],
+            [
+              7.327895849692823,
+              44.68780208015414
+            ],
+            [
+              7.34812126824238,
+              44.6842328886454
+            ],
+            [
+              7.381433722324005,
+              44.67649964037645
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383591/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383591/batlas-map-label-location"
       }
     }
   ]

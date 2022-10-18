@@ -3,10 +3,10 @@
   "title": "Carpi",
   "id": "216752",
   "bbox": [
-    27.0,
-    46.0,
-    28.0,
-    47.0
+    27.517892609,
+    46.5705286088,
+    28.6362392817,
+    46.8298898585
   ],
   "description": "An ancient place, cited: BAtlas 22 E2 Carpi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          46.5
+          28.0761117462,
+          46.7043900431
         ]
       },
       "properties": {
@@ -28,39 +28,39 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              46.0
+              27.51789260895805,
+              46.57052860882868
             ],
             [
-              27.0,
-              47.0
+              27.808186851669348,
+              46.63953297799776
             ],
             [
-              28.0,
-              47.0
+              28.091342711363154,
+              46.7132962691785
             ],
             [
-              28.0,
-              46.0
+              28.36260126602781,
+              46.77278279432426
             ],
             [
-              27.0,
-              46.0
+              28.636239281698295,
+              46.829889858464185
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216752/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216752/batlas-map-label-location"
       }
     }
   ]

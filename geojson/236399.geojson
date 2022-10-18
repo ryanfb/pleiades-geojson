@@ -3,10 +3,10 @@
   "title": "Callaeci Lucenses",
   "id": "236399",
   "bbox": [
-    -8.0,
-    43.0,
-    -7.0,
-    44.0
+    -7.97692134909,
+    43.2100956952,
+    -7.58002725332,
+    43.3100330574
   ],
   "description": "The Callaeci Lucenses formed part of a large Celtic tribal federation that inhabited Gallaecia, a region roughly corresponding to what is now Galicia (Spain).",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          43.5
+          -7.78201219919,
+          43.2482491236
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              43.0
+              -7.976921349093232,
+              43.31003305739853
             ],
             [
-              -8.0,
-              44.0
+              -7.926952667970795,
+              43.28433487853562
             ],
             [
-              -7.0,
-              44.0
+              -7.882694693262351,
+              43.2657750826902
             ],
             [
-              -7.0,
-              43.0
+              -7.829870658932862,
+              43.2529259932586
             ],
             [
-              -8.0,
-              43.0
+              -7.759914505361451,
+              43.24007690382723
+            ],
+            [
+              -7.694241381600534,
+              43.22580013779225
+            ],
+            [
+              -7.641417347271158,
+              43.21866175477476
+            ],
+            [
+              -7.580027253320679,
+              43.210095695153655
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236399/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236399/batlas-map-label-location"
       }
     }
   ]

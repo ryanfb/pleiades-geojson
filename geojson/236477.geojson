@@ -3,10 +3,10 @@
   "title": "Grovii",
   "id": "236477",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.52425686696,
+    42.1269035759,
+    -8.40004900246,
+    42.1340419589
   ],
   "description": "An ancient place, cited: BAtlas 24 C2 Grovii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.46206955578,
+          42.1299029372
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.52425686695932,
+              42.12690357589054
             ],
             [
-              -9.0,
-              43.0
+              -8.48285424545793,
+              42.12833125249398
             ],
             [
-              -8.0,
-              43.0
+              -8.457156066594962,
+              42.13118660570103
             ],
             [
-              -8.0,
-              42.0
+              -8.438596270749429,
+              42.13118660570103
             ],
             [
-              -9.0,
-              42.0
+              -8.417181121696956,
+              42.13118660570103
+            ],
+            [
+              -8.400049002455034,
+              42.13404195890803
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236477/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236477/batlas-map-label-location"
       }
     }
   ]

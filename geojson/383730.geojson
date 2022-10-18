@@ -3,10 +3,10 @@
   "title": "Pagus Arusnatium",
   "id": "383730",
   "bbox": [
-    10.5,
-    45.5,
-    11.0,
-    46.0
+    10.8309165308,
+    45.546031063,
+    11.0081863757,
+    45.5906459569
   ],
   "description": "The Pagus Arusnatium corresponds roughly to the modern Valpolicella district of northern Italy.",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          45.75
+          10.9199075946,
+          45.5669146473
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.5,
-              45.5
+              10.8309165307503,
+              45.54603106299112
             ],
             [
-              10.5,
-              46.0
+              10.86065979332318,
+              45.55316944600861
             ],
             [
-              11.0,
-              46.0
+              10.88266980762711,
+              45.55852323327173
             ],
             [
-              11.0,
-              45.5
+              10.918956587966022,
+              45.56387702053485
             ],
             [
-              10.5,
-              45.5
+              10.945725524281613,
+              45.57220513405525
+            ],
+            [
+              10.968330403837001,
+              45.57934351707274
+            ],
+            [
+              10.991530148643847,
+              45.58588703483878
+            ],
+            [
+              11.008186375684659,
+              45.59064595685044
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383730/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383730/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Teuthras (mountain)",
   "id": "550917",
   "bbox": [
-    27.0,
-    39.0,
-    27.5,
-    39.5
+    27.0539513381,
+    39.2086199806,
+    27.1206952193,
+    39.2150445254
   ],
   "description": "A mountain north of Pergamum.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          39.25
+          27.0873435164,
+          39.2121415005
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              39.0
+              27.053951338092133,
+              39.214687606212465
             ],
             [
-              27.0,
-              39.5
+              27.0650158317693,
+              39.215044525363226
             ],
             [
-              27.5,
-              39.5
+              27.07679416374799,
+              39.213973767910716
             ],
             [
-              27.5,
-              39.0
+              27.087858657425215,
+              39.21183225300541
             ],
             [
-              27.0,
-              39.0
+              27.09678163619708,
+              39.21040457640197
+            ],
+            [
+              27.105704614968943,
+              39.21040457640197
+            ],
+            [
+              27.112129159684685,
+              39.20933381894935
+            ],
+            [
+              27.120695219305617,
+              39.2086199806476
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550917/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550917/batlas-map-label-location"
       }
     }
   ]

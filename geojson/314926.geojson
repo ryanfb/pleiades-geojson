@@ -3,10 +3,10 @@
   "title": "Chellenses Numidae",
   "id": "314926",
   "bbox": [
-    8.5,
-    36.0,
-    9.0,
-    36.5
+    8.83547449989,
+    36.0152485081,
+    8.96249189489,
+    36.0485929688
   ],
   "description": "An ancient place, cited: BAtlas 32 C4 Chellenses Numidae",
   "names": [
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          36.25
+          8.8988657429,
+          36.0314083663
         ]
       },
       "properties": {
@@ -30,39 +30,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.5,
-              36.0
+              8.835474499889973,
+              36.048592968768666
             ],
             [
-              8.5,
-              36.5
+              8.851969402867939,
+              36.04407093278586
             ],
             [
-              9.0,
-              36.5
+              8.872034659836803,
+              36.03967241557978
             ],
             [
-              9.0,
-              36.0
+              8.891811459790013,
+              36.03337508000503
             ],
             [
-              8.5,
-              36.0
+              8.907061603849202,
+              36.02848782592572
+            ],
+            [
+              8.920191758448409,
+              36.025253225011674
+            ],
+            [
+              8.933249047195629,
+              36.02154334399442
+            ],
+            [
+              8.948638111404868,
+              36.01759847798659
+            ],
+            [
+              8.962491894893402,
+              36.01524850806163
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/314926/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/314926/batlas-map-label-location"
       }
     }
   ]

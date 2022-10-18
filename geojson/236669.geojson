@@ -3,10 +3,10 @@
   "title": "Supertamarci",
   "id": "236669",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.85035249714,
+    42.8854343202,
+    -8.58981131056,
+    43.0125784193
   ],
   "description": "An ancient place, cited: BAtlas 24 C2 Supertamarci",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.72110701075,
+          42.9506480323
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.850352497140705,
+              42.88543432021413
             ],
             [
-              -9.0,
-              43.0
+              -8.814224119268488,
+              42.90766716813562
             ],
             [
-              -8.0,
-              43.0
+              -8.793380824342137,
+              42.91530970960872
             ],
             [
-              -8.0,
-              42.0
+              -8.775316635405943,
+              42.92851046306208
             ],
             [
-              -9.0,
-              42.0
+              -8.75238901098703,
+              42.93754255753015
+            ],
+            [
+              -8.729461386568005,
+              42.94657465199822
+            ],
+            [
+              -8.710702421134272,
+              42.95630152296377
+            ],
+            [
+              -8.68291136123247,
+              42.968112723421996
+            ],
+            [
+              -8.66067851331104,
+              42.97783959438772
+            ],
+            [
+              -8.637750888892128,
+              42.990345571343425
+            ],
+            [
+              -8.616907593965834,
+              42.999377665811494
+            ],
+            [
+              -8.589811310561572,
+              43.012578419264855
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236669/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236669/batlas-map-label-location"
       }
     }
   ]

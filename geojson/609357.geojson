@@ -3,10 +3,10 @@
   "title": "Dagoutenoi",
   "id": "609357",
   "bbox": [
-    29.0,
-    39.5,
-    29.5,
-    40.0
+    29.1176348132,
+    39.8974535122,
+    29.2763448623,
+    39.8984052966
   ],
   "description": "An ancient place, cited: BAtlas 62 B2 Dagoutenoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.25,
-          39.75
+          29.1969764233,
+          39.8981466095
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              39.5
+              29.117634813246525,
+              39.898405296586475
             ],
             [
-              29.0,
-              40.0
+              29.134766932488503,
+              39.897453512184256
             ],
             [
-              29.5,
-              40.0
+              29.15261289003223,
+              39.89792940438531
             ],
             [
-              29.5,
-              39.5
+              29.170458847575958,
+              39.898405296586475
             ],
             [
-              29.0,
-              39.5
+              29.19020837392435,
+              39.898167350486005
+            ],
+            [
+              29.207578439267024,
+              39.898405296586475
+            ],
+            [
+              29.224234666307837,
+              39.898405296586475
+            ],
+            [
+              29.242556516052616,
+              39.898405296586475
+            ],
+            [
+              29.261830150199955,
+              39.89792940438531
+            ],
+            [
+              29.276344862335407,
+              39.89792940438531
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/609357/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/609357/batlas-map-label-location"
       }
     }
   ]

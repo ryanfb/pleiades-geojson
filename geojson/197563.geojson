@@ -3,10 +3,10 @@
   "title": "Ulcirus (mountain)",
   "id": "197563",
   "bbox": [
-    16.0,
-    44.0,
-    17.0,
-    45.0
+    16.3404947061,
+    44.0781679524,
+    16.4550657535,
+    44.1010107781
   ],
   "description": "Ilica.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5,
-          44.5
+          16.3978301695,
+          44.0897438957
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              44.0
+              16.34049470606095,
+              44.10101077805206
             ],
             [
-              16.0,
-              45.0
+              16.357269906152,
+              44.09637082909069
             ],
             [
-              17.0,
-              45.0
+              16.374758944544794,
+              44.093515475883635
             ],
             [
-              17.0,
-              44.0
+              16.393318740390384,
+              44.08994628437489
             ],
             [
-              16.0,
-              44.0
+              16.411521617084873,
+              44.087804769469585
+            ],
+            [
+              16.432936766137345,
+              44.08459249711177
+            ],
+            [
+              16.455065753491567,
+              44.07816795239597
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/197563/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/197563/batlas-map-label-location"
       }
     }
   ]

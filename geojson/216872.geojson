@@ -3,10 +3,10 @@
   "title": "‘Locidae Regi’",
   "id": "216872",
   "bbox": [
-    27.0,
-    43.0,
-    28.0,
-    44.0
+    27.5176744917,
+    43.7868864079,
+    28.1767851903,
+    43.7916453299
   ],
   "description": "‘Locidae Regi’ is attested on the Peutinger Map, but there is little clarity as to whether it describes the name of a tribal group or of a region. Talbert indicates that Konrad Miller favored a reading that took the term as two words, i.e., \"Locidae Regi\" instead of as one word, i.e. \"Locideregi\". The evidence from the Peutinger Map does not offer the chance for a definitive determination.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          43.5
+          27.847229841,
+          43.7892658689
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              43.0
+              27.51767449169921,
+              43.791645329907396
             ],
             [
-              27.0,
-              44.0
-            ],
-            [
-              28.0,
-              44.0
-            ],
-            [
-              28.0,
-              43.0
-            ],
-            [
-              27.0,
-              43.0
+              28.176785190314206,
+              43.786886407895736
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/216872/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/216872/batlas-map-label-location"
       }
     }
   ]

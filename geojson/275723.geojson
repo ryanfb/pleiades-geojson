@@ -3,10 +3,10 @@
   "title": "Sokossioi",
   "id": "275723",
   "bbox": [
-    -5.5,
-    35.0,
-    -5.0,
-    35.5
+    -5.32195545333,
+    35.1318944113,
+    -4.81370258249,
+    35.4317064981
   ],
   "description": "An ancient place, cited: BAtlas 28 D3 Sokossioi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.25,
-          35.25
+          -5.0755883229,
+          35.2688345672
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -5.5,
-              35.0
+              -5.321955453332748,
+              35.431706498080985
             ],
             [
-              -5.5,
-              35.5
+              -5.245812701146178,
+              35.370792296331615
             ],
             [
-              -5.0,
-              35.5
+              -5.187753852603919,
+              35.32701021382445
             ],
             [
-              -5.0,
-              35.0
+              -5.133502141670931,
+              35.294649544145045
             ],
             [
-              -5.5,
-              35.0
+              -5.072587939921732,
+              35.2603853056612
+            ],
+            [
+              -5.015480875781805,
+              35.22897642038424
+            ],
+            [
+              -4.965036302458088,
+              35.2013746727165
+            ],
+            [
+              -4.906025669513554,
+              35.16996578743965
+            ],
+            [
+              -4.813702582487338,
+              35.131894411346366
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/275723/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/275723/batlas-map-label-location"
       }
     }
   ]

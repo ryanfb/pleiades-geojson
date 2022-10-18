@@ -3,10 +3,10 @@
   "title": "Gordiane",
   "id": "844934",
   "bbox": [
-    32.0,
-    40.0,
-    33.0,
-    41.0
+    32.0637745358,
+    40.7604685605,
+    32.2850644093,
+    40.764037752
   ],
   "description": "An ancient place, cited: BAtlas 86 C3 Gordiane",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5,
-          40.5
+          32.1744194725,
+          40.7622531562
         ]
       },
       "properties": {
@@ -28,39 +28,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              40.0
+              32.06377453575662,
+              40.760468560480085
             ],
             [
-              32.0,
-              41.0
-            ],
-            [
-              33.0,
-              41.0
-            ],
-            [
-              33.0,
-              40.0
-            ],
-            [
-              32.0,
-              40.0
+              32.28506440929884,
+              40.76403775198883
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/844934/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/844934/batlas-map-label-location"
       }
     }
   ]

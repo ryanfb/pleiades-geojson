@@ -3,10 +3,10 @@
   "title": "Cotti Regnum",
   "id": "167729",
   "bbox": [
-    6.5,
-    44.0,
-    7.0,
-    44.5
+    6.75639277614,
+    44.4114821141,
+    6.95626750063,
+    45.4127593054
   ],
   "description": "An ancient place, cited: BAtlas 17 H5 Cotti Regnum",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          44.25
+          6.82640243624,
+          44.9179644254
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              44.0
+              6.756392776139819,
+              44.411482114128034
             ],
             [
-              6.5,
-              44.5
+              6.764007051358476,
+              44.53521408643121
             ],
             [
-              7.0,
-              44.5
+              6.769717757772412,
+              44.624681820250316
             ],
             [
-              7.0,
-              44.0
+              6.77162132657719,
+              44.70272814124155
             ],
             [
-              6.5,
-              44.0
+              6.779235601795733,
+              44.7693530494048
+            ],
+            [
+              6.790657014623832,
+              44.83978509517749
+            ],
+            [
+              6.811596271475082,
+              44.914024278559395
+            ],
+            [
+              6.826824821912339,
+              44.980649186722644
+            ],
+            [
+              6.838246234740438,
+              45.054888370104436
+            ],
+            [
+              6.86299262920096,
+              45.132934691095784
+            ],
+            [
+              6.885835454857045,
+              45.212884580891625
+            ],
+            [
+              6.916292555731616,
+              45.29283447068747
+            ],
+            [
+              6.956267500629565,
+              45.41275930538137
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167729/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167729/batlas-map-label-location"
       }
     }
   ]

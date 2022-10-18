@@ -3,10 +3,10 @@
   "title": "Isauria",
   "id": "648653",
   "bbox": [
-    32.0,
-    37.0,
-    32.5,
-    37.5
+    32.2317452232,
+    36.7858019284,
+    33.0937049726,
+    37.0659834619
   ],
   "description": "A region of southern Asia Minor.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.25,
-          37.25
+          32.6486095674,
+          36.8834754557
         ]
       },
       "properties": {
@@ -28,39 +28,47 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.0,
-              37.0
+              33.09370497255429,
+              36.78580192844743
             ],
             [
-              32.0,
-              37.5
+              32.92059918438014,
+              36.798294098728036
             ],
             [
-              32.5,
-              37.5
+              32.77783152403032,
+              36.82506303504363
             ],
             [
-              32.5,
-              37.0
+              32.631494672171755,
+              36.86432414163983
             ],
             [
-              32.0,
-              37.0
+              32.481588628804445,
+              36.91964661002538
+            ],
+            [
+              32.35488233024398,
+              36.98567665293717
+            ],
+            [
+              32.23174522319226,
+              37.065983461883945
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/648653/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/648653/batlas-map-label-location"
       }
     }
   ]

@@ -3,12 +3,12 @@
   "title": "Parorbelia",
   "id": "491684",
   "bbox": [
-    22.5,
-    41.0,
-    23.0,
-    41.5
+    22.7890564905,
+    41.237426659,
+    23.0755435956,
+    41.2707391131
   ],
-  "description": "An ancient place, cited: BAtlas 50 C2 Parorbelia",
+  "description": "Parorbelia, a district of Macedonia according to Strabo.",
   "names": [
     "Parorbelia"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          41.25
+          22.9331548811,
+          41.2610814006
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.5,
-              41.0
+              22.78905649050921,
+              41.267883759873655
             ],
             [
-              22.5,
-              41.5
+              22.833790357418934,
+              41.27073911308054
             ],
             [
-              23.0,
-              41.5
+              22.86615102709817,
+              41.26978732867826
             ],
             [
-              23.0,
-              41.0
+              22.893752774765744,
+              41.26978732867826
             ],
             [
-              22.5,
-              41.0
+              22.923258091238097,
+              41.26598019106888
+            ],
+            [
+              22.953715192112668,
+              41.263124837861994
+            ],
+            [
+              22.985124077389685,
+              41.256462347045556
+            ],
+            [
+              23.007015118643324,
+              41.25360699383867
+            ],
+            [
+              23.03842400392034,
+              41.24789628742462
+            ],
+            [
+              23.075543595611236,
+              41.23742665899891
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491684/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491684/batlas-map-label-location"
       }
     }
   ]

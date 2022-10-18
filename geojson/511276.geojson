@@ -3,10 +3,10 @@
   "title": "Hieron (mountain)",
   "id": "511276",
   "bbox": [
-    27.0,
-    40.5,
-    27.5,
-    41.0
+    27.2250004998,
+    40.7652295223,
+    27.3263655386,
+    40.8161499879
   ],
   "description": "Ganos Dağı.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          40.75
+          27.2755355947,
+          40.790949308
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              40.5
+              27.22500049975946,
+              40.765229522347624
             ],
             [
-              27.0,
-              41.0
+              27.241656726800272,
+              40.77379558196856
             ],
             [
-              27.5,
-              41.0
+              27.249271002018816,
+              40.77665093517561
             ],
             [
-              27.5,
-              40.5
+              27.255933492835254,
+              40.780458072784825
             ],
             [
-              27.0,
-              40.5
+              27.26497544465741,
+              40.78474110259549
+            ],
+            [
+              27.273541504278285,
+              40.79045180900937
+            ],
+            [
+              27.288770054715712,
+              40.79854197642925
+            ],
+            [
+              27.299239683141252,
+              40.80330089844091
+            ],
+            [
+              27.308757527164573,
+              40.80805982045257
+            ],
+            [
+              27.326365538607774,
+              40.81614998787228
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511276/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511276/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Paktyes (mountain)",
   "id": "599844",
   "bbox": [
-    27.0,
-    37.5,
-    27.5,
-    38.0
+    27.423577127,
+    37.9194064016,
+    27.4973404182,
+    37.9455804727
   ],
   "description": "A a spur of the Messogis mountain range lying to the east of Ephesos, elevation 305–1,524 m.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          37.75
+          27.4600314082,
+          37.9336222998
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.0,
-              37.5
+              27.423577127014028,
+              37.91940640162977
             ],
             [
-              27.0,
-              38.0
+              27.436426216445568,
+              37.925593000244874
             ],
             [
-              27.5,
-              38.0
+              27.44832352147472,
+              37.929400137854316
             ],
             [
-              27.5,
-              37.5
+              27.455937796693433,
+              37.93368316766475
             ],
             [
-              27.0,
-              37.5
+              27.46212439530848,
+              37.936062628670584
+            ],
+            [
+              27.47640116134346,
+              37.93891798187764
+            ],
+            [
+              27.491629711780888,
+              37.9436769038893
+            ],
+            [
+              27.497340418194767,
+              37.945580472693905
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599844/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/599844/batlas-map-label-location"
       }
     }
   ]

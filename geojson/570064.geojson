@@ -3,10 +3,10 @@
   "title": "Alesion (mountain)",
   "id": "570064",
   "bbox": [
-    22.0,
-    37.5,
-    22.5,
-    38.0
+    22.4192999593,
+    37.622279213,
+    22.4452360843,
+    37.6639197806
   ],
   "description": "A mountain south of Mantineia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          37.75
+          22.4336864033,
+          37.6422444313
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              37.5
+              22.419299959338787,
+              37.622279213033664
             ],
             [
-              22.0,
-              38.0
+              22.423345043048755,
+              37.6265622428441
             ],
             [
-              22.5,
-              38.0
+              22.426438342356278,
+              37.6308452726546
             ],
             [
-              22.5,
-              37.5
+              22.429055749462805,
+              37.63441446416334
             ],
             [
-              22.0,
-              37.5
+              22.43119726436794,
+              37.63703187126987
+            ],
+            [
+              22.43357672537377,
+              37.64155284718083
+            ],
+            [
+              22.43833564738543,
+              37.647025607494356
+            ],
+            [
+              22.445236084302394,
+              37.663919780635695
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570064/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570064/batlas-map-label-location"
       }
     }
   ]

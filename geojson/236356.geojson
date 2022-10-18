@@ -3,10 +3,10 @@
   "title": "Auregenses",
   "id": "236356",
   "bbox": [
-    -8.0,
-    42.0,
-    -7.0,
-    43.0
+    -7.75231212745,
+    42.305934222,
+    -7.54815437315,
+    42.3930224948
   ],
   "description": "An ancient place, cited: BAtlas 24 D2 Auregenses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5,
-          42.5
+          -7.65121751964,
+          42.3519155219
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -8.0,
-              42.0
+              -7.752312127447851,
+              42.30593422196927
             ],
             [
-              -8.0,
-              43.0
+              -7.722330918774389,
+              42.32163866460769
             ],
             [
-              -7.0,
-              43.0
+              -7.70377112292897,
+              42.32592169441813
             ],
             [
-              -7.0,
-              42.0
+              -7.680928297272942,
+              42.338770783849725
             ],
             [
-              -8.0,
-              42.0
+              -7.658085471616971,
+              42.35304754988471
+            ],
+            [
+              -7.636670322564498,
+              42.358758256298586
+            ],
+            [
+              -7.620965879926018,
+              42.363041286109194
+            ],
+            [
+              -7.606689113891036,
+              42.371607345730126
+            ],
+            [
+              -7.589556994649115,
+              42.38160108195467
+            ],
+            [
+              -7.548154373147668,
+              42.3930224947826
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236356/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236356/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Typaion (mountain)",
   "id": "570757",
   "bbox": [
-    21.5,
-    37.5,
-    22.0,
-    38.0
+    21.6245215154,
+    37.607094286,
+    21.7024488634,
+    37.6207761868
   ],
   "description": "Ag. Eleousa (Krestena).",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          37.75
+          21.6631374454,
+          37.6156321009
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              37.5
+              21.624521515438573,
+              37.60709428604815
             ],
             [
-              21.5,
-              38.0
+              21.63284962895898,
+              37.61036604493097
             ],
             [
-              22.0,
-              38.0
+              21.636716253093425,
+              37.6106634775569
             ],
             [
-              22.0,
-              37.5
+              21.64325977085946,
+              37.6127455059368
             ],
             [
-              21.5,
-              37.5
+              21.648613558122577,
+              37.61334037118826
+            ],
+            [
+              21.655751941140068,
+              37.61512496694263
+            ],
+            [
+              21.66526978516339,
+              37.61571983219409
+            ],
+            [
+              21.674192763935253,
+              37.618396725825846
+            ],
+            [
+              21.683710607958574,
+              37.61988388895429
+            ],
+            [
+              21.690848990976065,
+              37.62018132158022
+            ],
+            [
+              21.702448863379516,
+              37.62077618683168
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570757/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/570757/batlas-map-label-location"
       }
     }
   ]

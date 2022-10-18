@@ -3,10 +3,10 @@
   "title": "Callaeci Bracari",
   "id": "236398",
   "bbox": [
-    -9.0,
-    42.0,
-    -8.0,
-    43.0
+    -8.4985586881,
+    42.1047745885,
+    -8.01743167272,
+    42.1633093293
   ],
   "description": "The Callaeci Bracari formed part of a large Celtic tribal federation that inhabited Gallaecia, a region roughly corresponding to what is now Galicia (Spain).",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.5,
-          42.5
+          -8.23945415977,
+          42.1281019058
         ]
       },
       "properties": {
@@ -31,39 +31,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -9.0,
-              42.0
+              -8.49855868809641,
+              42.16330932928008
             ],
             [
-              -9.0,
-              43.0
+              -8.415753445093515,
+              42.14332185683122
             ],
             [
-              -8.0,
-              43.0
+              -8.327237495676627,
+              42.14046650362417
             ],
             [
-              -8.0,
-              42.0
+              -8.228727810035252,
+              42.1276174141928
             ],
             [
-              -9.0,
-              42.0
+              -8.143067213825361,
+              42.113340648157646
+            ],
+            [
+              -8.107410279379849,
+              42.1094508007634
+            ],
+            [
+              -8.017431672717464,
+              42.10905761834721
+            ],
+            [
+              -8.064545000632961,
+              42.10477458853654
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/236398/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/236398/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Myrmekes",
   "id": "550757",
   "bbox": [
-    26.5,
-    38.5,
-    27.0,
-    39.0
+    26.6801030132,
+    38.6108476708,
+    26.7381023752,
+    38.6123348339
   ],
   "description": "An ancient place, cited: BAtlas 56 D4 Myrmekes",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          38.75
+          26.7090386009,
+          38.6113312904
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              26.5,
-              38.5
+              26.68010301316616,
+              38.61114510340167
             ],
             [
-              26.5,
-              39.0
+              26.687538828809352,
+              38.61084767077597
             ],
             [
-              27.0,
-              39.0
+              26.694379779201142,
+              38.61233483390458
             ],
             [
-              27.0,
-              38.5
+              26.698543835961345,
+              38.611442536027425
             ],
             [
-              26.5,
-              38.5
+              26.70538478635308,
+              38.61114510340167
+            ],
+            [
+              26.711928304119112,
+              38.61114510340167
+            ],
+            [
+              26.719066687136603,
+              38.611739968653126
+            ],
+            [
+              26.72471790702548,
+              38.611442536027425
+            ],
+            [
+              26.738102375183246,
+              38.61084767077597
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/550757/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/550757/batlas-map-label-location"
       }
     }
   ]

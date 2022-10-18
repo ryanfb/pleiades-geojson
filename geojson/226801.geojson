@@ -3,10 +3,10 @@
   "title": "Tyregetai",
   "id": "226801",
   "bbox": [
-    29.0,
-    46.0,
-    30.0,
-    47.0
+    29.8239070423,
+    46.1827210593,
+    30.5127610035,
+    46.281468691
   ],
   "description": "An ancient place, cited: BAtlas 23 C2 Tyregetai",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.5,
-          46.5
+          30.169549474,
+          46.2242744212
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              29.0,
-              46.0
+              29.82390704231898,
+              46.1827210593064
             ],
             [
-              29.0,
-              47.0
+              29.933362248587173,
+              46.192238903329724
             ],
             [
-              30.0,
-              47.0
+              30.013074192282488,
+              46.201756747353045
             ],
             [
-              30.0,
-              46.0
+              30.088027213966143,
+              46.211274591376366
             ],
             [
-              29.0,
-              46.0
+              30.17011861866729,
+              46.21960270489677
+            ],
+            [
+              30.24864083185969,
+              46.23268974042884
+            ],
+            [
+              30.325973314549174,
+              46.24458704545799
+            ],
+            [
+              30.399736605729913,
+              46.25529461998423
+            ],
+            [
+              30.512761003506853,
+              46.28146869104836
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/226801/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/226801/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Chelidon (mountain)",
   "id": "638798",
   "bbox": [
-    30.0,
-    36.0,
-    30.5,
-    36.5
+    30.4101080655,
+    36.224658173,
+    30.4761381084,
+    36.2946143266
   ],
   "description": "Markiz Dağ.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.25,
-          36.25
+          30.4407761604,
+          36.2618233963
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              30.0,
-              36.0
+              30.41010806552913,
+              36.22465817304794
             ],
             [
-              30.0,
-              36.5
+              30.41796028684837,
+              36.23536574757418
             ],
             [
-              30.5,
-              36.5
+              30.420815640055366,
+              36.24107645398823
             ],
             [
-              30.5,
-              36.0
+              30.42367099326242,
+              36.24464564549697
             ],
             [
-              30.0,
-              36.0
+              30.426883265620233,
+              36.24857175615654
+            ],
+            [
+              30.432593972034283,
+              36.254282462570586
+            ],
+            [
+              30.4379477592974,
+              36.26142084558808
+            ],
+            [
+              30.4425877082586,
+              36.26713155200213
+            ],
+            [
+              30.451510687030463,
+              36.27498377332131
+            ],
+            [
+              30.46186134240594,
+              36.28354983294224
+            ],
+            [
+              30.467928967970806,
+              36.2885467010546
+            ],
+            [
+              30.47613810844092,
+              36.29461432661941
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/638798/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/638798/batlas-map-label-location"
       }
     }
   ]

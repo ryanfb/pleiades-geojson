@@ -3,10 +3,10 @@
   "title": "Teuranus Ager",
   "id": "452473",
   "bbox": [
-    16.0,
-    38.5,
-    16.5,
-    39.0
+    16.4648175453,
+    38.8963083861,
+    16.5728450749,
+    38.9162958586
   ],
   "description": "An area of Bruttium known from its epigraphical mention in the Senatus Consultum de Bacchanalibus (186 BC).",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.25,
-          38.75
+          16.5192972035,
+          38.9089018133
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              16.0,
-              38.5
+              16.46481754525462,
+              38.916295858567025
             ],
             [
-              16.0,
-              39.0
+              16.484329125502484,
+              38.91439228976236
             ],
             [
-              16.5,
-              39.0
+              16.49908178373863,
+              38.913916397561195
             ],
             [
-              16.5,
-              38.5
+              16.51193087317006,
+              38.91248872095758
             ],
             [
-              16.0,
-              38.5
+              16.52858710021087,
+              38.909157475549534
+            ],
+            [
+              16.54000851303897,
+              38.90535033794009
+            ],
+            [
+              16.55618884787856,
+              38.9010673081296
+            ],
+            [
+              16.57284507491937,
+              38.89630838611794
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/452473/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/452473/batlas-map-label-location"
       }
     }
   ]
