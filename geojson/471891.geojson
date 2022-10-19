@@ -3,10 +3,10 @@
   "title": "Barbarikinoi",
   "id": "471891",
   "bbox": [
-    9.0,
-    39.0,
-    10.0,
-    40.0
+    9.00100855178,
+    39.9054731458,
+    9.30581750662,
+    39.908328499
   ],
   "description": "An ancient place, cited: BAtlas 48 B3 Barbarikinoi",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.5,
-          39.5
+          9.15344063759,
+          39.9072014188
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              9.0,
-              39.0
+              9.001008551775794,
+              39.90690082236639
             ],
             [
-              9.0,
-              40.0
+              9.04169733497549,
+              39.90618698406464
             ],
             [
-              10.0,
-              40.0
+              9.067395513838457,
+              39.90761466066814
             ],
             [
-              10.0,
-              39.0
+              9.093093692701425,
+              39.90690082236639
             ],
             [
-              9.0,
-              39.0
+              9.116650356659145,
+              39.90761466066814
+            ],
+            [
+              9.145203888729107,
+              39.90690082236639
+            ],
+            [
+              9.167332876083329,
+              39.90832849896989
+            ],
+            [
+              9.188748025135801,
+              39.90832849896989
+            ],
+            [
+              9.21373236569702,
+              39.90761466066814
+            ],
+            [
+              9.23728902965474,
+              39.90547314576289
+            ],
+            [
+              9.270125591535198,
+              39.90761466066814
+            ],
+            [
+              9.30581750662265,
+              39.90761466066814
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/471891/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/471891/batlas-map-label-location"
       }
     }
   ]

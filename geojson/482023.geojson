@@ -3,10 +3,10 @@
   "title": "Triballoi",
   "id": "482023",
   "bbox": [
-    21.0,
-    42.0,
-    22.0,
-    43.0
+    21.589954877,
+    42.0153735889,
+    22.0882140116,
+    42.4979282809
   ],
   "description": "An ancient people, tribe, or cultural group. Located: MAC/YUG.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          42.5
+          21.8369677104,
+          42.2587283649
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              42.0
+              21.58995487699942,
+              42.01537358889765
             ],
             [
-              21.0,
-              43.0
+              21.66133870717433,
+              42.092468125486555
             ],
             [
-              22.0,
-              43.0
+              21.71701809471076,
+              42.14529215981598
             ],
             [
-              22.0,
-              42.0
+              21.772697482247185,
+              42.19383316433492
             ],
             [
-              21.0,
-              42.0
+              21.828376869783614,
+              42.250940228474846
+            ],
+            [
+              21.884056257320044,
+              42.30519193940778
+            ],
+            [
+              21.94116332145997,
+              42.360871326944206
+            ],
+            [
+              22.00398109201389,
+              42.41940606768763
+            ],
+            [
+              22.08821401162028,
+              42.49792828088003
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/482023/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/482023/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Lotophages",
   "id": "344425",
   "bbox": [
-    10.0,
-    33.0,
-    11.0,
-    34.0
+    10.4785289303,
+    33.6428230983,
+    11.1274079465,
+    33.7491850053
   ],
   "description": "An ancient place, cited: BAtlas 35 C1 Lotophages",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.5,
-          33.5
+          10.7972590536,
+          33.668269677
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              33.0
+              10.478528930253901,
+              33.74918500530822
             ],
             [
-              10.0,
-              34.0
+              10.56133417325691,
+              33.70778238380666
             ],
             [
-              11.0,
-              34.0
+              10.624865782112465,
+              33.6849395581508
             ],
             [
-              11.0,
-              33.0
+              10.696249612287374,
+              33.66994895381407
             ],
             [
-              10.0,
-              33.0
+              10.762636574350097,
+              33.65638602608084
+            ],
+            [
+              10.825454344904074,
+              33.647106128157986
+            ],
+            [
+              10.902548881492862,
+              33.64282309834755
+            ],
+            [
+              10.971077358460775,
+              33.64282309834755
+            ],
+            [
+              11.038891997126939,
+              33.646392289856294
+            ],
+            [
+              11.127407946543826,
+              33.65424451117548
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344425/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344425/batlas-map-label-location"
       }
     }
   ]

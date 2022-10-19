@@ -3,10 +3,10 @@
   "title": "Iesalenses",
   "id": "295277",
   "bbox": [
-    3.0,
-    36.0,
-    3.5,
-    36.5
+    3.46091088925,
+    36.0516020666,
+    3.72883678807,
+    36.0549220455
   ],
   "description": "An ancient people, tribe, or cultural group. Located: mountains near Auzia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.25,
-          36.25
+          3.59485792199,
+          36.0532104452
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              36.0
+              3.460910889253133,
+              36.053908244806784
             ],
             [
-              3.0,
-              36.5
+              3.492784415161893,
+              36.05457770975261
             ],
             [
-              3.5,
-              36.5
+              3.521686035844614,
+              36.05492204548016
             ],
             [
-              3.5,
-              36.0
+              3.548004574585772,
+              36.0525296590351
             ],
             [
-              3.0,
-              36.0
+              3.574519702553765,
+              36.05251314044964
+            ],
+            [
+              3.602874146349655,
+              36.05334643631478
+            ],
+            [
+              3.629976096064039,
+              36.0532853363389
+            ],
+            [
+              3.664076436299617,
+              36.05235051928351
+            ],
+            [
+              3.689458718909028,
+              36.05285014626479
+            ],
+            [
+              3.728836788070279,
+              36.051602066595244
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295277/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/295277/batlas-map-label-location"
       }
     }
   ]

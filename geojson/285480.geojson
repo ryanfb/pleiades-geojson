@@ -3,10 +3,10 @@
   "title": "Massaesylii?",
   "id": "285480",
   "bbox": [
-    -1.0,
-    35.0,
-    0.0,
-    36.0
+    -0.418673766516,
+    35.4277336356,
+    0.391532705969,
+    35.5859677925
   ],
   "description": "An ancient place, cited: BAtlas 29 E1 Massaesylii?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5,
-          35.5
+          -0.0114311701483,
+          35.4963826667
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -1.0,
-              35.0
+              -0.418673766515724,
+              35.427733635582456
             ],
             [
-              -1.0,
-              36.0
+              -0.306839099241699,
+              35.44082067111452
             ],
             [
-              0.0,
-              36.0
+              -0.239024460575536,
+              35.452717976143674
             ],
             [
-              0.0,
-              35.0
+              -0.167640630400626,
+              35.464615281172826
             ],
             [
-              -1.0,
-              35.0
+              -0.097446530728632,
+              35.47651258620198
+            ],
+            [
+              -0.022493509044978,
+              35.489599621734044
+            ],
+            [
+              0.045321129621072,
+              35.503876387769026
+            ],
+            [
+              0.115515229293067,
+              35.51815315380401
+            ],
+            [
+              0.18332986795923,
+              35.53005045883316
+            ],
+            [
+              0.252334237128309,
+              35.545516955371056
+            ],
+            [
+              0.308251570765322,
+              35.56217318241187
+            ],
+            [
+              0.391532705969382,
+              35.58596779247017
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/285480/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/285480/batlas-map-label-location"
       }
     }
   ]

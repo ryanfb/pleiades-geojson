@@ -3,10 +3,10 @@
   "title": "Phthiotis",
   "id": "541052",
   "bbox": [
-    22.6337672,
-    38.8678937,
-    22.6337672,
-    38.8678937
+    22.2824880798,
+    39.3192965444,
+    22.4740346907,
+    39.3228657359
   ],
   "description": "An ancient place, cited: BAtlas 55 C2 Phthiotis",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.6337672,
-          38.8678937
+          22.3782526627,
+          39.3217054581
         ]
       },
       "properties": {
@@ -29,39 +29,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              22.0,
-              39.0
+              22.282488079767745,
+              39.31929654442109
             ],
             [
-              22.0,
-              39.5
+              22.318774860106657,
+              39.32048627492401
             ],
             [
-              22.5,
-              39.5
+              22.341379739662045,
+              39.32167600542692
             ],
             [
-              22.5,
-              39.0
+              22.363984619217433,
+              39.32167600542692
             ],
             [
-              22.0,
-              39.0
+              22.383020307264076,
+              39.32167600542692
+            ],
+            [
+              22.403245725813633,
+              39.32286573592984
+            ],
+            [
+              22.42644547062048,
+              39.32227087067838
+            ],
+            [
+              22.444886293415664,
+              39.32286573592984
+            ],
+            [
+              22.474034690737085,
+              39.32286573592984
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/541052/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/541052/batlas-map-label-location"
       }
     }
   ]

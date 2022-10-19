@@ -3,10 +3,10 @@
   "title": "Benacenses",
   "id": "383586",
   "bbox": [
-    10.5,
-    45.5,
-    11.0,
-    46.0
+    10.6314661435,
+    45.6852721338,
+    10.7730440733,
+    45.8214962764
   ],
   "description": "An ancient place, cited: BAtlas 39 H2 Benacenses",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          45.75
+          10.705057704,
+          45.7505383707
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.5,
-              45.5
+              10.631466143473176,
+              45.685272133798264
             ],
             [
-              10.5,
-              46.0
+              10.655855618782937,
+              45.704902687096364
             ],
             [
-              11.0,
-              46.0
+              10.672511845823749,
+              45.71858458787989
             ],
             [
-              11.0,
-              45.5
+              10.687978342361646,
+              45.7310767581605
             ],
             [
-              10.5,
-              45.5
+              10.703444838899543,
+              45.74475865894402
+            ],
+            [
+              10.715937009180152,
+              45.75963029023046
+            ],
+            [
+              10.731403505718049,
+              45.7745019215169
+            ],
+            [
+              10.744490541250116,
+              45.78877868755188
+            ],
+            [
+              10.756387846279267,
+              45.80008112732958
+            ],
+            [
+              10.77304407332008,
+              45.82149627638205
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383586/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383586/batlas-map-label-location"
       }
     }
   ]

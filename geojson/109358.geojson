@@ -3,10 +3,10 @@
   "title": "Sunuci",
   "id": "109358",
   "bbox": [
-    6.0,
-    50.0,
-    7.0,
-    51.0
+    6.12227103863,
+    50.7932473973,
+    6.50917139818,
+    50.7975304272
   ],
   "description": "The Sunuci were a Germanic tribe in Germania Inferior.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5,
-          50.5
+          6.31570753763,
+          50.7951334955
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              50.0
+              6.122271038631766,
+              50.79753042715964
             ],
             [
-              6.0,
-              51.0
+              6.216497694462589,
+              50.79467507395259
             ],
             [
-              7.0,
-              51.0
+              6.286453848034057,
+              50.79610275055603
             ],
             [
-              7.0,
-              50.0
+              6.359265354812408,
+              50.79467507395259
             ],
             [
-              6.0,
-              50.0
+              6.426366155176822,
+              50.79467507395259
+            ],
+            [
+              6.509171398179717,
+              50.79324739734898
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109358/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109358/batlas-map-label-location"
       }
     }
   ]

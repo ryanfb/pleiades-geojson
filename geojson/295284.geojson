@@ -3,10 +3,10 @@
   "title": "Iubaleni?",
   "id": "295284",
   "bbox": [
-    4.0,
-    36.0,
-    4.5,
-    36.5
+    4.13291921818,
+    36.1402336106,
+    4.38652707309,
+    36.2139305059
   ],
   "description": "An ancient place, cited: BAtlas 30 H4 Iubaleni?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.25,
-          36.25
+          4.26223474567,
+          36.1688207579
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              36.0
+              4.132919218175344,
+              36.140233610562355
             ],
             [
-              4.0,
-              36.5
+              4.171135052106206,
+              36.14513482871188
             ],
             [
-              4.5,
-              36.5
+              4.205246361367296,
+              36.15027083894134
             ],
             [
-              4.5,
-              36.0
+              4.232948047873232,
+              36.15626286901185
             ],
             [
-              4.0,
-              36.0
+              4.259567369315859,
+              36.163271737511494
+            ],
+            [
+              4.290697575778315,
+              36.17430958295278
+            ],
+            [
+              4.322379512985912,
+              36.18482744202515
+            ],
+            [
+              4.349825573603166,
+              36.194160695871965
+            ],
+            [
+              4.386527073085105,
+              36.21393050590447
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/295284/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/295284/batlas-map-label-location"
       }
     }
   ]

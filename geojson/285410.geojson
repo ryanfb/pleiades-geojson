@@ -3,10 +3,10 @@
   "title": "Akouensioi?",
   "id": "285410",
   "bbox": [
-    1.0,
-    35.0,
-    2.0,
-    36.0
+    1.61259277879,
+    35.958658804,
+    2.24148432264,
+    35.9843569829
   ],
   "description": "An ancient place, cited: BAtlas 29 G1 Akouensioi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5,
-          35.5
+          1.9272610543,
+          35.9670267595
         ]
       },
       "properties": {
@@ -28,39 +28,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              1.0,
-              35.0
+              1.612592778794635,
+              35.95937264234675
             ],
             [
-              1.0,
-              36.0
+              1.636863281054161,
+              35.958658804045
             ],
             [
-              2.0,
-              36.0
+              1.691114991987035,
+              35.958658804045
             ],
             [
-              2.0,
-              35.0
+              1.759643468954948,
+              35.96008648064844
             ],
             [
-              1.0,
-              35.0
+              1.826030431017671,
+              35.96222799555375
+            ],
+            [
+              1.887420524968036,
+              35.96365567215719
+            ],
+            [
+              1.953807487030815,
+              35.96651102536424
+            ],
+            [
+              2.016625257584622,
+              35.96936637857124
+            ],
+            [
+              2.067307777008921,
+              35.97150789347637
+            ],
+            [
+              2.127270194355731,
+              35.97507708498512
+            ],
+            [
+              2.183663420193909,
+              35.97793243819217
+            ],
+            [
+              2.215786143772618,
+              35.98078779139922
+            ],
+            [
+              2.241484322635586,
+              35.98435698290797
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/285410/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/285410/batlas-map-label-location"
       }
     }
   ]

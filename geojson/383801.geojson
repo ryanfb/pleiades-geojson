@@ -3,10 +3,10 @@
   "title": "Transpadana",
   "id": "383801",
   "bbox": [
-    9.1022304,
-    43.9122229,
-    12.7323636,
-    45.463746
+    8.07153491766,
+    45.0430556083,
+    8.9864376744,
+    45.541552689
   ],
   "description": "An ancient place, cited: BAtlas 39 C3 Transpadana",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1080990256,
-          45.0187614781
+          8.51532098189,
+          45.3168654832
         ]
       },
       "properties": {
@@ -29,39 +29,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              45.0
+              8.071534917655754,
+              45.04305560832461
             ],
             [
-              8.0,
-              45.5
+              8.170282549397712,
+              45.11919836051118
             ],
             [
-              8.5,
-              45.5
+              8.252373954098857,
+              45.17511569414819
             ],
             [
-              8.5,
-              45.0
+              8.336844819805833,
+              45.23222275828812
             ],
             [
-              8.0,
-              45.0
+              8.415367032998233,
+              45.28100170890764
+            ],
+            [
+              8.490320054681888,
+              45.31907308500092
+            ],
+            [
+              8.581929303406355,
+              45.36666230511753
+            ],
+            [
+              8.667589899616246,
+              45.409492603222475
+            ],
+            [
+              8.759199148340713,
+              45.44994344032159
+            ],
+            [
+              8.859136510585586,
+              45.49158400792362
+            ],
+            [
+              8.986437674397507,
+              45.54155268904606
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383801/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383801/batlas-map-label-location"
       }
     }
   ]

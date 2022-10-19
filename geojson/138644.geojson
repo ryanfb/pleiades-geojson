@@ -3,10 +3,10 @@
   "title": "Veneticae (islands)",
   "id": "138644",
   "bbox": [
-    -3.1218701,
-    47.3242149,
-    -2.959754,
-    47.3846318
+    -3.24367315129,
+    47.2735219086,
+    -2.8401165647,
+    47.4324699038
   ],
   "description": "An ancient place, cited: BAtlas 14 B1 Veneticae Inss.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.04081205,
-          47.35442335
+          -3.03987626871,
+          47.3579859103
         ]
       },
       "properties": {
@@ -32,39 +32,75 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              -4.0,
-              47.0
+              -3.243673151287737,
+              47.432469903778156
             ],
             [
-              -4.0,
-              48.0
+              -3.197035715573463,
+              47.417241353340785
             ],
             [
-              -3.0,
-              48.0
+              -3.166578614698892,
+              47.40677172491502
             ],
             [
-              -3.0,
-              47.0
+              -3.134217945019543,
+              47.39630209648948
             ],
             [
-              -4.0,
-              47.0
+              -3.109471550558965,
+              47.387736036868375
+            ],
+            [
+              -3.083773371695997,
+              47.378218192845054
+            ],
+            [
+              -3.056171624028366,
+              47.366796780017125
+            ],
+            [
+              -3.028569876360734,
+              47.356327151591586
+            ],
+            [
+              -2.998112775486106,
+              47.34395395436121
+            ],
+            [
+              -2.955282477381161,
+              47.32682183511923
+            ],
+            [
+              -2.931487867322858,
+              47.31444863788886
+            ],
+            [
+              -2.902934335252894,
+              47.30397900946332
+            ],
+            [
+              -2.875332587585262,
+              47.290654027830556
+            ],
+            [
+              -2.840116564698917,
+              47.27352190858852
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/138644/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/138644/batlas-map-label-location"
       }
     }
   ]

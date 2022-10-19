@@ -3,10 +3,10 @@
   "title": "Vertamocori",
   "id": "383817",
   "bbox": [
-    8.0,
-    45.0,
-    8.5,
-    45.5
+    8.46398735288,
+    45.4637839718,
+    8.72953520113,
+    45.4747294925
   ],
   "description": "An ancient place, cited: BAtlas 39 C3 Vertamocori",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.25,
-          45.25
+          8.59667143232,
+          45.4710106307
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              8.0,
-              45.0
+              8.463987352884146,
+              45.46378397183889
             ],
             [
-              8.0,
-              45.5
+              8.498251591367989,
+              45.46806700164933
             ],
             [
-              8.5,
-              45.5
+              8.52157030922507,
+              45.46949467825294
             ],
             [
-              8.5,
-              45.0
+              8.544413134881154,
+              45.47044646265516
             ],
             [
-              8.0,
-              45.0
+              8.568207744939457,
+              45.47139824705761
+            ],
+            [
+              8.593905923802367,
+              45.47282592366099
+            ],
+            [
+              8.623411240274777,
+              45.474729492465656
+            ],
+            [
+              8.651488880143518,
+              45.47377770806344
+            ],
+            [
+              8.67528349020182,
+              45.47282592366099
+            ],
+            [
+              8.700029884662342,
+              45.470922354856384
+            ],
+            [
+              8.729535201134695,
+              45.46949467825294
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383817/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/383817/batlas-map-label-location"
       }
     }
   ]

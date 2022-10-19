@@ -3,10 +3,10 @@
   "title": "Dolopes?",
   "id": "344347",
   "bbox": [
-    10.0,
-    32.0,
-    11.0,
-    33.0
+    10.5545973243,
+    32.7835402426,
+    10.8020612689,
+    32.7863955958
   ],
   "description": "An ancient place, cited: BAtlas 35 C2 Dolopes?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.5,
-          32.5
+          10.678342467,
+          32.7850996725
         ]
       },
       "properties": {
@@ -28,39 +28,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              10.0,
-              32.0
+              10.554597324284032,
+              32.785443811421715
             ],
             [
-              10.0,
-              33.0
+              10.613607957228567,
+              32.786395595824104
             ],
             [
-              11.0,
-              33.0
+              10.640257920493923,
+              32.785443811421715
             ],
             [
-              11.0,
-              32.0
+              10.673570374575547,
+              32.784492027019496
             ],
             [
-              10.0,
-              32.0
+              10.702123906645511,
+              32.784492027019496
+            ],
+            [
+              10.730677438715475,
+              32.784492027019496
+            ],
+            [
+              10.756375617578385,
+              32.785443811421715
+            ],
+            [
+              10.802061268890384,
+              32.78354024261711
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/344347/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/344347/batlas-map-label-location"
       }
     }
   ]

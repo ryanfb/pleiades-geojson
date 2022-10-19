@@ -3,10 +3,10 @@
   "title": "Kaloukones?",
   "id": "98993",
   "bbox": [
-    11.0,
-    52.0,
-    12.0,
-    53.0
+    11.2548874013,
+    52.0682399368,
+    12.0496273772,
+    52.0872756248
   ],
   "description": "An ancient place, cited: BAtlas 10 H4 Kaloukones?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.5,
-          52.5
+          11.6522522749,
+          52.0775352788
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              11.0,
-              52.0
+              11.254887401257974,
+              52.08727562480232
             ],
             [
-              11.0,
-              53.0
+              11.36910152953783,
+              52.08370643329357
             ],
             [
-              12.0,
-              53.0
+              11.438105898706908,
+              52.08132697228774
             ],
             [
-              12.0,
-              52.0
+              11.514248650893478,
+              52.080137241784826
             ],
             [
-              11.0,
-              52.0
+              11.590391403080048,
+              52.07894751128191
+            ],
+            [
+              11.667723885769533,
+              52.07656805027608
+            ],
+            [
+              11.747435829464848,
+              52.07656805027608
+            ],
+            [
+              11.827147773160164,
+              52.07418858927025
+            ],
+            [
+              11.900911064340903,
+              52.07180912826442
+            ],
+            [
+              11.969915433509982,
+              52.070619397761504
+            ],
+            [
+              12.049627377205297,
+              52.068239936755674
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/98993/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/98993/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Sabina",
   "id": "423028",
   "bbox": [
-    12.5192484,
-    41.3459814,
-    14.9969199,
-    43.1057353
+    12.5315904589,
+    41.9557631731,
+    12.6212961388,
+    42.0204845125
   ],
   "description": "The one-time territory of the ancient Sabine people of central Italy.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.243011237,
-          42.2245295711
+          12.5760959985,
+          41.9886020094
         ]
       },
       "properties": {
@@ -31,39 +31,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              12.5,
-              41.75
+              12.531590458892708,
+              41.95576317311162
             ],
             [
-              12.5,
-              42.0
+              12.552767661844655,
+              41.971467615750214
             ],
             [
-              12.75,
-              42.0
+              12.568234158382552,
+              41.98384081298059
             ],
             [
-              12.75,
-              41.75
+              12.582510924417534,
+              41.993834549204905
             ],
             [
-              12.5,
-              41.75
+              12.599643043659341,
+              42.00549390813359
+            ],
+            [
+              12.621296138812511,
+              42.02048451247026
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/423028/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/423028/batlas-map-label-location"
       }
     }
   ]

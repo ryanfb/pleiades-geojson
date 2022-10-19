@@ -3,10 +3,10 @@
   "title": "Limes Gemellensis",
   "id": "334578",
   "bbox": [
-    5.0,
-    34.0,
-    6.0,
-    35.0
+    5.14861576933,
+    34.4387216636,
+    5.91246949194,
+    34.6120583537
   ],
   "description": "An ancient place, cited: BAtlas 34 D3 Limes Gemellensis",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          34.5
+          5.53589948488,
+          34.5030274041
         ]
       },
       "properties": {
@@ -28,39 +28,87 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              34.0
+              5.148615769328557,
+              34.43872166359075
             ],
             [
-              5.0,
-              35.0
+              5.218602424029139,
+              34.44461918839804
             ],
             [
-              6.0,
-              35.0
+              5.259524155975704,
+              34.44893202761216
             ],
             [
-              6.0,
-              34.0
+              5.304879251296772,
+              34.45411502710227
             ],
             [
-              5.0,
-              34.0
+              5.35754105520764,
+              34.45995863264818
+            ],
+            [
+              5.414765635132905,
+              34.467847905217425
+            ],
+            [
+              5.461951814573102,
+              34.47643434316424
+            ],
+            [
+              5.507837945503173,
+              34.486294830575275
+            ],
+            [
+              5.5567334879951,
+              34.49711698820534
+            ],
+            [
+              5.605514984110657,
+              34.50673007954386
+            ],
+            [
+              5.641255112975186,
+              34.516086225898775
+            ],
+            [
+              5.686006114089999,
+              34.52836053175795
+            ],
+            [
+              5.733901834947139,
+              34.542781558229294
+            ],
+            [
+              5.773064795567238,
+              34.556638700870394
+            ],
+            [
+              5.816682210209445,
+              34.57134800938267
+            ],
+            [
+              5.853130016819099,
+              34.58658285679683
+            ],
+            [
+              5.912469491936212,
+              34.612058353705116
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/334578/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/334578/batlas-map-label-location"
       }
     }
   ]

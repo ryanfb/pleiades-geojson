@@ -3,10 +3,10 @@
   "title": "Argestaioi",
   "id": "481737",
   "bbox": [
-    21.0,
-    41.0,
-    22.0,
-    42.0
+    21.4602028684,
+    41.541051832,
+    21.9801150981,
+    41.5898307826
   ],
   "description": "An ancient people, tribe, or cultural group. Located: Babuna valley MAC.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5,
-          41.5
+          21.7194908476,
+          41.5712433976
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              41.0
+              21.460202868351526,
+              41.54105183199541
             ],
             [
-              21.0,
-              42.0
+              21.526827776514775,
+              41.55413886752748
             ],
             [
-              22.0,
-              42.0
+              21.577986188140123,
+              41.55651832853331
             ],
             [
-              22.0,
-              41.0
+              21.641041904794626,
+              41.567225903059544
             ],
             [
-              21.0,
-              41.0
+              21.692200316419978,
+              41.57079509456829
+            ],
+            [
+              21.74335872804533,
+              41.57555401657995
+            ],
+            [
+              21.79689660067651,
+              41.579123208088696
+            ],
+            [
+              21.840916629284372,
+              41.583882130100356
+            ],
+            [
+              21.898023693424296,
+              41.5874513216091
+            ],
+            [
+              21.98011509812544,
+              41.58983078261493
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481737/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481737/batlas-map-label-location"
       }
     }
   ]

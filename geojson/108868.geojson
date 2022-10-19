@@ -3,10 +3,10 @@
   "title": "Catalauni",
   "id": "108868",
   "bbox": [
-    4.357667,
-    48.955105,
-    4.363642,
-    48.955216
+    4.14807189978,
+    48.8685807051,
+    4.8083723289,
+    48.8721498966
   ],
   "description": "The Catalauni were a tribe of Gallia Belgica.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3606545,
-          48.9551605
+          4.47823725671,
+          48.870604004
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              4.0,
-              48.0
+              4.148071899777676,
+              48.87214989660862
             ],
             [
-              4.0,
-              49.0
+              4.269424411075022,
+              48.870365300854246
             ],
             [
-              5.0,
-              49.0
+              4.337239049741186,
+              48.870365300854246
             ],
             [
-              5.0,
-              48.0
+              4.399699901144231,
+              48.870365300854246
             ],
             [
-              4.0,
-              48.0
+              4.469299135564768,
+              48.86858070509987
+            ],
+            [
+              4.549605944511541,
+              48.86858070509987
+            ],
+            [
+              4.613851391668959,
+              48.87214989660862
+            ],
+            [
+              4.704865775141968,
+              48.87214989660862
+            ],
+            [
+              4.808372328895587,
+              48.870365300854246
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108868/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108868/batlas-map-label-location"
       }
     }
   ]

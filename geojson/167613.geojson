@@ -3,10 +3,10 @@
   "title": "Acitavones?",
   "id": "167613",
   "bbox": [
-    6.5,
-    45.5,
-    7.0,
-    46.0
+    6.81573699385,
+    45.4076670594,
+    7.00464839493,
+    45.5794824061
   ],
   "description": "An ancient place, cited: BAtlas 17 H2 Acitavones?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75,
-          45.75
+          6.90351592339,
+          45.4868155702
         ]
       },
       "properties": {
@@ -28,39 +28,63 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.5,
-              45.5
+              6.815736993852511,
+              45.57948240611404
             ],
             [
-              6.5,
-              46.0
+              6.835397456408089,
+              45.548709508201114
             ],
             [
-              7.0,
-              46.0
+              6.848219497205037,
+              45.532468256524965
             ],
             [
-              7.0,
-              45.5
+              6.859331932562327,
+              45.52050101844782
             ],
             [
-              6.5,
-              45.5
+              6.877282789678304,
+              45.5025501613319
+            ],
+            [
+              6.894378844074254,
+              45.48887331781515
+            ],
+            [
+              6.913184503909861,
+              45.472632066139
+            ],
+            [
+              6.936264177344469,
+              45.45724561718242
+            ],
+            [
+              6.956779442619677,
+              45.44014956278647
+            ],
+            [
+              6.976439905175084,
+              45.427327521989525
+            ],
+            [
+              7.004648394928552,
+              45.40766705943395
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167613/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167613/batlas-map-label-location"
       }
     }
   ]

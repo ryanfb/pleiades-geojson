@@ -3,10 +3,10 @@
   "title": "Marchubi",
   "id": "305104",
   "bbox": [
-    6.0,
-    36.5,
-    6.5,
-    37.0
+    6.31018711985,
+    36.7436642356,
+    6.51928540498,
+    36.7451729379
   ],
   "description": "An ancient place, cited: BAtlas 31 E3 Marchubi",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          36.75
+          6.4147370877,
+          36.7445436486
         ]
       },
       "properties": {
@@ -29,39 +29,51 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              36.5
+              6.310187119847846,
+              36.74486338810997
             ],
             [
-              6.0,
-              37.0
+              6.351707195994515,
+              36.7445309323785
             ],
             [
-              6.5,
-              37.0
+              6.375916099411057,
+              36.74517046969485
             ],
             [
-              6.5,
-              36.5
+              6.403624679139448,
+              36.7451729378692
             ],
             [
-              6.0,
-              36.5
+              6.431247282820632,
+              36.744456435654605
+            ],
+            [
+              6.459754842986261,
+              36.74366423561037
+            ],
+            [
+              6.485292512339519,
+              36.744177797692515
+            ],
+            [
+              6.519285404983902,
+              36.7443791236029
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305104/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/305104/batlas-map-label-location"
       }
     }
   ]

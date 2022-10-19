@@ -3,10 +3,10 @@
   "title": "Kaloikinoi",
   "id": "481872",
   "bbox": [
-    20.0,
-    40.0,
-    21.0,
-    41.0
+    20.8431848349,
+    40.6148763787,
+    21.2917132345,
+    40.6172558397
   ],
   "description": "An ancient people, tribe, or cultural group. Located: near Lake Prespa GRE.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5,
-          40.5
+          21.0674417332,
+          40.6158200105
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              20.0,
-              40.0
+              20.843184834929684,
+              40.61725583974435
             ],
             [
-              20.0,
-              41.0
+              20.916948126110423,
+              40.61487637873852
             ],
             [
-              21.0,
-              41.0
+              20.956209232706623,
+              40.61487637873852
             ],
             [
-              21.0,
-              40.0
+              21.01093683584072,
+              40.61487637873852
             ],
             [
-              20.0,
-              40.0
+              21.05019794243692,
+              40.61487637873852
+            ],
+            [
+              21.085889857524375,
+              40.61606610924144
+            ],
+            [
+              21.13109961663515,
+              40.61606610924144
+            ],
+            [
+              21.175119645243008,
+              40.61606610924144
+            ],
+            [
+              21.22389859586253,
+              40.61725583974435
+            ],
+            [
+              21.291713234528693,
+              40.61606610924144
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481872/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/481872/batlas-map-label-location"
       }
     }
   ]

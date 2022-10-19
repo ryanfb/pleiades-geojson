@@ -3,10 +3,10 @@
   "title": "Mediomatrici",
   "id": "109154",
   "bbox": [
-    6.172677,
-    49.11605,
-    6.175634,
-    49.120221
+    6.02487176813,
+    49.1672030613,
+    8.24847807807,
+    49.3706469773
   ],
   "description": "An ancient place, cited: BAtlas 11 G3 Mediomatrici",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.1741555,
-          49.1181355
+          7.13417740087,
+          49.2940373763
         ]
       },
       "properties": {
@@ -28,39 +28,67 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              6.0,
-              49.0
+              6.024871768126332,
+              49.16720306133158
             ],
             [
-              6.0,
-              50.0
+              6.294940592288071,
+              49.21360255094527
             ],
             [
-              7.0,
-              50.0
+              6.488866664263242,
+              49.2397766220094
             ],
             [
-              7.0,
-              49.0
+              6.67327489221509,
+              49.26000204055896
             ],
             [
-              6.0,
-              49.0
+              6.850544737149448,
+              49.28022745910852
+            ],
+            [
+              7.064696227674176,
+              49.30402206916682
+            ],
+            [
+              7.265760682666837,
+              49.314729643693056
+            ],
+            [
+              7.451358641121601,
+              49.32900640972804
+            ],
+            [
+              7.629818216558874,
+              49.33852425375136
+            ],
+            [
+              7.828503210545705,
+              49.35280101978634
+            ],
+            [
+              8.014101169000469,
+              49.36231886380966
+            ],
+            [
+              8.248478078074754,
+              49.37064697733007
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109154/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109154/batlas-map-label-location"
       }
     }
   ]

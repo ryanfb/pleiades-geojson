@@ -3,10 +3,10 @@
   "title": "Baetasii?",
   "id": "108787",
   "bbox": [
-    5.0,
-    51.0,
-    6.0,
-    52.0
+    5.8856336416,
+    51.0819949904,
+    6.26396794153,
+    51.5816818016
   ],
   "description": "The Baetasii? were a people of Germania Inferior whose territory lay between Erkelenz and Krefeld.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          51.5
+          6.08520929215,
+          51.323797649
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              51.0
+              5.885633641601885,
+              51.0819949904066
             ],
             [
-              5.0,
-              52.0
+              5.964155854794285,
+              51.16587099086212
             ],
             [
-              6.0,
-              52.0
+              6.017693727425467,
+              51.22119345924767
             ],
             [
-              6.0,
-              51.0
+              6.064093217039158,
+              51.28365431065072
             ],
             [
-              5.0,
-              51.0
+              6.115846493915967,
+              51.347899757808136
+            ],
+            [
+              6.149753813249049,
+              51.40857601345681
+            ],
+            [
+              6.190799515599622,
+              51.465683077596736
+            ],
+            [
+              6.221137643423958,
+              51.51565175871917
+            ],
+            [
+              6.263967941528904,
+              51.581681801630964
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/108787/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/108787/batlas-map-label-location"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Athamania",
   "id": "540676",
   "bbox": [
-    21.0,
-    39.0,
-    21.5,
-    39.5
+    21.3925101771,
+    39.1343529377,
+    21.6418776905,
+    39.4398757309
   ],
   "description": "An n ancient Greek tribe that inhabited south-eastern Epirus and west Thessaly.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          39.25
+          21.522090115,
+          39.2909008795
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.0,
-              39.0
+              21.39251017706198,
+              39.439875730891686
             ],
             [
-              21.0,
-              39.5
+              21.435340475166925,
+              39.39704543278674
             ],
             [
-              21.5,
-              39.5
+              21.46865292924855,
+              39.359925841095674
             ],
             [
-              21.5,
-              39.0
+              21.497206461318513,
+              39.324709818209385
             ],
             [
-              21.0,
-              39.0
+              21.52766356219314,
+              39.287590226518546
+            ],
+            [
+              21.560976016274765,
+              39.24190457520655
+            ],
+            [
+              21.590481332747117,
+              39.21049568992953
+            ],
+            [
+              21.616179511610028,
+              39.17337609823869
+            ],
+            [
+              21.64092590607055,
+              39.1381600753524
+            ],
+            [
+              21.641877690472995,
+              39.13435293774296
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540676/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/540676/batlas-map-label-location"
       }
     }
   ]

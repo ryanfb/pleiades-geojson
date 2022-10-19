@@ -3,10 +3,10 @@
   "title": "Marsingi?",
   "id": "118837",
   "bbox": [
-    14.0,
-    50.0,
-    15.0,
-    51.0
+    14.4906767654,
+    50.4974407366,
+    15.1271825845,
+    50.652105702
   ],
   "description": "An ancient place, cited: BAtlas 12 H2 Marsingi?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5,
-          50.5
+          14.808589206,
+          50.5761893663
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              14.0,
-              50.0
+              14.490676765402952,
+              50.497440736640954
             ],
             [
-              14.0,
-              51.0
+              14.615598468209043,
+              50.52837372971675
             ],
             [
-              15.0,
-              51.0
+              14.697689872910189,
+              50.54978887876922
             ],
             [
-              15.0,
-              50.0
+              14.769073703085098,
+              50.56644510581003
             ],
             [
-              14.0,
-              50.0
+              14.826180767225026,
+              50.58191160234793
+            ],
+            [
+              14.902323519411595,
+              50.60094729039457
+            ],
+            [
+              14.987984115621487,
+              50.619982978441215
+            ],
+            [
+              15.05103983227599,
+              50.634259744476196
+            ],
+            [
+              15.12718258446256,
+              50.652105702019924
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/118837/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/118837/batlas-map-label-location"
       }
     }
   ]

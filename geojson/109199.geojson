@@ -3,10 +3,10 @@
   "title": "Nervii",
   "id": "109199",
   "bbox": [
-    3.234282,
-    50.175165,
-    3.79316,
-    50.298592
+    3.78540238481,
+    50.6216882588,
+    4.40049305481,
+    50.898895466
   ],
   "description": "An ancient place, cited: BAtlas 11 D2 Nervii",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5133485,
-          50.23647525
+          4.08476841415,
+          50.7774935901
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              3.0,
-              50.0
+              3.785402384805707,
+              50.621688258828726
             ],
             [
-              3.0,
-              51.0
+              3.934118697670101,
+              50.71924616006777
             ],
             [
-              4.0,
-              51.0
+              4.037625251423719,
+              50.769214841190205
             ],
             [
-              4.0,
-              50.0
+              4.164926415235641,
+              50.82037325281556
             ],
             [
-              3.0,
-              50.0
+              4.269622699492174,
+              50.85606516790301
+            ],
+            [
+              4.400493054812841,
+              50.89889546600796
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/109199/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/109199/batlas-map-label-location"
       }
     }
   ]
