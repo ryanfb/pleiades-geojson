@@ -3,13 +3,17 @@
   "title": "Temple of Mercurius",
   "id": "138464",
   "bbox": [
-    2.964407,
-    45.7726494,
-    2.964407,
-    45.7726494
+    2.9640029,
+    45.7714579,
+    2.964947,
+    45.7720333
   ],
   "description": "A Gallo-Roman temple of Mercurius, located atop the modern Puy-de-Dôme, commune Orcines in France.",
+  "connectsWith": [
+    "828749030"
+  ],
   "names": [
+    "Mercurius",
     "Puy de Dôme"
   ],
   "features": [
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.964407,
-          45.7726494
+          2.96450245456,
+          45.7717587728
         ]
       },
       "properties": {
@@ -28,19 +32,53 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          2.964407,
-          45.7726494
+          [
+            2.964136,
+            45.7719438
+          ],
+          [
+            2.9640029,
+            45.7716046
+          ],
+          [
+            2.9647795,
+            45.7714579
+          ],
+          [
+            2.964947,
+            45.7720052
+          ],
+          [
+            2.9647405,
+            45.7720333
+          ],
+          [
+            2.9646948,
+            45.771964
+          ],
+          [
+            2.9645419,
+            45.7719592
+          ],
+          [
+            2.9642741,
+            45.771976
+          ],
+          [
+            2.964136,
+            45.7719438
+          ]
         ]
       },
-      "id": "site-of-the-gallo-roman-mercury-temple",
+      "id": "osm-location-of-temple-de-mercure",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Imagery location of site of the Gallo-Roman Mercury temple",
-        "link": "http://pleiades.stoa.org/places/138464/site-of-the-gallo-roman-mercury-temple"
+        "title": "OSM location of Temple de Mercure",
+        "link": "http://pleiades.stoa.org/places/138464/osm-location-of-temple-de-mercure"
       }
     }
   ]
