@@ -1,22 +1,28 @@
 {
   "type": "FeatureCollection",
-  "title": "Qala",
+  "title": "Temple of Min and Isis",
   "id": "786093",
   "bbox": [
-    32.771816,
-    25.969275,
-    32.771816,
-    25.969275
+    32.8152734,
+    25.995669,
+    32.8174299,
+    25.9971251
   ],
-  "description": "An ancient place, cited: BAtlas 80 B1 Qala",
+  "description": "This temple is located at the modern Egyptian village of El-Qala, which is near Coptos (modern Qift). It was built likely under Augustus, expanded by Caligula and Claudius, and survived into the Coptic period.",
+  "connectsWith": [
+    "786010"
+  ],
+  "names": [
+    "Qala"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.771816,
-          25.969275
+          32.8163382626,
+          25.9963859591
         ]
       },
       "properties": {
@@ -25,19 +31,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          32.771816,
-          25.969275
+          [
+            32.8170973,
+            25.9971251
+          ],
+          [
+            32.8152734,
+            25.9967731
+          ],
+          [
+            32.8155201,
+            25.995669
+          ],
+          [
+            32.8174299,
+            25.9960017
+          ],
+          [
+            32.8170973,
+            25.9971251
+          ]
         ]
       },
-      "id": "darmc-location-26118",
+      "id": "temple-of-min-and-isis",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Polygon based on OpenStreetMap representing the Temple of Min and Isis after Pantalacci 1990.",
         "location_precision": "precise",
-        "title": "DARMC location 26118",
-        "link": "http://pleiades.stoa.org/places/786093/darmc-location-26118"
+        "title": "OSM location of Temple of Min and Isis",
+        "link": "http://pleiades.stoa.org/places/786093/temple-of-min-and-isis"
       }
     }
   ]
