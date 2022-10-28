@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Aradarum/Hardea/Ardea",
   "id": "30207",
+  "bbox": [
+    55.0,
+    25.0,
+    60.0,
+    30.0
+  ],
   "description": "An ancient place, cited: BAtlas 3 unlocated Aradarum/(H)Ardea",
   "connectsWith": [
     "29517"
@@ -14,20 +20,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          27.5
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/30207/batlas-location"
       }
     }
   ]
