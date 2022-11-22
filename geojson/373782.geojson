@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Drepanon",
+  "title": "Drepanon (station)",
   "id": "373782",
   "bbox": [
-    20.013881,
+    20.0,
     31.476849,
     20.013881,
-    31.476849
+    31.48333
   ],
-  "description": "An ancient place, cited: BAtlas 38 B2 Drepanon",
+  "description": "A road station mentioned in ancient sources somewhere on the southwestern coast of Cyrenaica. It is possibly to be located in the area of modern Ras Carcura in Libya.",
   "names": [
     "Drepanon"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.013881,
-          31.476849
+          20.0069405,
+          31.4800895
         ]
       },
       "properties": {
@@ -37,10 +37,27 @@
       "id": "darmc-location-731",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 731",
         "link": "http://pleiades.stoa.org/places/373782/darmc-location-731"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20,
+          31.48333
+        ]
+      },
+      "id": "geonames-location-of-ra2019s-kurkurah",
+      "type": "Feature",
+      "properties": {
+        "description": "Coordinates following GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of Ra’s Kurkūrah",
+        "link": "http://pleiades.stoa.org/places/373782/geonames-location-of-ra2019s-kurkurah"
       }
     }
   ]
