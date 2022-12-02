@@ -1,16 +1,23 @@
 {
   "type": "FeatureCollection",
-  "title": "Unnamed bridge",
+  "title": "Damiya Roman Bridge",
   "id": "689324",
   "bbox": [
-    35.5189087,
-    31.7597753,
-    35.6309601,
-    33.1864496
+    35.5347479,
+    32.1025915,
+    35.5355144,
+    32.102845
   ],
-  "description": "An ancient place, cited: BAtlas 70 H1 unnamed bridge (Jisr Damiya, over R. Jordan, between Neapolis and Philadelpheia)",
+  "description": "Sited at an ancient crossing-point over the river Jordan, between Neapolis and Philadelpheia, a Roman-era bridge is thought to have been one of many. The modern bridge and its antecedents are often referred to as the \"Damia Bridge\".",
   "connectsWith": [
     "687932"
+  ],
+  "names": [
+    "Jisr Damiya",
+    "Jisr ed-Damiye",
+    "Damiyah Bridge",
+    "Prince Muhammad Bridge",
+    "Gesher Adam"
   ],
   "features": [
     {
@@ -18,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.5732763444,
-          32.4516386366
+          35.53513115,
+          32.10271825
         ]
       },
       "properties": {
@@ -28,39 +35,25 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              35.5,
-              32.0
-            ],
-            [
-              35.5,
-              32.5
-            ],
-            [
-              36.0,
-              32.5
-            ],
-            [
-              36.0,
-              32.0
-            ],
-            [
-              35.5,
-              32.0
-            ]
+            35.5347479,
+            32.1025915
+          ],
+          [
+            35.5355144,
+            32.102845
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/689324/undetermined"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Damia Bridge",
+        "link": "http://pleiades.stoa.org/places/689324/osm-location"
       }
     }
   ]
