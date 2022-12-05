@@ -3,10 +3,10 @@
   "title": "Viviers Roman bridge",
   "id": "169128",
   "bbox": [
-    4.671704,
-    44.487125,
-    4.671704,
-    44.487125
+    4.6716544,
+    44.4881591,
+    4.6718035,
+    44.4890849
   ],
   "description": "An ancient place, cited: BAtlas 17 D5 unnamed bridge (Vivarium)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.671704,
-          44.487125
+          4.67170979122,
+          44.4886200716
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          4.671704,
-          44.487125
+          [
+            4.6718035,
+            44.4881591
+          ],
+          [
+            4.6717134,
+            44.4885458
+          ],
+          [
+            4.6716544,
+            44.4888426
+          ],
+          [
+            4.6716544,
+            44.4889094
+          ],
+          [
+            4.6716772,
+            44.4890849
+          ]
         ]
       },
-      "id": "darmc-location-14344",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 14344",
-        "link": "http://pleiades.stoa.org/places/169128/darmc-location-14344"
+        "title": "OSM location of Pont Romain de Viviers",
+        "link": "http://pleiades.stoa.org/places/169128/osm-location"
       }
     }
   ]
