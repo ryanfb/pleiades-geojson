@@ -3,12 +3,15 @@
   "title": "Drangiane/Zarangiane (region)",
   "id": "29547",
   "bbox": [
-    60.0,
-    30.0,
-    65.0,
-    35.0
+    60.3202218998,
+    30.2483555484,
+    63.1241466343,
+    31.3475860501
   ],
   "description": "A region located around Lake Hāmūn and the Helmand river in modern Sīstān.",
+  "connectsWith": [
+    "59810"
+  ],
   "names": [
     "Drangiane",
     "Zarangiane",
@@ -25,8 +28,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          62.5,
-          32.5
+          61.7379028602,
+          30.7946243021
         ]
       },
       "properties": {
@@ -35,39 +38,33 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              60.0,
-              30.0
-            ],
-            [
-              60.0,
-              35.0
-            ],
-            [
-              65.0,
-              35.0
-            ],
-            [
-              65.0,
-              30.0
-            ],
-            [
-              60.0,
-              30.0
-            ]
+            60.54955915473901,
+            31.347586050148003
+          ],
+          [
+            63.12414663429564,
+            31.114253163121205
+          ],
+          [
+            60.3202218998027,
+            30.488119359584815
+          ],
+          [
+            62.998940558226295,
+            30.24835554840888
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/29547/batlas-location"
+        "description": "Location of Barrington Atlas label for this feature.",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/29547/batlas-label-location"
       }
     }
   ]

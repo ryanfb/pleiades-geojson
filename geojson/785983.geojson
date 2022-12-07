@@ -3,10 +3,10 @@
   "title": "Barramiya",
   "id": "785983",
   "bbox": [
-    33.816882,
-    24.989761,
-    33.816882,
-    24.989761
+    33.7926542,
+    25.068834,
+    33.7932604,
+    25.0695337
   ],
   "description": "An ancient place, cited: BAtlas 80 D3 Barramiya",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.816882,
-          24.989761
+          33.792978931,
+          25.0691925689
         ]
       },
       "properties": {
@@ -25,19 +25,45 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.816882,
-          24.989761
+          [
+            33.7930029,
+            25.0695337
+          ],
+          [
+            33.7926542,
+            25.0693637
+          ],
+          [
+            33.7929948,
+            25.068834
+          ],
+          [
+            33.7932201,
+            25.0689458
+          ],
+          [
+            33.7932496,
+            25.0689992
+          ],
+          [
+            33.7932604,
+            25.0691183
+          ],
+          [
+            33.7930029,
+            25.0695337
+          ]
         ]
       },
-      "id": "darmc-location-7325",
+      "id": "barramiya",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap. Coordinates digitized in 2014 using earlier satellite imagery. A more recent analysis of Google Earth imagery indicates that the site was either backfilled with sand or destroyed sometime between 2012 and 2013.",
         "location_precision": "precise",
-        "title": "DARMC location 7325",
-        "link": "http://pleiades.stoa.org/places/785983/darmc-location-7325"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/785983/barramiya"
       }
     }
   ]
