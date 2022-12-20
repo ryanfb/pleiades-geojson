@@ -3,10 +3,10 @@
   "title": "Durrueli di Realmonte",
   "id": "462188",
   "bbox": [
-    13.462829,
-    37.310327,
-    13.462829,
-    37.310327
+    13.487604,
+    37.2896103,
+    13.4878884,
+    37.2900126
   ],
   "description": "A Roman villa rustica dating to the first century A.D. located in the Punta Grande beach, in the territory of Realmonte, province of Agrigento, Sicily.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.462829,
-          37.310327
+          13.4877500081,
+          37.2898119725
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.462829,
-          37.310327
+          [
+            13.4876322,
+            37.2900126
+          ],
+          [
+            13.487604,
+            37.2896221
+          ],
+          [
+            13.4878723,
+            37.2896103
+          ],
+          [
+            13.4878884,
+            37.2900104
+          ],
+          [
+            13.4876322,
+            37.2900126
+          ]
         ]
       },
-      "id": "darmc-location-7731",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 7731",
-        "link": "http://pleiades.stoa.org/places/462188/darmc-location-7731"
+        "title": "OSM location of Villa Romana di Realmonte",
+        "link": "http://pleiades.stoa.org/places/462188/osm-location"
       }
     }
   ]

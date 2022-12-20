@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Myrmix/Pedonia Inss.",
+  "title": "Myrmix/Pedonia (islands)",
   "id": "716603",
   "bbox": [
-    28.0,
-    31.0,
-    29.0,
-    32.0
+    28.2492919371,
+    31.0993146298,
+    28.3499431376,
+    31.1507109875
   ],
-  "description": "An ancient place, cited: None",
+  "description": "Ancient sources refer to the Myrmix or Pedonia island(s), which seem to correspond to the modern Abu Samra reef off the Mediterranean coast of Egypt, west of the Nile delta.",
   "names": [
     "Myrmix",
     "Pedonia"
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.5,
-          31.5
+          28.2886490588,
+          31.1085537709
         ]
       },
       "properties": {
@@ -29,39 +29,81 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          28.283333,
+          31.1
+        ]
+      },
+      "id": "osm-location-of-abu-samra-reef",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Abu Samra Reef",
+        "link": "http://pleiades.stoa.org/places/716603/osm-location-of-abu-samra-reef"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              28.0,
-              31.0
+              28.24929193707743,
+              31.09931462981342
             ],
             [
-              28.0,
-              32.0
+              28.260713349905586,
+              31.10502533622747
             ],
             [
-              29.0,
-              32.0
+              28.277845469147394,
+              31.115732910753707
             ],
             [
-              29.0,
-              31.0
+              28.293549911785988,
+              31.122871293771198
             ],
             [
-              28.0,
-              31.0
+              28.303543648010532,
+              31.127154323581692
+            ],
+            [
+              28.3228172821577,
+              31.13857573640962
+            ],
+            [
+              28.349943137624223,
+              31.15071098753947
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/716603/batlas-map-label-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.283333,
+          31.1
+        ]
+      },
+      "id": "imagery-location-of-abu-samra-reef",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/716603/undetermined"
+        "location_precision": "precise",
+        "title": "Imagery location of Abu Samra reef",
+        "link": "http://pleiades.stoa.org/places/716603/imagery-location-of-abu-samra-reef"
       }
     }
   ]

@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Nike, Monu.",
+  "title": "Nike (Monument at Marathon)",
   "id": "580035",
   "bbox": [
-    24.0,
-    38.0,
-    24.25,
-    38.25
+    23.999941,
+    38.1407605,
+    24.0004153,
+    38.1411033
   ],
-  "description": "A monument to the Battle of Marathon.",
+  "description": "A monument to the Battle of Marathon. Eugene Vanderpool describes the location of the monument as lying in the northeastern part of the plain of Marathon. A Christian chapel known as the Panagia Mesosporitissa marks the vicinity of this monument. In the area of the chapel are a well that reuses ancient marble and the ruins of a medieval tower that was built from re-used ancient blocks, including a massive Ionic column capital and two large column drums.",
   "connectsWith": [
     "580022"
   ],
   "names": [
-    "Nike, Monu."
+    "Nike"
   ],
   "features": [
     {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.125,
-          38.125
+          24.0000933833,
+          38.1409001
         ]
       },
       "properties": {
@@ -31,39 +31,71 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              24.0,
-              38.0
-            ],
-            [
-              24.0,
-              38.25
-            ],
-            [
-              24.25,
-              38.25
-            ],
-            [
-              24.25,
-              38.0
-            ],
-            [
-              24.0,
-              38.0
-            ]
+            24.000257,
+            38.1410883
+          ],
+          [
+            24.0002661,
+            38.1410327
+          ],
+          [
+            24.0004153,
+            38.1410477
+          ],
+          [
+            24.0004062,
+            38.1411033
+          ],
+          [
+            24.000257,
+            38.1410883
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-i-i-i1-2i-i3i-i-iiuii-iii-ii",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/580035/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Παναγία Μεσοσπορίτισσα",
+        "link": "http://pleiades.stoa.org/places/580035/osm-location-of-i-i-i1-2i-i3i-i-iiuii-iii-ii"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.000003,
+          38.1407605
+        ]
+      },
+      "id": "osm-location-of-trophy-of-marathon",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location of modern replica based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern replica of Trophy of Marathon",
+        "link": "http://pleiades.stoa.org/places/580035/osm-location-of-trophy-of-marathon"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.999941,
+          38.1408718
+        ]
+      },
+      "id": "osm-location-of-tower-of-marathon-monument",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap. Dates after Kastrologos",
+        "location_precision": "precise",
+        "title": "OSM location of Tower of Marathon Monument",
+        "link": "http://pleiades.stoa.org/places/580035/osm-location-of-tower-of-marathon-monument"
       }
     }
   ]
