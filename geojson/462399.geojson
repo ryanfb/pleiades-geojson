@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Omphake?",
+  "title": "Omphake",
   "id": "462399",
   "bbox": [
     14.182945,
     37.189779,
-    14.182945,
-    37.189779
+    14.1834889,
+    37.1903541
   ],
-  "description": "Omphake? was an ancient Sikanian center that came into conflict with the Greek colony of Gela.",
+  "description": "Omphake was an ancient Sikanian center that came into conflict with the Greek colony of Gela. It is probably to be identified with modern Butera on the island of Sicily.",
   "connectsWith": [
     "462492"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.182945,
-          37.189779
+          14.18321695,
+          37.19006655
         ]
       },
       "properties": {
@@ -40,10 +40,27 @@
       "id": "darmc-location-18714",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 18714",
         "link": "http://pleiades.stoa.org/places/462399/darmc-location-18714"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1834889,
+          37.1903541
+        ]
+      },
+      "id": "osm-location-of-modern-butera-sicily",
+      "type": "Feature",
+      "properties": {
+        "description": "Center of modern village based on OpenStreetMap. Scholars associate modern Butera with the ancient Omphake.",
+        "location_precision": "precise",
+        "title": "OSM location of modern Butera, Sicily",
+        "link": "http://pleiades.stoa.org/places/462399/osm-location-of-modern-butera-sicily"
       }
     }
   ]
