@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Herakleia",
   "id": "203130",
+  "bbox": [
+    16.3896291,
+    43.186752,
+    16.3896291,
+    43.186752
+  ],
   "description": "An ancient place, cited: BAtlas 20 unlocated Herakleia",
   "connectsWith": [
     "197434"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3896291,
+          43.186752
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
