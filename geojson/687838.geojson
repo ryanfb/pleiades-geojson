@@ -3,10 +3,10 @@
   "title": "Ashdod/Azotos (Mesogeios)",
   "id": "687838",
   "bbox": [
-    34.652079,
-    31.756038,
     34.656061,
-    31.765635
+    31.756,
+    34.6593,
+    31.756038
   ],
   "description": "An ancient settlement of the Philistines.",
   "connectsWith": [
@@ -22,7 +22,10 @@
     "Asdūdu",
     "Asdūdāja",
     "Sadūdāja",
-    "Sidūdāja"
+    "Sidūdāja",
+    "Ashdod",
+    "Ashdūd",
+    "Isdud"
   ],
   "features": [
     {
@@ -30,29 +33,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.65407,
-          31.7608365
+          34.6576805,
+          31.756019
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.652079,
-          31.765635
-        ]
-      },
-      "id": "darmc-location-6295",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 6295",
-        "link": "http://pleiades.stoa.org/places/687838/darmc-location-6295"
       }
     },
     {
@@ -70,6 +56,23 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/687838/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6593,
+          31.756
+        ]
+      },
+      "id": "cigs-location-of-ashdod",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Ashdod",
+        "link": "http://pleiades.stoa.org/places/687838/cigs-location-of-ashdod"
       }
     }
   ]
