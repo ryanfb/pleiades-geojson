@@ -1,15 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Paracata",
+  "title": "Başbulak",
   "id": "874637",
   "bbox": [
-    44.257897,
-    39.937644,
+    44.254715,
+    39.9369584,
     44.257897,
     39.937644
   ],
-  "description": "Paracata, also known as Başbulak and Bulakbaşı, is situated near Taşburun in the Kars province in eastern Turkey. Here a stone block with an inscription of the Urartian king Minua (9th / 8th century BCE) was found, in which he claims to have built the building to which the stone block belonged. Furthermore, Minua states that he has built a fortress at this place and given it the name \"Minuahinili\" (i.e. \"The Minuan“).",
+  "description": "Başbulak/Bulakbaşı/Kanî Kewang is situated near Taşburun in the Kars province in eastern Turkey. Here a stone block with an inscription of the Urartian king Minua (9th / 8th century BCE) was found, in which he claims to have built the building to which the stone block belonged. Furthermore, Minua states that he has built a fortress at this place and given it the name \"Minuahinili\". In Roman times, the locality was known as Paracata.",
   "names": [
+    "Başbulak",
+    "Kanî Kewang",
     "Menuaḫinili",
     "Paracata"
   ],
@@ -19,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.257897,
-          39.937644
+          44.2558373333,
+          39.9373341333
         ]
       },
       "properties": {
@@ -29,39 +31,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              44.0,
-              39.0
-            ],
-            [
-              44.0,
-              40.0
-            ],
-            [
-              45.0,
-              40.0
-            ],
-            [
-              45.0,
-              39.0
-            ],
-            [
-              44.0,
-              39.0
-            ]
-          ]
+          44.2549,
+          39.9374
         ]
       },
-      "id": "batlas-location",
+      "id": "cigs-location-of-basbulak",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/874637/batlas-location"
+        "location_precision": "precise",
+        "title": "CIGS location of Başbulak",
+        "link": "http://pleiades.stoa.org/places/874637/cigs-location-of-basbulak"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.254715,
+          39.9369584
+        ]
+      },
+      "id": "bulakbasi",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Bulakbaşı",
+        "link": "http://pleiades.stoa.org/places/874637/bulakbasi"
       }
     },
     {
