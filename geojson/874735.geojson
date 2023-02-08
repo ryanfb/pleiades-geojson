@@ -3,10 +3,10 @@
   "title": "Tell Brak",
   "id": "874735",
   "bbox": [
-    41.0703913,
-    36.6687803,
-    41.0703913,
-    36.6687803
+    41.0541016,
+    36.6645288,
+    41.0631209,
+    36.6700522
   ],
   "description": "Tell Brak, located in the Upper Khabur of northeastern Syria, was occupied between the sixth and second millennia B.C. The tell stands ca. 40 m tall and cover ca. 130 hectares.",
   "names": [
@@ -15,7 +15,8 @@
     "Tall Brāk",
     "Tall Brak",
     "Taidum",
-    "Tall Birāk"
+    "Tall Birāk",
+    "Tall Brāk"
   ],
   "features": [
     {
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.0703913,
-          36.6687803
+          41.0585450247,
+          36.6671580098
         ]
       },
       "properties": {
@@ -33,10 +34,56 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          41.0703913,
-          36.6687803
+          [
+            41.0598105,
+            36.6700522
+          ],
+          [
+            41.0574256,
+            36.6694692
+          ],
+          [
+            41.0554863,
+            36.6690462
+          ],
+          [
+            41.0545659,
+            36.6679192
+          ],
+          [
+            41.0541016,
+            36.66694
+          ],
+          [
+            41.0547951,
+            36.6657956
+          ],
+          [
+            41.0559932,
+            36.6648889
+          ],
+          [
+            41.0589863,
+            36.6645288
+          ],
+          [
+            41.0614545,
+            36.6652503
+          ],
+          [
+            41.0631209,
+            36.6674172
+          ],
+          [
+            41.0618815,
+            36.6699268
+          ],
+          [
+            41.0598105,
+            36.6700522
+          ]
         ]
       },
       "id": "location-of-tell-brak",
@@ -46,6 +93,23 @@
         "location_precision": "precise",
         "title": "OSM location of Tell Brak",
         "link": "http://pleiades.stoa.org/places/874735/location-of-tell-brak"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0584,
+          36.667
+        ]
+      },
+      "id": "cigs-location-of-tall-brak",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Tall Brāk",
+        "link": "http://pleiades.stoa.org/places/874735/cigs-location-of-tall-brak"
       }
     }
   ]
