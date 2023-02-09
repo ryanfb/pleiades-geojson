@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Porticus Liviae",
   "id": "872004918",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "A complex dedicated in honor of Livia Drusilla in 7 BCE on the Esquiline Hill. The complex was erected on the site of the former estate of Vedius Pollio.",
   "connectsWith": [
     "378562728",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
