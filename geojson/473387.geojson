@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Unnamed quarry",
   "id": "473387",
+  "bbox": [
+    9.13333,
+    41.23333,
+    9.13333,
+    41.23333
+  ],
   "description": "An ancient granite quarry located on modern Capo Testa, Sardinia.",
   "connectsWith": [
     "472014",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.13333,
+          41.23333
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
