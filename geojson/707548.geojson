@@ -1,17 +1,18 @@
 {
   "type": "FeatureCollection",
-  "title": "Kourias? Pr.",
+  "title": "Kourias (promontory)",
   "id": "707548",
   "bbox": [
-    32.5,
-    34.5,
-    33.0,
-    35.0
+    32.96717,
+    34.62929,
+    32.96717,
+    34.62929
   ],
-  "description": "An ancient place, cited: BAtlas 72 B3 Kourias? Pr.",
+  "description": "Mentioned in ancient sources, the Kourias promontory on Cyprus' southern coast probably corresponds to the northern, higher elevation portion of the modern Akrotiri peninsula before a thin stretch of ocean separating it from an island in antiquity filled in, creating the modern Limassol Salt Lake.",
   "names": [
     "Kourias akra",
-    "Curias Pr."
+    "Akrotiri",
+    "Curias"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          34.75
+          32.96717,
+          34.62929
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              32.5,
-              34.5
-            ],
-            [
-              32.5,
-              35.0
-            ],
-            [
-              33.0,
-              35.0
-            ],
-            [
-              33.0,
-              34.5
-            ],
-            [
-              32.5,
-              34.5
-            ]
-          ]
+          32.96717,
+          34.62929
         ]
       },
-      "id": "undetermined",
+      "id": "geonames-location-akrotiri",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707548/undetermined"
+        "description": "Coordinates following GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of Akrotiri Peninsula",
+        "link": "http://pleiades.stoa.org/places/707548/geonames-location-akrotiri"
       }
     }
   ]
