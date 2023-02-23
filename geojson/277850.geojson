@@ -3,10 +3,10 @@
   "title": "Unnamed rural settlement north of Souk el Arba",
   "id": "277850",
   "bbox": [
-    -6.0,
-    34.5,
-    -5.5,
-    35.0
+    -5.97941392342,
+    34.752451478,
+    -5.97941392342,
+    34.752451478
   ],
   "description": "A rural settlement consisting of small farmsteads.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.75,
-          34.75
+          -5.97941392342,
+          34.752451478
         ]
       },
       "properties": {
@@ -25,39 +25,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -6.0,
-              34.5
-            ],
-            [
-              -6.0,
-              35.0
-            ],
-            [
-              -5.5,
-              35.0
-            ],
-            [
-              -5.5,
-              34.5
-            ],
-            [
-              -6.0,
-              34.5
-            ]
-          ]
+          -5.979413923423958,
+          34.75245147801773
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-point-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/277850/batlas-location"
+        "description": "Digitized in QGIS from BAtlas map 28, georectified against VMAP0. Dates from corresponding entry in BAtldir",
+        "location_precision": "precise",
+        "title": "BAtlas Point Location",
+        "link": "http://pleiades.stoa.org/places/277850/batlas-point-location"
       }
     }
   ]

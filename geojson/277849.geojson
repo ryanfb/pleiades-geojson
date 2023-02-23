@@ -3,10 +3,10 @@
   "title": "Unnamed rural settlement near Tremuli",
   "id": "277849",
   "bbox": [
-    -6.0,
-    34.5,
-    -5.5,
-    35.0
+    -5.95147142267,
+    34.8205112518,
+    -5.95147142267,
+    34.8205112518
   ],
   "description": "A rural settlement near Tremuli consisting of small farmsteads.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.75,
-          34.75
+          -5.95147142267,
+          34.8205112518
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -6.0,
-              34.5
-            ],
-            [
-              -6.0,
-              35.0
-            ],
-            [
-              -5.5,
-              35.0
-            ],
-            [
-              -5.5,
-              34.5
-            ],
-            [
-              -6.0,
-              34.5
-            ]
-          ]
+          -5.951471422669314,
+          34.8205112518098
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-point-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/277849/batlas-location"
+        "description": "Digitized in QGIS from BAtlas map 28, georectified against VMAP0. Dates from corresponding entry in BAtldir.",
+        "location_precision": "precise",
+        "title": "BAtlas Point Location",
+        "link": "http://pleiades.stoa.org/places/277849/batlas-point-location"
       }
     }
   ]

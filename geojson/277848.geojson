@@ -3,10 +3,10 @@
   "title": "Rural settlement between Oppidum Novum and Arbaoua",
   "id": "277848",
   "bbox": [
-    -6.0,
-    34.5,
-    -5.5,
-    35.0
+    -5.9215063978,
+    34.939570619,
+    -5.90299792388,
+    34.9572005188
   ],
   "description": "An unnamed settlement consisting of small farmsteads.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.75,
-          34.75
+          -5.91225216084,
+          34.9483855689
         ]
       },
       "properties": {
@@ -25,39 +25,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              -6.0,
-              34.5
-            ],
-            [
-              -6.0,
-              35.0
-            ],
-            [
-              -5.5,
-              35.0
-            ],
-            [
-              -5.5,
-              34.5
-            ],
-            [
-              -6.0,
-              34.5
-            ]
-          ]
+          -5.921506397798346,
+          34.93957061902201
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-point-location-south-cluster",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/277848/batlas-location"
+        "description": "Digitized in QGIS from BAtlas map 28, georectified against VMAP0. Dates from corresponding entry in BAtldir.",
+        "location_precision": "precise",
+        "title": "BAtlas Point Location (south cluster)",
+        "link": "http://pleiades.stoa.org/places/277848/batlas-point-location-south-cluster"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.902997923881314,
+          34.95720051879202
+        ]
+      },
+      "id": "batlas-point-location-north-cluster",
+      "type": "Feature",
+      "properties": {
+        "description": "Digitized in QGIS from BAtlas map 28, georectified against VMAP0. Dates from corresponding entry in BAtldir.",
+        "location_precision": "precise",
+        "title": "BAtlas Point Location (north cluster)",
+        "link": "http://pleiades.stoa.org/places/277848/batlas-point-location-north-cluster"
       }
     }
   ]

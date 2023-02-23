@@ -3,15 +3,16 @@
   "title": "Tucca?/Fines Africae et Mauretaniae?",
   "id": "305172",
   "bbox": [
-    6.0,
-    36.5,
-    6.5,
-    37.0
+    6.27278460293,
+    36.6088383241,
+    6.27278460293,
+    36.6088383241
   ],
   "description": "An ancient place, cited: BAtlas 31 E3 Tucca?/Fines Africae et Mauretaniae?",
   "names": [
     "Tucca",
-    "Fines Africae et Mauretaniae"
+    "Fines Africae et Mauretaniae",
+    "Tucca fines affrice et mauritanie"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.25,
-          36.75
+          6.27278460293,
+          36.6088383241
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              6.0,
-              36.5
-            ],
-            [
-              6.0,
-              37.0
-            ],
-            [
-              6.5,
-              37.0
-            ],
-            [
-              6.5,
-              36.5
-            ],
-            [
-              6.0,
-              36.5
-            ]
-          ]
+          6.272784602934036,
+          36.60883832412635
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-point-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/305172/batlas-location"
+        "description": "Digitized in QGIS from BAtlas map 31, georectified against VMAP0. Dates from corresponding entry in BAtldir",
+        "location_precision": "precise",
+        "title": "BAtlas Point Location",
+        "link": "http://pleiades.stoa.org/places/305172/batlas-point-location"
       }
     }
   ]
