@@ -3,10 +3,10 @@
   "title": "Church of the Saviour, Thessaloniki",
   "id": "628342669",
   "bbox": [
-    22.95,
-    40.63,
-    22.95,
-    40.63
+    22.950827,
+    40.6320578,
+    22.9509361,
+    40.6321348
   ],
   "description": "The Church of the Saviour, Thessaloniki is a fourteenth century Byzantine church.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.95,
-          40.63
+          22.9508815472,
+          40.6320963182
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          22.95,
-          40.63
+          [
+            22.950827,
+            40.632096
+          ],
+          [
+            22.9508615,
+            40.6321348
+          ],
+          [
+            22.9509361,
+            40.6320967
+          ],
+          [
+            22.9509015,
+            40.6320578
+          ],
+          [
+            22.950827,
+            40.632096
+          ]
         ]
       },
-      "id": "church-of-christ-saviour",
+      "id": "osm-location-of-church-of-the-saviour",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Church of Christ Saviour",
-        "link": "http://pleiades.stoa.org/places/628342669/church-of-christ-saviour"
+        "title": "OSM location of Church of the Saviour",
+        "link": "http://pleiades.stoa.org/places/628342669/osm-location-of-church-of-the-saviour"
       }
     }
   ]
