@@ -3,12 +3,12 @@
   "title": "Martyrion",
   "id": "46120818",
   "bbox": [
-    28.7229582628,
-    37.7060763776,
-    28.7229582628,
-    37.7060763776
+    28.7228862,
+    37.7060742,
+    28.7232029,
+    37.7062633
   ],
-  "description": null,
+  "description": "The Roman Tetrakionion at Aphrodisias has been identified as a Martyrion. Its date of construction is uncertain, ranging from as early as the late second century CE to as late as the 5th-6th century CE.",
   "connectsWith": [
     "638753"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.7229582628,
-          37.7060763776
+          28.7230441372,
+          37.7061685895
         ]
       },
       "properties": {
@@ -28,20 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          28.72295826282607,
-          37.70607637763953,
-          0.0
+          [
+            28.7228862,
+            37.7062453
+          ],
+          [
+            28.7231878,
+            37.7062633
+          ],
+          [
+            28.7232029,
+            37.7060922
+          ],
+          [
+            28.7228995,
+            37.7060742
+          ],
+          [
+            28.7228862,
+            37.7062453
+          ]
         ]
       },
-      "id": "martyrion",
+      "id": "osm-location-of-church",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Martyrion",
-        "link": "http://pleiades.stoa.org/places/46120818/martyrion"
+        "title": "OSM location of Church",
+        "link": "http://pleiades.stoa.org/places/46120818/osm-location-of-church"
       }
     }
   ]
