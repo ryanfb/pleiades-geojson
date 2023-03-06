@@ -1,28 +1,46 @@
 {
   "type": "FeatureCollection",
-  "title": "Klimax M.",
+  "title": "Klimax (mountain)",
   "id": "40176",
-  "description": "An ancient place, cited: BAtlas 4 unlocated Klimax M.",
+  "bbox": [
+    44.675684,
+    14.57107,
+    44.675684,
+    14.57107
+  ],
+  "description": "An ancient name for a mountain, attested in primary sources. It is possibly to be identified with the Jabal Isbil in modern Yemen.",
   "names": [
     "Klimax M."
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.675684,
+          14.57107
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.675684,
+          14.57107
+        ]
+      },
+      "id": "osm-location-of-jabal-isbil",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/40176/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Jabal Isbil",
+        "link": "http://pleiades.stoa.org/places/40176/osm-location-of-jabal-isbil"
       }
     }
   ]

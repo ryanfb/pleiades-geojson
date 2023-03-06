@@ -3,10 +3,10 @@
   "title": "Shams el-Din",
   "id": "894410373",
   "bbox": [
-    30.594006,
-    24.524831,
-    30.601166,
-    24.696005
+    30.5991431,
+    24.6947125,
+    30.6021897,
+    24.6975286
   ],
   "description": "The ancient settlement of Shams el-Din in Egypt's Kharga Oasis, which contains a necropolis and 4th century AD church.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.597586,
-          24.610418
+          30.600666288,
+          24.6961205732
         ]
       },
       "properties": {
@@ -28,36 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          30.594006,
-          24.524831
+          [
+            30.6021897,
+            24.697503
+          ],
+          [
+            30.6021608,
+            24.6947125
+          ],
+          [
+            30.5991431,
+            24.694738
+          ],
+          [
+            30.5991716,
+            24.6975286
+          ],
+          [
+            30.6021897,
+            24.697503
+          ]
         ]
       },
-      "id": "shams-el-din",
+      "id": "osm-location-of-ain-shams-el-din",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Shams el-Din",
-        "link": "http://pleiades.stoa.org/places/894410373/shams-el-din"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.601166,
-          24.696005
-        ]
-      },
-      "id": "church",
-      "type": "Feature",
-      "properties": {
-        "description": "The church, well visible in Google Earth, is in the SW sector of the archaeological area",
-        "location_precision": "precise",
-        "title": "Church",
-        "link": "http://pleiades.stoa.org/places/894410373/church"
+        "title": "OSM location of Ain Shams el-Din",
+        "link": "http://pleiades.stoa.org/places/894410373/osm-location-of-ain-shams-el-din"
       }
     }
   ]
