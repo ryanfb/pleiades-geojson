@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Mustiae",
   "id": "456099",
-  "description": "An ancient place, cited: BAtlas 46 unlocated Mustiae",
+  "bbox": [
+    16.5827465,
+    38.4548658,
+    16.5827465,
+    38.4548658
+  ],
+  "description": "An ancient settlement (oppidum) of Magna Graecia listed by Pliny the Elder whose precise location cannot be determined today. It is perhaps to be locatlized on the Cocynthum promontory (modern Punta Stilo in Italy).",
   "connectsWith": [
     "452306",
     "1113"
@@ -13,20 +19,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5827465,
+          38.4548658
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/456099/batlas-location"
       }
     }
   ]
