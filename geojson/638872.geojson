@@ -1,7 +1,13 @@
 {
   "type": "FeatureCollection",
-  "title": "Isinda",
+  "title": "Isinda (Pisidian)",
   "id": "638872",
+  "bbox": [
+    30.1619,
+    37.0675,
+    30.1619,
+    37.0675
+  ],
   "description": "An ancient place, cited: BAtlas 65 D3 Isinda",
   "names": [
     "Isinda"
@@ -9,9 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1619,
+          37.0675
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1619,
+          37.0675
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "Barrington Atlas map location",
+        "link": "http://pleiades.stoa.org/places/638872/batlas-location"
       }
     }
   ]
