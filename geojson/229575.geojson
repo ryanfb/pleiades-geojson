@@ -2,9 +2,13 @@
   "type": "FeatureCollection",
   "title": "Orgocyni",
   "id": "229575",
-  "description": "An ancient place, cited: BAtlas 23 unlocated Orgocyni",
+  "description": "An people mentioned in ancient sources whose localization cannot be precisely determined today. They are thought to have been located somewhere in Crimea.",
+  "connectsWith": [
+    "226778"
+  ],
   "names": [
-    "Orgocyni"
+    "Orgocyni",
+    "Orgocini"
   ],
   "features": [
     {
@@ -12,17 +16,6 @@
       "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/229575/batlas-location"
       }
     }
   ]

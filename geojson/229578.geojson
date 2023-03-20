@@ -2,7 +2,11 @@
   "type": "FeatureCollection",
   "title": "Palakion/Placia",
   "id": "229578",
-  "description": "According to Vysotskaya, the unlocated Palakion/Placia is to be placed at the Ust Alma township.",
+  "description": "According to Vysotskaya 1994, the unlocated Palakion/Placia is to be placed at the Ust Alma township. BAtlas silently rejected this assertion, keeping the two entities distinct.",
+  "connectsWith": [
+    "226778",
+    "226803"
+  ],
   "names": [
     "Palakion",
     "Placia"
@@ -13,17 +17,6 @@
       "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/229578/batlas-location"
       }
     }
   ]

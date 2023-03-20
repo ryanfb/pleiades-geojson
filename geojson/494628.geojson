@@ -2,27 +2,31 @@
   "type": "FeatureCollection",
   "title": "Trapezous",
   "id": "494628",
+  "bbox": [
+    23.1321004094,
+    40.3689481779,
+    23.3087753891,
+    40.3695430432
+  ],
   "description": "An ancient place, cited: BAtlas 50 unlocated Trapezous",
+  "connectsWith": [
+    "491554"
+  ],
   "names": [
     "Trapezous"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2350120979,
+          40.3691464663
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/494628/batlas-location"
       }
     }
   ]
