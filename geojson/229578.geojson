@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Palakion/Placia",
   "id": "229578",
+  "bbox": [
+    33.5850334,
+    44.8420177,
+    33.5916587,
+    44.8457214
+  ],
   "description": "According to Vysotskaya 1994, the unlocated Palakion/Placia is to be placed at the Ust Alma township. BAtlas silently rejected this assertion, keeping the two entities distinct.",
   "connectsWith": [
     "226778",
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5886749429,
+          44.843823601
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Hammamat",
+  "title": "Hammamat (station)",
   "id": "786032",
   "bbox": [
-    33.563115,
-    25.932626,
-    33.563115,
-    25.932626
+    33.5465662,
+    25.9684204,
+    33.5471644,
+    25.9689051
   ],
-  "description": "An ancient place, cited: BAtlas 80 D2 Hammamat",
+  "description": "One of many fortified stations (hydreuma) of Roman date on a route through the eastern desert of Egypt. The station at el-Hammamt is also marked by a modern well, dug by English engineers in 1830.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.563115,
-          25.932626
+          33.5468626946,
+          25.9686627012
         ]
       },
       "properties": {
@@ -25,19 +25,41 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.563115,
-          25.932626
+          [
+            33.5466279,
+            25.9689051
+          ],
+          [
+            33.5471644,
+            25.9688931
+          ],
+          [
+            33.5471161,
+            25.9685048
+          ],
+          [
+            33.5470839,
+            25.9684204
+          ],
+          [
+            33.5465662,
+            25.9684253
+          ],
+          [
+            33.5466279,
+            25.9689051
+          ]
         ]
       },
-      "id": "darmc-location-10062",
+      "id": "wadi-hammamat",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 10062",
-        "link": "http://pleiades.stoa.org/places/786032/darmc-location-10062"
+        "title": "OSM location of el-Hammamat",
+        "link": "http://pleiades.stoa.org/places/786032/wadi-hammamat"
       }
     }
   ]
