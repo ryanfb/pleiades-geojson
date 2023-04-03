@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Khabiṣ",
   "id": "710738630",
+  "bbox": [
+    57.7347,
+    30.4307,
+    57.7347,
+    30.4307
+  ],
   "description": "Neolithic site located about 5 km east of the town of Shadad on the edge of the Dasht-i Lut (Lut desert) in southeastern Iran.",
   "names": [
     "Khabiṣ",
@@ -10,9 +16,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.7347,
+          30.4307
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.7347,
+          30.4307
+        ]
+      },
+      "id": "cigs-location-of-sahdad",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location of Neolithic Šahdād from Cuneiform Inscriptions Geographical Site Index (CIGS) .",
+        "location_precision": "precise",
+        "title": "CIGS location of Šahdād",
+        "link": "http://pleiades.stoa.org/places/710738630/cigs-location-of-sahdad"
       }
     }
   ]
