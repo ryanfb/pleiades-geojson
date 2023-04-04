@@ -3,10 +3,10 @@
   "title": "Kastri",
   "id": "570338",
   "bbox": [
-    24.0,
-    37.5,
-    24.5,
-    38.0
+    24.392812,
+    37.661885,
+    24.392812,
+    37.661885
   ],
   "description": "An ancient place, cited: BAtlas 58 G2 Kastri",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.25,
-          37.75
+          24.392812,
+          37.661885
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              24.0,
-              37.5
-            ],
-            [
-              24.0,
-              38.0
-            ],
-            [
-              24.5,
-              38.0
-            ],
-            [
-              24.5,
-              37.5
-            ],
-            [
-              24.0,
-              37.5
-            ]
-          ]
+          24.392812,
+          37.661885
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-location-of-kastri",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/570338/batlas-location"
+        "description": "Location determined via digitized version of BAtlas 58. Dates after BAltDir.",
+        "location_precision": "precise",
+        "title": "BAtlas Location of Kastri",
+        "link": "http://pleiades.stoa.org/places/570338/batlas-location-of-kastri"
       }
     }
   ]

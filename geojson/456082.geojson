@@ -2,27 +2,31 @@
   "type": "FeatureCollection",
   "title": "Lagaria",
   "id": "456082",
+  "bbox": [
+    16.46414,
+    40.15756,
+    16.46414,
+    40.15756
+  ],
   "description": "An ancient place, cited: BAtlas 46 unlocated Lagaria",
+  "connectsWith": [
+    "452383"
+  ],
   "names": [
     "Lagaria"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.46414,
+          40.15756
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/456082/batlas-location"
       }
     }
   ]
