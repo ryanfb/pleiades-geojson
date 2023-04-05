@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "149498",
   "bbox": [
-    5.0745852,
-    44.2388162,
-    5.0745852,
-    44.2388162
+    5.0745976,
+    44.2388461,
+    5.0747265,
+    44.2389776
   ],
   "description": "An ancient place, cited: BAtlas 15 E1 unnamed bridge (Vasio)",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.0745852,
-          44.2388162
+          5.07466205,
+          44.23891185
         ]
       },
       "properties": {
@@ -25,19 +25,25 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          5.0745852,
-          44.2388162
+          [
+            5.0745976,
+            44.2388461
+          ],
+          [
+            5.0747265,
+            44.2389776
+          ]
         ]
       },
-      "id": "location-of-roman-bridge",
+      "id": "osm-location-of-roman-bridge",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of Roman bridge",
-        "link": "http://pleiades.stoa.org/places/149498/location-of-roman-bridge"
+        "title": "OSM location of Pont Romain",
+        "link": "http://pleiades.stoa.org/places/149498/osm-location-of-roman-bridge"
       }
     }
   ]
