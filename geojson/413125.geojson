@@ -3,10 +3,10 @@
   "title": "Falerii",
   "id": "413125",
   "bbox": [
-    12.354362,
-    42.299722,
-    12.359533,
-    42.300429
+    12.3538647,
+    42.2967287,
+    12.3636415,
+    42.3020398
   ],
   "description": "A fortified town located some 6 km from Falerii Veteres and established by the ancient Romans ca. 241 B.C.",
   "connectsWith": [
@@ -14,7 +14,9 @@
     "532728731"
   ],
   "names": [
-    "Falerii"
+    "Falerii",
+    "Falerii Novi",
+    "colonia Iunionia Faliscorum"
   ],
   "features": [
     {
@@ -22,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3573670667,
-          42.2999961333
+          12.3577600819,
+          42.2999865672
         ]
       },
       "properties": {
@@ -66,10 +68,44 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          12.3582062,
-          42.2998374
+          [
+            12.3574689,
+            42.3000474
+          ],
+          [
+            12.3575004,
+            42.3002635
+          ],
+          [
+            12.3581351,
+            42.3002128
+          ],
+          [
+            12.3580944,
+            42.2999336
+          ],
+          [
+            12.3581626,
+            42.2999282
+          ],
+          [
+            12.3581523,
+            42.2998577
+          ],
+          [
+            12.3577225,
+            42.2998921
+          ],
+          [
+            12.357742,
+            42.3000256
+          ],
+          [
+            12.3574689,
+            42.3000474
+          ]
         ]
       },
       "id": "location-of-archaeological-area",
@@ -79,6 +115,137 @@
         "location_precision": "precise",
         "title": "OSM location of archaeological area",
         "link": "http://pleiades.stoa.org/places/413125/location-of-archaeological-area"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.3539355,
+            42.3010039
+          ],
+          [
+            12.3540329,
+            42.3011487
+          ],
+          [
+            12.3548251,
+            42.301507
+          ],
+          [
+            12.3551661,
+            42.301553
+          ],
+          [
+            12.3564308,
+            42.3017235
+          ],
+          [
+            12.3574363,
+            42.3020231
+          ],
+          [
+            12.3594397,
+            42.3020176
+          ],
+          [
+            12.362456,
+            42.3020398
+          ],
+          [
+            12.3631088,
+            42.3010797
+          ],
+          [
+            12.3632738,
+            42.300719
+          ],
+          [
+            12.3631763,
+            42.2987711
+          ],
+          [
+            12.3632738,
+            42.2978109
+          ],
+          [
+            12.3636415,
+            42.2971727
+          ],
+          [
+            12.363544,
+            42.2967287
+          ],
+          [
+            12.3622984,
+            42.2971505
+          ],
+          [
+            12.3616381,
+            42.2970839
+          ],
+          [
+            12.3611954,
+            42.297761
+          ],
+          [
+            12.3599424,
+            42.2977221
+          ],
+          [
+            12.3595672,
+            42.2975168
+          ],
+          [
+            12.358341,
+            42.297759
+          ],
+          [
+            12.3577964,
+            42.2978886
+          ],
+          [
+            12.3551778,
+            42.2993538
+          ],
+          [
+            12.3548776,
+            42.2997145
+          ],
+          [
+            12.3539923,
+            42.3000586
+          ],
+          [
+            12.3538647,
+            42.3002972
+          ],
+          [
+            12.3538815,
+            42.3004648
+          ],
+          [
+            12.3538928,
+            42.300578
+          ],
+          [
+            12.353932,
+            42.3009691
+          ],
+          [
+            12.3539355,
+            42.3010039
+          ]
+        ]
+      },
+      "id": "osm-location-falerii-novi-archaeological-area",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Falerii Novi Archaeological Area",
+        "link": "http://pleiades.stoa.org/places/413125/osm-location-falerii-novi-archaeological-area"
       }
     }
   ]

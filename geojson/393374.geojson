@@ -3,10 +3,10 @@
   "title": "Altinum",
   "id": "393374",
   "bbox": [
-    12.372835,
-    45.5462452,
-    12.4000201,
-    45.578734
+    12.3994439,
+    45.5462285,
+    12.4004935,
+    45.546422
   ],
   "description": "Altinum was the capital of the Veneti of northern Italy. The site was destroyed by Attila in AD 452.",
   "connectsWith": [
@@ -21,29 +21,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3907663333,
-          45.5571337333
+          12.3998423901,
+          45.5462842812
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.372835,
-          45.578734
-        ]
-      },
-      "id": "darmc-location-1593",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 1593",
-        "link": "http://pleiades.stoa.org/places/393374/darmc-location-1593"
       }
     },
     {
@@ -65,19 +48,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          12.4000201,
-          45.546422
+          [
+            12.4000201,
+            45.546422
+          ],
+          [
+            12.3999906,
+            45.5463647
+          ],
+          [
+            12.4004694,
+            45.5462285
+          ],
+          [
+            12.4004935,
+            45.5462755
+          ],
+          [
+            12.4000201,
+            45.546422
+          ]
         ]
       },
-      "id": "location-of-decumanus",
+      "id": "osm-location-of-decumanus",
       "type": "Feature",
       "properties": {
         "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of decumanus",
-        "link": "http://pleiades.stoa.org/places/393374/location-of-decumanus"
+        "title": "OSM location of decumanus",
+        "link": "http://pleiades.stoa.org/places/393374/osm-location-of-decumanus"
       }
     }
   ]
