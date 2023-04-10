@@ -3,10 +3,10 @@
   "title": "Villa S. Silvestro",
   "id": "413384",
   "bbox": [
-    13.054846,
-    42.651732,
-    13.054846,
-    42.651732
+    13.0548181,
+    42.6504899,
+    13.055328,
+    42.6508616
   ],
   "description": "The remains of a Republican temple podium now support a Christian church at Villa S. Silvestro in Umbria. The temple's podium likely dates, in its first phase, to the third century B.C.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.054846,
-          42.651732
+          13.0550730471,
+          42.6506757338
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.054846,
-          42.651732
+          [
+            13.0550187,
+            42.6508616
+          ],
+          [
+            13.0548181,
+            42.650707
+          ],
+          [
+            13.0551274,
+            42.6504899
+          ],
+          [
+            13.055328,
+            42.6506444
+          ],
+          [
+            13.0550187,
+            42.6508616
+          ]
         ]
       },
-      "id": "darmc-location-20678",
+      "id": "location-of-villa-san-silvestro-roman-temple",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 20678",
-        "link": "http://pleiades.stoa.org/places/413384/darmc-location-20678"
+        "title": "OSM location of Villa San Silvestro Roman temple",
+        "link": "http://pleiades.stoa.org/places/413384/location-of-villa-san-silvestro-roman-temple"
       }
     }
   ]
