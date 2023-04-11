@@ -3,10 +3,10 @@
   "title": "Hera temple",
   "id": "442611",
   "bbox": [
-    16.8165703,
-    40.4161654,
-    16.81695,
-    40.416189
+    16.8165445,
+    40.4159821,
+    16.8169966,
+    40.4161654
   ],
   "description": "The so-called 'Tavole Palatine' is the site of the ruins of a sixth century B.C. Doric temple sacred to Hera and associated with the city of Metapontum.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8165703,
-          40.4161654
+          16.8167713865,
+          40.4160738788
         ]
       },
       "properties": {
@@ -32,27 +32,28 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          16.81695,
-          40.416189
-        ]
-      },
-      "id": "darmc-location-7657",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7657",
-        "link": "http://pleiades.stoa.org/places/442611/darmc-location-7657"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.8165703,
-          40.4161654
+          [
+            16.8165703,
+            40.4161654
+          ],
+          [
+            16.8165445,
+            40.4160311
+          ],
+          [
+            16.8169737,
+            40.4159821
+          ],
+          [
+            16.8169966,
+            40.4161177
+          ],
+          [
+            16.8165703,
+            40.4161654
+          ]
         ]
       },
       "id": "osm-location",
