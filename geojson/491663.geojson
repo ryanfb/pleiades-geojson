@@ -3,12 +3,12 @@
   "title": "Methone (Pieria)",
   "id": "491663",
   "bbox": [
-    22.583623,
-    40.467472,
-    22.583623,
-    40.467472
+    22.5809086,
+    40.4652964,
+    22.5843954,
+    40.4696632
   ],
-  "description": "An ancient settlement in Macedonian Pieria on a hilltop named Koryphi, near modern Nea Agathoupolis in the Pydna-Kalindros municipality in Pieria, Greece.",
+  "description": "An ancient settlement in Macedonian Pieria on a hilltop named Koryphi, near modern Nea Agathoupolis in the Pydna-Kalindros municipality in Pieria, Greece. The site was occupied from the Late Neolithic period (ca. 4000 BCE) through 354 BCE, when it was destroyed by the armies of Philip II. It was succeeded by a new settlement approximately 1km to the northwest; known as Macedonian Methone, this later settlement was occupied in the Hellenistic and Roman periods.",
   "names": [
     "Methone"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.583623,
-          40.467472
+          22.5827487404,
+          40.4674726143
         ]
       },
       "properties": {
@@ -28,36 +28,73 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          22.583623,
-          40.467472
+          [
+            22.5809086,
+            40.4679655
+          ],
+          [
+            22.5811017,
+            40.4684389
+          ],
+          [
+            22.5816059,
+            40.4691572
+          ],
+          [
+            22.58196,
+            40.4696632
+          ],
+          [
+            22.5825608,
+            40.4693776
+          ],
+          [
+            22.5830543,
+            40.4691164
+          ],
+          [
+            22.5843954,
+            40.4687981
+          ],
+          [
+            22.5840307,
+            40.465876
+          ],
+          [
+            22.5839019,
+            40.4652964
+          ],
+          [
+            22.5828612,
+            40.465427
+          ],
+          [
+            22.5822497,
+            40.4659249
+          ],
+          [
+            22.5815201,
+            40.4661535
+          ],
+          [
+            22.5810158,
+            40.4669371
+          ],
+          [
+            22.5809086,
+            40.4679655
+          ]
         ]
       },
-      "id": "imagery-location-of-excavated-agora-on-east-hill",
+      "id": "ancient-methone",
       "type": "Feature",
       "properties": {
-        "description": "Location and dates after Morris 2020.",
+        "description": "Polygon representing the surveyed extent of Ancient Methone, derived from an OpenStreetMap Way after Morris 2022.",
         "location_precision": "precise",
-        "title": "Imagery Location of Excavated \"agora\" on East Hill",
-        "link": "http://pleiades.stoa.org/places/491663/imagery-location-of-excavated-agora-on-east-hill"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.583623,
-          40.467472
-        ]
-      },
-      "id": "copy_of_imagery-location-of-excavated-area-west-hill",
-      "type": "Feature",
-      "properties": {
-        "description": "Location and dates after Morris 2020.",
-        "location_precision": "precise",
-        "title": "Imagery Location of Excavated Area at West Hill",
-        "link": "http://pleiades.stoa.org/places/491663/copy_of_imagery-location-of-excavated-area-west-hill"
+        "title": "OSM location of Ancient Methone",
+        "link": "http://pleiades.stoa.org/places/491663/ancient-methone"
       }
     }
   ]

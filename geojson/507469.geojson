@@ -1,29 +1,48 @@
 {
   "type": "FeatureCollection",
-  "title": "Stratonikeia/Stratonike",
+  "title": "Stratoni (Stratonikeia/Stratonike?)",
   "id": "507469",
-  "description": "An ancient place, cited: BAtlas 51 unlocated Stratonike(ia)",
+  "bbox": [
+    23.8253831,
+    40.5137744,
+    23.8253831,
+    40.5137744
+  ],
+  "description": "Recent archaeological survey and excavation have identified structures, artifacts, and Hellenistic pottery just west of the modern Greek village of Stratoni, on the north-eastern coast of the Chalkidiki peninsula. Excavators argue that these should be taken as reinforcing an association between the modern name Stratoni and the ancient Macedonian polis of Stratonike, which is attested in ancient sources.",
   "names": [
+    "Stratoni",
     "Stratonikeia",
     "Stratonike"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8253831,
+          40.5137744
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8253831,
+          40.5137744
+        ]
+      },
+      "id": "osm-location-modern-stratoni",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/507469/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Modern Stratoni",
+        "link": "http://pleiades.stoa.org/places/507469/osm-location-modern-stratoni"
       }
     }
   ]
