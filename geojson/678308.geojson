@@ -4,9 +4,9 @@
   "id": "678308",
   "bbox": [
     35.962699,
-    33.891824,
-    35.963634,
-    33.894878
+    33.894878,
+    35.9632293,
+    33.8954953
   ],
   "description": "An ancient place, cited: BAtlas 69 C2 Nihata",
   "names": [
@@ -18,29 +18,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.9631665,
-          33.893351
+          35.9628931916,
+          33.8951053924
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.963634,
-          33.891824
-        ]
-      },
-      "id": "darmc-location-13927",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 13927",
-        "link": "http://pleiades.stoa.org/places/678308/darmc-location-13927"
       }
     },
     {
@@ -58,6 +41,41 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/678308/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.9629469,
+            33.8954525
+          ],
+          [
+            35.9631005,
+            33.8954953
+          ],
+          [
+            35.9632293,
+            33.8952185
+          ],
+          [
+            35.9630738,
+            33.8951679
+          ],
+          [
+            35.9629469,
+            33.8954525
+          ]
+        ]
+      },
+      "id": "location-of-roman-temple",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Lower Small Temple of Niha",
+        "link": "http://pleiades.stoa.org/places/678308/location-of-roman-temple"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Aqua Anio Novus",
   "id": "423559",
   "bbox": [
-    12.486137,
-    41.8912688,
-    13.137631,
-    41.922622
+    12.5540048,
+    41.8468774,
+    12.5601627,
+    41.8507059
   ],
   "description": "Aqua Anio Novus is an ancient aqueduct supplying the city of Rome. Begun by Caius in A.D. 38, it was completed and dedicated by Claudius in A.D. 52.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.8298747,
-          41.9025807
+          12.5570530293,
+          41.8487461932
         ]
       },
       "properties": {
@@ -31,39 +31,61 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              12.5,
-              41.75
-            ],
-            [
-              12.5,
-              42.0
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
-              12.75,
-              41.75
-            ],
-            [
-              12.5,
-              41.75
-            ]
+            12.5540048,
+            41.8507059
+          ],
+          [
+            12.5547983,
+            41.850064
+          ],
+          [
+            12.5554527,
+            41.8496237
+          ],
+          [
+            12.5562717,
+            41.84915
+          ],
+          [
+            12.5566441,
+            41.8489369
+          ],
+          [
+            12.5575135,
+            41.8484601
+          ],
+          [
+            12.5587106,
+            41.8478046
+          ],
+          [
+            12.5593158,
+            41.8474729
+          ],
+          [
+            12.5596835,
+            41.8472282
+          ],
+          [
+            12.5598026,
+            41.8471384
+          ],
+          [
+            12.5601627,
+            41.8468774
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-aqueduct",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/423559/batlas-location"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Acquedotti Claudio e Anio novus",
+        "link": "http://pleiades.stoa.org/places/423559/location-of-aqueduct"
       }
     }
   ]
