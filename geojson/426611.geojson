@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "426611",
   "bbox": [
-    12.75,
-    41.75,
-    13.0,
-    42.0
+    12.7829924,
+    41.9231093,
+    12.7831078,
+    41.9233738
   ],
   "description": "An ancient place, cited: BAtlas 43 D2 no. 35 (bridge (Ponte Terra))",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.875,
-          41.875
+          12.7830527028,
+          41.9232373451
         ]
       },
       "properties": {
@@ -25,39 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              12.75,
-              41.75
-            ],
-            [
-              12.75,
-              42.0
-            ],
-            [
-              13.0,
-              42.0
-            ],
-            [
-              13.0,
-              41.75
-            ],
-            [
-              12.75,
-              41.75
-            ]
+            12.78303,
+            41.9231123
+          ],
+          [
+            12.7829924,
+            41.9231093
+          ],
+          [
+            12.7830863,
+            41.9233738
+          ],
+          [
+            12.7831078,
+            41.9233668
+          ],
+          [
+            12.78303,
+            41.9231123
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/426611/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/426611/osm-location"
       }
     }
   ]
