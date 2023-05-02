@@ -2,13 +2,45 @@
   "type": "FeatureCollection",
   "title": "Garšana ",
   "id": "922752947",
-  "description": "A Babylonian town possibly located near Umma, Zabalam, and Karkar where over 1500 cuneiform tablets were found. The location of the site is unknown due to the tablets having been looted.",
+  "bbox": [
+    46.1189,
+    31.4433,
+    46.1189,
+    31.4433
+  ],
+  "description": "A Babylonian town mentioned in a collection of 1500 unprovenienced tablets. It is possibly to be identified with the archaeological site of Tall Baridiyah.",
+  "names": [
+    "Tall Baridiyah"
+  ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1189,
+          31.4433
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1189,
+          31.4433
+        ]
+      },
+      "id": "cigs-location-of-tall-baridiyah",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Tall Baridiyah",
+        "link": "http://pleiades.stoa.org/places/922752947/cigs-location-of-tall-baridiyah"
       }
     }
   ]

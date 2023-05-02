@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Salauris oppidum",
   "id": "253703",
-  "description": "An ancient place, cited: BAtlas 25 unlocated Salauris oppidum",
+  "bbox": [
+    1.1440411,
+    41.0768193,
+    1.1440411,
+    41.0768193
+  ],
+  "description": "An ancient settlement mentioned only in Avienus. If it is not fictional, it might possibly be identified with modern Salou.",
   "names": [
     "Salauris oppidum"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1440411,
+          41.0768193
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1440411,
+          41.0768193
+        ]
+      },
+      "id": "osm-location-of-salou",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/253703/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Salou",
+        "link": "http://pleiades.stoa.org/places/253703/osm-location-of-salou"
       }
     }
   ]

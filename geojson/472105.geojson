@@ -3,12 +3,16 @@
   "title": "Ouiriballon Akron",
   "id": "472105",
   "bbox": [
-    8.0,
-    42.0,
-    9.0,
-    43.0
+    8.54,
+    42.37,
+    8.54,
+    42.37
   ],
-  "description": "An ancient place, cited: BAtlas 48 C2 Ouiriballon Akron",
+  "description": "A promontory of northwest Corsica that extends westward and is capped by the Île de Gargalo. It is bounded on the south by the Golfe de Girolata and on the north by the Golfe d'Elbo. Today, the entire promontory is set aside as the Réserve Naturelle de Scandola (a UNESCO Natural World Heritage Site).",
+  "connectsWith": [
+    "472063",
+    "472127"
+  ],
   "names": [
     "Ouiriballon Akron"
   ],
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5,
-          42.5
+          8.54,
+          42.37
         ]
       },
       "properties": {
@@ -28,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              8.0,
-              42.0
-            ],
-            [
-              8.0,
-              43.0
-            ],
-            [
-              9.0,
-              43.0
-            ],
-            [
-              9.0,
-              42.0
-            ],
-            [
-              8.0,
-              42.0
-            ]
-          ]
+          8.54,
+          42.37
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-ile-de-gargalo",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/472105/batlas-location"
+        "description": "Modern island at the western end of the promontory. ",
+        "location_precision": "precise",
+        "title": "Location of Île de Gargalo",
+        "link": "http://pleiades.stoa.org/places/472105/location-of-ile-de-gargalo"
       }
     }
   ]
