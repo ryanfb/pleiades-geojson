@@ -3,10 +3,10 @@
   "title": "Hala Sultan Tekke",
   "id": "790744210",
   "bbox": [
-    33.6040785,
-    34.8854512,
-    33.6096042,
-    34.8871873
+    33.6038013,
+    34.8853086,
+    33.6100632,
+    34.8872268
   ],
   "description": "A major Late Bronze Age settlement occupied the site of Hala Sultan Tekke, which later became an important Sufi Islamic shrine associated with Umm Haram.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.60684135,
-          34.88631925
+          33.6067673698,
+          34.885924737
         ]
       },
       "properties": {
@@ -31,10 +31,84 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.6096042,
-          34.8854512
+          [
+            33.6096026,
+            34.8854522
+          ],
+          [
+            33.6095843,
+            34.88533
+          ],
+          [
+            33.6097976,
+            34.8853086
+          ],
+          [
+            33.6098011,
+            34.8853317
+          ],
+          [
+            33.6100103,
+            34.8853107
+          ],
+          [
+            33.6100276,
+            34.8854267
+          ],
+          [
+            33.6098964,
+            34.8854399
+          ],
+          [
+            33.6099087,
+            34.8855227
+          ],
+          [
+            33.6099201,
+            34.8855988
+          ],
+          [
+            33.6100488,
+            34.8855858
+          ],
+          [
+            33.6100632,
+            34.8856822
+          ],
+          [
+            33.609844,
+            34.8857042
+          ],
+          [
+            33.6098233,
+            34.8855658
+          ],
+          [
+            33.6097679,
+            34.8855714
+          ],
+          [
+            33.6097627,
+            34.8855363
+          ],
+          [
+            33.6097583,
+            34.8855069
+          ],
+          [
+            33.6098134,
+            34.8855013
+          ],
+          [
+            33.609803,
+            34.8854321
+          ],
+          [
+            33.6096026,
+            34.8854522
+          ]
         ]
       },
       "id": "location-of-hala-sultan-tekke-mosque",
@@ -48,19 +122,70 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.6040785,
-          34.8871873
+          [
+            33.6040601,
+            34.8872268
+          ],
+          [
+            33.6038013,
+            34.8863488
+          ],
+          [
+            33.6047434,
+            34.8861551
+          ],
+          [
+            33.6049045,
+            34.8864482
+          ],
+          [
+            33.6051112,
+            34.8868264
+          ],
+          [
+            33.6051656,
+            34.8869595
+          ],
+          [
+            33.6048876,
+            34.8870317
+          ],
+          [
+            33.60451,
+            34.8871259
+          ],
+          [
+            33.6040601,
+            34.8872268
+          ]
         ]
       },
       "id": "location-of-bronze-age-settlement",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "location of Bronze Age settlement",
+        "title": "OSM location of Hala Sultan Tekke Excavation Site",
         "link": "http://pleiades.stoa.org/places/790744210/location-of-bronze-age-settlement"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.606,
+          34.8856
+        ]
+      },
+      "id": "cigs-location-of-hala-sultan-tekes",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Hala Sultan Tekes",
+        "link": "http://pleiades.stoa.org/places/790744210/cigs-location-of-hala-sultan-tekes"
       }
     }
   ]

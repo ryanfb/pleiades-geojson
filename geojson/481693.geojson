@@ -3,10 +3,10 @@
   "title": "Acroceraunia Pr.",
   "id": "481693",
   "bbox": [
-    19.0,
-    40.0,
-    20.0,
-    41.0
+    19.2915112,
+    40.421,
+    19.292,
+    40.4219802
   ],
   "description": "An ancient place, cited: BAtlas 49 B3 Acroceraunia Pr.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          40.5
+          19.2917556,
+          40.4214901
         ]
       },
       "properties": {
@@ -28,39 +28,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              19.0,
-              40.0
-            ],
-            [
-              19.0,
-              41.0
-            ],
-            [
-              20.0,
-              41.0
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
-              19.0,
-              40.0
-            ]
-          ]
+          19.2915112,
+          40.4219802
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-kepi-gjuhezes-minor",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481693/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Kepi Gjuhezes minor lighthouse",
+        "link": "http://pleiades.stoa.org/places/481693/osm-location-of-modern-kepi-gjuhezes-minor"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.292,
+          40.421
+        ]
+      },
+      "id": "imagery-location-of-acroceraunia-pr",
+      "type": "Feature",
+      "properties": {
+        "description": "verified in Google Earth 2013 based on Barrington Atlas location.",
+        "location_precision": "precise",
+        "title": "Imagery location of Acroceraunia Pr.",
+        "link": "http://pleiades.stoa.org/places/481693/imagery-location-of-acroceraunia-pr"
       }
     }
   ]

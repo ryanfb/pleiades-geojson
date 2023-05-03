@@ -2,24 +2,80 @@
   "type": "FeatureCollection",
   "title": "Tell Abraq",
   "id": "932482",
+  "bbox": [
+    55.5508883,
+    25.486336,
+    55.5528259,
+    25.4890443
+  ],
   "description": "Tell Abraq was an ancient Near Eastern city.",
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.5520057231,
+          25.4875977164
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.552366,
+            25.4890443
+          ],
+          [
+            55.5508883,
+            25.4871324
+          ],
+          [
+            55.5509116,
+            25.4871056
+          ],
+          [
+            55.5521265,
+            25.486336
+          ],
+          [
+            55.5528259,
+            25.4872369
+          ],
+          [
+            55.5527449,
+            25.4877721
+          ],
+          [
+            55.5526434,
+            25.4879953
+          ],
+          [
+            55.5524754,
+            25.488531
+          ],
+          [
+            55.5523828,
+            25.4889232
+          ],
+          [
+            55.552366,
+            25.4890443
+          ]
+        ]
+      },
+      "id": "osm-location-of-tell-abraq",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/932482/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Tell Abraq",
+        "link": "http://pleiades.stoa.org/places/932482/osm-location-of-tell-abraq"
       }
     }
   ]
