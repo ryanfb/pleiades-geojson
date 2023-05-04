@@ -3,10 +3,10 @@
   "title": "Duntocher",
   "id": "89171",
   "bbox": [
-    -4.407491,
-    55.925182,
-    -4.407491,
-    55.925182
+    -4.4106059,
+    55.9231188,
+    -4.4092541,
+    55.9238642
   ],
   "description": "Roman fort on the Antonine Wall in West Dunbartonshire, Scotland.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.407491,
-          55.925182
+          -4.40992918138,
+          55.9235024458
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -4.407491,
-          55.925182
+          [
+            -4.4099783,
+            55.9238642
+          ],
+          [
+            -4.4106059,
+            55.9235155
+          ],
+          [
+            -4.4098817,
+            55.9231188
+          ],
+          [
+            -4.4092541,
+            55.9235246
+          ],
+          [
+            -4.4099783,
+            55.9238642
+          ]
         ]
       },
-      "id": "darmc-location-19110",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 19110",
-        "link": "http://pleiades.stoa.org/places/89171/darmc-location-19110"
+        "title": "OSM location of Duntocher Roman fort",
+        "link": "http://pleiades.stoa.org/places/89171/osm-location"
       }
     }
   ]

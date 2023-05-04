@@ -3,10 +3,10 @@
   "title": "Torre Galli",
   "id": "452479",
   "bbox": [
-    15.935507,
-    38.645087,
-    15.935507,
-    38.645087
+    15.9353844,
+    38.6448576,
+    15.9357675,
+    38.6451643
   ],
   "description": "An ancient place, cited: BAtlas 46 C4 Torre Galli",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.935507,
-          38.645087
+          15.9355597161,
+          38.6450020951
         ]
       },
       "properties": {
@@ -25,19 +25,53 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          15.935507,
-          38.645087
+          [
+            15.9354452,
+            38.6450817
+          ],
+          [
+            15.9353844,
+            38.6450323
+          ],
+          [
+            15.9356047,
+            38.6448671
+          ],
+          [
+            15.9356321,
+            38.6448894
+          ],
+          [
+            15.9356744,
+            38.6448576
+          ],
+          [
+            15.9357675,
+            38.6449334
+          ],
+          [
+            15.9354596,
+            38.6451643
+          ],
+          [
+            15.9353998,
+            38.6451158
+          ],
+          [
+            15.9354452,
+            38.6450817
+          ]
         ]
       },
-      "id": "darmc-location-18950",
+      "id": "torre-gallo",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18950",
-        "link": "http://pleiades.stoa.org/places/452479/darmc-location-18950"
+        "title": "OSM location of Torre Gallo, Drapia",
+        "link": "http://pleiades.stoa.org/places/452479/torre-gallo"
       }
     }
   ]
