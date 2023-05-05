@@ -3,10 +3,10 @@
   "title": "Baş Dağ",
   "id": "648583",
   "bbox": [
-    33.162227,
-    37.362502,
-    33.162227,
-    37.362502
+    33.1588784,
+    37.3707746,
+    33.1591736,
+    37.3711369
   ],
   "description": "An ancient place, cited: BAtlas 66 C2 Baş Dağ",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.162227,
-          37.362502
+          33.1590438199,
+          37.3709546744
         ]
       },
       "properties": {
@@ -25,19 +25,41 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.162227,
-          37.362502
+          [
+            33.1591531,
+            37.3707746
+          ],
+          [
+            33.1588784,
+            37.3708652
+          ],
+          [
+            33.1589018,
+            37.3710347
+          ],
+          [
+            33.1590275,
+            37.3711369
+          ],
+          [
+            33.1591736,
+            37.3710974
+          ],
+          [
+            33.1591531,
+            37.3707746
+          ]
         ]
       },
-      "id": "darmc-location-7326",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 7326",
-        "link": "http://pleiades.stoa.org/places/648583/darmc-location-7326"
+        "title": "OSM location of Baş Dağ",
+        "link": "http://pleiades.stoa.org/places/648583/osm-location"
       }
     }
   ]
