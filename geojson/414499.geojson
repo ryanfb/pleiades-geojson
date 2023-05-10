@@ -3,10 +3,10 @@
   "title": "Untitled",
   "id": "414499",
   "bbox": [
-    11.6767668,
-    43.5019405,
-    11.6767668,
-    43.5019405
+    11.6779427,
+    43.4994268,
+    11.6782199,
+    43.4995973
   ],
   "description": "An ancient place, cited: BAtlas 42 B1 unnamed bridge (W Ponte a Buriano, over R. Arno)",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.6767668,
-          43.5019405
+          11.6780812899,
+          43.4995120669
         ]
       },
       "properties": {
@@ -28,56 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              11.5,
-              43.5
-            ],
-            [
-              11.5,
-              44.0
-            ],
-            [
-              12.0,
-              44.0
-            ],
-            [
-              12.0,
-              43.5
-            ],
-            [
-              11.5,
-              43.5
-            ]
+            11.6781609,
+            43.4995973
+          ],
+          [
+            11.6782199,
+            43.4995342
+          ],
+          [
+            11.6780017,
+            43.4994268
+          ],
+          [
+            11.6779427,
+            43.49949
+          ],
+          [
+            11.6781609,
+            43.4995973
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-ponte-del-romito",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/414499/batlas-location"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6767668,
-          43.5019405
-        ]
-      },
-      "id": "osm-location-of-ponte-del-romito",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative location based on OpenStreetMap.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Ponte del Romito",
-        "link": "http://pleiades.stoa.org/places/414499/osm-location-of-ponte-del-romito"
+        "title": "OSM location: Ponte del Romito",
+        "link": "http://pleiades.stoa.org/places/414499/osm-location-ponte-del-romito"
       }
     }
   ]

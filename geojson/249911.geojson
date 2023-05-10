@@ -3,10 +3,10 @@
   "title": "Gleyzia d'Augreilh",
   "id": "249911",
   "bbox": [
-    -0.574221,
-    43.759137,
-    -0.574221,
-    43.759137
+    -0.608208,
+    43.7577847,
+    -0.6066897,
+    43.75863
   ],
   "description": "A Late Roman villa.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.574221,
-          43.759137
+          -0.60747596538,
+          43.7582159775
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -0.574221,
-          43.759137
+          [
+            -0.6080978,
+            43.75863
+          ],
+          [
+            -0.608208,
+            43.7579691
+          ],
+          [
+            -0.60694,
+            43.7577847
+          ],
+          [
+            -0.6066897,
+            43.7584377
+          ],
+          [
+            -0.6080978,
+            43.75863
+          ]
         ]
       },
-      "id": "center-of-batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "The center of the commune noted in the Barrington Atlas directory",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "Center point of location",
-        "link": "http://pleiades.stoa.org/places/249911/center-of-batlas-location"
+        "title": "OSM location of Villa Gallo-Romaine du Gleyzia",
+        "link": "http://pleiades.stoa.org/places/249911/osm-location"
       }
     }
   ]
