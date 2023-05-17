@@ -3,10 +3,10 @@
   "title": "Simiou?",
   "id": "786119",
   "bbox": [
-    33.941784,
-    26.099452,
-    33.941784,
-    26.099452
+    33.930456,
+    26.1245904,
+    33.9309265,
+    26.1250069
   ],
   "description": "An ancient place, cited: BAtlas 80 D1 Simiou?",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.941784,
-          26.099452
+          33.9306617887,
+          26.1248150583
         ]
       },
       "properties": {
@@ -28,19 +28,49 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.941784,
-          26.099452
+          [
+            33.9308719,
+            26.1249494
+          ],
+          [
+            33.9305367,
+            26.1250069
+          ],
+          [
+            33.930456,
+            26.1246267
+          ],
+          [
+            33.9305006,
+            26.1245904
+          ],
+          [
+            33.9308737,
+            26.1247829
+          ],
+          [
+            33.9309265,
+            26.1248257
+          ],
+          [
+            33.9309091,
+            26.124898
+          ],
+          [
+            33.9308719,
+            26.1249494
+          ]
         ]
       },
-      "id": "darmc-location-8313",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 8313",
-        "link": "http://pleiades.stoa.org/places/786119/darmc-location-8313"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/786119/osm-location"
       }
     }
   ]

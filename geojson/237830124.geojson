@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Iri-sagrig",
   "id": "237830124",
+  "bbox": [
+    39.5388049,
+    31.0047114,
+    47.4533685,
+    38.4789039
+  ],
   "description": "A city of southern Mesopotamia attested from the Fara period (Early Dynastic IIIa) through the Old Babylonian period, located on the Tigris river near Nippur, about 60-80km north of Umma. The exact location of the site is unknown to archaeologists, but known to looters, who have stolen and sold thousands of tablets from the site.",
   "connectsWith": [
     "912910",
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4278564797,
+          33.5434758004
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
