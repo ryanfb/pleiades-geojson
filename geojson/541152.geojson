@@ -4,15 +4,17 @@
   "id": "541152",
   "bbox": [
     22.665433,
-    38.578584,
-    22.681203,
-    38.584865
+    38.584865,
+    22.6686,
+    38.5855
   ],
-  "description": "An ancient place, cited: BAtlas 55 D3 Tithorea/Neon",
+  "description": "An ancient city on the southern edge of the Kephissos plain. Known in modern times as Velitsa, the Greek village overlying the ancient site changed its name to Tithorea in the 1920s.",
   "connectsWith": [
     "541048"
   ],
   "names": [
+    "Tithorea",
+    "Velitsa",
     "Tithorea",
     "Neon"
   ],
@@ -22,12 +24,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.673318,
-          38.5817245
+          22.6670165,
+          38.5851825
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6686,
+          38.5855
+        ]
+      },
+      "id": "topostext-location",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "ToposText Location",
+        "link": "http://pleiades.stoa.org/places/541152/topostext-location"
       }
     },
     {
@@ -45,23 +64,6 @@
         "location_precision": "precise",
         "title": "DARMC location 57",
         "link": "http://pleiades.stoa.org/places/541152/darmc-location-57"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.681203,
-          38.578584
-        ]
-      },
-      "id": "darmc-location-15197",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 15197",
-        "link": "http://pleiades.stoa.org/places/541152/darmc-location-15197"
       }
     }
   ]
