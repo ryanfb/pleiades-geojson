@@ -3,10 +3,10 @@
   "title": "Mysia",
   "id": "511328",
   "bbox": [
-    27.5,
-    40.0,
-    28.0,
-    40.5
+    29.2475227057,
+    40.542611845,
+    29.7100899252,
+    40.6092367532
   ],
   "description": "An ancient region located to the north of the Askania Limne (modern Lake Iznik in Turkey).",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.75,
-          40.25
+          29.4802383483,
+          40.5716429463
         ]
       },
       "properties": {
@@ -28,39 +28,43 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              27.5,
-              40.0
+              29.247522705709457,
+              40.542611845032525
             ],
             [
-              27.5,
-              40.5
+              29.37315824681741,
+              40.55593682666529
             ],
             [
-              28.0,
-              40.5
+              29.491179512706537,
+              40.57116537710249
             ],
             [
-              28.0,
-              40.0
+              29.605393640986392,
+              40.58829749634452
             ],
             [
-              27.5,
-              40.0
+              29.710089925242926,
+              40.607333184391166
+            ],
+            [
+              29.710089925242926,
+              40.60923675319577
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/511328/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/511328/batlas-map-label-location"
       }
     }
   ]

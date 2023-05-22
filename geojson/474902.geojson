@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Annuagras",
   "id": "474902",
+  "bbox": [
+    8.410012,
+    40.834568,
+    8.410012,
+    40.834568
+  ],
   "description": "An ancient place, cited: BAtlas 48 unlocated Annuagras",
   "connectsWith": [
     "472035"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.410012,
+          40.834568
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
