@@ -3,12 +3,12 @@
   "title": "Malloura",
   "id": "707571",
   "bbox": [
-    33.507185,
-    35.026096,
-    33.507185,
-    35.026096
+    33.5124409,
+    35.0250961,
+    33.5129746,
+    35.0255001
   ],
-  "description": "An ancient place, cited: BAtlas 72 D2 Malloura",
+  "description": "Located at Malloura, Cyprus, are the remains of human settlement activity ranging from the Archaic period in the eastern Mediterranean to the time of the Roman Empire. The site has yielded evidence of a sanctuary with votive activity as well as funereal evidence. Modern exploration of the site began in 1990 under the direction of Michael K. Toumazou.",
   "connectsWith": [
     "707498"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.507185,
-          35.026096
+          33.5127014417,
+          35.0253068313
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.507185,
-          35.026096
+          [
+            33.512967,
+            35.0255001
+          ],
+          [
+            33.5124545,
+            35.0254444
+          ],
+          [
+            33.5124409,
+            35.0250961
+          ],
+          [
+            33.5129746,
+            35.0252024
+          ],
+          [
+            33.512967,
+            35.0255001
+          ]
         ]
       },
-      "id": "darmc-location-13607",
+      "id": "osm-location-of-malloura",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 13607",
-        "link": "http://pleiades.stoa.org/places/707571/darmc-location-13607"
+        "title": "OSM location of Malloura",
+        "link": "http://pleiades.stoa.org/places/707571/osm-location-of-malloura"
       }
     }
   ]
