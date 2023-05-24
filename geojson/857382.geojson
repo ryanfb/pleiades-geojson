@@ -3,10 +3,10 @@
   "title": "Zela",
   "id": "857382",
   "bbox": [
-    35.8833333,
-    40.3,
-    35.899707,
-    40.309234
+    35.8883054,
+    40.3028283,
+    35.8921038,
+    40.3048906
   ],
   "description": "Zela (modern Zile, Turkey) was an important ancient city of north-central Asia Minor; Strabo claimed Semiramis had founded the site. Iulius Caesar prevailed in the Battle of Zela against Pharnaces II of The Kingdom of Pontus, coining the phrase \"veni, vidi, vici\".",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.89152015,
-          40.304617
+          35.8901884263,
+          40.3038830899
         ]
       },
       "properties": {
@@ -29,36 +29,77 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          35.899707,
-          40.309234
+          [
+            35.8921038,
+            40.30447
+          ],
+          [
+            35.8920949,
+            40.3040901
+          ],
+          [
+            35.8918725,
+            40.3037916
+          ],
+          [
+            35.8908051,
+            40.3031132
+          ],
+          [
+            35.8896309,
+            40.3028283
+          ],
+          [
+            35.8889459,
+            40.3028758
+          ],
+          [
+            35.8884567,
+            40.3030657
+          ],
+          [
+            35.8883054,
+            40.3033439
+          ],
+          [
+            35.8884389,
+            40.3038663
+          ],
+          [
+            35.8888658,
+            40.3043479
+          ],
+          [
+            35.8898266,
+            40.3047753
+          ],
+          [
+            35.8907339,
+            40.3048906
+          ],
+          [
+            35.8913477,
+            40.3048499
+          ],
+          [
+            35.8917302,
+            40.3047346
+          ],
+          [
+            35.8921038,
+            40.30447
+          ]
         ]
       },
-      "id": "darmc-location-25519",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 25519",
-        "link": "http://pleiades.stoa.org/places/857382/darmc-location-25519"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.8833333,
-          40.3
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, village precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/857382/dare-location"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/857382/osm-location"
       }
     }
   ]

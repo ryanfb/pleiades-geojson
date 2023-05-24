@@ -2,27 +2,45 @@
   "type": "FeatureCollection",
   "title": "Tretos",
   "id": "573567",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Tretos",
+  "bbox": [
+    22.7205452,
+    37.7826102,
+    22.7205452,
+    37.7826102
+  ],
+  "description": "From Hesiod onward, Greek writers locate the Nemean lion in a cave or ravine in this mountain and explain the mountain's name (\"perforated\") from being split by the ravine. Wiseman (in PECS, whence ToposText) identifies the Tretos as \"the mountain on the W side of the main road between Kleonaia-Corinthia and Argolis\" and the ravine as the modern Dervenakia pass. Camp in BAtlas silently suppresses this view, and mentioning \"Tretos\" only in a list of \"unlocated\" features in the map-by-map directory where we cites only Pausanias and glosses: \"Corinthia-Argolis: pass, road\".",
   "names": [
     "Tretos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7205452,
+          37.7826102
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7205452,
+          37.7826102
+        ]
+      },
+      "id": "osm-location-of-dervenakia",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573567/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Dervenakia",
+        "link": "http://pleiades.stoa.org/places/573567/osm-location-of-dervenakia"
       }
     }
   ]

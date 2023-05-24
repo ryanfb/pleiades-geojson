@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Donakea?",
   "id": "589764",
+  "bbox": [
+    25.22232,
+    37.59637,
+    25.22232,
+    37.59637
+  ],
   "description": "An ancient place, cited: BAtlas 60 B4 Donakea?",
   "connectsWith": [
     "590074"
@@ -12,20 +18,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22232,
+          37.59637
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22232,
+          37.59637
+        ]
+      },
+      "id": "geonames-location-livada",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589764/batlas-location"
+        "description": "Coordinates following GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames location of Liváda",
+        "link": "http://pleiades.stoa.org/places/589764/geonames-location-livada"
       }
     }
   ]
