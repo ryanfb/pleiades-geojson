@@ -2,16 +2,45 @@
   "type": "FeatureCollection",
   "title": "Kabrīt",
   "id": "660417720",
-  "description": "Find place for a Persian stele commemorating the construction of a canal near modern Suez.",
+  "bbox": [
+    32.4914,
+    30.2285,
+    32.4914,
+    30.2285
+  ],
+  "description": "The findspot of a Persian stele commemorating the construction of a canal near modern Suez.",
   "names": [
     "Kabrīt"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4914,
+          30.2285
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4914,
+          30.2285
+        ]
+      },
+      "id": "cigs-location-of-kabrit",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Kabrīt",
+        "link": "http://pleiades.stoa.org/places/660417720/cigs-location-of-kabrit"
       }
     }
   ]
