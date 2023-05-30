@@ -8,9 +8,13 @@
     41.1285422,
     36.7403865
   ],
-  "description": "An ancient place, cited: BAtlas 89 D4 Tell Barri/[Kahat]",
+  "description": "Tell Barri/[Kahat] is an archaeological site located along the Wadi Jaghjagh, a tributary of the Khabur River, in north-eastern Syria's Al-Hasakah Governorate. The ancient name of the site was Kahat. The site is occupied from the later Halaf period (late seventh to early sixth millennium BCE) to the Iron Age (first millennium BCE). The tell is substantial - at least 32 meters in height, covering an area of 37 hectares - and was accompanied by a lower town of some 7 hectares.",
+  "connectsWith": [
+    "874509"
+  ],
   "names": [
-    "Kahat"
+    "Kahat",
+    "Tall Barri"
   ],
   "features": [
     {
@@ -18,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.1270847952,
-          36.7390002415
+          41.1270423976,
+          36.7388001208
         ]
       },
       "properties": {
@@ -91,6 +95,23 @@
         "location_precision": "precise",
         "title": "OSM location of Tell Barri",
         "link": "http://pleiades.stoa.org/places/874732/osm-location-of-tell-barri"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.127,
+          36.7386
+        ]
+      },
+      "id": "cigs-location-of-tall-barri",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative point location of the archaeological site.",
+        "location_precision": "precise",
+        "title": "CIGS location of Tall Barri",
+        "link": "http://pleiades.stoa.org/places/874732/cigs-location-of-tall-barri"
       }
     }
   ]

@@ -1,28 +1,50 @@
 {
   "type": "FeatureCollection",
-  "title": "Skollion",
+  "title": "Skollion/Skollis",
   "id": "573522",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Skollion",
+  "bbox": [
+    21.57947,
+    37.96864,
+    21.57947,
+    37.96864
+  ],
+  "description": "A mountain that Strabo reports as lying on the border of Elis and Achaea in the Peloponnese. Many scholars have treated it is as identifiable with the modern Santameri/Santomeri, but Camp in BAtlas treated it as unlocated, citing only Strabo.",
+  "connectsWith": [
+    "570221"
+  ],
   "names": [
+    "Santomeri",
     "Skollion"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.57947,
+          37.96864
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.57947,
+          37.96864
+        ]
+      },
+      "id": "geonames-location-of-santomeri",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573522/batlas-location"
+        "location_precision": "precise",
+        "title": "Geonames location of Santomeri",
+        "link": "http://pleiades.stoa.org/places/573522/geonames-location-of-santomeri"
       }
     }
   ]
