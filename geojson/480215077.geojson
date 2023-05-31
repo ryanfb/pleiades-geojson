@@ -11,9 +11,9 @@
   "description": "Town in the Khabur River basin in Northern Syria, now known as Chagar Bazar. First settled in the Neolithic Period, the town appears to have been abandoned during the Early Bronze Age. It was resettled in the Early Dynastic period, becoming an administrative center of the Old Assyrian Empire.",
   "names": [
     "Ašnakkum",
+    "Tall Shāghir Bāzār",
     "Chagar Bazar",
-    "Chagar Bazar",
-    "Tall Shāghir Bāzār"
+    "Chagar Bazar"
   ],
   "features": [
     {
@@ -27,6 +27,23 @@
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8978,
+          36.8755
+        ]
+      },
+      "id": "cigs-location-of-tall-shaghir-bazar",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Tall Shāghir Bāzār",
+        "link": "http://pleiades.stoa.org/places/480215077/cigs-location-of-tall-shaghir-bazar"
       }
     },
     {
@@ -83,30 +100,13 @@
           ]
         ]
       },
-      "id": "chagar-bazar",
+      "id": "osm-location-chagar-bazar",
       "type": "Feature",
       "properties": {
         "description": "Polygon representing the location of the Chagar Bazar site, derived from an OpenStreetMap Way.",
         "location_precision": "precise",
         "title": "OSM location of Chagar Bazar",
-        "link": "http://pleiades.stoa.org/places/480215077/chagar-bazar"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          40.8978,
-          36.8755
-        ]
-      },
-      "id": "cigs-location-of-tall-shaghir-bazar",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "precise",
-        "title": "CIGS location of Tall Shāghir Bāzār",
-        "link": "http://pleiades.stoa.org/places/480215077/cigs-location-of-tall-shaghir-bazar"
+        "link": "http://pleiades.stoa.org/places/480215077/osm-location-chagar-bazar"
       }
     }
   ]

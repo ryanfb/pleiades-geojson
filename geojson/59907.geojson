@@ -1,19 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Malana Pr.",
+  "title": "Malana (promontory)",
   "id": "59907",
   "bbox": [
-    65.0,
-    25.0,
-    70.0,
-    30.0
+    65.2432,
+    25.3224,
+    65.2432,
+    25.3224
   ],
   "description": "An ancient place, cited: BAtlas 6 B4 Malana Pr.",
   "names": [
-    "Malana Pr.",
+    "Malana",
     "Balaio Pr.",
     "Male Pr.",
-    "Maleus M."
+    "Maleus M.",
+    "Ras Malan"
   ],
   "features": [
     {
@@ -21,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5,
-          27.5
+          65.2432,
+          25.3224
         ]
       },
       "properties": {
@@ -31,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              65.0,
-              25.0
-            ],
-            [
-              65.0,
-              30.0
-            ],
-            [
-              70.0,
-              30.0
-            ],
-            [
-              70.0,
-              25.0
-            ],
-            [
-              65.0,
-              25.0
-            ]
-          ]
+          65.2432,
+          25.3224
         ]
       },
-      "id": "batlas-location",
+      "id": "geonames-location-of-ras-malan",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/59907/batlas-location"
+        "description": "Coordinates following GeoNames",
+        "location_precision": "precise",
+        "title": "GeoNames location of Ras Malan",
+        "link": "http://pleiades.stoa.org/places/59907/geonames-location-of-ras-malan"
       }
     }
   ]
