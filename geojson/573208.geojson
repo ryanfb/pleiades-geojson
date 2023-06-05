@@ -1,8 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Ephyra",
+  "title": "Ephyra (Elis)",
   "id": "573208",
-  "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
+  "bbox": [
+    21.8194612,
+    37.5925617,
+    21.8244232,
+    37.6198609
+  ],
+  "description": "An ancient settlement in Elis on the Selleis river, between Pylos and Lasion. Its precise location cannot be determined today.",
   "connectsWith": [
     "570409"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8215530427,
+          37.6065493377
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Koroneia",
   "id": "543756",
+  "bbox": [
+    22.3193697254,
+    39.0165101314,
+    22.7387497276,
+    39.1170423589
+  ],
   "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
   "connectsWith": [
     "540585"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5311295116,
+          39.0583522605
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
