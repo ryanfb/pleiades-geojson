@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Archilocheion?, T.",
+  "title": "Archilocheion",
   "id": "599512",
   "bbox": [
-    25.179009,
-    37.088485,
-    25.179009,
-    37.088485
+    25.1658849,
+    37.0882647,
+    25.181078,
+    37.088882
   ],
-  "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century B.C.",
+  "description": "A sanctuary dedicated to the Greek lyric poet Archilochus, known as the Archilocheion, was established on Paros during the third century BCE. It is attested textually in both literature and inscriptions; however, the precise location of the sanctuary has not been identified. During the 19th and 20th centuries, some scholars argued for it to be placed at the site of the “Three Churches” (Tris Ekklisies) because inscriptions mentioning Archilochos were found reused in remains of the 6th century Christian basilica over which the later churches had been built. Other scholars (e.g., Kontoleon in PECS) have vigorously rejected this view. Foss (BAtlDir) cites Berranger in tentatively placing the Archilocheion further east at the modern village of Elitas.",
   "connectsWith": [
     "599868"
   ],
   "names": [
-    "Archilocheion, T."
+    "Archilocheion"
   ],
   "features": [
     {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.179009,
-          37.088485
+          25.1736177919,
+          37.0886568853
         ]
       },
       "properties": {
@@ -31,19 +31,70 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          25.179009,
-          37.088485
+          [
+            25.1663458,
+            37.0885439
+          ],
+          [
+            25.166392,
+            37.0883572
+          ],
+          [
+            25.1661507,
+            37.0882647
+          ],
+          [
+            25.1658849,
+            37.0883863
+          ],
+          [
+            25.1659737,
+            37.0884183
+          ],
+          [
+            25.1659822,
+            37.0885015
+          ],
+          [
+            25.1662635,
+            37.0886253
+          ],
+          [
+            25.1662874,
+            37.0885568
+          ],
+          [
+            25.1663458,
+            37.0885439
+          ]
         ]
       },
-      "id": "darmc-location-15885",
+      "id": "osm-location-of-archilocheion",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 15885",
-        "link": "http://pleiades.stoa.org/places/599512/darmc-location-15885"
+        "title": "OSM location of basilica at Tris Ekklisies",
+        "link": "http://pleiades.stoa.org/places/599512/osm-location-of-archilocheion"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.181078,
+          37.088882
+        ]
+      },
+      "id": "osm-location-of-modern-elitas",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Elitas",
+        "link": "http://pleiades.stoa.org/places/599512/osm-location-of-modern-elitas"
       }
     }
   ]
