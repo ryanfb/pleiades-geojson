@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Ostrakina (mountain)",
   "id": "573421",
+  "bbox": [
+    22.2167,
+    37.643755,
+    22.2798987,
+    37.6664
+  ],
   "description": "An ancient place, cited: BAtlas 58 unlocated Ostrakina M.",
   "connectsWith": [
     "570449"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.24829935,
+          37.6550775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

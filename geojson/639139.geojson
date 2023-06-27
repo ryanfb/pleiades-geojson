@@ -3,10 +3,10 @@
   "title": "Termessos",
   "id": "639139",
   "bbox": [
-    30.464184,
-    36.982469,
-    30.47021,
-    36.983523
+    30.4573025,
+    36.978262,
+    30.4689111,
+    36.9889749
   ],
   "description": "An ancient place, cited: BAtlas 65 D4 Termessos",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.467197,
-          36.982996
+          30.4629393696,
+          36.9836622795
         ]
       },
       "properties": {
@@ -32,53 +32,61 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          30.464184,
-          36.982469
+          [
+            30.4664435,
+            36.9889749
+          ],
+          [
+            30.4689111,
+            36.9880836
+          ],
+          [
+            30.4658641,
+            36.9848442
+          ],
+          [
+            30.465907,
+            36.9835244
+          ],
+          [
+            30.4648771,
+            36.9811761
+          ],
+          [
+            30.4611005,
+            36.978262
+          ],
+          [
+            30.4586362,
+            36.9783329
+          ],
+          [
+            30.4573025,
+            36.9795305
+          ],
+          [
+            30.4585685,
+            36.9832158
+          ],
+          [
+            30.460571,
+            36.9856017
+          ],
+          [
+            30.4664435,
+            36.9889749
+          ]
         ]
       },
-      "id": "darmc-location-1455",
+      "id": "osm-location-of-termessos",
       "type": "Feature",
       "properties": {
-        "description": "TIB representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 1455",
-        "link": "http://pleiades.stoa.org/places/639139/darmc-location-1455"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.47021,
-          36.983523
-        ]
-      },
-      "id": "darmc-location-6306",
-      "type": "Feature",
-      "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 6306",
-        "link": "http://pleiades.stoa.org/places/639139/darmc-location-6306"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.467197,
-          36.982996
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/639139/dare-location"
+        "title": "OSM location of Termessos",
+        "link": "http://pleiades.stoa.org/places/639139/osm-location-of-termessos"
       }
     }
   ]
