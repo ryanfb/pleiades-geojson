@@ -3,10 +3,10 @@
   "title": "Khirbet et-Tannur",
   "id": "697687",
   "bbox": [
-    35.702957,
-    30.907378,
-    35.711377,
-    30.980157
+    35.7060555,
+    30.9686238,
+    35.7065973,
+    30.9689848
   ],
   "description": "Located some 70 km from Petra, Khirbet et-Tannur is the site of a well-preserved, open-air Nabataean sanctuary.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.707167,
-          30.9437675
+          35.7063420555,
+          30.9687973883
         ]
       },
       "properties": {
@@ -28,36 +28,45 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          35.711377,
-          30.980157
+          [
+            35.7065973,
+            30.968971
+          ],
+          [
+            35.7065436,
+            30.9686238
+          ],
+          [
+            35.7060555,
+            30.9686629
+          ],
+          [
+            35.7060984,
+            30.9688837
+          ],
+          [
+            35.7062996,
+            30.9688745
+          ],
+          [
+            35.7063237,
+            30.9689848
+          ],
+          [
+            35.7065973,
+            30.968971
+          ]
         ]
       },
-      "id": "darmc-location-26031",
+      "id": "osm-location-of-khirbet-et-tannur",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 26031",
-        "link": "http://pleiades.stoa.org/places/697687/darmc-location-26031"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.702957,
-          30.907378
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/697687/dare-location"
+        "title": "OSM location of Khirbet et-Tannur",
+        "link": "http://pleiades.stoa.org/places/697687/osm-location-of-khirbet-et-tannur"
       }
     }
   ]

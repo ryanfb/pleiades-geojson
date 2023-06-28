@@ -3,10 +3,10 @@
   "title": "Ausaritis",
   "id": "39302",
   "bbox": [
-    45.0,
-    10.0,
-    50.0,
-    15.0
+    47.9899829256,
+    14.838132215,
+    48.8127788605,
+    16.1987446665
   ],
   "description": "An ancient place, cited: BAtlas 4 C3 Ausaritis",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.5,
-          12.5
+          48.3638981383,
+          15.5410790346
         ]
       },
       "properties": {
@@ -31,39 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              45.0,
-              10.0
+              47.98998292562907,
+              14.838132214987906
             ],
             [
-              45.0,
-              15.0
+              48.08208633810727,
+              15.068523037817355
             ],
             [
-              50.0,
-              15.0
+              48.17552053740253,
+              15.251956430580178
             ],
             [
-              50.0,
-              10.0
+              48.27562226784567,
+              15.420413229770762
             ],
             [
-              45.0,
-              10.0
+              48.379483721392695,
+              15.59824398606972
+            ],
+            [
+              48.47399528259157,
+              15.759277801987333
+            ],
+            [
+              48.58326356648037,
+              15.915167997533047
+            ],
+            [
+              48.696108693450284,
+              16.062402591293132
+            ],
+            [
+              48.812778860527715,
+              16.198744666518785
+            ],
+            [
+              48.812778860527715,
+              16.198744666518785
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/39302/batlas-location"
+        "description": "Location of BAtlas label as digitized in QGIS",
+        "location_precision": "precise",
+        "title": "BAtlas Label Location",
+        "link": "http://pleiades.stoa.org/places/39302/batlas-label-location"
       }
     }
   ]
