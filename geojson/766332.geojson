@@ -3,10 +3,10 @@
   "title": "Abu Sha'ar",
   "id": "766332",
   "bbox": [
-    33.679368,
-    27.355677,
-    33.679368,
-    27.355677
+    33.6823886,
+    27.3684494,
+    33.6832792,
+    27.3694078
   ],
   "description": "An ancient place, cited: BAtlas 78 D3 Abu Sha'ar",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.679368,
-          27.355677
+          33.6828339,
+          27.3689286
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.679368,
-          27.355677
+          [
+            33.6824883,
+            27.3694078
+          ],
+          [
+            33.6823886,
+            27.3685195
+          ],
+          [
+            33.6831795,
+            27.3684494
+          ],
+          [
+            33.6832792,
+            27.3693377
+          ],
+          [
+            33.6824883,
+            27.3694078
+          ]
         ]
       },
-      "id": "darmc-location-22630",
+      "id": "abu-shaar",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 22630",
-        "link": "http://pleiades.stoa.org/places/766332/darmc-location-22630"
+        "title": "OSM location of Abu Sha'ar",
+        "link": "http://pleiades.stoa.org/places/766332/abu-shaar"
       }
     }
   ]

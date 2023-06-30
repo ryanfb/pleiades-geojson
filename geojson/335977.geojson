@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "El Kantara Bridge",
   "id": "335977",
   "bbox": [
-    5.0,
-    35.0,
-    6.0,
-    36.0
+    5.7015199,
+    35.2335343,
+    5.701656,
+    35.233602
   ],
-  "description": "An ancient place, cited: BAtlas 34 D2 unnamed bridge (Ad Calceum Herculis (el Kantara))",
+  "description": "A restored Roman bridge at ancient Ad Calceum Herculis (modern el Kantara, Algeria)",
   "connectsWith": [
     "334473"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.5,
-          35.5
+          5.70158812781,
+          35.2335681859
         ]
       },
       "properties": {
@@ -28,39 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              5.0,
-              35.0
-            ],
-            [
-              5.0,
-              36.0
-            ],
-            [
-              6.0,
-              36.0
-            ],
-            [
-              6.0,
-              35.0
-            ],
-            [
-              5.0,
-              35.0
-            ]
+            5.7016429,
+            35.233602
+          ],
+          [
+            5.701656,
+            35.2335673
+          ],
+          [
+            5.7015341,
+            35.2335343
+          ],
+          [
+            5.7015199,
+            35.233569
+          ],
+          [
+            5.7016429,
+            35.233602
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-el-kantara",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/335977/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of El Kantara",
+        "link": "http://pleiades.stoa.org/places/335977/osm-location-of-el-kantara"
       }
     }
   ]

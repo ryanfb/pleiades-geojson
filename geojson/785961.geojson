@@ -3,10 +3,10 @@
   "title": "Abu Hegilig North",
   "id": "785961",
   "bbox": [
-    34.939736,
-    24.398183,
-    34.939736,
-    24.398183
+    34.926252,
+    24.4205116,
+    34.9265859,
+    24.4207681
   ],
   "description": "An ancient place, cited: BAtlas 80 F5 Abu Hegilig North",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.939736,
-          24.398183
+          34.92641804,
+          24.4206403008
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          34.939736,
-          24.398183
+          [
+            34.9265229,
+            24.4207681
+          ],
+          [
+            34.926252,
+            24.4206801
+          ],
+          [
+            34.9263123,
+            24.4205116
+          ],
+          [
+            34.9265859,
+            24.4206032
+          ],
+          [
+            34.9265229,
+            24.4207681
+          ]
         ]
       },
-      "id": "darmc-location-6999",
+      "id": "abu-hegilig-north",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 6999",
-        "link": "http://pleiades.stoa.org/places/785961/darmc-location-6999"
+        "title": "OSM location of Abu Hegilig North",
+        "link": "http://pleiades.stoa.org/places/785961/abu-hegilig-north"
       }
     }
   ]
