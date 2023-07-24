@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Amymone",
   "id": "573086",
+  "bbox": [
+    22.7183258,
+    37.5512409,
+    22.7183258,
+    37.5512409
+  ],
   "description": "A river and homonymous spring mentioned by Pausanias in the vicinity of Lerna. Its precise location cannot be determined today.",
   "connectsWith": [
     "69536363",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7183258,
+          37.5512409
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
