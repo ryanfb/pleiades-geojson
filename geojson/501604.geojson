@@ -3,12 +3,12 @@
   "title": "Selleis (river)",
   "id": "501604",
   "bbox": [
-    26.5,
-    40.0,
-    27.0,
-    40.5
+    26.5266771149,
+    40.1665634139,
+    26.5646605833,
+    40.2187743126
   ],
-  "description": "An ancient place, cited: BAtlas 51 H4 Selleis fl.",
+  "description": "A river, mentioned in Homer and later sources, that BAtlas places in Asia Minor, draining into the Hellespont \"6 miles E Abydos (Maltepe)\" in modern Turkey. Pauly's RE puts it in the same general area, but makes it a tributary of the Rhodios.",
   "names": [
     "Selleis"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          40.25
+          26.5448456794,
+          40.191831527
         ]
       },
       "properties": {
@@ -28,28 +28,159 @@
     },
     {
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.526677114856323,
+            40.21877431257825
+          ],
+          [
+            26.529105736728354,
+            40.21568686999349
+          ],
+          [
+            26.531926071033787,
+            40.21164215642765
+          ],
+          [
+            26.534457430479865,
+            40.20759613536346
+          ],
+          [
+            26.53717708291716,
+            40.20406722590802
+          ],
+          [
+            26.53921877340677,
+            40.20112546291709
+          ],
+          [
+            26.541363420214296,
+            40.19722519138
+          ],
+          [
+            26.542431107076993,
+            40.195902009264266
+          ],
+          [
+            26.542917374032985,
+            40.195166449934675
+          ],
+          [
+            26.54292483918792,
+            40.19413380381411
+          ],
+          [
+            26.543313305425503,
+            40.19361911605526
+          ],
+          [
+            26.544376107018902,
+            40.19295976184791
+          ],
+          [
+            26.545549911785617,
+            40.190235518224696
+          ],
+          [
+            26.546815560606586,
+            40.18810175413285
+          ],
+          [
+            26.548373853855896,
+            40.1853791133222
+          ],
+          [
+            26.550126445428205,
+            40.18236222364198
+          ],
+          [
+            26.551483760459607,
+            40.180818898897414
+          ],
+          [
+            26.55255513348781,
+            40.17890556188748
+          ],
+          [
+            26.554593738046698,
+            40.17618485523966
+          ],
+          [
+            26.556922692720146,
+            40.17317027055086
+          ],
+          [
+            26.55847709375177,
+            40.170890075140555
+          ],
+          [
+            26.561377931551515,
+            40.16854160542684
+          ],
+          [
+            26.562827759891494,
+            40.16744110180774
+          ],
+          [
+            26.56466058325671,
+            40.16656341393002
+          ],
+          [
+            26.56466058325671,
+            40.16656341393002
+          ]
+        ]
+      },
+      "id": "batlas-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Line geometry for the Selleis as depicted on BAtlas Map 51, digitized in QGIS using ONC F-3 projection parameters (source map base for that map) from AWMC, then re-projected to WGS-84 Geo.",
+        "location_precision": "precise",
+        "title": "BAtlas Location",
+        "link": "http://pleiades.stoa.org/places/501604/batlas-location"
+      }
+    },
+    {
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              26.5,
-              40.0
+              26.56466058325671,
+              40.16656341393002
             ],
             [
-              26.5,
-              40.5
+              26.562827759891494,
+              40.16744110180774
             ],
             [
-              27.0,
-              40.5
+              26.561377931551515,
+              40.16854160542684
             ],
             [
-              27.0,
-              40.0
+              26.55847709375177,
+              40.170890075140555
             ],
             [
-              26.5,
-              40.0
+              26.55255513348781,
+              40.17890556188748
+            ],
+            [
+              26.550126445428205,
+              40.18236222364198
+            ],
+            [
+              26.526677114856323,
+              40.21877431257825
+            ],
+            [
+              26.529105736728354,
+              40.21568686999349
+            ],
+            [
+              26.56466058325671,
+              40.16656341393002
             ]
           ]
         ]
@@ -57,9 +188,9 @@
       "id": "batlas-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
+        "description": "Line geometry for the Selleis as depicted on BAtlas Map 51, digitized in QGIS using ONC F-3 projection parameters (source map base for that map) from AWMC, then re-projected to WGS-84 Geo.",
+        "location_precision": "precise",
+        "title": "BAtlas Location",
         "link": "http://pleiades.stoa.org/places/501604/batlas-location"
       }
     }
