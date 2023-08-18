@@ -1,15 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Panormos",
+  "title": "Panormos (port of Didyma)",
   "id": "599863",
   "bbox": [
-    27.0,
-    37.0,
-    27.5,
-    37.5
+    27.22771,
+    37.4022521,
+    27.2341094,
+    37.40567
   ],
-  "description": "An ancient place, cited: BAtlas 61 E3 Panormos",
+  "description": "A port on the Aegean coast of Caria, south of Miletus, that provided a point of debarkation for travelers to Didyma, Panormos has been identified with the modern bay of Kovela Limanı. Although the ancient shoreline, harbor works, and presumed town have not been precisely located, an important archaic necropolis has been identified just east of the modern Turkish village of Mavişehir and archaeological survey in the area indicates a long and vibrant record of human occupation.",
+  "connectsWith": [
+    "599593"
+  ],
   "names": [
+    "Kovala Limanı",
+    "Mavişehir",
     "Panormos"
   ],
   "features": [
@@ -18,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.25,
-          37.25
+          27.2309097,
+          37.40396105
         ]
       },
       "properties": {
@@ -28,39 +33,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              27.0,
-              37.0
-            ],
-            [
-              27.0,
-              37.5
-            ],
-            [
-              27.5,
-              37.5
-            ],
-            [
-              27.5,
-              37.0
-            ],
-            [
-              27.0,
-              37.0
-            ]
-          ]
+          27.22771,
+          37.40567
         ]
       },
-      "id": "undetermined",
+      "id": "geonames-location-of-modern-kovala-limani",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599863/undetermined"
+        "location_precision": "precise",
+        "title": "Geonames Location of modern Kovala Limanı",
+        "link": "http://pleiades.stoa.org/places/599863/geonames-location-of-modern-kovala-limani"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2341094,
+          37.4022521
+        ]
+      },
+      "id": "osm-location-of-modern-maviaehir",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Mavişehir",
+        "link": "http://pleiades.stoa.org/places/599863/osm-location-of-modern-maviaehir"
       }
     }
   ]
