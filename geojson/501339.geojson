@@ -3,13 +3,14 @@
   "title": "Akanthos",
   "id": "501339",
   "bbox": [
-    23.880112,
-    40.39975,
-    23.880112,
-    40.39975
+    23.8853681,
+    40.392,
+    23.888,
+    40.3947152
   ],
-  "description": "An ancient place, cited: BAtlas 51 B4 Akanthos",
+  "description": "An ancient settlement in the northeast of the Chalkidiki. The large site is immediately southeast of the modern town of Ierissos.",
   "names": [
+    "Ierissos",
     "Akanthos"
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.880112,
-          40.39975
+          23.88668405,
+          40.3933576
         ]
       },
       "properties": {
@@ -30,17 +31,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.880112,
-          40.39975
+          23.8853681,
+          40.3947152
         ]
       },
-      "id": "darmc-location-11267",
+      "id": "osm-location-akanthos",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Location based on OpenStreetMap. Dates after BAtlas.",
         "location_precision": "precise",
-        "title": "DARMC location 11267",
-        "link": "http://pleiades.stoa.org/places/501339/darmc-location-11267"
+        "title": "OSM Location: Akanthos",
+        "link": "http://pleiades.stoa.org/places/501339/osm-location-akanthos"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.888,
+          40.392
+        ]
+      },
+      "id": "topostext-location",
+      "type": "Feature",
+      "properties": {
+        "description": "Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "ToposText Location",
+        "link": "http://pleiades.stoa.org/places/501339/topostext-location"
       }
     }
   ]
