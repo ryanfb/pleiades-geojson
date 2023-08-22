@@ -3,12 +3,15 @@
   "title": "Pydna/Kitron",
   "id": "491704",
   "bbox": [
-    22.5,
-    40.0,
-    23.0,
-    40.5
+    22.5776792,
+    40.3744134,
+    22.5776792,
+    40.3744134
   ],
   "description": "An ancient place, cited: BAtlas 50 C4 Pydna/Kitron",
+  "connectsWith": [
+    "491703"
+  ],
   "names": [
     "Pydna",
     "Kitron"
@@ -19,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.75,
-          40.25
+          22.5776792,
+          40.3744134
         ]
       },
       "properties": {
@@ -29,39 +32,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.5,
-              40.0
-            ],
-            [
-              22.5,
-              40.5
-            ],
-            [
-              23.0,
-              40.5
-            ],
-            [
-              23.0,
-              40.0
-            ],
-            [
-              22.5,
-              40.0
-            ]
-          ]
+          22.5776792,
+          40.3744134
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-modern-kitros",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491704/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of modern Kitros",
+        "link": "http://pleiades.stoa.org/places/491704/osm-location-of-modern-kitros"
       }
     }
   ]
