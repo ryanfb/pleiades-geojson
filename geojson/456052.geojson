@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Consilinum Castrum",
   "id": "456052",
+  "bbox": [
+    16.5783302,
+    38.4446948,
+    16.5804666,
+    38.4498918
+  ],
   "description": "An ancient place, cited: BAtlas 46 unlocated Consilinum Castrum",
   "connectsWith": [
     "452352"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5793603305,
+          38.4472997131
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
