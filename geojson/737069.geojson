@@ -3,13 +3,18 @@
   "title": "Tanis",
   "id": "737069",
   "bbox": [
-    31.0,
-    29.0,
-    31.5,
-    29.5
+    31.031412,
+    29.393521,
+    31.031412,
+    29.393521
   ],
-  "description": "An ancient place, cited: BAtlas 75 E2 Tanis",
+  "description": "An ancient settlement of the eastern Fayoum, administratively in the ancient Arsinoite nome, that is well-documented in the papyri. The site has been identified with a village known as Manashinshana at the beginning of the 20th century, which is probably to be identified with a small settlement known locally today as Shanashinshana.",
   "names": [
+    "Shinshana",
+    "Shana",
+    "Tell Shinsana",
+    "Manashinshana",
+    "Shanashinshana",
     "Tanis"
   ],
   "features": [
@@ -18,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.25,
-          29.25
+          31.031412,
+          29.393521
         ]
       },
       "properties": {
@@ -28,39 +33,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              31.0,
-              29.0
-            ],
-            [
-              31.0,
-              29.5
-            ],
-            [
-              31.5,
-              29.5
-            ],
-            [
-              31.5,
-              29.0
-            ],
-            [
-              31.0,
-              29.0
-            ]
-          ]
+          31.031412,
+          29.393521
         ]
       },
-      "id": "undetermined",
+      "id": "imagery-location-of-modern-shanashinshana",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/737069/undetermined"
+        "description": "After Jensen 2019, pages 132-133",
+        "location_precision": "precise",
+        "title": "Imagery location of modern Shanashinshana",
+        "link": "http://pleiades.stoa.org/places/737069/imagery-location-of-modern-shanashinshana"
       }
     }
   ]
