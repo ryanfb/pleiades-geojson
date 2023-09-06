@@ -3,15 +3,16 @@
   "title": "Elat(r)eia?",
   "id": "530859",
   "bbox": [
-    20.5,
-    39.0,
-    21.0,
-    39.5
+    20.7198,
+    39.1652,
+    20.7198,
+    39.1652
   ],
   "description": "An ancient place, cited: BAtlas 54 C3 Elat(r)eia?",
   "names": [
     "Elatreia",
-    "Elateia"
+    "Elateia",
+    "Elatria"
   ],
   "features": [
     {
@@ -19,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.75,
-          39.25
+          20.7198,
+          39.1652
         ]
       },
       "properties": {
@@ -29,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.5,
-              39.0
-            ],
-            [
-              20.5,
-              39.5
-            ],
-            [
-              21.0,
-              39.5
-            ],
-            [
-              21.0,
-              39.0
-            ],
-            [
-              20.5,
-              39.0
-            ]
-          ]
+          20.7198,
+          39.1652
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530859/batlas-location"
+        "description": "Coordinates following GeoHack",
+        "location_precision": "precise",
+        "title": "Imagery location",
+        "link": "http://pleiades.stoa.org/places/530859/imagery-location"
       }
     }
   ]
