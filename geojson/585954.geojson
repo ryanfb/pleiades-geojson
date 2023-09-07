@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Rharion Pedion",
   "id": "585954",
-  "description": "An ancient place, cited: BAtlas 59 unlocated Rharion Pedion",
+  "bbox": [
+    23.537401,
+    38.041101,
+    23.537401,
+    38.041101
+  ],
+  "description": "Rharion Pedion, a plain near Eleusis in Attica that is now unlocated. Pausanias describes the plain as \"the first to be sown and the first to grow crops.\"",
   "connectsWith": [
     "579920"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.537401,
+          38.041101
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
