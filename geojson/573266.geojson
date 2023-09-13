@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Ionaion",
   "id": "573266",
+  "bbox": [
+    21.596223,
+    37.525886,
+    21.596223,
+    37.525886
+  ],
   "description": "An ancient place, cited: BAtlas 58 unlocated Ionaion",
   "connectsWith": [
     "570653"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.596223,
+          37.525886
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
