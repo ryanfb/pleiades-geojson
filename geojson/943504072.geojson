@@ -3,10 +3,10 @@
   "title": "Temple of Concordia, Agrigento",
   "id": "943504072",
   "bbox": [
-    13.5920241,
-    37.2896423,
-    13.5920241,
-    37.2896423
+    13.5918302,
+    37.2895663,
+    13.5923145,
+    37.2897456
   ],
   "description": "The Temple of Concord, located in the so-called \"Valle dei Templi\" of Agrigento, dates ca. 440-430 B.C.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.5920241,
-          37.2896423
+          13.5920723748,
+          37.2896559567
         ]
       },
       "properties": {
@@ -32,19 +32,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.5920241,
-          37.2896423
+          [
+            13.5918302,
+            37.289743
+          ],
+          [
+            13.5923131,
+            37.2897456
+          ],
+          [
+            13.5923145,
+            37.2895689
+          ],
+          [
+            13.5918317,
+            37.2895663
+          ],
+          [
+            13.5918302,
+            37.289743
+          ]
         ]
       },
-      "id": "location-of-temple-of-concord",
+      "id": "osm-location-temple-of-concordia",
       "type": "Feature",
       "properties": {
-        "description": "A well preserved Doric temple built originally in the fifth century BC and converted into a Christian shrine in the sixth century AD. The temple is also referred to as \"Temple F\". Represnetiatve location following OSM; location verified in Google Earth.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Temple of Concordia",
-        "link": "http://pleiades.stoa.org/places/943504072/location-of-temple-of-concord"
+        "title": "OSM location: Temple of Concordia",
+        "link": "http://pleiades.stoa.org/places/943504072/osm-location-temple-of-concordia"
       }
     }
   ]

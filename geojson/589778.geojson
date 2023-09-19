@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Episkopi",
   "id": "589778",
+  "bbox": [
+    25.0923259,
+    36.6696467,
+    25.0924553,
+    36.6697443
+  ],
   "description": "An ancient place, cited: BAtlas 60 D5 Episkopi",
   "connectsWith": [
     "590047"
@@ -9,20 +15,50 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0923909333,
+          36.6696945995
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.0923259,
+            36.6697023
+          ],
+          [
+            25.0924245,
+            36.6697443
+          ],
+          [
+            25.0924553,
+            36.6696838
+          ],
+          [
+            25.0923552,
+            36.6696467
+          ],
+          [
+            25.0923259,
+            36.6697023
+          ]
+        ]
+      },
+      "id": "osm-location-of-episkopi",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589778/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Episkopi",
+        "link": "http://pleiades.stoa.org/places/589778/osm-location-of-episkopi"
       }
     }
   ]
