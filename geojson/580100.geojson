@@ -1,18 +1,20 @@
 {
   "type": "FeatureCollection",
-  "title": "Salamis",
+  "title": "Salamis (settlement)",
   "id": "580100",
   "bbox": [
-    23.529157,
+    23.5289128,
     37.945459,
     23.53379,
-    37.950077
+    37.9507828
   ],
-  "description": "An ancient place, cited: BAtlas 59 B3 Salamis",
+  "description": "The ancient city of Salamis was located on the Saronic island of the same name, overlooking the modern Ampelaki Bay to the east. The site was likely largely in the area now covered by the modern city of Ambelaki/Ampelaki.",
   "connectsWith": [
     "580101"
   ],
   "names": [
+    "Ampelakia",
+    "Ambelaki",
     "Salamis"
   ],
   "features": [
@@ -21,12 +23,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.5308043333,
-          37.948092
+          23.53033145,
+          37.9487647
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5289128,
+          37.9507828
+        ]
+      },
+      "id": "osm-location-modern-ampelakia",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: modern Ampelakia",
+        "link": "http://pleiades.stoa.org/places/580100/osm-location-modern-ampelakia"
       }
     },
     {
