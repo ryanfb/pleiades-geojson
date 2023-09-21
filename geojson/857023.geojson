@@ -3,10 +3,10 @@
   "title": "Amisene/Saramene",
   "id": "857023",
   "bbox": [
-    36.0,
-    41.0,
-    37.0,
-    42.0
+    35.955221207,
+    41.1272006898,
+    36.362109039,
+    41.3020910737
   ],
   "description": "An ancient place, cited: BAtlas 87 B3 Amisene/Saramene",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.5,
-          41.5
+          36.158665123,
+          41.2146458817
         ]
       },
       "properties": {
@@ -29,39 +29,27 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              36.0,
-              41.0
+              35.95522120701254,
+              41.302091073691045
             ],
             [
-              36.0,
-              42.0
-            ],
-            [
-              37.0,
-              42.0
-            ],
-            [
-              37.0,
-              41.0
-            ],
-            [
-              36.0,
-              41.0
+              36.36210903900952,
+              41.12720068976252
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": "Location is within the footprint of BAtlas map 87 grid B3, but otherwise undetermined",
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/857023/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/857023/batlas-map-label-location"
       }
     }
   ]
