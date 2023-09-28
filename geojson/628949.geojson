@@ -3,10 +3,10 @@
   "title": "Cappadocia (region)",
   "id": "628949",
   "bbox": [
-    35.5,
-    39.0,
-    36.0,
-    39.5
+    34.3238995191,
+    37.5489949905,
+    37.8068215446,
+    38.9905230128
   ],
   "description": "A region that stretched from Lake Tatta in the east to the upper Euphrates River and from the Black Sea southward to Cilicia.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          39.25
+          35.8491181051,
+          38.6338690033
         ]
       },
       "properties": {
@@ -28,39 +28,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              35.5,
-              39.0
+              37.806821544585034,
+              38.73494245942709
             ],
             [
-              35.5,
-              39.5
+              37.4889432282323,
+              38.799695449795195
             ],
             [
-              36.0,
-              39.5
+              37.1475183699273,
+              38.8703350756515
             ],
             [
-              36.0,
-              39.0
+              36.69150014950037,
+              38.944123523148164
             ],
             [
-              35.5,
-              39.0
+              36.20501934685831,
+              38.990523012761855
+            ],
+            [
+              35.78012965462915,
+              38.94454887045879
+            ],
+            [
+              35.30185799245743,
+              38.766089295021516
+            ],
+            [
+              34.84500147933801,
+              38.491261548848115
+            ],
+            [
+              34.60229645674332,
+              38.098650482886114
+            ],
+            [
+              34.32389951906117,
+              37.54899499053931
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/628949/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/628949/batlas-map-label-location"
       }
     }
   ]
