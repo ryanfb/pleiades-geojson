@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Chelydorea (mountain)",
   "id": "573169",
+  "bbox": [
+    22.3969314,
+    37.9397231,
+    22.3969314,
+    37.9397231
+  ],
   "description": "An ancient peak in Arcadia (Greece) whose precise location is not known today. Pausanias names it and associates it with Kyllene.",
   "connectsWith": [
     "570391"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3969314,
+          37.9397231
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
