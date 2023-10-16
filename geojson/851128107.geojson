@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Mutatorium Caesaris",
   "id": "851128107",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "An imperial property opposite the Baths of Caracalla that is mentioned in the Regionary Catalogues and also preserved on a fragment of the Severan marble plan.",
   "connectsWith": [
     "423025",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

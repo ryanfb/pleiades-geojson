@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "lacus Promethei",
   "id": "915004925",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "Either a spring or a fountain that is found in Regio I, perhaps just outside the Porta Capena.",
   "connectsWith": [
     "423025",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

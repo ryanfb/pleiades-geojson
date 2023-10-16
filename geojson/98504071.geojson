@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "antrum Cyclopis",
   "id": "98504071",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "A curious toponym that comes from the Regionary Catalogues for Regio I, the antrum (or atrium) Cyclopis is thought to have been a cave or grotto, perhaps in the flank of the Viminal Hill. It seems to lend its name to the vicus Cyclopis (CIL 6, 2226) that ran south and west to join the via Appia.",
   "connectsWith": [
     "423025",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

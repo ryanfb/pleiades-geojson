@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Thermae Severianae",
   "id": "915004927",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "Baths built by Septimius Severus were likely located south of the Baths of Caracalla.",
   "connectsWith": [
     "423025",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

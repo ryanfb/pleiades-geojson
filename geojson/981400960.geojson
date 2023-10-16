@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "area Apollonis et Splenis et Calles",
   "id": "981400960",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "A trio of toponyms included in the Regionary Catalogues for Regio I. The area Apollonis is otherwise unknown. Topographers debate the trustworthiness of the second and third toponyms.",
   "connectsWith": [
     "307963010",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
