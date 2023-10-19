@@ -3,10 +3,10 @@
   "title": "Bantia",
   "id": "442496",
   "bbox": [
-    16.013924,
-    40.861745,
-    16.013924,
-    40.861745
+    16.0146622,
+    40.8611057,
+    16.0154702,
+    40.8619534
   ],
   "description": "An ancient place, cited: BAtlas 45 D3 Bantia",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.013924,
-          40.861745
+          16.0150916185,
+          40.8615002503
         ]
       },
       "properties": {
@@ -32,19 +32,45 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          16.013924,
-          40.861745
+          [
+            16.0149284,
+            40.8619534
+          ],
+          [
+            16.0153114,
+            40.8618633
+          ],
+          [
+            16.0153405,
+            40.8617557
+          ],
+          [
+            16.0154702,
+            40.8612752
+          ],
+          [
+            16.0154071,
+            40.8611057
+          ],
+          [
+            16.0146622,
+            40.8612876
+          ],
+          [
+            16.0149284,
+            40.8619534
+          ]
         ]
       },
-      "id": "darmc-location-18234",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18234",
-        "link": "http://pleiades.stoa.org/places/442496/darmc-location-18234"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/442496/osm-location"
       }
     }
   ]
