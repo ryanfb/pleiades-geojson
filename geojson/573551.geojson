@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Thaumasion (mountain)",
   "id": "573551",
+  "bbox": [
+    22.2167,
+    37.643755,
+    22.2798987,
+    37.6664
+  ],
   "description": "An ancient peak whose precise location is not known, but which Pausanias implies was part of the Mainalion range in Achaia.",
   "connectsWith": [
     "570449"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.24829935,
+          37.6550775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
