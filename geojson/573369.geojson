@@ -2,7 +2,11 @@
   "type": "FeatureCollection",
   "title": "Menios (river)",
   "id": "573369",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Menios fl.",
+  "description": "A tributary of the Peneios river that Pausanias places in the town of Elis (between an old theater and a shrine of Dionysus abutting the agora). Due to flood control and other subsequent interventions in the landscape of the site, the river's precise location cannot be determined today. The Menios is the river Herakles is said to have diverted to clean the Augean stables.",
+  "connectsWith": [
+    "570220",
+    "570579"
+  ],
   "names": [
     "Menios"
   ],
@@ -12,17 +16,6 @@
       "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573369/batlas-location"
       }
     }
   ]

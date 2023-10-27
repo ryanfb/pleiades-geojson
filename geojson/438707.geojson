@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Carventum",
   "id": "438707",
+  "bbox": [
+    12.76944,
+    41.72306,
+    12.76944,
+    41.72306
+  ],
   "description": "Carventum was an ancient city of Latium, listed by Dionysius as one of the thirty states of the Latin League.",
   "connectsWith": [
     "422830"
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.76944,
+          41.72306
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
