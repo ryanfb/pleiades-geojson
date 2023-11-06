@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Phrixos (river)",
   "id": "573461",
+  "bbox": [
+    22.7183258,
+    37.5512409,
+    22.737804,
+    37.581685
+  ],
   "description": "An ancient river of Greece, placed by Pausanias somewhere between Argos and Lerna. Its precise location cannot be determined today.",
   "connectsWith": [
     "570710"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7183258,
+          37.5512409
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
