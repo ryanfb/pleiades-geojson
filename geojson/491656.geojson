@@ -3,10 +3,10 @@
   "title": "Macedonia (region)",
   "id": "491656",
   "bbox": [
-    21.5,
-    41.0,
-    22.0,
-    41.5
+    21.4597626681,
+    40.7885770322,
+    23.5394115872,
+    41.0360409768
   ],
   "description": "The region of ancient Macedonia in the Balkan peninsula. The boundaries of the region have shifted significantly over time, and remain controversial.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.75,
-          41.25
+          22.4920786436,
+          40.9691152478
         ]
       },
       "properties": {
@@ -28,39 +28,55 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              21.5,
-              41.0
+              21.459762668065448,
+              40.78857703216415
             ],
             [
-              21.5,
-              41.5
+              21.759574754800063,
+              40.886134933403184
             ],
             [
-              22.0,
-              41.5
+              21.992761933371433,
+              40.95275984156643
             ],
             [
-              22.0,
-              41.0
+              22.23308749496029,
+              40.99559013967138
             ],
             [
-              21.5,
-              41.0
+              22.49720766660745,
+              41.03128205475883
+            ],
+            [
+              22.744671611213803,
+              41.036040976770494
+            ],
+            [
+              22.992135555820152,
+              41.02176421073551
+            ],
+            [
+              23.227702195397352,
+              40.99796960067721
+            ],
+            [
+              23.53941158716112,
+              40.94086253653728
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/491656/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/491656/batlas-map-label-location"
       }
     }
   ]
