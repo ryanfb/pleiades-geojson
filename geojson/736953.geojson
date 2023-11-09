@@ -3,20 +3,26 @@
   "title": "el-Lahun",
   "id": "736953",
   "bbox": [
-    30.966002,
-    29.234383,
-    30.970699,
-    29.236192
+    30.9825595,
+    29.2355825,
+    30.9840617,
+    29.2364694
   ],
-  "description": "el-Lahun is the site of the Pyramid of Senusret II and an associated 'pyramid town' that supported the royal mortuary complex.",
+  "description": "el-Lahun was a planned 'pyramid town' that supported a royal mortuary complex and other activities associated with the Pyramid of Senusret II, which was located less than a kilometer west of the settlement.",
+  "names": [
+    "Illahun",
+    "Kahun",
+    "el-Lahun",
+    "Lahun"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.9683505,
-          29.2352875
+          30.9832885617,
+          29.2360195081
         ]
       },
       "properties": {
@@ -25,36 +31,41 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          30.966002,
-          29.234383
+          [
+            30.9825916,
+            29.2364694
+          ],
+          [
+            30.9825709,
+            29.2358691
+          ],
+          [
+            30.9825595,
+            29.2355825
+          ],
+          [
+            30.9839937,
+            29.2356059
+          ],
+          [
+            30.9840617,
+            29.2364059
+          ],
+          [
+            30.9825916,
+            29.2364694
+          ]
         ]
       },
-      "id": "darmc-location-26295",
+      "id": "osm-location-el-lahuun",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 26295",
-        "link": "http://pleiades.stoa.org/places/736953/darmc-location-26295"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.970699,
-          29.236192
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/736953/dare-location"
+        "title": "OSM Location: El-Lahuun",
+        "link": "http://pleiades.stoa.org/places/736953/osm-location-el-lahuun"
       }
     }
   ]
