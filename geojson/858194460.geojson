@@ -3,10 +3,10 @@
   "title": "Forum of Saepinum",
   "id": "858194460",
   "bbox": [
+    14.6173113,
+    41.4326074,
     14.6179864,
-    41.432762,
-    14.6179864,
-    41.432762
+    41.4330884
   ],
   "description": "The Forum of Saepinum assumes a trapezoidal shape and is aligned with the decumanus.",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6179864,
-          41.432762
+          14.6176487718,
+          41.4328365485
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          14.6179864,
-          41.432762
+          [
+            14.6179864,
+            41.432762
+          ],
+          [
+            14.6178633,
+            41.4326074
+          ],
+          [
+            14.6173113,
+            41.4328592
+          ],
+          [
+            14.6174981,
+            41.4330884
+          ],
+          [
+            14.6179864,
+            41.432762
+          ]
         ]
       },
-      "id": "osm-location-of-forum",
+      "id": "osm-location-of-foro",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of forum",
-        "link": "http://pleiades.stoa.org/places/858194460/osm-location-of-forum"
+        "title": "OSM location of Foro",
+        "link": "http://pleiades.stoa.org/places/858194460/osm-location-of-foro"
       }
     }
   ]
