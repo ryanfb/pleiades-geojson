@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Eristos",
   "id": "594961",
+  "bbox": [
+    25.114,
+    37.607,
+    25.114,
+    37.607
+  ],
   "description": "An ancient place, cited: BAtlas 60 unlocated Eristos",
   "connectsWith": [
     "590074"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.114,
+          37.607
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

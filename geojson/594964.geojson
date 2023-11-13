@@ -1,8 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Gyreon Pr.",
+  "title": "Gyreon (promontory)",
   "id": "594964",
-  "description": "An ancient place, cited: BAtlas 60 unlocated Gyreon Pr.",
+  "bbox": [
+    24.9721058,
+    37.5247655,
+    25.2542706,
+    37.6782396
+  ],
+  "description": "An epigraphically attested promontory on the Aegean island of Tenos. Its modern identification is unknown.",
   "connectsWith": [
     "590074"
   ],
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1285697792,
+          37.6059777175
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/594964/batlas-location"
       }
     }
   ]

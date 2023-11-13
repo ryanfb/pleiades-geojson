@@ -2,30 +2,49 @@
   "type": "FeatureCollection",
   "title": "Gyras (mountain)",
   "id": "589798",
-  "description": "A mountain on Tenos.",
+  "bbox": [
+    25.226361,
+    37.5817598,
+    25.226361,
+    37.5817598
+  ],
+  "description": "A mountain on Tenos (modern Tziknias/Tsiknias)",
   "connectsWith": [
     "590074"
   ],
   "names": [
+    "Tsiknias Oros",
     "Gyras"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.226361,
+          37.5817598
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.226361,
+          37.5817598
+        ]
+      },
+      "id": "osm-location-modern-i-ii1ioi1-2i1i-i",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589798/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: modern Τσικνιάς",
+        "link": "http://pleiades.stoa.org/places/589798/osm-location-modern-i-ii1ioi1-2i1i-i"
       }
     }
   ]
