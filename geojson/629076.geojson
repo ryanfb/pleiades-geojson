@@ -3,10 +3,10 @@
   "title": "Sebastopolis/Herakleopolis/Karana?",
   "id": "629076",
   "bbox": [
-    36.081414,
-    39.9971924,
-    36.090441,
-    40.007795
+    36.0827655,
+    39.9964626,
+    36.0839134,
+    39.9984393
   ],
   "description": "An ancient place, cited: BAtlas 64 C1 Sebastopolis/Herakleopolis/Karana?",
   "connectsWith": [
@@ -25,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.0854952,
-          40.0012844667
+          36.083369477,
+          39.9973910489
         ]
       },
       "properties": {
@@ -35,53 +35,93 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "MultiLineString",
         "coordinates": [
-          36.081414,
-          39.998866
+          [
+            [
+              36.0838947,
+              39.9970338
+            ],
+            [
+              36.0839134,
+              39.9967873
+            ],
+            [
+              36.0838866,
+              39.9964688
+            ],
+            [
+              36.0831007,
+              39.9964626
+            ],
+            [
+              36.0831034,
+              39.9967359
+            ],
+            [
+              36.0832456,
+              39.9969783
+            ],
+            [
+              36.0834119,
+              39.9971366
+            ],
+            [
+              36.0836694,
+              39.9971818
+            ],
+            [
+              36.0837364,
+              39.9970256
+            ],
+            [
+              36.0838947,
+              39.9970338
+            ]
+          ],
+          [
+            [
+              36.0833877,
+              39.9984393
+            ],
+            [
+              36.0835674,
+              39.9978742
+            ],
+            [
+              36.0830605,
+              39.9978187
+            ],
+            [
+              36.0827842,
+              39.99809
+            ],
+            [
+              36.0827655,
+              39.9981886
+            ],
+            [
+              36.0829318,
+              39.9982687
+            ],
+            [
+              36.0829478,
+              39.9983879
+            ],
+            [
+              36.0833877,
+              39.9984393
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-4864",
+      "id": "osm-location-of-sebastopolis-arenyeri",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap, chronology following Barrington Atlas",
         "location_precision": "precise",
-        "title": "DARMC location 4864",
-        "link": "http://pleiades.stoa.org/places/629076/darmc-location-4864"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.090441,
-          40.007795
-        ]
-      },
-      "id": "darmc-location-14863",
-      "type": "Feature",
-      "properties": {
-        "description": "1M scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 14863",
-        "link": "http://pleiades.stoa.org/places/629076/darmc-location-14863"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.0846306,
-          39.9971924
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, village precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/629076/dare-location"
+        "title": "OSM location of Sebastopolis Örenyeri",
+        "link": "http://pleiades.stoa.org/places/629076/osm-location-of-sebastopolis-arenyeri"
       }
     }
   ]
