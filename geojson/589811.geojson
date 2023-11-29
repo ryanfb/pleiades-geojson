@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hypsele",
   "id": "589811",
+  "bbox": [
+    24.86,
+    37.85,
+    24.86,
+    37.85
+  ],
   "description": "An ancient place, cited: BAtlas 60 A4 Hypsele",
   "connectsWith": [
     "589693"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.86,
+          37.85
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
