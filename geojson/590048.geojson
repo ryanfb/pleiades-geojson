@@ -1,28 +1,52 @@
 {
   "type": "FeatureCollection",
-  "title": "Siphnos",
+  "title": "Siphnos (settlement)",
   "id": "590048",
-  "description": "An ancient place, cited: BAtlas 60 C5 Siphnos",
+  "bbox": [
+    24.745073,
+    36.97482,
+    24.745073,
+    36.97482
+  ],
+  "description": "The principal ancient settlement on the Aegean island of Siphnos (modern Kastro). The locality has yielded substantial archaeological remains from prehistory to modern times.",
+  "connectsWith": [
+    "590049"
+  ],
   "names": [
+    "Kastron",
+    "Kastro",
+    "Siphnos",
     "Siphnos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.745073,
+          36.97482
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.745073,
+          36.97482
+        ]
+      },
+      "id": "cfl-ago-location-kastro-siphnou",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590048/batlas-location"
+        "location_precision": "precise",
+        "title": "CFL/AGO Location: Kastro Siphnou",
+        "link": "http://pleiades.stoa.org/places/590048/cfl-ago-location-kastro-siphnou"
       }
     }
   ]
