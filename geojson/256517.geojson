@@ -3,10 +3,10 @@
   "title": "Vila Ruiva",
   "id": "256517",
   "bbox": [
-    -7.9461594,
-    38.2599527,
-    -7.9461594,
-    38.2599527
+    -7.9463765,
+    38.2593496,
+    -7.9457913,
+    38.2603118
   ],
   "description": "An ancient place, cited: BAtlas 26 C3 Vila Ruiva",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.9461594,
-          38.2599527
+          -7.94609056445,
+          38.2598266116
         ]
       },
       "properties": {
@@ -25,19 +25,29 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -7.9461594,
-          38.2599527
+          [
+            -7.9457913,
+            38.2593496
+          ],
+          [
+            -7.9460575,
+            38.2597572
+          ],
+          [
+            -7.9463765,
+            38.2603118
+          ]
         ]
       },
-      "id": "osm-location",
+      "id": "osm-location-of-ponte-romana-de-vila-ruiva",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location",
-        "link": "http://pleiades.stoa.org/places/256517/osm-location"
+        "title": "OSM location of Ponte Romana de Vila Ruiva",
+        "link": "http://pleiades.stoa.org/places/256517/osm-location-of-ponte-romana-de-vila-ruiva"
       }
     }
   ]
