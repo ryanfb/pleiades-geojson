@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Fundus Babuleianus",
   "id": "311872597",
+  "bbox": [
+    13.753783,
+    41.4273675,
+    13.7543516,
+    41.4277737
+  ],
   "description": "An estate located near Interamna Lirenas.",
   "connectsWith": [
     "432884"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7540669267,
+          41.4275692835
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
