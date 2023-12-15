@@ -3,10 +3,10 @@
   "title": "Vallis Alba",
   "id": "678448",
   "bbox": [
-    37.220889,
-    33.91499,
-    37.220889,
-    33.91499
+    37.2467673,
+    33.915377,
+    37.2481451,
+    33.9165343
   ],
   "description": "An ancient place, cited: BAtlas 69 F2 Vallis Alba",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.220889,
-          33.91499
+          37.2474561864,
+          33.9159556251
         ]
       },
       "properties": {
@@ -31,19 +31,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          37.220889,
-          33.91499
+          [
+            37.2481451,
+            33.916531
+          ],
+          [
+            37.2481411,
+            33.915377
+          ],
+          [
+            37.2467673,
+            33.9153802
+          ],
+          [
+            37.2467713,
+            33.9165343
+          ],
+          [
+            37.2481451,
+            33.916531
+          ]
         ]
       },
-      "id": "darmc-location-8415",
+      "id": "osm-location-of-vallis-albana",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 8415",
-        "link": "http://pleiades.stoa.org/places/678448/darmc-location-8415"
+        "title": "OSM location of Vallis Albana",
+        "link": "http://pleiades.stoa.org/places/678448/osm-location-of-vallis-albana"
       }
     }
   ]
