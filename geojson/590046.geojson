@@ -1,28 +1,68 @@
 {
   "type": "FeatureCollection",
-  "title": "Sikinos",
+  "title": "Sikinos (settlement)",
   "id": "590046",
-  "description": "An ancient place, cited: BAtlas 60 D5 Sikinos",
+  "bbox": [
+    25.0890725,
+    36.6615835,
+    25.0891468,
+    36.6616374
+  ],
+  "description": "The principal ancient settlement on the Aegean island of the same name. The ancient site is located where the church of Agia Marina now stands on a prominent height, about 5 km southwest of the modern town of Sikinos.",
+  "connectsWith": [
+    "590047"
+  ],
   "names": [
+    "Hagia Marina",
     "Sikinos"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0891099688,
+          36.6616099436
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.0890725,
+            36.6616176
+          ],
+          [
+            25.0891291,
+            36.6616374
+          ],
+          [
+            25.0891468,
+            36.6616005
+          ],
+          [
+            25.0890902,
+            36.6615835
+          ],
+          [
+            25.0890725,
+            36.6616176
+          ]
+        ]
+      },
+      "id": "osm-location-ii3i-i-ii-ii-i1-2i",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590046/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Αγία Μαρίνα",
+        "link": "http://pleiades.stoa.org/places/590046/osm-location-ii3i-i-ii-ii-i1-2i"
       }
     }
   ]
