@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Argiletum",
   "id": "451243813",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "The Argiletum was a street of ancient Rome that passed from the Forum Romanum and crossed the Suburra. Its route more or less followed that of the modern streets Via Leonina and Via della Madonna dei Monti.",
   "connectsWith": [
     "451696383",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

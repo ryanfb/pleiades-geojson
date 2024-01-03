@@ -3,10 +3,10 @@
   "title": "Veh Ardashir/Coche/Mahoza/‘Seleucia’",
   "id": "894178",
   "bbox": [
-    44.551979,
-    33.09914,
-    44.551979,
-    33.09914
+    44.5197113,
+    33.0932383,
+    44.5216325,
+    33.0962
   ],
   "description": "A significant Hellenistic city that served as a capital of both the Seleucid and Parthian empires. The city was founded by Seleucus Nicator.",
   "names": [
@@ -30,7 +30,8 @@
     "Ōpis",
     "Beh Ard Šīr",
     "Bēh-Ardašīr",
-    "Bēh-Ardašīr"
+    "Bēh-Ardašīr",
+    "Silūqīah"
   ],
   "features": [
     {
@@ -38,8 +39,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.551979,
-          33.09914
+          44.52098595,
+          33.095178225
         ]
       },
       "properties": {
@@ -48,19 +49,54 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          44.551979,
-          33.09914
+          [
+            44.5208349,
+            33.0932383
+          ],
+          [
+            44.5197113,
+            33.0936939
+          ],
+          [
+            44.5205089,
+            33.0950746
+          ],
+          [
+            44.5216325,
+            33.094619
+          ],
+          [
+            44.5208349,
+            33.0932383
+          ]
         ]
       },
-      "id": "darmc-location-22466",
+      "id": "63364464864264a629",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 22466",
-        "link": "http://pleiades.stoa.org/places/894178/darmc-location-22466"
+        "title": "OSM location of سلوقية",
+        "link": "http://pleiades.stoa.org/places/894178/63364464864264a629"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5213,
+          33.0962
+        ]
+      },
+      "id": "cigs-location-of-siluqiah",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Silūqīah",
+        "link": "http://pleiades.stoa.org/places/894178/cigs-location-of-siluqiah"
       }
     }
   ]

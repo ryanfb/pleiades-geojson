@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Schola Quaestorum et Caplatorum",
   "id": "101197188",
+  "bbox": [
+    12.486137,
+    41.891775,
+    12.486137,
+    41.891775
+  ],
   "description": "The Schola Quaestorum et Caplatorum is a place in ancient Rome that is mentioned only in the Regionary Catalogue for Regio III. It was likely located between the lacus Pastorum and the Baths of Titus. While the name and place remain obscure, related epigraphic evidence attests to collegia of caplatores, men who pressed olive oil.",
   "connectsWith": [
     "423025",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486137,
+          41.891775
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
