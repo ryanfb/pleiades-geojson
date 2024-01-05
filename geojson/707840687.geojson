@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Cati fons",
   "id": "707840687",
+  "bbox": [
+    12.48333,
+    41.9,
+    12.48333,
+    41.9
+  ],
   "description": "The Cati fons was a spring located on the western flank of Rome's Quirinal Hill. It was the source of the water carried by the brook known as Petronia amnis. The location of the spring remains debated and uncertain.",
   "connectsWith": [
     "125119394"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48333,
+          41.9
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Tell Sabi Abyad",
   "id": "293088343",
+  "bbox": [
+    39.0915,
+    36.5057,
+    39.0915,
+    36.5057
+  ],
   "description": "Tell Sabi Abyad is located in the Balih River Valley, in northern Syria. The ancient name of the site is not yet known.",
   "names": [
     "Tell Sabi Abyad"
@@ -9,9 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0915,
+          36.5057
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0915,
+          36.5057
+        ]
+      },
+      "id": "cigs-location-of-tall-sabi-abiyad",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Tall Ṣabī Ābiyaḍ",
+        "link": "http://pleiades.stoa.org/places/293088343/cigs-location-of-tall-sabi-abiyad"
       }
     }
   ]
