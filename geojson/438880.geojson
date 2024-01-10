@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Via Vitularia",
   "id": "438880",
+  "bbox": [
+    13.609876,
+    41.648422,
+    13.609876,
+    41.648422
+  ],
   "description": "A Roman road, now unlocated, near Arpinum.",
   "connectsWith": [
     "432700"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.609876,
+          41.648422
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

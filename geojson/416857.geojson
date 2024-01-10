@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Severus (mountain)",
   "id": "416857",
+  "bbox": [
+    13.2755517,
+    42.8239322,
+    13.2755517,
+    42.8239322
+  ],
   "description": "A mountain probably near Mt. Tetricus.",
   "connectsWith": [
     "413336"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2755517,
+          42.8239322
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

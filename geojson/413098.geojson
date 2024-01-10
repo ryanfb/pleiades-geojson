@@ -3,10 +3,10 @@
   "title": "Colle delle Fate",
   "id": "413098",
   "bbox": [
-    13.900331,
-    42.126496,
-    13.900331,
-    42.126496
+    13.8991205,
+    42.1241046,
+    13.9000481,
+    42.1245264
   ],
   "description": "An ancient place, cited: BAtlas 42 F4 Colle delle Fate",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.900331,
-          42.126496
+          13.8995703849,
+          42.1243068558
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.900331,
-          42.126496
+          [
+            13.8993087,
+            42.1245264
+          ],
+          [
+            13.8991205,
+            42.1242908
+          ],
+          [
+            13.8997127,
+            42.1241046
+          ],
+          [
+            13.9000481,
+            42.1242908
+          ],
+          [
+            13.8993087,
+            42.1245264
+          ]
         ]
       },
-      "id": "darmc-location-18358",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 18358",
-        "link": "http://pleiades.stoa.org/places/413098/darmc-location-18358"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/413098/osm-location"
       }
     }
   ]
