@@ -3,20 +3,23 @@
   "title": "Ziwiye",
   "id": "884230",
   "bbox": [
-    46.657866,
-    36.257539,
-    46.657866,
-    36.257539
+    46.6870017,
+    36.2737313,
+    46.6887936,
+    36.2743874
   ],
   "description": "Ziwiye is the name of a modern village in northwestern Iran, associated with an archaeological site of the 7th century BCE that was looted in the mid-20th century and subsequently partially excavated in a more scientific manner. The site's ancient name is not known.",
+  "names": [
+    "Ẕiwyah"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.657866,
-          36.257539
+          46.6878962311,
+          36.2739521958
         ]
       },
       "properties": {
@@ -25,19 +28,74 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          46.657866,
-          36.257539
+          [
+            46.6887402,
+            36.2737313
+          ],
+          [
+            46.6879018,
+            36.2737843
+          ],
+          [
+            46.6876058,
+            36.2738671
+          ],
+          [
+            46.6871579,
+            36.2738009
+          ],
+          [
+            46.6870017,
+            36.2741488
+          ],
+          [
+            46.6875565,
+            36.2743874
+          ],
+          [
+            46.6879675,
+            36.2743443
+          ],
+          [
+            46.6882429,
+            36.2740461
+          ],
+          [
+            46.6887936,
+            36.2739699
+          ],
+          [
+            46.6887402,
+            36.2737313
+          ]
         ]
       },
-      "id": "darmc-location-22074",
+      "id": "642644639647-6326cc6486cc647",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 22074",
-        "link": "http://pleiades.stoa.org/places/884230/darmc-location-22074"
+        "title": "OSM location of قلعه زیویه (Ziwiye Castle)",
+        "link": "http://pleiades.stoa.org/places/884230/642644639647-6326cc6486cc647"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6879,
+          36.2739
+        ]
+      },
+      "id": "ziwyah",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "CIGS location of Ẕiwyah",
+        "link": "http://pleiades.stoa.org/places/884230/ziwyah"
       }
     }
   ]
