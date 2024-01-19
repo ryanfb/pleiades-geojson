@@ -3,16 +3,17 @@
   "title": "Ammonos Balithonos Akra/Caput Vada",
   "id": "324666",
   "bbox": [
-    11.0,
-    35.0,
-    11.5,
-    35.5
+    11.1589389,
+    35.2172165,
+    11.164,
+    35.233
   ],
-  "description": "An ancient place, cited: BAtlas 33 H2 Ammonos Balithonos Akra/Caput Vada",
+  "description": "This promontory, known today as Ras Kaboudia, is the easternmost point of the coast of Tunisia.",
   "names": [
     "Ammonos Balithonos Akra",
     "Caput Vada",
-    "Brachodes Akra"
+    "Brachodes Akra",
+    "Ras Kaboudia"
   ],
   "features": [
     {
@@ -20,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.25,
-          35.25
+          11.16146945,
+          35.22510825
         ]
       },
       "properties": {
@@ -30,39 +31,36 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              11.0,
-              35.0
-            ],
-            [
-              11.0,
-              35.5
-            ],
-            [
-              11.5,
-              35.5
-            ],
-            [
-              11.5,
-              35.0
-            ],
-            [
-              11.0,
-              35.0
-            ]
-          ]
+          11.164,
+          35.233
         ]
       },
-      "id": "batlas-location",
+      "id": "location-of-ammonos-balithonos-akra-caput-vada",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/324666/batlas-location"
+        "description": "position based on Barrington Atlas with reference to Google Earth",
+        "location_precision": "precise",
+        "title": "BAtlas location of Ammonos Balithonos Akra/Caput Vada",
+        "link": "http://pleiades.stoa.org/places/324666/location-of-ammonos-balithonos-akra-caput-vada"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1589389,
+          35.2172165
+        ]
+      },
+      "id": "osm-location-caput-vada",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Caput Vada",
+        "link": "http://pleiades.stoa.org/places/324666/osm-location-caput-vada"
       }
     }
   ]
