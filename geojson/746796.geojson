@@ -3,14 +3,16 @@
   "title": "‘Praesidio’",
   "id": "746796",
   "bbox": [
-    35.243023,
-    29.667258,
-    35.261064,
-    29.675469
+    35.2303,
+    29.6563774,
+    35.2310647,
+    29.6570571
   ],
-  "description": "An ancient place, cited: BAtlas 76 G2 ‘Praesidio’",
+  "description": "Possibly originally named Praesidium, this small Roman fort located in modern Jordan is known today as Khirbet al-Khalde.",
   "names": [
-    "Praesidio"
+    "Praesidio",
+    "Praesidio",
+    "Praesidium"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2520435,
-          29.6713635
+          35.2306823391,
+          29.6567172464
         ]
       },
       "properties": {
@@ -28,36 +30,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          35.261064,
-          29.667258
+          [
+            35.2303,
+            29.6567909
+          ],
+          [
+            35.2307036,
+            29.6563774
+          ],
+          [
+            35.2310647,
+            29.6566436
+          ],
+          [
+            35.230661,
+            29.6570571
+          ],
+          [
+            35.2303,
+            29.6567909
+          ]
         ]
       },
-      "id": "darmc-location-8205",
+      "id": "osm-location-castrum-khirbet-el-khalde",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location based on OpenStreetMap. Dates after Batlas.",
         "location_precision": "precise",
-        "title": "DARMC location 8205",
-        "link": "http://pleiades.stoa.org/places/746796/darmc-location-8205"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.243023,
-          29.675469
-        ]
-      },
-      "id": "darmc-location-22746",
-      "type": "Feature",
-      "properties": {
-        "description": "Point location",
-        "location_precision": "precise",
-        "title": "DARMC location 22746",
-        "link": "http://pleiades.stoa.org/places/746796/darmc-location-22746"
+        "title": "OSM Location: Castrum Khirbet el-Khalde",
+        "link": "http://pleiades.stoa.org/places/746796/osm-location-castrum-khirbet-el-khalde"
       }
     }
   ]
