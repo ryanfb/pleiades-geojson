@@ -3,10 +3,10 @@
   "title": "Temple of Zeus at Cyrene",
   "id": "103565779",
   "bbox": [
-    21.862,
-    32.8223,
-    21.862,
-    32.8223
+    21.8620572,
+    32.8221719,
+    21.8628301,
+    32.8225082
   ],
   "description": "The Doric Temple of Zeus at Cyrene",
   "connectsWith": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.862,
-          32.8223
+          21.8624436679,
+          32.8223400733
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          21.862,
-          32.8223
+          [
+            21.8620851,
+            32.8225082
+          ],
+          [
+            21.8628301,
+            32.8224566
+          ],
+          [
+            21.8628022,
+            32.8221719
+          ],
+          [
+            21.8620572,
+            32.8222236
+          ],
+          [
+            21.8620851,
+            32.8225082
+          ]
         ]
       },
-      "id": "temple-of-zeus-1",
+      "id": "osm-location-of-temple-of-zeus",
       "type": "Feature",
       "properties": {
-        "description": "Representative point derived from Google Earth imagery.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Imagery Location of the Temple of Zeus",
-        "link": "http://pleiades.stoa.org/places/103565779/temple-of-zeus-1"
+        "title": "OSM location of Temple of Zeus",
+        "link": "http://pleiades.stoa.org/places/103565779/osm-location-of-temple-of-zeus"
       }
     }
   ]

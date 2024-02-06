@@ -3,10 +3,10 @@
   "title": "Villamagna",
   "id": "423135",
   "bbox": [
-    13.111941,
-    41.683288,
-    13.111941,
-    41.683288
+    13.1113913,
+    41.6831653,
+    13.112204,
+    41.683606
   ],
   "description": "A large imperial Roman villa known from letters of Marcus Aurelius.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.111941,
-          41.683288
+          13.1118010153,
+          41.6833773103
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          13.111941,
-          41.683288
+          [
+            13.1113913,
+            41.6835539
+          ],
+          [
+            13.1114717,
+            41.6831653
+          ],
+          [
+            13.112204,
+            41.6831853
+          ],
+          [
+            13.1121155,
+            41.683606
+          ],
+          [
+            13.1113913,
+            41.6835539
+          ]
         ]
       },
-      "id": "darmc-location-21147",
+      "id": "location-of-villa",
       "type": "Feature",
       "properties": {
-        "description": "150K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 21147",
-        "link": "http://pleiades.stoa.org/places/423135/darmc-location-21147"
+        "title": "OSM location of Villa Magna",
+        "link": "http://pleiades.stoa.org/places/423135/location-of-villa"
       }
     }
   ]
