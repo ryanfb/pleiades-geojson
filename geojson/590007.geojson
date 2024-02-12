@@ -2,27 +2,48 @@
   "type": "FeatureCollection",
   "title": "Poseidon Porthmios, T.",
   "id": "590007",
+  "bbox": [
+    27.2222013,
+    35.8223239,
+    27.2222013,
+    35.8223239
+  ],
   "description": "An ancient place, cited: BAtlas 60 E4 Poseidon Porthmios, T.",
+  "connectsWith": [
+    "589841"
+  ],
   "names": [
     "Poseidon Porthmios, T."
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2222013,
+          35.8223239
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2222013,
+          35.8223239
+        ]
+      },
+      "id": "osm-location-of-tristomo",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590007/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Tristomo",
+        "link": "http://pleiades.stoa.org/places/590007/osm-location-of-tristomo"
       }
     }
   ]
