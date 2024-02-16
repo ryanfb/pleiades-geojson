@@ -1,18 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Glykys?/Elaias?/Cheimerion? Limen",
+  "title": "Glykys/Elaias?/Cheimerion? Limen",
   "id": "530879",
   "bbox": [
-    20.0,
-    39.0,
-    20.5,
-    39.5
+    20.485,
+    39.2185,
+    20.485,
+    39.2185
   ],
   "description": "An ancient place, cited: BAtlas 54 B3 Glykys?/Elaias?/Cheimerion? Limen",
   "names": [
     "Glykys",
     "Elaias",
-    "Cheimerion Limen"
+    "Cheimerion Limen",
+    "Glykys Limen"
   ],
   "features": [
     {
@@ -20,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.25,
-          39.25
+          20.485,
+          39.2185
         ]
       },
       "properties": {
@@ -30,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              20.0,
-              39.0
-            ],
-            [
-              20.0,
-              39.5
-            ],
-            [
-              20.5,
-              39.5
-            ],
-            [
-              20.5,
-              39.0
-            ],
-            [
-              20.0,
-              39.0
-            ]
-          ]
+          20.485,
+          39.2185
         ]
       },
-      "id": "batlas-location",
+      "id": "topostext-location-of-glykys-limen-preveza",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530879/batlas-location"
+        "description": "Coordinates following ToposText",
+        "location_precision": "precise",
+        "title": "ToposText location of Glykys Limen? (Preveza)",
+        "link": "http://pleiades.stoa.org/places/530879/topostext-location-of-glykys-limen-preveza"
       }
     }
   ]
