@@ -3,10 +3,10 @@
   "title": "Porta Leoni",
   "id": "333004588",
   "bbox": [
-    10.9996784,
-    45.4405054,
-    10.9996784,
-    45.4405054
+    10.9996314,
+    45.4405091,
+    10.9997254,
+    45.4405589
   ],
   "description": "A Republican gate of Verona dedicated by P. Valerius, Q. Caecilius, Q. Servilius and P. Cornelius.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.9996784,
-          45.4405054
+          10.9996784091,
+          45.440533994
         ]
       },
       "properties": {
@@ -31,19 +31,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          10.9996784,
-          45.4405054
+          [
+            10.9996375,
+            45.4405091
+          ],
+          [
+            10.9997254,
+            45.4405529
+          ],
+          [
+            10.9997194,
+            45.4405589
+          ],
+          [
+            10.9996314,
+            45.4405151
+          ],
+          [
+            10.9996375,
+            45.4405091
+          ]
         ]
       },
-      "id": "location-of-porta-leoni",
+      "id": "osm-location-porta-leoni",
       "type": "Feature",
       "properties": {
-        "description": "Representative location derived from OpenStreetMap.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Porta Leoni",
-        "link": "http://pleiades.stoa.org/places/333004588/location-of-porta-leoni"
+        "title": "OSM location: Porta Leoni",
+        "link": "http://pleiades.stoa.org/places/333004588/osm-location-porta-leoni"
       }
     }
   ]
