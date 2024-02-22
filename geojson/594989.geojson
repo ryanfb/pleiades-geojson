@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Oiai",
   "id": "594989",
+  "bbox": [
+    27.683572,
+    35.876662,
+    28.2476283,
+    36.4582829
+  ],
   "description": "An ancient place, cited: BAtlas 60 unlocated Oiai",
   "connectsWith": [
     "590031"
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9486959898,
+          36.1710583343
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/594989/batlas-location"
       }
     }
   ]

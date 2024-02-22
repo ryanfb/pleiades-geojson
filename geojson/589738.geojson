@@ -3,10 +3,10 @@
   "title": "Brygindara",
   "id": "589738",
   "bbox": [
-    26.5,
-    34.5,
-    27.0,
-    35.0
+    28.17226,
+    36.29274,
+    28.17226,
+    36.29274
   ],
   "description": "An ancient place, cited: BAtlas 60 G3 Brygindara",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.75,
-          34.75
+          28.17226,
+          36.29274
         ]
       },
       "properties": {
@@ -31,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              26.5,
-              34.5
-            ],
-            [
-              26.5,
-              35.0
-            ],
-            [
-              27.0,
-              35.0
-            ],
-            [
-              27.0,
-              34.5
-            ],
-            [
-              26.5,
-              34.5
-            ]
-          ]
+          28.17226,
+          36.29274
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-location-of-brygindara",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/589738/batlas-location"
+        "description": "Point location digitized from BAtlas map 60 using QGIS. Dates after BAtlas.",
+        "location_precision": "precise",
+        "title": "BAtlas location of Brygindara",
+        "link": "http://pleiades.stoa.org/places/589738/batlas-location-of-brygindara"
       }
     }
   ]
