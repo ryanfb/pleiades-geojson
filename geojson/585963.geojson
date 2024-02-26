@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Sphendale",
   "id": "585963",
-  "description": "An ancient place, cited: BAtlas 59 unlocated Sphendale",
+  "bbox": [
+    23.778592,
+    38.107254,
+    23.805464,
+    38.162034
+  ],
+  "description": "Now unlocated, Sphendale was an ancient place in Attica. Herodotus mentions it as a place located along the route of Mardonius' march from the Megarid to Tanagra by way of Dekeleia.",
   "connectsWith": [
     "579907"
   ],
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7911729245,
+          38.1317257275
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/585963/batlas-location"
       }
     }
   ]

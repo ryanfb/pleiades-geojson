@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Triturrita",
   "id": "409239",
+  "bbox": [
+    10.400106,
+    43.719417,
+    10.400106,
+    43.719417
+  ],
   "description": "An ancient place, cited: BAtlas 41 unlocated Triturrita",
   "connectsWith": [
     "403253"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.400106,
+          43.719417
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
