@@ -3,10 +3,10 @@
   "title": "Magnis",
   "id": "89238",
   "bbox": [
-    -2.525301,
-    54.984248,
+    -2.5253505,
+    54.9841399,
     -2.523149,
-    54.985443
+    54.9854512
   ],
   "description": "Magnae Carvetiorum was a Roman fort on Hadrian's Wall. It lies to the south of the Roman vallum near the line of the Stanegate.",
   "connectsWith": [
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.52422179843,
-          54.9848530548
+          -2.52427598428,
+          54.9848293053
         ]
       },
       "properties": {
@@ -34,19 +34,41 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -2.52422,
-          54.984863
+          [
+            -2.525211,
+            54.9854512
+          ],
+          [
+            -2.5253505,
+            54.9842507
+          ],
+          [
+            -2.5235699,
+            54.9841444
+          ],
+          [
+            -2.5234944,
+            54.9841399
+          ],
+          [
+            -2.5233013,
+            54.9854019
+          ],
+          [
+            -2.525211,
+            54.9854512
+          ]
         ]
       },
-      "id": "centerpoint-of-the-ancient-site",
+      "id": "osm-location-of-magnis-roman-fort-1",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Centerpoint of the ancient site",
-        "link": "http://pleiades.stoa.org/places/89238/centerpoint-of-the-ancient-site"
+        "title": "OSM location of Magnis Roman fort",
+        "link": "http://pleiades.stoa.org/places/89238/osm-location-of-magnis-roman-fort-1"
       }
     },
     {
@@ -82,13 +104,13 @@
           ]
         ]
       },
-      "id": "boundary-of-fort-walls",
+      "id": "imagery-location-boundary-of-fort-walls",
       "type": "Feature",
       "properties": {
-        "description": null,
+        "description": "Imagery location determined in Google Earth with reference to Breeze",
         "location_precision": "precise",
-        "title": "Boundary of fort walls",
-        "link": "http://pleiades.stoa.org/places/89238/boundary-of-fort-walls"
+        "title": "Imagery Location: Boundary of fort walls",
+        "link": "http://pleiades.stoa.org/places/89238/imagery-location-boundary-of-fort-walls"
       }
     }
   ]

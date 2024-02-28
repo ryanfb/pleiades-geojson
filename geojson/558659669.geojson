@@ -3,10 +3,10 @@
   "title": "Hephaisteion",
   "id": "558659669",
   "bbox": [
-    23.721393,
-    37.975574,
-    23.721611,
-    37.975639
+    23.7212131,
+    37.9755102,
+    23.7216103,
+    37.9756978
   ],
   "description": "The temple of Hephaistos located on the northwest side of the Agora of Athens dates to the middle of the fifth century B.C.",
   "connectsWith": [
@@ -15,6 +15,7 @@
     "807514119"
   ],
   "names": [
+    "Hēphaisteion",
     "Hephaisteion"
   ],
   "features": [
@@ -23,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.721502,
-          37.9756065
+          23.7214117,
+          37.975604
         ]
       },
       "properties": {
@@ -33,36 +34,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          23.721393,
-          37.975574
+          [
+            23.721245,
+            37.9756978
+          ],
+          [
+            23.7212131,
+            37.9755644
+          ],
+          [
+            23.7215784,
+            37.9755102
+          ],
+          [
+            23.7216103,
+            37.9756436
+          ],
+          [
+            23.721245,
+            37.9756978
+          ]
         ]
       },
-      "id": "imagery-location",
+      "id": "osm-location-ii-ii-ii-i-iii-i-iii-i",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location of the Temple of Hephaistos, which is located on the northwest side of the Agora of Athens. Coordinates derived from analysis of Google Earth imagery.",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "Imagery Location of the Hephaisteion",
-        "link": "http://pleiades.stoa.org/places/558659669/imagery-location"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.721611,
-          37.975639
-        ]
-      },
-      "id": "gps-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location of the Hephaisteion in the Agora of Athens. Coordinates gathered on 8 July 2013 with a Sony DSC-HX200V GPS.",
-        "location_precision": "precise",
-        "title": "GPS Location of the Hephaisteion",
-        "link": "http://pleiades.stoa.org/places/558659669/gps-location"
+        "title": "OSM Location: Ναός του Ηφαίστου",
+        "link": "http://pleiades.stoa.org/places/558659669/osm-location-ii-ii-ii-i-iii-i-iii-i"
       }
     }
   ]
