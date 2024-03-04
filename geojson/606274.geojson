@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Asopos (river)",
   "id": "606274",
+  "bbox": [
+    25.0973252,
+    36.975056,
+    25.294397,
+    37.1552988
+  ],
   "description": "Strabo includes the now-unlocated Asopos river of Paros among other similarly named rivers discussed in his geography. This river of Paros is the fourth of four rivers enumerated at 8.6.24.",
   "connectsWith": [
     "599868"
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1984705532,
+          37.0651906726
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "undetermined",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/606274/undetermined"
       }
     }
   ]
