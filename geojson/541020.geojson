@@ -29,87 +29,13 @@
     },
     {
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.926351,
-          39.573096
-        ]
-      },
-      "id": "pelinna-1",
-      "type": "Feature",
-      "properties": {
-        "description": "The location of Pelinna according to Stählin (1924).",
-        "location_precision": "precise",
-        "title": "Pelinna",
-        "link": "http://pleiades.stoa.org/places/541020/pelinna-1"
-      }
-    },
-    {
-      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              21.929741,
-              39.575345
-            ],
-            [
-              21.928453,
-              39.574948
-            ],
-            [
-              21.927338,
-              39.575362
-            ],
-            [
-              21.926308,
-              39.576999
-            ],
-            [
-              21.924849,
-              39.57685
-            ],
-            [
-              21.924505,
-              39.576089
-            ],
-            [
-              21.925299,
-              39.573824
-            ],
-            [
-              21.927509,
-              39.573261
-            ],
             [
               21.929183,
               39.573873
             ],
-            [
-              21.930642,
-              39.575081
-            ],
-            [
-              21.930063,
-              39.575874
-            ]
-          ]
-        ]
-      },
-      "id": "acropolis",
-      "type": "Feature",
-      "properties": {
-        "description": "Stählin 1924, Fig. 7.",
-        "location_precision": "precise",
-        "title": "Acropolis",
-        "link": "http://pleiades.stoa.org/places/541020/acropolis"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
             [
               21.930707,
               39.575114
@@ -173,13 +99,95 @@
           ]
         ]
       },
-      "id": "lower-town",
+      "id": "imagery-location-lower-town",
       "type": "Feature",
       "properties": {
         "description": "Stählin 1924, Fig. 7.",
         "location_precision": "precise",
-        "title": "Lower town",
-        "link": "http://pleiades.stoa.org/places/541020/lower-town"
+        "title": "Imagery Location: Lower town",
+        "link": "http://pleiades.stoa.org/places/541020/imagery-location-lower-town"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.930063,
+              39.575874
+            ],
+            [
+              21.930642,
+              39.575081
+            ],
+            [
+              21.929183,
+              39.573873
+            ],
+            [
+              21.927509,
+              39.573261
+            ],
+            [
+              21.925299,
+              39.573824
+            ],
+            [
+              21.924505,
+              39.576089
+            ],
+            [
+              21.924849,
+              39.57685
+            ],
+            [
+              21.926308,
+              39.576999
+            ],
+            [
+              21.927338,
+              39.575362
+            ],
+            [
+              21.928453,
+              39.574948
+            ],
+            [
+              21.929741,
+              39.575345
+            ],
+            [
+              21.930063,
+              39.575874
+            ]
+          ]
+        ]
+      },
+      "id": "imagery-location-acropolis",
+      "type": "Feature",
+      "properties": {
+        "description": "Stählin 1924, Fig. 7.",
+        "location_precision": "precise",
+        "title": "Imagery Location: Acropolis",
+        "link": "http://pleiades.stoa.org/places/541020/imagery-location-acropolis"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.926351,
+          39.573096
+        ]
+      },
+      "id": "imagery-location-pelinna",
+      "type": "Feature",
+      "properties": {
+        "description": "The location of Pelinna according to Stählin (1924).",
+        "location_precision": "precise",
+        "title": "Imagery Location: Pelinna",
+        "link": "http://pleiades.stoa.org/places/541020/imagery-location-pelinna"
       }
     }
   ]
