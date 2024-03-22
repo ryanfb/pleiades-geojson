@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Kretea",
   "id": "573309",
-  "description": "An ancient place, cited: BAtlas 58 unlocated Kretea",
+  "bbox": [
+    21.975,
+    37.456944,
+    21.975,
+    37.456944
+  ],
+  "description": "A place (χώρα) mentioned by Pausanias and placed by him on mount Lykaion.",
   "connectsWith": [
     "570441"
   ],
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.975,
+          37.456944
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
