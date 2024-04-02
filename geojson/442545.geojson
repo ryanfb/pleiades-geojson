@@ -3,10 +3,10 @@
   "title": "Ciccotti, S. Gilio",
   "id": "442545",
   "bbox": [
-    16.045414,
-    40.773413,
-    16.045414,
-    40.773413
+    16.0353541,
+    40.7461577,
+    16.0360998,
+    40.7466759
   ],
   "description": "A first century BC Roman villa in Basilicata.",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.045414,
-          40.773413
+          16.0357190667,
+          40.7464349786
         ]
       },
       "properties": {
@@ -25,36 +25,41 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          16.045414,
-          40.773413
+          [
+            16.0353541,
+            40.7466353
+          ],
+          [
+            16.0357323,
+            40.7461577
+          ],
+          [
+            16.0360998,
+            40.7463081
+          ],
+          [
+            16.0357028,
+            40.7466556
+          ],
+          [
+            16.0356518,
+            40.7466759
+          ],
+          [
+            16.0353541,
+            40.7466353
+          ]
         ]
       },
-      "id": "darmc-location-7994",
+      "id": "location-of-villa",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "DARMC location 7994",
-        "link": "http://pleiades.stoa.org/places/442545/darmc-location-7994"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.045414,
-          40.773413
-        ]
-      },
-      "id": "darmc-location-7995",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 7995",
-        "link": "http://pleiades.stoa.org/places/442545/darmc-location-7995"
+        "title": "OSM location of San Gilio, Oppido Lucano",
+        "link": "http://pleiades.stoa.org/places/442545/location-of-villa"
       }
     }
   ]
