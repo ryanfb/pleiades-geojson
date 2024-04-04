@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Domus, M. Tullius Cicero",
   "id": "233061795",
+  "bbox": [
+    12.4871093,
+    41.8893064,
+    12.4871093,
+    41.8893064
+  ],
   "description": "The house of the Roman statesman and orator M. Tullius Cicero was located on the north-eastern corner of the Palatine Hill in Rome.",
   "connectsWith": [
     "971691208",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4871093,
+          41.8893064
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
