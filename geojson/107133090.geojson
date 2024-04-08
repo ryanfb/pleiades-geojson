@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Mercurius, Aedes",
   "id": "107133090",
+  "bbox": [
+    12.483333,
+    41.883333,
+    12.483333,
+    41.883333
+  ],
   "description": "A temple dedicated to Mercury and Maia that was located on the slopes of the Aventine Hill overlooking the Circus Maximus.",
   "connectsWith": [
     "423025",
@@ -11,7 +17,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.883333
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
