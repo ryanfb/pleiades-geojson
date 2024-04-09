@@ -3,12 +3,12 @@
   "title": "Melabron?",
   "id": "707579",
   "bbox": [
-    32.940522,
-    35.300538,
-    32.941434,
-    35.30658
+    32.9385352,
+    35.3030255,
+    32.9416251,
+    35.3050218
   ],
-  "description": "An ancient place, cited: BAtlas 72 B2 Melabron?",
+  "description": "A Hellenistic-and-Roman-era site, sometimes locally referred to as Palaiokastro, on the northwest coast of Cyprus, west of the modern village of Ag. Eirini. Archaeological investigation also produced evidence of Bronze Age habitation here. The historical site is possibly to be identified with the attested name Melabron.",
   "connectsWith": [
     "707498"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.940978,
-          35.303559
+          32.9401790502,
+          35.3039700073
         ]
       },
       "properties": {
@@ -31,36 +31,59 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "MultiLineString",
         "coordinates": [
-          32.941434,
-          35.300538
+          [
+            [
+              32.940917,
+              35.3050043
+            ],
+            [
+              32.9414534,
+              35.3050218
+            ],
+            [
+              32.9416251,
+              35.3030255
+            ],
+            [
+              32.9388141,
+              35.303078
+            ]
+          ],
+          [
+            [
+              32.9396081,
+              35.3049167
+            ],
+            [
+              32.940917,
+              35.3050043
+            ]
+          ],
+          [
+            [
+              32.9396081,
+              35.3049167
+            ],
+            [
+              32.9385352,
+              35.3045315
+            ],
+            [
+              32.9388141,
+              35.303078
+            ]
+          ]
         ]
       },
-      "id": "darmc-location-13684",
+      "id": "osm-location-of-melabron",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap. Chronology following Barrington Atlas.",
         "location_precision": "precise",
-        "title": "DARMC location 13684",
-        "link": "http://pleiades.stoa.org/places/707579/darmc-location-13684"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.940522,
-          35.30658
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, village precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/707579/dare-location"
+        "title": "OSM location of Melabron",
+        "link": "http://pleiades.stoa.org/places/707579/osm-location-of-melabron"
       }
     }
   ]
