@@ -2,9 +2,17 @@
   "type": "FeatureCollection",
   "title": "Phakion",
   "id": "543837",
+  "bbox": [
+    21.5624096,
+    39.5031469,
+    22.7184491,
+    39.9353319
+  ],
   "description": "An ancient place, cited: BAtlas 55 unlocated Phakion",
   "connectsWith": [
-    "541022"
+    "541022",
+    "541142",
+    "1332"
   ],
   "names": [
     "Phakion"
@@ -12,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0986536712,
+          39.7055254094
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

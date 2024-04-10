@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Unnamed Aqueduct at Roman Knosos ",
+  "title": "Roman Aqueduct of Knossos",
   "id": "590414",
   "bbox": [
-    25.0,
-    35.0,
-    25.5,
-    35.5
+    25.1641453,
+    35.2587361,
+    25.1868224,
+    35.2845652
   ],
-  "description": "An ancient place, cited: BAtlas 60 D2 unnamed aqueduct (Knosos)",
+  "description": "A roman contour-grade aqueduct, carrying water from the Fundana spring, south of Knossos, to an inverted siphon bridge at Spilia and thence to Knossos.",
   "connectsWith": [
     "589872"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.25,
-          35.25
+          25.1759968074,
+          35.2715300313
         ]
       },
       "properties": {
@@ -28,39 +28,54 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
+        "coordinates": [
+          25.1868224,
+          35.2587361
+        ]
+      },
+      "id": "osm-location-aqueduct-source-fundana-spring",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: aqueduct source: Fundana spring",
+        "link": "http://pleiades.stoa.org/places/590414/osm-location-aqueduct-source-fundana-spring"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              25.0,
-              35.0
-            ],
-            [
-              25.0,
-              35.5
-            ],
-            [
-              25.5,
-              35.5
-            ],
-            [
-              25.5,
-              35.0
-            ],
-            [
-              25.0,
-              35.0
-            ]
+            25.1641453,
+            35.2839295
+          ],
+          [
+            25.1645869,
+            35.2841171
+          ],
+          [
+            25.1650069,
+            35.2843438
+          ],
+          [
+            25.1657399,
+            35.284516
+          ],
+          [
+            25.1662412,
+            35.2845652
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-19th-century-spilia-aqueduct-bridge",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/590414/batlas-location"
+        "description": "Location based on OpenStreetMap. Likely replaces a Roman aqueduct bridge at the same location.",
+        "location_precision": "precise",
+        "title": "OSM Location: 19th century Spilia Aqueduct Bridge",
+        "link": "http://pleiades.stoa.org/places/590414/osm-location-19th-century-spilia-aqueduct-bridge"
       }
     }
   ]
