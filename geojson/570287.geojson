@@ -2,17 +2,47 @@
   "type": "FeatureCollection",
   "title": "Heraia",
   "id": "570287",
+  "bbox": [
+    21.8637785,
+    37.6134553,
+    21.8637785,
+    37.6134553
+  ],
   "description": "An ancient city of Arcadia, located on the north bank of the Alpheius river, east of its confluence with the Ladon. Archaeological evidence for its location has been identified near modern Hagios Ioannis.",
   "names": [
     "Hagios Ioannis",
-    "Heraia"
+    "Heraia",
+    "Heraea"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8637785,
+          37.6134553
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8637785,
+          37.6134553
+        ]
+      },
+      "id": "osm-location-ii3i1i-i-iii-i1-2i1-2i-i-iiii-i-i-i",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM Location: Άγιος Ιωάννης Αρχαίας Ηραίας",
+        "link": "http://pleiades.stoa.org/places/570287/osm-location-ii3i1i-i-iii-i1-2i1-2i-i-iiii-i-i-i"
       }
     }
   ]
