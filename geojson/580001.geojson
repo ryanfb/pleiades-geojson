@@ -3,20 +3,23 @@
   "title": "Kynosoura",
   "id": "580001",
   "bbox": [
-    24.05444,
-    38.144304,
-    24.05444,
-    38.144304
+    24.05413,
+    38.139195,
+    24.0546162,
+    38.13922
   ],
   "description": "An ancient place, cited: BAtlas 59 D2 Kynosoura",
+  "connectsWith": [
+    "580003"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.05444,
-          38.144304
+          24.054302975,
+          38.1392115
         ]
       },
       "properties": {
@@ -25,19 +28,42 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          24.05444,
-          38.144304
+          [
+            24.0546162,
+            38.139211
+          ],
+          [
+            24.0543357,
+            38.139195
+          ]
         ]
       },
-      "id": "darmc-location-21297",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 21297",
-        "link": "http://pleiades.stoa.org/places/580001/darmc-location-21297"
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/580001/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.05413,
+          38.13922
+        ]
+      },
+      "id": "topostext-location-kynosoura-site-attica-stomi-marathon-cape-kunosoura",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "ToposText Location: Kynosoura site (Attica) Stomi/Marathon cape - Κυνοσούρα",
+        "link": "http://pleiades.stoa.org/places/580001/topostext-location-kynosoura-site-attica-stomi-marathon-cape-kunosoura"
       }
     }
   ]

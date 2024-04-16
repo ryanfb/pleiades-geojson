@@ -3,10 +3,10 @@
   "title": "Galatia",
   "id": "619161",
   "bbox": [
-    32.5,
-    39.5,
-    33.0,
-    40.0
+    30.8964704528,
+    39.7728323869,
+    33.9609739905,
+    40.1197986847
   ],
   "description": "An ancient place, cited: BAtlas 63 B1 Galatia",
   "names": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          39.75
+          32.4274370108,
+          39.9338119976
         ]
       },
       "properties": {
@@ -29,39 +29,79 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              32.5,
-              39.5
+              33.9609739905203,
+              39.77283238688665
             ],
             [
-              32.5,
-              40.0
+              33.79500658536364,
+              39.80495511046536
             ],
             [
-              33.0,
-              40.0
+              33.58977807361077,
+              39.82637025951783
             ],
             [
-              33.0,
-              39.5
+              33.46912955652496,
+              39.837971078468385
             ],
             [
-              32.5,
-              39.5
+              33.33438118894311,
+              39.84236314822399
+            ],
+            [
+              33.0595789666966,
+              39.85924770452187
+            ],
+            [
+              32.888257774276816,
+              39.869955279048106
+            ],
+            [
+              32.684813858278325,
+              39.8967242153637
+            ],
+            [
+              32.442249452372224,
+              39.93392072901902
+            ],
+            [
+              32.18550872092299,
+              39.95791518990213
+            ],
+            [
+              31.93155003007649,
+              39.98052427109155
+            ],
+            [
+              31.769137776709695,
+              39.99487698185419
+            ],
+            [
+              31.399726455554543,
+              40.03592268420476
+            ],
+            [
+              31.01425377261004,
+              40.09481434409906
+            ],
+            [
+              30.89647045282144,
+              40.11979868466028
             ]
           ]
         ]
       },
-      "id": "undetermined",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/619161/undetermined"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/619161/batlas-map-label-location"
       }
     }
   ]

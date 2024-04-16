@@ -3,14 +3,16 @@
   "title": "Panormos",
   "id": "481944",
   "bbox": [
-    19.0,
-    40.0,
-    20.0,
-    41.0
+    19.7885827,
+    40.0588621,
+    19.7885827,
+    40.0588621
   ],
-  "description": "An ancient place, cited: BAtlas 49 B3 Panormos",
+  "description": "An ancient coastal station and port (limen) mentioned by Ptolemy, this Panormos is tentatively identified by modern scholars as having been located on the modern Albanian Bay of Palermo",
   "names": [
-    "Panormos"
+    "Gjiri i Palermos",
+    "Porto Polermo",
+    "Panormos limen"
   ],
   "features": [
     {
@@ -18,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.5,
-          40.5
+          19.7885827,
+          40.0588621
         ]
       },
       "properties": {
@@ -28,39 +30,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              19.0,
-              40.0
-            ],
-            [
-              19.0,
-              41.0
-            ],
-            [
-              20.0,
-              41.0
-            ],
-            [
-              20.0,
-              40.0
-            ],
-            [
-              19.0,
-              40.0
-            ]
-          ]
+          19.7885827,
+          40.0588621
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-gjiri-i-palermos",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/481944/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Gjiri i Palermos",
+        "link": "http://pleiades.stoa.org/places/481944/osm-location-gjiri-i-palermos"
       }
     }
   ]
