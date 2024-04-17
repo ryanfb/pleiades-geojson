@@ -2,7 +2,16 @@
   "type": "FeatureCollection",
   "title": "Aphrodisias/Aphrodisia",
   "id": "573101",
-  "description": "An ancient settlement, attested by literary or documentary sources, whose precise location cannot be determined today",
+  "bbox": [
+    22.988,
+    36.547,
+    22.988,
+    36.547
+  ],
+  "description": "A long-lived coastal settlement of the Peloponnese, mentioned by Pausanias and other authors. Its precise location has not been determined; however, it must have been relatively close to Boi(a)i, since it was one of the constituent poleis from which the latter was synoecized. The ToposText editors tentatively propose its localization at a now-vanished fortification north of Megali Spilia (and thus northwest of Neapolis).",
+  "connectsWith": [
+    "570156"
+  ],
   "names": [
     "Aphrodisias",
     "Aphrodisia"
@@ -10,20 +19,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.988,
+          36.547
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.988,
+          36.547
+        ]
+      },
+      "id": "topostext-location-aphroditia-lakonia-6-gerantonia-aphroditia",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/573101/batlas-location"
+        "location_precision": "precise",
+        "title": "ToposText Location: Aphroditia (Lakonia) 6 Gerantonia - Αφροδιτία",
+        "link": "http://pleiades.stoa.org/places/573101/topostext-location-aphroditia-lakonia-6-gerantonia-aphroditia"
       }
     }
   ]
