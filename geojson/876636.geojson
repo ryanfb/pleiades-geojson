@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Haris",
   "id": "876636",
+  "bbox": [
+    38.871418,
+    39.805861,
+    38.9239312,
+    39.9186416
+  ],
   "description": "A Latin name appearing in the Peutinger Map. It may be identifiable either with modern Yurtbaşi/Melik Şerif (Mitford) or modern Cengerli (Sinclair), both in the Refahiye region of Erzincan province in Turkey.",
   "connectsWith": [
     "629022",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.89889235,
+          39.8646663
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
