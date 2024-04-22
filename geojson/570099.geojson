@@ -3,12 +3,12 @@
   "title": "Arainon",
   "id": "570099",
   "bbox": [
-    22.521276,
-    36.69704,
-    22.521276,
-    36.69704
+    22.5192,
+    36.6908,
+    22.5272951,
+    36.701275
   ],
-  "description": "An ancient place, cited: BAtlas 58 D4 Arainon",
+  "description": "An ancient settlement of Laconia, mentioned by Pausanias. Kiesling (ToposText) notes: \"Based on the similarity of the names, Forster placed Arainos/Arainon at the modern coastal village of Ageranos. Just to the south, at Kamares, survives the apse of a very large Roman building, and traces of Roman settlement.\" Roman era remains, including possible harbor constructions (submerged), have also been identified just north of Ageranos at Vathy.",
   "names": [
     "Arainon"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.521276,
-          36.69704
+          22.5229433667,
+          36.6961924667
         ]
       },
       "properties": {
@@ -30,17 +30,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.521276,
-          36.69704
+          22.5192,
+          36.6908
         ]
       },
-      "id": "darmc-location-11459",
+      "id": "topostext-location-roman-remains-at-kamares",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": null,
         "location_precision": "precise",
-        "title": "DARMC location 11459",
-        "link": "http://pleiades.stoa.org/places/570099/darmc-location-11459"
+        "title": "ToposText Location: Roman remains at Kamares",
+        "link": "http://pleiades.stoa.org/places/570099/topostext-location-roman-remains-at-kamares"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.522335,
+          36.701275
+        ]
+      },
+      "id": "imagery-location-ancient-harbor-at-vathy",
+      "type": "Feature",
+      "properties": {
+        "description": "Location determined in Google Earth with reference to description in CFL/AGO report.",
+        "location_precision": "precise",
+        "title": "Imagery Location: ancient harbor at Vathy",
+        "link": "http://pleiades.stoa.org/places/570099/imagery-location-ancient-harbor-at-vathy"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5272951,
+          36.6965024
+        ]
+      },
+      "id": "osm-location-modern-ii3iuii-i1-2ii",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: modern Αγερανός",
+        "link": "http://pleiades.stoa.org/places/570099/osm-location-modern-ii3iuii-i1-2ii"
       }
     }
   ]

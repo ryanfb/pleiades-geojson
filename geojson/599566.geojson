@@ -3,12 +3,15 @@
   "title": "‘Cedreaticum’ Sinus",
   "id": "599566",
   "bbox": [
-    28.0,
-    37.0,
-    28.5,
-    37.5
+    28.264557,
+    37.027296,
+    28.264557,
+    37.027296
   ],
-  "description": "An ancient place, cited: BAtlas 61 G3 ‘Cedreaticum’ Sinus",
+  "description": "'Cedreaticum' is a suggested editorial emendation offered by Bean for 'Tetraticum' in Mela, based on the conjecture that it is naming only the \"innermost portion\" (i.e., narrower eastern end) of the Gulf of Kos/Gökova (ancient Kerameios/Doridis) and therefore takes its name from the settlement of Kedreai (on modern Şehir Adası).",
+  "connectsWith": [
+    "599706"
+  ],
   "names": [
     "Cedreaticum Sinus"
   ],
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.25,
-          37.25
+          28.264557,
+          37.027296
         ]
       },
       "properties": {
@@ -28,39 +31,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              28.0,
-              37.0
-            ],
-            [
-              28.0,
-              37.5
-            ],
-            [
-              28.5,
-              37.5
-            ],
-            [
-              28.5,
-              37.0
-            ],
-            [
-              28.0,
-              37.0
-            ]
-          ]
+          28.264557,
+          37.027296
         ]
       },
-      "id": "undetermined",
+      "id": "imagery-location-after-batlas-label",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599566/undetermined"
+        "description": "Less certain, per Bean.",
+        "location_precision": "precise",
+        "title": "Imagery location after BAtlas label",
+        "link": "http://pleiades.stoa.org/places/599566/imagery-location-after-batlas-label"
       }
     }
   ]

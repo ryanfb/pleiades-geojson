@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Semuncla",
   "id": "456121",
+  "bbox": [
+    15.9045263,
+    39.953733,
+    16.039995,
+    40.2885915
+  ],
   "description": "A road station during the Roman period, attested by the Antonine Itinerary. Its exact location is not known today, but may have been in the Upper Sinni Valley in southern Italy.",
   "connectsWith": [
     "442603",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9741281648,
+          40.119827373
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -2,27 +2,46 @@
   "type": "FeatureCollection",
   "title": "Hybanda (island)",
   "id": "599650",
-  "description": "A former island of the Icarian Sea.",
+  "bbox": [
+    27.4281833,
+    37.6290573,
+    27.4281833,
+    37.6290573
+  ],
+  "description": "A former island of the Icarian Sea at the location of modern Özbaşı 13.5 km south of Söke.",
   "names": [
+    "Hybanda",
     "Hybanda"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4281833,
+          37.6290573
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "undetermined",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4281833,
+          37.6290573
+        ]
+      },
+      "id": "osm-location-of-ozbas131",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/599650/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Özbaşı",
+        "link": "http://pleiades.stoa.org/places/599650/osm-location-of-ozbas131"
       }
     }
   ]
