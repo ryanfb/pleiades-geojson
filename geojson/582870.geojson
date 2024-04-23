@@ -1,15 +1,21 @@
 {
   "type": "FeatureCollection",
-  "title": "Ardettos M.",
+  "title": "Ardettos",
   "id": "582870",
   "bbox": [
-    23.5,
-    37.75,
-    23.75,
-    38.0
+    23.7397493,
+    37.9671487,
+    23.7422166,
+    37.9694703
   ],
-  "description": "An ancient place, cited: BAtlas 59 B3 Ardettos M.",
+  "description": "A site to the southeast of Athens, where jurors swore their oath, named for a hero Ardettes.",
+  "connectsWith": [
+    "122572945",
+    "579848",
+    "433457819"
+  ],
   "names": [
+    "Ardēttós",
     "Ardettos M."
   ],
   "features": [
@@ -18,49 +24,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.625,
-          37.875
+          23.7410806701,
+          37.9682580941
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              23.5,
-              37.75
-            ],
-            [
-              23.5,
-              38.0
-            ],
-            [
-              23.75,
-              38.0
-            ],
-            [
-              23.75,
-              37.75
-            ],
-            [
-              23.5,
-              37.75
-            ]
-          ]
-        ]
-      },
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/582870/batlas-location"
       }
     }
   ]
