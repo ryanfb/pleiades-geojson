@@ -3,12 +3,12 @@
   "title": "Europos",
   "id": "491595",
   "bbox": [
-    22.556736,
-    40.899846,
-    22.556736,
-    40.899846
+    22.5517090534,
+    40.8838014715,
+    22.5583020556,
+    40.887976
   ],
-  "description": "An ancient place, cited: BAtlas 50 C3 Europos",
+  "description": "An ancient city in Macedonia. The known components of the site (acropolis, extensive necropolis) are located immediately south of the modern town.",
   "names": [
     "Europos"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.556736,
-          40.899846
+          22.5552017304,
+          40.8866497206
         ]
       },
       "properties": {
@@ -30,17 +30,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.556736,
-          40.899846
+          22.555345,
+          40.887976
         ]
       },
-      "id": "darmc-location-3446",
+      "id": "imagery-location-centerpoint-of-acropolis",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Location determined in Google Earth with reference to Kaimaris 2023, Figure 1.",
         "location_precision": "precise",
-        "title": "DARMC location 3446",
-        "link": "http://pleiades.stoa.org/places/491595/darmc-location-3446"
+        "title": "Imagery Location: Centerpoint of acropolis",
+        "link": "http://pleiades.stoa.org/places/491595/imagery-location-centerpoint-of-acropolis"
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                22.55830205555459,
+                40.88380147149622,
+                0.0
+              ],
+              [
+                22.55807563338889,
+                40.88721057862151,
+                0.0
+              ],
+              [
+                22.55643054094176,
+                40.88685090633701,
+                0.0
+              ],
+              [
+                22.55279183132107,
+                40.88676655907366,
+                0.0
+              ],
+              [
+                22.55176418835521,
+                40.88648424309297,
+                0.0
+              ],
+              [
+                22.5517090534395,
+                40.88384376572099,
+                0.0
+              ],
+              [
+                22.55830205555459,
+                40.88380147149622,
+                0.0
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "imagery-location-approximate-extent-of-necropolis",
+      "type": "Feature",
+      "properties": {
+        "description": "Polygon traced in Google Earth with reference to excavated features and likely indicative crop marks as mapped in Kaimaris 2023, Figure 11.",
+        "location_precision": "precise",
+        "title": "Imagery Location: approximate extent of necropolis",
+        "link": "http://pleiades.stoa.org/places/491595/imagery-location-approximate-extent-of-necropolis"
       }
     }
   ]

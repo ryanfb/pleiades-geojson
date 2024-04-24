@@ -3,10 +3,10 @@
   "title": "Abydos",
   "id": "501325",
   "bbox": [
-    26.406964,
-    40.194214,
-    26.411298,
-    40.196017
+    26.4096706,
+    40.1925751,
+    26.4127776,
+    40.1955522
   ],
   "description": "A city of Mysia located on the Hellespont.",
   "connectsWith": [
@@ -31,29 +31,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.409131,
-          40.1951155
+          26.4113127626,
+          40.19421564
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.406964,
-          40.196017
-        ]
-      },
-      "id": "darmc-location-34847",
-      "type": "Feature",
-      "properties": {
-        "description": "representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
-        "location_precision": "precise",
-        "title": "DARMC location 34847",
-        "link": "http://pleiades.stoa.org/places/501325/darmc-location-34847"
       }
     },
     {
@@ -71,6 +54,49 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/501325/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.4127776,
+            40.193987
+          ],
+          [
+            26.4121939,
+            40.1925751
+          ],
+          [
+            26.4106009,
+            40.1930721
+          ],
+          [
+            26.4096706,
+            40.1946047
+          ],
+          [
+            26.41023,
+            40.1955522
+          ],
+          [
+            26.4123033,
+            40.1954732
+          ],
+          [
+            26.4127776,
+            40.193987
+          ]
+        ]
+      },
+      "id": "osm-location-of-abydus",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Abydus",
+        "link": "http://pleiades.stoa.org/places/501325/osm-location-of-abydus"
       }
     }
   ]
