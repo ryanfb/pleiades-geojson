@@ -1,18 +1,23 @@
 {
   "type": "FeatureCollection",
-  "title": "Argos Amphilochikon?",
+  "title": "Argos Amphilochikon",
   "id": "530809",
   "bbox": [
-    21.0,
-    38.5,
-    21.5,
-    39.0
+    21.19,
+    38.93,
+    21.19,
+    38.93
   ],
-  "description": "An ancient place, cited: BAtlas 54 D4 Argos Amphilochikon?",
+  "description": "An ancient settlement in northwest Greece, mentioned in Thucydides and other ancient sources. Most scholars have long identified it with archaeological remains that lie between the modern towns of Loutro-Krikellos and Ampelaki near the Gulf of Ambrakia (but see SAGT after which BAtlas).",
   "connectsWith": [
     "231467659"
   ],
   "names": [
+    "Neokhori",
+    "Ag. Ioannes",
+    "Amfilochiko Argos",
+    "Loutron",
+    "Loutro",
     "Argos Amphilochikon"
   ],
   "features": [
@@ -21,8 +26,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.25,
-          38.75
+          21.19,
+          38.93
         ]
       },
       "properties": {
@@ -31,39 +36,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              21.0,
-              38.5
-            ],
-            [
-              21.0,
-              39.0
-            ],
-            [
-              21.5,
-              39.0
-            ],
-            [
-              21.5,
-              38.5
-            ],
-            [
-              21.0,
-              38.5
-            ]
-          ]
+          21.19,
+          38.93
         ]
       },
-      "id": "batlas-location",
+      "id": "topostext-location-argos-amphilokion",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/530809/batlas-location"
+        "location_precision": "precise",
+        "title": "ToposText Location: Argos Amphilokion",
+        "link": "http://pleiades.stoa.org/places/530809/topostext-location-argos-amphilokion"
       }
     }
   ]

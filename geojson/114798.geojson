@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Taberna",
   "id": "114798",
+  "bbox": [
+    1.8348266,
+    50.6678737,
+    1.8348266,
+    50.6678737
+  ],
   "description": "An ancient place, cited: BAtlas 11 unlocated Taberna",
   "names": [
     "Taberna"
@@ -9,20 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8348266,
+          50.6678737
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "undetermined",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8348266,
+          50.6678737
+        ]
+      },
+      "id": "osm-location-of-desvres",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/114798/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Desvres",
+        "link": "http://pleiades.stoa.org/places/114798/osm-location-of-desvres"
       }
     }
   ]
