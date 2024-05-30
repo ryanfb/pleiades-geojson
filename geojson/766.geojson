@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Aegyptus (Roman imperial province)",
   "id": "766",
+  "bbox": [
+    29.909773,
+    31.201435,
+    29.909773,
+    31.201435
+  ],
   "description": "The Roman province of Egypt (Aegyptus) was established in 30 BC after the defeat of Marcus Antonius and Cleopatra VII at the Battle of Actium.",
   "connectsWith": [
     "981503",
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.909773,
+          31.201435
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

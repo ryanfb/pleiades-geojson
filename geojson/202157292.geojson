@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hyctanis (river)",
   "id": "202157292",
+  "bbox": [
+    55.0,
+    25.0,
+    60.0,
+    30.0
+  ],
   "description": "A river in Carmania mentioned by both Pliny and Strabo.",
   "connectsWith": [
     "29517"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          27.5
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
