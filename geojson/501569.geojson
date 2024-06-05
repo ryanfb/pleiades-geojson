@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Pistyros?",
+  "title": "Pistyros",
   "id": "501569",
   "bbox": [
-    24.585486,
-    40.953889,
-    24.622222,
-    40.983103
+    24.5908005,
+    40.9707657,
+    24.5931939,
+    40.9722422
   ],
-  "description": "An ancient place, cited: BAtlas 51 D3 Pistyros?",
+  "description": "Hellenistic remnants, likely of the Thasian colony of Pistyros, have been excavated between modern Kavala and Petropege, just east of the modern village of Pontolivado in Greece.",
   "connectsWith": [
     "501634"
   ],
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.603854,
-          40.968496
+          24.5920054583,
+          40.971458286
         ]
       },
       "properties": {
@@ -31,36 +31,49 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          24.585486,
-          40.983103
+          [
+            24.5908005,
+            40.9712731
+          ],
+          [
+            24.5911697,
+            40.9707657
+          ],
+          [
+            24.5916381,
+            40.9708403
+          ],
+          [
+            24.5931939,
+            40.9713506
+          ],
+          [
+            24.59319,
+            40.9715509
+          ],
+          [
+            24.592459,
+            40.9722422
+          ],
+          [
+            24.5918976,
+            40.9721152
+          ],
+          [
+            24.5908005,
+            40.9712731
+          ]
         ]
       },
-      "id": "darmc-location-14300",
+      "id": "osm-location-of-ancient-pistyros",
       "type": "Feature",
       "properties": {
-        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 14300",
-        "link": "http://pleiades.stoa.org/places/501569/darmc-location-14300"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.622222,
-          40.953889
-        ]
-      },
-      "id": "dare-location",
-      "type": "Feature",
-      "properties": {
-        "description": "Representative point location, site precision",
-        "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/501569/dare-location"
+        "title": "OSM location of Ancient Pistyros",
+        "link": "http://pleiades.stoa.org/places/501569/osm-location-of-ancient-pistyros"
       }
     }
   ]
