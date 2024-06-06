@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Bembina",
   "id": "573141",
+  "bbox": [
+    22.7108171,
+    37.808904,
+    22.7108171,
+    37.808904
+  ],
   "description": "An ancient settlement of Corinthia, placed near ancient Nemea by Strabo. Its precise location cannot be determined today.",
   "connectsWith": [
     "570504"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7108171,
+          37.808904
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
