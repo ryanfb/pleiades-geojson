@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Kalalat 2",
   "id": "786049",
+  "bbox": [
+    35.4175882,
+    23.8753916,
+    35.4180561,
+    23.8757833
+  ],
   "description": "An ancient place, cited: BAtlas 80 inset Kalalat 2",
   "connectsWith": [
     "786048"
@@ -9,20 +15,50 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4178221258,
+          23.8755874602
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "undetermined",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.4179298,
+            23.8757833
+          ],
+          [
+            35.4175882,
+            23.8756352
+          ],
+          [
+            35.4177144,
+            23.8753916
+          ],
+          [
+            35.4180561,
+            23.8755398
+          ],
+          [
+            35.4179298,
+            23.8757833
+          ]
+        ]
+      },
+      "id": "osm-location-of-wadi-kalalat-klein-fort",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/786049/undetermined"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Wadi Kalalat - Klein Fort",
+        "link": "http://pleiades.stoa.org/places/786049/osm-location-of-wadi-kalalat-klein-fort"
       }
     }
   ]

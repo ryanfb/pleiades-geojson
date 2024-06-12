@@ -2,24 +2,60 @@
   "type": "FeatureCollection",
   "title": "Kalalat 1",
   "id": "786048",
+  "bbox": [
+    35.4087425,
+    23.8638576,
+    35.4099817,
+    23.8649148
+  ],
   "description": "The site of a Roman fort in the eastern desert of Egypt.",
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4093566788,
+          23.8643946832
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "undetermined",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.4087425,
+            23.8646352
+          ],
+          [
+            35.4096491,
+            23.8649148
+          ],
+          [
+            35.4099817,
+            23.8641863
+          ],
+          [
+            35.4090724,
+            23.8638576
+          ],
+          [
+            35.4087425,
+            23.8646352
+          ]
+        ]
+      },
+      "id": "wadi-kalalat",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/786048/undetermined"
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Wadi Kalalat",
+        "link": "http://pleiades.stoa.org/places/786048/wadi-kalalat"
       }
     }
   ]
