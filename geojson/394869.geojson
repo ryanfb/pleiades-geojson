@@ -1,14 +1,14 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Roman bridge of San Vito",
   "id": "394869",
   "bbox": [
-    12.0,
-    44.0,
-    12.5,
-    44.5
+    12.4534217,
+    44.0865451,
+    12.4535245,
+    44.086573
   ],
-  "description": "An ancient place, cited: BAtlas 40 C4 unnamed bridge (over Utens? fl., near S. Vito di Rimini)",
+  "description": "The remains of a Roman bridge that once crossed the river known as Uso are located at San Vito, Italy, in the environs of Rimini.",
   "connectsWith": [
     "393508"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.25,
-          44.25
+          12.4534730794,
+          44.0865590269
         ]
       },
       "properties": {
@@ -28,39 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              12.0,
-              44.0
-            ],
-            [
-              12.0,
-              44.5
-            ],
-            [
-              12.5,
-              44.5
-            ],
-            [
-              12.5,
-              44.0
-            ],
-            [
-              12.0,
-              44.0
-            ]
+            12.4534217,
+            44.0865528
+          ],
+          [
+            12.4534237,
+            44.086573
+          ],
+          [
+            12.4535245,
+            44.0865652
+          ],
+          [
+            12.4535225,
+            44.0865451
+          ],
+          [
+            12.4534217,
+            44.0865528
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location-of-ponte-romano",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/394869/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Ponte romano",
+        "link": "http://pleiades.stoa.org/places/394869/osm-location-of-ponte-romano"
       }
     }
   ]
