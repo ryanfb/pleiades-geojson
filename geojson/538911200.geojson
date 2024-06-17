@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Regio VIII, Pompeii",
   "id": "538911200",
+  "bbox": [
+    14.4837195,
+    40.7482879,
+    14.4892393,
+    40.74941
+  ],
   "description": "The so-called Regio VIII, an archaeological subdivision located in the southwestern section of Pompeii, contains a theatre, a sanctuary dedicated to Venus, and a mix of residential, administrative, and commercial structures.",
   "connectsWith": [
     "433032"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.487189365,
+          40.7487561224
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
