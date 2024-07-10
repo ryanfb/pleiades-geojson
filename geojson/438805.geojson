@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Piketia",
   "id": "438805",
+  "bbox": [
+    12.515431,
+    41.982053,
+    12.515431,
+    41.982053
+  ],
   "description": "An ancient place, cited: BAtlas 44 unlocated Piketia",
   "connectsWith": [
     "422923"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.515431,
+          41.982053
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

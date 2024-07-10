@@ -2,27 +2,34 @@
   "type": "FeatureCollection",
   "title": "Filadelfia",
   "id": "876629",
-  "description": "An ancient place, cited: BAtlas 89 unlocated Filadelfia",
+  "bbox": [
+    44.5670294,
+    34.8043,
+    48.5171,
+    39.8871706
+  ],
+  "description": "An ancient place, known only from the Tabula Peutingeriana, perhaps located near Khoi and Marand, northwest of Lake Urmia.",
+  "connectsWith": [
+    "903021",
+    "874361",
+    "874350",
+    "874593"
+  ],
   "names": [
     "Filadelfia"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1628904806,
+          37.4720953255
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/876629/batlas-location"
       }
     }
   ]
