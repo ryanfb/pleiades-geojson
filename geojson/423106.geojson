@@ -3,10 +3,10 @@
   "title": "Tres Tabernae",
   "id": "423106",
   "bbox": [
-    12.87111,
-    41.56472,
-    12.87111,
-    41.56472
+    12.872907,
+    41.5606427,
+    12.8756576,
+    41.5627075
   ],
   "description": "A statio at the point where the Via Appia crosses the Via Ninfina.",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.87111,
-          41.56472
+          12.8742822787,
+          41.5616751339
         ]
       },
       "properties": {
@@ -32,19 +32,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          12.87111,
-          41.56472
+          [
+            12.8736003,
+            41.5627075
+          ],
+          [
+            12.8756576,
+            41.5611584
+          ],
+          [
+            12.8749638,
+            41.5606427
+          ],
+          [
+            12.872907,
+            41.5621922
+          ],
+          [
+            12.8736003,
+            41.5627075
+          ]
         ]
       },
-      "id": "dare-location",
+      "id": "osm-location-of-tres-tabernae",
       "type": "Feature",
       "properties": {
-        "description": "Representative point location, village precision",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARE Location",
-        "link": "http://pleiades.stoa.org/places/423106/dare-location"
+        "title": "OSM location of Tres Tabernae",
+        "link": "http://pleiades.stoa.org/places/423106/osm-location-of-tres-tabernae"
       }
     }
   ]
