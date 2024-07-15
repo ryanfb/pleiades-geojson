@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Cingilla",
   "id": "662152",
+  "bbox": [
+    44.0,
+    31.0,
+    45.0,
+    32.0
+  ],
   "description": "An ancient place, cited: BAtlas 67 unlocated Cingilla",
   "connectsWith": [
     "912849"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          31.5
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Dilmun Burial Mounds",
   "id": "933683602",
+  "bbox": [
+    50.4722238123,
+    26.007140724,
+    50.6221298556,
+    26.1550242
+  ],
   "description": "The Dilmun Burial Mounds, a cultural landscape inscribed as a UNESCO World Heritage site in July 2019. This landscape includes tombs dispersed in at least 21 archaeological sites in western Bahrain. These tombs date between 2050 and 1750 B.C. In all there are more than 11,774 burial mounds.",
   "connectsWith": [
     "932485"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.506167513,
+          26.1151770079
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
