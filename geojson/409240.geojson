@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Turrita",
   "id": "409240",
+  "bbox": [
+    10.4763463,
+    43.5582559,
+    10.4770088,
+    43.5585435
+  ],
   "description": "Now unlocated, Turrita was a station (statio) near Pisae.",
   "connectsWith": [
     "502042016"
@@ -12,20 +18,50 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4767019227,
+          43.5583937749
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.4763783,
+            43.558482
+          ],
+          [
+            10.4763463,
+            43.5582986
+          ],
+          [
+            10.4770008,
+            43.5582559
+          ],
+          [
+            10.4770088,
+            43.5585435
+          ],
+          [
+            10.4763783,
+            43.558482
+          ]
+        ]
+      },
+      "id": "osm-location-of-parco-archeologico-di-torretta",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/409240/batlas-location"
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Parco archeologico di Torretta Vecchia",
+        "link": "http://pleiades.stoa.org/places/409240/osm-location-of-parco-archeologico-di-torretta"
       }
     }
   ]

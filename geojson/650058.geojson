@@ -1,22 +1,22 @@
 {
   "type": "FeatureCollection",
-  "title": "Untitled",
+  "title": "Roman Bridge over Calycadnus at Seleucia ad Calycadnum",
   "id": "650058",
   "bbox": [
-    33.931742,
-    36.380574,
-    33.931742,
-    36.380574
+    33.9250438,
+    36.3787246,
+    33.9254504,
+    36.3797618
   ],
-  "description": "An ancient place, cited: BAtlas 66 D4 unnamed bridge (over Calycadnus fl. at Seleucia ad Calycadnum)",
+  "description": "Epigraphic evidence, uncovered in the 19th century, indicates the presence of this bridge, built at the direction of the Emperor Vespasian and his two sons Titus and Domitian by the Cilician governor L. Octavius ​​Memor in 77 or 78 CE. The inscription, now lost, was reportedly found during construction of the current Taşköprü (\"Stone Bridge\") in the early 1870s. This 19th century bridge is often referred to as the \"Roman Stone Bridge,\" despite its modernity.",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.931742,
-          36.380574
+          33.9252471,
+          36.3792432
         ]
       },
       "properties": {
@@ -25,19 +25,25 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.931742,
-          36.380574
+          [
+            33.9254504,
+            36.3797618
+          ],
+          [
+            33.9250438,
+            36.3787246
+          ]
         ]
       },
-      "id": "darmc-location-14725",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 14725",
-        "link": "http://pleiades.stoa.org/places/650058/darmc-location-14725"
+        "title": "OSM location of 19th Century Bridge",
+        "link": "http://pleiades.stoa.org/places/650058/osm-location"
       }
     }
   ]

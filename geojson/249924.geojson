@@ -3,12 +3,12 @@
   "title": "Lalonquette",
   "id": "249924",
   "bbox": [
-    -0.310707,
-    43.502662,
-    -0.310707,
-    43.502662
+    -0.3119076,
+    43.5018985,
+    -0.3099636,
+    43.5036782
   ],
-  "description": "A Gallo-Roman villa that is expanded upon the second and third centuries A.D. ",
+  "description": "A Gallo-Roman villa that is expanded upon the second and third centuries A.D.",
   "names": [
     "Lalonquette"
   ],
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.310707,
-          43.502662
+          -0.310906430736,
+          43.502719823
         ]
       },
       "properties": {
@@ -28,19 +28,45 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -0.310707,
-          43.502662
+          [
+            -0.3109541,
+            43.5036454
+          ],
+          [
+            -0.3119076,
+            43.5024768
+          ],
+          [
+            -0.3105842,
+            43.5018985
+          ],
+          [
+            -0.3099636,
+            43.5025871
+          ],
+          [
+            -0.3105472,
+            43.5032429
+          ],
+          [
+            -0.3107938,
+            43.5036782
+          ],
+          [
+            -0.3109541,
+            43.5036454
+          ]
         ]
       },
-      "id": "center-of-batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "A positive identification of the sub-commune location noted in the Barrington Atlas directory",
+        "description": "Representative location based on OpenStreetMap.",
         "location_precision": "precise",
-        "title": "Center point of location",
-        "link": "http://pleiades.stoa.org/places/249924/center-of-batlas-location"
+        "title": "OSM location of Villa gallo-romaine de Lalonquette",
+        "link": "http://pleiades.stoa.org/places/249924/osm-location"
       }
     }
   ]
