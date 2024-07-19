@@ -3,10 +3,10 @@
   "title": "Ponte del Diavolo",
   "id": "234790083",
   "bbox": [
-    12.0279356,
-    42.2704863,
-    12.0279356,
-    42.2704863
+    12.027941,
+    42.2704235,
+    12.0280283,
+    42.2705885
   ],
   "description": "A bridge in the territory of Blera known as the \"Devil's Bridge\".",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.0279356,
-          42.2704863
+          12.0279870534,
+          42.2705046918
         ]
       },
       "properties": {
@@ -29,19 +29,29 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          12.0279356,
-          42.2704863
+          [
+            12.0280283,
+            42.2705885
+          ],
+          [
+            12.027981,
+            42.2704874
+          ],
+          [
+            12.027941,
+            42.2704235
+          ]
         ]
       },
-      "id": "osm-location-of-ponte-del-diavolo",
+      "id": "osm-location-ponte-del-diavolo",
       "type": "Feature",
       "properties": {
         "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Ponte del Diavolo",
-        "link": "http://pleiades.stoa.org/places/234790083/osm-location-of-ponte-del-diavolo"
+        "title": "OSM location: Ponte del Diavolo",
+        "link": "http://pleiades.stoa.org/places/234790083/osm-location-ponte-del-diavolo"
       }
     }
   ]
