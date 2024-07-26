@@ -3,10 +3,10 @@
   "title": "Ascuris Palus",
   "id": "540668",
   "bbox": [
-    22.0,
-    39.5,
-    22.5,
-    40.0
+    22.45,
+    39.95,
+    22.45,
+    39.95
   ],
   "description": "An ancient lake in Thessaly. Livy locates it near the Perrhaebian Mountains.",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.25,
-          39.75
+          22.45,
+          39.95
         ]
       },
       "properties": {
@@ -28,39 +28,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              22.0,
-              39.5
-            ],
-            [
-              22.0,
-              40.0
-            ],
-            [
-              22.5,
-              40.0
-            ],
-            [
-              22.5,
-              39.5
-            ],
-            [
-              22.0,
-              39.5
-            ]
-          ]
+          22.45,
+          39.95
         ]
       },
-      "id": "batlas-location",
+      "id": "imagery-location-of-ascuris-palus",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/540668/batlas-location"
+        "description": "Coordinates of the now-dry lake bed following Wikidata / GeoHack",
+        "location_precision": "precise",
+        "title": "Imagery location of Ascuris Palus",
+        "link": "http://pleiades.stoa.org/places/540668/imagery-location-of-ascuris-palus"
       }
     }
   ]

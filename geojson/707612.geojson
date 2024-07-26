@@ -1,17 +1,17 @@
 {
   "type": "FeatureCollection",
-  "title": "Phrourion?/Boosoura? Pr.",
+  "title": "Phrourion?/Boosoura? (promontory)",
   "id": "707612",
   "bbox": [
-    32.5,
-    34.5,
-    33.0,
-    35.0
+    32.7166273,
+    34.6415598,
+    32.7166273,
+    34.6415598
   ],
-  "description": "An ancient place, cited: BAtlas 72 B3 Phrourion?/Boosoura? Pr.",
+  "description": "Ancient sources separately provide the names Phrourion and Boosoura for capes on the southern coast of Cyprus. Modern scholars tentatively identify both names with modern Cape Aspros/Aspron.",
   "names": [
     "Phrourion",
-    "Boosoura Pr."
+    "Boosoura"
   ],
   "features": [
     {
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75,
-          34.75
+          32.7166273,
+          34.6415598
         ]
       },
       "properties": {
@@ -29,39 +29,19 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              32.5,
-              34.5
-            ],
-            [
-              32.5,
-              35.0
-            ],
-            [
-              33.0,
-              35.0
-            ],
-            [
-              33.0,
-              34.5
-            ],
-            [
-              32.5,
-              34.5
-            ]
-          ]
+          32.7166273,
+          34.6415598
         ]
       },
-      "id": "undetermined",
+      "id": "osm-location-of-cape-aspron",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/707612/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Cape Aspron",
+        "link": "http://pleiades.stoa.org/places/707612/osm-location-of-cape-aspron"
       }
     }
   ]
