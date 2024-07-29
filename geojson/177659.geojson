@@ -3,13 +3,14 @@
   "title": "Villards-d’Heria",
   "id": "177659",
   "bbox": [
-    5.7358,
-    46.419945,
-    5.7358,
-    46.419945
+    5.7428133,
+    46.4124101,
+    5.7527968,
+    46.4239692
   ],
-  "description": "A sanctuary of the Sequani.",
+  "description": "A sanctuary of the Sequani at modern Villards-d'Heria in France. It is archaeologically represented by a two-part architectural complex comprising (1) north of the modern town the monumental \"Pont des Arches\", which supported a temple over a watercourse that supplied a large spa, and (2) at the nearby Lac-d'Antre, which supplied the majority of the water for the spa complex and also hosted additional temples along its shoreline. Plans in Vurpillot 2016 and Nouvel 2019.",
   "names": [
+    "Sanctuaire gallo-romain",
     "Villards-d'Héria"
   ],
   "features": [
@@ -18,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.7358,
-          46.419945
+          5.74729774603,
+          46.4192479101
         ]
       },
       "properties": {
@@ -28,19 +29,250 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          5.7358,
-          46.419945
+          [
+            5.7526728,
+            46.4154151
+          ],
+          [
+            5.7527508,
+            46.4153971
+          ],
+          [
+            5.7527968,
+            46.4155181
+          ],
+          [
+            5.7527198,
+            46.4155351
+          ],
+          [
+            5.7527408,
+            46.4155951
+          ],
+          [
+            5.7525198,
+            46.4156501
+          ],
+          [
+            5.7524448,
+            46.4155011
+          ],
+          [
+            5.7526858,
+            46.4154461
+          ],
+          [
+            5.7526768,
+            46.4154251
+          ],
+          [
+            5.7526728,
+            46.4154151
+          ]
         ]
       },
-      "id": "darmc-location-26252",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": "1M scale point location",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 26252",
-        "link": "http://pleiades.stoa.org/places/177659/darmc-location-26252"
+        "title": "OSM location: Grange du Lac d'Antre",
+        "link": "http://pleiades.stoa.org/places/177659/osm-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7428133,
+          46.4230379
+        ]
+      },
+      "id": "osm-location-sanctuaire-gallo-romain-du-pont-des",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap. Dates after BAtlas",
+        "location_precision": "precise",
+        "title": "OSM location: Sanctuaire gallo-romain du Pont des Arches",
+        "link": "http://pleiades.stoa.org/places/177659/osm-location-sanctuaire-gallo-romain-du-pont-des"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7438465,
+          46.4239692
+        ]
+      },
+      "id": "osm-location-aqueduc-romain",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Aqueduc romain",
+        "link": "http://pleiades.stoa.org/places/177659/osm-location-aqueduc-romain"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.7515999,
+            46.4149633
+          ],
+          [
+            5.7518841,
+            46.4147843
+          ],
+          [
+            5.7521845,
+            46.414437
+          ],
+          [
+            5.7521356,
+            46.4143
+          ],
+          [
+            5.7522413,
+            46.4141642
+          ],
+          [
+            5.7522372,
+            46.4139387
+          ],
+          [
+            5.752158,
+            46.4137287
+          ],
+          [
+            5.7522495,
+            46.4135411
+          ],
+          [
+            5.7519734,
+            46.4132052
+          ],
+          [
+            5.7519163,
+            46.4129393
+          ],
+          [
+            5.7515753,
+            46.4126426
+          ],
+          [
+            5.751145,
+            46.4124101
+          ],
+          [
+            5.7504141,
+            46.4124549
+          ],
+          [
+            5.7495438,
+            46.4127127
+          ],
+          [
+            5.7483309,
+            46.4136251
+          ],
+          [
+            5.7477695,
+            46.4141236
+          ],
+          [
+            5.7475783,
+            46.4143492
+          ],
+          [
+            5.7474428,
+            46.4144879
+          ],
+          [
+            5.7473007,
+            46.4145267
+          ],
+          [
+            5.7472604,
+            46.4147347
+          ],
+          [
+            5.7473262,
+            46.4147569
+          ],
+          [
+            5.7473811,
+            46.4147486
+          ],
+          [
+            5.7474536,
+            46.4147606
+          ],
+          [
+            5.7475468,
+            46.4148092
+          ],
+          [
+            5.7479672,
+            46.415321
+          ],
+          [
+            5.7483181,
+            46.4158823
+          ],
+          [
+            5.7484426,
+            46.4164124
+          ],
+          [
+            5.7485908,
+            46.4165228
+          ],
+          [
+            5.7490781,
+            46.4165423
+          ],
+          [
+            5.7496507,
+            46.4163182
+          ],
+          [
+            5.7503291,
+            46.4161028
+          ],
+          [
+            5.7509665,
+            46.4159404
+          ],
+          [
+            5.7513117,
+            46.415764
+          ],
+          [
+            5.7514234,
+            46.4154196
+          ],
+          [
+            5.7513237,
+            46.4151312
+          ],
+          [
+            5.7515999,
+            46.4149633
+          ]
+        ]
+      },
+      "id": "osm-location-lac-dantre",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: Lac d'Antre",
+        "link": "http://pleiades.stoa.org/places/177659/osm-location-lac-dantre"
       }
     }
   ]
