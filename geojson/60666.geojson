@@ -2,7 +2,11 @@
   "type": "FeatureCollection",
   "title": "Sambraceni",
   "id": "60666",
-  "description": "An ancient people whose territory is unlocated",
+  "description": "An ancient people whose territory is unlocated; Pliny placed them along the Indus river, north of Taxila.",
+  "connectsWith": [
+    "60083",
+    "638870"
+  ],
   "names": [
     "Sambraceni"
   ],
@@ -12,17 +16,6 @@
       "geometry": null,
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/60666/batlas-location"
       }
     }
   ]
