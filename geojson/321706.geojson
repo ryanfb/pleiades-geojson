@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Thammes (mountain)",
   "id": "321706",
+  "bbox": [
+    8.47938,
+    36.6761,
+    8.47938,
+    36.6761
+  ],
   "description": "A mountain, possibly Djebel Tegma.",
   "names": [
     "Thammes"
@@ -9,20 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47938,
+          36.6761
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47938,
+          36.6761
+        ]
+      },
+      "id": "geonames-location-of-jabal-tegma",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/321706/batlas-location"
+        "description": "Coordinates following GeoNames.",
+        "location_precision": "precise",
+        "title": "GeoNames location of Jabal Tegma",
+        "link": "http://pleiades.stoa.org/places/321706/geonames-location-of-jabal-tegma"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "title": "Tchonemyris",
   "id": "776228",
   "bbox": [
-    30.551462,
-    25.234759,
-    30.551462,
-    25.234759
+    30.5707787,
+    25.2511395,
+    30.5710772,
+    25.2518204
   ],
   "description": "An ancient place, cited: BAtlas 79 D3 Tchonemyris",
   "names": [
@@ -18,8 +18,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.551462,
-          25.234759
+          30.5709279571,
+          25.2514799259
         ]
       },
       "properties": {
@@ -28,19 +28,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          30.551462,
-          25.234759
+          [
+            30.5707787,
+            25.2518107
+          ],
+          [
+            30.5708082,
+            25.2511395
+          ],
+          [
+            30.5710772,
+            25.2511491
+          ],
+          [
+            30.5710477,
+            25.2518204
+          ],
+          [
+            30.5707787,
+            25.2518107
+          ]
         ]
       },
-      "id": "darmc-location-15032",
+      "id": "location-of-temple",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 15032",
-        "link": "http://pleiades.stoa.org/places/776228/darmc-location-15032"
+        "title": "OSM location of Qasr ez-Zaiyan",
+        "link": "http://pleiades.stoa.org/places/776228/location-of-temple"
       }
     }
   ]
