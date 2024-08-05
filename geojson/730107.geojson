@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Diospolis",
   "id": "730107",
+  "bbox": [
+    31.5677781,
+    31.2560278,
+    31.5784773,
+    31.2637358
+  ],
   "description": "An ancient place, cited: BAtlas 74 unlocated Diospolis",
   "names": [
     "Diospolis",
@@ -10,20 +16,130 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5726056589,
+          31.2599480279
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "undetermined",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5784773,
+            31.2596575
+          ],
+          [
+            31.5727366,
+            31.2637358
+          ],
+          [
+            31.5688549,
+            31.2629215
+          ],
+          [
+            31.568381,
+            31.2629248
+          ],
+          [
+            31.567993,
+            31.2627082
+          ],
+          [
+            31.5678676,
+            31.262398
+          ],
+          [
+            31.5677781,
+            31.2621214
+          ],
+          [
+            31.5682763,
+            31.2611004
+          ],
+          [
+            31.5681269,
+            31.2599486
+          ],
+          [
+            31.56808,
+            31.2594512
+          ],
+          [
+            31.5683951,
+            31.2591405
+          ],
+          [
+            31.5684883,
+            31.2583198
+          ],
+          [
+            31.5690085,
+            31.2577154
+          ],
+          [
+            31.5696845,
+            31.257063
+          ],
+          [
+            31.5703365,
+            31.2562412
+          ],
+          [
+            31.5707017,
+            31.2560278
+          ],
+          [
+            31.5723932,
+            31.2564678
+          ],
+          [
+            31.5745346,
+            31.2570788
+          ],
+          [
+            31.5755686,
+            31.257492
+          ],
+          [
+            31.5761244,
+            31.2577105
+          ],
+          [
+            31.5769204,
+            31.2581473
+          ],
+          [
+            31.5776836,
+            31.2588857
+          ],
+          [
+            31.5775497,
+            31.2590968
+          ],
+          [
+            31.5777654,
+            31.2593815
+          ],
+          [
+            31.5784773,
+            31.2596575
+          ]
+        ]
+      },
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/730107/undetermined"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/730107/osm-location"
       }
     }
   ]
