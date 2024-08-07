@@ -3,10 +3,10 @@
   "title": "Abu Midrik",
   "id": "785964",
   "bbox": [
-    33.698006,
-    24.825969,
-    33.698006,
-    24.825969
+    33.680621,
+    24.9194842,
+    33.680959,
+    24.9198004
   ],
   "description": "An ancient place, cited: BAtlas 80 D4 Abu Midrik",
   "features": [
@@ -15,8 +15,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.698006,
-          24.825969
+          33.680799267,
+          24.9196529509
         ]
       },
       "properties": {
@@ -25,19 +25,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          33.698006,
-          24.825969
+          [
+            33.6808034,
+            24.9198004
+          ],
+          [
+            33.680621,
+            24.9196691
+          ],
+          [
+            33.6808356,
+            24.9194842
+          ],
+          [
+            33.680959,
+            24.9197031
+          ],
+          [
+            33.6808034,
+            24.9198004
+          ]
         ]
       },
-      "id": "darmc-location-2316",
+      "id": "abu-midrik",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "DARMC location 2316",
-        "link": "http://pleiades.stoa.org/places/785964/darmc-location-2316"
+        "title": "OSM location of Abu Midrik",
+        "link": "http://pleiades.stoa.org/places/785964/abu-midrik"
       }
     }
   ]
