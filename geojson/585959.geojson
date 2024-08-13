@@ -2,30 +2,139 @@
   "type": "FeatureCollection",
   "title": "Sikelia hill",
   "id": "585959",
+  "bbox": [
+    23.7150104,
+    37.961155,
+    23.7157503,
+    37.9613401
+  ],
   "description": "An ancient place, cited: BAtlas 59 unlocated Sikelia hill",
   "connectsWith": [
     "579885"
   ],
   "names": [
-    "Sikelia hill"
+    "Sikelia hill",
+    "Sikelia"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7153658313,
+          37.9612359598
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            23.7150104,
+            37.9612127
+          ],
+          [
+            23.7150135,
+            37.9611894
+          ],
+          [
+            23.7150114,
+            37.9611726
+          ],
+          [
+            23.715044,
+            37.961159
+          ],
+          [
+            23.7150958,
+            37.961155
+          ],
+          [
+            23.7151751,
+            37.9611598
+          ],
+          [
+            23.7152452,
+            37.9611782
+          ],
+          [
+            23.7152747,
+            37.9611966
+          ],
+          [
+            23.7153285,
+            37.9612095
+          ],
+          [
+            23.7153468,
+            37.9612255
+          ],
+          [
+            23.7153814,
+            37.9612415
+          ],
+          [
+            23.7154119,
+            37.9612439
+          ],
+          [
+            23.7154434,
+            37.9612487
+          ],
+          [
+            23.7154881,
+            37.9612567
+          ],
+          [
+            23.7155054,
+            37.9612712
+          ],
+          [
+            23.7155369,
+            37.9612872
+          ],
+          [
+            23.7155715,
+            37.9612984
+          ],
+          [
+            23.7155847,
+            37.9613112
+          ],
+          [
+            23.7156233,
+            37.9613272
+          ],
+          [
+            23.7156497,
+            37.9613361
+          ],
+          [
+            23.7157016,
+            37.9613401
+          ],
+          [
+            23.7157188,
+            37.9613305
+          ],
+          [
+            23.7157503,
+            37.9613401
+          ]
+        ]
+      },
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/585959/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location",
+        "link": "http://pleiades.stoa.org/places/585959/osm-location"
       }
     }
   ]
