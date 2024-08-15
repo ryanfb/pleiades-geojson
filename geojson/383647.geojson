@@ -3,10 +3,10 @@
   "title": "Fertor (river)",
   "id": "383647",
   "bbox": [
-    8.5,
-    44.0,
-    9.0,
-    44.5
+    8.9433401,
+    44.395359,
+    8.9496405,
+    44.4068212
   ],
   "description": "An ancient place, cited: BAtlas 39 D5 Fertor fl.",
   "connectsWith": [
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.75,
-          44.25
+          8.94608918256,
+          44.4013685906
         ]
       },
       "properties": {
@@ -31,39 +31,49 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              8.5,
-              44.0
-            ],
-            [
-              8.5,
-              44.5
-            ],
-            [
-              9.0,
-              44.5
-            ],
-            [
-              9.0,
-              44.0
-            ],
-            [
-              8.5,
-              44.0
-            ]
+            8.9496405,
+            44.4068212
+          ],
+          [
+            8.948507,
+            44.4058273
+          ],
+          [
+            8.9474694,
+            44.4047572
+          ],
+          [
+            8.9471555,
+            44.4040628
+          ],
+          [
+            8.9470842,
+            44.4039035
+          ],
+          [
+            8.9462455,
+            44.4021075
+          ],
+          [
+            8.9455168,
+            44.4004584
+          ],
+          [
+            8.9433401,
+            44.395359
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "osm-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/383647/batlas-location"
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Torrente Bisagno",
+        "link": "http://pleiades.stoa.org/places/383647/osm-location"
       }
     }
   ]

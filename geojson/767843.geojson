@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Isidis (island)",
   "id": "767843",
+  "bbox": [
+    34.6519285,
+    27.9031727,
+    34.7399318,
+    27.9591285
+  ],
   "description": "An ancient island or island group, attested by literary or documentary sources, whose precise location cannot be determined today",
   "connectsWith": [
     "290587550"
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6969066694,
+          27.931939688
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "undetermined",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Undetermined location",
-        "link": "http://pleiades.stoa.org/places/767843/undetermined"
       }
     }
   ]
