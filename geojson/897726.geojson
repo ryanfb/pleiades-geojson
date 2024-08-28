@@ -2,7 +2,13 @@
   "type": "FeatureCollection",
   "title": "Balictanor",
   "id": "897726",
-  "description": "An ancient place, cited: BAtlas 91 unlocated Balictanor",
+  "bbox": [
+    44.580717,
+    33.093563,
+    44.822085,
+    33.88109
+  ],
+  "description": "An ancient place between Ctesiphon and Artemita, mentioned by the Ravenna Geographer, possibly to be identified with the Beth Nikator or Nikator known from Syriac chronicles.",
   "connectsWith": [
     "893976",
     "894020"
@@ -13,20 +19,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7016538333,
+          33.4878965
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/897726/batlas-location"
       }
     }
   ]
