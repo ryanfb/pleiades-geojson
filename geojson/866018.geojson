@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Gangara",
   "id": "866018",
+  "bbox": [
+    49.882222,
+    40.395278,
+    49.882222,
+    40.395278
+  ],
   "description": "An ancient city mentioned by Ptolemy that some have tentatively identified with modern Baku. ",
   "connectsWith": [
     "46154574"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.882222,
+          40.395278
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
