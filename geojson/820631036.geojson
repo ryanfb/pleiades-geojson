@@ -3,10 +3,10 @@
   "title": "Obelisk of Theodosius",
   "id": "820631036",
   "bbox": [
-    28.9753714,
-    41.0059058,
-    28.9753714,
-    41.0059058
+    28.9753813,
+    41.0059134,
+    28.9754189,
+    41.0059418
   ],
   "description": "The Obelisk of Theodosius is an ancient Egyptian obelisk that was originally erected by Pharaoh Thutmose III (1479–1425 BC) to the south of the seventh pylon of the great temple of Karnak. The emperor Theodosius I had the obelisk relocated to Constantinople after AD 390 and it was subsequently re-erected on a newly commissioned sculpted base on the spina of the city's hippodrome.",
   "connectsWith": [
@@ -19,8 +19,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.9753714,
-          41.0059058
+          28.975400087,
+          41.0059275864
         ]
       },
       "properties": {
@@ -29,19 +29,37 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          28.9753714,
-          41.0059058
+          [
+            28.9753976,
+            41.0059418
+          ],
+          [
+            28.9754189,
+            41.0059293
+          ],
+          [
+            28.9754025,
+            41.0059134
+          ],
+          [
+            28.9753813,
+            41.0059258
+          ],
+          [
+            28.9753976,
+            41.0059418
+          ]
         ]
       },
-      "id": "location-of-obelisk-of-theodosius",
+      "id": "osm-location-obelisk-of-theodosius",
       "type": "Feature",
       "properties": {
-        "description": "Location based on OpenStreetMap",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Obelisk of Theodosius",
-        "link": "http://pleiades.stoa.org/places/820631036/location-of-obelisk-of-theodosius"
+        "title": "OSM location: Obelisk of Theodosius",
+        "link": "http://pleiades.stoa.org/places/820631036/osm-location-obelisk-of-theodosius"
       }
     }
   ]
