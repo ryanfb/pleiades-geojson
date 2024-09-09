@@ -3,10 +3,10 @@
   "title": "Allobroges",
   "id": "167634",
   "bbox": [
-    4.5982055,
-    43.330833,
-    8.3836862,
-    46.5789755
+    5.41438733805,
+    45.5437816534,
+    6.37806904541,
+    45.9221159533
   ],
   "description": "The Allobroges were an ancient Gallic tribe whose territory lay between the between the Rhodanus fl. (Rhône River) and Lemannus L. (Lake Geneva).",
   "connectsWith": [
@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.09349424061,
-          45.7623621172
+          5.8905821524,
+          45.7465019892
         ]
       },
       "properties": {
@@ -32,39 +32,59 @@
     },
     {
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [
-              5.0,
-              45.0
+              5.414387338049607,
+              45.54378165337909
             ],
             [
-              5.0,
-              45.5
+              5.535739849346952,
+              45.60802710053651
             ],
             [
-              5.5,
-              45.5
+              5.619615849802471,
+              45.64550361137834
             ],
             [
-              5.5,
-              45.0
+              5.717768616292971,
+              45.690118505237656
             ],
             [
-              5.0,
-              45.0
+              5.817705978537844,
+              45.722241228816365
+            ],
+            [
+              5.915858745028344,
+              45.76328693116694
+            ],
+            [
+              6.026503681799453,
+              45.80433263351751
+            ],
+            [
+              6.13536402281619,
+              45.84180914435934
+            ],
+            [
+              6.229947597797945,
+              45.8703626764293
+            ],
+            [
+              6.378069045410881,
+              45.92211595330611
             ]
           ]
         ]
       },
-      "id": "batlas-location",
+      "id": "batlas-map-label-location",
       "type": "Feature",
       "properties": {
-        "description": null,
-        "location_precision": "rough",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/167634/batlas-location"
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location",
+        "link": "http://pleiades.stoa.org/places/167634/batlas-map-label-location"
       }
     }
   ]
