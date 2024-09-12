@@ -1,16 +1,19 @@
 {
   "type": "FeatureCollection",
-  "title": "Apollonas",
+  "title": "Apollonas (quarry)",
   "id": "599508",
   "bbox": [
-    25.541847,
-    37.18368,
-    25.541847,
-    37.18368
+    25.548067,
+    37.1790288,
+    25.54834,
+    37.1791842
   ],
-  "description": "An ancient place, cited: BAtlas 61 B3 Apollonas",
+  "description": "An ancient marble quarry on the island of Naxos, exploited during the archaic and classical periods, that is located on high ground immediately south and west of the modern beach village of Apollonas. The quarry is famous not least for the presence of an unfinished statue, over 10 meters in height, often referred to as the \"Apollonas Kouros\".",
   "connectsWith": [
     "599822"
+  ],
+  "names": [
+    "Apollonas"
   ],
   "features": [
     {
@@ -18,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.541847,
-          37.18368
+          25.5482527348,
+          37.1791035868
         ]
       },
       "properties": {
@@ -30,17 +33,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.541847,
-          37.18368
+          25.54834,
+          37.1791
         ]
       },
-      "id": "darmc-location-9170",
+      "id": "cfl-ago-location-ancient-quarry",
       "type": "Feature",
       "properties": {
-        "description": "500K scale point location",
+        "description": "The Ancient Quarry (East to the modern settlement)",
         "location_precision": "precise",
-        "title": "DARMC location 9170",
-        "link": "http://pleiades.stoa.org/places/599508/darmc-location-9170"
+        "title": "CFL/AGO Location of ancient quarry",
+        "link": "http://pleiades.stoa.org/places/599508/cfl-ago-location-ancient-quarry"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.5482388,
+            37.1791507
+          ],
+          [
+            25.5482581,
+            37.1790635
+          ],
+          [
+            25.5481616,
+            37.1790288
+          ],
+          [
+            25.548067,
+            37.1790859
+          ],
+          [
+            25.5480845,
+            37.1791565
+          ],
+          [
+            25.5482085,
+            37.1791842
+          ],
+          [
+            25.5482388,
+            37.1791507
+          ]
+        ]
+      },
+      "id": "osm-location-iiii-iioi-i-i-ii-i1-4iui-i-i1-4i-ii1",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap. Dates after BAtlas",
+        "location_precision": "precise",
+        "title": "OSM Location: Αρχαϊκό λατομείο μαρμάρου",
+        "link": "http://pleiades.stoa.org/places/599508/osm-location-iiii-iioi-i-i-ii-i1-4iui-i-i1-4i-ii1"
       }
     }
   ]

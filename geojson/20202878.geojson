@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "ad Capita bubula",
   "id": "20202878",
+  "bbox": [
+    12.4871093,
+    41.8893064,
+    12.4871093,
+    41.8893064
+  ],
   "description": "The toponym \"ad Capita bubula\" is attested in Suetonius and refers to a place located at the northeast corner of the Palatine Hill in Rome near the Curiae Veteres. Here there was a domus of one Caius Octavius, a Roman politician who was the biological father of Octavian. It is possible that Octavian was born in this domus and the sources suggest that the location was later commemorated with the construction of a shrine (sacrarium) and, eventually, a temple.",
   "connectsWith": [
     "423025",
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4871093,
+          41.8893064
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
