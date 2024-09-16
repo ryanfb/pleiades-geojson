@@ -4,9 +4,9 @@
   "id": "540795",
   "bbox": [
     22.978826,
-    39.352488,
-    23.010565,
-    39.353763
+    39.353763,
+    22.9809043,
+    39.3562651
   ],
   "description": "An ancient place, cited: BAtlas 55 D2 Goritsa",
   "features": [
@@ -15,29 +15,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.9946955,
-          39.3531255
+          22.9797331534,
+          39.3549415091
         ]
       },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.010565,
-          39.352488
-        ]
-      },
-      "id": "darmc-location-12584",
-      "type": "Feature",
-      "properties": {
-        "description": "500K scale point location",
-        "location_precision": "precise",
-        "title": "DARMC location 12584",
-        "link": "http://pleiades.stoa.org/places/540795/darmc-location-12584"
       }
     },
     {
@@ -55,6 +38,49 @@
         "location_precision": "precise",
         "title": "DARE Location",
         "link": "http://pleiades.stoa.org/places/540795/dare-location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.9804022,
+            39.3562321
+          ],
+          [
+            22.9803698,
+            39.3560972
+          ],
+          [
+            22.9807567,
+            39.3559352
+          ],
+          [
+            22.9809043,
+            39.3560938
+          ],
+          [
+            22.9808699,
+            39.3562042
+          ],
+          [
+            22.9805548,
+            39.3562651
+          ],
+          [
+            22.9804022,
+            39.3562321
+          ]
+        ]
+      },
+      "id": "osm-location-of-goritsa-archaeological-site",
+      "type": "Feature",
+      "properties": {
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Goritsa archaeological site",
+        "link": "http://pleiades.stoa.org/places/540795/osm-location-of-goritsa-archaeological-site"
       }
     }
   ]
