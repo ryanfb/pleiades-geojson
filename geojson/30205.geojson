@@ -2,30 +2,49 @@
   "type": "FeatureCollection",
   "title": "Alexandria in Carmania",
   "id": "30205",
-  "description": "A now unlocated city that was founded by Alexander the Great, perhaps in 324 B.C.",
+  "bbox": [
+    57.15222,
+    27.96833,
+    57.15222,
+    27.96833
+  ],
+  "description": "A city founded by Alexander the Great, perhaps in 324 B.C., which might be identical with the later Gulashkird/Golashkerd/Valashgird in Kerman Province of Iran.",
   "connectsWith": [
     "29517"
   ],
   "names": [
-    "Alexandria in Carmania"
+    "Alexandria in Carmania",
+    "Alexandria"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.15222,
+          27.96833
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
     },
     {
-      "geometry": null,
-      "id": "batlas-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.15222,
+          27.96833
+        ]
+      },
+      "id": "geonames-galashgerd",
       "type": "Feature",
       "properties": {
         "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/30205/batlas-location"
+        "location_precision": "precise",
+        "title": "Geonames: Galāshgerd",
+        "link": "http://pleiades.stoa.org/places/30205/geonames-galashgerd"
       }
     }
   ]

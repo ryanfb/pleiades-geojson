@@ -2,27 +2,31 @@
   "type": "FeatureCollection",
   "title": "Maitona",
   "id": "930210",
-  "description": "An ancient place, cited: BAtlas 94 unlocated Maitona",
+  "bbox": [
+    51.5610651685,
+    29.8489639347,
+    53.4218036751,
+    30.3676864339
+  ],
+  "description": "A city in Persis, known from literary sources, possibly on the road from Artemita to Persepolis.",
+  "connectsWith": [
+    "922698"
+  ],
   "names": [
     "Maitona"
   ],
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5401983113,
+          30.0932709192
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/930210/batlas-location"
       }
     }
   ]
