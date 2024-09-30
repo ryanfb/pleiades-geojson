@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Lycian League",
   "id": "68843864",
+  "bbox": [
+    29.1917846216,
+    36.4945994363,
+    29.9359610511,
+    36.7051817353
+  ],
   "description": "Perhaps formed to protest the annexation of Lycia by Rhodes, by 168–7 BCE the league appears to have gained quasi-autonomy under the domination of Rome. Although the league was a party to a treaty with Iulius Caesar in 46 BCE, by 43 CE the region was annexed by Claudius into the province of Lycia; the league survived and had authority over some local customs and legal matters.",
   "connectsWith": [
     "638965"
@@ -9,7 +15,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5708863694,
+          36.6162227053
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
