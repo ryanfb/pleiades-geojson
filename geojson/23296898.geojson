@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Hellenopolis",
   "id": "23296898",
+  "bbox": [
+    27.2055239077,
+    39.5428952773,
+    32.1437418041,
+    41.0783134687
+  ],
   "description": "Likely founded by Attalos II, Hellenopolis was initially populated by an amalgamation of citizens from several nearby Greek cities, and was located somewhere near the Mysia-Bithynia border.",
   "connectsWith": [
     "550759",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3079013581,
+          40.1190592496
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
