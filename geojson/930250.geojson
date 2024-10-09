@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Tanagra",
   "id": "930250",
+  "bbox": [
+    51.5610651685,
+    29.8489639347,
+    53.4218036751,
+    30.3676864339
+  ],
   "description": "An unlocated place in Persis, Tanagra should not be confused with the similarly named site in Boeotia.",
   "connectsWith": [
     "922698",
@@ -13,7 +19,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5401983113,
+          30.0932709192
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
