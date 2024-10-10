@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Wadi el-Hol",
   "id": "313840750",
+  "bbox": [
+    32.444,
+    25.93,
+    32.444,
+    25.93
+  ],
   "description": "Site in the Qena Bend of the Nile, approximately halfway between Luxor and Hou, containing hundreds of rock inscriptions. Most of the inscriptions are dated to the late Middle Kingdom through the early New Kingdom periods.",
   "names": [
     "Wadi el-Hol"
@@ -9,9 +15,32 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.444,
+          25.93
+        ]
+      },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.444,
+          25.93
+        ]
+      },
+      "id": "approximate-location-of-wadi-el-hol-site",
+      "type": "Feature",
+      "properties": {
+        "description": "Point representing the approximate location of the Wadi el-Hol site, after a map by the West Semitic Research Project.",
+        "location_precision": "precise",
+        "title": "Approximate map location of Wadi el-Hol site",
+        "link": "http://pleiades.stoa.org/places/313840750/approximate-location-of-wadi-el-hol-site"
       }
     }
   ]
