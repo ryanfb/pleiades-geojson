@@ -3,13 +3,17 @@
   "title": "Marpessos",
   "id": "550723",
   "bbox": [
-    26.520832,
+    26.4955707,
     39.87918,
     26.520832,
-    39.87918
+    39.897
   ],
-  "description": "An ancient place, cited: BAtlas 56 D2 Marpessos",
+  "description": "An ancient settlement in the Troad, located in the vicinity of modern Zerdalılık in the Turkish province of Canakkale.",
+  "connectsWith": [
+    "550944"
+  ],
   "names": [
+    "Zerdalılık",
     "Marpessos"
   ],
   "features": [
@@ -18,12 +22,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.520832,
-          39.87918
+          26.5091342333,
+          39.888752
         ]
       },
       "properties": {
         "description": "representative point"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4955707,
+          39.890076
+        ]
+      },
+      "id": "osm-location-modern-zerdala-la-k",
+      "type": "Feature",
+      "properties": {
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location: modern Zerdalılık",
+        "link": "http://pleiades.stoa.org/places/550723/osm-location-modern-zerdala-la-k"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.511,
+          39.897
+        ]
+      },
+      "id": "topostext-location-marpessos",
+      "type": "Feature",
+      "properties": {
+        "description": null,
+        "location_precision": "precise",
+        "title": "ToposText Location: Marpessos",
+        "link": "http://pleiades.stoa.org/places/550723/topostext-location-marpessos"
       }
     },
     {
