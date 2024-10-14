@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Akidas/Iardanos (river)",
   "id": "573064",
+  "bbox": [
+    21.596223,
+    37.525886,
+    21.596223,
+    37.525886
+  ],
   "description": "Pausanias describes an Akidas river near Samicum (Triyphylia) in Elis and makes it a tributary of the Anigros. He tentatively reports testimony that its prior name was \"Iardanos\". The precise location of the river cannot be determined today. An Iardanos is also mentioned in the Iliad, and the same river may be meant.",
   "connectsWith": [
     "570653",
@@ -14,7 +20,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.596223,
+          37.525886
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

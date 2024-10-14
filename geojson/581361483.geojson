@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Aedes Ceres Liber Liberaque",
   "id": "581361483",
+  "bbox": [
+    12.483333,
+    41.883333,
+    12.483333,
+    41.883333
+  ],
   "description": "The Temple of Ceres on the slope of the Aventine Hill in Rome was originally dedicated by Sp. Cassius in 493 B.C.",
   "connectsWith": [
     "865014139",
@@ -10,7 +16,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.883333
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
