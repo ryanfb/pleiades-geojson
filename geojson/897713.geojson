@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Apphadana",
   "id": "897713",
+  "bbox": [
+    48.1651139,
+    29.9155875,
+    48.7018604,
+    30.4338334
+  ],
   "description": "An ancient island mentioned by Ptolemy. BAtlDir chose not to place it on a map. EncIran considers the possibility that the name may be related to \"Abadan\", a name for an island and settlement at the head of the Persian Gulf that first appears in literature in the 9th century CE.",
   "connectsWith": [
     "996415846"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.4589364662,
+          30.1580322506
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
