@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Castellum Agrippa",
   "id": "240887",
+  "bbox": [
+    -8.427013,
+    41.55001,
+    -8.422933,
+    41.55174
+  ],
   "description": "An ancient place, cited: BAtlas 24 unlocated Castellum Agrippa",
   "connectsWith": [
     "236377"
@@ -12,20 +18,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.424973,
+          41.550875
+        ]
+      },
       "properties": {
         "description": "representative point"
-      }
-    },
-    {
-      "geometry": null,
-      "id": "batlas-location",
-      "type": "Feature",
-      "properties": {
-        "description": null,
-        "location_precision": "unlocated",
-        "title": "Barrington Atlas location",
-        "link": "http://pleiades.stoa.org/places/240887/batlas-location"
       }
     }
   ]
