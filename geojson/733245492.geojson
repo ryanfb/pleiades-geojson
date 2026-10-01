@@ -3,20 +3,23 @@
   "title": "A Ponte da Xira",
   "id": "733245492",
   "bbox": [
-    -8.3669636,
-    43.2927415,
-    -8.3669636,
-    43.2927415
+    -8.3670618,
+    43.292659,
+    -8.3669242,
+    43.2927737
   ],
   "description": "A Roman bridge in the northwestern Iberian peninsula that crosses the río Valiñas.",
+  "names": [
+    "A Ponte da Xira"
+  ],
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.3669636,
-          43.2927415
+          -8.366993,
+          43.29271635
         ]
       },
       "properties": {
@@ -25,19 +28,25 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -8.3669636,
-          43.2927415
+          [
+            -8.3669242,
+            43.292659
+          ],
+          [
+            -8.3670618,
+            43.2927737
+          ]
         ]
       },
-      "id": "osm-location",
+      "id": "osm-location-ponte-da-xira",
       "type": "Feature",
       "properties": {
-        "description": "Representative location based on OpenStreetMap.",
+        "description": "Representative location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of Ponte Romana",
-        "link": "http://pleiades.stoa.org/places/733245492/osm-location"
+        "title": "OSM location: Ponte da Xira",
+        "link": "http://pleiades.stoa.org/places/733245492/osm-location-ponte-da-xira"
       }
     }
   ]
