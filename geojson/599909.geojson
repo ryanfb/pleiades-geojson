@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
-  "title": "Psaropyrgos",
+  "title": "Psaropyrgos (Ios)",
   "id": "599909",
   "bbox": [
     25.308007,
-    36.7835967,
-    25.3104682,
+    36.7835376,
+    25.3104889,
     36.787045
   ],
   "description": "An ancient temple of Poseidon, known today as the \"Tomb of Homer\", located on a height at the northern end of the Aegean island of Ios. Some funerary epigraphy has also been noted at the site.",
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.3092376,
-          36.78532085
+          25.3092238675,
+          36.785311419
         ]
       },
       "properties": {
@@ -40,7 +40,7 @@
       "id": "darmc-location-23459",
       "type": "Feature",
       "properties": {
-        "description": "Point location",
+        "description": "Representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
         "location_precision": "precise",
         "title": "DARMC location 23459",
         "link": "http://pleiades.stoa.org/places/599909/darmc-location-23459"
@@ -48,19 +48,57 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          25.3104682,
-          36.7835967
+          [
+            25.3104889,
+            36.7835722
+          ],
+          [
+            25.3104591,
+            36.7835466
+          ],
+          [
+            25.3104466,
+            36.7835376
+          ],
+          [
+            25.3104328,
+            36.7835393
+          ],
+          [
+            25.310424,
+            36.7835483
+          ],
+          [
+            25.3104274,
+            36.7835603
+          ],
+          [
+            25.3104316,
+            36.7835646
+          ],
+          [
+            25.3103958,
+            36.7835937
+          ],
+          [
+            25.3104281,
+            36.7836195
+          ],
+          [
+            25.3104889,
+            36.7835722
+          ]
         ]
       },
-      "id": "osm-location-of-so-called-tomb-of-homer",
+      "id": "osm-location-tomb-of-homer",
       "type": "Feature",
       "properties": {
-        "description": "Representative location based on OpenStreetMap",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "OSM location of so-called Tomb of Homer",
-        "link": "http://pleiades.stoa.org/places/599909/osm-location-of-so-called-tomb-of-homer"
+        "title": "OSM location: Tomb of Homer",
+        "link": "http://pleiades.stoa.org/places/599909/osm-location-tomb-of-homer"
       }
     }
   ]
