@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Olenia Petra",
   "id": "573404",
+  "bbox": [
+    21.577,
+    37.968,
+    21.57947,
+    37.96864
+  ],
   "description": "An ancient mountain or outcrop in Elis mentioned by Homer, Pausanias, and others. Strabo tentatively identifies it with mount Skollis (modern Santomeri).",
   "connectsWith": [
     "570676"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.578235,
+          37.96832
+        ]
+      },
       "properties": {
         "description": "representative point"
       }

@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Ager Veientanus",
   "id": "222169303",
+  "bbox": [
+    12.390519,
+    42.021338,
+    12.390519,
+    42.021338
+  ],
   "description": "The territory of the Etruscan, and later Roman, city of Veii in South Etruria.",
   "connectsWith": [
     "774612717"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.390519,
+          42.021338
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
