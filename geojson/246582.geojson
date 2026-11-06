@@ -3,10 +3,10 @@
   "title": "Pyrenaei (mountains)",
   "id": "246582",
   "bbox": [
-    1.0,
-    42.67,
-    1.0,
-    42.67
+    -1.6202273,
+    42.3833859,
+    2.4590274,
+    43.3174201
   ],
   "description": "The Pyrenees Mountains separate the Iberian Peninsula from the rest of continental Europe. The mountain ranges extends from the Bay of Biscay to Cap de Creus, for an extent of 491 km (305 miles).",
   "connectsWith": [
@@ -26,8 +26,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          42.67
+          0.425313611323,
+          42.7599890774
         ]
       },
       "properties": {
@@ -36,19 +36,57 @@
     },
     {
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          1,
-          42.67
+          [
+            2.4590274,
+            42.5187245
+          ],
+          [
+            2.1384709,
+            42.3833859
+          ],
+          [
+            1.9530766,
+            42.5712718
+          ],
+          [
+            1.4463316,
+            42.6655086
+          ],
+          [
+            0.7061277,
+            42.6301551
+          ],
+          [
+            0.480908,
+            42.6564196
+          ],
+          [
+            -0.1054873,
+            42.7754806
+          ],
+          [
+            -0.3801455,
+            42.8419745
+          ],
+          [
+            -0.9802737,
+            42.9857992
+          ],
+          [
+            -1.6202273,
+            43.3174201
+          ]
         ]
       },
-      "id": "representative-location-of-pyrenaei-m",
+      "id": "osm-location-of-pyrenees",
       "type": "Feature",
       "properties": {
-        "description": "coordinates after GeoHack, verified in Google Earth.",
+        "description": "Location based on OpenStreetMap",
         "location_precision": "precise",
-        "title": "representative location of Pyrenaei M.",
-        "link": "http://pleiades.stoa.org/places/246582/representative-location-of-pyrenaei-m"
+        "title": "OSM location of Pyrenees",
+        "link": "http://pleiades.stoa.org/places/246582/osm-location-of-pyrenees"
       }
     }
   ]
