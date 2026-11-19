@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Uqaya",
   "id": "62447763",
+  "bbox": [
+    41.9875,
+    34.372222,
+    41.9875,
+    34.372222
+  ],
   "description": "This unlocated land/region is presumably near the kingdom of Suhu, in the middle Euphrates region.",
   "connectsWith": [
     "247838452"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.9875,
+          34.372222
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
