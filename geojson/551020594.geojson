@@ -2,6 +2,12 @@
   "type": "FeatureCollection",
   "title": "Ešuzianna",
   "id": "551020594",
+  "bbox": [
+    41.9794,
+    34.4678,
+    41.9794,
+    34.4678
+  ],
   "description": "The temple of the goddess Anat at Anat (Anatho). The Sumerian ceremonial name Ešuzianna means \"House, True Hand of Heaven.\"",
   "connectsWith": [
     "893936"
@@ -12,7 +18,13 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.9794,
+          34.4678
+        ]
+      },
       "properties": {
         "description": "representative point"
       }
